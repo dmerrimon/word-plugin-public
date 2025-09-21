@@ -12,9 +12,12 @@ interface RiskFinding {
 export interface RiskSidebarProps {
   findings: RiskFinding[];
   isAnalyzing: boolean;
+  onApplyFix?: (finding: RiskFinding) => Promise<void>;
 }
 
-export const RiskSidebar: React.FC<RiskSidebarProps> = ({ findings, isAnalyzing }) => {
+export const RiskSidebar: React.FC<RiskSidebarProps> = ({ findings, isAnalyzing, onApplyFix }) => {
+  const [applyingFixes, setApplyingFixes] = React.useState<Set<string>>(new Set());
+
   const getRiskColor = (score: number) => {
     if (score >= 85) return "#dc3545"; // Critical risk - red
     if (score >= 70) return "#fd7e14"; // High risk - orange  
@@ -36,12 +39,28 @@ export const RiskSidebar: React.FC<RiskSidebarProps> = ({ findings, isAnalyzing 
     return "✅"; // Low
   };
 
+  const getConfidenceLevel = (score: number) => {
+    if (score >= 90) return "Very High";
+    if (score >= 80) return "High";
+    if (score >= 70) return "Medium";
+    if (score >= 60) return "Low";
+    return "Very Low";
+  };
+
+  const getConfidenceColor = (score: number) => {
+    if (score >= 90) return "#22c55e"; // Green
+    if (score >= 80) return "#84cc16"; // Light green
+    if (score >= 70) return "#eab308"; // Yellow
+    if (score >= 60) return "#f97316"; // Orange
+    return "#ef4444"; // Red
+  };
+
   const getCategoryIcon = (phrase: string) => {
     const lowerPhrase = phrase.toLowerCase();
-    if (lowerPhrase.includes('lab') || lowerPhrase.includes('value') || lowerPhrase.includes('range') || lowerPhrase.includes('test')) return '🔬';
-    if (lowerPhrase.includes('visit') || lowerPhrase.includes('day') || lowerPhrase.includes('week') || lowerPhrase.includes('schedule')) return '📅';
-    if (lowerPhrase.includes('dose') || lowerPhrase.includes('mg') || lowerPhrase.includes('treatment') || lowerPhrase.includes('drug')) return '💊';
-    if (lowerPhrase.includes('inclusion') || lowerPhrase.includes('exclusion') || lowerPhrase.includes('eligibility') || lowerPhrase.includes('criteria')) return '📋';
+    if (lowerPhrase.includes('lab') || lowerPhrase.includes('value') || lowerPhrase.includes('range') || lowerPhrase.includes('test') || lowerPhrase.includes('renal') || lowerPhrase.includes('function')) return '🔬';
+    if (lowerPhrase.includes('visit') || lowerPhrase.includes('day') || lowerPhrase.includes('week') || lowerPhrase.includes('schedule') || lowerPhrase.includes('hour') || lowerPhrase.includes('consecutive')) return '📅';
+    if (lowerPhrase.includes('dose') || lowerPhrase.includes('mg') || lowerPhrase.includes('treatment') || lowerPhrase.includes('drug') || lowerPhrase.includes('antimicrobial') || lowerPhrase.includes('therapy')) return '💊';
+    if (lowerPhrase.includes('inclusion') || lowerPhrase.includes('exclusion') || lowerPhrase.includes('eligibility') || lowerPhrase.includes('criteria') || lowerPhrase.includes('documented') || lowerPhrase.includes('proven')) return '📋';
     if (lowerPhrase.includes('infection') || lowerPhrase.includes('pathogen') || lowerPhrase.includes('antimicrobial') || lowerPhrase.includes('resistance')) return '🦠';
     return '📝';
   };
@@ -54,36 +73,22 @@ export const RiskSidebar: React.FC<RiskSidebarProps> = ({ findings, isAnalyzing 
     low: findings.filter(f => f.risk_score < 50)
   };
 
-  const applySuggestion = async (finding: RiskFinding) => {
-    // Check if Word APIs are available
-    if (typeof Word === 'undefined') {
-      // Browser mode - show demo message
-      alert(`Demo: Would replace "${finding.phrase}" with "${finding.fix}"`);
-      return;
-    }
-
+  const handleApplyFix = async (finding: RiskFinding) => {
+    if (!onApplyFix) return;
+    
+    const fixKey = `${finding.phrase}-${finding.risk_score}`;
+    setApplyingFixes(prev => new Set([...prev, fixKey]));
+    
     try {
-      await Word.run(async (context) => {
-        // Find and replace the problematic phrase
-        const results = context.document.body.search(finding.phrase, {
-          matchCase: false,
-          matchWholeWord: false
-        });
-        
-        results.load("text");
-        await context.sync();
-        
-        if (results.items.length > 0) {
-          // Replace the first occurrence
-          results.items[0].insertText(finding.fix, Word.InsertLocation.replace);
-          await context.sync();
-          
-          // Show success message
-          console.log(`Replaced "${finding.phrase}" with "${finding.fix}"`);
-        }
-      });
+      await onApplyFix(finding);
     } catch (error) {
-      console.error("Error applying suggestion:", error);
+      console.error("Error applying fix:", error);
+    } finally {
+      setApplyingFixes(prev => {
+        const newSet = new Set(prev);
+        newSet.delete(fixKey);
+        return newSet;
+      });
     }
   };
 
@@ -101,6 +106,9 @@ export const RiskSidebar: React.FC<RiskSidebarProps> = ({ findings, isAnalyzing 
         <div style={{ fontSize: "24px" }}>⏳</div>
         <p style={{ fontSize: "12px", color: "#605e5c", margin: 0 }}>
           Analyzing protocol text...
+        </p>
+        <p style={{ fontSize: "10px", color: "#8a8886", margin: 0 }}>
+          Scanning for amendment risks
         </p>
       </div>
     );
@@ -126,114 +134,102 @@ export const RiskSidebar: React.FC<RiskSidebarProps> = ({ findings, isAnalyzing 
           {groupName.toUpperCase()} RISK ({groupFindings.length})
         </div>
         
-        {groupFindings.map((finding, index) => (
-          <div
-            key={`${groupName}-${index}`}
-            style={{
-              margin: "0",
-              padding: "12px",
-              border: `2px solid ${groupColor}`,
-              borderTop: "none",
-              borderRadius: index === groupFindings.length - 1 ? "0 0 6px 6px" : "0",
-              backgroundColor: "white",
-              boxShadow: "0 1px 3px rgba(0,0,0,0.1)"
-            }}
-          >
-            {/* Risk Header with Category */}
-            <div style={{ 
-              display: "flex", 
-              justifyContent: "space-between", 
-              alignItems: "center",
-              marginBottom: "10px"
-            }}>
-              <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                <span style={{ fontSize: "16px" }}>{getCategoryIcon(finding.phrase)}</span>
-                <span
-                  style={{
-                    padding: "3px 8px",
+        {groupFindings.map((finding, index) => {
+          const fixKey = `${finding.phrase}-${finding.risk_score}`;
+          const isApplying = applyingFixes.has(fixKey);
+          
+          return (
+            <div
+              key={`${groupName}-${index}`}
+              style={{
+                margin: "0",
+                padding: "12px",
+                border: `2px solid ${groupColor}`,
+                borderTop: "none",
+                borderRadius: index === groupFindings.length - 1 ? "0 0 6px 6px" : "0",
+                backgroundColor: "white",
+                boxShadow: "0 1px 3px rgba(0,0,0,0.1)"
+              }}
+            >
+              {/* Risk Header with Category and Confidence */}
+              <div style={{ 
+                display: "flex", 
+                justifyContent: "space-between", 
+                alignItems: "center",
+                marginBottom: "10px"
+              }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                  <span style={{ fontSize: "16px" }}>{getCategoryIcon(finding.phrase)}</span>
+                  <span
+                    style={{
+                      padding: "3px 8px",
+                      fontSize: "10px",
+                      fontWeight: "bold",
+                      color: "white",
+                      backgroundColor: getRiskColor(finding.risk_score),
+                      borderRadius: "12px",
+                      textTransform: "uppercase"
+                    }}
+                  >
+                    {getRiskLevel(finding.risk_score)}
+                  </span>
+                </div>
+                <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                  <span style={{ fontSize: "14px" }}>{getRiskIcon(finding.risk_score)}</span>
+                  <span style={{ 
+                    fontSize: "14px", 
+                    fontWeight: "bold",
+                    color: getRiskColor(finding.risk_score)
+                  }}>
+                    {finding.risk_score}%
+                  </span>
+                </div>
+              </div>
+
+              {/* Confidence Score */}
+              <div style={{ marginBottom: "10px" }}>
+                <div style={{ 
+                  display: "flex", 
+                  alignItems: "center", 
+                  gap: "8px",
+                  marginBottom: "4px"
+                }}>
+                  <h4 style={{ 
+                    margin: 0, 
+                    fontSize: "11px", 
+                    fontWeight: "600",
+                    color: "#4a5568"
+                  }}>
+                    🎯 Confidence Score:
+                  </h4>
+                  <span style={{
+                    padding: "2px 6px",
                     fontSize: "10px",
                     fontWeight: "bold",
                     color: "white",
-                    backgroundColor: getRiskColor(finding.risk_score),
-                    borderRadius: "12px",
-                    textTransform: "uppercase"
-                  }}
-                >
-                  {getRiskLevel(finding.risk_score)}
-                </span>
-              </div>
-              <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                <span style={{ fontSize: "14px" }}>{getRiskIcon(finding.risk_score)}</span>
-                <span style={{ 
-                  fontSize: "14px", 
-                  fontWeight: "bold",
-                  color: getRiskColor(finding.risk_score)
+                    backgroundColor: getConfidenceColor(finding.risk_score),
+                    borderRadius: "8px"
+                  }}>
+                    {getConfidenceLevel(finding.risk_score)}
+                  </span>
+                </div>
+                <div style={{
+                  width: "100%",
+                  height: "4px",
+                  backgroundColor: "#e2e8f0",
+                  borderRadius: "2px",
+                  overflow: "hidden"
                 }}>
-                  {finding.risk_score}%
-                </span>
+                  <div style={{
+                    width: `${finding.risk_score}%`,
+                    height: "100%",
+                    backgroundColor: getConfidenceColor(finding.risk_score),
+                    transition: "width 0.3s ease"
+                  }} />
+                </div>
               </div>
-            </div>
 
-            {/* Problematic Phrase */}
-            <div style={{ marginBottom: "10px" }}>
-              <h4 style={{ 
-                margin: "0 0 6px 0", 
-                fontSize: "12px", 
-                fontWeight: "700",
-                color: "#2d5aa0",
-                display: "flex",
-                alignItems: "center",
-                gap: "4px"
-              }}>
-                <span>🎯</span>
-                High-Risk Protocol Language:
-              </h4>
-              <p style={{ 
-                margin: 0, 
-                fontSize: "11px", 
-                padding: "8px 10px",
-                backgroundColor: "#fff5f5",
-                border: "2px solid #fed7d7",
-                borderRadius: "6px",
-                fontFamily: "monospace",
-                color: "#c53030",
-                fontWeight: "600"
-              }}>
-                "{finding.phrase}"
-              </p>
-            </div>
-
-            {/* Suggested Fix */}
-            <div style={{ marginBottom: "10px" }}>
-              <h4 style={{ 
-                margin: "0 0 6px 0", 
-                fontSize: "12px", 
-                fontWeight: "700",
-                color: "#2d5aa0",
-                display: "flex",
-                alignItems: "center",
-                gap: "4px"
-              }}>
-                <span>🔧</span>
-                Recommended Clinical Language:
-              </h4>
-              <p style={{ 
-                margin: 0, 
-                fontSize: "11px",
-                padding: "8px 10px",
-                backgroundColor: "#f0fff4",
-                border: "2px solid #9ae6b4",
-                borderRadius: "6px",
-                fontFamily: "monospace",
-                color: "#22543d",
-                fontWeight: "600"
-              }}>
-                "{finding.fix}"
-              </p>
-            </div>
-
-            {/* Clinical Rationale */}
-            {finding.reason && (
+              {/* Problematic Phrase */}
               <div style={{ marginBottom: "10px" }}>
                 <h4 style={{ 
                   margin: "0 0 6px 0", 
@@ -244,77 +240,149 @@ export const RiskSidebar: React.FC<RiskSidebarProps> = ({ findings, isAnalyzing 
                   alignItems: "center",
                   gap: "4px"
                 }}>
-                  <span>🩺</span>
-                  Clinical Impact:
+                  <span>🎯</span>
+                  High-Risk Protocol Language:
                 </h4>
                 <p style={{ 
                   margin: 0, 
-                  fontSize: "11px",
-                  color: "#4a5568",
-                  lineHeight: "1.5",
-                  padding: "6px 8px",
-                  backgroundColor: "#f7fafc",
-                  borderLeft: "4px solid #2d5aa0",
-                  borderRadius: "0 4px 4px 0"
+                  fontSize: "11px", 
+                  padding: "8px 10px",
+                  backgroundColor: "#fff5f5",
+                  border: "2px solid #fed7d7",
+                  borderRadius: "6px",
+                  fontFamily: "monospace",
+                  color: "#c53030",
+                  fontWeight: "600"
                 }}>
-                  {finding.reason}
+                  "{finding.phrase}"
                 </p>
               </div>
-            )}
 
-            {/* Evidence */}
-            {finding.evidence && (
+              {/* Suggested Fix */}
               <div style={{ marginBottom: "10px" }}>
-                <p style={{ 
-                  margin: 0, 
-                  fontSize: "10px",
-                  color: "#6b7280",
-                  fontStyle: "italic",
+                <h4 style={{ 
+                  margin: "0 0 6px 0", 
+                  fontSize: "12px", 
+                  fontWeight: "700",
+                  color: "#2d5aa0",
                   display: "flex",
                   alignItems: "center",
                   gap: "4px"
                 }}>
-                  <span>📚</span>
-                  {finding.evidence}
+                  <span>🔧</span>
+                  Recommended Clinical Language:
+                </h4>
+                <p style={{ 
+                  margin: 0, 
+                  fontSize: "11px",
+                  padding: "8px 10px",
+                  backgroundColor: "#f0fff4",
+                  border: "2px solid #9ae6b4",
+                  borderRadius: "6px",
+                  fontFamily: "monospace",
+                  color: "#22543d",
+                  fontWeight: "600"
+                }}>
+                  "{finding.fix}"
                 </p>
               </div>
-            )}
 
-            {/* Action Button */}
-            <button
-              onClick={() => applySuggestion(finding)}
-              style={{
-                width: "100%",
-                padding: "10px 16px",
-                fontSize: "12px",
-                fontWeight: "700",
-                color: "white",
-                background: "linear-gradient(135deg, #2d5aa0, #1a4480)",
-                border: "none",
-                borderRadius: "6px",
-                cursor: "pointer",
-                marginTop: "8px",
-                boxShadow: "0 2px 4px rgba(45,90,160,0.3)",
-                transition: "all 0.2s ease",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                gap: "6px"
-              }}
-              onMouseOver={(e) => {
-                (e.target as HTMLButtonElement).style.transform = "translateY(-1px)";
-                (e.target as HTMLButtonElement).style.boxShadow = "0 4px 8px rgba(45,90,160,0.4)";
-              }}
-              onMouseOut={(e) => {
-                (e.target as HTMLButtonElement).style.transform = "translateY(0)";
-                (e.target as HTMLButtonElement).style.boxShadow = "0 2px 4px rgba(45,90,160,0.3)";
-              }}
-            >
-              <span>🩹</span>
-              Apply Clinical Fix
-            </button>
-          </div>
-        ))}
+              {/* Clinical Rationale */}
+              {finding.reason && (
+                <div style={{ marginBottom: "10px" }}>
+                  <h4 style={{ 
+                    margin: "0 0 6px 0", 
+                    fontSize: "12px", 
+                    fontWeight: "700",
+                    color: "#2d5aa0",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "4px"
+                  }}>
+                    <span>🩺</span>
+                    Clinical Impact:
+                  </h4>
+                  <p style={{ 
+                    margin: 0, 
+                    fontSize: "11px",
+                    color: "#4a5568",
+                    lineHeight: "1.5",
+                    padding: "6px 8px",
+                    backgroundColor: "#f7fafc",
+                    borderLeft: "4px solid #2d5aa0",
+                    borderRadius: "0 4px 4px 0"
+                  }}>
+                    {finding.reason}
+                  </p>
+                </div>
+              )}
+
+              {/* Evidence */}
+              {finding.evidence && (
+                <div style={{ marginBottom: "10px" }}>
+                  <p style={{ 
+                    margin: 0, 
+                    fontSize: "10px",
+                    color: "#6b7280",
+                    fontStyle: "italic",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "4px"
+                  }}>
+                    <span>📚</span>
+                    {finding.evidence}
+                  </p>
+                </div>
+              )}
+
+              {/* Action Button */}
+              {onApplyFix && (
+                <button
+                  onClick={() => handleApplyFix(finding)}
+                  disabled={isApplying}
+                  style={{
+                    width: "100%",
+                    padding: "10px 16px",
+                    fontSize: "12px",
+                    fontWeight: "700",
+                    color: "white",
+                    background: isApplying 
+                      ? "linear-gradient(135deg, #9ca3af, #6b7280)"
+                      : "linear-gradient(135deg, #2d5aa0, #1a4480)",
+                    border: "none",
+                    borderRadius: "6px",
+                    cursor: isApplying ? "not-allowed" : "pointer",
+                    marginTop: "8px",
+                    boxShadow: isApplying 
+                      ? "0 2px 4px rgba(107,114,128,0.3)"
+                      : "0 2px 4px rgba(45,90,160,0.3)",
+                    transition: "all 0.2s ease",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    gap: "6px",
+                    opacity: isApplying ? 0.7 : 1
+                  }}
+                  onMouseOver={(e) => {
+                    if (!isApplying) {
+                      (e.target as HTMLButtonElement).style.transform = "translateY(-1px)";
+                      (e.target as HTMLButtonElement).style.boxShadow = "0 4px 8px rgba(45,90,160,0.4)";
+                    }
+                  }}
+                  onMouseOut={(e) => {
+                    if (!isApplying) {
+                      (e.target as HTMLButtonElement).style.transform = "translateY(0)";
+                      (e.target as HTMLButtonElement).style.boxShadow = "0 2px 4px rgba(45,90,160,0.3)";
+                    }
+                  }}
+                >
+                  <span>{isApplying ? "⏳" : "🩹"}</span>
+                  {isApplying ? "Applying Fix..." : "Apply Clinical Fix"}
+                </button>
+              )}
+            </div>
+          );
+        })}
       </div>
     );
   };
@@ -417,7 +485,7 @@ export const RiskSidebar: React.FC<RiskSidebarProps> = ({ findings, isAnalyzing 
           color: "#7c2d12",
           fontStyle: "italic"
         }}>
-          {findings.length} potential amendment trigger{findings.length > 1 ? "s" : ""} identified in protocol
+          {findings.length} potential amendment trigger{findings.length > 1 ? "s" : ""} identified with confidence scoring
         </p>
       </div>
 
@@ -447,7 +515,7 @@ export const RiskSidebar: React.FC<RiskSidebarProps> = ({ findings, isAnalyzing 
           gap: "6px"
         }}>
           <span>💡</span>
-          Addressing these risks prevents costly ID protocol amendments
+          AI-powered analysis prevents costly ID protocol amendments
         </p>
       </div>
     </div>

@@ -23,10 +23,75 @@ export const App: React.FC<AppProps> = ({ title, isOfficeInitialized }) => {
   const [riskFindings, setRiskFindings] = useState<RiskFinding[]>([]);
   const [isAnalyzing, setIsAnalyzing] = useState<boolean>(false);
   const [isMonitoring, setIsMonitoring] = useState<boolean>(false);
+  const [documentText, setDocumentText] = useState<string>("");
+  const [highlightedRanges, setHighlightedRanges] = useState<any[]>([]);
+  const [totalStats, setTotalStats] = useState({ total: 0, critical: 0, high: 0, medium: 0, low: 0 });
+  const [categoryStats, setCategoryStats] = useState({ enrollment: 0, lab: 0, visit: 0, dosing: 0, other: 0 });
 
-  // Monitor text selection changes
+  // Real-time document monitoring
   useEffect(() => {
     if (!isOfficeInitialized || !isMonitoring) return;
+
+    // Check if Office APIs are available
+    if (typeof Office === 'undefined' || !Office.context?.document) {
+      console.log("Office APIs not available - running in browser mode");
+      // Simulate real-time analysis in browser mode
+      const demoText = "Patients must have documented culture proven infection with clinically significant symptoms requiring appropriate antimicrobial therapy within 24 hours. Enrollment requires consecutive days of fever and adequate renal function within normal range as deemed appropriate by the investigator.";
+      setDocumentText(demoText);
+      analyzeText(demoText, true);
+      return;
+    }
+
+    let analysisTimeout: NodeJS.Timeout;
+
+    const handleDocumentChange = async () => {
+      // Debounce analysis to avoid too frequent calls
+      clearTimeout(analysisTimeout);
+      analysisTimeout = setTimeout(async () => {
+        try {
+          await Word.run(async (context) => {
+            const body = context.document.body;
+            body.load("text");
+            await context.sync();
+            
+            const fullText = body.text;
+            if (fullText && fullText !== documentText) {
+              setDocumentText(fullText);
+              analyzeText(fullText, true);
+            }
+          });
+        } catch (error) {
+          console.error("Error monitoring document:", error);
+        }
+      }, 1000); // 1 second debounce
+    };
+
+    // Monitor document changes
+    const handleSelectionChange = async () => {
+      handleDocumentChange();
+    };
+
+    // Set up event listeners
+    Office.context.document.addHandlerAsync(
+      Office.EventType.DocumentSelectionChanged,
+      handleSelectionChange
+    );
+
+    // Initial analysis
+    handleDocumentChange();
+
+    return () => {
+      clearTimeout(analysisTimeout);
+      Office.context.document.removeHandlerAsync(
+        Office.EventType.DocumentSelectionChanged,
+        handleSelectionChange
+      );
+    };
+  }, [isOfficeInitialized, isMonitoring, documentText]);
+
+  // Monitor text selection changes (for manual analysis)
+  useEffect(() => {
+    if (!isOfficeInitialized) return;
 
     // Check if Office APIs are available (not available in browser testing)
     if (typeof Office === 'undefined' || !Office.context?.document) {
@@ -45,7 +110,7 @@ export const App: React.FC<AppProps> = ({ title, isOfficeInitialized }) => {
           const text = selection.text?.trim();
           if (text && text.length > 10 && text !== selectedText) {
             setSelectedText(text);
-            analyzeText(text);
+            analyzeText(text, false);
           }
         });
       } catch (error) {
@@ -65,12 +130,12 @@ export const App: React.FC<AppProps> = ({ title, isOfficeInitialized }) => {
         handleSelectionChange
       );
     };
-  }, [isOfficeInitialized, isMonitoring, selectedText]);
+  }, [isOfficeInitialized, selectedText]);
 
-  const analyzeText = async (text: string) => {
+  const analyzeText = async (text: string, isRealTime = false) => {
     if (!text || text.length < 10) return;
 
-    setIsAnalyzing(true);
+    if (!isRealTime) setIsAnalyzing(true);
     try {
       // Call your existing Render backend API
       const response = await fetch("https://protocol-risk-detection.onrender.com/api/analyze-text", {
@@ -96,20 +161,190 @@ export const App: React.FC<AppProps> = ({ title, isOfficeInitialized }) => {
         })) || [];
 
         setRiskFindings(findings);
+        updateStats(findings);
+        if (isRealTime) highlightProblematicText(findings);
       } else {
         console.error("API request failed:", response.status);
         // Fallback to local pattern matching for demo
         const localFindings = performLocalAnalysis(text);
         setRiskFindings(localFindings);
+        updateStats(localFindings);
+        if (isRealTime) highlightProblematicText(localFindings);
       }
     } catch (error) {
       console.error("Error analyzing text:", error);
       // Fallback to local pattern matching
       const localFindings = performLocalAnalysis(text);
       setRiskFindings(localFindings);
+      updateStats(localFindings);
+      if (isRealTime) highlightProblematicText(localFindings);
     } finally {
-      setIsAnalyzing(false);
+      if (!isRealTime) setIsAnalyzing(false);
     }
+  };
+
+  // Update statistics
+  const updateStats = (findings: RiskFinding[]) => {
+    const stats = {
+      total: findings.length,
+      critical: findings.filter(f => f.risk_score >= 85).length,
+      high: findings.filter(f => f.risk_score >= 70 && f.risk_score < 85).length,
+      medium: findings.filter(f => f.risk_score >= 50 && f.risk_score < 70).length,
+      low: findings.filter(f => f.risk_score < 50).length
+    };
+    setTotalStats(stats);
+
+    // Category breakdown
+    const categories = { enrollment: 0, lab: 0, visit: 0, dosing: 0, other: 0 };
+    findings.forEach(finding => {
+      const phrase = finding.phrase.toLowerCase();
+      if (phrase.includes('inclusion') || phrase.includes('exclusion') || phrase.includes('eligibility') || phrase.includes('criteria') || phrase.includes('documented') || phrase.includes('proven')) {
+        categories.enrollment++;
+      } else if (phrase.includes('lab') || phrase.includes('value') || phrase.includes('range') || phrase.includes('test') || phrase.includes('renal') || phrase.includes('function')) {
+        categories.lab++;
+      } else if (phrase.includes('visit') || phrase.includes('day') || phrase.includes('week') || phrase.includes('schedule') || phrase.includes('hour') || phrase.includes('consecutive')) {
+        categories.visit++;
+      } else if (phrase.includes('dose') || phrase.includes('mg') || phrase.includes('treatment') || phrase.includes('drug') || phrase.includes('antimicrobial') || phrase.includes('therapy')) {
+        categories.dosing++;
+      } else {
+        categories.other++;
+      }
+    });
+    setCategoryStats(categories);
+  };
+
+  // Highlight problematic text in document
+  const highlightProblematicText = async (findings: RiskFinding[]) => {
+    if (typeof Word === 'undefined') return;
+
+    try {
+      await Word.run(async (context) => {
+        // Clear previous highlights
+        highlightedRanges.forEach(range => {
+          try {
+            if (range && range.isValid) {
+              range.font.highlightColor = null;
+              range.font.bold = false;
+              range.font.italic = false;
+            }
+          } catch (error) {
+            // Range might be invalid, ignore
+          }
+        });
+
+        const newRanges: any[] = [];
+        
+        // Highlight each problematic phrase
+        for (const finding of findings) {
+          const searchResults = context.document.body.search(finding.phrase, {
+            matchCase: false,
+            matchWholeWord: false
+          });
+          
+          searchResults.load("font");
+          await context.sync();
+          
+          searchResults.items.forEach(result => {
+            // Color-code highlighting based on risk level
+            if (finding.risk_score >= 85) {
+              result.font.highlightColor = "#ffcccc"; // Light red for critical
+              result.font.bold = true;
+            } else if (finding.risk_score >= 70) {
+              result.font.highlightColor = "#ffe6cc"; // Light orange for high
+              result.font.bold = true;
+            } else if (finding.risk_score >= 50) {
+              result.font.highlightColor = "#ffffcc"; // Light yellow for medium
+              result.font.italic = true;
+            } else {
+              result.font.highlightColor = "#ccffcc"; // Light green for low
+            }
+            newRanges.push(result);
+          });
+        }
+        
+        setHighlightedRanges(newRanges);
+        await context.sync();
+      });
+    } catch (error) {
+      console.error("Error highlighting text:", error);
+    }
+  };
+
+  // Export risk report
+  const exportRiskReport = () => {
+    const reportData = {
+      timestamp: new Date().toISOString(),
+      documentAnalysis: {
+        totalRisks: totalStats.total,
+        riskBreakdown: {
+          critical: totalStats.critical,
+          high: totalStats.high,
+          medium: totalStats.medium,
+          low: totalStats.low
+        },
+        categoryBreakdown: categoryStats
+      },
+      findings: riskFindings.map(finding => ({
+        phrase: finding.phrase,
+        riskScore: finding.risk_score,
+        riskLevel: finding.risk_score >= 85 ? 'CRITICAL' : finding.risk_score >= 70 ? 'HIGH' : finding.risk_score >= 50 ? 'MEDIUM' : 'LOW',
+        recommendedFix: finding.fix,
+        clinicalRationale: finding.reason,
+        evidence: finding.evidence
+      }))
+    };
+
+    const reportText = `
+ID PROTOCOL AMENDMENT RISK REPORT
+${'='.repeat(50)}
+Generated: ${new Date().toLocaleString()}
+
+EXECUTIVE SUMMARY
+${'-'.repeat(20)}
+Total Risks Identified: ${totalStats.total}
+  • Critical: ${totalStats.critical}
+  • High: ${totalStats.high} 
+  • Medium: ${totalStats.medium}
+  • Low: ${totalStats.low}
+
+CATEGORY BREAKDOWN
+${'-'.repeat(20)}
+  • Enrollment Criteria: ${categoryStats.enrollment} issues
+  • Laboratory Requirements: ${categoryStats.lab} issues
+  • Visit Schedule: ${categoryStats.visit} issues
+  • Dosing/Treatment: ${categoryStats.dosing} issues
+  • Other: ${categoryStats.other} issues
+
+DETAILED FINDINGS
+${'-'.repeat(20)}
+${riskFindings.map((finding, index) => `
+${index + 1}. RISK LEVEL: ${finding.risk_score >= 85 ? 'CRITICAL' : finding.risk_score >= 70 ? 'HIGH' : finding.risk_score >= 50 ? 'MEDIUM' : 'LOW'} (${finding.risk_score}%)
+   Problematic Text: "${finding.phrase}"
+   Recommended Fix: "${finding.fix}"
+   Clinical Rationale: ${finding.reason || 'N/A'}
+`).join('')}
+
+RECOMMENDATIONS
+${'-'.repeat(20)}
+• Address CRITICAL and HIGH risk items immediately to prevent amendments
+• Review MEDIUM risk items during protocol finalization
+• Consider implementing suggested language changes
+• Validate with clinical and regulatory teams
+
+Generated by Ilana Protocol Assistant
+https://ilana-addin.netlify.app
+`;
+
+    // Create and download the report
+    const blob = new Blob([reportText], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `ID_Protocol_Risk_Report_${new Date().toISOString().split('T')[0]}.txt`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   };
 
   // Local fallback analysis using ID-specific patterns from your backend
@@ -216,7 +451,6 @@ export const App: React.FC<AppProps> = ({ title, isOfficeInitialized }) => {
     ];
 
     const findings: RiskFinding[] = [];
-    const textLower = text.toLowerCase();
 
     patterns.forEach(({ pattern, phrase, risk_score, fix, reason }) => {
       if (pattern.test(text)) {
@@ -248,7 +482,7 @@ export const App: React.FC<AppProps> = ({ title, isOfficeInitialized }) => {
       // Browser mode - show demo analysis with ID-specific text
       const demoText = "Patients must have documented culture proven infection with clinically significant symptoms requiring appropriate antimicrobial therapy within 24 hours. Enrollment requires consecutive days of fever and adequate renal function within normal range as deemed appropriate by the investigator.";
       setSelectedText(demoText);
-      analyzeText(demoText);
+      analyzeText(demoText, false);
       return;
     }
 
@@ -262,7 +496,7 @@ export const App: React.FC<AppProps> = ({ title, isOfficeInitialized }) => {
         const text = selection.text?.trim();
         if (text) {
           setSelectedText(text);
-          analyzeText(text);
+          analyzeText(text, false);
         } else {
           // No selection, show message
           setRiskFindings([{
@@ -294,13 +528,50 @@ export const App: React.FC<AppProps> = ({ title, isOfficeInitialized }) => {
         isMonitoring={isMonitoring}
         isAnalyzing={isAnalyzing}
         selectedText={selectedText}
+        totalStats={totalStats}
+        categoryStats={categoryStats}
         onToggleMonitoring={toggleMonitoring}
         onAnalyzeSelection={analyzeSelection}
+        onExportReport={exportRiskReport}
       />
       
       <RiskSidebar
         findings={riskFindings}
         isAnalyzing={isAnalyzing}
+        onApplyFix={async (finding) => {
+          // Apply fix function
+          if (typeof Word === 'undefined') {
+            alert(`Demo: Would replace "${finding.phrase}" with "${finding.fix}"`);
+            return;
+          }
+
+          try {
+            await Word.run(async (context) => {
+              const searchResults = context.document.body.search(finding.phrase, {
+                matchCase: false,
+                matchWholeWord: false
+              });
+              
+              searchResults.load("text");
+              await context.sync();
+              
+              if (searchResults.items.length > 0) {
+                // Replace the first occurrence
+                searchResults.items[0].insertText(finding.fix, Word.InsertLocation.replace);
+                await context.sync();
+                
+                // Remove this finding from the list
+                const updatedFindings = riskFindings.filter(f => f.phrase !== finding.phrase);
+                setRiskFindings(updatedFindings);
+                updateStats(updatedFindings);
+                
+                console.log(`Successfully replaced "${finding.phrase}" with "${finding.fix}"`);
+              }
+            });
+          } catch (error) {
+            console.error("Error applying fix:", error);
+          }
+        }}
       />
     </div>
   );
