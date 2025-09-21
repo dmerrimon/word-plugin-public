@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Header } from "./Header";
 import { ProtocolAnalyzer } from "./ProtocolAnalyzer";
 import { RiskSidebar } from "./RiskSidebar";
+import { ProtocolIntelligence } from "./ProtocolIntelligence";
 
 export interface AppProps {
   title: string;
@@ -27,6 +28,7 @@ export const App: React.FC<AppProps> = ({ title, isOfficeInitialized }) => {
   const [highlightedRanges, setHighlightedRanges] = useState<any[]>([]);
   const [totalStats, setTotalStats] = useState({ total: 0, critical: 0, high: 0, medium: 0, low: 0 });
   const [categoryStats, setCategoryStats] = useState({ enrollment: 0, lab: 0, visit: 0, dosing: 0, other: 0 });
+  const [activeView, setActiveView] = useState<'amendments' | 'intelligence'>('amendments');
 
   // Real-time document monitoring
   useEffect(() => {
@@ -524,55 +526,148 @@ https://ilana-addin.netlify.app
     <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
       <Header title={title} />
       
-      <ProtocolAnalyzer
-        isMonitoring={isMonitoring}
-        isAnalyzing={isAnalyzing}
-        selectedText={selectedText}
-        totalStats={totalStats}
-        categoryStats={categoryStats}
-        onToggleMonitoring={toggleMonitoring}
-        onAnalyzeSelection={analyzeSelection}
-        onExportReport={exportRiskReport}
-      />
-      
-      <RiskSidebar
-        findings={riskFindings}
-        isAnalyzing={isAnalyzing}
-        onApplyFix={async (finding) => {
-          // Apply fix function
-          if (typeof Word === 'undefined') {
-            alert(`Demo: Would replace "${finding.phrase}" with "${finding.fix}"`);
-            return;
-          }
+      {/* View Toggle */}
+      <div style={{
+        display: "flex",
+        borderBottom: "2px solid #e5e7eb",
+        backgroundColor: "#f9fafb"
+      }}>
+        <button
+          onClick={() => setActiveView('amendments')}
+          style={{
+            flex: 1,
+            padding: "12px",
+            fontSize: "13px",
+            fontWeight: "600",
+            border: "none",
+            backgroundColor: activeView === 'amendments' ? "#dc2626" : "transparent",
+            color: activeView === 'amendments' ? "white" : "#6b7280",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "6px"
+          }}
+        >
+          <span>🚨</span>
+          Amendment Risk Analysis
+        </button>
+        <button
+          onClick={() => setActiveView('intelligence')}
+          style={{
+            flex: 1,
+            padding: "12px",
+            fontSize: "13px",
+            fontWeight: "600",
+            border: "none",
+            backgroundColor: activeView === 'intelligence' ? "#2563eb" : "transparent",
+            color: activeView === 'intelligence' ? "white" : "#6b7280",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "6px"
+          }}
+        >
+          <span>🧠</span>
+          Protocol Intelligence
+        </button>
+      </div>
 
-          try {
-            await Word.run(async (context) => {
-              const searchResults = context.document.body.search(finding.phrase, {
-                matchCase: false,
-                matchWholeWord: false
-              });
-              
-              searchResults.load("text");
-              await context.sync();
-              
-              if (searchResults.items.length > 0) {
-                // Replace the first occurrence
-                searchResults.items[0].insertText(finding.fix, Word.InsertLocation.replace);
-                await context.sync();
-                
-                // Remove this finding from the list
-                const updatedFindings = riskFindings.filter(f => f.phrase !== finding.phrase);
-                setRiskFindings(updatedFindings);
-                updateStats(updatedFindings);
-                
-                console.log(`Successfully replaced "${finding.phrase}" with "${finding.fix}"`);
+      {activeView === 'amendments' ? (
+        <>
+          <ProtocolAnalyzer
+            isMonitoring={isMonitoring}
+            isAnalyzing={isAnalyzing}
+            selectedText={selectedText}
+            totalStats={totalStats}
+            categoryStats={categoryStats}
+            onToggleMonitoring={toggleMonitoring}
+            onAnalyzeSelection={analyzeSelection}
+            onExportReport={exportRiskReport}
+          />
+          
+          <RiskSidebar
+            findings={riskFindings}
+            isAnalyzing={isAnalyzing}
+            onApplyFix={async (finding) => {
+              // Apply fix function
+              if (typeof Word === 'undefined') {
+                alert(`Demo: Would replace "${finding.phrase}" with "${finding.fix}"`);
+                return;
               }
-            });
-          } catch (error) {
-            console.error("Error applying fix:", error);
-          }
-        }}
-      />
+
+              try {
+                await Word.run(async (context) => {
+                  const searchResults = context.document.body.search(finding.phrase, {
+                    matchCase: false,
+                    matchWholeWord: false
+                  });
+                  
+                  searchResults.load("text");
+                  await context.sync();
+                  
+                  if (searchResults.items.length > 0) {
+                    // Replace the first occurrence
+                    searchResults.items[0].insertText(finding.fix, Word.InsertLocation.replace);
+                    await context.sync();
+                    
+                    // Remove this finding from the list
+                    const updatedFindings = riskFindings.filter(f => f.phrase !== finding.phrase);
+                    setRiskFindings(updatedFindings);
+                    updateStats(updatedFindings);
+                    
+                    console.log(`Successfully replaced "${finding.phrase}" with "${finding.fix}"`);
+                  }
+                });
+              } catch (error) {
+                console.error("Error applying fix:", error);
+              }
+            }}
+          />
+        </>
+      ) : (
+        <ProtocolIntelligence
+          protocolText={documentText || selectedText}
+          isAnalyzing={isAnalyzing}
+          onExportReport={() => {
+            // Export intelligence report
+            const reportText = `
+PROTOCOL INTELLIGENCE REPORT
+${'='.repeat(50)}
+Generated: ${new Date().toLocaleString()}
+
+EXECUTIVE SUMMARY
+${'-'.repeat(20)}
+This report provides comprehensive intelligence analysis of the clinical protocol,
+evaluating complexity, enrollment feasibility, and patient burden across all
+therapeutic areas using universal metrics.
+
+ANALYSIS METHODOLOGY
+${'-'.repeat(20)}
+• Complexity Scorer: Evaluates protocol design complexity (0-100 scale)
+• Enrollment Predictor: Estimates enrollment timeline and challenges
+• Visit Burden Calculator: Analyzes patient and site operational burden
+• Benchmarking: Compares against industry standards
+
+For detailed analysis, please review each section within the application.
+
+Generated by Ilana Protocol Assistant - Universal Intelligence
+https://ilana-addin.netlify.app
+`;
+
+            const blob = new Blob([reportText], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `Protocol_Intelligence_Report_${new Date().toISOString().split('T')[0]}.txt`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+          }}
+        />
+      )}
     </div>
   );
 };
