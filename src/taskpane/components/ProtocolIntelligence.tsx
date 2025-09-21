@@ -2,6 +2,8 @@ import * as React from "react";
 import { ComplexityAnalyzer, ComplexityScore } from "../../services/complexityAnalyzer";
 import { EnrollmentPredictor, EnrollmentFeasibility } from "../../services/enrollmentPredictor";
 import { VisitBurdenCalculator, VisitBurdenAnalysis } from "../../services/visitBurden";
+import { BenchmarkingService, ProtocolBenchmark } from "../../services/benchmarkingService";
+import { RecommendationsEngine, RecommendationSummary } from "../../services/recommendationsEngine";
 
 export interface ProtocolIntelligenceProps {
   protocolText: string;
@@ -18,13 +20,17 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
     complexity: ComplexityScore | null;
     enrollment: EnrollmentFeasibility | null;
     visitBurden: VisitBurdenAnalysis | null;
+    benchmark: ProtocolBenchmark | null;
+    recommendations: RecommendationSummary | null;
   }>({
     complexity: null,
     enrollment: null,
-    visitBurden: null
+    visitBurden: null,
+    benchmark: null,
+    recommendations: null
   });
 
-  const [activeTab, setActiveTab] = React.useState<'overview' | 'complexity' | 'enrollment' | 'burden'>('overview');
+  const [activeTab, setActiveTab] = React.useState<'overview' | 'complexity' | 'enrollment' | 'burden' | 'benchmark' | 'recommendations'>('overview');
 
   React.useEffect(() => {
     if (protocolText && protocolText.length > 100) {
@@ -46,30 +52,67 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
       const visitFactors = VisitBurdenCalculator.extractVisitFactors(text);
       const visitBurdenAnalysis = VisitBurdenCalculator.calculateVisitBurden(visitFactors);
 
+      // Determine study phase and therapeutic area for benchmarking
+      const studyPhase = detectStudyPhase(text);
+      const therapeuticArea = enrollmentFactors.therapeuticArea;
+
+      // Benchmarking Analysis
+      const benchmarkMetrics = {
+        targetSampleSize: enrollmentFactors.targetSampleSize,
+        totalVisits: visitFactors.totalVisits,
+        inclusionCriteria: enrollmentFactors.inclusionCriteria,
+        exclusionCriteria: enrollmentFactors.exclusionCriteria,
+        studyDuration: enrollmentFactors.studyDuration,
+        screenFailureRate: enrollmentFeasibility.screenFailureRate
+      };
+      const benchmarkData = BenchmarkingService.generateBenchmark(benchmarkMetrics, studyPhase, therapeuticArea);
+
+      // Smart Recommendations
+      const recommendationSummary = RecommendationsEngine.generateRecommendations(
+        complexityScore,
+        enrollmentFeasibility,
+        visitBurdenAnalysis,
+        benchmarkData
+      );
+
       setAnalysis({
         complexity: complexityScore,
         enrollment: enrollmentFeasibility,
-        visitBurden: visitBurdenAnalysis
+        visitBurden: visitBurdenAnalysis,
+        benchmark: benchmarkData,
+        recommendations: recommendationSummary
       });
     } catch (error) {
       console.error('Error analyzing protocol:', error);
     }
   };
 
+  const detectStudyPhase = (text: string): string => {
+    if (/phase\s*i\b/i.test(text) && !/phase\s*ii/i.test(text)) return 'Phase 1';
+    if (/phase\s*ii\b/i.test(text) && !/phase\s*iii/i.test(text)) return 'Phase 2';
+    if (/phase\s*iii\b/i.test(text)) return 'Phase 3';
+    if (/phase\s*iv\b/i.test(text)) return 'Phase 4';
+    return 'Phase 2'; // Default assumption
+  };
+
   const calculateOverallScore = (): number => {
+    // Use the protocol health score from recommendations engine if available
+    if (analysis.recommendations?.overallProtocolHealth) {
+      return analysis.recommendations.overallProtocolHealth;
+    }
+
+    // Fallback to original calculation
     if (!analysis.complexity || !analysis.enrollment || !analysis.visitBurden) return 0;
     
-    // Weighted overall intelligence score
     const complexityWeight = 0.3;
     const enrollmentWeight = 0.4;
     const burdenWeight = 0.3;
 
-    // Convert different metrics to 0-100 scale
-    const complexityContribution = (100 - analysis.complexity.overall) * complexityWeight; // Lower complexity = higher score
+    const complexityContribution = (100 - analysis.complexity.overall) * complexityWeight;
     const enrollmentContribution = (analysis.enrollment.difficulty === 'Easy' ? 85 : 
                                   analysis.enrollment.difficulty === 'Moderate' ? 65 :
                                   analysis.enrollment.difficulty === 'Challenging' ? 45 : 25) * enrollmentWeight;
-    const burdenContribution = (100 - analysis.visitBurden.patientBurdenScore) * burdenWeight; // Lower burden = higher score
+    const burdenContribution = (100 - analysis.visitBurden.patientBurdenScore) * burdenWeight;
 
     return Math.round(complexityContribution + enrollmentContribution + burdenContribution);
   };
@@ -615,6 +658,274 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
     );
   };
 
+  const renderBenchmarkTab = () => {
+    if (!analysis.benchmark) return null;
+
+    return (
+      <div style={{ padding: "16px" }}>
+        <h3 style={{ margin: "0 0 12px 0", fontSize: "16px", fontWeight: "700", color: "#1f2937" }}>
+          📈 Industry Benchmarking
+        </h3>
+
+        {/* Phase and Overall Score */}
+        <div style={{
+          padding: "12px",
+          backgroundColor: "#f0f9ff",
+          border: "2px solid #0ea5e9",
+          borderRadius: "6px",
+          marginBottom: "16px"
+        }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+            <span style={{ fontSize: "14px", fontWeight: "600", color: "#0c4a6e" }}>
+              {analysis.benchmark.phase} • {analysis.benchmark.therapeuticArea}
+            </span>
+            <span style={{ fontSize: "18px", fontWeight: "700", color: "#0c4a6e" }}>
+              {analysis.benchmark.overallScore}/100
+            </span>
+          </div>
+          <div style={{ fontSize: "12px", color: "#075985" }}>
+            Compared to {analysis.benchmark.industryContext[0] || "industry standards"}
+          </div>
+        </div>
+
+        {/* Benchmark Metrics */}
+        <div style={{ marginBottom: "16px" }}>
+          <h4 style={{ margin: "0 0 8px 0", fontSize: "13px", fontWeight: "600", color: "#374151" }}>
+            Key Metrics vs Industry:
+          </h4>
+          {analysis.benchmark.benchmarks.map((benchmark, index) => (
+            <div key={index} style={{
+              padding: "8px",
+              backgroundColor: "#f9fafb",
+              border: "2px solid #e5e7eb",
+              borderRadius: "4px",
+              marginBottom: "6px"
+            }}>
+              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "2px" }}>
+                <span style={{ fontSize: "12px", fontWeight: "600" }}>{benchmark.metric}</span>
+                <span style={{ 
+                  fontSize: "12px", 
+                  fontWeight: "600",
+                  color: benchmark.category === 'Excellent' ? '#22c55e' :
+                         benchmark.category === 'Good' ? '#84cc16' :
+                         benchmark.category === 'Average' ? '#eab308' :
+                         benchmark.category === 'Below Average' ? '#f97316' : '#ef4444'
+                }}>
+                  {benchmark.percentile}th percentile
+                </span>
+              </div>
+              <div style={{ fontSize: "11px", color: "#6b7280", marginBottom: "2px" }}>
+                Your value: {benchmark.protocolValue} | Industry median: {benchmark.industryMedian}
+              </div>
+              <div style={{ fontSize: "10px", color: "#059669", fontStyle: "italic" }}>
+                {benchmark.insight}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Outlier Alerts */}
+        {analysis.benchmark.outliers.length > 0 && (
+          <div style={{ marginBottom: "16px" }}>
+            <h4 style={{ margin: "0 0 8px 0", fontSize: "13px", fontWeight: "600", color: "#374151" }}>
+              Outlier Alerts:
+            </h4>
+            {analysis.benchmark.outliers.map((outlier, index) => (
+              <div key={index} style={{
+                padding: "8px",
+                backgroundColor: outlier.severity === 'Critical' ? '#fef2f2' : 
+                                outlier.severity === 'Warning' ? '#fffbeb' : '#f0f9ff',
+                border: `2px solid ${outlier.severity === 'Critical' ? '#fecaca' : 
+                                   outlier.severity === 'Warning' ? '#fde68a' : '#bae6fd'}`,
+                borderRadius: "4px",
+                marginBottom: "6px"
+              }}>
+                <div style={{ 
+                  fontSize: "12px", 
+                  fontWeight: "600", 
+                  color: outlier.severity === 'Critical' ? '#dc2626' :
+                         outlier.severity === 'Warning' ? '#d97706' : '#0c4a6e',
+                  marginBottom: "2px"
+                }}>
+                  {outlier.severity}: {outlier.metric}
+                </div>
+                <div style={{ fontSize: "10px", color: "#6b7280", marginBottom: "2px" }}>
+                  {outlier.message}
+                </div>
+                <div style={{ fontSize: "10px", color: "#059669", fontStyle: "italic" }}>
+                  {outlier.recommendation}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Industry Context */}
+        <div style={{
+          padding: "12px",
+          backgroundColor: "#f0fdf4",
+          border: "2px solid #bbf7d0",
+          borderRadius: "6px"
+        }}>
+          <h4 style={{ margin: "0 0 8px 0", fontSize: "13px", fontWeight: "600", color: "#15803d" }}>
+            Industry Context:
+          </h4>
+          {analysis.benchmark.industryContext.map((context, index) => (
+            <div key={index} style={{ fontSize: "11px", color: "#166534", marginBottom: "4px" }}>
+              • {context}
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  };
+
+  const renderRecommendationsTab = () => {
+    if (!analysis.recommendations) return null;
+
+    return (
+      <div style={{ padding: "16px" }}>
+        <h3 style={{ margin: "0 0 12px 0", fontSize: "16px", fontWeight: "700", color: "#1f2937" }}>
+          💡 Smart Recommendations
+        </h3>
+
+        {/* Protocol Health Summary */}
+        <div style={{
+          padding: "12px",
+          backgroundColor: "#f0f9ff",
+          border: "2px solid #0ea5e9",
+          borderRadius: "6px",
+          marginBottom: "16px"
+        }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+            <span style={{ fontSize: "14px", fontWeight: "600", color: "#0c4a6e" }}>
+              Overall Protocol Health
+            </span>
+            <span style={{ fontSize: "18px", fontWeight: "700", color: "#0c4a6e" }}>
+              {analysis.recommendations.overallProtocolHealth}/100
+            </span>
+          </div>
+          <div style={{ fontSize: "12px", color: "#075985", marginBottom: "8px" }}>
+            Potential improvement: +{analysis.recommendations.totalPotentialImprovement} points
+          </div>
+          <div style={{ fontSize: "11px", color: "#075985" }}>
+            Estimated optimization time: {analysis.recommendations.estimatedTimeToOptimize}
+          </div>
+        </div>
+
+        {/* Top Priority Recommendations */}
+        <div style={{ marginBottom: "16px" }}>
+          <h4 style={{ margin: "0 0 8px 0", fontSize: "13px", fontWeight: "600", color: "#374151" }}>
+            Top Priority Actions:
+          </h4>
+          {analysis.recommendations.topRecommendations.slice(0, 3).map((rec, index) => (
+            <div key={index} style={{
+              padding: "10px",
+              backgroundColor: rec.priority === 'Critical' ? '#fef2f2' :
+                             rec.priority === 'High' ? '#fffbeb' : '#f9fafb',
+              border: `2px solid ${rec.priority === 'Critical' ? '#fecaca' :
+                                 rec.priority === 'High' ? '#fde68a' : '#e5e7eb'}`,
+              borderRadius: "6px",
+              marginBottom: "8px"
+            }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "4px" }}>
+                <span style={{ 
+                  fontSize: "12px", 
+                  fontWeight: "700",
+                  color: rec.priority === 'Critical' ? '#dc2626' :
+                         rec.priority === 'High' ? '#d97706' : '#374151'
+                }}>
+                  {rec.priority}: {rec.title}
+                </span>
+                <span style={{ 
+                  fontSize: "10px", 
+                  backgroundColor: rec.implementationEffort === 'Easy' ? '#dcfce7' :
+                                  rec.implementationEffort === 'Moderate' ? '#fef3c7' : '#fee2e2',
+                  color: rec.implementationEffort === 'Easy' ? '#166534' :
+                         rec.implementationEffort === 'Moderate' ? '#92400e' : '#991b1b',
+                  padding: "2px 6px",
+                  borderRadius: "3px"
+                }}>
+                  {rec.implementationEffort}
+                </span>
+              </div>
+              <div style={{ fontSize: "11px", color: "#6b7280", marginBottom: "4px" }}>
+                {rec.description}
+              </div>
+              <div style={{ fontSize: "10px", color: "#059669", marginBottom: "4px" }}>
+                Expected impact: {rec.expectedImpact.improvement}
+              </div>
+              <div style={{ fontSize: "10px", color: "#7c3aed", fontStyle: "italic" }}>
+                Time to implement: {rec.timeToImplement}
+              </div>
+              {rec.industryExample && (
+                <div style={{ fontSize: "9px", color: "#6366f1", marginTop: "4px", fontStyle: "italic" }}>
+                  Example: {rec.industryExample}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* Quick Wins */}
+        {analysis.recommendations.quickWins.length > 0 && (
+          <div style={{ marginBottom: "16px" }}>
+            <h4 style={{ margin: "0 0 8px 0", fontSize: "13px", fontWeight: "600", color: "#374151" }}>
+              Quick Wins (Easy Implementation):
+            </h4>
+            {analysis.recommendations.quickWins.map((rec, index) => (
+              <div key={index} style={{
+                padding: "8px",
+                backgroundColor: "#f0fdf4",
+                border: "2px solid #bbf7d0",
+                borderRadius: "4px",
+                marginBottom: "6px"
+              }}>
+                <div style={{ fontSize: "12px", fontWeight: "600", color: "#15803d", marginBottom: "2px" }}>
+                  {rec.title}
+                </div>
+                <div style={{ fontSize: "10px", color: "#166534", marginBottom: "2px" }}>
+                  {rec.description}
+                </div>
+                <div style={{ fontSize: "9px", color: "#059669" }}>
+                  Impact: {rec.expectedImpact.improvement}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Strategic Improvements */}
+        {analysis.recommendations.strategicImprovements.length > 0 && (
+          <div>
+            <h4 style={{ margin: "0 0 8px 0", fontSize: "13px", fontWeight: "600", color: "#374151" }}>
+              Strategic Improvements:
+            </h4>
+            {analysis.recommendations.strategicImprovements.map((rec, index) => (
+              <div key={index} style={{
+                padding: "8px",
+                backgroundColor: "#fef3f2",
+                border: "2px solid #fecaca",
+                borderRadius: "4px",
+                marginBottom: "6px"
+              }}>
+                <div style={{ fontSize: "12px", fontWeight: "600", color: "#dc2626", marginBottom: "2px" }}>
+                  {rec.title}
+                </div>
+                <div style={{ fontSize: "10px", color: "#991b1b", marginBottom: "2px" }}>
+                  {rec.description}
+                </div>
+                <div style={{ fontSize: "9px", color: "#b91c1c" }}>
+                  Impact: {rec.expectedImpact.improvement} | Time: {rec.timeToImplement}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  };
+
   if (isAnalyzing) {
     return (
       <div style={{ 
@@ -648,15 +959,17 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
           { key: 'overview', label: '📊 Overview', icon: '📊' },
           { key: 'complexity', label: '🔧 Complexity', icon: '🔧' },
           { key: 'enrollment', label: '⏱️ Enrollment', icon: '⏱️' },
-          { key: 'burden', label: '👥 Burden', icon: '👥' }
+          { key: 'burden', label: '👥 Burden', icon: '👥' },
+          { key: 'benchmark', label: '📈 Benchmark', icon: '📈' },
+          { key: 'recommendations', label: '💡 Recommendations', icon: '💡' }
         ].map(tab => (
           <button
             key={tab.key}
             onClick={() => setActiveTab(tab.key as any)}
             style={{
               flex: 1,
-              padding: "12px 8px",
-              fontSize: "11px",
+              padding: "8px 4px",
+              fontSize: "9px",
               fontWeight: "600",
               border: "none",
               backgroundColor: activeTab === tab.key ? "#2563eb" : "transparent",
@@ -676,6 +989,8 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
         {activeTab === 'complexity' && renderComplexityTab()}
         {activeTab === 'enrollment' && renderEnrollmentTab()}
         {activeTab === 'burden' && renderBurdenTab()}
+        {activeTab === 'benchmark' && renderBenchmarkTab()}
+        {activeTab === 'recommendations' && renderRecommendationsTab()}
       </div>
     </div>
   );
