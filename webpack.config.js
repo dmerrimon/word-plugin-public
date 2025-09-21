@@ -46,6 +46,10 @@ module.exports = {
         {
           from: "assets/*",
           to: "assets/[name][ext]"
+        },
+        {
+          from: "manifest.xml",
+          to: "manifest.xml"
         }
       ]
     })
