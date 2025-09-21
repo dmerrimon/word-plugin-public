@@ -2,8 +2,8 @@
 
 Word Add-in for detecting amendment risks in infectious disease protocols.
 
-## Live URLs
-- Taskpane: https://dmerrimon.github.io/word-plugin-public/taskpane.html
-- Commands: https://dmerrimon.github.io/word-plugin-public/commands.html
-- Manifest: https://dmerrimon.github.io/word-plugin-public/manifest.xml
+## Live URLs (Netlify)
+- Taskpane: https://ilana-addin.netlify.app/taskpane.html
+- Commands: https://ilana-addin.netlify.app/commands.html
+- Manifest: https://ilana-addin.netlify.app/manifest.xml
 # word-plugin-public

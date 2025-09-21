@@ -19,8 +19,8 @@
   <Description DefaultValue="Detects protocol amendment risks in real-time while you write"/>
   
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
-  <IconUrl DefaultValue="https://dmerrimon.github.io/word-plugin-public/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://dmerrimon.github.io/word-plugin-public/assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://ilana-addin.netlify.app/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://ilana-addin.netlify.app/assets/icon-64.png"/>
   
   <!--If you plan to submit this add-in to the Office Store, uncomment the SupportUrl element below-->
   <!--<SupportUrl DefaultValue="[Insert the URL of a page that provides support information for the app]">-->
@@ -28,7 +28,7 @@
   <!-- Domains that will be allowed when navigating to them from the default page. -->
   <AppDomains>
     <AppDomain>https://protocol-risk-detection.onrender.com</AppDomain>
-    <AppDomain>https://dmerrimon.github.io</AppDomain>
+    <AppDomain>https://ilana-addin.netlify.app</AppDomain>
   </AppDomains>
   
   <!--End Basic Settings. -->
@@ -38,7 +38,7 @@
     <Host Name="Document" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://dmerrimon.github.io/word-plugin-public/taskpane.html"/>
+    <SourceLocation DefaultValue="https://ilana-addin.netlify.app/taskpane.html"/>
   </DefaultSettings>
   <!-- End TaskPane Mode integration.  -->
   
@@ -114,14 +114,14 @@
     <!-- You can use resources across hosts and form factors. -->
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://dmerrimon.github.io/word-plugin-public/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://dmerrimon.github.io/word-plugin-public/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://dmerrimon.github.io/word-plugin-public/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://ilana-addin.netlify.app/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://ilana-addin.netlify.app/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://ilana-addin.netlify.app/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
-        <bt:Url id="Commands.Url" DefaultValue="https://dmerrimon.github.io/word-plugin-public/commands.html" />
-        <bt:Url id="Taskpane.Url" DefaultValue="https://dmerrimon.github.io/word-plugin-public/taskpane.html" />
+        <bt:Url id="Commands.Url" DefaultValue="https://ilana-addin.netlify.app/commands.html" />
+        <bt:Url id="Taskpane.Url" DefaultValue="https://ilana-addin.netlify.app/taskpane.html" />
       </bt:Urls>
       <!-- ShortStrings max characters==125. -->
       <bt:ShortStrings>
