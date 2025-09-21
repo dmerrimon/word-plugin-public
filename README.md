@@ -3,5 +3,6 @@
 Word Add-in for detecting amendment risks in infectious disease protocols.
 
 ## Live URLs
-- Taskpane: https://cdn.jsdelivr.net/gh/yourusername/word-plugin-public@main/dist/taskpane.html
-- Commands: https://cdn.jsdelivr.net/gh/yourusername/word-plugin-public@main/dist/commands.html
+- Taskpane: https://dmerriman.github.io/word-plugin-public/taskpane.html
+- Commands: https://dmerriman.github.io/word-plugin-public/commands.html
+- Manifest: https://dmerriman.github.io/word-plugin-public/manifest.xml
