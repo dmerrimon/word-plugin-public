@@ -3,8 +3,12 @@ import { IntelligentComplexityAnalyzer, RealComplexityScore } from "../../servic
 import { IntelligentEnrollmentPredictor, RealEnrollmentPrediction } from "../../services/intelligentEnrollmentPredictor";
 import { IntelligentVisitBurdenCalculator, RealVisitBurdenAnalysis } from "../../services/intelligentVisitBurdenCalculator";
 import { BenchmarkingService, ProtocolBenchmark } from "../../services/benchmarkingService";
+import { GranularBenchmarkingService } from "../../services/granularBenchmarkingService";
 import { IntelligentRecommendationsEngine, IntelligentRecommendationSummary } from "../../services/intelligentRecommendationsEngine";
+import { EnhancedProtocolIntelligence, EnhancedProtocolAnalysis } from "../../services/enhancedProtocolIntelligence";
 import { SmartTextEditor } from "../../components/SmartTextEditor";
+import { TherapeuticAreaSelector, TherapeuticAreaSelection } from "../../components/TherapeuticAreaSelector";
+import { CTGovDataManager } from "../../components/CTGovDataManager";
 
 export interface ProtocolIntelligenceProps {
   protocolText: string;
@@ -24,23 +28,43 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
     enrollment: RealEnrollmentPrediction | null;
     visitBurden: RealVisitBurdenAnalysis | null;
     benchmark: ProtocolBenchmark | null;
+    granularBenchmark: any | null;
     recommendations: IntelligentRecommendationSummary | null;
   }>({
     complexity: null,
     enrollment: null,
     visitBurden: null,
     benchmark: null,
+    granularBenchmark: null,
     recommendations: null
   });
 
+  const [enhancedAnalysis, setEnhancedAnalysis] = React.useState<EnhancedProtocolAnalysis | null>(null);
+  const [enhancedIntelligence] = React.useState(() => new EnhancedProtocolIntelligence());
+  const [showEnhancedMode, setShowEnhancedMode] = React.useState(false);
+
   const [activeTab, setActiveTab] = React.useState<'overview' | 'complexity' | 'enrollment' | 'burden' | 'benchmark' | 'recommendations' | 'editor'>('overview');
   const [editorText, setEditorText] = React.useState<string>('');
+  const [therapeuticAreaSelection, setTherapeuticAreaSelection] = React.useState<TherapeuticAreaSelection>({
+    primaryArea: '',
+    indication: '',
+    subtype: '',
+    targetPopulation: ''
+  });
 
   React.useEffect(() => {
     if (protocolText && protocolText.length > 100) {
-      analyzeProtocol(protocolText);
+      analyzeProtocol(protocolText).catch(console.error);
     }
-  }, [protocolText]);
+  }, [protocolText, therapeuticAreaSelection]);
+
+  // Re-analyze when therapeutic area selection changes
+  React.useEffect(() => {
+    if (protocolText && protocolText.length > 100 && therapeuticAreaSelection.primaryArea) {
+      console.log('🎯 Re-analyzing with specific therapeutic area:', therapeuticAreaSelection);
+      analyzeProtocol(protocolText).catch(console.error);
+    }
+  }, [therapeuticAreaSelection]);
 
   // Sync editor text with protocol text
   React.useEffect(() => {
@@ -49,7 +73,7 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
     }
   }, [protocolText]);
 
-  const analyzeProtocol = (text: string) => {
+  const analyzeProtocol = async (text: string) => {
     try {
       console.log('🧠 Starting INTELLIGENT protocol analysis with real ML models...');
       
@@ -65,9 +89,19 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
       const visitBurdenAnalysis = IntelligentVisitBurdenCalculator.analyzeVisitBurdenIntelligently(text);
       console.log('✅ Visit burden analysis complete - confidence:', visitBurdenAnalysis.confidence);
 
-      // Determine study phase and therapeutic area for benchmarking
+      // Determine study phase and use user-specified therapeutic area for precise analysis
       const studyPhase = detectStudyPhase(text);
-      const therapeuticArea = detectTherapeuticArea(text);
+      const therapeuticArea = therapeuticAreaSelection.primaryArea || detectTherapeuticArea(text);
+      const specificIndication = therapeuticAreaSelection.indication;
+      const subtype = therapeuticAreaSelection.subtype;
+      const targetPopulation = therapeuticAreaSelection.targetPopulation;
+      
+      console.log('🎯 Analyzing with specific context:', {
+        therapeuticArea,
+        indication: specificIndication,
+        subtype,
+        population: targetPopulation
+      });
 
       // Real Benchmarking Analysis (using existing real data)
       const benchmarkMetrics = {
@@ -80,6 +114,12 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
         complexityScore: complexityScore.overall
       };
       const benchmarkData = BenchmarkingService.generateBenchmark(benchmarkMetrics, studyPhase, therapeuticArea);
+
+      // Get granular benchmark for specific therapeutic area
+      const granularBenchmark = therapeuticAreaSelection.primaryArea ? 
+        GranularBenchmarkingService.getGranularBenchmark(therapeuticAreaSelection) : null;
+      
+      console.log('🎯 Granular benchmark:', granularBenchmark);
 
       // Intelligent Recommendations using success patterns from real protocols
       const intelligentRecommendations = IntelligentRecommendationsEngine.generateIntelligentRecommendations(
@@ -95,10 +135,26 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
         enrollment: enrollmentPrediction,
         visitBurden: visitBurdenAnalysis,
         benchmark: benchmarkData,
+        granularBenchmark,
         recommendations: intelligentRecommendations
       });
       
       console.log('🎯 INTELLIGENT analysis complete - using real ML patterns from 2,439 protocols');
+
+      // Enhanced Analysis with comprehensive trial database (if available)
+      if (enhancedIntelligence.isInitialized()) {
+        console.log('🏥 Running enhanced analysis with comprehensive trial database...');
+        try {
+          const enhancedResult = await enhancedIntelligence.analyzeProtocolComprehensively(
+            text,
+            therapeuticAreaSelection
+          );
+          setEnhancedAnalysis(enhancedResult);
+          console.log('✅ Enhanced analysis complete with real-world insights');
+        } catch (error) {
+          console.error('❌ Enhanced analysis failed:', error);
+        }
+      }
     } catch (error) {
       console.error('Error in intelligent protocol analysis:', error);
     }
@@ -177,6 +233,12 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
 
     return (
       <div style={{ padding: "16px" }}>
+        {/* Therapeutic Area Selector */}
+        <TherapeuticAreaSelector
+          selection={therapeuticAreaSelection}
+          onSelectionChange={setTherapeuticAreaSelection}
+        />
+        
         {/* Overall Score */}
         <div style={{
           padding: "16px",
@@ -196,6 +258,13 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
           </h2>
           <div style={{ fontSize: "11px", color: "#10b981", marginBottom: "4px", fontWeight: "600" }}>
             ✓ ML Analysis from 2,439 Real Protocols • Evidence Quality: {analysis.recommendations?.evidenceQuality || 'High'}
+            {therapeuticAreaSelection.primaryArea && (
+              <div style={{ marginTop: "2px" }}>
+                🎯 Compared to {therapeuticAreaSelection.primaryArea} 
+                {therapeuticAreaSelection.indication && ` → ${therapeuticAreaSelection.indication.replace(/_/g, ' ')}`}
+                {therapeuticAreaSelection.subtype && ` → ${therapeuticAreaSelection.subtype}`} protocols
+              </div>
+            )}
           </div>
           <div style={{
             width: "100%",
@@ -303,6 +372,40 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
           </div>
         </div>
 
+        {/* Granular Insights */}
+        {analysis.granularBenchmark && (
+          <div style={{
+            padding: "12px",
+            backgroundColor: "#fef3c7",
+            border: "2px solid #f59e0b",
+            borderRadius: "6px",
+            marginBottom: "12px"
+          }}>
+            <h4 style={{ 
+              margin: "0 0 8px 0", 
+              fontSize: "12px", 
+              fontWeight: "700",
+              color: "#92400e",
+              display: "flex",
+              alignItems: "center",
+              gap: "6px"
+            }}>
+              🎯 SPECIFIC INSIGHTS ({analysis.granularBenchmark.similarProtocolCount} Similar Protocols)
+            </h4>
+            <div style={{ fontSize: "11px", color: "#78350f", lineHeight: "1.4" }}>
+              {analysis.granularBenchmark.specificInsights.slice(0, 2).map((insight: string, index: number) => (
+                <div key={`granular-${index}`} style={{ marginBottom: "4px" }}>
+                  • {insight}
+                </div>
+              ))}
+              <div style={{ marginTop: "6px", fontSize: "10px", color: "#a16207" }}>
+                Success Rate: {Math.round(analysis.granularBenchmark.successRate * 100)}% • 
+                Median Enrollment: {analysis.granularBenchmark.medianEnrollmentTime}mo
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Top Recommendations */}
         <div style={{
           padding: "12px",
@@ -322,11 +425,19 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
             💡 TOP RECOMMENDATIONS
           </h4>
           <div style={{ fontSize: "11px", color: "#075985", lineHeight: "1.4" }}>
-            {analysis.recommendations?.topRecommendations?.slice(0, 2).map((rec, index) => (
-              <div key={`intelligent-${index}`} style={{ marginBottom: "4px" }}>
-                • {rec.title}: {rec.expectedImpact.improvement} (Evidence: {rec.evidenceBase})
-              </div>
-            )) || []}
+            {analysis.granularBenchmark ? (
+              analysis.granularBenchmark.commonSuccessFactors.slice(0, 2).map((factor: string, index: number) => (
+                <div key={`success-${index}`} style={{ marginBottom: "4px" }}>
+                  • {factor}
+                </div>
+              ))
+            ) : (
+              analysis.recommendations?.topRecommendations?.slice(0, 2).map((rec, index) => (
+                <div key={`intelligent-${index}`} style={{ marginBottom: "4px" }}>
+                  • {rec.title}: {rec.expectedImpact.improvement}
+                </div>
+              )) || []
+            )}
             {analysis.complexity.learnedInsights.slice(0, 1).map((insight, index) => (
               <div key={`insight-${index}`} style={{ marginBottom: "4px", fontStyle: "italic" }}>
                 💡 {insight}
@@ -336,6 +447,125 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
         </div>
 
         {/* Action Buttons */}
+        {/* Enhanced Analysis Section */}
+        {showEnhancedMode && enhancedAnalysis && (
+          <div style={{
+            marginTop: "20px",
+            padding: "16px",
+            backgroundColor: "#f0f9ff",
+            border: "2px solid #3b82f6",
+            borderRadius: "8px"
+          }}>
+            <h3 style={{
+              margin: "0 0 12px 0",
+              fontSize: "14px",
+              fontWeight: "700",
+              color: "#1e40af",
+              display: "flex",
+              alignItems: "center",
+              gap: "8px"
+            }}>
+              🏥 Enhanced Trial Database Insights
+              <span style={{
+                fontSize: "10px",
+                padding: "2px 6px",
+                backgroundColor: "#3b82f6",
+                color: "white",
+                borderRadius: "4px"
+              }}>
+                {enhancedAnalysis.ctGovInsights.similarTrialsFound} Similar Trials
+              </span>
+            </h3>
+
+            {/* Real-World Benchmarks */}
+            <div style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr 1fr",
+              gap: "12px",
+              marginBottom: "16px"
+            }}>
+              <div style={{
+                padding: "12px",
+                backgroundColor: "white",
+                borderRadius: "6px",
+                border: "1px solid #bae6fd"
+              }}>
+                <div style={{ fontSize: "10px", color: "#6b7280", marginBottom: "4px" }}>Success Rate</div>
+                <div style={{ fontSize: "16px", fontWeight: "700", color: "#059669" }}>
+                  {Math.round(enhancedAnalysis.ctGovInsights.successRateInCategory * 100)}%
+                </div>
+              </div>
+              
+              <div style={{
+                padding: "12px",
+                backgroundColor: "white",
+                borderRadius: "6px",
+                border: "1px solid #bae6fd"
+              }}>
+                <div style={{ fontSize: "10px", color: "#6b7280", marginBottom: "4px" }}>Median Enrollment</div>
+                <div style={{ fontSize: "16px", fontWeight: "700", color: "#3b82f6" }}>
+                  {enhancedAnalysis.ctGovInsights.enrollmentBenchmarks.median || 'N/A'}
+                </div>
+              </div>
+              
+              <div style={{
+                padding: "12px",
+                backgroundColor: "white",
+                borderRadius: "6px",
+                border: "1px solid #bae6fd"
+              }}>
+                <div style={{ fontSize: "10px", color: "#6b7280", marginBottom: "4px" }}>Study Duration</div>
+                <div style={{ fontSize: "16px", fontWeight: "700", color: "#7c3aed" }}>
+                  {enhancedAnalysis.ctGovInsights.typicalStudyDuration}mo
+                </div>
+              </div>
+            </div>
+
+            {/* Competitive Analysis */}
+            <div style={{
+              padding: "12px",
+              backgroundColor: "white",
+              borderRadius: "6px",
+              border: "1px solid #bae6fd",
+              marginBottom: "12px"
+            }}>
+              <div style={{ fontSize: "11px", fontWeight: "600", color: "#1e40af", marginBottom: "6px" }}>
+                🔍 Competitive Landscape
+              </div>
+              <div style={{ fontSize: "10px", color: "#6b7280" }}>
+                Market Saturation: <span style={{ fontWeight: "600" }}>{enhancedAnalysis.competitiveAnalysis.marketSaturation}</span>
+                {enhancedAnalysis.competitiveAnalysis.competingTrials.length > 0 && (
+                  <span> • {enhancedAnalysis.competitiveAnalysis.competingTrials.length} Active Competing Trials</span>
+                )}
+              </div>
+            </div>
+
+            {/* Top Optimization Opportunities */}
+            {enhancedAnalysis.optimizationOpportunities.length > 0 && (
+              <div style={{
+                padding: "12px",
+                backgroundColor: "white",
+                borderRadius: "6px",
+                border: "1px solid #bae6fd"
+              }}>
+                <div style={{ fontSize: "11px", fontWeight: "600", color: "#1e40af", marginBottom: "6px" }}>
+                  🚀 Key Optimization Opportunities
+                </div>
+                {enhancedAnalysis.optimizationOpportunities.slice(0, 2).map((opp, index) => (
+                  <div key={index} style={{ fontSize: "10px", color: "#6b7280", marginBottom: "4px" }}>
+                    • {opp.opportunity} ({opp.potentialImpact.enrollmentImprovement}% improvement)
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <div style={{ fontSize: "9px", color: "#6b7280", marginTop: "8px" }}>
+              Analysis confidence: {enhancedAnalysis.analysisConfidence}% • 
+              Data sources: {enhancedAnalysis.dataSourcesUsed.join(', ')}
+            </div>
+          </div>
+        )}
+
         <div style={{ 
           display: "flex", 
           gap: "8px", 
@@ -1063,6 +1293,40 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
       fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif",
       backgroundColor: "#ffffff"
     }}>
+      {/* Enhanced Data Manager */}
+      <CTGovDataManager 
+        onInitializationComplete={() => {
+          console.log('✅ CT.gov data initialization complete - enhanced mode available');
+          setShowEnhancedMode(true);
+        }}
+      />
+
+      {/* Enhanced Mode Toggle */}
+      {enhancedIntelligence.isInitialized() && (
+        <div style={{
+          padding: '12px 16px',
+          backgroundColor: '#f0f9ff',
+          border: '1px solid #bae6fd',
+          borderRadius: '6px',
+          margin: '0 16px 16px 16px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between'
+        }}>
+          <div style={{ fontSize: '12px', color: '#0c4a6e' }}>
+            🚀 Enhanced mode available with {enhancedIntelligence.getKnowledgeBaseStats()?.totalTrials?.toLocaleString()} trials
+          </div>
+          <label style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '12px', cursor: 'pointer' }}>
+            <input
+              type="checkbox"
+              checked={showEnhancedMode}
+              onChange={(e) => setShowEnhancedMode(e.target.checked)}
+            />
+            Enhanced Analysis
+          </label>
+        </div>
+      )}
+
       {/* Tab Navigation */}
       <div style={{
         display: "flex",
