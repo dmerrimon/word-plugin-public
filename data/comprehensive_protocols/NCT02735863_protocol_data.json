@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02735863",
+  "briefTitle": "ABX464 in Fully Controlled HIV Infected Patients Treated With Boosted Protease Inhibitor Treatment",
+  "officialTitle": "A Multi-center, Randomized, Double-blind, Placebo-controlled Phase IIa Trial to Compare the Safety of ABX464 Given at a Fixed Dose to Placebo in Fully Controlled HIV Infected Patients Treated With Boosted Protease Inhibitor Treatment (Darunavir/Ritonavir or Darunavir/Cobicistat).",
+  "protocolDocument": {
+    "nctId": "NCT02735863",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-11-07",
+    "uploadDate": "2022-05-31T12:18",
+    "size": 1089346,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02735863/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-05",
+    "completionDate": "2018-01-11",
+    "primaryCompletionDate": "2017-08-30",
+    "firstSubmitDate": "2016-04-08",
+    "firstPostDate": "2016-04-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients infected with HIV;\n* Patients with HIV plasma viral load ≤ 50 copies mL-1 during the 6 months prior to screening with a maximum of 2 blips during this period;\n* Patients treated by DRV/RTV or DRV/COBI as a monotherapy for at least 8 weeks prior to baseline;\n* Patients' HIV plasma viral load ≤100,000 copies mL-1 at any time (apart from primary infection if recorded);\n* Patients' CD4+ T cells count ≥ 250 cells per mm3 at any time since diagnosis;\n* Patients with CD4+ T cells count ≥ 600 cells per mm3 at screening;\n* Man or woman aged 18-65 years;\n\nExclusion Criteria:\n\n* Patient displaying any HIV protease inhibitor resistance mutation as listed in the current version of the HIV drug resistance database (Stanford University);\n* Patient having had previously a viral load ≥ 500 copies mL-1 confirmed by a second measure since the initiation of the current ART;\n* History of an AIDS-defining clinical illness;\n* Concomitant AIDS-related opportunistic infection;",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Adverse Events",
+        "description": "Patients who had received at least one dose of the study drug, and who had at least one baseline value. An AE was classified as a TEAE if it started, or increased in severity, on or after the first date and time of medication dosing (from Day 1 up to Day 28). Any AE which occurred after Day 28 was classified as post-treatment-emergent. Events were graded according to the \"Division of AIDS table for grading the severity of adult and pediatric adverse events\" (Version 2.0 November 2014).",
+        "timeFrame": "Up to 4 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time to Viral Rebound",
+        "description": "Time To Viral Rebound is defined as the time between treatment stop (i.e. day 29) and viral rebound detection",
+        "timeFrame": "Up to 3 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:20.732Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

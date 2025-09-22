@@ -1,0 +1,158 @@
+{
+  "nctId": "NCT05289869",
+  "briefTitle": "A Pilot Study: High Versus Low Oxytocin Dosing for Induction of Labor in Pregnant Patients With Obesity",
+  "officialTitle": "The HILIO Trial: High vs. Low Oxytocin Dosing for Induction of Labor in Pregnant Patients With Obesity- PILOT STUDY",
+  "protocolDocument": {
+    "nctId": "NCT05289869",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-03-21",
+    "uploadDate": "2022-12-24T13:10",
+    "size": 336314,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05289869/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-04-06",
+    "completionDate": "2022-10-28",
+    "primaryCompletionDate": "2022-09-18",
+    "firstSubmitDate": "2022-02-25",
+    "firstPostDate": "2022-03-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Nulliparity\n2. Maternal age \\>18 years\n3. Gestational age ≥37w0d\n4. Induction of labor, defined as initiation of labor with medication or intracervical Foley catheter in a patient without observed spontaneous cervical change and \\<6 contractions per hour (average of one contraction every 10 minutes) at the time of initial presentation. Women with prelabor rupture of membranes (PROM) can be included if the other criteria are also met with regards to cervical dilation and contractions.\n5. Singleton gestation\n6. Cephalic presentation\n7. Indication for oxytocin use in the first stage of labor\n8. No contraindication to labor or vaginal delivery\n9. Pre-pregnancy BMI ≥30 kg/m2 based on patient report and confirmed by pre-pregnancy or first trimester weight as recorded in the medical record\n10. Cervical dilation ≤4 cm at time of initiation of induction\n\nExclusion Criteria:\n\n1. Fetal demise\n2. Major fetal congenital malformation or known chromosomal abnormality\n3. Prior uterine surgery (e.g., cesarean, myomectomy)\n4. Non-reassuring fetal wellbeing as indication for induction\n5. Intraamniotic infection suspected or diagnosed prior to randomization\n6. Non-English\n7. Multifetal gestation\n8. Gestational age \\<37 weeks\n9. Spontaneous labor\n10. Cervical dilation \\> 4 cm at initiation of induction\n11. Initiation of oxytocin in the second stage of labor\n12. Use of oxytocin prior to randomization or planned use of oxytocin with foley catheter for cervical ripening\n13. Fetal malpresentation\n14. Estimated fetal weight \\>4500 g in a patient with diabetes, or estimated fetal weight \\>5000 g in a non-diabetic patient\n15. Abnormal placentation (e.g. previa, suspected placenta accreta spectrum)\n16. Physician/provider or patient refusal",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "50 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Delivered by Cesarean",
+        "timeFrame": "Until delivery"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Duration of Time From Start of Induction to Delivery",
+        "description": "Time from start of induction with medication or Foley catheter until delivery",
+        "timeFrame": "From start of induction to delivery"
+      },
+      {
+        "measure": "Duration of the First Stage of Labor",
+        "description": "Time from start of labor to complete dilation",
+        "timeFrame": "From start of induction to delivery"
+      },
+      {
+        "measure": "Occurrence of Tachysystole",
+        "description": "Defined as more than 5 contractions in 10 minutes averaged over 30 minutes",
+        "timeFrame": "From start of induction to delivery"
+      },
+      {
+        "measure": "Incidence of Uterine Rupture",
+        "description": "Defined as a complete disruption of all uterine layers including serosa",
+        "timeFrame": "From start of induction to delivery"
+      },
+      {
+        "measure": "Incidence of Clinical Chorioamnionitis",
+        "description": "Defined based on clinical diagnosis as documented by the clinical care team",
+        "timeFrame": "From start of induction thorough delivery"
+      },
+      {
+        "measure": "Incidence of Postpartum Maternal Infectious Morbidity",
+        "description": "Defined as a composite outcome of endomyometritis, puerperal sepsis, or surgical site infection as documented in the the clinical record",
+        "timeFrame": "Within 6 weeks following delivery"
+      },
+      {
+        "measure": "Incidence of Maternal Death",
+        "timeFrame": "Within 6 weeks of delivery"
+      },
+      {
+        "measure": "Incidence of Immediate Postpartum Hemorrhage",
+        "description": "Defined as \\>1000 mL of blood loss within 24 hours of delivery",
+        "timeFrame": "Within 24 hours of delivery"
+      },
+      {
+        "measure": "Incidence of Maternal Blood Transfusion",
+        "description": "Defined as need for blood transfusion",
+        "timeFrame": "From randomization through hospital discharge up to 6 weeks portpartum"
+      },
+      {
+        "measure": "Incidence of Maternal ICU Admission",
+        "timeFrame": "From randomization through 6 weeks postpartum"
+      },
+      {
+        "measure": "Incidence of Composite Neonatal Morbidity Outcomes",
+        "description": "Apgar score \\<5 at 5 min, arterial cord pH \\<7.0 or base deficit \\>12 mmol/dL, perinatal death",
+        "timeFrame": "Within 6 weeks of delivery"
+      },
+      {
+        "measure": "Incidence of NICU Admission",
+        "timeFrame": "Within 6 weeks of delivery"
+      },
+      {
+        "measure": "Maternal Length of Stay",
+        "description": "Duration of hospitalization for delivery",
+        "timeFrame": "Within 6 weeks of delivery"
+      },
+      {
+        "measure": "Neonatal Length of Stay",
+        "description": "Duration of birth hospitalization",
+        "timeFrame": "Within 6 weeks of delivery"
+      },
+      {
+        "measure": "Perception of the Labor, Birth, and Postpartum Experience",
+        "description": "Patient perception as measured using the validated Childbirth Perception Scale. This is a 12-item instrument developed to assess a patient's perception of the labor and delivery experience. Each item is formatted on a four-point scale ranging from 0 to 3. The overall range in total score is 1-36 with higher scores indicating a less positive perception.",
+        "timeFrame": "Assessed within 12-96 hours after delivery"
+      },
+      {
+        "measure": "Labor Agentry Score",
+        "description": "Patient perception of labor agentry as measured using validated Labor Agentry Scale. This 29-item tool was developed to assess a patient's expectancies and experiences with control in labor. Each item is scored 1 to 7. Overall total score can range from 29-201 with higher scores indicated greater perceived control during childbirth.",
+        "timeFrame": "Assessed within 12-96 hours after delivery"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 16,
+      "otherCount": 0,
+      "totalCount": 17
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:14.554Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

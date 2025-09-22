@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT04560088",
+  "briefTitle": "Mindfulness to Reduce Loneliness in Older Caregivers",
+  "officialTitle": "Mindfulness Training to Reduce Social Isolation and Feelings of Loneliness in Older Caregivers for Family Members With Alzheimer's Disease and Related Dementias",
+  "protocolDocument": {
+    "nctId": "NCT04560088",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-08-29",
+    "uploadDate": "2023-04-17T15:28",
+    "size": 397323,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04560088/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 55,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-05",
+    "completionDate": "2022-07-21",
+    "primaryCompletionDate": "2022-07-21",
+    "firstSubmitDate": "2020-09-11",
+    "firstPostDate": "2020-09-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* English speaking.\n* Caregiver for a community-dwelling family member with ADRD, living with (or in close proximity to) family member with dementia.\n* Elevated caregiving distress: above population mean (\\>11) on 10-item Perceived Stress Scale (PSS-10) and/or at least moderate caregiver strain (score \\>= 5) on the Modified Caregiver Strain Index (MCSI).\n* Social disconnectedness: UCLA Loneliness Scale: Short Form score of \\>6 (except for n=5 in Aim 1 who report feeling socially connected).\n* Access to e-mail in order to complete the e-consent module in REDCap which will be used in this study.\n\nExclusion Criteria:\n\n* Non-English speaking because our primary community partner agency (Lifespan) cannot currently accommodate non-English speaking clients.\n* Current problem drinking will be assessed using the AUDIT-C during the phone screen (score of 5 or greater indicating exclusion).\n* Modules from the Mini International Neuropsychiatric Exam (MINI) will be used to exclude subjects who have these psychiatric conditions: current non-alcohol psychoactive substance abuse, psychotic disorders (current and lifetime), bipolar disorder, and current mood disorder with psychotic features.\n* Those with significant cognitive impairment on a cognitive screening measure at the HARP screening assessment.\n* In order to test the effects of developing mindfulness skills in a novice population, those with a regular systematic mindfulness meditation or related mind-body practice (\\>2 times per week) will be excluded.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Five Facet Mindfulness Questionnaire (FFMQ)",
+        "description": "The FFMQ assesses five factors that represent mindfulness as it is currently conceptualized: observing, describing, acting with awareness, non-judging of inner experience, and non-reactivity to inner experience, and a total score indicating overall mindfulness. The 39 items of the FFMQ are rated on a 5-point Likert scale, ranging from 1 (never or very rarely true) to 5 (very often or always true). The total score ranges from 39-195, with higher scores indicating greater mindfulness. Data presented is for the total FFMQ score.",
+        "timeFrame": "20 days"
+      },
+      {
+        "measure": "Difficulties in Emotion Regulation Scale (DERS)",
+        "description": "The DERS is a 36-item self-report measure that assesses emotion dysregulation in six domains: nonacceptance of emotional responses, difficulties engaging in goal directed behavior, impulse control difficulties, lack of emotional awareness, limited access to emotion regulation strategies, and lack of emotional clarity. The DERS has demonstrated high internal consistency in clinical and nonclinical samples, good test-retest reliability over 8-weeks, construct validity, and sensitivity to change over time following interventions, including acceptance and mindfulness therapies. Items are rated on a scale of 1 (\"almost never \\[0-10%\\]\") to 5 (\"almost always \\[91-100%\\]\"). Scores range from 36-180, with higher scores indicating more difficulty in emotion regulation. Data presented is for the total DERS score.",
+        "timeFrame": "20 days"
+      },
+      {
+        "measure": "The UCLA 3-Item Loneliness Scale",
+        "description": "This assessment has demonstrated excellent internal consistency, test re-test reliability, and construct validity (associations with social support, social network size). Each question is rated on a 3-point scale: 1 = Hardly Ever; 2 = Some of the Time; 3 = Often. All items are summed to give a total score, ranging from 3-9 points. Higher scores indicate more loneliness.",
+        "timeFrame": "20 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 5,
+      "exclusionCount": 5,
+      "totalCount": 10
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 75,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:32:47.352Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

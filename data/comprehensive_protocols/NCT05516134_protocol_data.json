@@ -1,0 +1,122 @@
+{
+  "nctId": "NCT05516134",
+  "briefTitle": "All About Me: An Intervention to Ease the Transition to Long Term Care",
+  "officialTitle": "All About Me: An Intervention to Ease the Transition to Long-term Care, Build Community, and Improve Quality of Care for Persons With Dementia",
+  "protocolDocument": {
+    "nctId": "NCT05516134",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-07-27",
+    "uploadDate": "2025-02-10T17:24",
+    "size": 8490247,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05516134/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 51,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-04-18",
+    "completionDate": "2024-07-05",
+    "primaryCompletionDate": "2024-07-05",
+    "firstSubmitDate": "2022-08-10",
+    "firstPostDate": "2022-08-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* must be 60+ years old\n* must speak and read English\n* must have a clinical diagnosis of dementia (of any type)\n* must score at least eight on the Mini-Mental Status Examination (MMSE)\n\nExclusion Criteria:\n\n-shows signs of rapid physical / cognitive decline over the past six months, as indicated by medical records",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline to Treatment for Constructive Engagement on the Menorah Park Engagement Scale",
+        "description": "Constructive Engagement on the Menorah Park Engagement Scale is defined as doing or commenting on something related to the target activity. During baseline, multiple observations of \"standard\" activities were observed and a mean was calculated. Then, again, during treatment, multiple activities were observed and a mean was calculated. The minimum value for Constructive Engagement is zero (0) and the maximum score is two (2). Higher scores represent a better outcome.",
+        "timeFrame": "Baseline (Weeks 1-4) and Treatment (Weeks 5-10)"
+      },
+      {
+        "measure": "Change From Baseline to Treatment for Passive Engagement on the Menorah Park Engagement Scale",
+        "description": "Passive Engagement on the Menorah Park Engagement Scale is defined as listening or watching something related to the target activity. During baseline, multiple observations of \"standard\" activities were observed and a mean was calculated. Then, again, during treatment, multiple activities were observed and a mean was calculated. The minimum value for Passive Engagement is zero (0) and the maximum score is two (2). Lower scores represent a better outcome.",
+        "timeFrame": "Baseline (Weeks 1-4) and Treatment (Weeks 5-10)"
+      },
+      {
+        "measure": "Change From Baseline to Treatment for Other Engagement on the Menorah Park Engagement Scale",
+        "description": "Other Engagement on the Menorah Park Engagement Scale is defined as doing, commenting, listening, or watching something NOT related to the target activity. During baseline, multiple observations of \"standard\" activities were observed and a mean was calculated. Then, again, during treatment, multiple activities were observed and a mean was calculated. The minimum value for Other Engagement is zero (0) and the maximum score is two (2). Lower scores represent a better outcome.",
+        "timeFrame": "Baseline (Weeks 1-4) and Treatment (Weeks 5-10)"
+      },
+      {
+        "measure": "Change From Baseline to Treatment for Non-Engagement on the Menorah Park Engagement Scale",
+        "description": "Non-Engagement on the Menorah Park Engagement Scale is defined as sleeping and/or staring into space. During baseline, multiple observations of \"standard\" activities were observed and a mean was calculated. Then, again, during treatment, multiple activities were observed and a mean was calculated. The minimum value for Non-Engagement is zero (0) and the maximum score is two (2). Lower scores represent a better outcome.",
+        "timeFrame": "Baseline (Weeks 1-4) and Treatment (Weeks 5-10)"
+      },
+      {
+        "measure": "Change From Baseline to Treatment for Pleasure on the Menorah Park Engagement Scale",
+        "description": "Pleasure on the Menorah Park Engagement Scale is defined as clearly observable laughing or smiling. During baseline, multiple observations of \"standard\" activities were observed and a mean was calculated. Then, again, during treatment, multiple activities were observed and a mean was calculated. The minimum value for Pleasure is zero (0) and the maximum score is two (2). Lower scores represent a better outcome.",
+        "timeFrame": "Baseline (Weeks 1-4) and Treatment (Weeks 5-10)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline to Treatment on Dementia Related Quality of Life (DEMQOL)",
+        "description": "The Dementia Related Quality of Life Scale is a 28 item scale that examines quality of life in persons with dementia. The score ranges for 28 to 112. Higher scores represent a better outcome.",
+        "timeFrame": "Baseline (Weeks 1-4) and Post-Treatment (Week 11)"
+      },
+      {
+        "measure": "Change From Baseline to Treatment on the Neuropsychiatric Inventory-Nursing Home (NPI-NH), Frequency x Severity Score (FxS)",
+        "description": "The NPI-NH examines 10 types of neuropsychiatric symptoms in persons with dementia, with the FxS score looking creating a composite score that takes into account frequency and severity of the symtoms. The score ranges from 0 to 120. Lower scores represent a better outcome.",
+        "timeFrame": "Baseline (Weeks 1-4) and Post-Treatment (Week 11)"
+      },
+      {
+        "measure": "Change From Baseline to Treatment on the Geriatric Depression Scale-Short Form (GDS-SF)",
+        "description": "The 15-item Geriatric Depression Scale (GDS-SF) is a screening tool used to assess depressive symptoms in older adults. Each item is answered with a \"Yes\" or \"No\"\\*\\* response, with a total score ranging from 0 to 15, where higher scores indicate greater depressive symptoms. A score of 5 or more\\*\\* suggests possible depression, warranting further clinical evaluation.",
+        "timeFrame": "Baseline (Weeks 1-4) and Post-Treatment (Week 11)"
+      },
+      {
+        "measure": "Satisfaction With the App",
+        "description": "Satisfaction with the app",
+        "timeFrame": "Treatment (Weeks 5-11)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.012Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

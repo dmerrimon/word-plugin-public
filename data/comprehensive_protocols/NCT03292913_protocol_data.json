@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03292913",
+  "briefTitle": "Positive Health Check Evaluation Trial",
+  "officialTitle": "Positive Health Check Evaluation Trial",
+  "protocolDocument": {
+    "nctId": "NCT03292913",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-03-24",
+    "uploadDate": "2022-03-24T17:16",
+    "size": 353652,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03292913/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 799,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-02-27",
+    "completionDate": "2020-10-31",
+    "primaryCompletionDate": "2020-10-31",
+    "firstSubmitDate": "2017-09-21",
+    "firstPostDate": "2017-09-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. 18 years of age or older;\n2. Diagnosed with human immunodeficiency virus (HIV);\n3. English-speaking;\n4. Attending one of the four clinical sites;\n5. Meet at least one of the following: a) Most recent viral load lab result of ≥ 200 copies/mL, b) Attended an initial human immunodeficiency virus human immunodeficiency virus (HIV) appointment with a provider at one of the four sites within the past 12 months; c) Out of care (last attended appointment at the clinic was more than 12 months ago);\n6. Not involved in any other intervention that would bias outcome assessment,\n7. Deemed mentally competent and able to engage with the intervention.\n\nExclusion Criteria:\n\n1. Under 18 years of age;\n2. Human immunodeficiency virus (HIV) negative;\n3. Does not speak English;\n4. Does not attend one of the four clinical sites for (HIV) primary care;\n5. Meets all of the following: a) Most recent viral load lab result of \\< 200 copies/mL, b) Did not attend an initial human immunodeficiency virus (HIV) appointment with a provider at one of the four sites within the past 12 months, c) Last attended appointment at the clinic was less than 12 months ago)\n6. Involved in an intervention that would bias outcome assessment;\n7. Deemed mentally incompetent to engage with the intervention.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Viral Load Suppression",
+        "description": "Viral load suppression was defined as having viral load \\< 200 copies/mL by the end of each participant's 12 months of follow-up assessment (with a window from start of 10 months through the end of 16 months post-randomization to accommodate timing of clinical visits).",
+        "timeFrame": "Targeted time frame is 12 months post-randomization with a possible range of 10-16 months to account for variable timing of clinic visits."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Retained in Care at 12-month Follow up",
+        "description": "Retention in care is a patient defined as having at least one visit in each 6-month period within 12 months post-randomization separated by at least two months.",
+        "timeFrame": "Up to 12 months post randomization"
+      },
+      {
+        "measure": "Retention in Care",
+        "description": "A 6-month visit gap was defined as having at least 189 days between two sequentially kept visits, post-randomization.",
+        "timeFrame": "12 months of randomization"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:19.432Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

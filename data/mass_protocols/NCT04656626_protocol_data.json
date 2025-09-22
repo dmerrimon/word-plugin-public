@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04656626",
+  "briefTitle": "Brief Mindfulness Based Intervention to Improve Psychological Wellbeing",
+  "officialTitle": "Brief Mindfulness Based Intervention for Front-Line Medical Staff in the COVID19 Pandemic to Improve Psychological Wellbeing, a Randomized Controlled Multicenter Trial",
+  "protocolDocument": {
+    "nctId": "NCT04656626",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-05",
+    "uploadDate": "2020-12-05T23:36",
+    "size": 717064,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04656626/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 146,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-07-07",
+    "completionDate": "2020-09-05",
+    "primaryCompletionDate": "2020-07-21",
+    "firstSubmitDate": "2020-12-04",
+    "firstPostDate": "2020-12-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* COVID19 frontline health care providers namely, physicians, nurses and respiratory therapist at 2 main hospitals in the eastern province of KSA\n\nExclusion Criteria:\n\n1. History of psychotic disorder,\n2. Substance abuse or dependence within the last 6 months\n3. Current severe neurotic disorder, severe depression or severe anxiety.\n4. Concurrent psychotherapy.\n5. Significant personality disorder",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "22 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "reduction of anxiety symptom severity",
+        "description": "assessed using the (state trait anxiety-7 Item Scale); ranged from 10-40, higher score indicate more anxiety",
+        "timeFrame": "14 days"
+      },
+      {
+        "measure": "change in the level of psychological resilience",
+        "description": "assessed using the (Connor-Davidson Resilience Scale (CD-RISC)); score from 0-40, higher scores indicate more resilience",
+        "timeFrame": "14 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "mental wellbeing",
+        "description": "assessed by World Health Organization wellbeing scale; changed to percent score, the higher the better.",
+        "timeFrame": "14days"
+      },
+      {
+        "measure": "and functional status",
+        "description": "12-Item Short Form survey",
+        "timeFrame": "14 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:04.029Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

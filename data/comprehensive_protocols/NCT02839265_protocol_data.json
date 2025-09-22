@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02839265",
+  "briefTitle": "FLT3 Ligand Immunotherapy and Stereotactic Radiotherapy for Advanced Non-small Cell Lung Cancer",
+  "officialTitle": "FLT3 Ligand Immunotherapy and Stereotactic Radiotherapy for Advanced Non-small Cell Lung Cancer",
+  "protocolDocument": {
+    "nctId": "NCT02839265",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-06",
+    "uploadDate": "2024-02-26T12:32",
+    "size": 988548,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02839265/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 33,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07",
+    "completionDate": "2024-11-22",
+    "primaryCompletionDate": "2022-10-05",
+    "firstSubmitDate": "2016-07-15",
+    "firstPostDate": "2016-07-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* AJCC stage 3 or 4 histologically proven NSCLC not amenable to curative therapy\n* Age \\>= 18 years\n* Prior treatment with at least one standard chemotherapy regimen or targeted agent prior to enrollment\n* Radiological assessment within 21 days prior to study entry demonstrating measurable disease that includes at least one pulmonary lesion . 1 cm in greatest dimension that would be amenable to SBRT and at least one measurable lesion that would be outside of the SBRT treatment fields\n* History/physical examination within 30 days prior to registration\n* ECOG performance status 0-2\n* Signed, written informed consent\n\nExclusion Criteria:\n\n* Less than 21 days between registration and the last receipt of chemotherapy, biotherapy, immunotherapy, radiotherapy (excluding palliative radiotherapy), or major surgery. Prior receipt of immunomodulatory therapy (eg: nivolumab) is permitted, as long as there has been a 21 day washout period following the most recent treatment.\n* Untreated central nervous system metastases. Patients with a history of brain metastases must have had no CNS-directed therapy within the past 60 days and radiological assessment within 30 days of study entry demonstrating a lack of progressive CNS disease\n* Ongoing or recent (within 21 days prior to study entry) use of high dose oral corticosteroids (.2 mg of dexamethasone daily or equivalent). Intranasal and/or inhaled corticosteroid use is permitted.\n* Any unresolved CTCAE grade \\>2 toxicity from previous anti-cancer therapy. Patients with irreversible toxicity that is not reasonably expected to be exacerbated by study therapy (eg, hearing loss)may be enrolled after discussion with the principal investigators.\n* History of allogeneic organ transplant or autoimmune disease\n* Active malignancy, other than NSCLC, for which systemic therapy is indicated. History of adequately treated local basal cell or squamous cell carcinoma of the skin, cervical carcinoma in situ, superficial bladder cancer, asymptomatic prostate cancer without known metastatic disease and with no requirement for therapy asides from hormonal therapy, adequately treated stage 1 or 2 cancer currently in complete remission, or any other cancer that has been in complete remission for \\>= 5 years is permitted.\n* Uncontrolled intercurrent illness including, but not limited to, symptomatic congestive heart failure, unstable angina pectoris, uncontrolled cardiac arrhythmia, or psychiatric illness/social situation that would limit compliance with study requirements as judged by the treating physicians\n* The following laboratory results, within 10 days of first study drug administration:\n\n  * Hemoglobin . 9.0 g/dL, Absolute neutrophil count . 1.5 x 109/L, Platelet count . 100 x 109/L\n  * Serum creatinine . 1.5 x ULN and creatinine clearance (by Cockcroft-Gault formula) \\< 60 mL/min\n* Women of child bearing potential: positive pregnancy test (serum)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Progression-Free Survival",
+        "description": "The primary endpoint is progression-free survival rate at four months (PFS4), defined as the rate estimate of the percentage of patients who are alive and progression-free at 16 weeks (\\~4 months) after initiation of study therapy.",
+        "timeFrame": "4 Months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Dose Limiting Toxicities (DLTs)",
+        "description": "The number of participants with evidence of DLTs will be tabulated. For the purposes of this study, a DLT will be defined as any grade 3-5 treatment-emergent adverse event toxicity, scored using the Common Terminology Criteria for Adverse Events (CTCAE) version 4.0, and occurring within 30 days after treatment with SBRT in combination with FLT3 ligand therapy (after the first treatment cycle). Asymptomatic laboratory abnormalities (eg: leukocytosis) that do not require intervention will not be counted as DLTs. For subjects who receive more than one \"cycle\" of SBRT and FLT3 ligand, only adverse events that occur after the first cycle will be scored as potential DLTs.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Radiographic Response Rate Based on Response Evaluation Criteria in Solid Tumors (RECIST)",
+        "description": "Radiographic Response will be scored using RECIST V1.1 criteria based on 1st post-treatment imaging to quantify objective measures of change in tumor burden. RECIST uses a max of 10 target lesions per patient to determine when tumors in cancer patients improve, stay the same, or worsen during treatment. RECIST will be used to quantify the percentage of patients demonstrating Complete Response (CR), Partial Response (PR), Stable Disease (SD), Progressive Disease (PD), as follows:\n\nCR - resolution of all target lesions to background levels PR - at least 30% decrease in sum of diameters of target lesions (noting baseline diameters) SD - neither sufficient shrinkage to qualify for PR or sufficient increase to qualify for PD (noting smallest sum on study) PD - at least 20% increase in sum of diameters of target lesions (noting smallest sum on study); absolute increase of 5mm must be demonstrated; \\>=1 new lesion is considered PD If no CT/PET at a specific timepoint = \"Not Evaluable\"",
+        "timeFrame": "Up to 27 months post-randomization"
+      },
+      {
+        "measure": "Radiographic Response Rate Based on PET Response Criteria in Solid Tumors (PERCIST)",
+        "description": "Radiographic Response will be scored using PERCIST criteria based on the first PET imaging done. PERCIST is a set of rules that define when tumors in cancer patients improve, stay the same, or worsen during treatment, based on imaging data. PERCIST criteria will be used to quantify the percentage of patients demonstrating Complete Metabolic Response (CMR), Partial Metabolic Response (PMR), Stable Metabolic Disease (SMD), Progressive Metabolic Disease (PMD), or Not Evaluable (NE) as follows:\n\nCMR - complete resolution of 18F-FDG uptake, disappearance of all target lesions to background levels, no new 18F-FDG lesions PMR - reduction of a minimum of 30% in target measurable tumor 18F-FDG SUL peak, no increase \\>30% in all lesions; no new lesions SMD - no CMR, PMR or PMD; no new lesions PMD - \\>30% increase in 18F-FDG peak; OR visible increase in extent of tumor uptake; OR new 18F-FDG lesions If CT/PET was not done at a specific timepoint, result will be considered \"Not Evaluable\"",
+        "timeFrame": "Up to 27 months post-randomization"
+      },
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "Overall survival (OS) is defined as the percentage of patients alive at 5 years post-randomization. Data of subjects without a death record will be censored on the last known survival date.",
+        "timeFrame": "From date of treatment to date of death, up to 5 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:47.331Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT04759196",
+  "briefTitle": "Generating Evidence on NonEpileptic, Stereotypical and Intermittent Symptoms (NESIS) in Chronic Subdural Hematomas",
+  "officialTitle": "Generating Evidence on NonEpileptic, Stereotypical and Intermittent Symptoms (NESIS) in Chronic Subdural Hematomas",
+  "protocolDocument": {
+    "nctId": "NCT04759196",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-09-20",
+    "uploadDate": "2020-10-21T11:22",
+    "size": 631708,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04759196/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 56,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2021-03-01",
+    "completionDate": "2024-12",
+    "primaryCompletionDate": "2024-09",
+    "firstSubmitDate": "2020-10-27",
+    "firstPostDate": "2021-02-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Be aged ≥ 18 years\n* Chronic subdural hematoma\n* Transient neurological symptoms (Sensory, motor, cerebellar or speech symptoms, lasting 6 hours or less)\n* Initial negative EEG\n\nExclusion Criteria:\n\n* Contraindications to Levetiracetam\n* Psychiatric history (major depression, psychosis, risk of suicide)\n* History of hypersensitivity to LEV (anaphylaxis, angioedema, skin reaction)\n* Contraindications to Topiramate\n* History of hypersensitivity to TPM\n* Glaucoma\n* Past of nephrolithiasis\n* Known epilepsy or past seizure before the current subdural hemorrhage\n* Actual taking of an antiepileptic drug\n* Intracranial pathology not caused by subdural hematoma (intra-parenchymal hemorrhage, neoplasia)\n* Pregnancy or planning to\n* Inability to carry out the necessary follow-ups for the study\n* Refusal of the attending physician",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Between-group difference in the number of TNS reported at 6 month in participants with a positive Nonepileptic, Stereotyped, Intermittent Symptoms (NESIS) score (4 and more)",
+        "description": "The aim of this study is to demonstrate the efficacy of Topiramate in the treatment of patients with transient neurological symptoms in the context of chronic subdural hemorrhage with a positive NESIS score (4 and more), in whom usual epilepsy treatment appears to be less effective. To do this, the effect of Topiramate (shown to be effective in cortical depressions) will be compared with that of Levetiracetam (which has not been shown to be effective in cortical depressions). This is going to be done by a questionnaire that will assess the resolution of symptoms or not, or the percentage of diminution.",
+        "timeFrame": "Through study completion, an average of 3 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Between-group difference in the number of TNS reported at 6 month in all participants (all NESIS scores)",
+        "description": "If the investigators manage to demonstrate a significant difference between the response to TPM and LEV in the NESIS group compared to the non-NESIS group with our questionnaire, the evidence concerning the existence of a different process at the origin of the NESIS group will then be more numerous. As demonstrated in studies on rats, cortical spreading depolarization respond well to TPM and not to LEV. Cortical depolarizations will then be the main hypothesis of the reason why some responds better to TPM than LEV in our study.",
+        "timeFrame": "Through study completion, an average of 3 years"
+      },
+      {
+        "measure": "Incidence of cortical spreading depression on electrocorticography in the first postoperative week of patients with preoperative TNS.",
+        "description": "The investigators think that cortical depression rather then epileptic discharges could be involved in some patients with transient neurological symptoms in context of subdural hematomas. Some participant could need decompression surgery for their subdural hematoma. The investigators will offer the insertion of electrocorticography electrods while this surgery. The aim of this intervention will be to prove cortical depression in some subjects by using electrocorticography that will be read by a neurologist specialized in epilepsy.",
+        "timeFrame": "Through study completion, an average of 3 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:49.344Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

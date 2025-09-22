@@ -1,0 +1,143 @@
+{
+  "nctId": "NCT04343755",
+  "briefTitle": "Convalescent Plasma as Treatment for Hospitalized Subjects With COVID-19 Infection",
+  "officialTitle": "Phase IIa Study Exploring the Safety and Efficacy of Convalescent Plasma From Recovered COVID-19 Donors Collected by Plasmapheresis as Treatment for Hospitalized Subjects With COVID-19 Infection",
+  "protocolDocument": {
+    "nctId": "NCT04343755",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-12-15",
+    "uploadDate": "2023-06-09T14:21",
+    "size": 517934,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04343755/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 52,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-04-09",
+    "completionDate": "2023-04-26",
+    "primaryCompletionDate": "2023-04-26",
+    "firstSubmitDate": "2020-04-08",
+    "firstPostDate": "2020-04-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Donor Eligibility Criteria:\n\n* Age 18-60\n* A history of a positive nasopharyngeal swab for COVID-19 or a history of positive titer test.\n* At least 14 days from resolution of COVID-19-associated symptoms including fevers\n* One negative nasopharyngeal swabs for COVID-19 RNA\n* Covid-19 neutralizing antibody \\>1:64\n* Adequate venous access for apheresis\n* Meets donor eligibility criteria in accordance to Hackensack University Medical Center (HUMC) Collection Facility at the John Theurer Cancer Center (JTCC) if collecting at the JTCC, and all regulatory agencies as describes in SOP 800 01 (Appendix A)\n* Required testing of the donor and product must be performed in accordance to FDA regulations (21 CFR 610.40), and the donation must be found suitable (21 CFR 630.30)\n\nRecipient Eligibility Criteria:\n\nRecipients age \\>18 years old, are assigned to one of two clinical tracks, track 2 or 3, based on COVID-19 disease severity. Onset of first symptoms \\< 9 days.\n\nTrack 2:\n\n* Hospitalized, moderate symptoms requiring medical care for COVID-19 infection\n* Symptoms may include fever, dyspnea, dehydration among others\n* Hypoxemia may be present but is not a requirement\n\nTrack 3:\n\n* Requiring mechanical ventilation for the care of COVID-19 infection\n* Requiring non-invasive positive pressure ventilation (NIPPV), such as continuous airway pressure (CPAP),bi-level positive airway pressure (BiPAP) or high flow nasal canula (HFNC).\n\nRecipient exclusion criteria:\n\n* History of severe transfusion reaction to plasma products\n* Infusion of immune globulin within the previous 30 days\n* AST or ALT \\> 10 x upper limit of normal\n* Requirement for vasopressors\n* COVID-19-associated acute kidney injury requiring dialysis\n* DNR status",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Hospitalized for COVID-19 But Not Intubated",
+        "description": "Mechanical ventilation rate at 7 days from starting treatment in hospitalized COVID-19 patients",
+        "timeFrame": "7 Days"
+      },
+      {
+        "measure": "Primary Objective for Patients With COVID-19 Already Intubated",
+        "description": "Mortality rate at 30 days from starting treatment for patients with COVID-19",
+        "timeFrame": "30 Days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Duration of Hospitalization",
+        "description": "The duration of hospitalization is defined as the time in days from the first day of hospitalized to the date of discharge or death. Patients who are not discharged, are alive and still in the hospital on the date of closing follow-up, or lost follow-up on the date of closing follow-up will be considered censored on that date.",
+        "timeFrame": "60 Days"
+      },
+      {
+        "measure": "Duration of Mechanical Ventilation",
+        "description": "The duration of mechanical ventilation is defined as the time in days from the first day of using mechanical ventilation to the last day of using mechanical ventilation. All evaluable patients will be included and no censoring for this analysis.",
+        "timeFrame": "60 Days"
+      },
+      {
+        "measure": "Time to Symptoms Resolution",
+        "description": "The time to symptom resolution is defined as the time in days from new therapy initiation to the first documented symptom resolution as assessed by local site. Patients whose symptom are not resolved, who are dead, or lost follow-up on the designed follow-up date will be censored on that date.",
+        "timeFrame": "60 Days"
+      },
+      {
+        "measure": "Overall Survival",
+        "description": "Overall survival rate at 60 days from starting treatment for patients with COVID-19",
+        "timeFrame": "60 Days"
+      },
+      {
+        "measure": "Rate of Virologic Clearance by Nasopharyngeal Swab at Day 10",
+        "timeFrame": "10 Days"
+      },
+      {
+        "measure": "Rate of Virologic Clearance by Nasopharyngeal Swab at Day 30",
+        "timeFrame": "30 Days"
+      },
+      {
+        "measure": "Impact of Donor Titers Level on Efficacy",
+        "timeFrame": "60 Days"
+      },
+      {
+        "measure": "Impact of Donor Titers Level on Safety",
+        "timeFrame": "60 Days"
+      },
+      {
+        "measure": "Recipient Anti-SARS-CoV2 Titer Assessment on Days 0 (Pre-infusion)",
+        "timeFrame": "0 Days (pre-infusion)"
+      },
+      {
+        "measure": "Recipient Anti-SARS-CoV2 Titer Assessment on Days 3",
+        "timeFrame": "3 Days"
+      },
+      {
+        "measure": "Recipient Anti-SARS-CoV2 Titer Assessment on Day 10",
+        "timeFrame": "10 Days"
+      },
+      {
+        "measure": "Recipient Anti-SARS-CoV2 Titer Assessment on Day 30",
+        "timeFrame": "30 Days"
+      },
+      {
+        "measure": "Recipient Anti-SARS-CoV2 Titer Assessment on Day 60",
+        "timeFrame": "60 Days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 1,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 13,
+      "otherCount": 0,
+      "totalCount": 15
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 87,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.482Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

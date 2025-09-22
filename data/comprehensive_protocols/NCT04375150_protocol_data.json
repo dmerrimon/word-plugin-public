@@ -1,0 +1,153 @@
+{
+  "nctId": "NCT04375150",
+  "briefTitle": "Master Protocol to Study Treatment Patterns, Medication Adherence, Health and Economic Outcomes and Unmet Needs in RCC",
+  "officialTitle": "Study of Advanced Renal Cell Carcinoma Treatment Patterns and Unmet Needs Using Real World Claims and Electronic Medical Record Data.",
+  "protocolDocument": {
+    "nctId": "NCT04375150",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-12-01",
+    "uploadDate": "2023-10-17T13:42",
+    "size": 2378900,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04375150/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 355,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-12-02",
+    "completionDate": "2022-10-28",
+    "primaryCompletionDate": "2022-10-28",
+    "firstSubmitDate": "2020-05-01",
+    "firstPostDate": "2020-05-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 20 years or older in the year of the index first line therapy prescription.\n\n  * 2 or more RCC diagnoses (ICD-9: 189.0; ICD-10: C64.1, C64.2, C64.9) at least 30 days apart, in the 1 year prior to the index date until 30 days post index date.\n  * 2 or more code for secondary malignancy codes indicating possible diagnoses for metastatic disease at least 30 days apart, in the 1 year prior to the index date until 30 days post index date. (ICD-9: xx-199.xx; ICD-10: C77-C79, except ICD9: 198.0 Secondary malignant neoplasm of the kidney and ICD10: C79.0 Secondary malignant neoplasm of the kidney and renal pelvis.)\n  * Exploratory sensitivity analyses were performed to review patients with 1 or more diagnosis codes for advanced or metastatic RCC 12 months prior to the index date and 1 or more secondary malignancy codes around the RCC diagnosis dates.\n  * Continuous enrollment from 12 months prior to the index date. Patients will be required to have continuous enrollment from their index date until the end of the available data. This will allow for sub-analysis of cohorts with 3 months, 6 months and 12 months of available data\n\nExclusion Criteria:\n\n* Received advanced treatment prior to the study index date.\n\n  * Prescription records with negative days of supply will be excluded from all the analyses except in cost variable calculation. The day of supply for claims with missing or 0 days will be imputed.\n  * Only one RCC diagnosis in the 12 months prior or one mont post index date.\n  * Patients with data for analysis (\\< 3 months post index date)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With First Line Treatment Regimen",
+        "description": "Number of participants with first line treatment regimen prescribed following a primary and secondary diagnosis of advanced/metastatic disease is reported in this outcome measure. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "At index (anytime between 1-Apr-2018 and 31-Jul-2022 [approximately 52 months]); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Number of Participants With Monotherapy and Combination Therapy",
+        "description": "Participants who received monotherapy and combination therapy by line of therapy is reported in this outcome measure. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From the index date until end of enrollment, follow-up or death (maximum of 52 months); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Time to First Line Therapy",
+        "description": "Time to first line therapy was defined as length of time (days) from the first RCC diagnosis to first line therapy prescription. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From RCC diagnosis to index date (approximately 52 months); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Duration of Treatment According to Each Line of Therapy",
+        "description": "Duration of treatment as per each line of therapy is reported in this outcome measure. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From the index date until end of enrollment, follow-up or death (maximum of 52 months); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Number of Participants With Treatment Continuation",
+        "description": "Treatment continuation was considered when there was no more than (\\>) 30-day gap (i.e., persistent treatment) for the index medication during follow-up period. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From the index date until end of enrollment, follow-up or death (maximum of 52 months); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Number of Participants With Treatment Interruption",
+        "description": "Treatment Interruption was considered in participants with gaps in treatment greater than allowable gap but who restart the same medication with no indication of switching or augmentation. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From the index date until end of enrollment, follow-up or death (maximum of 52 months); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Time to Treatment Interruption",
+        "description": "Time from index medication to treatment discontinuation for those within treatment interruptions (\\>30 day gaps). Represents the time between index and end of last treatment, including any treatment gaps. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From the index date until end of enrollment, follow-up or death (maximum of 52 months); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Number of Participants With Treatment Switch or Augmentation",
+        "description": "Number of participants who had treatment switch or augmentation were reported in this outcome measure. Augmentation was defined as addition of treatment to initial therapy prescribed, i.e, initiation of a new therapy different from the initial therapy while continuation of the initial therapy. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From the index date until end of enrollment, follow-up or death (maximum of 52 months); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Number of Participants According to Lines of Therapy",
+        "description": "Number of participants as per the lines of treatment were reported in this outcome measure. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From the index date until end of enrollment, follow-up or death (maximum of 52 months); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Number of Participants According to Sequence of Therapies for Metastatic Renal Cell Carcinoma (mRCC)",
+        "description": "Number of participants according to the sequence of therapies received for mRCC were reported in this outcome measure. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From the index date until end of enrollment, follow-up or death (maximum of 52 months); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Number of Participants According to Their Status at End of Follow-up",
+        "description": "Number of participants according to their status (death, end of enrollment and end of data availability) at end of follow-up were observed and included in this outcome measure. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "At end of enrollment, follow-up or death (maximum of 52 months) (data collected and observed retrospectively over 35 months)"
+      },
+      {
+        "measure": "Time to Treatment Failure (TTF)",
+        "description": "TTF was defined as the time from first-line therapy start to treatment discontinuation for any reason, including switched, augmented therapy, end of enrollment or death. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From the index date until end of enrollment, follow-up or death (maximum of 52 months); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Percentage of Participants With Treatment Discontinuation",
+        "description": "Percentage of participants with treatment discontinuation was defined as the percentage of participants with gap in therapy greater than 30 days and who did not begin a new treatment. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From the index date until end of enrollment, follow-up or death (maximum of 52 months); data collected and observed retrospectively over 35 months"
+      },
+      {
+        "measure": "Percentage of Participants Alive at 3 Months",
+        "description": "Percentage of participants who were alive at 3 months is reported in this outcome measure.",
+        "timeFrame": "At 3 months (data collected and observed retrospectively over 35 months)"
+      },
+      {
+        "measure": "Percentage of Participants Alive at 6 Months",
+        "description": "Percentage of participants who were alive at 6 months is reported in this outcome measure.",
+        "timeFrame": "At 3 months (data collected and observed retrospectively over 35 months)"
+      },
+      {
+        "measure": "Percentage of Participants Alive at 12 Months",
+        "description": "Percentage of participants who were alive at 12 months is reported in this outcome measure.",
+        "timeFrame": "At 3 months (data collected and observed retrospectively over 35 months)"
+      },
+      {
+        "measure": "Overall Survival",
+        "description": "OS is defined as the length of time from index date to participant's death. Index date was defined as the date of initiation of the aRCC treatment.",
+        "timeFrame": "From the index date until end of enrollment, follow-up or death (maximum of 52 months); data collected and observed retrospectively over 35 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 17,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 17
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:08.393Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03829748",
+  "briefTitle": "Intermittent Suction Technique in the Diagnosis of Pancreatic Solid Lesions",
+  "officialTitle": "Intermittent Versus Continuous Suction Technique in the Diagnosis of Pancreatic Solid Lesions. A Pilot Study.",
+  "protocolDocument": {
+    "nctId": "NCT03829748",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-02-03",
+    "uploadDate": "2019-02-04T11:39",
+    "size": 281364,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03829748/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 33,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-16",
+    "completionDate": "2020-03-01",
+    "primaryCompletionDate": "2020-01-16",
+    "firstSubmitDate": "2019-01-22",
+    "firstPostDate": "2019-02-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Pancreatic solid lesion\n* Patients over 18 years old\n* Suitable for endoscopy\n\nExclusion Criteria:\n\n* Contraindication for endoscopy\n* Active anticoagulant therapy\n* Thrombocytopenia or coagulopathy in the absence of its correction prior to the procedure\n* Absence of informed consent\n* Pregnancy\n* Not accessible lesion for endoscopic ultrasound puncture",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Increase in diagnostic yield of pancreatic solid lesions",
+        "description": "Percentage of increase in positive smears between intermittent and continous suction",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Sample cellularity",
+        "description": "Number of malignant clusters of cells on each endoscopic pass",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Blood contamination",
+        "description": "Percentage of blood contamination of the slides",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of passes to reach diagnosis",
+        "description": "Number of passes needed to achieve a positive cytological diagnosis",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:06.835Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

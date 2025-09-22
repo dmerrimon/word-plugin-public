@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT03149328",
+  "briefTitle": "Electronic Patient-Reported Outcomes in Clinical Kidney Practice (ePRO Kidney)",
+  "officialTitle": "Electronic Patient-Reported Outcomes in Clinical Kidney Practice (ePRO Kidney)",
+  "protocolDocument": {
+    "nctId": "NCT03149328",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-08-12",
+    "uploadDate": "2021-02-04T00:55",
+    "size": 295770,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03149328/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 594,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-08-28",
+    "completionDate": "2019-10-31",
+    "primaryCompletionDate": "2019-10-31",
+    "firstSubmitDate": "2017-05-01",
+    "firstPostDate": "2017-05-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Patient inclusion:\n\n* home dialysis patients attending regularly scheduled appointments in Edmonton at the Aberhart Clinic (NARP) or in Calgary at the Sheldon M. Chumir Health Centre (SARP)\n* ≥18 years old\n* able to read and speak English\n* can provide written informed consent\n* if a patient changes dialysis modality, they can continue to participate\n\nClinician inclusion:\n\n* all clinical staff working with home dialysis patients at the Aberhart clinic in Edmonton (NARP)\n* study co-investigators/collaborators who are NARP clinicians may choose to participate\n\nPatient exclusion criteria:\n\n* visual impairment\n* cannot read or speak English",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Symptoms - Trajectory of Change",
+        "description": "Assessed using the symptoms/problems domain of the Kidney Disease Quality of Life 36-Item Short Form Survey (KDQOL-36). The Symptoms/Problems domain has 12 items, each representing a symptom or side effect of kidney disease based on the past 4 weeks with 5 response items ranging from \"Not Bothered at all = 100\" to \"Extremely Bothered = 0\". Min Score = 0; Max score = 100. Higher score indicates better health.",
+        "timeFrame": "Trajectories of up to 24 months from start of enrollment to study completion"
+      },
+      {
+        "measure": "Person-centred Care - Trajectory of Change",
+        "description": "Assessed using the Patient Assessment of Care for Chronic Conditions (PACIC-20), a patient-reported experience measure on satisfaction with care over the past 6 months. The PACIC-20 is a 20-item survey based on five subscales: (1) patient activation, (2) delivery system design and decision support, (3) goal setting and tailoring, (4) problem-solving and contextual counselling, and (5) follow-up and coordination. Each item is rated on a five-point scale (from \"Almost never = 0\" to \"Almost always = 5\") and the subscale and total scores are based on average scores across items. Min score = 0; Max score = 5. Higher scores indicates higher quality of care.",
+        "timeFrame": "Trajectories of up to 24 months from start of enrollment to study completion"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Utilization of Health Services",
+        "description": "Assessed using health services data (i.e. average number of hospital admissions, trips to the emergency room) determined through SPOR Platform and Alberta Health Services electronic health records. Higher numbers indicates worse outcomes.",
+        "timeFrame": "From study enrollment until completion (up to 24 months)"
+      },
+      {
+        "measure": "Number of Participants Who Selected \"1 - Excellent\" on Satisfaction With Care",
+        "description": "Assessed using one item added to the end of the Patient Assessment of Care for Chronic Conditions 20 item questionnaire (PACIC-20) related to care received. This item is from the NHS Outpatient Survey (2011). (RateClin) related to care received on a Likert-type scale from Excellent = 1 to Very Poor = 6. Min = 1, max = 6. The number of patients who selected \"1 - Excellent\" was tabulated and compared between the two groups. The higher the number the more patients who felt the care provided to them was excellent.",
+        "timeFrame": "Up to 24 months from start of enrollment to study completion"
+      },
+      {
+        "measure": "Mental Health - Trajectory of Change",
+        "description": "Assessed using the SF-12 mental component summary (MCS) subscale in the Kidney Disease Quality of Life 36-item Short-Form Survey (KDQOL-36). The SF-12 uses 2 items (psychological distress and psychological well being) to measure the MCS score. The summary score is transformed using Canadian norm-based scoring. The scores ranged from 0 (worst health) to 100 (best health). The higher the score the better the mental health.",
+        "timeFrame": "Trajectories of up to 24 months from start of enrollment to study completion"
+      },
+      {
+        "measure": "Quality of Life - Trajectory of Change",
+        "description": "Assessed using the Euro Quality of Life EQ-5D-5L. This assessment uses a descriptive system for health-related Quality of Life states in adults consisting of 5 dimensions; Mobility, Self-Care, Usual Activities, Pain/Discomfort, and Anxiety/Depression. Each dimension is scored between 1 = indicating no problem and 5 = indicating unable to/extreme problems. An EQ-5D summary index is derived by applying a formula (the Canadian standard value set) that attaches values (weights) to each of the levels in each dimension. Index min= 0.0 max = 1.0. The higher the index the better the quality of life/state of health.",
+        "timeFrame": "Trajectories of up to 24 months from start of enrollment to study completion"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:06.734Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

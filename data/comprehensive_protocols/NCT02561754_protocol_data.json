@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02561754",
+  "briefTitle": "Weight Management for Adolescents With IDD",
+  "officialTitle": "Weight Management for Adolescents With IDD",
+  "protocolDocument": {
+    "nctId": "NCT02561754",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-03-30",
+    "uploadDate": "2023-02-07T13:20",
+    "size": 141797,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02561754/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 110,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-03",
+    "completionDate": "2021-05-05",
+    "primaryCompletionDate": "2020-05-12",
+    "firstSubmitDate": "2015-06-25",
+    "firstPostDate": "2015-09-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 13-21 yrs\n* Mild (IQ of 74-50) or moderate (IQ 40-49) IDD,\n* Of sufficient functional ability to understand directions, communicate preferences (e.g. foods), wants (e.g. more to eat/drink), and needs (e.g. assistance with food preparation) through spoken language.\n* Overweight or obese (BMI ≥ 85th%ile on CDC growth charts, or waist circumference to height ratio \\> 0.5\n* Living at home with a parent or guardian.\n* Internet access in the home.\n* No plans to relocate outside the study area over the next 18 mos\n* Physician consent for PA and diet.\n\nExclusion Criteria:\n\n* Insulin dependent diabetes\n* Participation in a weight management program involving diet and PA in the past 6 mos\n* Eating disorders, serious food allergies, consuming special diets, aversion to common foods,\n* Diagnosis of Prader-Willi Syndrome\n* Currently pregnant, planning on/becoming pregnant during the study.\n* Unable to participate in moderate to vigorous PA.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "13 Years",
+    "maximumAge": "21 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Weight Change at 6 Months",
+        "description": "Participants will be weighed in shorts and a t-shirt , on a calibrated scale to the nearest 0.1 kg.",
+        "timeFrame": "Change in weight from baseline to 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Weight Change Across 18 Months",
+        "description": "Participants will be weighed in shorts and a t-shirt between 7 and 10 AM, in duplicate, on a calibrated scale to the nearest 0.1 kg.",
+        "timeFrame": "Change in weight from baseline to 18 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:15.849Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

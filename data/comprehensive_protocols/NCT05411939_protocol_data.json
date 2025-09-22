@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT05411939",
+  "briefTitle": "Investigating the Impact of a Shared Decision-Making Tool",
+  "officialTitle": "Investigating the Impact of a Shared Decision-Making Tool on Patient Attitudes and Behaviors Regarding Treatment for Knee Osteoarthritis",
+  "protocolDocument": {
+    "nctId": "NCT05411939",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-04-27",
+    "uploadDate": "2022-05-29T13:16",
+    "size": 438780,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05411939/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 105,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-04-15",
+    "completionDate": "2023-09-20",
+    "primaryCompletionDate": "2023-09-20",
+    "firstSubmitDate": "2022-06-06",
+    "firstPostDate": "2022-06-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* age 45-64\n* mild to moderate knee pain consistent with a diagnosis of osteoarthritis\n\nExclusion Criteria:\n\n* known inflammatory disease diagnosis (ex. Lupus, Sjogren, or rheumatoid arthritis, prior knee replacement, acute knee trauma)\n* BMI over 45\n* persons from vulnerable populations",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "45 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Impact of the shared decision-making tool on a patient's willingness to seek treatment for knee osteoarthritis",
+        "description": "The primary objective is to assess the impact of the shared decision-making tool on a patient's decision to seek treatment for knee osteoarthritis. This will be assessed using a survey with a 5-point scale that asks several questions about a patient's willingness to pursue specific treatment options (1 = not at all willing, 5 = completely willing). The change over time is assessed to see if the intervention changes the patient's willingness to consider different treatment options. To assess change a baseline survey, a survey immediately after the intervention, and survey 4 weeks later will be collected. Change = (Week 4 - Baseline) and Change = (Immediately after intervention - Baseline) and Change = (Week 4 - Immediately after intervention).",
+        "timeFrame": "Baseline, Immediately after intervention, and Week 4"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Impact of SDMT on patient understanding",
+        "description": "This outcome is assessed using survey questions with a 5-point scale response option (1 = do not understand disease progression, 5 = completely understand disease progression). One survey question asks how well participants understand their disease progression. This is assessed over time to see if the SDMT impacts patient understanding. To assess change a baseline survey, a survey immediately after the intervention, and survey 4 weeks later will be collected. Change = (Week 4 - Baseline) and Change = (Immediately after intervention - Baseline) and Change = (Week 4 - Immediately after intervention).",
+        "timeFrame": "Baseline, Immediately after intervention, and Week 4"
+      },
+      {
+        "measure": "Change in Impact of SDMT on decision-making",
+        "description": "This outcome is assessed through a survey question with a 5-point scale response option (1 = did not impact, 5 = completely impacted). This question asks specifically how the discussion (either standard of care or SDMT) impacts the participants decision to pursue treatment. To assess the change a baseline survey, a survey immediately after the intervention, and survey 4 weeks later will be collected. Change = (Week 4 - Baseline) and Change = (Immediately after intervention - Baseline) and Change = (Week 4 - Immediately after intervention).",
+        "timeFrame": "Baseline, Immediately after intervention, and Week 4"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:58.461Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,80 @@
+{
+  "nctId": "NCT02111057",
+  "briefTitle": "Perioperative Flare in RA: Characterization of Clinical and Biological Features",
+  "officialTitle": "Perioperative Flare in RA: Characterization of Clinical and Biological Features",
+  "protocolDocument": {
+    "nctId": "NCT02111057",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-03-09",
+    "uploadDate": "2019-02-26T17:09",
+    "size": 7873642,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02111057/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 162,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-10-16",
+    "completionDate": "2017-05-09",
+    "primaryCompletionDate": "2017-05-09",
+    "firstSubmitDate": "2014-04-08",
+    "firstPostDate": "2014-04-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age \\>18\n2. Patients with Rheumatoid Arthritis undergoing total joint replacement surgery\n3. Satisfy American College of Rheumatology(ACR)/European League Against Rheumatism(EULAR) 2010 classification criteria and/or the 1987 RA criteria (see below) and be diagnosed with RA\n4. For control subjects: Have OA(Osteoarthritis), SLE(Systemic lupus erythematosus) or other inflammatory arthritis.\n\nExclusion Criteria:\n\n1. Diagnosis of any other systemic rheumatic disease\n2. Diagnosis of or crystalline arthropathy.\n3. Unable to understand or read English.\n4. Unable to follow the study protocol in a reliable manner.\n5. Age \\< 18 or \\>75.\n\nEXPLANATION OF CRITERIA:\n\nRheumatoid arthritis 1987 criteria:\n\n1. morning stiffness in and around joints lasting at least 1 hour before maximal improvement;\n2. soft tissue swelling (arthritis) of 3 or more joint areas observed by a physician;\n3. swelling (arthritis) of the proximal interphalangeal, metacarpophalangeal, or wrist joints;\n4. symmetric swelling (arthritis);\n5. rheumatoid nodules;\n6. the presence of rheumatoid factor; and\n7. radiographic erosions and/or periarticular osteopenia in hand and/or wrist joints.\n\n   * Criteria 1 through 4 must have been present for at least 6 weeks. Rheumatoid arthritis is defined by the presence of 4 or more criteria, and no further qualifications (classic, definite, or probable) or list of exclusions are required.\n\nACR/EULAR 2010 criteria for the classification of RA:\n\nTable 3. The 2010 American College of Rheumatology/European League Against Rheumatism classification criteria for rheumatoid arthritis\n\nTarget population (Who should be tested?): Patients who\n\n1. have at least 1 joint with definite clinical synovitis (swelling)\\*\n2. with the synovitis not better explained by another disease\n\nClassification criteria for RA (score-based algorithm: add score of categories A-D;\n\na score of ≥6/10 is needed for classification of a patient as having definite RA\n\nScore\n\nA. Joint involvement\n\n1 large joint 0\n\n2-10 large joints 1\n\n1-3 small joints (with or without involvement of large joints) 2\n\n4-10 small joints (with or without involvement of large joints) 3\n\n\\>10 joints (at least 1 small joint) 5\n\nB. Serology (at least 1 test result is needed for classification)\n\nNegative RF and negative ACPA 0\n\nLow-positive RF or low-positive ACPA 2\n\nHigh-positive RF or high-positive ACPA 3\n\nC. Acute-phase reactants (at least 1 test result is needed for classification)\n\nNormal CRP and normal ESR 0\n\nAbnormal CRP or abnormal ESR 1\n\nD. Duration of symptoms\n\n\\< 6 weeks 0\n\n* 6 weeks 1\n\n  * The criteria are aimed at classification of newly presenting patients. In addition, patients with erosive disease typical of rheumatoid arthritis (RA) with a history compatible with prior fulfillment of the 2010 criteria should be classified as having RA. Patients with longstanding disease, including those whose disease is inactive (with or without treatment) who, based on retrospectively available data, have previously fulfilled the 2010 criteria should be classified as having RA.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Rate of RA Flare at 6 week post surgery",
+        "description": "The primary outcome is the rate of RA flare within 6 weeks of surgery as measured by the Outcome Measures in Rheumatoid Arthritis Clinical Trials(OMERACT) flare questionnaire. For comparison, the rate of RA flare at 1 week post surgery is measured.",
+        "timeFrame": "6 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Severity and impact of flares 6 weeks and one year post arthroplasty, using the OMERACT PFQs",
+        "description": "The OMERACT PFQs include flare intensity, duration of flare, worsening of domains associated with flare (pain, fatigue, stiffness, patient reported tender and swollen joint count, difficulties with coping and participation).",
+        "timeFrame": "6 weeks and one year"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 4,
+      "exclusionCount": 16,
+      "totalCount": 20
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 70,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:33:03.600Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

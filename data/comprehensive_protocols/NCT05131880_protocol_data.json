@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT05131880",
+  "briefTitle": "Gait Re-education Program in Subjects With Parkinson´s Disease",
+  "officialTitle": "Effectiveness of a Gait Re-education Program on a Sequential Square Treadmill (Tapiz Fisior) in Subjects With Parkison´s Disease",
+  "protocolDocument": {
+    "nctId": "NCT05131880",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2021-01-31",
+    "uploadDate": "2025-09-05T10:36",
+    "size": 508261,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05131880/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 52,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-01",
+    "completionDate": "2024-05-01",
+    "primaryCompletionDate": "2022-04-01",
+    "firstSubmitDate": "2021-11-08",
+    "firstPostDate": "2021-11-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Older than 50 years.\n* Diagnosed Parkinson Disease.\n* Not to be institutionalized.\n* Barthel index scores of ≥ 60.\n* Ability to communicate and to get up and walk at least 10 m (33 ft)\n\nExclusion Criteria:\n\n* Medical criteria for contraindication of treatment.\n* Severe behavioral problems that hinder participation in the training program.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Physical Performance: The Short Physical Performance Battery (SPPB)",
+        "description": "The Short Physical Performance Battery (SPPB) assesses lower limb function and mobility through three subtests: standing balance (0-4), 4-m gait speed (0-4), and five-times chair rise (0-4). Subtest scores are summed for a total range of 0-12, with higher scores indicating better performance. The SPPB is widely used to detect mobility limitations, frailty, and disability risk, and has been proposed as an indicator of the mobility subdomain of intrinsic capacity.",
+        "timeFrame": "Before the intervention, up to 15 minutes; and at the end of 12 weeks intervention, up to 15 minutes."
+      },
+      {
+        "measure": "Walk Speed: Timed Up and Go (TUG) Test",
+        "description": "The Timed Up and Go (TUG) test assesses basic mobility by measuring the time to stand from a chair, walk three meters, turn, return, and sit down. The time reflects walking speed, balance, turning ability, and overall functional mobility. Shorter times indicate better mobility, while longer times suggest slower gait and potential functional limitations.",
+        "timeFrame": "Before the intervention, up to 15 minutes; and at the end of 12 weeks intervention, up to 15 minutes."
+      },
+      {
+        "measure": "Risk of Falls: FallSkip",
+        "description": "FallSkip is a validated tool for assessing fall risk using a portable inertial sensor placed on the lumbar spine. It evaluates parameters such as balance, gait, reaction time, and strength during standardized tasks. Results are integrated into a global score ranging from 0 (highest risk) to 100 (lowest risk), with higher scores indicating better performance and reduced fall risk.",
+        "timeFrame": "Before the intervention, up to 10 minutes; and at the end of 12 weeks intervention, up to 10 minutes."
+      },
+      {
+        "measure": "Functionality and Independence: Barthel Index",
+        "description": "The Barthel Index is a validated scale measuring functionality and independence in activities of daily living (ADLs). It assesses 10 domains including feeding, bathing, dressing, mobility, and continence. Scores range from 0 (total dependence) to 100 (complete independence). Higher scores indicate greater functional autonomy, while lower scores reflect higher dependency and care needs.",
+        "timeFrame": "Before the intervention, up to 20 minutes."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "General Satisfaction",
+        "description": "The General Satisfaction test is used to assess participants' overall satisfaction with the intervention. Scores range from 0 to 5, where 0 indicates a very poor experience and 5 indicates an excellent experience. The scale reflects the participant's subjective evaluation of the intervention, including factors such as perceived usefulness, comfort, and outcomes. Higher scores represent greater satisfaction. This scale provides a quick and simple way to capture the overall impression of the intervention from the participant's perspective.",
+        "timeFrame": "At the end of 12 weeks intervention, up to 10 minutes."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:44.677Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

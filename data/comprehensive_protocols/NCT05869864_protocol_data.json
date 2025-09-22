@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT05869864",
+  "briefTitle": "Schools Championing Safe South Africa",
+  "officialTitle": "Schools Championing Safe South Africa: An Intervention Engaging Teachers and Students in Adolescent Prevention of HIV Risk and Intimate Partner Violence",
+  "protocolDocument": {
+    "nctId": "NCT05869864",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-05-04",
+    "uploadDate": "2025-06-03T14:51",
+    "size": 568323,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05869864/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 282,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-01-31",
+    "completionDate": "2025-04-22",
+    "primaryCompletionDate": "2023-10-18",
+    "firstSubmitDate": "2023-05-11",
+    "firstPostDate": "2023-05-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* identifies as boy\n* 15-17 years of age inclusive\n* attends school where study is occurring\n\nExclusion Criteria:\n\n* unable to secure parental consent\n* unable to secure parental consent child assent",
+    "healthyVolunteers": true,
+    "sex": "MALE",
+    "minimumAge": "15 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Who Expressed Satisfaction With the Intervention",
+        "description": "Client Satisfaction Questionnaire - Using the client satisfaction questionnaire, investigators will measure satisfaction using likert scale responses that range from 1 to 5 with 5 aligning with high satisfaction with the intervention. Investigators are aiming for 80% of more of participants with rankings of satisfied or higher. The questionnaire is based off of the following measure: Larsen DL, Attkisson CC, Hargreaves WA, Nguyen TD. Assessment of client/patient satisfaction: Development of a general scale. Evaluation and Program Planning. 1979;2:197-207.\n\nOnly participants in the intervention arm answer questions on satisfaction with the intervention.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Participants Who Were Retained At the 6-month Time Point",
+        "description": "There is no scale for feasibility. Investigators will look at retention rates. Feasibility will be aligned with 75% or higher retention rates at the 6 month timepoint.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Prevention or Reduction of Sexual Behavior Related to HIV Acquisition Risk as Measured Through the Percent of Participants Engaged in Lifetime Condom Use.",
+        "description": "This is an underpowered outcome because the primary goal of this study is not to evaluate efficacy. There is no scale for these behaviors. For this secondary outcome, investigators will examine the percent of participants who engaged in lifetime condom use. This will be reported for each arm, comparing percentages engaged in lifetime condom use at the 6-month time point for each arm separately.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Prevention or Reduction of Attempted or Completed Acts of Intimate Partner Violence Using Mary Koss's Short Form Sexual Violence Perpetration Scale At the 1-month Time Point",
+        "description": "This is an underpowered outcome because the primary goal of this study is not to evaluate efficacy. For this secondary outcome, investigators will examine if there is a decrease in incidents of attempted and completed acts of sexual violence. The percentage of participants engaged in any completed act of sexual perpetration - defined as 1 or more acts of forced touching, oral sex, anal sex, and/or vaginal sex - will be compared for the intervention arm, looking at baseline versus 1 month. Similarly, the percentage of participants engaged in any completed act of sexual perpetration - defined as 1 or more acts of forced touching, oral sex, anal sex, and/or vaginal sex - will be compared for the control arm, looking at baseline versus 1 month.",
+        "timeFrame": "1 month"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:21.252Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT04587050",
+  "briefTitle": "Screening for HPV and Cervical Cancer in Young Women With Perinatally Acquired HIV",
+  "officialTitle": "Screening for Human Papillomavirus and Cervical Cancer in Young Women With Perinatally Acquired HIV",
+  "protocolDocument": {
+    "nctId": "NCT04587050",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-11-01",
+    "uploadDate": "2024-06-19T08:07",
+    "size": 467097,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04587050/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 57,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-07-19",
+    "completionDate": "2023-06-30",
+    "primaryCompletionDate": "2023-06-30",
+    "firstSubmitDate": "2020-10-07",
+    "firstPostDate": "2020-10-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria - Cohort 1:\n\n* Perinatally acquired HIV aged 18+\n* Sexually active\n* Able to give informed consent\n\nInclusion Criteria - Cohort 2:\n\n* Perinatally acquired HIV aged 18+\n* Able to give informed consent\n\nExclusion Criteria - Cohort 1:\n\n* Pregnancy\n* Not sexually active\n* Previous total abdominal hysterectomy\n* Unable to give informed consent\n\nExclusion Criteria - Cohort 2:\n\n* Unable to give informed consent",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Prevalence of Abnormal Cervical Cytology",
+        "description": "Cervical sample taken in the clinic setting and sent to the laboratory for cytological examination. Prevalence of abnormal cytology is reported as the number of samples that had a non-normal cytology result (e.g. dyskaryotic cells) out of the total number tested",
+        "timeFrame": "1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Prevalence of High Risk HPV by Subtype",
+        "description": "Cervical sample taken in the clinic setting and tested for high-risk HPV on site using the Cepheid GeneXpert. Prevalence reported as the number of samples that were positive for any high-risk HPV out of all those tested",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Prevalence of CIN2+",
+        "description": "Participants with abnormal cytology and/or tested positive for high-risk HPV were referred for colposcopy. Prevalence reported as the number of participants who were diagnosed with CIN2+",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "HPV Serology (16/18)",
+        "description": "Number of participants testing positive for HPV 16 and 18 antibodies out of the those tested",
+        "timeFrame": "1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:20.109Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

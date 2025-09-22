@@ -1,0 +1,99 @@
+{
+  "nctId": "NCT03593941",
+  "briefTitle": "Ageing Gut Brain Interactions",
+  "officialTitle": "Ageing Gut Brain Interactions",
+  "protocolDocument": {
+    "nctId": "NCT03593941",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-02-28",
+    "uploadDate": "2018-07-06T08:13",
+    "size": 1083588,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03593941/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-08-02",
+    "completionDate": "2020-01-31",
+    "primaryCompletionDate": "2019-08-06",
+    "firstSubmitDate": "2018-06-21",
+    "firstPostDate": "2018-07-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Resident in a care home\n\nExclusion Criteria:\n\n* Use of antibiotics in last 8 weeks\n* Active gastrointestinal disease\n* Unable to provide informed consent",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Faecal sample Short chain fatty acid (SCFA) profile",
+        "description": "Indicator of gut microbiota metabolic activity",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "Faecal sample Microbiota DNA profile",
+        "description": "Indicator of gut microbiota composition",
+        "timeFrame": "4 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Macronutrient composition of care home menu",
+        "description": "The weekly care home menu will be analysed for the macronutrient contents (carbohydrate, fat and protein)",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "Frequency of challenging behaviours",
+        "description": "Log of the number of incidents of participant displaying challenging behaviours requiring care home staff intervention",
+        "timeFrame": "4 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Willingness to participate in future clinical trial survey",
+        "description": "Survey Monkey questionnaire",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Post-study survey",
+        "description": "Feedback survey on how participants found their experience",
+        "timeFrame": "1 month"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 2,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 53,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:04.435Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

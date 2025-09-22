@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT05572814",
+  "briefTitle": "Transform: Teaching, Technology, and Teams",
+  "officialTitle": "TRANSFORM3: Evaluation of Implementation Strategies of Teaching, Technology, and Teams to Optimize Medical Therapy in Cardiovascular Disease (T3)",
+  "protocolDocument": {
+    "nctId": "NCT05572814",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-09-30",
+    "uploadDate": "2022-09-30T11:30",
+    "size": 1369042,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05572814/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 750,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-09-30",
+    "completionDate": "2023-12-31",
+    "primaryCompletionDate": "2023-12-31",
+    "firstSubmitDate": "2022-09-27",
+    "firstPostDate": "2022-10-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n1. Age ≥18 years\n2. Personal access to a computer and/or Smartphone for app download\n3. Heart Failure (reduced and preserved ejection fraction) AND/OR\n4. Atrial Fibrillation with CHA2DS2-VASc score greater than or equal to 2 in men and greater than or equal to 3 in women AND/OR\n5. T2D and ASCVD, defined as follows:\n\n   1. Known CAD, prior ACS, or coronary artery revascularization\n   2. Prior TIA/stroke or known carotid or intracerebral atherosclerosis\n   3. Prior PAD including requiring revascularization\n\nExclusion Criteria:\n\nAll patients\n\n1. Current or anticipated participation in an interventional clinical trial of a drug/device\n2. Currently receiving comfort care or enrolled in hospice\n3. Life expectancy \\<1 year\n4. Pregnancy or active breastfeeding\n5. Current or anticipated participation in an interventional clinical trial (other than TRANSFORM3 GDMT)\n6. Patients without a clinical encounter within three years of study start date\n\nHeart Failure patients:\n\n1. History of or plan for heart transplantation or left ventricular assist de-vice\n2. Palliative chronic inotropic therapy\n3. NYHA Class 4 heart failure\n\nAtrial Fibrillation patients:\n\n1. Current prescription for OAC\n2. Reversible cause of atrial fibrillation, such as post-cardiothoracic surgery or thyrotoxicosis\n3. History of ischemic stroke in prior 7 days\n4. Transient ischemic attack in prior 3 days\n5. Platelet count \\<70,000/ml\n6. Hemoglobin concentration \\<8g/dl\n7. History of or condition associated with increased bleeding risk, such as hemophilia\n8. Major surgical procedure or trauma within 14 days\n9. Clinically significant gastrointestinal bleeding within 8 weeks",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adoption of evidence-based CV-risk reduction and disease management therapies for HF, AF, and T2D/ASCVD. This data will be found in the patient's medical record.",
+        "description": "GDMT baseline to 9 month change in average composite endpoint of receiving the main classes of drugs (50% or higher of target doses for HF) among eligible patients. We're aiming to see a change or increase in guideline-directed care where there was an original gap.",
+        "timeFrame": "9 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Quality of Life Outcome-MMA-4",
+        "description": "Difference in patient reported outcomes on Morisky Medication Adherence Scale (MMAS-4) from baseline, 3 and at 9 months.",
+        "timeFrame": "Study duration up to 1 year."
+      },
+      {
+        "measure": "Quality of Life Outcome-KCCQ-12",
+        "description": "Difference in patient-reported outcome/KCCQ-12 scores from baseline to 9 months (applicable to HFrEF and HFpEF study cohorts only).",
+        "timeFrame": "Study duration up to 1 year."
+      },
+      {
+        "measure": "Quality of Life Outcome-PAM",
+        "description": "Difference in patient reported outcomes on Patient Activation Measure® (PAM) from baseline, 3 and at 9 months.",
+        "timeFrame": "Study duration up to 1 year."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:32.162Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

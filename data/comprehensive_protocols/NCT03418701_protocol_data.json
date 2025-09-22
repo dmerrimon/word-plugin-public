@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT03418701",
+  "briefTitle": "Health-Smart for Weight Loss at UF Jax Clinics",
+  "officialTitle": "Culturally Sensitive Primary Care Clinic-based Interventions by Community Health Workers and Trained Physicians to Promote and Sustain Weight Loss Among Obese Black Women Patients",
+  "protocolDocument": {
+    "nctId": "NCT03418701",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-03-15",
+    "uploadDate": "2022-12-15T20:08",
+    "size": 484703,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03418701/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 683,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-04-01",
+    "completionDate": "2022-07-31",
+    "primaryCompletionDate": "2020-12-31",
+    "firstSubmitDate": "2018-01-25",
+    "firstPostDate": "2018-02-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* African American/black\n* Female\n* Age 21 years or older\n* BMI range ≥ 30kg/m2 (5) active patient of a participating clinic (i.e., at least 2 clinic visits in the last 24 months)\n* Willing and ready to change one's diet and physical activity level\n* Willing to be randomized to either of the two weight-loss maintenance intervention groups\n\nExclusion Criteria:\n\n* Any serious medical condition that likely affects weight, such as end stage renal disease or cancer\n* Prior bariatric surgery within the last 5 years or plans for this surgery in the next 2 years\n* Use of prescription or over-the-counter weight-loss medication within the last 6 months\n* Pregnant or plan to get pregnant within the next 2 years\n* Plan to relocate from the area within the next 2 years\n* Having had unintentional weight loss (\\>or = to 5% of body weight) within 6 months prior to enrollment\n* Taking a daily dose of oral corticosteroid antipsychotic (clozapine, olanzapine, or risperidone) for less than 6 months",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "21 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Weight Loss",
+        "description": "percentage of participating patients who show clinically significant weight loss (i.e., at least 5% of baseline body weight)",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Weight Loss Maintenance",
+        "description": "percentage of participants will maintain initial weight loss or show continued weight loss",
+        "timeFrame": "18 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:15.122Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

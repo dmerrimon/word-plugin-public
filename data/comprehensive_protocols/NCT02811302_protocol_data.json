@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT02811302",
+  "briefTitle": "PRediction of Opioid-induced Respiratory Depression In Patients Monitored by capnoGraphY",
+  "officialTitle": "PRediction of Opioid-induced Respiratory Depression In Patients Monitored by capnoGraphY (PRODIGY)",
+  "protocolDocument": {
+    "nctId": "NCT02811302",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-11-29",
+    "uploadDate": "2019-04-24T10:35",
+    "size": 8364868,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02811302/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1495,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-04-07",
+    "completionDate": "2018-05-07",
+    "primaryCompletionDate": "2018-05-07",
+    "firstSubmitDate": "2016-06-21",
+    "firstPostDate": "2016-06-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patients receiving parenteral opioid therapy (for post-surgical or non-surgical) pain on the hospital ward.\n2. Adult age (≥18 year old in US and Europe; ≥20 years old in Japan; ≥21 years old in Singapore).\n3. Patient is able and willing to give informed consent.\n\nExclusion Criteria:\n\n1. Expected length of stay ≤ 24 hours.\n2. Patient is receiving intrathecal opioids.\n3. Post-surgical patients with American Society of Anesthesiologists physical status (ASA PS) V or higher.\n4. Patients with the status of Do Not Resuscitate (DNR), hospice, or receiving end of life therapy.\n5. Ventilated or intubated patients.\n6. Patient is unwilling or unable to comply fully with study procedures (including non-toleration of the capnography cannula) due to any disease condition which can raise doubt about compliance and influencing the study outcome.\n7. Patient is a member of a vulnerable population, including legal incapacity or evidence that a subject cannot understand the purpose and risks of the study, regardless of authorized representative support.\n8. Patient is participating in another potentially confounding drug or device clinical study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Determine Number of Subjects With RD While on Opioid Therapy",
+        "description": "Continuous respiratory monitoring using a Capnostream monitor will be included for collecting data for end tidal carbon dioxide (etCO2) and Oxygen saturation (SpO2). Positive RD determination was provided by an independent Clinical Event Committee, by assessing the following parameters:\n\n* etCO2 ≤ 15 or ≥ 60 mmHg for ≥ 3 minutes, or\n* RR ≤ 5 breaths for ≥ 3 minutes, or\n* SpO2 ≤ 85% for ≥ 3 minutes, or\n* Apnea episode lasting \\> 30 seconds, or\n* Any respiratory Opioid-Related Adverse Event (rORADE).",
+        "timeFrame": "48 hours"
+      },
+      {
+        "measure": "To Derive and Validate a Risk Assessment Tool to Identify Subjects at Risk of Having RD While Undergoing Opioid Therapy on the Hospital Ward",
+        "description": "A risk assessment tool will be derived and validated using the incidence of RD episodes captured by continuous capnography and pulse oximetry measurements recorded on the Capnostream device memory data in conjunction with the clinical data as reported by the investigator.",
+        "timeFrame": "48 hours"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:17.838Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

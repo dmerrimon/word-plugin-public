@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT03025828",
+  "briefTitle": "Adrenocorticotropic Hormone in Membranous Nephropathy",
+  "officialTitle": "Changes in Autoreactive Memory B Cells as Biomarker of Response to Adrenocorticotropic Hormone in Patients With Membranous Nephropathy",
+  "protocolDocument": {
+    "nctId": "NCT03025828",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-07-16",
+    "uploadDate": "2022-07-13T10:28",
+    "size": 302634,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03025828/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-03-19",
+    "completionDate": "2020-12-16",
+    "primaryCompletionDate": "2020-12-16",
+    "firstSubmitDate": "2017-01-17",
+    "firstPostDate": "2017-01-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18 to 70 years\n* Free of immunosuppression for at least 3 months\n* Capability of understanding the purpose of the study\n* Written informed consent\n\nExclusion Criteria:\n\n* Epidermal growth factor receptor (eGFR) \\< 30ml/min/1.73m2\n* Kidney Transplant\n* Secondary MN (defined on the basis of clinical criteria)\n* Type 1 or Type 2 diabetes mellitus (prior diagnosis of gestational diabetes mellitus is not an exclusion)\n* History of previous use of Acthar for treatment of nephrotic syndrome\n* Prior sensitivity to Acthar or other porcine protein products\n* Contraindication to Acthar per Prescribing Information\n* Planned treatment with live or live attenuated vaccines once enrolled in the study\n* More than three previous treatment regiments\n* Participation to other clinical trials over the previous 12 months\n* History of cancer, except carcinoma in situ and treated basal and squamous cell carcinomas\n* Pregnancy\n* Lactation\n* Current substance abuse\n* Any clinically relevant condition that might affect study participation and/or study results",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Proteinuria",
+        "description": "Change in proteinuria at baseline versus after 12 months of treatment as measured by urine protein/creatinine ratio",
+        "timeFrame": "baseline and 12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Complete or Partial Remission",
+        "description": "Complete (proteinuria reduction \\<500mg/24h) or partial (urinary protein excretion (P/C) \\<3.0 g/g (with at least 50% reduction versus baseline) in at least two consecutive visits) remission.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Change in Serum Albumin",
+        "description": "Change in serum albumin from baseline",
+        "timeFrame": "baseline 6 months, 12 months"
+      },
+      {
+        "measure": "Estimated Glomerular Filtration Rate (GFR)",
+        "description": "GFR measures kidney function.",
+        "timeFrame": "baseline and 12 months"
+      },
+      {
+        "measure": "Number of Anti-PLA2R Memory B Cells",
+        "description": "Number of anti-PLA2R memory B cells",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Anti-PLA2R Antibodies Levels",
+        "description": "blood levels\n\nNumber of anti-PLA2R memory B cells",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Change in CD4+CD25+CD127low T Regulatory Cells/CD4+ T Cell Ratio",
+        "description": "blood levels - one single cell subset identified by different markers",
+        "timeFrame": "baseline and 12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:06.786Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

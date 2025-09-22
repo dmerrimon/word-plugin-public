@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT03901092",
+  "briefTitle": "A Reader Study to Assess Accuracy and Reliability of Flortaucipir F 18 Positron Emission Tomography (PET) Scan Interpretation",
+  "officialTitle": "A Reader Study to Assess Accuracy and Reliability of Flortaucipir F 18 PET Scan Interpretation",
+  "protocolDocument": {
+    "nctId": "NCT03901092",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-03-21",
+    "uploadDate": "2020-06-27T14:24",
+    "size": 333138,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03901092/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 242,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-26",
+    "completionDate": "2019-04-26",
+    "primaryCompletionDate": "2019-04-26",
+    "firstSubmitDate": "2019-03-27",
+    "firstPostDate": "2019-04-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Scan Reader Criteria (5 total):\n\n* Board-certified in radiology or nuclear medicine\n* Professional experience interpreting PET scans\n* Naive to study protocol\n* No previous training or exposure to Avid Flortaucipir F 18 read methodology\n\nScan Criteria:\n\n\\- Previous enrollment in Study A05 confirmatory cohort (NCT02016560), or A16 (NCT02516046)\n\nScan Study Population Criteria for FR01 (A05 confirmatory cohort):\n\n* Cognitively-impaired\n* mild cognitive impairment (MCI) or dementia with suspected neurodegenerative cause\n* mini-mental status exam (MMSE) score of 20-27, inclusive\n\nScan Study Population Criteria for FR01 (Study A16):\n\n* Subjects at end of life (less than or equal to 6 months)\n* Imaged with flortaucipir F18 and came to autopsy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Primary Objective 1 Analysis 1: Diagnostic Performance of Individual Readers (NFT Score)",
+        "description": "Sensitivity and specificity of 5 independent readers' interpretations of ante-mortem 18F-AV-1451 PET imaging for detection of a pattern of 18F-AV-1451 neocortical uptake that corresponds to neurofibrillary tangles (NFT) Score of B3 (Hyman et al., 2012; Montine et al., 2012). NFT B scores range from B0 (no NFTs in the brain) to B3 (widespread NFTs in the brain). Sensitivity and specificity are percentages that can range from 0 to 100%. The hypothesis tested was that, of the 5 independent imaging physicians, at least 3 will have the lower bounds of 2-sided 95% CIs ≥50%, for both sensitivity and specificity.",
+        "timeFrame": "baseline scan"
+      },
+      {
+        "measure": "Primary Objective 1 Analysis 2: Diagnostic Performance of Individual Readers (NIA-AA Autopsy Diagnosis)",
+        "description": "Sensitivity and specificity of 5 independent readers' interpretations of ante-mortem 18F-AV-1451 PET imaging for detection of a pattern of 18F-AV-1451 neocortical uptake that corresponds to high levels of AD neuropathologic change (High ADNC) as defined by National Institute on Aging-Alzheimer's Association (NIA-AA) criteria (see Hyman et al. 2012). ADNC categories are None, Low, Intermediate and High, with High indicating the most severe level of AD-related pathology changes in the brain. The hypothesis tested was that, of the 5 independent imaging physicians, at least 3 will have the lower bounds of 2-sided 95% CIs ≥50%, for both sensitivity and specificity.",
+        "timeFrame": "baseline scan"
+      },
+      {
+        "measure": "Primary Objective 2: Inter-reader Reliability of Reader Interpretation of Flortaucipir-PET Imaging",
+        "description": "As measured by Fleiss' Kappa across all scans read. Fleiss' kappa is a statistical measure for assessing the reliability of agreement between a fixed number of raters when assigning categorical ratings to a number of items or classifying items. Fleiss' kappa can range from 0 to 1 with 1 indicating perfect agreement between the readers. Scan results binarized as positive AD pattern versus negative AD pattern. Results are displayed as percentage of agreement for individual reader pairs, computed as follows: number of images for which reader had the same interpretation divided by the total number of images evaluated, multiplied by 100%.",
+        "timeFrame": "baseline scan"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Secondary Objective 1 Analysis 1: Diagnostic Performance of τAD++ Flortaucipir PET Images to Detect B3 NFTs",
+        "description": "Flortaucipir F 18 PET imaging will be classified by each reader as either neocortical uptake not consistent with AD (τAD-), neocortical uptake consistent with AD (τAD+), or neocortical uptake consistent with AD with uptake beyond the temporal/occipital regions (τAD++). NFT scoring is according to Hyman, et al 2012. Truth positive is a NFT B3 score. Truth negative is NFT \\<B3 score.",
+        "timeFrame": "baseline scan"
+      },
+      {
+        "measure": "Secondary Objective 1 Analysis 2: Diagnostic Performance of τAD++ Flortaucipir PET Images to Detect High ADNC",
+        "description": "Sensitivity and specificity of 5 independent readers' interpretations of ante-mortem 18F-AV-1451 PET imaging for detection of a pattern of 18F-AV-1451 neocortical uptake that corresponds to high levels of AD neuropathologic change (High ADNC) as defined by National Institute on Aging-Alzheimer's Association (NIA-AA) criteria (Hyman et al. 2012). Truth positive is a High ADNC score. Truth negative is No/Low/Intermediate ADNC score.",
+        "timeFrame": "baseline scan"
+      },
+      {
+        "measure": "Secondary Objective 2: Inter-reader Reliability of Reader Interpretation of τAD++ Flortaucipir PET Images",
+        "description": "Overall reader agreement as measured by Fleiss' Kappa statistic. Scan results binarized as τAD++ versus τAD+/τAD-. Results are displayed as percentage of agreement for individual reader pairs, computed as follows: number of images for which reader had the same interpretation divided by the total number of images evaluated, multiplied by 100%.",
+        "timeFrame": "baseline scan"
+      },
+      {
+        "measure": "Secondary Objective 3: Inter-reader Reliability of Flortaucipir PET Scan Interpretation in the Population of Intended Use",
+        "description": "Reader agreement measured by Fleiss' Kappa across scans from non-autopsy cases from Study A05. Scan results binarized as positive for AD pattern versus negative for AD pattern. Results are displayed as percentage of agreement for individual reader pairs, computed as follows: number of images for which reader had the same interpretation divided by the total number of images evaluated, multiplied by 100%.",
+        "timeFrame": "baseline scan"
+      },
+      {
+        "measure": "Secondary Objective 4: Intra-reader Reliability of Reader Interpretation of Flortaucipir-PET Imaging",
+        "description": "Cohen's Kappa will be calculated for each of 5 readers to assess the intra-reader reliability of flortaucipir F 18 PET scan visual interpretation. The statistic takes into account the possibility of the agreement occurring by chance. Cohen's kappa values range from 0 to 1 with 1 representing perfect agreement. Results are displayed as percentage of agreement within a reader, computed as follows: number of images for which reader had the same interpretation at initial and second read divided by the total number of images evaluated twice by a reader, multiplied by 100%.",
+        "timeFrame": "baseline scan"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:38.857Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

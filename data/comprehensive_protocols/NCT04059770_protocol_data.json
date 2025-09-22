@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT04059770",
+  "briefTitle": "Randomized Trial of Liposomal Amphotericin B for Histoplasmosis in AIDS Patients",
+  "officialTitle": "Open Label Phase-II Randomized Trial of Three Liposomal Amphotericin B Regimens as Induction Therapy for Disseminated Histoplasmosis in AIDS Patients",
+  "protocolDocument": {
+    "nctId": "NCT04059770",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-02-24",
+    "uploadDate": "2024-02-21T12:10",
+    "size": 556864,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04059770/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 118,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-02-14",
+    "completionDate": "2022-03-30",
+    "primaryCompletionDate": "2021-12-31",
+    "firstSubmitDate": "2019-04-01",
+    "firstPostDate": "2019-08-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adult (\\> 18 years) HIV-infected hospitalized patients diagnosed with HD by the means of (i) urine Histoplasma positive antigen (IMMY® monoclonal antibody test); (ii) confirmation by classical mycological methods (microscopy, culture or histopathology); or (iii) Histoplasma positive qualitative polymerase chain reaction (PCR) in bronchoalveolar lavage samples, bone marrow aspirates or tissue samples.\n* Patients will be included despite of the use of antiretroviral therapy (ART).\n* Understanding and signed the Informed Consent Form.\n\nExclusion Criteria:\n\n* Patients with previous diagnosis of histoplasmosis.\n* Pregnant or lactating women.\n* Patients with renal insufficiency (serum creatinine and urea \\> 1.5x the upper limit of normal).\n* Abnormal aminotransferases (up to \\> 3x the upper limit of normal) and patients with a severe prior reaction to polyene antifungal.\n* Patients who have received more than one dose of a polyene antifungal in the last 48 hours.\n* Patients who refuse to participate in the study.\n* Patients diagnosed with histoplasmosis that affect the central nervous system.\n* Patients who, at the trial of the attending physician, are expected to die within 48 hours.\n* Patients diagnosed with tuberculosis.\n* Patients with any disease or condition that, in the opinion of the investigator, may interfere with the assessments or participation in the study.\n* Patients receiving drugs that cause significant (relative or absolute) drug interaction with Itraconazole.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Clinical Response",
+        "description": "Maximum daily temperature lower than 37.8 °C",
+        "timeFrame": "day 14"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Mortality",
+        "description": "Mortality rates attributed to the cause of death that is not directly and only related to histoplasmosis",
+        "timeFrame": "day 14"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:20.888Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT05322811",
+  "briefTitle": "Emotional State Among Patients With Neurological Disorders",
+  "officialTitle": "Emotional State Among Patients With Neurological Disorders",
+  "protocolDocument": {
+    "nctId": "NCT05322811",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-04-07",
+    "uploadDate": "2022-04-07T07:15",
+    "size": 184694,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05322811/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 35,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-12-01",
+    "completionDate": "2022-02-01",
+    "primaryCompletionDate": "2022-02-01",
+    "firstSubmitDate": "2022-02-03",
+    "firstPostDate": "2022-04-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* patients with neurological disorders\n\nExclusion Criteria:\n\n* not given concent\n* Incomplete questionaire answers",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Emotional state score of the patients",
+        "description": "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed to measure the emotional states of depression, anxiety and stress. Each of the three DASS-21 scales contains 7 items, divided into subscales with similar content. Scores on the DASS-21 will need to be multiplied by 2 to calculate the final score. Minimum score 0, maximum score 116+. The high score means a worse outcome.",
+        "timeFrame": "through study completion, an average of 1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Stress frequency at the participants",
+        "description": "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed to measure the emotional states of depression, anxiety and stress. Each of the three DASS-21 scales contains 7 items, divided into subscales with similar content. Minimum score for stress is 0, maximum score 34+. The high score means a worse outcome.",
+        "timeFrame": "through study completion, an average of 1 year"
+      },
+      {
+        "measure": "Depression frequency at the participants",
+        "description": "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed to measure the emotional states of depression, anxiety and stress. Each of the three DASS-21 scales contains 7 items, divided into subscales with similar content. Minimum score for stress is 0, maximum score 28+. The high score means a worse outcome.",
+        "timeFrame": "through study completion, an average of 1 year"
+      },
+      {
+        "measure": "Anxiety frequency at the participants",
+        "description": "The Depression, Anxiety and Stress Scale - 21 Items (DASS-21) is a set of three self-report scales designed to measure the emotional states of depression, anxiety and stress. Each of the three DASS-21 scales contains 7 items, divided into subscales with similar content. Minimum score for stress is 0, maximum score 20+. The high score means a worse outcome.",
+        "timeFrame": "through study completion, an average of 1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:18.207Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

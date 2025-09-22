@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT03557086",
+  "briefTitle": "A Randomized Controlled Trial of an Advanced Care Planning Video Decision Support Tool for Patients With End-Stage Liver Disease",
+  "officialTitle": "A Randomized Controlled Trial of an Advanced Care Planning Video Decision Support Tool for Patients With End-Stage Liver Disease",
+  "protocolDocument": {
+    "nctId": "NCT03557086",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-02-06",
+    "uploadDate": "2021-08-31T09:54",
+    "size": 462028,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03557086/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-09-28",
+    "completionDate": "2020-03-03",
+    "primaryCompletionDate": "2020-03-03",
+    "firstSubmitDate": "2018-06-04",
+    "firstPostDate": "2018-06-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. ≥ 18 years of age with an established diagnosis of end-stage liver disease\n2. Patient must have either 1) primary hepatologist at the MGH Liver Center or an MGH-affiliated primary care physician, or 2) a previous inpatient admission at MGH\n3. Deemed ineligible for liver transplantation as determined by the primary hepatologist\n4. Ability to communicate in English and provide informed consent\n5. A score ≥ 7 on the Short Portable Mental Status Questionnaire\n\nExclusion Criteria:\n\n1. Severe hepatic encephalopathy which the primary hepatologist believes prohibits informed consent or participation in the study\n2. Significant uncontrolled psychiatric disorders (psychotic disorder, bipolar disorder, major depression) or other co-morbid disease (dementia, cognitive impairment), which the primary hepatologist believes prohibits informed consent or participation in the study\n3. Prior history of liver transplantation\n4. Patient has been referred to or enrolled in hospice care\n5. Patients who have been referred to palliative care",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Eligible Participants Enrolled in the Study",
+        "description": "The proposed video intervention will be deemed feasible if at least 60% of eligible patients are enrolled in the study.",
+        "timeFrame": "By 12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Changes in Knowledge Scores From Baseline to Post-intervention",
+        "description": "We will assess patients' knowledge of goals of care before and after the intervention using 5 true/false questions and 1 multiple choice question, each worth 1 point, for a summary score of 0 to 6 (higher score reflects greater knowledge). We have used this knowledge questionnaire in prior studies. Changes in knowledge scores from before and after the intervention will be compared between the intervention and control arms.",
+        "timeFrame": "Baseline and post-intervention, by 12 months"
+      },
+      {
+        "measure": "Preferences for Life-prolonging Care, Preferences to Receive Cardiopulmonary Resuscitation (CPR), and Preferences to Receive Intubation",
+        "description": "Before and after the intervention, patients will report their post-intervention preferences for life-prolonging care: life-prolonging care, limited medical care, comfort care, or unsure. Before the intervention, patients will report their preferences to receive CPR as follows: \"Yes, attempt CPR\", \"No, do not attempt CPR\", or \"Not sure.\" Before the intervention, patients will report their preferences to receive intubation as follows: \"Yes, attempt intubation\", \"No, do not attempt intubation\", or \"Not sure.\"\n\nPost-intervention preferences for life-prolonging care (life-prolonging care, limited medical care, and comfort care), preferences to receive CPR, and preferences to receive intubation will be compared between the two groups.",
+        "timeFrame": "By 12 months"
+      },
+      {
+        "measure": "Code Status Documentation",
+        "description": "Code status documentation in the electronic health record will be compared between the intervention and control arms.",
+        "timeFrame": "By 12 months"
+      },
+      {
+        "measure": "Number of Participants Who Answered That They Felt \"Very Comfortable\" Seeing the Video in Response to First Question of Acceptability Questionnaire (Acceptability - Comfort)",
+        "description": "For the video intervention arm alone, we will administer 3-items assessing patients' comfort with watching the video, whether they find the video helpful in their understanding of the EOL care options, and whether they would recommend it to others. For the outcome of \"comfort\" we asked patients whether they felt comfortable watching the video by asking the question: \"Did you feel comfortable seeing the video in order to help you answer the questions regarding medical care?\". Response choices were on a Likert scale with answer choices as follows: 1) very comfortable; 2) somewhat comfortable; 3) not comfortable; 4) don't know. We report below the percentage of patients who answered \"very comfortable\".",
+        "timeFrame": "By 12 months"
+      },
+      {
+        "measure": "Number of Participants Who Answered That They Felt the Video Was \"Very Helpful\" in Response to Second Question of Acceptability Questionnaire (Acceptability - Helpful)",
+        "description": "For the video intervention arm alone, we will administer 3-items assessing patients' comfort with watching the video, whether they find the video helpful in their understanding of the EOL care options, and whether they would recommend it to others. For the outcome of \"helpful\" we asked patients whether they felt the video was helpful by asking the question: \"Was the video helpful in improving your understanding about your choices for medical care?\". Response choices were on a Likert scale with answer choices as follows: 1) very helpful; 2) somewhat helpful; 3) a little helpful; 4) not helpful. We report below the percentage of patients who answered \"very helpful\".",
+        "timeFrame": "Within 12 months"
+      },
+      {
+        "measure": "Number of Participants Who Answered That They Would \"Definitely Recommend\" the Video to Other Patients in Response to Third Question on Acceptability Questionnaire (Acceptability - Recommend to Others)",
+        "description": "For the video intervention arm alone, we will administer 3-items assessing patients' comfort with watching the video, whether they find the video helpful in their understanding of the EOL care options, and whether they would recommend it to others. For the outcome of \"recommend to others\" we asked patients whether they would recommend the video to other patients by asking the question: \"Would you recommend the video to other patients with advanced liver disease who are facing a similar decision?\". Response choices were on a Likert scale with answer choices as follows: 1) I would definitely recommend it; 2) I would probably recommend it; 3) I would probably not recommend it; 4) I would definitely not recommend it. We report below the percentage of patients who answered \"I would definitely recommend it\".",
+        "timeFrame": "within 12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:10.971Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

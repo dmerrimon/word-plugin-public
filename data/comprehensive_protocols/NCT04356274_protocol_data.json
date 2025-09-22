@@ -1,0 +1,142 @@
+{
+  "nctId": "NCT04356274",
+  "briefTitle": "Local Participatory Systems Dynamics to Increase Reach of Evidence Based Addiction and Mental Health Care",
+  "officialTitle": "Participatory System Dynamics vs Audit and Feedback: A Cluster Randomized Trial of Mechanisms of Implementation Change to Expand Reach of Evidence-based Addiction and Mental Health Care",
+  "protocolDocument": {
+    "nctId": "NCT04356274",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-11-05",
+    "uploadDate": "2023-06-05T12:26",
+    "size": 1264113,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04356274/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 720,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2019-02-01",
+    "completionDate": "2025-12-31",
+    "primaryCompletionDate": "2025-11-30",
+    "firstSubmitDate": "2019-03-08",
+    "firstPostDate": "2020-04-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria Clinics:\n\n* VA divisions and community-based outpatient clinics (CBOCs) or 'clinics' from regional VA health systems\n* Must be below the overall VA quality median (as assessed by the Strategic Analytics for Improvement and Learning or SAIL), which includes 3 of 8 SAIL measures associated with four evidence-based psychotherapies and three evidence-based pharmacotherapies for depression, PTSD, and opioid use disorder.\n\nExclusion Criteria Clinics:\n\n* clinics with less than 12 months of data in 2018\n* clinics already involved in Office of Veterans Access to Care (OVACS) quality improvement program at baseline.\n* clinics where the VA Cerner electronic health record (EHR) implementation rollout will occur during the project period (Veterans Integrated Services Networks (VISNs) 20, 21 ,22, and 7)\n* clinics who serve less than 122 unique patients each month on average\n* clinics without an onsite multidisciplinary team of mental health or addiction service providers (minimum required: 1 psychiatrist, 1 psychologist, 1 social worker onsite)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of patients diagnosed with alcohol use disorder, depression, opioid use disorder, or PTSD who meet evidence-based psychotherapy and pharmacotherapy initiation and course measures divided by total number of patients with these diagnoses",
+        "description": "Initiation of an evidence-based practice is indicated by an evidence-based psychotherapy template or evidence-based pharmacotherapy prescription after intake. Adequate course is based on receiving an adequate number of evidence-based psychotherapy sessions to be a \"completer\" (typically 8 sessions) or enough refills for a guideline-recommended adequate trial of each medication (varies by medication). Data is gathered based on electronic health record data from the VA Corporate Data Warehouse (CDW).",
+        "timeFrame": "Pre-/Post- 12-month period average of evidence-based practice reach (24 months total observation)"
+      },
+      {
+        "measure": "Proportion of completed evidence-based practice templates during sessions with a relevant CPT code",
+        "description": "We will study 5 evidence-based psychotherapies: 3 for depression (Cognitive Behavior Therapy (CBT-D), Acceptance and Commitment Therapy (ACT), and Interpersonal Psychotherapy (IPT)) and 2 for PTSD (Prolonged Exposure (PE) and Cognitive Processing Therapy (CPT)). Data is gathered based on electronic health record data from the Corporate Data Warehouse (CDW).",
+        "timeFrame": "Pre-/Post- 12-month period average of evidence-based practice reach (24 months total observation)"
+      },
+      {
+        "measure": "Proportion of combination of prescriptions placed with the VA pharmacy and sessions with a relevant CPT code",
+        "description": "We will study 8 evidence-based pharmacotherapies: 2 for depression (84 and 180 days therapeutic continuity at new antidepressant start), 2 for Opioid Use Disorder (OUD) (methadone and buprenorphine), and 4 for Alcohol Use Disorder (AUD) (Acamprosate, Disulfiram, Naltrexone, and Topiramate). Data is gathered based on electronic health record data from the Corporate Data Warehouse (CDW).",
+        "timeFrame": "Pre-/Post- 12-month period average of evidence-based practice reach (24 months total observation)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Degree of acceptability of intervention assessed by the Acceptability of Intervention Measure (AIM) [followed by its scale information in the Description]",
+        "description": "Assesses degree of differences in team perceptions of PSD and AF on a survey with 4 items.\n\nScale: 1-5, in 1 point increments (1 = completely disagree, 2 = disagree, 3 = neither agree nor disagree, 4 = agree, 5 = completely agree)",
+        "timeFrame": "At 6 months"
+      },
+      {
+        "measure": "Degree of appropriateness of intervention assessed by the Intervention Appropriateness Measure (IAM) [followed by its scale information in the Description]",
+        "description": "Assesses degree of for differences in team perceptions of PSD and AF on a survey with 4 items.\n\nScale: 1-5, in 1 point increments (1 = completely disagree, 2 = disagree, 3 = neither agree nor disagree, 4 = agree, 5 = completely agree)",
+        "timeFrame": "At 6 months"
+      },
+      {
+        "measure": "Degree of feasibility of intervention assessed by the Feasibility of Intervention Measure (FIM) [followed by its scale information in the Description]",
+        "description": "Assesses degree of differences in team perceptions of PSD and AF on a survey with 4 items.\n\nScale: 1-5, in 1 point increments (1 = completely disagree, 2 = disagree, 3 = neither agree nor disagree, 4 = agree, 5 = completely agree)",
+        "timeFrame": "At 6 months"
+      },
+      {
+        "measure": "Patient Aligned Care team Burnout Measure (PACT) [followed by its scale information in the Description]",
+        "description": "Quality of work satisfaction and burnout in a 4-item descriptive survey with measures from VA team-based primary care that tracks 1) years of experience with the team, 2) working on more than one team, 3) turnover/change in team staff, 4) team overwork, and the single-item 5) self-reported burnout (sensitivity 83.2% and specificity 87.4%)\n\n(Question 1) Answered in # of years (Question 2-3) Yes or No (Question 4-5) Scale: 1-5, in 1 point increments (1 = Never, 2 = Rarely, 3 = Sometimes, 4 = Very Often, 5 = Always)",
+        "timeFrame": "At baseline and 6 months"
+      },
+      {
+        "measure": "Learning Organization Survey (LOS-27) [followed by its scale information in the Description]",
+        "description": "Psychological safety in the workplace using a 27-item survey developed out of the learning organization tradition and demonstrated to have good psychometric properties during VA validation which assesses 7 clinic context factors: a) supportive learning environment (including psychological safety), b) leadership that reinforces learning, c) experimentation, d) training, e) knowledge acquisition, f) time for reflection, and g) performance monitoring\n\n(Questions 1-23) Scale: 0-4, in 1 point increments (0 = Never, 4 = Always) (Questions 24-27) Scale: 0 to 7, in 1 point increments (0 = Highly Inaccurate, 7 = Highly Accurate)",
+        "timeFrame": "At baseline and 6 months"
+      },
+      {
+        "measure": "Team Decision Making Questionnaire (TDMQ) [followed by its scale information in the Description]",
+        "description": "Team dynamics in the workplace using a four factor scale survey validated to assess the impact of a team intervention on team decision-making, support learning and development of quality services\n\nScale: 1-7, in 1 point increments incl N/A (N/A = Not Applicable, 1 = Not at all, 2 = To a very small extent, 3 = To a small extent, 4 = To a moderate extent, 5 = To a great extent, 6 = To a very great extent, 7 = To a vast extent)",
+        "timeFrame": "At 6 months"
+      },
+      {
+        "measure": "Systems Thinking Scale (STS) [followed by its scale information in the Description]",
+        "description": "Use of systems thinking in the work place and the ability to recognize, understand, and synthesize interactions and interdependencies, including how actions and components can reinforce or counteract each other.\n\nScale: 1-5, in 1 point increments (1 = Never, 2 = Seldom, 3 = Some of the time, 4 = Often, 5 = Most of the time)",
+        "timeFrame": "At baseline and 6 months"
+      },
+      {
+        "measure": "Systems Thinking Codebook and Session Observations [followed by its scale information in the Description]",
+        "description": "Observation of systems thinking in language/explanations, and performance demonstrating system thinking skills (competence) measured on four constructs: Complex, Feedback, Behavior, Time\n\nScale: Level 1-4 in 1 point increments (1 = Construct is demonstrated at most simple level, 4 = Construct is fully demonstrated at most complex level)",
+        "timeFrame": "Over 6 months"
+      },
+      {
+        "measure": "Facilitator Fidelity to Intervention Guides and Theory of Change",
+        "description": "Review fidelity with qualitative checks against AF/PSD facilitator scripts for session learning objectives, 'key idea' and 'definitions,' including tracking the proportion of AF/PSD session activities (in minutes) on these components.",
+        "timeFrame": "Over 6 months"
+      },
+      {
+        "measure": "Demographic Measures",
+        "description": "4 item measure assessing ethnic (Hispanic, Latino, Latina, or Latinx), racial (American Indian/Alaska Native, Asian, Native Hawaiian or Other Pacific Islander, Black or African American, White, More than One Race) and gender (Man, Woman, Non-binary) identity of respondent.\n\nAll items include a \"Prefer not to say\" option. Categories for demographic measures determined based on NIH reporting standards.",
+        "timeFrame": "At baseline and 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 13
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:20.267Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

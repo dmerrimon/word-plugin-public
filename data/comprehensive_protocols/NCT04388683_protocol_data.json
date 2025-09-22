@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT04388683",
+  "briefTitle": "Inhaled Nitric Oxide for Preventing Progression in COVID-19",
+  "officialTitle": "Prevention of COVID-19 Progression Through Early Administration of Inhaled Nitric Oxide.",
+  "protocolDocument": {
+    "nctId": "NCT04388683",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-07-27",
+    "uploadDate": "2022-03-18T14:16",
+    "size": 592416,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04388683/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 10,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-12",
+    "completionDate": "2020-11-23",
+    "primaryCompletionDate": "2020-11-23",
+    "firstSubmitDate": "2020-05-13",
+    "firstPostDate": "2020-05-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age 18-85 years.\n2. Admitted to the hospital (med-surg or critical care) with dyspnea\n3. Diagnosis of COVID-19 based on either\n\n   1. positive nasal or oral pharyngeal swab by PCR, or\n   2. highly probable clinical picture based on clinical and CXR/CT scan\n4. Requiring oxygen supplementation OR O2 saturation on room air of ≤ 94%\n5. At least 2 of the following 4 risk factors for clinical worsening:\n\n   1. Age \\>= 60 years\n   2. T2DM or pre-diabetes as evidenced by either treatment with a hypoglycemic agent or any documented HgA1c \\>= 5.6\n   3. Obesity, based on BMI \\>= 30 kg/m2\n   4. Hypertension, based on treatment with an antihypertensive medication or systolic or diastolic blood pressure measurement \\>= 140 or \\>= 90 mmHg, documented at enrollment or at any time within the prior 6 months.\n\nExclusion Criteria:\n\n1. Intubated or prior intubation (during present hospitalization) or anticipated intubation within the subsequent 2 hours.\n2. Receiving \\> 5L/min flow nasal O2 to maintain O2sat greater than or equal to 92%\n3. Using high-flow nasal cannula (HFNC) or non-invasive ventilation (NIV)\n4. Receiving iNO, a PDE5 inhibitor, oral or intravenous nitrates, nitroprusside, prilocaine, sulfonamides, or riociguat.\n5. Other major pulmonary, cardiac, such as chronic obstructive lung disease or heart failure, or systemic illness or disease involvement with potential to represent the primary driver for clinical deterioration within the next 3 days.\n6. History of group 1 pulmonary hypertension.\n7. Pregnancy\n8. Active breast feeding\n9. Severe chronic kidney disease, either receiving renal replacement therapy or eGFR \\< 15 ml/min/m2\n10. Acute kidney injury (AKI), evidenced by acute doubling of serum creatinine within previous 48 hours.\n11. Clinically relevant spontaneous alteration of mental state\n12. Inability to provide written informed consent.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Average Maximum Disease Severity Assessed Through 28 Days",
+        "description": "The clinical disease severity was assessed pre-randomization as the worse of 2 scores measured 2 hours apart. Patients eligible for randomization were those with scores of 1 or 2 (below), and randomization was stratified according to score (1 or 2). Study drug began within 1 hour of randomization. Beginning on the day following randomization (\"day 1\"), we calculated clinical score, daily, as the average of 3 measurements taken within 2 hour windows centered at 6AM, 2PM, and 10PM.",
+        "timeFrame": "28 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Days to Maximum Clinical Disease Severity Score",
+        "description": "The number of days for participants to reach their maximum clinical disease severity score. Severity score assessed by the following table Stage Oxygen support 0 Not receiving O2 supplementation; AND room air O2 saturation ≥95%\n\n1. Supplemental O2 ≤ 2 liters/min; OR room air O2 saturation ≤ 94%\n2. Supplemental nasal O2 \\>2 and ≤ 5 liters/min\n3. Supplemental nasal O2 \\>5 liters/min\n4. HFNC or NIV with FiO2 \\> 50%\n5. Intubation, ECMO, or need to intubate with \"Do not intubate\" order\n6. Death",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Days to Maximum Outcome Severity Score",
+        "description": "The number of days for patients to reach maximum severity score from randomization. clinical score, daily, as the average of 3 measurements taken within 2 hour windows centered at 6AM, 2PM, and 10PM according to the following table:\n\nThe following severity score 3 times daily, based on the level of oxygenation / ventilation support, where the treatment target is 92% ≤ O2 saturation \\< 96%:\n\nStage Oxygen support 0 Not receiving O2 supplementation; AND room air O2 saturation ≥95%\n\n1. Supplemental O2 ≤ 2 liters/min; OR room air O2 saturation ≤ 94%\n2. Supplemental nasal O2 \\>2 and ≤ 5 liters/min\n3. Supplemental nasal O2 \\>5 liters/min\n4. HFNC or NIV with FiO2 \\> 50%\n5. Intubation, ECMO, or need to intubate with \"Do not intubate\" order\n6. Death HFNC = high-flow nasal cannula; NIV = non-invasive ventilation",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Number of Participants in Each Stage at Maximum Severity",
+        "description": "Maximum outcome severity score",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Length of Hospital Stay",
+        "description": "The numbers of days a patient spent in the hospital.",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Mortality",
+        "timeFrame": "28 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:36.802Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

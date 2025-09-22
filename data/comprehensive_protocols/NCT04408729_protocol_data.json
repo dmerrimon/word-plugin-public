@@ -1,0 +1,119 @@
+{
+  "nctId": "NCT04408729",
+  "briefTitle": "PrEP My Way: A Novel PrEP Delivery System to Meet the Needs of Young African Women",
+  "officialTitle": "\"PrEP My Way\": A Novel PrEP Delivery System to Meet the Needs of Young African Women",
+  "protocolDocument": {
+    "nctId": "NCT04408729",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-01-20",
+    "uploadDate": "2024-02-08T09:56",
+    "size": 679147,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04408729/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 150,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-08-10",
+    "completionDate": "2022-10-26",
+    "primaryCompletionDate": "2022-10-26",
+    "firstSubmitDate": "2020-05-12",
+    "firstPostDate": "2020-05-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Young woman (age 16-24 years); we will enroll emancipated minors (e.g., those who have not yet attained the age of legal competency as defined by state law, but who are entitled to treatment as if they had by virtue of assuming adult responsibilities, such as self-support, marriage, or procreation) per Kenyan national guidelines \\[39\\]) or 16-17 year-olds with parental consent\n* Reported sexual activity within the past 3 months\n* Interest in taking PrEP (actual PrEP uptake is not a requirement for Aim 1)\n* Residence in the Kisumu region\n* Phone ownership\n* Ability to understand KiSwahili, DhoLuo, and/or English\n\nExclusion Criteria:\n\n* Inability to provide informed consent (e.g., intoxication, mental disability)",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "16 Years",
+    "maximumAge": "24 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "PrEP Adherence",
+        "description": "PrEP adherence as measured by detectable tenofovir-diphosphate (TFV-DP) in dried blood spots",
+        "timeFrame": "Six months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Self-reported PrEP Adherence in the Past 30 Days",
+        "description": "PrEP adherence as measured by questionnaires at kit delivery.",
+        "timeFrame": "Months 1, 3, 6 (intervention arm)"
+      },
+      {
+        "measure": "Number of Participants With PrEP Persistence (Kit Delivery/Pharmacy Refill)",
+        "description": "PrEP use as measured by PrEP receipt in the kit (intervention) or pharmacy pick up (control) at 6 months",
+        "timeFrame": "At 6 months"
+      },
+      {
+        "measure": "Rates of STI Testing",
+        "description": "Testing for gonorrhea and chlamydia",
+        "timeFrame": "Months 1, 3, and 6"
+      },
+      {
+        "measure": "Rates of Hormonal Contraception",
+        "description": "Receipt of oral contraceptive pills or injections of medroxyprogesterone at least once among participants not using long-acting contraception (i.e., contraceptive implants or intrauterine devices)",
+        "timeFrame": "Months 1, 3, and 6"
+      },
+      {
+        "measure": "Prevention-effective Adherence at 6 Months",
+        "description": "Detectable TFV-DP among women with ongoing HIV prevention needs, defined as meeting one or more of the following criteria: 1) PrEP use (per self-report and/or detectable TFVp-DP), 2) \\>1 concurrent sexual partner, 3) condomless sex, and 4) indication of \"some/a lot of concern about getting HIV)",
+        "timeFrame": "Measured at 6 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Feasibility of Intervention Use",
+        "description": "The PrEP My Way intervention will be considered feasible if \\>70% (35/50) participants 1) receive a kit at Months 1, 3, and 6; and 2) have a readable HIV test, usable vaginal swab, and self-injection of medroxyprogesterone, if desired, per protocol at \\>66% (2/3) of visits. The outcome indicates the number of participants at each time point who received a kit and were able to 1) read their HIV test (if testing was desired), 2) provide a vaginal swab that could be assessed for gonorrhea/chlamydia (if testing was desired), and 3) inject medroxyprogesterone (if the product was desired).",
+        "timeFrame": "Six months"
+      },
+      {
+        "measure": "Acceptability of Intervention",
+        "description": "The PrEP My Way intervention will be considered acceptable if \\>70% (35/50) participants rate 70% (7/10) items on the Systems Usability Scale (SUS) as \"very good\" or higher. The scores on the SUS are normalized on a scale 0-100 (higher scores indicate higher usability).",
+        "timeFrame": "Six months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 2,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 53,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:20.214Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

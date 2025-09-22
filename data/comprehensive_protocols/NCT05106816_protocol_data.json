@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT05106816",
+  "briefTitle": "The Effects of Vibrotactile Stimulation in Patients With Movement Disorders",
+  "officialTitle": "The Effects of Vibrotactile Stimulation (Not Impossible Vibrohealth) on Motor Control and Symptoms in Patients With Movement Disorders",
+  "protocolDocument": {
+    "nctId": "NCT05106816",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-09-15",
+    "uploadDate": "2021-09-24T12:06",
+    "size": 467649,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05106816/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-10-07",
+    "completionDate": "2022-09-20",
+    "primaryCompletionDate": "2022-09-20",
+    "firstSubmitDate": "2021-10-12",
+    "firstPostDate": "2021-11-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18-80 and able to provide informed consent.\n* Have a diagnosis of Parkinson's disease, essential tremor, or cervical dystonia made by a movement disorders specialist.\n* Medically optimized without planned medication changes for the duration of the study.\n* For patients with ET, they will have a score of at least 2 on items 5 and 6 of the Fahn-Tolosa-Marin (FTM) Tremor Rating Scale.\n* For patients with dystonia, they will have abnormal dystonic postures of the head and not isolated head tremor\n\nExclusion Criteria:\n\n* The presence of additional neurologic diseases, that might confound testing or the coexistence of PD and ET together (action tremor that was present prior to the development of parkinsonism).\n* Symptoms of peripheral neuropathy at the wrist (reduced vibratory, pinprick, or temperature sensation)\n* Montreal cognitive assessment (MoCA) score \\< 20 or previously documented dementia\n* Unable to walk without a walking aid (e.g. cane, stick, walker)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Quantitative Tremor Assessment",
+        "description": "An external accelerometer will be adhered to the skin of the dorsum of the hand and will be used to quantify displacement of the hand due to tremor in the following conditions:\n\n* 1\\. Sitting at rest\n* 2\\. Sitting with both arms outstretched\n* 3\\. Sitting at rest while performing a distracting cognitive task\n* 4\\. Transition from rest to posture (arms held directly in front of patient) for 10 seconds",
+        "timeFrame": "Baseline up to immediately after the sham intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Functional Dexterity Task (FDT)",
+        "description": "Functional Dexterity Task (FDT): The FDT is a pegboard assessment of manual dexterity.",
+        "timeFrame": "Baseline up to immediately after the sham intervention"
+      },
+      {
+        "measure": "Reaction time task",
+        "description": "Subjects will look at a central fixation symbol on computer screen and press a computer keyboard/mouse button when the GO signal appears. The time between the onset of the fixation cross and the green GO signal will vary so that the onset of the GO signal will not be predictable. The time between appearance of the GO signal and recorded keyboard response will be recorded as reaction time",
+        "timeFrame": "Baseline up to immediately after the sham intervention"
+      },
+      {
+        "measure": "Timed-up-and-go (TUG) gait task",
+        "description": "Subjects are asked to stand up from a chair, walk 3 meters to a horizontal line marked with red tape on the floor, turn around, walk back and sit down, at a comfortable pace. this task will be performed on an the instrumented mat that measures gait characteristics.",
+        "timeFrame": "Baseline up to immediately after the sham intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:43.070Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

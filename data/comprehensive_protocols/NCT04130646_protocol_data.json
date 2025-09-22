@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT04130646",
+  "briefTitle": "Noninvasive VNS to Facilitate Excitability in Motor Cortex",
+  "officialTitle": "Combining Transcutaneous Auricular Vagus Nerve Stimulation (taVNS) With Transcranial Magnetic Stimulation (TMS) to Enhance Cortical Excitability",
+  "protocolDocument": {
+    "nctId": "NCT04130646",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-06-11",
+    "uploadDate": "2025-04-02T14:58",
+    "size": 518634,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04130646/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-03-15",
+    "completionDate": "2024-12-06",
+    "primaryCompletionDate": "2023-06-12",
+    "firstSubmitDate": "2019-09-30",
+    "firstPostDate": "2019-10-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18-80\n* endorsing good health\n\nExclusion Criteria:\n\n* no TMS-induced motor cortex excitability changes in response to 20Hz motor cortex rTMS\n* active psychiatric or neurological disorders\n* history of CNS disease, concussion, overnight hospitalization, or other neurologic sequelae, tumors, seizures, frequent or severe headaches\n* metal implanted above the neck\n* currently taking seizure reducing medications\n* currently taking psychotropic medications\n* any psychotropic medication taken within 5 half-lives of procedure time\n* abuse or dependence of drugs (excluding nicotine and caffeine)\n* currently taking medications that lower the seizure threshold\n* taking any of the stimulants, thyroid medication, or steroids\n* implanted devices/ferrous metal of any kind\n* history of seizure or seizure disorder\n* inability to determine motor threshold.\n* Pregnant females and children under the age of 18 will be excluded for safety reasons\n* No vulnerable populations or special classes of subjects will be considered for participation.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Safety of Combined taVNS and TMS",
+        "description": "We will monitor and record adverse events of combined taVNS TMS intervention.",
+        "timeFrame": "every 10 minutes following for 30 minutes"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:37.410Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04921800",
+  "briefTitle": "Measuring Dysphagia After ACDF Surgery Through A Novel Wearable Sensor",
+  "officialTitle": "Feasibility Assessment of A Novel Wearable Skin Sensor for Post-Operative Monitoring Following Anterior Cervical Discectomy and Fusion (ACDF)",
+  "protocolDocument": {
+    "nctId": "NCT04921800",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-02-22",
+    "uploadDate": "2023-12-01T13:14",
+    "size": 118151,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04921800/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 11,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-03-15",
+    "completionDate": "2024-09-02",
+    "primaryCompletionDate": "2021-12-23",
+    "firstSubmitDate": "2021-03-05",
+    "firstPostDate": "2021-06-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients who have undergone anterior cervical discectomy and fusion (ACDF) for one or more levels for a diagnosis of cervical radiculopathy or myelopathy\n* Scheduled to return to the MSK orthopaedic clinic for a post-operative appointment\n* Aged between 18 to 88 years at time of surgery\n\nExclusion Criteria:\n\n* Patients that underwent a revision of previous ACDF surgery at one or more operative levels\n* Surgeries performed for a traumatic or oncologic etiology\n* Members of vulnerable populations (i.e. prisoners, pregnant women)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "88 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Vibrational Frequency of Vocalization Following Surgery",
+        "description": "Sensitivity of the device to mechanoacoustic output from motion and vocalization in hertz (Hz)",
+        "timeFrame": "0 to 24 hours post operative"
+      },
+      {
+        "measure": "Skin Temperature of the Surgical Site",
+        "description": "Sensitivity of the device to temperature of the surgical site in degrees Celsius",
+        "timeFrame": "0 to 24 hours post operative"
+      },
+      {
+        "measure": "Muscular Force Generated During Range of Motion Exercises",
+        "description": "Force vectors measured in gravitational acceleration units (g; 9.81 meters per second squared)",
+        "timeFrame": "0 to 24 hours post operative"
+      },
+      {
+        "measure": "Algorithm Validation",
+        "description": "Measuring the accuracy of the algorithm created to measure neck motion using the ADvanced Acousto-Mechanic sensor. Data analysis made no distinction between motion samples collected immediately after awaking from sedation in the post-anesthesia care unit and those collected immediately prior to discharge",
+        "timeFrame": "Immediately after awaking from sedation in the post-anesthesia care unit and immediately prior to discharge"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:58.133Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

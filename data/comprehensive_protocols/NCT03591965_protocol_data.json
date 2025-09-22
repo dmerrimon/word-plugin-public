@@ -1,0 +1,144 @@
+{
+  "nctId": "NCT03591965",
+  "briefTitle": "Dual TORC1/TORC2 Inhibitor ATG-008 (CC-223) in HBV Positive Advanced Hepatocellular Carcinoma (HCC) Subjects",
+  "officialTitle": "An Open-label Phase 2 Trial of Dual TORC1/TORC2 Inhibitor ATG-008 in HBV+ Advanced Hepatocellular Carcinoma (HCC) Subjects Who Have Received at Least One Prior Line of Systemic Therapy (TORCH)",
+  "protocolDocument": {
+    "nctId": "NCT03591965",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-01-28",
+    "uploadDate": "2023-01-31T21:03",
+    "size": 1321853,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03591965/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 73,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-08-07",
+    "completionDate": "2022-08-03",
+    "primaryCompletionDate": "2022-08-03",
+    "firstSubmitDate": "2018-06-20",
+    "firstPostDate": "2018-07-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Male or female aged from 18 to 70 years (inclusive) at the time when the ICF is signed.\n2. Confirmed diagnosis of HCC.\n3. Unresectable stage B or C HCC according to the Barcelona Clinic Liver Cancer (BCLC) staging.\n4. HBV positive by serum test.\n5. Received at least one prior line of systemic therapy.\n6. ECOG performance status score of 0 or 1.\n7. Satisfactory serum chemistry results\n8. Adequate bone marrow function\n9. Child-Pugh A without encephalopathy.\n10. All subjects who participated in the study had to take reliable contraceptive measures within the trial and 3 months of after the trial.\n\nExclusion Criteria:\n\n1. Symptomatic central nervous system metastases.\n2. Locoregional HCC therapy, systemic chemotherapy, hormonal therapy or investigational therapy within 4 weeks prior to Screening.\n3. Life expectancy of less than 3 months.\n4. Prior therapy with mTOR inhibitors.\n5. Prior organ transplant.\n6. Persistent diarrhea or malabsorption.\n7. Clinically significant bleeding.\n8. Known history of human immunodeficiency virus (HIV) infection.\n9. Uncontrolled intercurrent illness.\n10. Any condition that confounds the ability to interpret data from the trial.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Cmax",
+        "description": "Peak Plasma Concentration (Cmax)",
+        "timeFrame": "Day 1 - Day 15"
+      },
+      {
+        "measure": "AUC",
+        "description": "Area under the plasma concentration versus time curve (AUC)",
+        "timeFrame": "Day 1 - Day 15"
+      },
+      {
+        "measure": "The incidence of treatment emergent adverse events (TEAEs) & SAE assessed by CTCAE v4.03",
+        "description": "The treatment emergent adverse events (TEAEs) \\& SAE case No. in total subject No.",
+        "timeFrame": "365 DAYS"
+      },
+      {
+        "measure": "ORR",
+        "description": "Percentage of subjects with PR, or CR",
+        "timeFrame": "365 DAYS"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "OS",
+        "description": "Kaplan-Meier estimate of Overall Survival",
+        "timeFrame": "365 DAYS"
+      },
+      {
+        "measure": "TTP",
+        "description": "The time from the first dose date until disease progression",
+        "timeFrame": "365 DAYS"
+      },
+      {
+        "measure": "PFS",
+        "description": "The time from the first dose date until disease progression or death from any cause",
+        "timeFrame": "365 DAYS"
+      },
+      {
+        "measure": "DCR",
+        "description": "The percentage of subjects with CR, or PR or stable disease (SD)",
+        "timeFrame": "365 DAYS"
+      },
+      {
+        "measure": "DOR",
+        "description": "The time from the criteria are first met for CR/PR (whichever is first recorded) until the first date that recurrent or progressive disease is objectively documented",
+        "timeFrame": "365 DAYS"
+      },
+      {
+        "measure": "TTR",
+        "description": "The time from the first dose date to the first documentation of response of PR or better.",
+        "timeFrame": "365 DAYS"
+      },
+      {
+        "measure": "6, 9 and 12 month of survival rate",
+        "description": "Percentage of patients alive",
+        "timeFrame": "365 DAYS"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Potential biomarkers in plasma and tumor tissues",
+        "description": "The changes in potential biomarkers including but not limited to TORC1/TORC2 activity in peripheral blood samples and tumor tissue following treatment with ATG-008",
+        "timeFrame": "365 DAYS"
+      },
+      {
+        "measure": "Additional metabolites of ATG-008 in plasma and urine",
+        "description": "Additional metabolites of ATG-008 in plasma and urine, and the extent of their urinary excretion/clearance",
+        "timeFrame": "Day 1 - Day 15"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 7,
+      "otherCount": 2,
+      "totalCount": 13
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 83,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:09.989Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

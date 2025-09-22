@@ -1,0 +1,84 @@
+{
+  "nctId": "NCT06301022",
+  "briefTitle": "Effectiveness and Safety of Finerenone in Chinese CKD Patients Without Diabetes Mellitus",
+  "officialTitle": "Effectiveness and Safety of Finerenone in Chinese CKD Patients Without Diabetes Mellitus: A Real-world Retrospective Study",
+  "protocolDocument": {
+    "nctId": "NCT06301022",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-12-15",
+    "uploadDate": "2024-02-26T03:42",
+    "size": 207441,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06301022/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 90,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-12-15",
+    "completionDate": "2024-12-31",
+    "primaryCompletionDate": "2024-10-31",
+    "firstSubmitDate": "2024-01-04",
+    "firstPostDate": "2024-03-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* CKD without diabetes\n\nExclusion Criteria:\n\n* CKD with diabetes",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "24 hours urinary total protein",
+        "description": "24 hours urinary total protein",
+        "timeFrame": "before using finerenone, and after using finerenone assessed on a monthly basis, up to 1 year"
+      },
+      {
+        "measure": "estimate Gromerular filtration rate",
+        "description": "Chinese estimate Gromerular filtration rate",
+        "timeFrame": "before using finerenone, and after using finerenone assessed on a monthly basis, up to 1 year"
+      },
+      {
+        "measure": "serum potassium",
+        "description": "serum potassium level",
+        "timeFrame": "before using finerenone, and after using finerenone assessed on a monthly basis, up to 1 year"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:08.961Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

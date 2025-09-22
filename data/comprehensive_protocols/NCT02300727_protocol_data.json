@@ -1,0 +1,104 @@
+{
+  "nctId": "NCT02300727",
+  "briefTitle": "Study to See How Safe Curcumin is and How Well it Works When Used to Treat Mucositis in Patients Getting Chemotherapy",
+  "officialTitle": "A Phase I/II Study to Determine the Safety and Efficacy of Curcumin in Patients With Oral Mucositis Secondary to Chemotherapy",
+  "protocolDocument": {
+    "nctId": "NCT02300727",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-04-29",
+    "uploadDate": "2019-05-09T14:36",
+    "size": 329559,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02300727/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 6,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-02",
+    "completionDate": "2018-10-25",
+    "primaryCompletionDate": "2018-10-25",
+    "firstSubmitDate": "2014-11-21",
+    "firstPostDate": "2014-11-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* ≥ grade 2 oral mucositis related to chemotherapy for cancer\n* Ability to understand and the willingness to review and sign a written informed consent document.\n* ≥ 18 years of age\n* Willingness to use adequate contraception prior to study entry, for the duration of study participation and for 30 days after the last dose for women of child-bearing potential and men\n\nExclusion Criteria:\n\n* Current use of therapeutic doses of anticoagulants such as warfarin or antiplatelet agents (prophylactic doses and agents are acceptable)\n* Biliary tract obstruction or cholelithiasis\n* History of gastric or duodenal ulcers or hyperacidity syndromes\n* AST or ALT \\> 2 x ULN\n* Total bilirubin ≥ 2 x ULN\n* INR \\> 1.5\n* Previous stem cell transplant (allogeneic or autologous)\n* Preexisting oral disease, such as active oral infection, trauma to the oral mucosa or oral - ulceration prior to chemotherapy\n* Known allergy/hypersensitivity to curcumin, yellow food coloring, or other members of the - Zingiberaceae (ginger) family\n* Pregnant or breastfeeding",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Serious and Non-Serious Adverse Events",
+        "description": "Number of Participants with Serious and Non-Serious Adverse Events.",
+        "timeFrame": "reviewed weekly for 4 to 6 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Toxicities Graded by Health Care Providers Using the Common Terminology Criteria for Adverse Events (CTCAE) Version 4.0",
+        "description": "NA - Protocol ended early after failing to enroll sufficiently. Only 6 subjects enrolled, 5 completed, 1 withdrew. Zero participants analyzed.",
+        "timeFrame": "Baseline, weekly for 5 to 7 weeks"
+      },
+      {
+        "measure": "Change in Subjective Patient Self-assessment of Pain.",
+        "description": "NA - Protocol ended early after failing to enroll sufficiently. Only 6 subjects enrolled, 5 completed, 1 withdrew. Insufficient data to analyze",
+        "timeFrame": "Baseline, weekly for 5 to 7 weeks"
+      },
+      {
+        "measure": "Change in Subjective Patient Self- Assessment of Oral Mucositis Measured by the Common Terminology Criteria for Adverse Events (CTCAE) and World Health Organization's (WHO's) Oral Toxicity Scale (OTS)",
+        "description": "NA - Protocol ended early after failing to enroll sufficiently. Only 6 subjects enrolled, 5 completed, 1 withdrew. Insufficient data to analyze",
+        "timeFrame": "Baseline, weekly for 5 to 7 weeks"
+      },
+      {
+        "measure": "Change in Health Providers Assessment of Oral Mucositis and Healing Time Measured by the Common Terminology Criteria for Adverse Events (CTCAE) and World Health Organization's (WHO's) Oral Toxicity Scale (OTS)",
+        "description": "NA - Protocol ended early after failing to enroll sufficiently. Only 6 subjects enrolled, 5 completed, 1 withdrew. Insufficient data to analyze",
+        "timeFrame": "Baseline, then weekly for 4 to 6 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:51.882Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

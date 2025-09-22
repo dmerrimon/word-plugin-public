@@ -1,0 +1,85 @@
+{
+  "nctId": "NCT05135273",
+  "briefTitle": "Study of the Transmission-Blocking Vaccine Pfs230D1-EPA/Matrix-M Against Malaria in Adults in Mali",
+  "officialTitle": "Phase 1, Dose-Escalating, Double-Blind, Randomized, Comparator-Controlled Trial of the Safety, Tolerability, and Immunogenicity of the Transmission-Blocking Vaccine Pfs230D1-EPA/Matrix-M™ Against Plasmodium Falciparum in Adults in Mali",
+  "protocolDocument": {
+    "nctId": "NCT05135273",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-11-09",
+    "uploadDate": "2024-02-21T10:26",
+    "size": 3821132,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05135273/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 80,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-10-22",
+    "completionDate": "2023-06-21",
+    "primaryCompletionDate": "2023-02-17",
+    "firstSubmitDate": "2021-11-17",
+    "firstPostDate": "2021-11-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "INCLUSION CRITERIA:\n\nAll of the following criteria must be fulfilled for a volunteer to participate in this trial:\n\n1. Age: \\> 18 years old and \\< 50 years old.\n2. Available for the duration of the trial.\n3. Known resident or long-term resident (more than 1 year) of Sotuba, Mali or surrounding villages.\n4. Able to provide proof of identity to the satisfaction of the study clinician completing the enrollment process.\n5. In good general health and without clinically significant medical history in the opinion of the investigator.\n6. Females of childbearing potential must be willing to use reliable contraception from 21 days prior to Study Day 0 and until 1 month after the last vaccination.\n\n   1. A reliable method of birth control includes one of the following:\n\n      * Confirmed pharmacologic contraceptives (parenteral) delivery.\n      * Intrauterine or implantable device.\n   2. EXCEPTIONS to required pregnancy prevention includes the following:\n\n      * Postmenopausal state: defined as no menses for 12 months without an alternative medical cause.\n      * Surgical sterilization.\n7. Willing to have blood samples stored for future research.\n\nEXCLUSION CRITERIA:\n\nAn individual will be excluded from participating in this trial if any one of the following criteria is fulfilled:\n\n1. Pregnant, as determined by a positive urine or serum beta human choriogonadotropin (β hCG) test (if female). NOTE: Pregnancy is also a criterion for discontinuation of any further vaccine dosing.\n2. Behavioral, cognitive, or psychiatric disease that in the opinion of the investigator affects the ability of the subject to understand and comply with the study protocol at a level appropriate for the subject's age.\n3. Hemoglobin, white blood cell (WBC), absolute neutrophil count, or platelet levels outside the local laboratory-defined limits of normal. (Subjects may be included at the investigator's discretion for \"not clinically significant\" values outside of normal range and ≤ Grade 2.)\n4. Alanine transaminase (ALT) or creatinine (Cr) level above the local laboratory-defined upper limit of normal. (Subjects may be included at the investigator's discretion for \"not clinically significant\" values outside of normal range and ≤ Grade 2.)\n5. Infected with HIV.\n6. Evidence of clinically significant neurologic, cardiac, pulmonary, hepatic, endocrine, rheumatologic, autoimmune, hematological, oncologic, or renal disease by history, physical examination, and/or laboratory studies.\n7. History of receiving any investigational product within the past 30 days.\n8. Current or planned participation in an investigational vaccine study until the time period of the last required study visit under this protocol.\n9. Medical, occupational, or family problems as a result of alcohol or illicit drug use during the past 12 months.\n10. History of a severe allergic reaction or anaphylaxis.\n11. Known:\n\n    * Severe asthma, defined as asthma that is unstable or required emergent care, urgent care, hospitalization, or intubation during the past 2 years, or that has required the use of oral or parenteral corticosteroids at any time during the past 2 years.\n    * Autoimmune or antibody-mediated disease including but not limited to: systemic lupus erythematosus, rheumatoid arthritis, multiple sclerosis, Sjögren's syndrome, or autoimmune thrombocytopenia.\n    * Immunodeficiency syndrome.\n    * Seizure disorder (exception: history of simple febrile seizures).\n    * Asplenia or functional asplenia.\n    * Use of chronic (≥14 days) oral or intravenous (IV) corticosteroids (excluding topical or nasal) at immunosuppressive doses (i.e., prednisone \\>10 mg/day) or immunosuppressive drugs within 30 days of Study Day 0.\n    * Allergy to latex or neomycin.\n12. Receipt of:\n\n    * Live vaccine within 4 weeks prior to enrollment or a killed vaccine within 2 weeks prior to enrollment.\n    * Immunoglobulins and/or blood products within the past 6 months.\n    * Investigational malaria vaccine in the last 2 years.\n13. Any other condition that in the opinion of the investigator would jeopardize the safety or rights of a subject participating in the trial, interfere with the evaluation of the study objectives, or would render the subject unable to comply with the protocol.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "50 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Local and Systemic Adverse Events (AEs) to Assess the Safety of the Study Drug",
+        "description": "The analyses included only subjects who received at least one vaccination",
+        "timeFrame": "Adverse Events monitored/assessed for 7 days after each vaccination at days 1, 29, and 57; All-Cause Mortality monitored/assessed through 14 months"
+      },
+      {
+        "measure": "Number of Local and Systemic Serious Adverse Events (SAEs) to Assess the Safety of the Study Drug",
+        "timeFrame": "Serious Adverse Events monitored/assessed for 7 days after each vaccination at days 1, 29, and 57; All-Cause Mortality monitored/assessed through 14 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:41.193Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

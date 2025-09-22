@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT06562387",
+  "briefTitle": "tDCS as Adjunctive Therapy to Cognitive Stimulation in Medical Students With Depression",
+  "officialTitle": "Transcranial Direct Current Stimulation (tDCS) as Adjunctive Therapy to Cognitive Stimulation in Medical Students With Depression",
+  "protocolDocument": {
+    "nctId": "NCT06562387",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-06-06",
+    "uploadDate": "2024-08-13T15:49",
+    "size": 690037,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06562387/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-07-22",
+    "completionDate": "2025-08-26",
+    "primaryCompletionDate": "2024-12-12",
+    "firstSubmitDate": "2024-08-05",
+    "firstPostDate": "2024-08-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age18 - 30 years old.\n2. Vaccinated against SARS-COV2 virus.\n3. Students of the Faculty of Medicine of the UNAM.\n4. Fluent in Spanish.\n5. Adequate visual and auditory acuity to be able to perform neuropsychological tests and perform cognitive stimulation.\n6. Depressive symptoms with working memory impairment (diagnosed by applying a specific neuropsychological battery).\n7. That they are not under antidepressant pharmacological treatment prior to admission to the research.\n8. Good general health without medical illnesses (systemic arterial hypertension, diabetes mellitus, dyslipidemias, infections, thyroid disease, vitamin deficiencies) that do not interfere with the study.\n9. Willingness to participate in a scheduled 8-week study and able to attend scheduled evaluations.\n\nExclusion Criteria:\n\n1. Any neurological disease that allows suspicion of cognitive failure other than depression, such as Parkinson's disease, multiple infarct dementia, Huntington's disease, hydrocephalus, brain tumor, progressive supranuclear palsy, seizure disorder, subdural hematoma, multiple sclerosis, history of head injury with loss of alertness.\n2. Participants with history with severe psychiatric disorders according to DSM-5 (bipolar disorder, schizophrenia, chronic depression) or psychotic features, agitation or behavioral problems in the last three months that could lead to difficulties in complying with the protocol.\n3. History of psychoactive substance abuse and current alcohol use with pattern of abuse or dependence in the past two years.\n4. Participants with alterations in a conventional electroencephalogram (paroxysmal phenomena identified by a neurophysiologist).\n5. Participants with pacemakers, intracranial metal objects or history of brain surgery, aneurysm clips, artificial heart valves, ear implants, metal fragments or foreign objects in the eyes, skin or body.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "30 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "To compare performance on Cognitive improvement (Montreal Cognitive Assessment) between active and sham tDCS groups",
+        "description": "remain the same or increase by 1 point on the Montreal Cognitive Assessment. MoCa assesses seven areas of cognition for a total possible score of 30 points. A score of 25 or less is indicative of cognitive impairment.",
+        "timeFrame": "three months"
+      },
+      {
+        "measure": "To compare performance on neuropsychological battery between active and sham tDCS groups",
+        "description": "To compare performance on neuropsychological battery (Brief Visuospatial Memory Test, Stroop color test, Stroop color-word test, Trail Making Test-Part A and Part B, Verbal Learning Memory Test, Wisconsin Card Sorting Test, Weschler Memory Scale) between active and sham tDCS groups. To assess global cognition at each time point, we calculated a composite score by averaging the Z scores from these outcome measures. The mean and SD of the baseline scores were used to calculate Z scores both at baseline and at follow up time points.",
+        "timeFrame": "three months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "To compare Electrophysiological improvement on P300 between active and sham tDCS groups",
+        "description": "increase P300 amplitude from the seventh stimulus onwards \\*p\\>0.05",
+        "timeFrame": "three months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Global improvement or response to treatment",
+        "description": "remain the same or have increased 1 point on the Clinical Global Impression Scale. The higher the score, the better the overall performance.",
+        "timeFrame": "six months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 56,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:01.529Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

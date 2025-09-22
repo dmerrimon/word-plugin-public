@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT07163377",
+  "briefTitle": "Effect of Art Therapy on Cognitive and Hand Functions of Alzheimer's Patients",
+  "officialTitle": "Effect of Art Therapy on Cognitive and Hand Functions of Alzheimer's Patients",
+  "protocolDocument": {
+    "nctId": "NCT07163377",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-06-30",
+    "uploadDate": "2025-09-01T08:06",
+    "size": 450404,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07163377/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-09",
+    "completionDate": "2026-01",
+    "primaryCompletionDate": "2025-11",
+    "firstSubmitDate": "2025-08-20",
+    "firstPostDate": "2025-09-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Being 60 years of age or older\n* Having a diagnosis of mild or moderate Alzheimer's disease\n* Possessing the physical and cognitive capacity to participate in art therapy interventions\n* Providing informed consent\n\nExclusion Criteria:\n\n* Being in the severe stage of Alzheimer's disease\n* Having a history of severe psychiatric disorders such as schizophrenia or major depression\n* Having a physical disability that prevents the use of the upper extremities\n* Being unable to participate in the intervention due to visual or hearing impairments",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mini-Mental State Examination",
+        "description": "The Mini-Mental State Examination (MMSE) is a standardized test developed to assess the overall level of cognitive functioning in individuals. It is brief and easy to administer. The test consists of 11 items covering various cognitive domains, including orientation to time and place, short-term memory, attention and calculation, recall, language skills, and visuospatial abilities. The total score is 30; lower scores indicate cognitive impairment. In general, scores of 24 or below suggest the need for clinical attention regarding cognitive dysfunction.",
+        "timeFrame": "From enrollment to the end of treatment at 8 weeks"
+      },
+      {
+        "measure": "Surface Electromyography (sEMG)",
+        "description": "The Mini-Mental State Examination (MMSE) is a brief, standardized instrument designed to evaluate global cognitive functioning in individuals. It can be administered in a short period of time and assesses 11 domains, including orientation to time and place, short-term memory, attention and calculation, recall, language abilities, and visuospatial skills. The maximum score is 30, with lower scores reflecting greater levels of cognitive impairment. A threshold score of 24 or below is generally considered indicative of clinically significant cognitive dysfunction warranting further evaluation.",
+        "timeFrame": "From enrollment to the end of treatment at 8 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Nine Hole Peg Test",
+        "description": "The Nine-Hole Peg Test (NHPT) is a widely used, valid, and reliable performance test for assessing fine motor skills of the upper extremities. In the test, the participant is asked to place nine small pegs into a board with nine holes in a specific arrangement and then remove them one by one. The time taken to complete this task is measured with a stopwatch, and performance is evaluated based on this duration.",
+        "timeFrame": "From enrollment to the end of treatment at 8 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:41.385Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

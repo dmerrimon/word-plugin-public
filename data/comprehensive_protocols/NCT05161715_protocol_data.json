@@ -1,0 +1,122 @@
+{
+  "nctId": "NCT05161715",
+  "briefTitle": "Proof-of-concept, Open-label Study in Patients With Early Alzheimer's Disease",
+  "officialTitle": "A Phase 2a, Proof-of-Concept, Open-Label Study to Evaluate the Pharmacodynamics, Pharmacokinetics, and Safety of Obicetrapib in Patients With Early Alzheimer's Disease (Hetero/Homozygote APOE4 Carriers)",
+  "protocolDocument": {
+    "nctId": "NCT05161715",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-11-30",
+    "uploadDate": "2024-10-11T10:37",
+    "size": 23592915,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05161715/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 13,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-01-12",
+    "completionDate": "2023-06-01",
+    "primaryCompletionDate": "2023-05-09",
+    "firstSubmitDate": "2021-11-23",
+    "firstPostDate": "2021-12-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* men \\& women 50-75 years\n* post-menopausal or women not of child-bearing potential\n* diagnosis of Alzheimer's disease based on National Institute for Aging:\n* Biomarker classification A+T+N+ or A+T+N-\n* Clinical Stage 3 or 4 with Clinical Dementia Rating score \\>/= 0.5 \\& \\</= 1; mini-mental state examination (MMSE) score \\>/=20\n* Have an APOE genotype of E4/E4 or E3/E4\n* not on or on stabilized AD medication\n* Patient \\& study partner willing to sign consent\n\nExclusion Criteria:\n\n* Other than AD, disorder that may impair cognition\n* Contra-indication for MRI\n* History of neurological, psychiatric or mental conditions;\n\n  * history stroke\n  * MI\n  * Type 1 diabetes \\& Type 2 with HbA1c\\>8%\n  * BP \\> 150/90 mmHg\n  * renal or hepatic impaired\n  * hyperaldosteronism\n  * cancer\n  * depression\n  * laboratory abnormalities\n  * not able to undergo lumbar puncture\n  * taking certain medications including lipid altering",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean Percent Change in Apolipoprotein A-I (ApoA-I) in Cerebrospinal Fluid (CSF)",
+        "description": "Mean percent change from screening (V1) to end of treatment (V6) in ApoA-I in CSF",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Mean Percent Change in Apolipoprotein A-I (ApoA-I) in Plasma",
+        "description": "Mean percent change in ApoA-I in plasma from baseline (V2) to week 24 (V6)",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Mean Percent Change in Apolipoprotein-E (ApoE) in Cerebrospinal Fluid (CSF)",
+        "description": "Mean percent change from screening (V1) to end of treatment (V6) in ApoE",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Mean Percent Change in Apolipoprotein-E (ApoE) in Plasma",
+        "description": "Mean percent change from baseline (V2) to week 24 (V6) in plasma in ApoE",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Small HDL (s-HDL) Particle Concentration in Cerebrospinal Fluid (CSF) at Baseline",
+        "description": "Small high-density lipoprotein (s-HDL) particle concentration in cerebrospinal fluid (CSF) measured by Ion Mobility Assay (https://doi.org/10.1002/alz.12649)",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Small HDL (s-HDL) Particle Concentration in Cerebrospinal Fluid (CSF) at Week 24",
+        "description": "Small high-density lipoprotein (s-HDL) particle concentration in CSF measured by Ion Mobility Assay (https://doi.org/10.1002/alz.12649)",
+        "timeFrame": "Week 24"
+      },
+      {
+        "measure": "Small HDL (s-HDL) Particle Concentration in Plasma at Baseline",
+        "description": "Small high-density lipoprotein (s-HDL) particle concentration plasma measured by Ion Mobility Assay.\n\nFor more information on the measurement used please refer to this article: https://doi.org/10.1002/alz.12649",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Small HDL (s-HDL) Particle Concentration in Plasma at Week 24",
+        "description": "Small high-density lipoprotein (s-HDL) particle concentration in plasma measured by Ion Mobility Assay at Week 24\n\nFor more information on the measurement used please refer to this article: https://doi.org/10.1002/alz.12649",
+        "timeFrame": "Week 24"
+      },
+      {
+        "measure": "Mean Percent Change in Cholesterol Efflux Capacity in Cerebrospinal Fluid (CSF)",
+        "description": "Mean percent change in cholesterol efflux capacity in CSF from screening (V1) to week 24 (V6)",
+        "timeFrame": "24 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 9,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.697Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

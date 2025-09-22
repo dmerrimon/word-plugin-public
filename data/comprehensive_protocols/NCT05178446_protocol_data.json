@@ -1,0 +1,73 @@
+{
+  "nctId": "NCT05178446",
+  "briefTitle": "GERD After Sleeve Gastrectomy",
+  "officialTitle": "The New Onset of GERD After Sleeve Gastrectomy: a Systematic Review",
+  "protocolDocument": {
+    "nctId": "NCT05178446",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-12-14",
+    "uploadDate": "2021-12-30T04:40",
+    "size": 768198,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05178446/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 14362,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-01",
+    "completionDate": "2021-12-01",
+    "primaryCompletionDate": "2021-03-01",
+    "firstSubmitDate": "2021-12-12",
+    "firstPostDate": "2022-01-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients underwent to sleeve gastrectomy with reflux symptoms\n\nExclusion Criteria:\n\n* Patients underwent to other bariatric procedures",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Gastroesophageal reflux disease after bariatric surgery",
+        "description": "Number of patients underwent sleeve gastrectomy with GERD",
+        "timeFrame": "from 2014 to 2018"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:15.432Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT05283148",
+  "briefTitle": "Sickle Cell Disease (SCD) Bone Pain Study",
+  "officialTitle": "Association Between Low Bone Density, Vertebral Fractures, and Pain in Sickle Cell Disease",
+  "protocolDocument": {
+    "nctId": "NCT05283148",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-05-19",
+    "uploadDate": "2025-04-01T01:17",
+    "size": 536770,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05283148/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 53,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-11-03",
+    "completionDate": "2026-07-31",
+    "primaryCompletionDate": "2024-04-30",
+    "firstSubmitDate": "2022-03-07",
+    "firstPostDate": "2022-03-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18-80 years with SCD (any genotype, confirmed by hemoglobin electrophoresis or high performance liquid chromatography)\n* Ability to provide written informed consent\n* Ability to lay on a DXA scanner\n* Negative urine pregnancy test for women of childbearing potential at study entry\n\nExclusion Criteria:\n\n* Pregnant women\n* Adults unable to consent\n* Individuals who are not yet adults (infants, children, teenagers)\n* Prisoners\n* Hospitalizations (any cause) within 2 weeks of study entry",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Lumbar Spine Bone Mineral Density",
+        "description": "Areal bone mineral density of the lumbar spine measured by dual-energy X-ray absorptiometry (DXA) scan and reported in grams per square centimeter.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Lumbar Spine Bone Mineral Density-Z-scores",
+        "description": "Number of standard deviations between measured lumbar spine bone mineral density (g/cm2) for each participant and mean lumbar spine bone mineral density (g/cm2) of the reference population. A Z-score of 0 represents the mean of the reference population. A negative Z-score means the measured bone mineral density values are lower (worse) the reference mean, while positive Z-scores mean they are above/higher. Bone mineral density Z-scores ≤ -2 indicates low bone density.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Total Hip Bone Mineral Density (BMD)",
+        "description": "Areal bone mineral density of the total hip measured by dual-energy X-ray absorptiometry (DXA) scan and reported in grams per square centimeter.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Total Hip Bone Mineral Density-Z-scores",
+        "description": "Number of standard deviations between measured total hip bone mineral density (g/cm2) for each participant and mean total hip bone mineral density (g/cm2) of the reference population. A Z-score of 0 represents the mean of the reference population. A negative Z-score means the measured bone mineral density values are lower (worse) the reference mean, while positive Z-scores mean they are above/higher. Bone mineral density Z-scores ≤ -2 indicates low bone density.",
+        "timeFrame": "At enrollment"
+      },
+      {
+        "measure": "Femoral Neck Bone Mineral Density (BMD)",
+        "description": "Areal bone mineral density of the femoral neck measured by dual-energy X-ray absorptiometry (DXA) scan and reported in grams per square centimeter.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Femoral Neck Bone Mineral Density Z-scores",
+        "description": "Number of standard deviations between measured lumbar spine bone mineral density (g/cm2) for each participant and mean lumbar spine bone mineral density (g/cm2) of the reference population. A Z-score of 0 represents the mean of the reference population. A negative Z-score means the measured bone mineral density values are lower (worse) the reference mean, while positive Z-scores mean they are above/higher. Bone mineral density Z-scores ≤ -2 indicates low bone density.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Adult Sickle Cell Quality of Life Measurement System (ASCQ-Me) Pain Impact T-scores",
+        "description": "Patient-reported outcome measure of pain impact in the preceding 7 days before bone density measurements. The Adult Sickle Cell Quality of Life Measurement System (ASCQ-Me) pain impact T-scores range from about 30-100. The ASCQ-Me pain impact T-score has standardized mean T-score of 50 and standard deviation of 10, which were derived from a reference population of ambulatory adult with sickle cell disease across the United States. ASCQ-Me pain impact T-scores less than 50 are lower/worse than the reference mean (more severe pain impact), while pain impact T-scores greater than 50 are above/better than the reference mean (less severe pain impact)",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Spinal Deformity Index",
+        "description": "The spinal deformity index (SDI) is a semi-quantitative measure of number and severity of vertebral fractures observed on lateral spine X-rays of the thoracolumbar spine. To calculate the SDI, vertebrae are assigned a score as follows: 0 (no fracture), 1 (mild fracture), 2 (moderate fracture), and 3 (severe fracture). The total SDI is the summation of all T12-L4 vertebrae measured on the lateral spine X-rays. Minimum SDI =0 and Maximum SDI=15. Higher scores mean increased (worse) fracture burden, lower scores mean decreased (less) fracture burden.",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 7,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:03.762Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

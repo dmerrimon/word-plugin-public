@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT02938377",
+  "briefTitle": "Alcohol Research Consortium in HIV-Intervention Research Arm",
+  "officialTitle": "Alcohol Research Consortium in HIV-Intervention Research Arm",
+  "protocolDocument": {
+    "nctId": "NCT02938377",
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol",
+    "date": "2019-05-23",
+    "uploadDate": "2024-10-11T10:08",
+    "size": 901298,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02938377/document/Prot_004.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 4985,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-11-06",
+    "completionDate": "2023-11-01",
+    "primaryCompletionDate": "2022-11-01",
+    "firstSubmitDate": "2016-10-17",
+    "firstPostDate": "2016-10-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* At least 18 years or older;\n* Receiving HIV care at the UAB, UW or UCSD clinics and not anticipating changing clinics over the next 12 months;\n* AUDIT-C score \\> 3 women or \\> 4 men at time of PRO.\n\nExclusion Criteria:\n\n* Non-English speaking;\n* Acutely suicidal, manic, acutely intoxicated, or otherwise not stable enough to provide informed consent.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Audit-C Score on a Scale",
+        "description": "Difference in Audit-C score, pre and post intervention. The AUDIT-C is scored on a scale of 0-12 (scores of 0 reflect no alcohol use). In men, a score of 4 or more is considered positive; in women, a score of 3 or more is considered positive. Generally, the higher the AUDIT-C score, the more likely it is that the patient's drinking is affecting his/her health and safety.",
+        "timeFrame": "18 month window"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "PEth Levels",
+        "description": "PEth is a biomarker for recent alcohol use found in the blood that is specific to ethanol ingestion and can detect low-to heavy drinking levels.",
+        "timeFrame": "Between baseline and 6 month follow-up"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:20.680Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

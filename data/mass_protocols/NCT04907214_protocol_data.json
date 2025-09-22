@@ -1,0 +1,105 @@
+{
+  "nctId": "NCT04907214",
+  "briefTitle": "SGLT2 Inhibitor Effects on Inflammation and Heart Disease in Obesity Pilot",
+  "officialTitle": "The Effect of SGLT2 Inhibition on Adipose Tissue Inflammation and Endothelial Function Pilot",
+  "protocolDocument": {
+    "nctId": "NCT04907214",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-07-12",
+    "uploadDate": "2022-11-27T08:50",
+    "size": 1612681,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04907214/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 29,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-07-29",
+    "completionDate": "2023-12-08",
+    "primaryCompletionDate": "2023-12-08",
+    "firstSubmitDate": "2021-05-25",
+    "firstPostDate": "2021-05-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n1. Age 18 to 70 years old\n2. Impaired glucose tolerance (two-hour plasma glucose 140-199 mg/dL) or impaired fasting glucose (100-125mg/dL) or HbA1c 5.7-6.4%\n3. BMI ≥ 30 kg/M2\n4. The ability to provide informed consent\n\nExclusion criteria:\n\nCriteria Related to Medical Diagnoses/Conditions/Treatments:\n\n1. Diabetes type 1 or type 2, as defined by a fasting plasma glucose of 126 mg/dL or greater, a two-hour plasma glucose of 200 mg/dL or greater, HbA1c ≥6.5%, or the use of anti-diabetic medication\n2. Pregnancy or breast-feeding. Women of child-bearing potential will be required to have undergone tubal ligation or to be using an oral contraceptive or barrier methods of birth control\n3. Cardiovascular disease such as myocardial infarction within six months prior to enrollment, presence of angina pectoris, significant arrhythmia, congestive heart failure (left ventricular hypertrophy acceptable), deep vein thrombosis, pulmonary embolism, second or third degree heart block, mitral valve stenosis, aortic stenosis or hypertrophic cardiomyopathy\n4. Presence of implanted cardiac defibrillator or pacemaker\n5. History of serious neurologic disease such as cerebral hemorrhage, stroke, or transient ischemic attack\n6. History of pancreatitis or pancreatic surgery\n7. History or presence of immunological or hematological disorders\n8. Clinically significant gastrointestinal impairment that could interfere with drug absorption\n9. History of advanced liver disease with cirrhosis\n10. Individuals with an eGFR\\<45 mL/min/1.73 m2, where eGFR is determined by the four-variable Modification of Diet in Renal Disease (MDRD) equation, where serum creatinine is expressed in mg/dL and age in years: eGFR (mL/min/1.73m2)=186 • Scr-1.154 • age-0.203 • (0.742 if female)\n11. Treatment with chronic systemic glucocorticoid therapy (more than 7 consecutive days in 1 month)\n12. Treatment with anticoagulants\n13. Any underlying or acute disease requiring regular medication which could possibly pose a threat to the subject or make implementation of the protocol or interpretation of the study results difficult\n14. History of alcohol abuse (\\>14 per week for men and \\>7 per week for women) or illicit drug use\n15. Treatment with any investigational drug in the one month preceding the study\n16. Previous randomization in this trial\n17. Mental conditions rendering a subject unable to understand the nature, scope and possible consequences of the study\n18. Inability to comply with the protocol in the opinion of the principal investigator, e.g., uncooperative attitude, inability to return for follow-up visits, and unlikelihood of completing the study\n\n    Criteria Related to Known Adverse Effects of Drug:\n19. Uncircumcised men or men with history of balanitis\n20. History of urinary incontinence\n21. History of recurrent (\\>3) episodes of vulvovaginitis per year, or severe symptoms\n22. History of Fournier's gangrene\n23. History of recurrent (≥3) UTIs per year or pyelonephritis\n24. History of symptomatic hypotension or conditions predisposing to volume depletion\n25. Known peripheral vascular disease, neuropathy, history of foot ulcers or lower limb amputations\n26. Treatment with loop diuretics furosemide, torsemide, bumetanide, ethacrynic acid\n27. Known or suspected allergy to trial medications, excipients, or related products\n28. Contraindications to study medications, worded specifically as stated in the product's prescribing information",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Adipose Pro-inflammatory T Helper Type 1 Cell Percentages After 3 Months",
+        "description": "Pro-inflammatory T helper type 1 cells are quantified using flow cytometry",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Change in Flow-mediated Dilation After 3 Months",
+        "description": "Endothelial function quantified using flow-mediated dilation by ultrasound, measuring percentage increase in artery diameter during hyperemia.",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Change in Liver Steatosis at 3 Months",
+        "description": "Liver steatosis assessment by transient elastography-controlled attenuation parameter imaging, reported as Controlled Attenuation Parameter (CAP)",
+        "timeFrame": "Baseline to 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Adipose Pro-inflammatory T Helper Type 1 Cell Percentages After 2 Weeks",
+        "description": "Pro-inflammatory T cells are quantified using flow cytometry",
+        "timeFrame": "Baseline to 2 weeks"
+      },
+      {
+        "measure": "Change in the Plasma Inflammatory Cytokine IL-6 After 3 Months",
+        "description": "IL-6 is quantified in plasma samples.",
+        "timeFrame": "Baseline to 12 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:13.443Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

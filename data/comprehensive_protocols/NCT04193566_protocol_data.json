@@ -1,0 +1,162 @@
+{
+  "nctId": "NCT04193566",
+  "briefTitle": "Acute Effects of SGLT2 Inhibition on Renal Oxygenation and Autonomic Function in Type 1 Diabetes",
+  "officialTitle": "Acute Effects of Sodium-glucose Cotransporter-2 Inhibition on Renal Oxygenation and Autonomic Function in Type 1 Diabetes",
+  "protocolDocument": {
+    "nctId": "NCT04193566",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-11-28",
+    "uploadDate": "2021-01-29T03:45",
+    "size": 569781,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04193566/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-02-01",
+    "completionDate": "2021-01-01",
+    "primaryCompletionDate": "2020-09-01",
+    "firstSubmitDate": "2019-12-03",
+    "firstPostDate": "2019-12-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria healthy controls:\n\n* Written informed consent must be provided before participation\n* Male or female patients \\> 18 years of age\n* Capable of lying in a MR-scanner for two hours\n\nInclusion criteria persons with type 1 diabetes:\n\n* Written informed consent must be provided before participation\n* Male or female patients \\>18 years of age with a diagnosis of type 1 diabetes (WHO criteria)\n* Urinary albumin creatinine ratio (UACR) ≥30 mg/g in 2 out of 3 consecutive samples (albuminuria) prior to randomization assessed from electronic laboratory database.\n* Capable of lying in a MR-scanner for two hours\n\nExclusion criteria for all:\n\n* Non-diabetic kidney disease as indicated by medical history and/or laboratory findings\n* Renal failure (eGFR\\<15 ml/min/1.73m2), dialysis or kidney transplantation\n* Treatment with beta-blocking medication\n* Uncontrolled arrhythmia, 2. or 3. degree AV-block or sick sinus syndrome - assessed from a standard 12-lead electrocardiogram\n* Pregnancy or breastfeeding (urine HCG is performed on all fertile women)\n* Systolic blood pressure \\< 90 or \\> 200 mmHg\n* Patients who, in the judgement of the investigator, is incapable of participating\n* Exclusion criteria for MRI\n\n  * Claustrophobia\n  * Known heart disease\n  * Known lung disease\n  * Have had surgery the past six weeks\n  * Have foreign bodies of metal in the body (e.g. pacemaker, metal plates, metal screws)\n* Exclusion criteria for arterial blood gas sampling (only patients with type 1 diabetes)\n\n  * Absent pulse\n  * Raynauds syndrome\n  * Buergers Disease (thromboangiitis obliterans)\n  * Inadequate or interrupted circulation\n  * Anticoagulation treatment\n  * Coagulopathies (hypo or hyper coagulable states)\n  * Arterial atherosclerosis\n  * Insufficient collateral perfusion\n  * Partial or full thickness burns over the cannulation site\n  * Synthetic arterial or vascular grafts or infection at the proposed site of cannulation Patients with type 1 diabetes will have the possibility to participate in the study without getting arterial blood gas sampling.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Renal oxygenation",
+        "description": "Blood Oxygen Level Dependent (BOLD) Magnetic Resonance Imaging (MRI) assessing the transverse relaxation time of atomic nuclei in the tissue (T2\\*) in miliseconds (ms).",
+        "timeFrame": "From baseline to +3 hours from intervention"
+      },
+      {
+        "measure": "Change in Renal oxygenation",
+        "description": "BOLD MRI assessing the transverse relaxation time of atomic nuclei in the tissue (T2\\*) in miliseconds (ms).",
+        "timeFrame": "From baseline to +6 hours from intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in renal cortical and medullary perfusion",
+        "description": "Renal tissue perfusion can be measured noninvasively with MRI using arterial spin labelling (ASL). It is measured in mL/g/min.",
+        "timeFrame": "From baseline to +3 hours from intervention"
+      },
+      {
+        "measure": "Change in renal cortical and medullary perfusion",
+        "description": "Renal tissue perfusion can be measured with MRI using arterial spin labelling (ASL). It is measured in mL/g/min.",
+        "timeFrame": "From baseline to +6 hours from intervention"
+      },
+      {
+        "measure": "Change in renal artery flow",
+        "description": "Renal artery flow can be measured by using phase contrast (PC) MRI. It is measured in mL/min.",
+        "timeFrame": "From baseline to +3 hours from intervention"
+      },
+      {
+        "measure": "Change in renal artery flow",
+        "description": "Renal artery flow can be measured by using phase contrast (PC) MRI. It is measured in mL/min.",
+        "timeFrame": "From baseline to +6 hours from intervention"
+      },
+      {
+        "measure": "Change in renal oxygen consumption",
+        "description": "Renal oxygen consumption can be measured using Q-flow combined with BOLD MRI. It is measured in pmol/min/microgram protein.",
+        "timeFrame": "From baseline to +3 hours from intervention"
+      },
+      {
+        "measure": "Change in renal oxygen consumption",
+        "description": "Renal oxygen consumption can be measured using Q-flow combined with BOLD MRI. pmol/min/microgram protein",
+        "timeFrame": "From baseline to +6 hours from intervention"
+      },
+      {
+        "measure": "Change in peripheral capillary oxygen saturation (SpO2)",
+        "description": "Pulse oximetry on index finger of the right hand. Estimates blood oxygen saturation from capillary blood. Measured in %.",
+        "timeFrame": "From baseline to +3 hours from intervention"
+      },
+      {
+        "measure": "Change in peripheral capillary oxygen saturation (SpO2)",
+        "description": "Pulse oximetry on index finger of the right hand. Estimates blood oxygen saturation from capillary blood. Measured in %.",
+        "timeFrame": "From baseline to +6 hours from intervention"
+      },
+      {
+        "measure": "Change in blood oxygen partial pressure (PaO2)",
+        "description": "Blood gas analysis on arterial blood. Measured in kPa.",
+        "timeFrame": "From baseline to +3 hours from intervention"
+      },
+      {
+        "measure": "Change in blood oxygen partial pressure (PaO2)",
+        "description": "Blood gas analysis on arterial blood. Measured in kPa.",
+        "timeFrame": "From baseline to +6 hours from intervention"
+      },
+      {
+        "measure": "Change in arterial blood oxygen saturation",
+        "description": "Blood gas analysis on arterial blood. Measured in %.",
+        "timeFrame": "From baseline to +3 hours from intervention"
+      },
+      {
+        "measure": "Change in arterial blood oxygen saturation",
+        "description": "Blood gas analysis on arterial blood. Measured in %.",
+        "timeFrame": "From baseline to +6 hours from intervention"
+      },
+      {
+        "measure": "Change in Peripheral Blood Monocyte mitochondrial function",
+        "description": "Seahorse X96 analyzer. Analyzes the oxygen consumption rate (OCR), measured in pMoles/min.",
+        "timeFrame": "From baseline to +12 hours from intervention"
+      },
+      {
+        "measure": "Change in levels of circulating inflammatory markers",
+        "description": "Commercially available panel from the company Olink. Includes 92 biomarkers. Information on the panel can be found here: https://www.olink.com/products/inflammation/#.",
+        "timeFrame": "From baseline to +12 hours from intervention"
+      },
+      {
+        "measure": "Change in baroreflex sensitivity",
+        "description": "Calculated from continous blood pressure and the distance between the R-waves in a continuous ecg. Baroreflex sensitivity describes how much heart-rate changes when blood pressure changes. Assessment of baroreflex sensitivity is done in a measurement of 5 minutes. The unit is ms/mmHg.",
+        "timeFrame": "From baseline to +12 hours from intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 15,
+      "otherCount": 0,
+      "totalCount": 17
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:07.457Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

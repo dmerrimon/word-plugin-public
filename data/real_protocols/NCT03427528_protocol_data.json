@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT03427528",
+  "briefTitle": "Development, Feasibility and Acceptability of Fathers and Babies (FAB): A Pilot Study",
+  "officialTitle": "Integrating Text Messages Into the Mothers and Babies Course to Address Depression in Low-Income Women and Their Partners",
+  "protocolDocument": {
+    "nctId": "NCT03427528",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-08-01",
+    "uploadDate": "2022-02-09T12:54",
+    "size": 503877,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03427528/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-02-15",
+    "completionDate": "2020-09-04",
+    "primaryCompletionDate": "2020-09-04",
+    "firstSubmitDate": "2018-01-29",
+    "firstPostDate": "2018-02-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nEnglish-speaking women \\>18 years old enrolled in home visiting programs who are in their 1st or 2nd or 3rd Trimester will be eligible for enrollment\n\nMale partners of English-speaking women \\>18 years old enrolled in home visiting programs who are in their 1st or 2nd or 3rd Trimester will be eligible for enrollment\n\nNote: Both parents/partners are required to participate in this study, not just one or the other.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Depressive Symptoms",
+        "description": "Beck Depression Inventory-II (BDI-II) (Beck et al., 1988). The BDI-II was used to assess severity of depressive symptoms consistent with DSM-IV symptom criteria. The BDI-II is a 21-item survey, each item asks respondents to indicate on a scale ranging from 0 to 3 the extent to which they endorse different symptoms of depression over the past two weeks with higher scores indicating greater depression severity, with the highest score of 63.\n\n0-10-considered normal 11-16 Mild mood disturbance 17-20 Borderline clinical depression 21-30 Moderate depression 31-40 Severe depression Over 40 Extreme depression.",
+        "timeFrame": "Baseline and Post Intervention at 3 and 6 months"
+      },
+      {
+        "measure": "Change in Anxiety",
+        "description": "Generalized Anxiety Disorder 7-item Scale (GAD-7) (Spitzer et al., 2006). The GAD-7 is a 7-item survey, each item asks respondents to indicate on a 4-point scale the extent to which they endorse different symptoms of anxiety over the past two weeks with higher scores indicating greater anxiety symptoms. The highest score is 21.\n\nScore 0-4: Minimal Anxiety Score 5-9: Mild Anxiety Score 10-14: Moderate Anxiety Score greater than 15: Severe Anxiety",
+        "timeFrame": "Baseline and Post Intervention at 3 and 6 months"
+      },
+      {
+        "measure": "Change in Perceived Stress",
+        "description": "Perceived Stress Scale 10-item Scale (PSS-10) (Cohen \\& Williamson, 1988). The PSS-10 is a 10-item survey that asks respondents to indicate on a 5-point scale the extent to which they appraised certain situations as stressful over the past month, with higher scores indicating greater perceived stress. Individual scores on the PSS can range from 0 to 40 with higher scores indicating higher perceived stress.\n\n0-13 are considered low stress Scores ranging from 14-26 are considered moderate stress Scores ranging from 27-40 are considered high perceived stress",
+        "timeFrame": "Baseline and Post Intervention at 3 and 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Social Support Effectiveness",
+        "description": "Social Support Effectiveness Questionnaire (SSE-Q) (Rini et al., 2011). The SSE-Q is a 25-item survey that asks respondents to indicate the extent to which their partners provided different types of support in the past three months. The SSE-Q consists of subscales on task support, informational support, emotional support, and negative effects of support. For this study, we calculated a total social support score that summed these four subscales (range 0-80). High scores indicate more effective support. Full scale scores can range from 0 to 80, and each subscale can range from 0 to 20.",
+        "timeFrame": "Baseline and Post Intervention at 3 and 6 months"
+      },
+      {
+        "measure": "Instrumental Social Support Support Survey (Cyranowski et al., 2013).",
+        "description": "The measure consists of 8 questions and asks respondents to indicate on a 5-point scale the extent to which they have received different types of instrumental support in the last month. Higher scores indicate greater support. We report on the count and percentage of individuals with high instrumental support at each time point.",
+        "timeFrame": "Baseline and Post Intervention at 3 and 6 months"
+      },
+      {
+        "measure": "Emotional Support Support (Cyranowski et al., 2013)",
+        "description": "NIH Toolbox Emotional Support Support Survey. The survey consists of 8 questions and asks respondents to indicate on a 5-point scale the extent to which they have received different types of emotional support in the last month. Higher scores indicate greater support. We report on the count and percentage of individuals with high emotional support at each time point.",
+        "timeFrame": "Baseline and Post Intervention at 3 and 6 months"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 45,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:32:58.840Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

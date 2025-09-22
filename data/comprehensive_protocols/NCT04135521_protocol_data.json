@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT04135521",
+  "briefTitle": "Dose-dense Chemotherapy Versus Intraperitoneal Chemotherapy as First-line Chemotherapy in Advanced Ovarian Cancer",
+  "officialTitle": "Far Eastern Memorial Hospital",
+  "protocolDocument": {
+    "nctId": "NCT04135521",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-10-22",
+    "uploadDate": "2020-06-13T22:34",
+    "size": 396396,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04135521/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-10-28",
+    "completionDate": "2020-03-31",
+    "primaryCompletionDate": "2020-03-31",
+    "firstSubmitDate": "2019-10-19",
+    "firstPostDate": "2019-10-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Women with FIGO stage II\\~IV ovarian cancer\n* At least one cycle of intravenous dose-dense or intraperitoneal chemotherapy had been administered as the front-line chemotherapy.\n\nExclusion Criteria:\n\n* none",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "20 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Progression-free survivals between this intraveous and intraperitoneal chemotherapy groups",
+        "description": "months",
+        "timeFrame": "10 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall survivals between this two groups",
+        "description": "months",
+        "timeFrame": "10 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:50.170Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

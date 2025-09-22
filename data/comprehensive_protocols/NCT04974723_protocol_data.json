@@ -1,0 +1,90 @@
+{
+  "nctId": "NCT04974723",
+  "briefTitle": "Real-world Effectiveness and Cardiovascular Safety Study of Abaloparatide in Postmenopausal Women",
+  "officialTitle": "A Retrospective, Observational Cohort Study Evaluating the Effectiveness and Cardiovascular Safety of Abaloparatide in Postmenopausal Women New to Anabolic Therapies",
+  "protocolDocument": {
+    "nctId": "NCT04974723",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-07-09",
+    "uploadDate": "2022-11-11T16:28",
+    "size": 967078,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04974723/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 22054,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-07-01",
+    "completionDate": "2021-09-30",
+    "primaryCompletionDate": "2021-09-30",
+    "firstSubmitDate": "2021-06-18",
+    "firstPostDate": "2021-07-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Women who are 50 years or older\n* ≥1 prescription fill for ABL or TPTD during the identification period\n* ≥ 1 claim for medical or hospital visit and a pharmacy claim in the 12 months before the index date\n\nExclusion Criteria:\n\n* Paget's disease\n* Malignancy, except for nonmelanoma skin cancers, carcinoma in-situ of the cervix, ductal carcinoma in-situ of breast\n* Indicators of high disease burden and high risk of death\n* With prior index anabolic treatment\n* Switch to a different anabolic treatment after index date",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With a Nonvertebral Fracture",
+        "description": "A nonvertebral fracture is any fragility fracture at the hip, pelvis, femur, ankle, shoulder (including shoulder, humerus, clavicle), radius/ulna, wrist, or tibia/fibula. The date of the first prescription claim for either abaloparatide or teriparatide during the identification period was considered the index date. A claims-based algorithm with high specificity for fracture site was used to identify osteoporosis related fractures. Patients were followed for up to 18 months after their index date, plus 30 days follow-up or until their first nonvertebral fracture event or hospital death, whichever came first.",
+        "timeFrame": "From index date up to 19 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Composite Endpoint of Nonfatal Myocardial Infarction (MI), Nonfatal Stroke, or In-hospital Cardiovascular Death",
+        "description": "Cardiovascular safety was evaluated based only on events occurring from the beginning of the index period through 19 months. The date of the first prescription claim for either abaloparatide or teriparatide during the identification period was considered the index date. Cardiovascular events (MI and stroke) were defined as the first post-index incidence recorded on a hospital claim or physician claim. A validated claims-based algorithm was used to identify deaths, based on hospital discharge status, that are likely to be caused by cardiovascular events. Patients were followed for up to 18 months while on treatment plus 30 days follow-up, or until their first cardiovascular event (MI or stroke) or hospital death, whichever came first.",
+        "timeFrame": "From index date up to 19 months"
+      },
+      {
+        "measure": "Number of Participants With a Composite Endpoint of Nonfatal MI, Nonfatal Stroke, Heart Failure or In-hospital Cardiovascular Death",
+        "description": "Cardiovascular safety was evaluated based only on events occurring from the beginning of the index period through 19 months. The date of the first prescription claim for either abaloparatide or teriparatide during the identification period was considered the index date. Cardiovascular events (MI, stroke, and heart failure) were defined as the first post-index incidence recorded on a hospital claim or physician claim. A validated claims-based algorithm was used to identify deaths, based on hospital discharge status, that are likely to be caused by cardiovascular events. Patients were followed for up to 18 months while on treatment plus 30 days follow-up, or until their first cardiovascular event (MI, stroke, or heart failure) or hospital death, whichever came first.",
+        "timeFrame": "From index date up to 19 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number of Participants With Hip Fracture",
+        "description": "The date of the first prescription claim for either abaloparatide or teriparatide during the identification period was considered the index date. A claims-based algorithm with high specificity for fracture site was used to identify osteoporosis related fractures. Patients were followed up for 18 months after their index date, plus 30 days follow-up or until their first hip fracture event or hospital death, whichever came first.",
+        "timeFrame": "From index date up to 19 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 1,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 41,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:04.687Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

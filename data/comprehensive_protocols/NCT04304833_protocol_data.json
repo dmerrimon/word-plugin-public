@@ -1,0 +1,158 @@
+{
+  "nctId": "NCT04304833",
+  "briefTitle": "Innovative Care of Older Adults With Chronic Heart Failure: A Comparative Effectiveness Clinical Trial (I-COACH)",
+  "officialTitle": "Innovative Care of Older Adults With Chronic Heart Failure (I-COACH): A Comparative Effectiveness Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT04304833",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-08-11",
+    "uploadDate": "2022-10-04T11:31",
+    "size": 540026,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04304833/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 26,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-11-17",
+    "completionDate": "2021-10-25",
+    "primaryCompletionDate": "2021-10-25",
+    "firstSubmitDate": "2020-03-03",
+    "firstPostDate": "2020-03-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults aged \\> 55 years with HF (documented in medical record).\n* Has capacity to understand informed consent.\n* Able to stand (briefly) without assistance.\n* Has a designated caregiver.\n* Agrees to be followed (treated) by UAMS physician/provider for 6 months after discharge.\n\nExclusion Criteria:\n\n* Speaks a language other than English or Spanish.\n* Active psychosis or other severe cognitive disorder that interferes with capacity to understand and comply with study procedures.\n* A history of drug or alcohol abuse in the past 90 days (documented in medical record).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "55 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Self-Care of Heart Failure Maintenance Scale (SCHFI)",
+        "description": "self care scores on a scale range from 70 to 100, mean (SD). The SCHFI uses a Likert-type scale, with responses ranging from 1 (never) to 5 (always). The SCHFI also includes scales for self-care management and self-care confidence. Higher scores on the SCHFI indicate better self-care. A score of less than 70 on any of the subscales is considered inadequate self-care.",
+        "timeFrame": "Change from Baseline, 3 months, and 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Promis 43v2.1 Health Profile Anxiety 6a",
+        "description": "subscale of questionnaire that measures anxiety. Scoring for this PROMIS instrument uses Item Response Theory (IRT), a family of statistical models that link individual items to a presumed underlying trait or concept represented by all items in the item bank. Score of 50 on any domain is the average. Greater than 50 likely represents somewhat sicker people than the general population. Min/max range is 39.1-82.7",
+        "timeFrame": "Change from Baseline, 3 months, and 6 months"
+      },
+      {
+        "measure": "Promis 43v2.1 Health Profile Depression 6a",
+        "description": "subscale of questionnaire that measures depression. Scoring for this PROMIS instrument uses Item Response Theory (IRT), a family of statistical models that link individual items to a presumed underlying trait or concept represented by all items in the item bank. Score of 50 on any domain is the average. Greater than 50 likely represents somewhat sicker people than the general population. Min/Max range 38.4-80.3",
+        "timeFrame": "Change from Baseline, 3 months, and 6 months"
+      },
+      {
+        "measure": "Promis 43v2.1 Health Profile Fatigue 6a",
+        "description": "subscale of questionnaire that measures fatigue. Scoring for this PROMIS instrument uses Item Response Theory (IRT), a family of statistical models that link individual items to a presumed underlying trait or concept represented by all items in the item bank. Score of 50 on any domain is the average. Greater than 50 likely represents somewhat sicker people than the general population. Min/Max range 33.4-76.8",
+        "timeFrame": "Change from Baseline, 3 months, and 6 months"
+      },
+      {
+        "measure": "Promis 43v2.1 Health Profile Pain Interference 6a",
+        "description": "subscale of questionnaire that measures pain. Scoring for this PROMIS instrument uses Item Response Theory (IRT), a family of statistical models that link individual items to a presumed underlying trait or concept represented by all items in the item bank. Score of 50 on any domain is the average. Greater than 50 likely represents somewhat sicker people than the general population. Min/Max range 41.1-76.3",
+        "timeFrame": "Change from Baseline, 3 months, and 6 months"
+      },
+      {
+        "measure": "Promis 43v2.1 Health Profile Physical Function 6b",
+        "description": "subscale of questionnaire that measures physical function. Scoring for this PROMIS instrument uses Item Response Theory (IRT), a family of statistical models that link individual items to a presumed underlying trait or concept represented by all items in the item bank. Score of 50 on any domain is the average. Greater than 50 likely represents somewhat sicker people than the general population. Min/Max range 21.6-58.7",
+        "timeFrame": "Change from Baseline, 3 months, and 6 months"
+      },
+      {
+        "measure": "Promis 43v2.1 Health Profile Sleep Disturbance 6a",
+        "description": "subscale of questionnaire that measures sleep disturbance. Scoring for this PROMIS instrument uses Item Response Theory (IRT), a family of statistical models that link individual items to a presumed underlying trait or concept represented by all items in the item bank. Score of 50 on any domain is the average. Greater than 50 likely represents somewhat sicker people than the general population Min/Max Range 31.7-76.1",
+        "timeFrame": "Change from Baseline, 3 months, and 6 months"
+      },
+      {
+        "measure": "Promis 43v2.1 Health Profile Ability to Participate in Social Roles and Activities 6a",
+        "description": "subscale of questionnaire that measures the ability to participate in social roles and activities . Scoring for this PROMIS instrument uses Item Response Theory (IRT), a family of statistical models that link individual items to a presumed underlying trait or concept represented by all items in the item bank. Score of 50 on any domain is the average. Greater than 50 likely represents somewhat sicker people than the general population. Min/Max Range 26.7-65",
+        "timeFrame": "Change from Baseline, 3 months, and 6 months"
+      },
+      {
+        "measure": "Promis 43v2.1 Health Profile PROMIS Pain Intensity Item (Global07)",
+        "description": "subscale of questionnaire that measures pain intensite. Scoring for this PROMIS instrument uses Item Response Theory (IRT), a family of statistical models that link individual items to a presumed underlying trait or concept represented by all items in the item bank. Score of 50 on any domain is the average. Greater than 50 likely represents somewhat sicker people than the general population. Min/Max range 0-10",
+        "timeFrame": "Change from Baseline, 3 months, and 6 months"
+      },
+      {
+        "measure": "Medical Outcomes Study MOS Health Distress Scale",
+        "description": "questionnaire assesses psychological impact/health distress",
+        "timeFrame": "Change from Baseline, 3 months, and 6 months"
+      },
+      {
+        "measure": "Minnesota Living With Heart Failure Questionnaire (MLHFQ)",
+        "description": "questionnaire to assess quality of life. Scoring for the MLHFQ ranges from 0 to 105, the higher the score the more affected, over the past 4 months, the individual is by their heart failure.",
+        "timeFrame": "Change from Baseline to 6 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Zarit Caregiver Burden Scale",
+        "description": "questionnaire to Assess caregiver perception of burden. Scoring of the Zarit Burden Interview ranges from 0-88, the higher the score, the more severe the burden on the caregiver.",
+        "timeFrame": "Change from baseline to 6 months"
+      },
+      {
+        "measure": "Optum SF36v2 Health Survey",
+        "description": "questionnaire to Assess caregiver health",
+        "timeFrame": "Change from baseline to 6 months"
+      },
+      {
+        "measure": "Client Satisfaction Questionnaire (CSQ-8)",
+        "description": "questionnaire to Assess patient's satisfaction with care received",
+        "timeFrame": "Change from baseline to 3 months and 6 months"
+      },
+      {
+        "measure": "Treatment Visits",
+        "description": "number of medical treatment visits",
+        "timeFrame": "Change from baseline to 3 months and 6 months"
+      },
+      {
+        "measure": "Mortality",
+        "description": "death",
+        "timeFrame": "3 months and 6 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 10,
+      "otherCount": 5,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 99,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:30.371Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

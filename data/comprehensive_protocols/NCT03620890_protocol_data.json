@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT03620890",
+  "briefTitle": "Detemir Versus NPH for Type 2 Diabetes Mellitus in Pregnancy",
+  "officialTitle": "Detemir Versus NPH for Type 2 Diabetes Mellitus in Pregnancy: a Comparative-effectiveness, Open Label, Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT03620890",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-07-31",
+    "uploadDate": "2021-07-22T12:03",
+    "size": 850102,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03620890/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 108,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-09-04",
+    "completionDate": "2020-07-29",
+    "primaryCompletionDate": "2020-07-29",
+    "firstSubmitDate": "2018-08-02",
+    "firstPostDate": "2018-08-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Preexisting type 2 diabetes mellitus requiring medical treatment or\n* overt diabetes diagnosed prior to 20 weeks of gestation using either Hemoglobin A1c (HBA1C) ≥ 6.5 or fasting glucose ≥126 mg/dl or random blood glucose ≥ 200 mg/dl or two step method ( 50g glucose challenge test (GCT) \\>135 mg/dl followed by 100 GCT with at least 2 values above thresholds: Fasting Blood Glucose (FBG) \\>90, 1 hr \\>180, 2 hr \\> 155, 3 hr \\> 140 mg/dl).\n* Gestational age ≤20 weeks\n* Willing to start insulin therapy or to continue insulin treatment during pregnancy\n* Singleton or twin pregnancy\n\nExclusion Criteria:\n\n* Known allergy/prior adverse reaction to NPH/detemir\n* Patients \\<18y\n* Known major fetal anomalies\n* Diabetic nephropathy (Creatinine (Cr)≥1.5)\n* Diabetic proliferative retinopathy\n* Patients with Type 1 diabetes or gestational diabetes",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Neonates With Composite Adverse Neonatal Outcome",
+        "description": "Composite Adverse Neonatal Outcome includes 1 or more of any of the following:\n\n* Neonatal intensive care unit (NICU) admission or\n* Neonatal hypoglycemia (\\<40 mg/dL in the first 24 hours of life and less than 50 mg/dL after) or requiring medical therapy or\n* Respiratory distress (need for at least 4 hours of respiratory support with supplemental oxygen, continuous positive airway pressure or ventilation at the first 24 hours of life or\n* Shoulder dystocia - defined as the need for any extra maneuvers, other than gentle downward traction of the fetal head in order to deliver the fetal body after the fetal head has been delivered or\n* Large for gestational age (LGA) -weight over 90th percentile of the expected value according to gestational age or\n* Macrosomia- Fetal weight above 4000g",
+        "timeFrame": "From the time of delivery to the time of discharge (about 2-14 days)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Maternal Mean Fasting Glucose",
+        "timeFrame": "perinatal to postpartum (32 weeks)"
+      },
+      {
+        "measure": "Maternal Mean Post Prandial Glucose",
+        "timeFrame": "perinatal to postpartum (32 weeks)"
+      },
+      {
+        "measure": "Number of Maternal Subjects Who Experienced Hypoglycemic Events (<60 mg/dL) During Pregnancy",
+        "timeFrame": "perinatal to postpartum (32 weeks)"
+      },
+      {
+        "measure": "Change in Maternal Weight During Pregnancy",
+        "timeFrame": "perinatal to postpartum (32 weeks)"
+      },
+      {
+        "measure": "Number of Maternal Subjects Who Had Hypertensive Disorder During Pregnancy",
+        "description": "Hypertensive disorder includes gestational hypertension, preeclampsia, or superimposed preeclampsia.",
+        "timeFrame": "perinatal to postpartum (32 weeks)"
+      },
+      {
+        "measure": "Number of Maternal Subjects Who Had Preeclampsia With Severe Features",
+        "timeFrame": "perinatal to postpartum (32 weeks)"
+      },
+      {
+        "measure": "Number of Subjects Who Had Cesarean Delivery",
+        "timeFrame": "at delivery"
+      },
+      {
+        "measure": "Number of Subjects Who Had Operative Vaginal Delivery",
+        "timeFrame": "at delivery"
+      },
+      {
+        "measure": "Gestational Weeks at Delivery",
+        "timeFrame": "at delivery"
+      },
+      {
+        "measure": "Number of Neonates Who Where Small for Gestational Age (SGA)",
+        "description": "Small for gestational age (SGA) means that a fetus or an infant is smaller or less developed than normal for the baby's sex and gestational age. Small for gestational age (SGA) is defined as a birth weight that is below the 10th percentile.",
+        "timeFrame": "at delivery"
+      },
+      {
+        "measure": "Neonatal Hospital Admission Days",
+        "timeFrame": "From the time of delivery to the time of discharge (about 2-14 days)"
+      },
+      {
+        "measure": "# of Neonates Who Had 5-minute Apgar Score < 7",
+        "description": "The Apgar score is determined by evaluating the newborn baby on each of five criteria (appearance, pulse, grimace, activity, respiration) on a scale from zero to two, then summing the five values obtained. The total score ranges from zero to 10. A higher score indicates a better outcome.",
+        "timeFrame": "5 minutes after delivery"
+      },
+      {
+        "measure": "Number of Neonates Who Had Jaundice Requiring Therapy",
+        "timeFrame": "From the time of delivery to the time of discharge (about 2-14 days)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 13,
+      "otherCount": 0,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:08.740Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

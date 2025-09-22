@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT04353661",
+  "briefTitle": "A Study Of ¹²⁹XE MRI To Assess Disease Progression In Patients With COPD Treated With Or Without Azithromycin And Standard-of-Care Medications",
+  "officialTitle": "¹²⁹XE MRI Assessment Of Disease Progression In Patients With Chronic Obstructive Pulmonary Disease Treated With Standard-of-Care Medications With Or Without Daily Open-Label Azithromycin Treatment To Prevent Acute Exacerbation",
+  "protocolDocument": {
+    "nctId": "NCT04353661",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-06-29",
+    "uploadDate": "2024-06-18T07:39",
+    "size": 1707051,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04353661/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-16",
+    "completionDate": "2023-06-29",
+    "primaryCompletionDate": "2023-06-29",
+    "firstSubmitDate": "2020-04-14",
+    "firstPostDate": "2020-04-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Current or former smokers with years ≥ 10 pack years\n* mMRC dyspnea score \\> 1\n* Post-bronchodilator FEV-1/forced vital capacity (FVC) \\<0.70 at Visit 1 or Visit 2\n* Cohort A: GOLD Stage 2-4 COPD with a history of ≥ 2 moderate/severe exacerbations within a 12-month period in the 24 months prior to screening\n* Cohort B: GOLD Stage 1 COPD with a history of ≥1 moderate/severe exacerbations within a 12-month period in the 24 months prior to screening\n* Receiving SOC background drug therapy as per GOLD or British Thoracic Society (BTS) guidance for COPD for 12 weeks prior to screening Visit 1\n* On an eligible bronchodilator medication (LABA ± LAMA) ± ICS therapy for ≥12 weeks prior to Visit 1\n* Chest X-ray or CT scan within 6 months prior to Visit 1, or during the screening period (prior to Visit 2), that confirms the absence of clinically significant lung disease besides COPD\n* Use of contraceptive measures\n\nExclusion Criteria:\n\n* Diagnosis of significant respiratory disease other than COPD\n* Comorbid conditions that may interfere with the evaluation of an investigational medical product\n* Known sensitivity or allergy to azithromycin\n* A COPD exacerbation and or pneumonia within 4 weeks prior to Visit 1\n* Use of systemic corticosteroids within 4 weeks (oral or intravenous) or within 12 weeks (intramuscular IM) prior to screening Visit 1\n* MRI is contraindicated\n* Any known arrhythmia, bradycardia or severe cardiac insufficiency\n* Participant can not hold breath for 15 seconds\n* Participant does not fit in the ¹²⁹XE vest coil used for MRI\n* Pregnant, lactating, or intending to become pregnant during the study or within 4 weeks after the last dose of the investigational medical product\n* History or evidence of substance abuse that would pose a risk to participants safety, interfere with the conduct of the study, or have an impact on the study results\n* For participants in Cohort A: Known significant hearing impairment as indicated by a score of ≥ 26 on the Hearing Handicap Inventory in the Elderly-Screening Questionnaire or as determined by the investigator\n* History of Clostridium difficile (C. difficile) diarrhea Clinically significant ECG changes, which in the opinion of investigator warrants further investigation or with a QTc interval \\> 450 ms",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in 129Xenon (129Xe) Magnetic Resonance Imaging (MRI) Ventilation Defect Percentage (VDP) From Baseline to Week 24",
+        "description": "Hyperpolarized 129Xe gas was administered to the participants at specified timepoints. MRI using hyperpolarized 129Xe was used for 3D mapping of ventilation and gas distribution in the alveolar space and its uptake in interstitial barrier tissues as well as its transfer to red blood cells. Positive change from baseline indicated worse outcomes.",
+        "timeFrame": "Baseline up to Week 24"
+      },
+      {
+        "measure": "Rate of Moderate to Severe Chronic Obstructive Pulmonary Disease (COPD) Exacerbations Over 48 Weeks",
+        "description": "A moderate COPD exacerbation was defined as new or increased COPD symptoms (e.g., dyspnea, sputum volume, and sputum purulence) for at least 2 consecutive days that led to treatment with systemic corticosteroids and/or antibiotics. A severe COPD exacerbation was defined as new or increased COPD symptoms (e.g., dyspnea, sputum volume, and sputum purulence) for at least 2 consecutive days that led to hospitalization or death.",
+        "timeFrame": "Baseline up to Week 48"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Adverse Events (AE) With Severity Determined According To The World Health Organization (WHO) Toxicity Scale",
+        "description": "An AE was any untoward medical occurrence in a clinical investigation participant administered a pharmaceutical product, regardless of causal attribution. An AE can be any unfavorable and unintended sign (including an abnormal laboratory finding), symptoms, or disease temporarily associated with the use of a medicinal product, whether or not considered related to the medicinal product. The WHO toxicity grading scale was used for assessing adverse event severity. Grade 1: mild; Grade 2: moderate; Grade 3: severe; Grade 4: life-threatening; Grade 5: death. There were no participants with grade 5 AEs. Participants were counted once at their highest AE reported.",
+        "timeFrame": "Baseline up to Week 52"
+      },
+      {
+        "measure": "Change in 129Xe MRI VDP From Baseline to Week 48",
+        "description": "Hyperpolarized 129Xe gas was administered to the participants at specified timepoints. MRI using hyperpolarized 129Xe was used for 3D mapping of ventilation and gas distribution in the alveolar space and its uptake in interstitial barrier tissues as well as its transfer to red blood cells. Positive change from baseline indicated worse outcomes.",
+        "timeFrame": "Baseline to Week 48"
+      },
+      {
+        "measure": "Change in Pre-Bronchodilator Forced Expiratory Volume in 1 Second (FEV1, Liters) From Baseline to Week 24 and Week 48",
+        "description": "FEV1 is the volume of air (in liters) exhaled in the first second during forced exhalation after maximal inspiration. Positive change from baseline indicated better outcomes.",
+        "timeFrame": "Baseline to Week 24 and Week 48"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:25.980Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

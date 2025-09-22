@@ -1,0 +1,95 @@
+{
+  "nctId": "NCT02053363",
+  "briefTitle": "Tranexamic Acid Dosing in Adult Spinal Deformity Surgery",
+  "officialTitle": "Low Versus High Dose Tranexamic Acid in Adult Spinal Deformity Surgery: A Randomized, Blinded, Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT02053363",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-08-01",
+    "uploadDate": "2021-12-29T15:28",
+    "size": 166504,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02053363/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 64,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-03",
+    "completionDate": "2020-06-26",
+    "primaryCompletionDate": "2020-06-26",
+    "firstSubmitDate": "2014-01-28",
+    "firstPostDate": "2014-02-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adult patients (ages 18-75) scheduled to undergo long segment (greater than 8 motion segments) posterior spinal fusion with instrumentation (PSF) for adult scoliosis\n\nExclusion Criteria:\n\n* Patients with acquired defective color vision\n* Subarachnoid hemorrhage\n* Active intravascular clotting\n* Hypersensitivity to tranexamic acid or any of the ingredients\n* Patients who pre-donate autologous blood for intra- or post-operative use (Directed donor units are acceptable)\n* History of suspected blood disorders or abnormal coagulation laboratory results\n* Current anticoagulation therapy that cannot be interrupted\n* History of deep vein thrombosis (DVT)\n* Impaired renal function or creatinine clearance \\<60 ml/min\n* Pregnancy or women who are lactating/breastfeeding\n* Women on hormonal contraceptives",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Blood Loss",
+        "description": "To compare the estimated blood loss in patients undergoing complex, reconstructive, spinal fusion surgeries receiving one of two dosing protocols for the anti-fibrinolytic, TXA.\n\nEstimated blood loss was calculated by suction canister volume minus intraoperative irrigation fluid plus blood content in sponges as estimated by weight for all cases.",
+        "timeFrame": "This outcome is measured during surgery, from exposure to wound closure, approximately 8 hours."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Red Blood Cell Transfusions",
+        "description": "To compare the mean volume (mL) of packed red blood cell (PRBC) transfusions given to the two groups. Volumes of RBC vary from bag to bag and real volumes will be recorded as provided by the blood bank.",
+        "timeFrame": "Participants will be followed for the duration of their hospital stay measured from day of surgery to day of discharge from the hospital, approximately 7 days."
+      },
+      {
+        "measure": "Number of Patients Sustaining Intraoperative or 90 Day Complications",
+        "description": "To compare the rates of intraoperative complications and 90 day complications observed in the two groups.",
+        "timeFrame": "Perioperative complications were defined as complications occurring within 90 days of surgery."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:59.718Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

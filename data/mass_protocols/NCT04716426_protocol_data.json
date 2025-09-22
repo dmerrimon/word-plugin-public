@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT04716426",
+  "briefTitle": "APT™ T3X on the COVID-19 Contamination Rate",
+  "officialTitle": "Use of APT™ T3X to Decrease the COVID-19 Contamination Rate in Humans",
+  "protocolDocument": {
+    "nctId": "NCT04716426",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-12-28",
+    "uploadDate": "2021-04-06T13:03",
+    "size": 205667,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04716426/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-28",
+    "completionDate": "2021-03-25",
+    "primaryCompletionDate": "2021-03-25",
+    "firstSubmitDate": "2021-01-18",
+    "firstPostDate": "2021-01-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* good general health (without serious health problems);\n* tested negative, by means of immunoglobulin (Ig) G and IgM serology tests and chain real-time polymerase chain reaction (RT-PCR), for COVID-19.\n\nExclusion Criteria:\n\n* previous immunization against COVID-19;\n* allergy to tetracycline hydrochloride;\n* diagnosis of Lyme disease;\n* immunocompromised;\n* share housing with someone diagnosed with COVID-19 at the time of the baseline evaluation;\n* serious illnesses, such as cancer, kidney failure, decompensated cardiorespiratory and metabolic diseases, etc.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "COVID-19 Contamination Rate.",
+        "description": "Rate of how many people were infected with COVID-19 over the course of the study in each group.",
+        "timeFrame": "22 days after randomization."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Adverse Events",
+        "description": "Number of participants who presented adverse events.",
+        "timeFrame": "22 days after randomization."
+      },
+      {
+        "measure": "Average Number of Adverse Events",
+        "description": "Average number of adverse events over the course of the study.",
+        "timeFrame": "22 days after randomization."
+      },
+      {
+        "measure": "Days Over Which an Adverse Event Was Reported",
+        "description": "Average days over which an adverse event was reported.",
+        "timeFrame": "22 days after randomization."
+      },
+      {
+        "measure": "Other Virus or Bacteria Contamination Rate.",
+        "description": "Rate of how many people were infected with influenza or pneumonia over the course of the study in each group.",
+        "timeFrame": "22 days after randomization."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:14.999Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT01414426",
+  "briefTitle": "Vandetanib in Preventing Head and Neck Cancer in Patients With Precancerous Head and Neck Lesions",
+  "officialTitle": "Randomized Placebo- Controlled Pilot Study of ZD6474 as a Chemopreventive Agent for Premalignant Lesions of the Head and Neck",
+  "protocolDocument": {
+    "nctId": "NCT01414426",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-04-22",
+    "uploadDate": "2020-12-15T13:13",
+    "size": 1441579,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01414426/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-01",
+    "completionDate": "2019-06-01",
+    "primaryCompletionDate": "2019-01-01",
+    "firstSubmitDate": "2011-08-09",
+    "firstPostDate": "2011-08-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histological/cytological confirmation of oral cavity dysplasia and one of three additional criteria:\n* Prior history of OSCC\n* Loss of heterozygosity (LOH) at 3p or 9p\n* Expression by immunohistochemistry (IHC) of budding uninhibited by benzimidazoles 3 (BUB3)/sex determining region Y (SOX4)\n* Provision of informed consent\n* Females of child bearing age must have a negative serum pregnancy test within 7 days of first dose of study drug\n* Patients must not have been taking steroids or are on a stable dose of steroids for at least 14 days before enrollment\n* Patients must have a Karnofsky Performance Score of 70% or above\n\nExclusion Criteria:\n\n* History of malignancy within the last 5 years other than squamous cell carcinoma of the head and neck (SCCHN) and superficial non-melanoma skin cancer; patients with a history of SCCHN must be free of active carcinoma\n* Currently receiving treatment for any malignancy\n* Serum bilirubin \\> 1.5x the upper limit of reference range (ULRR)\n* Creatinine clearance =\\< 30 mL/minute (calculated by Cockcroft-Gault formula)\n* Potassium, \\< 4.0 mmol/L despite supplementation; or above the Common Terminology Criteria for Adverse Events (CTCAE) grade 1 upper limit\n* Magnesium below the normal range despite supplementation, or above the CTCAE grade 1 upper limit\n* Serum calcium above the CTCAE grade 1 upper limit; in cases where the serum calcium is below the normal range, 2 options would be available: 1) the calcium adjusted for albumin is to be obtained and substituted for the measured serum value; exclusion is to then be based on the adjusted for albumin values falling below the normal limit; 2) Determine the ionized calcium levels; if these ionized calcium levels are out of normal range despite supplementation, then the patient must be excluded\n* Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\> 2.5 × ULRR\n* Alkaline phosphatase (ALP) \\> 2.5 x ULRR\n* Evidence of severe or uncontrolled systemic disease or any concurrent condition which in the Investigator's opinion makes it undesirable for the patient to participate in the trial or which would jeopardize compliance with the protocol\n* Clinically significant cardiovascular event (e.g. myocardial infarction, superior vena cava syndrome \\[SVC\\], New York Heart Association \\[NYHA\\] classification of heart disease \\> 2 within 3 months before entry; or presence of cardiac disease that, in the opinion of the Investigator, increases the risk of ventricular arrhythmia\n* History of arrhythmia (multifocal premature ventricular contractions (PVCs), bigeminy, trigeminy, ventricular tachycardia, or uncontrolled atrial fibrillation), which is symptomatic or requires treatment (CTCAE grade 3) or asymptomatic sustained ventricular tachycardia; atrial fibrillation, controlled on medication is not excluded\n* QTc prolongation with other medications that required discontinuation of that medication\n* Congenital long QT syndrome or 1st degree relative with unexplained sudden death under 40 years of age\n* Presence of left bundle branch block (LBBB)\n* QTc with Bazett's correction that is unmeasurable or ≥450 msec on screening electrocardiogram (ECG); (Note: If a subject has a QTc interval \\>= 450 msec on screening ECG, the screen ECG may be repeated twice \\[at least 24 hours apart\\]; the average QTc from the three screening ECGs must be \\< 450 msec in order for the subject to be eligible for the study)\n* Any concurrent medication with a known risk of inducing Torsades de Pointes, that in the investigator's opinion cannot be discontinued\n* Concomitant medications that are potent inducers (rifampicin, rifabutin, phenytoin, carbamazepine, phenobarbital and St. John's Wort) of Cytochrome P450 3A4 (CYP3A4) function\n* Hypertension not controlled by medical therapy (systolic blood pressure greater than 160 mm mercury (Hg) or diastolic blood pressure greater than 100 mm Hg)\n* Currently active diarrhea that may affect the ability of the patient to absorb the ZD6474 or tolerate diarrhea\n* Women who are currently pregnant or breast-feeding\n* Receipt of any investigational agents within 30 days prior to commencing study treatment\n* Previous enrollment or randomization of treatment in the present study\n* Major surgery within 4 weeks or incompletely healed surgical incision before starting study therapy\n* Involvement in the planning and conduct of the study (applies to both Astra Zeneca staff and staff at the study site)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Comparison Between Treatment Groups of the Within-patient Change in MVD Score Following Treatment Initiation",
+        "description": "A Wilcoxon ranksum test may be used if the normality assumption is not satisfied. Alternatively, change in MVD may be transformed (e.g. log-transformation) to satisfy the normality assumption. Additional analyses will include linear regression models with treatment effect and other prognostic factors as covariates.",
+        "timeFrame": "Baseline to 3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Adverse Events",
+        "description": "Adverse events rate shows the total number of subjects with an AE.",
+        "timeFrame": "Weekly during treatment, up to week 24"
+      },
+      {
+        "measure": "Number of Participants Who Adhered to Treatment",
+        "description": "Number of participants who Adhered to Treatment",
+        "timeFrame": "Over 6 months"
+      },
+      {
+        "measure": "Development of Oral and Other Cancers",
+        "description": "Number of patients with new cancer",
+        "timeFrame": "At 6, 9, and 12 months and then ever 6 months for 2 years"
+      },
+      {
+        "measure": "Biologic Effect of EGFR and VEGFR2 Inhibition",
+        "description": "Effect of treatment on EGFR and VEGFR2 inhibition",
+        "timeFrame": "Baseline and 3 and 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:29.502Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

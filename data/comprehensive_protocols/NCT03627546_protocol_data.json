@@ -1,0 +1,100 @@
+{
+  "nctId": "NCT03627546",
+  "briefTitle": "HCV Seek, Test and Rapid Treatment for Young PWID",
+  "officialTitle": "A Randomized Study of a Rapid HCV Treatment Initiation Strategy (HCV Seek, Test and Rapid Treatment) Compared to Standard Care in Young People Who Inject Drugs",
+  "protocolDocument": {
+    "nctId": "NCT03627546",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-06-17",
+    "uploadDate": "2022-04-08T16:06",
+    "size": 388830,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03627546/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 39,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-09-18",
+    "completionDate": "2021-06-30",
+    "primaryCompletionDate": "2021-06-30",
+    "firstSubmitDate": "2018-07-20",
+    "firstPostDate": "2018-08-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Persons are eligible for study inclusion if they: (a) are HCV antibody positive, (b) are 18 to 29 years of age, (c) have injected drugs in the past 30 days, (d) are HCV treatment naïve, (e) are English speaking\n\nExclusion Criteria:\n\n* Persons excluded from the study will be (a) HIV coinfected persons (b) pregnant women, or women planning on becoming pregnant (c) participants with end-stage renal disease (d) participants with decompensated cirrhosis (c) participants on medications with treatment limiting interactions with sofosbuvir/velpatasvir",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "29 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Proportion of Participants Who Achieve Sustained Virologic Response 12 (SVR12) With Rapid Treatment Strategy Compared to Usual Care",
+        "description": "The proportion of participants who achieve sustained virologic response defined as an undetectable HCV RNA viral load 12 weeks after the cessation of treatment (SVR12), in the intervention arm compared to the usual care arm by study week 48.",
+        "timeFrame": "Week 48"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The Proportion of Participants Who Initiate Treatment for HCV",
+        "description": "The proportion of participants who initiate treatment for HCV in the intervention arm compared to the usual care arm by study week 48.",
+        "timeFrame": "Week 48"
+      },
+      {
+        "measure": "Presence of Resistance Associated Substitutions (RAS) in Treated Patients With Treatment Failure",
+        "timeFrame": "48 wks"
+      },
+      {
+        "measure": "Number of Participants in Both Arms Who Achieve SVR12, or Are RNA Negative at Baseline, That Have HCV Reinfection by Study Week 48",
+        "timeFrame": "48 wks"
+      },
+      {
+        "measure": "Impact of Engagement in HCV Treatment on Frequency of Substance Use or Injection Risk Behaviors",
+        "description": "Change in substance use frequency or injection risk behaviors will be defined as percent of participants in each arm that injected alone and the percent of participants who injected with 3 or more individuals",
+        "timeFrame": "Baseline and 48 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:23.325Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

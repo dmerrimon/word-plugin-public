@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT02697071",
+  "briefTitle": "Ketamine for Acute Migraine in the Emergency Department",
+  "officialTitle": "A Randomized Placebo-Controlled Trial of Sub-Dissociative Ketamine for Treatment of Acute Migraine-Type Headache in the Emergency Department",
+  "protocolDocument": {
+    "nctId": "NCT02697071",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-06-06",
+    "uploadDate": "2020-11-05T07:48",
+    "size": 680704,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02697071/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 34,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-02",
+    "completionDate": "2017-03",
+    "primaryCompletionDate": "2017-03",
+    "firstSubmitDate": "2016-02-24",
+    "firstPostDate": "2016-03-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18-65 years of age\n* Chief complaint of headache\n* International Classification of Headache Disorder classification of migraine or probable migraine with or without aura\n* Has decision making capacity\n* Consent\n* Provider determination of non-emergent cause\n\nExclusion Criteria:\n\n* Over the age of 50 with first time headache\n* Known adverse reaction or tolerance to study medication\n* Headache due to trauma\n* New onset, focal, abnormal, neurologic findings\n* New onset seizures\n* History of metastatic cancer or neoplasm\n* Active psychotic symptoms\n* Altered mental status\n* Provider intends to preform lumbar puncture\n* Pregnancy\n* Breast feeding\n* Previous enrollment in study\n* Fever \\> 100.3 F\n* Physiologic instability (blood pressure \\< 90/50 or \\>170/100, heart rate \\<50 or \\>120, chronic respiratory, renal or hepatic failure)\n* Suspected cardiac pain",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Achievement of Pain Response After Ketamine Dose.",
+        "description": "NRS (National rating scale) pain score change from baseline following ketamine dose. Minimum score is 0, maximum score is 10, and higher scores mean worse pain.",
+        "timeFrame": "30 minutes"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Categorical Pain Score Change From Baseline",
+        "description": "change in baseline categorical pain score at 30 minutes (categorical pain intensity score from 0 to 3 where 0=\"no headache\" and 3=\"severe headache\")",
+        "timeFrame": "30 minutes"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Functional Disability Score Change From Baseline",
+        "description": "change in functional disability from baseline at 30 minutes (functional disability score from 0 to 3 where 0=\"no disruption of daily activities\" and 3=\"performance of daily activities is severely impaired\")",
+        "timeFrame": "30 minutes"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 46,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:54.304Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

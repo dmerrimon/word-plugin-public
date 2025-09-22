@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03792126",
+  "briefTitle": "Implicit Learning in Stroke Study",
+  "officialTitle": "A Pilot Cluster Randomised Controlled Trial, of an Implicit Learning Approach (ILA) Versus Standard Care, on Recovery of Mobility Following Stroke",
+  "protocolDocument": {
+    "nctId": "NCT03792126",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-08-18",
+    "uploadDate": "2024-07-26T06:52",
+    "size": 1150908,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03792126/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 54,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-01",
+    "completionDate": "2022-01-24",
+    "primaryCompletionDate": "2022-01-24",
+    "firstSubmitDate": "2018-12-19",
+    "firstPostDate": "2019-01-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of stroke, presenting with hemiplegia\n* Within 14 days of stroke onset\n* Medically stable\n* Able to...\n\n  * tolerate daily therapy for a minimum of 30 minutes per session\n  * sit for more than 5 seconds without support\n  * understand and follow 1 stage commands\n\nExclusion Criteria:\n\n* Previous stroke with residual impairments\n* Other neurological diagnosis (e.g. Parkinsons Disease, Multiple Sclerosis)\n* Clinically relevant pre-morbid disability levels",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Modified Rivermead Mobility Index Score",
+        "description": "Measure of functional mobility in people with stroke.\n\nOrdinal scale, measured through direct observation of function.\n\nScore range from 0-40, with a higher score indicating better functional mobility status.",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Swedish Postural Adjustment in Stroke Scale (SwePASS)",
+        "description": "Measure of postural control in people with stroke, from lying, sitting and standing postures.\n\nOrdinal scale, measured through direct observation of function.\n\nScore range from 0-36, with a higher score indicating better postural control.",
+        "timeFrame": "Week 0, 2 and 12"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Fugl Meyer - Motor Leg Sub Section",
+        "description": "Measure of sensori-motor function in the lower limb (impairment level)\n\nRange 0-28, with higher score indicating better outcome.",
+        "timeFrame": "Week 0, week 2 and week 12"
+      },
+      {
+        "measure": "Modified Rankin Score",
+        "description": "Measure of disability and dependence in people who have suffered a stroke.\n\nScore 0-6, with higher score indicating a worse outcome.",
+        "timeFrame": "Week 0, Week 12"
+      },
+      {
+        "measure": "EuroQOL 5 D Questionnaire Index Score",
+        "description": "Standardised self-administered questionnaire to measure health related quality of life. The EQ-5D descriptive system is a preference-based HRQL measure with one question for each of the five dimensions that include mobility, self-care, usual activities, pain/discomfort, and anxiety/depression. Each dimension is scored based on the participant ticking the statement that best fits them. The statements range from \"I have no problems...\" to \"I am unable to...\" and are given a score 1-5 with a total score being between 5 and 25. Higher score indicates a worse outcome.",
+        "timeFrame": "3 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 3,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 50,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:36.251Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

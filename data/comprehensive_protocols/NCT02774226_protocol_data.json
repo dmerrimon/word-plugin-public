@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT02774226",
+  "briefTitle": "Long Term Nitric Oxide Bioavailability on Vascular Health in Chronic Obstructive Pulmonary Disease",
+  "officialTitle": "Long Term Nitric Oxide Bioavailability on Vascular Health in Chronic Obstructive Pulmonary Disease",
+  "protocolDocument": {
+    "nctId": "NCT02774226",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-03-17",
+    "uploadDate": "2020-03-26T15:18",
+    "size": 587880,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02774226/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-09",
+    "completionDate": "2018-07-30",
+    "primaryCompletionDate": "2018-07-30",
+    "firstSubmitDate": "2016-05-11",
+    "firstPostDate": "2016-05-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* patients with medically diagnosed COPD\n* apparently healthy controls\n\nExclusion Criteria:\n\n* FEV1/FVC \\>0.7 (normal lung function in patients only)\n* Clinical diagnosis of heart disease or diabetes\n* Vasoactive medications (i.e. nitrates, beta-blockers, Viagra etc.)\n* uncontrolled high blood pressure\n* high blood pressure in your lungs\n* thyroid problems\n* Fluid in the lungs\n* Sleep apnea\n* Anemia\n* Raynaud's Phenomenon\n* GI bleeding\n* Gangrene of the digits\n* History of low platelets or coagulopathies\n* Phenylketonuria (PKU)\n* Any allergy to Kuvan",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Flow Mediated Dilation",
+        "description": "Brachial artery FMD induced by reactive hyperemia assessed vascular endothelial function at baseline and 12 weeks after treatment.",
+        "timeFrame": "Change from Baseline and 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in PWV (Pulse Wave Velocity)",
+        "description": "Change in pulse wave velocity (carotid to femoral) as measured using tonometry with the Sphygmocor Xcel system at baseline and after 12 weeks of treatment.",
+        "timeFrame": "Change from Baseline and 12 weeks"
+      },
+      {
+        "measure": "FEV1 %Predicted",
+        "description": "Forced Expiratory Volume in 1 second. Pulmonary Function Test (PFT).",
+        "timeFrame": "Change from Baseline and 12 weeks"
+      },
+      {
+        "measure": "Percent of ACH to Heat Max",
+        "description": "The laser imaging camera is a special camera that shines a low energy laser light on the surface of the skin to measure blood flow. The FLPI makes graphs, photos, and movies of skin blood flow. Acetylcholine is a vasoactive substance that will be used to increase skin blood flow. This variable is the percent of dilation caused by acetylcholine out of the max dilation cause by the warm water bath (44 C).",
+        "timeFrame": "Change from Baseline and 12 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:26.664Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

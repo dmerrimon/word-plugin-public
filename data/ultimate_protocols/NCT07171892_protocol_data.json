@@ -1,0 +1,78 @@
+{
+  "nctId": "NCT07171892",
+  "briefTitle": "Development and Validation of a Risk Prediction Model for Ischemic Stroke in Acute Myocardial Infarction Without Comorbid Atrial Fibrillation",
+  "officialTitle": "Development and Validation of a Risk Prediction Model for Ischemic Stroke in Acute Myocardial Infarction Without Comorbid Atrial Fibrillation",
+  "protocolDocument": {
+    "nctId": "NCT07171892",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-08-01",
+    "uploadDate": "2025-08-16T22:12",
+    "size": 148661,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07171892/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 4000,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-10-21",
+    "completionDate": "2025-11-30",
+    "primaryCompletionDate": "2025-11-21",
+    "firstSubmitDate": "2025-08-28",
+    "firstPostDate": "2025-09-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* myocardial infarction without atrial fibrillation\n\nExclusion Criteria:\n\n* Thrombophilia\n* Paradoxical Embolism through a Patent Foramen Ovale (PFO)\n* Iatrogenic embolism\n* Coronary slow-flow phenomenon\n* Coronary vasospasm\n* Dissection,",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "calibration",
+        "description": "Calibrationevaluates how closely predicted probabilities match actual observed outcomes in a prediction model. It measures whether a model's confidence in its predictions reflects reality.",
+        "timeFrame": "3 months, 5 years"
+      },
+      {
+        "measure": "AUC",
+        "description": "A standard metric to evaluate the performance of classification models.",
+        "timeFrame": "3 months, 5 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 35,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T05:06:11.776Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

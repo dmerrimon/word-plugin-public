@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT01437709",
+  "briefTitle": "Ofatumumab With or Without Bendamustine for Patients With Mantle Cell Lymphoma Ineligible for Autologous Stem Cell Transplant",
+  "officialTitle": "Ofatumumab With or Without Bendamustine for Patients With Mantle Cell Lymphoma Ineligible for Autologous Stem Cell Transplant",
+  "protocolDocument": {
+    "nctId": "NCT01437709",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-01-03",
+    "uploadDate": "2024-08-22T10:30",
+    "size": 903533,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01437709/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-09",
+    "completionDate": "2023-09-12",
+    "primaryCompletionDate": "2023-09-12",
+    "firstSubmitDate": "2011-09-19",
+    "firstPostDate": "2011-09-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Untreated, non-transplant eligible, newly diagnosed mantle cell lymphoma with measurable disease as determined by CT, and bone marrow biopsy.\n* Age \\> or = to 65 years or \\> 18 year and ineligible for HDT/ASCT.\n* Subjects must not be candidates for intensive high-dose chemotherapy, with or without an autologous stem cell transplant (ASCT), due to one or more of the following factors:\n* Age ≥ 65 years\n* Patients \\<65 years of age must be ineligible for HDT/ASCT on the basis of comorbidity, organ dysfunction or patient refusal for HDT/ASCT Comorbid disease, such as CAD, CHF, pulmonary dysfunction, liver or kidney dysfunction, precluding high dose therapy secondary to expected increased morbidity and mortality.\n* poor performance status (KPS 70% or less)\n* Ejection fraction \\<45%\n* Impaired pulmonary function test with DLCO \\<50% expected\n* Patient refusal\n* Medical conditions which in the opinion of the treating physician and DMT preclude HDT/ASCT.\n* Patients must have a serum creatinine clearance ≥ 40 mL/min (as per the Jelliffe method) or by 12-hour or 24-hour urine creatinine clearance.\n* Patients must have ANC\\>1,000/mcl and Platelets\\>100,000/mcl (unless secondary to MCL).\n* Patients must have a bilirubin level of \\< 2.0 mg/dl in the absence of a history of Gilbert's disease (or pattern consistent with Gilbert's).\n* Negative serologies for Hepatitis B (HB) defined as a negative test for HBsAg. In addition, if negative for HBsAg but HBcAb positive (regardless of HBsAb status), a HB DNA test will be performed and if negative, patient may be included but must undergo HBV DNA PCR testing at the beginning of treatment and throughout treatment duration, at least every 2 months. In addition patients will require treatment with Entacavir .5mg po qday per MSKCC institutional guidelines.\n* No active co-morbid cardiac condition such as active CHF or CAD.\n* KPS performance ≥ 70%.\n* Histologically confirmed mantle cell lymphoma classified according to WHO criteria confirmed at MSKCC.\n* No prior treatment for mantle cell lymphoma with the exception of corticosteroids for 7 days or less or 1 course of involved-field radiation.\n* No prior malignancies within 5 yrs, unless treated early stage breast cancer, treated carcinoma in situ of the cervix, resected skin malignancies, or treated prostate cancer.\n* Women who are pre-menopausal must have a negative serum pregnancy test. Subjects must agree to use appropriate contraception until 4 weeks after the completion of chemotherapy.\n* Patients must be HIV negative, and have negative serologies for Hepatitis C.\n\nExclusion Criteria:\n\n* Subjects who have current active hepatic or biliary disease (with exception of patients with Gilbert's syndrome, asymptomatic gallstones, hepatic involvement by MCL, or stable chronic liver disease per investigator assessment).\n* Known pregnancy or breast-feeding.\n* Medical illness unrelated to MCL within the prior one month that will preclude administration of chemotherapy safely. This includes patients with uncontrolled infection, chronic renal insufficiency, myocardial infarction within the past 6 months, unstable angina, active congestive heart failure, cardiac arrhythmias other than chronic atrial fibrillation and chronic active or persistent hepatitis.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Single Agent Efficacy (as Determined by Response Rate)",
+        "description": "of the monoclonal antibody ofatumumab alone in low risk patients. Assessments prior to each cycle of immunotherapy or chemoimmunotherapy: (every 4 weeks)",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "the Efficacy (as Determined by Response Rate) of the Combination Ofatumumab + Bendamustine",
+        "description": "in high risk patients. Assessments prior to each cycle of immunotherapy or chemoimmunotherapy: (every 4 weeks)",
+        "timeFrame": "2 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "will be analyzed using Kaplan-Meier estimation, and logrank tests or Cox regression models when covariates are involved.",
+        "timeFrame": "Up to 6 years"
+      },
+      {
+        "measure": "Progression Free Survival (PFS)",
+        "description": "will be analyzed using Kaplan-Meier estimation, and logrank tests or Cox regression models when covariates are involved.",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Remission Duration",
+        "description": "(calculated from confirmation of CR to progression)will be analyzed using competing risks tools (with death as a competing risk for progression), and will be done on the subsets of patients who have CR or CR/PR.",
+        "timeFrame": "Up to 6 years"
+      },
+      {
+        "measure": "Response Duration",
+        "description": "(calculated from confirmation of response (CR/PR) to progression. will be analyzed using competing risks tools (with death as a competing risk for progression), and will be done on the subsets of patients who have CR or CR/PR.",
+        "timeFrame": "Up to 6 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:47.593Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,104 @@
+{
+  "nctId": "NCT01987817",
+  "briefTitle": "Oral Desensitization to Peanut in Peanut-Allergic Children and Adults Using Characterized Peanut Allergen OIT",
+  "officialTitle": "Phase 2 Oral Desensitization to Peanut in Peanut-Allergic Children and Adults Using Characterized Peanut Allergen Oral Immunotherapy",
+  "protocolDocument": {
+    "nctId": "NCT01987817",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2014-05-14",
+    "uploadDate": "2021-06-08T12:49",
+    "size": 959903,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01987817/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 56,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-02-06",
+    "completionDate": "2015-01-07",
+    "primaryCompletionDate": "2015-01-07",
+    "firstSubmitDate": "2013-11-13",
+    "firstPostDate": "2013-11-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Ages 4 through 26 years, inclusive\n* Clinical history of allergy to peanuts or peanut-containing foods\n* Serum IgE to peanut \\>0.35 kU/L (determined by UniCAP within the past 12 months) and/or a SPT to peanut \\>3 mm compared to control\n* Experience dose-limiting symptoms at or before the 100mg dose of peanut protein (measured as 200 mg of peanut flour) on abbreviated screening OFC conducted via PRACTALL guidelines\n* Use of birth control by females of child-bearing potential\n\nKey Exclusion Criteria:\n\n* History of Cardiovascular disease\n* History of frequent or repeated, severe or life-threatening episodes of anaphylactic shock\n* History of other chronic disease\n* History of eosinophilic gastrointestinal disease\n* Severe asthma\n* Mild or moderate asthma if uncontrolled\n* Use of omalizumab within the past 6 months or current use of other non-traditional forms of allergen immunotherapy\n* Use of beta-blockers(oral), angiotensin-converting enzyme (ACE)\n* Pregnancy, lactation\n* Having the same place of residence as another study subject\n* Participation in an interventional clinical trial 30 days prior to randomization",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "4 Years",
+    "maximumAge": "26 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Percentage of Subjects Who Tolerate at Least 300 mg (443 mg Cumulative) of Peanut Protein With no More Than Mild Symptoms at the Exit DBPCFC",
+        "description": "The primary endpoint was the percentage of subjects who achieved desensitization, as determined by tolerating at least 300 mg (443 mg cumulative) of peanut protein at the Exit Double Blind Placebo Controlled Food Challenge (DBPCFC) with no more than mild symptoms (i.e., desensitization responders)",
+        "timeFrame": "6-9 Months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Maximum Tolerated Dose of Peanut Protein at the Exit DBPCFC",
+        "description": "The change in maximum tolerated dose of peanut protein from baseline (screening) to the Exit Double-Blind, Placebo-Controlled Food Challenge",
+        "timeFrame": "6-9 months"
+      },
+      {
+        "measure": "Number of Participants by Maximum Dose Achieved With no or Mild Symptoms at Exit DBPCFC",
+        "timeFrame": "6-9 months"
+      },
+      {
+        "measure": "Changes in Peanut-Specific IgE From Baseline to Exit DBPCFC",
+        "timeFrame": "6-9 months"
+      },
+      {
+        "measure": "Changes in Peanut-Specific IgG4 From Baseline to Exit DBPCFC",
+        "timeFrame": "6-9 months"
+      },
+      {
+        "measure": "Change in Skin Prick Test (SPT) Mean Peanut Wheal Diameter Results From Baseline",
+        "timeFrame": "Baseline, 6-9 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:45.666Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

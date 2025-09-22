@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT03698708",
+  "briefTitle": "Cognitive Adaptations to Reduce Emotional Stress Associated With Type 1 Diabetes",
+  "officialTitle": "Longitudinal Test of Adherence & Control in Kids New to Type 1 Diabetes & 5-9 Years Old",
+  "protocolDocument": {
+    "nctId": "NCT03698708",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-04",
+    "uploadDate": "2022-01-16T15:15",
+    "size": 157496,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03698708/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 37,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-20",
+    "completionDate": "2020-07-31",
+    "primaryCompletionDate": "2020-07-31",
+    "firstSubmitDate": "2018-10-03",
+    "firstPostDate": "2018-10-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Parent/primary caregiver of a child diagnosed with T1D between 5-12 years old\n* Parent/caregiver elevated depression symptoms on the CESD-R (score ≥ 16 at time of screening)\n* Child with T1D receiving intensive insulin regimen by multiple dose injections (MDI) or continuous subcutaneous insulin infusion (pump)\n\nExclusion Criteria:\n\n* Child with T1D currently in foster care or not living with legal guardian\n* Child with evidence of type 2 diabetes or monogenic diabetes\n* Child with a co-morbid chronic illness (e.g., renal disease) that requires ongoing care beyond T1D\n* Children who are chronically using medications that may impact glycemic control (i.e., systemic steroids)\n* Parents/caregivers who do not speak English (currently there is no way to recruit non-English speaking families because the study questionnaires are only available in English)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "maximumAge": "12 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Problem Areas in Diabetes Survey - Parent Revised (PAID-PR)",
+        "description": "Problem Areas in Diabetes Survey - Parent Revised (PAID-PR); Parents' perceptions of diabetes-related distress, which can encompass fear, sadness, grief, anger, burn-out, and guilt. Higher scores reflect greater perceived distress (range: 0-72)",
+        "timeFrame": "absolute value Post-treatment (week 24)"
+      },
+      {
+        "measure": "Center for Epidemiologic Studies - Depression Scale Revised (CESD-R)",
+        "description": "Center for Epidemiologic Studies - Depression Scale Revised (CESD-R); measure of parental depressive symptoms. Used as a secondary marker of improvement. Higher scores reflect greater occurrence of depressive symptoms (range: 0-60)",
+        "timeFrame": "absolute value at Post-treatment (week 24)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Hypoglycemia Fear Survey (HFS-P)",
+        "description": "Hypoglycemia Fear Survey (HFS-P); measure of parents fear of hypoglycemia, a secondary symptom that can relate to distress; Higher scores reflect greater perceptions of fear as well as use of hypoglycemia avoidance behaviors (range: 25-125).",
+        "timeFrame": "absolute value Post-treatment (week 24)"
+      },
+      {
+        "measure": "Diabetes Family Conflict Scale (DFCS)",
+        "description": "Diabetes Family Conflict Scale (DFCS): parents perceptions of diabetes-related family conflict. Higher scores reflect greater perceived conflict, which includes arguing about daily diabetes tasks and periodic diabetes tasks (range= 19-57)",
+        "timeFrame": "absolute value Post-treatment (week 24)"
+      },
+      {
+        "measure": "Hemoglobin A1c (HbA1c)",
+        "description": "Proxy measure of glycemic control over the past 12 weeks",
+        "timeFrame": "absolute value at Post-treatment (week 24)"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Treatment Satisfaction Survey",
+        "description": "Treatment Satisfaction Survey; Intervention acceptability and satisfaction. This measure was designed for this pilot study. Higher scores reflect greater satisfaction/acceptability (range: 15-75).",
+        "timeFrame": "absolute value at post-treatment (week 12)"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 1,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 41,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:11.067Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT04070287",
+  "briefTitle": "Innovative Tools to Expand HIV Self-Testing",
+  "officialTitle": "Innovative Tools to Expand HIV Self-Testing",
+  "protocolDocument": {
+    "nctId": "NCT04070287",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-07-21",
+    "uploadDate": "2021-09-13T09:32",
+    "size": 222397,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04070287/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "EARLY_PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 388,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-07-01",
+    "completionDate": "2020-09-01",
+    "primaryCompletionDate": "2020-07-31",
+    "firstSubmitDate": "2019-07-20",
+    "firstPostDate": "2019-08-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age 14-24\n2. Self-reported HIV negative or unknown HIV status\n3. Current resident of Lagos, Ondo, Oyo, and Enugu with plans to stay in city for the next 6 months\n4. Able to complete survey in English (the national language of Nigeria)\n5. All participants must agree to an informed consent and provide their cell mobile number for follow-up and retention\n\nExclusion Criteria:\n\n1. Younger than 14 and older than 24\n2. Inability to comply with study protocol\n3. Illness, cognitive impairment or threatening behavior with acute risk to self or others\n4. No informed consent\n5. No contact phone number\n6. Do not reside in Lagos, Ondo, Oyo, and Enugu",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "14 Years",
+    "maximumAge": "24 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Uptake of HIV Self-testing Over the 3 Months Follow-up",
+        "description": "Proportion of participants who reported to have self-tested for HIV at 3-month after baseline.",
+        "timeFrame": "3 months following the first encounter"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Uptake of HIV Testing Over the 6 Months Follow-up",
+        "description": "Proportion of participants who reported to have self-tested for HIV at 6-month after baseline.",
+        "timeFrame": "6-month"
+      },
+      {
+        "measure": "Uptake of Syphilis Testing",
+        "description": "Proportion of participants who reported syphilis testing at baseline and 6-month.",
+        "timeFrame": "6-month"
+      },
+      {
+        "measure": "Uptake of Gonorrhea Testing",
+        "description": "Proportion of participants who reported gonorrhea testing at baseline and 6-month.",
+        "timeFrame": "6-month"
+      },
+      {
+        "measure": "Uptake of Hepatitis b Testing",
+        "description": "Proportion of participants who reported hepatitis B testing.",
+        "timeFrame": "6-month"
+      },
+      {
+        "measure": "Uptake of Chlamydia Testing",
+        "description": "Proportion of participants who reported chlamydia testing at baseline and 6-month.",
+        "timeFrame": "6-month"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:18.910Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

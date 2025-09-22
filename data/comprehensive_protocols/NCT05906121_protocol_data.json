@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT05906121",
+  "briefTitle": "Lidocaine and Ketamine Levels in Plasma After Simultaneous Lidocaine/Ketamine Infusions",
+  "officialTitle": "Lidocaine and Ketamine Levels in Plasma After Simultaneous Lidocaine/Ketamine Infusions. An Observational Assessment of Therapy Effects and Side-effects.",
+  "protocolDocument": {
+    "nctId": "NCT05906121",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-05-02",
+    "uploadDate": "2023-06-15T04:13",
+    "size": 1094765,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05906121/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-05-16",
+    "completionDate": "2024-08-31",
+    "primaryCompletionDate": "2024-08-31",
+    "firstSubmitDate": "2023-06-06",
+    "firstPostDate": "2023-06-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patient is a new recipient of lidocaine-ketamine infusions\n* Patient is able to provide Informed Consent\n\nExclusion Criteria:\n\n* Contraindication to blood sampling (on arm not used for infusion)\n* Insufficient knowledge of German language\n* Inability to give consent\n* Patient is under 18 years of age\n* Contraindication to treatment with lidocaine and/or ketamine",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Lidocaine plasma level",
+        "description": "Concentration of lidocaine in the plasma of patients who received an intravenous infusion with 4mg/kg lidocaine and 0.15 - 0.5mg/kg ketamine over 30 minutes at the time directly after the infusion.",
+        "timeFrame": "After infusion 1 (Baseline), after infusion 2 (28 days after infusion 1), after infusion 3 (28 days after infusion 2)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Ketamine plasma level",
+        "description": "Concentration of ketamine in the plasma of patients who received an intravenous infusion with 4mg/kg lidocaine and 0.15 - 0.5mg/kg ketamine over 30 minutes at the time directly after the infusion.",
+        "timeFrame": "After infusion 1 (Baseline), after infusion 2 (28 days after infusion 1), after infusion 3 (28 days after infusion 2)"
+      },
+      {
+        "measure": "Change in pain assessment",
+        "description": "Change of pain assessed by the Short form - McGill Pain Questionnaire (SF- MPQ). he main component of the SF-MPQ consists of 15 descriptors (11 sensory; 4 affective) which are rated on an intensity scale as 0 = none, 1 = mild, 2 = moderate or 3 = severe.",
+        "timeFrame": "After infusion 1 (Baseline), after infusion 2 (28 days after infusion 1), after infusion 3 (28 days after infusion 2)"
+      },
+      {
+        "measure": "Change in mood assessment",
+        "description": "Change of mood assessed by the Beck Depression Questionnaire II (BDI-II); Conventional cutoffs are 0-9 for normal range, 10-18 for mild to moderate depression, 19-29 for moderate to severe depression, and 30-63 for severe depression",
+        "timeFrame": "After infusion 1 (Baseline), after infusion 2 (28 days after infusion 1), after infusion 3 (28 days after infusion 2)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:20.110Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

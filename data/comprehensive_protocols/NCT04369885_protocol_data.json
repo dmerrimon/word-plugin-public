@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT04369885",
+  "briefTitle": "Assessing Adherence to Home Telemedicine in Individuals With Chronic Obstructive Pulmonary Disease (COPD)",
+  "officialTitle": "Assessing Adherence to Home Telemedicine in Individuals With COPD",
+  "protocolDocument": {
+    "nctId": "NCT04369885",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-24",
+    "uploadDate": "2021-09-27T14:55",
+    "size": 974752,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04369885/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-07-01",
+    "completionDate": "2021-05-24",
+    "primaryCompletionDate": "2021-05-24",
+    "firstSubmitDate": "2020-04-27",
+    "firstPostDate": "2020-04-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or Female patients\n* 40 to 80 years of age\n* English speaking\n* Spirometry confirmed COPD (post-bronchodilator FEV1/FVC\\<0.70) and post-bronchodilator FEV1% predicted \\<80% at screening visit. (Target 50% of recruitment with post-bronchodilator FEV1\\<50% predicted (severe obstruction))\n* Increased COPD exacerbation risk defined as either of the following in the prior 12 months:\n\n  * One hospitalization for COPD exacerbation\n  * Two outpatient COPD exacerbations requiring treatment with steroids and/or antibiotics\n* Signed informed consent\n\nExclusion Criteria:\n\n* Unable to perform spirometry on their own following training.\n* Planned discharge to a nursing home or other extended care facility\n* Co-morbid conditions likely to result in non-preventable readmissions (e.g., terminal malignancy, cirrhosis or end-stage liver disease, chronic wound infections, etc.)\n* Uncontrolled or untreated medical conditions that would predispose the patient to recurrent COPD exacerbations (i.e., bronchiectasis)\n* Patient refusal to or inability to comply with monitoring requirements, for any reason including but not limited to dementia, a history of dementia, or other significant mental impairment\n* Patients enrolled in any other clinical trials or therapeutic studies of drugs, devices, or biologics",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Home Device Measurement Collection Adherence",
+        "description": "Percentage of participants achieving \\>50% completion of all planned device measurements (spirometry, pulse oximetry and questionnaires) over three months",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Percentage of Participants With Decrease in COPD Assessment Test (CAT) Score",
+        "description": "Percentage of participants achieving ≥2 point decrease in CAT from baseline to three months. The CAT is a short, self-completed, 8-item questionnaire, each item is rated on a 6-point scale ranging from 0 (no impairment) to 5 (maximum impairment). The total CAT score is calculated by summing the scores of all items and ranges from 0 to 40, higher scores indicating severe condition.",
+        "timeFrame": "3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With Individual Survey Domains Score of 4 or Higher",
+        "description": "The percentage of participants with score of 4 or higher on individual survey domains. A satisfaction survey (investigator-developed, 13 questions, each question is graded on a scale of 1-5, 1 being not at all and 5 being extremely) will be used to measure home spirometry and table ease and usefulness.",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Median Communication Frequency Survey Score at 3 Months",
+        "description": "The median score on a survey question focused on frequency of communication between device and participant. A survey question (investigator-developed, single question) included a scale of 1-5, 1 being \"way too much\" and 5 being \"I wanted a lot more\".",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Median Number of Ideal Daily Questions Score at 3 Months",
+        "description": "The median score on a survey question focused on the ideal number of questions asked by the device per day. A survey question (investigator-developed, single question) asking participants to indicate how many questions per day was \"right\" with choices ranging from \"1\" to \"5 or more.\"",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Rate of Self-reported COPD Exacerbations",
+        "description": "The 30-day COPD exacerbation rate, defined as the mean number of events/30 days of follow-up (using three months of follow-up data). COPD exacerbation events are defined as self-reported COPD exacerbations requiring treatment with antibiotics or steroids.",
+        "timeFrame": "3 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:27.297Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

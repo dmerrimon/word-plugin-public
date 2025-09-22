@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT02792257",
+  "briefTitle": "Trial of Dronabinol Adjunctive Treatment of Agitation in Alzheimer's Disease",
+  "officialTitle": "Pilot Trial of Dronabinol Adjunctive Treatment of Agitation in Alzheimer's Disease",
+  "protocolDocument": {
+    "nctId": "NCT02792257",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-07-02",
+    "uploadDate": "2025-02-05T13:29",
+    "size": 465022,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02792257/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 84,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-03-01",
+    "completionDate": "2024-05-31",
+    "primaryCompletionDate": "2024-05-31",
+    "firstSubmitDate": "2016-05-26",
+    "firstPostDate": "2016-06-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Diagnosis of Dementia due to AD\n2. Presence of Agit-AD as defined by the provisional criteria from the International Psychogeriatric Association (IPA). The definition requires the presence of cognitive impairment, evidence of emotional distress, one of three observable types of behavior (excessive motor activity, verbal aggression, physical aggression), requires that the behavior cause excess disability, and notes that the behaviors cannot be solely attributable to another disorder such as psychiatric illness, medical illness, or effects of substance use.\n3. Clinically significant severity of agitation defined by NPI-C Agitation or NPI-C Aggression \\> 4.\n4. Able to give informed consent, or deemed to lack such capacity by clinical team and legally authorized representative consents.\n5. Must be fluent in English and/or Spanish (includes reading, writing, and speech)\n6. Must be admitted to clinical sites associated with McLean Hospital, Johns Hopkins University, and Miami Jewish Health Services as an inpatient/long term care resident during the study duration (3 weeks) OR be able to travel to these locations to enroll as an outpatient.\n7. Must be 60-95 years old\n8. Must begin enrollment in study within one week of being determined eligible\n\nExclusion Criteria:\n\n1. Serious or unstable medical illness, including cardiovascular, hepatic, renal, respiratory, endocrine, neurologic or hematologic disease, which might confound assessment of safety outcomes.\n2. Seizure disorder\n3. Baseline delirium as determined by Confusion Assessment Method (CAM) and Diagnostic and Statistical Manual of Mental Disorders (DSM) -5 criteria\n4. Current use of lithium\n5. Inability to swallow a pill",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "maximumAge": "95 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Symptoms of Agitation as Measured by the Pittsburgh Agitation Scale",
+        "description": "The Pittsburgh Agitation Scale (PAS) is a tool used to assess the severity of agitation in patients, particularly with dementia. The minimum score is 0 and the maximum score is 16. A higher number means a worse outcome, meaning more agitation.",
+        "timeFrame": "Up to 3 weeks"
+      },
+      {
+        "measure": "Symptoms of Agitation as Measured by the Neuropsychiatric Inventory, Clinician Version",
+        "description": "The Neuropsychiatric Inventory Clinician Version (NPI-C) is an assessment tool used to evaluate neuropsychiatric symptoms in patients, particularly those with dementia. The minimum score is 0 and the max is 426. Higher scores indicate worse outcomes, meaning more agitation.",
+        "timeFrame": "Up to 3 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Adverse Events in Dronabinol Treatment as Compared to Placebo",
+        "description": "All Adverse Events (AE) s occurring after randomization and during the 3-week treatment period, regardless of adherence to study treatment, will be recorded at all contacts.",
+        "timeFrame": "Up to 3 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:41.173Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

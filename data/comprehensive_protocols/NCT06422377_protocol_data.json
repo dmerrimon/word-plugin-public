@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT06422377",
+  "briefTitle": "A Study Evaluating Soticlestat in Participants With Dravet Syndrome or Lennox-Gastaut Syndrome Who Have Been Exposed to Fenfluramine",
+  "officialTitle": "An Open-label, Nonrandomized, Phase 3 Study to Evaluate the Efficacy and Safety of Soticlestat in Participants With Dravet Syndrome or Lennox-Gastaut Syndrome Who Have Been Exposed to Fenfluramine",
+  "protocolDocument": {
+    "nctId": "NCT06422377",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-06-27",
+    "uploadDate": "2025-02-14T06:52",
+    "size": 3489492,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06422377/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-04-25",
+    "completionDate": "2024-08-14",
+    "primaryCompletionDate": "2024-08-14",
+    "firstSubmitDate": "2024-05-15",
+    "firstPostDate": "2024-05-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. The participant has been exposed to fenfluramine (currently on or used previously).\n2. The participant has a clinical diagnosis of LGS and a history of, on average, ≥12 MMD seizures in the last 90 days immediately before screening based on historical information, and the participant has ≥4 MMD seizures during a minimum of 4 weeks of seizure data collection during the prospective baseline period.\n3. The participant is currently taking 0 to 5 antiseizure treatments (eg. antiseizure medications \\[ASMs\\], vagus nerve stimulation \\[VNS\\], ketogenic diet) at stable doses.\n\nExclusion Criteria:\n\n1. The participant is currently enrolled in a clinical study involving an investigational product or treatment device (ie, not approved in that country, other than soticlestat), or concurrently enrolled in any other type of medical research judged not to be scientifically or medically compatible with this study. Note: Compatibility will be determined on the basis of consultation with the sponsor/designee.\n2. The participant has a known hypersensitivity to any component of the soticlestat formulation.\n3. Participants aged ≥6 years who have positive answers on item numbers 4 or 5 on the Columbia-Suicide Severity Rating Scale (C-SSRS) before dosing are excluded. This scale will only be administered to participants aged ≥6 years at the time of enrollment or participants who turn 6 after enrollment.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percent Change From Baseline in Convulsive Seizure Frequency Per 28 Days During First 12 Weeks of Maintenance Period for DS Participants",
+        "timeFrame": "Baseline to Week 12 of Maintenance Period"
+      },
+      {
+        "measure": "Percent Change From Baseline in Major Motor Drop (MMD) Seizure Frequency Per 28 Days During First 12 Weeks of Maintenance Period for LGS Participants",
+        "timeFrame": "Baseline to Week 12 of Maintenance Period"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:50.854Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

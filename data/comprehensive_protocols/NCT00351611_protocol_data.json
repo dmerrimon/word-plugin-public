@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT00351611",
+  "briefTitle": "Vision Testing in Patients With Partial Seizures Receiving Either Lyrica or Placebo",
+  "officialTitle": "PROSPECTIVE RANDOMIZED 12-WEEK CONTROLLED STUDY OF VISUAL FIELD CHANGE IN SUBJECTS WITH PARTIAL SEIZURES RECEIVING PREGABALIN OR PLACEBO",
+  "protocolDocument": {
+    "nctId": "NCT00351611",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-09-25",
+    "uploadDate": "2021-02-01T08:56",
+    "size": 2856175,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00351611/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 187,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2006-07-26",
+    "completionDate": "2020-02-04",
+    "primaryCompletionDate": "2020-02-04",
+    "firstSubmitDate": "2006-07-11",
+    "firstPostDate": "2006-07-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Epilepsy partial seizure subjects.\n* Currently taking 1 to 3 antiepileptic drugs.\n\nExclusion Criteria:\n\n* Pre-existing eye diseases (glaucoma).\n* Insufficient response to pregabalin in the treatment of partial seizure, or patients currently receiving pregabalin treatment.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With a Decrease (p<0.05) From Baseline in Threshold Value in Any 5 or More Points in Humphrey 24-2 Swedish Interactive Threshold Algorithm (SITA) Standard Testing at Week 12 or Early Termination",
+        "description": "In this primary outcome measure, percentage of participants is reported, with a decrease in the threshold value from baseline to Week 12 or termination in any 5 or more points (in either eye) at the p\\<0.05 level repeated in the same 5 points on subsequent computerized automated perimetry testing (Humphrey 24-2 SITA standard). It was derived from the Humphrey 24-2 SITA standard visual field analyzer. For each eye there were 52 test points. For each test point, the Humphrey analyzer determined the threshold value for sensitivity to light by the participant. In addition, for each of the 52 points, the test provided probabilities (p\\<0.05, p\\<0.02, etc.) that a participant with normal vision of the same age would have the same result, i.e., that the measured value at that point was at or below the respective percentile of the age-specific empiric distribution at that position of the field for normal participants.",
+        "timeFrame": "Baseline, Week 12 or Early Termination (any time up to Week 12)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Mean Deviation Score From Humphrey Threshold Test at Week 12 or Early Termination",
+        "description": "Mean deviation (MD) is a global index of visual field depression. The MD ranges from 0 decibels (no defect) to about -32 decibels (end-stage damage), higher scores indicate worse condition. It is derived from the Humphrey 24-2 SITA standard visual field analyzer. Change in mean deviation score from baseline to Week 12 or termination was computed for each participant. As planned, for each participant, the worst eye (eye with the greatest decrease in mean deviation) was used in the analysis and data is reported for same.",
+        "timeFrame": "Baseline, Week 12 or Early Termination (any time up to Week 12)"
+      },
+      {
+        "measure": "Change From Baseline in Visual Acuity at Week 12 or Early Termination",
+        "description": "Visual acuity best-corrected (with glasses or best possible glasses prescription) was measured using early treatment diabetic retinopathy study (ETDRS) charts. There were 2 ETDRS charts. The letters on chart A were read using the right eye and on chart B using the left eye. The participants started from the top of the chart to down. The participants read down the chart until they reached a row where a minimum of 3 letters on a line could not be read. The participants were scored by number of letters identified correctly. Range was from 0 to 70, with higher scores indicate better visual acuity. As planned, for each participant, the worst eye (eye with the greatest decrease in visual acuity) was used in the analysis and data is reported for same.",
+        "timeFrame": "Baseline, Week 12 or Early Termination (any time up to Week 12)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:49.396Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

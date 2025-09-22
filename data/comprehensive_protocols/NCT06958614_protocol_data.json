@@ -1,0 +1,105 @@
+{
+  "nctId": "NCT06958614",
+  "briefTitle": "Prophylactic PEG-rhG-CSF During cCRT in LA-NSCLC",
+  "officialTitle": "Efficacy and Safety of Primary Prophylactic Pegylated Recombinant Human Granulocyte Colony-Stimulating Factor During Definitive Concurrent Chemoradiotherapy for Inoperable Stage II-III Non-Small Cell Lung Cancer: A Prospective Cohort Study",
+  "protocolDocument": {
+    "nctId": "NCT06958614",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-06-23",
+    "uploadDate": "2025-04-25T01:38",
+    "size": 608153,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06958614/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 213,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-02",
+    "completionDate": "2025-01-30",
+    "primaryCompletionDate": "2024-11-07",
+    "firstSubmitDate": "2025-03-28",
+    "firstPostDate": "2025-05-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Diagnosis\n\n   * Histologically confirmed stage II-III non-small cell lung cancer (NSCLC)\n2. Treatment Plan\n\n   * Planned to receive concurrent platinum-based chemotherapy with radiotherapy (cCRT)\n3. Demographics\n\n   * Age 18-80 years\n4. Performance Status\n\n   * Karnofsky Performance Status (KPS) ≥70\n5. Organ Function\n\n   * Renal function: Creatinine clearance ≥60 mL/min\n   * Hepatic function: Total bilirubin ≤1.5×ULN, AST/ALT ≤2.5×ULN\n   * Absolute neutrophil count ≥2.0×10⁹/L\n   * Platelets ≥100×10⁹/L\n   * Hemoglobin ≥10 g/dL\n\nExclusion Criteria:\n\n1. Active Malignancies\n\n   * Concurrent diagnosis of active malignancies (excluding: non-melanoma skin cancer, carcinoma in situ, or malignancies in complete remission for ≥5 years)\n2. Infectious/Immunological Conditions\n\n   * Active systemic infection requiring intravenous antimicrobial therapy\n   * Uncontrolled autoimmune diseases (defined as requiring systemic immunosuppressants at doses \\>10 mg/day prednisone equivalent within 30 days prior to screening)\n3. Hypersensitivity Reactions\n\n   * Allergy to PEG-rhG-CSF or other biological products derived from genetically engineered Escherichia coli\n4. Neuropsychiatric Impairments\n\n   * Severe psychiatric disorders (e.g., schizophrenia, major depressive disorder with suicidal ideation) requiring hospitalization within 6 months)\n5. Prior Radiotherapy\n\n   * History of thoracic radiotherapy involving \\>30% lung parenchyma or mean heart dose \\>20 Gy",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Grade 3 or more (G3+) neutropenia",
+        "description": "According to the Radiation Therapy Oncology Group (RTOG) acute radiation injury grading scale",
+        "timeFrame": "From the first day of radiotherapy to one month after the end of radiotherapy"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "treatment delays",
+        "description": "Chemotherapy delay",
+        "timeFrame": "Chemotherapy delay was defined as a delay of ≥7 days"
+      },
+      {
+        "measure": "interruptions",
+        "description": "Radiotherapy interruption",
+        "timeFrame": "Break in radiotherapy of ≥3 days"
+      },
+      {
+        "measure": "G3+ thrombocytopenia and anemia",
+        "description": "According to the Radiation Therapy Oncology Group (RTOG) acute radiation injury grading scale",
+        "timeFrame": "From the first day of radiotherapy to one month after the end of radiotherapy"
+      },
+      {
+        "measure": "G2+ acute radiation esophagitis (RE) and pneumonitis (RP)",
+        "description": "According to the Radiation Therapy Oncology Group (RTOG) acute radiation injury grading scale",
+        "timeFrame": "From the first day of radiotherapy to six month after the end of radiotherapy"
+      },
+      {
+        "measure": "progression-free survival (PFS)",
+        "description": "the time from the start of cCRT to the first event of disease progression",
+        "timeFrame": "assessed up to 72 months"
+      },
+      {
+        "measure": "overall survival (OS)",
+        "description": "the time from the start of cCRT to death from any cause",
+        "timeFrame": "assessed up to 72 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:50.273Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04831281",
+  "briefTitle": "ATH-1017 Treatment in Subjects With Parkinson's Disease Dementia or Dementia With Lewy Bodies (SHAPE Trial)",
+  "officialTitle": "A Randomized, Placebo-Controlled, Double-Blind Study of ATH-1017 Treatment in Subjects With Parkinson's Disease Dementia or Dementia With Lewy Bodies",
+  "protocolDocument": {
+    "nctId": "NCT04831281",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-11-05",
+    "uploadDate": "2025-01-09T16:00",
+    "size": 2624959,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04831281/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 28,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-01-20",
+    "completionDate": "2023-04-19",
+    "primaryCompletionDate": "2023-04-19",
+    "firstSubmitDate": "2021-04-01",
+    "firstPostDate": "2021-04-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subjects with confirmed diagnosis of Parkinson's disease or Dementia with Lewy Bodies\n* MoCA score 11 to 23, inclusive, at screening\n* Probable Parkinson's Disease Dementia or Lewy Body Dementia\n* BMI between ≥ 16and ≤ 35 kg/m2 for females and between≥ 18 and ≤ 35 kg/m2 for males at Screening\n* Reliable and capable support person/caregiver, who is willing to accept responsibility for supervising the treatment or, if required, administering study drug, and assessing the condition of the subject throughout the study in accordance with all protocol requirements\n\nExclusion Criteria:\n\n* Hoehn-Yahr stage 5\n* History of significant neurological disease other than PDD or DLB that may affect cognition at onset of dementia\n* Subjects on deep brain stimulation\n* History of brain MRI scan indicative of any other significant abnormality\n* History of unexplained loss of consciousness, and epileptic fits\n* Hearing test result considered unacceptable for auditory ERP P300 assessment\n* Diagnosis of severe major depressive disorder even without psychotic features (GDS score \\[15-item scale\\] \\>7 at Screening)\n* Significant suicide risk based on C-SSRS\n* Significant psychosis (according to Diagnostic and Statistical Manual of Mental Disorders)\n* Moderate or severe substance abuse disorder (according to DSM-5)\n* Myocardial infarction or unstable angina within the last 6 months\n* Clinically significant cardiac arrhythmia (including atrial fibrillation), cardiomyopathy, or cardiac conduction defect (note: pacemaker is acceptable)\n* Clinically significant ECG abnormality at Screening\n* Chronic kidney disease (eGFR \\< 45 mL/min using Cockcroft-Gault formula)\n* Hepatic impairment with alanine aminotransferase or aspartate aminotransferase \\> 2 times the upper limit of normal, or Child-Pugh class B and C\n* Malignant tumor within 3 years before Screening\n* Memantine at any dose or combination\n* Donepezil at 23 mg",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Global Statistical Test (GST) Score at Baseline",
+        "description": "The Global Statistical Test (GST) score is a composite of the change from baseline (CFB) z-scores to Week 26 in the Alzheimer's Disease Assessment Scale - Cognitive Subscale, 13-Item Version (ADAS-Cog13; range 0-85; higher scores indicate greater impairment) and Event Related Potential P300 Latency (ERP P300; longer latency (milliseconds) indicates greater impairment). This composite approach was used to assess overall change in disease status and treatment effects of ATH-1017.\n\nThe GST score was defined as a single outcome variable based on standardizing and combining individual patient-level z-score of change from baseline cognition (ADAS-Cog13) and ERP P300 latency scores. The between-group difference was calculated by subtracting the mean GST score for placebo from the mean GST score for ATH-1017. A negative value based on GST scores (ATH-1017 minus placebo) indicates a favorable response to ATH-1017, while a positive value favors placebo.",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Event-related Potential (ERP) P300 Latency at Baseline",
+        "description": "ERP P300 was a method of recording brain activity elicited by external stimuli, for example (e.g.), an oddball auditory stimulus, particularly of working memory access. The participant had to perform a task related to auditory stimuli in order to assess the P300 component (latency). The stimulus consisted of an oddball paradigm with 2 sound stimuli. Stimuli were presented through headphones and auditory stimulation for P300 was assessed in a recording lasting up to 10 minutes. It was calculated as the average across the pre-dose values at Baseline visit.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog13) at Baseline",
+        "description": "The Alzheimer's Disease Assessment Scale - Cognitive Subscale, 13-Item Version (ADAS-Cog13) is designed to measure cognitive symptom change. The test comprises 9 performance items and 4 clinician-rated items (total score ranging from 0 to 85). Higher scores indicate more severe cognitive impairment.",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:45.094Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

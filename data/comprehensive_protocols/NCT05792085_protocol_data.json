@@ -1,0 +1,128 @@
+{
+  "nctId": "NCT05792085",
+  "briefTitle": "Heart Failure Optimization at Home to Improve Outcomes (Hozho): A Pragmatic Clinical Trial in Navajo Nation",
+  "officialTitle": "Heart Failure Optimization at Home to Improve Outcomes (Hozho): A Pragmatic Clinic Trial of Telephone-Based GDMT Optimization in Navajo Nation",
+  "protocolDocument": {
+    "nctId": "NCT05792085",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-09-06",
+    "uploadDate": "2023-08-23T01:15",
+    "size": 445464,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05792085/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 103,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-02-01",
+    "completionDate": "2023-08-01",
+    "primaryCompletionDate": "2023-08-01",
+    "firstSubmitDate": "2023-01-26",
+    "firstPostDate": "2023-03-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with heart failure with reduced ejection fraction with last ejection fraction equal to or less than 40%\n* Have a primary care physician at Gallup Indian Medical Center or Tohatchi Health Center\n* Have been seen in the last 12 months at Gallup Indian Medical Center or Tohatchi Health Center\n\nExclusion Criteria:\n\n* On hospice\n* LVAD/translant\n* Home inotropes\n* No visit in last 12 months at Gallup Indian Medical Center or Tohatchi Health Center",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage That Had Increase in Classes of Guideline Directed Medical Therapy",
+        "description": "% of Patients that had Increase in the number of classes of Guideline Directed Medical Therapy (Beta-blocker, ACEi/Angiotensin receptor blockers, Angiotensin Receptor-Neprilysin Inhibitor, Aldosterone receptor antagonists, SGLT2i)",
+        "timeFrame": "30 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage That Had Increase in Classes of Guideline Directed Medical Therapy or Dose of Guideline Directed Medical Therapy",
+        "description": "Proportion of patients that had an increase in the number of classes or dose of Guideline Directed Medical Therapy (Beta-blocker, Angiotensin-converting enzyme inhibitors/Angiotensin receptor blockers, Angiotensin Receptor-Neprilysin Inhibitor, Aldosterone receptor antagonists, Sodium-glucose co-transporter 2 inhibitors)",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Rates of Increase/Addition of ACEi/ARB/Angiotensin Receptor-Neprilysin Inhibitor",
+        "description": "Rates of Rx for ACEi, ARB, or ANRI (Sacubritril-Valsartan)",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Rates of Increase/Addition in Sodium-glucose Co-transporter 2 Inhibitors",
+        "description": "Rates of Rx for Sodium-glucose co-transporter 2 inhibitors",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Rates of Increase/Addition of Aldosterone Receptor Antagonists",
+        "description": "Rates of Rx for Aldosterone receptor antagonists",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Rates of Increase/Addition of Beta-blockers",
+        "description": "Rates of Rx for Beta-blockers",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Addition of or Increase in Dose for ACEi/ARB/ARNI",
+        "description": "Increase in Dose for ACEi/ARB/ARNI",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Addition of or Increase in Dose of Beta-blocker",
+        "description": "Addition of or Increase in Dose for Beta-blocker",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Addition of or Increase in Dose of Aldosterone Receptor Antagonists",
+        "description": "Dose increase or addition of Aldosterone receptor antagonists",
+        "timeFrame": "30 days"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Change in Provider Comfort With Guideline Directed Medical Therapy Prescribing From Baseline to 6 Months",
+        "description": "Baseline and follow up comfort prescribing therapy: Through survey we will assess at baseline and on follow-up how comfortable (from 1-5) providers feel with prescribing each of the following medications: Beta-blocker, Aldosterone receptor antagonist, Angiotensin-converting enzyme inhibitors, Angiotensin Receptor-Neprilysin Inhibitors, Sodium-glucose co-transporter 2 inhibitors. This measure is a score on a scale from 1-5, with 1 indicating low comfort level and 5 indicating high comfort level.",
+        "timeFrame": "6 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 1,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 81,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:33.264Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,73 @@
+{
+  "nctId": "NCT02235545",
+  "briefTitle": "Optisure Lead Post Approval Study",
+  "officialTitle": "Optisure Lead Post Approval Study",
+  "protocolDocument": {
+    "nctId": "NCT02235545",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2013-12-12",
+    "uploadDate": "2021-04-07T19:04",
+    "size": 1085699,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02235545/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 1735,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-08",
+    "completionDate": "2020-06-30",
+    "primaryCompletionDate": "2019-12-16",
+    "firstSubmitDate": "2014-09-07",
+    "firstPostDate": "2014-09-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nEligible patients will meet all of the following:\n\n1. Have an approved indication, as per ACC/AHA/HRS/ESC guidelines, for implantation of an ICD or CRT-D system for treatment of heart failure or life-threatening ventricular tachyarrhythmia(s).\n2. Have been implanted with a St. Jude Medical Optisure lead in the last 30 days or are scheduled for an Optisure lead implant.\n3. Have the ability to provide informed consent for study participation and be willing and able to comply with the prescribed follow-up tests and schedule of evaluations.\n4. Are 18 years or above, or of legal age to give informed consent specific to state and national law.\n\nExclusion Criteria:\n\nPatients will be excluded if they meet any of the following:\n\n1. Enrolled or intend to participate in a clinical drug and/or device study, which could confound the results of this trial as determined by SJM, during the course of this clinical study.\n2. Have a life expectancy of less than 5 years due to any condition.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Complication Free Survival Rate at 5 Years for Complications Related to the Optisure RV Leads.",
+        "description": "Freedom from right ventricle (RV) lead related complications within 30 days of implant at 5 years follow-up\n\nDue to early termination of study, the sample size at 5 years follow-up was insufficient to perform the pre-specified primary endpoint analysis. The endpoint was evaluated using the Kaplan-Meier method however the hypothesis test was not performed due to insufficient sample size. The percentage freedom from RV lead related complications was summarized through 5-years from attempted RV lead implant. For subjects who experienced RV lead related complication, the time to event will be calculated from the attempted implant to the date that the first event occurred. For subjects that did not experience the complication, the time to event was censored at their last known event-free time point.",
+        "timeFrame": "5 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:31.790Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

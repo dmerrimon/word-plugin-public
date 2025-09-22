@@ -1,0 +1,152 @@
+{
+  "nctId": "NCT04317040",
+  "briefTitle": "Efprezimod Alfa (CD24Fc, MK-7110) as a Non-antiviral Immunomodulator in COVID-19 Treatment (MK-7110-007)",
+  "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Multi-site, Phase III Study to Evaluate the Safety and Efficacy of CD24Fc in COVID-19 Treatment",
+  "protocolDocument": {
+    "nctId": "NCT04317040",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-08-16",
+    "uploadDate": "2021-09-28T15:16",
+    "size": 2154482,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04317040/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 234,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-04-24",
+    "completionDate": "2020-10-20",
+    "primaryCompletionDate": "2020-10-20",
+    "firstSubmitDate": "2020-03-19",
+    "firstPostDate": "2020-03-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosed with coronavirus disease 2019 (COVID-19) and confirmed severe acute respiratory syndrome coronavirus 2 (SARS-coV-2) viral infection\n* Severe or critical COVID-19, or National Institute of Allergy and Infectious Diseases (NIAID) 8-point ordinal score 2, 3 or 4 (Scale 2: requiring invasive mechanical ventilation or extracorporeal membrane oxygenation (ECMO); Scale 3: non-invasive ventilation or high flow oxygen devices; Scale 4: supplemental oxygen support; a peripheral capillary oxygen saturation (SpO2) \\</= 94% or tachypnea (respiratory rate \\>/= 24 breaths/min). Intubation should be within 7 days\n\nExclusion Criteria:\n\n* Participants who are pregnant, breastfeeding, or have a positive pregnancy test result before enrollment\n* Participants previously enrolled in the efprezimod alfa study\n* Intubation for invasive mechanical ventilation is over 7 days\n* Documented acute renal or hepatic failure\n* The investigator believes that participating in the trial is not in the best interests of the participant, or the investigator considers unsuitable for enrollment (such as unpredictable risks or subject compliance issues)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time to Improvement in Coronavirus Disease 2019 (COVID-19) Clinical Status",
+        "description": "Time to improvement in COVID-19 clinical status: defined as time (days) required from start of treatment to improvement of clinical status severe - moderate/mild or improvement from score 2-4 to ≥5 sustained without drop below 5 within 28 days from randomization, total follow-up period 29 days (Randomization Day 1 + 28 days follow up) per National Institute of Allergy \\& Infectious Diseases (NIAID) ordinal scale graded: 1=Death; 2=Hospitalized, on invasive mechanical ventilation (IMV)/extracorporeal membrane oxygenation (ECMO); 3=Hospitalized, on non-invasive ventilation (NIV)/high flow oxygen devices; 4=Hospitalized, require supplemental oxygen; 5=Hospitalized, no supplemental oxygen, require medical care; 6=Hospitalized, no supplemental oxygen, don't require medical care; 7=Not hospitalized, limitation on activities \\&/or require home oxygen; 8=Not hospitalized, no limitations on activities. Median time \\& 95% confidence intervals (CIs) were reported using Brookmeyer-Crowley method.",
+        "timeFrame": "Up to Day 29"
+      },
+      {
+        "measure": "Number of Participants Who Experience an Adverse Event (AE)",
+        "description": "An AE was defined as any unfavorable and unintended sign including an abnormal laboratory finding, symptom or disease associated with the use of a medical treatment or procedure, regardless of whether it is considered related to the medical treatment or procedure, that occurs during the course of the study. Per protocol, only AEs with Common Terminology Criteria for AE (CTACAE) grade ≥3 were included. The number of participants who experienced an AE were reported.",
+        "timeFrame": "Up to 30 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants Who Died or Had Respiratory Failure (RF)",
+        "description": "RF was defined as the need for any of the following: 1) mechanical ventilation (MV), 2) ECMO, 3) NIV, or 4) high flow oxygen devices. Percentage of participants who died or had respiratory failure by Day 29 were reported.",
+        "timeFrame": "Up to Day 29"
+      },
+      {
+        "measure": "Time to Disease Progression in Clinical Status of COVID-19",
+        "description": "Time to disease progression in clinical status is defined as the time (days) for progression from NIAID score (3 or 4) to (2 or 1) or from 2 to 1 within 28 days from randomization, total follow-up period 29 days (Randomization Day 1 + 28 days follow up). NIAID ordinal scale graded as: 1=Death; 2=Hospitalized, on IMV/ECMO; 3=Hospitalized, on NIV/high flow oxygen devices; 4= Hospitalized, require supplemental oxygen; 5=Hospitalized, no supplemental oxygen, require medical care; 6=Hospitalized, no supplemental oxygen, do not require medical care; 7=Not Hospitalized, limitation on activities and/or require home oxygen; 8=Not hospitalized, no limitations on activities.",
+        "timeFrame": "Up to Day 29"
+      },
+      {
+        "measure": "Number of Participants Who Died Due to Any Cause",
+        "description": "Number of participants who died due to any cause were assessed per protocol on Day 15 and Day 29.",
+        "timeFrame": "Up to Day 29"
+      },
+      {
+        "measure": "Rate of Clinical Relapse",
+        "description": "Rate of clinical relapse was defined as the percentage of participants who had initially reached score 5 on NIAID ordinal scale for more than one day but subsequently became dependent on oxygen support for more than 1 day within 28 days from randomization after initial recovery with a total follow-up period of 29 days (Day 1 of randomization plus 28 days of follow-up). NIAID ordinal scale graded as: 1=Death; 2=Hospitalized, on IMV/ECMO; 3=Hospitalized, on NIV/high flow oxygen devices; 4= Hospitalized, require supplemental oxygen; 5=Hospitalized, no supplemental oxygen, require medical care; 6=Hospitalized, no supplemental oxygen, do not require medical care; 7=Not hospitalized, limitation on activities and/or require home oxygen; 8=Not hospitalized, no limitations on activities. Clopper-Pearson method was used to report the 95% CI.",
+        "timeFrame": "Up to Day 29"
+      },
+      {
+        "measure": "Conversion Rate of COVID-19 Clinical Status",
+        "description": "Conversion rate of COVID-19 clinical status on days 8 and 15 was defined as the percentage of participants who changed from NIAID ordinal score 2, 3, 4 to score 5 or higher and reported. NIAID ordinal scale graded as: 1=Death; 2=Hospitalized, on IMV/ECMO; 3=Hospitalized, on NIV/high flow oxygen devices; 4= Hospitalized, require supplemental oxygen; 5=Hospitalized, no supplemental oxygen, require medical care; 6=Hospitalized, no supplemental oxygen, do not require medical care; 7=Not hospitalized, limitation on activities and/or require home oxygen; 8=Not hospitalized, no limitations on activities.",
+        "timeFrame": "Up to Day 15"
+      },
+      {
+        "measure": "Time to Hospital Discharge",
+        "description": "The hospital discharge time was defined as the time from randomization to discharge from the hospital and reported. Time to Hospital Discharge (days) from randomization is calculated as: Time to hospital discharge = Date of hospital discharge - Date of randomization.",
+        "timeFrame": "Up to Day 29"
+      },
+      {
+        "measure": "Duration of MV",
+        "description": "MV included IMV and NIV. Duration of MV (days) was calculated as: End Date of MV - Start Date of MV + 1 and reported.",
+        "timeFrame": "Up to Day 29"
+      },
+      {
+        "measure": "Duration of Pressors",
+        "description": "Pressor administration included norepinephrine, epinephrine, vasopressin, dopamine and phenylephrine. Duration of pressor (days) was defined as: End Date of Pressor - Start Date of Pressor + 1 and reported.",
+        "timeFrame": "Up to Day 29"
+      },
+      {
+        "measure": "Duration of ECMO",
+        "description": "Duration of ECMO treatment (days) was calculated as: End Date of ECMO Treatment - Start Date of ECMO Treatment + 1 and reported.",
+        "timeFrame": "Up to Day 29"
+      },
+      {
+        "measure": "Duration of High Flow Oxygen Therapy",
+        "description": "Duration of oxygen therapy (oxygen inhalation by high flow nasal cannula or mask) (days) was calculated as: End Date of high flow oxygen therapy - Start Date of high flow oxygen therapy + 1 and reported.",
+        "timeFrame": "Up to Day 29"
+      },
+      {
+        "measure": "Length of Hospital Stay",
+        "description": "Length of Hospital Stay (Days) was defined as date of discharge - date of admission + 1 and reported. Data presented below include hospitalization time prior to enrollment in the study with total duration of up to 90 days.",
+        "timeFrame": "Up to 90 days"
+      },
+      {
+        "measure": "Change From Baseline in Absolute Lymphocyte Count",
+        "description": "Blood samples were collected to present the change from baseline in the absolute lymphocyte count on days 1, 4, 8, and 15 in peripheral blood. To calculate the change from baseline in absolute lymphocyte count at specific timepoints (Days 1, 4, 8 and 15), only the participants who had both, a baseline, and a post baseline value at the specific timepoint (Days 1, 4, 8 and 15) were included in the analysis.",
+        "timeFrame": "Baseline and up to Day 15"
+      },
+      {
+        "measure": "Change From Baseline in D-Dimer Concentration",
+        "description": "Blood samples were collected to present the change from baseline in the D-dimer concentration on days 4, 8 and 15 in peripheral blood. To calculate change from baseline in D-dimer concentration at specific timepoints (Days 4, 8 and 15), only the participants who had both, a baseline, and a post baseline value at the specific timepoint (Days 4, 8 and 15) were included in the analysis.",
+        "timeFrame": "Baseline and up to Day 15"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 13,
+      "otherCount": 0,
+      "totalCount": 15
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.062Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

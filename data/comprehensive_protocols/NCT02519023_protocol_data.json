@@ -1,0 +1,144 @@
+{
+  "nctId": "NCT02519023",
+  "briefTitle": "TAP vs Surgical Infiltration of Local Anesthetic in Laparoscopic and Robotic Hysterectomy",
+  "officialTitle": "Transversus Abdominis Plane (TAP) Infiltration vs. Surgical Infiltration of Local Anesthetic in Laparoscopic and Robotic Assisted Hysterectomy",
+  "protocolDocument": {
+    "nctId": "NCT02519023",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2015-07-25",
+    "uploadDate": "2018-11-08T11:24",
+    "size": 456342,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02519023/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 87,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07",
+    "completionDate": "2017-06",
+    "primaryCompletionDate": "2017-05",
+    "firstSubmitDate": "2015-07-28",
+    "firstPostDate": "2015-08-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* ASA physical status I-III\n* Females \\>/=18-years of age\n* Scheduled for laparoscopic/robot-assisted hysterectomy.\n\nExclusion Criteria\n\n* Contraindication to surgical infiltration or regional blockade\n* History of long term opioid intake (greater than 3 weeks prior to surgery) or chronic pain disorder\n* Inability to understand the informed consent and demands of the study\n* Surgery scheduled to start after 1700",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Total Opioid Use for Pain Control",
+        "description": "total opioid used from time 0 after surgery through 72 hours after surgery was complete.",
+        "timeFrame": "72 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Maximum Pain Scores as Measured by Numerical Pain Rating Scale (0-10)",
+        "description": "the Numerical rating scale goes from 0 (lowest) to 10 (highest). Higher values are a worse outcome. The maximal number for maximal pain scores from 0-72 hours is 30. Thus the range for this outcome is 0 to 30 with 30 being a worse outcome. This is because the 0-72 hour maximal pain scores are additive from the 0-24, 24-48, and 48-72 hours. Each 24 hour subset has a maximal score of 10 and adding all three results in maximal score of 30.",
+        "timeFrame": "0-72 hours post-procedure"
+      },
+      {
+        "measure": "Total Opioid Taken by Patient as Tabulated and Converted to Morphine Equivalents",
+        "timeFrame": "0-24 post-procedure"
+      },
+      {
+        "measure": "Quality of Recovery 15 (QoR15) Score",
+        "description": "The quality of recovery is a survey given to patients. It is 15 questions. The scale of the QOR 15 Score is 0 to 150. 150 is a better outcome.",
+        "timeFrame": "72 hours post-procedure"
+      },
+      {
+        "measure": "Overall Benefit of Analgesia Score (OBAS)",
+        "description": "The overall benefit of analgesia score is based off 7 questions given to patients it is scored 0-28. 28 is considered a worse outcome.",
+        "timeFrame": "72 hours post-procedure"
+      },
+      {
+        "measure": "Number of Participants With Nausea and Vomiting",
+        "timeFrame": "72 hours post-procedure"
+      },
+      {
+        "measure": "Length of Time in Phase 1 and Phase 2 of Recovery",
+        "description": "time from start of recovery until patient was deemed ready to discharge from phase 2 recovery. Phase 2 recovery is the phase of the post anesthesia care where patients are readied to be discharge form the post anesthesia care unit. There are guidelines with regards to when patients are able to be discharged and when those points are met by the patient they are deemed ready to discharge.",
+        "timeFrame": "an expected average of 120 mins"
+      },
+      {
+        "measure": "Number of Patients Admitted Post Operatively",
+        "timeFrame": "72 hours post-procedure"
+      },
+      {
+        "measure": "Opioid Used From 24-48 Hours Post Surgery",
+        "description": "opioids in mg of morphine equivalents used from 24-48 hours after surgery",
+        "timeFrame": "24-48 hours after the end of surgery"
+      },
+      {
+        "measure": "Total Opioid Taken by Patient as Tabulated and Converted to Morphine Equivalents",
+        "description": "opioid use from time 48-72 hours in mg morphine equivalents",
+        "timeFrame": "48-72 hours after end of surgery"
+      },
+      {
+        "measure": "Patient Satisfaction With Pain Management",
+        "description": "number of patients who answered yes to if they were satisfied with their pain management",
+        "timeFrame": "at 72 hours after surgery"
+      },
+      {
+        "measure": "Maximal Pain Score of Patient From Time 0-24 Hours After Surgery",
+        "description": "the maximal pain score felt by patient during this time period. This is based on a numerical rating scale of 0-10. 0 is best outcome and 10 is worst outcome.",
+        "timeFrame": "0-24 hours after surgery"
+      },
+      {
+        "measure": "Maximal Pain Score for Patient From Time 24-48 Hours After Surgery",
+        "description": "the maximal pain score felt by patient during this time period. This is based on a numerical rating scale of 0-10. 0 is best outcome and 10 is worst outcome.",
+        "timeFrame": "24-48 hours after surgery"
+      },
+      {
+        "measure": "Maximal Pain Score Patient Felt From 48-72 Hours After Surgery",
+        "description": "the maximal pain score felt by patient during this time period. This is based on a numerical rating scale of 0-10. 0 is best outcome and 10 is worst outcome.",
+        "timeFrame": "48-72 hours after surgery"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 13,
+      "otherCount": 0,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:59.184Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

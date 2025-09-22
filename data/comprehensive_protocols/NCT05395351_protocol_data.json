@@ -1,0 +1,109 @@
+{
+  "nctId": "NCT05395351",
+  "briefTitle": "Alteplase in Elderly Acute Ischemic Stroke (AIS) Patients During Hospitalization",
+  "officialTitle": "Characteristics and In-hospital Outcomes of Chinese Elderly (>80 Years) Patients With Acute Ischemic Stroke Receiving Intravenous Recombinant Tissue Plasminogen Activator Treatment Within 4.5 Hours of Symptom Onset",
+  "protocolDocument": {
+    "nctId": "NCT05395351",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-09-22",
+    "uploadDate": "2024-03-20T04:54",
+    "size": 1407393,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05395351/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 113035,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-11-30",
+    "completionDate": "2023-03-28",
+    "primaryCompletionDate": "2023-03-28",
+    "firstSubmitDate": "2022-05-25",
+    "firstPostDate": "2022-05-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patient registered in the Chinese Stroke Centre Alliance (CSCA) platform from Aug 2015 to Jul 2019\n* ≥18 years old\n* Diagnosed as Acute Ischemic Stroke (AIS) at admission\n* Arrived or admitted into hospital within 4.5 hours of symptom onset\n* For patients in the iv rt-PA groups only: received IV rt-PA within 4.5 hours of symptom onset\n\nExclusion Criteria:\n\n* Documented Intravenous Thrombolysis (IVT) absolute contraindication\n* Key data missing (age, gender, baseline National Institutes of Health Stroke Scale \\[NIHSS\\], time of symptom onset, IVT treated or not, time of IV alteplase treatment)\n* Received thrombolysis agents other than IV rt-PA (urokinase, tenecteplase, recombinant plasminogen activator, prourokinase, streptokinase)\n* Received endovascular treatment\n* Received IV rt-PA after 4.5 hours of symptom onset",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "All-cause Mortality During Hospitalization of Acute Ischemic Stroke (AIS) Patients",
+        "description": "All-cause mortality during hospitalization of acute ischemic stroke (AIS) patients who received intravenous recombinant tissue plasminogen activator (IV rt-PA).",
+        "timeFrame": "Up to 100 days."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Patients With Hemorrhagic Stroke During Hospitalization",
+        "description": "Percentage of patients with hemorrhagic stroke during hospitalization.",
+        "timeFrame": "Up to 100 days."
+      },
+      {
+        "measure": "Change of NIHSS Score From Before Intravenous Recombinant Tissue Plasminogen Activator (IV Rt-PA) Treatment to 24 Hours After IV Rt-PA Treatment",
+        "description": "The National Institutes of Health Stroke Scale (NIHSS) is a scale of stroke severity, it ranges from 0 to 42 where a score of 0 indicates no stroke symptoms and higher scores indicate incremental levels of neurologcial impairment.",
+        "timeFrame": "Up to 24 hours."
+      },
+      {
+        "measure": "Modified Rankin Score (mRS) at Discharge",
+        "description": "The Modified Rankin Score (mRS) ranges from 0 to 6, where 0 indicates no symptoms, 1 no significant disability, 2 slight disability, 3 moderate disability, 4 moderately severe disability, 5 severe disability and 6 death.",
+        "timeFrame": "Up to 100 days."
+      },
+      {
+        "measure": "Number of Patients With Stroke Recurrence During Hospitalization",
+        "description": "Number of patients with stroke recurrence during hospitalization.",
+        "timeFrame": "Up to 100 days."
+      },
+      {
+        "measure": "Length of Hospitalization",
+        "description": "Length of hospitalization.",
+        "timeFrame": "Up to 100 days."
+      },
+      {
+        "measure": "Percentage of Intravenous Recombinant Tissue Plasminogen Activator (IV Rt-PA) Treatment Among Acute Ischemic Stroke (AIS) Patients Arrived or Were Admitted to the Hospital Within 4.5 Hours of Symptom Onset",
+        "description": "Percentage of intravenous recombinant tissue plasminogen activator (IV rt-PA) treatment among acute ischemic stroke (AIS) patients arrived or were admitted to the hospital within 4.5 hours of symptom onset.",
+        "timeFrame": "Up to 4.5 hours."
+      },
+      {
+        "measure": "Percentage of Intravenous Recombinant Tissue Plasminogen Activator (IV Rt-PA) Treatment Within 4.5 Hours of Symptom Onset Among Eligible AIS Patients (3.5-hour Arrival or Admission)",
+        "description": "Percentage of intravenous recombinant tissue plasminogen activator (IV rt-PA) treatment within 4.5 hours of symptom onset among eligible AIS patients (3.5-hour arrival or admission).",
+        "timeFrame": "Up to 4.5 hours."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:35.771Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

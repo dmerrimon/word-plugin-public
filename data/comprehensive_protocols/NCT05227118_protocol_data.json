@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT05227118",
+  "briefTitle": "MK-8189 Safety and Tolerability in Participants With Alzheimer's Disease With or Without Symptoms of Agitation-Aggression and/or Psychosis (MK-8189-017)",
+  "officialTitle": "A Randomized Clinical Study to Evaluate the Safety and Tolerability of MK-8189 in Participants With Alzheimer's Disease With or Without Symptoms of Agitation-Aggression and/or Psychosis",
+  "protocolDocument": {
+    "nctId": "NCT05227118",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-07-21",
+    "uploadDate": "2023-12-15T16:10",
+    "size": 2636714,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05227118/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 29,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-07-01",
+    "completionDate": "2023-01-10",
+    "primaryCompletionDate": "2023-01-10",
+    "firstSubmitDate": "2022-01-27",
+    "firstPostDate": "2022-02-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "The main inclusion and exclusion criteria include but are not limited to the following:\n\nInclusion Criteria:\n\n* Has a documented diagnosis of probable Alzheimer Disease based on National Institute on Aging-Alzheimer Association criteria for AD, with a history of cognitive and functional decline with gradual onset and slow progression for at least 1 year before screening, that is either corroborated by an informant who knows the participant well or is documented in medical records\n* Lives in the community setting with a reliable trial partner/caregiver or lives alone in an assisted living facility, with supervision and has a reliable trial partner/caregiver\n* Has a reliable and competent trial partner/caregiver who must have a close relationship with the participant and is knowledgeable of the participant's condition and progress and able to read, understand and speak the designated language at the study site\n* Can read at the 6th grade level/equivalent as determined by the investigator\n* Has an academic and/or employment history sufficient to exclude intellectual disability and is able, in the opinion of the investigator, to fully participate in the study\n* Participants receiving treatment with a cholinesterase inhibitor or other treatment for AD, must have been on a stable regimen for 3 months prior to screening and there are no expected changes in co-medication during the study\n* Is able to discontinue any antipsychotic medication they are taking at the time of Screening\n* Has a body mass index (BMI) \\> 18 and ≤ 35kg/m2, inclusive\n\nExclusion Criteria:\n\n* Has agitation/aggression or psychosis that is attributable to concomitant medications, environmental conditions, substance abuse, or an active medical or psychiatric condition\n* Has a known history of stroke or evidence from prior magnetic resonance imaging (MRI) scan (if available) that is clinically important in the investigator's opinion\n* Has evidence of a clinically relevant neurological disorder other than the disease being studied (i.e., probable AD) at Screening\n* Has a history of seizures or epilepsy within the last 5 years before Screening\n* Has evidence of a clinically relevant or unstable psychiatric disorder\n* Is at imminent risk of self-harm\n* Has a history of alcoholism or drug dependency/abuse within the last 5 years before Screening\n* Has a history of cancer (malignancy). Exceptions: (1) Adequately treated non-melanomatous skin carcinoma or carcinoma in situ of the cervix or; (2) Other malignancies that have been successfully treated with appropriate follow up and therefore unlikely to recur for the duration of the study\n* Has a family history of long QT syndrome\n* Previously developed severe extrapyramidal symptoms (EPS) following administration of any prescribed medication or study treatment\n* Is positive for hepatitis B surface antigen (HBsAg), hepatitis C antibodies or human immunodeficiency virus (HIV)\n* Had major surgery, donated or lost 1 unit of blood (approximately 500 mL) within 4 weeks prior to the pre-study (screening) visit\n* Consumes greater than 3 glasses of alcoholic beverages per day\n* Consumes excessive amounts, defined as greater than 6 servings (1 serving is approximately equivalent to 120 mg of caffeine) of coffee, tea, cola, energy drinks, or other caffeinated beverages per day\n* Is a regular user of cannabis, any illicit drugs or has a history of drug (including alcohol) abuse within approximately 3 years",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Who Experienced an Adverse Event (AE)",
+        "description": "An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease (new or exacerbated) temporally associated with the use of a study intervention. Results are reported according to dose.",
+        "timeFrame": "Up to approximately 42 days"
+      },
+      {
+        "measure": "Number of Participants Discontinuing From Study Therapy Due to AE",
+        "description": "An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease (new or exacerbated) temporally associated with the use of a study intervention. Results are reported according to dose.",
+        "timeFrame": "Up to approximately 42 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:40.803Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

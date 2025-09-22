@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT02707965",
+  "briefTitle": "Characterization of Epilepsy Patients BEEP 2b",
+  "officialTitle": "Characterization of Epilepsy Patients At-risk for Adverse Outcomes Related to Switching Antiepileptic Drug Products: BEEP 2b Study",
+  "protocolDocument": {
+    "nctId": "NCT02707965",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-03-13",
+    "uploadDate": "2020-01-21T16:33",
+    "size": 10462708,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02707965/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 21,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-06-08",
+    "completionDate": "2018-09-04",
+    "primaryCompletionDate": "2018-08-30",
+    "firstSubmitDate": "2016-02-26",
+    "firstPostDate": "2016-03-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Subject previously completed BEEP2a study, found to be probably GB, and able to provide informed consent or subject's legally authorized representative is able to provide informed consent.\n2. Subject is male or female between 18 and 76 years of age inclusive.\n3. Subject has a diagnosis of epilepsy including focal or primary generalized epilepsy.\n4. Subject is taking at least one study antiepileptic drug for the treatment of epilepsy.\n5. Subject is an acceptable candidate for venipuncture.\n6. Subject is willing to be switched between brand and generic drug.\n7. Subject is willing to stop all non-routine OTC medications for 24 hours prior to and during pharmacokinetic study visits.\n8. Subject is willing to maintain stable doses of all other AEDs, including Vagus Nerve Stimulation parameters for the duration of the study.\n\nExclusion Criteria:\n\n1. Subject has any medical condition, including a progressive neurological condition, which in the opinion of the investigator, could jeopardize the subject's health or would compromise the subject's ability to participate in the trial.\n2. Subject has a history of alcohol or drug abuse, which in the opinion of the investigator, could jeopardize the subject's health or would compromise the subject's ability to participate in this trial.\n3. Subject has a history of previous or current significant psychiatric disorder that would interfere with conduct of the study.\n4. Subject is pregnant or lactating.\n5. Subject has severe liver impairment as assessed by alanine aminotransferase (ALT), aspartate aminotransferase (AST), or total bilirubin levels ≥10 times the upper limit of normal (ULN).\n6. Subject has severe renal impairment as assessed by creatinine clearance lower than 30mL/min, using the Cockcroft-Gault formula.\n7. Female subjects of childbearing potential will not be eligible to participate who are unwilling or unable to use a medically acceptable method of contraception throughout the entire study period and for one week after the study is completed. Medically acceptable methods of contraception that may be used by the subject and/or her partner are: condom with spermicide, diaphragm with spermicide, IUD without progesterone, vaginal spermicidal suppository, surgical sterilization of their partner(s) or abstinence.\n8. Subject is not willing or able to be adherent to study protocol (e.g. study medication dosing and any interacting comedication).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "76 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean AUC0-last_ss (Test vs. Reference)",
+        "description": "Average AUC (area under the drug plasma curve.",
+        "timeFrame": "For all study drugs, time points are: predose, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, and 6 hr postdose. For twice-a-day regimen, additional points are:8, 10, and 12 hr postdose. For once-a-day drugs, additional times are:8, 10, 12, 16, and 24 hr postdose."
+      },
+      {
+        "measure": "Mean Cmax_ss (Test vs. Reference)",
+        "description": "Average maximum drug plasma concentration;",
+        "timeFrame": "For all study drugs, time points are: predose, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, and 6 hr postdose. For twice-a-day regimen, additional points are:8, 10, and 12 hr postdose. For once-a-day drugs, additional times are:8, 10, 12, 16, and 24 hr postdose."
+      },
+      {
+        "measure": "Mean Cmin_ss (Test vs. Reference)",
+        "description": "Average minimum drug plasma concentration (Cmin);",
+        "timeFrame": "For all study drugs, time points are: predose, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, and 6 hr postdose. For twice-a-day regimen, additional points are:8, 10, and 12 hr postdose. For once-a-day drugs, additional times are:8, 10, 12, 16, and 24 hr postdose."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Adverse Events",
+        "description": "summed for each anti-epileptic drug from when taking brand and generic.",
+        "timeFrame": "Through the approximately 2 week period when the treatment is given."
+      },
+      {
+        "measure": "Number of Seizures Reported",
+        "description": "Number of seizures reported in all groups",
+        "timeFrame": "Through the approximately 2 week period when the treatment is given."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:49.708Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

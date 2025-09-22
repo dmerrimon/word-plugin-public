@@ -28,7 +28,7 @@ export const App: React.FC<AppProps> = ({ title, isOfficeInitialized }) => {
   const [highlightedRanges, setHighlightedRanges] = useState<any[]>([]);
   const [totalStats, setTotalStats] = useState({ total: 0, critical: 0, high: 0, medium: 0, low: 0 });
   const [categoryStats, setCategoryStats] = useState({ enrollment: 0, lab: 0, visit: 0, dosing: 0, other: 0 });
-  const [activeView, setActiveView] = useState<'amendments' | 'intelligence'>('amendments');
+  const [activeView, setActiveView] = useState<'intelligence'>('intelligence');
 
   // Real-time document monitoring
   useEffect(() => {
@@ -516,123 +516,57 @@ https://ilana-addin.netlify.app
 
   if (!isOfficeInitialized) {
     return (
-      <div style={{ padding: "20px", textAlign: "center" }}>
-        <p>Initializing Ilana Protocol Assistant...</p>
+      <div style={{ 
+        padding: "40px 20px", 
+        textAlign: "center",
+        fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif",
+        backgroundColor: "#ffffff",
+        height: "100vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "column"
+      }}>
+        <div style={{
+          fontSize: "18px",
+          marginBottom: "8px"
+        }}>🧠</div>
+        <p style={{
+          margin: 0,
+          fontSize: "14px",
+          color: "#000000",
+          fontWeight: "500"
+        }}>
+          Initializing Protocol Intelligence...
+        </p>
       </div>
     );
   }
 
   return (
-    <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
+    <div style={{ 
+      height: "100vh", 
+      display: "flex", 
+      flexDirection: "column",
+      fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif",
+      backgroundColor: "#ffffff",
+      color: "#000000"
+    }}>
       <Header title={title} />
       
-      {/* View Toggle */}
-      <div style={{
-        display: "flex",
-        borderBottom: "2px solid #e5e7eb",
-        backgroundColor: "#f9fafb"
-      }}>
-        <button
-          onClick={() => setActiveView('amendments')}
-          style={{
-            flex: 1,
-            padding: "12px",
-            fontSize: "13px",
-            fontWeight: "600",
-            border: "none",
-            backgroundColor: activeView === 'amendments' ? "#dc2626" : "transparent",
-            color: activeView === 'amendments' ? "white" : "#6b7280",
-            cursor: "pointer",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: "6px"
-          }}
-        >
-          <span>🚨</span>
-          Amendment Risk Analysis
-        </button>
-        <button
-          onClick={() => setActiveView('intelligence')}
-          style={{
-            flex: 1,
-            padding: "12px",
-            fontSize: "13px",
-            fontWeight: "600",
-            border: "none",
-            backgroundColor: activeView === 'intelligence' ? "#2563eb" : "transparent",
-            color: activeView === 'intelligence' ? "white" : "#6b7280",
-            cursor: "pointer",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: "6px"
-          }}
-        >
-          <span>🧠</span>
-          Protocol Intelligence
-        </button>
-      </div>
-
-      {activeView === 'amendments' ? (
-        <>
-          <ProtocolAnalyzer
-            isMonitoring={isMonitoring}
-            isAnalyzing={isAnalyzing}
-            selectedText={selectedText}
-            totalStats={totalStats}
-            categoryStats={categoryStats}
-            onToggleMonitoring={toggleMonitoring}
-            onAnalyzeSelection={analyzeSelection}
-            onExportReport={exportRiskReport}
-          />
-          
-          <RiskSidebar
-            findings={riskFindings}
-            isAnalyzing={isAnalyzing}
-            onApplyFix={async (finding) => {
-              // Apply fix function
-              if (typeof Word === 'undefined') {
-                alert(`Demo: Would replace "${finding.phrase}" with "${finding.fix}"`);
-                return;
-              }
-
-              try {
-                await Word.run(async (context) => {
-                  const searchResults = context.document.body.search(finding.phrase, {
-                    matchCase: false,
-                    matchWholeWord: false
-                  });
-                  
-                  searchResults.load("text");
-                  await context.sync();
-                  
-                  if (searchResults.items.length > 0) {
-                    // Replace the first occurrence
-                    searchResults.items[0].insertText(finding.fix, Word.InsertLocation.replace);
-                    await context.sync();
-                    
-                    // Remove this finding from the list
-                    const updatedFindings = riskFindings.filter(f => f.phrase !== finding.phrase);
-                    setRiskFindings(updatedFindings);
-                    updateStats(updatedFindings);
-                    
-                    console.log(`Successfully replaced "${finding.phrase}" with "${finding.fix}"`);
-                  }
-                });
-              } catch (error) {
-                console.error("Error applying fix:", error);
-              }
-            }}
-          />
-        </>
-      ) : (
-        <ProtocolIntelligence
-          protocolText={documentText || selectedText}
-          isAnalyzing={isAnalyzing}
-          onExportReport={() => {
-            // Export intelligence report
-            const reportText = `
+      <ProtocolIntelligence
+        protocolText={documentText || selectedText}
+        isAnalyzing={isAnalyzing}
+        onTextChange={(newText) => {
+          setDocumentText(newText);
+          // Also update selected text if that's what we're editing
+          if (!documentText && selectedText) {
+            setSelectedText(newText);
+          }
+        }}
+        onExportReport={() => {
+          // Export intelligence report
+          const reportText = `
 PROTOCOL INTELLIGENCE REPORT
 ${'='.repeat(50)}
 Generated: ${new Date().toLocaleString()}
@@ -641,33 +575,32 @@ EXECUTIVE SUMMARY
 ${'-'.repeat(20)}
 This report provides comprehensive intelligence analysis of the clinical protocol,
 evaluating complexity, enrollment feasibility, and patient burden across all
-therapeutic areas using universal metrics.
+therapeutic areas using real ClinicalTrials.gov data.
 
 ANALYSIS METHODOLOGY
 ${'-'.repeat(20)}
 • Complexity Scorer: Evaluates protocol design complexity (0-100 scale)
 • Enrollment Predictor: Estimates enrollment timeline and challenges
 • Visit Burden Calculator: Analyzes patient and site operational burden
-• Benchmarking: Compares against industry standards
+• Benchmarking: Compares against 2,439 real protocols from industry database
 
 For detailed analysis, please review each section within the application.
 
-Generated by Ilana Protocol Assistant - Universal Intelligence
+Generated by Ilana Protocol Assistant - Real Data Intelligence
 https://ilana-addin.netlify.app
 `;
 
-            const blob = new Blob([reportText], { type: 'text/plain' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `Protocol_Intelligence_Report_${new Date().toISOString().split('T')[0]}.txt`;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
-          }}
-        />
-      )}
+          const blob = new Blob([reportText], { type: 'text/plain' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = `Protocol_Intelligence_Report_${new Date().toISOString().split('T')[0]}.txt`;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+        }}
+      />
     </div>
   );
 };

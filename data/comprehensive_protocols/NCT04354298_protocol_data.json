@@ -1,0 +1,127 @@
+{
+  "nctId": "NCT04354298",
+  "briefTitle": "Improvisational Dance for Parkinson Disease",
+  "officialTitle": "Effects of Improvisational Dance on Cognition and Daily Function Among People With Parkinson Disease",
+  "protocolDocument": {
+    "nctId": "NCT04354298",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2019-09-24",
+    "uploadDate": "2020-04-16T09:56",
+    "size": 942494,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04354298/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2019-09-03",
+    "completionDate": "2021-05",
+    "primaryCompletionDate": "2021-05",
+    "firstSubmitDate": "2020-04-14",
+    "firstPostDate": "2020-04-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* aged 50 years or older\n* Parkinson Disease Diagnosis\n* Hoehn-Yahr score between 1-3\n* independently walk at least 3 meters\n* cognitive ability to follow simple commands\n\nExclusion Criteria:\n\n* Montreal Cognitive Assessment score less than or equal to 22\n* diagnosis of other severe comorbidities\n* contraindications to physical activity",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Cognition (National Institute of Health Toolbox: Cognitive Battery)",
+        "description": "A comprehensive, performance-based test comprised of motor, emotion, sensation, and cognition assessments. For the purpose of this study, the investigators will be using the cognitive battery to assess processes involved in learning and comprehension (i.e. thinking, remembering, problem-solving, judging). The battery consists of tasks involving the use of executive function, memory, attention, and language.",
+        "timeFrame": "Before and After the 12-week intervention"
+      },
+      {
+        "measure": "Change in Cognition (Alternate Uses Task)",
+        "description": "A verbal test of divergent thinking where the participant is given the name of an object and must name as many uses of that object as possible in a 3-minute time period. This assessment measures verbal fluency, originality, flexibility, and elaboration.",
+        "timeFrame": "Before and After the 12-week intervention"
+      },
+      {
+        "measure": "Change in Functional Cognition (Weekly Calendar Planning Activity)",
+        "description": "A performance-based measure that assesses an individual's level of executive function. The task involves entering a list of errands into a calendar while following rules, keeping track of time, and managing conflicts.",
+        "timeFrame": "Before and After the 12-week intervention"
+      },
+      {
+        "measure": "Change in Daily Performance (Older American Resources and Services Scale)",
+        "description": "A self-report questionnaire-based assessment that assesses perceived performance in activities of daily living and instrumental activities of daily living by reporting the level of difficulty that they experience while completing the specific activity. Areas assessed include activities of daily living (walking, eating, dressing, grooming, getting in and out of bed, bathing, and toileting) and instrumental activities of daily living (using a telephone, traveling, shopping, preparing meals, housework, managing medication, and handling money). Higher scores are associated with increased daily performance.",
+        "timeFrame": "Before and After the 12-week intervention"
+      },
+      {
+        "measure": "Change in Daily Participation (PROMIS Satisfaction with Participation in Discretionary Social Activities)",
+        "description": "A self-report questionnaire-based assessment that assesses satisfaction in ability to participate in activities of daily living and instrumental activities of daily in the past 7 days. Higher scores are associated with increased daily participation.",
+        "timeFrame": "Before and After the 12-week intervention"
+      },
+      {
+        "measure": "Change in Anxiety (Parkinson's Anxiety Scale)",
+        "description": "A self-report measure of anxiety specifically for people with PD. It includes three subscales: persistent anxiety, episodic anxiety, and avoidance behavior, and scores for each section can be determined by summing the items in each subscale. The total score is a summation of the subscales, and higher scores indicate greater anxiety.",
+        "timeFrame": "Before and After the 12-week intervention"
+      },
+      {
+        "measure": "Change in Level of Fatigue (Parkinson's Disease Fatigue Scale)",
+        "description": "A self-report measure assessing the presence of fatigue in people with PD. It focuses on the physical aspects of fatigue and their effect on activities and daily function. Item scores are averaged, with a score of \\>2.95 indicating presence of fatigue.",
+        "timeFrame": "Before and After the 12-week intervention"
+      },
+      {
+        "measure": "Change in Depressive Symptoms (Geriatric Depression Scale)",
+        "description": "A self-report questionnaire assessing depression in older adults. Item scores are summed to yield a total score, and a score 5 ≥ warranting a follow up interview and a score greater than 10 almost always indicating depression.",
+        "timeFrame": "Before and After the 12-week intervention"
+      },
+      {
+        "measure": "Change in Overall Mood After Each Class (Visual Analog Scales)",
+        "description": "This consisted of four sliding scales (very sad to very happy; very calm to very nervous; very lively to very sluggish; overall well being: very poor to very well) on a 100mm line. A higher score on the very sad to very happy and overall well being scales indicated greater happiness and better overall well being while a lower score on the very calm to very nervous and lively to sluggish scale indicate more calmness and liveliness.",
+        "timeFrame": "Before and After each ID Class taken for 12-weeks."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Motor Symptoms (Unified Parkinson Disease Rating Scale: Motor Battery)",
+        "description": "A scale that is used to rate the severity of PD symptoms, and the motor scale focuses on the motor-related symptoms. Higher scores are associated with increased presence of motor symptoms.",
+        "timeFrame": "Before and After the 12-week intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 9,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 99,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:45.146Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

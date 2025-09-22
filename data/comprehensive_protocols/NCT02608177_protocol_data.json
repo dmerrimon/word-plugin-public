@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT02608177",
+  "briefTitle": "Continuous Glucose Monitoring to Assess Glycemia in Chronic Kidney Disease - Changing Glucose Management",
+  "officialTitle": "Continuous Glucose Monitoring to Assess Glycemia in Chronic Kidney Disease - Changing Glucose Management",
+  "protocolDocument": {
+    "nctId": "NCT02608177",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-09-28",
+    "uploadDate": "2018-08-09T13:07",
+    "size": 475505,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02608177/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 3,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-11",
+    "completionDate": "2018-08",
+    "primaryCompletionDate": "2017-08",
+    "firstSubmitDate": "2015-11-16",
+    "firstPostDate": "2015-11-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* eGFR 15-59 mL/min/1.73 m2\n* Hemoglobin A1c \\< 8%\n* Age ≥ 18 years\n* Current use of sulfonylurea\n\nExclusion Criteria:\n\n* BMI \\> 40 kg/m2\n* Actively using CGM for clinical care\n* End stage renal disease needing dialysis\n* Kidney transplant\n* Pregnant or nursing\n* Unable to provide informed consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Glucose Time in Range",
+        "description": "Time with glucose 70-140 mg/dL",
+        "timeFrame": "last 6 days of each 28-day treatment period"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Glycemic Variability",
+        "description": "SD of glucose readings",
+        "timeFrame": "last 6 days of each 28-day treatment period"
+      },
+      {
+        "measure": "Hypoglycemia",
+        "description": "Glucose \\<70 mg/dL for at least 10 minutes",
+        "timeFrame": "last 6 days of each 28-day treatment period"
+      },
+      {
+        "measure": "Biomarkers of Systemic Inflammation",
+        "description": "Measured by plasma C-reactive protein (CRP)",
+        "timeFrame": "last 6 days of each 28-day treatment period"
+      },
+      {
+        "measure": "Biomarkers of Systemic Inflammation",
+        "description": "Measured by plasma interleukin-6",
+        "timeFrame": "last 6 days of each 28-day treatment period"
+      },
+      {
+        "measure": "Biomarkers of Oxidative Stress",
+        "description": "Measured by plasma F2-isoprostanes",
+        "timeFrame": "last 6 days of each 28-day treatment period"
+      },
+      {
+        "measure": "Biomarkers of Oxidative Stress",
+        "description": "Measured by urine F2-isoprostanes",
+        "timeFrame": "last 6 days of each 28-day treatment period"
+      },
+      {
+        "measure": "Biomarkers of Albuminuria",
+        "description": "Measured by albumin-creatinine ratio",
+        "timeFrame": "last 6 days of each 28-day treatment period"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:07.249Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

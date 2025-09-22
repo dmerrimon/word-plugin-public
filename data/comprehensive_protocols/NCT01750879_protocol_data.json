@@ -1,0 +1,125 @@
+{
+  "nctId": "NCT01750879",
+  "briefTitle": "Tolerance Following Peanut Oral Immunotherapy",
+  "officialTitle": "Clinical Desensitization and Tolerance Following Peanut Oral Immunotherapy and Subsequent Allergen Avoidance",
+  "protocolDocument": {
+    "nctId": "NCT01750879",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-06-29",
+    "uploadDate": "2018-07-11T17:02",
+    "size": 432324,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01750879/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 41,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-08",
+    "completionDate": "2017-07-11",
+    "primaryCompletionDate": "2017-07-11",
+    "firstSubmitDate": "2012-12-13",
+    "firstPostDate": "2012-12-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosis of peanut allergy by a positive skin prick test to peanut (reaction wheal at least 5 mm larger than saline control) and by medical history or Serum peanut-specific IgE \\>5 kU/L at screening visit.\n* Ara h 2 specific IgE \\>0.35 kU/L at screening visit\n* Ability to provide informed consent.\n* Males and females of all ethnic/racial groups aged 7-55 years old who are otherwise healthy.\n* React to less than 443 mg of peanut protein during DBPCFC1\n\nExclusion Criteria:\n\n* History of severe anaphylaxis as defined by hypoxia (cyanosis or SpO2 \\<92% during reaction), documented hypotension (documented systolic BP \\>30% below predicted normal for sex, height, weight or from known baseline), neurological compromise (confusion, loss of consciousness), or incontinence.\n* Severe or Moderate asthma as defined using the severity criteria of the current NHBLI Guidelines for the Diagnosis and Management of Asthma (http://www.nhlbi.nih.gov/guidelines/asthma/).\n* Poorly-controlled asthma as defined by FEV1 \\<80% or any of the following symptoms: nighttime awakening \\>2 days/week or rescue medication use \\>2 days / week.\n* Diagnosis of other severe or complicating medical problems, including autoimmune or chronic immune inflammatory conditions or gastrointestinal inflammatory conditions, including Celiac Disease, Inflammatory Bowel Disease and Eosinophilic Gastrointestinal Disorders\n* Inability to cooperate with and/or perform oral food challenge procedures.\n* Primary Immune Deficiency\n* Allergy to oat confirmed by skin prick testing and history\n* Current use of beta blockers, angiotensin converting enzyme inhibitors, or monoamine oxidase inhibitors\n* Women of childbearing potential who are pregnant, planning to become pregnant, or breastfeeding\n* Hemoglobin level less than 12.5 gm/dL at screening. Weight \\<23 kg\n* Use within the past 6 months of other systemic immunomodulatory treatments including allergen immunotherapy, or use of biologics with an immune target, including omalizumab.\n* Past or current medical problems or findings from physical examination or laboratory testing that are not listed above, which, in the opinion of the investigator, may pose additional risks from participation in the study, may interfere with the participant's ability to comply with study requirements or that may impact the quality or interpretation of the data obtained from the study may also exclude a participant from the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "7 Years",
+    "maximumAge": "55 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Tolerance, Partial Tolerance, or Treatment Failure",
+        "description": "1. Tolerance: Ingestion of 4430 mg of peanut protein at DBPCFC3 without symptoms.\n2. Partial Tolerance: ED at DBPCFC3 \\<4430 mg but =\\>430 mg AND \\>10-fold more than at DBPCFC1.\n3. Treatment Failure - non desensitized: Failure to achieve the minimum maintenance dose (600 mg) of peanut protein by 12 months, or an ED \\<1443 mg at DBPCFC2, or ED at DBPCFC3 \\<443 mg OR \\<10-fold more than at DBPCFC1.\n4. Treatment Failure - withdrawal",
+        "timeFrame": "Average 515 days from DBPCFC1 to DBPCFC3"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Clinical: Tolerance",
+        "description": "The change in median eliciting dose (ED) from DBPCFC1 to DBPCFC3. (note: ED right censored to maximum dose for those without any clinical reactivity)",
+        "timeFrame": "630 days"
+      },
+      {
+        "measure": "Clinical: Desensitization",
+        "description": "\\- The change in median eliciting dose (ED) from DBPCFC1 to DBPCFC2.",
+        "timeFrame": "518 days"
+      },
+      {
+        "measure": "Clinical: Safety",
+        "description": "\\- The rate of reported adverse advents due to accidental ingestions in the active versus placebo groups.",
+        "timeFrame": "630 days"
+      },
+      {
+        "measure": "Mechanistic: TCR Clonal Diversity",
+        "description": "The change in the TCR clonal diversity of in vitro allergen-expanded Treg cells and induced Treg cells measured by TCRB CDR3 sequence clonotyping of sorted cells during active treatment among participants who achieve increased clinical tolerance (Tolerance and Partial Tolerance Groups as defined in clinical endpoints) versus the Treatment Failure Group.\n\nWe conducted a nested case-control analysis of a subset of actively treated (by treatment outcome) versus placebo treated patients. Genomic DNA was used to amplify and sequence the complementarity-determining region 3 (CDR3) regions (immunoSEQ assay; Adaptive Biotechnologies).\n\nEnriched clonotypes in the CD154+ fraction (doi: https://doi.org/10.1101/2020.05.11.088286) were analyzed for differences by Rank Abundance Curve analysis (R package alakazam; Chao A, et al. Ecology. 2015 96, 11891201) to determine differences in clonal diversity.",
+        "timeFrame": "630 days"
+      },
+      {
+        "measure": "Mechanistic: Change Eliciting Dose of End-point Dilution.",
+        "description": "The change in eliciting dose of end-point dilution skin testing between actively treated and placebo treated participants following maintenance therapy and the change in ED of end-point dilution skin testing among actively treated participants following maintenance therapy and avoidance between clinical outcome groups.",
+        "timeFrame": "518 days"
+      },
+      {
+        "measure": "Mechanistic: Change in Basophil Eliciting Dose.",
+        "description": "The change in peanut-specific basophil ED in actively treated participants at the end of maintenance and the end of avoidance between clinical outcome groups.",
+        "timeFrame": "630 days"
+      },
+      {
+        "measure": "Mechanistic: Change in Peanut Allergen-specific IgG4",
+        "description": "The change in peanut allergen-specific IgG4 in actively treated participants by the end of maintenance between clinical outcome groups.",
+        "timeFrame": "518 days"
+      },
+      {
+        "measure": "Mechanistic: Significant Gene Expression Changes by Transcriptional Profiling of Regulatory and Effector T Cell Populations",
+        "description": "Statistically significant gene expression changes (as number of genes) by transcriptional profiling of regulatory and effector T cell populations before and after OIT between clinical outcome groups.\n\nTotal RNA from CD154+ and CD154-CD69- T cells was used for cDNA synthesis and amplification. Libraries were prepared and sequenced to a read depth of approximately 30 million reads per sample (Illumina HiSeq) and aligned to the hg19 human reference genome with the ensemble version 75 annotation using STAR version 2.5.3a,(Dobin et al. Bioinformatics 2013) and gene expression was summarized using RSEM version 1.3.0 (Li et al. BMC Bioinform 2013). Differential expression analysis was performed using DESeq2 v 1.30.1 (R v 4.04). Significance level was set at an unadjusted P value less than .001.",
+        "timeFrame": "630 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:46.238Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

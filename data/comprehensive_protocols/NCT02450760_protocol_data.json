@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT02450760",
+  "briefTitle": "Connected Health Blood Pressure Monitoring In Stroke and TIA Patients",
+  "protocolDocument": {
+    "nctId": "NCT02450760",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-09-26",
+    "uploadDate": "2021-07-29T09:10",
+    "size": 930847,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02450760/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 33,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-11",
+    "completionDate": "2021-07",
+    "primaryCompletionDate": "2018-07",
+    "firstSubmitDate": "2015-05-18",
+    "firstPostDate": "2015-05-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adult, age ≥ 18 years\n* History of ischemic stroke or high risk TIA (defined by ABCD2 ≥ 4)between 2 weeks and 12 months prior to enrollment\n* Hypertensive at time of enrollment, defined by SBP\\>140 mm Hg or DBP \\>90 mm Hg at the time of study screening\n* Must own a smart phone capable of interacting with the connected blood pressure cuff (Apple iPhone 3GS or higher; Android 4.0 or higher with Bluetooth connectivity)\n* Willingness and ability to sign informed consent by patient\n\nExclusion Criteria:\n\n* Moderate or severe disability, defined by modified Rankin Scale ≥ 3.\n* Expected residence in a rehabilitation hospital, nursing facility or assisted living community during the study period.\n* Upper arm circumference \\<9 inches or \\>17 inches\n* Inability to monitor BP in both of the upper arms (i.e. history of bilateral radical mastectomy, bilateral severe subclavian stenosis, or bilateral arterial venous fistulas for dialysis).\n* Blood pressure discrepancy between arms of \\>10 mm Hg.\n* Inability to follow-up at 90 days and return BP monitor\n* Active participation in another clinical trial\n* Pregnant women",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adherence With Home Blood Pressure Monitoring, Defined by the Proportion of Home Blood Pressure Recordings Successfully Completed",
+        "description": "Percentage of requested blood pressure measurements completed. Note that subjects were enrolled for 90 +/- 7 days, and so this calculation was completed at day 83, rather than day 90.",
+        "timeFrame": "90 Days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Systolic Blood Pressure Over Study Period",
+        "description": "Difference in systolic blood pressure from the first 7 days of measurement to the last 7 days of measurement for each subject",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "Number of Physician Visits",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "Number of Emergency Department Visits",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "Number of Changes in Antihypertensive Medications (Dose Adjustment or Addition of a New Agent)",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "Number of Participates That Perceived the Blood Pressure Monitoring Device to be Easy to Use",
+        "description": "Number of patients who felt that device was easy or very easy to use",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "Number of Patients That Perceived Blood Pressure Monitoring to be Useful",
+        "description": "Number of participants who felt that BP monitoring was useful or very useful",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "Number of Patients Who Felt They Had Well-controlled Blood Pressure",
+        "description": "Patients perception of whether or not BP was well controlled",
+        "timeFrame": "90 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:37.568Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

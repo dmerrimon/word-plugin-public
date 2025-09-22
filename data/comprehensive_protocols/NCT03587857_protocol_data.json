@@ -1,0 +1,122 @@
+{
+  "nctId": "NCT03587857",
+  "briefTitle": "mHealth App for Engagement in Care Among Youth Living With HIV",
+  "officialTitle": "A Mobile Health Application for Engagement in Care Among Youth Living With HIV",
+  "protocolDocument": {
+    "nctId": "NCT03587857",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-03-26",
+    "uploadDate": "2025-05-21T17:31",
+    "size": 128028,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03587857/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 79,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-07-01",
+    "completionDate": "2020-05-01",
+    "primaryCompletionDate": "2020-05-01",
+    "firstSubmitDate": "2018-04-29",
+    "firstPostDate": "2018-07-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Eligibility Criteria:\n\n* Must be between 18 and 29 years of age\n* Must be living with HIV\n* Must reside and/or get care in San Francisco Bay Area\n* Must be able to provide informed consent to be a research participant\n* Must be able to speak and understand English\n* Must have access to an Android (5.0 or higher) or iOS (10.0 or higher) mobile phone\n\nExclusion Criteria:\n\nEvidence of cognitive impairment or psychotic disorder that prevents one from understanding the purpose of the study and/or participating fully in study activities. This determination will be made by trained study staff in consultation with the principal investigator.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "29 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Feasibility: Rate of Participant Recruitment",
+        "description": "Recruit at least 55 participants (i.e. 70% of target N)",
+        "timeFrame": "8 Months"
+      },
+      {
+        "measure": "Feasibility: Frequency of WYZ Access",
+        "description": "Mean number of logins/week over the 6 month period of using WYZ",
+        "timeFrame": "6 Months"
+      },
+      {
+        "measure": "Feasibility: Length of Session (Minutes)",
+        "description": "Mean minutes/week spent in the app over the 6 month period of using WYZ",
+        "timeFrame": "6 Months"
+      },
+      {
+        "measure": "Feasibility: Rate of Use of ART Adherence Tracking",
+        "description": "Mean percentage of times/week that participants tracked ART adherence in the app over 6 months of using WYZ. E.g. 3 mean times/week = 43% mean/week.",
+        "timeFrame": "6 Months"
+      },
+      {
+        "measure": "Feasibility: Rate of Communication With Peers",
+        "description": "Mean number of postings of chat topics on the My Community chat per person per week, over 6 months of using WYZ",
+        "timeFrame": "6 Months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Acceptability: Participant Retention",
+        "description": "Percentage of individuals who enrolled and completed the study at 6 months",
+        "timeFrame": "6 Months"
+      },
+      {
+        "measure": "Acceptability: Overall App Experience",
+        "description": "Percent of participants who rated their overall experience with the app as excellent to very good",
+        "timeFrame": "6 Months"
+      },
+      {
+        "measure": "Acceptability: Privacy, Security, and Anonymity",
+        "description": "Percent of participants who reported being extremely to somewhat comfortable with the security, privacy, and anonymity of WYZ",
+        "timeFrame": "6 Months"
+      },
+      {
+        "measure": "Acceptability: Continue Using WYZ",
+        "description": "Percent of participants who stated that they would be extremely to somewhat likely to continue to use WYZ",
+        "timeFrame": "6 Months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 1,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 72,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:19.327Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

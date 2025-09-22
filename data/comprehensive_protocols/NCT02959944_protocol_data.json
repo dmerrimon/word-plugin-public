@@ -1,0 +1,166 @@
+{
+  "nctId": "NCT02959944",
+  "briefTitle": "Ibrutinib in Combination With Corticosteroids vs Placebo in Combination With Corticosteroids in Participants With New Onset Chronic Graft Versus Host Disease (cGVHD)",
+  "officialTitle": "A Randomized, Double-Blind Phase 3 Study of Ibrutinib in Combination With Corticosteroids Versus Placebo in Combination With Corticosteroids in Subjects With New Onset Chronic Graft Versus Host Disease (cGVHD)",
+  "protocolDocument": {
+    "nctId": "NCT02959944",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-02-06",
+    "uploadDate": "2021-03-11T16:36",
+    "size": 7124623,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02959944/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 193,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-11",
+    "completionDate": "2021-07-12",
+    "primaryCompletionDate": "2020-03-27",
+    "firstSubmitDate": "2016-10-25",
+    "firstPostDate": "2016-11-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* New onset moderate or severe cGVHD as defined by the 2014 National Institutes of Health (NIH) Consensus Development Project Criteria\n* Need for systemic treatment with corticosteroids for cGVHD\n* No previous systemic treatment for cGVHD (including extracorporeal photopheresis \\[ECP\\])\n* Participants may be receiving other immunosuppressants for the prophylaxis or treatment of acute GVHD but if the subject is receiving prednisone for prophylaxis or treatment of acute GVHD it must be at or below 0.5 mg/kg/d\n* Age ≥12 years old\n* Karnofsky or Lansky (subjects \\<16 years) performance status ≥60\n\nKey Exclusion Criteria:\n\n* Received any previous systemic treatment for cGVHD with the exception of corticosteroids administered for cGVHD within the 72 hours prior to signing the informed consent form.\n* Inability to begin a prednisone dose ≥0.5 mg/kg/d for the treatment of cGVHD\n* Any uncontrolled infection or active infection requiring ongoing systemic treatment\n* Progressive underlying malignant disease or any post-transplant lymphoproliferative disease\n* Known bleeding disorders\n* Active hepatitis C virus (HCV) or hepatitis B virus (HBV)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Primary Analysis: Response Rate at 48 Weeks",
+        "description": "Response rate was defined as the percentage of participants who were responders. Responders were defined as participants who had a complete response (CR) or a partial response (PR) at 48 weeks without starting any subsequent therapy for cGVHD or having evidence of relapse of their underlying disease that was indication for transplant prior to response assessment at 48 weeks.\n\nResponse was defined using the National Institutes of Health (NIH) Consensus Panel Chronic GVHD Activity Assessment (2014). Skin, mouth, liver, upper and lower gastrointestinal, esophagus, lung, eye, and joint/fascia are the organs or sites considered in evaluating overall response. CR is defined as resolution of all manifestations in each organ or site. PR is defined as improvement in at least 1 organ or site without progression in any other organ or site.",
+        "timeFrame": "48 weeks (Cumulatively up to 30 March 2020)"
+      },
+      {
+        "measure": "Final Analysis: Response Rate at 48 Weeks",
+        "description": "Response rate was defined as the percentage of participants who were responders. Responders were defined as participants who had a complete response (CR) or a partial response (PR) at 48 weeks without starting any subsequent therapy for cGVHD or having evidence of relapse of their underlying disease that was indication for transplant prior to response assessment at 48 weeks.\n\nResponse was defined using the National Institutes of Health (NIH) Consensus Panel Chronic GVHD Activity Assessment (2014). Skin, mouth, liver, upper and lower gastrointestinal, esophagus, lung, eye, and joint/fascia are the organs or sites considered in evaluating overall response. CR is defined as resolution of all manifestations in each organ or site. PR is defined as improvement in at least 1 organ or site without progression in any other organ or site.",
+        "timeFrame": "48 weeks (Cumulatively up to 12 July 2021)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Primary Analysis: Cumulative Incidence of Withdrawal of All Corticosteroids for Treatment of cGVHD",
+        "description": "The cumulative incidence of withdrawal of all corticosteroids (95% confidence interval \\[CI\\]) was calculated using SAS lifetest procedure adjusting for competing risks including death, cGVHD progression, relapse of underlying disease, and start of subsequent cGVHD therapy. Data presented are the estimated proportion of participants withdrawing all corticosteroids at given time point. The time to withdrawal of corticosteroids is computed from randomization date to the first date of withdrawal of all corticosteroids for treatment of cGVHD to 0 mg daily for at least 30 days.",
+        "timeFrame": "Months 3, 6, 9, 12, 15, 18, 21, 24 (Cumulatively up to 30 March 2020)"
+      },
+      {
+        "measure": "Final Analysis: Cumulative Incidence of Withdrawal of All Corticosteroids for Treatment of cGVHD",
+        "description": "The cumulative incidence of withdrawal of all corticosteroids (95% confidence interval \\[CI\\]) was calculated using SAS lifetest procedure adjusting for competing risks including death, cGVHD progression, relapse of underlying disease, and start of subsequent cGVHD therapy. Data presented are the estimated proportion of participants withdrawing all corticosteroids at given time point. The time to withdrawal of corticosteroids is computed from randomization date to the first date of withdrawal of all corticosteroids for treatment of cGVHD to 0 mg daily for at least 30 days.",
+        "timeFrame": "Months 3, 6, 9, 12, 15, 18, 21, 24 (Cumulatively up to 12 July 2021)"
+      },
+      {
+        "measure": "Primary Analysis: Cumulative Incidence of Withdrawal of All Immunosuppressants",
+        "description": "The cumulative incidence of withdrawal of all immunosuppressants (95% CI) was calculated using SAS lifetest procedure adjusting for competing risks including death, cGVHD progression, relapse of underlying disease, and start of subsequent cGVHD therapy. Data presented are the estimated proportion of participants withdrawing all immunosuppressants at a given time point. The time to withdrawal of all immunosuppressants is computed from randomization date to the first date of withdrawal of all immunosuppressants for treatment of cGVHD, sustained for at least 30 days. All immunosuppressants include corticosteroids but they do not include ibrutinib.",
+        "timeFrame": "Months 3, 6, 9, 12, 15, 18, 21, 24 (cumulatively up to 30 March 2020)"
+      },
+      {
+        "measure": "Final Analysis: Cumulative Incidence of Withdrawal of All Immunosuppressants",
+        "description": "The cumulative incidence of withdrawal of all immunosuppressants (95% CI) was calculated using SAS lifetest procedure adjusting for competing risks including death, cGVHD progression, relapse of underlying disease, and start of subsequent cGVHD therapy. Data presented are the estimated proportion of participants withdrawing all immunosuppressants at a given time point. The time to withdrawal of all immunosuppressants is computed from randomization date to the first date of withdrawal of all immunosuppressants for treatment of cGVHD, sustained for at least 30 days. All immunosuppressants include corticosteroids but they do not include ibrutinib.",
+        "timeFrame": "Months 3, 6, 9, 12, 15, 18, 21, 24 (Cumulatively up to 12 July 2021)"
+      },
+      {
+        "measure": "Primary Analysis: Response Rate at 24 Weeks",
+        "description": "Response rate was defined as the percentage of participants who were responders. Responders were defined as participants who had a CR or PR at 24 weeks without starting any subsequent therapy for cGVHD or having evidence of relapse of their underlying disease that was indication for transplant prior to response assessment at 24 weeks.\n\nResponse was defined using the National Institutes of Health (NIH) Consensus Panel Chronic GVHD Activity Assessment (2014). Skin, mouth, liver, upper and lower gastrointestinal, esophagus, lung, eye, and joint/fascia are the organs or sites considered in evaluating overall response. CR is defined as resolution of all manifestations in each organ or site. PR is defined as improvement in at least 1 organ or site without progression in any other organ or site.",
+        "timeFrame": "24 weeks (Cumulatively up to 30 March 2020)"
+      },
+      {
+        "measure": "Final Analysis: Response Rate at 24 Weeks",
+        "description": "Response rate was defined as the percentage of participants who were responders. Responders were defined as participants who had a CR or PR at 24 weeks without starting any subsequent therapy for cGVHD or having evidence of relapse of their underlying disease that was indication for transplant prior to response assessment at 24 weeks.\n\nResponse was defined using the National Institutes of Health (NIH) Consensus Panel Chronic GVHD Activity Assessment (2014). Skin, mouth, liver, upper and lower gastrointestinal, esophagus, lung, eye, and joint/fascia are the organs or sites considered in evaluating overall response. CR is defined as resolution of all manifestations in each organ or site. PR is defined as improvement in at least 1 organ or site without progression in any other organ or site.",
+        "timeFrame": "24 weeks (Cumulatively up to 12 July 2021)"
+      },
+      {
+        "measure": "Primary Analysis: Percentage of Participants With Improvement in Overall Score on Lee cGVHD Symptom Scale at Two Consecutive Visits",
+        "description": "Clinically meaningful improvement on Lee cGVHD symptom scale was defined as at least a 7-point decrease in Lee Symptom Scale overall summary score on at least 2 consecutive visits, not preceded by progressive disease, relapse of underlying disease or start of subsequent cGVHD treatment.\n\nThe Lee cGVHD Symptom Scale score has 7 subscales (Skin, Eyes and Mouth, Breathing, Eating and Digestion, Muscles and Joints, Energy, and Mental and Emotional) with ratings as follows: 0- Not at all, 1- Slightly, 2 Moderately, 3 Quite a bit, 4-Extremely, with lower values representing a better outcome. A score is calculated for each subscale by taking the mean of all items completed if more than 50% were answered and normalizing to a 0 to 100 scale. An overall score is calculated as the average of these 7 subscales if at least 4 subscales have valid scores.",
+        "timeFrame": "Assessed at Weeks 5, 13, 25, 37, 49, 30 days after the last dose of study drug, and then every 12 weeks of follow-up until progressed disease. (Cumulatively up to 30 March 2020)"
+      },
+      {
+        "measure": "Final Analysis: Percentage of Participants With Improvement in Overall Score on Lee cGVHD Symptom Scale at Two Consecutive Visits",
+        "description": "Clinically meaningful improvement on Lee cGVHD symptom scale was defined as at least a 7-point decrease in Lee Symptom Scale overall summary score on at least 2 consecutive visits, not preceded by progressive disease, relapse of underlying disease or start of subsequent cGVHD treatment.\n\nThe Lee cGVHD Symptom Scale score has 7 subscales (Skin, Eyes and Mouth, Breathing, Eating and Digestion, Muscles and Joints, Energy, and Mental and Emotional) with ratings as follows: 0- Not at all, 1- Slightly, 2 Moderately, 3 Quite a bit, 4-Extremely, with lower values representing a better outcome. A score is calculated for each subscale by taking the mean of all items completed if more than 50% were answered and normalizing to a 0 to 100 scale. An overall score is calculated as the average of these 7 subscales if at least 4 subscales have valid scores.",
+        "timeFrame": "Assessed at Weeks 5, 13, 25, 37, 49, 30 days after the last dose of study drug, and then every 12 weeks of follow-up until progressed disease. (Cumulatively up to 12 July 2021)"
+      },
+      {
+        "measure": "Primary Analysis: Percentage of Participants Who Achieved Reduction of Prednisone Dose Level to Less Than 0.15 mg/kg/Day at 24 Weeks Sustained for at Least 30 Days",
+        "timeFrame": "24 weeks (Cumulatively up to 30 March 2020)"
+      },
+      {
+        "measure": "Final Analysis: Percentage of Participants Who Achieved Reduction of Prednisone Dose Level to Less Than 0.15 mg/kg/Day at 24 Weeks Sustained for at Least 30 Days",
+        "timeFrame": "24 weeks (Cumulatively up to 12 July 2021)"
+      },
+      {
+        "measure": "Primary Analysis: Overall Survival (OS)",
+        "description": "OS was defined as the time of randomization until the time of death due to any cause, in months.",
+        "timeFrame": "Median time on study (cumulatively up to 30 March 2020) was 19.8 months and 18.4 months for the Ibrutinib + Prednisone and Placebo + Prednisone arms, respectively."
+      },
+      {
+        "measure": "Final Analysis: OS",
+        "description": "OS was defined as the time of randomization until the time of death due to any cause, in months.",
+        "timeFrame": "Median time on study (cumulatively up to 12 July 2021) was 33.1 months and 32.5 months for the Ibrutinib + Prednisone and Placebo + Prednisone arms, respectively."
+      },
+      {
+        "measure": "Primary Analysis: Duration of Response (DOR) for Participants Who Had PR or CR at Any Time",
+        "description": "Response was defined using the NIH Consensus Panel Chronic GVHD Activity Assessment (2014). Skin, mouth, liver, upper and lower GI, esophagus, lung, eye, and joint/fascia are the organs or sites considered in evaluating overall response. CR was defined as resolution of all manifestations in each organ or site. PR was defined as improvement in at least 1 organ or site without progression in any other organ or site. Duration of response was estimated by Kaplan-Meier methodology.",
+        "timeFrame": "Response was assessed every 4 weeks from Week 5 through Week 25, Week 37, Week 49, 30 days after the last dose of study drug, and then every 12 weeks of follow-up until progressed disease. (Cumulatively up to 30 March 2020)"
+      },
+      {
+        "measure": "Final Analysis: DOR for Participants Who Had PR or CR at Any Time",
+        "description": "Response was defined using the NIH Consensus Panel Chronic GVHD Activity Assessment (2014). Skin, mouth, liver, upper and lower GI, esophagus, lung, eye, and joint/fascia are the organs or sites considered in evaluating overall response. CR was defined as resolution of all manifestations in each organ or site. PR was defined as improvement in at least 1 organ or site without progression in any other organ or site. Duration of response was estimated by Kaplan-Meier methodology.",
+        "timeFrame": "Response was assessed every 4 weeks from Week 5 through Week 25, Week 37, Week 49, 30 days after the last dose of study drug, and then every 12 weeks of follow-up until progressed disease. (Cumulatively up to 12 July 2021)"
+      },
+      {
+        "measure": "Primary Analysis: Number of Participants With Treatment-Emergent Adverse Events (AEs), Serious AEs (SAEs), and Discontinuations Due to AEs Placebo in Combination With Prednisone",
+        "description": "AE: any untoward medical occurrence, which does not necessarily have a causal relationship with this treatment. SAE: any untoward medical occurrence that at any dose: results in death; is life-threatening; requires in-patient hospitalization \\>24 hours or prolongation of existing hospitalization; results in persistent or significant disability/incapacity; is a congenital anomaly/birth defect; is an important medical event. Severity was graded according to the Common Terminology Criteria for Adverse Events version 4.03 (grade 1=mild, grade 2=moderate, grade 3=severe, grade 4=life-threatening, grade 5=death). Treatment-related events are those that were possibly related or related to study treatment per investigator's judgment. Treatment emergent AEs (TEAEs) occurred from the first dose of study drug up to 30 days after the last dose of study drug.",
+        "timeFrame": "From first dose of study drug through the end of treatment plus 30 days. As of data cutoff (cumulatively up to 30 March 2020), median ibrutinib treatment duration was 5.4 months and the median placebo treatment duration was 6.4 months."
+      },
+      {
+        "measure": "Final Analysis: Number of Participants With Treatment-Emergent Adverse Events (AEs), Serious AEs (SAEs), and Discontinuations Due to AEs Placebo in Combination With Prednisone",
+        "description": "AE: any untoward medical occurrence, which does not necessarily have a causal relationship with this treatment. SAE: any untoward medical occurrence that at any dose: results in death; is life-threatening; requires in-patient hospitalization \\>24 hours or prolongation of existing hospitalization; results in persistent or significant disability/incapacity; is a congenital anomaly/birth defect; is an important medical event. Severity was graded according to the Common Terminology Criteria for Adverse Events version 4.03 (grade 1=mild, grade 2=moderate, grade 3=severe, grade 4=life-threatening, grade 5=death). Treatment-related events are those that were possibly related or related to study treatment per investigator's judgment. Treatment emergent AEs (TEAEs) occurred from the first dose of study drug up to 30 days after the last dose of study drug.",
+        "timeFrame": "From first dose of study drug through the end of treatment plus 30 days. As of data cutoff (cumulatively up to 12 July 2021), median ibrutinib treatment duration was 5.4 months and the median placebo treatment duration was 6.4 months."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 16,
+      "otherCount": 0,
+      "totalCount": 18
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:29.763Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

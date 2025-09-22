@@ -1,0 +1,109 @@
+{
+  "nctId": "NCT05609539",
+  "briefTitle": "Clinical Effectiveness of an Off-the-shelf Single REnal Scalloped sTent-graft for HOstile NEck Infrarenal Abdominal Aortic Aneurysm",
+  "officialTitle": "Clinical Effectiveness of an Off-the-shelf Single REnal Scalloped sTent-graft for HOstile NEck Infrarenal Abdominal Aortic Aneurysm: Clinical Pivotal Trial",
+  "protocolDocument": {
+    "nctId": "NCT05609539",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-09-01",
+    "uploadDate": "2022-11-03T15:07",
+    "size": 262740,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05609539/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-02-01",
+    "completionDate": "2029-01",
+    "primaryCompletionDate": "2029-01",
+    "firstSubmitDate": "2022-10-31",
+    "firstPostDate": "2022-11-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients affected by infrarenal AAA \\> 50mm\n* Treated in election for non-symptomatic AAA\n* Anatomy inside Treo (Terumo Aortic) instruction to use (IFU)\n* Distance between renal arteries \\>10mm on aortic center-lumen-line\n* Age \\> 18\n* Patient fit to plead\n* Both sex\n* Written informed consent\n* Treated in the coordinator center or in one of the study's participating centers\n* Minimum follow-up requested: 3-months, 12-18 months and 5-years CTA; clinical and DUS examination at 6- and 12- and 36-months after the intervention and yearly thereafter\n\nExclusion Criteria:\n\n* Patients with aortic pathologies different from AAA (aortic ulcers, dissection, pseudo-aneurysm etc)\n* Treated in urgent/emergent setting for symptomatic or ruptured AAA\n* AAA \\< 50mm\n* Outside TREO (Terumo Aortic) IFU\n* With an inter-renal distance measured of the center-lumen-line \\<10mm\n* Age \\<18\n* Unfit to plead\n* Refused to sign the informed consent\n* Treated outside the coordinator centers or in one of the study's participating center's\n* Refusal to adhere to the requested follow-up",
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Evaluation of the clinical effectiveness of the endovascular exclusion of infrarenal Abdominal Aortic Aneurysm with a single renal scallop endograft",
+        "description": "Clinical effectiveness measured in terms of technical and clinical success. Technical success was defined as successful introduction and deployment of the device in the absence of surgical conversion or mortality, type I or III endoleaks, or graft limb obstruction. A technical success thus implies the following qualifying details: 1. Successful access to the arterial system using a remote site; 2. successful deployment of the endoluminal graft with secure proximal and distal fixation; 3. absence of either a type I or III endoleak; 4. patent endoluminal graft without significant twist, kinks, or obstruction by intraoperative measurements; 5 patency of both renal arteries and at least one hypogastric artery.",
+        "timeFrame": "up to 24 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Evaluation of the intra-operative and peri-operative (within 30 days) adverse events",
+        "timeFrame": "up to 30 days"
+      },
+      {
+        "measure": "Collection of eventual adverse events related to the treatment procedure and eventual post-hoc analysis",
+        "timeFrame": "\"through study completion, an average of 2 years\"."
+      },
+      {
+        "measure": "Evaluation of reintervention rate",
+        "timeFrame": "\"through study completion, an average of 2 years\"."
+      },
+      {
+        "measure": "Evaluation time elapsed from procedure to re-intervention",
+        "timeFrame": "\"through study completion, an average of 2 years\"."
+      },
+      {
+        "measure": "Evaluation of the association between baseline and anatomical features to adverse technical success, clinical success and reintervention rate",
+        "timeFrame": "\"through study completion, an average of 2 years\"."
+      },
+      {
+        "measure": "Evaluation of the average procedural time",
+        "timeFrame": "up to 24 hours"
+      },
+      {
+        "measure": "Evaluation of the average fluoroscopy time",
+        "timeFrame": "up to 24 hours"
+      },
+      {
+        "measure": "Evaluation of the average contrast medium (CM)",
+        "timeFrame": "up to 24 hours"
+      },
+      {
+        "measure": "Evaluation of the average dose absorption (DAP) mGy/m3",
+        "timeFrame": "up to 24 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:09.013Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

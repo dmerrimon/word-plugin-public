@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03666624",
+  "briefTitle": "Socially Isolated Older Adults Living With Dementia",
+  "officialTitle": "Socially Isolated Older Adults Living With Dementia",
+  "protocolDocument": {
+    "nctId": "NCT03666624",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-09-22",
+    "uploadDate": "2021-11-30T19:38",
+    "size": 113734,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03666624/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-08-06",
+    "completionDate": "2020-12-30",
+    "primaryCompletionDate": "2020-12-30",
+    "firstSubmitDate": "2018-09-07",
+    "firstPostDate": "2018-09-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age at enrollment is 50 years of age or older\n* Self-identify as LGBT (or sexual or gender non-binary or same sex sexual behavior)\n* Have early stage dementia, including Alzheimer's disease or needs help with complex daily activities\n* Living in the community, not in a care facility.\n\nExclusion Criteria:\n\n* Known terminal illness (with death anticipated within the next 12 months)\n* Hospitalization for a psychiatric disorder in the 12 months prior to baseline\n* Have more than early stage dementia\n* Any physical limitations/chronic conditions preventing participation in an exercise program.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Physical Activity",
+        "description": "Minutes spent on exercising per week in the past month were calculated from the following two questions: (1) How much time did you spend on exercises (hours per day) on a typical day during the last month; (2) How many days did you spend on exercises during the last month.",
+        "timeFrame": "Baseline (pre-treatment) and 7 weeks (post-treatment)"
+      },
+      {
+        "measure": "Change in Physical Functioning",
+        "description": "Physical Functioning subscale of the Medical Outcomes Study 36-Item Short Form (SF-36) consists of 10 items and measures how much participants' health status limits their activities including walking, climbing, lifting, and bathing or dressing oneself, based on self-reports. Each item is measured a 3-point scale (1 = Yes, limited a lot; 2 = Yes, limited a little; 3 = No, not limited at all), then recoded into 0, 50, and 100, respectively. The recoded scores are averaged to generate a summary score with its possible range from 0 to 100. Higher scores indicate better physical functioning.",
+        "timeFrame": "Baseline (pre-treatment) and 7 weeks (post-treatment)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Quality of Life",
+        "description": "Quality of Life in Alzheimer's Disease (QOL-AD) is a 13-item scale that measures participant's self-reported feelings about different aspects of life including energy, mood, living situation, memory, family, friends, ability, and money. Each item has a 4-point response scale (1 = poor; 2 = fair; 3 = good; 4 = excellent). The summary score is a sum of the 13 items with its possible range from 13 to 52. Higher scores indicate higher quality of life.",
+        "timeFrame": "Baseline (pre-treatment) and 7 weeks (post-treatment)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:40.961Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

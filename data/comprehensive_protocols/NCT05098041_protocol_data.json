@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT05098041",
+  "briefTitle": "A Study of Soticlestat and Rifampin in Healthy Adults",
+  "officialTitle": "A Phase 1 Open-Label Study to Evaluate the Drug-Drug Interaction of Rifampin as a Strong CYP3A Inducer on Soticlestat Pharmacokinetics in Healthy Adult Participants",
+  "protocolDocument": {
+    "nctId": "NCT05098041",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-08-20",
+    "uploadDate": "2023-02-17T11:26",
+    "size": 15175532,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05098041/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-22",
+    "completionDate": "2022-03-03",
+    "primaryCompletionDate": "2022-02-16",
+    "firstSubmitDate": "2021-10-20",
+    "firstPostDate": "2021-10-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n1. Healthy, adult, male or female of non-childbearing potential, 18-55 years of age, inclusive, at screening.\n2. Has body mass index (BMI) greater than or equal to (\\>=) 18.0 and less than or equal to (\\<=) 32.0 kilogram per square meter (kg/m\\^2) at screening.\n3. Continuous non-smoker who has not used nicotine-containing products for at least 90 days prior to the first dosing.\n4. Able to swallow multiple tablets/capsules.\n\nExclusion criteria:\n\n1. Has history of any illness that, in the opinion of the Investigator or designee, might confound the results of the study or poses an additional risk to the participant by their participation in the study.\n2. Any positive responses on the C-SSRS that in the clinical judgment of the Investigator has a risk of suicide or has made a suicide attempt in the previous 12 months prior to the first dosing.\n3. Unable to refrain from or anticipates the use of:\n\n   * Any drug, including prescription and non-prescription medications, herbal remedies, or vitamin supplements within 14 days prior to the first dosing. Thyroid hormone replacement medication may be permitted if the participant has been on the same stable dose for the immediate 3 months prior to first dosing.\n   * Any drugs known to be significant inducers of cytochrome (CYP)3A, CYP2C19, UGT1A9 or UGT2B4 enzymes, and/or P-glycoprotein (P-gp), including St. John's Wort, within 28 days prior to the first dosing.\n\n   Appropriate sources (example, Flockhart TableTM) will be consulted to confirm lack of pharmacokinetic (PK)/pharmacodynamics interaction with study drug.\n4. History of alcohol consumption exceeding 2 standard drinks per day on average (1 glass is approximately equivalent to the following: beer 354 milliliter \\[mL\\]/12 ounce \\[oz\\], wine \\[118 mL/4 oz\\], or distilled spirits \\[29.5 mL/1 oz\\] per day).\n5. Consumes excessive amounts, defined as greater than 4 servings (1 serving is approximately equivalent to 120 mg of caffeine), of coffee, tea, cola, energy drinks, or other caffeinated beverages per day.\n6. Has been on a diet incompatible with the on-study diet, in the opinion of the Investigator or designee, within the 30 days prior to the first dosing and throughout the study.\n7. Donation of blood or significant blood loss within 56 days prior to the first dosing.\n8. Plasma donation within 7 days prior to the first dosing.\n9. Participation in another clinical study within 30 days or 5 half-lives prior to the first dosing. The 30-days window or 5 half-lives will be derived from the date of the last blood collection or dosing, whichever is later, in the previous study to Day 1 of Period 1 of the current study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "55 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Cmax: Maximum Observed Plasma Concentration for Soticlestat When Administered Alone and With Rifampin",
+        "timeFrame": "Soticlestat Alone: Day 1 pre-dose and at multiple timepoints (up to 96 hours) post-dose in Period 1; Soticlestat with Rifampin: Day 11 pre-dose and at multiple time points (up to 72 hours) post-dose in Period 2"
+      },
+      {
+        "measure": "AUC∞: Area Under the Plasma Concentration-time Curve From Time 0 to Infinity for Soticlestat When Administered Alone and With Rifampin",
+        "timeFrame": "Soticlestat Alone: Day 1 pre-dose and at multiple timepoints (up to 96 hours) post-dose in Period 1; Soticlestat with Rifampin: Day 11 pre-dose and at multiple time points (up to 72 hours) post-dose in Period 2"
+      },
+      {
+        "measure": "AUClast: Area Under the Plasma Concentration-time Curve From Time 0 to the Time of the Last Quantifiable Concentration for Soticlestat When Administered Alone and With Rifampin",
+        "timeFrame": "Soticlestat Alone: Day 1 pre-dose and at multiple timepoints (up to 96 hours) post-dose in Period 1; Soticlestat with Rifampin: Day 11 pre-dose and at multiple time points (up to 72 hours) post-dose in Period 2"
+      },
+      {
+        "measure": "Tmax: Time to Reach the Maximum Plasma Concentration (Cmax) for Soticlestat When Administered Alone and With Rifampin",
+        "timeFrame": "Soticlestat Alone: Day 1 pre-dose and at multiple timepoints (up to 96 hours) post-dose in Period 1; Soticlestat with Rifampin: Day 11 pre-dose and at multiple time points (up to 72 hours) post-dose in Period 2"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Reported One or More Treatment-Emergent Adverse Events (TEAEs)",
+        "timeFrame": "From Day 1 of Period 1 up to 15 days after the last dose of Soticlestat in Period 2 (up to Day 31)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:52.607Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

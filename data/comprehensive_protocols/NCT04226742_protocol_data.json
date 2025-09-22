@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT04226742",
+  "briefTitle": "Evaluation of a Crowd-Powered Web Platform for Depression and Anxiety",
+  "officialTitle": "Evaluation of the Crowd-Powered Web Platform for Accumulative Depression and Anxiety Plans and Treatment (ADAPT)",
+  "protocolDocument": {
+    "nctId": "NCT04226742",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-01-14",
+    "uploadDate": "2023-04-30T23:57",
+    "size": 135811,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04226742/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 107,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-02-18",
+    "completionDate": "2022-01-04",
+    "primaryCompletionDate": "2021-11-05",
+    "firstSubmitDate": "2020-01-08",
+    "firstPostDate": "2020-01-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 1\\) Completion of the Mental Health America Screening to Supports (MHA S2S) or significant mood and anxiety symptoms as defined by an accepted cut-off on a validated measure the Depression Anxiety and Stress Scale (DASS). The accepted cut-off is scores greater than 22;\n* 2\\) able to speak and read English;\n* 3\\) at least 18 years of age.\n\nExclusion Criteria:\n\n* 1\\) severe suicidality (has ideation, plan, and intent)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Depression Scores at Week 16",
+        "description": "The primary outcome of symptoms of depression will be measured with the self-report depression subscale of the Depression Anxiety Stress Scale (DASS). The subscale for depression ranges from 7 to 28 with lower values (lowest value = 7) indicating lower levels of depression and higher values (highest value = 28) indicating higher levels of depression.",
+        "timeFrame": "Absolute scores at Week 16"
+      },
+      {
+        "measure": "Anxiety Scores at 16 Weeks",
+        "description": "The primary outcome of symptoms of anxiety will be measured with the self-report anxiety subscale of the Depression Anxiety Stress Scale (DASS). The subscale for anxiety ranges from 7 to 28 with lower values (lowest value = 7) indicating lower levels of anxiety and higher values (highest value = 28) indicating higher levels of anxiety.",
+        "timeFrame": "Absolute scores at Week 16"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Cognitive and Behavioral Skills Scores at 16 Weeks",
+        "description": "A secondary outcome is the Frequency of Actions and Thoughts (FATS), which assesses the use of cognitive and behavioral skills. Total scores indicate the average of each item rating and range from 0-4. Lower scores indicate less frequent use of cognitive and behavioral skills and higher scores indicate more frequent use of cognitive and behavioral skills.",
+        "timeFrame": "Absolute scores at Week 16"
+      },
+      {
+        "measure": "Self-efficacy Scores at 16 Weeks",
+        "description": "A secondary outcome is the Coping Self-Efficacy (CSE), which produces a single score that ranges from 0-260 with lower scores representing lower coping self-efficacy and higher scores indicating higher coping self-efficacy.",
+        "timeFrame": "Absolute scores at Week 16"
+      },
+      {
+        "measure": "Accountability Scores at 16 Weeks",
+        "description": "A secondary outcome is the Supportive Accountability Questionnaire (SAQ), which produces a single score than ranges from 7-91. Data reported are the SAQ total scores with lower levels indicating less supportive accountability and higher values indicating greater supportive accountability.",
+        "timeFrame": "Absolute scores at Week 16"
+      },
+      {
+        "measure": "Social Functioning Scores at 16 Weeks",
+        "description": "Functioning will be assessed with the Patient-Reported Outcomes Measurement Information System (PROMIS) Ability to Participate in Social Roles and Activities Scale which produces T-scores that have a mean of 50 and a standard deviation of 10. Lower scores indicate lower participation in social roles and activities and higher scores indicate higher participation in social roles and activities.",
+        "timeFrame": "Absolute scores at Week 16"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:17.258Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,99 @@
+{
+  "nctId": "NCT03884231",
+  "briefTitle": "A Post-Market Study Evaluating the Safety of Infinity DBS System With MR Conditional Labeling",
+  "officialTitle": "A Post-Market Study Evaluating the Safety of Infinity DBS System With MR Conditional Labeling",
+  "protocolDocument": {
+    "nctId": "NCT03884231",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-01-16",
+    "uploadDate": "2023-06-14T00:11",
+    "size": 1552055,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03884231/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 74,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-04-10",
+    "completionDate": "2021-08-20",
+    "primaryCompletionDate": "2021-07-22",
+    "firstSubmitDate": "2019-03-19",
+    "firstPostDate": "2019-03-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Subject or subject's legally acceptable representative must provide written informed consent prior to any clinical investigation related procedure.\n2. Subject has been implanted, or is scheduled to be implanted, with a commercially available Infinity DBS system with MR Conditional labeling per locally approved indications for use.\n3. Subject is scheduled to undergo a MRI procedure in compliance with the MRI Procedure Information Clinician's Manual. Anxiolytics and patient's regular medications may be administered, provided Instructions For Use (IFU) criteria are met.\n4. Subject is willing and able to comply with study requirements.\n\nExclusion Criteria:\n\n1. Subject has another implanted device (active or passive implanted device) that prohibits safe scanning.\n2. Subject has previously experienced an MRI-related adverse event or cannot undergo MRI for any other reason.\n3. Subject is pregnant or nursing, or plans to become pregnant during the clinical investigation follow-up period.\n4. Subject has other anatomic or comorbid conditions, or other medical, social, or psychological conditions that, in the investigator's opinion, could limit the subject's ability to participate in the clinical investigation or to comply with follow-up requirements, or impact the scientific soundness of the clinical investigation results.\n5. Subject is currently participating in another clinical investigation that may confound the results of this study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Rate of MRI-related Adverse Events",
+        "description": "Any adverse event that was included in the primary endpoint analysis, if it:\n\n1. Was classified as being MRI-related (as determined by the CEC), occured during or after the MRI procedure, and cannot be attributed to any other cause; and\n2. Was classified as being related to the device (implanted or external component) (as determined by the Investigator); and\n3. Met the criteria for serious adverse event or was a non-serious adverse event that was the result of irrecoverable failure of therapy delivery or device communication.",
+        "timeFrame": "From MRI procedure through 1 month post-MRI procedure"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Rate of Successful MRI Mode 'Turn on/Off' Functionality of the MRI Mode",
+        "description": "Secondary endpoints were evaluated after the MRI scan on subjects who were scanned with a full system configuration. Rate of successful MRI mode 'turn on/off' functionality of the MRI mode was assessed.",
+        "timeFrame": "Immediately after the MRI scan"
+      },
+      {
+        "measure": "Rate of Successful 'Turn on/Off' Functionality for the Stimulation",
+        "description": "Secondary endpoints were evaluated after the MRI scan on subjects who were scanned with a full system configuration. Rate of successful 'turn on/off' functionality for the stimulation was assessed.",
+        "timeFrame": "Immediately after the MRI scan"
+      },
+      {
+        "measure": "Rate of Successful Adjustments to the Stimulation Amplitude",
+        "description": "Secondary endpoints were evaluated after the MRI scan on subjects who were scanned with a full system configuration. Rate of successful adjustments to the stimulation amplitude was assessed.",
+        "timeFrame": "Immediately after the MRI scan"
+      },
+      {
+        "measure": "Rate of Successful Interrogation and Download of the IPG Parameters",
+        "description": "Secondary endpoints were evaluated after the MRI scan on subjects who were scanned with a full system configuration. Rate of successful interrogation and download of the IPG parameters was assessed.",
+        "timeFrame": "Immediately after the MRI scan"
+      },
+      {
+        "measure": "Rate of Successful Ability to Obtain Lead Impedance Measurements",
+        "description": "Secondary endpoints were evaluated after the MRI scan on subjects, who were scanned with a full system configuration. Rate of successful ability to obtain lead impedance measurements was assessed.",
+        "timeFrame": "Immediately after the MRI scan"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:43.484Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

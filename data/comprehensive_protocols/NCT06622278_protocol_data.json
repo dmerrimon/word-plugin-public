@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT06622278",
+  "briefTitle": "Flipped Classroom for Weight Management",
+  "officialTitle": "Flipped Classroom for Weight Management",
+  "protocolDocument": {
+    "nctId": "NCT06622278",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-05-18",
+    "uploadDate": "2024-09-26T10:04",
+    "size": 293797,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06622278/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 18,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-03-29",
+    "completionDate": "2023-03-01",
+    "primaryCompletionDate": "2023-03-01",
+    "firstSubmitDate": "2022-06-13",
+    "firstPostDate": "2024-10-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Body Mass Index greater than or equal to 25\n* Age 18 to 75 years\n* Wireless internet connection in the home\n* Ability to engage in moderate to vigorous intensity exercise\n\nExclusion Criteria:\n\n* Unable to commit to weekly group education\n* Food allergy/intolerance that would hinder ability to adhere to dietary prescription",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Attendance",
+        "description": "Attendance to the group education sessions will be measured weekly and evaluated by the health educator. Attendance records will be entered into the study REDCap database.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Attrition",
+        "description": "Attrition rate will be measured at the end of the intervention measured as the percent of participants who completed all 24 weeks of the weight loss program.",
+        "timeFrame": "24 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Weight",
+        "description": "Participants will be weighed at the outpatient weight management clinic in a private room by a registered nurse prior to the participant seeing a clinic physician. Weight will be collected to the nearest 0.1 kg.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Height",
+        "description": "Participant height will be measured at the outpatient weight management clinic in a private room by a registered nurse prior to the participant seeing a clinic physician. Standing height will be measured using a stadiometer and collected to the nearest 1 cm.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Body Mass Index",
+        "description": "Body Mass Index will be calculated as weight (kg) divided by height (cm) squared.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Diet Adherence",
+        "description": "Adherence to the diet prescription will be measured weekly via participant self-report. Participants will report daily total number of shakes, number of entrees, servings of fruit and vegetables, and days off plan. The self-monitoring sheet will be submitted via email to the health educator prior to each group session. The health educator will provide individual feedback based on self-reported adherence.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Exercise Adherence",
+        "description": "Adherence to the diet and exercise prescription will be measured weekly via participant self-report. Participants will report daily minutes of exercise and steps taken. The self-monitoring sheet will be submitted via email to the health educator prior to each group session. The health educator will provide individual feedback based on self-reported adherence.",
+        "timeFrame": "24 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:16.370Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT07062536",
+  "briefTitle": "mFOLFOX/mFOLFIRI vs. mFOLFOX in Advanced or Recurrent Biliary Tract Cancer Second-line",
+  "officialTitle": "A Randomized Phase II Clinical Trial to Evaluate the Efficacy Alternating mFOLFOX/mFOLFIRI Chemotherapy Regimen as a Second-line Treatment for Advanced Biliary Tract Cancer",
+  "protocolDocument": {
+    "nctId": "NCT07062536",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2025-01-17",
+    "uploadDate": "2025-07-07T20:45",
+    "size": 443202,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07062536/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 130,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-08-01",
+    "completionDate": "2028-04-01",
+    "primaryCompletionDate": "2027-04-01",
+    "firstSubmitDate": "2025-02-20",
+    "firstPostDate": "2025-07-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria (All eligibility criteria must be fulfilled)\n\n1. Age ≥ 19 years.\n2. Diagnosed with biliary tract cancer, including intrahepatic cholangiocarcinoma, extrahepatic cholangiocarcinoma, gallbladder cancer, or ampulla of Vater cancer.\n3. Either unresectable advanced disease or recurrence after curative surgery.\n4. ECOG (Eastern Cooperative Oncology Group) performance status of 0-2\n5. First-Line Treatment Failure: Disease progression after at least one cycle of gemcitabine/cisplatin-based therapy or discontinuation of therapy due to adverse effects.\n6. Presence of evaluable or measurable lesions according to RECIST v1.1 criteria.\n7. Laboratory Criteria: optima bone marrow, liver, and kidney function within one week prior to enrollment: A. Hemoglobin \\&gt; 9.0 g/dL B. Absolute neutrophil count (ANC) \\&gt; 1,000/uL C. Platelet count \\&gt; 75,000/uL D. Serum creatinine \\&lt; 1.5× upper limit of normal (ULN) E. AST/ALT \\&lt; 3× ULN F. Total bilirubin \\&lt; 1.5× ULN (biliary drainage is allowed).\n8. Patients who understand the study protocol, can provide written informed consent, and are aware of their right to withdraw at any time without penalty.\n9. Effective Contraception (for patients of childbearing potential receiving oxaliplatin):\n\nA. Male patients:\n\nMust use effective contraception during the study and for 12 months after treatment completion.\n\nB. Female patients:\n\nMust use effective contraception during the study and for 15 months after treatment completion.\n\n\\*Exclusion Criteria (Patients meeting any of the following criteria will be excluded from the study.)\n\n1. Patients with prior exposure to oxaliplatin or irinotecan in previous cancer treatments.\n2. Patients with metastatic or unresectable biliary tract cancer who have received second- line or higher chemotherapy.\n3. Pregnant or breastfeeding women.\n4. Patients with a history of other malignancies within the past 3 years, except for papillary or follicular thyroid cancer.\n5. Patients with uncontrolled infections or other systemic diseases.\n6. Patients with a history of myocardial infarction, unstable angina, or heart failure (NYHA\n7. Class III-IV) within the last 6 months.\n8. Patients with Grade 3 or higher peripheral neuropathy caused by prior chemotherapy.\n9. Patients with known allergic reactions to the investigational drugs.\n10. Known patients with Gilbert's syndrome, DPD (dihydro-pyrimidine dehydrogenase) deficiency, or Homozygous UGT1A1\\*28 alleles.\n11. Patients currently taking potent CYP3A4 inhibitors (e.g., ketoconazole, itraconazole, ritonavir, clarithromycin), or potent CYP3A4 inducers (e.g., rifampin, carbamazepine, St.\n\n    John's Wort).\n12. Patients who are eligible for targeted therapy, including FGFR inhibitors or IDH1 inhibitors. (eligible for patient who unable to use these targeted agents due to drug cost.)\n13. Patients with active CNS metastases and/or carcinomatous meningitis.\n14. Patients who meet contraindications for the investigational drugs as per domestic regulatory guidelines, including patients with infections, Interstitial pneumonitis or pulmonary fibrosis, Severe diarrhea, Chronic inflammatory bowel disease, Intestinal paralysis or obstruction, Functional impairment due to peripheral sensory neuropathy, Severe renal dysfunction.\n15. Patients deemed ineligible by the investigator for any other reason.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "19 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "6months overall survival rate",
+        "description": "at 6months from intervention treatment, overall survival rate",
+        "timeFrame": "6months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "response rate",
+        "description": "complete response,partial response",
+        "timeFrame": "6months"
+      },
+      {
+        "measure": "disease control rate",
+        "description": "complete response, partial response, stable disease",
+        "timeFrame": "6month"
+      },
+      {
+        "measure": "progression free survival",
+        "description": "from treatment start to progression or any cause of death",
+        "timeFrame": "6month"
+      },
+      {
+        "measure": "Number of participants with Treatment-Related Adverse Events as Assessed by NCI CTC version 4.0",
+        "description": "percentage of all patients",
+        "timeFrame": "6month"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 42,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:51.674Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

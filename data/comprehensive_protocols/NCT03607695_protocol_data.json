@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT03607695",
+  "briefTitle": "Genetic Influences on Response to Gait Rehabilitation in Parkinson's Disease",
+  "officialTitle": "Genetic Influences on Response to Gait Rehabilitation in Parkinson's Disease",
+  "protocolDocument": {
+    "nctId": "NCT03607695",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-07-26",
+    "uploadDate": "2021-07-28T21:01",
+    "size": 752524,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03607695/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 19,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-02-01",
+    "completionDate": "2020-06-30",
+    "primaryCompletionDate": "2020-06-30",
+    "firstSubmitDate": "2018-07-24",
+    "firstPostDate": "2018-07-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Meet UK Brain Bank (UKBB) criteria for the diagnosis of PD (modified so that having more than one affected relative was not considered an exclusion criteria)\n* Have a Hoehn \\& Yahr score of 3\n* Have the ability to walk 400 m without physical assistance from a device or another person\n* Do not have other health conditions (e.g., orthopedic, cardiopulmonary) that impact the ability to safely participate in a moderately intense gait training program\n\nExclusion Criteria:\n\n* The investigators will exclude those patients presenting clinical diagnosis of dementia.\n* The investigators will exclude those patients presenting conditions (cardiac, renal, or metabolic) that would pose a risk to their health by exercising.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Gait Speed (m/s)",
+        "description": "The investigators will use the APDM Movement Monitoring system to assess gait speed (m/s) during straight-line walking as a measure of gait function.",
+        "timeFrame": "measured at baseline, 2 weeks, 10 weeks and 16 weeks"
+      },
+      {
+        "measure": "Montreal Cognitive Assessment Score",
+        "description": "The investigators will use the Montreal Cognitive Assessment (MoCA; score range=0-30, with 30 indicating better cognitive function) as a reflection of global cognitive function",
+        "timeFrame": "measured at baseline and at 10 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:45.251Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

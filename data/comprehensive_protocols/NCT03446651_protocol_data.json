@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT03446651",
+  "briefTitle": "Mechanism and Effects of Manipulating Chloride Homeostasis in Acute Heart Failure",
+  "officialTitle": "Mechanism and Effects of Manipulating Chloride Homeostasis in Acute Heart Failure",
+  "protocolDocument": {
+    "nctId": "NCT03446651",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-09-28",
+    "uploadDate": "2023-12-12T14:41",
+    "size": 734883,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03446651/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "EARLY_PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-07-12",
+    "completionDate": "2022-09-07",
+    "primaryCompletionDate": "2022-09-07",
+    "firstSubmitDate": "2018-02-20",
+    "firstPostDate": "2018-02-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of decompensated heart failure with at least one objective sign of volume overload (rales, edema, elevated jugular venous pressure (JVP), or weight gain of at least 5 pounds)\n* A projected need by the treating clinician for continued treatment with IV diuretics\n* Chronic loop diuretic use\n\nExclusion Criteria:\n\n* Inability to commit to or comply with serial visits for treatment in the Yale Transitional Care Center (YTCC)\n* History of severe metabolic or respiratory acidosis within 30 days of enrollment\n* Use of metformin, acetazolamide, or any other agent that could predispose to acidosis. Patients who are on metformin may be enrolled if their metformin can be discontinued safely for the duration of the study. Any participants who have consistently elevated Blood glucose readings \\> 200 mg/dL while inpatient will not be enrolled.\n* Serum bicarbonate level \\<20mmol/L\n* Estimated glomerular filtration rate \\<20 mL/min or renal replacement therapy\n* Appears unlikely, or unable to participate in the required study procedures, as assessed by the study PI or research registered nurse (RN) (ex: clinically-significant psychiatric, addictive, or neurological disease)\n* Inability to give written informed consent or follow study protocol",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Blood Volume",
+        "description": "Volumex is albumin labeled with the iodine isotope I-131 and is an FDA-approved method used to determine total blood volume. A linear mixed effect model will be used to analyze the trial with class variables of time and treatment group. Daily measures of blood collection will be compared across the 7 day collection period between intervention and placebo arms.",
+        "timeFrame": "Daily for 7 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Log NTpro-BNP",
+        "description": "N-terminal prohormone of brain natriuretic peptide (NTpro-BNP) is used to screen and diagnosis of acute congestive heart failure (CHF) and can be used to establish prognosis in heart failure. A linear mixed effect model will be used to analyze the trial with class variables of time and treatment group. Daily measures of NTpro-BNP will be compared across the 7 day collection period between intervention and placebo arms.",
+        "timeFrame": "Daily for 7-days"
+      },
+      {
+        "measure": "Change in Serum Creatinine",
+        "description": "A linear mixed effect model will be used to analyze the trial with class variables of time and treatment group. Daily measures of serum creatinine will be compared across the 7 day collection period between intervention and placebo arms.",
+        "timeFrame": "Daily for 7-days"
+      },
+      {
+        "measure": "Change in Cystatin C",
+        "description": "A linear mixed effect model will be used to analyze the trial with class variables of time and treatment group. Daily measures of cystatin C will be compared across the 7 day collection period between intervention and placebo arms.",
+        "timeFrame": "Daily for 7-days"
+      },
+      {
+        "measure": "Change in Chloride",
+        "description": "A linear mixed effect model will be used to analyze the trial with class variables of time and treatment group. Daily measures of chloride will be compared across the 7 day collection period between intervention and placebo arms.",
+        "timeFrame": "Daily for 7-days"
+      },
+      {
+        "measure": "Change in Bicarbonate",
+        "description": "A linear mixed effect model will be used to analyze the trial with class variables of time and treatment group. Daily measures of bicarbonate will be compared across the 7 day collection period between intervention and placebo arms.",
+        "timeFrame": "Daily for 7-days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:31.001Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

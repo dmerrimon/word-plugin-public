@@ -1,0 +1,152 @@
+{
+  "nctId": "NCT03069716",
+  "briefTitle": "A Mobile Health Intervention in Pulmonary Arterial Hypertension",
+  "officialTitle": "A Mobile Health Intervention in Pulmonary Arterial Hypertension",
+  "protocolDocument": {
+    "nctId": "NCT03069716",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-08-06",
+    "uploadDate": "2021-04-19T17:59",
+    "size": 610078,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03069716/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 49,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-08-02",
+    "completionDate": "2020-04-24",
+    "primaryCompletionDate": "2020-04-24",
+    "firstSubmitDate": "2017-02-21",
+    "firstPostDate": "2017-03-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Aged 18 or older.\n2. Diagnosed with idiopathic, heritable, or associated (connective tissue disease, drugs, or toxins) pulmonary arterial hypertension (PAH) according to World Health Organization consensus recommendations.\n3. Stable PAH-specific medication regimen for three months prior to enrollment. Subjects with only a single diuretic adjustment in the prior three months will be included.\n4. Subjects must own a Bluetooth capable modern smartphone capable of receiving and sending text messages and an active data plan.\n\nExclusion Criteria:\n\n1. Prohibited from normal activity due to wheelchair bound status, bed bound status, reliance on a cane/walker, activity-limiting angina, activity-limiting osteoarthritis, or other condition.\n2. Pregnancy.\n3. Diagnosis of PAH etiology other than idiopathic, heritable, or associated.\n4. Forced vital capacity \\<70% predicted.\n5. Functional class IV heart failure.\n6. Requirement of \\> 1 diuretic adjustment in the prior three months.\n7. Preferred form of activity is not measured by an activity tracker (swimming, yoga, ice skating, stair master, or activities on wheels such as bicycling or rollerblading).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Daily Step Count",
+        "description": "Change from baseline mean daily step count at week 12.",
+        "timeFrame": "Baseline to 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Six Minute Walk Test Distance",
+        "description": "Change from baseline of six minute walk test distance (meters) at week 12.",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Right Ventricle (RV) Strain",
+        "description": "Change from baseline of RV free wall longitudinal strain at week 12.",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Percentage of Days Participants Met Their Daily Step Count Goal",
+        "description": "All participants were provided with an Fitbit Charge Heart Rate mobile device to monitor daily step counts, activity time, and aerobic time. The daily goal was communicated via text to the intervention group and was the baseline step count average for the control group. Increased daily goal attainment indicates increased activity level",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Daily Aerobic Time",
+        "description": "Change in minutes of activity per day between Week 12 and Baseline",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Change From Baseline at Week 12 in emPHasis-10 Questionnaire Score",
+        "description": "Quality of life was assessed using the emPHasis-10 questionnaire, a disease-specific self-administered 10-question questionnaire designed for routine assessment of health-related quality of life in pulmonary hypertension. Total score can range from 0 to 50, with higher scores indicating a worse quality of life. Change from Baseline was calculated as the value at Week 12 minus the value at Baseline. The Week 12 value was defined as the last assessment at or prior to Week 12.",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Change From Baseline on the SF-36 Mental Component Summary (MCS) Score",
+        "description": "SF-36 consists of 36 questions measuring 8 health domains: physical functioning, bodily pain, role limitations due to physical problems, role limitations due to emotional problems, general health perceptions, mental health, social function, and vitality. The patient's responses are solicited using Likert scales that vary in length, with 3-6 response options per item. The SF-36 can be scored into the 8 health domains named above and two overall summary scores: physical component summary (PCS) and mental component summary (MCS) scores. The domain and summary scores range from 0 to 100; higher scores indicate better levels of function and/or better health",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Change From Baseline to Week 12 in Borg Dyspnea Score",
+        "description": "The Borg Dyspnea score is a self-rating scale to evaluate the severity of dyspnea (from 0 \"no shortness of breath at all\" to 10 \"very, very severe / maximal\" shortness of breath). The scale was completed at the beginning and conclusion of each 6-minute walk test at baseline and at Week 12. Median change from baseline in scoring was reported.",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Resting Heart Rate",
+        "description": "Change in heart rate between Week 12 and Baseline",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Total Lean Mass",
+        "description": "Change from baseline lean mass at week 12.",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Insulin Resistance",
+        "description": "Insulin resistance measured by the Homeostatic Model Assessment for Insulin Resistance insulin resistance score (HOMA-IR) utilizing the formula: fasting plasma glucose (mmol/l) times fasting serum insulin (mU/l) divided by 22.5. Low HOMA-IR values indicate high insulin sensitivity, whereas high HOMA-IR values indicate low insulin sensitivity (insulin resistance).",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "BNP",
+        "description": "Change from baseline B-type natriuretic peptide level at week 12.",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Change From Baseline on the SF-36 Physical Component Summary (PCS) Score",
+        "description": "SF-36 consists of 36 questions measuring 8 health domains: physical functioning, bodily pain, role limitations due to physical problems, role limitations due to emotional problems, general health perceptions, mental health, social function, and vitality. The patient's responses are solicited using Likert scales that vary in length, with 3-6 response options per item. The SF-36 can be scored into the 8 health domains named above and two overall summary scores: physical component summary (PCS) and mental component summary (MCS) scores. The domain and summary scores range from 0 to 100; higher scores indicate better levels of function and/or better health",
+        "timeFrame": "Baseline to 12 weeks"
+      },
+      {
+        "measure": "Minutes of Moderate-vigorous Activity",
+        "description": "Change in minutes between Week 12 and Baseline",
+        "timeFrame": "Baseline to 12 Weeks"
+      },
+      {
+        "measure": "Visceral Fat Volume",
+        "description": "Change in fat volume between Week 12 and Baseline",
+        "timeFrame": "Baseline to Week 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 14,
+      "otherCount": 0,
+      "totalCount": 15
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:14.579Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

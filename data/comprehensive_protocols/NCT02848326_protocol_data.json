@@ -1,0 +1,100 @@
+{
+  "nctId": "NCT02848326",
+  "briefTitle": "Efficacy, Safety, and Tolerability of Multiple Dosing Regimens of Oral Atogepant (AGN-241689) in Episodic Migraine Prevention",
+  "officialTitle": "A Phase 2/3, Multicenter, Randomized, Double-Blind, Placebo Controlled, Parallel-Group Study To Evaluate The Efficacy, Safety, And Tolerability Of Multiple Dosing Regimens Of Oral AGN-241689 In Episodic Migraine Prevention",
+  "protocolDocument": {
+    "nctId": "NCT02848326",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-09-11",
+    "uploadDate": "2018-11-13T16:28",
+    "size": 19744001,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02848326/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 834,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-09-06",
+    "completionDate": "2018-04-23",
+    "primaryCompletionDate": "2018-04-02",
+    "firstSubmitDate": "2016-07-26",
+    "firstPostDate": "2016-07-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Has at least a 1-year history of migraine with or without aura\n* Age of the patient at the time of migraine onset \\< 50 years\n* History of 4 to 14 migraine days (migraine/probable migraine headache days) per month on average in the 3 months prior to Visit 1 in the Investigator's judgment\n* Demonstrated compliance with e-diary\n\nExclusion Criteria:\n\n* Has a history of migraine accompanied by diplopia or decreased level of consciousness and retinal migraine\n* Has a current diagnosis of chronic migraine, new persistent daily headache, trigeminal autonomic cephalgia (eg, cluster headache), or painful cranial neuropathy\n* Difficulty distinguishing migraine headache from other headaches\n* Has a history of malignancy in the prior 5 years, except for adequately treated basal cell or squamous cell skin cancer, or in situ cervical cancer\n* Has a history of gastric or small intestinal surgery, or has a disease that causes malabsorption\n* Has a history of hepatitis within previous 6 months\n* Usage of opioids or barbiturates \\> 2 days/month, triptans or ergots ≥ 10 days/month, or simple analgesics (eg, aspirin, non-steroidal anti-inflammatory drugs \\[NSAIDs\\], acetaminophen) ≥ 15 days/month in the 3 months prior to Visit 1\n* Pregnant or nursing females",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Mean Monthly Migraine Days (Migraine/Probable Migraine Headache Days) Across the 12-Week Treatment Period",
+        "description": "Participants recorded daily duration of migraine in a diary. A migraine day was any calendar day on which the participant experienced a migraine headache qualified by duration and acute symptomatic medication use. The 4-week migraine days was defined as the total number of reported migraine days in diary divided by total number of days with diary records during each 4- week period and multiplied by 28. Each 4-week period was averaged. Negative change from Baseline indicates improvement.",
+        "timeFrame": "Baseline (First 28 Days of Screening/Baseline Period) to Week 12"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Mean Monthly Headache Days Across the 12-Week Treatment Period",
+        "description": "Participants recorded daily total duration of a headache in a diary. A headache day is any calendar day on which the participant experienced a headache qualified by duration and acute symptomatic medication use. The 4-week (monthly) headache days was defined as the total number of reported headache days in the diary divided by the total number of days with diary records during each 4-week period and multiplied by 28. Each 4-week period was averaged. Negative change from Baseline indicates improvement.",
+        "timeFrame": "Baseline (First 28 Days of Screening/Baseline Period) to Week 12"
+      },
+      {
+        "measure": "Percentage of Participants With at Least a 50% Reduction in Mean Monthly Migraine Days (Migraine/Probable Migraine Headache Days) Across the 12-Week Treatment Period",
+        "description": "Participants recorded daily duration of migraine in a diary. A migraine day was any calendar day on which the participant experienced a migraine headache qualified by duration and acute symptomatic medication use. The 4-week migraine days=total number of reported migraine days in diary divided by total number of days with diary records in each 4-week period multiplied by 28. Each 4-week period was averaged.",
+        "timeFrame": "Baseline (First 28 Days of Screening/Baseline Period) to Week 12"
+      },
+      {
+        "measure": "Change From Baseline in Mean Monthly Acute Medication Use Days Across the 12-Week Treatment Period",
+        "description": "Participants recorded allowed medication(s) to treat an acute migraine in the daily diary. The 4-week (monthly) acute medication use days was defined as the total number of reported acute medication use days in the diary divided by the total number of days with diary records during each 4-week period and multiplied by 28. Each 4-week period was averaged. A negative change from Baseline indicates improvement.",
+        "timeFrame": "Baseline (First 28 Days of Screening/Baseline Period) to Week 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:52.589Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

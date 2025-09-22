@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT02192827",
+  "briefTitle": "Use of Dexamethasone in Pediatric Asthma Exacerbations",
+  "officialTitle": "Single Dose Dexamethasone is as Effective as Two Doses in Mild to Moderate Pediatric Asthma Exacerbations in the Emergency Department",
+  "protocolDocument": {
+    "nctId": "NCT02192827",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-11-09",
+    "uploadDate": "2022-11-21T12:04",
+    "size": 436484,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02192827/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 318,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-04",
+    "completionDate": "2018-03",
+    "primaryCompletionDate": "2018-03",
+    "firstSubmitDate": "2014-07-11",
+    "firstPostDate": "2014-07-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Children aged 2 to 20 years, from all race and ethnicity groups, with a known history of asthma who present to the Emergency Department of Women and Children's Hospital of Buffalo with an acute exacerbation of mild or moderate asthma are potentially eligible for the study. Patients with severe asthma exacerbations will require intravenous steroid therapy, therefore, they will not be enrolled in the study. The investigators plan to enroll patients from winter of 2014 to fall 2016.\n\nHistory of asthma is defined by physician diagnosis of at least 1 prior episode of wheezing which responded to beta agonist medication.\n\nMild asthma is defined as: Pediatric Asthma Score (PAS) of 5 to 7; Moderate asthma is defined as: PAS of 8 to 11; Severe asthma is defined as: PAS of 12 or more.\n\nExclusion Criteria:\n\n* Children who have one of the following conditions will be excluded from the study: are less than 2 years of age, have signs of severe exacerbation (Pediatric Asthma Score of more than 11), have used oral steroids in the last 2 weeks, have chronic lung disease (e.g., cystic fibrosis), have been given IV solumedrol, or vomit two doses of dexamethasone in emergency department.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "20 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Returning to Care Following Discharge From the Emergency Department",
+        "description": "The investigators will determine if each patient had any unscheduled visits to the emergency room, urgent care or primary care physician.",
+        "timeFrame": "5 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Reported Number of Days Until Symptom Resolution",
+        "description": "Will determine number of days to symptom resolution, including missed school days.",
+        "timeFrame": "5 days"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Reported Side Effects Experienced by Participants",
+        "description": "The investigators will determine during phone follow up if patient experienced any side effects related to the Dexamethasone, including vomiting, mood swings, behavior changes, appetite changes, sweating or headache.",
+        "timeFrame": "5 days"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 31,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:00.985Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

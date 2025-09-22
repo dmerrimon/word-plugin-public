@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03798444",
+  "briefTitle": "Height Loss, Kyphosis Indicators, Bone Mineral Density and Vertebral Fractures in Chinese Postmenopausal Women",
+  "officialTitle": "An Observational and Cross-sectional Study on Prevalence of Vertebral Fractures in Postmenopausal Women Living in Chinese Communities",
+  "protocolDocument": {
+    "nctId": "NCT03798444",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-03-28",
+    "uploadDate": "2019-01-07T04:06",
+    "size": 17012877,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03798444/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 255,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-09-01",
+    "completionDate": "2017-09-30",
+    "primaryCompletionDate": "2017-09-30",
+    "firstSubmitDate": "2018-11-20",
+    "firstPostDate": "2019-01-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nPostmenopausal women aged ≥50 years (Menopause was defined as the absence of menstrual cycles for at least one year)\n\nExclusion Criteria:\n\nMorphological abnormalities or skeletal distortions",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Height",
+        "description": "Subjects wearing light clothing and no shoes. Current height was measured using a wall-mounted stadiometer, with a horizontal plate pressed on the head, and hair flattened. Height were measured to the closest 0.5 cm,",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Weight",
+        "description": "Body weight was measured with subjects wearing light clothing and no shoes",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Rib to pelvis distance",
+        "description": "The rib to pelvis distance, which was the vertical distance between the lowest margin of the ribs and the superior surface of the iliac crest along the mid-axillary line, was measured twice by a physician who stood behind the subject. Measured in increments of 0.1 cm by two trained physicians.",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Wall-occiput distance",
+        "description": "Subjects were measured without shoes, with their heels, buttocks, and back to the wall, and head in a horizontal position with a double chin shown. The wall-occiput distance was defined as the horizontal distance between the wall and the back of the head. Measured in increments of 0.1 cm by two trained physicians.",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "7th cervical vertebra-wall distance",
+        "description": "Subjects were measured without shoes, with their heels, buttocks, and back to the wall, and head in a horizontal position with a double chin shown. The distance between the prominence of the 7th cervical vertebra and the wall was defined as 7th cervical vertebra-wall distance. Measured in increments of 0.1 cm by two trained physicians.",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Wall-tragus-distance",
+        "description": "Subjects were measured without shoes, with their heels, buttocks, and back to the wall, and head in a horizontal position with a double chin shown.Wall-tragus-distance was defined as the horizontal distance from the participant's tragus to the wall. Measured in increments of 0.1 cm by two trained physicians.",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Historical height loss",
+        "description": "The current measured height subtracted from the tallest recalled height was subjects' historical height loss",
+        "timeFrame": "4 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 7,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:02.732Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

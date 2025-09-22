@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT04064294",
+  "briefTitle": "Preventing Levodopa Induced Dyskinesia in Parkinson's Disease With HMG-CoA Reductase Inhibitors",
+  "officialTitle": "Preventing Levodopa Induced Dyskinesia in Parkinson's Disease With Statins",
+  "protocolDocument": {
+    "nctId": "NCT04064294",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-02-15",
+    "uploadDate": "2025-03-19T19:34",
+    "size": 2291439,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04064294/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 93,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-08-22",
+    "completionDate": "2024-03-31",
+    "primaryCompletionDate": "2024-03-31",
+    "firstSubmitDate": "2019-08-19",
+    "firstPostDate": "2019-08-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Parkinson's Disease\n* Age diagnosed with Parkinson's Disease greater than or equal to 50 years\n* Treatment with levodopa greater than or equal to 5 years\n\nExclusion Criteria:\n\n* Deep Brain stimulation\n* Unable to stand for 1 minute intervals, or sensory deficits in the feet\n* Significant cognitive impairment as measured by the Montreal Cognitive Assessment score of \\< 18\n* Subjects with unstable medical or psychiatric conditions (including hallucinations).\n* History of unstable medical conditions (i.e. active cardiac disease, recent unwellness, surgery etc.)\n* Current use of drugs that may affect parkinsonism or dyskinesia:\n\n  * dopamine receptor blocking medications\n  * depakote\n  * lithium\n  * amiodarone\n  * tetrabenazine\n  * metoclopramide\n  * dronabinol\n  * and illicit drugs such as marijuana (THC)\n  * cocaine\n  * methamphetamine\n  * Statins other than simvastatin or lovastatin, atorvastatin ie. fluvastatin (rationale is that while all other statins are thought to not cross the blood brain barrier well, the central nervous system penetrating nature of others is not perfectly clear and could confound results)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Peak Unified Dyskinesia Rating Score (UDysRS)",
+        "description": "The Unified Dyskinesia Rating Scale (UDysRS) combines patient, caregiver, and treating physician perspectives on both historical (Parts 1 \\& 2) and objective (Part 3 \\& 4) assessments of dyskinesia and dystonia. The historical portion and the objective ratings are added together to form total score ranging from 0 to 104 with higher scores indicating more severe dyskinesia.",
+        "timeFrame": "11:00 am"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Peak Unified Dyskinesia Rating Scale - Objective Measures",
+        "description": "The Unified Dyskinesia Rating Scale (UDysRS) objective (Part 3 \\& 4) assessments of dyskinesia and dystonia. The objective ratings are added together to form total score ranging from 0 to 44 with higher scores indicating more severe dyskinesia.",
+        "timeFrame": "11:00 am"
+      },
+      {
+        "measure": "Presence/Absence of Levodopa-induced Dyskinesia (LID).",
+        "description": "Any score greater than or equal to 1 on the Clinical Dyskinesia Rating Scale (CDRS) during the intravenous levodopa cycle from 0900 - 1500. The CDRS is a commonly utilized scale that is completed by an observer who judges the severity of LID (0-4) in 7 body parts (face, neck, trunk, both legs, and both arms) during as the subject performs the cognitive distraction task while standing on the force plate for 60 seconds. CDRS ratings are made every half hour during the LD dose cycle by the principal investigator (KC) or co-investigator.",
+        "timeFrame": "Every half hour from 0900 to 1500"
+      },
+      {
+        "measure": "Clinical Dyskinesia Rating Scale (Peak)",
+        "description": "The Clinical Dyskinesia Rating Scale (CDRS) is a commonly utilized scale that is completed by an observer who judges the severity of Levodopa induced dyskinesia (LID) in 7 body parts (face, neck, trunk, both legs, and both arms) during the force plate stance with a cognitive distraction task for 60 seconds. All body parts are rated separately on this 0 (none) to 4 (severe - markedly impairs activities) scale. Thus, the total score can range from 0 - 28 with 28 indicating the most severe LID. Peak CDRS ratings are the 11:00 am ratings.",
+        "timeFrame": "11:00 am"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:43.896Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

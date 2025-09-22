@@ -1,0 +1,168 @@
+{
+  "nctId": "NCT02798211",
+  "briefTitle": "Study to Evaluate the Safety and Efficacy of Secukinumab 300 mg and 150 mg in Adult Patients With Active Psoriatic Arthritis (PsA) After 16 Weeks of Treatment Compared to Placebo",
+  "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter Study to Evaluate the Safety and Efficacy of Secukinumab 300 mg and 150 mg in Adult Patients With Active Psoriatic Arthritis After 16 Weeks of Treatment Compared to Placebo and to Assess the Safety, Tolerability and Efficacy up to 52 Weeks",
+  "protocolDocument": {
+    "nctId": "NCT02798211",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-12-12",
+    "uploadDate": "2019-11-19T12:25",
+    "size": 818070,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02798211/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 258,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-06-27",
+    "completionDate": "2018-12-05",
+    "primaryCompletionDate": "2018-12-05",
+    "firstSubmitDate": "2016-06-09",
+    "firstPostDate": "2016-06-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or non-pregnant, non-lactating female patients at least 18 years of age\n* Diagnosis of PsA classified by CASPAR criteria and with symptoms for at least 6 months with moderate to severe PsA who must have at Baseline ≥3 tender joints out of 78 and ≥3 swollen out of 76 (dactylitis of a digit counts as one joint each)\n* Rheumatoid factor and/or anti-CCP antibodies negative at screening\n* A target skin psoriatic lesion and a PASI score of 1 or greater\n\nExclusion Criteria:\n\n* Chest X-ray with evidence of ongoing infectious or malignant process\n* Patients who ever received biologic immunomodulating agents including those targeting TNFα, IL-6 and IL-12/23 investigational or approved",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percent of Patients Achieving American College of Rheumatology Score of at Least 20% (ACR20) Response Criteria on Secukinumab 300 mg and 150 mg vs. Placebo at Week 16",
+        "description": "A patient was considered as improved according to the ACR20 criteria if she/he had at least 20% improvement in two of the following measures:Tender joint count, Swollen joint count and at least 3 of the following 5 measures: Patient's assessment of pain, Patient's global assessment disease activity, Physician's global assessment of disease activity, Health Assessment Questionnaire (HAQ©) score,Acute phase reactant (hsCRP or ESR).\n\nOdds ratio, 95% confidence interval for odds ratio, and p-value are from a logistic regression model with treatment (3 treatment groups), methotrexate usage at baseline (yes, no) and body weight (kg) as explanatory variables.",
+        "timeFrame": "16 Weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Patients With Dactylitis in the Subset of Subjects Who Have Dactylitis at Week 16",
+        "description": "The percent of patients in the Dactylitis Subset with dactylitis in the secukinumab 300 mg group at Week 16. Dactylitis is severe inflammation of the finger and toe joints.\n\nOdds ratio, 95% confidence interval for odds ratio, and p-value are from a logistic regression model with treatment (3 treatment groups), methotrexate usage at baseline (yes, no) and body weight (kg) as explanatory variables.",
+        "timeFrame": "Week 16"
+      },
+      {
+        "measure": "Percentage of Patients With Enthesitis in the Subset of Subjects Who Have Enthesitis at Baseline (SPARCC) at Week 16",
+        "description": "Enthesitis, also called enthesopathy, is inflammation of the entheses, the sites where tendons or ligaments insert into the bone.\n\nOdds ratio, 95% confidence interval for odds ratio, and p-value are from a logistic regression model with treatment (3 treatment groups), methotrexate usage at baseline (yes, no) and body weight (kg) as explanatory variables.",
+        "timeFrame": "16 Weeks"
+      },
+      {
+        "measure": "Percentage of Patients With Enthesitis in the Subset of Subjects Who Have Enthesitis at Week 16 (LEI)",
+        "description": "Enthesitis, also called enthesopathy, is inflammation of the entheses, the sites where tendons or ligaments insert into the bone.\n\nLEI=Leeds Enthesitis Index",
+        "timeFrame": "16 Weeks"
+      },
+      {
+        "measure": "Percentage of Patients With Enthesitis in the Subset of Subjects Who Have Enthesitis at Week 16 (Combined SPARCC and LEI)",
+        "description": "Statistical analysis (logistic regression) of presence of enthesitis (Combined SPARCC and LEI) by visit - in treatment period 1 (non-responder imputation) (Combined SPARCC and LEI Subset)\n\nEnthesitis, also called enthesopathy, is inflammation of the entheses, the sites where tendons or ligaments insert into the bone.\n\nOdds ratio, 95% confidence interval for odds ratio, and p-value are from a logistic regression model with treatment (3 treatment groups), methotrexate usage at baseline (yes, no) and body weight (kg) as explanatory variables.",
+        "timeFrame": "16 Weeks"
+      },
+      {
+        "measure": "Percentage of Patients Achieving ACR50 Response Criteria on Secukinumab 300 or 150 mg vs. Placebo at Week 16",
+        "description": "A patient was considered as improved according the ACR50 criteria if she/he had at least 50% improvement in the two of the following measures: Tender joint count, Swollen joint count and at least 3 of the following 5 measures: Patient's assessment of pain, Patient's global assessment disease activity,Physician's global assessment of disease activity, Health Assessment Questionnaire (HAQ©) score,Acute phase reactant (hsCRP or ESR)\n\nStatistical analysis (logistic regression) of ACR50 response by visit - in treatment period 1 (non-responder imputation) (Full Analysis Set)\n\nOdds ratio, 95% confidence interval for odds ratio, and p-value are from a logistic regression model with treatment (3 treatment groups), methotrexate usage at baseline (yes, no) and body weight (kg) as explanatory variables.",
+        "timeFrame": "16 Weeks"
+      },
+      {
+        "measure": "Percentage of Patients Achieving ACR70 Response Criteria on Secukinumab 300 or 150 mg vs. Placebo at Week 16",
+        "description": "A patient was considered as improved according the ACR70 criteria if she/he had at least 70% improvement in the two of the following measures: Tender joint count, Swollen joint count and at least 3 of the following 5 measures: Patient's assessment of pain, Patient's global assessment disease activity,Physician's global assessment of disease activity, Health Assessment Questionnaire (HAQ©) score,Acute phase reactant (hsCRP or ESR)\n\nStatistical analysis (logistic regression) of ACR70 response by visit - in treatment period 1 (non-responder imputation)\n\nOdds ratio, 95% confidence interval for odds ratio, and p-value are from a logistic regression model with treatment (3 treatment groups), methotrexate usage at baseline (yes, no) and body weight (kg) as explanatory variables.",
+        "timeFrame": "16 Weeks"
+      },
+      {
+        "measure": "Percentage of Patients Achieving a PASI75 Response in the Subgroup of Subjects Who Have ≥3% Skin Involvement With Psoriasis at Week 16",
+        "description": "A 75% reduction in the Psoriasis Area and Severity Index (PASI) score (PASI 75) is above the current benchmark of primary endpoints for most clinical trials with endpoints of psoriasis.",
+        "timeFrame": "16 Weeks"
+      },
+      {
+        "measure": "Percentage of Patients Achieving a PASI90 Response in the Subgroup of Subjects Who Have ≥3% Skin Involvement With Psoriasis at Week 16",
+        "description": "A 90% reduction in the Psoriasis Area and Severity Index score (PASI 90) is above the current benchmark of primary endpoints for most clinical trials with endpoints of psoriasis.",
+        "timeFrame": "16 Weeks"
+      },
+      {
+        "measure": "Percentage of Patients Achieving a PASI100 Response in the Subgroup of Subjects Who Have ≥3% Skin Involvement With Psoriasis at Week 16",
+        "description": "A 100% reduction in the Psoriasis Area and Severity Index score (PASI 100) is above the current benchmark of primary endpoints for most clinical trials with endpoints of psoriasis.\n\nOdds ratio, 95% confidence interval for odds ratio, and p-value are from a logistic regression model with treatment (3 treatment groups), methotrexate usage at baseline (yes, no) and body weight (kg) as explanatory variables.",
+        "timeFrame": "16 Weeks"
+      },
+      {
+        "measure": "Change From Baseline to Week 16 in DAS28-CRP",
+        "description": "DAS-CRP uses the C-Reactive Protein (CRP) value. Disease Activity Score (DAS28-CRP) values range from 2.0 to 10.0 while higher values mean a higher disease activity. A DAS28-CRP below the value of 2.6 is interpreted as Remission. DAS28-CRP uses 28 different joints for its calculation: proximal interphalangeal joints (10 joints) metacarpophalangeal joints (10) wrists (2) elbows (2) shoulders (2) knees (2) With the above mentioned parameters.\n\nLeast squares mean (LSM), Least squares mean (LSM) treatment difference, 95% confidence interval (CI) for treatment difference, and p-values are from an analysis of covariance (ANCOVA) model with treatment (3 treatment groups), baseline DAS28-CRP score, methotrexate usage at baseline (yes, no), and body weight(kg) as explanatory variables.",
+        "timeFrame": "baseline, 16 weeks"
+      },
+      {
+        "measure": "Change From Baseline to Week 16 in HAQ-DI",
+        "description": "The Health assessment questionnaire disability index (HAQ-DI) is 20-question instrument that assesses the degree of difficulty a person has in accomplishing tasks in 8 functional areas (dressing, arising, eating, walking, hygiene, reaching, gripping, and activities of daily living). Responses in each functional area are scored from 0 (no difficulty), to 3 (inability to perform a task in that area). The average score across the functional areas yields an overall HAQ score which ranges from 0 (no disability) to 3 (completely disabled).",
+        "timeFrame": "16 Weeks"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number and Percentage of Patients With ACR20 Response by Visit - in Entire Treatment Period (up to Week 52) (Non-responder Imputation)",
+        "description": "Exploratory\n\nThe ACR20 is a composite measure defined as both improvement of 20% in the number of tender and number of swollen joints, and a 20% improvement in three of the following five criteria: patient global assessment, physician global assessment, functional ability measure \\[most often Health Assessment Questionnaire (HAQ)\\], visual analog pain scale, and erythrocyte sedimentation rate or C-reactive protein (CRP)",
+        "timeFrame": "up to 52 weeks"
+      },
+      {
+        "measure": "Number and Percentage of Patients With ACR50, ACR70 Response by Visit - in Entire Treatment Period (up to Week 52) (Non-responder Imputation)",
+        "description": "Exploratory",
+        "timeFrame": "up to 52 weeks"
+      },
+      {
+        "measure": "Number and Percentage of Patients With Presence of Dactylitis by Visit - in Entire Treatment Period (up to Week 52) (Non-responder Imputation)",
+        "description": "Exploratory",
+        "timeFrame": "up to 52 weeks"
+      },
+      {
+        "measure": "Number and Percentage of Patients With Presence of Enthesitis by Visit - in Entire Treatment Period (up to Week 52) (Non-responder Imputation)",
+        "description": "Exploratory",
+        "timeFrame": "up to 52 weeks"
+      },
+      {
+        "measure": "Number and Percentage of Patients With Minimal Disease Activity Response by Visit in Entire Treatment Period (up to Week 52) (Non-responder Imputation)",
+        "description": "Exploratory",
+        "timeFrame": "up to 52 weeks"
+      },
+      {
+        "measure": "Number and Percentage of Patients With PASI75, PASI90 and PASI100 Response by Visit - in Entire Treatment Period (up to Week 52) (Non-responder Imputation)",
+        "description": "Exploratory",
+        "timeFrame": "up to 52 weeks"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 11,
+      "otherCount": 6,
+      "totalCount": 18
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:19.487Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

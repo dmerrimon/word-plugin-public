@@ -1,0 +1,154 @@
+{
+  "nctId": "NCT04748445",
+  "briefTitle": "Acute Respiratory Illness Surveillance (AcRIS) With Mobile Application in a Low-Interventional Decentralized Study.",
+  "officialTitle": "Acute Respiratory Illness Surveillance (ARIS) by Monitoring Voice and Illness Symptom Changes Using a Mobile Application in a Low-Interventional Decentralized Study.",
+  "protocolDocument": {
+    "nctId": "NCT04748445",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-09-28",
+    "uploadDate": "2023-04-17T11:06",
+    "size": 6550037,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04748445/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 9151,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-04-12",
+    "completionDate": "2022-04-22",
+    "primaryCompletionDate": "2022-04-22",
+    "firstSubmitDate": "2021-02-05",
+    "firstPostDate": "2021-02-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nParticipants are eligible to be included in the study only if all of the following criteria apply:\n\nAge and Sex:\n\n1. Male or female participants ≥18 years of age (or the minimum state specific age of consent if \\>18), at Screening visit.\n\n   Type of Participant and Disease Characteristics:\n2. Participants who are willing and able to comply with daily symptom and voice assessments on the electronic diary application and other study procedures, including self-collection of nasal swabs.\n3. Expected to be available for the duration of the study.\n\nInformed Consent:\n\n4\\. Capable of giving signed informed consent\n\n\\-\n\nExclusion Criteria:\n\nParticipants are excluded from the study if any of the following criteria apply:\n\n1. Participants who self-report any medical condition, recreational substance use, or medication use which would prevent them from completing study tasks or impair the providing of informed consent, or in the investigator's judgment, make the participant inappropriate for the study.\n\n   Prior/Concomitant Therapy:\n2. Participants who have been vaccinated with COVID-19 vaccine or are planning to get vaccinated during study participation.\n\n   Participants can continue to use all other prescription or non-prescription medications.\n\n   Prior/Concurrent Clinical Study Experience:\n3. Previous vaccination with any licensed or investigational RSV vaccine or are planning to get vaccinated during study participation.\n4. Previous administration with an investigational drug within 30 days of enrollment (or as determined by the local requirement) or planning to participate in an interventional trial during study conduct.\n\n   Diagnostic Assessments:\n5. Screening diagnostic assessments are not required for eligibility purposes.\n\n   Other Exclusions:\n6. Investigator site staff or Pfizer employees directly involved in the conduct of the study, site staff otherwise supervised by the investigator including vendors, and their respective family members.\n7. Participants who use a mobile device that does not meet the minimum requirements of the Electronic diary.\n8. Participants who have previously been enrolled in the study cannot be re-enrolled.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Self-Reported Symptom Scores From Well-to-Sick State Through Day 56",
+        "description": "Symptoms (fever, cough, difficult breathing, fatigue, runny nose, stuffy/blocked nose, sore throat, loss of taste/smell, chills, muscle pain, diarrhea, vomiting, headache, nausea, rigors, wheezing) recorded at least once daily in e-diary for 8 weeks \\& rated 0:none to 4:severe for fever \\& 0:none to 7:severe for other symptoms. Total symptom score=sum of all symptom scores in a recording session \\& mean of daily total symptom score=average across available sessions for each day, range=0 to 109, higher value=more severe total symptoms. Baseline=average of values up to 7 days before 1st occurrence of new/increased symptoms. If no data in 7 days, average of endpoint values for closest 3 days prior to 7 days used as baseline. Linear mixed effect model used for analysis for change from baseline in each symptom versus day during well to sick period, with slope (without intercept) included as fixed effects and random effects. Fixed effect of slope, as population level estimate, was reported.",
+        "timeFrame": "Baseline up to Day 56"
+      },
+      {
+        "measure": "Change From Baseline in Voice Features (AHH_Max Phonation Time, EE_Jitter Local Absolute, MM_Jitter Local Absolute) Values From Well-to-Sick State Through Day 56",
+        "description": "Participants recorded voice features such as pitch, jitter once daily in an electronic diary for 8 weeks. Voice assessments were done by 2 phonemes: 'eee' and 'mmm' for 4 seconds (minimum 3 seconds), 1 phoneme: \"ahh\" sustained (as long as possible) and a 5-sentence reading passage. Max Phonation Time: duration that sound is held for. Jitter Local Absolute: average absolute difference between consecutive periods. Indicates how unsteady the pitch is across neighboring glottal pulses. Linear mixed effect model was used for analysis for change from baseline in each voice feature versus day during the well to sick period, with slope (without intercept) included as fixed effects and random effects. The fixed effect of the slope, as the population level estimate, was reported. The data given has exponential factor in addition to values mentioned. Individual exponential factors have been mentioned in respective row title.",
+        "timeFrame": "Baseline up to Day 56"
+      },
+      {
+        "measure": "Change From Baseline in Voice Feature (Cepstral Peak Prominence, Harmonicity, MFCC Mean, MFCC Std, SNR, Shimmer Local dB, Spectral Flatness, Third Octave Band, and VLHR) Values From Well-to-Sick State Through Day 56",
+        "description": "Harmonicity, flatness, shimmer recorded and assessed by phonemes: 'eee' and 'mmm' for 4 seconds, \"ahh\" sustained and 5-sentence reading passage. Cepstral Peak Prominence: voice quality measure. Harmonicity: degree of periodicity in signal. mel frequency cepstral coefficients (MFCC) mean: quantifies shape of spectrum. MFCC std: quantifies variation in spectral shape over time. Signal-to-noise ratio (SNR): how loud signal is compared to background. Shimmer Local dB: average absolute difference between amplitudes of consecutive periods (how unsteady sound intensity is across neighboring glottal pulses). Spectral Flatness: quantifies how tone-like a signal is based on spectral distribution. Third Octave Band: energy in 200 Hz third octave band relative to total. VLHR: degree of nasality. Linear mixed effect model used for analysis. Fixed effect of slope, as population level estimate is reported. Individual exponential factors for data presented have been mentioned in respective row title.",
+        "timeFrame": "Baseline up to Day 56"
+      },
+      {
+        "measure": "Change From Baseline in Voice Feature (Coefficient of Variation, Mel Frequency Cepstral Coefficients (MFCC) 1st Order Delta, MFCC 2nd Order Delta) Values From Well-to-Sick State Through Day 56",
+        "description": "Voice features were recorded once daily in an electronic diary for 8 weeks. Assessments were done by 2 phonemes: 'eee' and 'mmm' for 4 seconds (minimum 3 seconds), 1 phoneme: \"ahh\" sustained (as long as possible) and a 5-sentence reading passage. Coefficient of Variation of F0: measures variation in pitch over time. MFCC 1st order delta: time-averaged estimate of first derivate of the MFCCs. MFCC 2nd order delta: time-averaged estimate of the second derivative of the MFCCs. Linear mixed effect model was used for analysis for change from baseline in each voice feature versus day during the well to sick period, with slope (without intercept) included as fixed effects and random effects. The fixed effect of the slope, as the population level estimate, was reported. The data given has exponential factor in addition to values mentioned. Individual exponential factors have been mentioned in respective row title.",
+        "timeFrame": "Baseline up to Day 56"
+      },
+      {
+        "measure": "Change From Baseline in Voice Features (EE_Entropy, MM_Entropy) Values From Well-to-Sick State Through Day 56",
+        "description": "Participants recorded voice features such as entropy once daily in an electronic diary for 8 weeks. Voice assessments were done by 2 phonemes: 'eee' and 'mmm' for 4 seconds (minimum 3 seconds), 1 phoneme: \"ahh\" sustained (as long as possible) and a 5-sentence reading passage. Entropy: Shannon entropy of the spectral distribution. Quantifies tonailty similar to spectral flatness. \"EE\\_Entropy\" and \"MM\\_Entropy\" refer to this same measure computed on the \"eee\" and \"mmm\" phonemes, respectively. Linear mixed effect model was used for analysis for change from baseline in each voice feature versus day during the well to sick period, with slope (without intercept) included as fixed effects and random effects. The fixed effect of the slope, as the population level estimate, was reported. The data given has exponential factor in addition to values mentioned. Individual exponential factors have been mentioned in respective row title.",
+        "timeFrame": "Baseline up to Day 56"
+      },
+      {
+        "measure": "Change From Baseline in Voice Features (Formant and Formant Bandwidth) Values From Well-to-Sick State Through Day 56",
+        "description": "Participants recorded voice features once daily in an electronic diary for 8 weeks. Voice assessments were done by 2 phonemes: 'eee' and 'mmm' for 4 seconds (minimum 3 seconds), 1 phoneme: \"ahh\" sustained (as long as possible) and a 5-sentence reading passage. Formant: frequency at which the vocal tract produces an acoustic resonance. Formant Bandwidth: the spectral width of the acoustic resonance. Linear mixed effect model was used for analysis for change from baseline in each voice feature versus day during the well to sick period, with slope (without intercept) included as fixed effects and random effects. The fixed effect of the slope, as the population level estimate, was reported. The data given has exponential factor in addition to values mentioned. Individual exponential factors have been mentioned in respective row title.",
+        "timeFrame": "Baseline up to Day 56"
+      },
+      {
+        "measure": "Change From Baseline in Voice Features (EE_Voiced Frames, MM_Voiced Frames) Values From Well-to-Sick State Through Day 56",
+        "description": "Participants recorded voice features once daily in an electronic diary for 8 weeks. Voice assessments were done by 2 phonemes: 'eee' and 'mmm' for 4 seconds (minimum 3 seconds), 1 phoneme: \"ahh\" sustained (as long as possible) and a 5-sentence reading passage. The voiced frames rate indicates how much of the sound is voiced. EE and MM refer to the sounds on which the measure is computed. Linear mixed effect model was used for analysis for change from baseline in each voice feature versus day during the well to sick period, with slope (without intercept) included as fixed effects and random effects. The fixed effect of the slope, as the population level estimate, was reported. The data given has exponential factor in addition to values mentioned. Individual exponential factors have been mentioned in respective row title.",
+        "timeFrame": "Baseline up to Day 56"
+      },
+      {
+        "measure": "Change From Baseline in Voice Features (EE_Jitter Local, MM_Jitter Local) Values From Well-to-Sick State Through Day 56",
+        "description": "Voice features such as jitter were recorded once daily in an electronic diary for 8 weeks. Voice assessments were done by 2 phonemes: 'eee' and 'mmm' for 4 seconds (minimum 3 seconds), 1 phoneme: \"ahh\" sustained (as long as possible) and a 5-sentence reading passage. Jitter Local: average absolute difference between consecutive periods divided by the average period as a percentage. Indicates how unsteady the pitch is across neighboring glottal pulses. Linear mixed effect model was used for analysis for change from baseline in each voice feature versus day during the well to sick period, with slope (without intercept) included as fixed effects and random effects. The fixed effect of the slope, as the population level estimate, was reported. The data given has exponential factor in addition to values mentioned. Individual exponential factors have been mentioned in respective row title.",
+        "timeFrame": "Baseline up to Day 56"
+      },
+      {
+        "measure": "Change From Baseline in Voice Features (EE_Shimmer Local, MM_Shimmer Local) Values From Well-to-Sick State Through Day 56",
+        "description": "Voice features such as shimmer were once daily in an electronic diary for 8 weeks. Voice assessments were done by 2 phonemes: 'eee' and 'mmm' for 4 seconds (minimum 3 seconds), 1 phoneme: \"ahh\" sustained (as long as possible) and a 5-sentence reading passage. Shimmer Local: average absolute difference between the amplitudes of consecutive periods divided by the average amplitude as a percentage. Indicates how unsteady the sound intensity is across neighboring glottal pulses. Linear mixed effect model was used for analysis for change from baseline in each voice feature versus day during the well to sick period, with slope (without intercept) included as fixed effects and random effects. The fixed effect of the slope, as the population level estimate, was reported. The data given has exponential factor in addition to values mentioned. Individual exponential factors have been mentioned in respective row title.",
+        "timeFrame": "Baseline up to Day 56"
+      },
+      {
+        "measure": "Change From Baseline in Voice Features (READ_Speaking Rate) Values From Well-to-Sick State Through Day 56",
+        "description": "Participants recorded voice features once daily in an electronic diary for 8 weeks. Voice assessments were done by 2 phonemes: 'eee' and 'mmm' for 4 seconds (minimum 3 seconds), 1 phoneme: \"ahh\" sustained (as long as possible) and a 5-sentence reading passage. Baseline was average of endpoint values up to 7 days before first occurrence of new/increased symptoms. If participant had no data in 7 days, average of endpoint values for closest 3 days prior to these 7 days was used as baseline. Linear mixed effect model was used for analysis for change from baseline in each voice feature versus day during the well to sick period, with slope (without intercept) included as fixed effects and random effects. The fixed effect of the slope, as the population level estimate, was reported. The data given has exponential factor (i.e. LSM\\*10\\^-2, SE\\*10\\^-3) in addition to values mentioned.",
+        "timeFrame": "Baseline up to Day 56"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Compliant Days in Total Days of Symptoms and Total Days of Voice Recordings Entered in the Electronic Diary",
+        "description": "In this outcome measure, percentage of compliant days in total days of self-reported symptoms and total days of voice recordings as entered in the electronic diary were reported. Compliant days were calculated for the following and expressed as percentage: symptom compliance = number of compliant days of self-reported symptoms divided by the total number of days in the study. Voice compliance (expressed as percentage) = number of compliant days of completed voice recordings divided by the total number of days in the study. Partial voice compliance (expressed as percentage) = number of compliant days of partially completed voice recordings divided by the total number of days in the study. Symptom and voice compliance (expressed as percentage) = number of compliant days of self-reported symptoms and completed voice recordings divided by the total number of days in the study. Participants who experienced technical issues due to study operational errors were excluded.",
+        "timeFrame": "Day 1 up to Day 56"
+      },
+      {
+        "measure": "Percentage of Quality Voice Recordings",
+        "description": "In this outcome measure, percentage was calculated over the number of days that the participant was able to complete the task for each recording. Participants were required to record their daily voice in electronic diary and the assessment included 2 phonemes: 'eee' and 'mmm' for 4 seconds (minimum 3 seconds), 1 phoneme: \"ahh\" sustained (as long as possible) and a 5-sentence reading passage. Quality recordings were defined as recordings exceeding signal-to-noise (SNR) and duration thresholds (i.e. SNR \\>= 20 decibels \\[dB\\] that have duration \\>= 3 seconds for phoneme and \\>= 10 seconds for reading tasks). In the case of multiple electronic diary sessions per day, the session with the highest quality voice recordings for that day was used in this analysis.",
+        "timeFrame": "Day 1 up to Day 56"
+      },
+      {
+        "measure": "Percentage of Participants With a Positive Self-Swab Result for SARS-CoV-2 and/or Influenza and/or RSV",
+        "description": "In this outcome measure, percentage of participants with valid self-swab 1 and 2 results positive for SARS-COV-2, Flu A, Flu B, RSV and SARS-CoV-2 and/or Influenza (Flu A/Flu B) and/or RSV were reported.",
+        "timeFrame": "Day 2 up to Day 43"
+      },
+      {
+        "measure": "Percentage of Participants Who Administered Self-swab 1 and Self-swab 2",
+        "description": "In this outcome measure, percentage of participants who administered self-swab 1, self-swab 2 and self-swab 1 and 2 excluding participants who experienced technical issues due to study operational errors were reported.",
+        "timeFrame": "Day 2 up to Day 43"
+      },
+      {
+        "measure": "Number of Days Between Reporting Symptoms and Recording Swab 2 in the Electronic-Diary",
+        "description": "In this outcome measure, number of days from symptom onset (reporting new or increased symptoms in the electronic diary) to the day of recording Swab 2 day in the electronic diary averaged across participants who administered self-swab 2 was reported.",
+        "timeFrame": "Day 2 Up to Day 43"
+      },
+      {
+        "measure": "Percentage of Participants Reporting Symptoms in the Electronic Diary Who Have a Self-swab Collected at or Around Symptom Onset",
+        "description": "In this outcome measure, 1) participants (par) who administered (adm) self-swab 2 (SS2) before Week 6 (W6) divided by the number of participants who reported new or increased (inc) symptoms (sym) in the electronic diary (e-diary) before W6 and 2) number of participants who reported new or increased symptoms in the e-diary before Week 6 divided by the number of participants who administered self-swab 2 before Week 6 were reported in percentage.",
+        "timeFrame": "Day 2 Up to Day 43"
+      },
+      {
+        "measure": "Percentage of Participants Who Administered Self-swabs With Valid Results",
+        "description": "In this outcome measure, percentage of participants with valid (positive or negative) self-swab results for SARS-CoV-2, Flu A, Flu b and RSV were reported.",
+        "timeFrame": "Day 2 Up to Day 43"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 10,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 17
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:34.496Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

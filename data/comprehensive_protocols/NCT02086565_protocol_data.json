@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02086565",
+  "briefTitle": "Using IT to Improve Access, Communication and Asthma in African American and Hispanic/Latino Adults",
+  "officialTitle": "Using IT to Improve Access, Communication and Asthma in African American and Hispanic/Latino Adults",
+  "protocolDocument": {
+    "nctId": "NCT02086565",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-06-25",
+    "uploadDate": "2019-02-21T20:52",
+    "size": 666055,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02086565/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 301,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-07-17",
+    "completionDate": "2017-06-30",
+    "primaryCompletionDate": "2017-06-30",
+    "firstSubmitDate": "2014-03-11",
+    "firstPostDate": "2014-03-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* adults predominantly African American and Hispanic/Latino with uncontrolled asthma recruited from low income urban neighborhoods\n\nExclusion Criteria:\n\n* severe psychiatric or cognitive problems that would make it impossible to understand and complete the protocol.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Score of Asthma Control Questionnaire",
+        "description": "This is a validated test with 6 items each with Likert score 0 to 6, reflecting symptoms over the past week. Lower score is a better outcome. We measured change in Asthma Control Questionnaire score from baseline to at least 12 months.",
+        "timeFrame": "baseline and over a year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Asthma-related Quality of Life",
+        "description": "Quality of life is a 15-item questionnaire with 7 point response scale (1-7), higher score is better quality of life. We measured the change from baseline and over a year.",
+        "timeFrame": "baseline and over a year"
+      },
+      {
+        "measure": "Emergency Department Visits",
+        "description": "Emergency department visits for asthma from one year before baseline to one year after baseline.",
+        "timeFrame": "one year before baseline to one year after baseline"
+      },
+      {
+        "measure": "Hospitalizations",
+        "description": "Hospitalizations for asthma in the year before baseline to one year after baseline.",
+        "timeFrame": "Hospitalizations for asthma in the year before baseline to one year after baseline"
+      },
+      {
+        "measure": "Prednisone Bursts",
+        "description": "new prescriptions of prednisone or increases in an already-prescribed dose for an asthma exacerbation measured at baseline and at one year.",
+        "timeFrame": "bursts at baseline and at one year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:24.521Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

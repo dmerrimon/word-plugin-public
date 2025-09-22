@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT01819831",
+  "briefTitle": "A Phase II Trial of Preoperative Proton Therapy in Soft-tissue Sarcomas of the Extremities and Body Wall",
+  "officialTitle": "A Phase II Trial of Preoperative Proton Therapy in Soft-tissue Sarcomas of the Extremities and Body Wall",
+  "protocolDocument": {
+    "nctId": "NCT01819831",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2012-10-03",
+    "uploadDate": "2023-05-25T18:13",
+    "size": 455441,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01819831/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-02-27",
+    "completionDate": "2022-05-19",
+    "primaryCompletionDate": "2022-05-19",
+    "firstSubmitDate": "2013-03-18",
+    "firstPostDate": "2013-03-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologically proven primary soft tissue sarcoma of the upper extremity (including shoulder), lower extremity (including hip) or body trunk (excluding retroperitoneum).\n* No clinical evidence of distant metastatic disease\n* Evaluation by surgeon, with documentation that the tumor is resectable\n* ECOG performance status 0-1\n* For females of childbearing potential, a serum pregnancy test within 4 weeks prior to registration\n* Patient must practice adequate contraception\n* Adequate bone marrow function\n\nExclusion Criteria:\n\n* Patients with sarcoma of the head, neck, intra-abdominal or retroperitoneal region, hand or foot\n* Histopathology demonstrating rhabdomyosarcoma, extraosseous primitive neuroectodermal tumor (PNET), soft tissue Ewing's sarcoma, osteosarcoma, Kaposi's sarcoma, angiosarcoma, aggressive fibromatosis, dermatofibrosarcoma protuberans or chondrosarcoma\n* Clinical evidence of regional lymph node or distant metastatic disease\n* Prior invasive malignancy (except non-melanomatous skin cancer or early stage prostate cancer) unless disease free for a minimum of 3 years\n* Prior radiotherapy to the potential target anatomic region would result in overlap of radiation fields for current sarcoma\n* Pregnancy or women of childbearing potential and men who are sexually active and not willing/able to used medically acceptable forms of contraception",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "98 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Late Radiation Toxicities at 2 Years From the Start of Radiation Treatment",
+        "description": "To report the number of participants with late radiation morbidity\n\nLate subcutaneous fibrosis and joint stiffness are assessed using the European Organization for Research and Treatment of Cancer/Radiation Therapy Oncology Group (EORTC/RTOG) late toxicity scoring criteria below:\n\nSubcutaneous tissue: Grade 1(slight fibrosis; subcutaneous fat loss), Grade 2(moderate fibrosis: slight field contracture), Grade 3(severe fibrosis; field contracture \\>10%), Grade 4(necrosis), Grade 0 (none) Joint stiffness: Grade 1(mild stiffness; slight range of motion loss), Grade 2(Moderate stiffness, pain, range of motion loss), Grade 3(Severe stiffness, pain, range of motion loss), Grade 4(necrosis; complete fixation), Grade 0 (none) Lymphedema is measured according to the criteria of Stern: Score 0(none), Score 1(Mild but definite swelling), Score 2(Moderate), Score 3(Severe, considerable swelling), Grade 4(Very severe (skin shiny \\& tight)",
+        "timeFrame": "at 2 years from the start of radiation treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Grade 3-5 Adverse Events at 6 Months From the Start of Radiation Treatment.",
+        "description": "This study will utilize the Common Terminology Criteria for Adverse Events (CTCAE) version 4.0 for reporting of adverse events.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Patterns of Failure at 6 Months From the Start of Radiation Treatment",
+        "description": "Prespecified patterns of failure, including local failure, regional failure, distant failure, and death without disease progression at 6 months from the start of radiation treatment measured by CT or MRI scan",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Patterns of Failure at 6 Months",
+        "description": "Patterns of failure including local failure, distant failure, distant-disease-free survival, disease-free survival, overall survival rates, and second primary tumor at 6 month from the start of radiation treatment on CT or MRI scan.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Wound Complication Rates Infection, Dehiscence at 6 Months From the Start of Radiation Treatment.",
+        "description": "Wound complications - Major wound complications, such as secondary operations, re-admissions, and/or invasive procedures for wound complication (deep wound packing and/or prolonged dressing changes) due to Infection, dehiscence.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Report of Late Radiation Morbidity at 2 Years",
+        "description": "To report the number of participants with late radiation morbidity using quality of life survey including physical, emotional, social/family and functional well-being.",
+        "timeFrame": "at 2 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:56.671Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT01998035",
+  "briefTitle": "Romidepsin Plus Oral 5-Azacitidine in Relapsed/Refractory Lymphoid Malignancies",
+  "officialTitle": "Phase I/IIa Study of the Oral 5-Azacitidine in Combination With the Histone Deacetylase Inhibitor Romidepsin for the Treatment of Patients With Relapsed and Refractory Lymphoid Malignancies",
+  "protocolDocument": {
+    "nctId": "NCT01998035",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-06-20",
+    "uploadDate": "2023-03-10T17:12",
+    "size": 1880568,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01998035/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 58,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-11",
+    "completionDate": "2020-01-06",
+    "primaryCompletionDate": "2020-01-06",
+    "firstSubmitDate": "2013-11-20",
+    "firstPostDate": "2013-11-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Phase I: Histologically confirmed relapsed or refractory non-Hodgkin lymphoma or Hodgkin lymphoma (WHO criteria), with no accepted curative options.\n* Phase II: Relapsed or refractory T-cell lymphoma, including patients with central nervous system (CNS) involvement or lymphomatous meningitis are allowed on study.\n* Relapsed or refractory disease following frontline chemotherapy. No upper limit for the number of prior therapies. Patients may have relapsed after prior autologous or allogeneic stem cell transplant.\n* Evaluable Disease in the Phase I, and measurable disease for the Phase II.\n* Age \\> or = 18 years.\n* Eastern Cooperative Oncology Group (ECOG) performance status \\< or = 2.\n* Patients must have adequate organ and marrow function.\n* Negative urine or serum pregnancy test for females of childbearing potential.\n* All females of childbearing potential must use an effective barrier method of contraception during the treatment period and for at least 1 month thereafter. Male subjects should use a barrier method of contraception during the treatment period and for at least 3 months thereafter.\n* Ability to understand and the willingness to sign a written informed consent document.\n\nExclusion Criteria:\n\n* Prior Therapy\n\n  * Exposure to chemotherapy or radiotherapy within 2 weeks prior to entering the study or those who have not recovered from adverse events due to agents administered more than 2 weeks earlier.\n  * Systemic steroids that have not been stabilized ( ≥ 5 days) to the equivalent of ≤10 mg/day prednisone prior to the start of the study drugs.\n  * No other concurrent investigational agents are allowed.\n* History of allergic reactions to Oral 5-azacitidine or Romidepsin.\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.\n* Pregnant women.\n* Nursing women.\n* Active concurrent malignancy (except non-melanoma skin cancer or carcinoma in situ of the cervix). If there is a history of prior malignancy, the patient must be disease-free for ≥ 3 years.\n* Patients known to be Human Immunodeficiency Virus (HIV)-positive.\n* Patients with active hepatitis A, hepatitis B, or hepatitis C infection.\n* Concomitant use of CYP3A4 inhibitors.\n* Any known cardiac abnormalities.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Phase I: Maximum Tolerated Dose (MTD) of the Combination of Oral 5-azacitidine in Combination With Romidepsin",
+        "description": "The highest dose of a drug or treatment that does not cause unacceptable side effects. The MTD is determined in clinical trials by testing increasing doses on different groups of people until the highest dose with acceptable side effects is found.",
+        "timeFrame": "up to 1.5 years"
+      },
+      {
+        "measure": "Phase I: Maximum Tolerated Dose (MTD) of Romidepsin in Combination With Oral 5-azacytidine",
+        "description": "The highest dose of a drug or treatment that does not cause unacceptable side effects. The MTD is determined in clinical trials by testing increasing doses on different groups of people until the highest dose with acceptable side effects is found.",
+        "timeFrame": "up to 1.5 years"
+      },
+      {
+        "measure": "Percentage of Patients Who Experienced Significant Toxicities in Phase 1",
+        "description": "Patients receiving the combination of oral 5-azacitidine and romidepsin and experiencing grades 1-4 toxicities will be tallied based on events observed and assessed by a qualified investigator. This Outcome Measure is specifically for Phase 1 of the study.",
+        "timeFrame": "Up to 1.5 years"
+      },
+      {
+        "measure": "Phase II: Overall Response Rate (ORR) (Complete + Partial Response) of the Combination of Oral 5-azacitidine and Romidepsin in Patients With Relapsed/Refractory T-Cell Lymphoma",
+        "description": "The percentage of people in a study or treatment group who have a partial response or complete response to the treatment within a certain period of time. A partial response is a decrease in the size of a tumor or in the amount of cancer in the body, and a complete response is the disappearance of all signs of cancer in the body. In a clinical trial, measuring the ORR is one way to see how well a new treatment works.",
+        "timeFrame": "Up to 3 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:06.888Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

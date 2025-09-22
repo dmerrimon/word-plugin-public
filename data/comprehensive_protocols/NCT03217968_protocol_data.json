@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT03217968",
+  "briefTitle": "Abortive Treatment of Migraine With the Cefaly® Abortive Program Device",
+  "officialTitle": "Abortive Treatment of Migraine With the Cefaly® Abortive Program Device: Pilot Trial",
+  "protocolDocument": {
+    "nctId": "NCT03217968",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-06-01",
+    "uploadDate": "2018-04-30T03:16",
+    "size": 7334456,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03217968/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 59,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-08-10",
+    "completionDate": "2018-01-10",
+    "primaryCompletionDate": "2018-01-10",
+    "firstSubmitDate": "2017-07-13",
+    "firstPostDate": "2017-07-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age from 18 to 65 years on the day of signing the informed consent form\n* ≥ 1-year history of migraine with or without aura according to the diagnostic criteria listed in the International Classification of Headache Disorders (ICHD)-III beta (2013) section 1, migraine (8), with the exception of aura without headache, hemiplegic migraine and brainstem aura migraine\n* Migraine onset before the age of 50 years\n* Having between 2 and 8 moderate or severe migraine attacks (Grade 2 or 3) per month in each of the two months prior to screening\n* Patient understands the study procedures, alternative treatments available, and voluntarily agrees to participate in the study by giving written informed consent\n* Patient is able to read and understand the written information (instruction sheet, paper diary and Adverse Events (AE) collecting form)\n\nExclusion Criteria:\n\n* Patient has difficulty distinguishing his/her migraine attacks from tension-type headaches\n* Patient has more than 15 headache days per month\n* Patient having received supraorbital nerve blocks in the prior 4 months\n* Patient having received Botox treatment in the prior 4 months\n* Modification of a migraine prophylaxis treatment in the previous 3 months\n* Diagnosis of other primary headache disorders, except rare (\\< 4) tension-type headaches per month\n* Diagnosis of secondary headache disorders included Medication Overuse Headache\n* Patients abusing opioids or user of recreational or illicit drugs or has had a recent history (within the last year) of drug or alcohol abuse or dependence\n* Implanted metallic or electronic device in the head\n* Cardiac pacemaker or implanted or wearable defibrillator\n* Patient having had a previous experience with the Cefaly® device\n* Migraine Aura without headache\n* Patient is currently participating or has participated in a study with an investigational compound or device within 30 days of screening visit (Visit 1)\n* Patients not having the ability to use appropriately the device and/or to perform themselves or bear the first 20-minute stimulation session during the training session at the study site",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pain Freedom (PF) at 2 Hours",
+        "description": "The percentage of patients having a reduction of a moderate or severe migraine headache (Grade 2 or 3) at baseline to no headache (Grade 0) at 2 hours after the beginning of the e-TNS session.",
+        "timeFrame": "2 hours"
+      },
+      {
+        "measure": "Most Bothersome Migraine-associated Symptom (MBS) Freedom at 2 Hours",
+        "description": "The percentage of patients with absence, at 2 hours after the beginning of the e-TNS session, of the most bothersome migraine-associated symptom identified at baseline.",
+        "timeFrame": "2 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Pain Relief (PR) at 2 Hours",
+        "description": "The percentage of patients having a reduction of a moderate or severe migraine headache (Grade 2 or 3) at baseline to a mild headache or to no headache (Grade 1 or 0) at 2 hours after the beginning of the e-TNS session.",
+        "timeFrame": "2 hours"
+      },
+      {
+        "measure": "Migraine-associated Symptoms Freedom at 2 Hours",
+        "description": "The percentage of patients with absence of photophobia, phonophobia, nausea and vomiting, at 2 hours after the beginning of the e-TNS session.",
+        "timeFrame": "2 hours"
+      },
+      {
+        "measure": "Use of Rescue Medication Between 2 and 24 Hours",
+        "description": "The percentage of patients who took acute anti-migraine medication between 2 and 24 hours after the beginning of the e-TNS session.",
+        "timeFrame": "Between 2 and 24 hours"
+      },
+      {
+        "measure": "Sustained Pain Freedom at 24 Hours",
+        "description": "The percentage of patients having no headache (Grade 0) at 2 hours, with no use of rescue medication and no relapse of headache pain within the 24 hours after the beginning of the e-TNS session.",
+        "timeFrame": "24 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:54.980Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

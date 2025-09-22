@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT07063797",
+  "briefTitle": "Study on the Intervention Effect of Denosumab on High-Risk Patients With Osteoporotic Fractures in Type 2 Diabetes",
+  "officialTitle": "Study on the Intervention Effect of Denosumab on High-Risk Patients With Osteoporotic Fractures in Type 2 Diabetes",
+  "protocolDocument": {
+    "nctId": "NCT07063797",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2025-03-08",
+    "uploadDate": "2025-06-26T04:27",
+    "size": 185002,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07063797/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 310,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-08-01",
+    "completionDate": "2026-07-31",
+    "primaryCompletionDate": "2026-07-31",
+    "firstSubmitDate": "2025-06-17",
+    "firstPostDate": "2025-07-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Confirmed diagnosis of type 2 diabetes (based on the \"China Guidelines for the Prevention and Treatment of Diabetes (2024 Edition)\");\n2. Males aged ≥50 years; females aged ≥45 years and postmenopausal for more than 2 years;\n3. Duration of diabetes\\>10 years; or presence of microvascular complications (diabetic retinopathy stage III or above, or diabetic nephropathy (urinary albumin-to-creatinine ratio (UACR)≥30 mg/g, or estimated glomerular filtration rate (eGFR) \\<60 ml/min/(1.73m²)); or macrovascular complications (coronary atherosclerotic heart disease or cerebrovascular disease);\n4. History of hip or vertebral fragility fractures; or history of fragility fractures at other sites (excluding the skull, feet, and hands) with a T-score of \\<-1.0 at the femoral neck, total hip, or any L1-L4 site; or a T-score of \\<-2.0 at the femoral neck, total hip, or any L1-L4 site;\n5. Signed informed consent form, willing to participate in the study\n\nExclusion Criteria:\n\n1. Diseases that cause secondary osteoporosis: a. Various metabolic bone diseases, such as osteomalacia, primary hyperparathyroidism, osteogenesis imperfecta, Paget's disease, etc.; b. Cushing's syndrome; c. Hyperprolactinemia; d. Others;\n2. Malignant tumors within the past 5 years, except for those expected to be cured after treatment (e.g., completely resected in situ basal cell or squamous cell carcinoma of the skin, cervical cancer, or ductal carcinoma of the breast);\n3. Received intravenous bisphosphonate treatment within the past 2 years or oral bisphosphonate treatment within the past 1 year;\n4. History or current diagnosis of osteomyelitis or osteonecrosis of the jaw; unhealed dental or oral surgical wounds; acute dental or jaw conditions requiring oral surgery; planned to undergo invasive dental surgery during the study period;\n5. Received denosumab, teriparatide, or romosozumab treatment within the past 6 months;\n6. Continuous use of calcitonin for more than 3 months within the past year;\n7. Use of glucocorticoids (equivalent to\\>5 mg/day prednisone) for more than 10 days within the past 6 weeks;\n8. 25-hydroxyvitamin D\\<20 ng/mL;\n9. Active infections requiring systemic treatment;\n10. Uncontrolled comorbidities, including New York Heart Association (NYHA) functional class III or above heart failure, severe arrhythmias, severe hepatic insufficiency (alanine aminotransferase or aspartate aminotransferase\\>3 times the upper limit of normal), severe renal insufficiency (eGFR\\<30 ml/min/1.73 m²);\n11. Hypocalcemia, hypercalcemia, or hypercalciuria;\n12. Allergy to the study drug;\n13. Currently participating in other clinical trials of drugs;\n14. Subjects deemed unsuitable for enrollment in this study by the investigator.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "change rate of lumbar bone density",
+        "description": "DXA measurement",
+        "timeFrame": "12 months of treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Incidence of osteoporotic fractures",
+        "description": "X ray imaging measurement",
+        "timeFrame": "12 months of treatment"
+      },
+      {
+        "measure": "Change rate of bone density in the femoral neck and total hip",
+        "description": "DXA measurement",
+        "timeFrame": "12 months of treatment"
+      },
+      {
+        "measure": "Change rate of serum levels of β-CTX",
+        "description": "electrochemiluminescence measurment",
+        "timeFrame": "6 months of treatment"
+      },
+      {
+        "measure": "Change rate of serum levels of β-CTX",
+        "description": "electrochemiluminescence measurment",
+        "timeFrame": "12 months of treatment"
+      },
+      {
+        "measure": "Change rate of serum levels of PINP",
+        "description": "electrochemiluminescence measurment",
+        "timeFrame": "6 months of treatment"
+      },
+      {
+        "measure": "Change rate of serum levels of PINP",
+        "description": "electrochemiluminescence measurment",
+        "timeFrame": "12 months of treatment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:02.319Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

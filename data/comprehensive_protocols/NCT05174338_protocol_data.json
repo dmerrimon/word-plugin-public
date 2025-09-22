@@ -1,0 +1,78 @@
+{
+  "nctId": "NCT05174338",
+  "briefTitle": "Cardiac Amyloidosis Registry Study",
+  "officialTitle": "Cardiac Amyloidosis Registry Study - A Multi-Center, Longitudinal, Observational Survey of Patients With Cardiac Amyloidosis",
+  "protocolDocument": {
+    "nctId": "NCT05174338",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2023-08-10",
+    "uploadDate": "2023-08-23T12:46",
+    "size": 347691,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05174338/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 5000,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2020-01-08",
+    "completionDate": "2025-12",
+    "primaryCompletionDate": "2025-12",
+    "firstSubmitDate": "2021-12-13",
+    "firstPostDate": "2021-12-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Established diagnosis of AL or TTR cardiomyopathy identified or treated within the timeframe\n* Specific to CSMC: If the individual provided consent while they were alive, and if sufficient information exists in their chart, their data will be included.\n* Information on deceased individuals may be included, but only with the appropriate approval from the external site IRB and/or according to the federal regulations for the protection of human subjects.\n\nExclusion Criteria:\n\n* At Cedars-Sinai, records that specifically state not to be used in research will not be accessed. Patients who have enacted a No Research Flag or are noted as \"Break the Glass\" will not be included. For external sites, records that indicate No Research Flag or are noted as \"Break the Glass\" may be included based on institutional policies and appropriate approvals, as applicable.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Quantify disease severity at diagnosis, progression and survival in patients with cardiac amyloidosis",
+        "description": "Clinical Outcomes: Disease severity at presentation, progression, and survival \\[time frame 3 years\\]. Severity and progression determined by change in NYHA Class, NT-ProBNP and troponin.",
+        "timeFrame": "1997 - 2025"
+      },
+      {
+        "measure": "Quantify incidence of complications from cardiac amyloidosis",
+        "description": "Determine incidence of arrhythmias (atrial fibrillation; ventricular arrhythmias) after diagnosis, renal dysfunction (rise in creatinine and development of end-stage renal disease), stroke, bleeding complications \\[time frame 3 years\\]",
+        "timeFrame": "1997 - 2025"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:06.413Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

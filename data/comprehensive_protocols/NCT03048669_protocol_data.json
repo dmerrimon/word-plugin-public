@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT03048669",
+  "briefTitle": "Long Term Outcomes of Therapy in Women Initiated on Lifelong ART Because of Pregnancy in DR Congo",
+  "officialTitle": "Continuous Quality Improvement Interventions to Improve Long Term Outcomes of Antiretroviral Therapy in Women Initiated on Therapy During Pregnancy or Breastfeeding in the Democratic Republic of Congo",
+  "protocolDocument": {
+    "nctId": "NCT03048669",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-05-03",
+    "uploadDate": "2025-04-29T10:25",
+    "size": 525187,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03048669/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5053,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-11",
+    "completionDate": "2022-06-30",
+    "primaryCompletionDate": "2021-06-30",
+    "firstSubmitDate": "2017-02-07",
+    "firstPostDate": "2017-02-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* All women diagnosed with HIV during pregnancy or breastfeeding in the participating maternal and child health (MCH) clinics and initiated on antiretroviral therapy (ART) during the enrollment period\n\nExclusion Criteria:\n\n* Refuse to participate\n* Clinics will be excluded if less than 500 pregnant women (less than 5 HIV-infected pregnant women) registered for antenatal care (ANC) in the clinic in 2015",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Loss-to-follow-up",
+        "description": "the proportion of participants for whom the whereabouts is unknown at the evaluation time",
+        "timeFrame": "delivery, six weeks, 12 and 24 weeks postpartum"
+      },
+      {
+        "measure": "Virological suppression",
+        "description": "Proportion of participants with undetectable viral load",
+        "timeFrame": "delivery, 12 and 24 months postpartum"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Timely Infant HIV diagnosis",
+        "description": "Proportion of HIV-exposed infant with an appropriate HIV test result",
+        "timeFrame": "delivery, six weeks, 12 and 24 weeks postpartum"
+      },
+      {
+        "measure": "Timely ART initiation",
+        "description": "Proportion of HIV-infected participants (mother or infant) initiated on ART within two weeks of diagnosis",
+        "timeFrame": "two weeks from HIV diagnosis"
+      },
+      {
+        "measure": "MTCT rates",
+        "description": "Proportion of HIV-exposed infant who test positive for HIV",
+        "timeFrame": "delivery, six weeks, 12 and 24 weeks postpartum"
+      },
+      {
+        "measure": "Survival",
+        "description": "Proportion of participating mothers and infants know to be alive",
+        "timeFrame": "delivery, six weeks, 12 and 24 weeks postpartum"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:20.888Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

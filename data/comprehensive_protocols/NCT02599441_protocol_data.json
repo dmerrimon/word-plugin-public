@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT02599441",
+  "briefTitle": "Computed Tomography for Evaluating Supination-external Rotation Type Ankle Fractures",
+  "officialTitle": "Comparison of a Novel Weight Bearing Cone-beam Computed Tomography (CT) Scan to Gravity Stress X-ray for Determining Instability of Supination-external Rotation Type Ankle Fractures",
+  "protocolDocument": {
+    "nctId": "NCT02599441",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-11-11",
+    "uploadDate": "2019-10-02T10:17",
+    "size": 1777717,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02599441/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-02",
+    "completionDate": "2017-02-02",
+    "primaryCompletionDate": "2017-02-02",
+    "firstSubmitDate": "2015-11-04",
+    "firstPostDate": "2015-11-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* willing \\& able to provide written informed consent\n* at least 18 years-old\n* have medial clear space measuring less than 5 mm with clinical suspicion of instability and would normally require a gravity stress X-ray\n\nExclusion Criteria:\n\n* pregnant (females)\n* prisoners\n* open fracture\n* clinical signs of foot deformity\n* previous foot trauma or surgery on the affected foot\n* significant osteoarthritis or pre-existing ligamentous instability or pain in the affected foot\n* unable to stand in the weight bearing position during the CT scan",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Medial Clear Space Distance in the Ankle Joint",
+        "description": "measured on weight bearing CBCT",
+        "timeFrame": "Baseline- single-day study"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Medial Clear Space on Gravity Stress Xray",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Medial Clear Space on Standard Xray",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:55.368Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

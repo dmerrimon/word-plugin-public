@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT04216264",
+  "briefTitle": "Pattern - Reach Aim 2",
+  "officialTitle": "Pilot Adaptive Tool To Encourage Risk Reduction in iNfancy (PATTERN)",
+  "protocolDocument": {
+    "nctId": "NCT04216264",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-27",
+    "uploadDate": "2022-07-21T14:58",
+    "size": 59985,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04216264/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 28,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-07",
+    "completionDate": "2021-05-04",
+    "primaryCompletionDate": "2021-05-04",
+    "firstSubmitDate": "2019-12-30",
+    "firstPostDate": "2020-01-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Non-Hispanic black (as documented in MaestroCare) parents/caregivers with; infants ages 2 weeks to 2 months of age; infant birthweight between 2500g and 4000g; infant gestational age is at least 36 weeks\n\nExclusion Criteria:\n\n* non-English-speaking; infant with serious disease or disorder affecting growth and nutrition",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "2 Weeks",
+    "maximumAge": "2 Months",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Satisfied or Very Satisfied With Information Given to Them, as Measured by Follow up Questionnaire",
+        "description": "Completed Likert scale with 1=very unsatisfied, 2=unsatisfied, 3=neutral, 4=satisfied, 5=very satisfied",
+        "timeFrame": "3 to 6 months after baseline assessment"
+      },
+      {
+        "measure": "Percentage of Successful Contacts With Families Via Telephone and/or in Clinic",
+        "description": "Number of successful contacts with families divided by number of attempts to contact by research staff x 100",
+        "timeFrame": "3 to 6 months after baseline assessment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percent of Participants Exclusively Breastfeeding at 4 Months Postnatal Age",
+        "description": "Dyad caregivers were asked what type of milk was being consumed by the infant, with 4 options available: 1) Formula only, 2) Mostly formula and some breast milk, 3) Mostly breast milk, but some formula, or 4) Breast milk only.",
+        "timeFrame": "3 to 6 months after baseline assessment"
+      },
+      {
+        "measure": "Percent of Participants Delaying Complementary Feeding Until 4 Months Postnatal Age",
+        "description": "Dyads caregivers were asked, \"Is your baby eating solid foods yet or do you put any solid foods in the bottle?\", with 2 options available: 1) Yes or 2) No",
+        "timeFrame": "3 to 6 months after baseline assessment"
+      },
+      {
+        "measure": "Percent of Participants Reporting \"Never\" Engaging in Screentime While Feeding and With '0' Minutes of Active TV Watching at 4 Months Postnatal Age",
+        "description": "Dyad caregivers were asked \"I watch TV or look at or use my phone while feeding my baby\" and responded with one of 5 Likert-scale responses: 1) Never, 2) Seldom, 3) Half of the time, 4) Most of the time, 5) Always",
+        "timeFrame": "3 to 6 months after baseline assessment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:14.967Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

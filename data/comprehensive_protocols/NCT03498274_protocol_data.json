@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03498274",
+  "briefTitle": "A Comparison of a Currently Marketed Hearing Aid Programmed With Two Different Fitting Methods",
+  "officialTitle": "A Comparative, Controlled, Clinical Investigation of a Currently Marketed Hearing Aid When Programmed With Two Different Fitting Methods",
+  "protocolDocument": {
+    "nctId": "NCT03498274",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2017-12-21",
+    "uploadDate": "2018-03-27T10:59",
+    "size": 1438597,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03498274/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 14,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-03-19",
+    "completionDate": "2018-06-11",
+    "primaryCompletionDate": "2018-06-11",
+    "firstSubmitDate": "2018-02-28",
+    "firstPostDate": "2018-04-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* All types of hearing loss (sensorineural, conductive, mixed)\n* If the hearing loss is conductive or mixed it must first be approved for amplification by a physician\n* All shapes of hearing loss (flat, sloping, reverse slope, notch)\n* Severity ranging from mild to severe\n* First time hearing aid users (never worn hearing aids before)\n* German speaking\n* Both genders\n* Ages 18 and older\n* Ability and willingness to sign the consent form\n\nExclusion Criteria:\n\n* Current hearing aids users\n* Contraindications for amplification\n* Active ear disease\n* Inability to follow the procedures of the study due to language problems, psychological disorders, dementia, or other cognitive problems of the participant\n* A reduced mobility unable to attend weekly study appointments\n* A reduced ability to describe auditory impressions and the usage of the hearing aids\n* Uncooperative so that it is not possible to record a valid pure tone audiogram\n* A strongly reduced dexterity\n* With psychological problems\n* Central hearing disorders\n* Bernafon employees\n* Family members of Bernafon employees",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Assessment of subjective benefit with the standardized questionnaire, International Outcome Inventory For Hearing Aids (IOI-HA)",
+        "description": "The answers to the questionnaire will be compared for each fitting method to determine if the subjective hearing aid benefit is as good when using the IMD as with the RMD. There is no numerical outcome.",
+        "timeFrame": "Time frame to assess change is one month with the first measure after two weeks and the second week 3-4"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Assessment of speech understanding with a standardized speech test that uses the percentage of words correct to score the performance.",
+        "description": "A standardized speech test will be given after each field test to compare the two fitting methods. Percentage of correct words repeated from both fitting methods will be compared to determine whether one method helped the subjects to achieve higher speech scores.",
+        "timeFrame": "Time frame to assess change is one month with the first measure after two weeks and the second week 3-4"
+      },
+      {
+        "measure": "Assessment of hearing aid preference with a questionnaire",
+        "description": "To assess if the subjects prefer one hearing aid over the other they will complete a preference questionnaire that asks specifically which hearing aid they preferred and why. There is no point scale just a selection of Hearing aid 1 or hearing aid 2.",
+        "timeFrame": "Time frame to assess change is one month after the hearing aids have been worn with both fitting methods."
+      }
+    ],
+    "other": [
+      {
+        "measure": "Assessment of unexpected device behavior (ie. distortion) with a questionnaire",
+        "description": "To assess the system for any unexpected behaviors and to evaluate any new risk factors to ensure safety of the devices, a questionnaire that distinctly asks questions about the occurence of unexpected noises such as excessive feedback or distortion will be given to the subjects. The questionnaire is based on a 5-point scale to quantify the rate of occurrence (with 1 being never to 5 being often).",
+        "timeFrame": "Time frame to assess change is one month with the first measure after two weeks and the second week 3-4"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 1,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 36,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:50.751Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04809285",
+  "briefTitle": "Use of the Guardian™ Connect System With Smart Connected Devices",
+  "officialTitle": "Use of the Guardian™ Connect System With Smart Connected Devices",
+  "protocolDocument": {
+    "nctId": "NCT04809285",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-06-08",
+    "uploadDate": "2024-09-10T12:28",
+    "size": 17609779,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04809285/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 217,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-04-06",
+    "completionDate": "2023-09-29",
+    "primaryCompletionDate": "2023-09-29",
+    "firstSubmitDate": "2021-03-18",
+    "firstPostDate": "2021-03-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria\n\n1. Individual is 2-80 years of age at time of consent.\n2. A clinical diagnosis of type 1 or type 2 diabetes as determined by investigator for:\n\n   * at least the last 6 months for subjects 2-6 years of age\n   * at least the last 12 months for subjects 7-80 years of age\n3. Subject is on multiple daily injection therapy (3 or more insulin injections per day one of which is a long acting insulin injection), is currently using or is willing and can afford to use insulin pen(s) and pen cartridge(s).\n4. Subject is currently using or is willing to use the Guardian Connect system during the study.\n5. Subject agrees to comply with the study protocol requirements.\n6. For adult subjects: Subject is capable of providing legal consent without a legal authorized representative.\n\nExclusion Criteria\n\n1. Subject is using a syringe and unwilling or unable to use insulin pen(s).\n2. Subject is using an insulin pump.\n3. Subject is currently using a non-Medtronic standalone CGM system and unwilling to use only the Guardian Connect system during the study.\n4. Subject is using hydroxyurea at time of screening or plans to use it during the study.\n5. Subject will not tolerate tape adhesive in the area of device placement as assessed by a qualified provider.\n6. Subject has any unresolved adverse skin condition in the area of device placement (e.g. psoriasis, rash, Staphylococcus infection).\n7. Subject is actively participating in or plans to enroll in an investigational study (e.g. drug or device), other than this study, wherein they have received treatment from an investigational drug or device.\n8. Subject has a positive urine pregnancy test at time of screening.\n9. Subject is female, sexually active without the use of contraception, able to become pregnant or plans to become pregnant during the course of the study.\n10. Subject is unwilling to participate in study procedures.\n11. Subject is directly involved in the study as research staff.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Time in Hypoglycemia",
+        "description": "The overall mean percentage of time in hypoglycemia (SG \\< 70 mg/dL)",
+        "timeFrame": "Day 1 to Day 90 in Phase 1 and Day 91 to up to 9 months in Phase 2"
+      },
+      {
+        "measure": "Percentage of Time in Euglycemia",
+        "description": "The overall mean percentage of time in euglycemia (SG 70-180 mg/dL)",
+        "timeFrame": "Day 1 to Day 90 in Phase 1 and Day 91 to up to 9 months in Phase 2"
+      },
+      {
+        "measure": "Percentage of Time in Hyperglycemia",
+        "description": "The overall mean percentage of time in hyperglycemia (SG \\> 180 mg/dL)",
+        "timeFrame": "Day 1 to Day 90 in Phase 1 and Day 91 to up to 9 months in Phase 2"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 32,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:08.900Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

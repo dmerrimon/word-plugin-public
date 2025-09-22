@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT05244577",
+  "briefTitle": "Olanzapine Combined With Fosaprepitant, Ondansetron, and Dexamethasone for Preventing Nausea and Vomiting in Patients With Testicular Cancer",
+  "officialTitle": "A Phase III Randomized, Double-blind, Placebo-controlled, Cross-over Study to Evaluate Olanzapine Combined With Fosaprepitant, Ondansetron, and Dexamethasone for Preventing Nausea and Vomiting in Patients With Testicular Cancer Receiving 5-day Cisplatin Combination Chemotherapy",
+  "protocolDocument": {
+    "nctId": "NCT05244577",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-10-21",
+    "uploadDate": "2022-01-09T04:37",
+    "size": 468149,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05244577/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 75,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-01-18",
+    "completionDate": "2024-03-31",
+    "primaryCompletionDate": "2023-12-31",
+    "firstSubmitDate": "2022-01-09",
+    "firstPostDate": "2022-02-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria\n\nPatients must meet the following criteria for inclusion:\n\n1. Pathology confirmed germ cell tumor (both spermatogonoma and non-spermatogonoma) and had no chemotherapy before;\n2. Men;\n3. Age ≥16 years old;\n4. ECOG score of physical status 0-2;\n5. Chemotherapy regimen containing 5-day cisplatin (20mg/m2, 100mg total;\n6. No other nausea, vomiting, or use of any antiemetics within 72 hours prior to enrollment;\n7. There are no clear brain metastases or other reasons for long-term systemic use of hormones;\n8. The general condition is good, and the blood, liver and kidney functions meet the following standards:\n\n   Hemoglobin: 90 g/L and above White blood cell count: 3.5 \\* 109 / L - 10.0 \\*109 / L Neutrophil count: 1.5\\* 109/L or above Platelet count: 90\\* 109/L or above Serum total bilirubin: below 1.5 times the upper limit of normal Serum AST, ALT and ALP: the upper limit of normal is below 2.5 times when the patient is present\n9. Ability to read, understand and complete research questionnaires and journals, including visual analog scale (VAS);\n10. Understand the study procedure and sign the informed consent in person to participate in the study\n\nExclusion Criteria\n\nPatients who meet any of the following criteria will be excluded:\n\n1. Digestive tract obstruction, water and electrolyte disorder;\n2. Have central nervous system diseases (such as primary brain tumors, uncontrolled seizures, any history of brain metastases or strokes);\n3. Contraindications to the use of glucocorticoids: ① Viral, bacterial, fungal and other infections that cannot be controlled by antibiotics;② Active gastric or duodenal ulcer;③ Severe hypertension, arteriosclerosis, diabetes; ④ Osteoporosis;⑤ Corneal ulcer;⑥Trauma or surgical repair period, fracture; ⑦Adeno-cortical hyperfunction; ⑧Severe mental illness and epilepsy; ⑨ patients with cardiac or renal dysfunction;\n4. Patients with mental disabilities or severe emotional or mental disorders are considered unsuitable for inclusion in the study;\n5. In addition to malignancy, the patient has an active infection (e.g. pneumonia, hepatitis) or any uncontrolled infection diseases (such as diabetic ketoacidosis), and the researchers believe may contribute to the study's findings confounding, or exposing patients receiving study drugs to unnecessary risks;\n6. The patient is currently using any prohibited drugs, including medicinal marijuana or is currently using alcohol (Chinese Diagnostic criteria for drug dependence);\n7. The patient received an unapproved (experimental) drug treatment within the past 4 weeks;\n8. Taking oral olanzapine or other psychotropic drugs;\n9. A history of hypersensitivity to fosappitan, 5-HT3 receptor antagonists or dexamethasone;\n10. The patient cannot swallow the drugs;\n11. The principal investigator considered the patients unsuitable for the study;\n12. Inability or unwillingness to adhere to research protocols",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "minimumAge": "16 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Complete Response From 0 to 240 Hours After Initiation chemotherapy",
+        "description": "Complete Response was defined as no vomiting and no use of rescue medication",
+        "timeFrame": "1 to 10 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With minimal nausea",
+        "description": "Minimal nausea was defined as \\<25 mm on a visual analog scale",
+        "timeFrame": "1-10 days"
+      },
+      {
+        "measure": "Percentage of Participants with total control",
+        "description": "total control was defined as no vomiting, no rescue antiemetics, and no nausea",
+        "timeFrame": "1 to 10 days"
+      },
+      {
+        "measure": "Severity of nausea",
+        "timeFrame": "1 to 10 days"
+      },
+      {
+        "measure": "Number of rescue medications",
+        "description": "Number of rescue medications for nause and vormitting",
+        "timeFrame": "1 to 10 days"
+      },
+      {
+        "measure": "Time to Treatment Failure in each group of participates",
+        "description": "Time to treatment failure was defined as time to 1st emetic episode or use of rescue medication",
+        "timeFrame": "1 to 10 days"
+      },
+      {
+        "measure": "Patient's satisfaction with anti-emetic therapy",
+        "description": "The patient was asked to evaluate his satisfaction with the control of nausea and vomiting by recording two scales: Hospital Anxiety and Depression Scale and The Functional Living Index-Emesis questionnaire",
+        "timeFrame": "1 to 10 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:52.090Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

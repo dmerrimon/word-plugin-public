@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT04435522",
+  "briefTitle": "Maraviroc in Patients With Moderate and Severe COVID-19",
+  "officialTitle": "Open-Label Study of Maraviroc in Hospitalized Individuals Diagnosed With SARS-CoV-2",
+  "protocolDocument": {
+    "nctId": "NCT04435522",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-11-06",
+    "uploadDate": "2023-11-14T16:32",
+    "size": 558982,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04435522/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-01",
+    "completionDate": "2020-12-31",
+    "primaryCompletionDate": "2020-12-31",
+    "firstSubmitDate": "2020-06-15",
+    "firstPostDate": "2020-06-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or female ≥ 18 years of age at time of screening\n* Documentation of a SARS-CoV-2 diagnosis as evidenced by positive SARS-CoV-2 PCR within twelve days at time of screening\n* Chest radiography consistent with multi-focal pneumonia or air-space disease\n* Written informed consent obtained from subject and ability for subject to comply with the requirements of the study.\n* Subject able to safely swallow pills or receive Maraviroc through a nasogastric or orogastric tube.\n\nExclusion Criteria:\n\n* Subjects who are pregnant, breastfeeding, or unwilling to practice birth control during participation in the study.\n* Subjects with the presence of a condition or abnormality that in the opinion of the Investigator would compromise the safety of the patient or the quality of the data. This includes, but is not limited to, recent myocardial infarction in past 6 months, neurological, psychiatric, endocrine, or neoplastic diseases that are judged to interfere with participation in the study.\n* Subjects with known diagnosis of human immunodeficiency virus infection (HIV)\n* Subjects enrolled in another clinical trial (including one for COVID-19) that excludes participation in other trials or includes a potent CYP3A inhibitor or inducer (e.g. lopinavir-ritonavir).\n* Subjects with ESRD or severe renal failure who are taking potent (moderate or strong) CYP3A inhibitors or inducers",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Rate of Completion",
+        "description": "Rate of subjects who complete the 7-day course of Maraviroc (or shorter if discharged from hospital prior to 7 days) without discontinuation for serious adverse event or death.",
+        "timeFrame": "7 days"
+      },
+      {
+        "measure": "Clinical Improvement at Day 7",
+        "description": "Percent of patients at Day 7 from enrollment achieving reduction of two points on a seven-category ordinal scale (defined below).\n\nOrdinal scale: 1, not hospitalized with resumption of normal activities; 2, not hospitalized, but unable to resume normal activities OR hospitalized pending disposition, not requiring COVID-related care; 3, hospitalized, not requiring supplemental oxygen; 4, hospitalized, requiring supplemental oxygen; 5, hospitalized, requiring nasal high-flow oxygen therapy, noninvasive mechanical ventilation, or both; 6, hospitalized, requiring ECMO, invasive mechanical ventilation, or both; and, 7, death.",
+        "timeFrame": "7 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Mortality",
+        "description": "7-, 14- and 28-day all-cause-mortality",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Median Time to >= 2 Point Improvement in Clinical Score.",
+        "description": "If no clinical improvement of \\>=2 points met by day 28, patient outcome censored",
+        "timeFrame": "28 Days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:37.952Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

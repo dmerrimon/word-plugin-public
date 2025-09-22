@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT05199233",
+  "briefTitle": "Mindfulness Intervention for Post-Covid Symptoms",
+  "officialTitle": "The Benefit of Mindfulness-Based Intervention Using A Wearable Wellness Brain Sensing Device (Muse-S&#8482;) in the Treatment of Post-Covid Symptoms",
+  "protocolDocument": {
+    "nctId": "NCT05199233",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-11-07",
+    "uploadDate": "2025-03-21T10:47",
+    "size": 323622,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05199233/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 45,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-06-01",
+    "completionDate": "2024-12-31",
+    "primaryCompletionDate": "2024-11-30",
+    "firstSubmitDate": "2022-01-18",
+    "firstPostDate": "2022-01-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Identified with one of 3 Post-Covid Syndrome (PASC) phenotypes at Mayo Clinic Rochester.\n* Not pregnant by subject self-report at time of consent.\n* Have the ability to provide informed consent.\n* Have the ability to complete all aspects of this trial.\n* Have access to an iPhone, iPad, or Android device.\n* Have no contraindicating comorbid health condition which would interfere with the proper use of the Muse-SÔ system, as determined by the clinical investigators.\n\nExclusion Criteria:\n\n* Used an investigational drug within the past 30 days.\n* Anyone that is not on a stable dose of medication for anxiety, depression or sleep.\n* Currently (within the past 3 weeks) been practicing mindfulness training on a weekly/regular basis.\n* Currently (within 3 weeks) has been enrolled in another clinical or research program which intervenes on the patients' QOL, or stress.\n* An unstable medical or mental health condition as determined by the physician investigator.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Stress",
+        "description": "Stress is evaluated through the Perceived Stress Scale (PSS). This is a 10-item Likert scale that measures global life stress by assessing the degree to which experiences are appraised as uncontrollable or unpredictable. Scores can range from 0 to 40, with higher scores indicating greater perceived stress. The outcome measure is change in stress from baseline at 3 months (end of treatment). Negative changes indicate decreased stress relative to baseline.",
+        "timeFrame": "3 months post-baseline"
+      },
+      {
+        "measure": "Change in Anxiety",
+        "description": "PROMIS Emotional Distress-short form 7a (7 items). The PROMIS Anxiety item banks assess self-reported fear (fearfulness, panic), anxious misery (worry, dread), hyperarousal (tension, nervousness, restlessness), and somatic symptoms related to arousal (racing heart, dizziness). Anxiety is best differentiated by symptoms that reflect autonomic arousal and experience of threat. Each item on the measure is rated on a 5-point scale (1=never; 2=rarely; 3=sometimes; 4=often; and 5=always) with a range in score from 7 to 35 with higher scores indicating greater severity of anxiety. The raw scores were converted to t-scores using published guidelines (see PROMIS website). A T-score of 50 is the average for the general population with a standard deviation of 10. A higher PROMIS T-score represents more of the concept being measured; thus, an increase in emotional distress T score corresponds to more anxiety - which is a worse outcome.",
+        "timeFrame": "3 months post-baseline"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:38.938Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT02801877",
+  "briefTitle": "IntelliCare Study: Artificial Intelligence in a Mobile (AIM) Intervention for Depression",
+  "officialTitle": "Artificial Intelligence in a Mobile (AIM) Intervention for Depression",
+  "protocolDocument": {
+    "nctId": "NCT02801877",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-11-29",
+    "uploadDate": "2019-02-21T16:36",
+    "size": 356495,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02801877/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 301,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07",
+    "completionDate": "2018-01",
+    "primaryCompletionDate": "2018-01",
+    "firstSubmitDate": "2016-06-08",
+    "firstPostDate": "2016-06-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Meets criteria for clinically significant symptoms of depression and/or anxiety using self-report measures used in screening for depression\n* Is familiar with the use of mobile phones\n* Owns an Android smartphone and is willing download the IntelliCare apps on their own device\n* Is able to speak and read English\n* Is at least 18 years of age (\\* Note: Depending on which state individual resides in, the age to consent to research may be 19 years of age.)\n* Is able to give informed consent\n\nExclusion Criteria:\n\nParticipants were excluded if they had visual, voice, motor or hearing impairments that would prevent participation; met diagnostic criteria for a severe psychiatric disorders for which study treatments would be inappropriate; severe suicidality that included both a plan and intent; had initiated or modified antidepressant pharmacotherapy in the previous 14 days; or had used any IntelliCare app more than one time in the three months prior to study screening.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adherence to the Mobile Application Intervention",
+        "description": "Defined as the median time to last engagement with the mobile application suite within 8 weeks of trial",
+        "timeFrame": "Participants will be followed for the duration of the 8 week trial"
+      },
+      {
+        "measure": "Patient Health Questionnaire - 9 (PHQ-9) - Depression Severity",
+        "description": "The PHQ-9 measures degree of depression severity. Possible range of scores for the PHQ-9 is 0-27. Higher values represent a worse outcome. Specifically, scores of 0-4 indicate minimal or no depression; 5-9 is mild; 10-14 is moderate; 15-19 is moderately severe; and 20-27 is severe.",
+        "timeFrame": "Measured at start of treatment (baseline), week 4, week 8, month 3, and month 6."
+      },
+      {
+        "measure": "GAD-7 (Generalized Anxiety Disorder Scale-7) - Anxiety Severity",
+        "description": "The GAD-7 is a self-administered 7 item instrument that uses some of the DSM-V criteria for GAD (General Anxiety Disorder) to identify probable cases of GAD along with measuring anxiety symptom severity. GAD-7 total score for the seven items ranges from 0 to 21. Higher values represent a worse outcome. Specifically, scores of 1-4 indicate minimal anxiety symptoms; 5-9 is mild anxiety symptoms; 10-14 is moderate anxiety symptoms; and 15-21 is severe anxiety symptoms.",
+        "timeFrame": "Measured at start of treatment (baseline), week 4, week 8, month 3, and month 6."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:41.753Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

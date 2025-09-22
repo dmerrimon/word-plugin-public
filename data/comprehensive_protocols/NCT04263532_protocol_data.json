@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT04263532",
+  "briefTitle": "Vector Efficacy Cross-Over Pilot Study",
+  "officialTitle": "Randomized Controlled Cross-Over Pilot Study of the Effectiveness of the Vector NIV Device in Hypercapnic COPD Patients With Expiratory Flow Limitation",
+  "protocolDocument": {
+    "nctId": "NCT04263532",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-04-09",
+    "uploadDate": "2024-11-25T16:26",
+    "size": 2868827,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04263532/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 21,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-01-21",
+    "completionDate": "2023-11-17",
+    "primaryCompletionDate": "2023-11-17",
+    "firstSubmitDate": "2020-02-06",
+    "firstPostDate": "2020-02-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age greater than or equal to 40 years of age; less than or equal to 80 years of age\n2. Ability to provide consent\n3. Chronic obstructive pulmonary disease (COPD) patients with hypercapnia (as defined as greater than or equal to 52mmHg) who are either current non-invasive ventilation (NIV) users or naïve to NIV\n4. On average, use NIV more than 4 hours per night (Current NIV users).\n5. Must present with expiratory flow limitation (EFL) via screening of the Vector device at 3 cmH2O\n6. Have an EPAP to abolish EFL greater or equal to 6cmH2O\n\nExclusion Criteria:\n\n1. Any major non-COPD uncontrolled disease or condition, such as congestive heart failure, malignancy, liver or renal insufficiency (that requires current evaluation for liver or renal transplantation or dialysis), amyotrophic lateral sclerosis, or severe stroke, or other condition as deemed appropriate by investigator as determined by review of medical history and / or participant reported medical history\n2. Suffering from a COPD exacerbation (Defined as hospital admission, ER/urgent care visit, MD visit with medication change or other intervention deemed to be clinically significant by the investigator at the time of data collection or in the 14 days prior to data collection\n3. Self-reported Pregnancy or positive pregnancy test for women of childbearing potential.\n4. Employee or family member that is affiliated with Philips\n5. Currently employed by a manufacturer of respiratory products or family member employed by a manufacturer of respiratory products\n6. Any history of giant bulla (size \\>1/3 hemi-thorax)\n7. History of pneumothorax \\< 6 months\n8. Participants currently using a PAP or NIV device at home with a documented EPAP setting on their current device that is greater than the calculated EPAP determined during the therapy session of the screening visit (Current NIV Users).\n9. Life expectancy ≤12 months as determined by clinical investigator\n10. Low BP: Systolic \\<90\n11. Recent cranial surgery (i.e, less than 1 year)\n12. Impaired swallowing as reported by participant or diagnostic exam\n13. Recent upper airway or GI surgery within the past 6 months\n14. Unable to be fitted with mask\n15. Excessive secretions as reported by clinical investigator/physician assessment, inability to maintain a patent airway or adequately clear secretions, or at risk for aspiration of gastric contents\n16. Diagnosed with acute sinusitis or otitis media\n17. Epistaxis, causing pulmonary aspiration of blood\n18. Existing respiratory failure\n19. Participants who are naïve to NIV (Cohort 2) that use the device fewer than 3 out of 7 nights during the second week of the 2-week acclimation period\n20. Participants who are naïve to NIV (Cohort 2) that average less than 4 hours of device use during the second week of the 2-week acclimation period\n21. Participants who are naïve to NIV (Cohort 2) with an average nightly 90% EPAP pressure during the second week of the 2-week acclimation period that is higher than the titrated EFL EPAP pressure determined at the screening visit.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Daytime PaCO2 (Arterial Blood Gas)",
+        "description": "Room air CO2 levels at the end of 4-6 weeks of therapy as determined by Arterial Blood Gas (PaCO2)",
+        "timeFrame": "At the end of the 4-to-6-week period"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Average 30 Day Ventilator Usage Hours",
+        "description": "How many hours per night over 30 days that the participant uses the device.",
+        "timeFrame": "Up to 30 days of device use"
+      },
+      {
+        "measure": "Patient Comfort and Therapy Preference Based Questionnaire Responses",
+        "description": "Comfort data from device satisfaction/preference questionnaire after 30 days of device use. The specific question analyzed was \" Which ventilator pressure settings or therapy did you prefer?\" Outcome was number of participants who selected each therapy as preferred.",
+        "timeFrame": "Up to 30 days of device use"
+      },
+      {
+        "measure": "Unanticipated Serious Adverse Device Effects (USADEs) and Serious Adverse Events (SAEs) Assessment",
+        "description": "Incidence of Unanticipated Serious Adverse Device Effects (USADEs) and Serious Adverse Events (SAEs) for the Vector vs. the control group.",
+        "timeFrame": "Up to 30 days of device use"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:27.875Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

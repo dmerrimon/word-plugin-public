@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT01227044",
+  "briefTitle": "Reducing Heavy Drinking to Optimize HIV/AIDS Treatment and Prevention",
+  "officialTitle": "Reducing Heavy Drinking to Optimize HIV/AIDS Treatment and Prevention",
+  "protocolDocument": {
+    "nctId": "NCT01227044",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-11",
+    "uploadDate": "2019-02-22T10:23",
+    "size": 512993,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01227044/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 51,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-04",
+    "completionDate": "2017-08",
+    "primaryCompletionDate": "2017-08",
+    "firstSubmitDate": "2010-10-20",
+    "firstPostDate": "2010-10-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Be HIV-infected.\n2. Currently be prescribed HAART medication or be eligible to receive HAART medication.\n3. Report less than 95% adherence to their HAART medication.\n4. Report heavy drinking 4 or more times in the past 4 weeks, or meet current criteria for alcohol abuse or dependence. Heavy drinking is defined as 4 or more drinks for women and 5 or more drinks for men on one occasion.\n5. Be at least 18 years old.\n6. Be able to understand English and provide informed consent.\n\nExclusion Criteria:\n\n1. Be psychotic or severely psychiatrically disabled.\n2. Be currently enrolled in formal treatment for alcohol (excluding self-help, e.g. Alcoholics Anonymous)\n3. Have medical conditions that would preclude completing or be of harm during the course of the study.\n4. Have laboratory or clinical evidence of significant liver dysfunction (alanine aminotransferase (ALT) or aspartate aminotransferase (AST) greater than 5 times the upper limit of the normal range) or cirrhosis with a Child-Pugh classification greater than A or B.\n5. Have a known contraindication to NTX therapy (e.g. requiring opioid medication for pain).\n6. Be pregnant, nursing or unable to use an effective method of birth control (women).\n\n   \\-",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "HAART Adherence",
+        "description": "The intent of this outcome is to compare the efficacy of NTX +MM/MC versus placebo +MM/MC on adherence to HAART. It is hypothesized that NTX +MM/MC will lead to improved adherence to HAART when compared to placebo + MM/MC.",
+        "timeFrame": "One year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Heavy Drinking Days",
+        "description": "This outcome is intended to compare the efficacy of NTX +MM/MC versus placebo +MM/MC in reducing days of heavy drinking. It is hypothesized that NTX +MM/MC will lead to greater reductions in the number of days of heavy drinking when compared to placebo + MM/MC.",
+        "timeFrame": "One year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:21.043Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

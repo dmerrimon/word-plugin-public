@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04546854",
+  "briefTitle": "Influenza 2020/2021",
+  "officialTitle": "Influenza 2020/2021. A Survey to Assess How People's Political Attitudes and Messages Influence Their Behavioral Intentions in the United Kingdom.",
+  "protocolDocument": {
+    "nctId": "NCT04546854",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-08-28",
+    "uploadDate": "2020-09-05T04:04",
+    "size": 1046754,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04546854/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 200,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-09-21",
+    "completionDate": "2020-09-21",
+    "primaryCompletionDate": "2020-09-21",
+    "firstSubmitDate": "2020-09-05",
+    "firstPostDate": "2020-09-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Resident in England\n* Age 50+ years old, inclusive\n\nThe age criteria is set at 50+ years old, because this is the age group currently being advised by Public Health England to seek the flu jab as soon as possible this season. (https://www.gov.uk/government/news/most-comprehensive-flu-programme-in-uk-history-will-be-rolled-out-this-winter).\n\nExclusion Criteria:\n\n* Not a resident in England\n* Age less than 50 years old",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Intentions to take up the seasonal influenza vaccination",
+        "description": "Participants rate their intentions to take up the seasonal influenza vaccination on a 7-point likert scale, from strongly disagree (=1) to strongly agree (=7).",
+        "timeFrame": "1 day"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:32.836Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT05790122",
+  "briefTitle": "Safety and Efficacy of Sutureless Zero Ischemia Laparoscopic Tumor Enucleation for T1 Stage Renal Carcinoma",
+  "officialTitle": "Safety and Efficacy of Sutureless Zero Ischemia Laparoscopic Tumor Enucleation for T1 Stage Renal Carcinoma",
+  "protocolDocument": {
+    "nctId": "NCT05790122",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-02-10",
+    "uploadDate": "2023-02-10T02:03",
+    "size": 193830,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05790122/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 146,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-12-01",
+    "completionDate": "2025-12-01",
+    "primaryCompletionDate": "2025-12-01",
+    "firstSubmitDate": "2023-02-28",
+    "firstPostDate": "2023-03-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 1\\. The age is between 18 and 80 years old.\n* 2\\. Patients with T1a or T1b renal cell carcinoma according to TNM staging of AJCC renal cell carcinoma, 8th edition, 2017.\n* 3\\. Patients who underwent unclamped renal tumor enucleation or partial nephrectomy between 2014 and 2022.\n\nExclusion Criteria:\n\n* 1\\. The patients accompanied by severe active infection or severe diseases of heart, liver, kidney and hematopoietic system. And with other conditions that are not suitable for related tests.\n* 2\\. The patient has no measurable or evaluable lesions.\n* 3\\. The tumor is close to the collection system and touches the renal artery or renal vein. And other anatomy of tumor is not suitable for tumor enucleation.\n* 4\\. History of organ transplantation or need long-term adrenocortical hormone therapy. Hypothyroidism, adrenal or pituitary dysfunction that cannot be controlled by hormone replacement therapy alone. type I diabetes mellitus, psoriasis or vitiligo that require systematic treatment, etc.\n* 5\\. Active infection requiring systemic treatment. Human immunodeficiency virus (HIV) infection (known HIV antibody positive). Active HBV or HCV infection (HBsAg positive, or HBcAb positive but HBsAg negative, additional testing is required Quantitative DNA, the result does not exceed the upper limit of the laboratory normal value of the research center can participate in this study; the HCV RNA test result of the previous HCV infection screening period is negative, can participate in this study)\n* 6\\. Patients have history of kidney surgery or any history of kidney inflammation surgery. Patients have kidney cancer related to urinary collection system and have other kidney diseases (including kidney stone glomerulonephritis)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Operation time",
+        "description": "Operation time",
+        "timeFrame": "Period of surgery"
+      },
+      {
+        "measure": "Estimated blood loss",
+        "description": "The estimated blood loss of operation",
+        "timeFrame": "Period of surgery"
+      },
+      {
+        "measure": "Positive rate of incision margin",
+        "description": "Positive rate of incision margin",
+        "timeFrame": "Period of surgery"
+      },
+      {
+        "measure": "Serum creatinine",
+        "description": "Serum creatinine of patients before and after operation and follow-up",
+        "timeFrame": "Pre-operative, 1 day after the surgery and monthly follow-up in one year"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:07.930Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

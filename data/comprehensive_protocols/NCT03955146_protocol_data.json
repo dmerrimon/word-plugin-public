@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT03955146",
+  "briefTitle": "Zephyrus I: Evaluation of Efficacy and Safety of Pamrevlumab in Participants With Idiopathic Pulmonary Fibrosis (IPF)",
+  "officialTitle": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Efficacy and Safety Study of Pamrevlumab in Subjects With Idiopathic Pulmonary Fibrosis (IPF)",
+  "protocolDocument": {
+    "nctId": "NCT03955146",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-10-31",
+    "uploadDate": "2024-08-22T16:33",
+    "size": 937493,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03955146/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 393,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-06-18",
+    "completionDate": "2023-08-28",
+    "primaryCompletionDate": "2023-03-20",
+    "firstSubmitDate": "2019-05-16",
+    "firstPostDate": "2019-05-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n1. Diagnosis of IPF as defined by American Thoracic Society (ATS)/European Respiratory Society (ERS)/Japan Radiological Society (JRS)/Latin American Thoracic Association (ALAT) guidelines within the past 7 years prior to study participation.\n2. High-resolution computed tomography (HRCT) scan at screening, with ≥10% to \\<50% parenchymal fibrosis (reticulation) and \\<25% honeycombing.\n3. FVCpp value \\>45% and \\<95% at screening and Day 1 (prior to randomization).\n4. Diffusing capacity of the lungs for carbon monoxide (DLCO) percent predicted and corrected by hemoglobin (Hb) value ≥25% and ≤90% at screening (determined locally).\n5. Not currently receiving treatment for IPF with an approved therapy (that is, pirfenidone or nintedanib) for any reason, including prior intolerance or lack of response to an approved IPF therapy, or choice to forego treatment with an approved IPF therapy after a full discussion with the Investigator regarding risks/benefits of such therapy.\n\nKey Exclusion Criteria:\n\n1. Previous exposure to pamrevlumab.\n2. Evidence of significant obstructive lung disease.\n3. Female participants who are pregnant or nursing.\n4. Smoking within 3 months of screening and/or unwilling to avoid smoking throughout the study.\n5. Interstitial lung disease other than IPF.\n6. Sustained improvement in the severity of IPF during the 12 months prior to screening.\n7. History of other types of respiratory diseases including diseases or disorders of the airways, lung parenchyma, pleural space, mediastinum, diaphragm, or chest wall.\n8. Medical conditions (for example, myocardial infarction \\[MI\\]/stroke within the past 6 month), or logistical challenges that in the opinion of the Investigator preclude the participant's adequate participation in the study.\n9. Acute IPF exacerbation during screening or randomization.\n10. Use of any investigational drugs or unapproved therapies, or participation in any clinical trial with an investigational new drug within 30 days prior to screening. Or use of approved IPF therapies (that is, pirfenidone or nintedanib) within 1 week prior to screening.\n11. History of allergic or anaphylactic reaction to human, humanized, chimeric or murine monoclonal antibodies, or to any component of the excipient.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "DB Period (Main Study Cohort): Change From Baseline in FVC at Week 48",
+        "description": "FVC is a standard pulmonary function test used to quantify respiratory muscle weakness. FVC was the volume of air that could forcibly be blown out after full inspiration in the upright position, measured in liters. Least square (LS) mean and standard error (SE) were calculated using mixed model for repeated measures (MMRM).",
+        "timeFrame": "Baseline, Week 48"
+      },
+      {
+        "measure": "DB Period (Japan Extension Cohort): Change From Baseline in FVC at Week 48",
+        "description": "FVC is a standard pulmonary function test used to quantify respiratory muscle weakness. FVC was the volume of air that could forcibly be blown out after full inspiration in the upright position, measured in liters.",
+        "timeFrame": "Baseline, Week 48"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "DB Period (Main Study Cohort): Time to Disease Progression",
+        "description": "Time to disease progression was defined as the number of weeks from randomization to either the first occurrence of an absolute ≥10% decline from baseline in percent predicted FVC (FVCpp) or all-cause death, whichever occurred first. Median Time to Event' is an estimated value, which was calculated based on Kaplan-Meier method. Hence, the 'Median Time to Event' is longer than the reported timeframe of 48 weeks.",
+        "timeFrame": "Up to Week 48"
+      },
+      {
+        "measure": "DB Period (Main Study Cohort): Time to First Occurrence of Any Component of the Clinical Composite Endpoint",
+        "description": "The components of the clinical composite endpoint included acute IPF exacerbation, respiratory hospitalization, or death. Median Time to Event' is an estimated value, which was calculated based on Kaplan-Meier method. Hence, the 'Median Time to Event' is longer than the reported timeframe of 48 weeks.",
+        "timeFrame": "Up to Week 48"
+      },
+      {
+        "measure": "DB Period (Main Study Cohort and Japan Extension Cohort): Change From Baseline in Quantitative Lung Fibrosis (QLF) Volume at Week 48",
+        "description": "The QLF volume was calculated as QLF = total lung capacity volume multiplied by percentage (%) of quantitative lung fibrosis for fibrosis of the whole lung. LS mean and SE was calculated using MMRM.",
+        "timeFrame": "Baseline, Week 48"
+      },
+      {
+        "measure": "DB Period (Main Study Cohort): Time to First Acute IPF Exacerbation",
+        "description": "Median Time to Event' is an estimated value, which was calculated based on Kaplan-Meier method. Hence, the 'Median Time to Event' is longer than the reported timeframe of 48 weeks.",
+        "timeFrame": "Up to Week 48"
+      },
+      {
+        "measure": "DB Period (Main Study Cohort): Time to All-Cause Mortality",
+        "description": "Median Time to Event' is an estimated value, which was calculated based on Kaplan-Meier method. Hence, the 'Median Time to Event' is longer than the reported timeframe of 48 weeks.",
+        "timeFrame": "Up to Week 48"
+      },
+      {
+        "measure": "DB Period (Main Study Cohort): Time to First Respiratory Hospitalizations",
+        "description": "Median Time to Event' is an estimated value, which was calculated based on Kaplan-Meier method. Hence, the 'Median Time to Event' is longer than the reported timeframe of 48 weeks.",
+        "timeFrame": "Up to Week 48"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:30.382Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

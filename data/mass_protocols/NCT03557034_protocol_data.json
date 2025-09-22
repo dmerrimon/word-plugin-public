@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT03557034",
+  "briefTitle": "A Fib Clinic of the Future Using KardiaPro Platform for Chronic Care of Patients With AF After Ablation Procedure",
+  "officialTitle": "A Fib Clinic of the Future Using KardiaPro Platform for Chronic Care of Patients With AF After Ablation Procedure",
+  "protocolDocument": {
+    "nctId": "NCT03557034",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-02-28",
+    "uploadDate": "2021-04-19T16:41",
+    "size": 841997,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03557034/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-06-27",
+    "completionDate": "2020-08-15",
+    "primaryCompletionDate": "2020-02-21",
+    "firstSubmitDate": "2018-06-04",
+    "firstPostDate": "2018-06-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. 18-85 years old\n2. Have smartphone with data plan\n3. History of AF (paroxysmal or persistent)\n4. In sinus rhythm at the 3-4 month post-procedure visit and no evidence of AF during the interval starting after the 3 week blanking period and ending at the appointment time.\n5. On Anticoagulation if CHADS VASC score is ≥ 1 and will continue to be on anticoagulation or CHADS VASC of Zero\n6. Willing to follow up with their Cleveland Clinic electrophysiologist in 6 months\n\nExclusion Criteria:\n\n1. Patients without smartphone\n2. Unwilling to provide consent\n3. Unwilling to follow up in 6 months\n4. CHADS VASC ≥ 1 and anticoagulation will be stopped\n5. Presence of a cardiac implantable electronic device\n6. If the primary electrophysiologist decides the patient still needs monitoring through traditional monitors due to any reason",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time to Atrial Fibrillation Detection",
+        "description": "This outcome will measure the time between the ablation procedure (time zero) and the time of first detected atrial fibrillation heart rhythm.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Incidence of Atrial Fibrillation After Successful AF Ablation",
+        "description": "Number (%) participants with Afib detected after ablation and during the study period.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Atrial Fibrillation Episodes Detected",
+        "description": "Number of abnormal reading using Kardia Mobile after ablation",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Average Number of Clinical Encounters After Successful Ablation",
+        "description": "Average number of phone encounters within 6 months after successful ablation",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Participants Using Alternative Monitoring Devices After Successful Ablation",
+        "description": "Additional ECGs and ambulatory heart rhythm monitoring used (Holter, Ziopatch) during the follow up interval",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Change in Level of Anxiety From the Date of Atrial Fibrillation Ablation to the End of Study Period",
+        "description": "The Generalized Anxiety Disorder-7 is a scale to measure the severity of anxiety. It consists of asking patients to respond to a simple questionnaire and each answer is assigned a point based on the frequency of a given symptom (0=Not at all, 1=Several days, 2= More than half the days, 3=Nearly everyday). Total scores ranging from 0 to 21 with higher scores reflecting greater anxiety severity. A total score of 5-9 indicates mild anxiety, 10-14 moderate anxiety, and \\>15 severe anxiety.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:14.387Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

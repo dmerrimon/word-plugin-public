@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT05133323",
+  "briefTitle": "A Study With Lu AG09222 in Adults With Migraine Who Have Not Been Helped by Prior Preventive Treatments",
+  "officialTitle": "Interventional, Randomized, Double-blind, Parallel-group, Placebo-controlled Study of Lu AG09222 for the Prevention of Migraine in Patients With Unsuccessful Prior Preventive Treatments",
+  "protocolDocument": {
+    "nctId": "NCT05133323",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-07-11",
+    "uploadDate": "2024-01-15T09:33",
+    "size": 9097936,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05133323/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 237,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-11",
+    "completionDate": "2023-03-16",
+    "primaryCompletionDate": "2023-01-19",
+    "firstSubmitDate": "2021-11-15",
+    "firstPostDate": "2021-11-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* The participant has a diagnosis of migraine as defined by International Classification of Headache Disorders Third Edition (ICHD-3) guidelines confirmed at the Screening Visit.\n* The participant has a history of migraine onset at least 12 months prior to the Screening Visit.\n* The participant has a migraine onset at ≤50 years of age.\n* The participant has documented evidence of treatment failure in the past 10 years of at least 2 to 4 (maximum) different migraine preventive medications.\n\nKey Exclusion Criteria:\n\n* The participant has been previously dosed with an anti-pituitary adenylate cyclase-activating polypeptide (anti-PACAP) ligand-targeting antibody.\n* The participant has confounding and clinically significant pain syndromes.\n* The participant has a diagnosis of acute or active temporomandibular disorder.\n* The participant has a history or diagnosis of confounding headaches.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in the Number of Monthly Migraine Days (MMDs)",
+        "description": "The Migraine Day definition was based on the International Headache Society (IHS) guidelines for controlled trials of preventive treatment of chronic migraine and episodic migraine in adults. A Migraine Day was defined as a day with a headache that:\n\n* lasts ≥4 hours and meets International Classification of Headache Disorders Third Edition (ICHD-3) guidelines criteria C and D for migraine without aura\n* or lasts ≥30 minutes and where the participant had an aura with the headache (migraine with aura),\n* or lasts ≥30 minutes and meets two of the three ICHD-3 criteria B (without the condition on 72 hours), C and D for migraine without aura (probable migraine),\n* or a day with a headache that is successfully treated with a triptan, ergotamine, or other migraine-specific acute medication",
+        "timeFrame": "Baseline, Week 4"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With ≥50% Reduction From Baseline in MMDs",
+        "description": "The Migraine Day definition was based on the International Headache Society (IHS) guidelines for controlled trials of preventive treatment of chronic migraine and episodic migraine in adults. A Migraine Day was defined as a day with a headache that:\n\n* lasts ≥4 hours and meets International Classification of Headache Disorders Third Edition (ICHD-3) guidelines criteria C and D for migraine without aura\n* or lasts ≥30 minutes and where the participant had an aura with the headache (migraine with aura),\n* or lasts ≥30 minutes and meets two of the three ICHD-3 criteria B (without the condition on 72 hours), C and D for migraine without aura (probable migraine),\n* or a day with a headache that is successfully treated with a triptan, ergotamine, or other migraine-specific acute medication",
+        "timeFrame": "Baseline, Week 4"
+      },
+      {
+        "measure": "Change From Baseline in the Number of Monthly Headache Days (MHDs)",
+        "description": "A Headache Day was defined as a day with a headache that lasted ≥30 minutes or that meets the definition of a Migraine Day.",
+        "timeFrame": "Baseline, Week 4"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:52.485Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

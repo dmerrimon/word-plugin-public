@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT04533685",
+  "briefTitle": "Patient Portal Reminder/Recall for Influenza Vaccination in a Health System- UCLA Portal R/R Influenza RCT 3",
+  "officialTitle": "Patient Portal Reminder/Recall for Influenza Vaccination in a Health System- RCT 3",
+  "protocolDocument": {
+    "nctId": "NCT04533685",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-08-14",
+    "uploadDate": "2022-08-17T19:42",
+    "size": 102511,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04533685/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 213773,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-09-01",
+    "completionDate": "2021-04-01",
+    "primaryCompletionDate": "2021-04-01",
+    "firstSubmitDate": "2020-08-26",
+    "firstPostDate": "2020-08-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nA patient within the UCLA Health System identified as a primary care patient per an internal algorithm.\n\nExclusion Criteria:\n\nA patient within the UCLA Health System not identified as a primary care patient per an internal algorithm",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "4 Months",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Index Patients Who Received Annual Influenza Vaccine",
+        "description": "Receipt of the annual influenza vaccination (between 8/1/20 - 4/1/21) among index patients. Outcomes will be assessed via vaccine data extraction from the electronic health record and external claims and pharmacy data.\n\nThe index patients must also be an active UCLA Health MyChart user (\\>= 1 login over the last 12 months from 8/1/20, excluding activity on the user's initial profile activation date). Individuals not affiliated with any primary care practice will be excluded from the primary analysis.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:32.365Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

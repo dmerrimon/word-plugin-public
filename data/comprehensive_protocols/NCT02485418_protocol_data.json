@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT02485418",
+  "briefTitle": "Low- Dose Propofol Infusion as an Abortive Treatment for Migraine Headaches in Pediatric Patients",
+  "officialTitle": "Low- Dose Propofol Infusion as an Abortive Treatment for Migraine Headaches in Pediatric Patients",
+  "protocolDocument": {
+    "nctId": "NCT02485418",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-01-06",
+    "uploadDate": "2023-12-29T16:06",
+    "size": 960847,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02485418/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-06",
+    "completionDate": "2023-01-24",
+    "primaryCompletionDate": "2023-01-24",
+    "firstSubmitDate": "2015-06-04",
+    "firstPostDate": "2015-06-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with a diagnosis of migraine headache per ICHD - 3 (International Classification of Headache Disorders)\n* The subjects will have a history of migraine headaches with a presentation consistent with presentations of their headaches in the past with no indication for further investigation for secondary causes of his/her headache\n* Documented pain score greater than or equal to 6 on a 0-10 Numeric Pain Rating Scale\n* Current migraine has a greater than 24 hours duration with a current pain score of 6 or greater on a 0-10 Numeric Pain Rating Scale\n* Subjects will be scheduled for DHE infusion therapy for treatment of migraines per standard medical care\n* Patients age 7-18 years old\n* Gender: both male and female\n* Appropriate fasting interval as per ASA guidelines\n\nExclusion Criteria:\n\n* No long acting triptan therapy within 24 hours\n* No shorter acting triptan therapy within 6 hours\n* No ergot alkaloid derivatives within the last 24 hours\n* No opioid within 2 hours\n* No NSAID or acetaminophen within 1 hour of infusion\n* Use of sedative medications within 6 hours of infusion, including opioids, benzodiazepines, barbiturates\n* Headache not consistent with subject's headache history needing further work-up\n* Headache duration less than 24 hours\n* Subjects in which an intravenous line could not be secured\n* Subjects with history of significant reflux or hiatal hernia\n* Subjects with history of significant cardio pulmonary disorders\n* Patient not fasting as per ASA guidelines",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "7 Years",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Improvement in Headache Pain Score",
+        "description": "Change in pain score on 0-10 Numeric Pain Rating Scale with 0 being no pain and 10 being severe pain. Subjects assessed at 10 minute intervals for the duration of the infusion with reporting of change from baseline to 60 minutes",
+        "timeFrame": "Duration of propofol infusion (between 5 and 60 minutes)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "NPRS Pain Scores at 24 and 48 Hours Post Infusion",
+        "description": "For subjects who experience a change in pain score or who report resolution from headache symptoms, duration of analgesia up to 48 hours after treatment,characterized by NPRS Pain scores on a scale of 0-10 with 0 being no pain and 10 being severe pain.",
+        "timeFrame": "Assessments of NPRS Pain scores on a scale of 0-10 with 0 being no pain and 10 being severe pain at 24 and 48 hours after discharge from infusion"
+      },
+      {
+        "measure": "Total Propofol Dose",
+        "description": "Total dose of propofol administered (mg/kg)",
+        "timeFrame": "60 minutes"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:52.537Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

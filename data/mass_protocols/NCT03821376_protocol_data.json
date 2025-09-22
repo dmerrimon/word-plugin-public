@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT03821376",
+  "briefTitle": "Correlation of Renal Mass Pathologic Grade and Contrast Enhanced Ultrasound (CEUS)",
+  "officialTitle": "Correlation of Contrast Enhanced Ultrasound of Renal Masses With Pathologic Grade: A Prospective Comparison of Quantitative and Qualitative Findings",
+  "protocolDocument": {
+    "nctId": "NCT03821376",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-09-03",
+    "uploadDate": "2024-09-12T14:48",
+    "size": 258842,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03821376/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-07-16",
+    "completionDate": "2021-09-21",
+    "primaryCompletionDate": "2021-09-21",
+    "firstSubmitDate": "2019-01-25",
+    "firstPostDate": "2019-01-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Greater than or equal to 18 years of age\n* Previously identified renal mass with radiology and clinical features consistent with RCC\n* Clinical care plan includes partial or total nephrectomy\n\nExclusion Criteria:\n\n* Less than 18 years of age\n* Currently pregnant\n* Renal mass with clinical care plan that does not include nephrectomy\n* Renal mass suspected to be non RCC neoplasm by imaging and clinical data\n* Renal mass unable to be visualized by grayscale ultrasound\n* Known renal vein thrombosis",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Contrast Enhanced Ultrasound Features of Renal Masses (Time to Peak, Mean Transit Time)",
+        "description": "Ultrasound images will be reviewed for quantitative post contrast features (time to peak, mean transit time)",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Contrast Enhanced Ultrasound Features of Renal Masses (Peak Intensity)",
+        "description": "Ultrasound images will be reviewed for quantitative post contrast features. Specifically peak intensity, which is measured in \"enhancement units.\" A higher value represents more blood flow to the renal mass.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-21T22:34:13.771Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

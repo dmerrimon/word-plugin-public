@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT02674529",
+  "briefTitle": "Study of Neural Responses Induced by Antidepressant Effects",
+  "officialTitle": "Study of Neural Responses Induced by Simulated Antidepressants",
+  "protocolDocument": {
+    "nctId": "NCT02674529",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-06-29",
+    "uploadDate": "2022-06-30T15:03",
+    "size": 142650,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02674529/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-09",
+    "completionDate": "2021-05",
+    "primaryCompletionDate": "2021-05",
+    "firstSubmitDate": "2016-01-22",
+    "firstPostDate": "2016-02-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* A man or woman age of 18 or older.\n* Currently experiencing a depressive episode as part of Major Depressive Disorder.\n* Able to tolerate lying still on your back for 60 minutes at a time.\n* Have had no more than one failed antidepressant trial of adequate dose and duration.\n* Have been antidepressant medication-free for at least 21 days prior to collection of imaging data (5 weeks for fluoxetine)\n\nExclusion Criteria:\n\n* Are currently taking any psychiatric medication, or any potentially augmenting or sedative drugs.\n* Have a history of inadequate response/tolerability to escitalopram; or history of resistant depression\n* Pregnant or breastfeeding or plan to become pregnant over the duration of the study.\n* Have a history (lifetime) of psychotic depressive, schizophrenic, bipolar, schizoaffective, or other Axis I psychotic disorders.\n* Meet criteria for substance dependence in the last 6 months, except nicotine, or substance abuse in the last 2 months.\n* Have a medical condition that contradicts treatment with escitalopram.\n* Are currently receiving psychotherapy or any other treatment for your depression.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Montgomery-Åsberg Depression Rating Scale (MADRS) Scores",
+        "description": "The Montgomery-Åsberg Depression Rating Scale (MADRS) is a ten-item diagnostic questionnaire which psychiatrists use to measure the severity of depressive episodes in patients with mood disorders. It was designed in 1979 by British and Swedish researchers as an adjunct to the Hamilton Rating Scale for Depression (HAMD) which would be more sensitive to the changes brought on by antidepressants and other forms of treatment than the Hamilton Scale was.\\[2\\] There is, however, a high degree of statistical correlation between scores on the two measures.",
+        "timeFrame": "baseline and week 8"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Quick Inventory of Depressive Symptomatology (QIDS) Scores",
+        "description": "The Quick Inventory of Depressive Symptomatology (QIDS) is a 16-item, self-reported measure of depression that ranges from 1 (no depression) to 27 (very severe depression).",
+        "timeFrame": "baseline and 8 weeks"
+      },
+      {
+        "measure": "Neural Responses During the Sham Neurofeedback fMRI Task.",
+        "description": "Voxel-wise BOLD changes during the expectancy condition of the Sham Neurofeedback fMRI task.",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:17.838Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

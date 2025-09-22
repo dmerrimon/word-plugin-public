@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT03443388",
+  "briefTitle": "Novel Helmet Design in Patients With Seizures",
+  "officialTitle": "A Pilot Study of the Safety of a Novel Helmet Design in Patients With Seizures",
+  "protocolDocument": {
+    "nctId": "NCT03443388",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-08",
+    "uploadDate": "2024-10-18T11:35",
+    "size": 422525,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03443388/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-08-14",
+    "completionDate": "2020-03-20",
+    "primaryCompletionDate": "2019-12-15",
+    "firstSubmitDate": "2018-02-07",
+    "firstPostDate": "2018-02-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nPart 1:\n\n1. Age 18-60 at the time of enrollment.\n2. Have neck circumference between 34 and 42 cm.\n3. Can understand and provide written informed consent.\n4. Must be competent to follow all study procedures.\n5. Able to read, speak, and understand English.\n\nPart 2:\n\n1. Have at least one seizure every 6 months that might result in a fall (Generalized Tonic Clonic Seizure, Atonic Seizure, and/or Complex Partial Seizure resulting in a fall).\n2. Has a seizure frequency of at least once per 2 months.\n3. Be between ages 18-65 at the time of enrollment.\n4. Have neck circumference between 34 and 42 cm\n5. Must live in a home with electrical power supply.\n6. If female and of childbearing potential, has negative pregnancy test at the beginning of the study and willing to use appropriate birth control for the duration of the study.\n7. Can understand and sign written informed consent.\n8. Must be competent to follow all study procedures.\n9. Able to read, speak, and understand English.\n\nExclusion Criteria:\n\nPart 1:\n\n1\\. Subject is currently pregnant\n\nPart 2:\n\n1. Patient already wears a helmet for seizure safety.\n2. Subject is pregnant, planning to become pregnant during the study, or is unwilling to use an appropriate form of birth control during the study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Part 1: Number of Successful Deployments",
+        "description": "3 out of 4 successful deployments was set as a criteria to allow advancement to part 2.",
+        "timeFrame": "1 day"
+      },
+      {
+        "measure": "Part 2: Helmet Deployment Questionnaire",
+        "description": "Differences in Helmet Deployment Questionnaire responses will be compared between subjects wearing helmets during a seizure, and subjects not wearing helmets during a seizure.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Rivermead Post Concussive Scale",
+        "description": "Differences in head injury symptoms as reported using the Rivermead Post Concussive Scale will be compared between subjects wearing helmets during a seizure, and subjects not wearing helmets during a seizure, and also between subjects following a seizure in which the helmet deployed, and seizures in which the helmet was either not being worn or did not deploy. The scale for each item of this survey: 0 = not experienced at all 1 = no more of a problem 2 = a mild problem 3 = a moderate problem 4 = a severe problem. Each item was assessed as \"compared with before the accident, do you now (i.e., over the last 24 hours) suffer from:\" or \"Are you experiencing any other difficulties?\" with a write in option with the same scale. A lower score on each item is better, indicating lesser symptom severity compared to prior to falling with or without the helmet. The score for each item is summed to obtain each patient's total, indicative of total symptom severity. Total range from 0 - 72.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Seizure Questionnaire",
+        "description": "Differences in Seizure Questionnaire responses detailing circumstances of seizure and any injuries sustained will be compared between subjects wearing helmets during a seizure, and subjects not wearing helmets during a seizure, and also between subjects following a seizure in which the helmet deployed, and seizures in which the helmet was either not being worn or did not deploy.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Injury-related Medical Record Review",
+        "description": "Differences in injuries resulting from a seizure per injury-related medical record review will be compared between subjects wearing helmets during a seizure, and subjects not wearing helmets during a seizure, and also between subjects following a seizure in which the helmet deployed, and seizures in which the helmet was either not being worn or did not deploy.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Helmet Deployment Questionnaire (Seizure/Not Seizure)",
+        "description": "Differences in helmet deployment questionnaire responses describing events of helmet deployment during seizures resulting in falls will be compared with responses describing helmet deployment (per day of use) not associated with seizure.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:50.388Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

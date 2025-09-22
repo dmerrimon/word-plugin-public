@@ -1,0 +1,143 @@
+{
+  "nctId": "NCT06199934",
+  "briefTitle": "Effectiveness of BNT162b2 Formulations Using State Vaccine Registry and Insurance Claims Data",
+  "officialTitle": "Effectiveness of BNT162b2 Formulations Using State Vaccine Registry and Insurance Claims Data",
+  "protocolDocument": {
+    "nctId": "NCT06199934",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-11-17",
+    "uploadDate": "2025-07-31T13:49",
+    "size": 5878366,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06199934/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 19853610,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-09-11",
+    "completionDate": "2024-07-31",
+    "primaryCompletionDate": "2024-07-31",
+    "firstSubmitDate": "2023-12-18",
+    "firstPostDate": "2024-01-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* People with at least one year of pharmacy and medical enrollment in HealthVerity prior to vaccine availability\n* State of California or Louisiana resident for at least one year\n\nExclusion criteria:\n\n* People currently pregnant,\n* Individuals with discrepancies in sex and/or year of birth between HealthVerity claims and California/Louisiana immunization registry datasets\n* A diagnosis of COVID-19 in any setting ≤ 90 days prior to start of study or receipt COVID-19 vaccine ≤ 90 days prior to start of study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants COVID-19 Diagnosis",
+        "description": "Number of participants diagnosed with COVID-19 were reported in this outcome measure.",
+        "timeFrame": "From date of FDA authorization/approval of BNT162b2 until end of follow-up (maximum of 6 months)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With an Outpatient Encounter",
+        "description": "Outpatient encounter was considered as an encounter with International Classification of Diseases, Tenth Revision, Clinical Modification (ICD-10-CM) code: U07.1.",
+        "timeFrame": "From date of FDA authorization/approval of BNT162b2 until end of follow-up (maximum of 6 months)"
+      },
+      {
+        "measure": "Number of Participants With an Inpatient Encounter",
+        "description": "Inpatient encounter was considered as an encounter with ICD-10-CM code: U07.1.",
+        "timeFrame": "From date of FDA authorization/approval of BNT162b2 until end of follow-up (maximum of 6 months)"
+      },
+      {
+        "measure": "Number of Participants With Emergency Department Encounter",
+        "description": "Number of emergency department encounter was considered as an encounter with ICD-10-CM code: U07.1.",
+        "timeFrame": "From date of FDA authorization/approval of BNT162b2 until end of follow-up (maximum of 6 months)"
+      },
+      {
+        "measure": "Number of Participants With COVID-19 Critical Illness",
+        "description": "COVID-19 critical illness was defined as intensive care unit \\[ICU\\] admission, mechanical ventilation, or inpatient death.",
+        "timeFrame": "From date of FDA authorization/approval of BNT162b2 until end of follow-up (maximum of 6 months)"
+      },
+      {
+        "measure": "Number of Participants With Non-COVID-19 Respiratory Infection",
+        "description": "Non-COVID-19 respiratory infection included: diagnosis of any of pneumonia, respiratory syncytial virus (RSV), rhinovirus and/or receipt of antibiotic prescription.",
+        "timeFrame": "From date of FDA authorization/approval of BNT162b2 until end of follow-up (maximum of 6 months)"
+      },
+      {
+        "measure": "Number of Participants With Negative Control Outcomes",
+        "description": "Negative outcomes included: accidental injury, ingrown toenail and atopic dermatitis. Number of participants with any negative control outcomes were reported in this outcome measure.",
+        "timeFrame": "From date of FDA authorization/approval of BNT162b2 until end of follow-up (maximum of 6 months)"
+      },
+      {
+        "measure": "Total Costs of All-cause Hospitalizations From Administrative Healthcare Claims Dataset",
+        "timeFrame": "From 1 month after index date (hospitalization date) until end of follow-up (Up to 4 months)"
+      },
+      {
+        "measure": "Average Length of Stay (LOS)",
+        "description": "Average length of stay was defined as date of service end minus date of service start.",
+        "timeFrame": "From 1 month after index date (hospitalization date) until end of follow-up (Up to 4 months)"
+      },
+      {
+        "measure": "Number of Participants With ICU Admission Are Included in This Outcome Measure.",
+        "description": "Percentage of participants with ICU admission within 30 Days of follow-up are included in this outcome measure.",
+        "timeFrame": "From 1 month after index date (hospitalization date) until end of follow-up (Up to 4 months)"
+      },
+      {
+        "measure": "Number of Participants Who Received High-flow Oxygen or Mechanical Ventilation (MV)",
+        "timeFrame": "From 1 month after index date (hospitalization date) until end of follow-up (Up to 4 months)"
+      },
+      {
+        "measure": "Number of Participants With Inpatient Mortality",
+        "timeFrame": "From 1 month after index date (hospitalization date) until end of follow-up (Up to 4 months)"
+      },
+      {
+        "measure": "Number of Participants Who Received Antiviral Treatment",
+        "description": "Number of participants who received antiviral COVID treatment is reported.",
+        "timeFrame": "From 1 month after index date (hospitalization date) until end of follow-up (Up to 4 months)"
+      },
+      {
+        "measure": "Mean Cost of All-cause Healthcare From Administrative Healthcare Claims Dataset",
+        "timeFrame": "From 1 month after index date (hospitalization date) until end of follow-up (Up to 4 months)"
+      },
+      {
+        "measure": "All-cause Healthcare Resource Utilization as The Total Number of Encounters, Regardless of Setting, Using Data From Administrative Healthcare Claims Dataset",
+        "timeFrame": "From 1 month after index date (hospitalization date) until end of follow-up (Up to 4 months)"
+      },
+      {
+        "measure": "Number of Participants With COVID-19-Related Hospitalization",
+        "timeFrame": "From 1 month after index date (hospitalization date) until end of follow-up (Up to 4 months)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 15,
+      "otherCount": 0,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:41.822Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

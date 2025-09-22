@@ -1,0 +1,122 @@
+{
+  "nctId": "NCT04356690",
+  "briefTitle": "Etoposide in Patients With COVID-19 Infection",
+  "officialTitle": "A Phase II Single-Center, Randomized, Open-Label, Safety and Efficacy Study of Etoposide in Patients With COVID-19 Infection",
+  "protocolDocument": {
+    "nctId": "NCT04356690",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-18",
+    "uploadDate": "2023-04-21T16:04",
+    "size": 780520,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04356690/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 8,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-08",
+    "completionDate": "2022-07-01",
+    "primaryCompletionDate": "2022-07-01",
+    "firstSubmitDate": "2020-04-17",
+    "firstPostDate": "2020-04-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Confirmed COVID-19 infection\n* Evidence of cytokine storm defined as:\n\n  * Peak ferritin \\> 10,000 ng/mL OR\n  * Peak ferritin \\> 500 ng/mL and one or more of the following at any time during hospital admission: Lactate dehydrogenase \\> 500 U/L, d-dimer \\>1000 ng/mL, C-reactive protein \\> 100 mg/L, or white blood count\\> 15 k/microlitre\n\nCohort 1: Intubated status as a result of COVID infection-associated respiratory illness.\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding\n* History of severe hypersensitivity to etoposide products\n* Absolute neutrophil count (ANC) \\< 1000 cells/mm3\n* Platelet count \\<50,000/mm3\n* Bilirubin \\> 3.0 mg/dL\n* Aspartate OR alanine aminotransferase \\> 5.0 x upper limit of normal\n* Creatinine Clearance \\< 15 mL/min (calculated by Cockcroft Fault formula)\n* Requiring continuous renal replacement therapy\n* Requiring \\>1 vasopressor\n* Requiring extracorporeal membrane oxygenation (ECMO)\n* Other active, life-threatening infections\n* Anti-cytokine treatment (including anakinra or Interleukin 6 antibodies eg tocilizumab, sarilumab) administration within three half-lives of the medication used\n* Hydroxychloroquine, colchicine, azithromycin, doxycycline-if administered for COVID infection-must be discontinued for at least 24 hours prior to randomization.\n* Has a history or current evidence of any condition, therapy or laboratory abnormality that might confound the results of the study, interfere with subject participation, or is not in the best interest of the patient to participate, in the opinion of the investigator.\n* Inability to consent and no legally authorized representative\n* Poorly controlled HIV infection (CD4 count \\<100 cells/mm3)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Improvement in Pulmonary Status by Two Categories on an 8 Point Ordinal Scale of Respiratory Function",
+        "description": "8-Point Ordinal Scale of Respiratory Function: 8 -Death; 7 -Ventilation in addition to extracorporeal membrane oxygen (ECMO), continuous renal replacement therapy (CRRT), or need for vasopressors (dopamine ≥5 μg/kg/min OR epinephrine ≥0.1 μg/kg/min OR norepinephrine ≥0.1 μg/kg/min) 6 -Intubation and mechanical ventilation 5 -Non-invasive mechanical ventilation (NIV) or high-flow oxygen 4 -Hospitalized, requiring oxygen by mask or nasal prongs 3 -Hospitalization without oxygen supplementation 2-Discharged from hospital either to home with supplemental oxygen OR to inpatient rehabilitation/skilled nursing facility(+/-supplemental oxygen);\n\n1 -Discharged to home without supplemental oxygen",
+        "timeFrame": "baseline, through hospital discharge or death"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Survival",
+        "description": "Number of participants that lived to day 30 or hospital discharge",
+        "timeFrame": "30 Days"
+      },
+      {
+        "measure": "Length of Hospitalization",
+        "description": "Number of days participants were hospitalized after treatment",
+        "timeFrame": "From date of enrollment until date of discharge"
+      },
+      {
+        "measure": "Duration of Ventilation After Treatment",
+        "description": "Number of days participants were ventilated after treatment",
+        "timeFrame": "From date of enrollment until the date of extubation"
+      },
+      {
+        "measure": "Change in Blood Ferritin Levels",
+        "description": "Change in ferritin from treatment to day 30",
+        "timeFrame": "baseline, to day 30 (or discharge or death)"
+      },
+      {
+        "measure": "Change in C-reactive Protein (CRP) Levels",
+        "description": "Change in CRP levels from treatment to day 30",
+        "timeFrame": "baseline, to day 30 (or discharge or death)"
+      },
+      {
+        "measure": "Change in D-dimer Blood Levels",
+        "description": "Change in d-dimer from treatment to day 30",
+        "timeFrame": "baseline, to day 30 (or discharge or death)"
+      },
+      {
+        "measure": "Change in White Blood Cell Count",
+        "description": "Change in white blood cell count from treatment to day 30",
+        "timeFrame": "baseline, to day 30 (or discharge or death)"
+      },
+      {
+        "measure": "Change in Platelet Count",
+        "description": "Change in platelet count from treatment to day 30",
+        "timeFrame": "baseline, to day 30 (or discharge or death)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:39.098Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

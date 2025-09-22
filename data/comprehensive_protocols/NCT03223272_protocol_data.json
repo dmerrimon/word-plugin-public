@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT03223272",
+  "briefTitle": "Mechanisms of Refractory Hypertension (Reserpine)",
+  "officialTitle": "Mechanisms of Refractory Hypertension (Reserpine)",
+  "protocolDocument": {
+    "nctId": "NCT03223272",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-11-02",
+    "uploadDate": "2021-11-02T09:43",
+    "size": 416028,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03223272/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-07-23",
+    "completionDate": "2020-01-31",
+    "primaryCompletionDate": "2020-01-31",
+    "firstSubmitDate": "2017-07-17",
+    "firstPostDate": "2017-07-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\- adult with refractory hypertension defined as uncontrolled office blood pressure with use of 5 or more hypertensive agents, including a thiazide diuretic and spironolactone\n\nExclusion Criteria:\n\n* congestive heart failure (EF 40%)\n* chronic kidney disease (GFR \\<40 ml/min/1.73 mm)\n* stroke and/or myocardial infarction or acute CHF exacerbation within last 3 months\n* ongoing depression\n* active peptic ulcer disease\n* bradycardia \\<50 beats per minute\n* 2nd or 3rd degree heart block\n* known intolerance of reserpine\n* use of digoxin or tricycle antidepressants",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "19 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change Ambulatory Systolic Blood Pressure",
+        "description": "Twenty-four hour ambulatory systolic blood pressure",
+        "timeFrame": "Baseline and 8 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:13.790Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

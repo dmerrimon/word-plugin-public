@@ -1,0 +1,96 @@
+{
+  "nctId": "NCT04137731",
+  "briefTitle": "Use of Interferential Current (IFC) Therapy After Total Knee Arthroplasty",
+  "officialTitle": "The Effect of Short Term Patient Outcomes With the Use of Interferential Current Therapy After Total Knee Arthroplasty",
+  "protocolDocument": {
+    "nctId": "NCT04137731",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-12-03",
+    "uploadDate": "2023-08-08T11:00",
+    "size": 227766,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04137731/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-12-05",
+    "completionDate": "2022-08-15",
+    "primaryCompletionDate": "2022-08-15",
+    "firstSubmitDate": "2019-10-22",
+    "firstPostDate": "2019-10-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:Adult patients with knee osteoarthritis who have failed conservative therapy and undergoing elected TKA.\n\n\\-\n\nExclusion Criteria:\n\ni. \\<18 years old ii. Any patient with pacemaker or any electrical stimulator device iii. Patients without capacity to consent for the study iv. Patients not able to have local nerve block or spinal anesthesia v. Patients with prior chronic opioid use vi. Patients who are categorized to have 'Severe' fear and anxiety responses to pain, according to the Pain catastrophizing scale (PCS) survey.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Post-operative Opioid Pain Medication Usage",
+        "description": "Post-operative opioid pain medication usage was assessed by tabulating opioid use during the hospital stay after Total Knee Arthroplasty (TKA) as determined by median morphine milligram equivalents (MME).",
+        "timeFrame": "24 hours after surgery"
+      },
+      {
+        "measure": "Post-operative Opioid Pain Medication Usage",
+        "description": "Post-operative opioid pain medication usage was assessed by tabulating opioid use during the hospital stay after Total Knee Arthroplasty (TKA) as determined by median MME (morphine milligram equivalents).",
+        "timeFrame": "48 hours after surgery"
+      },
+      {
+        "measure": "Visual Pain Score (VAS)",
+        "description": "VAS asks a patient to mark a place on a scale that aligns with their level of pain smiley face 0=No pain - sad face 10=worst pain",
+        "timeFrame": "24 Hours after surgery"
+      },
+      {
+        "measure": "Visual Pain Score",
+        "description": "VAS asks a patient to mark a place on a scale that aligns with their level of pain smiley face 0=No pain - sad face 10=worst pain",
+        "timeFrame": "48 Hours after surgery"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:59.192Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

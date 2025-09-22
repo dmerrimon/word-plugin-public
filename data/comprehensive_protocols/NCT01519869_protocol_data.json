@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT01519869",
+  "briefTitle": "Trial of Chemotherapy in Ovarian, Fallopian Tube and Peritoneal Carcinoma",
+  "officialTitle": "Neoadjuvant Platinum-based Chemotherapy in Advanced Ovarian, Fallopian Tube, and Primary Peritoneal Carcinoma Trial Protocol",
+  "protocolDocument": {
+    "nctId": "NCT01519869",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-11-11",
+    "uploadDate": "2020-11-10T14:21",
+    "size": 598987,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01519869/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 28,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-03",
+    "completionDate": "2019-10-11",
+    "primaryCompletionDate": "2019-10-11",
+    "firstSubmitDate": "2012-01-18",
+    "firstPostDate": "2012-01-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with biopsy proven stage IIIC/IV epithelial ovarian cancer, primary peritoneal, fallopian tube carcinoma. If a core biopsy is not possible, fine-needle aspirate showing adenocarcinoma is acceptable in the setting of a pelvic mass and presence of metastasis outside the pelvis measuring at least 2 cm, regional lymph-node metastasis or proof of stage IV disease, and ratio of CA 125 to CEA greater than 25. If CA 125 to CEA ratio is 25 or lower, barium enema, gastroscopy, and mammography must be negative.\n* Patients must have adequate:\n\n  * Bone marrow function: Absolute neutrophil count (ANC) greater than or equal to 1,500/μl, equivalent to Common Toxicity Criteria for Adverse Events v3.0(CTCAE) Grade 1. This ANC cannot have been induced or supported by granulocyte colony stimulating factors.\n  * Platelets greater than or equal to 100,000/μl, CTCAE Grade 0-1. Renal function: Creatinine ≤1.5 x institutional upper limit of normal ULN), CTCAE Grade 1.\n  * Hepatic function: Bilirubin ≤ 1.5 x ULN, CTCAE Grade 1.SGOT and alkaline phosphatase ≤ 2.5 x ULN, CTCAE Grade 1.\n  * Neurologic function: Neuropathy (sensory and motor) less than or equal to CTCAE Grade 1.\n  * Blood coagulation parameters: PT such that international normalized ratio (INR) is ≤ 1.5 (or an in-range INR, usually between 2 and 3, if a patient is on a stable dose of therapeutic warfarin for management of venous thrombosis) and a PTT \\<1.2 x ULN.\n* Patients must have a World Health Organization Performance Status ≤2.\n* Patients must be a candidate for surgery.\n* An approved informed consent must be signed by the patient.\n\nExclusion Criteria:\n\n* Patients who have received prior radiotherapy to any portion of the abdominal cavity or pelvis are excluded. Prior radiation for localized cancer of the breast, head and neck, or skin is permitted, provided that it was completed more than three years prior to registration, and the patient remains free of recurrent or metastatic disease.\n* Patients who have received prior chemotherapy for any abdominal or pelvic tumor are excluded. Patients may have received prior adjuvant chemotherapy for localized breast cancer, provided that it was completed more than three years prior to registration, and that the patient remains free of recurrent or metastatic disease.\n* Patients with a known synchronous primary endometrial cancer, or a past history of primary endometrial cancer, are excluded, unless all of the following conditions are met: Stage not greater than IA, no more than superficial myometrial invasion, without vascular or lymphatic invasion, no poorly differentiated subtypes (including papillary serous, clear cell or other FIGO Grade 3 lesions).\n* With the exception of non-melanoma skin cancer and other specific malignancies noted above, patients with other invasive malignancies who had (or have) any evidence of the other cancer present within the last five years or whose previous cancer treatment contraindicates this therapy are excluded.\n* Patients with acute hepatitis or active infection that requires parenteral antibiotics are excluded.\n* Patients with World Health Organization Performance Status of 3 or 4.\n* Patients who are pregnant or nursing.\n* Patients under the age of 18.\n* Patients with a pelvic mass of any size that is causing pain, or other subjective symptoms that are intolerable to the patient.\n* Patients who are not candidates for interval surgical debulking secondary to significant medical comorbidities.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Patients That Achieve Maximal Surgical Debulking",
+        "description": "Percentage of patients that achieve maximal surgical debulking as defined by no gross residual disease following a Simon's 2-stage design.",
+        "timeFrame": "5 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:50.895Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

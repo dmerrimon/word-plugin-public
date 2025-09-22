@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT06256146",
+  "briefTitle": "Investigating Modified Protocols of Oral Immunotherapy to Validate Efficacy and Safety",
+  "officialTitle": "Investigating Modified Protocols of Oral Immunotherapy to Validate Efficacy and Safety",
+  "protocolDocument": {
+    "nctId": "NCT06256146",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-11-22",
+    "uploadDate": "2021-12-10T13:16",
+    "size": 1033071,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06256146/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 360,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-03-01",
+    "completionDate": "2030-02-28",
+    "primaryCompletionDate": "2030-02-28",
+    "firstSubmitDate": "2023-07-06",
+    "firstPostDate": "2024-02-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* A history suggestive of immediate allergy to the food. A convincing clinical history of an IgE mediated reaction to a specific food will be defined as a minimum of 2 mild signs/symptoms or 1 moderate or 1 severe sign/symptom that was likely IgE mediated and occurred within 120 minutes after ingestion or contact\n* The presence of at least one of the following confirmatory tests:\n\n  * Positive SPT to the culprit food allergen (weal diameter 3 mm larger than that of the normal saline control). The allergens used will be commercial extracts of the foods (Omega Labs, Toronto, Ontario).\n  * Detection of serum specific IgE (\\>0.35 kU/L) to the culprit food or any of its proteins, measured by fluorescence enzyme immunoassay (Phadia, CAP System, Uppsala, Sweden).\n\nExclusion Criteria:\n\n* Patients who have uncontrolled respiratory disease (asthma, cystic fibrosis, etc.)\n* Patients who present with intercurrent disease active at the time of starting desensitization.\n* Non IgE mediated or non-immunological adverse reactions to milk or peanuts.\n* Malignant or immunopathological diseases and/or severe primary or secondary immune deficiencies.\n* Patients receiving oral immunosuppressor therapy.\n* Patients receiving β-blockers (including topical formulations), or who receive daily doses of NSAIDs, aspirin or ACE inhibitors for cardiac issues.\n* Associated diseases contraindicating the use of epinephrine: cardiovascular disease, severe hypertension or hypotension.\n* Patients diagnosed with eosinophilic gastrointestinal disorders, including patients with a history of antacid use for reflux related to food impaction or with a history of esophageal spasm.\n* Patients already tolerating processed/cooked forms of the food (e.g.,baked goods with milk).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "40 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Rate of anaphylaxis in different Oral Immunotherapy protocols",
+        "description": "Do participants in the different study arms experience similar rates of anaphylaxis during their participation in the study? Anaphylaxis is defined as an allergic reaction to the food the subject is allergic to, that involves symptoms in two of the following organ systems: skin, respitratory, gastro-enterologic or neurologic.The Consortium for Food Allergy Research (CoFAR) grading scale will be used for assessing severuty of allergic symptoms",
+        "timeFrame": "3 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Efficacy of different Oral Immunotherapy protocols",
+        "description": "Do participants in the three study arms experience similar levels of desensitization to their allergen? This will be assessed by a Double-Blind Placebo Controlled Oral Food Challenge (DBPCFC). Doses of allergen that elicit symptoms strong enough to end the challenge will be compared between the three groups. Symptom severity will be graded using the CoFAR grading scale.",
+        "timeFrame": "3 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:45.295Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

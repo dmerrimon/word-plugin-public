@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT03782402",
+  "briefTitle": "Cannabinoids for Taxane Induced Peripheral Neuropathy",
+  "officialTitle": "The Effect of Dispensed Cannabis on Taxane Induced Peripheral Neuropathy",
+  "protocolDocument": {
+    "nctId": "NCT03782402",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2021-08-23",
+    "uploadDate": "2022-08-02T11:33",
+    "size": 1312688,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03782402/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-01",
+    "completionDate": "2021-08-30",
+    "primaryCompletionDate": "2021-08-30",
+    "firstSubmitDate": "2018-12-18",
+    "firstPostDate": "2018-12-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 1\\) Participants with breast cancer, experiencing TIPN due to paclitaxel or docetaxel.\n* 2\\) Participants must have an ECOG score of 2 or better. Participants must have a score of 2 or 3 score for sensory neuropathy, as assessed by the Common Toxicity Criteria Adverse Events (CTCAE).\n* 3\\) Able to give informed consent and comply with all study procedures.\n\nExclusion Criteria:\n\n* 1\\) Diagnosis of a major medical, neurological, or psychiatric disorder that would preclude study participation.\n* 2\\) Women who are not practicing an effective form of birth control (condoms, diaphragm, birth control pill, IUD) or currently pregnant.\n* 3\\) Subjects taking warfarin.\n* 4\\) Subjects with orthostatic hypotension, hypertension, cardiovascular disease, or neurodegenerative disorders.",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "21 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Brief Pain Inventory-Short Form (BPI)",
+        "description": "This is a standard questionnaire to measure pain.It is used to evaluate pain through a number of different scales. Patients fill out 11 different questions that ask about pain intensity (present and least, most, and average for the past 24 hours) and the effect of the pain on the ability to function during various activities of daily living. Higher number is worse. range is 0 to 10",
+        "timeFrame": "value at the later time (8 weeks) point minus the value at the earlier time point (baseline)"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "Functional Assessment of Cancer Therapy Taxane",
+        "timeFrame": "Baseline and weekly until end of study."
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 1,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 41,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:52.505Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

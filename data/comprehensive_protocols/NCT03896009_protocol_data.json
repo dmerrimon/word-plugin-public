@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT03896009",
+  "briefTitle": "Maximizing Outcomes in Treating Acute Migraine",
+  "officialTitle": "MOMENTUM: A Randomized, Double-blind, Single-dose, Placebo-controlled Study to Assess the Efficacy and Safety of AXS-07 (Meloxicam and Rizatriptan) for the Acute Treatment of Migraine in Adults",
+  "protocolDocument": {
+    "nctId": "NCT03896009",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-01-16",
+    "uploadDate": "2022-12-07T23:53",
+    "size": 822393,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03896009/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1594,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-04",
+    "completionDate": "2019-12-10",
+    "primaryCompletionDate": "2019-12-10",
+    "firstSubmitDate": "2019-03-15",
+    "firstPostDate": "2019-03-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Has an established diagnosis of migraine with or without aura.\n* Has experienced an inadequate response to prior acute treatments.\n\nKey Exclusion Criteria:\n\n* Has previously received any investigational drug or device or investigational therapy within 30 days before Screening.\n* Pregnant, breastfeeding, or planning to become pregnant or breastfeed during the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Subjects Reporting Headache Pain Freedom",
+        "description": "Absence of headache pain. AXS-07 vs Placebo.",
+        "timeFrame": "Hour 2 following dose administration"
+      },
+      {
+        "measure": "Percentage of Subjects With Absence of Most Bothersome Symptom",
+        "description": "Absence of most bothersome symptom, defined at the onset of migraine. AXS-07 vs Placebo.",
+        "timeFrame": "Hour 2 following dose administration"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:53.784Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

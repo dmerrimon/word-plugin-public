@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT07171944",
+  "briefTitle": "Effects of Artificial Intelligence Nurse Orientation Program on Psychological Outcomes and Length of Hospital Stay in Intensive Care Unit",
+  "officialTitle": "Effects of AINurse Orientation Program on Psychological Outcomes and Length of Hospital Stay: A Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT07171944",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2025-09-01",
+    "uploadDate": "2025-09-10T03:01",
+    "size": 121031,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07171944/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 10,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-11-01",
+    "completionDate": "2026-11-01",
+    "primaryCompletionDate": "2026-11-01",
+    "firstSubmitDate": "2025-09-02",
+    "firstPostDate": "2025-09-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Intensive care unit confusion assessment scale (CAM-ICU scale) score of 0-2\n* Age 18 years or older\n* Hospitalized in the intensive care unit for at least 24 hours\n* Glasgow coma scale score of 13-14-15 points\n* Richmond Agitation Sedation Scale (RASS) score between -1 and +1\n* No hearing problems\n\nExclusion Criteria:\n\n* Intensive care unit confusion assessment scale (CAM-ICU scale) score of 6-7\n* Any psychiatric illness or impaired brain function\n* Defined hearing loss\n* Advanced dementia\n* Younger than 18 years of age\n* Richmond Agitation Sedation Scale (RASS) score outside the range of -1 to +1\n* Who use sedative medication\n* History of surgery or disease around the ear",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Delirium-free days",
+        "description": "The Confusion Assessment Method for the Intensive Care Unit (CAM-ICU) scale will be used to assess delirium-free days. CAM-ICU is utilized to assess the presence of delirium in critically ill patients. The CAM-ICU evaluates four key features in critically ill patients: (1) acute onset or fluctuating course of mental status, (2) inattention, (3) altered level of consciousness, and (4) disorganized thinking. A positive diagnosis of delirium is made when the first two criteria are present, along with either the third or fourth. The scale yields a total score ranging from 0 to 7, with interpretive cut-off points as follows: 0-2 indicating no delirium, 3-5 suggesting mild to moderate delirium, and 6-7 indicating severe delirium.",
+        "timeFrame": "Before randomization, patients will be screened for delirium before being selected for the study.Patients scoring between 0 and 2 points will be included in the study. Subsequently, patients will be monitored for 3 days, with delirium assessed twice day."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Level of anxiety and depression",
+        "description": "Anxiety and depression, which can trigger delirium in patients, are assessed using the Hospital Anxiety and Depression Scale (HADS). HADS assesses the severity and risk of anxiety and depression in hospitalized patients. The scale consists of 14 items in a 4-point Likert format.Items 1, 3, 5, 6, 8, 10, 11, and 13 are reverse scored (3, 2, 1, 0), while items 2, 4, 7, 9, 12, and 14 are scored progressively (0, 1, 2, 3). Subscale scores are obtained by summing the relevant items: questions 1, 3, 5, 7, 9, 11, and 13 for the anxiety subscale (HAD-A), and questions 2, 4, 6, 8, 10, 12, and 14 for the depression subscale (HAD-D). In the Turkish adaptation, the cut-off scores were identified as 10/11 for the anxiety subscale and 7/8 for the depression subscale. Scores exceeding these thresholds indicate a risk of clinically significant anxiety or depression.",
+        "timeFrame": "It will be evaluated before and after the training for three days."
+      },
+      {
+        "measure": "Length of stay in the intensive care unit",
+        "description": "Patients will be followed up until discharge after the application to examine the effect of the planned Human Nurse and AINurse training on the length of stay in the intensive care unit.",
+        "timeFrame": "From the date of first randomization until discharge from the ICU , assessed up to 60 days or date of death from any cause (whichever came first)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 45,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T05:06:11.776Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

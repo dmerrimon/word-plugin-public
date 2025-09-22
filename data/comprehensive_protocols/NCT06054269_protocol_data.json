@@ -1,0 +1,106 @@
+{
+  "nctId": "NCT06054269",
+  "briefTitle": "Clinical Trial to Evaluate the Immunogenicity of an Adjuvanted Influenza Vaccine Among HCP",
+  "officialTitle": "Randomized Controlled Trial, Double Blind, Phase III, to Evaluate the Immunogenicity of an Adjuvanted Influenza Vaccine Among Health Care Personnel (EDUCATE)",
+  "protocolDocument": {
+    "nctId": "NCT06054269",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-04-14",
+    "uploadDate": "2025-04-08T11:24",
+    "size": 890999,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06054269/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 192,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-11-04",
+    "completionDate": "2026-03-31",
+    "primaryCompletionDate": "2023-07-25",
+    "firstSubmitDate": "2023-09-19",
+    "firstPostDate": "2023-09-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* ≥18 years old;\n* Have participated in the healthcare personnel cohort study at Hospital Nacional Cayetano Heredia or Hospital Nacional Arzobispo Loayza during 2016-2021;\n* Work at the facility full-time (≥30 hours per week);\n* Have routine, direct, hands-on or face-to-face contact with patients (≤1 meter) as part of a typical work shift, including, but not limited to, physicians, nurses, respiratory therapists, physical therapists, unit clerks, radiograph technicians, medical assistants, and transporters;\n* Work at the facility for ≥1 year prior to enrollment and planning to continue working at the facility for one year after enrollment;\n* Willing to receive influenza vaccination (adjuvanted or standard dose);\n* Women of childbearing age must complete the following criteria to be eligible:\n\n  1. Have a negative urine pregnancy test performed by the study staff ≤24 hours preceding receipt of the vaccine;\n  2. Be willing to use a reliable form of contraception approved by the Investigator for ≤2 months after receiving the vaccine. If they are not currently using an approved contraceptive, study staff will provide access to contraceptives;\n  3. Must not be breastfeeding.\n\nExclusion Criteria:\n\n* Have received a vaccine against influenza during the 2022 influenza season (season of clinical trial);\n* Have a severe, life-threatening allergy to influenza vaccines, eggs, or influenza vaccine components;\n* Have a history of Guillain-Barre Syndrome or other autoimmune diseases;\n* Received blood or blood products within 3 months of enrollment;\n* Be pregnant, confirmed by rapid pregnancy test.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Hemagglutination Inhibition (HI) Geometric Mean Titers (GMT) Post-vaccination (Day 28) of Each Vaccine Reference Virus",
+        "description": "The geometric mean of antibody titers after a single dose of FLUAD Quadrivalent (adjuvanted dose, AD) vs. FluQuadri (standard dose, SD) as measured by HI assay for egg-grown influenza A(H1N1)pdm09, A(H3N2), B/Yamagata, and B/Victoria vaccine reference viruses at approximately 28 days post-vaccination",
+        "timeFrame": "28 days post-vaccination"
+      },
+      {
+        "measure": "HI GMT Post-vaccination (6 Months) of Each Vaccine Reference Virus",
+        "description": "The geometric mean of antibody titers after a single dose of AD vs SD vaccine as measured by HI assay for egg-grown influenza A(H1N1)pdm09, A(H3N2), B/Yamagata, and B/Victoria vaccine reference viruses at approximately 6 months post-vaccination",
+        "timeFrame": "6 months post-vaccination"
+      },
+      {
+        "measure": "Seroconversion Rate (SCR) to Each Vaccine Reference Virus Post-vaccination",
+        "description": "The percent of participants with paired samples that achieved ≥4-fold rises comparing post- (approximately 28 days) versus pre-vaccination titers, and post-vaccination titers ≥40 for each vaccine reference virus (egg-grown influenza A(H1N1)pdm09, A(H3N2), B/Yamagata, and B/Victoria vaccine reference viruses) following a single dose of AD vs. SD vaccine.",
+        "timeFrame": "28 days post-vaccination"
+      },
+      {
+        "measure": "SCR to Each Vaccine Reference Virus Post-vaccination",
+        "description": "The percent of participants with paired samples that achieved ≥4-fold rises comparing post- (approximately 6 months) versus pre-vaccination titers, and post-vaccination titers ≥40 for each vaccine reference virus (egg-grown influenza A(H1N1)pdm09, A(H3N2), B/Yamagata, and B/Victoria vaccine reference viruses) following a single dose of AD vs. SD vaccine.",
+        "timeFrame": "6 months post-vaccination"
+      },
+      {
+        "measure": "Seroprotection Rate (SPR) to Each Vaccine Reference Virus Post-vaccination",
+        "description": "The percent of participants with post-vaccination titers ≥40 for each vaccine reference virus (egg-grown influenza A(H1N1)pdm09, A(H3N2), B/Yamagata, and B/Victoria vaccine reference viruses) following a single dose of AD vs. SD vaccine.",
+        "timeFrame": "28 days post-vaccination"
+      },
+      {
+        "measure": "SPR to Each Vaccine Reference Virus Post-vaccination",
+        "description": "The percent of participants with post-vaccination titers ≥40 for each vaccine reference virus (egg-grown influenza A(H1N1)pdm09, A(H3N2), B/Yamagata, and B/Victoria vaccine reference viruses) following a single dose of AD vs. SD vaccine.",
+        "timeFrame": "6 months post-vaccination"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 6,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:34.599Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

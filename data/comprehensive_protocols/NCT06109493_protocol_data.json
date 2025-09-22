@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT06109493",
+  "briefTitle": "Effects of an ACT-based Psychological Treatment in Patients With Chronic Kidney Disease",
+  "officialTitle": "Effects of an ACT-based Psychological Treatment in Patients With Chronic Kidney Disease",
+  "protocolDocument": {
+    "nctId": "NCT06109493",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-07-08",
+    "uploadDate": "2023-10-13T08:09",
+    "size": 141875,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06109493/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 104,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-11-01",
+    "completionDate": "2026-06-30",
+    "primaryCompletionDate": "2025-12-31",
+    "firstSubmitDate": "2023-10-25",
+    "firstPostDate": "2023-10-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with chronic kidney disease on haemodialysis\n* Older than 18 years-old\n* At least 3 months on haemodialysis\n* HADS Global Scale Score ≥14\n\nExclusion Criteria:\n\n* Diagnosis of severe or chronic mental disorder, mental retardation and cognitive impairment, or disabling illness.\n* Antidepressant drugs consume\n* Insufficient understanding of Spanish.\n* Patients who are in the Advanced Chronic Kidney Disease Unit\n* Receiving other psychological treatment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in emotional distress assessed through Hospital Anxiety and Depression Scale (HADS)",
+        "description": "HADS assesses anxiety, depression and emotional distress. It is a 14-item four-point Likert-type scale. Scores range between 0 and 42. Higher the score in the overall score indicate higher levels of emotional distress and worse outcome.",
+        "timeFrame": "Change from Baseline Emotional Distress at 5 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Simplified Medication Adherence Questionnaire (SMAQ)",
+        "description": "SMAQ assesses adherence to medication. It is a 6-item questionnaire that evaluates different aspects of patient compliance with treatment: forgetfulness, routine, adverse effects, and omissions. A patient is classified as non-compliant if he/she responds to any of the questions with a non-adherence answer, and in terms of quantification, if the patient has lost more than two doses during the last week or has not taken medication during more than two complete days during the last three months.",
+        "timeFrame": "Change from Baseline Adherence at 5 months"
+      },
+      {
+        "measure": "Change in COOP/WONCA questionnaire",
+        "description": "COOP/WONCA assesses health related Quality of Life (HRQOL). It was selected the 7-item five-point Likert-type version of the scale. Scores range between 0 and 35. Higher scores indicate lower levels of HRQOL and worse outcome.",
+        "timeFrame": "Change from Baseline health related Quality of Life at 5 months"
+      },
+      {
+        "measure": "Change in Acceptance and Action Questionnaire in the context of Haemodialysis (CAAH-II)",
+        "description": "Acceptance and Action Questionnaire' assesses psychological inflexibility. It is a 7-item, seven-point Likert-type scale. Scores range between 7 and 49. Higher scores indicate higher levels of psychological inflexibility and worse outcome.",
+        "timeFrame": "Change from Baseline psychological inflexibility at 5 months"
+      },
+      {
+        "measure": "Change in coping skills assessed through coping strategies inventory -short form (CSI-SF)",
+        "description": "CSI-SF is a 15-item, five-point Likert-type scale which includes four subscales: Problem Focused Engagement (PFE), Problem Focused Disengagement (PFD), Emotion Focused Engagement (EFE) and Emotion Focused Disengagement (EFD).",
+        "timeFrame": "Change from Baseline coping strategies at 5 months"
+      },
+      {
+        "measure": "Change in mood assessed through Daylio App",
+        "description": "Daylio is a mobile app which allows daily assessing mood through emoticons which will be transformed into a five-point Likert-type scale. Scores range between 1 and 5. Higher scores indicate higher better mood and better outcome.",
+        "timeFrame": "Change from Baseline mood at 5 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:19.267Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

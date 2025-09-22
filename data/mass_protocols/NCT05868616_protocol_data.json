@@ -1,0 +1,105 @@
+{
+  "nctId": "NCT05868616",
+  "briefTitle": "Non-Invasive Method for Evaluation of Cardiac Resynchronization Therapy",
+  "officialTitle": "Non-Invasive Method for Evaluation of Cardiac Resynchronization Therapy",
+  "protocolDocument": {
+    "nctId": "NCT05868616",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-05-18",
+    "uploadDate": "2023-05-18T11:34",
+    "size": 1271280,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05868616/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 80,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-03-21",
+    "completionDate": "2031-03",
+    "primaryCompletionDate": "2027-03",
+    "firstSubmitDate": "2023-04-26",
+    "firstPostDate": "2023-05-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients referred for CRT implantation or postoperative control at Oslo University Hospital based on the European Society of Cardiology (ESC) guidelines (2021), and criteria below:\n\n  1. Sinus rhythm.\n  2. New York Heart Association class II / III heart failure on diagnosis and on optimal medical therapy.\n  3. Left bundle branch block.\n  4. QRS duration ≥ 130 ms.\n  5. Left ventricular ejection fraction ≤ 40%.\n  6. Patients must have echocardiography examination before implantation\n  7. Informed consent obtained from the patient.\n\nExclusion Criteria:\n\n1. Age \\< 18 years and \\> 80 years;\n2. Ongoing atrial fibrillation;\n3. Complete atrioventricular block",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Reverse remodelling at 6 months follow-up",
+        "description": "Measured by left ventricular end-systolic volume reduction of at least 15% assessed by echocardiography",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Hospitalization",
+        "description": "* all cause hospitalization\n* heart failure hospitalization defined by symptom, signs and biochemistry (NT-proBNP)",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Mortality",
+        "description": "* all cause death\n* sudden cardiac death\n* cardiovascular death\n* transplantation",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "New York Heart Association (NYHA) Functional Classification",
+        "description": "The New York Heart Association (NYHA) functional classification provides a simple way of classifying the extent of heart failure. It places patients in one of four categories based on how much they are limited during physical activity; the limitations/symptoms are in regard to normal breathing and varying degrees in shortness of breath and/or angina.",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Minnesota Living with Heart Failure Questionnaire",
+        "description": "Minnesota living with heart failure questionnaire is a validated patient-oriented measure of the adverse effects of heart failure on a patient's life.",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Packer clinical composite score",
+        "description": "The Packer clinical composite score classifies each patient into 1 of 3 categories (improved, worsened, unchanged), and is determined using clinical outcomes (hospitalizations, death, heart transplant), heart failure status, and patient symptoms (defined by a higher New York Heart Association (NYHA) functional classification and quality of life measured using the Minnesota Living With Heart Failure Questionnaire). Each endpoint will be assessed at 6, 12, 18, and 24 months.",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "6 minute walk test",
+        "description": "The 6 minute walk test is a sub-maximal exercise test used to assess aerobic capacity and endurance. The distance covered over a time of 6 minutes is used as the outcome by which to compare changes in performance capacity. The test will be performed in group 1 before implantation and at 6 months control to evaluate response to intervention.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:01.522Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

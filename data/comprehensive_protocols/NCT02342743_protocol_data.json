@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT02342743",
+  "briefTitle": "Open-trial on the Prevention of Chronic Migraines With the CEFALY Device",
+  "officialTitle": "Open-trial on the Prevention of Chronic Migraines With the CEFALY Device",
+  "protocolDocument": {
+    "nctId": "NCT02342743",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-08-12",
+    "uploadDate": "2018-08-21T05:15",
+    "size": 6639302,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02342743/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 73,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-02-02",
+    "completionDate": "2017-04-11",
+    "primaryCompletionDate": "2017-04-11",
+    "firstSubmitDate": "2015-01-15",
+    "firstPostDate": "2015-01-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with a history of chronic migraine meeting the diagnostic criteria listed in ICHD-III beta (2013) section 1, migraine (1), with the exception of ''complicated migraine'' (i.e., hemiplegic migraine, migraine with brainstem aura, ophthalmoplegic migraine-recurrent painful ophthalmoplegic neuropathy, migrainous infarction) will be enrolled. They are required during baseline to have ≥15 headache days with each day consisting of ≥4 hours of continuous headache and with ≥50% of days being migraine or probable migraine days; and ≥4 distinct headache episodes, each lasting ≥4 hours.\n\nBoth patients with or without acute medication overuse (medication overuse headache - MOH) will be recruited\n\nExclusion Criteria:\n\n1. Women: Pregnant, lactating or \\<6 months post partum\n2. For patients already on treatment with medications in the following classes: antihypertensives, antidepressants, antiepileptics, no dose change of those medications is allowed for at least 3 months before start of baseline and during the entire study period.\n3. For patients treated with Botox, no injection within 4 months before start of baseline or during the study.\n4. Diagnosis of other primary or secondary headache disorders, except of Medication Overuse Headache\n5. A Beck Depression Inventory score of \\>24 at baseline\n6. Psychiatric disorders that could have interfered with study participation\n7. Intolerance to supraorbital neurostimulation that makes the treatment not applicable (test of nociceptive threshold with specific Cefaly program)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Frequency of Headache Days",
+        "description": "Mean change in frequency of headache days (defined as a day with at least one headache episode, which is a patient-reported headache with pain) between the 28-day baseline and the 28-day period ending with week 12 of treatment.",
+        "timeFrame": "End of baseline period and end of 12 weeks treatment period"
+      },
+      {
+        "measure": "Change From Baseline in Acute Medication Intake",
+        "description": "Overall acute headache pain medication use (all categories) mean change between the 28-day baseline and the 28-day period ending with week 12 of treatment.",
+        "timeFrame": "End of baseline period and end of 12 weeks treatment period"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Frequency of Migraine Days",
+        "description": "Mean change in frequency of migraine days (any headache day is a migraine day, unless the pain intensity = 1 and there is no intake of acute anti-migraine medication) between the 28-day baseline and the 28-day period ending with week 12 of treatment.",
+        "timeFrame": "End of baseline period and end of 12 weeks treatment period"
+      },
+      {
+        "measure": "Change in Frequency of Moderate/Severe Headache Days",
+        "description": "Mean change in frequency of moderate/severe headache days (defined as a headache day with at least one headache episode with intensity = 2 or 3) between the 28-day baseline and the 28-day period ending with week 12 of treatment.",
+        "timeFrame": "End of baseline period and end of 12 weeks treatment period"
+      },
+      {
+        "measure": "Change in Monthly Cumulative Headache Hours",
+        "description": "Mean change in monthly cumulative headache hours on headache days between the 28-day baseline and the 28-day period ending with week 12 of treatment.",
+        "timeFrame": "End of baseline period and end of 12 weeks treatment period"
+      },
+      {
+        "measure": "Change in Frequency of Headache Episodes",
+        "description": "Mean change in frequency of headache episodes (defined as a patient-reported headache with pain) between the 28-day baseline and the 28-day period ending with week 12 of treatment.",
+        "timeFrame": "End of baseline period and end of 12 weeks treatment period"
+      },
+      {
+        "measure": "50% Responder Rate for Migraine Days",
+        "description": "Number of subjects who observe a 50% reduction in the frequency of their migraine days between the 28-day baseline and the 28-day period ending with week 12 of treatment.",
+        "timeFrame": "End of the 12 weeks treatment period"
+      },
+      {
+        "measure": "Change in the Average Headache Intensity",
+        "description": "Mean change in the average headache intensity between the 28-day baseline and the 28-day period ending with week 12 of treatment. Headache intensity is defined on a scale from 0 (no pain) to 3 (maximum pain).",
+        "timeFrame": "End of baseline period and end of 12 weeks treatment period"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:53.627Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

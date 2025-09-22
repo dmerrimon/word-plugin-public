@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT00085982",
+  "briefTitle": "Effect of Metreleptin Therapy in the Treatment of Severe Insulin Resistance",
+  "officialTitle": "Phase II Trial of Effect of Metreleptin Therapy in Severe Insulin Resistance",
+  "protocolDocument": {
+    "nctId": "NCT00085982",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-05-05",
+    "uploadDate": "2021-11-12T12:01",
+    "size": 716974,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00085982/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 11,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2003-08-21",
+    "completionDate": "2030-01-01",
+    "primaryCompletionDate": "2019-10-23",
+    "firstSubmitDate": "2004-06-18",
+    "firstPostDate": "2004-06-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "* INCLUSION CRITERIA:\n* Provision of signed and dated informed consent form\n* Male or female, aged \\> 5 years\n* Clinically significant, severe insulin resistance caused by a known or suspected defect in the insulin receptor\n* Presence of at least one of the following metabolic abnormalities:\n\n  * Fasting insulin \\>30 micro U/ml, or\n  * Presence of diabetes as defined by the 2006 American Diabetes Association (ADA) criteria:\n\n    * Fasting plasma glucose \\>= 126 mg/dL\n    * 2 hour plasma glucose \\>= 200 mg/dL following a 75 gram (1.75g/kg if less than 40kg) oral glucose load, or\n    * Diabetic symptoms with a random plasma glucose \\>= 200 mg/dL\n\nEXCLUSION CRITERIA:\n\n* Pregnant at time of enrollment, women in their reproductive years who do not use an effective method of birth control, and women currently nursing or lactating within 6 weeks of having completed nursing.\n* Known infectious liver disease\n* Known HIV infection\n* Current alcohol or substance abuse\n* Active tuberculosis\n* Use of anorexigenic drugs\n* Other conditions which in the opinion of the clinical investigators would impede completion of the study.\n* Subjects who have a known hypersensitivity to E. Coli derived proteins.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in HbA1C",
+        "description": "Change in HbA1C at month 12 from baseline.",
+        "timeFrame": "Change at month 12 from baseline"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Fasting Insulin Level",
+        "description": "Change in fasting insulin level at month 12 from baseline",
+        "timeFrame": "Change at month 12 from baseline"
+      },
+      {
+        "measure": "Change in Fasting Blood Glucose",
+        "description": "Change in fasting blood glucose at month 12 from baseline.",
+        "timeFrame": "Change at month 12 from baseline"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:10.962Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT02548910",
+  "briefTitle": "Phlebotomy to Prevent Blood Loss in Major Hepatic Resections",
+  "officialTitle": "The PRICE Trial: Phlebotomy Resulting in Controlled Hypovolemia to Prevent Blood Loss in Major Hepatic Resections",
+  "protocolDocument": {
+    "nctId": "NCT02548910",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-15",
+    "uploadDate": "2021-02-23T10:13",
+    "size": 1222775,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02548910/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 62,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-04",
+    "completionDate": "2018-03",
+    "primaryCompletionDate": "2018-03",
+    "firstSubmitDate": "2015-07-23",
+    "firstPostDate": "2015-09-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Any patient being considered for a major elective liver resection will be considered for trial enrollment. Patients who are undergoing a concurrent additional abdominal or thoracic procedure (eg. colonic resection) will also be included.\n\nExclusion Criteria:\n\n* Age \\<18 years\n* Pregnancy\n* Refusal of blood products\n* Active cardiac conditions: unstable coronary syndromes, decompensated heart failure (NYHA functional class IV; worsening or new-onset heart failure), significant arrhythmias, severe valvular disease\n* History of significant cerebrovascular disease\n* Renal dysfunction (patients with an estimated GFR \\<60 mL/min)\n* Abnormal coagulation parameters (INR \\>1.5 not on warfarin and/or platelets count \\<100 X109/L )\n* Evidence of hepatic metabolic disorder (bilirubin \\>35 umol/L)\n* Presence of active infection\n* Preoperative autologous blood donation\n* Hemoglobin \\<100 g/L",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Total Intraoperative Blood Loss, by Measurement of Change in Hemoglobin Levels",
+        "description": "Intraoperative blood loss is notoriously difficult to measure. It is suggested that calculation of blood loss using preoperative and postoperative hemoglobin levels in most consistently accurate. In order to minimize the risk of bias associated with any one method of intraoperative measurement of blood loss, three methods will be used independently. In the operating room, all blood and fluid aspirated from the abdomen will be measured accurately using graduated suction containers. As well, the amount of irrigation fluid will be carefully monitored and recorded. Finally, the weight of all surgical sponges will be measured. This information will be used by the surgeon and anesthesiologist to independently visually estimate blood loss, as is commonly done in clinical practice. In parallel, intraoperative blood loss will also be calculated based on an equation.",
+        "timeFrame": "1 week prior to surgery (hemoglobin level), and day two of post-op (hemoglobin again)."
+      },
+      {
+        "measure": "Trial Feasibility",
+        "description": "Trial accrual",
+        "timeFrame": "through study completion, an average of 2 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Blood Product Transfusion Rates",
+        "timeFrame": "Will be measured in the operating room and in the first postoperative week"
+      },
+      {
+        "measure": "Perioperative Morbidity (Dindo-Clavien Grade 3b of Higher) and Mortality",
+        "timeFrame": "Postoperative setting up to 30 days following surgery"
+      },
+      {
+        "measure": "Changes in Physiologic Parameters (CVP)",
+        "timeFrame": "Will be measured in the operating room"
+      },
+      {
+        "measure": "Change in Physiologic Parameters (Cardiac Index)",
+        "timeFrame": "Will be measured in the operating room"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:10.456Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

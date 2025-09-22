@@ -1,0 +1,135 @@
+{
+  "nctId": "NCT06138171",
+  "briefTitle": "Personality, Defences, Central Sensitization, and Trauma in Women With Chronic Migraine, Fibromyalgia, and Vulvodynia",
+  "officialTitle": "Psychological Layers of Nociplastic Pain: Cluster Analysis of The Role of Personality Traits, Defence Mechanisms, Central Sensitization, and Childhood Traumatic Experiences in Patients With Chronic Migraine, Fibromyalgia, and Vulvodynia",
+  "protocolDocument": {
+    "nctId": "NCT06138171",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-10-26",
+    "uploadDate": "2023-11-07T07:11",
+    "size": 231817,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06138171/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 1006,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-10-01",
+    "completionDate": "2024-12-01",
+    "primaryCompletionDate": "2024-09-30",
+    "firstSubmitDate": "2023-11-07",
+    "firstPostDate": "2023-11-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n* age range 18-65 years\n* education \\> 5 years\n* diagnosis of FM according to Wolfe, 2016\n* diagnosis of CM according to Olesen, 2017\n* diagnosis of VU according to Bornstein et al., 2016\n\nExclusion criteria\n\n* severe psychiatric disorders and/or cognitive impairment\n* difficulties in comprehension/expression in Italian\n* history of other chronic pain disorder(s)\n* history of other neurological disorders besides migraine",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Central sensitivity index",
+        "description": "Central Sensitivity Inventory (CSI) (Chiarotto et al., 2018). Range scores go from 0 to 100, with higher scores indicating worse conditions.",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "Traumatic experiences index",
+        "description": "Traumatic Experiences Checklist (TEC) (Nijenhuis et al., 2002). Range scores go from 0 to 29, with higher scores indicating more traumatic experiences in life.",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "Personality traits",
+        "description": "PID-5 Short form (Thimm et al., 2016). Range scores go from 0 to 75, with higher scores indicating higher presence of disfunctional personality traits",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "Defense mechanisms",
+        "description": "Defense Mechanism Rating Scales - DMRS-SR-30 (Di Giuseppe et al., 2020). Range scores go from 3.5 to 7, with higher scores indicating more consistent use of defense mechanisms.",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "Mental pain",
+        "description": "Mental Pain Questionnaire (Svicher et al., 2019). Range scores go from 0 to 10, with higher scores indicating worse conditions.",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "Environmental sensitivity",
+        "description": "Highly Sensitive Person Scale (HSP-12) (Aron \\& Aron, 1997; Lionetti et al., 2018). Range scores go from 1 to 7, with higher scores indicating worse conditions.",
+        "timeFrame": "Day 0"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Presence and intensity of psychological symptoms of depression, anxiety and psychosomaitcs",
+        "description": "Brief Symptom Inventory (BSI-18) (Franke et al., 2017) Range scores go from 0 to 4, with higher scores indicating worse conditions.",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "Physical and Psychological Quality of life index",
+        "description": "SF-12 - Quality of Life Assessment (Apolone et al., 2001). Range scores go from 0 to 100, with higher scores indicating better quality of life.",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "Alexithymic traits",
+        "description": "Toronto Alexithymia Scale (TAS-20) (Bagby et al., 1994). Range scores go from 20 to 100, with higher scores indicating higher alexithymic traits.",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "Percieved Social Support",
+        "description": "SPQ - Social Support Questionnaire (SPQ) (van der Lugt et al., 2012). Range scores go from 0 to 24, with higher scores indicating higher support received by social network.",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "Sexual Satisfaction",
+        "description": "Sexual Satisfaction Scale (SSS) - Short form) (Meston \\& Trapnell, 2005). Range scores go from 6 to 30, with higher scores indicating higher level of sexual satisfaction.",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "gentipolvic pain",
+        "description": "Short Form McGill Questionnaire (SF-MGQ) - Adapted for genito-pelvic pain (Melzack \\& Raja, 2005). Range scores go from 0 to 83, with higher scores indicating more genital pain.",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "Sexual Functioning",
+        "description": "Female Sexual Function Index (FSFI) (Rosen et al., 2000). Range scores go from 2.6 to 36, with higher scores indicating better sexual health.",
+        "timeFrame": "Day 0"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 6,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 13
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:14.386Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

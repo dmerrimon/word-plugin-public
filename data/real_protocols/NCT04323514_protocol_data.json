@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT04323514",
+  "briefTitle": "Use of Ascorbic Acid in Patients With COVID 19",
+  "officialTitle": "Use of Ascorbic Acid in Patients With COVID 19",
+  "protocolDocument": {
+    "nctId": "NCT04323514",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2020-03-12",
+    "uploadDate": "2020-03-24T05:48",
+    "size": 249289,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04323514/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 500,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2020-03-13",
+    "completionDate": "2021-03-13",
+    "primaryCompletionDate": "2021-03-13",
+    "firstSubmitDate": "2020-03-18",
+    "firstPostDate": "2020-03-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* In case of doubt of interstitial pneumonia with indications for intubation\n* Positive swab test of SARS-CoV-2\n* Interstitial pneumonia\n* Signature of informed consent\n\nExclusion Criteria:\n\n* Unsigned informed consent\n* Negative swab test of SARS-CoV-2",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "In-hospital mortality",
+        "description": "Change of hospital mortality",
+        "timeFrame": "72 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "PCR levels",
+        "description": "Reduction of PCR levels \\> 50% in comparison with PCR levels at the admission, within 72 hours after the administration",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "Lactate clearance",
+        "description": "Change of the lactate clearance",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "Hospital stay",
+        "description": "Change of hospital stay days",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "Symptoms",
+        "description": "Resolution of symptoms (Fever, Cough, Shortness of breath or difficulty breathing)",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "Positive swab",
+        "description": "Change of duration of positive swab (nasopharynx and throat)",
+        "timeFrame": "72 hours"
+      },
+      {
+        "measure": "Tomography imaging",
+        "description": "Resolution of tomography imaging (example, patches located in the subpleural regions of the lung)",
+        "timeFrame": "72 hours"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 4,
+      "exclusionCount": 2,
+      "totalCount": 6
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 52,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:32:34.300Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

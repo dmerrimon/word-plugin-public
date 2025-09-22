@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT04458103",
+  "briefTitle": "Percutaneous RVAD to Preemptively Treat Right Heart Failure Post-LVAD",
+  "officialTitle": "Percutaneous RVAD to Preemptively Treat Right Heart Failure Post-LVAD",
+  "protocolDocument": {
+    "nctId": "NCT04458103",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2021-03-05",
+    "uploadDate": "2022-01-07T16:16",
+    "size": 409691,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04458103/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 161,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-12",
+    "completionDate": "2023-06-01",
+    "primaryCompletionDate": "2022-06-01",
+    "firstSubmitDate": "2020-06-16",
+    "firstPostDate": "2020-07-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Ages 18-75\n* Accepted for LVAD implantation by MGH multidisciplinary team\n\nExclusion Criteria:\n\n* Disorders of the pulmonary artery wall that would preclude placement or correct positioning of RVAD\n* Presence of mechanical valves\n* Mural thrombosis of the right atrium or vena cava\n* Anatomic conditions precluding insertion of the RVAD\n* Complicated venous access precluding or complicating device placement (i.e. femoral and jugular thrombosis)\n* No evidence of right ventricular dysfunction by echocardiogram",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Vasoactive Inotropic Score",
+        "description": "Retrospective review in a patient chart. Score calculated based on dosages of vasopressors and inotropes within first 24-hours post-LVAD implant. The maximum Vasoactive Inotropic Score within the first 24-hours is reported.\n\nVasoactive Inotropic Score= dopamine (μg/kg/min) + dobutamine (μg/kg/min) + 10 x milrinone (μg/kg/min) + 100 x epinephrine (μg/kg/min) + 100 x norepinephrine (μg/kg/min) + 10,000 x vasopressin (U/kg/min).\n\nMinimum possible vasoactive inotropic score is 0. It is hypothesized that a higher score will correspond with worse outcomes.",
+        "timeFrame": "first 24 hours post-LVAD implantation"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Intensive Care Unit Length of Stay",
+        "description": "Retrospective review in a patient chart",
+        "timeFrame": "up to date of discharge from intensive care unit (estimated average = 1 week)"
+      },
+      {
+        "measure": "Total Post-operative Length of Stay After LVAD Implantation",
+        "description": "Retrospective review in a patient chart",
+        "timeFrame": "up to date of hospital discharge (estimated average = 3 weeks)"
+      },
+      {
+        "measure": "Survival at Discharge After LVAD Placement",
+        "description": "Retrospective review in a patient chart",
+        "timeFrame": "up to date of hospital discharge (estimated average = 3 weeks)"
+      },
+      {
+        "measure": "Survival at 1 Year After LVAD Placement or Heart Transplant",
+        "description": "Retrospective review in a patient chart",
+        "timeFrame": "up to 1 year post-LVAD implantation"
+      },
+      {
+        "measure": "End Organ Dysfunction",
+        "description": "end organ dysfunction including 1) Development of acute kidney injury (AKI) - defined as increase in serum creatinine (sCr) to 4mg/dl or greater, a 150 percent or greater increase in sCr over the baseline preoperative value, or a new requirement for renal replacement therapy",
+        "timeFrame": "up to 1 year post-LVAD implantation"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:31.211Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

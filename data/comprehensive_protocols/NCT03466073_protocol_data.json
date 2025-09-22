@@ -1,0 +1,105 @@
+{
+  "nctId": "NCT03466073",
+  "briefTitle": "A Phase 1b/2a Study of the Safety and Pharmacokinetics of Rhu-plasma Gelsolin in Hospitalized Subjects With CAP",
+  "officialTitle": "A Double-blind, Placebo-controlled, Dose-escalation Study of the Safety, Pharmacokinetics, and Pharmacodynamics of Recombinant Human Plasma Gelsolin Added to Standard of Care in Subjects Hospitalized for Acute Community-acquired Pneumonia",
+  "protocolDocument": {
+    "nctId": "NCT03466073",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-04-30",
+    "uploadDate": "2019-12-03T14:05",
+    "size": 1558256,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03466073/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 33,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-08-28",
+    "completionDate": "2019-04-02",
+    "primaryCompletionDate": "2019-04-02",
+    "firstSubmitDate": "2018-03-02",
+    "firstPostDate": "2018-03-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Informed consent obtained from subject\n2. Domicile: home, assisted living, rehabilitation facility, or nursing home (as long as the prospective participant is capable of providing written informed consent)\n3. Duration of infection precipitating hospitalization by history \\<14 days\n4. Planned or actual admission to hospital with a primary diagnosis of CAP within 24 hours of presentation to the hospital\n5. Primary admitting diagnosis of pneumonia supported by a compatible clinical presentation with a documented infiltrate consistent with pneumonia on chest radiograph or CT, as assessed by the admitting emergency-department (ED), clinic, or ward physician or equivalent caregiver\n\n   * Recommended (not mandatory) guidance/discretionary criteria defining patients with CAP:\n\n     * At least 2 symptoms: difficulty breathing, cough, production of purulent sputum, chest pain\n     * At least 2 vital sign abnormalities: fever, tachycardia, tachypnea\n     * At least one finding of other clinical signs and laboratory abnormalities: hypoxemia, clinical evidence of pulmonary consolidation, an elevated total white blood cell (WBC) count or leukopenia\n     * Chest imaging showing new (or presumed new or worsening) infiltrates\n   * Receipt of antibiotic treatment prior to presentation does not exclude the patient\n\nExclusion Criteria:\n\n1. Pregnant or lactating women\n2. Intubation, vasopressor support, or admission to the intensive care unit (ICU) directly from the ED/office (fluids for responsive hypotension is not a reason for exclusion)\n3. Use of any investigational drug in the past 30 days\n4. Hospitalization during the last 30 days\n5. Residence within the last 30 days in long-term care facility where the patient remains persistently unable to participate in the routine activities of daily living\n6. Active underlying cancer treated with systemic chemotherapy or radiation therapy during the last 30 days\n7. Known or suspected immunosuppressive disease or therapy (including steroid use equivalent to prednisone ≥20 mg/day for \\>7 days or known advanced human immunodeficiency virus (HIV) infection with CD4 count ≤200/mm3; specific testing for HIV status or CD4 count is not required but can be done at the discretion of the caregivers)\n8. Active congestive heart failure, myocardial infarction, or pulmonary embolism; cardiopulmonary arrest in last 30 days\n9. Weight \\>100 kg\n10. Otherwise unsuitable for study participation in the opinion of the investigator",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs)",
+        "description": "Treatment emergent adverse events were all adverse events (AEs) that occurred subsequent to enrollment. The seriousness of adverse events was judged by the site investigator.",
+        "timeFrame": "0-28 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Pharmacokinetics (PK) (Area Under the Rhu-pGSN Concentration - Time Curve)",
+        "description": "Determine AUC 0-t area under the plasma concentration-time curve of rhu-pGSN from 0-24 hours on dosing days (estimated by subtracting pre-injection concentrations from the measured concentrations at each time point). In the single-dose arm, the subject was given only 1 dose so that data from later days were not obtained. In the multiple-dose arms, samples were obtained for each of the 3 doses.",
+        "timeFrame": "On Days 0-3, specimens were obtained just prior and immediately post dose and 2, 8,12 and/or 16 , and 24 hours post completion of IV administration. In the single-dose arm, only 1 dose was given and thus no data from later days were obtained."
+      },
+      {
+        "measure": "Pharmacokinetics (PK) (Maximum Observed Rhu-pGSN Plasma Concentration (Cmax))",
+        "description": "Maximum observed plasma concentration (Cmax) of rhu-pGSN in a 24 hours period after intravenous administration (estimated by subtracting pre-injection concentrations from the measured concentrations at each time point). For the 6 mg/kg dose, there were 4 evaluable subjects in the single-dose arm and 6 subjects in the multiple-dose arm at this dose, for a total of 10 evaluable subjects for Dose 1.",
+        "timeFrame": "On Days 0-3, specimens were obtained just prior and immediately post dose and 2, 8, 12 and/or 16, and 24 hours post completion of IV administration. In the single-dose arm, only 1 dose was given and thus no data from later days were obtained."
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number of Participants With Anti-pGSN Antibodies (Immunogenicity) at the End of Study (Day 28)",
+        "description": "Number of participants who developed antibodies against pGSN at study day 28. Patients were first tested against less stringent screening criteria: if screen-positive, a stricter confirmatory test was performed; if screen-negative, no further immunogenicity testing was done.",
+        "timeFrame": "Day 28"
+      },
+      {
+        "measure": "Baseline and Sequential Severity Scores",
+        "description": "CURB-65 (a 5 point score in which 1 point is allocated to the presence of each of the following: Confusion, Urea \\>7 mmol/L, Respiratory rate ≥30 breaths min, Blood pressure systolic \\<90 mmHg or diastolic ≤60 mmHg, and age ≥65 years); PSI (Pneumonia Severity Index, used to predict risk of morbidity and mortality and is classified in risk classes ranging from I to V from the lowest to highest risk as follows: Class I: PSI 0, class II: PSI 1-70, class III: PSI 71-90, class IV: PSI 91-130, class V: PSI \\>130); SOFA (Sequential Organ Failure Assessment, measured based on 6 variables each representing an organ system scored from 0 to 4 each (normal to severe organ dysfunction/failure), and reported as the sum (range 0-24))",
+        "timeFrame": "Days 0-28"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 2,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 63,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:28.621Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

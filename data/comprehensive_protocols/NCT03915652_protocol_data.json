@@ -1,0 +1,127 @@
+{
+  "nctId": "NCT03915652",
+  "briefTitle": "Addressing Disparities in Lupus Care Through an Integrated Care Management Program",
+  "officialTitle": "Addressing Disparities in Lupus Care Through an Integrated Care Management Program (Rheum-iCMP)",
+  "protocolDocument": {
+    "nctId": "NCT03915652",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-06-27",
+    "uploadDate": "2023-07-07T15:24",
+    "size": 256028,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03915652/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 35,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-06-21",
+    "completionDate": "2025-05-30",
+    "primaryCompletionDate": "2022-07-20",
+    "firstSubmitDate": "2019-03-12",
+    "firstPostDate": "2019-04-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria\n\n* Meet at least 4 American College of Rheumatology criteria for systemic lupus erythematosus (SLE) or rheumatologist diagnosis of SLE\n* Over the preceding 3 years, at least 1 hospitalization or ED visit related to lupus OR at least 1 rheumatology appointment no-show or same-day cancellation\n* Receive their primary care at BWH\n\nExclusion Criteria:\n\n* Non-English or Spanish speaker",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Lupus-related Appointment Nonadherence",
+        "description": "Mean change in the number of lupus-related ambulatory care visit no-shows and same-day cancellations",
+        "timeFrame": "Mean change from 12 months prior to intervention and the 12 months during the intervention"
+      },
+      {
+        "measure": "Composite Measure of Acute Care Utilization",
+        "description": "Mean change in the number of ED visits plus number of hospitalizations",
+        "timeFrame": "Mean change from 12 months prior to intervention and the 12 months during the intervention"
+      },
+      {
+        "measure": "Quality of Lupus Care: SLE Quality Metric Scoring System for Adults",
+        "description": "Percent of quality metrics from the SLE Quality Metric Scoring System for Adults remaining from baseline 12 months after the start of the intervention. The percent of needs remaining at 12 months was determined and the mean (SD) percent of remaining needs was calculated by arm. Percentages can range from 0-100, with 100 meaning that more quality metrics were not completed (worse outcome).",
+        "timeFrame": "Percent of quality metrics remaining at 12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Medication Adherence Self-Report Inventory (MASRI)",
+        "description": "Mean change in MASRI score (for lupus medications) from baseline to 12 months. Score range is 0-100. Higher scores indicate greater adherence (on a scale from 0 to 100, 100 indicating a person's rating of perfect adherence).",
+        "timeFrame": "Mean change from baseline to 12 months after the start of the intervention."
+      },
+      {
+        "measure": "Beliefs About Medications Survey",
+        "description": "Mean change in Beliefs About Medications score (for lupus medications) from baseline to 12 months after the start of the intervention. Score range is 5-25. Higher scores indicate a worse outcome (higher scores indicate more negative feelings about lupus medications).",
+        "timeFrame": "Mean change from baseline compared to 12 months after the start of the intervention"
+      },
+      {
+        "measure": "Systemic Lupus Activity Questionnaire (SLAQ)",
+        "description": "Mean change in patient-reported lupus disease activity from baseline to 12 months using the SLAQ score. Score range is 0-46. Higher scores indicate a worse outcome (higher scores indicate more lupus disease activity).",
+        "timeFrame": "Mean change from baseline compared to 12 months after the start of the intervention"
+      },
+      {
+        "measure": "Mental Health Inventory-5 (MHI-5)",
+        "description": "Mean change in depressive or anxious symptoms from baseline to 12 months using the MHI-5 survey. Score range is 0-100. Higher scores indicate a better outcome (higher scores indicate better mental health).",
+        "timeFrame": "Mean change from baseline compared to 12 months after the start of the intervention"
+      },
+      {
+        "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS) Global Health Scale Short Form",
+        "description": "Mean change in global health from baseline to 12 months using the PROMIS global health scale short form. Score range is 9-45. Higher scores indicate a better outcome (higher scores indicate improved global health and well-being).",
+        "timeFrame": "Mean change from baseline compared to 12 months after the start of the intervention"
+      },
+      {
+        "measure": "Social Determinants of Health (SDOH) Survey",
+        "description": "Percent of social determinants of health (SDoH)-related needs at 12 months from baseline using the SDoH Survey. The survey range is 0-8 and the percent of remaining needs is 0-100 with 100 meaning that all of the needs remain (worse outcome).",
+        "timeFrame": "Percent of social determinants of health-related needs remaining 12 months after the start of the intervention"
+      },
+      {
+        "measure": "Everyday Discrimination Scale",
+        "description": "Mean change in daily discrimination encountered from baseline to 12 months using the Everyday Discrimination Scale. Score range is 0-40. Higher scores indicate a worse outcome (higher scores indicate a greater amount of discrimination encountered).",
+        "timeFrame": "Mean change from baseline compared to 12 months after the start of the intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 1,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 77,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:42.448Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

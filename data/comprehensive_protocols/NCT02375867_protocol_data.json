@@ -1,0 +1,142 @@
+{
+  "nctId": "NCT02375867",
+  "briefTitle": "Steroids in Fulminant Hepatitis A in the Pediatric Age Group",
+  "officialTitle": "Safety and Efficacy of Steroids in the Management of Fulminant Hepatic Failure Due to Hepatitis A Virus in the Pediatric Age Group",
+  "protocolDocument": {
+    "nctId": "NCT02375867",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-12-11",
+    "uploadDate": "2018-12-11T04:10",
+    "size": 2688869,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02375867/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 33,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-01",
+    "completionDate": "2017-09",
+    "primaryCompletionDate": "2017-08",
+    "firstSubmitDate": "2015-02-14",
+    "firstPostDate": "2015-03-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nThe patient is diagnosed to have FHF, if he fulfilled all the following criteria:\n\n1. Evidence of liver dysfunction within 8 weeks of onset of symptoms (neonates may have only deranged liver functions without overt symptoms).\n2. Uncorrectable coagulopathy (6-8 hours after administration of one dose of parenteral vitamin K) with International Normalized Ratio (INR) \\>1.5 in patients with hepatic encephalopathy, or INR\\> 2.0 in patients without encephalopathy.\n3. No evidence of chronic liver disease.\n\nExclusion Criteria:\n\n1\\. Presence of absolute contra-indications to steroid therapy (as presence of an active gastrointestinal bleeding, renal failure, acute pancreatitis, active tuberculosis, uncontrolled diabetes and psychosis).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Side effect 1 Number of patients with anaphylaxis",
+        "description": "Number of patients with anaphylaxis",
+        "timeFrame": "2 months"
+      },
+      {
+        "measure": "Side effect 2 Number of patients with angioedema",
+        "description": "Number of patients with angioedema",
+        "timeFrame": "2 months"
+      },
+      {
+        "measure": "Side effect 3 Number of patients with cardiac arrest",
+        "description": "Number of patients with cardiac arrest",
+        "timeFrame": "2 months"
+      },
+      {
+        "measure": "Side effect 4 Number of patients with arrhythmias",
+        "description": "Number of patients with arrhythmias",
+        "timeFrame": "2 months"
+      },
+      {
+        "measure": "Side effect 5 Number of patients with circulatory collapse",
+        "description": "Number of patients with circulatory collapse",
+        "timeFrame": "2 months"
+      },
+      {
+        "measure": "Side effect 6 Number of patients with congestive heart failure",
+        "description": "Number of patients with congestive heart failure",
+        "timeFrame": "2 months"
+      },
+      {
+        "measure": "Side effect 7 Number of patients with pulmonary edema",
+        "description": "Number of patients with pulmonary edema",
+        "timeFrame": "2 months"
+      },
+      {
+        "measure": "Side effect 8 Number of patients with pancreatitis",
+        "description": "Number of patients with pancreatitis",
+        "timeFrame": "2 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Efficacy 1 Number of survivors",
+        "description": "number of living patients",
+        "timeFrame": "2 months"
+      },
+      {
+        "measure": "Efficacy 2 Number of deaths",
+        "description": "number of died patients",
+        "timeFrame": "2 months"
+      },
+      {
+        "measure": "Efficacy 3 serum prothrombin time",
+        "description": "serum prothrombin time",
+        "timeFrame": "72 hour"
+      },
+      {
+        "measure": "Efficacy 3 grade of encephalopathy",
+        "description": "grade of encephalopathy",
+        "timeFrame": "72 hour"
+      },
+      {
+        "measure": "Efficacy 4 duration of encephalopathy",
+        "description": "duration of encephalopathy",
+        "timeFrame": "2 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 8,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 13
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:25.036Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,144 @@
+{
+  "nctId": "NCT02781558",
+  "briefTitle": "Efficacy and Safety of Sofosbuvir/Velpatasvir Fixed-Dose Combination (FDC) and Sofosbuvir/Velpatasvir FDC and Ribavirin in Participants With Chronic Genotype 3 HCV Infection and Cirrhosis",
+  "officialTitle": "A Phase 2, Multicenter, Randomized, Open-Label Study to Evaluate the Efficacy and Safety of Sofosbuvir/Velpatasvir Fixed Dose Combination (FDC) and Sofosbuvir/Velpatasvir FDC and Ribavirin in Subjects With Chronic Genotype 3 HCV Infection and Cirrhosis",
+  "protocolDocument": {
+    "nctId": "NCT02781558",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol: Protocol Amendment 1",
+    "date": "2016-04-04",
+    "uploadDate": "2018-09-06T21:21",
+    "size": 3323666,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02781558/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 204,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07-29",
+    "completionDate": "2017-10-27",
+    "primaryCompletionDate": "2017-10-06",
+    "firstSubmitDate": "2016-05-20",
+    "firstPostDate": "2016-05-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Willing and able to provide written informed consent\n* Individuals with chronic genotype 3 HCV infection and compensated cirrhosis\n* Individuals with or without HIV-1 coinfection\n\nKey Exclusion Criteria:\n\n* History of clinically significant illness or any other medical disorder that may interfere with individual's treatment assessment or compliance with the protocol\n* Co-infection with active hepatitis B virus\n* Laboratory results outside the acceptable ranges at screening\n* Pregnant or nursing female\n* Chronic liver disease not caused by HCV\n\nNote: Other protocol defined Inclusion/Exclusion criteria may apply.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Sustained Virologic Response (SVR) 12 Weeks After Cessation of Therapy (SVR12)",
+        "description": "SVR12 was defined as HCV RNA \\< the lower limit of quantitation (LLOQ; ie, 15 IU/mL) at 12 weeks after stopping study treatment.",
+        "timeFrame": "Posttreatment Week 12"
+      },
+      {
+        "measure": "Percentage of Participants Who Permanently Discontinued Any Study Drug (Which Included SOF/VEL and RBV) Due to Any Adverse Event",
+        "timeFrame": "Posttreatment Week 12"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants Who Attain Sustained Virologic Response at 4 Weeks After Cessation of the Study Treatment Regimen (SVR4)",
+        "description": "SVR4 was defined as HCV RNA \\< the lower limit of quantitation (LLOQ; ie, 15 IU/mL) at 4 weeks after stopping study treatment.",
+        "timeFrame": "Posttreatment Week 4"
+      },
+      {
+        "measure": "Percentage of Participants Who Have HCV RNA < LLOQ at Week 2",
+        "timeFrame": "Week 2"
+      },
+      {
+        "measure": "Percentage of Participants Who Have HCV RNA < LLOQ at Week 4",
+        "timeFrame": "Week 4"
+      },
+      {
+        "measure": "Percentage of Participants Who Have HCV RNA < LLOQ at Week 8",
+        "timeFrame": "Week 8"
+      },
+      {
+        "measure": "Percentage of Participants Who Have HCV RNA < LLOQ at Week 12",
+        "timeFrame": "Week 12"
+      },
+      {
+        "measure": "HCV RNA at Week 2",
+        "timeFrame": "Week 2"
+      },
+      {
+        "measure": "HCV RNA at Week 4",
+        "timeFrame": "Week 4"
+      },
+      {
+        "measure": "HCV RNA at Week 8",
+        "timeFrame": "Week 8"
+      },
+      {
+        "measure": "HCV RNA at Week 12",
+        "timeFrame": "Week 12"
+      },
+      {
+        "measure": "Change From Baseline in HCV RNA at Week 2",
+        "timeFrame": "Baseline; Week 2"
+      },
+      {
+        "measure": "Change From Baseline in HCV RNA at Week 4",
+        "timeFrame": "Baseline; Week 4"
+      },
+      {
+        "measure": "Change From Baseline in HCV RNA at Week 8",
+        "timeFrame": "Baseline; Week 8"
+      },
+      {
+        "measure": "Change From Baseline in HCV RNA at Week 12",
+        "timeFrame": "Baseline; Week 12"
+      },
+      {
+        "measure": "Percentage of Participants With Virologic Failure",
+        "description": "Virologic failure was defined as\n\n* On-treatment virologic failure:\n\n  * Breakthrough (confirmed HCV RNA ≥ LLOQ after having previously had HCV RNA \\< LLOQ on 2 consecutive measurements while on treatment), or\n  * Rebound (confirmed \\> 1 log10 IU/mL increase in HCV RNA from nadir while on treatment), or\n  * Non-response (HCV RNA persistently ≥ LLOQ through 8 weeks of treatment)\n* Virologic relapse:\n\n  * HCV RNA ≥ LLOQ during the post-treatment period having achieved HCV RNA \\< LLOQ at end of treatment, confirmed with 2 consecutive values or last available post-treatment measurement",
+        "timeFrame": "Up to Posttreatment Week 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 14,
+      "otherCount": 0,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:24.258Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT01573754",
+  "briefTitle": "Hydroxychloroquine and Phlebotomy for Treating Porphyria Cutanea Tarda",
+  "officialTitle": "A Prospective Comparison of Low Dose Hydroxychloroquine and Phlebotomy in the Treatment of Porphyria Cutanea Tarda. IRB 02-435",
+  "protocolDocument": {
+    "nctId": "NCT01573754",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2020-02-25",
+    "uploadDate": "2022-06-28T13:16",
+    "size": 1152789,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01573754/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 48,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2006-03-21",
+    "completionDate": "2021-07-06",
+    "primaryCompletionDate": "2021-07-06",
+    "firstSubmitDate": "2012-04-05",
+    "firstPostDate": "2012-04-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Documented porphyria cutanea tarda (PCT)\n* Willing to give informed consent\n* Age 18 or greater\n\nExclusion Criteria:\n\n* Blistering skin lesions due to another condition",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Remission",
+        "description": "Time to a decrease in plasma porphyrin concentration to less than 0.9 mcg/dL",
+        "timeFrame": "To end of study, an average of 3 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "50% Reduction in Plasma Porphyrin Level",
+        "description": "50% reduction in plasma porphyrin level during treatment",
+        "timeFrame": "To end of study, an average of 3 years"
+      },
+      {
+        "measure": "75% Reduction in Plasma Porphyrin Level",
+        "description": "Time to 75% reduction in plasma porphyrin level during treatment",
+        "timeFrame": "To end of study, an average of 3 years"
+      },
+      {
+        "measure": "Number of Days With Normal Urinary Porphyrin Levels",
+        "description": "Number of days to normal urinary porphyrin levels for participants treated for Porphyria Cutanea Tarda (PCT). Days are summed together for all participants for a single value in each Arm.",
+        "timeFrame": "To end of study, an average of 3 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:11.847Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT05094661",
+  "briefTitle": "Predictors of Non-invasive Respiratory Support Failure in COVID-19 Pneumonia",
+  "officialTitle": "Predictors of Non-invasive Respiratory Support Failure in COVID-19 Pneumonia",
+  "protocolDocument": {
+    "nctId": "NCT05094661",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-01-21",
+    "uploadDate": "2022-08-24T12:06",
+    "size": 281456,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05094661/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 135,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-02-18",
+    "completionDate": "2022-11-07",
+    "primaryCompletionDate": "2022-11-07",
+    "firstSubmitDate": "2021-04-22",
+    "firstPostDate": "2021-10-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age ≥18 years.\n* Severe hypoxemic respiratory failure (partial pressure of arterial oxygen/ fraction of inspired oxygen \\< 250 mmHg).\n* Confirmed SARS-Cov2 infection.\n* Radiological images compatible with pneumonia covid.\n\nExclusion Criteria:\n\n* Hypoxemic respiratory failure secondary to a cause other than SARS-Cov2 pneumonia.\n* Hypercapnic respiratory failure.\n* Patient with criteria of orotracheal intubation at admission.\n* Glasgow \\< 15\n* Haemodynamic instability that needs drugs treatment\n* Patients with swallowing problems that conditioned an aspiration pneumonia risk.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Failure of High Flow Nasal Cannula",
+        "description": "The number of patients with respiratory work or desaturation at the beginning of therapy with high-flow nasal cannulas will be measured. This will be defined with desaturation below 90%, respiratory rate greater than 30 o pO2 below 60 despite receiving a maximum support of 60 liters per minute and with 100% FIO2.",
+        "timeFrame": "From the start of High Flow Nasal Cannula support to intubation and invasive ventilation or death at 30 days."
+      },
+      {
+        "measure": "Failure of Non Invasive Ventilation",
+        "description": "The number of patients with respiratory work or desaturation and who need orotracheal intubation or die will be measured. This will be defined with desaturation below 90%, respiratory rate above 30 o pO2 below 60 despite receiving a maximum pressure support and with 100% FIO2.",
+        "timeFrame": "From the start of CPAP or BIPAP to intubation and invasive ventilation or death at 30 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "90-day at home recovery",
+        "description": "Compare the degree of pre-admission mMRC dyspnea with the degree of mMRC dyspnea 90 days after inclusion in the study.",
+        "timeFrame": "From the inclusion to 90 days after inclusion in the study."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:09.907Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

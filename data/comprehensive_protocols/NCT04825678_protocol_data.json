@@ -1,0 +1,138 @@
+{
+  "nctId": "NCT04825678",
+  "briefTitle": "A Study to Evaluate Treatment Satisfaction With Erenumab in Participants With Migraine",
+  "officialTitle": "Phase 4, Open-label Study to Evaluate Treatment Satisfaction With Erenumab in Patients With Migraine",
+  "protocolDocument": {
+    "nctId": "NCT04825678",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-03-18",
+    "uploadDate": "2024-08-08T14:41",
+    "size": 1186873,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04825678/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 240,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-06-11",
+    "completionDate": "2023-09-28",
+    "primaryCompletionDate": "2023-09-28",
+    "firstSubmitDate": "2021-03-29",
+    "firstPostDate": "2021-04-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Participant has provided informed consent\n* History of migraine (with or without aura) for ≥ 12 months before screening\n* ≥ 4 migraine days per month on average across the 3 months prior to screening\n* Treatment with 1 oral migraine preventive medication and/or concomitant use of OnabotulinumtoxinA injections for migraine prevention.\n* Participant reports to their provider intolerance or insufficient response with their current preventative treatment\n\nExclusion Criteria:\n\n* History of cluster headache or hemiplegic migraine headache\n* Unable to differentiate migraine from other headaches\n* Evidence of substance-related disorders\n* Active chronic pain syndromes (eg, fibromyalgia and chronic pelvic pain)\n* No therapeutic response with \\> 3 migraine preventive medication categories\n* Used a prohibited medication, device, or procedure\n* Other clinically significant disorder, condition, or disease",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean Change From Baseline in the Treatment Satisfaction Questionnaire for Medication (TSQM) Overall Satisfaction Scale Score at Week 24 by SoC",
+        "description": "The TSQM version 1.4 is a 14-item instrument designed to measure important dimensions of participants' experiences with their medication. It has 4 domains: effectiveness, side effects, convenience, and overall satisfaction. Overall satisfaction scores could range from 0 to 100, with higher scores indicating greater satisfaction. A positive change from Baseline represents an increase in overall medication satisfaction.\n\nWorst postbaseline value observed up to erenumab discontinuation was used for participants who discontinued erenumab due to lack of efficacy or adverse event; missing value used for participants who discontinued erenumab due to other reasons.",
+        "timeFrame": "Baseline and Week 24"
+      },
+      {
+        "measure": "Mean Change From Baseline in the Treatment Satisfaction Questionnaire for Medication (TSQM) Overall Satisfaction Scale Score at Week 24 by Migraine Type",
+        "description": "The TSQM version 1.4 is a 14-item instrument designed to measure important dimensions of participants' experiences with their medication. It has 4 domains: effectiveness, side effects, convenience, and overall satisfaction. Overall satisfaction scores could range from 0 to 100, with higher scores indicating greater satisfaction. A positive change from Baseline represents an increase in overall medication satisfaction.\n\nWorst postbaseline value observed up to erenumab discontinuation was used for participants who discontinued erenumab due to lack of efficacy or adverse event; missing value used for participants who discontinued erenumab due to other reasons.",
+        "timeFrame": "Baseline and Week 24"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Observed Data: Percentage of Participants Achieving Overall Satisfaction at Week 24 by SoC",
+        "description": "Overall satisfaction is defined as the percentage of participants reporting of satisfied, very satisfied, or extremely satisfied on item 14 of the TSQM version 1.4. Item 14 of the TSQM measures global satisfaction on a 7 point rating scale where 1 indicates least satisfaction and 7 indicates most satisfaction.\n\nSummary statistics using observed data (after intercurrent event handling) presented. The 95% confidence interval (CI) is for the percentage of responders and was calculated using the Clopper-Pearson method.",
+        "timeFrame": "Week 24"
+      },
+      {
+        "measure": "GLIMMIX Model Data: Percentage of Participants Achieving Overall Satisfaction at Week 24 by SoC",
+        "description": "Overall satisfaction is defined as the percentage of participants reporting of satisfied, very satisfied, or extremely satisfied on item 14 of the TSQM version 1.4. Item 14 of the TSQM measures global satisfaction on a 7 point rating scale where 1 indicates least satisfaction and 7 indicates most satisfaction.\n\nThe estimated percentage and CI presented were obtained from a generalized linear mixed model with a logit link which includes Baseline achievement of overall satisfaction, visit, observed Baseline MMD, and selected Baseline characteristics as covariates and assumes a first-order auto regression covariance structure. The model includes data from all visits during treatment period. The 95% CI is for the percentage of responders and was calculated using the Clopper-Pearson method.",
+        "timeFrame": "Baseline up to Week 24"
+      },
+      {
+        "measure": "Observed Data: Percentage of Participants Achieving Overall Satisfaction at Week 24 by Migraine Type",
+        "description": "Overall satisfaction is defined as the percentage of participants reporting of satisfied, very satisfied, or extremely satisfied on item 14 of the TSQM version 1.4. Item 14 of the TSQM measures global satisfaction on a 7 point rating scale where 1 indicates least satisfaction and 7 indicates most satisfaction.\n\nSummary statistics using observed data (after intercurrent event handling) presented. The 95% CI is for the percentage of responders and was calculated using the Clopper-Pearson method.",
+        "timeFrame": "Week 24"
+      },
+      {
+        "measure": "GLIMMIX Model Data: Percentage of Participants Achieving Overall Satisfaction at Week 24 by Migraine Type",
+        "description": "Overall satisfaction is defined as the percentage of participants reporting of satisfied, very satisfied, or extremely satisfied on item 14 of the TSQM version 1.4. Item 14 of the TSQM measures global satisfaction on a 7 point rating scale where 1 indicates least satisfaction and 7 indicates most satisfaction.\n\nThe estimated percentage and CI presented were obtained from a generalized linear mixed model with a logit link which includes Baseline achievement of overall satisfaction, visit, observed Baseline MMD, and selected Baseline characteristics as covariates and assumes a first-order auto regression covariance structure. The model includes data from all visits during treatment period. The 95% CI is for the percentage of responders and was calculated using the Clopper-Pearson method.",
+        "timeFrame": "Baseline up to Week 24"
+      },
+      {
+        "measure": "Observed Data: Percentage of Participants Reporting Improvement in the Migraine Global Impression Item (mGI-I) at Week 24 by SoC",
+        "description": "Improvement is defined as the percentage of participants reporting of much improved or a little improved on the mGI-I. The mGI-I is a single item instrument designed to measure improvement/worsening in migraine. The 3 versions of the instrument include the perspective of study participants, treating clinicians, and key family members measured on the following scale: much improved; a little improved; no change; a little worse; or much worse. The recall period is the past 7 days.\n\nSummary statistics using observed data (after intercurrent event handling) presented. The 95% CI is for the percentage of responders and was calculated using the Clopper-Pearson method.",
+        "timeFrame": "Baseline and Week 24"
+      },
+      {
+        "measure": "GLIMMIX Model Data: Percentage of Participants Reporting Improvement in the mGI-I at Week 24 by SoC",
+        "description": "Improvement is defined as the percentage of participants reporting of much improved or a little improved on the mGI-I. The mGI-I is a single item instrument designed to measure improvement/worsening in migraine. The 3 versions of the instrument include the perspective of study participants, treating clinicians, and key family members measured on the following scale: much improved; a little improved; no change; a little worse; or much worse. The recall period is the past 7 days.\n\nThe estimated percentage and CI presented were obtained from a generalized linear mixed model with a logit link which includes visit, observed Baseline MMD, and selected Baseline characteristics as covariates and assumes a first-order auto regression covariance structure. The model includes data from all visits during treatment period. The 95% CI is for the percentage of responders and was calculated using the Clopper-Pearson method.",
+        "timeFrame": "Baseline up to Week 24"
+      },
+      {
+        "measure": "Observed Data: Percentage of Participants Reporting Improvement in the mGI-I at Week 24 by Migraine Type",
+        "description": "Improvement is defined as the percentage of participants reporting of much improved or a little improved on the mGI-I. The mGI-I is a single item instrument designed to measure improvement/worsening in migraine. The 3 versions of the instrument include the perspective of study participants, treating clinicians, and key family members measured on the following scale: much improved; a little improved; no change; a little worse; or much worse. The recall period is the past 7 days.\n\nSummary statistics using observed data (after intercurrent event handling) presented. The 95% CI is for the percentage of responders and was calculated using the Clopper-Pearson method.",
+        "timeFrame": "Baseline and Week 24"
+      },
+      {
+        "measure": "GLIMMIX Model Data: Percentage of Participants Reporting Improvement in the mGI-I at Week 24 by Migraine Type",
+        "description": "Improvement is defined as the percentage of participants reporting of much improved or a little improved on the mGI-I. The mGI-I is a single item instrument designed to measure improvement/worsening in migraine. The 3 versions of the instrument include the perspective of study participants, treating clinicians, and key family members measured on the following scale: much improved; a little improved; no change; a little worse; or much worse. The recall period is the past 7 days.\n\nThe estimated percentage and CI presented were obtained from a generalized linear mixed model with a logit link which includes visit, observed Baseline MMD, and selected Baseline characteristics as covariates and assumes a first-order auto regression covariance structure. The model includes data from all visits during treatment period. The 95% CI is for the percentage of responders and was calculated using the Clopper-Pearson method.",
+        "timeFrame": "Baseline up to Week 24"
+      },
+      {
+        "measure": "Mean Change From Baseline in Domain Scores as Measured by the Migraine Functional Impact Questionnaire (MFIQ) at Week 24 by SoC",
+        "description": "The MFIQ version 2.0 is a self-administered 26-item instrument measuring the impact of migraine on broader functioning including 4 domains: Impact on Physical Functioning, Impact on Usual Activities, Impact on Social Functioning, and Impact on Emotional Functioning. In addition, there is 1 stand-alone global item assessing the overall impact on usual activities. Participants respond to each item using a 5-point scale assigned scores from 1 to 5, with 5 representing the greatest burden. Each domain score was calculated as the sum of the item responses (i.e., raw score) and rescaled to a 0-100 scale, with higher scores representing greater burden. A negative change from baseline represents a reduction in burden. The recall period is the past 7 days.\n\nSummary statistics using observed data (after intercurrent event handling) presented.",
+        "timeFrame": "Baseline and Week 24"
+      },
+      {
+        "measure": "Mean Change From Baseline in Domain Scores as Measured by the MFIQ at Week 24 by Migraine Type",
+        "description": "The MFIQ version 2.0 is a self-administered 26-item instrument measuring the impact of migraine on broader functioning including 4 domains: Impact on Physical Functioning, Impact on Usual Activities, Impact on Social Functioning, and Impact on Emotional Functioning. In addition, there is 1 stand-alone global item assessing the overall impact on usual activities. Participants respond to each item using a 5-point scale assigned scores from 1 to 5, with 5 representing the greatest burden. Each domain score was calculated as the sum of the item responses (i.e., raw score) and rescaled to a 0-100 scale, with higher scores representing greater burden. A negative change from baseline represents a reduction in burden. The recall period is the past 7 days.\n\nSummary statistics using observed data (after intercurrent event handling) presented.",
+        "timeFrame": "Baseline and Week 24"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:54.772Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

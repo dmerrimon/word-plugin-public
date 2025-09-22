@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT02099799",
+  "briefTitle": "The Effect of Physical Activity Promotion on Short and Long-term Outcomes in COPD",
+  "officialTitle": "The Effect of Physical Activity Promotion on Short and Long-term Outcomes in COPD",
+  "protocolDocument": {
+    "nctId": "NCT02099799",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-06-21",
+    "uploadDate": "2020-12-16T08:49",
+    "size": 729363,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02099799/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 153,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-11-17",
+    "completionDate": "2020-02-07",
+    "primaryCompletionDate": "2019-11-01",
+    "firstSubmitDate": "2014-03-20",
+    "firstPostDate": "2014-03-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male and female subjects, greater than or equal to 40 years of age\n* Clinical diagnosis of COPD defined as either a ratio of FEV1 to forced vital capacity \\< 0.70 or chest CT evidence of emphysema. CT obtained as part of routine clinical care, independent of research study.\n* Medical clearance from healthcare provider to participate in an exercise program\n* Have an active email account and can check email at least weekly\n* Have access to a computer with Internet connection or willing to come to VABoston or Birmingham VA Medical Center to use study computers\n* Pedometer with \\>90% accuracy compared to manual counts on short clinic walk\n* Competent to provide informed consent\n* Willingness to make return visits and be available by telephone for duration of study\n\nExclusion Criteria:\n\n* COPD exacerbation in the previous 1 month\n* Unable to ambulate with or without assistance\n* Clinical signs of unstable cardiovascular disease or congestive heart failure\n* Hypoxemia during 6MWT, i.e. oxygen saturation \\<85% using supplemental oxygen\n* Unable to complete questionnaires\n* Unable to collect at least 5 of 7 days of baseline step counts\n* Participation in a pulmonary rehabilitation program at time of screening or within the previous 3 months\n* Participation in another exercise-related research study at time of screening\n* Plans to participate in an exercise-related research study in the next 6 months\n* Plans to enroll in a supervised exercise program, such as pulmonary rehabilitation, in the next 6 months",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "6-Minute Walk Test Distance",
+        "description": "In-clinic test that measures exercise capacity. Change in 6MWT distance at 6 months compared to baseline.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Health-related Quality of Life",
+        "description": "Questionnaires that assess quality of life. St. George's Respiratory Questionnaire Total Score Scores range 0-100 Higher score reflects worse HRQL. Change at 6 months compared to baseline",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Dyspnea",
+        "description": "Assessed by questionnaire that measure breathlessness and shortness of breath. mMRC dyspnea score Scores range 0-4. Higher values reflect more shortness of breath.\n\nChange at 6 months compared to baseline",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Engagement in Physical Activity",
+        "description": "Assessed by daily step counts on pedometer.\n\nChange at 6 months compared to baseline.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Inflammatory Biomarker Number 1",
+        "description": "RAGE-receptor of advanced glycation end-products",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Inflammatory Biomarker Number 2",
+        "description": "Inflammatory protein biomarker NT-proBNP (beta natriuretic peptide)",
+        "timeFrame": "6 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 1,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 61,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:28.716Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

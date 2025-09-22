@@ -1,0 +1,132 @@
+{
+  "nctId": "NCT05492786",
+  "briefTitle": "High-risk Influenza Vaccine Alert",
+  "officialTitle": "Alerts With Risk Information to Increase Influenza Vaccinations",
+  "protocolDocument": {
+    "nctId": "NCT05492786",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2023-03-15",
+    "uploadDate": "2024-03-26T12:10",
+    "size": 273745,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05492786/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 80452,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-09-01",
+    "completionDate": "2023-04-01",
+    "primaryCompletionDate": "2023-04-01",
+    "firstSubmitDate": "2022-08-02",
+    "firstPostDate": "2022-08-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Patient Inclusion Criteria:\n\n* Age 18+\n* Have been determined to be in the top 20% of risk through Medial's ML algorithm\n* Attend an appointment where the flu alert fires (Geisinger sets when flu alerts start and end--between \\~9/1/2022 and \\~4/30/2023, as well as the trigger conditions for the alert, which includes valid departments and visits and excludes contraindications like Guillain-Barre syndrome)\n\nClinician Inclusion Criteria:\n\n* Any Geisinger clinician who sees patient-participants in our study for an appointment where their flu shot alert fires",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Flu Vaccination",
+        "description": "Patient received a flu vaccine (yes/no)",
+        "timeFrame": "At the 1 day visit"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "High Confidence Flu Diagnosis",
+        "description": "Patient received a flu diagnosis via a positive polymerase chain reaction \\[PCR\\]/antigen/molecular test (yes/no) during the 2022-23 flu season (from the patient's appointment date through April 30, 2023)",
+        "timeFrame": "Up to 8 months"
+      },
+      {
+        "measure": "\"Likely Flu\" Diagnosis",
+        "description": "Received a \"high confidence flu\" diagnosis (with positive polymerase chain reaction \\[PCR\\]/antigen/molecular test) and/or \"likely flu\" diagnosis (as assessed via International Classification of Disease \\[ICD\\] codes or Tamiflu administration or positive PCR/antigen/molecular test) (yes/no) during the 2022-23 flu season (from the patient's appointment date through April 30, 2023)\n\nNote that \"likely flu\" is a superset of the \"high confidence flu\" diagnoses.",
+        "timeFrame": "Up to 8 months"
+      },
+      {
+        "measure": "Flu Complications",
+        "description": "Diagnosed with flu-related complications (yes/no) during the 2022-23 flu season (from the patient's appointment date through April 30, 2023)",
+        "timeFrame": "Up to 8 months"
+      },
+      {
+        "measure": "ER Visits",
+        "description": "Number of ER visits from the patient's message appointment date through July 31, 2023",
+        "timeFrame": "Up to 11 months"
+      },
+      {
+        "measure": "Hospitalizations",
+        "description": "Number of hospitalizations from the patient's message appointment date through July 31, 2023",
+        "timeFrame": "Up to 11 months"
+      },
+      {
+        "measure": "COVID-19 Vaccination Rates",
+        "description": "Received at least one COVID-19 vaccination (yes/no) during the 2022-23 flu season (from the patient's appointment date through April 30, 2023)",
+        "timeFrame": "Up to 8 months"
+      },
+      {
+        "measure": "Flu Vaccination During the 2022-2023 Season",
+        "description": "Patient receives a flu vaccine (yes/no) during the 2022-23 flu season (from the patient's appointment date through April 30, 2023)",
+        "timeFrame": "Up to 8 months"
+      },
+      {
+        "measure": "Flu Vaccination by Sex",
+        "description": "Patient received a flu vaccine (yes/no)",
+        "timeFrame": "At the 1 day visit"
+      },
+      {
+        "measure": "Flu Vaccination by Race",
+        "description": "Patient received a flu vaccine (yes/no)",
+        "timeFrame": "At the 1 day visit"
+      },
+      {
+        "measure": "Flu Vaccination by Ethnicity",
+        "description": "Patient received a flu vaccine (yes/no)",
+        "timeFrame": "At the 1 day visit"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 10,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:41.926Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

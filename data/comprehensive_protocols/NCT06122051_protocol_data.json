@@ -1,0 +1,100 @@
+{
+  "nctId": "NCT06122051",
+  "briefTitle": "Dynamic Chest X-ray With Simultaneous Spirometry",
+  "officialTitle": "Dynamic Chest X-ray With Simultaneous Spirometry",
+  "protocolDocument": {
+    "nctId": "NCT06122051",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-09-21",
+    "uploadDate": "2023-10-18T18:46",
+    "size": 457415,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06122051/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 200,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-11",
+    "completionDate": "2025-08",
+    "primaryCompletionDate": "2024-11",
+    "firstSubmitDate": "2023-10-19",
+    "firstPostDate": "2023-11-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Part A: Real-time paired DCR and Spirometry in Healthy cohort with no underlying respiratory diagnosis\n\nInclusion criteria:\n\n* Age: ≥ 17 years old and \\<\\_ 50 years old\n* No underlying respiratory illness (chronic or acute). Individuals with an Asthma diagnosis requiring short-acting bronchodilators only will be eligible\n* Able to provide informed consent\n\nExclusion criteria:\n\nGeneral exclusion criteria:\n\nAny of:\n\n* Potentially pregnant or lactating\n* Inability to provide informed consent\n* Unable or unwilling to sit to perform Dynamic chest x-ray/Spirometry in the radiology department\n* Unable or unwilling to follow Spirometry breathing instructions (e.g., holding breath or taking a deep breath)\n* Unable to perform reproducible spirometry and/or full pulmonary function studies within American Thoracic Society and European Society joint criteria\n* Significant radiation exposure within the last year (for example, numerous CT scans of chest)\n* Involved, either currently or recently, in other studies involved non-routine exposure to sources of ionising radiation\n* Any serious or active medical or psychiatric illness, which in the opinion of the investigators, would interfere with subject treatment, assessment, or compliance with the protocol\n* Inability to complete spirometry in 20 seconds.\n* Current Chest infection\n\nSpirometry exclusion criteria\n\nAny of:\n\n* Unstable cardiovascular status, recent myocardial infarction or pulmonary embolism (within 6 weeks)\n* Haemoptysis of unknown aetiology (within 6 weeks)\n* Pneumothorax (present, or occurring within 6 weeks)\n* Within 24 hours of bronchoscopy\n* Thoracic, abdominal or cerebral aneurysm\n* Recent eye surgery or increased intraocular pressure\n* Recent thoracic or abdominal surgery\n* Acute nausea, vomiting or diarrhoea\n* Pregnancy\n* Undergoing treatment for tuberculosis\n\nPart B: Real-time paired DCR and spirometry in a CF subgroup\n\nInclusion criteria:\n\n* Age: ≥ 17 years old and\n* Attending the adult CF Unit at Liverpool heart and Chest Hospital and\n* Confirmed CF diagnosis (positive sweat test in childhood and by genotyping) and\n* Able to provide informed consent\n\nGeneral exclusion criteria, same as Group A (see above) plus:\n\n* Recipient of Lung transplant\n* Current exacerbation Spirometry exclusion criteria (same as for Group A, see above)",
+    "sex": "ALL",
+    "minimumAge": "17 Years",
+    "maximumAge": "50 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Correlation between Dynamic chest X-ray (DCR) metrics And Spirometry metrics in people with Cystic fibrosis and those with no underlying respiratory conditions",
+        "description": "DCR metrics as calculated by software analysis of DCR imaging. This includes: projected lung area, diaphragm movement and signal density of the image. Spirometry metrics: e.g forced expiratory volume at one second (FEV1) and forced vital capacity (FVC)",
+        "timeFrame": "During the test (simultaneous acquisition of dynamic chest X-ray and Spirometry)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Correlation between DCR metrics and Spirometry metrics over time, as recorded in annual review CF clinic attendance (non-simultaneous)",
+        "description": "Patients with CF attend an annual review clinic once a year. This review includes a DCR and spirometry. The DCR metrics data is produced through software analysis of original DCR images and includes: projected lung area, diaphragm movement and signal density of the image. At this annual review people with CF also have spirometry. Spirometry metrics: e.g FEV1 and FVC.",
+        "timeFrame": "Day of annual review attendance up to 48 months prior (first DCR acquisition 2019)"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Correlation between DCR metrics and BMI for people with CF",
+        "description": "Patients with CF attend an annual review clinic once a year. This review includes a DCR as well as the record of other key clinical markers of CF. DCR metrics are produced through software analysis of original DCR images and include: projected lung area and diaphragm movement as well as signal density. From the annual review clinic attendance key CF data is recorded including BMI",
+        "timeFrame": "Day of annual review clinic attendance and up 48 months prior (first DCR acquisition 2019)"
+      },
+      {
+        "measure": "Correlation between DCR metrics and microbial colonisation for people with CF",
+        "description": "Patients with CF attend an annual review clinic once a year. This review includes a DCR as well as the record of other key clinical markers of CF. DCR metrics are produced through software analysis of original DCR images and include: projected lung area and diaphragm movement as well as signal density. From the annual review clinic attendance key CF data is recorded including microbial colonisation",
+        "timeFrame": "Day of annual review clinic attendance and up 48 months prior (first DCR acquisition 2019)"
+      },
+      {
+        "measure": "Correlation between DCR metrics and co-morbidities for people with CF",
+        "description": "Patients with CF attend an annual review clinic once a year. This review includes a DCR as well as the record of other key clinical markers of CF. DCR metrics are produced through software analysis of original DCR images and include: projected lung area and diaphragm movement as well as signal density. From the annual review clinic attendance key CF data is recorded including CF comorbidities",
+        "timeFrame": "Day of annual review clinic attendance and up 48 months prior (first DCR acquisition 2019)"
+      },
+      {
+        "measure": "Correlation between DCR metrics and key CF respiratory medication for people with CF",
+        "description": "Patients with CF attend an annual review clinic once a year. This review includes a DCR as well as the record of other key clinical markers of CF. DCR metrics are produced through software analysis of original DCR images and include projected lung area and diaphragm movement as well as signal density. From the annual review clinic attendance key CF respiratory medication date to include Nebulised therapy, modulator therapy, steroids, mucolytics, inhalers",
+        "timeFrame": "Day of annual review clinic attendance and up 48 months prior (first DCR acquisition 2019)"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 4,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 42,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:56.144Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

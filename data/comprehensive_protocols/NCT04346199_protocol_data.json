@@ -1,0 +1,169 @@
+{
+  "nctId": "NCT04346199",
+  "briefTitle": "Acalabrutinib Study With Best Supportive Care Versus Best Supportive Care in Subjects Hospitalized With COVID-19.",
+  "officialTitle": "A Phase 2, Open Label, Randomized Study of the Efficacy and Safety of Acalabrutinib With Best Supportive Care Versus Best Supportive Care in Subjects Hospitalized With COVID-19",
+  "protocolDocument": {
+    "nctId": "NCT04346199",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-07-24",
+    "uploadDate": "2021-09-08T05:44",
+    "size": 808626,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04346199/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 177,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-06-12",
+    "completionDate": "2020-11-17",
+    "primaryCompletionDate": "2020-11-17",
+    "firstSubmitDate": "2020-04-09",
+    "firstPostDate": "2020-04-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Ability to understand the purpose and risks of the study and provide signed and dated informed consent or have a legal representative provide consent and authorization to use protected health information (in accordance with national and local patient privacy regulations)\n2. Men and women ≥18 years of age at the time of signing the informed consent form\n3. Confirmed infection with SARS-CoV-2 confirmed per World Health Organization (WHO) criteria (including positive RT-PCR nucleic acid test of any specimen \\[eg, respiratory, blood, urine, stool, or other bodily fluid\\]) within 4 days of randomization\n4. COVID-19 pneumonia (documented radiographically) requiring hospitalization and oxygen saturation \\<94% on room air or requires supplemental oxygen\n5. Able to swallow pills\n6. Willing to follow contraception guidelines\n\nExclusion Criteria:\n\n1. Respiratory failure at time of screening due to COVID-19\n2. Known medical resuscitation within 14 days of randomization\n3. Pregnant or breast feeding\n4. Suspected uncontrolled active bacterial, fungal, viral, or other infection (besides infection with SARS-CoV-2)\n5. Alanine aminotransferase (ALT), aspartate aminotransferase (AST) and/or bilirubin ≥ 3x upper limit of normal (ULN) and/or severe hepatic impairment detected within 24 hours at screening (per local lab)\n6. Uncontrolled or untreated symptomatic arrhythmias, myocardial infarction within the last 6 weeks, or congestive heart failure (NYHA Grade 3 or 4). Exception: Subjects with controlled, asymptomatic atrial fibrillation during screening are allowed to enroll\n7. Treatment with a strong cytochrome P450 (CYP)3A inhibitor (within 14 days before first dose of study drug) or inducer (within 7 days before first dose of study drug).\n8. Requires treatment with proton-pump inhibitors (PPIs; eg, omeprazole, esomeprazole, lansoprazole, dexlansoprazole, rabeprazole, or pantoprazole). Subjects receiving PPIs who switch to H2-receptor antagonists or antacids are eligible for enrollment in this study\n9. Received oral antirejection or immunomodulatory drugs (eg, anticytokines, Btk inhibitors, JAK inhibitors, PI3K inhibitors) within 30 days before randomization on study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "130 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants Alive and Free of Respiratory Failure at Day 14",
+        "description": "Respiratory failure, is defined based on resource utilization of any of the following modalities: a) Endotracheal intubation and mechanical ventilation b) Oxygen delivered by high-flow nasal cannula (heated, humidified, oxygen delivered via reinforced nasal cannula at flow rates \\>20 L/min with fraction of delivered oxygen ≥0.5) c) Non-invasive positive pressure ventilation or continuous positive airway pressure d) Extracorporeal membrane oxygenation",
+        "timeFrame": "At Day 14"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Adverse Events and Serious Adverse Events",
+        "timeFrame": "Screening to 28 (+3) days after last dose of acalabrutinib (for acalabrutinib + BSC participants) or to 38 (+3) days after randomization (for BSC alone participants)"
+      },
+      {
+        "measure": "Percentage of Participants Alive and Free of Respiratory Failure at Day 28",
+        "description": "Respiratory failure, is defined based on resource utilization of any of the following modalities: a) Endotracheal intubation and mechanical ventilation b) Oxygen delivered by highflow nasal cannula (heated, humidified, oxygen delivered via reinforced nasal cannula at flow rates \\>20 L/min with fraction of delivered oxygen ≥0.5) c) Non-invasive positive pressure ventilation or continuous positive airway pressure d) Extracorporeal membrane oxygenation",
+        "timeFrame": "At Day 28"
+      },
+      {
+        "measure": "Percent Change From Baseline in C-reactive Protein.",
+        "description": "Baseline is defined as the result obtained on the date of randomization. If no result was obtained on the date of randomization, the last result prior to the date of randomization is used.\n\nPercent change from baseline at Day X is calculated by multiplying the following result by 100%: (Day X value - Baseline value)/Baseline value.\n\nThe mean of this result for all analyzed patients is taken to get the mean percent change from baseline.",
+        "timeFrame": "Days 3, 5, 7, 10, 14, 28"
+      },
+      {
+        "measure": "Percent Change From Baseline in Ferritin",
+        "description": "Baseline is defined as the result obtained on the date of randomization. If no result was obtained on the date of randomization, the last result prior to the date of randomization is used.\n\nPercent change from baseline at Day X is calculated by multiplying the following result by 100%: (Day X value - Baseline value)/Baseline value.\n\nThe mean of this result for all analyzed patients is taken to get the mean percent change from baseline.",
+        "timeFrame": "Days 3, 5, 7, 10, 14, 28"
+      },
+      {
+        "measure": "Percent Change From Baseline in Absolute Lymphocyte Count",
+        "description": "Baseline is defined as the result obtained on the date of randomization. If no result was obtained on the date of randomization, the last result prior to the date of randomization is used.\n\nPercent change from baseline at Day X is calculated by multiplying the following result by 100%: (Day X value - Baseline value)/Baseline value.\n\nThe mean of this result for all analyzed patients is taken to get the mean percent change from baseline.",
+        "timeFrame": "Days 3, 5, 7, 10, 14, 28"
+      },
+      {
+        "measure": "Overall Survival",
+        "description": "Median overall survival, calculated using the Kaplan-Meier technique. Confidence interval for median overall survival (days) is derived based on Brookmeyer-Crowley method with log-log transformation.",
+        "timeFrame": "From randomization until 90 days after randomization. Safety Issue:"
+      },
+      {
+        "measure": "Percentage of Participants Alive and Discharged From ICU",
+        "timeFrame": "At Day 14 and at Day 28"
+      },
+      {
+        "measure": "Time From Randomization to First Occurrence of Respiratory Failure or Death on Study Due to Any Cause",
+        "description": "Median time to first occurrence of respiratory failure or death, calculated using the Kaplan-Meier technique. Confidence interval for median overall survival (days) is derived based on Brookmeyer-Crowley method with log-log transformation.",
+        "timeFrame": "From randomization to 28 days after randomization."
+      },
+      {
+        "measure": "Number of Days Alive and Free of Respiratory Failure",
+        "description": "Respiratory failure, is defined based on resource utilization of any of the following modalities: a) Endotracheal intubation and mechanical ventilation b) Oxygen delivered by highflow nasal cannula (heated, humidified, oxygen delivered via reinforced nasal cannula at flow rates \\>20 L/min with fraction of delivered oxygen ≥0.5) c) Non-invasive positive pressure ventilation or continuous positive airway pressure d) Extracorporeal membrane oxygenation",
+        "timeFrame": "From randomization to 28 days after randomization."
+      },
+      {
+        "measure": "Number of Days With Respiratory Failure",
+        "description": "Respiratory failure, is defined based on resource utilization of any of the following modalities: a) Endotracheal intubation and mechanical ventilation b) Oxygen delivered by high-flow nasal cannula (heated, humidified, oxygen delivered via reinforced nasal cannula at flow rates \\>20 L/min with fraction of delivered oxygen ≥0.5) c) Non-invasive positive pressure ventilation or continuous positive airway pressure d) Extracorporeal membrane oxygenation For participants who die (due to any cause) prior to Day 28, days from death to Day 28 are counted as days with respiratory failure. For participants in hospital and experiencing respiratory failure at the time they withdraw from the study, days from last known status to Day 28 are counted as days with respiratory failure.",
+        "timeFrame": "From randomization to 28 days after randomization."
+      },
+      {
+        "measure": "Number of Days Hospitalized",
+        "description": "For this summary, the hospitalization must be considered clinically indicated to count as a day hospitalized.\n\nFor participants who die (due to any cause) prior to Day 28, days from death to Day 28 are counted as days hospitalized.\n\nFor participants in hospital at the time they withdraw from the study, days from last known status to Day 28 are counted as days hospitalized.",
+        "timeFrame": "From randomization to 28 days after randomization."
+      },
+      {
+        "measure": "Number of Days in ICU",
+        "description": "For this summary, the ICU stay must be considered clinically indicated to count as a day in ICU.\n\nFor participants who die (due to any cause) prior to Day 90, days from death to Day 90 are counted as days in ICU.",
+        "timeFrame": "From randomization to 90 days after randomization."
+      },
+      {
+        "measure": "Number of Days Alive Outside of Hospital",
+        "timeFrame": "From randomization to 28 days after randomization."
+      },
+      {
+        "measure": "Number of Days Alive Outside of Hospital",
+        "timeFrame": "From randomization to 90 days after randomization."
+      },
+      {
+        "measure": "Percent Change From Baseline in Oxygenation Index",
+        "description": "Baseline is defined as the result obtained on the date of randomization.\n\nPercent change from baseline at Day X is calculated by multiplying the following result by 100%: (Day X value - Baseline value)/Baseline value.\n\nThe mean of this result for all analyzed patients is taken to get the mean percent change from baseline.",
+        "timeFrame": "Days 3, 5, 7, 10, 14, 28"
+      },
+      {
+        "measure": "Time From Randomization to Clinical Improvement of at Least 2 Points on a 9-point Category Ordinal Scale",
+        "description": "9-point category ordinal scale: 0. \\* Uninfected, no clinical or virological evidence of infection\n\n1. Ambulatory, no limitation of activities\n2. Ambulatory, limitation of activities\n3. Hospitalized - mild disease, no oxygen therapy\n4. Hospitalized - mild disease, oxygen by mask or nasal prongs\n5. Hospitalized - severe disease, non-invasive ventilation or high flow oxygen\n6. Hospitalised - severe disease, intubation and mechanical ventilation\n7. Hospitalized - severe disease, ventilation and additional organ support, such as pressors, renal replacement therapy, extracorporeal membrane oxygenation\n8. Death\n\nMedian time to first occurrence of respiratory failure or death, calculated using the Kaplan-Meier technique. Confidence interval for median overall survival (days) is derived based on Brookmeyer-Crowley method with log-log transformation.",
+        "timeFrame": "From randomization to 28 days after randomization."
+      },
+      {
+        "measure": "Pharmacokinetics of Acalabrutinib",
+        "description": "Summary of plasma concentrations (ng/mL) of acalabrutinib",
+        "timeFrame": "Day 3 and Day 7"
+      },
+      {
+        "measure": "Pharmacokinetics of ACP-5862",
+        "description": "Summary of plasma concentrations (ng/mL) of ACP-5862",
+        "timeFrame": "Day 3 and Day 7"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 18,
+      "otherCount": 0,
+      "totalCount": 19
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:38.159Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

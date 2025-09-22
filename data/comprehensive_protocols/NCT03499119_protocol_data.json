@@ -1,0 +1,121 @@
+{
+  "nctId": "NCT03499119",
+  "briefTitle": "AMG 334 20160172 Pediatric Migraine PK Study.",
+  "officialTitle": "A Phase I, Randomized, Open-label, Multiple-dose Study to Evaluate Safety, Tolerability, and Pharmacokinetics of AMG 334 in Children and Adolescents With Migraine",
+  "protocolDocument": {
+    "nctId": "NCT03499119",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-11-03",
+    "uploadDate": "2022-11-04T13:30",
+    "size": 1345758,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03499119/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 53,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-05-04",
+    "completionDate": "2021-11-23",
+    "primaryCompletionDate": "2021-11-23",
+    "firstSubmitDate": "2018-03-07",
+    "firstPostDate": "2018-04-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subject's legally acceptable representative has provided informed consent and the subject has provided written assent based on local regulations and/or guidelines prior to any study-specific activities/procedures being initiated.\n* Male and female children and adolescents ≥ 6 and \\<18 years of age upon entry into screening\n* Diagnosis of migraines, with or without aura, according to the International Classification of Headache Disorders (ICHD 3rd Edition, 2013) for at least 12 months prior to the study screening\n* Frequency of migraine of ≥ 4 migraine days per month in each of the 3 months prior to the study screening period\n\nExclusion Criteria:\n\n* Currently receiving treatment in another investigational device or drug study\n* History of migraine with brainstem aura or hemiplegic migraine headache\n* Medical history or other condition that compromises the ability of the subject or legally acceptable representative to give appropriate informed consent and/or assent\n* Malignancy except non-melanoma skin cancers or cervical cancer in situ within the last 5 years.\n* Presence of any clinical condition that in opinion of the investigator might increased the risk of subjects participating in the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "6 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time to Maximum Concentration (Tmax) of Erenumab",
+        "description": "Blood samples for pharmacokinetic (PK) testing were collected for the measurement of PK concentrations. Serum erenumab concentrations were determined using a validated assay. Noncompartmental analysis (NCA) was performed for erenumab PK parameter estimation.",
+        "timeFrame": "First dose: Days 1 (pre-dose), 8, 15, and 29 (pre-dose); third dose: Days 57 (pre-dose), 64, 71, and 85"
+      },
+      {
+        "measure": "Maximum Observed Concentration (Cmax) of Erenumab",
+        "description": "Blood samples for PK testing were collected for the measurement of PK concentrations. Serum erenumab concentrations were determined using a validated assay. NCA was performed for erenumab PK parameter estimation.",
+        "timeFrame": "First dose: Days 1 (pre-dose), 8, 15, and 29 (pre-dose); third dose: Days 57 (pre-dose), 64, 71, and 85"
+      },
+      {
+        "measure": "Trough Concentration (Ctrough) of Erenumab",
+        "description": "Blood samples for PK testing were collected for the measurement of PK concentrations. Serum erenumab concentrations were determined using a validated assay. NCA was performed for erenumab PK parameter estimation.",
+        "timeFrame": "First dose: Days 1 (pre-dose), 8, 15, and 29 (pre-dose); third dose: Days 57 (pre-dose), 64, 71, and 85"
+      },
+      {
+        "measure": "Area Under the Concentration Time Curve From 0 to 28 Days (AUC0-28day) of Erenumab",
+        "description": "Blood samples for PK testing were collected for the measurement of PK concentrations. Serum erenumab concentrations were determined using a validated assay. NCA was performed for erenumab PK parameter estimation.",
+        "timeFrame": "First dose: Days 1 (pre-dose), 8, 15, and 29 (pre-dose); third dose: Days 57 (pre-dose), 64, 71, and 85"
+      },
+      {
+        "measure": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+        "description": "An adverse event (AE) was defined as any untoward medical occurrence in a clinical study participant. A TEAE was defined as an AE starting on or after first dose of investigational product. The event did not necessarily have a causal relationship with study treatment.",
+        "timeFrame": "Up to Week 52 + 16-week safety follow-up"
+      },
+      {
+        "measure": "Number of Participants With Clinically Significant Changes in Vital Signs Measurements",
+        "description": "The following measurements were performed: systolic/diastolic blood pressure, heart rate, and temperature.",
+        "timeFrame": "Up to Week 52 + 16-week safety follow-up"
+      },
+      {
+        "measure": "Number of Participants With Clinically Significant Changes in Electrocardiogram (ECG) Measurements",
+        "description": "Clinically significant changes in ECG was defined as incidence of abnormal ECG diagnosis based on 12-lead ECG including heart rate, QRS, QTc and PR intervals.",
+        "timeFrame": "Up to Week 52"
+      },
+      {
+        "measure": "Number of Participants With Clinically Significant Changes in Clinical Laboratory Safety Tests",
+        "description": "The clinical laboratory safety tests included: chemistry, hematology, and urinalysis.",
+        "timeFrame": "Up to Week 52 + 16-week safety follow-up"
+      },
+      {
+        "measure": "Number of Participants With Clinically Significant Changes in Neurological Assessments",
+        "description": "The neurological examinations were completed as per standard of care.",
+        "timeFrame": "Up to Week 52 + 16-week safety follow-up"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 9,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:54.668Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

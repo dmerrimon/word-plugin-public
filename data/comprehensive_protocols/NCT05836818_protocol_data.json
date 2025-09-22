@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT05836818",
+  "briefTitle": "PROmotion of FLU Vaccine Uptake in the Emergency Department - PROFLUVAXED",
+  "officialTitle": "PROmotion of FLU Vaccine Uptake in the Emergency Department - PROFLUVAXED",
+  "protocolDocument": {
+    "nctId": "NCT05836818",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-11-03",
+    "uploadDate": "2023-11-21T18:36",
+    "size": 399132,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05836818/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 776,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-10-01",
+    "completionDate": "2023-03-30",
+    "primaryCompletionDate": "2023-02-28",
+    "firstSubmitDate": "2023-04-19",
+    "firstPostDate": "2023-05-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Adults\n2. Presenting to ED\n3. Not already vaccinated for influenza in the current year\n4. Able to provide informed consent\n5. Fluent in English or Spanish\n6. Anticipated ability to complete study intervention in ED i.e., able to watch a 3-minute videoclip\n\nExclusion Criteria:\n\n1. Age \\< 18 years\n2. Major trauma such that it will preclude survey\n3. Inability to participate in a survey because of intoxication, altered mental status, or critical illness\n4. Incarceration\n5. Psychiatric hold\n6. We will also exclude patients who state that they have already received an influenza vaccine and patients who are in the ED for suspected acute Covid or influenza illness.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Influenza Vaccine Uptake at 30 Days Comparing Intervention M and Non Intervention",
+        "description": "Participant uptake of the influenza vaccine 30 days after enrollment assessed by confirmation of receipt of vaccine in one of 3 ways:\n\n1. Receipt in emergency department during index (enrollment) visit\n2. Electronic health record review 30 days after index visit\n3. Follow up phone call to participant at 30 days - We are asking patients if they received a flu vaccine since their index emergency department visit.",
+        "timeFrame": "30 days post index ED visit"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Vaccine Acceptance",
+        "description": "Participants who responded they would accept a vaccine of asked in the ED. Comparing Intervention M and Intervention Q groups",
+        "timeFrame": "during ED visit"
+      },
+      {
+        "measure": "Influenza Vaccine Uptake at 30 Days Comparing Intervention Q and Non-Intervention Group",
+        "description": "Participant uptake of the influenza vaccine 30 days after enrollment assessed by confirmation of receipt of vaccine in one of 3 ways:\n\n1. Receipt in emergency department during index (enrollment) visit\n2. Electronic health record review 30 days after index visit\n3. Follow up phone call to participant at 30 days - We are asking patients if they received a flu vaccine since their index emergency department visit.",
+        "timeFrame": "30 days post index ED visit"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Influenza Vaccine Uptake at 30 Days Comparing Intervention M and Intervention Q",
+        "description": "Participant uptake of the influenza vaccine 30 days after enrollment assessed by confirmation of receipt of vaccine in one of 3 ways:\n\n1. Receipt in emergency department during index (enrollment) visit\n2. Electronic health record review 30 days after index visit\n3. Follow up phone call to participant at 30 days - We are asking patients if they received a flu vaccine since their index emergency department visit.",
+        "timeFrame": "30 days post index ED visit"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 1,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 51,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:33.615Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

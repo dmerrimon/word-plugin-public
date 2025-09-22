@@ -1,0 +1,232 @@
+{
+  "nctId": "NCT03896438",
+  "briefTitle": "Maximizing the Impact of Neuroplasticity Using Transcranial Electrical Stimulation Study 2",
+  "officialTitle": "Increased Thalamocortical Connectivity in Tdcs-potentiated Generalization of Cognitive Training",
+  "protocolDocument": {
+    "nctId": "NCT03896438",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-01-26",
+    "uploadDate": "2024-04-02T12:22",
+    "size": 886708,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03896438/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-07-01",
+    "completionDate": "2023-05-30",
+    "primaryCompletionDate": "2023-05-30",
+    "firstSubmitDate": "2019-03-25",
+    "firstPostDate": "2019-04-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Ability to provide consent and comply with study procedures.\n2. Age 18 - 60 years old.\n3. Estimated IQ range within the range: 70 ≤ IQ ≤ 115.\n4. Schizophrenia or schizoaffective disorder as assessed by the MINI (Mini International Neuropsychiatric Interview)(Sheehan et al., 1998).\n5. Not having a current addictive disorder as measured by MINI (Mini International Neuropsychiatric Interview), or a sleep disorder.\n6. Ability to participate in three weekly 45' training sessions over 12 weeks and participate in four assessments.\n7. Clinically stable and on stable medications for at least one month before start of study.\n\nExclusion Criteria:\n\n1. Any medical condition or treatment with neurological sequelae (e.g. stroke, tumor, loss of consciousness \\> 30 min, HIV).\n2. Contraindications for tDCS or MRI scanning (tDCS contraindication: history of seizures; MRI contraindications: The research team will utilize the CMRR Center's screening tools and adhere to the screening SOP during enrollment of all research participants in this protocol. The CMRR Center's screening tools and SOP are IRB approved under the CMRR Center Grant (HSC# 1406M51205) and information regarding screening procedures is publicly available on the CMRR website (CMRR Policies / Procedures).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Changes in Thalamocortical Functional Connectivity (FC)",
+        "description": "Most participants completed MRI sessions on a 3T scanner located in the Center for Magnetic Resonance Research (CMRR) at the University of Minnesota. FC measures how different brain regions change in activation together. We characterized FC using global connectivity from graph theory analysis. We extracted the fMRI time courses from 454 parcellations defined by the 400 S4 Schaefer Atlas (Schaefer et al., 2018) combined with the Melbourne Subcortex Atlas (Tian et al., 2020). We computed the absolute value of the Pearson's correlation for all possible pairs of time series, creating a 454x454 (N x N) connectivity matrix, which was then reduced to 10% most significant connections by subject. We estimated the FC by calculating the node strength for each parcellation, which is the weighted mean of all significant connections, from these connectivity matrices. Finally, we averaged node strength across parcellations to calculate global node strength. Higher values indicate more brain-wide FC.",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Changes in Task-dependent Thalamocortical Functional Connectivity (fMRI) During the N-back Task.",
+        "description": "Task-dependent thalamocortical connectivity associated with the N-back task was calculated by modeling the block task design together with the thalamic regressor using psychophysiological interaction analysis (PPI). The thalamic regressor is the time series of the mediodorsal thalamus from the Melbourne atlas. The primary analysis focused on the 2-back conditions alone. The PPI analysis calculates the functional connectivity between the mediodorsal thalamus and all other brain regions specifically during 2-back trials. Neural activation related to the thalamic regressor was compared to neural activation during the fixation (no choices made) to normalize the relative activation (z-score). Positive values indicate increased functional connectivity with the thalamus during the 2-back choices. A z-score of zero represents no difference compared to the fixation cross (no choices). We report the average z-score of the PPI regressor within the control network (Yeo et al., 2011).",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Changes in Task-dependent Thalamocortical Functional Connectivity (fMRI) During the DPX Task.",
+        "description": "Task-dependent thalamocortical connectivity associated with the Dot Pattern Expectancy (DPX) task demands will be identified by analyzing cue and probe events together with the thalamic regressor using psychophysiological interaction analysis (PPI). The thalamic regressor is the time series of the mediodorsal thalamus from the Melbourne atlas. We examined B-cue related connectivity. The PPI analysis calculates the functional connectivity between the mediodorsal thalamus and all other brain regions specifically during B-cue trials. Neural activation related to the thalamic regressor was compared to neural activation during the fixation (no choices made) to normalize the relative activation (z-score). Positive values indicate increased functional connectivity with the thalamus during the B-cue responses. A z-score of zero represents no difference compared to the fixation cross (no choices). We report the average z-score of the PPI regressor within the control network.",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Change in N-back Performance",
+        "description": "The n-back task measures working memory capacity. The participant is presented with a series of stimuli and instructed to indicate with a button press when the current stimulus matches the stimulus that appeared a pre-determined number (n) of trials before. d' (d prime) will be calculated as a measure of signal detection, which indicates the normalized rate of hits to false positives (d' = z(H) - z(F)). Increase in d' signifies improved signal detection, i.e. a better outcome. A d' near zero indicates a performance at chance, i.e., a poor performance. The range is -4.65 to 4.65",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Change in DPX Performance",
+        "description": "The Dot Pattern Expectancy (DPX) task is an adaptation of the expectancy AX task that uses pairs of simple dot patterns rather than letter pairs as stimuli. The DPX task will be performed in 3 blocks. Each trial consists of a cue dot pattern followed by a probe dot pattern. Different combinations of cues and probes enable the identification of a specific deficit in a subject's ability to maintain goal-relevant information throughout a trial. Timing will be jittered and each block of the DPX task will consist of 40 trials: 24 AX (60%), 6 AY (15%), 6 BX (15%) and 4 BY (10%). Each block will last 6 minutes. d'-context will be calculated as a measure of signal detection, which indicates the normalized rate of AX hits to BX false positives (d' = z(H) - z(F)). Increase in d' -context signified improved signal detection, i.e. a better outcome. A d' near zero indicates a performance at chance, i.e., a poor performance. The range is -4.65 to 4.65.",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Change in Measurement and Treatment Research to Improve Cognition in Schizophrenia (MATRICS) Consensus Cognitive Battery (MCCB) Composite Score",
+        "description": "Intends to provide a relatively brief evaluation of key cognitive domains relevant to schizophrenia and related disorders. The composite score is reported as a T-score, with a mean of 50 and standard deviation of 10. Higher values indicate greater cognitive functioning.",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Changes in Thalamocortical Functional Connectivity (FC)",
+        "description": "Most participants completed MRI sessions on a 3T scanner located in the Center for Magnetic Resonance Research (CMRR) at the University of Minnesota. FC measures how different brain regions change in activation together. We characterized FC using global connectivity from graph theory analysis. We extracted the fMRI time courses from 454 parcellations defined by the 400 S4 Schaefer Atlas (Schaefer et al., 2018) combined with the Melbourne Subcortex Atlas (Tian et al., 2020). We computed the absolute value of the Pearson's correlation for all possible pairs of time series, creating a 454x454 (N x N) connectivity matrix, which was then reduced to 10% most significant connections by subject. We estimated the FC by calculating the node strength for each parcellation, which is the weighted mean of all significant connections, from these connectivity matrices. Finally, we averaged node strength across parcellations to calculate global node strength. Higher values indicate more brain-wide FC.",
+        "timeFrame": "mid-test (week 6)"
+      },
+      {
+        "measure": "Changes in Thalamocortical Functional Connectivity (FC)",
+        "description": "Most participants completed MRI sessions on a 3T scanner located in the Center for Magnetic Resonance Research (CMRR) at the University of Minnesota. FC measures how different brain regions change in activation together. We characterized FC using global connectivity from graph theory analysis. We extracted the fMRI time courses from 454 parcellations defined by the 400 S4 Schaefer Atlas (Schaefer et al., 2018) combined with the Melbourne Subcortex Atlas (Tian et al., 2020). We computed the absolute value of the Pearson's correlation for all possible pairs of time series, creating a 454x454 (N x N) connectivity matrix, which was then reduced to 10% most significant connections by subject. We estimated the FC by calculating the node strength for each parcellation, which is the weighted mean of all significant connections, from these connectivity matrices. Finally, we averaged node strength across parcellations to calculate global node strength. Higher values indicate more brain-wide FC.",
+        "timeFrame": "post-test (week 12)"
+      },
+      {
+        "measure": "Changes in Task-dependent Thalamocortical Functional Connectivity (fMRI) During the N-back Task.",
+        "description": "Task-dependent thalamocortical connectivity associated with the N-back task was calculated by modeling the block task design together with the thalamic regressor using psychophysiological interaction analysis (PPI). The thalamic regressor is the time series of the mediodorsal thalamus from the Melbourne atlas. The primary analysis focused on the 2-back conditions alone. The PPI analysis calculates the functional connectivity between the mediodorsal thalamus and all other brain regions specifically during 2-back trials. Neural activation related to the thalamic regressor was compared to neural activation during the fixation (no choices made) to normalize the relative activation (z-score). Positive values indicate increased functional connectivity with the thalamus during the 2-back choices. A z-score of zero represents no difference compared to the fixation cross (no choices). We report the average z-score of the PPI regressor within the control network (Yeo et al., 2011).",
+        "timeFrame": "mid-test (week 6)"
+      },
+      {
+        "measure": "Changes in Task-dependent Thalamocortical Functional Connectivity (fMRI) During the N-back Task.",
+        "description": "Task-dependent thalamocortical connectivity associated with the N-back task was calculated by modeling the block task design together with the thalamic regressor using psychophysiological interaction analysis (PPI). The thalamic regressor is the time series of the mediodorsal thalamus from the Melbourne atlas. The primary analysis focused on the 2-back conditions alone. The PPI analysis calculates the functional connectivity between the mediodorsal thalamus and all other brain regions specifically during 2-back trials. Neural activation related to the thalamic regressor was compared to neural activation during the fixation (no choices made) to normalize the relative activation (z-score). Positive values indicate increased functional connectivity with the thalamus during the 2-back choices. A z-score of zero represents no difference compared to the fixation cross (no choices). We report the average z-score of the PPI regressor within the control network (Yeo et al., 2011).",
+        "timeFrame": "post-test (week 12)"
+      },
+      {
+        "measure": "Changes in Task-dependent Thalamocortical Functional Connectivity (fMRI) During the DPX Task.",
+        "description": "PPI regressor (z-score) within Control Network associated with B-cue Task-dependent thalamocortical connectivity associated with the DPX task demands will be identified by analyzing cue and probe events together with the thalamic regressor using psychophysiological interaction analysis (PPI). The thalamic regressor is the time series of the mediodorsal thalmus from the Melbourne atlas (THA-DAm; Tian et al., 2020). Preliminary analysis for the DPX task will examine B-cue related connectivity alone. We report the average z-score of the PPI regressor within the control network (Yeo et al., 2011). Neural activation was normed to calculated z-scores, such that postive values indicate increased connectivity with the thalamus, and negative values indicate decreased connectivity with the thalamus.",
+        "timeFrame": "mid-test (week 6)"
+      },
+      {
+        "measure": "Changes in Task-dependent Thalamocortical Functional Connectivity (fMRI) During the DPX Task.",
+        "description": "PPI regressor (z-score) within Control Network associated with B-cue Task-dependent thalamocortical connectivity associated with the DPX task demands will be identified by analyzing cue and probe events together with the thalamic regressor using psychophysiological interaction analysis (PPI). The thalamic regressor is the time series of the mediodorsal thalmus from the Melbourne atlas (THA-DAm; Tian et al., 2020). Preliminary analysis for the DPX task will examine B-cue related connectivity alone. We report the average z-score of the PPI regressor within the control network (Yeo et al., 2011). Neural activation was normed to calculated z-scores, such that postive values indicate increased connectivity with the thalamus, and negative values indicate decreased connectivity with the thalamus.",
+        "timeFrame": "post-test (week 12)"
+      },
+      {
+        "measure": "Change in N-back Performance",
+        "description": "The n-back task measures working memory capacity. The participant is presented with a series of stimuli and instructed to indicate with a button press when the current stimulus matches the stimulus that appeared a pre-determined number (n) of trials before. d' (d prime) will be calculated as a measure of signal detection, which indicates the normalized rate of hits to false positives (d' = z(H) - z(F)). Increase in d' signifies improved signal detection, i.e. a better outcome. A d' near zero indicates a performance at chance, i.e., a poor performance. The range is -4.65 to 4.65",
+        "timeFrame": "mid-test (week 6)"
+      },
+      {
+        "measure": "Change in N-back Performance",
+        "description": "The n-back task measures working memory capacity. The participant is presented with a series of stimuli and instructed to indicate with a button press when the current stimulus matches the stimulus that appeared a pre-determined number (n) of trials before. d' (d prime) will be calculated as a measure of signal detection, which indicates the normalized rate of hits to false positives (d' = z(H) - z(F)). Increase in d' signifies improved signal detection, i.e. a better outcome. A d' near zero indicates a performance at chance, i.e., a poor performance. The range is -4.65 to 4.65",
+        "timeFrame": "post-test (week 12)"
+      },
+      {
+        "measure": "Change in DPX Performance",
+        "description": "The Dot Pattern Expectancy (DPX) task is an adaptation of the expectancy AX task that uses pairs of simple dot patterns rather than letter pairs as stimuli. The DPX task will be performed in 3 blocks. Each trial consists of a cue dot pattern followed by a probe dot pattern. Different combinations of cues and probes enable the identification of a specific deficit in a subject's ability to maintain goal-relevant information throughout a trial. Timing will be jittered and each block of the DPX task will consist of 40 trials: 24 AX (60%), 6 AY (15%), 6 BX (15%) and 4 BY (10%). Each block will last 6 minutes. d'-context will be calculated as a measure of signal detection, which indicates the normalized rate of AX hits to BX false positives (d' = z(H) - z(F)). Increase in d' -context signified improved signal detection, i.e. a better outcome. A d' near zero indicates a performance at chance, i.e., a poor performance. The range is -4.65 to 4.65.",
+        "timeFrame": "mid-test (week 6)"
+      },
+      {
+        "measure": "Change in DPX Performance",
+        "description": "The Dot Pattern Expectancy (DPX) task is an adaptation of the expectancy AX task that uses pairs of simple dot patterns rather than letter pairs as stimuli. The DPX task will be performed in 3 blocks. Each trial consists of a cue dot pattern followed by a probe dot pattern. Different combinations of cues and probes enable the identification of a specific deficit in a subject's ability to maintain goal-relevant information throughout a trial. Timing will be jittered and each block of the DPX task will consist of 40 trials: 24 AX (60%), 6 AY (15%), 6 BX (15%) and 4 BY (10%). Each block will last 6 minutes. d'-context will be calculated as a measure of signal detection, which indicates the normalized rate of AX hits to BX false positives (d' = z(H) - z(F)). Increase in d' -context signified improved signal detection, i.e. a better outcome. A d' near zero indicates a performance at chance, i.e., a poor performance. The range is -4.65 to 4.65.",
+        "timeFrame": "post-test (week 12)"
+      },
+      {
+        "measure": "Change in Measurement and Treatment Research to Improve Cognition in Schizophrenia (MATRICS) Consensus Cognitive Battery (MCCB) Composite Score",
+        "description": "MCCB Composite T-Score Intends to provide a relatively brief evaluation of key cognitive domains relevant to schizophrenia and related disorders. The composite score is reported as a T-score, with a mean of 50 and standard deviation of 10. Higher values indicate greater cognitive functioning.",
+        "timeFrame": "mid-test (week 6)"
+      },
+      {
+        "measure": "Change in Measurement and Treatment Research to Improve Cognition in Schizophrenia (MATRICS) Consensus Cognitive Battery (MCCB) Composite Score",
+        "description": "MCCB Composite T-Score Intends to provide a relatively brief evaluation of key cognitive domains relevant to schizophrenia and related disorders. The composite score is reported as a T-score, with a mean of 50 and standard deviation of 10. Higher values indicate greater cognitive functioning.",
+        "timeFrame": "post-test (week 12)"
+      },
+      {
+        "measure": "Change in Measurement and Treatment Research to Improve Cognition in Schizophrenia (MATRICS) Consensus Cognitive Battery (MCCB) Composite Score",
+        "description": "MCCB Composite T-Score Intends to provide a relatively brief evaluation of key cognitive domains relevant to schizophrenia and related disorders. The composite score is reported as a T-score, with a mean of 50 and standard deviation of 10. Higher values indicate greater cognitive functioning.",
+        "timeFrame": "follow-up (week 24)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in University of California San Diego Performance-Based Skills Assessment - Brief (UPSA-B)",
+        "description": "Measures functional capacity by assessing skills involved in everyday tasks important to daily living. Points are scored for each of two sub scales based on the participant's correct performance of items in the sub scale (incorrect: 0 points, correct: 1 or 2 points). Points are used to derive a sub scale score by dividing points scored by the number of items in the sub scale (percentage correct) and multiplied by 50. The two sub scale scores are then added to derive the total score, with a possible range of 0-100. Higher scores represent better outcomes.",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Change in Brief Psychiatric Rating Scale (BPRS) Score",
+        "description": "Measures symptom severity in patients with schizophrenia. Scores are assigned for symptom categories based on a semi-structured clinical interview with anchored severity scales (1-7) for each symptom category. Total score is derived by adding up individual symptom scores, resulting in a total score range of 24-168. Higher scores indicate greater symptom severity. A decrease in scores over time would indicate symptom reduction, i.e. a better outcome.",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Change in Brief Negative Symptom Scale (BNSS) Score",
+        "description": "Measures of symptom severity in patients with schizophrenia with an emphasis on negative symptoms. Scores are assigned to symptom categories based on a semi-structured clinical interview with anchored severity scales (0-6 or 0-9). Total score is derived by adding up individual symptom scores, resulting in a total score range of 0-90. Higher scores indicate greater symptom severity. A decrease in scores over time would indicate symptom reduction, i.e. a better outcome.",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Change in University of California San Diego Performance-Based Skills Assessment - Brief (UPSA-B)",
+        "description": "Measures functional capacity by assessing skills involved in everyday tasks important to daily living. Points are scored for each of two sub scales based on the participant's correct performance of items in the sub scale (incorrect: 0 points, correct: 1 or 2 points). Points are used to derive a sub scale score by dividing points scored by the number of items in the sub scale (percentage correct) and multiplied by 50. The two sub scale scores are then added to derive the total score, with a possible range of 0-100. Higher scores represent better outcomes.",
+        "timeFrame": "mid-test (week 6)"
+      },
+      {
+        "measure": "Change in University of California San Diego Performance-Based Skills Assessment - Brief (UPSA-B)",
+        "description": "Measures functional capacity by assessing skills involved in everyday tasks important to daily living. Points are scored for each of two sub scales based on the participant's correct performance of items in the sub scale (incorrect: 0 points, correct: 1 or 2 points). Points are used to derive a sub scale score by dividing points scored by the number of items in the sub scale (percentage correct) and multiplied by 50. The two sub scale scores are then added to derive the total score, with a possible range of 0-100. Higher scores represent better outcomes.",
+        "timeFrame": "post-test (week 12)"
+      },
+      {
+        "measure": "Change in University of California San Diego Performance-Based Skills Assessment - Brief (UPSA-B)",
+        "description": "Measures functional capacity by assessing skills involved in everyday tasks important to daily living. Points are scored for each of two sub scales based on the participant's correct performance of items in the sub scale (incorrect: 0 points, correct: 1 or 2 points). Points are used to derive a sub scale score by dividing points scored by the number of items in the sub scale (percentage correct) and multiplied by 50. The two sub scale scores are then added to derive the total score, with a possible range of 0-100. Higher scores represent better outcomes.",
+        "timeFrame": "follow-up (week 24)"
+      },
+      {
+        "measure": "Change in Brief Psychiatric Rating Scale (BPRS) Score",
+        "description": "Measures symptom severity in patients with schizophrenia. Scores are assigned for symptom categories based on a semi-structured clinical interview with anchored severity scales (1-7) for each symptom category. Total score is derived by adding up individual symptom scores, resulting in a total score range of 24-168. Higher scores indicate greater symptom severity. A decrease in scores over time would indicate symptom reduction, i.e. a better outcome.",
+        "timeFrame": "mid-test (week 6)"
+      },
+      {
+        "measure": "Change in Brief Psychiatric Rating Scale (BPRS) Score",
+        "description": "Measures symptom severity in patients with schizophrenia. Scores are assigned for symptom categories based on a semi-structured clinical interview with anchored severity scales (1-7) for each symptom category. Total score is derived by adding up individual symptom scores, resulting in a total score range of 24-168. Higher scores indicate greater symptom severity. A decrease in scores over time would indicate symptom reduction, i.e. a better outcome.",
+        "timeFrame": "post-test (week 12)"
+      },
+      {
+        "measure": "Change in Brief Psychiatric Rating Scale (BPRS) Score",
+        "description": "Measures symptom severity in patients with schizophrenia. Scores are assigned for symptom categories based on a semi-structured clinical interview with anchored severity scales (1-7) for each symptom category. Total score is derived by adding up individual symptom scores, resulting in a total score range of 24-168. Higher scores indicate greater symptom severity. A decrease in scores over time would indicate symptom reduction, i.e. a better outcome.",
+        "timeFrame": "follow-up (week 24)"
+      },
+      {
+        "measure": "Change in Brief Negative Symptom Scale (BNSS) Score",
+        "description": "Measures of symptom severity in patients with schizophrenia with an emphasis on negative symptoms. Scores are assigned to symptom categories based on a semi-structured clinical interview with anchored severity scales (0-6 or 0-9). Total score is derived by adding up individual symptom scores, resulting in a total score range of 0-90. Higher scores indicate greater symptom severity. A decrease in scores over time would indicate symptom reduction, i.e. a better outcome.",
+        "timeFrame": "Mid-test (week 6)"
+      },
+      {
+        "measure": "Change in Brief Negative Symptom Scale (BNSS) Score",
+        "description": "Measures of symptom severity in patients with schizophrenia with an emphasis on negative symptoms. Scores are assigned to symptom categories based on a semi-structured clinical interview with anchored severity scales (0-6 or 0-9). Total score is derived by adding up individual symptom scores, resulting in a total score range of 0-90. Higher scores indicate greater symptom severity. A decrease in scores over time would indicate symptom reduction, i.e. a better outcome.",
+        "timeFrame": "post-test (week 12)"
+      },
+      {
+        "measure": "Change in Brief Negative Symptom Scale (BNSS) Score",
+        "description": "Measures of symptom severity in patients with schizophrenia with an emphasis on negative symptoms. Scores are assigned to symptom categories based on a semi-structured clinical interview with anchored severity scales (0-6 or 0-9). Total score is derived by adding up individual symptom scores, resulting in a total score range of 0-90. Higher scores indicate greater symptom severity. A decrease in scores over time would indicate symptom reduction, i.e. a better outcome.",
+        "timeFrame": "follow-up (week 24)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 19,
+      "secondaryCount": 12,
+      "otherCount": 0,
+      "totalCount": 31
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:18.193Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

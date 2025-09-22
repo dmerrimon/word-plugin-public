@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04802187",
+  "briefTitle": "Implementation of COVID-19 Testing Strategies in Community Health Centers",
+  "officialTitle": "Implementation of COVID-19 Testing Strategies in Community Health Centers",
+  "protocolDocument": {
+    "nctId": "NCT04802187",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-07-14",
+    "uploadDate": "2023-07-14T09:48",
+    "size": 269103,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04802187/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 6,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-12-01",
+    "completionDate": "2022-07-15",
+    "primaryCompletionDate": "2022-07-15",
+    "firstSubmitDate": "2021-03-12",
+    "firstPostDate": "2021-03-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participants are patients at the intervention or control CHCs or members of the local community. The participating sites constitute one group; a set of matched control CHCs that will conduct testing as usual constitute the second group.\n\nExclusion Criteria:\n\n* None",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage Change in Testing During the Study Compared to Tests Completed Prior to Study Start",
+        "description": "Acceleration of covid testing volume during covid surges, estimated as the percent change in weekly covid testing volume trend for each 10% increase in covid cases. A slope value was estimated from a segmented regression model for the entire study period, which was then used to calculate a difference between the post- and pre-implementation periods.",
+        "timeFrame": "85 weeks post-implementation compared to 35 weeks pre-implementation"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:36.228Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

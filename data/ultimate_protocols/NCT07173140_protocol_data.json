@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT07173140",
+  "briefTitle": "Renal Tumour Imaging Using MRI",
+  "officialTitle": "A Two Site Pilot Study of Functional and Microstructural Imaging Using Magnetic Resonance Imaging in Patients With Renal Tumours",
+  "protocolDocument": {
+    "nctId": "NCT07173140",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2024-03-21",
+    "uploadDate": "2025-09-08T06:37",
+    "size": 888923,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07173140/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-11-20",
+    "completionDate": "2025-09-30",
+    "primaryCompletionDate": "2025-06-19",
+    "firstSubmitDate": "2025-08-18",
+    "firstPostDate": "2025-09-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Aged 18 and over\n2. Confirmed renal tumour ≤ 7 cm planned for surgical resection\n3. Willing and able to provide written informed consent\n4. Able to lie supine for the duration of an MRI\n\nExclusion Criteria:\n\n1. Contraindication to MRI e.g., cardiac pacemaker\n2. Contraindication to MR contrast agents\n3. Pregnancy\n4. Breastfeeding\n5. Deranged renal function (eGFR \\<30) in the last three months.\n6. Previous treatment of the renal tumour e.g., ablation, radiotherapy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Diagnostic accuracy of proton density fat fraction (PDFF) to differentiate different histological subtypes of renal tumours.",
+        "description": "PDFF mean values will be calculated for each tumour in arms 2 and 3. Following surgery the means for each histological subtype will be calculated and tested for statistical significance.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Repeatability of proton density fat fraction (PDFF) measurements.",
+        "description": "Participants in arm 3 will undergo repeat scanning with a short time interval between scans. The repeatability of PDFF measurements will be assessed using within subject standard deviation, repeatability coefficients and Bland-Altman analysis.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 20,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T05:06:11.776Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

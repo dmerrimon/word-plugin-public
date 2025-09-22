@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT03148262",
+  "briefTitle": "High-Flow Nasal Cannula and Desaturation Episodes in the Morbidly Obese Patients",
+  "officialTitle": "Use of High-Flow Nasal Cannula to Prevent Desaturation Episodes in the Morbidly Obese Patients Undergoing Colonoscopy:A Prospective Randomized Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT03148262",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-09-22",
+    "uploadDate": "2018-09-21T16:18",
+    "size": 784961,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03148262/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 59,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-10",
+    "completionDate": "2018-01-22",
+    "primaryCompletionDate": "2017-08-28",
+    "firstSubmitDate": "2017-05-08",
+    "firstPostDate": "2017-05-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age between 18-80\n* Subjects undergoing colonoscopies\n* Morbidly obese BMI ≥ 40\n\nExclusion Criteria:\n\n* Subjects deemed hemodynamically unstable by the anesthesia team\n* Subjects who are an aspiration risk and will require endotracheal intubation.\n* Pregnancy\n* Subjects with an allergy to propofol\n* Patients who are unable to tolerate the high flow nasal cannula secondary to discomfort\n* Subjects unwilling to sign consent\n* Chronic obstructive pulmonary disease\n* Patients that received medications other than lidocaine and propofol",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Number of Desaturation Episodes",
+        "description": "The number of desaturation episodes defined as blood oxygen saturation (SpO2) below 90% during the perioperative period during colonoscopy.",
+        "timeFrame": "Perioperative period during colonoscopy"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:15.380Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

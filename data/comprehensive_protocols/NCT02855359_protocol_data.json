@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT02855359",
+  "briefTitle": "Denintuzumab Mafodotin (SGN-CD19A) Combined With RCHOP or RCHP Versus RCHOP Alone in Diffuse Large B-Cell Lymphoma or Follicular Lymphoma",
+  "officialTitle": "An Open Label Phase 2 Study of Denintuzumab Mafodotin (SGN-CD19A) in Combination With RCHOP (Rituximab, Cyclophosphamide, Doxorubicin, Vincristine, and Prednisone) or RCHP (Rituximab, Cyclophosphamide, Doxorubicin, and Prednisone) Compared With RCHOP Alone as Frontline Therapy in Patients With Diffuse Large B-cell Lymphoma (DLBCL) or Follicular Lymphoma (FL) Grade 3b",
+  "protocolDocument": {
+    "nctId": "NCT02855359",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-02-18",
+    "uploadDate": "2018-12-14T14:40",
+    "size": 3607203,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02855359/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 24,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08",
+    "completionDate": "2018-05-15",
+    "primaryCompletionDate": "2018-01",
+    "firstSubmitDate": "2016-07-28",
+    "firstPostDate": "2016-08-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Treatment-naive patients with histologically confirmed systemic de novo or transformed diffuse large B-cell lymphoma (DLBCL) (from follicular or marginal zone lymphoma), or follicular lymphoma (FL) Grade 3b;\n\n  * patients must have high intermediate or high risk disease\n* Tumor tissue available from most recent biopsy to determine cell of origin\n* Fluorodeoxyglucose-avid disease by positron emission tomography and measurable disease greater than 1.5cm diameter\n* Eastern Cooperative Oncology Group performance status ≤2\n* Age 18 years or older\n* Adequate study baseline laboratory parameters\n\nExclusion Criteria:\n\n* Previous history of treated indolent lymphoma\n* History of another primary invasive cancer, hematologic malignancy, or myelodysplastic syndrome that has not been in remission for at least 3 years\n* History of progressive multifocal leukoencephalopathy\n* Cerebral/meningeal disease related to the underlying malignancy\n* Patients with the following ocular conditions: corneal disorders, monocular vision (ie. best corrected visual acuity greater than or equal to 20/200 in one eye), or active ocular disorders requiring treatment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Part B Outcome Measure: Complete Response Rate (CR)",
+        "description": "Study did not progress to Part B.",
+        "timeFrame": "N/A - Endpoint not assessed"
+      },
+      {
+        "measure": "Part A and Part B Outcome Measure: Incidence of Adverse Events",
+        "description": "Part A data only; study did not progress to Part B.",
+        "timeFrame": "54.7 weeks"
+      },
+      {
+        "measure": "Part A and Part B Outcome Measure: Incidence of Laboratory Abnormalities",
+        "description": "Part A data reported; study did not progress to Part B. Laboratory abnormalities Grade 1+ are reported.",
+        "timeFrame": "Up to 183 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Event-free Survival (EFS) Between Study Arms in Part B",
+        "description": "Study did not progress to Part B",
+        "timeFrame": "N/A - Endpoint not assessed"
+      },
+      {
+        "measure": "Progression-free Survival (PFS) Between Study Arms in Part B",
+        "description": "Study did not progress to Part B.",
+        "timeFrame": "N/A - Endpoint not assessed"
+      },
+      {
+        "measure": "Overall Survival (OS) Between Study Arms in Part B",
+        "description": "Study did not progress to Part B.",
+        "timeFrame": "N/A - Endpoint not assessed"
+      },
+      {
+        "measure": "Objective Response Rate (ORR) at End Of Treatment (EOT) Between Study Arms in Part B",
+        "description": "Study did not progress to Part B.",
+        "timeFrame": "N/A - Endpoint not assessed"
+      },
+      {
+        "measure": "Duration of Objective Response and of Complete Response (CR) Between Study Arms in Part B",
+        "description": "Study did not progress to Part B.",
+        "timeFrame": "N/A - Endpoint not assessed"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:46.341Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

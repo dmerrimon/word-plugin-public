@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03816267",
+  "briefTitle": "Salbutamol Administration by Nebulizer Versus Metered Dose Inhaler With Spacer in Asthma in Children",
+  "officialTitle": "Effectiveness of Salbutamol Administration by Nebulizer Versus Metered Dose Inhaler With Spacer in Acute Asthma in Children in Suez Canal University Hospital Emergency Department: A Randomized Control Trial",
+  "protocolDocument": {
+    "nctId": "NCT03816267",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-03-10",
+    "uploadDate": "2019-02-19T15:55",
+    "size": 304083,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03816267/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-05-15",
+    "completionDate": "2019-03-31",
+    "primaryCompletionDate": "2019-03-15",
+    "firstSubmitDate": "2019-01-22",
+    "firstPostDate": "2019-01-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Children ranging from 2 - 14 years old.\n* Both genders will be included.\n* Patients with an acute exacerbation of asthma.\n\nExclusion Criteria:\n\n* Patients with arrhythmia and cardiac diseases.\n* Patients with thyroid diseases.\n* Patients with bronchiolitis, pneumonia. Patients with status asthmaticus requiring immediate pediatric intensive care unit hospitalization.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "14 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Clinical improvement",
+        "description": "Clinical respiratory score change (see Study Protocol for details)",
+        "timeFrame": "1 hour"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Rate of Hospitalization",
+        "description": "Admission into inpatient or intensive care unit",
+        "timeFrame": "4 hours"
+      },
+      {
+        "measure": "Patient satisfaction",
+        "description": "Patient or parent satisfaction using Likert scale (see Study Protocol for details)",
+        "timeFrame": "1 hour"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:22.361Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

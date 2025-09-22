@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT01351805",
+  "briefTitle": "Vitamin D and Fish Oil for Autoimmune Disease, Inflammation and Knee Pain",
+  "officialTitle": "Vitamin D and Fish Oil for Autoimmune Disease, Inflammation and Knee Pain",
+  "protocolDocument": {
+    "nctId": "NCT01351805",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2009-11-09",
+    "uploadDate": "2020-12-10T11:21",
+    "size": 541551,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01351805/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 25871,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2010-07",
+    "completionDate": "2025-02",
+    "primaryCompletionDate": "2018-11-10",
+    "firstSubmitDate": "2011-05-04",
+    "firstPostDate": "2011-05-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "As for the parent trial, VITamin D and OmegA-3 TriaL (VITAL; NCT 01169259). Individuals with chronic, frequent knee pain at study baseline will be followed as a subcohort. Trial enrollment complete.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Serum Levels of Biomarkers of Systemic Inflammation: Interleukin-6 (IL-6)",
+        "description": "In a subsample of the randomized trial population across the four arms, blood samples at baseline and in follow-up were collected and analyzed for changes in biomarkers of systemic inflammation: C-reactive protein (CRP), interleukin-6 (IL-6), and tumor necrosis factor-receptor 2 (TNFR2). We tested whether either or both supplements were associated with a decrease in the biomarkers of systemic inflammation (blood biomarker levels among those receiving supplements vs. placebo). We also tested whether there were interactions between the two supplements in their effects on changes in the IL-6 serum biomarker of systemic inflammation.",
+        "timeFrame": "Baseline and 1 year"
+      },
+      {
+        "measure": "Serum Levels of Biomarkers of Systemic Inflammation: C-reactive Protein (CRP)",
+        "description": "In a subsample of the randomized trial population across the four arms, blood samples at baseline and in follow-up were collected and analyzed for changes in biomarkers of systemic inflammation: C-reactive protein (CRP), interleukin-6 (IL-6), and tumor necrosis factor-receptor 2 (TNFR2). We tested whether either or both supplements were associated with a decrease in the biomarkers of systemic inflammation (blood biomarker levels among those receiving supplements vs. placebo). We also tested whether there were interactions between the two supplements in their effects on changes in the CRP serum biomarker of systemic inflammation.",
+        "timeFrame": "Baseline and 1 year"
+      },
+      {
+        "measure": "Serum Levels of Biomarkers of Systemic Inflammation: Tumor Necrosis Factor-receptor 2 (TNFR2)",
+        "description": "In a subsample of the randomized trial population across the four arms, blood samples at baseline and in follow-up were collected and analyzed for changes in biomarkers of systemic inflammation: C-reactive protein (CRP), interleukin-6 (IL-6), and tumor necrosis factor-receptor 2 (TNFR2). We tested whether either or both supplements were associated with a decrease in the biomarkers of systemic inflammation (blood biomarker levels among those receiving supplements vs. placebo). We also tested whether there were interactions between the two supplements in their effects on changes in the TNFR2 serum biomarker of systemic inflammation.",
+        "timeFrame": "Baseline and 1 year"
+      },
+      {
+        "measure": "Incident Autoimmune Diseases",
+        "description": "All participants were followed for the development of new autoimmune diseases, including, but not limited to, rheumatoid arthritis, psoriasis, autoimmune thyroid disease, inflammatory bowel disease and polymyalgia rheumatica. The primary endpoint was all incident autoimmune disease confirmed by extensive medical record review. Participants self-reported all incident autoimmune diseases from baseline through follow-up. We used Cox proportional hazards models to test the effects of vitamin D and n-3 fatty acids upon autoimmune disease incidence.\n\nWe compared the separate main effects of vitamin D or n-3 fatty acid supplement assignment on AD incidence using Cox regression models. To account for randomization stratification and study design, we additionally adjusted for age, sex, self-reported race, and randomization to the other supplement. Person-time was counted until diagnosis of a new confirmed AD, death, or the end of the trial. We also test interactions between the two supplements",
+        "timeFrame": "5 years"
+      },
+      {
+        "measure": "Severity of Knee Pain in Subsample With Chronic, Frequent Knee Pain at Baseline- With n-3 FA & Vitamin D",
+        "description": "Western Ontario and McMaster University Osteoarthritis Index (WOMAC) Pain was the primary outcome on a scale of 0-100 with 100= worst pain.\n\nSubsample of VITAL participants with chronic, frequent knee pain at trial baseline were followed with annual WOMAC questionnaires to test for change in severity of chronic knee pain in those taking Omega-3 fish oil (n-3 FA) supplements compared to those taking placebo and for those taking Vitamin D supplements compared to those taking placebo. We tested whether n-3 FA supplements and Vitamin D are associated with reduced levels of WOMAC knee pain at the end of the trial (comparing knee pain outcomes in those receiving supplements to placebo). We will also test whether there were multiplicative interactions between the two supplements for the outcome of knee pain severity by WOMAC-Pain index",
+        "timeFrame": "Baseline and 5 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Incident Autoimmune Disease",
+        "description": "Development of new autoimmune disease through observational follow-up after trial termination.",
+        "timeFrame": "extension of follow-up through 7 years post trial closure"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 80,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:58.618Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

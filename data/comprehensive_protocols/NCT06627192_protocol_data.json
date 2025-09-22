@@ -1,0 +1,105 @@
+{
+  "nctId": "NCT06627192",
+  "briefTitle": "Effect of Non-surgical Periodontal Therapy in Hypertensive Patients With Assessment of Endocan and TNF-α Levels in GCF",
+  "officialTitle": "Effect of Non-surgical Periodontal Therapy in Hypertensive Patients With Assessment of Endocan and TNF-a Levels in Gingival Crevicular Fluid (Case Control Study)",
+  "protocolDocument": {
+    "nctId": "NCT06627192",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2024-10-28",
+    "uploadDate": "2024-10-28T04:29",
+    "size": 342876,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06627192/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-03-10",
+    "completionDate": "2026-01-30",
+    "primaryCompletionDate": "2025-10-30",
+    "firstSubmitDate": "2024-08-26",
+    "firstPostDate": "2024-10-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with stage II periodontitis and controlled hypertension (self-reported history of a diagnosis of HTN by a physician and blood pressure (SBP \\< 140 and DBP \\< 90).\n* Both genders aged from 30-70.\n* Minimum 20 natural teeth excluding third molars.\n* Good compliance with the plaque control instructions following initial therapy.\n* Availability for follow-up and maintenance program.\n\nExclusion Criteria:\n\n* Smokers.\n* Pregnant and lactating females.\n* Patients with other systemic diseases, such as diabetes mellitus, rheumatoid arthritis and cancer.\n\n(According to Cornell Medical Index-Health Questionnaire).\n\n* Patients taking antibiotic, anti-inflammatory, and immunosuppressive therapy during the preceding 3 months before the start of the trial and during the study.\n* Patients who have undergone any periodontal therapy in the last 6 months.",
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Clinical assessment of PI plaque index",
+        "description": "For clinical assessment the following clinical parameter PI plaque index will be recorded for each individual at 1 site at baseline and 3 months postoperatively. Clinical parameters of PI will be assessed at 2 weeks, 4 weeks and 6 weeks follow ups to ensure proper oral hygiene. Regarding biochemical analysis, GCF samples will be collected preoperative and 3 months after NSPT.\n\nPlaque index at deepest pocket will be measured.",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Clinical assessment of BOP bleeding on probing",
+        "description": "For clinical assessment the following clinical parameter BOP will be recorded for each individual at 1 site at baseline and 3 months postoperatively. Clinical parameters of BOP will be assessed at 2 weeks, 4 weeks and 6 weeks follow ups to ensure proper oral hygiene. Regarding biochemical analysis, GCF samples will be collected preoperative and 3 months after NSPT.\n\nbleeding on probing at deepest pocket will be measured",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Clinical assessment of CAL clinical attachment loss",
+        "description": "For clinical assessment the following clinical parameter CAL will be recorded.for each individual at 1 site at baseline and 3 months postoperatively. Regarding biochemical analysis, GCF samples will be collected preoperative and 3 months after NSPT.\n\nclinical attachment loss at deepest pocket will be recorded.",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Clinical assessment of PD probing depth",
+        "description": "For clinical assessment the following clinical parameter PD will be recorded for each individual at 1 site at baseline and 3 months postoperatively. Regarding biochemical analysis, GCF samples will be collected preoperative and 3 months after NSPT. PD at deepest pocket will be recorded.",
+        "timeFrame": "3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Biochemical assesment of Endocan",
+        "description": "Using GCF samples and asses Endocan by ELISA kit",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Biochemical assesment of TNF-α",
+        "description": "Using GCF samples and asses TNF-α by ELISA kit",
+        "timeFrame": "3 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Blood pressure measurement",
+        "description": "Measure Systolic and dyastolic Blood pressure at baseline and at followup",
+        "timeFrame": "3 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 2,
+      "otherCount": 1,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 71,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:15.685Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

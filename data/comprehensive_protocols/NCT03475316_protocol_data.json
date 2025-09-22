@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT03475316",
+  "briefTitle": "Movement Intervention for Memory Enhancement",
+  "officialTitle": "Social Dancing Intervention for Older Adults at High Risk of Alzheimer's Disease and Other Dementias: A Pilot Study.",
+  "protocolDocument": {
+    "nctId": "NCT03475316",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-09-24",
+    "uploadDate": "2021-05-03T12:04",
+    "size": 426643,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03475316/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 25,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-28",
+    "completionDate": "2020-06-30",
+    "primaryCompletionDate": "2020-06-30",
+    "firstSubmitDate": "2018-03-13",
+    "firstPostDate": "2018-03-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults aged 65 and older\n* A score of ≤ 6 on the Memory Impairment Screen or ≥ 1 on the AD-8\n* Plan to be in area for next year or more\n* English speaking\n* Willing to complete an Functional Magnetic Resonance Imaging (MRI)\n\nExclusion Criteria:\n\n* Presence of dementia based on previous physician diagnosis of dementia or dementia diagnosed by the study clinician at initial visit.\n* Serious chronic or acute illness such as cancer (late stage, metastatic, or on active treatment), chronic pulmonary disease on ventilator or continuous oxygen therapy or active liver disease.\n* Mobility limitations solely due to musculoskeletal or cardiovascular conditions that prevent participation in the intervention programs.\n* Any medical condition or chronic medication use (e.g., neuroleptics) in the judgment of the screening clinician that will compromise safety or affect cognitive functioning.\n* Terminal illness with life expectancy less than 12 months.\n* Presence of progressive, degenerative neurologic disease (e.g., Parkinson's disease or Amyotrophic lateral sclerosis).\n* Severe auditory or visual loss.\n* Active psychoses or psychiatric symptoms (such as agitation) noted during the clinic visit that will prevent completion of study protocols.\n* Either participation in competitive dancing or recreational dancing at a frequency \\>1/month in the past six months.\n* Participation in other interventional study that overlaps with intervention period of this study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Executive Function (EF).",
+        "description": "Improvement in EF will be measured through a composite score from 3 tests. (1) The Digit Symbol Substitution test is a measure of attention and speed of processing. Scoring is based on the total number of correct responses generated over 90 seconds. Higher values reflect better outcome. (2) Flanker Test is a measure of speed of processing, attention and inhibitory control. Scoring is based on accuracy and reaction time. Lower values reflect better outcome. (3) Walking While Talking (repeating alternating letters of the alphabet) gait speed (centimeters/second) will be measured using a electronic walkway system. Higher values reflect better outcome. The scores on the 3 tests are standardized and summed to obtain a single z-score. The Z-score indicates the number of standard deviations away from the mean of the study population and a value of 0 is equal to the mean. Negative numbers indicate values lower than the mean and positive numbers indicate values higher than the mean.",
+        "timeFrame": "Baseline, 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Neuroplasticity.",
+        "description": "Functional Magnetic Resonance Imaging will be used to investigate neuroplasticity under three conditions: 'imagined Walking While Talking' task, Digit Symbol Substitution test and Flanker interference tests. Functional activation/deactivation patterns recorded by Functional Magnetic Resonance Imaging in response to the three tests will be examined within each participant before and after the intervention. The values measured as factor scores reflect change in functional activation/deactivation covariance patterns from pre to post intervention as a function intervention (social dancing vs. treadmill walking). Larger absolute values reflect more change in functional activation/deactivation covariance patterns from pre to post intervention on each of the three tasks. There is no set minimum and maximum values of the scale.",
+        "timeFrame": "Baseline, 6 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Lifestyle Changes.",
+        "description": "Lifestyle changes will be measured at baseline and post-intervention through the Community Healthy Activities Model Program for Seniors (CHAMPS) questionnaire. CHAMPS scale measures weekly frequency/week of moderate-intensity exercise-related activities. Scores range from 0 to 133 with higher score indicating more exercise",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Gait.",
+        "description": "Changes in gait speed will be measured at baseline and post-intervention through a quantitative gait mat. Gait is measured in centimeters per second and higher values indicate faster walking speed.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Balance",
+        "description": "Changes in balance will be measures at baseline and post-intervention using the Unipedal stance (measured in seconds). Higher time indicates better balance.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Modified Katz Disability Scale.",
+        "description": "Changes in function assessed by 4 key activities of daily living tasks-bathing, dressing, walking, and transferring. Scores range from 0 to 8 with higher scores indicating worse outcome.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "The Geriatric Depression Scale (GDS).",
+        "description": "Changes in depressive symptoms assessed using the 30 item GDS, scores range from 0 (not depressed) to 30 (depressed).",
+        "timeFrame": "Baseline, 6 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 5,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.276Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

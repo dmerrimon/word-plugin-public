@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT03375112",
+  "briefTitle": "Fascia Iliaca Blocks for Pain Control After Total Hip Arthroplasty",
+  "officialTitle": "Pain Control After Total Hip Arthroplasty: A Randomized Trial Determining Efficacy of Fascia Iliaca Compartment Blocks in the Immediate Post-Operative Period",
+  "protocolDocument": {
+    "nctId": "NCT03375112",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-09-21",
+    "uploadDate": "2023-09-21T10:13",
+    "size": 127398,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03375112/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 122,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-07-31",
+    "completionDate": "2019-10-01",
+    "primaryCompletionDate": "2019-10-01",
+    "firstSubmitDate": "2017-03-22",
+    "firstPostDate": "2017-12-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients over the age of 18\n* Scheduled for total hip arthroplasty at Henry Ford Hospital\n* Epidural anesthesia during surgery\n\nExclusion Criteria:\n\n* Pregnancy\n* Known intolerance to local anesthetic or narcotics\n* Revision hip surgery",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Averaged Pain Score",
+        "description": "Analog pains scale 0-10. A pain score of 10 represents maximum pain and a pain score of 0 represents no pain.",
+        "timeFrame": "Pain scores were at 30 minute intervals for the first hour post-operative, hourly for the next 4 hours, 2 hour intervals for the next 12 hours, then at 4 hour intervals until the 48 hour post-operative or discharge. The mean of these scores is reported."
+      },
+      {
+        "measure": "Morphine Equivalents Consumed",
+        "description": "Total morphine equivalents (consumed at 4-hour time intervals) received in postoperative inpatient stay.",
+        "timeFrame": "Postoperative inpatient stay, which averages approximately two days."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Walking Distance",
+        "description": "The distance the patient is able to walk with physical therapy during their first session",
+        "timeFrame": "Post operative day one"
+      },
+      {
+        "measure": "Time to Up-and-go",
+        "description": "Time to up and go test performed on the first postoperative day. This test is administered by having the patient sit in a chair. When the patient is instructed to start, the stand from the chair, walk to a marker ten feet away from the chair, turn around, return to the chair, and sit back down. The time is measured as the time from when the start command is given to when they are returned to a seated position.",
+        "timeFrame": "Post operative day one"
+      },
+      {
+        "measure": "Time to Discharge Readiness",
+        "description": "Time in hours since surgery to when the patient's pain is controlled on oral medications, has cleared physical and occupational therapy, and has no medical issues that require inpatient treatment.",
+        "timeFrame": "Every 6 hours after surgery until completion of inpatient stay, an average of two days days after surgery"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:57.735Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,128 @@
+{
+  "nctId": "NCT04490239",
+  "briefTitle": "Intranasal Heparin Tolerability Study",
+  "officialTitle": "Intranasal Heparin Tolerability Study",
+  "protocolDocument": {
+    "nctId": "NCT04490239",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-09-01",
+    "uploadDate": "2020-12-15T09:39",
+    "size": 1271337,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04490239/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "EARLY_PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 6,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-09",
+    "completionDate": "2020-11-18",
+    "primaryCompletionDate": "2020-11-18",
+    "firstSubmitDate": "2020-07-20",
+    "firstPostDate": "2020-07-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nNormal, healthy adults aged 18 to 65 years\n\nExclusion Criteria:\n\n* Allergy to Heparin\n* Currently taking any prescription blood thinners or anti-coagulants, or currently taking any intranasal medication\n* Known history of anemia, thrombocytopenia, or other blood disorder\n* Autoimmune disorders\n* Known history of Neurologic/Psychiatric disorders\n* Report of an active infection\n* Subject is pregnant or breast-feeding, or is expecting to conceive during the study.\n\nNOTE: Subjects will be instructed to abstain from alcohol for the duration of the study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Normal or Abnormal Activated Partial Thromboplastin Time (aPTT), Acute Phase Day 1",
+        "description": "A measurement of blood clotting ability; tests for systemic bioavailability of intranasal heparin collected 24 hours after a 1000 U intranasal dose of heparin",
+        "timeFrame": "24 hours after a 1000 U intranasal dose of heparin"
+      },
+      {
+        "measure": "Number of Participants With Normal or Abnormal Activated Partial Thromboplastin Time (aPTT), Acute Phase Day 2",
+        "description": "A measurement of blood clotting ability; tests for systemic bioavailability of intranasal heparin collected 24 hours after a 2000 U intranasal dose of heparin",
+        "timeFrame": "24 hours after 2000 U dose intranasal heparin"
+      },
+      {
+        "measure": "Number of Participants With Normal or Abnormal Activated Partial Thromboplastin Time (aPTT), Chronic Phase Day 14",
+        "description": "A measurement of blood clotting ability; tests for systemic bioavailability of intranasal heparin obtained immediately after the 14 consecutive day of daily 2000 U dose of intranasal heparin",
+        "timeFrame": "Day 14, chronic phase"
+      },
+      {
+        "measure": "Number of Participants With Normal or Abnormal Activated Partial Thromboplastin Time (aPTT), Chronic Phase Day 15",
+        "description": "A measurement of blood clotting ability; tests for systemic bioavailability of intranasal heparin obtained 24 hours after the 14 consecutive day of daily 2000 U dose of intranasal heparin",
+        "timeFrame": "24 hours after the last 2000 U dose of the chronic phase"
+      },
+      {
+        "measure": "Percent Change in Platelet Count From Pre-dose Baseline",
+        "description": "Indicative of heparin-induced thrombocytopenia, a serious adverse side effect of systemically bioavailable heparin, measured immediately after the last 2000 U intranasal dose of the chronic phase.",
+        "timeFrame": "Pre-dose baseline, Day 14 chronic phase"
+      },
+      {
+        "measure": "Number of Incidents of Epistaxis, Acute Phase",
+        "description": "Number of incidents of blood coming from the nose during the acute phase",
+        "timeFrame": "Day 0 through Day 2, acute phase"
+      },
+      {
+        "measure": "Number of Incidents of Epistaxis, Chronic Phase",
+        "description": "Blood coming from the nose or pink tinged nasal secretions",
+        "timeFrame": "Day 1 through Day 15, chronic phase"
+      },
+      {
+        "measure": "Number of Participants With Normal or Abnormal Platelet Counts, Chronic Phase Day 14",
+        "description": "Abnormally low platelet counts indicative of heparin-induced thrombocytopenia, a serious adverse side effect of systemically bioavailable heparin, measured immediately after the last 2000 U intranasal dose of the chronic phase.",
+        "timeFrame": "Day 14, Chronic Phase"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Other Adverse Effects, Acute Phase",
+        "description": "Reports of mild, short-lived nasal irritation immediately after administration including mild burning sensation",
+        "timeFrame": "Day 0 through Day 2, acute phase"
+      },
+      {
+        "measure": "Other Adverse Effects, Chronic Phase",
+        "description": "Reports of mild, short-lived nasal irritation immediately after administration including mild burning sensation, itchiness or sneezing",
+        "timeFrame": "Day 1 through Day 15, chronic phase"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 8,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:13.361Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

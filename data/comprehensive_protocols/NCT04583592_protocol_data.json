@@ -1,0 +1,157 @@
+{
+  "nctId": "NCT04583592",
+  "briefTitle": "Camostat Efficacy vs. Placebo for Outpatient Treatment of COVID-19 (CAMELOT)",
+  "officialTitle": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Trial of the Efficacy of Camostat Mesilate for Treatment of COVID-19 in Outpatients",
+  "protocolDocument": {
+    "nctId": "NCT04583592",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-10-07",
+    "uploadDate": "2021-12-09T14:26",
+    "size": 903474,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04583592/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 295,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-11-09",
+    "completionDate": "2021-03-31",
+    "primaryCompletionDate": "2021-03-31",
+    "firstSubmitDate": "2020-10-07",
+    "firstPostDate": "2020-10-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Adults willing and able to provide informed consent before performing study procedures\n2. Adults ≥18 years of age at time of informed consent\n3. Participants must have written notification of laboratory confirmed COVID-19 infection performed prior to screening, at a local laboratory by RT-PCR or other commercial or public health assay in any specimen; and participants must be randomized within 72 hours of receiving the above notification of laboratory confirmed COVID-19\n4. Have a mild or moderate form of COVID-19 defined as SpO2 \\> 94% at screening\n5. Participants must have at least 1 of the following risk factors for severe illness\n\n   1. Aged 65 years or older\n   2. Hypertension\n   3. Diabetes mellitus\n   4. Chronic lung disease including asthma, chronic obstructive pulmonary disease (COPD), and interstitial lung disease (eg, idiopathic pulmonary fibrosis)\n   5. Chronic cardiac conditions, including coronary artery disease (CAD), heart failure, congenital heart disease, cardiomyopathy\n   6. Severe obesity (body mass index \\[BMI\\] ≥ 40 kg/m\\^2)\n   7. Chronic liver disease, including cirrhosis\n6. Must agree not to enroll in another study of an investigational agent or take any other drug that has been granted Emergency Use Authorization prior to completion of Day 28\n7. If women of childbearing potential (WOCBP) or men whose sexual partners are WOCBP, must be able and willing to use at least 1 highly effective method of contraception during the study and for 90 days after receiving the last dose of study drug\n\nExclusion Criteria:\n\n1. Physician makes a decision that trial involvement is not in participants' best interest, or has any condition that does not allow the protocol to be followed safely\n2. Known severe liver disease (eg, Child Pugh score \\> 12, AST \\>5 times upper limit)\n3. SaO2/SPO2 ≤94% on room air condition, or the Pa02/Fi02 ratio \\< 300 mgHg\n4. Known allergic reaction to camostat mesilate or one of its excipients\n5. Known severe renal impairment (estimated glomerular filtration rate ≤30 mL/min/1.73 m\\^2) or receiving dialysis\n6. Pregnant or breastfeeding, or positive pregnancy test in a predose examination\n7. Receipt of any experimental treatment for COVID-19, including agents with demonstrated or possible direct acting antiviral activity, including, but not limited to, remdesivir, hydroxychloroquine, lopinavir/ritonavir, tocilizumab, or ivermectin, within the 30 days prior to the time of the screening evaluation. No off label use of a drug for COVID 19 is allowed.\n8. History of human immunodeficiency virus infection on highly active antiretroviral therapy (HAART)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Disease Progression at Day 28",
+        "description": "Disease progression will be defined as the number of participants requiring hospitalization (including emergency room visit) or who die due to any cause within 28 days of randomization.",
+        "timeFrame": "28 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Survival Rate",
+        "description": "The overall survival rate (the number of randomized participants who survive up to Day 15 and Day 28).",
+        "timeFrame": "Up to Day 15 and Day 28"
+      },
+      {
+        "measure": "Time to Fever Resolution",
+        "description": "Time (in days) from initiation of study treatment until normalization of fever (≤ 37.2 °C oral or tympanic) and sustained for at least 3 days only assessed in participants who experienced a fever within 1 day of enrollment up to Day 28.",
+        "timeFrame": "Up to 28 days"
+      },
+      {
+        "measure": "Resolution of Viral Shedding",
+        "description": "Number of participants with no viral shedding (yes/no) using reverse transcriptase-polymerase chain reaction (RT-PCR) at Day 7, Day 15, and at early termination.",
+        "timeFrame": "Day 1, Day 7 and Day 15"
+      },
+      {
+        "measure": "Rate of Adverse Events and Serious Adverse Events",
+        "description": "Number of participants with Adverse events (AEs) and Serious adverse events (SAEs) of any grade from randomization up to Day 28.",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Cumulative Rate of Grade 3 and 4 Adverse Events",
+        "description": "Cumulative number of participants with grade 3 and 4 AEs from randomization up to Day 28.",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Rate of Discontinuation",
+        "description": "Number of participants that discontinued from study due to an AE/SAE (discontinued participants will be followed up to Day 28).",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Laboratory Parameter - Platelet Count",
+        "description": "Clinical Laboratory Value of Platelet Count at Day 1 and Day 15",
+        "timeFrame": "Day 1 and Day 15"
+      },
+      {
+        "measure": "Laboratory Parameter - Potassium Level",
+        "description": "Clinical laboratory value of Potassium Levels at Day 1 and Day 15",
+        "timeFrame": "Day 1 and Day 15"
+      },
+      {
+        "measure": "Laboratory Parameter - Aspartate Aminotransferase (AST)",
+        "description": "Clinical laboratory values of Aspartate Aminotransferase (AST) at Day 1 and Day 15",
+        "timeFrame": "Day 1 and Day 15"
+      },
+      {
+        "measure": "Laboratory Parameter - Alanine Aminotransferase (ALT)",
+        "description": "Clinical laboratory value of Alanine Aminotransferase (ALT) at Day 1 and Day 15",
+        "timeFrame": "Day 1 and Day 15"
+      },
+      {
+        "measure": "Laboratory Parameter - Alkaline Phosphatase (ALP)",
+        "description": "Clinical laboratory value of Alkaline Phosphatase (ALP) at Day 1 and Day 15",
+        "timeFrame": "Day 1 and Day 15"
+      },
+      {
+        "measure": "Laboratory Parameter - Gamma-Glutamyl Transferase (GGT)",
+        "description": "Clinical laboratory value of Gamma-Glutamyl Transferase (GGT) at Day 1 and Day 15",
+        "timeFrame": "Day 1 and Day 15"
+      },
+      {
+        "measure": "Vital Signs - Heart Rate",
+        "description": "Heart rate at Day 1, Day 7 and Day 15",
+        "timeFrame": "Day 1, Day 7 and Day 15"
+      },
+      {
+        "measure": "Vital Signs - Blood Pressure",
+        "description": "Blood pressure (BP) at Day 1, Day 7 and Day 15",
+        "timeFrame": "Day 1, Day 7 and Day 15"
+      },
+      {
+        "measure": "Vital Signs - Peripheral Capillary Oxygen Saturation (SpO2)",
+        "description": "Peripheral Capillary Oxygen Saturation (SpO2) at Day 1, Day 7 and Day 15",
+        "timeFrame": "Day 1, Day 7 and Day 15"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 15,
+      "otherCount": 0,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.113Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

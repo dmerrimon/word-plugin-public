@@ -1,0 +1,111 @@
+{
+  "nctId": "NCT01951261",
+  "briefTitle": "Early Assisted Discharge for COPD Exacerbations With Telemonitoring.",
+  "officialTitle": "Early Assisted Discharge With Generic Community Nursing and Pulmonary Physicians vs Telemonitoring at Home for Chronic Obstructive Pulmonary Disease Exacerbations",
+  "protocolDocument": {
+    "nctId": "NCT01951261",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2012-02-01",
+    "uploadDate": "2020-08-01T10:58",
+    "size": 79727,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01951261/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 116,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-03",
+    "completionDate": "2018-12",
+    "primaryCompletionDate": "2018-12",
+    "firstSubmitDate": "2013-09-03",
+    "firstPostDate": "2013-09-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients admitted to the hospital with COPD exacerbation\n* No concomitant serious unstable diseases\n* Without fever in 48 hours\n* Aerosol treatment at the most every 6 hours\n* Treatment with glucocorticoid intravenous \\< 40 mg twice a day\n* A thoracic radiograph without new disease\n* Subjective improvement of the patient\n* Familiar suitable environment\n\nExclusion Criteria:\n\n* Neoplasias and other chronic diseases in terminal situation\n* Alcoholism\n* Intravenous medication\n* Disability to understand and take part in the program\n* Admitted to intensive care unit (ICU) or non invasive mechanical ventilation during the exacerbation\n* Unstability hemodynamic\n* To be an institutionalized patient.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time Until the First Exacerbation",
+        "description": "Time until the first exacerbation is the time that patient is stable before a new exacerbation and meaning a good control of the disease.",
+        "timeFrame": "Change from stable to exacerbation the first time at 6 month"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "SATISFAD 10",
+        "description": "Instrument that evaluates satisfaction with home care services in a self-administered. The score ranges from 0 to 30, with the worst value being zero and the best value being 30.",
+        "timeFrame": "Participants will be followed for the duration home care, an expected average of 7 days"
+      },
+      {
+        "measure": "State-Trait Anxiety Inventory (STAI)",
+        "description": "The structure of the scale resulting from the combination of item polarity dimensions and the original two factors (State and Trait Anxiety).\n\nMinimum value 0, maximum value 120. Lower score indicates higher anxiety.",
+        "timeFrame": "Participants will be followed for the duration of home care, an expected average of 7 days"
+      },
+      {
+        "measure": "Percentage of Participants With Medication Adherence Assessed Using Morinsky-Green-Levine Test",
+        "description": "Consists of a series of 4 contrasting questions with answers dichotomous yes / no, reflecting the patient's behavior regarding compliance with medication. They are intended to assess whether the patient adopts correct attitudes regarding treatment for his illness; it is assumed that if attitudes they are incorrect the patient is non-compliant.",
+        "timeFrame": "Participants will be followed for the duration of home care up 24 weeks"
+      },
+      {
+        "measure": "Monitoring Compliance",
+        "description": "It represents the compliance of the patients with respect to the sending of constants through the telemedicine monitor that should be (following the protocol) at least twice a day. The patient was considered compliant if he sent the constant at least 2 twice a day or non-compliant otherwise.",
+        "timeFrame": "Participants will be followed for the duration of home care, an expected average of 7 days"
+      },
+      {
+        "measure": "Number of Home Visits",
+        "timeFrame": "Participants will be followed for the duration of home care, an expected average of 7 days"
+      },
+      {
+        "measure": "COPD Assessment Test (CAT)",
+        "description": "It's a simple questionnaire for assessing and monitoring COPD. It quantifies chronic obstructive pulmonary disease (COPD) impact in routine practice to aid health status assessment.\n\nIt's self-administered in 2 min. It consists of 8 items that measure aspects of cough, expectoration, chest tightness, dyspnea, domestic activities, self-confidence, sleep and energy. Each section is scored from 0 to 5 and therefore a maximum of 40 points can be obtained; a higher score indicates a greater negative impact of COPD. Significant clinical changes correspond to a variation of 2 points or more.",
+        "timeFrame": "Participants will be followed for the duration of home care and up to 4 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:26.243Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

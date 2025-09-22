@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT01970592",
+  "briefTitle": "Power Training Post-stroke",
+  "officialTitle": "Skeletal Muscle Plasticity As An Indicator of Functional Performance Post-Stroke",
+  "protocolDocument": {
+    "nctId": "NCT01970592",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2011-07-14",
+    "uploadDate": "2020-02-20T16:32",
+    "size": 693164,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01970592/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 56,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-10-01",
+    "completionDate": "2019-05-31",
+    "primaryCompletionDate": "2017-09-29",
+    "firstSubmitDate": "2013-10-22",
+    "firstPostDate": "2013-10-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* age 50-70,\n* stroke within the past 6 to 24 months,\n* residual paresis in the lower extremity (Fugl-Meyer Lower Extremity motor score \\<34),\n* ability to walk without assistance and without an ankle foot orthotic (AFO) on the treadmill 30 seconds at speeds ranging from 0.3 - 0.8 m/s, and\n* provision of informed consent.\n* In addition, all subjects who meet criteria for the training portion must complete an exercise tolerance test and be cleared for participation by the study cardiologist.\n\nExclusion Criteria:\n\n* Unable to ambulate at least 150 feet prior to stroke, or experienced intermittent claudication while walking;\n* rating on Modified Ashworth Scale 3 at the knee or ankle;\n* limited lower extremity range of motion of the knee (passive flexion Range of Motion \\[ROM\\] \\< 90); hip (inability to achieve neutral 0 hip extension); or ankle (inability to achieve 0 of active dorsiflexion);\n* history of congestive heart failure, unstable cardiac arrhythmias, hypertrophic cardiomyopathy, severe aortic stenosis, angina or dyspnea at rest or during activities of daily living (ADLs);\n* History of chronic obstructive pulmonary disease (COPD) or oxygen dependence;\n* Preexisting neurological disorders, dementia or previous stroke;\n* History of major head trauma;\n* Legal blindness or severe visual impairment;\n* history of significant psychiatric illness\n* Life expectancy \\<1 yr.,\n* Severe arthritis or other problems that limit passive ROM;\n* post-stroke depression (PHQ-9 10),\n* History of deep vein thrombosis (DVT) or pulmonary embolism within 6 months;\n* Uncontrolled diabetes with recent diabetic coma, or frequent insulin reactions;\n* Severe hypertension with systolic \\>200 mmHg and diastolic \\>110 mmHg at rest;\n* Previous or current enrollment in a trial to enhance motor recovery;\n* Presence of non-magnetic resonance (MR) compatible implants, pregnancy or severe claustrophobia.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Gait Speed",
+        "description": "The speed the subject chooses to walk when instructed to walk at their \"comfortable speed\"",
+        "timeFrame": "8 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Muscle Strength",
+        "description": "The strength of the paretic lower leg muscles will be measured by asking the participants to contract their muscles as forcefully as possible. Testing will be conducted on a specialized machine called an isokinetic dynamometer. This testing is designed to assess the ability to generate muscle power. Before testing the participants will be asked to perform 5 minutes of low intensity cycling. Strength testing will include movements at the hip, knee and ankle in both legs.",
+        "timeFrame": "8 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:36.729Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT01088789",
+  "briefTitle": "Boost GVAX Pancreas Vaccine With or Without CY in Patients With Pancreas Cancer",
+  "officialTitle": "A Safety and Feasibility Trial of Boost Vaccinations of a Lethally Irradiated, Allogeneic Pancreatic Tumor Cell Vaccine Transfected With the GM-CSF Gene Given Alone or in Combination With Either a Single Intravenous Dose or Daily Metronomic Oral Doses of Cyclophosphamide for the Treatment of Surgically Resected Pancreatic Adenocarcinoma",
+  "protocolDocument": {
+    "nctId": "NCT01088789",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-07-24",
+    "uploadDate": "2025-06-04T17:24",
+    "size": 1198037,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01088789/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 71,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2010-04-20",
+    "completionDate": "2026-08",
+    "primaryCompletionDate": "2024-07-17",
+    "firstSubmitDate": "2010-03-01",
+    "firstPostDate": "2010-03-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Has a history of surgically resected and pathologically proved AJCC stage I or stage II adenocarcinoma of the head, neck, or uncinate of the pancreas.\n2. Cohorts 1, 3, 4 and 5: Have been a participant in Hopkins IRB protocol J0810, J1568, J15237 or J1766.\n3. Cohort 2: Have never received any type of pancreatic cancer vaccine/immunotherapy, had the Whipple surgery within 18 months and completed the planned adjuvant chemotherapy and/or chemoradiation.\n4. Cohorts 1, 3, 4 and 5: Received the last irradiated GM-CSF transfected allogeneic pancreatic cell lines Panc 10.05 and Panc 6.03 at least 6-12 months prior.\n5. Has received the last anti-cancer therapy at least 28 days ago.\n6. Has an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n7. Has provided informed consent.\n8. Has adequate hematologic function.(Hemoglobin ≥ 9 g/dL ANC ≥ 1500/mm3 Platelets ≥ 100,000 K/ mm3).\n9. Has adequate renal function (Serum creatinine ≤ 2 mg/dL).\n10. Has adequate hepatic function. (Bilirubin ≤ 2.0 mg/dl, unless known Gilbert's Syndrome; AST, ALT and amylase ≤ 2x upper limit of normal, Alk Phos ≤ 5x upper limit of normal).\n11. Agree to use adequate birth control, if of childbearing potential.\n\nExclusion Criteria:\n\n1. Has radiographic evidence of pancreatic cancer recurrence.\n2. Has any documented history of autoimmune diseases including systemic lupus erythematosus, sarcoidosis, rheumatoid arthritis, glomerulonephritis,or vasculitis.\n3. Has any uncontrolled medical problems.\n4. Has had systemic steroid therapy within 28 days before vaccine administration.\n5. Has an anticipated need for systemic steroid therapy within 28 days after vaccine administration.\n6. Has any evidence of active infections.\n7. Is pregnant.\n8. Has a history of another cancer (other than pancreatic cancer) or myeloproliferative disorders in the past five years except for treated non-melanoma skin cancer, superficial bladder cancer, or carcinoma in-situ of the cervix.\n9. Has a history of noncompliance during previous vaccination cycles with study treatment and/or monitoring which is concerning for continued noncompliance.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Experiencing Drug-Related Adverse Events (AEs) Requiring Treatment Discontinuation",
+        "description": "Safety as measured by local and systemic toxicity according to NCI CTCAE v 3.0",
+        "timeFrame": "121 Months"
+      },
+      {
+        "measure": "Number of Participants Experiencing Grade 3 or Above Drug-Related Adverse Events (AEs)",
+        "description": "Safety as measured by local and systemic toxicity according to NCI CTCAE v 3.0",
+        "timeFrame": "121 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Disease Free Survival (DFS)",
+        "description": "DFS was measured as the time from date of surgery until pancreatic cancer recurrence or death. Disease status was monitored by radiologic scans done per standard of care. DFS was censored on the date of last radiologic scan for subjects without documentation of cancer recurrence or death at the time of analysis. Estimation based on the Kaplan-Meier curve.",
+        "timeFrame": "131 months"
+      },
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "OS was measured as the amount of time from date of surgery until death or end of follow-up. OS was censored on the date the subject was last known to be alive for subjects without documentation of death at the time of analysis. Estimation based on the Kaplan-Meier curve.",
+        "timeFrame": "174 Months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:46.500Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

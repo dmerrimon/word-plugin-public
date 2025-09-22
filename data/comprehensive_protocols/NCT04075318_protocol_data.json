@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT04075318",
+  "briefTitle": "Study of UB-312 in Healthy Participants and Parkinson's Disease Patients",
+  "officialTitle": "A Phase 1 Study to Evaluate the Safety, Tolerability, and Immunogenicity of UBITh® PD Immunotherapeutic Vaccine (UB-312) in Healthy Participants and Participants With Parkinson's Disease",
+  "protocolDocument": {
+    "nctId": "NCT04075318",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-04-14",
+    "uploadDate": "2025-02-13T11:00",
+    "size": 399455,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04075318/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 70,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-08-29",
+    "completionDate": "2023-03-01",
+    "primaryCompletionDate": "2023-03-01",
+    "firstSubmitDate": "2019-08-05",
+    "firstPostDate": "2019-08-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or female aged 40 to 85 years old, inclusive at screening\n* Expected to be able to undergo all study procedures\n* Other inclusion criteria apply\n\nFor Part B only:\n\n* A diagnosis of PD, confirmed by a neurologist\n* Hoehn \\&Yahr Stage ≤ III at Screening\n* Stable treatment of permitted antiparkinsonian medications from 30 days prior to first study drug administration or 60 days for MAO-B inhibitors, and expected to remain stable throughout the study\n\nExclusion Criteria:\n\n* Clinically significant abnormalities, as judged by the investigator\n* History of medical, neurological or psychiatric conditions which in the opinion of the investigator may compromise participant's safety or scientific value of the study\n* Acute or chronic infection as judged by the investigator, for positive human immunodeficiency virus (HIV), hepatitis C virus (HCV) or hepatitis B virus (HBV)\n* History or evidence of an autoimmune disorder\n* History of anergy.\n* Participated/participating in any clinical trial with monoclonal antibodies or vaccines directed at aSyn\n* Other exclusion criteria apply\n\nFor Part B only:\n\n* Other known or suspected cause of Parkinsonism other than idiopathic PD\n* History or evidence at Screening of PD-related freezing episodes, falls, or orthostatic hypotension\n* Dopamine transporter single-photon emission computerized tomography scan (DaTscan) inconsistent with dopamine transporter deficit.\n* Clinically significant neurological disease other than PD",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Frequency of Adverse Events",
+        "description": "Number of AEs will be assessed",
+        "timeFrame": "44 weeks"
+      },
+      {
+        "measure": "Immunogenicity of UB-312 as Determined by Anti-aSyn Antibodies in Blood",
+        "description": "Number of Participants with Anti-aSyn Antibodies in Blood from Weeks 1 through 45.",
+        "timeFrame": "44 weeks"
+      },
+      {
+        "measure": "Immunogenicity of UB-312 as Determined by Anti-aSyn Antibodies in CSF",
+        "description": "Number of Participants with Anti-aSyn Antibodies in CSF from Weeks 1 through 45.",
+        "timeFrame": "44 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:45.974Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

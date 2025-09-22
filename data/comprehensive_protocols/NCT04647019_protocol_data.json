@@ -1,0 +1,167 @@
+{
+  "nctId": "NCT04647019",
+  "briefTitle": "The Effects of Wild Blueberries on Depressive Symptoms in Young Adults",
+  "officialTitle": "The Effects of Wild Blueberries on Depressive Symptoms in Young Adults: a Randomized, Double-blind, Placebo-controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT04647019",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-04-07",
+    "uploadDate": "2022-04-20T06:44",
+    "size": 180795,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04647019/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 62,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-26",
+    "completionDate": "2022-06-11",
+    "primaryCompletionDate": "2022-06-11",
+    "firstSubmitDate": "2020-10-21",
+    "firstPostDate": "2020-11-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18 to 24 years of age\n* Patient Health Questionnaire-9 score ≥ 10 and a score ≥ 2 on the sum of items 1 and 2\n* Willingness to provide blood samples\n\nExclusion Criteria:\n\n* Any medically significant condition (e.g. diabetes, endocrine or gastrointestinal disorders)\n* Taking medication (excluding hormonal contraception)\n* History of mental illness (excluding anxiety and unipolar depressive disorders)\n* Allergy to blueberries or any other Vaccinium species\n* Receiving psychotherapy or counselling",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "24 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Beck Depression Inventory-II (BDI-II)",
+        "description": "A validated 21-item self-rated scale for assessing depression severity. The scale ranges from 0 to 63 points with higher scores indicating more severe depressive symptomatology.",
+        "timeFrame": "6 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Patient Health Questionnaire-9 (PHQ-9)",
+        "description": "A self-rated scale of depressive symptoms. The scale ranges from 0 to 27 points with higher scores indicating more severe depression.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Generalized Anxiety Disorder 7-item Scale (GAD-7)",
+        "description": "A brief self-rated scale of generalized anxiety. The scale ranges from 0 to 21 points with higher scores indicating more severe anxiety.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Snaith-Hamilton Pleasure Scale (SHAPS) - modified version",
+        "description": "A 14-item self-rated scale for measuring anhedonia. Each item has been modified to have five possible responses, which are scored as follows: \"strongly disagree\" (4 points), \"somewhat disagree\" (3 points), \"neither agree nor disagree\" (2 points), \"somewhat agree\" (1 point), \"strongly agree\" (0 points). Thus, the scale will range from 0 to 56 points with higher scores indicating greater levels of anhedonia.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Perceived Stress Scale (PSS-10)",
+        "description": "A validated 10-item questionnaire to measure levels of perceived stress. The scale ranges from 0 to 40 points with higher scores indicating greater stress levels.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Composite Quality of Life Index",
+        "description": "A 44-item composite index of quality of life derived by adding 11 facets of the WHOQOL-100 Questionnaire (General Health and Life Satisfaction, Pain and Discomfort, Energy and Fatigue, Sleep and Rest, Positive Feelings, Cognitive Function, Self-esteem, Negative Feelings, Activities of Daily Living, Work Capacity, and Personal Relationships). The scale ranges from 0 to 176 points with higher scores indicating better quality of life.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Positive affect as measured by PANAS-X",
+        "description": "Positive affect will be calculated by adding the values of the 21 positive items of the Positive and Negative Affect Schedule-X and the additional item \"motivated\". Thus, the scale will range from 0 to 88 points with higher scores indicating better mood.",
+        "timeFrame": "2 hours post-ingestion"
+      },
+      {
+        "measure": "Positive affect as measured by PANAS-X",
+        "description": "Positive affect will be calculated by adding the values of the 21 positive items of the Positive and Negative Affect Schedule-X and the additional item \"motivated\". Thus, the scale will range from 0 to 88 points with higher scores indicating better mood.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Negative affect as measured by PANAS-X",
+        "description": "Negative affect will be calculated by adding the values of the 25 negative items of the Positive and Negative Affect Schedule-X. Thus, the scale will range from 0 to 100 points with higher scores indicating worse mood.",
+        "timeFrame": "2 hours post-ingestion"
+      },
+      {
+        "measure": "Negative affect as measured by PANAS-X",
+        "description": "Negative affect will be calculated by adding the values of the 25 negative items of the Positive and Negative Affect Schedule-X. Thus, the scale will range from 0 to 100 points with higher scores indicating worse mood.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Cognitive flexibility",
+        "description": "A task-switching test will be used to assess cognitive flexibility when switching between two predictable tasks requiring simple numerical decisions. The main outcome of interest is the average accuracy (0 to 100%).",
+        "timeFrame": "2 hours post-ingestion"
+      },
+      {
+        "measure": "Cognitive flexibility",
+        "description": "A task-switching test will be used to assess cognitive flexibility when switching between two predictable tasks requiring simple numerical decisions. The main outcome of interest is the average accuracy (0 to 100%).",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Brain-derived neutrophic factor (BDNF) in serum",
+        "description": "Serum levels of BDNF will be analyzed using enzyme-linked immunosorbent assay (ELISA).",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Interleukin-6 (IL-6) in serum",
+        "description": "Serum levels of IL-6 will be analyzed using enzyme-linked immunosorbent assay (ELISA) as a marker of systemic inflammation.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "C-reactive protein (CRP) in serum",
+        "description": "Serum levels of CRP will be measured using an automated chemistry analyzer as a marker of systemic inflammation.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Uric acid in serum",
+        "description": "Serum levels of uric acid will be measured using an automated chemistry analyzer.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Serum total antioxidant capacity (TAC)",
+        "description": "The total antioxidant capacity (TAC) of serum will be measured to assess systemic antioxidant status.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Serum superoxide dismutase (SOD)",
+        "description": "Serum levels of superoxide dismutase (SOD) will be measured as an indicator of oxidative stress.",
+        "timeFrame": "6 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 17,
+      "otherCount": 0,
+      "totalCount": 18
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:19.108Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

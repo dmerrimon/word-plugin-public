@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT05282173",
+  "briefTitle": "Community Health Worker Training to Reduce Depression and Substance Use Stigma in TB/HIV Care in South Africa",
+  "officialTitle": "Training CHWs to Support Re-Engagement in TB/HIV Care in the Context of Depression and Substance Use",
+  "protocolDocument": {
+    "nctId": "NCT05282173",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-04-04",
+    "uploadDate": "2025-01-13T13:19",
+    "size": 997781,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05282173/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 82,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-06-08",
+    "completionDate": "2023-08-01",
+    "primaryCompletionDate": "2023-08-01",
+    "firstSubmitDate": "2022-03-07",
+    "firstPostDate": "2022-03-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* At least 18 years old\n* Employed as a CHW through a partner non-governmental organization (NGO) that provides HIV/TB CHW services\n* Works with patients who have HIV and TB, some of whom may be struggling with depression or substance use\n\nExclusion Criteria:\n\n* Unable to complete informed consent or study procedures in English or Xhosa",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "CHW Stigma Towards Substance Use",
+        "description": "CHW stigma towards substance use measured using the Social Distance Scale (SDS). SDS scores range from 6 to 24, with higher scores indicating more desired social distance (more stigma).",
+        "timeFrame": "Change between baseline assessment and 6-month follow-up (approximately 6-months post-training)"
+      },
+      {
+        "measure": "CHW Stigma Towards Depression",
+        "description": "CHW stigma towards depression measured using the Social Distance Scale (SDS). SDS scores range from 6 to 24, with higher scores indicating more desired social distance (more stigma).",
+        "timeFrame": "Change between baseline assessment and 6-month follow-up (approximately 6-months post-training)"
+      },
+      {
+        "measure": "Training Feasibility",
+        "description": "The number of CHWs who attended all three days of the Siyakhana training. The training will be considered feasible if over 75% of CHWs attend the full training.",
+        "timeFrame": "3-months post-training"
+      },
+      {
+        "measure": "Acceptability",
+        "description": "Acceptability subscale of the John Hopkins D\\&I Measure, a 12-item measure for assessing dissemination and implementation outcomes in low- and middle-income settings. This measure will specifically assess CHW's perceived satisfaction, relevance, usefulness, comprehension, and comfort level of the training. Items are rated on a 0-3 scale, and averaged, with lower scores (closer to 0) indicating low acceptability and higher scores (closer to 3) indicating higher acceptability.",
+        "timeFrame": "3-months post-training"
+      },
+      {
+        "measure": "CHW Training Fidelity",
+        "description": "20% of CHW role-plays at the 3-month follow-up assessment (approximately 3-months post-training) randomly selected for rating using the ENhancing Assessment of Common Therapeutic factors (ENACT) tool, a 15-item validated measure of fidelity and clinical competence among non-specialist workers, by two independent bilingual assessors. Ratings were given for 15 clinical competencies, giving scores of 1 (harmful), 2 (some basic skills), 3 (all basic skills), or 4 (advanced skills). CHW fidelity scores were calculated based on ENACT items rated as delivered with competence. A cut-off of ≥2 (some basic skills) was used to define fidelity for each item.",
+        "timeFrame": "3-months post-training"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "CHW Stigma Towards Substance Use",
+        "description": "CHW stigma towards substance use measured using the Social Distance Scale (SDS). SDS scores range from 6 to 24, with higher scores indicating more desired social distance (more stigma).",
+        "timeFrame": "Change between baseline assessment and 3-month follow-up (approximately 3-months post-training)"
+      },
+      {
+        "measure": "CHW Stigma Towards Depression",
+        "description": "CHW stigma towards depression measured using the Social Distance Scale (SDS). SDS scores range from 6 to 24, with higher scores indicating more desired social distance (more stigma).",
+        "timeFrame": "Change between baseline assessment and 3-month follow-up (approximately 3-months post-training)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:21.719Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

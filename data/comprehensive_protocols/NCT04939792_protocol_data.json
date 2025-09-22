@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04939792",
+  "briefTitle": "Optimization of Blood Levels of 25(OH)-Vitamin D in African Americans",
+  "officialTitle": "Optimization of Blood Levels of 25(OH)-Vitamin D in African Americans",
+  "protocolDocument": {
+    "nctId": "NCT04939792",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-11-06",
+    "uploadDate": "2021-06-08T16:56",
+    "size": 258935,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04939792/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "EARLY_PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 165,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-11-06",
+    "completionDate": "2022-10-31",
+    "primaryCompletionDate": "2022-10-31",
+    "firstSubmitDate": "2021-06-08",
+    "firstPostDate": "2021-06-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* African American volunteers only\n* Participants between the ages of 18 and 65\n* Must be In good general health\n* Women with negative pregnancy tests\n\nExclusion Criteria:\n\n* Subjects with Diabetes, Heart disease, Sickle Cell disease, or Epilepsy\n* Subjects with serum positive pregnancy test or breastfeeding",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "25-hydroxy-vitamin D",
+        "description": "Change in blood levels of 25(OH)VD",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "TNF-α",
+        "description": "Whether any increase in vitamin D beneficially decreases insulin resistance",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "HOMA-IR",
+        "description": "Whether any decrease in TNF-a beneficially decreases insulin resistance",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:40.223Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

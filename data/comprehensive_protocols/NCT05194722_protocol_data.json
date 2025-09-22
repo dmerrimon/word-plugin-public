@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT05194722",
+  "briefTitle": "Optimizing Mental Health in Orthopedic Care",
+  "officialTitle": "Optimizing Implementation of Mental Health Intervention Within Orthopedic Care",
+  "protocolDocument": {
+    "nctId": "NCT05194722",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-01-11",
+    "uploadDate": "2023-09-27T00:05",
+    "size": 1274180,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05194722/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-01-06",
+    "completionDate": "2022-06-18",
+    "primaryCompletionDate": "2022-06-18",
+    "firstSubmitDate": "2021-12-15",
+    "firstPostDate": "2022-01-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n* Orthopedic patient presenting for outpatient clinic evaluation to a spine specialist for neck and/or back pain\n* Musculoskeletal spine pain for 3+ months\n\nExclusion criteria:\n\n* Routine post-operative visit with no plans for further surgery\n* Endorses mental health crisis (active suicidal or homicidal ideation, psychosis)\n* Cognitive impairment which would interfere with meaningful engagement with research interview, questionnaires, and/or intervention",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adult PROMIS CAT Depression v1.0",
+        "description": "The PROMIS (Patient-Reported Outcomes Measurement Information System) Depression measure is a brief, computer-adapted measure of depression symptoms. It is a normalized measure with a mean of 50 and standard deviation of 10. Higher scores represent increased depression symptoms.",
+        "timeFrame": "Change in score from baseline to post-treatment (Month 1)"
+      },
+      {
+        "measure": "Adult PROMIS CAT Anxiety v1.0",
+        "description": "The PROMIS (Patient-Reported Outcomes Measurement Information System) Anxiety measure is a brief, computer-adapted measure of anxiety symptoms. It is a normalized measure with a mean of 50 and standard deviation of 10. Higher scores represent increased anxiety symptoms.",
+        "timeFrame": "Change in score from baseline to post-treatment (Month 1)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Adult PROMIS CAT Pain Interference v1.1",
+        "description": "The PROMIS (Patient-Reported Outcomes Measurement Information System) Pain Interference measure is a brief, computer-adapted measure of how much pain interferes with a person's life. It is a normalized measure with a mean of 50 and standard deviation of 10. Higher scores represent increased pain interference.",
+        "timeFrame": "Change in score from baseline to post-treatment (Month 1)"
+      },
+      {
+        "measure": "Adult PROMIS CAT Physical Function v2.0",
+        "description": "The PROMIS (Patient-Reported Outcomes Measurement Information System) Physical Function measure is a brief, computer-adapted measure of a person's self-reported physical functioning. It is a normalized measure with a mean of 50 and standard deviation of 10. Higher scores represent better physical functioning.",
+        "timeFrame": "Change in score from baseline to post-treatment (Month 1)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:18.950Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

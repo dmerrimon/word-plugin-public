@@ -1,0 +1,96 @@
+{
+  "nctId": "NCT04371419",
+  "briefTitle": "COVID-19 Health Messaging to Underserved Communities",
+  "officialTitle": "COVID-19 Health Messaging to Underserved Communities",
+  "protocolDocument": {
+    "nctId": "NCT04371419",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-14",
+    "uploadDate": "2021-06-23T14:55",
+    "size": 144628,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04371419/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 14267,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-13",
+    "completionDate": "2020-05-26",
+    "primaryCompletionDate": "2020-05-24",
+    "firstSubmitDate": "2020-04-28",
+    "firstPostDate": "2020-05-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria: Hispanic and African-American adult individuals, men and women - oversample of those with less completed education Exclusion Criteria: children, those who do not identify as above",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Incidence Rate for Knowledge Gaps: Control vs. Any Intervention",
+        "description": "Incidence rate for knowledge gaps is the count of knowledge gaps divided by the maximum possible count: 7",
+        "timeFrame": "The outcome was measured immediately following the intervention in the 15-minute baseline survey."
+      },
+      {
+        "measure": "Incidence Rate for Information-seeking Behavior: Control vs. Any Intervention",
+        "description": "Incidence rate for Information-seeking behavior is the count of links demanded divided by the maximum possible count: 10",
+        "timeFrame": "The outcome was measured immediately following the intervention in the 15-minute baseline survey."
+      },
+      {
+        "measure": "Incidence Rate for Knowledge Gaps by Intervention",
+        "description": "Incidence rate for knowledge gaps is the count of knowledge gaps divided by the maximum possible count: 7",
+        "timeFrame": "The outcome was measured immediately following the intervention in the 15-minute baseline survey."
+      },
+      {
+        "measure": "Incidence Rate for Information-seeking Behavior by Intervention",
+        "description": "Incidence rate for Information-seeking behavior is the count of links demanded divided by the maximum possible count: 10",
+        "timeFrame": "The outcome was measured immediately following the intervention in the 15-minute baseline survey."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:09.705Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

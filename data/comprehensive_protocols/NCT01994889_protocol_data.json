@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT01994889",
+  "briefTitle": "Safety and Efficacy of Tafamidis in Patients With Transthyretin Cardiomyopathy",
+  "officialTitle": "A MULTICENTER, INTERNATIONAL, PHASE 3, DOUBLE-BLIND, PLACEBO-CONTROLLED, RANDOMIZED STUDY TO EVALUATE THE EFFICACY, SAFETY, AND TOLERABILITY OF DAILY ORAL DOSING OF TAFAMIDIS MEGLUMINE (PF-06291826) 20 MG OR 80 MG IN COMPARISON TO PLACEBO IN SUBJECTS DIAGNOSED WITH TRANSTHYRETIN CARDIOMYOPATHY (TTR-CM)",
+  "protocolDocument": {
+    "nctId": "NCT01994889",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-05-24",
+    "uploadDate": "2019-01-31T15:13",
+    "size": 2120972,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01994889/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 441,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-12-09",
+    "completionDate": "2018-02-07",
+    "primaryCompletionDate": "2018-02-07",
+    "firstSubmitDate": "2013-11-14",
+    "firstPostDate": "2013-11-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Medical history of Heart Failure (HF) with at least 1 prior hospitalization for HF or clinical evidence of HF (without hospitalization) manifested by signs or symptoms of volume overload or elevated intracardiac pressures (e.g., elevated jugular venous pressure, shortness of breath or signs of pulmonary congestion on x-ray or auscultation, peripheral edema) that required/requires treatment with a diuretic for improvement,\n* Evidence of cardiac involvement by echocardiography with an end-diastolic interventricular septal wall thickness \\> 12 mm,\n* Presence of amyloid deposits in biopsy tissue and presence of a variant TTR genotype and/or TTR precursor protein identification by immunohistochemistry, scintigraphy or mass spectrometry\n\nExclusion Criteria:\n\n* A New York Heart Association (NYHA) classification of IV.\n* Presence of primary (light chain) amyloidosis.\n* Prior liver or heart transplantation or implanted cardiac mechanical assist device.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Hierarchical Combination of All-Cause Mortality and Frequency of Cardiovascular-Related Hospitalizations",
+        "description": "All-cause mortality and frequency of cardiovascular hospitalization were analyzed using Finkelstein-Schoenfeld method. The method combines all-cause mortality and frequency of CV-related hospitalizations in a hierarchical fashion using all-cause mortality first. The method compares every participant with every other participant within strata, assigning a +1 to the \"better\" participant and a -1 to the \"worse\" participant and 0 if they are \"tied\". Participants who discontinued for transplantation (heart transplantation and combined heart and liver transplantation) or for implantation of a cardiac mechanical assist device, were handled in the same manner as death. 'Win' represents a participant doing better based on hierarchical comparison. The reported unit is the total \"wins\" for each treatment group from performing such a hierarchical comparison across all 4 strata in the study.",
+        "timeFrame": "Baseline up to Month 30"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "All-Cause Mortality",
+        "description": "Number of deaths due to any cause was analyzed. Participants who discontinued for transplantation (heart transplantation and combined heart and liver transplantation) or for implantation of a cardiac mechanical assist device were handled in the same manner as death.",
+        "timeFrame": "Baseline up to Month 30"
+      },
+      {
+        "measure": "Frequency of Cardiovascular-Related Hospitalizations",
+        "description": "CV related hospitalizations per year is calculated as participant's number of CV related hospitalizations upon duration on study in years.",
+        "timeFrame": "Baseline to Month 30"
+      },
+      {
+        "measure": "Change From Baseline in the Total Distance Walked During 6 Minute Walk Test (6MWT) at Month 30",
+        "description": "6MWT is the total distance that a participant could walk in 6 minutes. Participants were asked to perform the test at a pace that was comfortable to them, with as many breaks as they needed.",
+        "timeFrame": "Baseline, Month 30"
+      },
+      {
+        "measure": "Change From Baseline in Kansas City Cardiomyopathy Questionnaire Overall Score (KCCQ-OS) at Month 30",
+        "description": "KCCQ is a 23-item participant-completed questionnaire that assesses health status and health-related quality of life in participants with heart failure. Eight domain scores were calculated for the KCCQ: Physical limitation, Social limitation, Quality of life, Self-efficacy, Symptom stability, Symptom frequency, Symptom burden, and Total symptoms (calculated as the mean of Symptom frequency and Symptom burden scores). Two summary scores were also calculated: Clinical Summary (calculated as mean of Physical limitation and Total symptom scores) and Overall Summary (calculated as mean of Physical limitation, Social limitation, Total symptoms, and Quality of life scores). Domain and summary scores were scaled to range from 0 (minimum) to 100 (maximum); higher scores represent better health status.",
+        "timeFrame": "Baseline, Month 30"
+      },
+      {
+        "measure": "Number of Participants With Cardiovascular-Related Mortality",
+        "description": "Deaths adjudicated as CV-related and indeterminate are reported. Participants who discontinued for transplantation (heart transplantation and combined heart and liver transplantation) or for implantation of a cardiac mechanical assist device, were handled in the same manner as death.",
+        "timeFrame": "Baseline up to Month 30"
+      },
+      {
+        "measure": "Percentage of Participants With Stabilized Transthyretin (TTR) at Month 1",
+        "description": "TTR stabilization is a measure of the degree of stabilization afforded the TTR molecule by tafamidis.",
+        "timeFrame": "Month 1"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.909Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

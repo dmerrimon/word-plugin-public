@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT01747915",
+  "briefTitle": "A Safety, Efficacy and Tolerability Trial of Pregabalin as Add-On Treatment in Pediatric and Adult Subjects With Primary Generalized Tonic-Clonic (i.e., Grand Mal) Seizures.",
+  "officialTitle": "A RANDOMIZED, DOUBLE-BLIND, PLACEBO-CONTROLLED, PARALLEL GROUP, MULTI-CENTER TRIAL OF PREGABALIN AS ADJUNCTIVE THERAPY IN PEDIATRIC AND ADULT SUBJECTS WITH PRIMARY GENERALIZED TONIC-CLONIC SEIZURES - PROTOCOL A0081105",
+  "protocolDocument": {
+    "nctId": "NCT01747915",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2012-07-26",
+    "uploadDate": "2019-08-08T10:31",
+    "size": 375247,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01747915/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 219,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-04-03",
+    "completionDate": "2019-02-20",
+    "primaryCompletionDate": "2019-02-20",
+    "firstSubmitDate": "2012-11-27",
+    "firstPostDate": "2012-12-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Seizures classified as Primary Generalized Tonic Clonic Seizures\n* Must have at least 1 PGTC seizure in the 8 weeks prior to screening\n* Must have a minimum of 3 PGTC seizures during the 8-week baseline phase and at least 1 PGTC in each 4-week period of the baseline phase\n* Currently receiving adequate and stable dosage of 1 to 3 anti-epileptic treatments (stable within 28 days of screening)\n* Signed informed consent and assent if a minor\n* Ability to comply with daily seizure and dosing diary requirements and all study procedures\n\nExclusion Criteria:\n\n* A current diagnosis of febrile seizures, or seizures related to an ongoing acute medical illness\n* Focal seizures (simple partial, complex partial, or partial becoming secondarily generalized)\n* Status Epilepticus within 1 year prior to screening\n* Lennox-Gastaut syndrome, infantile spasms, Benign Epilepsy with Centrotemporal Spikes (BECTS) and Dravet syndrome\n* Seizures related to drugs, alcohol, or acute medical illness\n* Any change in anti-epileptic treatment regimen (type of medication or dose; VNS alteration) within 28 days of the screening visit or during the baseline phase\n* Progressive or potentially progressive structural CNS lesion or a progressive encephalopathy.\n* Progressive inborn errors of metabolism.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Log-transformed (Log) 28-day Seizure Rate for All Primary Generalized Tonic-Clonic (PGTC) Seizures During 12-Week Double-Blind Treatment Phase",
+        "description": "All PGTC seizures experienced during treatment phase were recorded by the participants or their parents/legal guardian in a daily seizure diary. 28-day seizure rate for all PGTC seizures= (\\[number of seizures in the double blind treatment phase\\] divided by \\[number of days in double blind treatment phase minus {-} number of missing diary days in treatment phase\\])\\*28. For log-transformation, the quantity 1 was added to the 28-day seizure rate for all participants to account for any possible \"0\" seizure incidence. This resulted in final calculation as: log transformed (28-day seizure rate +1).",
+        "timeFrame": "Day 1 up to Week 12"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With at Least 50 Percent (%) or Greater Reduction From Baseline in 28-day Primary Generalized Tonic-clonic (PGTC) Seizure Rate During the 12-Week Double-blind Treatment Phase",
+        "description": "Percentage of participants with 50% or greater reduction from baseline in 28-day seizure rate during the 12 week double blind treatment phase were reported. 28-day seizure rate for all PGTC seizures= (\\[number of seizures in the double blind treatment phase\\] divided by \\[number of days in double blind treatment phase minus {-} number of missing diary days in treatment phase\\])\\*28.",
+        "timeFrame": "Day 1 up to Week 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:48.725Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

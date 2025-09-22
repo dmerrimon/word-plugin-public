@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT02518464",
+  "briefTitle": "Ticagrelor Therapy for RefrACTORy Migraine Study",
+  "officialTitle": "Ticagrelor Therapy for RefrACTORy Migraine Study Pilot (TRACTOR)",
+  "protocolDocument": {
+    "nctId": "NCT02518464",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-11-20",
+    "uploadDate": "2018-03-23T14:47",
+    "size": 773160,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02518464/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-10",
+    "completionDate": "2017-10",
+    "primaryCompletionDate": "2017-10",
+    "firstSubmitDate": "2015-08-06",
+    "firstPostDate": "2015-08-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* At least one year history of Episodic or Chronic migraine headache symptoms\n* At least 6 headache days per month\n* Subject able to complete online daily headache log\n\nExclusion Criteria:\n\n* Inability to understand the study or history of non-compliance with medical advice\n* Currently taking a P2Y12 inhibitor\n* Known hypersensitivity to Brilinta/ticagrelor\n* History of stroke/transient ischemic attack (TIA) in the previous 6 months\n* Active bleeding from any site\n* Active peptic ulcer disease or upper gastrointestinal (GI) bleeding within six (6) months\n* Migraine onset after 50 years of age\n* Renal impairment: Creatinine Clearance \\< 60 cc/min\n* Severe hepatic impairment with total bilirubin \\> 3.0 mg/dL\n* Thrombocytopenia with platelet count \\< 100,000 / ul\n* History of intracranial hemorrhage\n* Contraindications to blood thinner therapy or history of major bleeding episode while taking blood thinner therapy\n* Need for chronic oral anti-coagulation therapy (i.e. Atrial Fibrillation)\n* Need for chronic anti-platelet therapy (i.e. drug-eluting (DE) Stent), including daily aspirin use\n* Need for daily nonsteroidal anti-inflammatory drug (NSAID) use\n* Need for daily carbamazepine therapy or other strong CYP3A inhibitors or potent CYP3A inducers\n* Need for simvastatin or lovastatin greater than 40 mg daily\n* Symptomatic bradycardia or syncope\n* Pregnancy or currently breast-feeding, or plan to become pregnant during the study period\n* Planned surgery during the study time-frame\n* Previously implanted patent foramen ovale (PFO), atrial septal defect (ASD), pacemaker, inferior vena cava filter, or left atrial appendage closure device",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Total Number of Responders",
+        "description": "A participant will be considered to have achieved the primary efficacy endpoint (a \"Responder\") if she/he has \\>50% reduction in the number of monthly headache days during the month of therapy compared with participant's own baseline. If there is \\< 50% reduction in the number of migraine days, she/he will be considered a Non-Responder.",
+        "timeFrame": "1 month from baseline"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:53.107Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

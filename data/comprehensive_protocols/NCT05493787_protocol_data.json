@@ -1,0 +1,133 @@
+{
+  "nctId": "NCT05493787",
+  "briefTitle": "Nudging Flu Vaccination by Making it Easy for Patients to Schedule a Flu Shot",
+  "officialTitle": "Nudging Flu Vaccination by Making it Easy for Patients to Schedule a Flu Shot",
+  "protocolDocument": {
+    "nctId": "NCT05493787",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2022-09-25",
+    "uploadDate": "2023-12-28T09:29",
+    "size": 201780,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05493787/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 139503,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-11-08",
+    "completionDate": "2023-01-03",
+    "primaryCompletionDate": "2023-01-03",
+    "firstSubmitDate": "2022-08-02",
+    "firstPostDate": "2022-08-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Included in one or both of the following two base patient lists:\n\n  1. Geisinger patient portal flu outreach list for Fall 2022\n  2. A list of patients obtained from Geisinger's Phenomics and Clinical Data Core (PACDC). This list will include active Geisinger patients (all patients on this list attended at least one primary care appointment at Geisinger between 10/1/2008 and 4/13/2022, and either had a Geisinger primary care provider assigned as of April 2022, or were in the Electronic Health Record \\[EHR\\] since at least September 2021 and had at least one encounter in 2020-2022).\n* Aged 18 or older as of October 2022\n* Has had a Geisinger encounter in the last 2 years as of October 2022\n* Either of the following, as of October 2022:\n\n  1. Has a Geisinger PCP assigned in the Community Medicine, Pediatrics, or Internal Medicine service line\n  2. In the last 2 years, has completed an appointment in a Geisinger specialty on a list of specialties approved by system leadership for flu shot communications\n* Has not received a flu-shot during the 2022-23 flu season as of \\~1 week prior to the message date (timeline may be slightly different, depending on data pull logistics), according to the Electronic Health Record (EHR)\n* Does not have a scheduled in-person primary care or in-person flu-shot-eligible specialty appointment in the 12 weeks following their assigned message send date, as of \\~1 week prior to the message date (timelines may be slightly different, depending on data pull logistics or clinical guidance)\n\n  * As of this writing, the team plans to define a flu-shot-eligible specialty appointments as appointments in departments that have historically documented or administered flu vaccine. However, this approach may change slightly based on changing clinical guidance.\n\nExclusion Criteria:\n\n* The CMSL/Marketing list will include patients in Geisinger's 65Forward or Community Care populations. If necessary due to logistical constraints, we may exclude these 65Forward and/or Community Care patients from our study.\n* Cannot be contacted via the communication modality being used in the study (e.g., patient portal, SMS), e.g., due to insufficient/missing contact information in the EHR or because they opted out\n* Has an allergy to flu vaccines according to any EHR allergy table known to the study team\n* Has a health maintenance modifier indicating they are permanently discontinued from receiving a seasonal flu shot\n* Is on a list of dismissed patients",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Patients Who Self-scheduled a Flu Shot",
+        "description": "Patient self-schedules a flu vaccine appointment through the patient portal.\n\nThis outcome measures whether the patient schedules an appointment within 4 weeks of the send date, but the appointment can occur more than 4 weeks past the send date.",
+        "timeFrame": "Within 4 weeks of message send date"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Flu Vaccination",
+        "description": "Number of patients who received a flu vaccine",
+        "timeFrame": "Within 4 weeks of message send date"
+      }
+    ],
+    "other": [
+      {
+        "measure": "High Confidence Flu Diagnosis",
+        "description": "Patient received a flu diagnosis via a positive PCR/antigen/molecular test (yes/no) during the 2022-23 flu season (from the patient's message send date through April 30, 2023).",
+        "timeFrame": "Up to 7 months"
+      },
+      {
+        "measure": "\"Likely Flu\" Diagnosis",
+        "description": "Received a \"high confidence flu\" diagnosis (with positive polymerase chain reaction \\[PCR\\]/antigen/molecular test) and/or \"likely flu\" diagnosis (as assessed via International Classification of Disease \\[ICD\\] codes or Tamiflu administration or positive PCR/antigen/molecular test) (yes/no) during the 2022-23 flu season (from the patient's message send date through April 30, 2023).\n\nNote that \"likely flu\" is a superset of the \"high confidence flu\" diagnoses.",
+        "timeFrame": "Up to 7 months"
+      },
+      {
+        "measure": "Flu Complications",
+        "description": "Diagnosed with flu-related complications (yes/no) from the patient's message send date through July 31, 2023.",
+        "timeFrame": "Up to 10 months"
+      },
+      {
+        "measure": "ER Visits",
+        "description": "Number of ER visits from the patient's message send date through July 31, 2023.",
+        "timeFrame": "Up to 10 months"
+      },
+      {
+        "measure": "Hospitalizations",
+        "description": "Number of hospitalizations from the patient's message send date through July 31, 2023.",
+        "timeFrame": "Up to 10 months"
+      },
+      {
+        "measure": "COVID-19 Vaccination Rates",
+        "description": "Received at least one COVID-19 vaccination (yes/no) during the 2022-23 flu season (from the patient's message send date through April 30, 2023).",
+        "timeFrame": "Up to 7 months"
+      },
+      {
+        "measure": "Number of Patients Who Self-Scheduled a Flu Shot by Sex",
+        "description": "Patient self-schedules a flu vaccine through the patient portal This outcome measures whether the patient schedules an appointment within 4 weeks of the message send date, but the appointment can occur more than 4 weeks past the send date.",
+        "timeFrame": "Within 4 weeks of the message send date"
+      },
+      {
+        "measure": "Number of Patients Who Self-Scheduled a Flu Shot by Race",
+        "description": "Patient self-schedules a flu vaccine through the patient portal This outcome measures whether the patient schedules an appointment within 4 weeks of the message send date, but the appointment can occur more than 4 weeks past the send date.",
+        "timeFrame": "Within 4 weeks of the message send date"
+      },
+      {
+        "measure": "Number of Patients Who Self-Scheduled a Flu Shot by Ethnicity",
+        "description": "Patient self-schedules a flu vaccine through the patient portal This outcome measures whether the patient schedules an appointment within 4 weeks of the message send date, but the appointment can occur more than 4 weeks past the send date.",
+        "timeFrame": "Within 4 weeks of the message send date"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 9,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 47,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:32.261Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

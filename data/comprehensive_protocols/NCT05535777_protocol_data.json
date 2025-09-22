@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT05535777",
+  "briefTitle": "Patient Portal Flu Vaccine Reminders_RCT 5 (LADHS)",
+  "officialTitle": "Improving Influenza Vaccination Delivery Across a Health System by the Electronic Health Records Patient Portal RCT 5 (LADHS)",
+  "protocolDocument": {
+    "nctId": "NCT05535777",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-08-29",
+    "uploadDate": "2024-12-12T19:05",
+    "size": 349903,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05535777/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 246295,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-09-13",
+    "completionDate": "2023-03-31",
+    "primaryCompletionDate": "2023-03-31",
+    "firstSubmitDate": "2022-09-06",
+    "firstPostDate": "2022-09-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* LADHS patients identified as primary care patients assigned as follows: (1) assigned through managed care plans, (2) self-pay but linked with a provider, or (3) uninsured but assigned.\n\nExclusion Criteria:\n\n* LADHS patient not identified as a primary care patient.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "6 Months",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Receipt of the Annual Influenza Vaccine Among Adult and Pediatric Index Patients",
+        "description": "Percent of patients with annual influenza vaccination (between 9/1/22 - 4/1/23) among adult and pediatric index patients. Outcomes will be assessed via vaccine data extraction from the electronic health record and external claims and pharmacy data.\n\nThe index patients must be an LADHS patient. Primary care patients who are empaneled to a primary care provider within DHS are assigned as follows: (1) assigned through managed care plans, (2) self-pay but linked with a provider or (3) uninsured but assigned). Individuals not affiliated with any primary care practice will be excluded from the primary analysis.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Receipt of the Annual Influenza Vaccine Among Pediatric Index Patients",
+        "description": "Percent of patients with annual influenza vaccination (between 9/1/22 - 4/1/23) among pediatric index patients. Outcomes will be assessed via vaccine data extraction from the electronic health record and external claims and pharmacy data.\n\nThe index patients must be an LADHS patient. Primary care patients who are empaneled to a primary care provider within DHS are assigned as follows: (1) assigned through managed care plans, (2) self-pay but linked with a provider or (3) uninsured but assigned). Individuals not affiliated with any primary care practice will be excluded from the primary analysis.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:32.888Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

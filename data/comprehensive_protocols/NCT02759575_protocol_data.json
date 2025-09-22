@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT02759575",
+  "briefTitle": "A Study of Chemoradiation Plus Pembrolizumab for Locally Advanced Laryngeal Squamous Cell Carcinoma",
+  "officialTitle": "A Phase I/II Study of Chemo Radiation Plus the Anti-Programmed Death-1 (Anti-PD-1) Antibody, Pembrolizumab (MK-3475) for Locally Advanced Laryngeal Squamous Cell Carcinoma",
+  "protocolDocument": {
+    "nctId": "NCT02759575",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-09-01",
+    "uploadDate": "2020-03-05T11:49",
+    "size": 593435,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02759575/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-04",
+    "completionDate": "2021-02",
+    "primaryCompletionDate": "2019-01-24",
+    "firstSubmitDate": "2016-04-26",
+    "firstPostDate": "2016-05-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Biopsy-proven, previously untreated stage III or IV squamous cell carcinoma of the larynx, Primary tumor stage (T2, T3) and nodal stage (N0, N1, N2, N3).\n* Measurable disease based on RECIST 1.1.\n* Performance status 0 or 1 on Eastern Cooperative Oncology Group Performance Scale.\n* Anticipated survival minimum of 12 months.\n* Adequate labs\n\nExclusion Criteria:\n\n* Patients with T1 primary tumor or T4 large volume tumor that has resulted in larynx dysfunction at baseline (for example tumor largely penetrating into base of tongue and resulting in inability to swallow at baseline)\n* Prior radiation therapy to the larynx area or involved neck.\n* Distant metastasis\n* Known history of active tuberculosis (TB), autoimmune disease, pneumonitis, infection, HIV, Hepatitis B, or Hepatitis C",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Treatment-Related Grade 3 or 4 Adverse Events as Assessed by CTCAE V4.0",
+        "description": "Greater than 2 grade 3 or 4 adverse events that are definitely, probably or possibly related to the pembrolizumab in the first cohort of 6 participants",
+        "timeFrame": "30 days following completion of treatment for the first 6 participants"
+      },
+      {
+        "measure": "Laryngectomy-free Survival in Locally Advanced Laryngeal Squamous Cell Carcinoma",
+        "description": "This is the number of subjects that are laryngectomy-free at 18 months.",
+        "timeFrame": "18 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Laryngectomy-free Survival in Locally Advanced Laryngeal Squamous Cell Carcinoma",
+        "description": "This is the number of subjects that are laryngectomy-free at 12 months.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:56.461Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

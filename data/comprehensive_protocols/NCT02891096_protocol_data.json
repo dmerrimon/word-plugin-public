@@ -1,0 +1,95 @@
+{
+  "nctId": "NCT02891096",
+  "briefTitle": "Inspiratory Strength and Respiratory Complications After SCI Injury",
+  "officialTitle": "Inspiratory Muscle Strength and Respiratory Complications After Spinal Cord Injury: a Multicenter, Prospective Cohort Study",
+  "protocolDocument": {
+    "nctId": "NCT02891096",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-07-27",
+    "uploadDate": "2023-11-23T05:16",
+    "size": 4960248,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02891096/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 550,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-10-01",
+    "completionDate": "2021-10-31",
+    "primaryCompletionDate": "2021-10-31",
+    "firstSubmitDate": "2016-08-31",
+    "firstPostDate": "2016-09-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Initial rehabilitation after SCI\n* men and women\n* aqe over or equal 18 years\n* AIS A, B, C or D lesion\n* lesion level C1-T12\n\nExclusion Criteria:\n\n* Neurologic diseases (e.g. MS, ALS)\n* 24h mechanical ventilation dependency\n* mental disorders",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pneumonia",
+        "description": "occurrence of pneumonia",
+        "timeFrame": "From date of spinal cord injury until discharge from primary rehabilitation (i.e. individual time window of observation from a few weeks to about 1 year)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Respiratory Function Measurements",
+        "description": "The various lung parameters thus include, vital capacity (FVC), forced expiratory volume in 1 second (FEV1), peak expiratory flow (PEF) and peak cough flow (PCF).\n\nThe measurement of the lung function will be conducted in sitting position in the own wheelchair or for pedestrians on a chair and lasts at most 15 minutes.\n\nThe peak cough flow (PCF) will be measured by having the person cough as forcefully as possible through a peak flow meter.\n\nThe greatest value of each lung function parameter will be used for analysis.",
+        "timeFrame": "measured at inclusion at 28±12 days post injury (time window) or at 84±14 days post injury (time window) - first measurement of each patient used for analysis"
+      },
+      {
+        "measure": "Mortality Due to Pneumonia",
+        "description": "Mortality will be defined as pneumonia-related, if a prevailing event of pneumonia was clinically resolved as the initiating factor of the cascade of morbid events leading directly to death. Similarly, other causes of death will be recorded as part of all-cause mortality and as potentially competing risks of death.",
+        "timeFrame": "From date of spinal cord injury until discharge from inpatient rehabilitation (i.e. individual time window of observation from a few weeks to about 1 year)"
+      },
+      {
+        "measure": "Respiratory Muscle Strength",
+        "description": "maximal inspiratory pressure (MIP) and maximal expiratory pressure (MEP)\n\nThe measurement will be conducted in sitting position in the own wheelchair or for pedestrians on a chair . The measurements will be conducted with a device for respiratory pressure measurement in which the patient has to inhale and exhale through a mouthpiece. Each measurement of the inspiration and expiration will be repeated 3 times per measurement time.\n\nThe greatest value of each parameter will be used for analysis.",
+        "timeFrame": "measured at inclusion at 28±12 days post injury (time window) or at 84±14 days post injury (time window) - first measurement of each patient used for analysis"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Quality of Life in General",
+        "description": "Quality of life (Qol) will be evaluated using the Quality of Life Basic Data Set of the International Spinal Cord Injury Datasets. This measurement instrument accepts (Qol) as a multi-facetted concept and includes three questions as to capture general quality of life (overall well-being), rating of physical health, and satisfaction with psychological health.",
+        "timeFrame": "in days post injury: T1:28±12; T2:84±14, T3:150±18; T4:15 days before discharge until discharge"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 1,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 46,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:28.145Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

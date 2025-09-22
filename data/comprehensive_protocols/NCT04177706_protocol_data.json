@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04177706",
+  "briefTitle": "Ketamine for the Treatment of Opioid Use Disorder and Depression",
+  "officialTitle": "A Randomized, Placebo-Controlled, Double-Blind Study to Evaluate the Efficacy of Ketamine for the Treatment of Concurrent Opioid Use Disorder and Major Depressive Disorder",
+  "protocolDocument": {
+    "nctId": "NCT04177706",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-12-20",
+    "uploadDate": "2024-02-27T15:04",
+    "size": 440748,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04177706/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 21,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-12-17",
+    "completionDate": "2022-11-21",
+    "primaryCompletionDate": "2022-11-21",
+    "firstSubmitDate": "2019-11-22",
+    "firstPostDate": "2019-11-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Between the ages of 18 to 65 years old.\n2. Able to provide informed consent.\n3. Meet DSM-5 criteria for Major Depressive Disorder, without psychotic features.\n4. Score at least 20 on the Montgomery-Asberg Depression Rating Scale.\n5. Fulfill a minimum of 4 of 11 current opioid use disorder criteria by DSM-5.\n6. Have used opioids illicitly at least once in the past month.\n7. Subjects must be on standard of care pharmacotherapy for OUD (buprenorphine) for at least one month.\n8. Subjects taking other psychotropic medications (e.g. anti-depressants or non benzodiazepine anxiolytics) must be maintained on a stable dose for at least four weeks before study initiation.\n9. Subjects must be considered to have treatment-refractory MDD as evidenced by failure or only partial response to treatment with at least two standard of care pharmacotherapy antidepressants.\n10. Must consent to random assignment to intranasal ketamine or placebo control.\n\nExclusion Criteria:\n\nThey are considered an immediate suicide risk (by Columbia Suicide Severity Rating Scale of 4 or greater, a history of a suicide attempt in the past year, or by clinician judgment) or felt to be likely to require hospitalization during the course of the study.\n\n2\\. They have a self-reported history of illicit ketamine use, or baseline urine drug testing positive for ketamine.\n\n3\\. They are in acute opioid withdrawal (as evidenced by a score of 5 or above on the Clinician Opioid Withdrawal Scale). These subjects will be referred for clinical detoxification and pharmacotherapy induction. Subjects may be re-assessed for study eligibility after one month of treatment with a standard of care OUD pharmacotherapy.\n\n4\\. Subjects who meet DSM-5 criteria for current bipolar disorder. 5. Subjects who meet DSM-5 criteria for current or history of psychotic spectrum disorders.\n\n6\\. Women who are pregnant or nursing. 7. Subjects with current hypertension as defined by a systolic blood pressure (SBP) \\>140 mmHg or a diastolic blood pressure (DBP) \\>90 mmHg.\n\n8\\. Subjects with a self-reported history of delirium for any cause. 9. A history of allergic or other adverse reaction to ketamine. 10. Clinically significant abnormal laboratory values, physical exam findings or self-reported medical conditions for which a transient increase in blood pressure could be significantly detrimental (e.g. glaucoma, brain aneurysms, cardiovascular disease, or end-stage renal disease).\n\n11\\. Electrocardiogram (ECG) findings (obtained within thirty days prior to randomization) of tachycardia, prior myocardial infarction, myocardial ischemia, or aberrant conduction).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Individuals Completing Informed Consent",
+        "description": "Primary outcomes will be 1) the percentage of individuals completing informed consent out of the number of individuals eligible on the initial screening.",
+        "timeFrame": "Actual time frame of: 23 months."
+      },
+      {
+        "measure": "Percentage of Individuals Completing the Full Protocol",
+        "description": "The other primary outcome will be the percentage of individuals that complete informed consent which complete the full interventional protocol.",
+        "timeFrame": "Actual time frame 23 months."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Depression Severity",
+        "description": "Secondary outcomes will include changes in depression severity (as measured on the Montgomery-Asberg Depression Rating Scale), which will be calculated as a change from baseline to 4 weeks (8th interventional visit). Montgomery Asberg Depression Rating Scale (MADRS; Montgomery, 1979). The MADRS is a clinician administered, 10-item questionnaire of depression severity. The total score ranges from 0-60, with scores of 0-6 considered normal (non-depressed), 7-19 indicative of mild depression, 20-34 indicative of moderate depression, and 35-60 indicative of severe depression. Individuals scoring 20 or higher on the MADRS will be included in the study. The MADRS evaluates the following symptoms of depression: 1) clinical appearance of sadness, 2) self-reported sadness, 3) inner tension, 4) reduced sleep, 5) reduced appetite, 6) concentration difficulties, 7) lassitude, 8) inability to feel, 9) pessimistic thought process, and 10) thoughts of suicide.",
+        "timeFrame": "Baseline through 4-week interventional visits (8th interventional visit)."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:17.364Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

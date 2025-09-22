@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT04492020",
+  "briefTitle": "Study to Evaluate Oral Ubrogepant in the Acute Treatment of Migraine During the Prodrome in Adult Participants",
+  "officialTitle": "A Phase 3, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Crossover Study to Evaluate the Efficacy, Safety, and Tolerability of Oral Ubrogepant in the Acute Treatment of Migraine When Administered During the Prodrome",
+  "protocolDocument": {
+    "nctId": "NCT04492020",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-05-02",
+    "uploadDate": "2023-04-17T10:47",
+    "size": 2164945,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04492020/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 518,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-08-21",
+    "completionDate": "2022-04-19",
+    "primaryCompletionDate": "2022-04-19",
+    "firstSubmitDate": "2020-07-27",
+    "firstPostDate": "2020-07-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* At least a 1-year history of migraine with or without aura consistent with a diagnosis according to the ICHD-3 (International Classification of Headache Disorders 3rd edition)\n* Migraine onset before age 50 years\n* By history, the participant's migraines typically last between 4 and 72 hours if untreated or treated unsuccessfully and migraine episodes are separated by at least 48 hours of headache pain freedom\n* History of 2 to 8 migraine attacks per month with moderate to severe headache in each of the 3 months prior to the Screening Visit\n\nExclusion Criteria:\n\n* Difficulty distinguishing migraine headache from tension-type or other headaches\n* Participants who overuse medication for migraine defined as use of opioids or barbiturates \\> 2 days/month, triptans or ergots ≥ 10 days/month, or simple analgesics (eg, aspirin, nonsteroidal anti-inflammatory drugs (NSAIDs), acetaminophen) ≥ 15 days/month in the 3 months prior to Visit 1 per investigator's judgment\n* Has a history of migraine aura with diplopia or impairment of level of consciousness, hemiplegic migraine, or retinal migraine as defined by ICHD-3\n* A current diagnosis of chronic migraine as defined by ICHD-3 or a history of 15 or more headache days per month on average in the 6 months prior to Visit 1 in the investigator's judgment. A headache day is defined as a day in which there was any occurrence of a headache of a minimum duration of 2 hours or a headache of any duration for which acute medication was taken\n* Has a current diagnosis of new persistent daily headache, trigeminal autonomic cephalgia (eg, cluster headache), or painful cranial neuropathy as defined by ICHD-3\n* Required hospital treatment of a migraine attack 3 or more times in the 6 months prior to Visit 1\n* History of malignancy in the 5 years prior to Visit 1, except for adequately treated basal cell or squamous cell skin cancer, or in situ cervical cancer\n* History of any prior gastrointestinal conditions (eg, diarrhea syndromes, inflammatory bowel disease) that, per investigator judgment, may affect the absorption or metabolism of the study intervention; participants with prior gastric bariatric interventions (eg, Lap Band) which have been reversed are not excluded",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants Reporting Absence of Headache of Moderate/Severe Intensity Within 24 Hours Post-dose",
+        "description": "The absence of a headache of moderate/severe intensity will be recorded by the participant in an electronic diary (eDiary) within 24 hours after taking double-blind study intervention during the prodrome in order to determine the attenuation of headache. The absence of moderate or severe headache are derived based on headache record and rescue use.",
+        "timeFrame": "24 hours after taking double-blind study intervention during the prodrome"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants Reporting Absence of Headache of Moderate or Severe Intensity Within 48 Hours Post-dose",
+        "description": "The absence of a headache of moderate or severe intensity will be recorded by the participant in an eDiary within 48 hours after taking double-blind study intervention during the prodrome in order to determine the prevention of headache",
+        "timeFrame": "48 hours after taking double-blind study intervention during the prodrome"
+      },
+      {
+        "measure": "Percentage of Participants Reporting Improvement in the Ability to Function Normally Over 24 Hours Post-dose",
+        "description": "The Functional Disability Scale (FDS) is a single item used to measure the participant's level to function normally. Participants will be asked to rate the performance of daily activities using 4 response options ranging from 0 (no disability, able to function normally) to 3 (severely impaired, cannot do all or most things, bed rest may be necessary) within 24 hours after taking double-blind study intervention during the prodrome",
+        "timeFrame": "24 hours after taking double-blind study intervention during the prodrome"
+      },
+      {
+        "measure": "Percentage of Participants Reporting Absence of Headache of Any Intensity Within 24 Hours Post-dose",
+        "description": "The absence of a headache of moderate/severe intensity will be recorded by the participant in an electronic diary (eDiary) within 24 hours after taking double-blind study intervention during the prodrome in order to determine the attenuation of headache. The absence of moderate or severe headache are derived based on headache record and rescue use.",
+        "timeFrame": "24 hours after taking double-blind study intervention during the prodrome"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:53.108Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

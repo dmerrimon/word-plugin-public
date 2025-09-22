@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT04999267",
+  "briefTitle": "Increasing Vaccine Uptake Among Adolescents in the Rural South",
+  "officialTitle": "A Tailored School-based Intervention to INcrease VaccinE Uptake Among adoleScenTs (INVEST) in the Rural South",
+  "protocolDocument": {
+    "nctId": "NCT04999267",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-07-14",
+    "uploadDate": "2024-04-24T10:10",
+    "size": 251636,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04999267/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-08-31",
+    "completionDate": "2022-11-03",
+    "primaryCompletionDate": "2022-11-03",
+    "firstSubmitDate": "2021-08-05",
+    "firstPostDate": "2021-08-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\- Any public middle school in Cherokee County, South Carolina or Rockingham County, North Carolina school districts",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Difference in the Percentage of Adolescents Who Ever Received at Least One Dose of HPV Vaccination in the Intervention Group After the Intervention Implementation Compared With Before Intervention Implementation",
+        "description": "HPV vaccination status (received at least one versus no doses) of middle schoolers (by district) will be obtained from official vaccination records before and after intervention implementation.",
+        "timeFrame": "Baseline, 9 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Difference in Percentage of Adolescents Who Have Completed the HPV Vaccination Series (2 Doses Depending on Age at Vaccination Initiation) in the Intervention Group After Implementation Compared With Before Intervention Implementation",
+        "description": "HPV vaccination status (received at least one versus no doses) of middle schoolers (by district) will be obtained from official vaccination records before and after intervention implementation.",
+        "timeFrame": "Baseline, 9 months"
+      },
+      {
+        "measure": "Fidelity of Intervention Across Intervention Schools",
+        "description": "Score items (0-100%) from a study specific checklist (Fidelity Checklist) will be completed by school nurses from intervention schools with a high score (100%) indicating more adherence to the study intervention and 0% indicating the worse score and less adherence to the study intervention",
+        "timeFrame": "9 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 20,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:40.986Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

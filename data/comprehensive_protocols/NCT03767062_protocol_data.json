@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT03767062",
+  "briefTitle": "Peripheral Nerve Block and Topiramate in the Treatment of Medication Overuse Headaches",
+  "officialTitle": "Comparison of Effects of Peripheral Nerve Block and Topiramate in the Treatment of Medication Overuse Headaches: A Randomised Parallel Group Study",
+  "protocolDocument": {
+    "nctId": "NCT03767062",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-07-07",
+    "uploadDate": "2019-12-23T15:45",
+    "size": 85853,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03767062/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 90,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-01",
+    "completionDate": "2019-03-31",
+    "primaryCompletionDate": "2019-03-31",
+    "firstSubmitDate": "2018-12-05",
+    "firstPostDate": "2018-12-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Chronic migraine diagnosis according to International Classification of Headache-2 Disorders (ICHD)\n2. w/o pregnancy or breastfeeding.\n3. w/o acute or chronic psychiatric disorders.\n4. w/o nephrolithiasis.\n5. w/o medication of anticoagulant and antiaggregant.\n6. w/o allergy to topiramate or bupivacaine.\n7. w/o prophylaxis within the last three months with any of; propranolol, nebivolol, topiramate, valproate, venlafaxine, duloxetine, amitriptyline, flunarizine.\n8. w/o previous history of peripheral nerve block, botulinum toxin or acupuncture.\n9. w/o history of multiple sclerosis, movement disorders, epilepsy, stroke, and tumor.\n\nJ-w/o chronic systemic diseases including hypertension, cardiac insufficiency, diabetes, pulmonary disease, kidney disease, liver disease, and peripheral arterial disease.\n\nExclusion Criteria:\n\n1. Lost to follow up within the pretreatment period during the detoxification therapy after the detoxification therapy\n2. could not tolerate the peripheral nerve block or topiramate",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "15 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Visual Analog Scale",
+        "description": "Range Pain 0-10, 0: No pain, 10: Worst Pain",
+        "timeFrame": "Post treatment (4 weeks later)"
+      },
+      {
+        "measure": "Attack Frequencies",
+        "description": "Number of headaches patients suffer in a month.",
+        "timeFrame": "Post treatment (4 weeks later)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:54.720Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

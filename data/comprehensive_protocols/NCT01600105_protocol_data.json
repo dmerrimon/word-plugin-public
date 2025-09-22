@@ -1,0 +1,157 @@
+{
+  "nctId": "NCT01600105",
+  "briefTitle": "Detection of Liver Fibrosis With Magnetic Resonance Imaging (MRI)",
+  "officialTitle": "Prospective Detection of Liver Fibrosis With MRI Compared to Fibroscan and Blood Tests",
+  "protocolDocument": {
+    "nctId": "NCT01600105",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-09-16",
+    "uploadDate": "2018-07-05T16:54",
+    "size": 553459,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01600105/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 276,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2010-10",
+    "completionDate": "2017-07-31",
+    "primaryCompletionDate": "2017-07-31",
+    "firstSubmitDate": "2012-05-14",
+    "firstPostDate": "2012-05-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Chronic liver disease (including viral hepatitis, alcoholic hepatitis, non alcoholic steatohepatitis, primary biliary cirrhosis, primary sclerosing cholangitis, etc..)\n* 18 years of age and older\n* Liver biopsy (percutaneous or transjugular or surgical) performed within 6 months, as part of routine clinical care.\n* Liver transplant or liver resection performed within 6 months, as part of routine clinical care.\n* Patient is able to give informed consent for this study and agrees to provide a blood sample\n\nControl group\n\n* Patients without history of liver disease and healthy volunteers\n* 18 years of age and older\n* Subject is able to give informed consent for this study and agrees to provide a blood sample\n\nExclusion Criteria:\n\n* Age less than 18 years\n* Unable or unwilling to give informed consent\n* Contra-indications to MRI\n* Electrical implants such as cardiac pacemakers or perfusion pumps\n* Ferromagnetic implants such as aneurysm clips, surgical clips, prostheses, artificial hearts, valves with steel parts, metal fragments, shrapnel, tattoos near the eye, or steel implants\n* Ferromagnetic objects such as jewelry or metal clips in clothing\n* Pregnant subjects\n* Pre-existing medical conditions including a likelihood of developing seizures or claustrophobic reactions.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "PV Flow",
+        "description": "Sub-Study I Portal Venous Flow - forward flow during systole and early diastole, and flow reversal after atrial contraction.The average PV area was extracted, and PV flow was computed as the multiplication of area and velocity.",
+        "timeFrame": "Fasting State Scan (an average of 15 min) and Postprandial State Scan (an average of 15 min)"
+      },
+      {
+        "measure": "PV Velocity",
+        "description": "Sub-Study I Portal Venous Flow Velocity - The mean velocity of the region of interest (ROI) was extracted for each one of the 25 phase images, and the time average was computed.",
+        "timeFrame": "Fasting State Scan (an average of 15 min) and Postprandial State Scan (an average of 15 min)"
+      },
+      {
+        "measure": "LS-MRE for Sub-Study I",
+        "description": "Sub-Study I Liver stiffness (LS) measured by magnetic resonance elastography (MRE) in kilopascal (kPa). Liver stiffness is assessed by mathematical modeling of compression waves propagation in the liver, as measured from MRE images.",
+        "timeFrame": "Fasting State Scan (an average of 15 min) and Postprandial State Scan (an average of 15 min)"
+      },
+      {
+        "measure": "True Diffusion Parameter (D)",
+        "description": "Sub-Study II True Diffusion Parameter - D- describes water diffusion in tissue independently from the effects of capillary perfusion; it is obtained from bi-exponential fitting of MRI diffusion signal acquired over a range of high and low diffusion-weighting factors (b-values)\n\nFibrosis State/Score:\n\nF0-F2 - no signs of fibrosis to minimal fibrosis F3-F4 - fibrosis has spread and has connected to other areas on the liver that contain fibrosis or presence of cirrhosis",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min) Scan"
+      },
+      {
+        "measure": "LS-MRE Fibrosis State for Sub Study II",
+        "description": "Sub-Study II Liver stiffness (LS) measured by magnetic resonance elastography (MRE) in kilopascal (kPa). Liver stiffness is assessed by mathematical modeling of compression waves propagation in the liver, as measured from MRE images.\n\nFibrosis State/Score:\n\nF0-F2 - no signs of fibrosis to minimal fibrosis F3-F4 - fibrosis has spread and has connected to other areas on the liver that contain fibrosis or presence of cirrhosis",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min)"
+      },
+      {
+        "measure": "LS-TE",
+        "description": "Sub-Study II Liver Stiffness with transient elastography (TE) (LS-TE) - a non-invasive modality of liver fibrosis detection: a shear wave is sent into the liver through a small transducer attached to an ultrasound probe, and the velocity of the wave is measured as it passes through the liver; shear wave velocity is then converted to stiffness, measured in kilopascals (kPa)\n\nFibrosis State/Score:\n\nF0-F2 - no signs of fibrosis to minimal fibrosis F3-F4 - fibrosis has spread and has connected to other areas on the liver that contain fibrosis or presence of cirrhosis",
+        "timeFrame": "Fasting transient elastography, average duration 10 min"
+      },
+      {
+        "measure": "MTT",
+        "description": "Sub-Study II Mean Transit Time (MTT) - Liver Mean Transit Time of Contrast Agent through the tissue of interest from Dynamic Contrast Enhanced MRI\n\nFibrosis State/Score:\n\nF0-F2 - no signs of fibrosis to minimal fibrosis F3-F4 - fibrosis has spread and has connected to other areas on the liver that contain fibrosis or presence of cirrhosis",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Liver Upslope From DCE-MRI",
+        "description": "Sub-Study III Liver Upslope of MRI signal is defined as peak concentration to the time to reach peak concentration of gadolinium contrast agent in the liver tissue of interest, derived from dynamic contrast-enhanced MRI (DCE-MRI.\n\nPortal hypertension (PH), defined by hepatic venous pressure gradient (HVPG) ≥5 mmHg Clinically Significant Portal hypertension (CSPH), defined by hepatic venous pressure gradient (HVPG) ≥10 mmHg",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min)"
+      },
+      {
+        "measure": "Liver Time to Peak (TTP) for PH",
+        "description": "Sub-Study III Liver Time to Peak (TTP) is defined as the time in seconds to reach peak concentration of gadolinium contrast agent in the liver tissue of interest, derived from dynamic contrast-enhanced MRI (DCE-MRI) Portal hypertension (PH), defined by hepatic venous pressure gradient (HVPG) ≥5 mmHg Clinically Significant Portal Hypertension is defined as an HVPG ≥10 mmHg",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min)"
+      },
+      {
+        "measure": "LS-MRE Portal Hypertension for Sub Study III",
+        "description": "Sub-Study III Liver stiffness (LS) measured by magnetic resonance elastography (MRE) in kilopascal (kPa). Liver stiffness is assessed by mathematical modeling of compression waves propagation in the liver, as measured from MRE images.\n\nPortal Hypertension is defined as an HVPG ≥5 mmHg Clinically Significant Portal hypertension (CSPH), defined by hepatic venous pressure gradient (HVPG) ≥10 mmHg",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min)"
+      },
+      {
+        "measure": "Spleen Volume",
+        "description": "Sub-Study III Portal Hypertension is defined as an HVPG ≥5 mmHg",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min)"
+      },
+      {
+        "measure": "Spleen Caudocranial Diameter",
+        "description": "Sub-Study III Portal Hypertension is defined as an HVPG ≥5 mmHg",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min)"
+      },
+      {
+        "measure": "PH Imaging Score",
+        "description": "Sub-Study III Portal Hypertension imaging composite score (based on the presence of varices, spleen size, presence of ascites). The imaging score is based on the number of variceal sites (0: absence of varices, 1: one variceal site, 2: two variceal sites, and 3: 3 or more variceal sites), volume of ascites (0: no ascites, 1: minimal perihepatic and perisplenic fluid, 2: intraperitoneal fluid without marked abdominal wall distension, and 3: fluid causing marked abdominal wall distension), and maximum craniocaudal diameter of the spleen (0: size less than 13 cm, 1: size between 13 and 15 cm, 2: size between 15 and 20 cm, and 3: size greater than 20 cm). Score from 0 to 9, with higher score indicating worse disease.\n\nPortal Hypertension is defined as an HVPG ≥5 mmHg Clinically Significant Portal hypertension (CSPH), defined by hepatic venous pressure gradient (HVPG) ≥10 mmHg",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min)"
+      },
+      {
+        "measure": "LSLU",
+        "description": "Sub-Study III Liver Stiffness to Liver Upslope ratio (LSLU) Portal Hypertension is defined as an HVPG ≥5 mmHg Clinically Significant Portal hypertension (CSPH), defined by hepatic venous pressure gradient (HVPG) ≥10 mmHg",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min)"
+      },
+      {
+        "measure": "Liver DV",
+        "description": "Sub Study III Liver Distribution Volume (DV) is the distribution volume of contrast agent in the tissue of interest defined as a percentage ratio of gadolinium material volume to the volume of the liver tissue of interest, as derived from DCE-MRI; in the case of a contrast agent with extracellular distribution, DV measures the intravascular and extravascular-extracellular volume.\n\nClinically Significant Portal hypertension (CSPH), defined by hepatic venous pressure gradient (HVPG) ≥10 mmHg",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min)"
+      },
+      {
+        "measure": "Spleen TTP",
+        "description": "Sub Study III Spleen Time To Peak (TTP) - time to reach peak gadolinium concentration in spleen tissue of interest, derived from DCE-MRI.\n\nClinically Significant Portal hypertension (CSPH), defined by hepatic venous pressure gradient (HVPG) ≥10 mmHg",
+        "timeFrame": "Fasting State Multiparametric MRI Scan (an average of 60 min)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 7,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:26.017Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

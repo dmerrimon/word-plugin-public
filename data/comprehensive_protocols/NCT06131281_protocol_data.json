@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT06131281",
+  "briefTitle": "Comparing Reduction With ESD- Versus APC-TORe",
+  "officialTitle": "Comparing Outcomes of Classic Transoral Outlet Reduction (TORe) Versus Endoscopic Submucosal Dissection-TORe: A Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT06131281",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-09-22",
+    "uploadDate": "2023-10-04T14:12",
+    "size": 323342,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06131281/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 70,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-10-02",
+    "completionDate": "2026-04",
+    "primaryCompletionDate": "2026-04",
+    "firstSubmitDate": "2023-11-09",
+    "firstPostDate": "2023-11-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adult patients with history of Roux-en-Y gastric bypass and weight regain\n* Dilated gastrojejunal anastamosis as diagnosed on endoscopy\n* Patients undergoing standard of care for treatment of obesity with endoscopic revisional procedure (a.k.a. TORe) who are enrolled in the GI Bariatric Endoscopy program and clinic at the study site\n\nExclusion Criteria:\n\n* Prior revision of gastric bypass\n* Active and uncontrolled gastro-esophageal reflux disease defined as ≥ grade C esophagitis\n* Active untreated Helicobacter pylori infection\n* Malignancy newly diagnosed by endoscopy\n* Upper gastro-intestinal conditions such as ulcers, polyps, gastric varices, strictures, congenital or acquired intestinal telangiectasia or other abnormalities that preclude completion of TORe\n* Presence of gastrogastric or gastroenteric fistula\n* Inability to undergo general anesthesia\n* Participating in another ongoing clinical trial of an investigational weight loss drug or device\n* Active pregnancy\n* Use of anticoagulation therapy or P2Y12 inhibitors which cannot be discontinued for the time frame surrounding the procedure\n* Insulin-dependent diabetes mellitus\n* Unwillingness to comply with standard post-TORe dietary guidelines and follow-up care\n* Any other anatomical, technical or otherwise factor that limits the ability of the endoscopist to perform either E-TORe or c-TORe\n* Any additional factor, which in the investigator's opinion, might jeopardize the subject's safety or compliance with the trial protocol",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Weight change at 6 months",
+        "description": "Percent total body weight change 6 months following TORe procedure",
+        "timeFrame": "6 months from procedure date"
+      },
+      {
+        "measure": "Weight change at 12 months",
+        "description": "Percent total body weight change 12 months following TORe procedure",
+        "timeFrame": "12 months from procedure date"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Technical success",
+        "description": "Rates of technical success of the procedure as determined by the experienced endoscopist performing the TORe procedure",
+        "timeFrame": "Day of procedure"
+      },
+      {
+        "measure": "Procedure time",
+        "description": "Mean time to complete each procedure type",
+        "timeFrame": "Day of procedure"
+      },
+      {
+        "measure": "Adverse event rate",
+        "description": "Rate of adverse events related to each procedure type",
+        "timeFrame": "One year from date of procedure"
+      },
+      {
+        "measure": "5% total body weight loss",
+        "description": "Proportion of subjects who achieved at least 5% total body weight loss",
+        "timeFrame": "One year from date of procedure"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:17.402Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

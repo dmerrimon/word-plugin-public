@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT01974206",
+  "briefTitle": "A Study to Evaluate the Efficacy and Safety of a Vaccine, ASP0113, in Cytomegalovirus (CMV)-Seronegative Kidney Transplant Recipients Receiving an Organ From a CMV-Seropositive Donor",
+  "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Phase 2 Trial to Evaluate the Efficacy and Safety of a Vaccine, ASP0113, in Cytomegalovirus (CMV)-Seronegative Kidney Transplant Recipients Receiving an Organ From a CMV-Seropositive Donor",
+  "protocolDocument": {
+    "nctId": "NCT01974206",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2014-01-06",
+    "uploadDate": "2021-10-21T11:08",
+    "size": 3683290,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01974206/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 150,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-11-20",
+    "completionDate": "2020-11-05",
+    "primaryCompletionDate": "2016-05-13",
+    "firstSubmitDate": "2013-10-28",
+    "firstPostDate": "2013-11-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* CMV negative subject having received a CMV seropositive kidney (living or deceased)\n* Participant started valganciclovir or ganciclovir within 10 days of transplant and had received it through Randomization.\n\nExclusion Criteria:\n\n* Participant underwent a course of CMV-specific prophylactic therapy with antiviral drugs with a duration of greater than 100 days.\n* Participant had received from one month prior to transplant or planned to receive CMV immunoglobulin.\n* Participant had CMV viremia or CMV disease from time of transplant until time of Randomization.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With CMV Viremia Through 1 Year Post First Study Drug Injection",
+        "description": "CMV viremia was defined as presence of cytomegalovirus as measured in plasma viral load of ≥ 1000 IU/mL by central laboratory assay. A participant who discontinued the study without a positive CMV viral load was imputed as having a CMV viremia. A participant who had more than one viral load ≥ 1000 IU/mL by central assay was counted once in this summary. CMV viral loads after first injection (Day 1) through Day 380 (scheduled or unscheduled) were included in the analysis.",
+        "timeFrame": "From first study dose injection (day 1) up to one year post study drug injection (up to Day 380)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With Adjudicated CMV-Associated Disease, Including CMV Syndrome and CMV Tissue-Invasive Disease (Primary Study Period)",
+        "description": "An independent panel of medical experts reviewed/adjudicated events of CMV-associated disease including CMV syndrome and tissue invasive disease, which were defined according to the American Society of Transplantation Recommendations for Screening, Monitoring and Reporting of Infectious Complications in Immunosuppression Trials in Recipients of Organ Transplantation 2006.",
+        "timeFrame": "From first study dose injection (day 1) up to one (up to Day 380) year post study drug injection"
+      },
+      {
+        "measure": "Percentage of Participants With Plasma Viral Load ≥ The Lower Limit of Quantification (LLOQ) Assessed by Central Laboratory (Primary Study Period)",
+        "description": "The central laboratory had the LLOQ level for CMV viral load assessment. When the viral load was below the LLOQ the actual reading was not possible and was denoted as ≤LLOQ. If the participant had any CMV viral load assessments greater than the LLOQ, set up by the central laboratory, participant was classified as viremic and was included in the analysis.",
+        "timeFrame": "From first study dose injection (day 1) up to one year post study drug injection (up to Day 380)"
+      },
+      {
+        "measure": "Percentage of Participants Who Took Adjudicated CMV-specific Antiviral Therapy for the Treatment of CMV Viremia or Disease (Primary Study Period)",
+        "description": "An independent panel of medical experts reviewed/adjudicated events of CMV-specific AVT for treatment of CMV viremia or disease.",
+        "timeFrame": "From first study dose injection (day 1) up to one year post study drug injection (up to Day 380)"
+      },
+      {
+        "measure": "Percentage of Participants With Graft Survival (Primary Study Period)",
+        "description": "Graft survival was defined for any participant that did not fit the definition of graft loss. Graft loss was defined as participant death, re-transplant, nephrectomy, or return to permanent dialysis (i.e., for \\> 30 days). Missing values for graft survival were not included in the denominator when making the proportion. The analysis population was the FAS.",
+        "timeFrame": "From first study dose injection (day 1) up to one year post study drug injection (up to Day 380)"
+      },
+      {
+        "measure": "Percentage of Participants With Graft Survival (Long-term Follow up)",
+        "description": "Graft survival was defined for any participant that did not fit the definition of graft loss. Graft loss was defined as participant death, re-transplant, nephrectomy, or return to permanent dialysis (i.e., for \\> 30 days). Missing values for graft survival were not included in the denominator when making the proportion.",
+        "timeFrame": "Month 18, 30, 42, 54, and 66"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:43.440Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03370471",
+  "briefTitle": "Exercise Effects on Word Learning",
+  "officialTitle": "Acute Exercise Effects on Word Learning in Aging and Stroke-induced Aphasia",
+  "protocolDocument": {
+    "nctId": "NCT03370471",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-05-16",
+    "uploadDate": "2021-08-05T19:26",
+    "size": 268396,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03370471/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 28,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-12-09",
+    "completionDate": "2019-08-16",
+    "primaryCompletionDate": "2019-08-16",
+    "firstSubmitDate": "2017-10-10",
+    "firstPostDate": "2017-12-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* monolingual English speakers\n* \"low physical activity\" on the International Physical Activity Questionnaire\n* physician's written approval for participation in moderate-intensity exercise\n\nExclusion Criteria:\n\n* VO2 max \\>26 (men) and 22 (women)\n* inability to cycle for 3 minutes at 50 revolutions/minute with no resistance\n* any comorbid condition with exercise contraindications\n* use of hormone replacement therapy\n\n  * dopaminergic\n  * anti-depressant\n  * anti-psychotic\n  * or illicit drugs\n* consumption of \\>14 alcoholic drinks/week or \\> 1pack of cigarettes/day\n* uncorrected hearing or vision impairments that interfere with study procedures\n* inability to read or repeat nonwords (e.g., flark)\n* inability to learn one novel word during a practice learning task\n* below cut-off on the Montreal Cognitive Assessment or the Comprehensive Aphasia Test Cognitive Screen\n* and/or \\>10 on the Beck Depression Inventory",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "35 Years",
+    "maximumAge": "89 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Study-Specific Word Recall Task",
+        "description": "Study-specific word recall task comprising trained items. Participant is shown each trained item and types the name.\n\nAcquisition: immediately after exercise or stretching on Monday, Wednesday and Friday.\n\nConsolidation: immediately before exercise or stretching on Wednesday and Friday, one week after training (Friday)",
+        "timeFrame": "Assessment occurs over a two-week period for each of the 4 intervention/arms: Week 1: Monday, Wednesday, Friday, Week 2: Friday"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Serum BDNF Concentration Levels (pg/mL)",
+        "description": "Blood samples collected to measure serum BDNF concentration levels (pg/mL), as follows:\n\n1. Before moderate intensity exercise or gentle stretching\n2. Immediately after moderate intensity exercise or gentle stretching\n3. Immediately after word learning\n4. 15 minutes after word learning",
+        "timeFrame": "Assessment occurs on Monday, Wednesday and Friday of Week 1 for each of the 4 intervention/arms"
+      },
+      {
+        "measure": "Plasma Dopamine",
+        "description": "The investigators will collect blood samples to detect changes in plasma dopamine in the training conditions on Monday and Friday sessions, as follows:.\n\n1. Before exercise or stretching\n2. Immediately after exercise or stretching\n3. Immediately after word learning\n4. 15 minutes after word learning",
+        "timeFrame": "Assessment occurs on Monday, Wednesday and Friday of Week 1 for each of the 4 intervention/arms"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:34.876Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

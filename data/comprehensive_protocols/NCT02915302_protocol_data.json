@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT02915302",
+  "briefTitle": "Safety and Immunogenicity of Fluzone® Quadrivalent Vaccine Administered to Healthy Children",
+  "officialTitle": "Safety and Immunogenicity of Fluzone® Quadrivalent Vaccine Administered to Healthy Children 6 to < 36 Months of Age",
+  "protocolDocument": {
+    "nctId": "NCT02915302",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-06-13",
+    "uploadDate": "2018-03-05T09:45",
+    "size": 445450,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02915302/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1950,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-09-23",
+    "completionDate": "2017-03-06",
+    "primaryCompletionDate": "2017-03-06",
+    "firstSubmitDate": "2016-09-23",
+    "firstPostDate": "2016-09-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Aged 6 to \\< 36 months of age on the day of first study vaccination (study product administration).\n* Born at full term of pregnancy (≥37 weeks) and/or with a birth weight ≥2.5 kg. Note: This inclusion criterion only applies to participants 6 to \\<12 months of age on the day of the first study visit.\n* Informed consent form has been signed and dated by the parent(s) or guardian(s).\n* Participant and parent/guardian are able to attend all scheduled visits and to comply with all trial procedures.\n\nExclusion Criteria:\n\n* Participation at the time of study enrollment (or in the 30 days preceding the first trial vaccination) or planned participation during the present trial period in another clinical trial investigating a vaccine, drug, medical device, or medical procedure.\n* Receipt of any vaccine in the 30 days preceding the first trial vaccination, or planned receipt of any vaccine before Visit 2 for participants receiving 1 dose of influenza vaccine or Visit 3 for participants receiving 2 doses of influenza vaccine.\n* Previous vaccination against influenza (in the 2016-2017 season) with either the trial vaccine or another vaccine.\n* Receipt of immune globulins, blood, or blood-derived products in the past 3 months.\n* Known or suspected congenital or acquired immunodeficiency; or receipt of immunosuppressive therapy, such as anti-cancer chemotherapy or radiation therapy, within the preceding 6 months; or long-term systemic corticosteroid therapy (prednisone or equivalent for more than 2 consecutive weeks within the past 3 months).\n* Known systemic hypersensitivity to any of the vaccine components, or history of a life-threatening reaction to the vaccine used in the trial or to a vaccine containing any of the same substances.\n* Thrombocytopenia, which may be a contraindication for intramuscular vaccination, at the discretion of the Investigator.\n* Bleeding disorder, or receipt of anticoagulants in the 3 weeks preceding inclusion, contraindicating intramuscular vaccination.\n* Deprived of freedom by an administrative or court order, or in an emergency setting, or hospitalized involuntarily.\n* Chronic illness that, in the opinion of the Investigator, is at a stage where it might interfere with trial conduct or completion.\n* Moderate or severe acute illness/infection (according to Investigator judgment) on the day of planned vaccination or febrile illness (temperature ≥100.4 degrees Fahrenheit \\[38.0 degrees Celsius\\]). A prospective participant should not be included in the study until the condition has resolved or the febrile event has subsided.\n* Identified as a natural or adopted child of either the Investigator or an employee with direct involvement in the proposed study.\n* History of serious adverse reactions to any influenza vaccine.\n* Personal history of Guillain-Barré syndrome.\n* Any condition that in the opinion of the Investigator would pose a health risk to the participant if enrolled or could interfere with the evaluation of the vaccine.\n* Personal history of clinically significant developmental delay (at the discretion of the Investigator), neurologic disorder, or seizure disorder.\n* Known seropositivity for human immunodeficiency virus, hepatitis B, or hepatitis C.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "6 Months",
+    "maximumAge": "35 Months",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Fever (Fever Rate) Following Vaccination With Fluzone Quadrivalent Vaccine",
+        "description": "Fever rate was defined as percentage of participants with fever (temperature \\>=100.4 degrees Fahrenheit \\[38.0 degrees Celsius\\]) following vaccination with Fluzone Quadrivalent vaccine.",
+        "timeFrame": "Within 7 days after any vaccination"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Geometric Mean Titers (GMTs) of Influenza Vaccine Antibodies",
+        "description": "Anti-influenza antibodies were measured using a hemagglutination inhibition (HAI) assay for 4 strains: A/H1N1, A/H3N2, B Victoria lineage, B Yamagata lineage.",
+        "timeFrame": "28 days post-final vaccination"
+      },
+      {
+        "measure": "Percentage of Participants With Seroconversion (Seroconversion Rate [SCR]) to Influenza Vaccine Antigens",
+        "description": "Anti-influenza antibodies were measured using HAI assay for 4 strains: A/H1N1, A/H3N2, B Victoria lineage, B Yamagata lineage. SCR was defined as percentage of participants with either a pre-vaccination titer \\<10 (1/dil) and a post-final vaccination titer \\>=40 (1/dil), or a pre-vaccination titer \\>=10 (1/dil) and at least a four-fold increase in post-final vaccination titer.",
+        "timeFrame": "28 days post-final vaccination"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:33.924Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

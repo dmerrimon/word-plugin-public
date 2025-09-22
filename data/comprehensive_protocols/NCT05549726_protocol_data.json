@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT05549726",
+  "briefTitle": "SEARCH CAB LA Dynamic Choice HIV Prevention Study Extension",
+  "officialTitle": "A Multisectoral Strategy to Address Persistent Drivers of the HIV Epidemic in East Africa: SEARCH CAB LA Dynamic Choice HIV Prevention Study Extension",
+  "protocolDocument": {
+    "nctId": "NCT05549726",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-07-26",
+    "uploadDate": "2024-12-16T13:42",
+    "size": 1037774,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05549726/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 984,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-01-02",
+    "completionDate": "2025-01-30",
+    "primaryCompletionDate": "2023-12-18",
+    "firstSubmitDate": "2022-09-16",
+    "firstPostDate": "2022-09-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nInclusion criteria for the Extension include:\n\n1. Enrollment in a SEARCH Sapphire Dynamic prevention study (NCT04810650)\n2. HIV negative at start of extension\n3. Residing in study region\n\nAdditional inclusion criteria to access CAB-LA as a prevention option\n\n1. Not pregnant or breastfeeding at time of initial CAB-LA injection\n2. Participant weighs at least 35kg\n\nExclusion Criteria:\n\nExclusion criteria to access CAB-LA as a prevention option:\n\n1. Participant has Hepatitis B or chronic Hepatitis C Diagnosis\n2. Participant has ALT \\>=5x ULN\n3. Participant has clinical history of liver cirrhosis or current clinical evidence of cirrhosis\n4. Previous hypersensitivity reaction to cabotegravir\n5. Receiving the following co-administered drugs for which significant decreases in cabotegravir plasma concentrations may occur due to uridine diphosphate glucuronosyltransferase:\n\n   i. Anticonvulsants: Carbamazepine, oxcarbazepine, phenobarbital, phenytoin ii. Antimycobacterials: Rifampin, rifapentine\n6. Participants with a current or anticipated need for chronic systemic anticoagulation or a history of known or suspected bleeding disorder, including a history of prolonged bleeding, except for the use of anticoagulation for deep vein thrombosis (DVT) prophylaxis (e.g., postoperative DVT prophylaxis) or the use of low dose acetylsalicylic acid (≤325 mg).",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "15 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Biomedical Prevention Covered Time",
+        "description": "Number of days participant taking biomedical prevention divided by number of days participant biomedical prevention use measured.\n\nBiomedical prevention includes PrEP tenofovir disoproxil fumarate/lamivudine (TDF/3TC) or cabotegravir long-acting injectable (CAB-LA) and PEP",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "HIV Incident Infection",
+        "description": "HIV incidence rate: number of HIV incident infections divided by number at risk (HIV incidence per 100 person-years)",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "HIV Incident Infection",
+        "description": "HIV incidence rate: number of HIV incident infections divided by person time follow-up",
+        "timeFrame": "96 weeks"
+      },
+      {
+        "measure": "Biomedical Prevention During Periods of Self Assessed HIV Risk",
+        "description": "Number of months participant taking biomedical prevention and at self-assessed risk of HIV infection divided by number of months measured and at risk self-assessed risk of HIV infection",
+        "timeFrame": "96 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:21.616Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

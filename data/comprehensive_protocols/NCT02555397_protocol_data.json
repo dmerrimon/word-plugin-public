@@ -1,0 +1,106 @@
+{
+  "nctId": "NCT02555397",
+  "briefTitle": "Phase 1 Trial of Interleukin 12 Gene Therapy for Locally Recurrent Prostate Cancer",
+  "officialTitle": "Phase 1 Trial of Oncolytic Adenovirus-Mediated Cytotoxic and Interleukin 12 Gene Therapy for Locally Recurrent Prostate Cancer After Definitive Radiotherapy",
+  "protocolDocument": {
+    "nctId": "NCT02555397",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-02-16",
+    "uploadDate": "2023-03-02T13:33",
+    "size": 1122877,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02555397/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-08",
+    "completionDate": "2024-01-22",
+    "primaryCompletionDate": "2019-06-16",
+    "firstSubmitDate": "2015-09-17",
+    "firstPostDate": "2015-09-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Biopsy-proven local recurrence of prostate cancer at least one year after the completion of definitive radiation therapy\n* Evidence of biologically active disease as demonstrated by an unequivocally rising serum PSA level that is ≥ 2 ng/mL above the nadir\n* PSA \\< 100 ng/mL\n* Age ≥ 18 years\n* Karnofsky performance status ≥ 70\n* Negative lymph nodes as established by imaging (pelvic CT or pelvic MRI)\n* No evidence of metastatic disease, as evaluated by bone scan and CT scan of the abdomen and pelvis.\n* Subjects must have adequate baseline organ function as assessed by the the following laboratory values:\n* Adequate renal function with serum creatinine ≤ 1.5 mg/dL\n* Platelet count \\> 100,000/µL\n* Absolute neutrophil count \\> 1,000/µL\n* Hemoglobin \\> 10.0 g/dL\n* Bilirubin \\> 1.5 mg/dL\n* AST/SGOT and ALT/SGPT \\< 3.0 times upper limit of normal (ULN)\n* Men of child-producing potential must be willing to consent to use effective contraception for at least 3 months after the gene therapy\n* Subjects must possess the ability to give informed consent and express a willingness to meet all of the expected requirements of the protocol for the duration of the study\n\nExclusion Criteria:\n\n* PSA ≥ 100 ng/mL\n* Prostate volume \\> 100 cc\n* Pathologically positive lymph nodes or nodes \\> 1.0 cm on imaging (nodes \\> 1.0 cm but biopsy negative are allowed.\n* Evidence of M1 metastatic disease\n* Prior invasive malignancy except for non-melanoma skin cancer within 5 years of enrollment. Subjects must be disease-free for \\> 5 years\n* Prior radical prostatectomy, cryosurgery for prostate cancer, or bilateral orchiectomy for any reason\n* If the subject had prior androgen deprivation therapy (ADT), the subject exhibited biochemical failure while on ADT\n* Prior systemic chemotherapy for the study cancer (prior chemotherapy for a different cancer is allowed; however, subjects must be \\> 2 years post-completion of chemotherapy at the time of registration. Subjects on Proscar therapy must stop to be eligible)\n* Major surgery planned within 3 months of registration\n* Severe, active co-morbidity defined as:\n* New York Health Association Class II or greater congestive heart failure or active ventricular arrhythmia requiring medication\n* Chronic obstructive pulmonary disease (COPD) exacerbation or other respiratory illness requiring hospitalization within last 3 months or precluding study therapy at the time of registration\n* Acute infection\n* Previous history of liver disease including hepatitis\n* Immunosuppressive therapy including systemic corticosteroids (use of inhaled and topical corticosteroids is permitted)\n* Impaired immunity or susceptibility to serious viral infections\n* Allergy to any product used in the protocol. If the subject has an allergy to Ciproflaxin, another antibiotic can be substituted at the discretion of the treating physician\n* Serious medical or psychiatric illness or concomitant medication, which, in the judgement of the principal investigator, might interfere with the subject's ability to respond to or tolerate the treatment or complete the trial",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Dose-dependent Toxicity",
+        "timeFrame": "30 days from date of adenovirus injection (defined as day 1)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "PSA Response",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Freedom From Biochemical/Clinical Failure (FFF)",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "PSA Doubling Time (PSADT)",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Disease-specific and Overall Survival",
+        "timeFrame": "5 years"
+      },
+      {
+        "measure": "Quality of Life (QOL)",
+        "timeFrame": "2 years"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Association Between the Primary and Secondary Outcomes and Immunological Endpoints Including Serum IL-12 and IFN-y Levels and NK Cell Cytolytic Activity",
+        "timeFrame": "3 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 1,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 41,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:53.965Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

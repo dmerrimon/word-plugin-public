@@ -1,0 +1,125 @@
+{
+  "nctId": "NCT03893188",
+  "briefTitle": "The SwissPrEPared Study",
+  "officialTitle": "A Multicenter, Observational Cohort to Study the Characteristics of Individuals Asking for Pre-exposure Prophylaxis (PrEP) and the Incidence of HIV and Other Sexually Transmitted Infections: 'The SwissPrEPared Study'",
+  "protocolDocument": {
+    "nctId": "NCT03893188",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-02-26",
+    "uploadDate": "2019-03-25T10:46",
+    "size": 1805355,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03893188/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 3000,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2019-04-10",
+    "completionDate": "2030-03",
+    "primaryCompletionDate": "2030-03",
+    "firstSubmitDate": "2019-03-14",
+    "firstPostDate": "2019-03-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participation in the SwissPrEPared program\n* Aged ≥16 years\n* HIV negative\n\nExclusion Criteria:\n\n* Individuals unable to follow program procedures (e.g. language barriers, mental or psychiatric disorders)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "16 Years",
+    "maximumAge": "120 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of individuals asking for PrEP",
+        "description": "Number of individuals asking for PrEP",
+        "timeFrame": "10 years"
+      },
+      {
+        "measure": "Proportion of individuals qualifying for PrEP according to current guidelines",
+        "description": "Proportion of individuals qualifying for PrEP according to current guidelines",
+        "timeFrame": "10 years"
+      },
+      {
+        "measure": "PrEP regime used (daily, intermittent, on-demand)",
+        "description": "PrEP regime used (daily, intermittent, on-demand)",
+        "timeFrame": "10 years"
+      },
+      {
+        "measure": "Mode of drug supply (pharmacy versus online)",
+        "description": "Mode of drug supply (pharmacy versus online)",
+        "timeFrame": "10 years"
+      },
+      {
+        "measure": "Adherence rates to programme",
+        "description": "Adherence rates to programme assessed via lost to follow-up and dropouts",
+        "timeFrame": "10 years"
+      },
+      {
+        "measure": "Adherence rates to PrEP",
+        "description": "Adherence rates to PrEP measured via self-report questionnaire",
+        "timeFrame": "10 years"
+      },
+      {
+        "measure": "Occurrence of side effects",
+        "description": "Occurrence of side effects",
+        "timeFrame": "10 years"
+      },
+      {
+        "measure": "Prevalence of HIV",
+        "description": "Prevalence of HIV",
+        "timeFrame": "10 years"
+      },
+      {
+        "measure": "Incidence of HIV",
+        "description": "Incidence of HIV",
+        "timeFrame": "10 years"
+      },
+      {
+        "measure": "Prevalence of other STIs (syphilis, hepatitis B, hepatitis C, gonorrhoea, chlamydia, mycoplasma genitalium)",
+        "description": "Prevalence of other STIs (syphilis, hepatitis B, hepatitis C, gonorrhoea, chlamydia, mycoplasma genitalium)",
+        "timeFrame": "10 years"
+      },
+      {
+        "measure": "Incidence of other STIs (syphilis, hepatitis B, hepatitis C, gonorrhoea, chlamydia, mycoplasma genitalium)",
+        "description": "Incidence of other STIs (syphilis, hepatitis B, hepatitis C, gonorrhoea, chlamydia, mycoplasma genitalium)",
+        "timeFrame": "10 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 3,
+      "exclusionCount": 1,
+      "totalCount": 4
+    },
+    "endpoints": {
+      "primaryCount": 11,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:33:10.082Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT06619795",
+  "briefTitle": "Combined Effect of tDCS and Motor or Cognitive Activity in Patients With Alzheimer's Disease",
+  "officialTitle": "Combined Effect of tDCS and Motor or Cognitive Activity in Patients With Alzheimer's Disease: A Proof-of-Concept Pilot Study",
+  "protocolDocument": {
+    "nctId": "NCT06619795",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-10-02",
+    "uploadDate": "2024-10-08T04:37",
+    "size": 100369,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06619795/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 23,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-06-01",
+    "completionDate": "2019-12-31",
+    "primaryCompletionDate": "2019-12-31",
+    "firstSubmitDate": "2024-09-17",
+    "firstPostDate": "2024-10-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Mini Mental State Examination (MMSE) major or equal to 15;\n* good level of compliance;\n* acetylcholinesterase inhibitor treatment (e.g., donepezil, rivastigmine);\n* no modifications of medication during the last four months.\n\nExclusion Criteria:\n\n* behavioral disorders (e.g., aggressiveness);\n* alcohol abuse;\n* orthopedic pathology with risk of falls to the ground;\n* respiratory pathology;\n* severe auditory or visual deficits uncorrected;\n* history of epileptic fits;\n* anti-epileptic medication;\n* metallic body implants; pacemaker;\n* psychiatric, neurologic, systemic or metabolic disorders.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mini Mental State Examination (MMSE)",
+        "description": "(Range: 0-30; higher score=best performance).",
+        "timeFrame": "From enrollment to the end of treatment at two weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Picture Recognition (PR)",
+        "description": "Picture Recognition (PR) is a subtest of the Rivermead Behavioral Memory Test-3, an ecological memory battery resembling everyday tasks, with the aim to measure daily memory function. The examinee is shown a set of picture and then is asked to recognize them from a further set of pictures at a later time in the testing session. It has two parallel version for monitoring changes over time (Range: 0-15; higher score=best performance).",
+        "timeFrame": "From enrollment to the end of treatment at two weeks"
+      },
+      {
+        "measure": "Digit Span Test- Forward (DSF)",
+        "description": "Digit Span Test- Forward (DSF), used to measure span of immediate verbal recall. The examiner presents digits verbally at a rate of one per second. Examiner requires the participant to repeat the digits in the same order. The number of digits increases by one until the participant consecutively fails two trials of the same digit span length (higher score=best performance)",
+        "timeFrame": "From enrollment to the end of treatment at two weeks"
+      },
+      {
+        "measure": "Digit Span Test- Backward (DSB)",
+        "description": "Digit Span Test- Backward (DSB), used to measure working memory. The examiner presents digits verbally and repeats the digits in reverse order. The number of digits increases by one until the participant consecutively fails two trials of the same digit span length (higher score=best performance).",
+        "timeFrame": "From enrollment to the end of treatment at two weeks"
+      },
+      {
+        "measure": "Phonemic Fluency Test (PFT)",
+        "description": "Phonemic Fluency Test (PFT), used to measure processing speed, language production and executive functions. Participants are given one minute to produce as many unique words as possible starting with a given letter. The participant\\&#39;s score in each task is given by the number of correct words (higher score=best performance).",
+        "timeFrame": "From enrollment to the end of treatment at two weeks"
+      },
+      {
+        "measure": "Visual Search Test (VST)",
+        "description": "Visual Search Test (VST), to assess visual-selective attention. Three matrices are shown to the subject and the patients has to cross in 45 minutes the target stimuli between distractors (Range: 0-60; higher score=best performance).",
+        "timeFrame": "From enrollment to the end of treatment at two weeks"
+      },
+      {
+        "measure": "Sustained Attention to Response Test (SART)",
+        "description": "Sustained Attention to Response Test (SART): used to evaluate sustained attention and control inhibition. In the test, participants view a computer monitor on which a random series of single digits are presented at the regular rate of 1 per 1.15 seconds. The task is to press a single response key following each presentation with the exception of a nominated no-go digit, to which no response should be made. In the standard version of the test, 225 digits are presented in a continuous sequence over 4.3 minutes. The outcomes are false allarm (FA), omission (OM) and reaction times (RT) (higher score = worst performance)",
+        "timeFrame": "From enrollment to the end of treatment at two weeks"
+      },
+      {
+        "measure": "Neuropsychiatric Inventory (NPI)",
+        "description": "Neuropsychiatric Inventory (NPI) to evaluate the presence, frequency and severity of behavioral disorders (Range 0-144; higher score = worst performance).",
+        "timeFrame": "From enrollment to the end of treatment at two weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.433Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

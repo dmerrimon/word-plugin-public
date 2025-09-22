@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT07174635",
+  "briefTitle": "The Effect of Tele-Nursing Service in Patients Diagnosed With Fibromyalgia",
+  "officialTitle": "The Effect of Tele-Nursing Service on Patients' Pain and Activity Level in Patients Diagnosed With Fibromyalgia",
+  "protocolDocument": {
+    "nctId": "NCT07174635",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2025-08-18",
+    "uploadDate": "2025-09-08T15:42",
+    "size": 277063,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07174635/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 44,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-04-10",
+    "completionDate": "2024-06-14",
+    "primaryCompletionDate": "2024-06-14",
+    "firstSubmitDate": "2025-05-18",
+    "firstPostDate": "2025-09-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Individuals diagnosed with fibromyalgia\n* Aged 18 years or older\n* No communication impairments that would hinder participation in the study or the ability to receive education (e.g., hearing loss, visual impairment, or difficulty understanding/speaking Turkish)\n* Reachable by phone\n* Literate\n* Willing to participate voluntarily.\n\nExclusion Criteria:\n\n* People with communication problems\n* People with hearing and/or speech problems\n* Can't speak Turkish,",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in pain severity as measured by the Short Form McGill Pain Questionnaire (SF-MPQ) sensory subscale at 2 months",
+        "description": "The Short Form McGill Pain Questionnaire (SF-MPQ) is a widely used tool for assessing the qualitative and quantitative aspects of pain.The SF-MPQ consists of three main components:\n\n1-Pain Rating Index (PRI) - Divided into: Sensory subscale: 11 descriptors (e.g., throbbing, shooting, stabbing) Affective subscale: 4 descriptors (e.g., tiring, fearful, punishing) Each descriptor is rated on a 4-point scale:0 = None,1 = Mild,2 = Moderate,3 = Severe.\n\nA 6-point ordinal scale where the participant selects one of the following to describe their current pain:\n\n0 = No pain\n\n1. = Mild\n2. = Discomforting\n3. = Distressing\n4. = Horrible\n5. = Excruciating Higher scores indicate more severe pain.SF-MPQ was administered at baseline and at 2 months post-intervention.",
+        "timeFrame": "At the beginning and at week 8"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in health status as measured by Revised Fibromyalgia Impact Questionnaire (FIQR) at 2 months",
+        "description": "The Revised Fibromyalgia Impact Questionnaire (FIQR) is a patient-reported outcome measure designed to assess the health status and impact of fibromyalgia on daily life. The FIQR is a revised version of the original FIQ, providing better psychometric properties and more comprehensive coverage of functional domains.The FIQR is a 21-item questionnaire measuring the impact of fibromyalgia across function, overall impact, and symptom domains. Each item is scored from 0 (no impact) to 10 (maximum impact). The total score ranges from 0 to 100, with higher scores indicating worse fibromyalgia-related health status. FIQR was administered at baseline and at 2 months post-intervention.\n\nThe FIQR consists of 21 items divided into 3 domains:\n\nFunction domain (9 items) - assesses physical functioning\n\nOverall impact domain (2 items) - measures overall impact of fibromyalgia\n\nSymptom domain (10 items) - evaluates common fibromyalgia symptoms (e.g., pain, fatigue, sleep quality).",
+        "timeFrame": "At the beginning and at week 8"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Change in pain severity as measured by Visual Analog Scale (VAS) at 2 months",
+        "description": "The Visual Analog Scale measures pain severity on a scale from 0 to 10, where 0 indicates no pain and 10 indicates the worst imaginable pain. Higher scores indicate worse pain.VAS was administered at baseline and at 2 months post-intervention.",
+        "timeFrame": "At the beginning and at week 8"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 42,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T05:06:11.776Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

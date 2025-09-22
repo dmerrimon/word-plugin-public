@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT02839330",
+  "briefTitle": "A Study to Evaluate Safety, Immunogenicity, and Lot-to-Lot Consistency of H5N1 Subunit Influenza Virus Vaccine in Healthy Adult Subjects ≥18 Years of Age",
+  "officialTitle": "A Phase 3 Randomized, Observer-Blind, Multi-center, Controlled Study to Evaluate Safety, Immunogenicity, and Lot-to-Lot Consistency of an Adjuvanted Cell Culture-Derived, H5N1 Subunit Influenza Virus Vaccine in Healthy Adult Subjects ≥18 Years of Age",
+  "protocolDocument": {
+    "nctId": "NCT02839330",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-03-15",
+    "uploadDate": "2019-02-26T13:31",
+    "size": 958141,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02839330/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 3196,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07-11",
+    "completionDate": "2017-10-04",
+    "primaryCompletionDate": "2017-10-04",
+    "firstSubmitDate": "2016-07-18",
+    "firstPostDate": "2016-07-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subjects ≥ 18 years of age, mentally competent, in good health as determined by medical history, physical examination and clinical judgment by the Investigator; able to comply with all study procedures, to be contacted, and to be available for study visits according to the protocol.\n\nExclusion Criteria:\n\n* Individuals who are pregnant or breastfeeding. Female subjects of childbearing potential must have a negative pregnancy test prior to study vaccines being administered.\n* Females of childbearing potential who refuse to use an acceptable method of birth control from Day 1 (1st vaccination) to 3 weeks after the second study vaccination, and, if sexually active, who have not used a reliable birth control method for at least two months prior to study entry.\n* Individuals with a body temperature ≥38.0 °C (≥100.4 °F) or any acute illness within 3 days of intended study vaccination.\n* Individuals who received any type of influenza vaccine (e.g., \"seasonal\") within 7 days prior to enrolment in this study or who are planning to receive any type of influenza vaccine within 7 days (before or after) from the study vaccines.\n* Individuals who received any other licensed vaccines within 14 days (for inactivated vaccines) or 28 days (for live vaccines) prior to enrollment in this study or who are planning to receive any (non-influenza) vaccine within 28 days (before or after) from the study vaccines.\n* Individuals with known or suspected impairment of the immune system.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Primary Immunogenicity Endpoint: Geometric Mean Titer (GMT) at Day 43 by Lot",
+        "description": "Hemagglutination Inhibition (HI) GMT was assessed at Day 1 and Day 43 for 3 consecutively produced lots.",
+        "timeFrame": "Day 1, Day 43"
+      },
+      {
+        "measure": "Primary Immunogenicity Endpoint: Percentage of Subjects With Haemagglutination Inhibition (HI) Titer ≥ 1:40 at Day 43 by Age Cohort",
+        "description": "Percentage of subjects with HI titer ≥ 1:40 at Day 43 was assessed by age cohort (18 to \\<65 years of age and ≥65 years of age) for the pooled lots. Center for Biologics Evaluation and Research (CBER) criterion for subjects aged 18 to \\<65 years: The lower bound of the 2-sided 95% CI for the percentage of subjects achieving an HI antibody titer ≥1:40 should meet or exceed 70%. CBER criterion for subjects aged ≥65 years: The lower bound of the 2-sided 95% CI for the percentage of subjects achieving an HI antibody titer ≥1:40 should meet or exceed 60%.",
+        "timeFrame": "Day 1, Day 43"
+      },
+      {
+        "measure": "Percentage of Subjects With Solicited Local, Solicited Systemic, and Other Adverse Events (AEs) as Measured for 7 Days (Inclusive) Following Each Vaccination",
+        "description": "Percentages of subjects with solicited local, solicited systemic, and other AEs as measured for 7 days (inclusive) following each vaccination (first and second) and any (first or second) vaccination, by treatment group and calculated for several time intervals after vaccination : 30 minutes, 1 to 3 days (without 30 minutes), 4 to 7 days, and 1 to 7 days (without 30 minutes), and 1 to 3 days (including 30 minutes) and 1 to 7 days (including 30 minutes). Analysis for intervals of the first 30 minutes, days 1 to 3, and days 4 to 7 was not performed.",
+        "timeFrame": "Day 1 to Day 7"
+      },
+      {
+        "measure": "Percentages of Subjects With Any Unsolicited AEs Reported Through 21 Day After Vaccination",
+        "description": "Percentages of subjects with any unsolicited AEs reported through 21 days after each (first and second) and any (first or second) vaccination by treatment group.",
+        "timeFrame": "Day 1 to Day 43"
+      },
+      {
+        "measure": "Percentages of Subjects Reporting SAEs, AESIs, NOCD, AEs Leading to Vaccine/Study Withdrawal, and Medically Attended AEs, and Concomitant Medications Associated With These Events as Collected From Day 1 to Day 387, by Vaccine Group.",
+        "description": "Percentages of subjects with any adverse events (AE), adverse events of special interest (AESI), new onset of chronic disease (NOCD), and serious adverse event (SAE) through study termination by treatment group.",
+        "timeFrame": "Day 1 to Day 387"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Secondary Immunogenicity Endpoint: Geometric Mean Titer (GMT) at Day 1, Day 22, Day 43, and Day 183 by Vaccine Group (aH5N1c or Placebo) and by Age Cohort (18 to <65 Years of Age and ≥65 Years of Age).",
+        "description": "Estimates of hemagglutination inhibition (HI) GMTs, and their associated 95% CIs at Day 1, Day 22, Day 43 and Day 183 were computed using ANCOVA with factors for treatment (active treatment groups or placebo), center and a covariate for the effect defined by the log-transformed prevaccination antibody titer (Day 1).",
+        "timeFrame": "Day 1, Day 22, Day 43, and Day 183"
+      },
+      {
+        "measure": "Secondary Immunogenicity Endpoint: Percentage of Subjects With Haemagglutination Inhibition (HI) Titer ≥ 1:40 on Day 1, Day 22, Day 43 and Day 183 by Vaccine Group (aH5N1c or Placebo) and by Age Cohort (18 to <65 Years of Age and ≥65 Years of Age).",
+        "description": "The percentage of subjects with HI titer ≥1:40 data over time by vaccine group and age cohort are presented. CBER criterion for subjects aged 18 to \\<65 years: The lower bound of the 2-sided 95% CI for the percentage of subjects achieving an HI antibody titer ≥1:40 should meet or exceed 70%.\n\nCBER criterion for subjects aged ≥65 years: The lower bound of the 2-sided 95% CI for the percentage of subjects achieving an HI antibody titer ≥1:40 should meet or exceed 60%.",
+        "timeFrame": "Day 1, Day 22, Day 43 and Day 183"
+      },
+      {
+        "measure": "Secondary Immunogenicity Endpoint: Percentage of Subjects Achieving Seroconversion on Day 22, and Day 43 by Vaccine Group (aH5N1c or Placebo) and by Age Cohort (18 to <65 Years of Age and ≥65 Years of Age).",
+        "description": "Percentage of subjects achieving seroconversion (defined as: HI titer ≥1:40 for subjects negative at baseline \\[HI titer \\<1:10\\]; or a minimum 4-fold increase in HI titer for subjects positive at baseline \\[HI titer ≥1:10\\]) on Day 22, and Day 43 by vaccine group (aH5N1c or placebo) and by age cohort (18 to \\<65 years of age and ≥65 years of age).",
+        "timeFrame": "Day 22, and Day 43"
+      },
+      {
+        "measure": "Secondary Immunogenicity Endpoint: Geometric Mean Titer (GMT) at Day 1, Day 22, Day 43 and Day 183 by Vaccine Group (aH5N1c or Placebo) and By Age Cohort (18 to <60 Years of Age and ≥60 Years of Age)",
+        "description": "Hemagglutination inhibition (HI) GMTs were assessed over time for the vaccine group and age cohort. Adjusted estimates of GMTs, and their associated 95% CIs at Day 1, Day 22, Day 43 and Day 183 were computed using ANCOVA with factors for treatment (active treatment groups or placebo), center and a covariate for the effect defined by the log-transformed prevaccination antibody titer (Day 1).",
+        "timeFrame": "Day 1, Day 22, Day 43 and Day 183"
+      },
+      {
+        "measure": "Secondary Immunogenicity Endpoint: Percentage of Subjects With Haemagglutination Inhibition (HI) Titer ≥ 1:40 on Day 1, Day 22, Day 43, and Day 183 by Vaccine Group (aH5N1c or Placebo) and by Age Cohort (18 to <60 Years of Age and ≥60 Years of Age)",
+        "description": "The percentage of subjects with HI titer ≥1:40 data over time by vaccine group and age cohort. Committee for Medicinal Products for Human Use (CHMP) criterion for subjects aged 18 to \\<60 years: The percentage of subjects achieving an HI titer ≥1:40 is \\>70%. CHMP criterion for subjects aged ≥60 years: The percentage of subjects achieving an HI titer ≥1:40 is \\>60%.",
+        "timeFrame": "Day 1, Day 22, Day 43, and Day 183"
+      },
+      {
+        "measure": "Secondary Immunogenicity Endpoint: Percentage of Subjects Achieving Seroconversion on Day 22, and Day 43 by Vaccine Group (aH5N1c or Placebo) and by Age Cohort (18 to <60 Years of Age and ≥60 Years of Age)",
+        "description": "Percentage of subjects achieving seroconversion (defined as: HI titer ≥1:40 for subjects negative at baseline \\[HI titer \\<1:10\\]; or a minimum 4-fold increase in HI titer for subjects positive at baseline \\[HI titer ≥1:10\\]) on Day 22, and Day 43 by vaccine group (aH5N1c or placebo) and by age cohort (18 to \\<60 years of age and ≥60 years of age)",
+        "timeFrame": "Day 22, and Day 43"
+      },
+      {
+        "measure": "Secondary Immunogenicity Endpoint: Geometric Mean Ratio (GMR) of Haemagglutination Inhibition (HI) Titer: Day 22/Day 1, Day 43/Day 1 by Vaccine Group (aH5N1c or Placebo) and by Age Cohort (18 to <60 Years of Age and ≥60 Years of Age)",
+        "description": "The GMR of HI titers (Day 22/Day 1, Day 43/Day 1) is presented for the vaccine groups and age cohort. CHMP criterion for subjects aged 18 to \\<60 years: GMR is \\>2.5. CHMP criterion for subjects aged ≥60 years: GMR is \\>2.0.",
+        "timeFrame": "Day 1, Day 22, Day 43"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:33.460Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

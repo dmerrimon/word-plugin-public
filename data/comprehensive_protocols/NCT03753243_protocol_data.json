@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT03753243",
+  "briefTitle": "Neoadjuvant Pembrolizumab Plus Androgen Axis Blockade Prior to Prostatectomy for High Risk Localized Prostate Cancer",
+  "officialTitle": "Phase II Study of Neoadjuvant Pembrolizumab Plus Intensive Androgen Axis Blockade Prior to Prostatectomy for High Risk Localized Prostate Cancer",
+  "protocolDocument": {
+    "nctId": "NCT03753243",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-07-13",
+    "uploadDate": "2018-11-21T13:17",
+    "size": 1253474,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03753243/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 32,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2018-12-03",
+    "completionDate": "2023-04-30",
+    "primaryCompletionDate": "2022-09-03",
+    "firstSubmitDate": "2018-11-20",
+    "firstPostDate": "2018-11-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Be willing and able to provide written informed consent/assent for the trial.\n* Capability to understand and comply with the protocol and signed informed consent document.\n* Be ≥ 18 years of age on day of signing informed consent.\n* Have measurable disease based on RECIST 1.1.\n* Histologically confirmed, non-metastatic adenocarcinoma of the prostate\n* Prostatectomy with extended lymph node dissection planned as primary therapy\n* 10 year or longer life expectancy based on other co-morbidities\n* Have a performance status of 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) Performance Scale.\n* Any one of the following three high risk features:\n\n  * Gleason grade \\> 8-10\n  * PSA \\> 20 ng/ml\n  * Clinical stage T3a (resectable)\n* No evidence of metastases .\n* No other diagnosis of malignancy (with exception of non-melanoma skin cancer or a malignancy diagnosed ≥5 years ago).\n* Male subjects of childbearing potential must agree to use an adequate method of contraception. Contraception, starting with the first dose of study therapy through the time of surgery. Note: Abstinence is acceptable if this is the usual lifestyle and preferred contraception for the subject.\n* Demonstrate adequate organ function, all screening labs should be performed within 30 days of treatment initiation.",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pathologic Complete Response",
+        "description": "No cancer detected on pathology examination of prostatectomy specimen",
+        "timeFrame": "4 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Treatment Related Adverse Events",
+        "description": "Grade 3 or higher adverse event (AE) possibly related or related to any of three treatment drugs (pembrolizumab, enzalutamide, Gonadotropin-releasing hormone (GNRH) agonist) per CTCAE v4.03, evaluated up until 30 days after prostatectomy",
+        "timeFrame": "4 months + 30 days"
+      },
+      {
+        "measure": "Immune -related Adverse Events",
+        "description": "Grade 2 or higher immune related AE possibly related or related to any of three treatment drugs (pembrolizumab, enzalutamide, GNRH agonist) per CTCAE v4.03, evaluated up until 30 days after prostatectomy",
+        "timeFrame": "4 months + 30 days"
+      },
+      {
+        "measure": "Biochemical Complete Response",
+        "description": "Prostate-Specific Antigen (PSA) \\< 0.1 ng/mL prior to prostatectomy",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "Incidence of Surgical Complications",
+        "description": "Clavien-Dindo Classification of Surgical Complications compared to historical department incidence rates.",
+        "timeFrame": "4 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 30,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:44.260Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

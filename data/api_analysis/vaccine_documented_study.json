@@ -1,0 +1,5318 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01900899",
+      "orgStudyIdInfo": {
+        "id": "MENACWY-TT-102"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "C0921001",
+          "type": "OTHER",
+          "domain": "Alias Study Number"
+        },
+        {
+          "id": "2012-005816-25",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "200088",
+          "type": "OTHER",
+          "domain": "Alias Study Number"
+        }
+      ],
+      "organization": {
+        "fullName": "Pfizer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Persistence of Antibodies After Meningococcal Vaccine PF-06866681 in Healthy Children",
+      "officialTitle": "A PHASE III, OPEN, MULTI-CENTRE, CONTROLLED STUDY TO EVALUATE THE LONG-TERM ANTIBODY PERSISTENCE AT 2, 3, 4, 5 AND 6 YEARS AFTER A BOOSTER DOSE OF MENINGOCOCCAL SEROGROUP A, C, W-135, Y- TETANUS TOXOID CONJUGATE VACCINE (MENACWY-TT) OR MENINGITEC (REGISTERED) ADMINISTERED IN HEALTHY 5-YEAR-OLD CHILDREN IN STUDY MENACWY-TT-048 EXT: 039 Y2, 3, 4, 5 (112036), WHO WERE PRIMED WITH THE SAME VACCINE IN STUDY MENACWY-TT-039 (109670) AT 12 THROUGH 23 MONTHS OF AGE."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-06-27",
+      "studyFirstSubmitQcDate": "2013-07-12",
+      "studyFirstPostDateStruct": {
+        "date": "2013-07-17",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2018-04-30",
+      "resultsFirstSubmitQcDate": "2019-03-13",
+      "resultsFirstPostDateStruct": {
+        "date": "2019-06-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-03-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-06-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Pfizer",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the long-term antibody persistence as well as safety of GSK Biologicals' MenACWY-TT vaccine versus Meningitec up to 6 years after booster vaccination administered in healthy 5 year old children in the study MENACWY-TT-048 EXT: 039 Y2, 3, 4, 5 (NCT00955682), who were primed with the same vaccine in the study MENACWY-TT-039 (NCT00474266) at 12 through 23 months of age.",
+      "detailedDescription": "The subjects in this study will be allocated to the same groups as in study MENACWY-TT-048 EXT: 039 Y2, 3, 4, 5 (NCT00955682). No vaccine will be administered during this long-term persistence study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Infections, Meningococcal"
+      ],
+      "keywords": [
+        "Healthy",
+        "Immunogenicity",
+        "Children",
+        "Neisseria meningitidis",
+        "Long-term antibody persistence",
+        "Safety",
+        "Serogroups A, C, W-135, and Y"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 184,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ACWY-TT group",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects primed and boosted with the MenACWY-TT vaccine.",
+          "interventionNames": [
+            "Procedure: Blood Sampling"
+          ]
+        },
+        {
+          "label": "MenCCRM group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Subjects primed and boosted with the Meningitec vaccine.",
+          "interventionNames": [
+            "Procedure: Blood Sampling"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Blood Sampling",
+          "description": "At 2, 3, 4, 5, 6 years after booster vaccination.",
+          "armGroupLabels": [
+            "ACWY-TT group",
+            "MenCCRM group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With rSBA-Antibody Titers Greater Than or Equal to (>=) 1:8 For Each of the 4 Serogroups at 24 Months After Booster Vaccination",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "timeFrame": "24 months after booster Vaccination"
+        },
+        {
+          "measure": "Percentage of Participants With rSBA-Antibody Titers >= 1:8 For Each of the 4 Serogroups at 36 Months After Booster Vaccination",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "timeFrame": "36 months after booster Vaccination"
+        },
+        {
+          "measure": "Percentage of Participants With rSBA-Antibody Titers >=1:8 For Each of the 4 Serogroups at 48 Months After Booster Vaccination",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "timeFrame": "48 months after booster Vaccination"
+        },
+        {
+          "measure": "Percentage of Participants With rSBA-Antibody Titers >=1:8 For Each of the 4 Serogroups at 60 Months After Booster Vaccination",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "timeFrame": "60 months after booster Vaccination"
+        },
+        {
+          "measure": "Percentage of Participants With rSBA-Antibody Titers >=1:8 For Each of the 4 Serogroups at 72 Months After Booster Vaccination",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "timeFrame": "72 months after booster Vaccination"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With Serum Bactericidal Assay Using rSBA-Antibody Titers >=1:128 for Each of the 4 Serogroups",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "timeFrame": "24, 36, 48, 60 and 72 months after booster Vaccination"
+        },
+        {
+          "measure": "Serum Bactericidal Assay Using rSBA Geometric Mean Titers (GMTs) for Each of the 4 Serogroups",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "timeFrame": "24, 36, 48, 60 and 72 months after booster Vaccination"
+        },
+        {
+          "measure": "Number of Participants With Treatment Emergent Serious Adverse Events (SAEs)",
+          "description": "An AE was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent are events between first dose of study drug and up to 72 months after last dose of study drug that were absent before treatment or that worsened relative to pretreatment state.",
+          "timeFrame": "Baseline up to the Month 72 after booster vaccination (up to 6 years)"
+        },
+        {
+          "measure": "Percentage of Participants With Serum Bactericidal Assay Using hSBA-Antibody Titers >=1:4 and >=1:8 for Each of the 4 Serogroups",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "timeFrame": "24, 36, 48, 60 and 72 months after booster Vaccination"
+        },
+        {
+          "measure": "Serum Bactericidal Assay Using hSBA Geometric Mean Titers (GMTs) for Each of the 4 Serogroups",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "timeFrame": "24, 36, 48, 60 and 72 months after booster Vaccination"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nAll subjects must satisfy ALL the following criteria at study entry:\n\n* Subjects' parent(s)/Legally Acceptable Representative(s) \\[LAR(s)\\] who, in the opinion of the investigator, can and will comply with the requirements of the protocol.\n* A male or female who has received primary and booster vaccination with the MenACWY-TT or Meningitec vaccines in studies MENACWY-TT-039 (109670) and MENACWY-TT-048 EXT: 039 Y2, 3, 4, 5 (112036), respectively.\n* Written informed consent obtained from the parent(s)/LAR(s) of the subject.\n* Healthy subjects as established by medical history and clinical examination before entering into the study.\n\nExclusion Criteria:\n\nThe following criteria should be checked at the time of study entry. If ANY exclusion criterion applies, the subject must not be included in the study:\n\n* Child in care.\n* History of meningococcal disease.\n* Administration of a meningococcal polysaccharide or a meningococcal polysaccharide conjugate vaccine outside of studies MENACWY-TT-039 (109670) and MENACWY-TT-048 EXT: 039 Y2, 3, 4, 5 (112036).\n* Any confirmed or suspected immunosuppressive or immunodeficient condition, based on medical history and physical examination.\n* Bleeding disorders, such as thrombocytopenia, or subjects on anti-coagulant therapy.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Pfizer CT.gov Call Center",
+          "affiliation": "Pfizer",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Espoo Vaccine Research Clinic",
+          "city": "Espoo",
+          "zip": "02230",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.2052,
+            "lon": 24.6522
+          }
+        },
+        {
+          "facility": "Tampereen yliopisto/ Etela-Helsingin rokotetutkimusklinikka",
+          "city": "Helsinki",
+          "zip": "00100",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.16952,
+            "lon": 24.93545
+          }
+        },
+        {
+          "facility": "Helsinki East Vaccine Research Clinic",
+          "city": "Helsinki",
+          "zip": "00930",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.16952,
+            "lon": 24.93545
+          }
+        },
+        {
+          "facility": "Tampereen Yliopisto/ Jarvenpaan rokotetutkimusklinikka",
+          "city": "Järvenpää",
+          "zip": "60100",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.47369,
+            "lon": 25.08992
+          }
+        },
+        {
+          "facility": "Tampereen yliopisto/ Oulun rokotetutkimusklinikka",
+          "city": "Oulu",
+          "zip": "90220",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 65.01236,
+            "lon": 25.46816
+          }
+        },
+        {
+          "facility": "Tampereen yliopisto/ Porin rokotetutkimusklinikka",
+          "city": "Pori",
+          "zip": "28100",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 61.48072,
+            "lon": 21.78518
+          }
+        },
+        {
+          "facility": "Seinajoki Vaccine Research Clinic",
+          "city": "Seinäjoki",
+          "zip": "60100",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 62.79446,
+            "lon": 22.82822
+          }
+        },
+        {
+          "facility": "Tampere Vaccine Research Clinic",
+          "city": "Tampere",
+          "zip": "33100",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 61.49911,
+            "lon": 23.78712
+          }
+        },
+        {
+          "facility": "Tampereen yliopisto/ Turun rokotetutkimusklinikka",
+          "city": "Turku",
+          "zip": "20520",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.45148,
+            "lon": 22.26869
+          }
+        },
+        {
+          "facility": "Tampereen yliopisto/ Ita-Vantaan rokotetutkimusklinikka",
+          "city": "Vantaa",
+          "zip": "01300",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 60.29414,
+            "lon": 25.04099
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "32284274",
+          "type": "DERIVED",
+          "citation": "Vesikari T, Forsten A, Laudat F, Li P, Van Der Wielen M, Hezareh M, Perez JL, Webber C. Long-term antibody persistence after a booster dose of quadrivalent meningococcal ACWY-tetanus toxoid conjugate vaccine in healthy 5-year-old children. Vaccine. 2020 May 8;38(22):3902-3908. doi: 10.1016/j.vaccine.2020.02.030. Epub 2020 Apr 11."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "To obtain contact information for a study center near you, click here.",
+          "url": "https://trialinfoemail.pfizer.com/pages/landing.aspx?StudyID=MENACWY-TT-102&StudyName=A+Phase+Iii%2C+Open%2C+Multi-centre%2C+Controlled+Study+To+Evaluate+The+Long-term+Antibody+Persistence+At+2%2C+3%2C+4%2C+5+And+6+Years+After+A+Booster+Dose+Of+Meningococcal+Serogroup+A%2C+C%2C+W-135%2C+Y-+Tetanus+Toxoid+Conjugate+Vaccine+%28menacwy-tt%29+Or+Meningitec+%28registried%29+Administered+In+Healthy+5-year-old+Children+In+Study+Menacwy-tt-048+Ext%3A+039+Y2%2C+3%2C+4%2C+5+%28112036%29%2C+Who+Were+Primed+With+The+Same+Vaccine+In+Study+Menacwy-tt-039+%28109670%29+At+12+Through+23+Months+Of+Age."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Pfizer will provide access to individual de-identified participant data and related study documents (e.g. protocol, Statistical Analysis Plan (SAP), Clinical Study Report (CSR)) upon request from qualified researchers, and subject to certain criteria, conditions, and exceptions. Further details on Pfizer's data sharing criteria and process for requesting access can be found at: https://www.pfizer.com/science/clinical\\_trials/trial\\_data\\_and\\_results/data\\_requests.",
+      "url": "https://www.pfizer.com/science/clinical_trials/trial_data_and_results/data_requests"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "In this study, participants from the study MENACWY-TT-039 (NCT01900899) and MENACWY-TT-048 EXT (NCT01900899) were followed up for persistence of immune response and safety for a maximum duration of 6 years.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "MenACWY-TT Vaccine",
+          "description": "Participants who received single 0.5 milliliter (mL) dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+        },
+        {
+          "id": "FG001",
+          "title": "MenCCRM Vaccine",
+          "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "159"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "150"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "24"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "9"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Migrated from study area",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "All eligible participants who received primary and booster vaccination with MenACWY-TT or Meningitec vaccine in studies MENACWY-TT-039 and MENACWY-TT-048 EXT and had available assay results for at least 1 tested antigen.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "MenACWY-TT Vaccine",
+          "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+        },
+        {
+          "id": "BG001",
+          "title": "MenCCRM Vaccine",
+          "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "159"
+            },
+            {
+              "groupId": "BG001",
+              "value": "25"
+            },
+            {
+              "groupId": "BG002",
+              "value": "184"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "months",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "90.2",
+                      "spread": "6.06"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "89.6",
+                      "spread": "5.56"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "90.1",
+                      "spread": "5.99"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "84"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "85"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "100"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Race: White-Caucasian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "158"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "182"
+                    }
+                  ]
+                },
+                {
+                  "title": "Race: Other",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Ethnicity: American hispanic",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Ethnicity: Non American hispanic",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "159"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "183"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants With rSBA-Antibody Titers Greater Than or Equal to (>=) 1:8 For Each of the 4 Serogroups at 24 Months After Booster Vaccination",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "populationDescription": "All eligible participants who received primary and booster vaccination with MenACWY-TT or Meningitec vaccine in studies MENACWY-TT-039 and MENACWY-TT-048 EXT and had available assay results for at least 1 tested antigen. N (overall number of participants analyzed)=number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "24 months after booster Vaccination",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MenACWY-TT Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            },
+            {
+              "id": "OG001",
+              "title": "MenCCRM Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "123"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "21"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "rSBA-MenA",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "98.4",
+                      "lowerLimit": "94.2",
+                      "upperLimit": "99.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23.8",
+                      "lowerLimit": "8.2",
+                      "upperLimit": "47.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenC",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "97.6",
+                      "lowerLimit": "93.0",
+                      "upperLimit": "99.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100.0",
+                      "lowerLimit": "83.9",
+                      "upperLimit": "100.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenW-135",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "96.7",
+                      "lowerLimit": "91.9",
+                      "upperLimit": "99.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.5",
+                      "lowerLimit": "1.2",
+                      "upperLimit": "30.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenY",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.0",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33.3",
+                      "lowerLimit": "14.6",
+                      "upperLimit": "57.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants With rSBA-Antibody Titers >= 1:8 For Each of the 4 Serogroups at 36 Months After Booster Vaccination",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "populationDescription": "All eligible participants who received primary and booster vaccination with MenACWY-TT or Meningitec vaccine in studies MENACWY-TT-039 and MENACWY-TT-048 EXT and had available assay results for at least 1 tested antigen. Here, N signifies number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "36 months after booster Vaccination",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MenACWY-TT Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            },
+            {
+              "id": "OG001",
+              "title": "MenCCRM Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "135"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "22"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "rSBA-MenA",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "95.6",
+                      "lowerLimit": "90.6",
+                      "upperLimit": "98.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "18.2",
+                      "lowerLimit": "5.2",
+                      "upperLimit": "40.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenC",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "88.1",
+                      "lowerLimit": "81.5",
+                      "upperLimit": "93.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "77.3",
+                      "lowerLimit": "54.6",
+                      "upperLimit": "92.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenW-135",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "97.8",
+                      "lowerLimit": "93.6",
+                      "upperLimit": "99.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.1",
+                      "lowerLimit": "1.1",
+                      "upperLimit": "29.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenY",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "94.8",
+                      "lowerLimit": "89.6",
+                      "upperLimit": "97.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "36.4",
+                      "lowerLimit": "17.2",
+                      "upperLimit": "59.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants With rSBA-Antibody Titers >=1:8 For Each of the 4 Serogroups at 48 Months After Booster Vaccination",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "populationDescription": "All eligible participants who received primary and booster vaccination with MenACWY-TT/ Meningitec vaccine in studies MENACWY-TT-039 and MENACWY-TT-048 EXT and had available assay results for at least 1 tested antigen. Here, N=number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "48 months after booster Vaccination",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MenACWY-TT Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            },
+            {
+              "id": "OG001",
+              "title": "MenCCRM Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "139"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "rSBA-MenA",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "139"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "95.0",
+                      "lowerLimit": "89.9",
+                      "upperLimit": "98.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "26.1",
+                      "lowerLimit": "10.2",
+                      "upperLimit": "48.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenC",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "139"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "88.5",
+                      "lowerLimit": "82.0",
+                      "upperLimit": "93.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100.0",
+                      "lowerLimit": "85.2",
+                      "upperLimit": "100.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenW-135",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "138"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "87.0",
+                      "lowerLimit": "80.2",
+                      "upperLimit": "92.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "17.4",
+                      "lowerLimit": "5.0",
+                      "upperLimit": "38.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenY",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "139"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "95.0",
+                      "lowerLimit": "89.9",
+                      "upperLimit": "98.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "43.5",
+                      "lowerLimit": "23.2",
+                      "upperLimit": "65.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants With rSBA-Antibody Titers >=1:8 For Each of the 4 Serogroups at 60 Months After Booster Vaccination",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "populationDescription": "All eligible participants who received primary and booster vaccination with MenACWY-TT/ Meningitec vaccine in studies MENACWY-TT-039 and MENACWY-TT-048 EXT and had available assay results for at least 1 tested antigen. Here, N=number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "60 months after booster Vaccination",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MenACWY-TT Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            },
+            {
+              "id": "OG001",
+              "title": "MenCCRM Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "137"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "rSBA-MenA",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "89.8",
+                      "lowerLimit": "83.4",
+                      "upperLimit": "94.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.0",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "14.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenC",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "80.3",
+                      "lowerLimit": "72.6",
+                      "upperLimit": "86.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "78.3",
+                      "lowerLimit": "56.3",
+                      "upperLimit": "92.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenW-135",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "88.3",
+                      "lowerLimit": "81.7",
+                      "upperLimit": "93.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.0",
+                      "lowerLimit": "2.8",
+                      "upperLimit": "33.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenY",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "92.7",
+                      "lowerLimit": "87.0",
+                      "upperLimit": "96.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "26.1",
+                      "lowerLimit": "10.2",
+                      "upperLimit": "48.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants With rSBA-Antibody Titers >=1:8 For Each of the 4 Serogroups at 72 Months After Booster Vaccination",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "populationDescription": "All eligible participants who received primary and booster vaccination with MenACWY-TT/ Meningitec vaccine in studies MENACWY-TT-039 and MENACWY-TT-048 EXT and had available assay results for at least 1 tested antigen. Here, N=number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "72 months after booster Vaccination",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MenACWY-TT Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            },
+            {
+              "id": "OG001",
+              "title": "MenCCRM Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "134"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "rSBA-MenA",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "92.5",
+                      "lowerLimit": "86.7",
+                      "upperLimit": "96.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8.7",
+                      "lowerLimit": "1.1",
+                      "upperLimit": "28.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenC",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "71.6",
+                      "lowerLimit": "63.2",
+                      "upperLimit": "79.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "65.2",
+                      "lowerLimit": "42.7",
+                      "upperLimit": "83.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenW-135",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "85.8",
+                      "lowerLimit": "78.7",
+                      "upperLimit": "91.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.0",
+                      "lowerLimit": "2.8",
+                      "upperLimit": "33.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "rSBA-MenY",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "94.0",
+                      "lowerLimit": "88.6",
+                      "upperLimit": "97.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.0",
+                      "lowerLimit": "2.8",
+                      "upperLimit": "33.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With Serum Bactericidal Assay Using rSBA-Antibody Titers >=1:128 for Each of the 4 Serogroups",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "populationDescription": "All eligible participants who received primary and booster vaccination with MenACWY-TT/ Meningitec vaccine in studies MENACWY-TT-039 and MENACWY-TT-048 EXT and had available assay results for at least 1 tested antigen. N=number of participants evaluable for this outcome measure. 'Number Analyzed' = participants evaluable for specified categories.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "24, 36, 48, 60 and 72 months after booster Vaccination",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MenACWY-TT Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            },
+            {
+              "id": "OG001",
+              "title": "MenCCRM Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "139"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Month 24: rSBA-MenA-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "123"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "95.1",
+                      "lowerLimit": "89.7",
+                      "upperLimit": "98.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14.3",
+                      "lowerLimit": "3.0",
+                      "upperLimit": "36.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: rSBA-MenC-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "123"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "74.8",
+                      "lowerLimit": "66.2",
+                      "upperLimit": "82.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "85.7",
+                      "lowerLimit": "63.7",
+                      "upperLimit": "97.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: rSBA-MenW-135-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "123"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "94.3",
+                      "lowerLimit": "88.6",
+                      "upperLimit": "97.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.5",
+                      "lowerLimit": "1.2",
+                      "upperLimit": "30.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: rSBA-MenY-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "123"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "94.3",
+                      "lowerLimit": "88.6",
+                      "upperLimit": "97.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33.3",
+                      "lowerLimit": "14.6",
+                      "upperLimit": "57.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: rSBA-MenA-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "83.0",
+                      "lowerLimit": "75.5",
+                      "upperLimit": "88.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.6",
+                      "lowerLimit": "2.9",
+                      "upperLimit": "34.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: rSBA-MenC-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46.7",
+                      "lowerLimit": "38.0",
+                      "upperLimit": "55.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "40.9",
+                      "lowerLimit": "20.7",
+                      "upperLimit": "63.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: rSBA-MenW-135-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "88.1",
+                      "lowerLimit": "81.5",
+                      "upperLimit": "93.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.1",
+                      "lowerLimit": "1.1",
+                      "upperLimit": "29.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: rSBA-MenY-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "84.4",
+                      "lowerLimit": "77.2",
+                      "upperLimit": "90.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "36.4",
+                      "lowerLimit": "17.2",
+                      "upperLimit": "59.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: rSBA-MenA-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "139"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "83.5",
+                      "lowerLimit": "76.2",
+                      "upperLimit": "89.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "17.4",
+                      "lowerLimit": "5.0",
+                      "upperLimit": "38.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: rSBA-MenC-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "139"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46.0",
+                      "lowerLimit": "37.6",
+                      "upperLimit": "54.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "47.8",
+                      "lowerLimit": "26.8",
+                      "upperLimit": "69.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: rSBA-MenW-135-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "138"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "73.9",
+                      "lowerLimit": "65.8",
+                      "upperLimit": "81.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "17.4",
+                      "lowerLimit": "5.0",
+                      "upperLimit": "38.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: rSBA-MenY-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "139"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "82.0",
+                      "lowerLimit": "74.6",
+                      "upperLimit": "88.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "43.5",
+                      "lowerLimit": "23.2",
+                      "upperLimit": "65.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: rSBA-MenA-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "73.0",
+                      "lowerLimit": "64.7",
+                      "upperLimit": "80.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.0",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "14.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: rSBA-MenC-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "47.4",
+                      "lowerLimit": "38.9",
+                      "upperLimit": "56.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "43.5",
+                      "lowerLimit": "23.2",
+                      "upperLimit": "65.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: rSBA-MenW-135-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "69.3",
+                      "lowerLimit": "60.9",
+                      "upperLimit": "76.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.0",
+                      "lowerLimit": "2.8",
+                      "upperLimit": "33.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: rSBA-MenY-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "77.4",
+                      "lowerLimit": "69.4",
+                      "upperLimit": "84.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21.7",
+                      "lowerLimit": "7.5",
+                      "upperLimit": "43.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: rSBA-MenA-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "78.4",
+                      "lowerLimit": "70.4",
+                      "upperLimit": "85.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8.7",
+                      "lowerLimit": "1.1",
+                      "upperLimit": "28.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: rSBA-MenC-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "40.3",
+                      "lowerLimit": "31.9",
+                      "upperLimit": "49.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "34.8",
+                      "lowerLimit": "16.4",
+                      "upperLimit": "57.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: rSBA-MenW-135-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67.2",
+                      "lowerLimit": "58.5",
+                      "upperLimit": "75.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.0",
+                      "lowerLimit": "2.8",
+                      "upperLimit": "33.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: rSBA-MenY-1:128",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "75.4",
+                      "lowerLimit": "67.2",
+                      "upperLimit": "82.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.0",
+                      "lowerLimit": "2.8",
+                      "upperLimit": "33.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Serum Bactericidal Assay Using rSBA Geometric Mean Titers (GMTs) for Each of the 4 Serogroups",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "populationDescription": "All eligible participants who received primary and booster vaccination with MenACWY-TT/ Meningitec vaccine in studies MENACWY-TT-039 and MENACWY-TT-048 EXT and had available assay results for at least 1 tested antigen. N=number of participants evaluable for this outcome measure. 'Number Analyzed' = participants evaluable for specified categories.",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "titers",
+          "timeFrame": "24, 36, 48, 60 and 72 months after booster Vaccination",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MenACWY-TT Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            },
+            {
+              "id": "OG001",
+              "title": "MenCCRM Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "139"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Month 24: rSBA-MenA",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "123"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1071.2",
+                      "lowerLimit": "821.9",
+                      "upperLimit": "1396.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.1",
+                      "lowerLimit": "3.9",
+                      "upperLimit": "21.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: rSBA-MenC",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "123"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "174.5",
+                      "lowerLimit": "137.5",
+                      "upperLimit": "221.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "224.3",
+                      "lowerLimit": "134.1",
+                      "upperLimit": "375.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: rSBA-MenW-135",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "123"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "859.9",
+                      "lowerLimit": "641.6",
+                      "upperLimit": "1152.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.6",
+                      "lowerLimit": "3.2",
+                      "upperLimit": "13.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: rSBA-MenY",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "123"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "734.4",
+                      "lowerLimit": "584.6",
+                      "upperLimit": "922.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "18.9",
+                      "lowerLimit": "6.6",
+                      "upperLimit": "53.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: rSBA-MenA",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "376.3",
+                      "lowerLimit": "280.7",
+                      "upperLimit": "504.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8.8",
+                      "lowerLimit": "3.9",
+                      "upperLimit": "19.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: rSBA-MenC",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70.6",
+                      "lowerLimit": "53.3",
+                      "upperLimit": "93.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "54.7",
+                      "lowerLimit": "25.0",
+                      "upperLimit": "119.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: rSBA-MenW-135",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "544.5",
+                      "lowerLimit": "418.0",
+                      "upperLimit": "709.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.4",
+                      "lowerLimit": "3.3",
+                      "upperLimit": "12.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: rSBA-MenY",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "416.9",
+                      "lowerLimit": "313.3",
+                      "upperLimit": "554.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20.6",
+                      "lowerLimit": "7.6",
+                      "upperLimit": "56.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: rSBA-MenA",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "139"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "413.2",
+                      "lowerLimit": "310.3",
+                      "upperLimit": "550.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10.8",
+                      "lowerLimit": "4.7",
+                      "upperLimit": "24.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: rSBA-MenC",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "139"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "69.0",
+                      "lowerLimit": "52.5",
+                      "upperLimit": "90.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "62.1",
+                      "lowerLimit": "32.1",
+                      "upperLimit": "120.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: rSBA-MenW-135",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "138"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "224.7",
+                      "lowerLimit": "158.6",
+                      "upperLimit": "318.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.3",
+                      "lowerLimit": "4.1",
+                      "upperLimit": "21.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: rSBA-MenY",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "139"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "335.1",
+                      "lowerLimit": "254.7",
+                      "upperLimit": "440.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.4",
+                      "lowerLimit": "10.3",
+                      "upperLimit": "77.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: rSBA-MenA",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "229.0",
+                      "lowerLimit": "163.0",
+                      "upperLimit": "321.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.0",
+                      "lowerLimit": "NA",
+                      "upperLimit": "NA",
+                      "comment": "CI was not estimable due to the lack of variability of geometric means."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: rSBA-MenC",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "66.0",
+                      "lowerLimit": "48.1",
+                      "upperLimit": "90.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "47.3",
+                      "lowerLimit": "19.0",
+                      "upperLimit": "117.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: rSBA-MenW-135",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "184.3",
+                      "lowerLimit": "130.3",
+                      "upperLimit": "260.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8.0",
+                      "lowerLimit": "3.6",
+                      "upperLimit": "17.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: rSBA-MenY",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "265.2",
+                      "lowerLimit": "190.9",
+                      "upperLimit": "368.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.0",
+                      "lowerLimit": "5.2",
+                      "upperLimit": "32.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: rSBA-MenA",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "297.4",
+                      "lowerLimit": "214.4",
+                      "upperLimit": "412.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5.7",
+                      "lowerLimit": "3.4",
+                      "upperLimit": "9.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: rSBA-MenC",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39.6",
+                      "lowerLimit": "28.6",
+                      "upperLimit": "54.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33.0",
+                      "lowerLimit": "14.7",
+                      "upperLimit": "74.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: rSBA-MenW-135",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "171.9",
+                      "lowerLimit": "117.5",
+                      "upperLimit": "251.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7.3",
+                      "lowerLimit": "3.7",
+                      "upperLimit": "14.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: rSBA-MenY",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "260.0",
+                      "lowerLimit": "188.6",
+                      "upperLimit": "358.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8.8",
+                      "lowerLimit": "3.5",
+                      "upperLimit": "21.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Treatment Emergent Serious Adverse Events (SAEs)",
+          "description": "An AE was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent are events between first dose of study drug and up to 72 months after last dose of study drug that were absent before treatment or that worsened relative to pretreatment state.",
+          "populationDescription": "All eligible participants who received primary and booster vaccination with MenACWY-TT or Meningitec vaccine in studies MENACWY-TT-039 and MENACWY-TT-048 EXT and had available assay results for at least 1 tested antigen.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "timeFrame": "Baseline up to the Month 72 after booster vaccination (up to 6 years)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MenACWY-TT Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            },
+            {
+              "id": "OG001",
+              "title": "MenCCRM Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "159"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With Serum Bactericidal Assay Using hSBA-Antibody Titers >=1:4 and >=1:8 for Each of the 4 Serogroups",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "populationDescription": "All eligible participants who received primary and booster vaccination with MenACWY-TT/ Meningitec vaccine in studies MENACWY-TT-039 and MENACWY-TT-048 EXT and had available assay results for at least 1 tested antigen. N=number of participants evaluable for this outcome measure. 'Number Analyzed' = participants evaluable for specified categories.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "24, 36, 48, 60 and 72 months after booster Vaccination",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MenACWY-TT Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            },
+            {
+              "id": "OG001",
+              "title": "MenCCRM Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "137"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Month 24: hSBA-MenA>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "120"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70.0",
+                      "lowerLimit": "61.0",
+                      "upperLimit": "78.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14.3",
+                      "lowerLimit": "3.0",
+                      "upperLimit": "36.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: hSBA-MenC>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "121"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.0",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100.0",
+                      "lowerLimit": "83.9",
+                      "upperLimit": "100.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: hSBA-MenW-135>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "120"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.0",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15.0",
+                      "lowerLimit": "3.2",
+                      "upperLimit": "37.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: hSBA-MenY>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "120"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.0",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.6",
+                      "lowerLimit": "11.3",
+                      "upperLimit": "52.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenA>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "77.4",
+                      "lowerLimit": "69.4",
+                      "upperLimit": "84.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14.3",
+                      "lowerLimit": "3.0",
+                      "upperLimit": "36.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenC>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "131"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.2",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100.0",
+                      "lowerLimit": "84.6",
+                      "upperLimit": "100.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenW-135>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.3",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "18.2",
+                      "lowerLimit": "5.2",
+                      "upperLimit": "40.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenY>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "99.3",
+                      "lowerLimit": "95.9",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "40.0",
+                      "lowerLimit": "19.1",
+                      "upperLimit": "63.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenA>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "129"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72.9",
+                      "lowerLimit": "64.3",
+                      "upperLimit": "80.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "34.8",
+                      "lowerLimit": "16.4",
+                      "upperLimit": "57.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenC>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "98.5",
+                      "lowerLimit": "94.7",
+                      "upperLimit": "99.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100.0",
+                      "lowerLimit": "84.6",
+                      "upperLimit": "100.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenW-135>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.3",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.3",
+                      "lowerLimit": "0.1",
+                      "upperLimit": "21.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenY>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "132"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "97.0",
+                      "lowerLimit": "92.4",
+                      "upperLimit": "99.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.6",
+                      "lowerLimit": "11.3",
+                      "upperLimit": "52.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenA>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53.3",
+                      "lowerLimit": "44.6",
+                      "upperLimit": "62.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.0",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "14.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenC>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "136"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "99.3",
+                      "lowerLimit": "96.0",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100.0",
+                      "lowerLimit": "85.2",
+                      "upperLimit": "100.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenW-135>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "136"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.3",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.5",
+                      "lowerLimit": "0.1",
+                      "upperLimit": "22.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenY>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "97.8",
+                      "lowerLimit": "93.7",
+                      "upperLimit": "99.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "40.9",
+                      "lowerLimit": "20.7",
+                      "upperLimit": "63.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenA>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "130"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58.5",
+                      "lowerLimit": "49.5",
+                      "upperLimit": "67.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.0",
+                      "lowerLimit": "2.8",
+                      "upperLimit": "33.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenC>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "130"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "98.5",
+                      "lowerLimit": "94.6",
+                      "upperLimit": "99.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100.0",
+                      "lowerLimit": "85.2",
+                      "upperLimit": "100"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenW-135>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "98.5",
+                      "lowerLimit": "94.7",
+                      "upperLimit": "99.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.5",
+                      "lowerLimit": "1.2",
+                      "upperLimit": "30.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenY>=1:4",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "131"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "97.7",
+                      "lowerLimit": "93.5",
+                      "upperLimit": "99.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33.3",
+                      "lowerLimit": "14.6",
+                      "upperLimit": "57.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: hSBA-MenA>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "120"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70.0",
+                      "lowerLimit": "61.0",
+                      "upperLimit": "78.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14.3",
+                      "lowerLimit": "3.0",
+                      "upperLimit": "36.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: hSBA-MenC>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "121"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "99.2",
+                      "lowerLimit": "95.5",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100.0",
+                      "lowerLimit": "83.9",
+                      "upperLimit": "100.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: hSBA-MenW-135>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "120"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.0",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "15.0",
+                      "lowerLimit": "3.2",
+                      "upperLimit": "37.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: hSBA-MenY>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "120"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.0",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.6",
+                      "lowerLimit": "11.3",
+                      "upperLimit": "52.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenA>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "77.4",
+                      "lowerLimit": "69.4",
+                      "upperLimit": "84.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.5",
+                      "lowerLimit": "1.2",
+                      "upperLimit": "30.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenC>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "131"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "99.2",
+                      "lowerLimit": "95.8",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100.0",
+                      "lowerLimit": "84.6",
+                      "upperLimit": "100.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenW-135>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.3",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "18.2",
+                      "lowerLimit": "5.2",
+                      "upperLimit": "40.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenY>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "99.3",
+                      "lowerLimit": "95.9",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "40.0",
+                      "lowerLimit": "19.1",
+                      "upperLimit": "63.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenA>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "129"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "71.3",
+                      "lowerLimit": "62.7",
+                      "upperLimit": "78.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "34.8",
+                      "lowerLimit": "16.4",
+                      "upperLimit": "57.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenC>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "97.7",
+                      "lowerLimit": "93.5",
+                      "upperLimit": "99.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100.0",
+                      "lowerLimit": "84.6",
+                      "upperLimit": "100.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenW-135>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.3",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.3",
+                      "lowerLimit": "0.1",
+                      "upperLimit": "21.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenY>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "132"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "97.0",
+                      "lowerLimit": "92.4",
+                      "upperLimit": "99.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28.6",
+                      "lowerLimit": "11.3",
+                      "upperLimit": "52.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenA>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53.3",
+                      "lowerLimit": "44.6",
+                      "upperLimit": "62.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.0",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "14.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenC>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "136"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "99.3",
+                      "lowerLimit": "96.0",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "100.0",
+                      "lowerLimit": "85.2",
+                      "upperLimit": "100.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenW-135>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "136"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "100.0",
+                      "lowerLimit": "97.3",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.5",
+                      "lowerLimit": "0.1",
+                      "upperLimit": "22.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenY>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "97.8",
+                      "lowerLimit": "93.7",
+                      "upperLimit": "99.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "40.9",
+                      "lowerLimit": "20.7",
+                      "upperLimit": "63.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenA>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "130"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58.5",
+                      "lowerLimit": "49.5",
+                      "upperLimit": "67.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.0",
+                      "lowerLimit": "2.8",
+                      "upperLimit": "33.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenC>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "130"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "97.7",
+                      "lowerLimit": "93.4",
+                      "upperLimit": "99.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "95.7",
+                      "lowerLimit": "78.1",
+                      "upperLimit": "99.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenW-135>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "98.5",
+                      "lowerLimit": "94.7",
+                      "upperLimit": "99.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.5",
+                      "lowerLimit": "1.2",
+                      "upperLimit": "30.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenY>=1:8",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "131"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "97.7",
+                      "lowerLimit": "93.5",
+                      "upperLimit": "99.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33.3",
+                      "lowerLimit": "14.6",
+                      "upperLimit": "57.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Serum Bactericidal Assay Using hSBA Geometric Mean Titers (GMTs) for Each of the 4 Serogroups",
+          "description": "Serogroups included MenA, MenC, MenW-135 and MenY.",
+          "populationDescription": "All eligible participants who received primary and booster vaccination with MenACWY-TT/ Meningitec vaccine in studies MENACWY-TT-039 and MENACWY-TT-048 EXT and had available assay results for at least 1 tested antigen. N=number of participants evaluable for this outcome measure. 'Number Analyzed' = participants evaluable for specified categories.",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_MEAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "titers",
+          "timeFrame": "24, 36, 48, 60 and 72 months after booster Vaccination",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "MenACWY-TT Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            },
+            {
+              "id": "OG001",
+              "title": "MenCCRM Vaccine",
+              "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "137"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Month 24: hSBA-MenA",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "120"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33.2",
+                      "lowerLimit": "22.9",
+                      "upperLimit": "48.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.9",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "4.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: hSBA-MenC",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "121"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "510.08",
+                      "lowerLimit": "389.8",
+                      "upperLimit": "669.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "424.9",
+                      "lowerLimit": "188.3",
+                      "upperLimit": "958.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: hSBA-MenW-135",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "120"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "991.3",
+                      "lowerLimit": "852.0",
+                      "upperLimit": "1153.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.4",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "6.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 24: hSBA-MenY",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "120"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "575.4",
+                      "lowerLimit": "488.3",
+                      "upperLimit": "678.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.6",
+                      "lowerLimit": "2.5",
+                      "upperLimit": "8.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenA",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "44.6",
+                      "lowerLimit": "32.2",
+                      "upperLimit": "61.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.6",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "3.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenC",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "131"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "343.3",
+                      "lowerLimit": "270.2",
+                      "upperLimit": "436.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "226.7",
+                      "lowerLimit": "135.5",
+                      "upperLimit": "379.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenW-135",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "738.8",
+                      "lowerLimit": "640.6",
+                      "upperLimit": "852.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.5",
+                      "lowerLimit": "2.0",
+                      "upperLimit": "6.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 36: hSBA-MenY",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "691.9",
+                      "lowerLimit": "579.8",
+                      "upperLimit": "825.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7.4",
+                      "lowerLimit": "3.4",
+                      "upperLimit": "16.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenA",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "129"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.7",
+                      "lowerLimit": "20.2",
+                      "upperLimit": "38.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.2",
+                      "lowerLimit": "2.6",
+                      "upperLimit": "6.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenC",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "232.3",
+                      "lowerLimit": "176.6",
+                      "upperLimit": "305.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "182.6",
+                      "lowerLimit": "109.9",
+                      "upperLimit": "303.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenW-135",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "600.0",
+                      "lowerLimit": "506.0",
+                      "upperLimit": "711.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.3",
+                      "lowerLimit": "1.7",
+                      "upperLimit": "3.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 48: hSBA-MenY",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "132"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "495.0",
+                      "lowerLimit": "393.4",
+                      "upperLimit": "622.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5.0",
+                      "lowerLimit": "2.5",
+                      "upperLimit": "8.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenA",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "135"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13.2",
+                      "lowerLimit": "9.6",
+                      "upperLimit": "18.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.0",
+                      "lowerLimit": "NA",
+                      "upperLimit": "NA",
+                      "comment": "CI was not estimable due to the lack of variability of geometric means."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenC",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "136"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "337.1",
+                      "lowerLimit": "261.3",
+                      "upperLimit": "434.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "241.3",
+                      "lowerLimit": "138.7",
+                      "upperLimit": "419.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenW-135",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "136"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "326.8",
+                      "lowerLimit": "275.6",
+                      "upperLimit": "387.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.4",
+                      "lowerLimit": "1.6",
+                      "upperLimit": "3.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 60: hSBA-MenY",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "137"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "398.7",
+                      "lowerLimit": "320.8",
+                      "upperLimit": "495.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7.6",
+                      "lowerLimit": "3.5",
+                      "upperLimit": "16.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenA",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "130"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.4",
+                      "lowerLimit": "10.5",
+                      "upperLimit": "19.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.8",
+                      "lowerLimit": "1.9",
+                      "upperLimit": "4.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenC",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "130"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "259.1",
+                      "lowerLimit": "194.7",
+                      "upperLimit": "344.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "169.4",
+                      "lowerLimit": "94.1",
+                      "upperLimit": "304.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenW-135",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "314.4",
+                      "lowerLimit": "255.1",
+                      "upperLimit": "387.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.5",
+                      "lowerLimit": "1.8",
+                      "upperLimit": "3.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Month 72: hSBA-MenY",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "131"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "315.6",
+                      "lowerLimit": "252.7",
+                      "upperLimit": "394.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8.0",
+                      "lowerLimit": "3.1",
+                      "upperLimit": "20.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Baseline up to the Month 72 after booster vaccination (up to 6 years)",
+      "description": "Same event may appear as both an AE and SAE. However, what is presented are distinct events. An event may be categorized as serious in one participant and as non-serious in another, or a participant may have experienced both a serious and non-serious event.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "MenACWY-TT Vaccine",
+          "description": "Participants who received single 0.5 mL dose of meningococcal A, C, W-135, Y-tetanus toxoid conjugate (MenACWY-TT) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 159,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 159,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 159
+        },
+        {
+          "id": "EG001",
+          "title": "MenCCRM Vaccine",
+          "description": "Participants who received single 0.5 mL dose of meningococcal serogroup C CRM197 conjugated (MenCCRM) vaccine as primary vaccination in study MENACWY-TT-039 and as booster dose in study MENACWY-TT-048 EXT, intramuscularly with a follow up period of 4 years, were observed in this study for a maximum duration of 6 years.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 25,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 25,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 25
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Juvenile idiopathic arthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA v20.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 159
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Pfizer has the right to review disclosures, requesting a delay of less than 60 days. Investigator will postpone single center publications until after disclosure of pooled data (all sites), less than 12 months from study completion/termination at all participating sites. Investigator may not disclose previously undisclosed confidential information other than study results."
+      },
+      "pointOfContact": {
+        "title": "Pfizer ClinicalTrials.gov Call Center",
+        "organization": "Pfizer, Inc.",
+        "email": "ClinicalTrials.gov_Inquiries@pfizer.com",
+        "phone": "1-800-718-1021"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2016-01-04",
+          "uploadDate": "2018-04-30T20:48",
+          "filename": "Prot_000.pdf",
+          "size": 3966252
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2016-02-15",
+          "uploadDate": "2018-04-30T20:49",
+          "filename": "SAP_001.pdf",
+          "size": 2942145
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2025-09-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008589",
+          "term": "Meningococcal Infections"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D016870",
+          "term": "Neisseriaceae Infections"
+        },
+        {
+          "id": "D016905",
+          "term": "Gram-Negative Bacterial Infections"
+        },
+        {
+          "id": "D001424",
+          "term": "Bacterial Infections"
+        },
+        {
+          "id": "D001423",
+          "term": "Bacterial Infections and Mycoses"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018962",
+          "term": "Phlebotomy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001800",
+          "term": "Blood Specimen Collection"
+        },
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D011677",
+          "term": "Punctures"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

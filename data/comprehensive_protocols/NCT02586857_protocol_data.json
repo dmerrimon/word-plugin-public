@@ -1,0 +1,83 @@
+{
+  "nctId": "NCT02586857",
+  "briefTitle": "A Phase 1b/2, Multicenter, Open-label Study of ACP-196 in Subjects With Recurrent Glioblastoma Multiforme (GBM)",
+  "officialTitle": "A Phase 1b/2, Multicenter, Open-label Study of ACP-196 in Subjects With Recurrent Glioblastoma Multiforme (GBM)",
+  "protocolDocument": {
+    "nctId": "NCT02586857",
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol",
+    "date": "2020-03-18",
+    "uploadDate": "2021-10-15T05:32",
+    "size": 3459741,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02586857/document/Prot_003.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 24,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-01-25",
+    "completionDate": "2026-04-01",
+    "primaryCompletionDate": "2020-06-26",
+    "firstSubmitDate": "2015-10-17",
+    "firstPostDate": "2015-10-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Men and women ≥18 years of age\n* Histologically confirmed GBM at first or second recurrence after concurrent or adjuvant chemotherapy or radiotherapy (must have received temozolomide).\n* Radiographic demonstration of disease progression by MRI following prior therapy.\n* Measurable disease (bidimensional) as defined by the RANO criteria, with a minimum measurement of 1 cm in longest diameter on MRI performed within 21 days of first dose of acalabrutinib; MRI must have been obtained ≥4 weeks after any salvage surgery after first or second relapse.\n* Stable or decreasing dose of corticosteroids ≥5 days before baseline MRI (at study entry).\n* On a stable dose of any required therapy (such as anticonvulsant medication for subjects to be enrolled into the Phase 1b portion), for ≥3 weeks before the first dose of acalabrutinib.\n* Eastern Cooperative Oncology Group (ECOG) performance status of ≤2.\n* Life expectancy ≥ 12 weeks.\n* Completion of all prior anticancer therapy before first ACP-196 dose.\n* Need to have recovered (i.e., Grade ≤1 or baseline) from AEs associated with prior cancer therapy. Note: Subjects with Grade ≤2 neuropathy or Grade\n\n  * 2 alopecia are an exception, and may qualify for the study.\n\nExclusion Criteria:\n\n* Three or more prior lines of systemic therapy for GBM.\n* Prior malignancy (other than GBM), except for adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, or other cancer from which the subject has been disease free for ≥2 years. Any cases of prior malignancy allowed on study are to be approved by the study medical monitor.\n* Significant cardiovascular disease.\n* Malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel, symptomatic inflammatory bowel disease, partial or complete bowel obstruction, or gastric restrictions and bariatric surgery, such as gastric bypass.\n* Evidence of bleeding diathesis or coagulopathy.\n* Requires urgent palliative intervention for primary disease\n* Requires treatment with a strong CYP3A4 inhibitor..\n* History of stroke or clinically significant intracranial hemorrhage within 6 months before first dose of study drug.\n* Breastfeeding or pregnant.\n* Subjects previously treated with bevacizumab (Avastin)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Assessment of Tumor Status for Overall Response Rate With Use of RANO Criteria.",
+        "description": "To evaluate the efficacy of acalabrutinib monotherapy in subjects with recurrent GBM based on overall response rate (ORR) per the Response Assessment in Neuro-oncology (RANO) criteria. Responses are either complete response (CR) or partial response (PR) by RANO.",
+        "timeFrame": "On Cycle 3 Day 1, Cycle 4 Day 1 (4 weeks after Cycle 3 Day 1 scan to evaluate for response stability), then on Day 1 of every other cycle (every 8 weeks) thereafter (e.g., Cycle 6 Day 1, Cycle 8 Day 1)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:04.591Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT02964741",
+  "briefTitle": "Investigation and Modulation of the Mu-Opioid Mechanisms in Migraine (in Vivo)",
+  "officialTitle": "Investigation and Modulation of the Mu-Opioid Mechanisms in Migraine (in Vivo)",
+  "protocolDocument": {
+    "nctId": "NCT02964741",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-12-12",
+    "uploadDate": "2022-05-13T14:13",
+    "size": 9555616,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02964741/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 44,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-02-22",
+    "completionDate": "2021-08-01",
+    "primaryCompletionDate": "2021-06-01",
+    "firstSubmitDate": "2016-10-07",
+    "firstPostDate": "2016-11-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Episodic migraine (ICHD-3-beta) for at least 6 months, with at least one attack per month and less than 15 attacks per month\n* No intake of opiate medication for the past six months\n* No overuse of analgesic medication, defined as regular intake on ≥15 days per month for more than 3 months\n* Willing to limit the introduction of new treatments for headache management\n\nExclusion Criteria:\n\n* Presence of any other systemic or chronic pain disorder\n* History or current evidence of a psychotic disorder (e.g. schizophrenia) or substance abuse; bipolar or severe major depression, as evidenced by Beck Depression score of ≥ 30\n* History of neurological disorder (e.g. epilepsy, stroke, neuropathy, neuropathic pain)\n* Prior use of tDCS\n* Current use of opioid pain medications",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Days With Moderate-to-severe Headache",
+        "description": "Moderate to severe headache is defined by the pain over 3 in an Numeric Rating Scale (NRS) ranging from 0 to 10 between end of treatment and one month follow-up.",
+        "timeFrame": "End of treatment - over 1 month follow-up"
+      },
+      {
+        "measure": "Responder Rate",
+        "description": "Number of participants who showed a 50% reduction of days with moderate-to-severe headache compared to baseline.",
+        "timeFrame": "End of treatment - over 1 month follow-up"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Pain Intensity Level Measured by the Visual Analog Scale in Migraineurs (Active or Sham)",
+        "description": "Visual Analog Scale measures pain on a 0 to 10 scale, where 0 is \"no pain\" and 10 is \"worst possible pain\"",
+        "timeFrame": "Approximately 45 days (Screening Visit [Original Baseline] to Follow Up #2 [28-days post-HD-tDCS treatment])"
+      },
+      {
+        "measure": "Moderate to Severe Headache",
+        "description": "Percentage of participants having moderate-to-severe headache between end of treatment and one month follow-up.\n\nDefined as a response greater than 3 on the (0-10) NRS scale",
+        "timeFrame": "End of treatment - over 1 month follow-up"
+      },
+      {
+        "measure": "Use of Rescue Medication",
+        "description": "Percentage of participants who used rescue medication between end of treatment and one month follow-up",
+        "timeFrame": "End of treatment - over 1 month follow-up"
+      },
+      {
+        "measure": "Change in Mu-opioid Receptor Non-displaceable Binding Potential (BPND) in the Brains of Migraineurs During Sustained Thermal Pain Threshold Stress Challenge Subsequent to Treatment by HD-tDCS (Active or Sham).",
+        "description": "Mu-opioid receptor BPND at PET #2 will be subtracted from mu-opioid receptor BPND at PET #1.\n\nPET #1 occurs during the week before HD-tDCS treatment begins. PET #2 occurs during the week after the final HD-tDCS treatment is completed.",
+        "timeFrame": "Time between PET #1 and PET #2 is typically 21 days (minimum 17 days; maximum 42 days)."
+      },
+      {
+        "measure": "Change in Mu-opioid Receptor Non-displaceable Binding Potential (BPND) in the Brains of Migraineurs at Rest Subsequent to Treatment by HD-tDCS (Active or Sham).",
+        "description": "Mu-opioid receptor BPND at PET #2 will be subtracted from mu-opioid receptor BPND at PET #1.\n\nPET #1 occurs during the week before HD-tDCS treatment begins. PET #2 occurs during the week after the final HD-tDCS treatment is completed.",
+        "timeFrame": "Time between PET #1 and PET #2 is typically 21 days (minimum 17 days; maximum 42 days)."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:54.928Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

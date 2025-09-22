@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT01258075",
+  "briefTitle": "Colesevelam for Children With Type 2 Diabetes",
+  "officialTitle": "Colesevelam Oral Suspension as Monotherapy or Add-on to Metformin Therapy in Pediatric Subjects With Type 2 Diabetes Mellitus",
+  "protocolDocument": {
+    "nctId": "NCT01258075",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2011-08-30",
+    "uploadDate": "2020-11-25T14:10",
+    "size": 10282383,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01258075/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 236,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-02-24",
+    "completionDate": "2020-04-21",
+    "primaryCompletionDate": "2019-11-01",
+    "firstSubmitDate": "2010-12-09",
+    "firstPostDate": "2010-12-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 diabetes mellitus, as defined by the American Diabetes Association;\n* Written informed consent of study participation\n* Males and females aged 10 to 17 years, inclusive, at randomization (randomization must occur before 18th birthday);\n* HbA1c at screening between 7.0% and 10.0%, inclusive;\n* Fasting C-peptide \\>0.6 ng/mL; and\n* Anti-diabetic treatment at screening:\n\n  * Treatment-naïve or untreated; OR\n  * On metformin monotherapy: Metformin monotherapy has been initiated prior to screening.\n\nExclusion Criteria:\n\n* Fasting plasma glucose \\>270 mg/dL;\n* Diagnosis of type 1 diabetes;\n* History of more than one episode of ketoacidosis after the initial diagnosis of type 2 diabetes mellitus;\n* Clinical laboratory assessments/evaluations, eg. autoimmune markers, aminotransferases, triglycerides, creatinine clearance, and Hb variants, that are not within the protocol-defined parameters\n* Systolic blood pressure ≥150 mmHg or diastolic blood pressure ≥95 mmHg\n* Use of medications not allowed by protocol-defined parameters, eg. insulin or any medication that affects insulin sensitivity or secretion, growth hormones/somatotropin, or anabolic steroids\n* Genetic syndrome or disorder known to affect glucose\n* Participation in a weight loss program or another interventional research study within 60 days;\n* Female participants who are lactating, pregnant, or plan to become pregnant within 1 year of screening;\n* Female participants who are sexually active and unwilling to use appropriate contraception for the duration of the study;\n* History of bowel obstruction;\n* Other significant organ system illness or condition (including psychiatric or developmental disorder) that, in the opinion of the Investigator, would prevent full participation",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "10 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percent Change in Hemoglobin A1c (HbA1c) From Baseline to Month 6",
+        "description": "The percent change in HbA1c from baseline to Month 6 was assessed with the last observation after 1 month before any rescue therapy carried forward.",
+        "timeFrame": "Baseline to Month 6 post-dose"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percent Change in Hemoglobin A1c (HbA1c) From Baseline to Month 12",
+        "description": "The percent change in HbA1c from baseline to Month 6 was assessed with the last observation after 1 month before any rescue therapy carried forward.",
+        "timeFrame": "Baseline to Month 12 post-dose"
+      },
+      {
+        "measure": "Change in Fasting Plasma Glucose (FPG) From Baseline to Month 12",
+        "description": "Change from baseline was assessed for FPG values at Month 6 and Month 12 categorical time points.",
+        "timeFrame": "Baseline to Month 12 post-dose"
+      },
+      {
+        "measure": "Number of Participants Achieving a Response to Therapy to Month 12",
+        "description": "Participants achieving a response to therapy, ie, glycemic control, were assessed with the last observation after 1 month before any rescue therapy carried forward at Month 6 and Month 12. Response to therapy was defined as HbA1c \\<7.0% or \\<6.5%, reduction in HbA1c ≥0.7% or ≥0.5% from baseline, and/or reduction in FPG ≥30 mg/dL from baseline.",
+        "timeFrame": "Baseline to Month 12 post-dose"
+      },
+      {
+        "measure": "Percent Change From Baseline to Month 6 in Plasma Lipids",
+        "description": "The percent change in plasma lipids from baseline to Month 6 was assessed with the last observation after 1 month before any rescue therapy carried forward.",
+        "timeFrame": "Baseline to Month 6 post-dose"
+      },
+      {
+        "measure": "Percent Change From Baseline to Month 6 in Triglycerides",
+        "description": "The percent change in triglycerides from baseline to Month 6 was assessed with the last observation after 1 month before any rescue therapy carried forward.",
+        "timeFrame": "Baseline to Month 6 post-dose"
+      },
+      {
+        "measure": "Number of Participants Requiring Rescue Medication Who Initially Met Rescue Criteria",
+        "description": "Rescue criteria was defined as HbA1c levels ≥8.5% after 3 months or ≥7.5% after 6 months (≥173 days) (confirmed persistent hyperglycemia) of study medication treatment, as measured by the central laboratory.",
+        "timeFrame": "Baseline to Month 12 post-dose"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:11.067Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

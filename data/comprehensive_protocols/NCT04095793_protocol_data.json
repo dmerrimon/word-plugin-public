@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04095793",
+  "briefTitle": "Phase 3 Open-Label Extension Study of TD-9855 for Treating Symptomatic nOH in Subjects With Primary Autonomic Failure",
+  "officialTitle": "A Phase 3, 182-week, Open-Label, Extension Study to Investigate the Safety and Tolerability of TD-9855 in Treating Symptomatic Neurogenic Orthostatic Hypotension (Symptomatic nOH) in Subjects With Primary Autonomic Failure",
+  "protocolDocument": {
+    "nctId": "NCT04095793",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-08-05",
+    "uploadDate": "2022-11-07T14:03",
+    "size": 1718246,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04095793/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 110,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-19",
+    "completionDate": "2021-11-12",
+    "primaryCompletionDate": "2021-11-12",
+    "firstSubmitDate": "2019-08-01",
+    "firstPostDate": "2019-09-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Completion of Study 0170 and, in the opinion of the Investigator, would benefit from long-term treatment with ampreloxetine.\n* The subject must be able to understand the nature of the study and must provide written informed consent prior to the conduct of any study procedures (including any changes occurring in the subject's current therapeutic regimen).\n* The subject must be willing to continue on treatment and must continue to meet all the inclusion criteria for the preceding study (Study 0170) except, a score of \\>4 in OHSA#1.\n\nExclusion Criteria:\n\n* Subjects may not be enrolled in another clinical trial.\n* Psychiatric, neurological, or behavioral disorders that may interfere with the ability of subjects to give informed consent, or interfere with the conduct of the study.\n* Medical, laboratory, or surgical issues deemed by the Investigator to be clinically significant.\n* Hypersensitivity to ampreloxetine or the formulation excipients.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+        "description": "An adverse event (AE) was any untoward medical occurrence in a patient or clinical study participant administered a pharmaceutical product that does not necessarily have to have a causal relationship with this treatment. A TEAE was defined as any AE that begins on or after the date of first dose of study drug up to the date of last dose of study drug plus the number of days in the follow-up period.\n\nClinically significant abnormalities in physical and neurological examinations, vital signs, resting 12-lead electrocardiograms, and clinical laboratory evaluations, in addition to incidence of fall, suicidal ideation, and suicidal behavior, were reported as AEs.",
+        "timeFrame": "Day 1 up to a maximum of 749 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:43.276Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

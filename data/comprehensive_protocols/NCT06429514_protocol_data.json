@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT06429514",
+  "briefTitle": "Study on the Mechanism of Ganoderma Lucidum Spore Powder in the Treatment of Depression",
+  "officialTitle": "Based on the Theory of Gut-brain Axis, the Intervention Effect and Related Mechanism of Ganoderma Lucidum Spore Powder on Depressive Symptoms in Patients With Thyroid Cancer Were Investigated",
+  "protocolDocument": {
+    "nctId": "NCT06429514",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-03-28",
+    "uploadDate": "2024-05-15T03:08",
+    "size": 350832,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06429514/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 298,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-03-28",
+    "completionDate": "2024-05-03",
+    "primaryCompletionDate": "2024-05-03",
+    "firstSubmitDate": "2024-05-15",
+    "firstPostDate": "2024-05-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria\n\n* patients with depressive symptoms after surgery for papillary thyroid carcinoma in the outpatient department of Zhejiang Cancer Hospital\n* Han nationality\n* No previous depression and other mental diseases\n* 18-80 years old\n* Women\n* BMI 19 \\~ 24\n\nExclusion Criteria\n\n* suffering from other diseases of the intestinal system\n* Gastrointestinal surgery was performed before intervention\n* Including patients with other malignant tumors, who need chemotherapy, radiotherapy, biological therapy or traditional Chinese medicine treatment received antibiotics or microecological modulators within 3 months before the intervention\n* Acute intestinal obstruction\n* Patients with severe depressive symptoms who must receive antidepressant treatment organic diseases such as heart and brain diseases, brain trauma history of mental illness, use of psychoactive drugs such as drugs\n* Severe liver and kidney dysfunction\n* Pregnancy, lactation",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Depression symptoms relieved",
+        "description": "hamilton depression rating scale relieved from 8-20 to ≤8",
+        "timeFrame": "Day0,Month3"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Changes of intestinal microbial diversity in patients",
+        "description": "The increase of intestinal microbial diversity and abundance",
+        "timeFrame": "Day0,Month3"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 25,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:19.056Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

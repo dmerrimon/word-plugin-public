@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT03654131",
+  "briefTitle": "Stereotactic Body Radiation Therapy vs. Microwave Ablation for Colorectal Cancer Patients With Metastatic Disease in the Liver",
+  "officialTitle": "Stereotactic Body Radiation Therapy vs. Microwave Ablation for Colorectal Cancer Patients With Metastatic Disease in the Liver - a Randomized Phase II Trail",
+  "protocolDocument": {
+    "nctId": "NCT03654131",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2019-04-16",
+    "uploadDate": "2019-10-15T05:23",
+    "size": 331789,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03654131/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-07-25",
+    "completionDate": "2029-12-03",
+    "primaryCompletionDate": "2027-12-03",
+    "firstSubmitDate": "2018-08-27",
+    "firstPostDate": "2018-08-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Colorectal cancer patients with oligo metastatic disease in the liver (1 to 3 tumors), and where metastases are found unsuitable for resection because of\n\n   1. non-resectability\n   2. small metastasis localized deep in the liver, where a parenchyma sparing intervention is preferred over an extensive resection\n   3. previous extensive liver surgery\n   4. comorbidity\n2. The multidisciplinary team should all agree that both percutaneous or open surgical MW-ablation and SBRT are safe as first treatment choice for the individual patient.\n3. Tumor sizes ≤4.0 cm\n4. Age \\> 18 years\n5. Signed informed consent\n\nExclusion Criteria:\n\n1. Previous radiotherapy to the liver\n2. Liver volume \\< 700 ml\n3. Another active cancer disease within the past 36 months\n4. Not able to understand written or oral protocol information",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Freedom from local lesion progression (analyzed on patient-level)",
+        "description": "* Defined as the time from randomization to local progression\n* Censoring: death from any cause, last follow-up\n* No censoring on disease progression outside of the treated lesions\n* Local lesion progression is defined as \\>20% increase in the longest diameter and minimum 5 mm increase talking as reference the smallest longest diameter recorded since the treatment started in any of the treated lesions",
+        "timeFrame": "3 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall survival",
+        "description": "* Defined as the time from randomization to death from any cause\n* Censoring: last follow-up",
+        "timeFrame": "3 years"
+      },
+      {
+        "measure": "Freedom from local lesion progression (analyzed on lesion-level)",
+        "description": "* Defined as the time from randomization to local progression\n* Censoring: death from any cause, last follow-up\n* No censoring on disease progression outside of the treated lesions\n* Local lesion progression is defined as \\>20% increase in the longest diameter and minimum 5 mm increase talking as reference the smallest longest diameter recorded since the treatment started in any of the treated lesions",
+        "timeFrame": "3 years"
+      },
+      {
+        "measure": "≥ grade 3 toxicity potentially associated with the treatment",
+        "description": "* Defined as the time from randomization to first ≥ grade 3 toxicity using the Common Terminology Criteria for Adverse Events (CTCAE) v5.0\n* Censoring: death from any cause, last follow-up",
+        "timeFrame": "3 years"
+      },
+      {
+        "measure": "Toxicity profile as descriptive statistics",
+        "description": "Using the Common Terminology Criteria for Adverse Events (CTCAE) v5.0",
+        "timeFrame": "3 years"
+      },
+      {
+        "measure": "Quality of life as descriptive statistics: EORTC QLQ-C30",
+        "description": "Using EORTC QLQ-C30",
+        "timeFrame": "3 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:54.637Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

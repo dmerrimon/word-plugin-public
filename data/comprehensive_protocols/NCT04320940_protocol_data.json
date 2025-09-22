@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04320940",
+  "briefTitle": "Efficacy and Safety of Intravenous Phenobarbital in Neonatal Seizures",
+  "officialTitle": "A Randomized, Double-Blind, Controlled Study to Assess the Efficacy and Safety of Intravenous Phenobarbital in Neonatal Seizures",
+  "protocolDocument": {
+    "nctId": "NCT04320940",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-12-07",
+    "uploadDate": "2023-08-22T16:16",
+    "size": 665575,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04320940/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 4,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-03-12",
+    "completionDate": "2023-02-01",
+    "primaryCompletionDate": "2023-02-01",
+    "firstSubmitDate": "2020-03-23",
+    "firstPostDate": "2020-03-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or female neonates with a gestational age of ≥ 34 - ≤44 weeks admitted into the NICU with a high probability of developing seizures (e.g., HIE, stroke, intracerebral hemorrhage, central nervous system infection)\n* Parental informed consent (in-person or remote consent)\n* Undergoing continuous video electroencephalogram (cvEEG) monitoring\n* Has evidence of electrographic seizure burden of at least 30 seconds/h\n\nExclusion Criteria:\n\n* Received anticonvulsant treatment, including phenobarbital, prior to randomization (with exception of lorazepam administered for sedation \\> 24 hours before enrollment)\n* Strong suspicion or confirmed diagnosis of brain malformation, inborn error of metabolism genetic syndrome, or major congenial malformation prior to randomization\n* Seizures responding to correction of hypoglycemia, hypocalcemia or any other metabolic disorder\n* Death appears to be imminent as assessed by the NICU attending physician\n* Is currently enrolled in another study assessing the same and/or similar primary/secondary endpoints with/without drug treatment.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "34 Weeks",
+    "maximumAge": "44 Weeks",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Neonates Who do Not Require Additional Seizure Treatment After the First Dose of Phenobarbital.",
+        "description": "Percent of neonates who do not require additional seizure treatment after the first dose of phenobarbital during the first 24 hours after treatment.",
+        "timeFrame": "24 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Neonates Who do Not Require Additional Seizure Treatment After the First Dose of Phenobarbital.",
+        "description": "Percent of neonates who do not require additional seizure treatment after 2 hours of the first dose of phenobarbital.",
+        "timeFrame": "2 hours"
+      },
+      {
+        "measure": "Neonates Who do Not Require Additional Seizure Treatment After the Second Dose of Phenobarbital.",
+        "description": "Percent of neonates who do not require additional seizure treatment after the second dose of phenobarbital within the first 24 hours of treatment.",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "Seizure Burden Over 48 Hours Following Initial Administration of the Phenobarbital Injection.",
+        "description": "Number of subject required monitoring of seizure burden over 48 hours following initial administration of the phenobarbital injection.",
+        "timeFrame": "48 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:49.966Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

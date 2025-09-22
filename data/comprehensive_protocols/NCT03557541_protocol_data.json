@@ -1,0 +1,121 @@
+{
+  "nctId": "NCT03557541",
+  "briefTitle": "Sardine-enriched Diet for Prevention Type 2 Diabetes",
+  "officialTitle": "Sardine-enriched Diet for Prevention Type 2 Diabetes in Elderly and Prediabetic Population",
+  "protocolDocument": {
+    "nctId": "NCT03557541",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2013-11-28",
+    "uploadDate": "2018-07-18T10:00",
+    "size": 238055,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03557541/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 182,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-05",
+    "completionDate": "2017-07",
+    "primaryCompletionDate": "2017-07",
+    "firstSubmitDate": "2018-03-21",
+    "firstPostDate": "2018-06-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* glycaemia between 100-125 md / dL or ≥5.7% HbA1c\n\nExclusion Criteria:\n\n* treatment with oral antidiabetic drugs\n* any nutritional education to prevent T2D\n* Suspect or known hypersensitivity to sardine or related fish\n* Chronic treatment with oral steroids and / or AINES\n* Treatment with oral antidiabetic agents and / or insulin\n* Treatment with immunosuppressive drugs\n* Diagnosis of active neoplasm\n* Diagnosis of HIV or AIDS\n* Abnormal liver profile (\\> 6 times normal values)\n* Diagnosis of Acute Psychiatric Sdr\n* Presence of serious acute concomitant disease, which it requires more than 7 days of recovery.\n* Major cardiovascular event (stroke, myocardial infarction) in the month prior to randomization.\n* Any other condition that the investigator considers to be inoperative so that the subject conducts the study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "type 2 diabetes new onset",
+        "description": "incidence of new diagnosis of type 2 diabetes",
+        "timeFrame": "Change from Baseline at 12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "adiponectin",
+        "description": "adiponectin levels",
+        "timeFrame": "Change from Baseline at 12 months"
+      },
+      {
+        "measure": "quantification of gut microbiota populations",
+        "description": "quantification by q-PCR",
+        "timeFrame": "Change from Baseline at 12 months"
+      },
+      {
+        "measure": "gene expression",
+        "description": "relative expression related genes by RT q-PCR (Real Time Quantitative Reverse transcription polymerase chain reaction)",
+        "timeFrame": "Change from Baseline at 12 months"
+      },
+      {
+        "measure": "metabolomics study of dietary biomarkers and health biomarkers [(1) Fatty acyls, bile acids, steroids and lysoglycerophospholipids, (2) Glycerolipids, glycerophospholipids, sterol lipids and sphingolipids, (3) Amino acids.]",
+        "description": "endogenous metabolic profiles of serum samples will be studied using ultra-high performance liquid chromatography - mass spectrometry (UHPLC-MS). The same unit for measurements \\[log2 (fold change)\\]",
+        "timeFrame": "Change from Baseline at 12 months"
+      },
+      {
+        "measure": "glucose homeostasis",
+        "description": "glucose (mg/dl)",
+        "timeFrame": "Change from Baseline at 12 months"
+      },
+      {
+        "measure": "insulin levels",
+        "description": "insulin (mU/L)",
+        "timeFrame": "Change from Baseline at 12 months"
+      },
+      {
+        "measure": "HOMA-IR (homeostasis model assessment insulin resistance)",
+        "description": "insulin resistance index",
+        "timeFrame": "Change from Baseline at 12 months"
+      },
+      {
+        "measure": "HOMA-B (homeostasis model assessment B cell function)",
+        "description": "B cella function",
+        "timeFrame": "Change from Baseline at 12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:09.163Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

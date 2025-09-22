@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT04245449",
+  "briefTitle": "E-learning+ Rehab Therapy",
+  "officialTitle": "A Novel Therapy + E-learning Self-management Program for Stroke Survivors",
+  "protocolDocument": {
+    "nctId": "NCT04245449",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-08-14",
+    "uploadDate": "2022-10-07T10:59",
+    "size": 1619491,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04245449/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-08-08",
+    "completionDate": "2020-03-31",
+    "primaryCompletionDate": "2020-03-31",
+    "firstSubmitDate": "2020-01-21",
+    "firstPostDate": "2020-01-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* paresis of one arm/hand because of ischemic or hemorrhagic stroke \\>2 mo. and \\<3 yrs prior\n* moderate arm impairment defined as a baseline Fugl-Meyer Assessment of the Upper Extremity score of at least 32±2 points but no more than 47±2 points (out of 60 points)\n* Montreal Cognitive Assessment score ≥22\n* ability to read English\n* ability to communicate as per the therapists' judgement at baseline testing\n* 21-90 years of age\n* wi-fi connection in the home and either a computer, smartphone or tablet.\n\nExclusion criteria:\n\n* lesion or injury to brainstem or cerebellum\n* other neurological disease that may impair motor or learning skills (e.g., Parkinson's Disease);\n* pain interfering with reaching\n* uncorrected vision making it difficult to read information on a computer, tablet or phone.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Health Literacy From Baseline to 3 Months",
+        "description": "Health Literacy will be assessed via a standardize 18-item test designed to assess an adult's ability to read and understand common medical terms. Minimum = 0, Maximum = 18. Higher scores indicate greater health literacy.",
+        "timeFrame": "Baseline Visit and 3 months"
+      },
+      {
+        "measure": "Change in Self Management Skills From Baseline to 3 Months",
+        "description": "Participants' ability to manage their chronic condition (their stroke) will be assessed qualitatively using interview questions. Participants' narratives will be analyzed and reported as a description of how their own skills have changed.",
+        "timeFrame": "Baseline and 3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Self-Efficacy for Managing Daily Activities From Baseline to 3 Months and 5 Months",
+        "description": "Self-Efficacy will be assessed using the NIH PROMIS Self-Efficacy for Managing Daily Activities assessment. Minimum score = 0, Maximum score = 8. Higher numbers indicate greater self efficacy.",
+        "timeFrame": "Baseline Visit, 3 months and 5 months"
+      },
+      {
+        "measure": "Change in Social Isolation From Baseline to 3 Months and 5 Months",
+        "description": "Social Isolation will be assessed using the NIH PROMIS Social Isolation assessment. Minimum score = 0, Maximum score = 8. Higher numbers indicate less social isolation.",
+        "timeFrame": "Baseline Visit, 3 months & 5 months"
+      },
+      {
+        "measure": "Change in Emotional Support From Baseline to 3 Months and 5 Months",
+        "description": "Emotional Support will be assessed using the NIH PROMIS Emotional Support assessment. Minimum score = 0, Maximum score = 8. Higher numbers indicate greater emotional support.",
+        "timeFrame": "Baseline Visit, 3 months (Post Treatment+/- 3 days), & 5 months (Follow up +/- 3 days)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:12.492Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT03718494",
+  "briefTitle": "Continuation of The Kronos Early Estrogen Prevention Study (KEEPS)",
+  "officialTitle": "Prevention of Alzheimer's Disease in Women: Risks and Benefits of Hormone Therapy -Continuation of: \"The Kronos Early Estrogen Prevention Study (KEEPS)\"",
+  "protocolDocument": {
+    "nctId": "NCT03718494",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-10-23",
+    "uploadDate": "2023-07-13T14:27",
+    "size": 7276662,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03718494/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 299,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-05-22",
+    "completionDate": "2022-09-01",
+    "primaryCompletionDate": "2022-09-01",
+    "firstSubmitDate": "2018-10-23",
+    "firstPostDate": "2018-10-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participated in the original KEEPS trial.\n* Able to understand study procedures.\n* Willing to sign an authorization of consent in order to participate in this study.\n\nExclusion Criteria:\n\n• Women who have contraindications to MRI or PET for safety reasons, such as an MRI-incompatible implant or claustrophobia.",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "49 Years",
+    "maximumAge": "72 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Aβ PET SUVR",
+        "description": "This measure is derived from a PET imaging study that images the deposition of the amyloid plaques of Alzheimer's disease in the brain",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "WMH volume",
+        "description": "This measure is derived from an MRI study that images the brain structure. WMH is measured from specific regions of the brain that are vulnerable to cerebrovascular disease related injury.",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "Regional cortical thickness",
+        "description": "This measure is derived from an MRI study that images the brain structure. The cortical thickness is measured from specific regions of the brain that are vulnerable to Alzheimer's disease related neurodegeneration.",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "AV-1451",
+        "description": "This measure is derived from a PET imaging study that images the deposition of the tau protein of Alzheimer's disease in the brain",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "Global cognitive function",
+        "description": "This measurement is derived from multiple neuropsychometric tests that measure various cognitive abilities.",
+        "timeFrame": "4 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.379Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

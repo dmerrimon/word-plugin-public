@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT03703648",
+  "briefTitle": "Post-radiation Dental Disease Amongst Head and Neck Cancer Patients",
+  "officialTitle": "The Effect of Dental and Salivary Gland Radiation Dose on the Occurrence of Post-radiotherapy Dental Disease in Patients With Head and Neck Cancer",
+  "protocolDocument": {
+    "nctId": "NCT03703648",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-04-13",
+    "uploadDate": "2018-10-05T15:18",
+    "size": 586154,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03703648/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 215,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2018-12-01",
+    "completionDate": "2023-05-31",
+    "primaryCompletionDate": "2023-05-31",
+    "firstSubmitDate": "2018-10-05",
+    "firstPostDate": "2018-10-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\- Adult dentate patients diagnosed with a primary or secondary malignant tumour of the oral cavity, nasal cavity, sinuses, salivary glands, pharynx, or larynx\\* requiring radiation treatment within Northern Ireland. \\*International Classification of Diseases (ICD-10) codes C00.0-C14.8 and C30.0-32.9.\n\nExclusion Criteria:\n\n* Patients deemed to have poor prognosis or to receive palliative treatment only (as advised by the Clinical Oncology team).\n* Patients with less than 6 teeth before the radiotherapy start date.\n* Patients with recurrent head and neck cancer, or patients receiving a repeat course of head and neck radiotherapy.\n* Patients with diseases affecting tooth development (e.g. amelogenesis or dentinogenesis imperfecta) or salivary gland function (e.g. Sjogren's Syndrome).\n* Patients with pre-existing trismus (mouth opening less than 35mm).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Dental caries",
+        "description": "The mean number of carious teeth amongst head and neck cancer patients post-radiotherapy",
+        "timeFrame": "24-months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Periodontal disease",
+        "description": "The proportion of head and neck cancer patients with periodontal disease post-radiotherapy.",
+        "timeFrame": "24-months"
+      },
+      {
+        "measure": "Xerostomia measured using the Xerostomia Questionnaire (XQ)",
+        "description": "Change from baseline. Range of scores from 0 (no xerostomia) to 90 (worst xerostomia)",
+        "timeFrame": "6-months, 12-months, 24-months"
+      },
+      {
+        "measure": "Oral Health Quality of Life (OHIP-14)",
+        "description": "Change from baseline. 14 oral health problems presented - patients asked to score how often they are personally encountered (very often, fairly often, occasionally, hardly ever, never, don't know)",
+        "timeFrame": "6-months, 12-months, 24-months"
+      },
+      {
+        "measure": "Salivary flow rate",
+        "description": "Change from baseline",
+        "timeFrame": "6-months, 12-months, 24-months"
+      },
+      {
+        "measure": "Mouth opening",
+        "description": "Change from baseline",
+        "timeFrame": "6-months, 12-months, 24-months"
+      },
+      {
+        "measure": "Diet assessed by Question 13 of the World Health Organisation's Oral Health Questionnaire for Adults",
+        "description": "Change from baseline. Respondents asked to detail how often they consume e.g. sugar buns",
+        "timeFrame": "6-months, 12-months, 24-months"
+      },
+      {
+        "measure": "Oral hygiene practice assessed by Questions 7,8,9 of the World Health Organisation's Oral Health Questionnaire for Adults",
+        "description": "Change from baseline. Patients asked to indicate e.g. how often do you brush your teeth",
+        "timeFrame": "6-months, 12-months, 24-months"
+      },
+      {
+        "measure": "Tooth loss",
+        "timeFrame": "6-months, 12-months, 24-months"
+      },
+      {
+        "measure": "Costs of treatment to patients and NHS",
+        "timeFrame": "6-months, 12-months, 24-months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:53.758Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

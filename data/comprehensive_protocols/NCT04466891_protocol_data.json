@@ -1,0 +1,156 @@
+{
+  "nctId": "NCT04466891",
+  "briefTitle": "A Study of ZW25 (Zanidatamab) in Subjects With Advanced or Metastatic HER2-Amplified Biliary Tract Cancers",
+  "officialTitle": "A Phase 2b, Open-label, Single-arm Study of ZW25 Monotherapy in Subjects With Advanced or Metastatic HER2-amplified Biliary Tract Cancers",
+  "protocolDocument": {
+    "nctId": "NCT04466891",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-09-08",
+    "uploadDate": "2024-07-26T15:51",
+    "size": 1237716,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04466891/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 87,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-01",
+    "completionDate": "2024-07-11",
+    "primaryCompletionDate": "2023-07-28",
+    "firstSubmitDate": "2020-07-06",
+    "firstPostDate": "2020-07-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologically- or cytologically-confirmed BTC, including ICC, ECC or GBC.\n* Locally advanced or metastatic BTC and not eligible for curative resection, transplantation, or ablative therapies.\n* Received at least 1 prior gemcitabine-containing systemic chemotherapy regimen for advanced disease, and experienced disease progression after or developed intolerance to the most recent prior therapy. For subjects who received gemcitabine in prior adjuvant or neoadjuvant treatment, if progression occurred \\< 6 months from the latter of primary surgical resection or completion of gemcitabine-containing adjuvant therapy, they will be considered as having received 1 prior line of therapy for advanced disease.\n* Subjects must test positive for HER2 amplification by ISH-assay at a central laboratory on a new biopsy or archival tissue. Note that fine needle aspirates (FNAs; cytology samples) and biopsies from sites of bone metastases are not acceptable. Testing may occur at any time after diagnosis of advanced or metastatic disease and before study enrollment.\n* Male or female, ≥18 years of age (or the legal age of adulthood per country-specific regulations).\n* Eastern Cooperative Oncology Group (ECOG) performance status ≤ 1.\n* Adequate organ function.\n* Adequate cardiac function, as defined by left ventricular ejection fraction ≥ 50%.\n\nExclusion Criteria:\n\n* Received systemic anti-cancer therapy within 3 weeks of the first dose of ZW25. Received radiotherapy within 2 weeks of the first dose of ZW25.\n* Prior treatment with HER2-targeted agents.\n* Untreated central nervous system (CNS) metastases, symptomatic CNS metastases, or radiation treatment for CNS metastases within 4 weeks of start of study treatment. Stable, treated brain metastases are allowed (defined as subjects who are off steroids and anticonvulsants and are neurologically stable with no evidence of radiographic progression for at least 4 weeks at the time of screening).\n* Known leptomeningeal disease (LMD). If LMD has been reported radiographically on baseline MRI, but is not suspected clinically by the investigator, the subject must be free of neurological symptoms of LMD.\n* Concurrent uncontrolled or active hepatobiliary disorders or untreated or ongoing complications after laparoscopic procedures or stent placement, including but not limited to active cholangitis, unresolved biliary obstruction, infected biloma or abscess. Any complications must be resolved more than 2 weeks prior to the first dose of ZW25.\n* Prior or concurrent malignancy whose natural history or treatment has, in the opinion of the investigator or medical monitor, the potential to interfere with the safety or efficacy assessment of the investigational regimen.\n* Active hepatitis\n* Infection with human immunodeficiency virus (HIV)-1 or HIV-2\n* QTc Fridericia (QTcF) \\> 470 ms.\n* History of myocardial infarction or unstable angina within 6 months prior to enrollment, troponin levels consistent with myocardial infarction, or clinically significant cardiac disease.\n* Acute or chronic uncontrolled pancreatitis or Child-Pugh Class C liver disease.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Confirmed Objective Response Rate (ORR) by Independent Central Review (ICR)",
+        "description": "Number of participants who achieved a confirmed best overall response (BOR) of either complete response (CR) or partial response (PR) during treatment per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1. Complete response (CR) is defined as a disappearance of all target and non-target lesions and partial response (PR) is defined as at least a 30% decrease in the sum of diameters of all target lesions.",
+        "timeFrame": "Up to 34 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Duration of Response (DOR) by ICR",
+        "description": "The time from the first confirmed objective response (CR or PR) to documented progressive disease (PD) per RECIST 1.1, or death from any cause",
+        "timeFrame": "Up to 45 months"
+      },
+      {
+        "measure": "DOR ≥ 16 Weeks by ICR",
+        "description": "Proportion of subjects with a DOR ≥ 16 weeks per RECIST 1.1",
+        "timeFrame": "24 weeks, up to 45 months"
+      },
+      {
+        "measure": "Disease Control Rate (DCR) by ICR",
+        "description": "Number of subjects who achieved a best overall response of stable disease (SD), non-CR/non-PD, or confirmed CR or PR per RECIST 1.1",
+        "timeFrame": "Up to 45 months"
+      },
+      {
+        "measure": "Progression-free Survival (PFS) by ICR",
+        "description": "The time from the first dose of study treatment to the date of documented disease progression (per RECIST 1.1), or death from any cause",
+        "timeFrame": "Up to 45 months"
+      },
+      {
+        "measure": "ORR by Investigator Assessment",
+        "description": "Number of subjects who achieved a confirmed BOR of either CR or PR during treatment per RECIST 1.1",
+        "timeFrame": "Up to 45 months"
+      },
+      {
+        "measure": "DOR by Investigator Assessment",
+        "description": "The time from the first confirmed objective response (CR or PR) to documented progressive disease (PD) per RECIST 1.1, or death from any cause",
+        "timeFrame": "Up to 45 months"
+      },
+      {
+        "measure": "DOR ≥ 16 Weeks by Investigator Assessment",
+        "description": "Proportion of subjects with a DOR ≥ 16 weeks per RECIST 1.1",
+        "timeFrame": "24 weeks, up to 45 months"
+      },
+      {
+        "measure": "DCR by Investigator Assessment",
+        "description": "Number of subjects who achieved a best overall response of stable disease (SD), non-CR/non-PD, or confirmed CR or PR per RECIST 1.1",
+        "timeFrame": "Up to 45 months"
+      },
+      {
+        "measure": "PFS by Investigator Assessment",
+        "description": "The time from the first dose of study treatment to the date of documented disease progression (per RECIST 1.1), or death from any cause",
+        "timeFrame": "Up to 45 months"
+      },
+      {
+        "measure": "Overall Survival",
+        "description": "The time from the first dose of study treatment until the date of death from any cause",
+        "timeFrame": "Up to 45 months"
+      },
+      {
+        "measure": "Incidence of Adverse Events (AEs)",
+        "description": "Number of subjects who experienced AEs or serious adverse events",
+        "timeFrame": "Up to 45 months"
+      },
+      {
+        "measure": "Incidence of Laboratory Abnormalities",
+        "description": "Number of subjects who experienced a maximum severity of Grade 3 or higher post-baseline laboratory abnormality, including either hematology or chemistry. Grades are defined using National Cancer Institute's Common Terminology Criteria for Adverse Events (CTCAE), version 5.0",
+        "timeFrame": "Up to 45 months"
+      },
+      {
+        "measure": "Maximum Serum Concentration of ZW25",
+        "timeFrame": "Pre-dose, end of infusion, 2, 4, 8, 24 and 96 hours post dose"
+      },
+      {
+        "measure": "Trough Concentration of ZW25",
+        "description": "Minimum observed serum concentration (trough)",
+        "timeFrame": "Pre-dose, end of infusion, 2, 4, 8, 24 and 96 hours post dose"
+      },
+      {
+        "measure": "Incidence of Anti-drug Antibodies (ADAs)",
+        "description": "Number of subjects who develop ADAs",
+        "timeFrame": "Up to 45 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 15,
+      "otherCount": 0,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:45.296Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

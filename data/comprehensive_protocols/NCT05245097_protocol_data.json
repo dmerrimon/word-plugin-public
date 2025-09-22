@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT05245097",
+  "briefTitle": "Mitigation of Major Hip Injury Due to Fall With a Smart Belt",
+  "officialTitle": "Mitigation of Major Hip Injury Due to Fall in an At-Risk, Older Adult Population With a Wearable Smart Belt",
+  "protocolDocument": {
+    "nctId": "NCT05245097",
+    "filename": "Prot_SAP_ICF_001.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2023-12-07",
+    "uploadDate": "2025-05-06T14:19",
+    "size": 2087021,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05245097/document/Prot_SAP_ICF_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 471,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-03-29",
+    "completionDate": "2023-11-03",
+    "primaryCompletionDate": "2023-11-03",
+    "firstSubmitDate": "2022-01-29",
+    "firstPostDate": "2022-02-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age 65 years or older;\n2. Have experienced a fall-related fracture after age 50 -OR- Have experienced one or more falls in the 12-months prior to consent and have a diagnosis of osteoporosis, osteopenia, or prescribed osteoporosis medication.\n3. Independently or with staff or caregiver assistance, able to transfer between surfaces (e.g., to or from a bed, chair, wheelchair, toilet, standing position) or walk or move between locations (use of an assistive device such as a walker is acceptable);\n4. Have a waist circumference between 29 - 50 inches (63.5 - 127 cm);\n5. Able to comply with required study procedures and follow-up schedule as determined by the Study Investigator;\n6. Are under the care of the Investigational organization;\n7. Provides consent or their legally authorized representative provides consent on subject's behalf\n\nExclusion Criteria:\n\n1. Age 64 years or less;\n2. Participation in a different clinical investigation that can conflict with this clinical study as determined by the Study Investigator and approved by the Sponsor;\n3. Total dependence on staff or caregiver assistance to be able to transfer between surfaces (e.g., to or from a bed, chair, wheelchair, toilet, standing position) and walk and move between locations;\n4. Use of other devices or interventions outside of SOC (Standard of care) for fall risk management during study participation without Sponsor approval;\n5. Unable to comply with required study procedures and follow-up schedule as determined by the Study Investigator;\n6. Does not provide consent, or legally authorized representative does not provide consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Major Hip Injuries Due to Serious Hip-impacting Fall",
+        "description": "The percent of subjects in the ITT population with major hip injuries due to serious hip-impacting falls.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Hip Fractures Related to Fall",
+        "description": "The number of subjects in the ITT group with hip fractures related to a fall event.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Emergency Department Visits Related to Fall",
+        "description": "The number of subjects in the ITT group with emergency department visits related to fall.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Hospitalizations Due to Fall",
+        "description": "The number of subjects in the ITT group admitted to a hospital due to fall.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number and Severity of Adverse Events",
+        "description": "An Adverse Event is any untoward medical occurrences in a patient or subject receiving an investigational medical device and does not necessarily have to have a causal relationship with the device under investigation. An AE can therefore be any unfavorable and unintended sign (including abnormal laboratory finding), symptom, or disease temporally associated with the use of a medical device whether or not considered related to the medical device. Any fall event is considered an AE for this study. A Severe Adverse Event is any AE that results in death, is life-threatening, requires in-patient hospitalization or prolongation of existing hospitalization or results in persistent or significant disability/ incapacity.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Major Injuries Due to Fall",
+        "description": "The number of major injuries that were due to a fall.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Rate of Fall Occurence",
+        "description": "The fall rate for the intervention and the control group",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Device Wear Adherence",
+        "description": "Adherence to wearing of the study device in days/month",
+        "timeFrame": "90 days and 180 days"
+      },
+      {
+        "measure": "Device Wear Compliance",
+        "description": "Compliance to wearing of the study device in hours/day average",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Accuracy of Device Fall Discrimination",
+        "description": "Rate of airbag deployments that occurred while an intervention subject was not experiencing a serious hip-impacting fall.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Accuracy of Study Device Airbag Deployment",
+        "description": "Accuracy of the study device airbag deployment as designed is demonstrated in the number of hip fractures that occurred by intervention subjects wearing the device during serious hip-impacting falls.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Balance Confidence Score Changes",
+        "description": "Short version of the Falls Efficacy Scale International (where applicable for those deemed able to take the questionnaire (BIMS of 13-15)) to offer level of balance confidence as defined by the scale (range from 7 (no concern about falling) to 28 (severe concern about falling).",
+        "timeFrame": "6 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 8,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 45,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:01.802Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

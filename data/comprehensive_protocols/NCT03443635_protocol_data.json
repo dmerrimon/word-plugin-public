@@ -1,0 +1,116 @@
+{
+  "nctId": "NCT03443635",
+  "briefTitle": "Cooking for Health Optimization With Patients",
+  "officialTitle": "Cooking for Health Optimization With Patients",
+  "protocolDocument": {
+    "nctId": "NCT03443635",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-09-26",
+    "uploadDate": "2021-12-07T22:13",
+    "size": 374671,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03443635/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7192,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-02-01",
+    "completionDate": "2020-12-18",
+    "primaryCompletionDate": "2020-12-18",
+    "firstSubmitDate": "2018-02-10",
+    "firstPostDate": "2018-02-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 7 to 115 years of age (patients), and currently a medical trainee or professional (including for physicians, nurses, physician assistants, and dieticians)\n\nExclusion Criteria:\n\n* Inability to complete at least 2 intervention classes",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "7 Years",
+    "maximumAge": "115 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "High or Medium (Versus Low) Mediterranean Diet Adherence",
+        "description": "Based on 9-point Trichopoulou et al. 2003 NEJM scale (for patients, medical trainees, and providers)",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Hospital Readmissions",
+        "description": "Re-presenting to the hospital for similar presenting diagnosis (for patients)",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Composite Rate of All Cause-mortality, Myocardial Infarction, and Cerebrovascular Event",
+        "description": "(For patients)",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Competencies",
+        "description": "Educating patients on healthy diet and lifestyles according to 25 competency topics (for medical trainees)",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Healthcare Costs",
+        "description": "Direct and indirect (for patients)",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Healthcare Costs",
+        "description": "Direct and indirect (for health systems caring for the patients in the trial)",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Food Costs",
+        "description": "Grocery and restaurant costs (for patients)",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:19.846Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

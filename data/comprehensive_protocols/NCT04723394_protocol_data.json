@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT04723394",
+  "briefTitle": "Phase III Study of AZD7442 for Treatment of COVID-19 in Outpatient Adults",
+  "officialTitle": "A Phase III Randomized, Double-blind, Placebo-controlled, Multicenter Study to Determine the Safety and Efficacy of AZD7442 for the Treatment of COVID-19 in Non-hospitalized Adults",
+  "protocolDocument": {
+    "nctId": "NCT04723394",
+    "filename": "Prot_006.pdf",
+    "label": "Study Protocol",
+    "date": "2021-06-30",
+    "uploadDate": "2023-05-17T09:57",
+    "size": 15993121,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04723394/document/Prot_006.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 910,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-28",
+    "completionDate": "2022-10-19",
+    "primaryCompletionDate": "2021-08-21",
+    "firstSubmitDate": "2021-01-14",
+    "firstPostDate": "2021-01-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Participant has a documented laboratory-confirmed SARS-CoV-2 infection, as determined by a molecular test (antigen or nucleic acid) from any respiratory tract specimen (eg, oropharyngeal, NP, or nasal swab, or saliva) collected ≤ 3 days prior to Day 1.\n2. WHO Clinical Progression Scale score \\> 1 and \\< 4.\n3. Participant must be dosed with IMP no more than 7 days from self-reported onset of COVID-19-related symptoms (mild to moderate COVID-19) or measured fever, defined as the self-reported date of first reported sign/symptom.\n4. One or more of the following signs/symptoms must be present within 24 hours prior to Day1: Cough, Sore throat, Shortness of breath or difficulty breathing at rest or with activity, Body pain or muscle pain/aches, Fatigue, Headache, Chills, Nasal obstruction or congestion, Nasal discharge, Nausea or vomiting, Diarrhea, New loss of taste or smell.\n5. Oxygenation saturation of ≥ 92% obtained at rest by study staff within 24 hours prior to Day 1 (unless participant regularly receives chronic supplementary oxygen for an underlying lung condition).\n6. Participant agrees not to participate in another clinical trial for the treatment of COVID-19 or SARS-CoV-2 during the study period until reaching hospitalization or 28 days after entry into the study (whichever is earliest).\n7. Participant must be ≥ 18 years of age, provide informed consent and is able to comply with study requirements/procedures.\n8. Male participants: Contraception for male participants is not required; however, to avoid the transfer of any fluids, all male participants must use a condom from Day 1 and agree to continue through 90 days following administration of IMP.\n9. Women of childbearing potential must use one highly effective form of birth control.\n\nExclusion Criteria:\n\n1. History or current hospitalization for COVID-19.\n2. Current need for hospitalization/immediate medical attention in a clinic/emergency room service\n3. Previous hypersensitivity, infusion related reaction, or adverse reaction to any monoclonal antibodies or known allergy to components of the IMP or placebo.\n4. Receipt of any investigational or licensed vaccine for prevention of COVID-19 at any time prior to entry into this study or expected administration immediately after enrollment.\n5. Current requirement or anticipated impending need for mechanical ventilation.\n6. Any significant disease, disorder or finding that may increase risk to the participant that might affect his/her ability to participate in this study.\n7. Received convalescent COVID-19 plasma treatment any time prior to entry into this study.\n8. Receipt of systemic steroids (e.g., prednisone, dexamethasone) or inhaled steroids within 30 days prior to study entry, unless a stable dose is used for a chronic condition.\n9. Receipt of any IMP in the previous 90 days or 5 half lives (whichever is longer), or expected receipt of IMP during the study follow-up period, or concurrent participation in another interventional study.\n10. Pregnant or breastfeeding women.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "A Composite of Either Severe COVID-19 or Death From Any Cause Through Day 29",
+        "description": "Severe COVID-19 is characterized by a minimum of either pneumonia (fever, cough, tachypnea, or dyspnea, and lung infiltrates) or hypoxemia (SpO2 \\< 90% in room air and/or severe respiratory distress) and a WHO Clinical Progression Scale score of 5 or higher.",
+        "timeFrame": "Baseline (Day 1) and Day 29"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "A Composite of Death From Any Cause or Hospitalization for COVID-19 Complications or Sequelae Through Day 169",
+        "description": "Death from Any Cause or Hospitalization for COVID-19 Complications or Sequelae through Day 169",
+        "timeFrame": "Baseline (Day 1) and Day 169"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:37.690Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

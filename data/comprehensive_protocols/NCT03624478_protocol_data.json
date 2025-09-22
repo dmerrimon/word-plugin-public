@@ -1,0 +1,152 @@
+{
+  "nctId": "NCT03624478",
+  "briefTitle": "Hypofractionated Radiation Therapy in Treating Participants With Breast Cancer Before Surgery",
+  "officialTitle": "A Pilot/Phase II Trial of Hypofractionated Radiotherapy to the Whole Breast Alone Before Breast Conserving Surgery",
+  "protocolDocument": {
+    "nctId": "NCT03624478",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-06-01",
+    "uploadDate": "2022-09-21T11:40",
+    "size": 624149,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03624478/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 25,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-11-20",
+    "completionDate": "2025-09-30",
+    "primaryCompletionDate": "2021-06-30",
+    "firstSubmitDate": "2018-08-06",
+    "firstPostDate": "2018-08-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histological confirmation of breast cancer\n* Clinical stage T0-T2 N0 M0\n* Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0 to 2\n* Able to and provides Institutional Review Board (IRB) approved study specific written informed consent\n* Study entry must be within 120 days of last biopsy (breast)\n* Able to complete all mandatory tests\n* Willing to return to enrolling institution for follow-up (during the active monitoring phase of the study)\n* Planned breast surgery and indications for whole breast radiotherapy\n\nExclusion Criteria:\n\n* Medical contraindication to receipt of radiotherapy\n* Severe active co-morbid systemic illnesses or other severe concurrent disease which, in the judgment of the investigator, would make the patient inappropriate for entry into this study or interfere significantly with the proper assessment of safety and toxicity of the prescribed regimens\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements or providing informed consent\n* Active systemic lupus or scleroderma\n* Pregnancy\n* Women of childbearing potential who are unwilling to employ adequate contraception\n* Prior receipt of ipsilateral breast or chest wall radiation\n* Recurrent breast cancer\n* Indications for comprehensive regional nodal irradiation\n* No neo-adjuvant therapy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pathologic Complete Response (pCR) Rate Defined as a Residual Tumor Burden of 0-1 in the Surgical Specimen",
+        "description": "The proportion of successes (number of patients achieving pCR at time of definitive surgery) will be estimated by the number of successes divided by the total number of evaluable patients. Confidence intervals for the true success proportion will be calculated according to the approach of Duffy and Santner.",
+        "timeFrame": "up to 2 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Acute Adverse Events (AE)",
+        "description": "The maximum grade for each type of acute AE will be recorded for each patient. Data will be summarized as frequencies and relative frequencies. Additionally, the relationship of the adverse event(s) to the study treatment will be taken into consideration.",
+        "timeFrame": "Up to 180 days post radiation therapy"
+      },
+      {
+        "measure": "Incidence of Late Adverse Events",
+        "description": "The maximum grade for each type of late AE will be recorded for each patient. Data will be summarized as frequencies and relative frequencies by treatment arm. Additionally, the relationship of the adverse event(s) to the study treatment will be taken into consideration.",
+        "timeFrame": "Up to 5 years post radiation therapy"
+      },
+      {
+        "measure": "Locoregional Control",
+        "description": "The cumulative incidence of locoregional recurrence will be estimated using a competing risks method (Gooley et al.). The competing risks will be distant breast cancer recurrence and death.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Invasive Disease-free Survival",
+        "description": "Will be estimated with a Kaplan-Meier estimator and curve. Estimates will be given for specific time points along with 95% confidence intervals (CIs).",
+        "timeFrame": "From registration until the time of disease recurrence or death due to any cause, assessed up to 5 years"
+      },
+      {
+        "measure": "Distant Recurrence",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Disease- Free Survival",
+        "description": "Will be estimated with a Kaplan-Meier estimator and curve. Estimates will be given for specific time points along with 95% CIs.",
+        "timeFrame": "From registration until the time of disease recurrence or death due to any cause, assessed up to 5 years"
+      },
+      {
+        "measure": "Cause-specific Survival",
+        "description": "Will be estimated with a Kaplan-Meier estimator and curve. Estimates will be given for specific time points along with 95% CIs.",
+        "timeFrame": "From registration to death due to breast cancer assessed up to 5 years"
+      },
+      {
+        "measure": "Overall Survival",
+        "description": "Will be estimated with a Kaplan-Meier estimator and curve. Estimates will be given for specific time points along with 95% CIs.",
+        "timeFrame": "From registration to death due to any cause assessed up to 5 years"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Patient Self-reporting of Toxicities",
+        "description": "The subscales of the Breast Cancer Treatment Outcomes Scale (BCTOS), elements from Patient Reported Outcomes Version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE), and other patient reported measures such as fatigue, breast pain, breast shape, and arm related morbidity outlined in the appendix will be summarized as the mean +/- SD and median (minimum value, maximum value). Scale score trajectories over time will be examined using stream plots and mean plots with standard deviation error bars overall. Analysis will include percent change from baseline using t-tests and generalized linear models to test for changes at each time point and non-zero slope respectfully.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Patient Self-reported Cosmetic Outcomes",
+        "description": "Assessed using a modified Harvard Cosmesis Scale and the BCTOS. The values of the cosmesis instruments (patient self-reported and panel-assessed) will be summarized with the frequencies and confidence intervals of fair or poor cosmesis events.",
+        "timeFrame": "Baseline up to 5 years"
+      },
+      {
+        "measure": "Panel Assessed Cosmetic Outcome",
+        "description": "Cosmesis will be assessed by a panel of breast cancer medical providers using digital photographs.",
+        "timeFrame": "Baseline up to 2 years"
+      },
+      {
+        "measure": "Clinical Features, Treatment Technique, Dose-volume Parameters, Histologic and Genetic Variants",
+        "description": "Associated with adverse events, and fair and poor cosmetic outcomes or unplanned surgical intervention.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Tumor Mutation Signatures",
+        "description": "Will be analyzed before and after radiotherapy as compared to pathologic information at the time of surgery. Continuous variable will be compared using unpaired t tests and nominal variables will be compared using contingency tables and Chi square analyses.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Pathologic Changes Seen in Breast Cancer Patients With Preoperative Radiation",
+        "description": "Will be described.",
+        "timeFrame": "Up to 5 years"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 6,
+      "totalCount": 15
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 66,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:56.776Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

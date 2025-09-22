@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02521363",
+  "briefTitle": "Implantable Microdevice for In Vivo Drug Sensitivity Testing in Patients With Early Stage, HER2-Positive or Triple Negative Breast Cancer",
+  "officialTitle": "Pilot Trial of an Implantable Microdevice for In Vivo Drug Sensitivity Testing in Patients With Early Stage, HER2-Positive or Triple Negative Breast Cancer",
+  "protocolDocument": {
+    "nctId": "NCT02521363",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-11-22",
+    "uploadDate": "2025-07-10T11:53",
+    "size": 926805,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02521363/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 11,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-07-24",
+    "completionDate": "2024-08-01",
+    "primaryCompletionDate": "2024-08-01",
+    "firstSubmitDate": "2015-08-05",
+    "firstPostDate": "2015-08-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with histologically confirmed invasive breast cancer that is: Triple negative (ER\\<10%, PR\\<10%, and HER2 0/1+ or 2+/FISH not amplified)\n* Tumor size 2cm or greater; N any; M0\n* Tumor size 1cm or greater; N any; M0 (Cohort 1)\n* Tumor size 2cm or greater; N any; M0 (Cohort 2)\n* Candidate for curative breast cancer surgery (Cohort 1 or 2)\n* Candidate for neoadjuvant chemotherapy with a standard of care, anthracycline-based regimen (Cohort 2 preferred over Cohort 1)\n* Age \\>18 years of age\n* ECOG performance status of ≤2\n* Serum or urine pregnancy test negative within 2 weeks for women of childbearing potential.\n* Willing and able to provide informed consent\n\nExclusion Criteria:\n\n* Prior treatment including surgery, chemotherapy or radiation therapy for the current primary breast cancer.\n* Severe acute or chronic medical or psychiatric condition or laboratory abnormality that may increase the risk associated with study participation or investigational device administration or may interfere with the interpretation of study results and, in the judgment of the investigator, would make the patient inappropriate for entry into this",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "19 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Implantable Devices",
+        "description": "If we are able to collect data from at least 6 out of the 12 patients, we will deem this study feasible to conduct in a larger cohort of patients.",
+        "timeFrame": "Up to 1 year"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-21T22:34:09.301Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

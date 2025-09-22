@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT03029351",
+  "briefTitle": "GLP-1 Receptor Agonist Therapy and Albuminuria in Patients With Type 2 Diabetes",
+  "officialTitle": "GLP-1 Receptor Agonist Therapy and Albuminuria in Patients With Type 2 Diabetes",
+  "protocolDocument": {
+    "nctId": "NCT03029351",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-12",
+    "uploadDate": "2024-03-21T14:12",
+    "size": 748070,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03029351/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-01-10",
+    "completionDate": "2019-07",
+    "primaryCompletionDate": "2019-07",
+    "firstSubmitDate": "2017-01-20",
+    "firstPostDate": "2017-01-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Type 2 Diabetes for at least 1 year.\n* Microalbuminuria for at least 6 months (UACR: 30-300 mg/g)\n* Macroalbuminuria for at least 6 months (UACR: \\>300 mg/g)\n* HbA1c of ≤10%\n* Ages 18-65 years (inclusive of ages 18 and 65)\n* On ARBs/ACEi for at \\>3months\n\nExclusion Criteria:\n\n* Use of GLP-1 Receptor agonists or SGLT-2 inhibitors therapy in the last 3 months\n* History or risk for pancreatitis (e.g., history of gallstones, alcohol abuse, and hypertriglyceridemia)\n* Coronary event or procedure (myocardial infarction, unstable angina, coronary artery bypass, surgery or coronary angioplasty) in the previous 3 months\n* Hepatic disease: Severe hepatic insufficiency and/or significant abnormal liver function defined as:\n\n  1. Aspartate aminotransferase (AST) \\>3x upper limit of normal (ULN) and/or alanine aminotransferase (ALT) \\>3x ULN\n  2. Total bilirubin \\>2.0 mg/dL (34.2 µmol/L)\n  3. Positive serologic evidence of current infectious liver disease including Hepatitis B viral antibody IGM, Hepatitis B surface antigen and Hepatitis C virus antibody\n  4. Liver function tests more than 3 times the upper limit of normal\n* Renal impairment (serum eGFR \\<30 ml/min)\n* HIV\n* Inability to give informed consent\n* History of gastroparesis\n* History of medullary thyroid carcinoma or MEN 2 syndrome\n* Alcoholism\n* Hypertriglyceridemia (\\>500 mg/dl).\n* Any other life-threatening, non-cardiac disease\n* Uncontrolled hypertension (BP \\> 160/100 mm of Hg)\n* Congestive Heart Failure class III or IV\n* Use of an investigational agent or therapeutic regimen within 30 days of study\n* Participation in any other concurrent clinical trial\n* Pregnant or breastfeeding patients or females of childbearing age not on 2 forms of acceptable contraceptives.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Urinary Albuminuria Levels",
+        "description": "change from baseline in 24-hr urinary albuminuria (albumin/creatine) level at week 52 following Exenatide extended release OR placebo treatments",
+        "timeFrame": "baseline and 52 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:08.600Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

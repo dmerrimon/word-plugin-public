@@ -1,0 +1,105 @@
+{
+  "nctId": "NCT03192358",
+  "briefTitle": "Physiological Flow of Liquids Used in Dysphagia Management (Neuro)",
+  "officialTitle": "Physiological Flow of Liquids Used in Dysphagia Management",
+  "protocolDocument": {
+    "nctId": "NCT03192358",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-10-19",
+    "uploadDate": "2022-05-19T19:34",
+    "size": 409017,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03192358/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-11-01",
+    "completionDate": "2020-12-31",
+    "primaryCompletionDate": "2020-12-31",
+    "firstSubmitDate": "2017-06-12",
+    "firstPostDate": "2017-06-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults (18+) with a confirmed diagnosis of Amyotrophic Lateral Sclerosis (ALS) or Parkinson's disease (PD)\n\nExclusion Criteria:\n\n* People with a prior medical history of stroke\n* People with a prior medical history of acquired brain injury\n* People with a prior medical history of spinal or spinal cord injury\n* People with a prior medical history of cancer or surgery in the head and neck region\n* People who have had radiation to the head and neck for cancer\n* People who have a prior history of swallowing problems (e.g., from childhood, medical complication)\n* People with significant breathing difficulties (e.g., rely on mechanical ventilation)\n* People who rely solely on tube-feeding for all meals and nutrition\n* People who have Type I (insulin-dependent) Diabetes\n* Women who are pregnant\n* People who have allergies to barium, potato starch, corn starch, xanthan gum, milk products, latex or dental glue",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Residue of Concern (Observational)",
+        "description": "Residue is material remaining behind in the pharynx after the swallow. We measured residue by tracing the area of barium visible on a lateral view x-ray (in pixels, using ImageJ software) and dividing that area by the squared length C2-C4 cervical spine. This cervical spine scalar provides a common anatomical reference that is a proxy for pharyngeal size, and enables the comparison of residue severity across different people with different neck length and pharynx size. Smaller values are considered better. The 75th percentile healthy reference values for this measure are 1.7% on thin liquids, 1.9% on slightly thick liquids, 2.2% on mildly thick liquids, 1.6% on moderately thick liquids and 1.5% on extremely thick liquids. Values above these thresholds are considered atypical and of clinical concern. We report the number of participants who display atypical total pharyngeal residue measures per consistency.",
+        "timeFrame": "Single timeframe (baseline only)"
+      },
+      {
+        "measure": "Maximum Anterior Isometric Tongue Pressure",
+        "description": "Tongue strength was measured using a tongue pressure measurement system called the Iowa Oral Performance Instrument (IOPI). A small disposable bulb filled with air was placed in the mouth, just behind the front teeth. Participants were asked to press the front of their tongue upwards against the bulb as hard as possible. This task was repeated 3 times. The maximum value obtained across 3 repetitions was recorded as \"maximum anterior isometric pressure\". Higher values represent greater tongue strength. We report group mean values and standard deviations for this measure.",
+        "timeFrame": "Single timeframe (baseline only)"
+      },
+      {
+        "measure": "Regular Effort Saliva Swallow Tongue Pressure",
+        "description": "Tongue strength was measured using a tongue pressure measurement system called the Iowa Oral Performance Instrument (IOPI). A small disposable bulb filled with air was placed in the mouth, just behind the front teeth. Participants were asked to swallow their saliva with the bulb in this position. This task was repeated 3 times. The mean value obtained across 3 repetitions was recorded as \"regular effort saliva swallow tongue pressure\". Higher values represent greater tongue strength. We report group mean values and standard deviations for this measure.",
+        "timeFrame": "Single timeframe (baseline only)"
+      },
+      {
+        "measure": "Number of Participants With Unsafe Swallows (Observational)",
+        "description": "Swallowing safety was measured using the 8-point Penetration-Aspiration Scale, an 8-point categorical scale which captures the depth to which any material enters the airway and whether or not the material is ejected. Levels 1 and 2 on the scale are considered safe, while levels \\> 2 are considered unsafe. Actual scale scores (1-8) were recorded and then converted to binary categorical scores (\\< 3 vs \\>/= 3). We report the frequency (count) of participants showing scores \\> 2 by bolus consistency.",
+        "timeFrame": "Baseline (Single timepoint only)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Maximum Posterior Isometric Tongue Pressure (Observational).",
+        "description": "Tongue strength was measured using a tongue pressure measurement system called the Iowa Oral Performance Instrument (IOPI). A small disposable bulb filled with air was placed in the mouth, with the front margin of the sensor aligned with the first molar tooth. Participants were asked to press the back of their tongue upwards against the bulb as hard as possible. This task was repeated 3 times. The maximum value obtained across 3 repetitions was recorded as \"maximum posterior isometric pressure\". Higher values represent greater tongue strength. We report group mean values and standard deviations for this measure. There was no statistical analysis comparing group values for this parameter.",
+        "timeFrame": "Single timeframe (baseline only)"
+      },
+      {
+        "measure": "Number of Participants With Multiple Swallows Per Bolus (Observational)",
+        "description": "The number of swallows needed to clear a single bolus will be counted. A single swallow is considered efficient, while 2+ swallows for one bolus is considered atypical. We will report the number of participants with \\> 1 swallow per bolus.",
+        "timeFrame": "Single timeframe (baseline only)"
+      },
+      {
+        "measure": "Number of Participants Displaying Prolonged Pharyngeal Bolus Transit (Observational)",
+        "description": "The time interval from the first frame showing the bolus entering the pharynx (passing the shadow of the ramus of the mandible) until the first frame showing the bolus entering the upper esophageal sphincter was calculated (in milliseconds) for each bolus. The 75th percentile healthy reference values for this measure are 533 ms on thin liquids, 567 ms on slightly thick liquids, 701 ms on mildly thick liquids, 867 ms on moderately thick liquids and 1001 ms on extremely thick liquids. Pharyngeal transit durations above these values are considered prolonged and atypical. We will report the number of participants who present with atypical pharyngeal transit duration above these 75th percentile reference value thresholds per consistency.",
+        "timeFrame": "Single timeframe (baseline only)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:44.415Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

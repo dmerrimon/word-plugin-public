@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03272373",
+  "briefTitle": "NexGen TM Tibia Clinical Outcomes Study",
+  "officialTitle": "NexGen® TM Tibia Clinical Outcomes Study: Prospective Multicenter Study of the NexGen® TM Monoblock and Modular Tibias",
+  "protocolDocument": {
+    "nctId": "NCT03272373",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-07-17",
+    "uploadDate": "2024-11-08T11:21",
+    "size": 718104,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03272373/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 160,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-10-03",
+    "completionDate": "2023-03-31",
+    "primaryCompletionDate": "2023-03-30",
+    "firstSubmitDate": "2017-08-31",
+    "firstPostDate": "2017-09-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patient is at least 18 years of age.\n2. Patient qualifies for a primary cementless tibia total knee arthroplasty based on physical exam and medical history, including diagnosis of severe knee pain and disability due to at least one of the following:\n\n   1. Rheumatoid arthritis, osteoarthritis, traumatic arthritis, polyarthritis.\n   2. Collagen disorders and/or avascular necrosis of the femoral condyle.\n   3. Post-traumatic loss of joint configuration, particularly when there is patellofemoral erosion, dysfunction or prior patellectomy.\n   4. Moderate valgus, varus, or flexion deformities.\n   5. The salvage of previously failed surgical attempts that did not include partial or total knee arthroplasty of the ipsilateral knee.\n3. Patient has participated in the study-related Informed Consent process.\n4. Patient is willing and able to provide written Informed Consent by signing and dating the IRB approved Informed Consent Form.\n5. Patient is willing and able to complete scheduled study procedures and follow-up evaluations as described in the Informed Consent Form.\n6. Independent of study participation, patient is a candidate for commercially available cementless NexGen TM tibial knee component, implanted in accordance with product labeling.\n\nExclusion Criteria:\n\n1. Previous history of infection in the affected joint.\n2. Active local or systemic infection that may affect the prosthetic joint.\n3. Insufficient bone stock on femoral or tibial surfaces.\n4. Skeletal immaturity.\n5. Neuropathic arthropathy.\n6. Osteoporosis or any loss of musculature or neuromuscular disease that compromises the affected limb.\n7. A stable, painless arthrodesis in a satisfactory functional position.\n8. Severe instability secondary to the absence of collateral ligament integrity.\n9. Rheumatoid arthritis accompanied by an ulcer of the skin or a history of recurrent breakdown of the skin.\n10. Patient has previously received partial or total knee arthroplasty for the ipsilateral knee.\n11. Patient is currently participating in any other surgical intervention studies or pain management studies.\n12. Patient is known to be pregnant or considered a member of a protected population (e.g., prisoner, mentally incompetent, etc.).\n13. Patient has a known or suspected sensitivity or allergy to one or more of the implant materials.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Radiograph Assessment of Progressive Tibial Radiolucencies",
+        "description": "Progressive tibial radiolucency will be derived in accordance with the following definitions:\n\nAbsent: No evidence of an increase in either radiolucency extent (number of zones involved) or measured width within a zone.\n\nPresent: Presence of either: An increase in the number of zones with a measured tibial radiolucency, OR an increase in the measured tibial radiolucency width within a zone of \\>0.5mm.\n\nUnable to assess: One or more of the component factors necessary to derive progressive tibial radiolucency is unavailable.",
+        "timeFrame": "2 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Oxford Knee Score",
+        "description": "The Oxford Knee Score is a patient completed 12 question metric to rate a patient's knee pain and function using an ordinal 0 - 4 point scale. The total score is obtained by calculating the sum of the 12 items. The maximum score is 48 points (best) and the minimum score is 0 points (worst).",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Revision Rate",
+        "description": "Rate of the number of revisions for any reason",
+        "timeFrame": "2 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:58.618Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

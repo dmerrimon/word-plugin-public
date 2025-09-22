@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02764320",
+  "briefTitle": "The MOTS (Medication Overuse Treatment Strategy) Trial",
+  "officialTitle": "Determining the Optimal Treatment Strategy for Patients Who Have Chronic Migraine With Medication Overuse",
+  "protocolDocument": {
+    "nctId": "NCT02764320",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-08-01",
+    "uploadDate": "2021-04-28T14:00",
+    "size": 1315654,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02764320/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 720,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-01-09",
+    "completionDate": "2021-03-31",
+    "primaryCompletionDate": "2021-03-31",
+    "firstSubmitDate": "2016-05-04",
+    "firstPostDate": "2016-05-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria\n\n* Adults, at least 21 years of age\n* Chronic Migraine - diagnosed according to ICHD3beta criteria\n* Medication Overuse - diagnosed according to ICHD3beta criteria\n* Willingness to be randomized to either of the two treatment arms\n* Willingness to maintain a headache diary\n* Plan for follow-up care with the clinician\n* No changes to migraine prophylactic therapy within the 4 weeks prior to randomization.\n\nExclusion Criteria\n\n* Younger than 21 years of age\n* Headache diagnoses other than chronic migraine with medication overuse; episodic tension-type headache on 3 or fewer days per month is allowed\n* Not willing to be randomized to either of the treatment arms\n* Not willing to maintain a daily headache diary\n* Not planning on follow-up care with the clinician\n* In the opinion of the clinician, randomization to either treatment arm would be considered unsafe (ex: pregnancy, immediate discontinuation\n* Prisoners\n* Diminished decision-making capacity which in the investigator's opinion would interfere with the person's ability to provide informed consent and complete study procedures.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Frequency of Moderate to Severe Headache Days",
+        "description": "Number of days on which a headache lasts for at least 2 hours and at any time peaks at moderate or severe intensity",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 1,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 22,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:55.136Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

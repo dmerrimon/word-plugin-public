@@ -1,0 +1,128 @@
+{
+  "nctId": "NCT03846804",
+  "briefTitle": "Next-Generation Sequencing for Pathogen Detection and Quantification in Children With Musculoskeletal Infections",
+  "officialTitle": "Plasma-Based Next-Generation Sequencing for Pathogen Detection and Quantification in Children With Musculoskeletal Infections",
+  "protocolDocument": {
+    "nctId": "NCT03846804",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-19",
+    "uploadDate": "2023-08-02T14:43",
+    "size": 580212,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03846804/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 38,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-01",
+    "completionDate": "2022-06-02",
+    "primaryCompletionDate": "2022-06-02",
+    "firstSubmitDate": "2019-02-13",
+    "firstPostDate": "2019-02-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. 6 months (to ensure adequate blood volume drawn) to 18 years of age.\n2. Strong clinical suspicion of MSKI as evidenced by fever, osteoarticular pain (e.g. tenderness to palpation of a joint, bone pain, or refusal to bear weight); and elevated ESR (erythrocyte sedimentation rate) or CRP (C-reactive protein).\n\nExclusion Criteria:\n\n* Subjects will be excluded if they have clinical evidence suggesting an alternative diagnosis; inability or unwillingness to consent for the study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "6 Months",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With a Pathogen Identified by the Initial Karius Test (IP1) and Standard Culture Methods",
+        "description": "We evaluated the total number of participants that had a pathogen identified by the initial (IP1) Karius Test (\"positive Karius Test\").\n\nWe compared the results of the Karius Test to cultures (gold standard) for each participant. Karius Test results that matched cultures results (same genus and species) were considered \"positive agreement\".\n\nWe also evaluated at the number of participants who had negative cultures, but had a positive Karius Test.",
+        "timeFrame": "Inpatient Sample 1 (IP1) - Within 48 hours of admission"
+      },
+      {
+        "measure": "Number of Participants With a Pathogen Identified by the Karius Test (at Time Point IP2) and Standard Culture Methods",
+        "description": "We evaluated the total number of participants that had a pathogen identified by the Karius Test (\"positive Karius Test\") at time point IP2 (within 48 hours of the initial sample).\n\nWe compared the results of the Karius Test to those with a positive culture (gold standard) for each participant.\n\nKarius Test results that matched cultures results (same genus and species) were considered \"positive agreement\".\n\nKarius Test results that identified an organism different from the organism identified in culture were considered \"discordant results\" Karius Tests results that did not identify any organism were consider \"negative\"",
+        "timeFrame": "Inpatient Sample 2 (IP2) - Within 48 hours of the initial sample"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Microbial Cell Free DNA Level (cfDNA) in Molecules Per Microliter (MPM)",
+        "description": "We compared the microbial cfDNA level (on initial samples, IP1) between patients with non-severe MSKI to those with severe MSKI (defined as need for intensive care unit (ICU) care; infection in two or more non-contiguous anatomic sites (disseminated disease); need for more than 1 debridement procedure; deep vein thrombosis or thromboembolic disease; or pathologic fracture).\n\nOnly those with a positive agreement between initial Karius Test (IP1) and culture were analyzed (n=15).\n\nMann-Whitney U was used to compare median microbial cfDNA between those with non-severe vs. severe MSKI.",
+        "timeFrame": "From hospital admission to hospital discharge, up to 3 months"
+      },
+      {
+        "measure": "Microbial Cell Free DNA (cfDNA) in Molecules Per Microliter (MPM) at Time Point IP1",
+        "description": "We evaluated whether cfDNA level (in MPM) correlated with C-reactive protein (CRP), erythrocyte sedimentation rate (ESR) and white blood cell count (WBC), common inflammatory markers followed in children with MSKI.\n\nSpearman's correlation was used to compare the MPM value to the CRP, ESR and WBC",
+        "timeFrame": "Inpatient Sample 1 (IP1) - Within 48 hours of admission"
+      },
+      {
+        "measure": "Microbial Cell Free DNA (cfDNA) in Molecules Per Microliter (MPM) at Time Point IP2",
+        "description": "We evaluated whether cfDNA level (in MPM) correlated with C-reactive protein (a common inflammatory marker used to track inflammation in children with MSKI).\n\nSpearman's correlation was used to compare the MPM value to the CRP",
+        "timeFrame": "Inpatient Sample 2 (IP2) - Within 48 hours of the admission sample"
+      },
+      {
+        "measure": "Microbial Cell Free DNA (cfDNA) in Molecules Per Microliter (MPM) at Timepoint IP3",
+        "description": "We evaluated whether cfDNA level (in MPM) correlated with C-reactive protein (a common inflammatory marker used to track inflammation in children with MSKI) at time point IP3 in participants with positive agreement between the Karius Test and culture.\n\nSpearman's correlation was used to compare the MPM value to the CRP",
+        "timeFrame": "Inpatient Sample 3 (IP3) - Within 48 hours of the second inpatient sample"
+      },
+      {
+        "measure": "Microbial Cell Free DNA (cfDNA) in Molecules Per Microliter (MPM) at Time Point IP4",
+        "description": "We evaluated whether cfDNA level (in MPM) correlated with C-reactive protein (a common inflammatory marker used to track inflammation in children with MSKI).",
+        "timeFrame": "Inpatient Sample 4 (IP4) - Within 48 hours of the third inpatient sample"
+      },
+      {
+        "measure": "Microbial Cell Free DNA (cfDNA) in Molecules Per Microliter (MPM) at Time Point OP1",
+        "description": "We evaluated whether cfDNA level (in MPM) correlated with C-reactive protein (a common inflammatory marker used to track inflammation in children with MSKI).",
+        "timeFrame": "Outpatient Sample 1 (OP1) - 1-2 weeks after hospital discharge"
+      },
+      {
+        "measure": "Microbial Cell Free DNA (cfDNA) in Molecules Per Microliter (MPM) at Time Point OP2",
+        "description": "We evaluated whether cfDNA level (in MPM) correlated with C-reactive protein (a common inflammatory marker used to track inflammation in children with MSKI).",
+        "timeFrame": "Outpatient Sample 2 (OP2) - 3-6 weeks after hospital discharge"
+      },
+      {
+        "measure": "Microbial Cell Free DNA (cfDNA) in Molecules Per Microliter (MPM) at Time Point OP3",
+        "description": "We evaluated whether cfDNA level (in MPM) correlated with C-reactive protein (a common inflammatory marker used to track inflammation in children with MSKI).",
+        "timeFrame": "Outpatient Sample 3 (OP3) - 6-8 weeks after hospital discharge"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:58.722Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

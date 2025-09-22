@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT03098420",
+  "briefTitle": "Dose Escalation of Dexamethasone to Increase Duration of Transversus Abdominal Plane Block Following Cesarean Section",
+  "officialTitle": "Dose Escalation of Dexamethasone to Increase Duration of Transversus Abdominal Plane Block Following Cesarean Section: A Prospective Randomized Double-Blinded Clinical Study",
+  "protocolDocument": {
+    "nctId": "NCT03098420",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-07-22",
+    "uploadDate": "2021-05-21T11:56",
+    "size": 3564056,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03098420/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 29,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07",
+    "completionDate": "2021-05-20",
+    "primaryCompletionDate": "2021-05-20",
+    "firstSubmitDate": "2017-03-13",
+    "firstPostDate": "2017-03-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Women undergoing cesarean section delivery.\n2. Patients classified as American Society of Anesthesiology (ASA) class II or III.\n\n   1. ASA II: mild systemic disease, pregnancy\n   2. ASA III: severe systemic disease\n3. Women ≥ 18 years old\n4. Neuraxial anesthesia (spinal) to be used as anesthetic technique intraoperatively for cesarean section (this is the UAB Anesthesiology standard of care).\n\nExclusion Criteria:\n\n1. Any patient not classified as an ASA I or II.\n2. General Anesthesia or neuraxial anesthesia with epidural used as anesthetic techniques for cesarean section.\n3. Allergy/intolerance to local anesthetic or steroids.\n4. Pre-existing neurological and/or anatomical deficit that would preclude regional block.\n5. Coexisting coagulopathy such as hemophilia or von Willebrand Disease\n6. BMI \\> 40.\n7. Emergency Cesarean Sections",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Average Pain Score",
+        "description": "Average pain score (VAS) 48 hrs postoperatively between the study group and the control. The visual analog scale (VAS) is a validated, subjective measure for acute and chronic pain. 0 represents no pain, whereas 10 represents unbearable pain.",
+        "timeFrame": "48 hours postoperatively"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "First Post-Operative Opioid Administration",
+        "description": "Time until first dose post-operative opioid administration between the study group and the control",
+        "timeFrame": "baseline to 48 hrs postoperatively"
+      },
+      {
+        "measure": "Average Opioid Consumption",
+        "description": "Average opioid consumption 48 hrs postoperatively between the study group and the control",
+        "timeFrame": "from the time of delivery to 48hrs postoperatively"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:59.501Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

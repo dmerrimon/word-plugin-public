@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT01230411",
+  "briefTitle": "Pilot Study to Collect and Evaluate Data on the Use of IV* Ibuprofen in the Treatment of an Acute Migraine Attack",
+  "officialTitle": "A Double-blind, Placebo-controlled Pilot Study to Collect and Evaluate Data on the Use of Intravenous Ibuprofen in the Treatment of an Acute Migraine Attack",
+  "protocolDocument": {
+    "nctId": "NCT01230411",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-07-31",
+    "uploadDate": "2021-12-16T10:36",
+    "size": 620917,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01230411/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 44,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-06",
+    "completionDate": "2017-07",
+    "primaryCompletionDate": "2017-06",
+    "firstSubmitDate": "2010-10-27",
+    "firstPostDate": "2010-10-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male and female subjects between the ages of 18 and 65, inclusive\n* Subject diagnosed with episodic migraine, with or without aura according to ICHD-2 criteria for at least one-year prior to screening\n* Subject experiences between 2-10 migraine attacks per month (during the previous 6 months) with no more than 15 days of headache per month.\n* Subject is using or agrees to use for the duration of participation a medically acceptable form of contraception (as determined by investigator), if female and of child-bearing potential\n* Subject is able to come for 4 hour in-clinic treatment of an acute migraine attack\n* Subjects are able to understand and comply with all study procedures.\n* Subject provides written informed consent prior to any screening procedures being conducted\n* If subject is on an allowable migraine preventive medication, the dose has been stable for at least 4 weeks prior to screening and the dose will remain stable throughout study participation.\n\nExclusion Criteria:\n\n* Unable to make a reliable self-report of pain intensity to pain relief\n* Use of analgesic or opioid within 24 hours of onset of headache to be treated with study medication. (If subject has an eligible headache and has taken a triptan or DHE within 24 hours, but greater than 2 hours before study drug dosing, they can be treated with study medication.)\n* Patients taking the following medications on a regular basis: warfarin, lithium, ACE-inhibitors, loop diuretics, thiazide diuretics, ARBs, and methotrexate.\n* Patients with active, clinically significant anemia\n* Patients with a history or evidence of asthma\n* Patients with a history heart failure\n* Subjects with severely impaired hepatic or renal function, as determined by the investigator\n* Patients with a history of allergy or hypersensitivity to any component of IVIb, aspirin (or aspirin related products), NSAIDs, or COX-2 inhibitors\n* Pregnant or nursing women\n* Patients who have a history of congenital bleeding diathesis (e.g., hemophilia) or any active clinically significant bleeding, or have underlying platelet dysfunction including (but not limited to) idiopathic thrombocytopenic purpura, disseminated intravascular coagulation, or congenital platelet dysfunction\n* Patients who have GI bleeding that required medical intervention within the previous 6 weeks (unless definitive surgery has been performed.)\n* Patients who have a platelet count less than 100,000, as determined within the 28 days prior to treatment\n* Pre-existing or current dependence on opioids.\n* Subjects who have participated in an investigational drug trial in the 30 days prior to the screening visit\n* Subjects with uncontrolled hypertension",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Comparison of Proportion of Subjects in Control and Active Treatment Groups Who Have Pain Relief at 2 Hours After the Completion of the Double-blind Treatment Infusion.",
+        "description": "Comparison of proportion of subjects in each treatment group (active treatment and placebo) who have pain relief at 2 hours after the completion of the double-blind treatment infusion. Pain relief is defined as a reduction in headache pain level from severe or moderate decreased to mild or headache-free, respectively.",
+        "timeFrame": "2 hours"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:52.641Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

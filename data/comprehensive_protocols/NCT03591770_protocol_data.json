@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03591770",
+  "briefTitle": "Shingrix Vaccine in Patients With Moderate to Severe Ulcerative Colitis on Tofacitinib",
+  "officialTitle": "The Immunogenicity and Safety of Shingrix Vaccine in Patients With Moderate to Severe Ulcerative Colitis on Tofacitinib",
+  "protocolDocument": {
+    "nctId": "NCT03591770",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-06-22",
+    "uploadDate": "2024-09-24T17:11",
+    "size": 739794,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03591770/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-07-31",
+    "completionDate": "2024-07-04",
+    "primaryCompletionDate": "2024-07-04",
+    "firstSubmitDate": "2018-07-09",
+    "firstPostDate": "2018-07-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Proof of primary varicella infection (chicken pox) either by appropriate history (as defined by ACIP) or otherwise confirmed with a positive VZV IgG antibody level\n2. Patient has a history of ulcerative colitis (UC) diagnosed by standard clinical, radiographic, endoscopic, and histopathologic criteria\n3. Patient is receiving one of the following treatments for their UC:\n\nGroup A: Tofacitinib monotherapy, Group B: Anti-TNF monotherapy (adalimumab, golimumab, certolizumab pegol, infliximab), Group C: Anti-TNF combination therapy with a thiopurine (6 mercaptopurine, azathioprine), Group D: 5-aminosalicylates or other non-immunomodulatory therapy.\n\nExclusion Criteria:\n\n1. Previous receipt of any HZ vaccine\n2. Allergy to zoster vaccine or a component of the vaccine\n3. Other underlying chronic medical conditions that could affect immunogenicity to vaccines (rheumatoid arthritis, psoriasis etc.)\n4. History of herpes zoster infection or post herpetic neuralgia\n5. Patient cannot or will not provide written informed consent\n6. Patient is on a non-licensed or experimental immunomodulator\n7. Patient is on methotrexate\n8. Patient has received immunoglobulin therapy or blood products with the past month\n9. Currently pregnant",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in the Immunogenicity of the Herpes Zoster Subunit Vaccine in UC Patients",
+        "description": "Immunogenicity will be assessed by the change in cell mediated immunity (CMI) as measured by ELISPOT from pre-immunization to 1 month after receiving second dose of booster vaccine post-immunization. ELISPOT is an enzyme-linked assay for detecting and enumerating cytokine-producing lymphocytes. A colored spot indicates a cell producing IFNγ. Each well will be inspected and cytokine-producing cells will be counted using AID® imaging system. Any well with more than 300 spots will be considered too numerous to count and reported as \\>300 cells/well. It will be measured from pre-immunization to 1 month after receiving second dose of booster vaccine post-immunization.",
+        "timeFrame": "Baseline and approximately 90 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The Number of Participants With Vaccine Adverse Effects at 1 Month",
+        "description": "Vaccine adverse effects will be documented following immunization by evaluating participants at each clinic visit and from a phone call by study personnel.",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Number of Participants With Vaccine Adverse Effects at 8 Months (6 Months Post-immunization)",
+        "description": "Vaccine adverse effects will be documented following immunization by evaluating participants at each clinic visit and from a phone call by study personnel.",
+        "timeFrame": "8 months (6 months post-immunization)"
+      },
+      {
+        "measure": "Number of Participants Classified by Disease Activity",
+        "description": "The Simple Clinical Colitis Activity Index (SCCAI) will be used to measure disease activity. It is a questionnaire with six subscore topics with scores defined by UC signs and symptoms from 0 to 4 for a range of scores from 0 to 17. Total scores are interpreted as: Remission = score of 0 to 4 points, Mild Activity = score of 5 to 7 points, Moderate Activity = Score of 8 to 16 points, and Severe Activity = Score of \\> 16 points.",
+        "timeFrame": "Baseline, 2 months, and 8 months (6 months post-immunization)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:43.599Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,127 @@
+{
+  "nctId": "NCT02785900",
+  "briefTitle": "Vadastuximab Talirine (SGN-CD33A; 33A) Combined With Azacitidine or Decitabine in Older Patients With Newly Diagnosed Acute Myeloid Leukemia",
+  "officialTitle": "A Randomized, Double-blind Phase 3 Study of Vadastuximab Talirine (SGN-CD33A) Versus Placebo in Combination With Azacitidine or Decitabine in the Treatment of Older Patients With Newly Diagnosed Acute Myeloid Leukemia (AML)",
+  "protocolDocument": {
+    "nctId": "NCT02785900",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2017-03-27",
+    "uploadDate": "2018-10-01T17:49",
+    "size": 1418941,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02785900/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 240,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-05",
+    "completionDate": "2017-10-03",
+    "primaryCompletionDate": "2017-10-03",
+    "firstSubmitDate": "2016-05-25",
+    "firstPostDate": "2016-05-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Newly diagnosed, previously untreated, cytologically/histologically confirmed de novo or secondary AML according to World Health Organization (WHO) classification (except for acute promyelocytic leukemia (APL))\n* Intermediate or adverse cytogenetic risk\n* Eligible for therapy with either decitabine or azacitidine\n* Acceptable hematologic and organ function\n\nExclusion Criteria:\n\n* AML associated with favorable risk karyotypes including inv(16), t(8;21), t(16;16), or t(15;17)\n* Patients who are candidates for allogeneic stem cell transplant at the time of enrollment\n* Patients with a history of one of the following myeloproliferative neoplasms: essential thrombocythemia, polycythemia vera, and primary myelofibrosis\n* Received prior treatment with HMA or chemotherapy for antecedent myelodysplastic syndrome (MDS)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Overall Survival",
+        "description": "Time from randomization to death due to any cause",
+        "timeFrame": "Up to 1.5 years"
+      },
+      {
+        "measure": "Composite Complete Remission (CRc) Rate",
+        "description": "Number of patients who achieved complete remission (CR) or complete remission with incomplete blood count recovery (CRi) according to the modified response criteria for acute myeloid leukemia (AML) per Cheson 2003.",
+        "timeFrame": "Up to 1.5 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Minimal Residual Disease (MRD)-Negative Composite Complete Remission Rate",
+        "description": "Number of patients who achieve both remission (CR or CRi) and MRD-negative status",
+        "timeFrame": "Up to 1.5 years"
+      },
+      {
+        "measure": "Duration of Remission",
+        "description": "Duration of remission is calculated from the first documentation of CR or CRi to the first documentation of disease relapse or death, whichever comes first. Patients who are in remission at the time of analysis cutoff are censored at the date of last response assessment. Patients who started another anticancer therapy before relapse or death are censored at the date of last response assessment prior to start of new therapy.",
+        "timeFrame": "Up to approximately 9.5 months"
+      },
+      {
+        "measure": "Event-free Survival",
+        "description": "Event-free survival is calculated from the time of randomization to the first documentation of progression, relapse, or death, whichever comes first. Patients who do not have event (progression, relapse, or death) prior to analysis cutoff date are censored at the date of last response assessment. Patients who started another anticancer therapy before progression, relapse, or death are censored at the date of last response assessment prior to the start of new therapy. Patients who do not have response assessment post-baseline are censored at the date of randomization.",
+        "timeFrame": "Up to approximately 11.24 months"
+      },
+      {
+        "measure": "Leukemia-free Survival",
+        "description": "Leukemia-free survival is calculated from the first documentation of blast clearance (CR, CRi, mLFS) to the first documentation of disease relapse or death, whichever comes first. Patients who are in remission at the time of analysis cutoff are censored at the date of last response assessment. Patients who started another anticancer therapy before relapse or death are censored at the date of last response assessment prior to start of new therapy.",
+        "timeFrame": "Up to approximately 9.49 months"
+      },
+      {
+        "measure": "Type, Incidence, Severity, Seriousness, and Relatedness of Adverse Events",
+        "description": "Treatment-emergent adverse events (TEAEs) are presented and defined as newly occurring (not present at baseline) or worsening after first dose of investigational product. SAE = serious adverse event. \"Study treatment\" in this data set refers to blinded study treatment.",
+        "timeFrame": "Up to 1.5 years"
+      },
+      {
+        "measure": "Incidence of Grade 3 or Higher Laboratory Abnormalities",
+        "description": "Participants who experienced a laboratory grade increase to Grade 3 or higher (per National Cancer Institute's Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\], v4.03)",
+        "timeFrame": "Up to 1.5 years"
+      },
+      {
+        "measure": "Time to Complete Remission",
+        "description": "Time to CR or CRi is the time from randomization to the first documentation of CR/CRi",
+        "timeFrame": "Up to 1.5 years"
+      },
+      {
+        "measure": "Mortality Rates at Day 30 and Day 60",
+        "description": "30- and 60-day survival from date of randomization. Estimated using Kaplan-Meier method.",
+        "timeFrame": "Up to 60 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:47.019Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,96 @@
+{
+  "nctId": "NCT03242954",
+  "briefTitle": "Innovative Approaches for Minor Consent: Consent 2.0",
+  "officialTitle": "Innovative Approaches for Minor Consent: Consent 2.0 - A Multi-Center Study of the Adolescent Medicine Trials Network for HIV/AIDS Interventions (ATN)",
+  "protocolDocument": {
+    "nctId": "NCT03242954",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-18",
+    "uploadDate": "2021-03-24T13:50",
+    "size": 668505,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03242954/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 254,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-11-07",
+    "completionDate": "2019-09-15",
+    "primaryCompletionDate": "2019-09-15",
+    "firstSubmitDate": "2017-08-03",
+    "firstPostDate": "2017-08-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Note: Age limits apply to adolescent participants and to the adolescent children of parent participants.\n\nAdolescent Inclusion Criteria\n\n* Age 14-17 inclusive\n* Able to read and speak English\n* HIV status is negative or unknown\n* Engaged in high-risk sexual activity in the last six months\n\nAdolescent Exclusion Criteria\n\n* Child of a parent already enrolled in the study\n\nParent Inclusion Criteria\n\n* Able to read and speak English\n* Parent or guardian of an adolescent who is between ages 14-17\n* The parent/guardian's adolescent's HIV status is either negative or unknown\n\nParent Exclusion Criteria\n\n* Parent of a child already enrolled in the study",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "14 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean Adolescent WTP Scores",
+        "description": "Comparing mean adolescent Willingness to Participate (WTP) scores across the three consent conditions and two trial types.\n\nWTP scores are based on the response to the question: \"If offered the chance, how likely would you be to participate in the study?\" Responses are collected using a Likert scale (definitely not participate, probably not participate, might or might not participate, probably participate, definitely participate) and converted to a numeric score with values ranging from 1 (definitely not participate) to 5 (definitely participate) for analysis.",
+        "timeFrame": "Day 1"
+      },
+      {
+        "measure": "Mean Parent WTS Scores",
+        "description": "Comparing mean parent Willingness to Support (WTS) scores across the three consent conditions and two trial types.\n\nWTS scores are based on the response to the question: \"This is an acceptable approach to consent for your teenager's participation in the study.\" Responses are collected using a Likert scale (strongly disagree, disagree, neither disagree nor agree, agree, strongly agree) and converted to a numeric score with values ranging from 1 (strongly disagree) to 5 (strongly agree) for analysis.",
+        "timeFrame": "Day 1"
+      },
+      {
+        "measure": "Effects of the Study Agent (Stage of Development and Method of Delivery) on High-risk Minor Adolescents' WTP Scores",
+        "description": "This data reflects adolescent Willingness to Participate (WTP) scores by study agent/trial type. After review of hypothetical consent documents for 2 study agents in different stages of development and with different methods of delivery (based on real-world studies ATN 113 and HPTN 077), adolescents are asked \"If offered the chance, how likely would you be to participate in the study?\" Responses are collected using a Likert scale (definitely not participate, probably not participate, might or might not participate, probably participate, definitely participate) and converted to a numeric score with values ranging from 1 (definitely not participate) to 5 (definitely participate) for analysis.",
+        "timeFrame": "Day 1"
+      },
+      {
+        "measure": "Effects of the Study Agent (Stage of Development and Method of Delivery) on Parents' Acceptability Scores",
+        "description": "After review of hypothetical consent documents for 2 study agents in different stages of development and with different methods of delivery (based on real-world trials ATN 113 and HPTN 077), parents are presented with vignettes for the 3 different consent conditions (autonomous minor consent, adult permission required, parental permission required) and asked \"How acceptable is this approach to research consent?\". Responses are collected on a Likert scale (completely unacceptable, unacceptable, neither unacceptable not acceptable, acceptable, completely acceptable) and converted to a numeric score with values ranging from 1 (definitely not acceptable) to 5 (definitely acceptable) for analysis.",
+        "timeFrame": "Day 1"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 50,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:19.745Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT03902496",
+  "briefTitle": "Optical Treatment of Migraines Using the Avulux™ Optical Filter in the Form of Spectacle Lenses.",
+  "officialTitle": "Optical Treatment of Migraines Clinical Study",
+  "protocolDocument": {
+    "nctId": "NCT03902496",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-02-28",
+    "uploadDate": "2019-04-02T16:21",
+    "size": 1134803,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03902496/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-18",
+    "completionDate": "2019-05-17",
+    "primaryCompletionDate": "2019-05-17",
+    "firstSubmitDate": "2019-04-02",
+    "firstPostDate": "2019-04-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patient is 18 years or older\n2. Patient is willing and able to provide written informed consent\n3. Patient is willing and able to complete all scheduled study visits\n4. Diagnosis of migraine, based on the following primary headache characteristics:\n\n   1. At least 5 attacks fulfilling criteria b-d:\n   2. Headache attacks lasting 4-72 hours (untreated or unsuccessfully treated)\n   3. Headache has at least two of the following characteristics:\n\n      * unilateral location\n      * pulsating quality\n      * moderate or severe pain intensity\n      * aggravation by or causing avoidance of routine physical activity (eg, walking or climbing stairs)\n   4. During headache at least one of the following:\n\n      * nausea and/or vomiting\n      * photophobia and phonophobia\n   5. Not attributed to another disorder\n\nExclusion Criteria:\n\n1. Patients with other light sensitive conditions, such as iritis.\n2. Patients who have less than 4 headache days per month\n3. Patients who have chronic daily headaches.\n4. Patients who have had any change in their migraine treatment within the 4 weeks prior to the trial onset.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Headache Impact Test (HIT-6) total score",
+        "description": "The primary objective of this study is to evaluate the efficacy of the Avulux device in reducing the impact of migraine headaches as measured by improvement in Headache Impact Test (HIT-6) scores at three weeks when compared to a control/sham device. HIT-6 scores range from 36 to 78. Higher scores indicate a greater impact of headaches on the respondent's life, i.e., 36 = no impact, 78 = maximum impact.",
+        "timeFrame": "Three-week"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number and Severity of Headache Days",
+        "description": "To measure effects on the number and severity of headaches, we will use the subjects' daily diaries to count the number of days with headache that either a) made activity difficult, b) caused activity changes, or c) caused patient to go to bed. We will then compare the proportion of days with headaches that met one of these criteria for the 4-week baseline period and the 3-week intervention.",
+        "timeFrame": "Three-week"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Proportion of subjects who were able to move out of the \"very severe impact\" category of the HIT-6 during the 3-week intervention",
+        "description": "Compare initial vs. final HIT-6 scores for each treatment period",
+        "timeFrame": "Three-week"
+      },
+      {
+        "measure": "Proportion of patients who experienced at least a 5-point improvement in their HIT-6 score during the 3-week intervention",
+        "description": "Compare initial vs. final HIT-6 scores for each treatment period",
+        "timeFrame": "Three-week"
+      },
+      {
+        "measure": "Proportion of days with headaches which lead to use of medications to control the headache over the 3-week intervention",
+        "description": "Compare diaries for treatment vs. control periods to determine proportion of headaches resolved by device vs. device plus medication",
+        "timeFrame": "Three-week"
+      },
+      {
+        "measure": "Proportion of days with light sensitivity over the 3-week intervention",
+        "description": "Compare diaries for treatment vs. control periods to determine differences in days with light sensitivity.",
+        "timeFrame": "Three-week"
+      },
+      {
+        "measure": "Average Number of Hours Slept over the 3-week intervention",
+        "description": "Compare diaries for treatment vs. control periods to determine whether a significant difference exists in number of hours slept between treatment groups.",
+        "timeFrame": "Three-week"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 5,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:54.564Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

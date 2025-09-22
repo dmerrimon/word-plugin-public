@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03549104",
+  "briefTitle": "A Cognitive Behavioral Therapy (CBT) Intervention to Reduce Fear of Hypoglycemia in Type 1 Diabetes",
+  "officialTitle": "A Cognitive Behavioral Intervention to Reduce Fear of Hypoglycemia in Young Adults With T1DM",
+  "protocolDocument": {
+    "nctId": "NCT03549104",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-05-12",
+    "uploadDate": "2022-02-03T21:36",
+    "size": 814887,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03549104/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 51,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-14",
+    "completionDate": "2021-06-30",
+    "primaryCompletionDate": "2021-06-30",
+    "firstSubmitDate": "2018-04-24",
+    "firstPostDate": "2018-06-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nDiagnosis of T1DM ≥ 1 year, receive medical care from an endocrinologist, use insulin pump therapy or multiple daily injection (MDI), have fear of hypoglycemia (screening questionnaire), and attended a basic diabetes educational program\n\nExclusion Criteria:\n\nPregnant or breastfeeding, have received therapy specifically for fear of hypoglycemia, have a co-existing chronic illness",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "35 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Fear of Hypoglycemia",
+        "description": "Change in Worry Subscale score. Fear of hypoglycemia is measured with the Worry Subscale of the Hypoglycemia Fear Survey II (HFS-II) which is an 18-item, 5-point Likert-style scale with a possible score range from 0-72. A higher score indicates greater fear of hypoglycemia.",
+        "timeFrame": "Assessing change between two time points: from baseline to week 8 of intervention."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Glycemic Control",
+        "description": "Change in HemoglobinA1c (A1C)",
+        "timeFrame": "Assessing change between two time points: from baseline to week 8 of intervention."
+      },
+      {
+        "measure": "Glycemic Variability",
+        "description": "Change in glucose variability (continuous glucose monitor-derived, glucose (mg/dl) standard deviation. Higher numbers indicate worse glycemic variability.",
+        "timeFrame": "Assessing change between two time points: from baseline to week 8 of intervention"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:32:38.809Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

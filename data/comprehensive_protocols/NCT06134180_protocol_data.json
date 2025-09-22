@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT06134180",
+  "briefTitle": "CONFIDENCE-AI Financial Education for Caregivers (CONFIDENCE-AI)",
+  "officialTitle": "An AI-Embedded Intervention to Promote Financial Wellbeing Among Latino Family Caregivers",
+  "protocolDocument": {
+    "nctId": "NCT06134180",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-05-19",
+    "uploadDate": "2025-07-10T11:52",
+    "size": 380070,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06134180/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 14,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-03-23",
+    "completionDate": "2025-05-19",
+    "primaryCompletionDate": "2025-04-01",
+    "firstSubmitDate": "2023-11-06",
+    "firstPostDate": "2023-11-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Self-identified caregiver to a person living with probable Alzheimer's disease or related dementia\n* Person living with dementia meets stage 4 to 6 criteria on Global Deterioration Scale according to the family caregiver\n* Has been at least 6 months since the care recipient began to experience dementia symptoms\n* Latino/Hispanic ethnicity.\n\nExclusion Criteria:\n\n* Individuals who plan to place their family member in a nursing home in the next 3 months\n* Unreliable access to internet, tablet or smart phone, and email\n* Does not agree to participate in at least 3 of the 4 group sessions and/or register for the NeuViCare app\n* Unable to read and speak in English or Spanish",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Financial Strain",
+        "description": "Financial strain will be measured using the 11-item Comprehensive Score for Financial Toxicity (COST) Scale. A modified version of COST demonstrates validity and reliability when tested among cancer caregivers (α=0.91; range: 0 to 44). COST items are generic enough to be applicable to caregivers to persons PLWD without further modification (e.g., \"I feel financially stressed\"). Caregivers are asked to indicate if each statement applies to them \"Not at all\" (0) to \"Very much\" (4). Higher scores indicate higher levels of financial strain.",
+        "timeFrame": "The outcome measure will use the average change score from baseline scores until post-intervention (1 month post-baseline) and 2 months post-intervention (3-months after the baseline)."
+      },
+      {
+        "measure": "Resourcefulness",
+        "description": "Resourcefulness is measured using the 28-item Caregiver Resourcefulness Scale (alpha=0.85). This scale has two factors: one focused on help-seeking and another on self-help. Caregivers are asked the frequency at which they use different strategies to manage challenges, and may respond: Not at all like me (0), Pretty much not like me (1), A little bit not like me (2), A little bit like me (3), Pretty much like much like me (4), or Very much like me (5). Items are added together to create a total score. Scores range from 0 to 140, where higher scores indicate higher levels of resourcefulness. The outcome measure will use the average change score from baseline scores",
+        "timeFrame": "The outcome measure will use the average change score from baseline scores until post-intervention (1 month post-baseline) and 2 months post-intervention (3-months after the baseline)."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Self-Efficacy",
+        "description": "Self-efficacy is measured using the Caregiver Self-Efficacy Scale. This 8-item scale asks about multiple domains of self-efficacy (e.g., managing behavioral symptoms, accessing respite, and controlling upsetting thoughts). It demonstrates high reliability (alpha=0.89) and good test-retest reliability (0.73). Participants rate the extent to which they are \"Not confident at all\" (1) to \"Totally confident\" (10). Scores range from 8 (lowest level of self-efficacy) to 80 (highest level of self-efficacy).",
+        "timeFrame": "The outcome measure will use the average change score from baseline scores until post-intervention (1 month post-baseline) and 2 months post-intervention (3-months after the baseline)."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:39.748Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

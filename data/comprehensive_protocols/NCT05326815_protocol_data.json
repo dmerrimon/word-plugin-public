@@ -1,0 +1,74 @@
+{
+  "nctId": "NCT05326815",
+  "briefTitle": "A Comparison of Serum and Urine N-telopeptide Marker",
+  "officialTitle": "A Comparison of Serum and Urine N-telopeptide Marker",
+  "protocolDocument": {
+    "nctId": "NCT05326815",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-09-25",
+    "uploadDate": "2023-10-27T10:54",
+    "size": 316370,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05326815/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 54,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-06-23",
+    "completionDate": "2023-10-27",
+    "primaryCompletionDate": "2023-03-15",
+    "firstSubmitDate": "2022-03-28",
+    "firstPostDate": "2022-04-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Consent to participate in the study\n* Participants limited to subjects in the CCF\n* Age between and inclusive of 18 and 85 years of age\n* No gender exclusion\n* Patients diagnosed with Osteopenia on DEXA scan who have not been on any medical therapy in the past\n* Presence of normal vitamin D levels, kidney function, and parathyroid hormone levels (per our reference ranges)\n\nExclusion Criteria:\n\n* Prior history of medical therapy for osteopenia\n* Prior radiation therapy\n* Prior history of bone fracture\n* History of high risk medication associated with increased risk of fracture\n* Presence of abnormal vitamin D levels, kidney function, and parathyroid hormone\n* Pregnancy status (verbal)\n* Those with medical co-morbidities that increase the risk of fracture will be excluded and these include but are not limited to: rheumatoid arthritis, ankylosing spondylitis, psoriatic arthritis, diabetes mellitus, hyperparathyroidism, chronic kidney disease, pituitary disease, multiple myeloma, leukemia, lymphoma, thalassemia major, HIV/AIDS, malabsorption, Inflammatory bowel disease, chronic obstructive pulmonary disease, hypogonadism, chronic liver disease, untreated hyperthyroidism, and those with chronic immobility",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Correlation Between NTX Measures With Each Other",
+        "description": "Correlation between NTX measures with each other",
+        "timeFrame": "1 day (single visit lab test)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:01.854Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

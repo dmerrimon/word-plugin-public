@@ -1,0 +1,84 @@
+{
+  "nctId": "NCT05099198",
+  "briefTitle": "Replication of the GRADE Diabetes Trial in Healthcare Claims Data",
+  "officialTitle": "Replication of the GRADE Diabetes Trial in Healthcare Claims Data",
+  "protocolDocument": {
+    "nctId": "NCT05099198",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-13",
+    "uploadDate": "2021-10-13T14:39",
+    "size": 1674997,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05099198/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 6403,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-09-01",
+    "completionDate": "2021-08-01",
+    "primaryCompletionDate": "2021-08-01",
+    "firstSubmitDate": "2021-06-25",
+    "firstPostDate": "2021-10-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age greater or equal than 30: days \\[0,0\\]\n* Diagnosis of Type 2 Diabetes: days \\[- All Data, 0\\]\n* 2+ recorded HbA1c levels: days \\[-365,0\\]\n* Metformin use: days \\[-30, 0\\]\n\nExclusion Criteria:\n\n* Type 1 or Secondary DM: days \\[-All Data, 0\\]\n* Previous organ transplant: days \\[-All Data, 0\\]\n* HIV/AIDS: days \\[-All Data, 0\\]\n* History of bariatric surgery: days \\[-All Data, 0\\]\n* Congestive heart failure: days \\[-All Data, 0\\]\n* NYHA \\>=3: days \\[-All Data, 0\\]\n* Pancreatitis: days \\[-All Data, 0\\]\n* Medullary thyroid cancer/MEN-2: days \\[-All Data, 0\\]\n* History of MI: days \\[-365, 0\\]\n* Stroke: days \\[-365, 0\\]\n* Coronary Revascularization: days \\[-365, 0\\]\n* PTCA/Stenting/CABG: days \\[-365, 0\\]\n* Trans myocardial revascularization: days \\[-365, 0\\]\n* Carotid bypass: days \\[-365, 0\\]\n* Cerebrovascular revascularization: days \\[-365, 0\\]\n* PVD: days \\[-365, 0\\]\n* CCI \\>=10: days \\[-365, 0\\]\n* History of cancer, other than non-melanoma skin cancer: days \\[-1,825, 0\\]\n* Treatment of metformin more than 10 years: days \\[-3,650, 0\\]\n* Treatment with any diabetes drug other than metformin; PCOS; symptomatic hyperglycemia; pregnancy; gestational diabetes: days \\[-180, 0\\]\n* History of hemolytic anemia; history of severe liver disease; current alcoholism; chronic transfusion requirement; ESRD: days \\[-180, 0\\]\n* Oral, IV, or IM cortisone, hydrocortisone, prednisone, methylprednisone, or dexamethasone: days \\[-90, 0\\]\n* Treatment with atypical antipsychotics, language barriers, nursing home, or missing age or gender: days {-180, 0\\]\n* Hospitalization with length of stay \\>3 days: days \\[-30, 0\\]",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time until failure to maintain metabolic control",
+        "description": "Lab based algorithm: time until failure to maintain metabolic control (HbA1c level \\>= 7.0% or 53 mmol/mol)",
+        "timeFrame": "Through censoring or study completion, up to 765 days after cohort entry"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time until a severe hypoglycemic episode",
+        "description": "Claims based algorithm: time until a severe hypoglycemic episode",
+        "timeFrame": "Through censoring or study completion, up to 765 day after cohort entry"
+      },
+      {
+        "measure": "HbA1C change from baseline",
+        "description": "Lab based algorithm: HbA1C change from baseline",
+        "timeFrame": "Through censoring or study completion, up to 765 days after cohort entry"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:10.009Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

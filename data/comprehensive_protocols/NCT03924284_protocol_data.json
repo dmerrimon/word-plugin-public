@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT03924284",
+  "briefTitle": "Novel Assays for Detection of Influenza Virus",
+  "officialTitle": "Evaluation of Novel Molecular Assays for the Detection of Influenza Virus",
+  "protocolDocument": {
+    "nctId": "NCT03924284",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-01-10",
+    "uploadDate": "2019-01-11T01:16",
+    "size": 262689,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03924284/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 0,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-04-18",
+    "completionDate": "2019-07-30",
+    "primaryCompletionDate": "2019-07-30",
+    "firstSubmitDate": "2019-01-11",
+    "firstPostDate": "2019-04-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Nasopharyngeal or saliva specimens of patients in Queen Mary Hospital of Hong Kong\n* Tested for influenza A virus using a commercially available assay or by the Public Health Laboratory Services Branch in Hong Kong\n\nExclusion Criteria:\n\n* Insufficient specimen volume",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "RT-PCR result",
+        "description": "The result of RT-PCR can be positive or negative",
+        "timeFrame": "Through study completion, an average of 2 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Cycle threshold value",
+        "description": "The cycle threshold is a surrogate for viral load",
+        "timeFrame": "Through study completion, an average of 2 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:32.365Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

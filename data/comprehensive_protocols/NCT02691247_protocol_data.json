@@ -1,0 +1,95 @@
+{
+  "nctId": "NCT02691247",
+  "briefTitle": "Safety and Efficacy of CLBS03 in Adolescents With Recent Onset Type 1 Diabetes (The Sanford Project T-Rex Study)",
+  "officialTitle": "A Prospective Randomized Placebo-Controlled Double Blind Clinical Trial to Evaluate the Safety and Efficacy of CLBS03 (Autologous Ex Vivo Expanded Polyclonal Regulatory T-cells) in Adolescents With Recent Onset Type 1 Diabetes Mellitus (T1DM)",
+  "protocolDocument": {
+    "nctId": "NCT02691247",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-01-17",
+    "uploadDate": "2020-11-18T17:52",
+    "size": 11601827,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02691247/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 113,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-02",
+    "completionDate": "2020-01",
+    "primaryCompletionDate": "2019-03",
+    "firstSubmitDate": "2016-02-12",
+    "firstPostDate": "2016-02-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male and females aged 8 to 17 years of age\n* Diagnosis of T1DM within 100 days of receipt of study drug\n* Positive for at least one islet cell autoantibody\n* Peak MMTT-stimulated C-peptide level \\> 0.2 pmol/mL (at the screening visit)\n* Weight of ≥30 kg\n* Must agree to use a reliable and acceptable method of contraception for the duration of participation\n* Willing and medically acceptable to postpone live vaccine immunizations for one year after infusion\n* Written informed consent and written assent\n\nExclusion Criteria:\n\n* Hemoglobin less than the lower limit of normal\n* Leukocytes \\<3,000/μL; neutrophils \\<1,500/μL; lymphocytes \\<800/μL; platelets \\<100,000/μL\n* Regulatory T-cells present in peripheral blood at \\<20 cells per μL\n* Current or ongoing use of non-insulin pharmaceuticals (that may affect glycemic control)\n* Current or anticipated use of systemic corticosteroids or other immunomodulatory drugs\n* Recent serious bacterial, viral, fungal, or other opportunistic infections\n* History of malignancy or serious uncontrolled cardiovascular, nervous system, pulmonary, renal, or gastrointestinal disease\n* Serologic evidence of current or past viral infection: human immunodeficiency virus (HIV), Hepatitis B, Hepatitis C, and human T-lymphotropic virus (HTLV) 1/2\n* Positive QuantiFERON® tuberculosis (TB) test, purified protein derivative (PPD) skin test, history of tuberculosis, or active TB infection\n* Active infection with Epstein-Barr Virus or Cytomegalovirus\n* Liver disease\n* Pregnant or breast-feeding\n* Vaccination with a live virus within 8 weeks of receipt of study drug\n* Vaccination with a killed virus within 2 weeks of receipt of study drug\n* Participation in an investigational drug study within 90 days prior to screening\n* Previously treated with a T-Reg based cell therapy\n* History of allergy to gentamicin",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "8 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in 4-hour Mixed Meal Tolerance Test (MMTT)-Stimulated C-peptide Area Under the Curve (AUC) at Week 52",
+        "description": "The area-under-curve of sequential C-peptide concentrations (AUC-Cpep) during the mixed-meal tolerance test (MMTT) is the gold-standard method to assess residual beta-cell (ie, insulin) secretion in type 1 diabetes.",
+        "timeFrame": "Week 52"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in 4-hour Mixed Meal Tolerance Test (MMTT)-Stimulated C-peptide Area Under the Curve (AUC) at Week 104",
+        "description": "The area-under-curve of sequential C-peptide concentrations (AUC-Cpep) during the mixed-meal tolerance test (MMTT) is the gold-standard method to assess residual beta-cell (ie, insulin) secretion in type 1 diabetes.",
+        "timeFrame": "Week 104"
+      },
+      {
+        "measure": "Change in Hemoglobin A1c (HbA1c)",
+        "timeFrame": "Week 104"
+      },
+      {
+        "measure": "Change From Baseline in Mean Daily Dose of Insulin",
+        "timeFrame": "Week 104"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:47.540Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

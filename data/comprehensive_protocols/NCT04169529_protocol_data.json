@@ -1,0 +1,73 @@
+{
+  "nctId": "NCT04169529",
+  "briefTitle": "Reveal LINQ for Chronic Obstructive Pulmonary Disease (COPD)",
+  "officialTitle": "Reveal LINQ for Chronic Obstructive Pulmonary Disease (COPD)",
+  "protocolDocument": {
+    "nctId": "NCT04169529",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-12-01",
+    "uploadDate": "2024-07-19T10:27",
+    "size": 1299390,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04169529/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 42,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-08-25",
+    "completionDate": "2023-06-27",
+    "primaryCompletionDate": "2023-06-27",
+    "firstSubmitDate": "2019-11-18",
+    "firstPostDate": "2019-11-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patient is ≥ 45 years old\n* Patient (or patient's legally authorized representative) is willing and able to provide written informed consent\n* Patient is willing and able to comply with the protocol, including follow-up visits, electronic diary submissions and CareLink transmissions\n* FEV1 (post bronchodilator) ≤ 70% of predicted\n* Current or former smoker with lifetime cigarette consumption of \\> 10 pack-years\n* One COPD exacerbation in the previous 12 months requiring hospitalization, urgent care or emergency department visit for respiratory illness OR Two COPD exacerbations within the previous 12 months requiring antibiotics and/or corticosteroids for respiratory symptoms.\n* The patient's medical records must be accessible by the enrolling site over the follow-up period\n\nExclusion Criteria:\n\n* Less than 30 days from diagnosis of a COPD exacerbation as defined as taking antibiotics and/or corticosteroids for respiratory symptoms, hospitalization, urgent care or emergency department visit for respiratory illness.\n* Less than 30 days from diagnosis of a HF event as defined as any cardiovascular-related (including hypervolemia) Health Care Utilizations (HCUs) for any one of the following events:\n\n  * Admission with primary diagnosis of HF\n  * Intravenous HF therapy (e.g. IV diuretics/vasodilators) or ultrafiltration at any one of the following settings:\n\n    * Admission with secondary/tertiary diagnosis of HF\n    * Emergency Department\n    * Ambulance\n    * Observation Unit\n    * Urgent Care\n    * HF/Cardiology Clinic\n* Active respiratory infection being treated with antibiotics and/or corticosteroids\n* Class IV heart failure\n* Clinical diagnosis of unstable angina, bronchiectasis, or cystic fibrosis\n* Any concomitant condition that might endanger the patient through participation in the study or interfere with study procedures, as assessed by the investigator\n* Patient is pregnant (all females of child-bearing potential must have a negative pregnancy test within 1 week of enrollment)\n* Patient is enrolled in another study that could confound the results of this study, without documented pre-approval from a Medtronic study manager\n* Patient has an existing or planned implantation of Medtronic IPG, ICD, CRT-D or CRT-P device in the near future\n* Patient has an existing and active insertable cardiac monitor, regardless of manufacturer\n* Concurrent disease with life expectancy less than 1 year",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "45 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "COPD Event",
+        "description": "Incidence of first COPD event",
+        "timeFrame": "from subject randomization until 12 month follow-up"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:25.980Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

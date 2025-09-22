@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT02165605",
+  "briefTitle": "HylaCare in the Treatment of Acute Skin Changes in Patients Undergoing Radiotherapy for Breast Cancer",
+  "officialTitle": "Randomized, Double-Blind, Vehicle-Controlled Pilot Study of the Efficacy and Safety of HylaCareTM in the Treatment of Acute Skin Changes in Patients Undergoing External Beam Radiotherapy for Tumors of the Breast.",
+  "protocolDocument": {
+    "nctId": "NCT02165605",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2014-05-07",
+    "uploadDate": "2020-09-18T17:30",
+    "size": 871897,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02165605/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 28,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-08",
+    "completionDate": "2015-12",
+    "primaryCompletionDate": "2015-11",
+    "firstSubmitDate": "2013-12-19",
+    "firstPostDate": "2014-06-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Female, age 18 or older\n* Diagnosis of breast cancer\n* Intact breast (not surgically absent)\n* Planned fractionated external beam radiotherapy to be delivered by opposing, tangential beams to 50.4 Gy in 28 fractions with a planned photon or electron boost of 10Gy in 5 fractions (for a total of 33 fractions)\n* Ability to understand and comply with the requirements of this study\n* Ability to give Informed Consent\n* For sexually active females, patient agrees to use acceptable method of birth control\n\nExclusion Criteria:\n\n* Women who are pregnant or lactating\n* Use of concomitant skin care preparations at any of the treated or control portal areas to be observed\n* Any infection or unhealed wound of the radiotherapy portal areas, or generalized dermatitis\n* Severe renal failure creatinine \\> 3.0 within 6 months of study registration\n* Allergic history, including anaphylaxis or severe allergies to products in study serum or placebo\n* Planned relocation which would make follow-up visits impossible during the course of the study\n* Collagen vascular disease such as Lupus, or scleroderma",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Acute Skin Toxicity Per NCI-CTC v4.0",
+        "description": "NCI-CTC (National Cancer Institute-Common Terminology Criteria) version 4.0 was used to assessed acute skin toxicity grade by physician. Toxicity grade range from Grade 0 to Grade 5, with higher grade indicating worst skin toxicity.",
+        "timeFrame": "Week 5 during radiation therapy"
+      },
+      {
+        "measure": "Acute Skin Toxicity Per NCI-CTC v4.0",
+        "description": "NCI-CTC(National Cancer Institute-Common Terminology Criteria) version 4.0 was used to assessed acute skin toxicity grade by physician. Toxicity grade range from Grade 0 to Grade 5, with higher grade indicating worst skin toxicity.",
+        "timeFrame": "Week 2 post-radiation therapy"
+      },
+      {
+        "measure": "Acute Skin Toxicity Per Investigator Grading Scale",
+        "description": "Investigator Grading Scale is used to assessed acute skin toxicity. Score range from grade 0 to 6 with 0 = normal skin\n\n1. = light epidermal irritation, consisting of the onset of erythema, possibly associated with slight edema\n2. = erythema with dry desquamation\n3. = wet desquamation \\</= 2 cm\n4. = wet desquamation from 2.1 - 5cm\n5. = wet desquamation from 5.1 - 9 cm\n6. = wet desquamation \\> 9.1 cm",
+        "timeFrame": "Week 5 during radiation therapy"
+      },
+      {
+        "measure": "Acute Skin Toxicity Per Investigator Grading Scale",
+        "description": "Investigator Grading Scale is used to assessed acute skin toxicity. Score range from grade 0 to 6 with\n\n0 = normal skin\n\n1. = light epidermal irritation, consisting of the onset of erythema, possibly associated with slight edema\n2. = erythema with dry desquamation\n3. = wet desquamation \\</= 2 cm\n4. = wet desquamation from 2.1 - 5cm\n5. = wet desquamation from 5.1 - 9 cm\n6. = wet desquamation \\> 9.1 cm",
+        "timeFrame": "Week 2 post-radiation therapy"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Acute Skin Toxicity, as Measured by Number of Participants With Skin Reactions",
+        "description": "Acute skin toxicity, as measured by number of participants with skin reactions via self assessment",
+        "timeFrame": "Week 5 during radiation therapy"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:54.431Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

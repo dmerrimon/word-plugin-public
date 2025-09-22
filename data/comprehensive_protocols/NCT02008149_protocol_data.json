@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02008149",
+  "briefTitle": "FES Rowing for Skeletal Health After SCI",
+  "officialTitle": "Using Musculoskeletal Models to Assess FES Rowing for Skeletal Health After SCI",
+  "protocolDocument": {
+    "nctId": "NCT02008149",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2015-09-02",
+    "uploadDate": "2019-10-02T17:03",
+    "size": 1133941,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02008149/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-11-01",
+    "completionDate": "2018-12-04",
+    "primaryCompletionDate": "2018-12-04",
+    "firstSubmitDate": "2013-11-27",
+    "firstPostDate": "2013-12-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nSubjects in the rowing groups:\n\n* male and female SCI outpatients or inpatients\n* have a C7 to T12, ASIA-A or ASIA-B, spinal cord injury\n* be at least 18 years old\n* have their physician's clearance to exercise\n* between 3 and 24 months post spinal cord injury\\*\n* minimum passive hip flexion range of motion (ROM) from 20 to 100 deg\n* minimum passive knee flexion ROM from 20 to 100 deg\n* minimum passive ankle ROM from +10 deg (dorsi-flexion) to -15 deg (plantar-flexion)\n* currently use a manual wheelchair\n* be able to perform independent and safe transfers to and from their wheelchair \\*There is no time post injury restriction for subjects in the experience rower group\n\nSubjects in the control group:\n\n* male and female SCI outpatients or inpatients\n* have a C5 to T12, ASIA-A or ASIA-B, spinal cord injury\n* be at least 18 years old\n* between 3 and 24 months post spinal cord injury\n* be able to perform safe transfers to and from their wheelchair, either independently or with assistance\n\nExclusion Criteria:\n\n* pregnant women\n* women of childbearing potential not practicing a reliable method of contraception\n* women who are post-menopausal\n* have mechanical instability of the spine\n* resting blood pressure higher than 140/90\n* a grade 1 or greater, sacral, gluteal or ischial pressure ulcer\n* history of low trauma, lower limb fracture since SCI\n* renal disease\n* current osteomyelitis\n* current thrombosis/hemorrhage\n* cancer\n* other neurological disease (i.e. stroke, peripheral neuropathy, myopathy)\n* any implanted electronic device\n* active treatment for epilepsy\n* regular use of tobacco\n* known coronary artery disease\n* family history of sudden cardiac death\n* current use of cardioactive medications, e.g., for treatment of congestive heart failure or arrhythmia\n* current use of medications that can affect bone density and fracture risk including:\n\n  * bisphosphonates\n  * parathyroid hormone (PTH) and PTH analogs\n  * androgenic steroids",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Bone Mineral Density",
+        "description": "Bone mineral density at the distal femur at 0, 16, 29 and 43 weeks measured using peripheral quantitative computed tomography scanning.",
+        "timeFrame": "0, 16, 29 and 43 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:02.215Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

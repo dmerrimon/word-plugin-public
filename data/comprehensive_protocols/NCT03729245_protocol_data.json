@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03729245",
+  "briefTitle": "A Study of Bempegaldesleukin (NKTR-214: BEMPEG) in Combination With Nivolumab Compared With the Investigator's Choice of a Tyrosine Kinase Inhibitor (TKI) Therapy (Either Sunitinib or Cabozantinib Monotherapy) for Advanced Metastatic Renal Cell Carcinoma (RCC)",
+  "officialTitle": "A Phase 3 Randomized Open Label Study to Compare NKTR-214 Combined With Nivolumab to the Investigator's Choice of Sunitinib or Cabozantinib in Patients With Previously Untreated Advanced Renal Cell Carcinoma",
+  "protocolDocument": {
+    "nctId": "NCT03729245",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-10-19",
+    "uploadDate": "2023-02-13T19:53",
+    "size": 2472947,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03729245/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 623,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-12-18",
+    "completionDate": "2022-10-19",
+    "primaryCompletionDate": "2022-01-07",
+    "firstSubmitDate": "2018-10-29",
+    "firstPostDate": "2018-11-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Provide written, informed consent to participate in the study and follow the study procedures\n* Karnofsky Performance Status (KPS) of at least 70%\n* Measurable disease per mRECIST 1.1 criteria\n* Histologically confirmed RCC with a clear-cell component (may have sarcomatoid features); advanced (not amenable to curative surgery or radiation therapy) or metastatic (AJCC Stage IV) RCC\n* Patients with any International Metastatic Renal Cell Carcinoma Database Consortium (IMDC) score (favorable-, intermediate-, or poor-risk) are eligible. At least one IMDC prognostic factor must be present to qualify as either intermediate- or poor-risk renal cell carcinoma.\n* No prior systemic therapy (including neoadjuvant, adjuvant, or vaccine therapy) for RCC\n\nKey Exclusion Criteria:\n\n* An active, known or suspected autoimmune disease that has required systemic treatment within the past 3 months (exceptions exist)\n* Patients who have a known additional malignancy that is progressing or requires active treatment (exceptions exist)\n* Any tumor invading the wall of a major blood vessels\n* Any tumor invading the gastrointestinal (GI) tract or any evidence of endotracheal or endobronchial tumor within 28 days prior to randomization\n* Need for \\>2 medications for management of hypertension (including diuretics)\n* History of pulmonary embolism, deep vein thrombosis (not including tumor thrombus), or clinically significant thromboembolic event within 3 months of randomization\n\nAdditional protocol defined inclusion/exclusion criteria and exceptions apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Objective Response Rate (ORR) Per mRECIST 1.1 by BICR in IMDC All-risk Patients and Intermediate- or Poor (I/P)-Risk Patients With Previously Untreated Advanced RCC",
+        "description": "ORR using modified Response Evaluation Criteria in Solid Tumors (mRECIST) 1.1 by Blinded Independent Central Review (BICR) in International Metastatic Renal Cell Carcinoma Database Consortium (IMDC) All-risk patients and intermediate- or poor-risk patients.\n\nORR is defined as the proportion of enrolled participants who achieved a Best Overall Response (BOR) of Complete Response (CR) or Partial Response (PR). CR is defined as disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) had to have reduction in short axis to \\<10 mm. PR is defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters. ORR is calculated as the sum of CR and PR.",
+        "timeFrame": "Approximately 32 months"
+      },
+      {
+        "measure": "Overall Survival (OS) in IMDC All-Risk and Intermediate- or Poor-risk Patients With Previously Untreated Advanced RCC",
+        "description": "OS is defined as the time from date of first dose to the date of death from any cause. Patients without a date of death were censored at their last known alive date.",
+        "timeFrame": "Approximately 32 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Progression Free Survival (PFS) Per mRECIST 1.1 by BICR in IMDC All-risk Patients and Intermediate- or Poor (I/P)-Risk Patients With Previously Untreated Advanced RCC",
+        "description": "Progression-free survival is defined as the time between the date of randomization and the first date of documented tumor progression using mRECIST 1.1 per BICR or death due to any cause, whichever comes first.",
+        "timeFrame": "Approximately 32 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:07.145Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT04633551",
+  "briefTitle": "Vascular Inflammation and Anti-inflammatory Supplements After Adverse Pregnancy Outcomes",
+  "officialTitle": "Supplements to Improve Vascular Inflammation After an Adverse Pregnancy Outcome",
+  "protocolDocument": {
+    "nctId": "NCT04633551",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-11-13",
+    "uploadDate": "2022-10-04T09:55",
+    "size": 159742,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04633551/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-01",
+    "completionDate": "2022-05-30",
+    "primaryCompletionDate": "2021-06-30",
+    "firstSubmitDate": "2020-11-06",
+    "firstPostDate": "2020-11-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Had a singleton pregnancy in the past 3 years that lasted 20 weeks or more\n* Most recent pregnancy was complicated by an APO\n\nExclusion Criteria:\n\n* currently pregnant or breastfeeding,\n* current smoking,\n* active cancer,\n* regular use of NSAIDs, steroidal medications, statins, or other anti-inflammatory supplements,\n* HIV/AIDS,\n* uncontrolled high blood pressure ( \\>160/\\>110 mmHg),\n* unwilling or unable to use a dietary supplement,\n* known sensitivity to resveratrol, curcumin, green tea, or quercetin",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "45 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Blood Pressure (mmHg)",
+        "description": "Investigators will measure blood pressure in the arm and use applanation tonometry to estimate aortic blood pressure",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Arterial Stiffness (m/s)",
+        "description": "Arterial stiffness will be measured with pulse wave velocity using applanation tonometry and heart rate",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Augmentation Index (%)",
+        "description": "Applanation tonometry will be used to describe systolic blood pressure augmentation, a measure of arterial wave reflection intensity.",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Endothelial Function (Reactive Hyperemia)",
+        "description": "Venous occlusion plethysmography will be used to mease the change in forearm blood flow after a 5-min occlusion",
+        "timeFrame": "1 month"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Inflammatory Vascular Biomarkers (pg/dL)",
+        "description": "concentrations of circulating adhesion molecules ICAM and VCAM",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Acceptability of Intervention (Likert Scales From 1-5; Not Likely at All to Extremely Likely and Free Text Fields)",
+        "description": "Surveys regarding opinion and likelihood of taking supplements. Here we report the number of participants who thought supplements were somewhat or extremely useful (Likert score of 4-5) for improving health.",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Perception of Intervention (15-20 Minute Interview)",
+        "description": "Interviews will be used to determine barriers and facilitators of adherence. We report number of participants who were happy with contact with study team for adherence reminders.",
+        "timeFrame": "1 month"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:13.631Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

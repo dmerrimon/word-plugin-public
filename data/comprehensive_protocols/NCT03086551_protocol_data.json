@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03086551",
+  "briefTitle": "Modulating Interaction of Motor Learning Networks in Rehabilitation of Stroke",
+  "officialTitle": "Modulating Interaction of Motor Learning Networks in Rehabilitation of Stroke",
+  "protocolDocument": {
+    "nctId": "NCT03086551",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-01-10",
+    "uploadDate": "2020-03-12T10:12",
+    "size": 320809,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03086551/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-04-01",
+    "completionDate": "2019-03-30",
+    "primaryCompletionDate": "2019-03-30",
+    "firstSubmitDate": "2017-03-16",
+    "firstPostDate": "2017-03-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age between 50-75 years\n2. movement-related deficit associated with first time middle cerebral artery stroke\n3. greater than 6-months post-stroke\n4. Fugl-Meyer score between 15 and 60\n5. ability to elicit a motor evoked potential from the ipsilesional cortex\n\nExclusion Criteria:\n\n1. a score \\<27 on the Mini-Mental Status Exam\n2. a score of \\<123 on the Mattis Dementia Rating Scale\n3. a score of \\<13 on the Frenchay Aphasia Screen\n4. a history of seizure/epilepsy, head trauma, major psychiatric diagnosis, neurodegenerative disorder or substance abuse\n5. a history of congestive heart failure\n6. systolic blood pressure above 120 mmHg and/or diastolic pressure above 80 mmHg\n7. the taking of any GABAergic, NMDA-receptor antagonist or other drug known to influence the neural receptors that facilitate neural plasticity\n8. an infarct resulting from ischemic stroke of anterior or posterior cerebral artery OR an infarct that encroaches within 2cm of the site of cTBS stimulation\n9. absence of an MEP in response to single pulse transcranial magnetic stimulation over ipsilesional M1 and 10) any other contraindication to TMS or MRI.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Sequential Response Time to Post-Intervention",
+        "description": "Aggregate time to complete movements between a six sequential targets presented on a computer touch screen in front of the participant. The mean of ten sequences was calculated prior to any practice and at a delayed retention test (e.g. no warm up or preceding practice) post-intervention. Change between the baseline average and post-intervention average was also calculated by subtracting post-intervention score from pre-intervention score. Positive numbers represent improvement in ability.",
+        "timeFrame": "Baseline and post-intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Time to Complete the Jebsen-Taylor Hand Function Test",
+        "description": "The Jebsen-Taylor Hand Function Test is comprised of a series of unimanual tasks required for activities of daily living. Time to complete the Jebsen-Taylor Hand Function Test was assessed at baseline and post-intervention by taking the aggregate time to complete each activity. Change in time to complete the Jebsen-Taylor Hand Function Test between the baseline and post-intervention tests was derived by subtracting post-intervention score from baseline score. Positive scores indicate improvement in functional motor ability.",
+        "timeFrame": "Baseline and post-intervention"
+      },
+      {
+        "measure": "Change in Sequential Response Time Immediately Follow an Individual Bout of Non-invasive Brain Stimulation (e.g. Within Session)",
+        "description": "Aggregate time to complete movements between a six sequential targets presented on a computer touch screen in front of the participant. The mean of ten sequences was calculated prior to application of Active+Motor Practice or Sham+Motor Practice for each intervention session and the first ten sequences of practice immediately following the specific form of non-invasive brain stimulation within each session. Change within a session was calculated by subtracting the post-stimulation score from the pre-stimulation score within a session. Positive values represent improved ability.",
+        "timeFrame": "Within session baseline to ~8 minutes post-application of non-invasive stimulation within the same session"
+      },
+      {
+        "measure": "Motor Evoked Potential Amplitude (in Microvolts) at Pre-baseline and Post-Intervention",
+        "description": "Motor evoked potential amplitude evoked by transcranial magnetic brain stimulation was recorded using electromyography over the first dorsal interosseous muscle of the stroke-affected hand. The means of ten trials at 120% (linear part of recruitment curve) and ten trials at 150% (recruitment curve plateau) of resting motor threshold were calculated and expressed in microvolts.",
+        "timeFrame": "Baseline and post-intervention"
+      },
+      {
+        "measure": "Change From Baseline in Cortical Excitability Post-Intervention",
+        "description": "Motor evoked potential amplitude evoked by transcranial magnetic brain stimulation was recorded using electromyography over the first dorsal interosseous muscle of the stroke-affected hand. The means of ten trials at 120% (linear part of recruitment curve) and ten trials at 150% (recruitment curve plateau) of resting motor threshold were calculated and expressed in microvolts. Change in motor evoked potential amplitude elicited by transcranial magnetic stimulation intensities of 120% (linear part of recruitment curve) and ten trials at 150% (recruitment curve plateau) of resting motor threshold. Values are expressed percent change relative to pre-baseline values. Positive numbers represent an increase motor evoked potential from pre-baseline to post-intervention.",
+        "timeFrame": "Baseline and post-intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:29.141Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

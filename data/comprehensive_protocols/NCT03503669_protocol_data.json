@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03503669",
+  "briefTitle": "Reducing Risk for Alzheimer's Disease in High-Risk Women Through Yogic Meditation Training",
+  "officialTitle": "Reducing Risk for Alzheimer's Disease in High-Risk Women Through Yogic Meditation Training",
+  "protocolDocument": {
+    "nctId": "NCT03503669",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-04-09",
+    "uploadDate": "2022-04-06T16:19",
+    "size": 1701373,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03503669/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-05-01",
+    "completionDate": "2021-02-01",
+    "primaryCompletionDate": "2021-01-08",
+    "firstSubmitDate": "2018-04-11",
+    "firstPostDate": "2018-04-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Amnestic MCI, as defined by a Clinical Dementia Rating Scale score of .5.\n2. High cardiovascular risk defined as at least one of the following:\n\n   * 7.5 percentile risk or higher using ASCVD risk calculator\n   * Myocardial Infarction more than 6 months ago\n   * Diabetes\n   * Taking medication for blood pressure \\> 140/90 blood pressure\n   * Taking medication for lyperlipidemia LDL \\>160\n3. Sufficient English proficiency and the 8th grade or higher reading level as determined by the word reading subtest of the Wide Range Achievement Test-IV (this criterion is necessary in order to ensure ability to participate in MET, which involves reading and writing and has a Flesch-Kinkaid school equivalency of 7th grade)\n4. Capacity to provide informed consent\n\nExclusion Criteria:\n\n1. History of psychosis, bipolar disorder, alcohol/ drug dependence, or neurological disorder\n2. Recent (within three months) surgery, anticipated surgery within next year, or unstable medical condition\n3. Any disability preventing participation in MET or KK+KY (e.g., severe visual or hearing impairment)\n4. Insufficient English proficiency to participate in either MET or KK+KY\n5. Diagnosis of dementia\n6. Mini Mental Health Examination score of 23 or below\n7. Currently taking any psychoactive medication\n8. Participation in a psychotherapy that involves cognitive training\n9. Practice of Kundalini Yoga or Kirtan Kriya within the past year\n10. Myocardial Infarction within the past 6 months",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "50 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Hopkins Verbal Learning Test (HVLT) Total Recall Score",
+        "description": "Verbal memory was measured with the Hopkins Verbal Learning Test (HVLT) total recall scores. The HVLT form contains 12 nouns, four words each from one of three semantic categories (e.g., precious gems, articles of clothing, vegetables, etc.), to be learned over the course of three learning trials. When scoring the HVLT, the three learning trials are combined to calculate a total recall score. Total scores range from 0-36 with higher scores indicating better outcome.",
+        "timeFrame": "Measured at Baseline and Week 24"
+      },
+      {
+        "measure": "Change in Delayed Recall Cognitive Domain Scores",
+        "description": "Delayed Recall Cognitive Domain score was constructed from: HVLT Delayed Recall, Rey-Osterrieth Complex Figure Test \\[30-minute Delayed Recall\\], WMS-IV Logical Memory II Delayed Recall.\n\nRaw scores were transformed to z-scores (with a mean of 0 and standard deviation of 1) for each test score of interest across all participants. A z-score of 0 represents the sample mean. These z-scores were then averaged to produce a Delayed Recall Cognitive Domain score. Higher Delayed Recall Cognitive Domain scores are indicative of better performance.",
+        "timeFrame": "Measured at Baseline and Week 24"
+      },
+      {
+        "measure": "Change in Executive Function Cognitive Domain Scores",
+        "description": "Executive Function Cognitive Domain score was constructed from:\n\nTrail Making Test A and B, Stroop Interference \\[Golden version\\] and FAS.\n\nRaw scores were transformed to z-scores (with a mean of 0 and standard deviation of 1) for each test score of interest across all participants. A z-score of 0 represents the sample mean. These z-scores were then averaged to produce an Executive Function Cognitive Domain score. Higher Executive Function Cognitive Domain scores are indicative of better performance.",
+        "timeFrame": "Measured at Baseline and Week 24"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Memory Functioning Questionnaire (MFQ) Scale",
+        "description": "Secondary outcome measures included the Memory Functioning Questionnaire (MFQ), a self-assessment scale. The MFQ is a scale that assesses subjective memory complaints. We will use the following MFQ subscales: General Frequency of Forgetting (MFQ factor 1), Seriousness of Forgetting (MFQ factor 2), and Retrospective Functions (MSQ factor 3). Each item is scored from 1 to 7 with higher scores indicating a higher level of perceived memory functioning. MSQ factor 1 (33 items) ranges from 7 to 231, MFQ factor 2 (18 items) ranges from 7-126 and MSQ factor 3 (5 items) ranges from 7 to 35.",
+        "timeFrame": "Measured at Baseline and Week 24, change from baseline to week 24 is reported."
+      },
+      {
+        "measure": "Change in Medical Outcomes Study Short Form 36-Item Health Survey (SF-36)",
+        "description": "Health-Related quality of life will be determined using the Medical Outcomes Study Short Form 36-Item Health Survey (SF-36) which comprises 8 scales: physical functioning, role limitations - physical, role limitations - emotional, energy, emotional well-being, social functioning, pain, and general health. Scales are scored from 0 to 100 with higher scores indicating higher quality of life.",
+        "timeFrame": "Measured at Baseline and Week 24, change from baseline to week 24 is reported."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.117Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

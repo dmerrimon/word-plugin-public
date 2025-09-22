@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT04064567",
+  "briefTitle": "Linking High-Risk Jail Detainees to HIV Pre-Exposure Prophylaxis: PrEP-LINK",
+  "officialTitle": "Linking High-Risk Jail Detainees to HIV Pre-Exposure Prophylaxis: PrEP-LINK",
+  "protocolDocument": {
+    "nctId": "NCT04064567",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-06-08",
+    "uploadDate": "2025-04-16T11:56",
+    "size": 1122816,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04064567/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-30",
+    "completionDate": "2024-04-30",
+    "primaryCompletionDate": "2024-04-30",
+    "firstSubmitDate": "2019-08-14",
+    "firstPostDate": "2019-08-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age greater than or equal to 18 at study enrollment\n2. Able to understand and speak English and to provide written and verbal informed consent.\n3. Able to provide reliable pieces of locator information (e.g. mailing address, phone number, email address, places frequently visited, etc.)\n4. HIV negative confirmed through an on-site rapid HIV test;\n5. Recently released from the Pulaski County Regional Detention Facility into the community and not into another detention facility or recently released (within 30 days) from a correctional facility and residing in Central Arkansas.\n6. At substantial risk for HIV as determined by CDC/WHO PrEP guidelines, which includes engaging in any of the following behaviors in the last six months:\n\n   * Having condomless vaginal or anal sex with more than one partner,\n   * Having a sex partner with one or more HIV risk (e.g. PWID, a sex worker),\n   * Being diagnosed with a STI,\n   * Reporting history of sharing injection material/equipment, or\n   * Having a sexual partner who is HIV positive.\n\nExclusion Criteria:\n\n* Potential participants unable to provide informed consent, including people with severe mental illness requiring immediate treatment or with mental illness limiting their ability to participate (e.g., dementia), will be excluded.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Satisfaction of the Utilization of the CHW to Aid in Accessing PrEP Assessed by the Client Satisfaction Questionnaire-Revised",
+        "description": "The acceptability of the intervention will be determined with descriptive statistics of the participants' acceptability ratings, including whether they think the intervention is acceptable. Acceptability is defined as \\> 80% of participants expressing high satisfaction with the intervention based on the Client Satisfaction Questionnaire - Revised (CSQ-8). The CSQ-8 is scored using a scale which ranges from 8-32, with a higher number indicating greater satisfaction.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Rate of PrEP Uptake Among Participants Based on Medical Chart Review",
+        "description": "The preliminary efficacy of the intervention will be determined by assessing the primary outcome of PrEP uptake by looking at the medical charts of the participants. A secondary outcome will be PrEP adherence defined by participants who were adherent to the medication determined by self-report at 6, and 12 months.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Rate of PrEP Adherence and Retention Based on Self-reported Surveys (PrEP-Use, PrEP-Attitude, PrEP-Adherence)",
+        "description": "A secondary outcome will be PrEP adherence defined by participants who were adherent to the medication determined by self-report at 6, and 12 months.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:20.836Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

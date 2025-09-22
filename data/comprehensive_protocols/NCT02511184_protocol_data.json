@@ -1,0 +1,228 @@
+{
+  "nctId": "NCT02511184",
+  "briefTitle": "Crizotinib Plus Pembrolizumab In Alk-Positive Advanced Non Small Cell Lung Cancer Patients",
+  "officialTitle": "A PHASE 1B STUDY OF CRIZOTINIB IN COMBINATION WITH PEMBROLIZUMAB (MK-3475) IN PATIENTS WITH UNTREATED ADVANCED ALK-TRANSLOCATED NON SMALL CELL LUNG CANCER",
+  "protocolDocument": {
+    "nctId": "NCT02511184",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2015-04-22",
+    "uploadDate": "2018-12-04T13:24",
+    "size": 3602275,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02511184/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-10",
+    "completionDate": "2017-12",
+    "primaryCompletionDate": "2017-12",
+    "firstSubmitDate": "2015-07-22",
+    "firstPostDate": "2015-07-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologically or cytologically proved diagnosis of locally advanced recurrent or metastatic non-squamous NSCLC that is not suitable for local curative treatment.\n* Alk-positive NSCLC as determined by a test that is approved or validated for use as a companion diagnostic test.\n* No prior systemic therapy for metastatic disease.\n* Adjuvant chemotherapy more than 12 months prior to study enrollment.\n* Measurable disease as per RECIST 1.1\n* ECOG PS 0 or 1.\n\nExclusion Criteria:\n\n* Prior exposure to ALK receptor tyrosine kinase inhibitor, anti-PD1, anti-PDL1 or any drug targeting T-cell checkpoint pathways.\n* known diagnosis of immunodeficiency or is receiving systemic steroid therapy or other form of immunosuppressive therapy within 7 days of clinical trial treatment.\n* Active autoimmune disease that has required systemic treatment in the past 3 months.\n* History of extensive disseminated interstitial fibrosis or any grade of interstitial lung disease.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Dose-limiting Toxicity (DLT)",
+        "description": "Dose-limiting toxicity (DLT) was defined as any of the following adverse events (AEs) occurring in the first 2 cycles of treatment (6 weeks) which were attributable to crizotinib, pembrolizumab or both: hematologic toxicities including Grade 4 neutropenia, febrile neutropenia, Grade greater than or equal to (\\>=) 3 neutropenic infection, Grade \\>=3 thrombocytopenia with bleeding; Grade 4 thrombocytopenia; non-hematologic toxicities including Grade \\>=3 toxicities (non-laboratory), Grade \\>=3 nausea, vomiting, or diarrhea despite maximal therapy, non-hematologic Grade \\>=3 laboratory value if medical intervention was required to treat the participant or the abnormality led to hospitalization; inability to complete at least 80 percent of the first 2-cycle doses of crizotinib or both infusions of pembrolizumab within the DLT observation period due to treatment-related toxicity. Grade was based on National Cancer Institute Common Terminology Criteria for AEs (NCI CTCAE) version 4.03.",
+        "timeFrame": "6 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Treatment-Emergent Adverse Events",
+        "description": "AE was defined as any untoward medical occurrence in a clinical investigation participant administered a product or medical device, regardless of the causal relationship to study treatment. Treatment-emergent AEs (TEAEs) were defined as AEs which occurred for the first time during the effective duration of treatment or AEs that increased in severity during treatment. Serious AEs (SAEs) were defined as any untoward medical occurrence at any dose that resulted in death; was life-threatening (immediate risk of death); required inpatient hospitalization or caused prolongation of existing hospitalization; resulted in persistent or significant disability/incapacity (substantial disruption of the ability to conduction normal life functions). AEs included SAEs and non-serious AEs. Causality to study treatment was determined by the investigator. Severity was graded according to National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 4.03.",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Objective Response Rate (ORR)",
+        "description": "ORR refers to percentage of participants who achieved complete response (CR) or partial response (PR) in accordance with Response Evaluation Criteria in Solid Tumors (RECIST) v 1.1. A participant achieved CR if both target and non-target lesions achieved CR, no new lesions; achieved PR if target lesions achieved CR or PR, non-target lesions were assessed as non-CR/non-progressive disease (PD) or not evaluated, and no new lesions. For target lesions, CR: complete disappearance of all target lesions; PR: \\>= 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters. For non-target lesions, CR: disappearance of all non-target lesions and normalization of tumor marker levels and all lymph nodes must be non-pathological in size; non-CR/non-PD: persistence of any non-target lesions and/or tumor marker level above the normal limits.",
+        "timeFrame": "Baseline, Week 9 and every 6 weeks thereafter, for about 2 years"
+      },
+      {
+        "measure": "Duration of Response",
+        "description": "Duration of Response (DR) was defined as the time from first documentation of objective tumor response (CR or PR) that was subsequently confirmed, to the first documentation of objective tumor progression or to death on study due to any cause, whichever occurred first.",
+        "timeFrame": "Baseline, Week 9 and every 6 weeks thereafter, for about 2 years"
+      },
+      {
+        "measure": "Time to Tumor Response",
+        "description": "Time to Tumor Response (TTR) was defined as the time from the first dose of crizotinib or pembrolizumab to the first documentation of objective tumor response (CR or PR) that was subsequently confirmed.",
+        "timeFrame": "Baseline, Week 9 and every 6 weeks thereafter, for about 2 years"
+      },
+      {
+        "measure": "Progression Free Survival",
+        "description": "Progression Free Survival (PFS) was defined as the time from the first dose of crizotinib or pembrolizumab to the first documentation of objective tumor progression or death on-study due to any cause, whichever occurred first. For participants who did not have documented objective progression during the study or were alive at last contact, the date of last contact was used.",
+        "timeFrame": "Baseline, Week 9 and every 6 weeks thereafter, for about 2 years"
+      },
+      {
+        "measure": "6-Month, 12-Month and 18-Month Progression Free Survival Probabilities",
+        "description": "PFS probabilities were defined as the probability of being alive and progression free at 6, 12 and 18 months after the date of first dose based on the Kaplan Meier estimate.",
+        "timeFrame": "Month 6, Month 12, and Month 18"
+      },
+      {
+        "measure": "Overall Survival",
+        "description": "Overall Survival (OS) was defined as the time from the first dose of crizotinib or pembrolizumab to the date of death due to any cause. For participants who were alive at last contact, the date of last contact was used.",
+        "timeFrame": "Day 1 to end of study (for about 2 years)"
+      },
+      {
+        "measure": "12-Month and 18-Month Overall Survival Probabilities",
+        "description": "OS probabilities were defined as the probability of being alive at 12 and 18 months after the date of first dose based on the Kaplan Meier estimate.",
+        "timeFrame": "Month 12 and Month 18"
+      },
+      {
+        "measure": "Number of Participants With Maximum Grade in Laboratory Hematology Test Shifting From Grade 0, 1 or 2 at Baseline to Grade 3 or 4 During Treatment",
+        "description": "Hematology evaluation included hemoglobin, platelets, white blood cell, absolute neutrophils, absolute lymphocytes, absolute monocytes, absolute eosinophils, and absolute basophils. Hematology test results were graded by NCI CTCAE version 4.03.",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Number of Participants With Maximum Grade in Laboratory Chemistry Test Shifting From Grade 0, 1 or 2 at Baseline to Grade 3 or 4 During Treatment",
+        "description": "Chemistry evaluation included alanine aminotransferase, aspartate aminotransferase, alkaline phosphatase, sodium, potassium, magnesium, chloride, total calcium, total bilirubin, blood urea nitrogen or urea, creatinine, uric acid, glucose, albumin, phosphorous or phosphate, thyroid function tests including thyroid-stimulating hormone, T3 and free T4. Chemistry test results were graded by NCI CTCAE version 4.03.",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Plasma Concentration Summary of Crizotinib for \"Crizotinib + Pembrolizumab\" Group",
+        "timeFrame": "Prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28 to 35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Plasma Concentration Summary of Crizotinib for \"Crizotinib Monotherapy Followed by Crizotinib + Pembrolizumab\" Group",
+        "timeFrame": "Pre-dose, and 1, 2, 4, 6 and 8 hours post-dose on Day 15 of monotherapy and on Day 1 of Cycle 6; prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28-35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Time to Maximum Plasma Concentration (Tmax) of Crizotinib for \"Crizotinib + Pembrolizumab\" Group",
+        "timeFrame": "Prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28 to 35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Time to Maximum Plasma Concentration (Tmax) of Crizotinib for \"Crizotinib Monotherapy Followed by Crizotinib + Pembrolizumab\" Group",
+        "timeFrame": "Pre-dose, and 1, 2, 4, 6 and 8 hours post-dose on Day 15 of monotherapy and on Day 1 of Cycle 6; prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28-35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Area Under the Plasma Concentration Time Curve From 0 to 8 Hours (AUC0-8) of Crizotinib for \"Crizotinib + Pembrolizumab\" Group",
+        "timeFrame": "Prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28 to 35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Area Under the Plasma Concentration Time Curve From 0 to 8 Hours (AUC0-8) of Crizotinib for \"Crizotinib Monotherapy Followed by Crizotinib + Pembrolizumab\" Group",
+        "timeFrame": "Pre-dose, and 1, 2, 4, 6 and 8 hours post-dose on Day 15 of monotherapy and on Day 1 of Cycle 6; prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28-35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Area Under the Plasma Concentration Time Curve Over the Dosing Interval (AUCtau) of Crizotinib for \"Crizotinib + Pembrolizumab\" Group",
+        "timeFrame": "Prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28 to 35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Area Under the Plasma Concentration Time Curve Over the Dosing Interval (AUCtau) of Crizotinib for \"Crizotinib Monotherapy Followed by Crizotinib + Pembrolizumab\" Group",
+        "timeFrame": "Pre-dose, and 1, 2, 4, 6 and 8 hours post-dose on Day 15 of monotherapy and on Day 1 of Cycle 6; prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28-35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Apparent Plasma Clearance (CL/F) of Crizotinib for \"Crizotinib + Pembrolizumab\" Group",
+        "timeFrame": "Prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28 to 35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Apparent Plasma Clearance (CL/F) of Crizotinib for \"Crizotinib Monotherapy Followed by Crizotinib + Pembrolizumab\" Group",
+        "timeFrame": "Pre-dose, and 1, 2, 4, 6 and 8 hours post-dose on Day 15 of monotherapy and on Day 1 of Cycle 6; prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28-35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Plasma Concentration Summary of PF-06260182 for \"Crizotinib + Pembrolizumab\" Group",
+        "description": "PF-06260182 is a metabolite of crizotinib.",
+        "timeFrame": "Prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28 to 35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Plasma Concentration Summary of PF-06260182 for \"Crizotinib Monotherapy Followed by Crizotinib + Pembrolizumab\" Group",
+        "description": "PF-06260182 is a metabolite of crizotinib.",
+        "timeFrame": "Pre-dose, and 1, 2, 4, 6 and 8 hours post-dose on Day 15 of monotherapy and on Day 1 of Cycle 6; prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28-35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Time to Maximum Plasma Concentration (Tmax) of PF-06260182 for \"Crizotinib + Pembrolizumab\" Group",
+        "description": "PF-06260182 is a metabolite of crizotinib.",
+        "timeFrame": "Prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28 to 35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Time to Maximum Plasma Concentration (Tmax) of PF-06260182 for \"Crizotinib Monotherapy Followed by Crizotinib + Pembrolizumab\" Group",
+        "description": "PF-06260182 is a metabolite of crizotinib.",
+        "timeFrame": "Pre-dose, and 1, 2, 4, 6 and 8 hours post-dose on Day 15 of monotherapy and on Day 1 of Cycle 6; prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28-35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Area Under the Plasma Concentration Time Curve Over the Dosing Interval (AUCtau) of PF-06260182 for \"Crizotinib + Pembrolizumab\" Group",
+        "description": "PF-06260182 is a metabolite of crizotinib.",
+        "timeFrame": "Prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28 to 35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Area Under the Plasma Concentration Time Curve Over the Dosing Interval (AUCtau) of PF-06260182 for \"Crizotinib Monotherapy Followed by Crizotinib + Pembrolizumab\" Group",
+        "description": "PF-06260182 is a metabolite of crizotinib.",
+        "timeFrame": "Pre-dose, and 1, 2, 4, 6 and 8 hours post-dose on Day 15 of monotherapy and on Day 1 of Cycle 6; prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28-35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Metabolite (PF-06260182) to Parent (Crizotinib) AUCtau Ratio for \"Crizotinib + Pembrolizumab\" Group",
+        "description": "PF-06260182 is a metabolite of crizotinib.",
+        "timeFrame": "Prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28 to 35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Metabolite (PF-06260182) to Parent (Crizotinib) AUCtau Ratio for \"Crizotinib Monotherapy Followed by Crizotinib + Pembrolizumab\" Group",
+        "description": "PF-06260182 is a metabolite of crizotinib.",
+        "timeFrame": "Pre-dose, and 1, 2, 4, 6 and 8 hours post-dose on Day 15 of monotherapy and on Day 1 of Cycle 6; prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28-35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Metabolite (PF-06260182) to Parent (Crizotinib) Concentration Ratio for \"Crizotinib + Pembrolizumab\" Group",
+        "description": "PF-06260182 is a metabolite of crizotinib.",
+        "timeFrame": "Prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28 to 35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Metabolite (PF-06260182) to Parent (Crizotinib) Concentration Ratio for \"Crizotinib Monotherapy Followed by Crizotinib + Pembrolizumab\" Group",
+        "description": "PF-06260182 is a metabolite of crizotinib.",
+        "timeFrame": "Pre-dose, and 1, 2, 4, 6 and 8 hours post-dose on Day 15 of monotherapy and on Day 1 of Cycle 6; prior to crizotinib morning dose on Day 1 of Cycles 1, 2, 4, 6, and 8, and at the End of Treatment visit (28-35 days after the last dose of study treatment)"
+      },
+      {
+        "measure": "Serum Concentration of Pembrolizumab",
+        "timeFrame": "Prior to and at end of pembrolizumab infusion, 120 hours and 336 hours post Day 1 dosing of Cycle 1; pre-dose on Day 1 of Cycles 2, 4,6, 8, 12 and 16; end of Day 1 dosing of Cycle 8; End of Treatment visit"
+      },
+      {
+        "measure": "Number of Participants With Programmed Death Receptor-1 Ligand-1 (PD-L1) Expression Level Meeting Pre-defined Criteria",
+        "description": "Archived formalin-fixed, paraffin-embedded tumor issue block was collected at screening. PD-L1 assessment was performed using immunohistochemistry. A sample was considered negative if tumor proportion score was less than 1%; positive if tumor proportion score was greater than or equal to 1%; strong positive if tumor proportion score was greater than or equal to 50%.",
+        "timeFrame": "Screening"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 32,
+      "otherCount": 0,
+      "totalCount": 33
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:05.502Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

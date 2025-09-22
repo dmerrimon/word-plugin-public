@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT04153409",
+  "briefTitle": "A Proof of Concept Study of the Efficacy and Safety of Oral LAT8881 in Acute Migraine",
+  "officialTitle": "A Proof of Concept Study of the Efficacy and Safety of Oral LAT8881 in Acute Migraine",
+  "protocolDocument": {
+    "nctId": "NCT04153409",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-07-25",
+    "uploadDate": "2021-03-03T04:51",
+    "size": 1085608,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04153409/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 21,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-24",
+    "completionDate": "2020-04-10",
+    "primaryCompletionDate": "2020-02-15",
+    "firstSubmitDate": "2019-11-04",
+    "firstPostDate": "2019-11-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Males or females aged 18 to 75 years at the time of consent\n2. Diagnosis of episodic migraine headache at least 12 months ago with or without aura as defined in International Classification of Headache-3\n3. Onset of migraine headache before age 50\n4. Medical history of 2 - 8 migraine headache attacks per month for the previous 12 months; ≥ 75% of attacks progress to moderate or severe pain within 2 hours (ie, rapidly-escalating)\n5. Minimum 48 hours on average between migraine headache attacks\n6. Acute headache medication on ≤ 14 days/month in the 3 months prior to screening\n7. Willing and able to comply with all study procedures including completion of a headache diary and a migraine diary on the day of a migraine headache\n\nExclusion Criteria:\n\n1. Unable to distinguish migraine from other primary headache conditions\n2. Average of 15 or more headache (migraine or nonmigraine) days per month or history of more than 25% of headaches occurring at time of wakening (wake up headaches)\n3. History of aura lasting more than 60 minutes\n4. History of vomiting within 2 hours of onset of a migraine headache in more than 25% of migraine headaches\n5. Medication overuse headache, defined as:\n\n   1. use of opioids, triptans or ergot alkaloids or any combination of these medications for treatment of headaches 10 or more days per month during the 90 days prior to screening OR\n   2. Non-steroidal anti-inflammatory drugs (NSAIDs) or simple analgesics for treatment of headaches on more than 14 days per month during the 90 days prior to screening\n6. Recent (3 years) history of frequent or chronic hemiplegic/ basilar migraine, tension headache, retinal migraine, ophthalmoplegic migraine as per ICHD classification, or treatment resistant atypical migraine\n7. Hospital admission for status intractable migraine or medication overuse headache within 6 months of screening",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Migraine Headache Pain Score From Time of Dosing (0 Minutes)",
+        "description": "Change in migraine headache pain score, using an 11-point numeric rating scale (NRS), (0 = none, 10 = worst imaginable), Pain is recorded in a subject diary and should reflect the subject's pain at the time of recording. A reduction in NRS score indicates a reduction in pain intensity.",
+        "timeFrame": "0 minutes, 30 minutes, 60 minutes, 90 minutes, 2 hours, 4 hours, 8 hours and 24 hours post dose"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Migraine-associated Symptoms of Nausea, Photophobia and Phonophobia From Time of Dosing (0 Minutes)",
+        "description": "Symptoms are assessed on an 11- point Likert scale (0 = no symptoms, 10 = severe symptoms). A larger negative number represents a greater reduction in symptom intensity",
+        "timeFrame": "0 minutes, 30 minutes, 60 minutes, 90 minutes, 2 hours, 4 hours, 8 hours and 24 hours post dose"
+      },
+      {
+        "measure": "Change in Each Subject's Most Troublesome Symptom From Time of Dosing (0 Minutes)",
+        "description": "Symptoms are assessed on an 11- point Likert scale (0 = no symptoms, 10 = severe symptoms). A larger negative number represents a greater reduction in symptom intensity.",
+        "timeFrame": "0 minutes, 30 minutes, 60 minutes, 90 minutes, 2 hours, 4 hours, 8 hours and 24 hours post dose"
+      },
+      {
+        "measure": "The Percentage of Subjects Achieving \"no Headache Pain\"",
+        "description": "Defined as having no migraine headache pain",
+        "timeFrame": "30 minutes, 60 minutes, 90 minutes, 2 hours, 4 hours, 8 hours post-dose"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:52.275Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

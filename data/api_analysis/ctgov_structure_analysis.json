@@ -1,0 +1,386 @@
+{
+  "analysisDate": "2025-09-21T22:21:59.107Z",
+  "apiVersion": "v2",
+  "sampleStudy": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT02472535",
+        "orgStudyIdInfo": {
+          "id": "CB8025-21427"
+        },
+        "organization": {
+          "fullName": "Gilead Sciences",
+          "class": "INDUSTRY"
+        },
+        "briefTitle": "Study to Evaluate the Effects of MBX-8025 in Patients With HoFH",
+        "officialTitle": "A 12-week, Open-label, Dose-escalating, Phase 2 Study to Evaluate the Effects of MBX-8025 in Patients With Homozygous Familial Hypercholesterolemia (HoFH)"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2016-03",
+        "overallStatus": "COMPLETED",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2015-04"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2016-02",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2016-02",
+          "type": "ACTUAL"
+        },
+        "studyFirstSubmitDate": "2015-05-22",
+        "studyFirstSubmitQcDate": "2015-06-11",
+        "studyFirstPostDateStruct": {
+          "date": "2015-06-16",
+          "type": "ESTIMATED"
+        },
+        "lastUpdateSubmitDate": "2016-03-08",
+        "lastUpdatePostDateStruct": {
+          "date": "2016-03-09",
+          "type": "ESTIMATED"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "SPONSOR"
+        },
+        "leadSponsor": {
+          "name": "Gilead Sciences",
+          "class": "INDUSTRY"
+        }
+      },
+      "oversightModule": {
+        "oversightHasDmc": true
+      },
+      "descriptionModule": {
+        "briefSummary": "A 12-week, open-label, dose-escalating, phase 2 study to evaluate the effects of MBX-8025 in patients with Homozygous Familial Hypercholesterolemia (HoFH).",
+        "detailedDescription": "Open-label, single arm, non-controlled, dose ascending (50 mg/day, 100 mg/day and 200 mg/day) with three consecutive dose escalation periods.\n\nAfter signing an informed consent subject will enter a screening period and a run-in stabilization period. At the end of run-in period patients will enter treatment phase. MBX-8025 in ascending doses (50 mg, 100 mg, and 200 mg) will be given within three consecutive 4 weeks periods, for a total of 12 weeks. At the end of treatment, subjects will enter a follow-up period."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Homozygous Familial Hypercholesterolemia"
+        ],
+        "keywords": [
+          "HoFH"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "designInfo": {
+          "allocation": "NA",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 13,
+          "type": "ACTUAL"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "placebo, MBX-8025 50 mg, 100 mg or 200 mg capsules",
+            "type": "EXPERIMENTAL",
+            "interventionNames": [
+              "Other: Run-In Period: Placebo",
+              "Drug: MBX-8025 50 mg (Dose Escalation Period 1)",
+              "Drug: MBX-8025 50 mg or 100 mg (Dose Escalation Period 2)",
+              "Drug: MBX-8025 50 mg, 100 mg or 200 mg (Dose Escalation Period 3)"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "OTHER",
+            "name": "Run-In Period: Placebo",
+            "description": "2 capsules, once a day for two weeks",
+            "armGroupLabels": [
+              "placebo, MBX-8025 50 mg, 100 mg or 200 mg capsules"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "MBX-8025 50 mg (Dose Escalation Period 1)",
+            "description": "1 capsule once a day for 4 weeks\n\n(MBX-8025 50 mg capsule)",
+            "armGroupLabels": [
+              "placebo, MBX-8025 50 mg, 100 mg or 200 mg capsules"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "MBX-8025 50 mg or 100 mg (Dose Escalation Period 2)",
+            "description": "1 capsule once a day for 4 weeks\n\n(MBX-8025 50 mg or 100 mg capsule)",
+            "armGroupLabels": [
+              "placebo, MBX-8025 50 mg, 100 mg or 200 mg capsules"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "MBX-8025 50 mg, 100 mg or 200 mg (Dose Escalation Period 3)",
+            "description": "1 or 2 capsules once a day for 4 weeks\n\n(MBX-8025 50 mg, 100 mg or two (2) 100 mg capsules)",
+            "armGroupLabels": [
+              "placebo, MBX-8025 50 mg, 100 mg or 200 mg capsules"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "LDL-C",
+            "description": "Absolute and percentage (%) reduction in serum LDL-C at any point from baseline through Week 16.",
+            "timeFrame": "12-Weeks"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "Total Cholesterol (TC)",
+            "description": "Absolute and percentage change at any point from baseline through Week 16",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "High-density lipoprotein (HDL) cholesterol [HDL-C]",
+            "description": "Absolute and percentage change at any point from baseline through Week 16",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "Very Low-Density Lipoprotein (VLDL)",
+            "description": "Absolute and percentage change at any point from baseline through Week 16",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "Non HDL-C",
+            "description": "Absolute and percentage change at any point from baseline through Week 16",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "Remnant-like Particle (RLP-C)",
+            "description": "Absolute and percentage change at any point from baseline through Week 16",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "Apolipoprotein B (Apo B)",
+            "description": "Absolute and percentage change at any point from baseline through Week 16",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "Apolipoprotein A-I (Apo A-I)",
+            "description": "Absolute and percentage change at any point from baseline through Week 16",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "Lipoprotein",
+            "description": "Absolute and percentage change at any point from baseline through Week 16",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "Serum Triglyceride (TG)",
+            "description": "Absolute and percentage change at any point from baseline through Week 16",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "Apolipoprotein C-III (Apo CIII)",
+            "description": "Absolute and percentage change at any point from baseline through Week 16",
+            "timeFrame": "12-Weeks"
+          }
+        ],
+        "otherOutcomes": [
+          {
+            "measure": "C reactive protein hs-(CRP)",
+            "description": "Absolute and percentage change at any point from baseline through Week 16",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "MBX-8025 Plasma Concentration Levels",
+            "description": "Blood samples for the plasma concentration determination of MBX-8025 and its metabolites (M1, M2 and M3) collected pre-dose at the following visits: 4, 5, 6, 7, 8 and 9.",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "Safety Measures: Number of Participants with Adverse Events as a Measure of Safety",
+            "description": "Complete characterization of Adverse Events (AE), Biochemistry and Hematology",
+            "timeFrame": "12-Weeks"
+          },
+          {
+            "measure": "Proprotein convertase subtilisin/kexin type 9 (PCSK-9)",
+            "description": "Absolute and percentage change at any point from baseline through Week 16 for the following: Proprotein convertase subtilisin/kexin type 9 (PCSK-9)",
+            "timeFrame": "12-Weeks"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n1. Must have given written informed consent (signed and dated) and any authorizations required by local law and be able to comply with all study requirements.\n2. Male or female with HoFH confirmed by genotype (two mutant alleles at the LDL-Receptor (LDL-R) gene locus or double heterozygotes LDL-R/Apo-B).\n3. 18 years of age or older.\n4. Existing lipid lowering therapies (statins, cholesterol absorption inhibitors, bile acid sequestrants, nicotinic acid and their combinations, low-density lipoprotein (LDL) LDL-C apheresis) on a stable regimen for at least four weeks before screening visit.\n5. Stable lipid lowering diet compatible with a Step I diet of the American Heart Association (AHA).\n6. Fasting LDL-C ≥ 4.8 mmol/L (≥ 185.6 mg/dL) during screening.\n7. For females or males of reproductive potential, use of at least one barrier contraceptive and a second effective birth control method during the study and for at least two weeks after the last dose.\n\nExclusion Criteria:\n\n1. Treatment with lomitapide or mipomersen within two months of screening.\n2. Heart Failure (HF) with New York Heart Association (NYHA) class III and class IV or a Left ventricular ejection fraction (LVEF) of less than 30%.\n3. Uncontrolled cardiac arrhythmia during the past three months of screening.\n4. Myocardial infarction, unstable angina, percutaneous coronary intervention, coronary artery bypass graft or stroke during the past three months of screening.\n5. Planned cardiac surgery, or planned revascularization, in the next four months.\n6. Uncontrolled hypertension.\n7. Aspartate transaminase (AST) or Alanine transaminase (ALT) ≥ 3 times the Upper Limit of Normal (ULN).\n8. Unexplained creatine kinase (CK) ≥ 5 times the upper limit of normal (ULN).\n9. For females, pregnancy or breast-feeding.\n10. Any other condition(s) that would compromise the safety of the patient or compromise the quality of the clinical study as judged by the Investigator and/or Medical Monitor.",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "contactsLocationsModule": {
+        "overallOfficials": [
+          {
+            "name": "Pol F Boudes, M.D.",
+            "affiliation": "Gilead Sciences",
+            "role": "STUDY_CHAIR"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "Ecogene-21",
+            "city": "Chicoutimi",
+            "state": "Quebec",
+            "zip": "G7H 7K9",
+            "country": "Canada",
+            "geoPoint": {
+              "lat": 48.41963,
+              "lon": -71.06369
+            }
+          },
+          {
+            "facility": "Montreal Heart Institute",
+            "city": "Montreal",
+            "state": "Quebec",
+            "zip": "H1T 1C8",
+            "country": "Canada",
+            "geoPoint": {
+              "lat": 45.50884,
+              "lon": -73.58781
+            }
+          },
+          {
+            "facility": "Endocrinologie metabolisme et prevention cardiovasulaire, Institut E3M et IHU cardiometabolique (ICAN), Hôpital Pitié Salpêtrière",
+            "city": "Paris",
+            "zip": "75 013",
+            "country": "France",
+            "geoPoint": {
+              "lat": 48.85341,
+              "lon": 2.3488
+            }
+          },
+          {
+            "facility": "Radbound UMC",
+            "city": "Nijmegen",
+            "zip": "6525 GA",
+            "country": "Netherlands",
+            "geoPoint": {
+              "lat": 51.8425,
+              "lon": 5.85278
+            }
+          },
+          {
+            "facility": "Lipidklinikken, Oslo Universitetssykehus",
+            "city": "Oslo",
+            "zip": "N-0373",
+            "country": "Norway",
+            "geoPoint": {
+              "lat": 59.91273,
+              "lon": 10.74609
+            }
+          }
+        ]
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2025-09-19"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D000090542",
+            "term": "Homozygous Familial Hypercholesterolemia"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D006938",
+            "term": "Hyperlipoproteinemia Type II"
+          },
+          {
+            "id": "D008052",
+            "term": "Lipid Metabolism, Inborn Errors"
+          },
+          {
+            "id": "D008661",
+            "term": "Metabolism, Inborn Errors"
+          },
+          {
+            "id": "D030342",
+            "term": "Genetic Diseases, Inborn"
+          },
+          {
+            "id": "D009358",
+            "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+          },
+          {
+            "id": "D006951",
+            "term": "Hyperlipoproteinemias"
+          },
+          {
+            "id": "D006949",
+            "term": "Hyperlipidemias"
+          },
+          {
+            "id": "D050171",
+            "term": "Dyslipidemias"
+          },
+          {
+            "id": "D052439",
+            "term": "Lipid Metabolism Disorders"
+          },
+          {
+            "id": "D008659",
+            "term": "Metabolic Diseases"
+          },
+          {
+            "id": "D009750",
+            "term": "Nutritional and Metabolic Diseases"
+          }
+        ]
+      },
+      "interventionBrowseModule": {
+        "meshes": [
+          {
+            "id": "C572244",
+            "term": "(2-methyl-4-(5-methyl-2-(4-trifluoromethyl-phenyl)-2H-(1,2,3)triazol-4-ylmethylsulfanyl)phenoxy)acetic acid"
+          }
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  "topLevelFields": [
+    "protocolSection",
+    "derivedSection",
+    "hasResults"
+  ],
+  "protocolSectionFields": [
+    "identificationModule",
+    "statusModule",
+    "sponsorCollaboratorsModule",
+    "oversightModule",
+    "descriptionModule",
+    "conditionsModule",
+    "designModule",
+    "armsInterventionsModule",
+    "outcomesModule",
+    "eligibilityModule",
+    "contactsLocationsModule"
+  ],
+  "derivedSectionFields": [
+    "miscInfoModule",
+    "conditionBrowseModule",
+    "interventionBrowseModule"
+  ]
+}

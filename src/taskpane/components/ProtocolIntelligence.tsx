@@ -4,17 +4,20 @@ import { EnrollmentPredictor, EnrollmentFeasibility } from "../../services/enrol
 import { VisitBurdenCalculator, VisitBurdenAnalysis } from "../../services/visitBurden";
 import { BenchmarkingService, ProtocolBenchmark } from "../../services/benchmarkingService";
 import { RecommendationsEngine, RecommendationSummary } from "../../services/recommendationsEngine";
+import { SmartTextEditor } from "../../components/SmartTextEditor";
 
 export interface ProtocolIntelligenceProps {
   protocolText: string;
   isAnalyzing: boolean;
   onExportReport: () => void;
+  onTextChange?: (text: string) => void;
 }
 
 export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
   protocolText,
   isAnalyzing,
-  onExportReport
+  onExportReport,
+  onTextChange
 }) => {
   const [analysis, setAnalysis] = React.useState<{
     complexity: ComplexityScore | null;
@@ -30,11 +33,19 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
     recommendations: null
   });
 
-  const [activeTab, setActiveTab] = React.useState<'overview' | 'complexity' | 'enrollment' | 'burden' | 'benchmark' | 'recommendations'>('overview');
+  const [activeTab, setActiveTab] = React.useState<'overview' | 'complexity' | 'enrollment' | 'burden' | 'benchmark' | 'recommendations' | 'editor'>('overview');
+  const [editorText, setEditorText] = React.useState<string>('');
 
   React.useEffect(() => {
     if (protocolText && protocolText.length > 100) {
       analyzeProtocol(protocolText);
+    }
+  }, [protocolText]);
+
+  // Sync editor text with protocol text
+  React.useEffect(() => {
+    if (protocolText && protocolText !== editorText) {
+      setEditorText(protocolText);
     }
   }, [protocolText]);
 
@@ -179,78 +190,78 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
         <div style={{
           display: "grid",
           gridTemplateColumns: "1fr 1fr",
-          gap: "12px",
-          marginBottom: "16px"
+          gap: "16px",
+          marginBottom: "20px"
         }}>
           {/* Complexity */}
           <div style={{
-            padding: "12px",
-            backgroundColor: "#fef3f2",
-            border: "2px solid #fecaca",
-            borderRadius: "6px"
+            padding: "16px",
+            backgroundColor: "#ffffff",
+            border: "1px solid #e5e5e5",
+            borderRadius: "8px"
           }}>
-            <div style={{ fontSize: "12px", fontWeight: "700", color: "#dc2626", marginBottom: "4px" }}>
-              📊 COMPLEXITY
+            <div style={{ fontSize: "11px", fontWeight: "600", color: "#666666", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+              COMPLEXITY
             </div>
-            <div style={{ fontSize: "14px", fontWeight: "600", color: "#991b1b" }}>
-              {analysis.complexity.category} ({analysis.complexity.overall}/100)
+            <div style={{ fontSize: "18px", fontWeight: "700", color: "#000000" }}>
+              {analysis.complexity.overall}/100
             </div>
-            <div style={{ fontSize: "10px", color: "#7f1d1d", marginTop: "2px" }}>
-              {analysis.complexity.percentile}th percentile
+            <div style={{ fontSize: "12px", color: "#888888", marginTop: "4px" }}>
+              {analysis.complexity.category} • {analysis.complexity.percentile}th percentile
             </div>
           </div>
 
           {/* Enrollment */}
           <div style={{
-            padding: "12px",
-            backgroundColor: "#fffbeb",
-            border: "2px solid #fde68a",
-            borderRadius: "6px"
+            padding: "16px",
+            backgroundColor: "#ffffff",
+            border: "1px solid #e5e5e5",
+            borderRadius: "8px"
           }}>
-            <div style={{ fontSize: "12px", fontWeight: "700", color: "#d97706", marginBottom: "4px" }}>
-              ⏱️ ENROLLMENT
+            <div style={{ fontSize: "11px", fontWeight: "600", color: "#666666", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+              ENROLLMENT
             </div>
-            <div style={{ fontSize: "14px", fontWeight: "600", color: "#92400e" }}>
-              {analysis.enrollment.difficulty}
+            <div style={{ fontSize: "18px", fontWeight: "700", color: "#000000" }}>
+              {analysis.enrollment.estimatedMonths}mo
             </div>
-            <div style={{ fontSize: "10px", color: "#78350f", marginTop: "2px" }}>
-              {analysis.enrollment.estimatedMonths} months estimated
+            <div style={{ fontSize: "12px", color: "#888888", marginTop: "4px" }}>
+              {analysis.enrollment.difficulty} difficulty
             </div>
           </div>
 
           {/* Patient Burden */}
           <div style={{
-            padding: "12px",
-            backgroundColor: "#f0fdf4",
-            border: "2px solid #bbf7d0",
-            borderRadius: "6px"
+            padding: "16px",
+            backgroundColor: "#ffffff",
+            border: "1px solid #e5e5e5",
+            borderRadius: "8px"
           }}>
-            <div style={{ fontSize: "12px", fontWeight: "700", color: "#16a34a", marginBottom: "4px" }}>
-              👥 PATIENT BURDEN
+            <div style={{ fontSize: "11px", fontWeight: "600", color: "#666666", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+              PATIENT BURDEN
             </div>
-            <div style={{ fontSize: "14px", fontWeight: "600", color: "#15803d" }}>
-              {analysis.visitBurden.overallBurden}
+            <div style={{ fontSize: "18px", fontWeight: "700", color: "#000000" }}>
+              {analysis.visitBurden.totalVisits} visits
             </div>
-            <div style={{ fontSize: "10px", color: "#166534", marginTop: "2px" }}>
-              {analysis.visitBurden.totalVisits} visits, {analysis.visitBurden.totalStudyTime}h total
+            <div style={{ fontSize: "12px", color: "#888888", marginTop: "4px" }}>
+              {analysis.visitBurden.overallBurden} • {analysis.visitBurden.totalStudyTime}h total
             </div>
           </div>
 
           {/* Compliance Risk */}
           <div style={{
-            padding: "12px",
-            backgroundColor: "#f8fafc",
-            border: "2px solid #cbd5e1",
-            borderRadius: "6px"
+            padding: "16px",
+            backgroundColor: "#ffffff",
+            border: "1px solid #e5e5e5",
+            borderRadius: "8px"
           }}>
-            <div style={{ fontSize: "12px", fontWeight: "700", color: "#475569", marginBottom: "4px" }}>
-              📈 COMPLIANCE RISK
+            <div style={{ fontSize: "11px", fontWeight: "600", color: "#666666", marginBottom: "6px", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+              DROPOUT RISK
             </div>
-            <div style={{ fontSize: "14px", fontWeight: "600", color: "#334155" }}>
-              {analysis.visitBurden.complianceRisk}% risk
+            <div style={{ fontSize: "18px", fontWeight: "700", color: "#000000" }}>
+              {analysis.visitBurden.complianceRisk}%
             </div>
-            <div style={{ fontSize: "10px", color: "#64748b", marginTop: "2px" }}>
-              Dropout prediction
+            <div style={{ fontSize: "12px", color: "#888888", marginTop: "4px" }}>
+              Predicted dropout rate
             </div>
           </div>
         </div>
@@ -926,6 +937,71 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
     );
   };
 
+  const renderEditorTab = () => {
+    return (
+      <div style={{ padding: "16px" }}>
+        <h3 style={{ margin: "0 0 12px 0", fontSize: "16px", fontWeight: "700", color: "#1f2937" }}>
+          ✏️ Smart Text Editor
+        </h3>
+        
+        <div style={{ marginBottom: "12px" }}>
+          <div style={{ fontSize: "12px", color: "#6b7280", marginBottom: "8px" }}>
+            Edit and improve your protocol text with context-aware suggestions from 48,912+ real protocols.
+          </div>
+        </div>
+
+        <SmartTextEditor
+          value={editorText}
+          onChange={(newText) => {
+            setEditorText(newText);
+            if (onTextChange) {
+              onTextChange(newText);
+            }
+          }}
+          placeholder="Enter or paste your protocol text to edit and improve it..."
+        />
+
+        {/* Quick Actions */}
+        <div style={{ 
+          marginTop: "16px",
+          padding: "12px",
+          backgroundColor: "#f0f9ff",
+          border: "2px solid #0ea5e9",
+          borderRadius: "6px"
+        }}>
+          <h4 style={{ margin: "0 0 8px 0", fontSize: "13px", fontWeight: "600", color: "#0c4a6e" }}>
+            Quick Actions:
+          </h4>
+          <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+            <button
+              onClick={() => {
+                if (editorText && onTextChange) {
+                  onTextChange(editorText);
+                  // Re-analyze with updated text
+                  if (editorText.length > 100) {
+                    analyzeProtocol(editorText);
+                  }
+                }
+              }}
+              style={{
+                padding: "6px 12px",
+                fontSize: "11px",
+                fontWeight: "600",
+                color: "#2563eb",
+                backgroundColor: "white",
+                border: "1px solid #2563eb",
+                borderRadius: "4px",
+                cursor: "pointer"
+              }}
+            >
+              Apply Changes & Re-analyze
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   if (isAnalyzing) {
     return (
       <div style={{ 
@@ -948,34 +1024,42 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
   }
 
   return (
-    <div style={{ height: "100%", display: "flex", flexDirection: "column" }}>
+    <div style={{ 
+      height: "100%", 
+      display: "flex", 
+      flexDirection: "column",
+      fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif",
+      backgroundColor: "#ffffff"
+    }}>
       {/* Tab Navigation */}
       <div style={{
         display: "flex",
-        borderBottom: "2px solid #e5e7eb",
-        backgroundColor: "#f9fafb"
+        borderBottom: "1px solid #e5e5e5",
+        backgroundColor: "#ffffff"
       }}>
         {[
-          { key: 'overview', label: '📊 Overview', icon: '📊' },
-          { key: 'complexity', label: '🔧 Complexity', icon: '🔧' },
-          { key: 'enrollment', label: '⏱️ Enrollment', icon: '⏱️' },
-          { key: 'burden', label: '👥 Burden', icon: '👥' },
-          { key: 'benchmark', label: '📈 Benchmark', icon: '📈' },
-          { key: 'recommendations', label: '💡 Recommendations', icon: '💡' }
+          { key: 'overview', label: 'Overview' },
+          { key: 'complexity', label: 'Complexity' },
+          { key: 'enrollment', label: 'Enrollment' },
+          { key: 'burden', label: 'Burden' },
+          { key: 'benchmark', label: 'Benchmark' },
+          { key: 'recommendations', label: 'Recommendations' },
+          { key: 'editor', label: 'Editor' }
         ].map(tab => (
           <button
             key={tab.key}
             onClick={() => setActiveTab(tab.key as any)}
             style={{
               flex: 1,
-              padding: "8px 4px",
-              fontSize: "9px",
-              fontWeight: "600",
+              padding: "12px 8px",
+              fontSize: "12px",
+              fontWeight: activeTab === tab.key ? "600" : "400",
               border: "none",
-              backgroundColor: activeTab === tab.key ? "#2563eb" : "transparent",
-              color: activeTab === tab.key ? "white" : "#6b7280",
+              backgroundColor: activeTab === tab.key ? "#000000" : "#ffffff",
+              color: activeTab === tab.key ? "#ffffff" : "#666666",
               cursor: "pointer",
-              borderBottom: activeTab === tab.key ? "2px solid #2563eb" : "none"
+              borderBottom: activeTab === tab.key ? "2px solid #000000" : "none",
+              transition: "all 0.2s ease"
             }}
           >
             {tab.label}
@@ -984,13 +1068,18 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
       </div>
 
       {/* Tab Content */}
-      <div style={{ flex: 1, overflow: "auto" }}>
+      <div style={{ 
+        flex: 1, 
+        overflow: "auto",
+        backgroundColor: "#ffffff"
+      }}>
         {activeTab === 'overview' && renderOverviewTab()}
         {activeTab === 'complexity' && renderComplexityTab()}
         {activeTab === 'enrollment' && renderEnrollmentTab()}
         {activeTab === 'burden' && renderBurdenTab()}
         {activeTab === 'benchmark' && renderBenchmarkTab()}
         {activeTab === 'recommendations' && renderRecommendationsTab()}
+        {activeTab === 'editor' && renderEditorTab()}
       </div>
     </div>
   );

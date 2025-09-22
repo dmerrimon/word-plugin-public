@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03457129",
+  "briefTitle": "Fycompa Titration Intervals and Effects on Retention Rate",
+  "officialTitle": "Fycompa Titration Intervals and Effects on Retention Rate",
+  "protocolDocument": {
+    "nctId": "NCT03457129",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-11-03",
+    "uploadDate": "2021-10-15T15:56",
+    "size": 287362,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03457129/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-04-18",
+    "completionDate": "2021-12-15",
+    "primaryCompletionDate": "2021-02-24",
+    "firstSubmitDate": "2017-11-03",
+    "firstPostDate": "2018-03-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Must provide written informed consent signed by the subject or legal guardian prior to entering the study in accordance with ICH and GCP guidelines.\n2. Subject has a confirmed diagnosis of medically refractory epilepsy with or without secondary generalization for at least 12 months prior to visit 1.\n3. Subjects currently being treated with 1 to 3 antiepileptic medications with or without VNS (does not count as an AED).\n4. Subjects aged 18 to 75.\n5. Subject's requiring an additional epilepsy medication due to either uncontrolled seizures and/or lack of tolerability with current epilepsy medications.\n6. Can be safely treated, in the opinion of the investigator, with Fycompa.\n7. Able and agrees to follow the specified titration schedule.\n8. Subjects or a legal guardian who is able to communicate effectively with study personnel and considered reliable, able, willing and cooperative with regard to complying with protocol-defined requirements, including completion of the study diary.\n\nExclusion Criteria:\n\n1. Any history of non-epileptic or psychogenic seizures.\n2. Women who are currently pregnant, lactating or have plans to become pregnant in the immediate future.\n3. Subjects with active suicidal ideation or behavior as evidenced by positive answers on the Columbia Suicide Severity Rating Scale (C-SSRS) or subject's with a history of suicidal ideation or attempt within 12 months.\n4. Subjects with a suicidal attempt in the 12 months prior to Visit 1\n5. Any clinically significant medical or psychiatric illness, psychological or behavioral problems, which in the opinion of the investigator would interfere with the subject's ability to participate in the study.\n6. Subjects with severe hepatic impairment or severe renal impairment or on hemodialysis.\n7. Any use of concomitant medication as listed in the drug insert, including medications known to be inducers of cytochrome P450 (CYP3A).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Percentage of Subjects Completing 52 Weeks of Adjunctive Therapy During the Maintenance Phase [Retention Rate].",
+        "description": "Retention rate, which indirectly measures the therapeutic tolerance, will be measured at 52 weeks in each group.",
+        "timeFrame": "Up to 52 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Incidence of Treatment-Emergent Adverse Events (TEAEs) Reported by the Subject or Observed by the Investigator [Safety and Tolerability].",
+        "description": "Adverse events experienced in each group will be tabulated and the total percentage of subjects reporting adverse events will be calculated.",
+        "timeFrame": "Up to 52 weeks"
+      },
+      {
+        "measure": "Seizures Frequency Per Week",
+        "description": "The average of seizures per week will be calculated starting at initial titration through final maintenance \\[Efficacy\\].\"",
+        "timeFrame": "Up to 52 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:50.543Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

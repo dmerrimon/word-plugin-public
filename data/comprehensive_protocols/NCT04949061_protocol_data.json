@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT04949061",
+  "briefTitle": "The Effectiveness of Culturally Adapted Cognitive Behavioral Intervention Among COVID-19 Survivors",
+  "officialTitle": "Culturally Adapted Cognitive Behavioral Intervention to Reduce Psychological Distress Among COVID-19 Survivors: A Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT04949061",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-09-05",
+    "uploadDate": "2021-09-06T08:15",
+    "size": 137741,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04949061/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 34,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-17",
+    "completionDate": "2022-04-01",
+    "primaryCompletionDate": "2022-03-28",
+    "firstSubmitDate": "2021-07-01",
+    "firstPostDate": "2021-07-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Being 18 years or above\n* Getting infected with COVID-19 and currently, recovered\n* Scoring 16 or above on Kessler Psychological Distress Scale (K10)\n\nExclusion Criteria:\n\n* Imminent suicidal risk\n* Having a severe psychiatric disorder (psychotic disorders, acute mania, substance/alcohol addiction, cluster B personality disorders)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Comparison of changes of the Kessler-10 Psychological Distress Scale (K10) over time",
+        "description": "Kessler-10 Psychological Distress Scale is a 10-item scale that aims to measure the psychological distress. Each item is scored from 1 (none of the time) to 5 (all of the time) providing a range between 10 and 50. Higher scores indicate more severe psychological distress.",
+        "timeFrame": "Change from baseline (One week before the intervention) to follow-up assessment (13 weeks after the pre-assessment)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Comparison of changes of the Patient Health Questionnaire-9 (PHQ-9) over time",
+        "description": "Patient Health Questionnaire is a 9-item questionnaire that aims to measure the depressive symptoms. Each item is scored from 0 (not at all) to 3 (nearly every day) providing a range between 0 and 27. Higher scores indicate more severe depressive symptoms.",
+        "timeFrame": "Change from baseline (One week before the intervention) to follow-up assessment (13 weeks after the pre-assessment)"
+      },
+      {
+        "measure": "Comparison of changes of the General Anxiety Disorder-7 (GAD-7) over time",
+        "description": "General Anxiety Disorder-7 is a 7-item questionnaire that aims to measure anxiety symptoms. Each item is scored from 0 (not at all) to 3 (nearly every day) providing a range between 0 and 21. Higher scores indicate higher levels of anxiety symptoms",
+        "timeFrame": "Change from baseline (One week before the intervention) to follow-up assessment (13 weeks after the pre-assessment)"
+      },
+      {
+        "measure": "Comparison of changes of the PTSD Checklist for The Diagnostic and Statistical Manual of Mental Disorders 5 (DSM-5) (PCL-5) over time",
+        "description": "The PTSD Checklist for DSM-5 is a 20-item questionnaire that assesses the symptoms of post-traumatic stress disorder. Each item is scored from 0 (not at all) to 4 (extremely) providing a range between 0 and 80. Higher scores indicate higher levels of PTSD symptoms.",
+        "timeFrame": "Change from baseline (One week before the intervention) to follow-up assessment (13 weeks after the pre-assessment)"
+      },
+      {
+        "measure": "Comparison of changes of the Symptom Checklist 90-R (SCL-90-R) Somatization Subscale over time",
+        "description": "The SCL-90-R Somatization Subscale is a 12-item scale that measures somatic complaints based on self-report. Each item is scored from 0 (not at all) to 4 (extremely), providing a range between 0 and 48. Higher scores indicate higher levels of somatic complaints.",
+        "timeFrame": "Change from baseline (One week before the intervention) to follow-up assessment (13 weeks after the pre-assessment)"
+      },
+      {
+        "measure": "Comparison of changes of the World Health Organization Quality of Life Scale (WHOQOL Bref) over time",
+        "description": "The WHOQOL Bref Scale is a 27-item questionnaire that assesses the quality of general health and life. It has four domains which are physical health, psychological health, social relationships, and environment. It also has questions about overall perceptions of life quality and general health. Each item is scored from 1 to 5 on a 5-point Likert scale. For each domain, the mean score is calculated, providing a range between 4 and 20. Each mean domain score is multiplied by 4 to transform the domain score into a scaled score. In each domain, higher scores indicate higher levels of quality of life.",
+        "timeFrame": "Change from baseline (One week before the intervention) to follow-up assessment (13 weeks after the pre-assessment)"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Comparison of changes of the Psychological Flexibility Scale over time",
+        "description": "The Psychological Flexibility Scale is a 28-item scale that aims to assess psychological flexibility. Each item is scored from 1 (strongly disagree) to 7 (strongly agree), providing a range between 28 and 196. Higher scores indicate more frequent use of psychological flexibility in individuals.",
+        "timeFrame": "Change from baseline (One week before the intervention) to follow-up assessment (13 weeks after the pre-assessment)"
+      },
+      {
+        "measure": "Comparison of changes of the Emotion Regulation Questionnaire over time",
+        "description": "The Emotion Regulation Questionnaire is a 10-item questionnaire that aims to measure individual differences in emotion regulation and its strategies. Each item is scored from 1 (strongly disagree) to 7 (strongly agree) providing a range between 10 and 70. It has two subscales which are re-appraisal and suppression. Higher scores indicate more frequent use of these strategies.",
+        "timeFrame": "Change from baseline (One week before the intervention) to follow-up assessment (13 weeks after the pre-assessment)"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 2,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 53,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.638Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

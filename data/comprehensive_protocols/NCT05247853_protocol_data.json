@@ -1,0 +1,84 @@
+{
+  "nctId": "NCT05247853",
+  "briefTitle": "HPV Vaccine Effectiveness Study in Rwandan Women Living With HIV",
+  "officialTitle": "Long-Term Human Papillomavirus Vaccination Effectiveness and Immunity in Rwandan Women Living With and Without Human Immunodeficiency Virus",
+  "protocolDocument": {
+    "nctId": "NCT05247853",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-06-02",
+    "uploadDate": "2024-09-24T10:17",
+    "size": 1351228,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05247853/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 3127,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-03",
+    "completionDate": "2025-06-30",
+    "primaryCompletionDate": "2023-12-31",
+    "firstSubmitDate": "2022-01-13",
+    "firstPostDate": "2022-02-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Female\n* 18-28 years. The age of inclusion criteria will likely be restricted as age-specific enrollment goals are met.\n* Physically and mentally able and willing to participate in the study.\n* Willing to provide written and signed or thumb printed, informed consent.\n* Known to be living with HIV (i.e., enrolled in a treatment program), or consent to HIV testing to confirm HIV status.\n\nExclusion Criteria:\n\n* Have positive pregnancy test or report to be pregnant at the time of visit or less than 6 weeks post-partum (will be asked to make an appointment 6 or more weeks post-partum)\n* Report to be menstruating at the time of visit (will be asked to make new appointment)\n* History of hysterectomy and no longer have a cervix\n* History of treatment for cervical abnormalities after cervical screening\n* History of cervical cancer\n* Report no previous sexual activity\n* HIV status is unknown, and date of birth is 12/31/1995 or earlier\n* Because this study has age-specific enrollment goals for WLWH and HIV\\[-\\] women, once those enrollment goals are met for each study group, the respective cohorts will be closed and other eligible women will be excluded.",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "28 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in vaccine effectiveness of prophylactic HPV vaccine",
+        "description": "To measure population effectiveness of prophylactic HPV vaccine in reducing cervicovaginal, anal, and/or oral prevalent and 6-12 month persistent infections by HPV6/11/16/18",
+        "timeFrame": "Baseline and up to 12 months"
+      },
+      {
+        "measure": "Change in long-term antibody responses to HPV vaccination",
+        "description": "To quantify, and examine the determinants of, long-term antibody (into young adulthood) responses to HPV vaccination",
+        "timeFrame": "Baseline and up to 12 months"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "Change in HPV natural history study at 6 months",
+        "description": "Conduct a natural history study to investigate determinants, including cervicovaginal microbiome (CVM), of short-term HPV persistence in young WLWH and HIV\\[-\\] women living in a SSA setting",
+        "timeFrame": "Baseline and 6 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 1,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 41,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:41.770Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

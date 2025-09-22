@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03349476",
+  "briefTitle": "Model Based Fast Anatomical Mapping",
+  "officialTitle": "Left Atrial Anatomy Reconstruction Using Model Based Fast Anatomical Mapping",
+  "protocolDocument": {
+    "nctId": "NCT03349476",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-11-20",
+    "uploadDate": "2023-10-03T13:27",
+    "size": 772332,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03349476/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 109,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-04-16",
+    "completionDate": "2022-10-03",
+    "primaryCompletionDate": "2022-10-03",
+    "firstSubmitDate": "2017-11-17",
+    "firstPostDate": "2017-11-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Have AF as follows:\n\n  1. Paroxysmal AF - defined as AF that is non-sustained (terminate without electrical or pharmacologic cardioversion) lasting \\< 7 days.\n  2. Persistent AF - defined as AF that is sustained \\> 7 days. Episodes of AF which are terminated by electrical or pharmacologic cardioversion after ≥ 48 hours of AF, but prior to 7 days, should also be classified as persistent AF episodes.\n* Are planned to undergo a first catheter ablation procedure (prior typical atrial flutter is allowed)\n* Have the ability to understand the requirements of the study and sign the informed consent form.\n* Are willing to adhere to study restrictions and comply with all post-procedural follow-up requirements\n\nExclusion Criteria:\n\n* Rheumatic heart disease,\n* Current intra-cardiac thrombus\n* Class IV HF\n* Unable to sign consent\n* Unstable angina\n* Recent cerebral ischemic events\n* Contradiction to anticoagulation\n* Prior cardiac surgery\n* Complex congenital heart disease",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "mMap Scoring Questionnaire",
+        "description": "mMap Scoring Questionnaire: Tool used by operators to rate the accuracy of the map based on the distance between ablation points and accuracy of anatomy compared to the mapped mFam geometry.\n\nTotal score from 1-7, with lower score indicating not representing (misleading) and higher score indicating agreement (accurate)",
+        "timeFrame": "hospital discharge, average 24 hours post procedure"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Left Atrial Geometry Creation Time",
+        "description": "The amount of time it takes to create the geometrical map using Carto and MFAM during the ablation procedure",
+        "timeFrame": "during the procedure up to 60 minutes"
+      },
+      {
+        "measure": "Fluoroscopy Time",
+        "description": "Fluoroscopy (radiation) time for left atrial anatomy creation during the ablation procedure",
+        "timeFrame": "hospital discharge, average 24 hours post procedure"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-21T22:34:13.976Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

@@ -1,0 +1,90 @@
+{
+  "nctId": "NCT07176897",
+  "briefTitle": "Refractive Accuracy of Toric Intraocular Lens Implantation Using Digital Marking Compared to Conventional Marking",
+  "officialTitle": "Refractive Accuracy of Toric Intraocular Lens Implantation Using Digital Marking Compared to Conventional Marking",
+  "protocolDocument": {
+    "nctId": "NCT07176897",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-05-07",
+    "uploadDate": "2025-08-27T13:33",
+    "size": 162106,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07176897/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 41,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-06-01",
+    "completionDate": "2025-03-12",
+    "primaryCompletionDate": "2025-03-12",
+    "firstSubmitDate": "2025-08-27",
+    "firstPostDate": "2025-09-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults (50-90 years of age) that were candidates for uncomplicated cataract surgery and planned to be implanted with toric IOLs (CCWOTx, Alcon Vision, LLC)\n\nExclusion Criteria:\n\n* History of amblyopia\n* History of macular disease\n* History of glaucoma\n* History of corneal disease\n* History of prior corneal surgery\n* History of diabetes\n* History of ocular comorbidity that might hamper post operative visual acuity\n* History of previous ocular or refractive surgery with expected post-op VA worse than 0.10 logMAR\n* History of irregular corneal astigmatism and keratoconus, or severe/uncontrolled ocular surface disease or dry eye disease.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "difference in degrees between the digital marker and the manual marker as measured intraoperatively",
+        "timeFrame": "From enrollment to the end of post-operative period at 2 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "IOL rotation",
+        "timeFrame": "From enrollment to the end of post-operative period at 2 months"
+      },
+      {
+        "measure": "Residual Astigmatism",
+        "timeFrame": "From enrollment to the end of post-operative period at 2 months"
+      },
+      {
+        "measure": "Absolute Prediction Error (APE)",
+        "timeFrame": "From enrollment to the end of post-operative period at 2 months"
+      },
+      {
+        "measure": "Monocular Visual Acuity",
+        "timeFrame": "From enrollment to the end of post-operative period at 2 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 45,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

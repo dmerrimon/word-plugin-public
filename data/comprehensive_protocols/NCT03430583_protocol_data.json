@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03430583",
+  "briefTitle": "Evaluation of Fontan-associated Hepatic Stiffness and the Efficacy of Udenafil in Reducing Liver Stiffness",
+  "officialTitle": "Imaging and Biomarker Evaluation of Hepatic Stiffness in Children Enrolled in the Fontan Udenafil Exercise Longitudinal Study",
+  "protocolDocument": {
+    "nctId": "NCT03430583",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-12-11",
+    "uploadDate": "2025-05-18T22:00",
+    "size": 634932,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03430583/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 88,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-02-20",
+    "completionDate": "2020-09-16",
+    "primaryCompletionDate": "2020-09-15",
+    "firstSubmitDate": "2018-01-22",
+    "firstPostDate": "2018-02-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Enrollment in on-going Phase 3 Open-Label Safety Study\n2. Informed assent from subject, informed consent from parent/legal guardian as appropriate\n\nExclusion Criteria:\n\n1. Non-enrollment in the on-going Phase 3 Open-Label Study\n2. Subjects with contra-indications for MRI (these subjects will be excluded from the MRI component of this study)\n3. Other exclusionary criteria will match those used for the Open-Label Safety Study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Effect of Udenafil 87.5 mg BID Treatment on Liver Stiffness in Udenafil Continuation and Naive Groups After 52 Weeks, as Determined by Ultrasound Shear Wave Elastography",
+        "description": "Liver stiffness was measured at baseline and 52 weeks using Ultrasound Shear Wave Elastography (USWE) separately in Udenafil Continuation (U+) and Udenafil Naive (U-) groups. A decrease in value indicates a decrease in liver stiffness.",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Effect of Udenafil 87.5 mg BID Treatment on Liver Stiffness in Udenafil Continuation and Naive Groups After 52 Weeks, as Determined by Magnetic Resonance Elastography",
+        "description": "Liver stiffness was measured at baseline and 52 weeks using Magnetic Resonance Elastography (MRE) separately in Udenafil Continuation (U+) and Udenafil Naive (U-) groups. A decrease in value indicates a decrease in liver stiffness.",
+        "timeFrame": "52 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Effect of Udenafil 87.5 mg BID on Enhanced Liver Fibrosis (ELF) Score After 52 Weeks of Treatment",
+        "description": "Overall ELF score. ELF score is based on the serum levels of hyaluronic acid (HA), amino-terminal propeptide of type III collagen (PIIINP), and tissue inhibitor of metalloproteinase-1 (TIMP-1), and calculated using the following formula: ELF score= 2.494+0.846 In(CHA)+0.391 In(CPIIINP)+0.391 In(CTIMP-1). The levels of each component were as assessed individually and as part of the calculated ELF score as continuous variables. The normal range in healthy subjects ≤20 years of age is 6.9 - 8.8. Correlations between ELF and the degree of liver fibrosis have not been established in patients with Fontan circulation, however, a decrease in ELF score is associated with improved liver health in other disease states.",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Effect of Udenafil 87.5 mg BID on Brain Natriuretic Peptide After 52 Weeks of Treatment",
+        "description": "Brain Natriuretic Peptide (BNP) was measured at baseline and 52 weeks of treatment. BNP is a biomarker of overall cardiac function across a variety of disease states. A decrease in value is associated with improved cardiac function.",
+        "timeFrame": "52 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:12.571Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

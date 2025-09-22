@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02253394",
+  "briefTitle": "The Combination Ambrisentan Plus Spironolactone in Pulmonary Arterial Hypertension Study",
+  "officialTitle": "The Combination Ambrisentan Plus Spironolactone in Pulmonary Arterial Hypertension Study (The CAPS-PAH Study)",
+  "protocolDocument": {
+    "nctId": "NCT02253394",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-08-24",
+    "uploadDate": "2019-08-28T14:27",
+    "size": 472652,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02253394/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-09",
+    "completionDate": "2018-02",
+    "primaryCompletionDate": "2018-02",
+    "firstSubmitDate": "2014-09-17",
+    "firstPostDate": "2014-10-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Voluntarily gives informed consent to participate in the study.\n2. Right heart catheterization demonstrating conventional mean pulmonary artery pressure (mPAP) \\>25, pulmonary vascular resistance (PVR) \\>3.0 Wood Units, pulmonary capillary wedge pressure (PCWP) \\<16 mmHg within two years of enrollment\n3. Subject is 18 years of age or older at Screening.\n4. Diagnosis of symptomatic idiopathic or heritable PAH, PAH associated with Connective Tissue Disease (CTD), PAH associated with repaired/unrepaired congenital systemic-to-pulmonary shunt, Portopulmonary hypertension or PAH associated with HIV infection.\n5. New York Heart Association Functional Class II or III\n6. Stable therapy with ambrisentan 5 or 10 mg every day for \\> 90 days.\n7. Baseline 6-Minute Walk Distance 50-450m\n\nExclusion Criteria:\n\n1. Substantial Primary Lung disease\n\n   * forced expiratory volume at one second (FEV-1)/forced vital capacity (FVC) \\<0.6 and FEV-1 \\<70% predicted\n   * diffusing capacity of lung for carbon monoxide (DLCO) \\<30% predicted\n   * Pulmonary fibrosis\n2. Left ventricular ejection fraction \\< 50%\n3. Pulmonary capillary wedge pressure \\> 16 mm Hg\n4. Aortic valve disease\n5. Ischemic heart disease\n6. Systemic hypotension (SBP \\<90 mm Hg)\n7. Co-existing treatment with other endothelin receptor antagonists or prostacyclin analogues\n8. New York Heart Association Functional Class IV\n9. Chronic thromboembolic pulmonary hypertension\n10. Known or suspected pulmonary veno-occlusive disease\n11. Serum creatinine \\>2.0 mg/dL in women, Serum creatinine \\>2.5 mg/dL in men\n12. Baseline serum potassium \\>5.0 milliequivalent (mEq)/L\n13. Participation in ongoing drug/intervention-based clinical trial\n14. Pregnancy\n15. Unable to provide consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Effect of Combination Ambrisentan + Spironolactone on Peak Volume of Oxygen Consumption (pVO2) and Cardiac Output",
+        "description": "Study the effect of combination ambrisentan (5-10 mg/d) + spironolactone (50 mg/d) on pVO2 and cardiac output. The pVO2 refers to a measure of general physical fitness measured during exercise.",
+        "timeFrame": "Up to average of 20 min"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:12.002Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

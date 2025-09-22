@@ -1,0 +1,104 @@
+{
+  "nctId": "NCT00386542",
+  "briefTitle": "Needle-free Jet Injection of Reduced-dose, Intradermal, Influenza Vaccine in >= 6 to < 24-month-old Children",
+  "officialTitle": "Clinical Trial of Safety (Reactogenicity) and Immunogenicity of Needle-free Jet Injection of Reduced-dose, Intradermal Influenza Vaccine (INF) Administered to >= 6 to < 24 Month-old Infants and Toddlers in the Dominican Republic",
+  "protocolDocument": {
+    "nctId": "NCT00386542",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-11-10",
+    "uploadDate": "2023-11-19T18:54",
+    "size": 3126268,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00386542/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 450,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2006-10",
+    "completionDate": "2010-05",
+    "primaryCompletionDate": "2009-11",
+    "firstSubmitDate": "2006-10-10",
+    "firstPostDate": "2006-10-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age from \\> = 6 to \\< 24 months (not having reached 2nd birthday).\n* Born after a full-term (≥ 37 weeks), and birth weight of \\>= 2.5 kg (\\>= 5 pounds, 8 ounces)\n* History of prior or first attendance as a patient, or as a sibling of a patient, seeking routine immunization or other clinical care at the Hospital Infantíl Robert Reid Cabral (HIRRC)\n* The parent(s) or legal guardian(s) provide(s) written informed consent and agree(s) to bring the infant back to the clinic for all visits scheduled in the study\n* Up-to-date for routine doses of vaccines officially recommended for the patient's age in the Dominican Republic to prevent tuberculosis, polio, diphtheria, tetanus, pertussis, hepatitis B, and Haemophilus influenzae B\n* In good health, as determined by medical history and physical examination collected in accordance with the Case Report Form (CRF), and by the clinical judgment of the investigators.\n\nExclusion Criteria:\n\nInfants WHOSE PARENT(S)/LEGAL GUARDIAN(S):\n\n* Are unable or unwilling to give written informed consent for their infant to participate in the study\n* Cannot be contacted by telephone (family's own or a neighbor's) if necessary for adverse events if scheduled followup return appointments are missed\n* Are unable to complete the diary for adverse events; are unable to measure and record temperatures or maximal diameter of local reactions or limb circumference; or have difficulty understanding written instructions; or other factors which indicate exclusion in the judgement of the study staff.\n\nINFANTS who:\n\n* Have fever (by parental report or by rectal temperature ≥ 38.5° C or axillary ≥ 38.0° C) currently or within the past 3 days, or who are currently suffering from an acute or chronic infectious disease (including known HIV)\n* Have had an acute or chronic infection requiring systemic antimicrobial therapy (antibiotic or antiviral) or other prescribed treatment within the past 21 days. This includes any underlying illness that may limit their response to vaccination, such as those receiving intravenous immunoglobulin for agammaglobulinemia, or systemic steroid therapy.\n* Are malnourished, defined by weight less than two standard deviations below the median weight for their age\n* Are allergic to eggs, or have a history of any anaphylactic shock, asthma, urticaria, or other allergic reaction after previous vaccinations, or have allergy or hypersensitivity to any component of the study vaccine\n* Have ever previously received any influenza vaccine\n* Have received within the prior 28 days, or for whom there is the indication to receive in the next 56 days, any non-study vaccination or investigational agent outside of the study\n* Have a known bleeding diathesis, or any condition with a prolonged bleeding time\n* Currently have any serious confirmed or suspected disease, such as metabolic, cardiac, or autoimmune disease, or diabetes\n* Have a history of epilepsy or a seizure disorder, or neurodevelopmental disorders such as autism\n* Have a genetic anomaly or known cytogenic disorder (e.g., Down's syndrome)\n* Have leukemia, lymphoma, or any other cancer/neoplasm\n* Have known or suspected immune dysfunction, including HIV infection, or receives(ed) immunosuppressive therapy, including systemic corticosteroids\n* Have ever received blood, blood products, or parenteral preparations of immunoglobulin\n* Have any other serious disease (e.g., with signs of cardiac or renal failure), including progressive neurologic disease\n* Have any condition which, in the opinion of the investigator, may interfere in the evaluation of the objectives of the study",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "6 Months",
+    "maximumAge": "24 Months",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Rates of seroconversion (SC) on HI assay 1 month after dose 2. SC defined as titer >= 40 among initial-seronegatives (titer < 8 on day 0); OR, a followup titer which rises >= 4-fold.",
+        "description": "seroconversion and safety assessed through occurrence of local and systemic reactions",
+        "timeFrame": "One month after each of doses 1 and 2."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Rates of local and systemic reactions",
+        "description": "assessment of these reactions by study investigators",
+        "timeFrame": "Up to 42 days for prompted symptoms after investigational doses 1 and 2. Up to 6 months for unsolicited ones."
+      },
+      {
+        "measure": "Seroprotection (SP) on HI assay, defined as >= 40 regardless of baseline",
+        "description": "assays were performed at CDC",
+        "timeFrame": "One month after each of doses 1 and 2."
+      },
+      {
+        "measure": "Geometric mean titers (GMT) on HI",
+        "description": "assays were performed at CDC",
+        "timeFrame": "One month after each of doses 1 and 2."
+      },
+      {
+        "measure": "Geometric mean increase (GMI) on HI",
+        "description": "assays were performed at CDC",
+        "timeFrame": "One month after each of doses 1 and 2."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:41.508Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

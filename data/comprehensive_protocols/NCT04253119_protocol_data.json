@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT04253119",
+  "briefTitle": "ART First-line Treatment Durability in Russia",
+  "officialTitle": "Retrospective Evaluation of Treatment Durability Among Treatment-naive HIV-infected Individuals Initiated First-line ART in Russia",
+  "protocolDocument": {
+    "nctId": "NCT04253119",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-07-02",
+    "uploadDate": "2022-10-06T05:13",
+    "size": 617363,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04253119/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 536,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-11-26",
+    "completionDate": "2022-06-30",
+    "primaryCompletionDate": "2022-06-30",
+    "firstSubmitDate": "2019-08-02",
+    "firstPostDate": "2020-02-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adult patients (\\>18 years of age) with definite HIV-1 infection based on positive lab test and judgement of treating physician according to standards of care\n* Naive to antiretroviral treatment at the time of initiation\n* Viral load of \\>1000 copies/ml at the time of initiation of ART\n* Initiated their first-line ART between February 01 and April 30, 2017\n* Patients are included, if the third component of their first line ART was either NNRTI or boosted PI plus NRTIs\n* Completed follow-up from baseline for at least 96 weeks\n* Signed informed consent\n\nExclusion Criteria:\n\n• HIV-2 infection",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "48 Weeks Treatment Durability",
+        "description": "Percentage of patients remained on initial therapy without change of the NNRTI or PI agent",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "96 Weeks Treatment Durability",
+        "description": "Percentage of patients remained on initial therapy without change of the NNRTI or PI agent",
+        "timeFrame": "96 weeks"
+      },
+      {
+        "measure": "Time on Therapy at 48 Weeks",
+        "description": "Estimated time on therapy without change of the NNRTI or PI agent at 48 weeks among treatment naive HIV-infected individuals initiated ART (NNRTI, PI)",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Time on Therapy at 96 Weeks",
+        "description": "Estimated time on therapy without change of the NNRTI or PI agent at 96 weeks among treatment naive HIV-infected individuals initiated ART (NNRTI, PI)",
+        "timeFrame": "96 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:21.304Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

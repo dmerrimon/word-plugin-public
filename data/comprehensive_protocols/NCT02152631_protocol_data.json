@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT02152631",
+  "briefTitle": "A Study of Abemaciclib (LY2835219) in Participants With Previously Treated KRAS Mutated Lung Cancer",
+  "officialTitle": "JUNIPER: A Randomized Phase 3 Study of Abemaciclib Plus Best Supportive Care Versus Erlotinib Plus Best Supportive Care in Patients With Stage IV NSCLC With a Detectable KRAS Mutation Who Have Progressed After Platinum-Based Chemotherapy",
+  "protocolDocument": {
+    "nctId": "NCT02152631",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol: Protocol (e)",
+    "date": "2016-12-20",
+    "uploadDate": "2018-08-23T12:05",
+    "size": 1083721,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02152631/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 453,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-10-03",
+    "completionDate": "2025-12",
+    "primaryCompletionDate": "2017-09-15",
+    "firstSubmitDate": "2014-05-23",
+    "firstPostDate": "2014-06-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Have confirmed diagnosis of stage IV non-small cell lung cancer (NSCLC) according to the American Joint Committee on Cancer Staging Handbook.\n* Determined to have detectable mutations in codons 12 or 13 of the kirsten rat sarcoma (KRAS) oncogene by an investigational assay at the study central laboratory. A KRAS positive mutation result in codons 12 or 13 of the KRAS oncogene from tumor tissue per local laboratory will be permitted in no more than 10% of randomized participants.\n* Have progressed after platinum-based chemotherapy (with or without maintenance therapy) AND have received one additional therapy which may include an immune checkpoint inhibitor or other anti-cancer therapy for advanced and/or metastatic disease OR is judged by the physician as ineligible for further standard second-line chemotherapy. Participants who have progressed after platinum-based chemotherapy and an immune checkpoint inhibitor (immunotherapy) e.g. pembrolizumab or nivolumab alone or in combination with other agents are eligible.\n* Have measureable disease as defined by the Response Evaluation Criteria in Solid Tumors (RECIST 1.1).\n* Have a performance status (PS) of 0 to 1 on the Eastern Cooperative Oncology Group (ECOG) scale.\n* Have discontinued all previous therapies for cancer (including chemotherapy, radiotherapy, immunotherapy, and investigational therapy) for at least 21 days for myelosuppressive agents or 14 days for nonmyelosuppressive agents prior to receiving study drug.\n\nExclusion Criteria:\n\n* Have received treatment with a drug that has not received regulatory approval for any indication within 14 or 21 days of the initial dose of study drug for a nonmyelosuppressive or myelosuppressive agent, respectively.\n* Have a personal history of any of the following conditions: presyncope or syncope of either unexplained or cardiovascular etiology, ventricular arrhythmia (including but not limited to ventricular tachycardia and ventricular fibrillation), or sudden cardiac arrest.\n* Have the presence of unstable central nervous system (CNS) metastasis. History of CNS metastasis or stable CNS metastases is allowed (no longer requiring active therapy such as steroid medications). Participants with a history of CNS metastases must have a brain scan (for example, magnetic resonance imaging \\[MRI\\]) within 28 days of randomization to document stability, even if there have been no changes in symptoms.\n* Have previously completed or withdrawn from this study or any other study investigating a cyclin-dependent kinase 4 (CDK4) and cyclin-dependent kinase 6 (CDK6) inhibitors, or have received treatment with a prior CDK4 and CDK6 inhibitors.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "OS defined as from randomization date to the date of death due to any cause. For each participant who is not known to have died as of the data-inclusion cutoff date for overall survival analysis, OS time was censored on the last date the participant is known to be alive.",
+        "timeFrame": "From Randomization Date to Date of Death from Any Cause (Up to 32 Months)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With Complete Response (CR) or Partial Response (PR) (Objective Response Rate [ORR])",
+        "description": "ORR was the percentage of participants achieving a best overall response (BOR) of complete response (CR) or partial response (PR) as per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1. CR defined as the disappearance of all target and non-target lesions and no appearance of new lesions. PR defined as at least a 30% decrease in the sum of the longest diameters (LD) of target lesions (taking as reference the baseline sum LD), no progression of non-target lesions, and no appearance of new lesions.",
+        "timeFrame": "From Randomization Date to Objective Progression (Up to 32 Months)"
+      },
+      {
+        "measure": "Progression Free Survival (PFS)",
+        "description": "PFS defined as the from randomization date to the first evidence of disease progression as defined by RECIST v1.1 or death from any cause. Progressive Disease (PD) was at least a 20% increase in the sum of the diameters of target lesions, with reference being the smallest sum on study and an absolute increase of at least 5 mm, or unequivocal progression of non-target lesions, or 1 or more new lesions. If a participant does not have a complete baseline disease assessment, then the PFS time was censored at the date of first dose, regardless of whether or not objectively determined disease progression or death has been observed for the participant. If a participant was not known to have died or have objective progression as of the data inclusion cutoff date for the analysis, the PFS time was censored at the last adequate tumor assessment date.",
+        "timeFrame": "From Randomization Date until Disease Progression or Death from Any Cause (Up to 32 Months)"
+      },
+      {
+        "measure": "Change From Baseline in MD Anderson Symptom Inventory-Lung Cancer (MDASI-LC) Score",
+        "description": "The MDASI-LC included 22 items + 3 additional trial-specific items, resulting in 6 collected and reported single-construct scores including core symptoms (13-item), interference (6-item), lung cancer (3-item), and trial-specific single outcomes for headache, diarrhea, and rash. A 2-construct composite core + lung cancer symptom (16-item) score was calculated. Data for all 7 scores were collected by an 11-point numeric rating scale anchored at 0 (not present or does not interfere) and 10 (as bad as you can imagine or interfered completely). The measurement range was 10 (maximum score-minimum score). Mixed Model Repeated Measure (MMRM) regression with covariates for treatment, visit, treatment\\*visit, and baseline score predicted between-group Least Squares (LS) mean differences from baseline. Group-level negative change from baseline indicated group improvement.",
+        "timeFrame": "From Randomization Date through End of Study (Up to 32 Months)"
+      },
+      {
+        "measure": "Pharmacokinetics (PK): Area Under the Concentration Versus Time Curve During 1 Dosing Interval at Steady State",
+        "description": "PK is determined by the area under the plasma concentration versus time curve during 1 dosing interval at steady state",
+        "timeFrame": "Day 1 of Cycle 1 through Cycle 3 (28 Day Cycles)"
+      },
+      {
+        "measure": "Change From Baseline in European Quality of Life - 5 Dimensions - 5 Level (EQ-5D-5L) Score",
+        "description": "There are 5 response levels on a good-to-bad continuum of 1-5 corresponding to none, slight, moderate, severe, and extreme/unable to. The EuroQol-developed crosswalk method was used to convert the EQ-5D-5L,using United Kingdom (UK) weights, health dimensions(mobility, self-care, usual activities, pain/discomfort, and anxiety/depression) into a single index value; the dimensions are not separately scored. The index is marked missing when ≥1 dimensions are missing. The index scores for the response patterns were anchored on full health to dead with negative values assigned to response patterns/health states considered worse than death. The best pattern is assigned the index value of 1.0; the worst pattern is assigned an index value of -0.594. Between-group differences in regression-predicted change from baseline score were estimated for the index. LS Mean value was controlled for Treatment, visit, Treatment\\*Visit and baseline.",
+        "timeFrame": "From Randomization Date through End of Study (Up to 32 Months)"
+      },
+      {
+        "measure": "Resource Utilization: Percentage of Participants Who Are Hospitalized",
+        "description": "Resource utilization is the percentage of participants who was hospitalized.",
+        "timeFrame": "From Randomization Date through End of Study (Up to 32 Months)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:52.194Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

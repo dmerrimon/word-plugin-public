@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02312765",
+  "briefTitle": "Reducing Heart Failure Re-admissions by Enhancing Sleep Apnea Treatment Adherence",
+  "officialTitle": "Reducing Heart Failure Re-admissions by Enhancing Sleep Apnea Treatment Adherence",
+  "protocolDocument": {
+    "nctId": "NCT02312765",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-12-01",
+    "uploadDate": "2019-08-26T21:47",
+    "size": 391276,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02312765/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 146,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-11",
+    "completionDate": "2017-12",
+    "primaryCompletionDate": "2017-06",
+    "firstSubmitDate": "2014-12-01",
+    "firstPostDate": "2014-12-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Congestive heart failure and sleep apnea\n\nExclusion Criteria:\n\n* Cognitive impairment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Adhering to Positive Airway Pressure (PAP)",
+        "description": "PAP adherence will be measured from the PAP unit (which monitors nightly hours of use and records this data; this is the standard of care clinical practice approach used currently by health care providers to monitor PAP use) and will be reported as Number of Participants who Adhered to Positive Airway Pressure (PAP) Treatment (adherence defined as \\>4 hours of use per night on average across the 30 day period). For example, if 5 subjects used PAP for more than 4 hours per night on average across the 30 day period, then the number of adherent participants is 5.",
+        "timeFrame": "one month"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:33.052Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

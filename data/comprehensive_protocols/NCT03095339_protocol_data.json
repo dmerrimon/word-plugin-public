@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03095339",
+  "briefTitle": "EFECAB: Improving Pig Management to Prevent Epilepsy in Burkina Faso",
+  "officialTitle": "EFECAB: Improving Pig Management to Prevent Epilepsy in Burkina Faso",
+  "protocolDocument": {
+    "nctId": "NCT03095339",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2014-10-12",
+    "uploadDate": "2018-02-12T14:00",
+    "size": 857862,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03095339/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 58,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-02-21",
+    "completionDate": "2015-01-31",
+    "primaryCompletionDate": "2014-11-24",
+    "firstSubmitDate": "2017-03-22",
+    "firstPostDate": "2017-03-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "The unit of randomization and analysis of this study is the village. Therefore, the eligibility criteria were determined at the village level.\n\nInclusion Criteria:\n\n* Population of at least 1000 at the 2006 census\n* Present on the map of the \"Institut Géographique du Burkina 2000\"\n* Separated from another village by at least 5 kilometers.\n\nExclusion Criteria:\n\n* Village located on a National or Provincial road\n* Village located within 20 km of Koudougou or Ouagadougou\n* Regional or Provincial Capital\n* Absence of pigs in the village\n\nAt the individual level, the following eligibility criteria were used:\n\nInclusion Criteria:\n\n* Aged 5 years old or more\n* Has lived in the village for at least 12 months\n* Not planning to move in the next three years\n\nExclusion Criteria:\n\n* Presence of confirmed epilepsy or progressively worsening severe chronic headaches at baseline.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Human active cysticercosis cumulative incidence",
+        "description": "Sero conversion to the AgELISA test to detect antigens of cysticercosis",
+        "timeFrame": "baseline, 18 months follow-up pre randomization, 18 months follow-up post randomization"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Porcine active cysticercosis prevalence",
+        "description": "Sero-positivity to the AgELISA test to detect antigens of cysticercosis",
+        "timeFrame": "baseline, 18 months follow-up pre randomization, 18 months follow-up post randomization"
+      },
+      {
+        "measure": "Change in knowledge, attitude and practices",
+        "description": "Change in answers to the questionnaire through time",
+        "timeFrame": "baseline, 18 months follow-up pre randomization, 18 months follow-up post randomization"
+      },
+      {
+        "measure": "Cumulative incidence of epilepsy and progressively worsening severe chronic headaches",
+        "description": "development of neurological disorders among those followed up at least twice",
+        "timeFrame": "baseline, 18 months follow-up pre randomization, 18 months follow-up post randomization"
+      },
+      {
+        "measure": "Stigmatization of epilepsy",
+        "description": "Attitudes and knowledge regarding epilepsy post randomization",
+        "timeFrame": "18 months follow-up post randomization"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:49.448Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

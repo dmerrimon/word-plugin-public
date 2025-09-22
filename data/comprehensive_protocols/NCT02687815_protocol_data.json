@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT02687815",
+  "briefTitle": "Vitamin D to Prevent Severe Asthma Exacerbations (Vit-D-Kids Asthma)",
+  "officialTitle": "Vitamin D to Prevent Severe Asthma Exacerbations",
+  "protocolDocument": {
+    "nctId": "NCT02687815",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-06-19",
+    "uploadDate": "2020-10-09T17:33",
+    "size": 584019,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02687815/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 192,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-02-22",
+    "completionDate": "2019-09-17",
+    "primaryCompletionDate": "2019-09-17",
+    "firstSubmitDate": "2016-02-11",
+    "firstPostDate": "2016-02-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 6 to 16 years old\n* Physician-diagnosed asthma for at least one year\n* At least one severe asthma exacerbation in the previous year\n* Use of asthma medications (daily controller medication \\[ICS or leukotriene inhibitor\\] or inhaled β2-agonist \\[at least three days per week\\]) for at least six months in the previous year\n* Vitamin D insufficiency (i.e., serum vitamin D (25(OH)D level \\<30 ng/ml (75 nmol/L))\n* FEV1 ≥70 % of predicted\n* Positive bronchodilator response (i.e., increase in FEV1 ≥8% from baseline after inhaled short acting beta agonist or increased airway responsiveness to methacholine (PC20 ≤8 mg/ml if not on ICS or PC20 ≤16 mg/ml if on ICS)\n* Study protocol (i.e., age-appropriate dose of Fluticasone and no other asthma controller medications) approved by the child's regular doctor\n* Parental consent and child's assent to participate in the study.\n\nAdditional inclusion criteria applied after the run-in period, to be eligible for randomization:\n\n* Adherence with ICS and study medication (≥75% use \\[at least 21 of 28 days\\]) during the run-in period\n* Willingness to be randomized and complete study\n\nExclusion Criteria:\n\n* Serum calcium \\>10.8 mg/dl\n* Serum 25(OH) D \\<14 ng/ml (35 nmol/L)\n* Chronic respiratory disorder other than asthma\n* Severe asthma (intubation for asthma at any time OR ≥3 hospitalizations for asthma in previous year OR ≥6 severe asthma exacerbations in previous year)\n* Hepatic/renal disease, rickets, malabsorption, or other diseases that would affect vitamin D metabolism\n* Current smoking, or former smoking if ≥5 pack-years\n* Immune deficiency, cleft palate or Down's syndrome\n* Treatment with anticonvulsants or ≥1,000 IU/day of vitamin D2 or D3\n* Chronic oral corticosteroid therapy\n* Inability to perform acceptable spirometry\n* Use of investigational therapies or participation in trials 30 days before or during the study\n* Participant is currently breast feeding an infant\n* Pregnancy\n* Weight less than 10 kg\n* Plans to move out of the study site area in the next year\n\nAdditional exclusion criteria applied after the run-in period:\n\n* Any severe asthma exacerbation during the run-in period\n* Need for asthma medications other than ICS and p.r.n. rescue inhalers during the run-in period",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "6 Years",
+    "maximumAge": "16 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Days to a Severe Asthma Exacerbation",
+        "description": "A severe asthma exacerbation is defined as an exacerbation that meets either of these criteria: 1) Use of systemic corticosteroids (tablets, suspension, or injection), or an increase from a stable maintenance dose, for at least 3 days OR 2) A hospitalization or ER visit because of asthma, requiring systemic corticosteroids.",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Days to Viral-induced Severe Exacerbation",
+        "description": "A severe viral asthma exacerbation is defined as a severe asthma exacerbation \\[defined as an exacerbation that meets either of these criteria: 1) Use of systemic corticosteroids (tablets, suspension, or injection), or an increase from a stable maintenance dose, for at least 3 days OR 2) A hospitalization or ER visit because of asthma, requiring systemic corticosteroids\\] along with a positive respiratory viral panel from a nasal blow collected within 72 hours of the exacerbation.",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Proportion of Participants in Whom Fluticasone Dose Was Halved at Visit 6",
+        "description": "In the absence of moderate or severe asthma exacerbations, participants may have their dose of inhaled corticosteroids (ICS) reduced by 50% if the following criteria are met at visit 6 (halfway through the Trial Phase):\n\n* Asthma Control Test (ACT) score greater than 19\n* Both pre-bronchodilator FEV1 and FEV1/FVC ≥80% of predicted\n* Use of ≤4 puffs of a rescue inhaler per week\n* ≤1 day per month with asthma symptoms preventing full participation in usual daily activities\n* Clinician's judgment regarding adequate asthma control",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Average Cumulative Prescribed Dose of ICS at the End of the Trial",
+        "description": "The average cumulative dose of inhaled corticosteroids (ICS) during the study period",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:23.834Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,109 @@
+{
+  "nctId": "NCT05438771",
+  "briefTitle": "The Effects of Ankaferd Blood Stopper",
+  "officialTitle": "The Effects of Ankaferd Hemostat on Preventing Oral Mucositis in Colorectal Cancer Patients Receiving Chemotherapy",
+  "protocolDocument": {
+    "nctId": "NCT05438771",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-06-06",
+    "uploadDate": "2023-02-06T13:45",
+    "size": 76588,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05438771/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 66,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2021-06-01",
+    "completionDate": "2023-06-02",
+    "primaryCompletionDate": "2023-06-02",
+    "firstSubmitDate": "2021-08-09",
+    "firstPostDate": "2022-06-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* between the ages of 18-75\n* At least primary school graduate\n* No communication problems\n* No mouth sores/mucositis (Mucositis stage=0)\n* Having been diagnosed with colorectal cancer\n* To receive Folfox (5-Fluorouracil, oxalplatin, folinic acid) combination therapy as first-line therapy Not having received chemotherapy or radiotherapy with any other diagnosis before\n* Agreeing to participate in the study\n* ECOG performance status 0-2\n\nExclusion Criteria:\n\nDon't be a denture\n\n* Having an oral herpes simplex lesion\n* Smoking\n* Using Glutemine Research\n* Receiving G-CSF support\n* Having a physical disability that prevents them from using the right brushing technique",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Personal Information Form",
+        "description": "This form, which was created as a result of literature review by the researchers at the beginning of the study, was prepared for both the study and control group patients included in the sample. It consists of 12 questions including brushing habits and the person responsible for its care) and health status and habits (having another chronic disease, smoking and alcohol use).",
+        "timeFrame": "day 1"
+      },
+      {
+        "measure": "ECOG Performance Score (Eastern Cooperative Oncology Group)",
+        "description": "The Eastern Cooperative Oncology Group (ECOG) performance scale, also known as the WHO or Zubrod performance score, was developed in 1960. On the ECOG Performance scale, 0 means normal health and 5 means death. Low scores indicate good general condition, while high scores indicate poor prognosis. '0' Normal. Can maintain normal activity before the disease, '1' Can continue his daily life with bearable tumor findings, '2', Has disturbing tumor findings but spends more than 50% of his time out of bed, '3' Is severely disturbed and spends % of his time It is evaluated as '4' Being in a very uncomfortable condition and spending all his time tied to the bed, '5' Dead, who had to stay more than 50 of them tied to the bed.",
+        "timeFrame": "Up to Day 15"
+      },
+      {
+        "measure": "Oral Care Control Chart",
+        "description": "This form was developed by the researchers in order to ensure that patients' oral care intervals, tooth brushing and mouthwash are made and to prevent them from being forgotten. It was used to record the oral care performed by the patients in the intervention and control groups during the follow-up period. The form is a checklist to be filled by clicking after oral care.",
+        "timeFrame": "Up to Day 15"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of participants with abnormal laboratory test results",
+        "description": "hemoglobin, hematocrit, neutrofil, body mass index",
+        "timeFrame": "Up to Day 15"
+      }
+    ],
+    "other": [
+      {
+        "measure": "World Health Organization (WHO) Oral Mucositis Evaluation",
+        "description": "It is a grading system developed by WHO according to the clinical appearance and functional status of mucositis. WHO evaluates oral mucositis (OM) as subjective (patient-described pain), objective (presence of erythema and ulcerations) and functional (ability to consume liquid/solid foods by mouth or inability to eat anything). OM grade 0 (normal), grade 1 \\[mild focal changes (erythematous areas) no pain and tenderness yet, can be fed orally\\], grade 2 (painless ulcers, erythema, mild pain sensation), grade 3 (painful erythema, edema or ulcers) (depth \\>2 mm and less than half of the mucosa) no bleeding, can only be fed orally with liquid diet) and grade 4 (erythema, edema or ulcers (more than half the mucosa), severe pain, bleeding, no nutrition, parenteral and enteral nutrition support may be required)",
+        "timeFrame": "Up to Day 15"
+      },
+      {
+        "measure": "patient education",
+        "description": "Patients were informed about the precaution of oral hygiene. The patients were instructed to brush their teeth at least twice a day, morning and evening. Toothbrushes with soft nylon bristles with rounded ends were given to the patients. Modified Stillman method for tooth brushing was taught. The bristle ends of the brush should be placed in the apical direction, against the cervical part of the teeth and partially against the adjacent gingiva (it should be activated with a back-and-forth motion at least 4 times on each tooth at an angle of 450 and simultaneously move it in the coronal direction (from bottom to top, from right to left). announced.",
+        "timeFrame": "Up to Day 15"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 1,
+      "otherCount": 2,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 68,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:50.635Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

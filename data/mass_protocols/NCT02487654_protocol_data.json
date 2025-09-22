@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02487654",
+  "briefTitle": "Ectopy Triggering Ganglionated Plexus Ablation to Prevent Atrial Fibrillation",
+  "officialTitle": "Ectopy Triggering Ganglionated Plexus Ablation to Prevent Atrial Fibrillation",
+  "protocolDocument": {
+    "nctId": "NCT02487654",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-12-13",
+    "uploadDate": "2022-09-16T11:54",
+    "size": 179420,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02487654/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 116,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-12-01",
+    "completionDate": "2024-10-23",
+    "primaryCompletionDate": "2023-10-23",
+    "firstSubmitDate": "2013-11-25",
+    "firstPostDate": "2015-07-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Males or females eighteen (18) to eighty five (85) years old\n* Paroxysmal atrial fibrillation\n* Suitable candidate for catheter ablation\n* Signed informed consent\n\nExclusion Criteria:\n\n* Contraindication to catheter ablation\n* Presence of a cardiac thrombus\n* valvular disease that is grade moderate or greater\n* Any form of cardiomyopathy\n* On amiodarone therapy\n* Severe cerebrovascular disease\n* Active gastrointestinal bleeding\n* Renal failure (on dialysis or at risk of requiring dialysis)\n* Active infection or fever\n* Life expectancy shorter than the duration of the trial\n* Allergy to contrast\n* Intractable heart failure (NYHA Class IV)\n* Bleeding or clotting disorders or inability to receive heparin\n* Serum Creatinine \\>200umol/L\n* Uncontrolled diabetes (HbA1c ≥73mmol/mol or HbA1c ≤64mmol/mol and Fasting Blood Glucose ≥9.2mmol/L)\n* Malignancy needing therapy\n* Pregnancy or women of childbearing potential not using a highly effective method of contraception\n* Patients in current research or have recently been involved in any research prior to recruitment will not be included in the trial.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Patients With no Evidence of >30s Recurrent Atrial Arrhythmia Post-index Procedure",
+        "description": "That is documented recurrent atrial arrhythmia lasting 30 seconds or more after a blanking period of 3 months; the outcome measure will be assessed up to 12 months of follow-up with 48hr halter monitors arranged every 3 months to investigate Arrhythmia recurrence .",
+        "timeFrame": "3 to 12 months post-ablation."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Presenting a Reduction in the Usage of Antiarrhythmics Post-ablation",
+        "description": "The reduction was defined as either a decrease of dose or a cessation of a drug over a 12 month follow-up period post ablation.",
+        "timeFrame": "3 to 12 months post-ablation."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:13.361Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

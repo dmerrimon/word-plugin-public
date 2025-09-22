@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04363359",
+  "briefTitle": "Clinical Trial of Quadrivalent Influenza Virus Split Vaccine",
+  "officialTitle": "Immunogenicity and Safety of Quadrivalent Influenza Vaccine In 6 to 35 Months Population: a Randomized, Double-blind, Parallel-group Ⅱ Phase of Clinical Trials",
+  "protocolDocument": {
+    "nctId": "NCT04363359",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-01-01",
+    "uploadDate": "2020-04-22T02:33",
+    "size": 363278,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04363359/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1980,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-01-15",
+    "completionDate": "2021-09-14",
+    "primaryCompletionDate": "2021-09-14",
+    "firstSubmitDate": "2020-04-17",
+    "firstPostDate": "2020-04-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Healthy infants aged 6-35 months.\n* Volunteer legal guardian or client informed consent, voluntarily participate in and sign informed consent.\n* The volunteer legal guardian or client has the ability (non-illiterate) to understand the study procedures, to use a thermometer, scale, and fill in a diary card as required, and be able to complete the clinical study in compliance with the clinical trial protocol.\n\nExclusion Criteria:\n\n* The underarm body temperature on the day of enrollment was \\> 37.0℃.\n* Have been suffering from influenza within the previous 3 months (confirmed by either clinical, serological or microbiological methods).\n* Any previous influenza vaccination (registered or experimental) within 6 months or any planned influenza vaccination during the study period.\n* Allergic to any component of the vaccine, a history of allergic reactions to eggs or gentamicin sulfate.\n* A history of severe allergy to any vaccine or drug.\n* Preterm birth (delivered before 37 weeks of gestation), low birth weight baby (birth weight \\< 2300g for girls, \\<2500g for boys).\n* Dystocia, asphyxia rescue, nervous system damage history;\n* Congenital malformations or developmental disorders, genetic defects, severe malnutrition, etc.\n* Acute illness, severe chronic illness or acute attack of chronic disease on the day of vaccination;\n* A history of live attenuated vaccination within 14 days prior to vaccination and a history of other vaccinations within 7 days prior to vaccination;\n* Patients who received immunoenhancement or inhibitor therapy within 3 months (continued oral or intravenous administration for more than 14 days);\n* Congenital or acquired immune deficiency, HIV infection, lymphoma, leukemia or other autoimmune diseases;\n* History of asthma, past two years of instability requiring emergency treatment, hospitalization, intubation, oral or intravenous administration of corticosteroids;\n* Have received blood or blood-related products;\n* A history of convulsion, epilepsy, encephalopathy, guillain-barre syndrome, a history of mental illness or a family history;\n* A history of abnormal coagulation function (such as coagulation factor deficiency, coagulation disease);\n* Planning to relocate before the end of the study or to leave for an extended -period during the scheduled study visit;\n* Participating in or planning to participate in other clinical trials in the near future;\n* The investigators determined that any conditions were inappropriate to participate in the clinical trial.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "6 Months",
+    "maximumAge": "35 Months",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "seroconversion rate of HI antibodies",
+        "description": "28 days after receiving two doses of vaccine in subjects aged 6-35 months, seroconversion rate of HI antibodies against any subtype of influenza virus in each group.",
+        "timeFrame": "56 days"
+      },
+      {
+        "measure": "seroprotection rate of HI antibodies",
+        "description": "28 days after receiving two doses of vaccine in subjects aged 6-35 months, seroprotection rate of HI antibodies against any subtype of influenza virus in each group.",
+        "timeFrame": "56 days"
+      },
+      {
+        "measure": "GMT and GMI of HI antibodies",
+        "description": "28 days after receiving two doses of vaccine in subjects aged 6-35 months, GMT and GMI of HI antibodies against any subtype of influenza virus in each group.",
+        "timeFrame": "56 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Reactogenicity Events",
+        "description": "1. The proportion of all adverse reactions/events in each group through 30 days after the second dose.\n2. The proportion of serious adverse events (SAE) within 6 months after inoculation in each group.",
+        "timeFrame": "30 days and 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:43.705Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

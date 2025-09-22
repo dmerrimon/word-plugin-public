@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT03832686",
+  "briefTitle": "Investigation of Two Swallowing Therapy Models During Radiation Therapy for Head and Neck Cancer",
+  "officialTitle": "Investigation of Two Swallowing Therapy Models During Radiation Therapy for Head and Neck Cancer",
+  "protocolDocument": {
+    "nctId": "NCT03832686",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-06-08",
+    "uploadDate": "2023-12-14T14:17",
+    "size": 1957570,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03832686/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 98,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-04-22",
+    "completionDate": "2023-04-06",
+    "primaryCompletionDate": "2022-03-03",
+    "firstSubmitDate": "2019-01-28",
+    "firstPostDate": "2019-02-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Study subjects ≥ 18 years of age.\n* Fluent English speaking subjects.\n* Study subjects capable of providing informed consent.\n* Patients with newly diagnosed non-metastatic head and neck cancer of the oral cavity, oropharynx, nasopharynx, hypopharynx, and larynx that require bilateral neck radiation. Individuals with unknown primary head and neck cancer with nodal disease necessitating bilateral radiation will also be included.\n* Study subjects with a previously untreated head and neck cancer diagnosis requiring a definitive course of radiotherapy requiring a prescribed dose of 60Gy or greater.\n* Study subjects who have either an Android or Apple iOS-based smartphone or tablet compatible with the Vibrent application.\n* Study subjects who have access to a sufficient monthly data plan (approximately 200 MB/month), or Internet connection.\n\nExclusion Criteria:\n\n* Non-English speaking, or incapable of providing informed consent.\n* Lack of smartphone, tablet, or Internet connection.\n* Inability to use the Vibrent application.\n* Patients being treated for head and neck cancer who do not receive some form of primary, adjuvant, or neo-adjuvant radiation therapy will not be considered for the study.\n* Patients with recurrent disease.\n* Pregnant women.\n* Individuals under the age of 18.\n* Individuals with contraindications to radiation therapy.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Achieving at Least 50% Adherence to Swallowing Exercises",
+        "description": "Measure of overall adherence to prescribed exercise protocol, by treatment group and radiation week.",
+        "timeFrame": "7 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Patient Perceived Swallowing Impairment as Measured by the MD Anderson Dysphagia Inventory (MDADI)",
+        "description": "The MD Anderson Dysphagia Inventory (MDADI) was selected to capture and quantify the patient perception of swallowing dysfunction. It is a 20-item patient reported survey that measures the impact of dysphagia on patients with HNC. Each item is scored on a 5 point scale with 1=lower function and 5=higher function. Possible scores range from 20-100 with higher scores indicating more normal swallowing function.",
+        "timeFrame": "19 weeks"
+      },
+      {
+        "measure": "Diet Level as Defined by the Functional Oral Intake Scale (FOIS)",
+        "description": "Functional Oral Intake Scale (measure of diet restriction). Scores range from 1-7 where lower scores reflect more limited oral intake and higher scores reflect more normal diet levels.",
+        "timeFrame": "19 weeks"
+      },
+      {
+        "measure": "Diet Restrictions as Measured by the Performance Status Scale Head and Neck",
+        "description": "Performance Status Scale Head and Neck measures eating in public (range 0-100; higher number is indicative of better function), and normalcy of diet (range 0-100, higher number is indicative of more normal function)",
+        "timeFrame": "7 weeks"
+      },
+      {
+        "measure": "Physiological Oropharyngeal Swallowing Impairment as Measured by the Modified Barium Swallow Impairment Profile (MBS-ImP)",
+        "description": "The Modified Barium Swallow Impairment Profile is a tool designed to quantify degree of impairment on 13 individual physiologic components visualized during a modified barium swallow where higher numbers reflect greater dysfunction. Score range: 0-4 for each physiologic component. The maximum possible Oral score is 22 and the maximum possible pharyngeal score is 29.",
+        "timeFrame": "19 weeks"
+      },
+      {
+        "measure": "Depth of Bolus Entry Into the Laryngeal Vestibule as Measured Using the Penetration-Aspiration Scale (PAS)",
+        "description": "The Penetration Aspiration Scale measures the presence and depth of food/liquid material entering the airway and patient response to that material. This scale ranges from 1-8 with higher numbers indicating more abnormal function.",
+        "timeFrame": "19 weeks"
+      },
+      {
+        "measure": "Severity of Impairment of Swallowing Safety and Efficiency as Measured Using the Dynamic Imaging Grade of Swallowing Toxicity (DIGEST) Scale",
+        "description": "Dynamic Imaging Grade of Swallowing Toxicity (DIGEST) rates the safety and efficiency of the swallow. Safety and efficiency are rated on a scale of 0-4 with higher numbers indicating more abnormality. This scale also includes an overall impairment score which takes into consideration the safety and efficiency grade.",
+        "timeFrame": "7 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:55.831Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

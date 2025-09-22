@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT03287830",
+  "briefTitle": "Flu2Text: Text Message Reminders for 2nd Dose of Influenza Vaccine",
+  "officialTitle": "Flu2Text: A Multi-Site Study Assessing Text Message Reminders for 2nd Dose of Influenza Vaccine",
+  "protocolDocument": {
+    "nctId": "NCT03287830",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-09-12",
+    "uploadDate": "2022-11-20T09:04",
+    "size": 517858,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03287830/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2105,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-10-06",
+    "completionDate": "2019-04-30",
+    "primaryCompletionDate": "2019-04-30",
+    "firstSubmitDate": "2017-09-06",
+    "firstPostDate": "2017-09-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Parenting adult (or legal guardian) of a child that:\n\n  * is between 6 months through 8 years at the time of enrollment (or the age for which 2 doses of influenza are recommended should Centers for Disease Control and Prevention (CDC) recommendations change)\n  * received 1st dose of influenza vaccine within last 7 days\n  * receives care at study site\n  * needs 2 doses of influenza vaccine that season as determined by their clinician at the study site\n  * plan to continue to receive care through April 30 of that season (to the best of their knowledge) (season 2017-18 only)\n* Ability to speak and read English or Spanish\n* Has a cell phone that has text message capability\n\nExclusion Criteria:\n\n* Parenting adult of a child that:\n\n  * already enrolled in the study in this or the previous season\n  * will leave practice before end of season (April 30) (to their best knowledge) (2017-18 season only)\n* Was told by a health care provider that child should not get the flu shot again due to an allergic reaction or anaphylaxis (2017-18 season only)\n* Unable to speak and read English or speak and read Spanish\n* Unable to receive or read text messages on their cell phone",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "6 Months",
+    "maximumAge": "8 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants Who Receive Influenza Vaccination by April 30 Each Year",
+        "description": "Receipt of second dose influenza vaccine by the end of flu season, which is April 30 each year",
+        "timeFrame": "Up to receipt of second dose, an average of 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants Who Receive a Second Vaccination by Day 42 From the Initial Influenza Vaccination",
+        "description": "Receipt of second dose influenza vaccine by 42 days after first dose",
+        "timeFrame": "Up to 42 days after first dose"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:32.889Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

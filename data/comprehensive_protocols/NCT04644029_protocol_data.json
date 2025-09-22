@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT04644029",
+  "briefTitle": "Oral ISL QM as PrEP in Cisgender Women at High Risk for HIV-1 Infection (MK-8591-022)",
+  "officialTitle": "A Phase 3, Randomized, Active-Controlled, Double-blind Clinical Study to Evaluate the Efficacy and Safety of Oral Islatravir Once-Monthly as Preexposure Prophylaxis in Cisgender Women at High Risk for HIV-1 Infection",
+  "protocolDocument": {
+    "nctId": "NCT04644029",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-08-02",
+    "uploadDate": "2025-05-21T14:33",
+    "size": 1812475,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04644029/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 730,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-02-24",
+    "completionDate": "2024-06-11",
+    "primaryCompletionDate": "2023-07-18",
+    "firstSubmitDate": "2020-11-23",
+    "firstPostDate": "2020-11-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Confirmed HIV-uninfected based on negative HIV-1/HIV-2 test results before randomization.\n* Sexually active (vaginal and/or anal sex) with a male sexual partner in the 30 days prior to screening.\n* High risk for HIV-1 infection.\n* Not pregnant or breastfeeding, and one of the following conditions applies: Not a woman of childbearing potential (WOCBP) or is a WOCBP and is using an acceptable contraceptive method during the intervention period and for at least 42 days after the last dose.\n* A WOCBP must have a negative pregnancy test within 24 hours prior to the first dose of study intervention.\n\nExclusion Criteria:\n\n* Hypersensitivity or other contraindication to any of the components of the study interventions as determined by the investigator.\n* Findings of chronic hepatitis B virus (HBV) infection or past HBV.\n* Current or chronic history of liver disease.\n* History of malignancy within 5 years of screening except for adequately-treated basal cell or squamous cell skin cancer, or in situ cervical cancer.\n* Past or current use of cabotegravir, lenacapavir, or any other long-acting HIV prevention product.\n* Currently participating in or has participated in an interventional clinical study with an investigational compound or device, within 30 days prior to Day 1.\n* Expecting to conceive or donate eggs at any time during the study.",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "16 Years",
+    "maximumAge": "45 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Incidence Rate Per Year of Confirmed HIV-1 Infection Among Participants During Blinded Treatment +42 Days Post-Blind",
+        "description": "Incidence rate per year of confirmed HIV-1 infections is the number of participants with confirmed HIV-1 infections during the assessment period divided by the number of person-years in the arm. Data are based on participants with confirmed HIV-1 infection. The originally planned primary statistical analysis was removed via amendment when open-label treatment was initiated.",
+        "timeFrame": "Up to approximately 325 days"
+      },
+      {
+        "measure": "Number of Participants Who Experienced an Adverse Event (AE) During Blinded Treatment + 42 Days Post-Blind",
+        "description": "An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention. The number of participants who experienced an AE will be reported for each treatment arm.",
+        "timeFrame": "Up to approximately 325 days"
+      },
+      {
+        "measure": "Number of Participants Who Discontinued Blinded Study Treatment Due to an AE",
+        "description": "An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention. The number of participants who discontinued blinded study treatment due to an AE will be reported for each treatment arm.",
+        "timeFrame": "Up to 283 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Incidence Rate Per Year During Blinded Treatment of Confirmed HIV-1 Infection Among ISL-Treated Participants",
+        "description": "Incidence rate per year of confirmed HIV-1 infections is the number of participants with confirmed HIV-1 infections during the assessment period divided by the number of person-years in the arm. Data are based on participants with confirmed HIV-1 infection. The originally planned secondary statistical analysis was removed via amendment when open-label treatment was initiated.",
+        "timeFrame": "Up to approximately 237 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:20.214Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

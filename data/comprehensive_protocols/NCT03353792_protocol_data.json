@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03353792",
+  "briefTitle": "Using an Artificial Pancreas System in Older Adult Type 1 Diabetes Mellitus Patients",
+  "officialTitle": "Restoring Brain Metabolism and Function in Older Adult T1DM Patients Using an AP System",
+  "protocolDocument": {
+    "nctId": "NCT03353792",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-07-25",
+    "uploadDate": "2022-09-30T16:02",
+    "size": 4454618,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03353792/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-11-01",
+    "completionDate": "2019-08-28",
+    "primaryCompletionDate": "2019-08-28",
+    "firstSubmitDate": "2017-11-09",
+    "firstPostDate": "2017-11-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Provide signed and dated informed consent form\n* Male or female\n* Age 50-75 years (at least 50% over the age of 65)\n* T1DM (\\>20 years duration)\n* C-peptide undetectable\n* HbA1c of \\< 8%\n* Insulin pump therapy\n* History of frequent hypoglycemia with unawareness (defined as 2 or more episodes of severe hypoglycemia within one year requiring assistance) and 2 or more glucose values \\< 54 mg/dL during the week of Continuous Glucose Monitoring (CGM) (iPRO monitor, Medtronic) prior to enrollment\n* BMI \\<27 kg/m2\n* Good general health as evidenced by medical history and blood screening\n* Willing to comply with all study procedures and be available for the duration of the study\n* Willing to fast for a limited time period on the morning of a clamp study\n\nExclusion Criteria:\n\n* Significant diabetic complications (untreated proliferative retinopathy, creatinine ≥1.5 mg/dl, urinary albumin levels 300 mg/day, autonomic neuropathy, painful peripheral neuropathy)\n* Significant alcohol intake and vegetarian diet since both are known to have an impact on counterregulation and brain metabolism\n* Any contraindications for MRI scanning, including presence of metallic implants or claustrophobia.\n* Heavy exercise on a regular basis (i.e. marathon runners)\n* Known allergic reactions to components of the study product(s)\n* Treatment with another investigational drug or other intervention\n* Active infection including hepatitis C, hepatitis B, HIV\n* Any past or current history of alcohol or substance abuse\n* Psychiatric or neurological disorders under active treatment\n* Baseline hemoglobin \\< 10.5 g/dL in females, or \\< 12.5 g/dL in males. Blood donation within 30 days of the study\n* History of coagulopathy or medical condition requiring long-term anticoagulant therapy (low-dose aspirin treatment is allowed)\n* Co-existing cardiac, liver, and kidney disease\n* Abnormal liver function tests\n* Women that are on oral contraceptives, post-menopausal, pregnant (as assessed by pregnancy test that will be performed on female participants at reproductive age), or lactating.\n* Any medical condition or medication that, in the opinion of the investigators, will interfere with the safe completion of the study or study outcomes",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Brain Alternate Fuel Uptake",
+        "description": "Change in brain alternate fuel uptake under hypoglycemia was measured by assessing the percent enrichment of Glutamine 4 (Gln4). Change was measured by subtracting follow up from baseline.\n\nAstrocytic glutamine C4 enrichment is a measure of brain acetate metabolism (an alternate fuel to glucose). Previous studies have shown that in people who have been exposed to frequent hypoglycemic episodes, glutamine C4 enrichment increases. Therefore, we expected a reduction in Glutamine C4 percent enrichment in the follow up NMR scans in the intervention group who avoided frequent hypoglycemic episodes through the CL/AP system. In addition, there is no specific cut off value used for Glutamine C4 enrichment, rather a change or reduction was expected and noted.\"",
+        "timeFrame": "Baseline to 8 - 10 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Cognitive Function: MOCA",
+        "description": "The Montreal Cognitive Assessment (MoCA) was designed as a rapid screening instrument for mild cognitive dysfunction. It assesses different cognitive domains: attention and concentration, executive functions, memory, language, visuoconstructional skills, conceptual thinking, calculations, and orientation. Time to administer the MoCA is approximately 10 minutes. The total possible score is 30 points; a score of 26 or above is considered normal. Change was calculated by subtracting follow up from baseline. https://www.parkinsons.va.gov/resources/MoCA-Instructions-English.pdf",
+        "timeFrame": "Baseline to 8-10 weeks"
+      },
+      {
+        "measure": "Change in Cognitive Function: Trail Test A",
+        "description": "Trail making test (TMT) A is a test of visual attention and task switching. It provides information about visual search speed, speed of processing and executive function. Time is measured in seconds. The typical average time to complete the test is 29 seconds, a \"deficient\" performance would be \\>78 seconds; most people are able to complete in 90 seconds. Change was calculated by subtracting follow up from baseline.",
+        "timeFrame": "Baseline to 8-10 weeks"
+      },
+      {
+        "measure": "Change in Cognitive Function: Trail Test B",
+        "description": "Trail making test (TMT) B is a test of visual attention and task switching. It provides information about visual search speed, speed of processing and executive function. Time will be measured in seconds. The typical average time to complete the test is 75 seconds, a \"deficient\" performance would be \\>273 seconds; most people are able to complete in 180 seconds. Change was calculated by subtracting follow up from baseline.",
+        "timeFrame": "Baseline to 8-10 weeks"
+      },
+      {
+        "measure": "Change in Cognitive Function: Grooved Pegboard Test",
+        "description": "The grooved pegboard test is a manipulative dexterity test that assessed psychomotor speed, fine motor control, and rapid-visual motor coordination. It consists of a small board of holes with randomly positioned slots. Pegs with a key along one side must be rotated to match the hole before they can be inserted. The task was completed using the dominant hand. Time was measured in seconds.",
+        "timeFrame": "Baseline to 8-10 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:09.798Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

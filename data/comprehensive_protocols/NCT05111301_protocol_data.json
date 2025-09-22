@@ -1,0 +1,143 @@
+{
+  "nctId": "NCT05111301",
+  "briefTitle": "Control-IQ Technology in Individuals With Type 2 Diabetes",
+  "officialTitle": "Control-IQ Technology in Individuals With Type 2 Diabetes (2IQ)",
+  "protocolDocument": {
+    "nctId": "NCT05111301",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-10-19",
+    "uploadDate": "2023-08-02T16:38",
+    "size": 1333482,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05111301/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-30",
+    "completionDate": "2022-08-18",
+    "primaryCompletionDate": "2022-08-10",
+    "firstSubmitDate": "2021-10-28",
+    "firstPostDate": "2021-11-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age ≥18 years old and residing in the US\n* Clinical diagnosis, based on investigator assessment, of type 2 diabetes for at least one year\n* Using a stable insulin dose for at least 3 months, to include A) basal insulin only, or B) MDI, to include CSII (including use of AID systems other than Tandem Control-IQ technology)\n* Total daily insulin dose ≤200 units/day\n* Willing to use only aspart (novolog) or lispro (humalog) insulin with the study pump, with no use of concentrated insulin above U-100, long-acting basal insulin injections, or inhaled insulin\n* For females, not currently known to be pregnant\n* If female and sexually active, must agree to use a form of contraception to prevent pregnancy while a participant in the study. A negative serum or urine pregnancy test will be required for all females of child-bearing potential. Participants who become pregnant will be discontinued from the study. Also, participants who during the study develop and express the intention to become pregnant within the timespan of the study will be discontinued.\n* HbA1c ≥ 7.5% and ≤ 12% at screening\n* Has current glucagon product to treat severe hypoglycemia (injectable or nasal) at home (will provide prescription if they do not have one)\n* Be willing to exercise for 30 minutes or more at least once per week during the main phase of the study\n* Has the ability to read and understand written English\n* Investigator believes that the participant can successfully and safely operate all study devices and is capable of adhering to the protocol and completing the study.\n\nExclusion Criteria:\n\n* Prior use of Tandem t:slim X2 insulin pump with Control-IQ technology\n* Two or more episodes of severe hypoglycemia (needing assistance) in the past 6 months\n* History of inpatient psychiatric treatment in the past 6 months\n* History of drug abuse (defined as any illicit drug use) or history of alcohol abuse prior to screening or unwillingness to agree to abstain from illicit drugs throughout the study.\n* History of significant heart disease, lung disease, liver disease, chronic kidney disease, or other systemic disease determined by investigator to interfere with the study, or make required exercise unsafe\n* History of significant vision, hearing, or dexterity problems that will impair use of the closed loop system\n* Use of glucocorticoids, beta blockers, sulfonylureas, meglitinides or other medications specifically listed in the protocol or determined by investigator to interfere with the study\n* Unstable dose of SGLT-2 inhibitor, GLP-1 receptor agonist, or other adjuvant medication specifically listed in the protocol, or starting a new glucose lowering agent during the trial.\n* Unstable dose of any medication used for weight loss, as listed in the protocol, or starting a new medication for weight loss during the trial.\n* Abnormal screening electrocardiogram consistent with increased risk during exercise, such as arrhythmia, ischemia, or prolonged QTc interval (\\>450 ms)\n* History of hemodialysis\n* History of adrenal insufficiency\n* Uncontrolled hypo- or hyperthyroidism\n* Significant diabetes related complications, based on investigator assessment\n* Immediate family member (spouse, biological or legal guardian, child, sibling, parent) who is an investigative site personnel directly affiliated with this study or who is an employee of Tandem Diabetes Care, Inc.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "CGM Time Below 54 mg/dL",
+        "description": "CGM-measured percentage below 54 mg/dl, compared to baseline",
+        "timeFrame": "14 weeks"
+      },
+      {
+        "measure": "CGM Time Above 180 mg/dL",
+        "description": "CGM-measured percentage above 180 mg/dl, compared to baseline",
+        "timeFrame": "14 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "CGM Time In Range 70-180 mg/dL",
+        "description": "CGM-measured percentage in range 70-180 mg/dl, compared to baseline",
+        "timeFrame": "14 weeks"
+      },
+      {
+        "measure": "CGM Time Below 70 mg/dL",
+        "description": "CGM-measured percentage below 70 mg/dl, compared to baseline",
+        "timeFrame": "14 weeks"
+      },
+      {
+        "measure": "CGM Time Above 250 mg/dL",
+        "description": "CGM-measured percentage above 250 mg/dl, compared to baseline",
+        "timeFrame": "14 weeks"
+      },
+      {
+        "measure": "CGM Time In Range 70-140 mg/dL",
+        "description": "CGM-measured percentage in range 70-140 mg/dl, compared to baseline",
+        "timeFrame": "14 weeks"
+      },
+      {
+        "measure": "CGM Mean Glucose mg/dL",
+        "description": "CGM measured mean glucose mg/dL, compared to baseline",
+        "timeFrame": "14 weeks"
+      },
+      {
+        "measure": "Coefficient of Variation (CV)",
+        "description": "CGM measured glucose variability measured with the coefficient of variation (CV), compared to baseline",
+        "timeFrame": "14 weeks"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Severe Hypoglycemia (Needing Assistance)",
+        "description": "The number of severe hypoglycemic events (needing assistance)",
+        "timeFrame": "14 weeks"
+      },
+      {
+        "measure": "DKA",
+        "description": "The number of DKA events",
+        "timeFrame": "14 weeks"
+      },
+      {
+        "measure": "Hyperosmolar Hyperglycemic Syndrome",
+        "description": "The number of Hyperosmolar Hyperglycemic Syndrome events",
+        "timeFrame": "14 weeks"
+      },
+      {
+        "measure": "All Serious Adverse Events",
+        "description": "The number of Serious Adverse Events",
+        "timeFrame": "14 weeks"
+      },
+      {
+        "measure": "Unanticipated Adverse Device Effects",
+        "description": "The number of Unanticipated Adverse Device Effects",
+        "timeFrame": "14 weeks"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 6,
+      "otherCount": 5,
+      "totalCount": 13
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:10.377Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

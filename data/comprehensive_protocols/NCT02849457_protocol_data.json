@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT02849457",
+  "briefTitle": "Preventing Epilepsy Using Vigabatrin In Infants With Tuberous Sclerosis Complex",
+  "officialTitle": "Preventing Epilepsy Using Vigabatrin In Infants With Tuberous Sclerosis Complex (PREVeNT Trial) A Randomized, Double-blind, Placebo-controlled Seizure Prevention Clinical Trial for Infants With TSC",
+  "protocolDocument": {
+    "nctId": "NCT02849457",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-07-02",
+    "uploadDate": "2024-04-12T13:57",
+    "size": 928404,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02849457/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 84,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-12",
+    "completionDate": "2023-05-05",
+    "primaryCompletionDate": "2023-04-26",
+    "firstSubmitDate": "2016-07-13",
+    "firstPostDate": "2016-07-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. less than or equal to 6 months of age\n2. No history of seizures or infantile spasms, or evidence of subclinical electrographic seizures on a previous video EEG\n3. Meet genetic or clinical diagnostic criteria for TSC, the latter based on current recommendations for diagnostic evaluation, such as physical exam, neuroimaging, echocardiogram\n\nExclusion Criteria:\n\n1. Is greater than 6 months of age\n2. Has not been diagnosed with TSC\n3. History of seizures or infantile spasms, or evidence of subclinical electrographic seizures on a previous video EEG\n4. Has received any anticonvulsant medication including vigabatrin, other anti-seizure therapeutic agent including cannabidiol\n5. Has received an oral mTOR inhibitor such as everolimus or sirolimus\n6. Has taken an investigational drug, including but not limited to cannabidiol, as part of a research study 30 days prior to enrollment, or plans on taking an investigational drug at any time during the duration of the study\n7. Is currently enrolled, or plans on enrolling at any time during the duration of the study, in an experimental behavioral early intervention study\n8. Has a history of being born prematurely (born less than \\<30 weeks gestation at the time of delivery)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "1 Day",
+    "maximumAge": "6 Months",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Cognitive Assessment Scores and Developmental Impact",
+        "description": "The primary outcome measure will be the standardized Cognitive scale scores on the Bayley Scales of Infant and Toddler Development- Third Edition at 24 months. The Cognitive scale Composite score is a standard score derived from the observed and elicited performance of the child on cognitive assessment tasks, with a mean of 100 and standard deviation of 10. The range for the Cognitive scale Composite score is 55 to 145. The score is calculated using standard procedures available in the manual for this measure. A higher score is considered better performance. The Bayley Scales of Infant and Toddler Development at 24 months will be used for the data analysis and to compare the developmental impact of early versus delayed treatment with vigabatrin.",
+        "timeFrame": "24 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Subjects That Develop Seizures When Treated With Study Drug During the Randomized Phase of the Study.",
+        "description": "Evaluate the number of subjects that develop seizures when treated with vigabatrin or placebo as a seizure prevention.",
+        "timeFrame": "24 months"
+      },
+      {
+        "measure": "Time to the Subject's First Clinical Seizure From Randomization",
+        "description": "Time to the subject's first clinical seizure will be measured for both subjects on placebo and vigabatrin.",
+        "timeFrame": "24 months"
+      },
+      {
+        "measure": "Count of Participants With Drug Resistant Epilepsy at 24 Months of Age.",
+        "description": "The count of participants with drug resistant epilepsy. Drug resistant epilepsy classified according to International League Against Epilepsy (ILAE) definition, specifically defined as any participant on 2 or more anti-seizure medications experiencing persistent seizures (seizures occurring within 3 months of the 24 month participant visit).",
+        "timeFrame": "24 months"
+      },
+      {
+        "measure": "Evaluate Vineland II ABC Scores and Impact of Early Versus Late Treatment",
+        "description": "The range for the Vineland-II Adaptive Behavior Composite is 20 to 160\n\nThe Vineland-II ABC standard score has a mean of 100 and standard deviation of 15, with higher scores indicating better overall adaptive functioning.\n\nThe ABC standard score is a composite derived from obtained scores on the Communication, Daily Living Skills, Socialization, and Motor Skills domains on the Vineland-II and is calculated according to standardized procedures described in the Vineland-II manual.",
+        "timeFrame": "12 months, 24 months and 36 months"
+      },
+      {
+        "measure": "Evaluate Autism Diagnostic Observation Schedule 2nd Edition (ADOS2) Scores and Impact of Early Versus Late Treatment",
+        "description": "Evaluate ADOS2 scores and the impact of early versus late treatment at 24 and 36 months.",
+        "timeFrame": "24 months and 36 months"
+      },
+      {
+        "measure": "Number of Subjects With Vigabatrin Related Adverse Events and Severe Adverse Events",
+        "description": "Number of subjects with vigabatrin related adverse events, severe adverse events as assessed by CTCAE v4.0 and risk evaluation and mitigation strategy (REMS) measures as required by the FDA.",
+        "timeFrame": "24 months"
+      },
+      {
+        "measure": "EEG Biomarker for Developing Epilepsy",
+        "description": "Feasibility of the routine 1 hour video EEG in determining the EEG biomarker for developing epilepsy. Outcome was determined as the number of participants developing seizures amongst those developing the biomarker (epileptiform activity).",
+        "timeFrame": "24 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:49.191Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

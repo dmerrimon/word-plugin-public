@@ -1,0 +1,132 @@
+{
+  "nctId": "NCT04199793",
+  "briefTitle": "Lavare Cycle in Patients Receiving HeartWare Left Ventricular Assist Device",
+  "officialTitle": "Assessment of Lavare Cycle Implementation Among Patients Following HeartWare Left Ventricular Assist Device Implantation: A Prospective Randomized Controlled Pilot Study",
+  "protocolDocument": {
+    "nctId": "NCT04199793",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-08-31",
+    "uploadDate": "2022-08-29T12:19",
+    "size": 322561,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04199793/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-08-10",
+    "completionDate": "2021-08-10",
+    "primaryCompletionDate": "2021-08-10",
+    "firstSubmitDate": "2019-12-12",
+    "firstPostDate": "2019-12-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age ≥18 years\n2. Approved for or supported with HeartWare durable LVAD\n3. Capable of giving informed consent\n\nExclusion Criteria:\n\n1. For those undergoing new device implantation:\n\n   1. Age \\<18 years\n   2. Interagency Registry for Mechanically Assisted Circulatory Support (INTERMACS) profile 1 at the time of implantation\n   3. Presence of intra-cardiac thrombus\n   4. History of thromboembolic event within previous 3 months of enrollment\n2. For those with prior LVAD implantation with on-going support:\n\n   1. Support duration \\<3 months\n   2. History of prior LVAD pump exchange\n   3. History of LVAD pump hemolysis or thrombosis as defined by INTERMACS criteria\n   4. History of stroke or transient ischemic event within previous 3 months of enrollment\n   5. History of post-LVAD severe right ventricular failure as defined by INTERMACS criteria within previous 3 months of enrollment\n   6. History of pump-related infection treated within previous 3 months of enrollment or those on chronic antibiotics suppressive therapy for pump related infection\n   7. History of post-LVAD intra-cardiac or arterial thrombus or thromboembolic event within previous 3 months of enrollment\n   8. International Normalized Ratio (INR) \\<2 within previous 30-days from the date of enrollment\n   9. Aspirin dose \\<325 mg/day\n   10. Lactate Dehydrogenase (LDH) levels ≥ 3 times the upper normal limit in previous 3 months",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Composite Endpoint of Total Ischemic Events, Thromboembolic Events, Pump Hemolysis or Thrombosis, Pump Exchange",
+        "description": "INTERMACS definitions of cerebrovascular events, pump hemolysis/ thrombosis will be used. Pump malfunction needing device exchange or emergent transplant will also be included in the main composite event",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "All-cause Mortality",
+        "description": "death from any cause",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Survival to Transplantation",
+        "description": "Number of days supported on LVAD until transplant",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Rehospitalizations",
+        "description": "Any cardiac and non-cardiac re-hospitalizations since trial enrollment",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Mucosal Bleeding",
+        "description": "Epistaxis, gastrointestinal bleeding, urological bleeding events will be analyzed",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Right Ventricular Failure",
+        "description": "INTERMACS definitions for Right ventricular failure will be analyzed",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Device Related Infection",
+        "description": "LVAD device systems related infections will be analyzed",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Aortic Insufficiency",
+        "description": "Echocardiographic evidence will be used to define severity of aortic insufficiency",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Change in 6 Minute Walk Test",
+        "description": "The 6 Minute Walk Test is a sub-maximal exercise test used to assess aerobic capacity and endurance. The distance covered over a time of 6 minutes is used as the outcome by which to compare changes in performance capacity.",
+        "timeFrame": "Baseline to 6 months"
+      },
+      {
+        "measure": "Changes in New York Heart Association Class",
+        "description": "Functional class will be assessed at baseline and during follow up to assess improvement in functional status",
+        "timeFrame": "Baseline to 6 months"
+      },
+      {
+        "measure": "Quality of Life Measured by The Kansas City Cardiomyopathy Questionnaire",
+        "description": "Kansas City Cardiomyopathy Questionnaire is a 23-item, self-administered instrument that quantifies physical function, symptoms (frequency, severity and recent change), social function, self-efficacy and knowledge, and quality of life. The score can range from 0-100, in which higher scores reflect better health status.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:36.514Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

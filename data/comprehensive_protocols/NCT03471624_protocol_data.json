@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03471624",
+  "briefTitle": "Treatment Outcomes in Chronic Hepatitis B Patients on Sequential Therapy With Tenofovir Alafenamide (TAF)",
+  "officialTitle": "Treatment Outcomes in Chronic Hepatitis B Patients on Sequential Therapy With Tenofovir Alafenamide (TAF)",
+  "protocolDocument": {
+    "nctId": "NCT03471624",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-03-06",
+    "uploadDate": "2023-03-23T15:21",
+    "size": 517968,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03471624/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 270,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-05-01",
+    "completionDate": "2022-04-19",
+    "primaryCompletionDate": "2022-04-19",
+    "firstSubmitDate": "2018-03-07",
+    "firstPostDate": "2018-03-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n1. Male or female, age ≥18 years\n2. Chronic hepatitis B diagnosis confirmed by positive HBsAg or HBV DNA or HBeAg or documented history of chronic hepatitis B in physician note\n3. Currently maintained on antiviral therapy for at least 48 weeks with any Hepatitis B virus(HBV) DNA value at Screening/Baseline and planned to be switched to TAF by their physician\n4. Routinely monitored for serum HBV DNA Polymerase chain reaction(PCR), liver chemistry including Aspartate aminotransferase (AST )/alanine transaminase(ALT)/total bilirubin, renal chemistry including Blood urea nitrogen(BUN)/Creatinine/Carbon dioxide (CO2) by their physicians every 3-6 months and a bone density scan at least every 2 years as per routine clinical care (one at baseline and one 2 years after switch).\n5. Estimated creatinine clearance \\> 15 ml/min (using the Cockcroft-Gault method) at Screening/Baseline Visit. (Note: multiply estimated rate by 0.85 for women).\n6. Willing and able to provide informed consent\n7. Able to comply with dosing instructions for study drug administration and able to complete the study schedule of assessments\n\nExclusion criteria:\n\n1. Pregnant women, women who are breastfeeding or who believe they may wish to become pregnant during the course of the study\n2. Previous recipient of a liver transplant\n3. Co-infection with human immunodeficiency virus (HIV) or hepatitis C (HCV) or hepatitis D (HDV)\n4. Severe or uncontrolled comorbidities\n5. Current or known hepatic decompensation (≤2 years) (e.g ascites, encephalopathy, or variceal hemorrhage) with a Child-Pugh score of B or C\n6. Malignancy including liver cancer within 5 years except cancers curable by surgical resection (e.g. basal cell skin cancer and squamous cell cancer)\n7. On any of the disallowed concomitant medications listed in the prior and concomitant medications list (pg. 11). Subjects on prohibited medications who are otherwise eligible will need a wash out period of at least 30 days prior to the Screening/Baseline visit.\n8. Males and females of reproductive potential who are unwilling to use \"effective\" protocol-specified method(s) of contraception during the study.\n9. Current substance or alcohol abuse judged by the investigator to potentially interfere with subject compliance.\n10. Any other clinical conditions that, in the opinion of the Investigator, would make the subject unsuitable or unable to comply with any of the study procedures",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With HBV DNA <20 IU Per mL",
+        "description": "To describe rate of persistence and/or improvement of viral suppression with TAF as with previous anti-HBV treatment.",
+        "timeFrame": "Baseline, 6, 12, 18, 24 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Normal Alanine Aminotransferase (ALT).",
+        "description": "Alanine aminotransferase (ALT) normalization is defined if ALT was less than 35 U/L for men or 25 U/L for women",
+        "timeFrame": "Baseline, 6, 12, 18, 24 months"
+      },
+      {
+        "measure": "Calculated eGFR",
+        "description": "To describe trends in calculated eGFR as available by local labs. Estimated glomerular filtration rates (eGFR) were calculated using the Chronic Kidney Disease Epidemiology Collaboration(CKD-EPI) equation (eGFR \\[mL∕min∕1.73m2\\] =141 × \\[minimum Scr∕K, 1\\]α × \\[maximum Scr/K, 1\\]1.209 × 0.993age × 1.018 \\[if female\\] × 1.159 \\[if black\\]) where Scr is serum creatinine in µmol/L, K is 61.9 for females and 79.6 for males, α is -0.329 for females and -0.411 for males",
+        "timeFrame": "Baseline, 6, 12, 18, 24 months"
+      },
+      {
+        "measure": "The Mean Bone Mass Density (T-score) Change",
+        "description": "To describe trends in bone mass density from baseline to end of study. Bone Mass Density(BMD) was evaluated using T-score of Lumber-spine. The T-score is a comparison of the results to a average peak bone mass of healthy young adult. 0 indicates healthy young adult's mean with a SD of 1. Normal BMD was defined with T-score of -1.0 or above; osteopenia with T-score between -1.1 and -2.4, and osteoporosis with T-score of -2.5 or below (ref). Worsened BMD was defined by upstaging of BMD class from normal to osteopenia or worse or from osteopenia to osteoporosis. Improved BMD was defined by downstaging of BMD class from osteopenia to normal or osteoporosis to osteopenia or normal.",
+        "timeFrame": "Baseline, month 24"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:24.777Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

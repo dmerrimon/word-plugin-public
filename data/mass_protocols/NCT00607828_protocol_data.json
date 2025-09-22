@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT00607828",
+  "briefTitle": "Stereotactic Radiation Therapy in Treating Patients With Advanced Liver Cancer",
+  "officialTitle": "Feasibility of Hypofractionated Stereotactic Radiotherapy in Patients With Hepatocellular Carcinoma",
+  "protocolDocument": {
+    "nctId": "NCT00607828",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2008-12-02",
+    "uploadDate": "2024-05-15T16:16",
+    "size": 541382,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00607828/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2007-11-16",
+    "completionDate": "2017-02-15",
+    "primaryCompletionDate": "2017-02-15",
+    "firstSubmitDate": "2008-02-01",
+    "firstPostDate": "2008-02-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed advanced hepatocellular carcinoma (HCC)\n* Measurable disease, defined as ≥ 1 unidimensionally target lesion that can be accurately measured by CT scan or MRI according to RECIST and must have a maximum diameter ≤ 8 cm\n* Child-Pugh class A-B cirrhotic status\n* Karnofsky performance status 60-100%\n* Life expectancy ≥ 12 weeks\n* White blood cell count (WBC) ≥ 2,000/μL\n* Platelet count ≥ 60,000/mm³\n* Hemoglobin ≥ 8.5 g/dLINR ≤ 2.3\n* More than 6 months since prior myocardial infarction\n* Prior systemic chemotherapy allowed\n* At least 6 weeks since prior non-radiation local therapy (e.g., surgery, hepatic arterial therapy, chemoembolization, radiofrequency ablation, percutaneous ethanol injection, or cryoablation)\n* Concurrent therapeutic anticoagulation (e.g., warfarin or heparin) allowed provided that no prior evidence of underlying abnormality in Prothrombin time (PT/INR) and partial thromboplastin time (PTT) exists\n\nExclusion Criteria:\n\n* No known central nervous system (CNS) tumors, including metastatic brain disease\n* No malignancy within the past 3 years that is distinct in its primary site or histology from HCC, except for carcinoma in situ of the cervix, treated basal cell carcinoma, or superficial bladder tumors (i.e., Ta, Tis, and T1), or any other cancer that has been curatively treated \\> 3 years prior to study entry\n* No renal failure requiring hemodialysis or peritoneal dialysis\n* No uncontrolled intercurrent illness including, but not limited to, any of the following:\n\n  * Ongoing or active infection \\> grade 2\n  * New York Heart Association (NYHA) class II-IV congestive heart failure\n  * Active coronary artery disease\n  * Cardiac arrhythmias requiring anti-arrhythmic therapy other than beta blockers or digoxin\n  * Uncontrolled hypertension\n* Condition that could jeopardize the safety of the patient or study compliance\n* No history of variceal bleeding where the varices have not been eradicated or decompressed by shunt placement\n* No condition that would prevent the patient from undergoing marker implantation\n* Not pregnant or nursing/negative pregnancy test\n* No substance abuse, medical, psychological, or social condition that may interfere with the patient's participation in the study or evaluation of the study results\n* No prior radiotherapy to the liver",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "19 Years",
+    "maximumAge": "120 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Safety of Hypofractionated Stereotactic Radiotherapy in Patients With Advanced Hepatocellular Carcinoma",
+        "description": "Toxicity as assessed by NCI CTCAE v3.0 (Adverse Events). Due to delayed toxicities attributable to radiotherapy, all toxicities observed within 1 month after SRT will be scored. Dose limiting toxicity (DLT) is defined as any of following toxicities, that is possibly, probably or definitely related to Stereotactic Radiation Therapy (SRT) occurring within 1 month from the start of treatment:\n\n1. grade 4 or 5 hepatic\n2. grade 4 or 5 gastrointestinal\n3. grade 4 or 5 thrombocytopenia\n4. grade 4 hepatic liver enzyme elevations persisting for ≥ 5 days\n5. any adverse event requiring interruption of therapy by ≥ 2 weeks (14 calendar days).",
+        "timeFrame": "Up to 1 month after Stereotactic Radiation Therapy (SRT) treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Response at 1-month Post SRT",
+        "description": "Response rate from tumor measurement at 1-month post-SRT",
+        "timeFrame": "Measured from first day of SRT to 1-month post SRT."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-21T22:34:04.403Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

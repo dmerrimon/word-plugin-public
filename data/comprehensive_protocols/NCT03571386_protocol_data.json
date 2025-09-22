@@ -1,0 +1,95 @@
+{
+  "nctId": "NCT03571386",
+  "briefTitle": "Mechanisms of Mindfulness-based Interventions",
+  "officialTitle": "Mechanisms of Mindfulness-Based Interventions (MBIs)",
+  "protocolDocument": {
+    "nctId": "NCT03571386",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-08-28",
+    "uploadDate": "2022-06-28T18:50",
+    "size": 668703,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03571386/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 136,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-08",
+    "completionDate": "2022-09-30",
+    "primaryCompletionDate": "2021-07-02",
+    "firstSubmitDate": "2018-06-18",
+    "firstPostDate": "2018-06-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Across all ARMS:\n\n* At prescreen, must be currently registered for MBCT or MBSR; at posttest, must have attended five of eight sessions for \"completion\".\n* Must possess English language skills sufficient for providing informed consent, completing questionnaires, and understanding instructions\n* Age range: 18-55\n* Right-handed\n* If currently taking maintenance anti-depressant and/or anti-anxiety medication, must have a \"stable\" regimen as indexed by no medication or dosage changes within the past three months\n* No prior diagnosis of bipolar I, bipolar II, psychotic personality disorder, borderline personality disorder, and/or narcissistic personality disorder\n* No current history (\\< 6 months) of substance abuse/dependence\n* No current history (\\< 6 months) of regular meditation practice (\\>1 session/week; \\>10 min/session)\n* No history of medical illness associated with possible changes in cerebral tissue or cerebrovasculature or with neurologic abnormality (e.g., seizure disorder, cerebrovascular or neoplastic lesion, neurodegenerative disorder, or significant head trauma, defined by loss of consciousness of ≥ 5 minutes)\n* No current suicidal ideation\n\nEligibility for Depression \\& Anxiety Cohort:\n\nDepression\n\n* Reports having been diagnosed with non-psychotic unipolar major depressive disorder (MDD)\n* ≥3 previous episodes of MDD\n* Beck Depression Inventory-II (BDI-II) score between 14 and 28 (an indicator of depressive symptoms of mild to moderate severity)\n* No fMRI contraindications: pregnancy, claustrophobia, or presence of a ferromagnetic object, including orthodontic braces\n\nAnxiety:\n\n* Reports having been diagnosed with an anxiety disorder (i.e., generalized anxiety disorder, panic disorder, specific phobia)\n* Score of ≥40 on the Trait subscale of the Spielberger State-Trait Anxiety Inventory (an indicator of anxious symptoms of moderate to high severity)\n\nEligibility for High Stress Cohort:\n\n\\- Reports of High Stress as measured by perceived Stress Scale\n\nEligibility for Drawing Blood:\n\n* At least 110 pounds\n* Not pregnant\n* Generally healthy by self-report (i.e., free of cold and flu symptoms on the day of collection, no infections within two weeks prior to collection, no symptoms of a heart condition within six months prior to collection, no known sickle cell disease)\n* Including the study draw, blood donation for clinical or research purposes within the preceding eight weeks will not exceed 550 mL\n* No more than one blood draw will have occurred during the preceding week",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "55 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in BOLD (Blood-oxygen-level-dependent) Mean Signal Change From Baseline to 12 Weeks in Response to Emotional (vs. Neutral) Word Stimuli",
+        "description": "fMRI BOLD response to emotional word stimuli baseline to 12 weeks (post-MBCT). BOLD signal change (pre- to post-MBCT) is estimated from the contrast of emotional word vs neutral words, and extracted from voxels within the fronto-parietal and default mode areas at baseline and 12-weeks. Significant Voxel-wise BOLD activity is reported using z-scores from peak voxels. A mean score was calculated based on z-score and SD of 2 in the context of reporting fMRI BOLD data here. Z-scores is a statistical measure that describes how many standard deviations a data point (e.g., a voxel's signal) is from the mean of the distribution of that signal. The higher the reported mean, the less likely the observed activation is due to chance, thus indicating more significant activity or activation in that particular brain region.",
+        "timeFrame": "Baseline to 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Amplitude of P1 Event-related Potentials (ERP) in Response to Threat (vs. Neutral) Face Cues Pre- to Post-MBCT",
+        "description": "P1 Evoked event-related electrical potentials (ERP) amplitudes elicited from specific emotional threat vs. neutral stimuli were primary outcome. An 80-150 ms search window at EEG electrode P8 was used to identify the P1 peak, \\& mean value around peaks (50 ms) was exported for analysis. Mean P1-Cue amplitudes were analyzed pre- to post-MBCT to determine the effects of time (pre to post-MBCT), emotion (angry vs. happy), and congruency (congruent vs. incongruent). Mean P1-Cue amplitudes in microvolts and SD for each condition are summarized below.",
+        "timeFrame": "Baseline to 12 weeks (pre- to post-MBCT)"
+      },
+      {
+        "measure": "Response Time to Probes as a Function of Emotion and Congruency in the Dot Probe Task",
+        "description": "Effects of time (pre-MBCT versus post-MBCT), emotion (angry versus happy), and congruency (congruent probes versus incongruent probes) on reaction time (RT) was measured in mild to moderate depression/anxiety group.",
+        "timeFrame": "Baseline to ~12 weeks"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Self-report Psychological Measures of Anxiety and Stress Pre- to Post-Mindfulness Training",
+        "description": "The Depression \\& Anxiety Stress Scale (DASS-Anxiety) (Lovibond and Lovibond, 1995) is a 7-item measure designed to assess symptoms of fear and autonomic arousal. Items are rated on a 4-point scale, ranging from 0 (did not apply to me at all) to 3 (applied to me very much or most of the time), and summed to compute the total scale (range 0-21). Higher scores are indicative of greater symptom severity, with scores greater than 10 typically considered of clinical significance. The DASS-Depression is a 7-item measure designed to assess dysphoric mood. Items are rated on a 4-point Likert scale, ranging from 0 (did not apply to me at all) to 3 (applied to me very much or most of the time), and summed to compute the total scale (range 0-21). Higher scores are indicative of greater symptom severity, with scores greater than 10 typically considered of clinical significance.",
+        "timeFrame": "Baseline to ~12 weeks pre- to post-MBCT (depression/anxiety cohort)"
+      },
+      {
+        "measure": "Self-report Psychological Measures of Stress Pre- to Post-Mindfulness Training",
+        "description": "The Perceived Stress Scale (PSS-14) is a 14-item scale, with a total range from 0 (no symptoms) to 56 (highest severity) Higher scores are indicative of greater symptom severity, with scores greater than 10 typically considered of clinical significance.",
+        "timeFrame": "Baseline to ~12 weeks pre- to post-MBSR (high stress cohort)"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 2,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:17.997Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

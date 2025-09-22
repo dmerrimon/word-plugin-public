@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT02739542",
+  "briefTitle": "Assessment of Tecfidera® in Radiologically Isolated Syndrome (RIS)",
+  "officialTitle": "Multi-center, Randomized, Double-blinded Assessment of Tecfidera® in Extending the Time to a First Attack in Radiologically Isolated Syndrome (RIS) (ARISE)",
+  "protocolDocument": {
+    "nctId": "NCT02739542",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-12-05",
+    "uploadDate": "2022-03-10T17:08",
+    "size": 722230,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02739542/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 87,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-03-19",
+    "completionDate": "2021-03-31",
+    "primaryCompletionDate": "2021-03-31",
+    "firstSubmitDate": "2016-03-16",
+    "firstPostDate": "2016-04-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria\n\n1. Males and females meeting 2009 RIS criteria\n2. Identified RIS cases with the initial MRI demonstrating anomalies suggestive of demyelinating disease dated \\> 2009\n3. Incidental anomalies identified on MRI of the brain or spinal cord with the primary reason for the acquired MRI resulting from an evaluation of a process other than MS\n4. CNS white matter anomalies meeting the following MRI criteria:\n\n   * Ovoid, well-circumscribed, and homogeneous foci with or without involvement of the corpus callosum\n   * T2-hyperintensities measuring \\> 3mm2 and fulfilling 3 of 4 Barkhof-Tintoré criteria for dissemination in space\n   * CNS anomalies not consistent with a vascular pattern\n   * Qualitative determination that CNS anomalies have a characteristic appearance of demyelinating lesions\n5. MRI anomalies do not account for clinically apparent neurological impairments in patients\n\nExclusion criteria\n\n1. Women who are pregnant or nursing\n2. Incomplete medical history or radiological data\n3. History of remitting clinical symptoms consistent with multiple sclerosis lasting \\> 24 hours prior to CNS imaging revealing anomalies suggestive of MS\n4. History of paroxysmal symptoms associated with MS (i.e. Lhermitte's or Uhthoff's phenomena)\n5. CNS MRI anomalies are better accounted for by another disease process\n6. The subject is unwilling or unable to comply with the requirements of the study protocol\n7. Exposure to a disease modifying therapy for MS/RIS within the past 3 months\n8. Exposure to high-dose glucocorticosteroid treatment within the past 30 days\n9. Participation in other clinical trials involving treatment with a disease-modifying agent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Time From Randomization to the First Demyelinating Event (Acute or Development of an Initial Symptom Resulting in a Progressive Clinical Course)",
+        "description": "The primary outcome measure for this trial is the time to the first acute or progressive neurological event resulting from CNS demyelination from randomization into the trial.",
+        "timeFrame": "96 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Lesion Volume on T2-weighted MRI",
+        "description": "Change in lesion volume on T2-weighted MRI is measured by follow-up MRI at 96 weeks in the placebo group and in the Tecfidera group.",
+        "timeFrame": "Baseline, 96 weeks"
+      },
+      {
+        "measure": "Number of Newly Enlarging T2 Lesions",
+        "description": "Number of newly enlarging T2 lesions is measured by follow-up MRI at 96 weeks in the placebo group and in the Tecfidera group.",
+        "timeFrame": "96 weeks"
+      },
+      {
+        "measure": "Number of New T2 Lesions",
+        "description": "Number of new T2 lesions as measured by follow-up MRI at 96 weeks in the placebo group and in the Tecfidera group.",
+        "timeFrame": "96 weeks"
+      },
+      {
+        "measure": "Newly Enlarging T2 Lesions and New T2 Lesions Combined",
+        "description": "Newly enlarging T2 lesions and new T2 lesions combined is measured by follow-up MRI at 96 weeks in the placebo group and in the Tecfidera group.",
+        "timeFrame": "96 weeks"
+      },
+      {
+        "measure": "Number of Contrast Enhancing Lesions",
+        "description": "Number of contrast enhancing lesions is measured by follow-up MRI at 96 weeks in the placebo group and in the Tecfidera group.",
+        "timeFrame": "96 weeks"
+      },
+      {
+        "measure": "Change in the Number of Participants With Brain Atrophy",
+        "description": "Change in the number of participants with brain atrophy is measured by follow-up MRI at 96 weeks in the placebo group and in the Tecfidera group.",
+        "timeFrame": "Baseline, 96 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 67,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:12.948Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

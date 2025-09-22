@@ -1,0 +1,128 @@
+{
+  "nctId": "NCT04936061",
+  "briefTitle": "Transnasal Cooling for Migraine",
+  "officialTitle": "A Transnasal Evaporative Cooling Device for Acute Treatment of Migraine",
+  "protocolDocument": {
+    "nctId": "NCT04936061",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-07-02",
+    "uploadDate": "2023-05-25T14:33",
+    "size": 762183,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04936061/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 24,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-10-14",
+    "completionDate": "2022-09-30",
+    "primaryCompletionDate": "2022-08-31",
+    "firstSubmitDate": "2021-06-15",
+    "firstPostDate": "2021-06-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Meets the International Classification of Headache Disorders (ICHD-3) diagnostic criteria for migraine with or without aura, with the exception of ''complicated migraine'' (i.e., hemiplegic migraine, ophthalmoplegic migraine, migrainous infarction).\n2. Patient is between 18 and 80 years of age.\n3. Patient experiences 2 to 8 migraine attacks per month.\n4. Patient is in good reported general health, with no fever (\\<38.3C/101F).\n5. Patient has had diagnosis of migraine with or without aura over at least 1 year.\n6. Migraine onset before 50 years of age.\n7. Migraine prophylaxis medication unchanged for 6 weeks prior to study enrollment.\n8. Able to attend treatment session within 6 hours of migraine onset, with 48 hours of pain freedom prior to onset of migraine attack.\n9. Migraine pain severity of Grade 2 or Grade 3 on day of treatment.\n10. Provision of signed and dated informed consent form.\n11. Stated willingness to comply with all study procedures and availability for the duration of the study.\n\nExclusion Criteria:\n\n1. has difficulty distinguishing his or her migraine attacks from tension-type headaches\n2. Patient has uncontrolled hypertension.\n3. Patient has a fever (≥38.3C / 101F).\n4. Patient has used opioid medication or barbiturates in the past month.\n5. Patient has Medication Overuse Headache (MOH), New Daily Persistent Headache (NDPH) or Chronic Tension Type Headache (CTTH).\n6. Patient has 15 or more headache days per month.\n7. Patient has used acute treatment(s) for migraine in the 48 hours preceding treatment i.e. over-the-counter (OTC) medications, prescription medications, or medical device).\n8. Patient has received Botox treatment, supraorbital or occipital nerve blocks in the last 4 weeks.\n9. Intolerance to intranasal neurostimulation or sensory processing disorder that makes the treatment not applicable.\n10. Recurrent epistaxis or chronic rhinosinusitis.\n11. Recent facial trauma, sinus or intranasal surgery within the last 4 months.\n12. Known or suspected pregnancy.\n13. Unable to fully understand the consent process and provide informed consent due to either language barriers or mental capacity.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pain Relief",
+        "description": "The percentage of patients having a reduction of a moderate or severe migraine headache (Grade 2 or 3) at baseline to a mild headache or to no headache (Grade 1 or 0) at 2 hours after the CoolStat treatment session.",
+        "timeFrame": "2 hours"
+      },
+      {
+        "measure": "Tolerability of the CoolStat Device",
+        "description": "Number of subjects who fail to complete the full treatment session",
+        "timeFrame": "15 minutes"
+      },
+      {
+        "measure": "Safety of the CoolStat Device",
+        "description": "Number of participants with device-related adverse events",
+        "timeFrame": "24 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Pain Relief",
+        "description": "The percentage of patients having a reduction of a moderate or severe migraine headache (Grade 2 or 3) at baseline to a mild headache or to no headache (Grade 1 or 0) immediately after the CoolStat treatment session.",
+        "timeFrame": "0 minutes"
+      },
+      {
+        "measure": "Pain Relief",
+        "description": "The percentage of patients having a reduction of a moderate or severe migraine headache (Grade 2 or 3) at baseline to a mild headache or to no headache (Grade 1 or 0) at 24 hours after the CoolStat treatment session without the use of rescue medication",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "Pain Freedom",
+        "description": "The percentage of patients having a reduction of a moderate or severe migraine headache (Grade 2 or 3) at baseline to no headache (Grade 0) at 2 hours after the CoolStat treatment session without the use of rescue medication",
+        "timeFrame": "2 hours"
+      },
+      {
+        "measure": "Pain Freedom",
+        "description": "The percentage of patients having a reduction of a moderate or severe migraine headache (Grade 2 or 3) at baseline to no headache (Grade 0) at 24 hours after the CoolStat treatment session without the use of rescue medication.",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "Relief From Migraine-associated Symptoms",
+        "description": "The percentage of patients having a reduction in symptom severity from Grade 3/2 at baseline to Grade 1/0 at 2 hours post-treatment session without the use of rescue medication.",
+        "timeFrame": "2 hours"
+      },
+      {
+        "measure": "Freedom From Migraine-associated Symptoms",
+        "description": "The percentage of patients with absence of photophobia, phonophobia, nausea and vomiting, at 2 hours after the end of the CoolStat treatment session without the use of rescue medication",
+        "timeFrame": "2 hours"
+      },
+      {
+        "measure": "Use of Rescue Medication",
+        "description": "The percentage of patients who took acute anti-migraine medication within 24 hours after the end of the CoolStat treatment session.",
+        "timeFrame": "0 to 24 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:53.732Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

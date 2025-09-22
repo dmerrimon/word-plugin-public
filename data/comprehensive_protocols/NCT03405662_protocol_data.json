@@ -1,0 +1,127 @@
+{
+  "nctId": "NCT03405662",
+  "briefTitle": "Impact of Photobiomodulation (PBM) on Biomarkers of Alzheimer's Disease",
+  "officialTitle": "Examining the Impact of Photobiomodulation on Cognition, Behavior, and Biomarkers of Alzheimer's Disease",
+  "protocolDocument": {
+    "nctId": "NCT03405662",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-04-08",
+    "uploadDate": "2022-04-12T22:34",
+    "size": 915474,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03405662/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 23,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-08-16",
+    "completionDate": "2021-01-01",
+    "primaryCompletionDate": "2021-01-01",
+    "firstSubmitDate": "2018-01-12",
+    "firstPostDate": "2018-01-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria (for participants with AD):\n\n* Diagnosis of AD supported by AD biomarkers (CSF or amyloid PET)\n* Mini-Mental State Exam (MMSE) score \\> 13\n* fluent in English\n* has a reliable caregiver/study partner who can help administer and log PBM use\n* no history of stroke or seizures\n* willing to undergo 2 lumbar punctures approximately 4 months apart\n* legally authorized representative consent\n\nExclusion Criteria: (for participants with AD)\n\n* lack of assent to study procedures\n* terminal illness (i.e., life expectancy \\< 1 year)\n* started dementia medication (i.e., cholinesterase inhibitor or memantine) within the past 3 months or planning to start new dementia medication\n* current participation in another research study that could potentially confound current study (e.g., medication or behavioral intervention)\n* MMSE \\< 13\n* history of structural brain lesions or stroke temporally related to the onset or worsening of cognitive impairment\n* history of head trauma associated with injury-onset cognitive complaints or loss of consciousness for 10 minutes or longer.\n\nInclusion Criteria (for study partners):\n\n* ability to answer questions about the primary participant's memory, behaviors, and activities of daily living\n* willingness to help primary participant use and log the use of the Vielight Neuro Gamma device every other day for 16 weeks\n* fluent in English\n\nExclusion Criteria (for study partners):\n\n* major neurological or psychiatric condition\n* terminal illness (i.e., life expectancy \\< 1 year)\n* evidence of cognitive impairment\n* inability to consent to study procedure",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Alzheimer's Disease Assessment Scale-cognitive Subscale (ADAS-cog)",
+        "description": "The ADAS-cog is the most popular cognitive testing instrument used in clinical trials of nootropics. It consists of 11 tasks measuring the disturbances of memory, language, praxis, attention and other cognitive abilities which are often referred to as the core symptoms of AD. Higher ADAS-cog scores indicate greater cognitive impairment.\n\nThe changes score was determined by calculating the ratio of the ADAS-cog score at week 16 over the ADAS-cog score at baseline. Thus, a change score of 1 signifies no change compared to baseline and change scores \\< 1 or \\> 1 reflect a decrease or an increase in ADAS-cog score compared to baseline.",
+        "timeFrame": "Baseline to 16 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Performance on Color Trails Test (CTT2/CTT1 Index)",
+        "description": "CTT is a non-verbal test of visual attention, graphomotor sequencing, and effortful executive processing abilities (i.e., sustained attention and set shifting). A higher index score indicates less cognitive flexibility, a lower ability to shift attention.",
+        "timeFrame": "Baseline to 16 weeks"
+      },
+      {
+        "measure": "Change on the Neuropsychiatriac Inventory (NPI)",
+        "description": "NPI is a well-validated, reliable, multi-item instrument to assess psychopathology (e.g., behavioral symptoms) in AD based on a questionnaire completed by the participants' study partners. Higher scores indicate more symptoms and/or more severe symptoms.\n\nThe changes score was determined by calculating the ratio of the week 16 NPI score over the baseline NPI score. Thus, a change score of 1 signifies no change compared to baseline and change scores \\< 1 or \\> 1 reflect a decrease or an increase in NPI compared to baseline.",
+        "timeFrame": "Baseline to 16 weeks"
+      },
+      {
+        "measure": "Change on the Alzheimer's Disease Cooperative Study Activities of Daily Living (ADCS-ADL)",
+        "description": "ADCS-ADL assesses the competence of patients with AD in basic and instrumental activities of daily living (ADLs). It can be completed by a caregiver in questionnaire format, or administered by a clinician/researcher as a structured interview with a caregiver. ADCS-ADL scores range from 0-53, with higher scores indicating greater independence. The changes score was determined by calculating the ratio of the week 16 ADCS-ADL score over the baseline ADCS-ADL score. Thus, a change score of 1 signifies no change compared to baseline and change scores \\< 1 or \\> 1 reflect a decrease or an increase in ADCS-ADL compared to baseline.",
+        "timeFrame": "Baseline to 16 weeks"
+      },
+      {
+        "measure": "Change in Plasma Levels of Aβ42",
+        "description": "Although Aβ42 is present in plasma, it is unclear whether it originates from peripheral sources or from the brain. Because Aβ can be transported bidirectionally across the blood-brain barrier, it has been hypothesized that there may be an equilibrium between CSF and plasma pools of Aβ. Decreased levels of Aβ42 in CSF occurs in conjunction with cognitive decline. However, patients with mutations in chromosome 21 that cause early-onset familial AD and patients with trisomy 21 have increased levels of plasma Aβ42 before the onset of the symptoms of dementia. Therefore, it is possible that plasma Aβ42 levels increase with cognitive decline. The change score was determined by calculating the ratio of plasma Aβ42 at week 16 over the ADAS-cog score at baseline.",
+        "timeFrame": "Baseline to 16 weeks"
+      },
+      {
+        "measure": "Change in CSF Levels of Aβ42.",
+        "description": "Aβ42 is a biomarker of AD pathology. CSF levels of Aβ42 decrease in conjunction with the cognitive decline. The change score was determined by calculating the ratio of CSF Aβ42 at week 16 over the ADAS-cog score at baseline. Thus, a change score of 1 signifies no change compared to baseline and change scores \\< 1 or \\> 1 reflect a decrease or an increase in CSF levels of Aβ42 compared to baseline.",
+        "timeFrame": "Baseline to 16 weeks"
+      },
+      {
+        "measure": "Change in Plasma Levels of Tau.",
+        "description": "Tau, the microtubule-associated protein, forms insoluble filaments that accumulate as neurofibrillary tangles in Alzheimer's disease (AD). Research suggests that plasma tau levels increased with AD severity. The change score was determined by calculating the ratio of the week 16 plasma tau over the baseline plasma tau levels. Thus, a change score of 1 signifies no change compared to baseline and change scores \\< 1 or \\> 1 reflect a decrease or an increase in plasma tau compared to baseline.",
+        "timeFrame": "Baseline to 16 weeks"
+      },
+      {
+        "measure": "Change in CSF Levels of Tau",
+        "description": "Tau forms insoluble filaments that accumulate as neurofibrillary tangles in AD. Increased levels of tau in CSF is a key characteristic of AD and is considered to result from neurodegeneration. The change score was determined by calculating the ratio of week 16 CSF tau over baseline CSF tau. Thus, a change score of 1 signifies no change compared to baseline and change scores \\< 1 or \\> 1 reflect a decrease or an increase in CSF tau compared to baseline.",
+        "timeFrame": "Baseline to 16 weeks"
+      },
+      {
+        "measure": "Change in Plasma Levels of Neurofilament Light Chain (NfL)",
+        "description": "Neurofilament light chain (NfL) is a marker of axonal degeneration and is robustly elevated in the blood of many neurological and neurodegenerative conditions, including AD. The change score was determined by calculating the ratio of week 16 plasma levels of NfL over the baseline levels of plasma NfL. Thus, a change score of 1 signifies no change compared to baseline and change scores \\< 1 or \\> 1 reflect a decrease or an increase in plasma levels of NfL compared to baseline.",
+        "timeFrame": "Baseline to 16 weeks"
+      },
+      {
+        "measure": "Change in CSF Levels of NfL",
+        "description": "Neurofilament light chain (NfL) is a marker of axonal degeneration and is robustly elevated in the blood of many neurological and neurodegenerative conditions, including AD. There is a strong relationship with cerebrospinal fluid (CSF) NfL, suggesting that these biomarker modalities reflect the same pathological process. The change score was determined by calculating the ratio of week CSF NfL over baseline CSF NfL. Thus, a change score of 1 signifies no change compared to baseline and change scores \\< 1 or \\> 1 reflect a decrease or an increase in CSF NfL compared to baseline.",
+        "timeFrame": "Baseline to 16 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:41.546Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

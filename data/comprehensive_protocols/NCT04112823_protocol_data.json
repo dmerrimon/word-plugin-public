@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT04112823",
+  "briefTitle": "Dexamethasone for Migraine - Dose Comparison",
+  "officialTitle": "Dexamethasone for Acute Migraine. A Randomized Dose-comparison Study",
+  "protocolDocument": {
+    "nctId": "NCT04112823",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-07-27",
+    "uploadDate": "2024-02-21T19:00",
+    "size": 160647,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04112823/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 209,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-12-22",
+    "completionDate": "2022-12-31",
+    "primaryCompletionDate": "2022-12-31",
+    "firstSubmitDate": "2019-09-30",
+    "firstPostDate": "2019-10-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Moderate or severe migraine\n\nExclusion Criteria:\n\n* Medication contra-indication\n* Concern for secondary cause of headache",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Subjects With Headaches Who Have Sustained Headache Relief for 48 Hours",
+        "description": "The number of subjects achieving sustained headache relief for 48 hours and maintaining this level, without requiring additional rescue therapy for the entire 48 hour follow up period, will be determined. Headache relief will be defined as the number of subjects reporting a headache intensity of either \"none\" or \"mild.\"",
+        "timeFrame": "48 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Subjects With Headache Who Have Relief Within Two Hours of Medication Administration",
+        "description": "The number of subjects who achieve a headache intensity level of either \"none\" or \"mild\" within two hours of medication administration, without requiring rescue medication, will be determined.",
+        "timeFrame": "Two hours"
+      },
+      {
+        "measure": "Additional Headache Medication in the ED",
+        "description": "The number of participants requiring the use of additional headache medication (rescue therapy) during their time in the ED will be determined.",
+        "timeFrame": "Up to 24 hours"
+      },
+      {
+        "measure": "Patient Preference for Receiving the Same Medication for a Subsequent Headache",
+        "description": "During the 48 hour follow up patients were queried as to whether they would want the same headache treatment regimen during the onset of a subsequent headache. The number of responses were tabulated and reported.",
+        "timeFrame": "48 hours"
+      },
+      {
+        "measure": "Number of Days With Headache",
+        "description": "The median number of headache days during the week after ED discharge will be determined.",
+        "timeFrame": "One week"
+      },
+      {
+        "measure": "Use of Additional Headache Medication After ED Discharge",
+        "description": "The number of participants requiring the use of additional headache medication following ED discharge will be summarized.",
+        "timeFrame": "Up to 24 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:55.084Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

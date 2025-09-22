@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02915939",
+  "briefTitle": "The Residential Care Transition Module",
+  "officialTitle": "The Residential Care Transition Module",
+  "protocolDocument": {
+    "nctId": "NCT02915939",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-02-10",
+    "uploadDate": "2022-02-23T09:46",
+    "size": 1179223,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02915939/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 240,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-12",
+    "completionDate": "2021-08-30",
+    "primaryCompletionDate": "2021-05-14",
+    "firstSubmitDate": "2016-09-19",
+    "firstPostDate": "2016-09-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Family caregivers of relatives who have received a physician's diagnosis of Alzheimer's disease or a related dementia (ADRD)\n* Family caregivers who consider themselves the most involved in visiting and providing assistance to a relative experiencing a long-stay admission to an assisted living, nursing home, memory care, or other residential long-term care setting. Those who share the primary caregiving role equally are also eligible.\n* Family caregivers must be English speaking, 21 years of age or older\n* Family caregivers on psychotropic medications, such as anti-depressants or anti-psychotics, will be eligible if they have remained on a stable dosage for the last 3 months\n\nExclusion Criteria:\n\n* Family caregivers who are participating in any other type of service that provides one-to-one psychosocial consultation specifically for caregiving (support group participation is not a deterrent to enrollment, nor is general counseling not specific to caregiving)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in care-related strain",
+        "description": "A 7-item measure of care-related strain that assesses the stress family caregivers perceive as a result of having a relative in residential care",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Change in burden: Zarit Burden Interview",
+        "description": "A 7-item version of the Zarit Burden Interview",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Change in stress: Perceived Stress Scale",
+        "description": "The Perceived Stress Scale",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Quantitative measure of resilience to negative psychosocial effects of COVID-19",
+        "description": "Compare trajectories of caregiver stress and well-being across the treatment and control groups using quantitative (survey) data to determine whether the RCTM provides benefits in the context of COVID-19.",
+        "timeFrame": "0, 1 and 4 months post-pandemic onset"
+      },
+      {
+        "measure": "Qualitative measure of resilience to negative psychosocial effects of COVID-19",
+        "description": "Compare trajectories of caregiver stress and well-being across the treatment and control groups using qualitative (experiences) data to determine whether the RCTM provides benefits in the context of COVID-19.",
+        "timeFrame": "0, 1 and 4 months post-pandemic onset"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.433Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

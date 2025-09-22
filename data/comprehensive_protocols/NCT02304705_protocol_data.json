@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02304705",
+  "briefTitle": "Sildenafil in Heart Failure With Reactive Pulmonary Hypertension",
+  "officialTitle": "Sildenafil in Heart Failure With Reactive Pulmonary Hypertension",
+  "protocolDocument": {
+    "nctId": "NCT02304705",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-04-04",
+    "uploadDate": "2018-06-29T11:52",
+    "size": 679424,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02304705/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 33,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-01",
+    "completionDate": "2017-06",
+    "primaryCompletionDate": "2017-06",
+    "firstSubmitDate": "2014-11-26",
+    "firstPostDate": "2014-12-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Known chronic heart failure appropriately treated with Angiotensin converting enzyme (ACE) inhibitors and beta blockers, unless contraindicated or poorly tolerated\n* indication for right heart catheterization\n* pulmonary artery mean pressure \\>25 mmHg\n* pulmonary capillary wedge pressure \\> 15 mmHg\n* pulmonary vascular resistance \\> 3 Wood units\n\nExclusion Criteria:\n\n* hypersensitivity, allergy, or intolerable side effect to sildenafil\n* history of primary pulmonary hypertension, connective tissue disorder, severe chronic obstructive pulmonary disorder (COPD), pulmonary embolism, or left to right shunt\n* co-morbidities, limited exercise intolerance:\n\n  * morbid obesity (BMI \\>40)\n  * COPD with oxygen dependence\n  * severe peripheral vascular disease with intermittent claudication\n  * status post amputation of lower extremity at any level\n  * severe degenerative joint disease preventing normal walking",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Exercise Tolerance",
+        "description": "In a controlled laboratory environment, participants will be asked to walk on a treadmill as fast as they can for 6 minutes. The test will be conducted at baseline and after 90 days of treatment. Data will be presented as the change in distance (in feet) walked in 6 minutes between baseline and treatment.",
+        "timeFrame": "Baseline and 90 days"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "Change in Right Ventricular Function",
+        "description": "Right ventricular function will be measured using tricuspid annular plane systolic excursion via two dimensional apical four-chamber echocardiography. Data will be collected at baseline and after 90 days of treatment",
+        "timeFrame": "Baseline and 90 day"
+      },
+      {
+        "measure": "Change in Cardiac Output Relative to Body Surface Area (Cardiac Index)",
+        "description": "cardiac output will be calculated by multiplying stroke volume by heart rate. Cardiac index will be calculated by dividing cardiac output (Liters/minute) by body surface area (meters squared). Data will be collected at baseline and the end of treatment (90 days)",
+        "timeFrame": "Baseline and 90 days"
+      },
+      {
+        "measure": "Change in Pulmonary Vascular Resistance",
+        "description": "Pulmonary vascular resistance will be determined by right heart catheterization. Data will be collected at baseline and at the end of treatment (90 days)",
+        "timeFrame": "Baseline and 90 days"
+      },
+      {
+        "measure": "Change in Blood Pressure",
+        "description": "through standard cuff method, participants will have blood pressure measured to determine systolic and diastolic blood pressure as well as mean arterial pressure. data will be collected at baseline and 90 days.",
+        "timeFrame": "Baseline and 90 days"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 4,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 47,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:30.896Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT04166773",
+  "briefTitle": "A Study of Tirzepatide (LY3298176) in Participants With Nonalcoholic Steatohepatitis (NASH)",
+  "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Phase 2 Study Comparing the Efficacy and Safety of Tirzepatide Versus Placebo in Patients With Nonalcoholic Steatohepatitis (NASH)",
+  "protocolDocument": {
+    "nctId": "NCT04166773",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-11-19",
+    "uploadDate": "2024-12-06T03:55",
+    "size": 1949170,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04166773/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 190,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-11-19",
+    "completionDate": "2024-01-10",
+    "primaryCompletionDate": "2023-12-11",
+    "firstSubmitDate": "2019-11-15",
+    "firstPostDate": "2019-11-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "* Participants must have a body mass index (BMI) ≥27 kilograms per square meter (kg/m²) and ≤50 kg/m² with stable body weight for at least 3 months\n* Participants with or without type 2 diabetes mellitus (T2DM)\n\n  * If with T2DM, hemoglobin A1c (HbA1c) ≤9.5%\n* Participants must be willing to undergo baseline and endpoint liver biopsies\n* Participants must have histologic diagnosis of NASH with stage 2 or 3 fibrosis by liver biopsy\n* Participants must not have known or suspected alcohol abuse (\\>14 units/week for women and \\>21 units/week for men) or active substance abuse\n* Participants must not have evidence of cirrhosis or other forms of liver disease\n* Participants must not have heart attack, stroke, or hospitalization for congestive heart failure in the past 6 months\n* Participants must not have active cancer within the last 5 years\n* Participants must not have uncontrolled high blood pressure\n* Participants must not have renal impairment with estimated glomerular filtration rate (eGFR) \\<30 milliters/minute/1.73m²; for participants on metformin, eGFR \\<45 mL/min/1.73m²\n* Participants must not have a diagnosis of type 1 diabetes\n* Participants must not have a history of pancreatitis (acute or chronic)\n* Participants must not have calcitonin ≥35 nanograms per liter\n* Participant must not have family or personal history of multiple endocrine neoplasia type 2 or medullary thyroid carcinoma (family is defined as a first degree relative)\n* Female participants must not be pregnant, breast-feeding, or intend to become pregnant or of childbearing potential and not using adequate contraceptive method (adequate contraceptive measures as required by local regulation or practice)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Absence of Nonalcoholic Steatohepatitis (NASH) With no Worsening of Fibrosis on Liver Histology",
+        "description": "NASH resolution is defined as the absence of fatty liver disease or simple steatosis without steatohepatitis; the absence of hepatocellular ballooning (nonalcoholic fatty liver disease (NAFLD) Activity Score (NAS) 0 for ballooning); with or without mild lobular inflammation (NAS 0 or 1 for inflammation); and any value for steatosis. No worsening of fibrosis is defined as no increase in fibrosis stage from baseline to Week 52.",
+        "timeFrame": "Week 52"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With ≥1 Point Decrease in Fibrosis Stage With No Worsening of NASH on Liver Histology",
+        "description": "NAS was derived as the unweighted sum of steatosis (0 to 3), lobular inflammation (0 to 3), and hepatocellular ballooning (0 to 2) scores. The NAS ranges from 0-8 with the higher score indicating more aggressive disease. Evaluation of fibrosis stage was based on the nonalcoholic steatohepatitis clinical research network (NASH CRN) fibrosis staging system, which was scaled from 0 to 4 stages where, 0=None to 4=Cirrhosis. Participants were evaluated with the NASH CRN scoring system with ≥1-point reduction without worsening of NASH (defined as no increase in the NAS score).",
+        "timeFrame": "Week 52"
+      },
+      {
+        "measure": "Percentage of Participants With ≥1 Point Increase in Fibrosis Stage on Liver Histology",
+        "description": "Participants were evaluated with the NASH CRN scoring system with ≥1 stage increase in fibrosis.",
+        "timeFrame": "Week 52"
+      },
+      {
+        "measure": "Percentage of Participants That Achieve a ≥2 Point Decrease in NAFLD (Non-alcoholic Fatty Liver Disease) Activity Score (NAS) on Liver Histology, With ≥1 Point Reduction in at Least 2 NAS Components",
+        "description": "Hepatic histological improvement in NAS was defined as a decrease (improvement) in NAS by ≥ 2 with at least a 1-point reduction in at least 2 NAS components (lobular inflammation, hepatocellular ballooning or steatosis). The NAS was derived as the unweighted sum of steatosis (0 to 3), lobular inflammation (0 to 3), and hepatocellular ballooning (0 to 2) scores. The NAS ranges from 0-8, with the higher score indicating more aggressive disease.",
+        "timeFrame": "Week 52"
+      },
+      {
+        "measure": "Mean Absolute Change From Baseline in Liver Fat Content by Magnetic Resonance Imaging - Proton Density Fat Fraction (MRI-PDFF)",
+        "description": "MRI-PDFF is an established method that enables quantification of fat content in the liver. The value of whole liver fat as assessed by MRI-PDFF is expressed in percentage (%) and ranges from 0 to 100% with higher values representing higher liver fat level. Least square (LS) mean was calculated using mixed model repeated measures (MMRM) model for post-baseline measures: Variable = Baseline + Diabetes Flag (DIABFL) + REGION1 + Treatment + Time + Treatment\\*Time (Type III sum of squares). Variance-Covariance structure (Change from Baseline) = Unstructured.",
+        "timeFrame": "Baseline to Week 52"
+      },
+      {
+        "measure": "Mean Change From Baseline in Body Weight",
+        "description": "Change in body weight at the end of 52 weeks measured in kilogram (kg) using a calibrated scale. LS mean was calculated using MMRM model for post-baseline measures: Variable = Baseline + DIABFL + REGION1 + Treatment + Time + Treatment\\*Time (Type III sum of squares). Variance-Covariance structure (Change from Baseline) = Unstructured.",
+        "timeFrame": "Baseline to Week 52"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 60,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:11.228Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

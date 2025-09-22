@@ -1,0 +1,149 @@
+{
+  "nctId": "NCT03369249",
+  "briefTitle": "Health and Justice: A Continuum of Care for HIV and SU for Justice-Involved Young Adults (PHASE 2)",
+  "officialTitle": "Health and Justice: A Continuum of Care for HIV and SU for Justice-Involved Young Adults (PHASE 2)",
+  "protocolDocument": {
+    "nctId": "NCT03369249",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-10-20",
+    "uploadDate": "2022-09-27T12:51",
+    "size": 228705,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03369249/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 307,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-12-09",
+    "completionDate": "2022-12-01",
+    "primaryCompletionDate": "2021-09-30",
+    "firstSubmitDate": "2017-11-30",
+    "firstPostDate": "2017-12-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Young Adults\n\nInclusion Criteria:\n\n* Between 18-24 years of age\n* Currently enrolled at the alternative to sentencing program\n* Conversant in English\n* Engaged in any unprotected or vaginal sexual activity (in the past 12 months)\n\nExclusion Criteria:\n\n* Cognitively unable to complete the interview\n* HIV positive\n\nAlternative to Sentencing Staff\n\nInclusion Criteria:\n\n* Currently employed at the alternative to sentencing program\n* Between ages of 18-80\n\nExclusion Criteria:\n\n* None",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Total Number of Unprotected Anal and Vaginal Sex Occasions in Past 3 Months",
+        "description": "measured by participant report in the \"Sexual Risk\" section of the questionnaires",
+        "timeFrame": "at 12-month follow-up"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Frequency of Young Adults Substance Use in Past 30 Days",
+        "description": "measured by participant report in the \"Substance Use\" section of the questionnaires",
+        "timeFrame": "at 3-, 6-, and 12-month follow-ups"
+      },
+      {
+        "measure": "Number of Young Adults Referred to Substance Use Treatment",
+        "description": "measured by Health Coach report in the Health Coach logs and participant report in the \"Substance Use Referral\" section of the questionnaires",
+        "timeFrame": "at 3-, 6-, and 12-month follow-ups"
+      },
+      {
+        "measure": "Number of Young Adults Attending Intake Plus One Treatment Session",
+        "description": "measured by Health Coach report in the Health Coach logs and participant report in the \"Substance Use Treatment\" section of the questionnaires",
+        "timeFrame": "at 3-, 6-, and 12-month follow-ups"
+      },
+      {
+        "measure": "Acceptance of STI Testing (Yes/no)",
+        "description": "measured by Health Coach report in the \"Session 1 Sexual Risk\" questionnaire",
+        "timeFrame": "at day 1 of enrollment"
+      },
+      {
+        "measure": "Any STI Testing",
+        "description": "measured by participant report in the \"STI Testing\" section of the questionnaires",
+        "timeFrame": "between 6- and 12-month follow-ups"
+      },
+      {
+        "measure": "Number of STI+ Young Adults Referred to STI Treatment",
+        "description": "measured by the Health Coach report in the Health Coach Logs and participant report in the \"STI Referral\" section of the questionnaires",
+        "timeFrame": "at 3-, 6-, and 12-month follow-ups"
+      },
+      {
+        "measure": "Number of STI+ Young Adults Attending 1 or More Treatment Appointments",
+        "description": "measured by Health Coach report in the Health Coach logs and participant report in the \"STI Treatment\" section of the questionnaires",
+        "timeFrame": "at 3-, 6-, and 12-month follow-ups"
+      },
+      {
+        "measure": "Acceptance of HIV Testing (Yes/no)",
+        "description": "measured by Health Coach report in the \"Session 1 Sexual Risk\" questionnaire",
+        "timeFrame": "at day 1 of enrollment"
+      },
+      {
+        "measure": "Any HIV Testing",
+        "description": "measured by participant report in the \"HIV Testing\" section of the questionnaires",
+        "timeFrame": "between 6-month and 12-month follow-ups"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number of HIV+ Young Adults Referred to HIV Treatment",
+        "description": "measured by Health Coach report in the Health Coach logs and participant report in the \"HIV Referral\" section of the questionnaires",
+        "timeFrame": "at 3-, 6-, and 12-month follow-ups"
+      },
+      {
+        "measure": "Number of HIV+ Young Adults Attending at Least One Treatment Appointment",
+        "description": "measured by Health Coach report in the Health Coach logs and participant report in the \"HIV Treatment\" section of the questionnaires",
+        "timeFrame": "at 3-, 6-, and 12-month follow-ups"
+      },
+      {
+        "measure": "Number of Young Adults Behaviorally PrEP Eligible Referred to PrEP/Medical Care",
+        "description": "measured by Health Coach report in the Health Coach logs and participant report in the \"PrEP Referral\" section of the questionnaires",
+        "timeFrame": "at 3-, 6-, and 12-month follow-ups"
+      },
+      {
+        "measure": "Number of Young Adults Behaviorally PrEP Eligible Attending at Least One HIV Care Appointment",
+        "description": "measured by Health Coach report in the Health Coach logs and participant report in the \"PrEP Uptake\" section of the questionnaires",
+        "timeFrame": "at 3-, 6-, and 12-month follow-ups"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 4,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 77,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:18.858Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

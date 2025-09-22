@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT06290206",
+  "briefTitle": "PREVENT HPV-Related Cancers - BootCamp Translation",
+  "officialTitle": "PREVENT: Practice-based Approaches to Promote HPV Vaccination in the Safety Net - BootCamp Translation",
+  "protocolDocument": {
+    "nctId": "NCT06290206",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-06-06",
+    "uploadDate": "2025-04-15T14:11",
+    "size": 706011,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06290206/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 18,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-02-02",
+    "completionDate": "2024-03-31",
+    "primaryCompletionDate": "2024-03-01",
+    "firstSubmitDate": "2024-02-04",
+    "firstPostDate": "2024-03-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Parents/Caregivers (P/C) of children/adolescents (C/A) ages 9-17 years of age (i.e., age-eligible for HPV vaccination);\n2. P/C with active clinic patients (i.e., have been seen in the clinic in the last 12 months); and\n3. P/C who speak either English or Spanish.\n\nExclusion Criteria:\n\n1. P/C of C/A with previous excluding HPV vaccination history (e.g., completed vaccination, or not due);\n2. P/C of C/A with clinical conditions that influence the CDC HPV vaccination recommendations (e.g., pregnancy);\n3. P/C of C/A with other factors that would influence CDC HPV recommendations; and\n4. P/C that does not speak Spanish or English.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Parents Participating in BCT",
+        "description": "This outcome measure will report the number of participants who participant in the BCT English sessions and number of participants who participant in the BCT Spanish sessions.\n\nBCT is a community-based research approach to develop and evaluate messaging for health related issues. This study will employ BCT to determine the frequency and content of HPV messaging for future research.",
+        "timeFrame": "1 day after study enrollment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Likelihood of Parents to Get the HPV Vaccination for Their Child(Ren) This Year",
+        "description": "Participants will be surveyed before and after the in-person session to assess learning outcomes.\n\nThis outcome measure is a single-item self-report of the intention of parents to get the HPV vaccination for their children this year. A low score (Minimum: 1 Extremely Unlikely) is an unfavorable outcome and a high score (Maximum: 5 Extremely Likely) is a favorable outcome. This outcome measure will report the number of patients per response for the BCT English sessions and the BCT Spanish sessions.",
+        "timeFrame": "After the in-person session (1 day)"
+      },
+      {
+        "measure": "Satisfaction With BCT Session",
+        "description": "Participants will be surveyed before and after the in-person session to assess learning outcomes.\n\nThis outcome measure is a single-item self-report of the participants satisfaction with the BCT session. A low score (Minimum: 1 Not at all satisfied) is an unfavorable outcome and a high score (Maximum: 10 Extremely satisfied) is a favorable outcome. This outcome measure will report the mean score of participants for the BCT English sessions and the BCT Spanish sessions.",
+        "timeFrame": "After the in-person session (1 day)"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 3,
+      "exclusionCount": 4,
+      "totalCount": 7
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:32:51.314Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

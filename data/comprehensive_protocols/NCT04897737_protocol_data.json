@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04897737",
+  "briefTitle": "Postpartum Pre-exposure Prophylaxis (PrEP) Study to Evaluate an Adherence Promotion Package for Postpartum Women on PrEP",
+  "officialTitle": "Study of the Feasibility and Acceptability of an Adherence Promotion Package for Postpartum Women on Pre-exposure Prophylaxis (PrEP)",
+  "protocolDocument": {
+    "nctId": "NCT04897737",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-10-07",
+    "uploadDate": "2023-03-07T00:35",
+    "size": 230759,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04897737/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 106,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-11-05",
+    "completionDate": "2021-05-18",
+    "primaryCompletionDate": "2021-04-30",
+    "firstSubmitDate": "2021-05-18",
+    "firstPostDate": "2021-05-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Currently enrolled in PrEP-PP study and on PrEP\n2. 18+ years old\n3. confirmed HIV-negative (confirmed with a 4th generation antigen HIV test)\n4. confirmed to be postpartum (1-6 months postpartum)\n5. confirmed to currently have a male partner\n6. confirmed to have a cell phone that can read and respond to SMS/Whatsapp messages\n\nExclusion Criteria:\n\nFailure to meet all of inclusion criteria",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Recent PrEP Adherence",
+        "description": "The primary study outcome is recent PrEP adherence according to urine tenofovir test by study arm.",
+        "timeFrame": "1 month after intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Participant Partners Who Tested for HIV",
+        "description": "The secondary outcome was number of partners who tested for HIV (as reported by the female partner and confirmed with photo or used HIVST in intervention arm) by study arm.",
+        "timeFrame": "1 month after intervention"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Adverse Events",
+        "description": "Any adverse event occurring in the study including intimate partner violence, relationship issues, or conflict",
+        "timeFrame": "During study monitoring"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 31,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:19.952Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

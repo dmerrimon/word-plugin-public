@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03374488",
+  "briefTitle": "Pembrolizumab + Epacadostat vs Pembrolizumab + Placebo in Recurrent or Progressive Metastatic Urothelial Carcinoma",
+  "officialTitle": "A Phase 3 Randomized, Double-Blind Clinical Study of Pembrolizumab + Epacadostat vs Pembrolizumab + Placebo as a Treatment for Recurrent or Progressive Metastatic Urothelial Carcinoma in Patients Who Have Failed a First-Line Platinum-containing Chemotherapy Regimen for Advanced/Metastatic Disease (KEYNOTE-698/ECHO-303)",
+  "protocolDocument": {
+    "nctId": "NCT03374488",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-06-12",
+    "uploadDate": "2019-07-16T10:33",
+    "size": 17436591,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03374488/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 84,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-12-22",
+    "completionDate": "2020-07-23",
+    "primaryCompletionDate": "2018-07-27",
+    "firstSubmitDate": "2017-12-11",
+    "firstPostDate": "2017-12-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologically-confirmed diagnosis of urothelial carcinoma of the renal pelvis, ureter, bladder, or urethra, that is transitional cell, or mixed transitional/non-transitional (predominantly transitional) cell type.\n* Progression or recurrence of urothelial carcinoma following one prior platinum containing chemotherapy regimen for metastatic or unresectable locally advanced disease. A participant who receives a neoadjuvant or adjuvant platinum-containing regimen following cystectomy for localized muscle-invasive urothelial carcinoma is acceptable (without further systemic treatment), if recurrence/progression occurs ≤ 12 months following completion of therapy.\n* Measurable disease based on RECIST v1.1.\n* Have provided an archival tumor tissue sample or newly obtained core or excisional biopsy of a tumor lesion not previously irradiated for PD-L1 analysis.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n* Adequate organ function per protocol-defined criteria.\n\nExclusion Criteria:\n\n* Urothelial carcinoma that is suitable for local therapy with curative intent.\n* History or presence of an abnormal electrocardiogram (ECG) that, in the investigator's opinion, is clinically meaningful.\n* Known additional malignancy that is progressing or has required active treatment within the past 3 years.\n* Known active central nervous system (CNS) metastases and/or carcinomatous meningitis. Participants with previously treated brain metastases may participate provided they are radiologically stable, ie, without evidence of progression for at least 4 weeks by repeat imaging.\n* Active autoimmune disease that has required systemic treatment in past 2 years.\n* Known history of human immunodeficiency virus (HIV) infection. HIV testing is not required unless mandated by local health authority.\n* Known history of or is positive for active hepatitis B (HBsAg reactive) or has active hepatitis C (HCV RNA). Note: Testing must be performed to determine eligibility.\n* Use of protocol-defined prior/concomitant therapy.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Objective Response Rate (ORR) With Pembrolizumab + Epacadostat Versus Pembrolizumab + Placebo",
+        "description": "ORR was defined as the percentage of participants who had a complete response (CR), disappearance of all target lesions or partial response (PR), \\>=30% decrease in the sum of the longest diameter of target lesions per RECIST v1.1 by investigator determination.",
+        "timeFrame": "up to 9 weeks +14 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Safety and Tolerability of Pembrolizumab + Epacadostat Versus Pembrolizumab + Placebo as Measured by Number of Participants Experiencing Adverse Events (AEs)",
+        "description": "AE is defined as any untoward medical occurrence in a patient or clinical study participant, temporally associated with the use of study treatment, whether or not considered related to the study treatment.",
+        "timeFrame": "Up to 8 months"
+      },
+      {
+        "measure": "Safety and Tolerability of Pembrolizumab + Epacadostat Versus Pembrolizumab + Placebo as Measured by Number of Participants Discontinuing Study Treatment Due to AE",
+        "description": "AE is defined as any untoward medical occurrence in a patient or clinical study participant, temporally associated with the use of study treatment, whether or not considered related to the study treatment.",
+        "timeFrame": "Up to 8 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:51.359Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

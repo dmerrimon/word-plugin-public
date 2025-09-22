@@ -1,0 +1,133 @@
+{
+  "nctId": "NCT05099497",
+  "briefTitle": "Supporting Audit and Feedback to Encourage Vaccine Uptake",
+  "officialTitle": "Big Data and Little Behaviours: Feedback and Quality Improvement Supports to Primary Care to Facilitate COVID-19 Vaccine Uptake",
+  "protocolDocument": {
+    "nctId": "NCT05099497",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-11-17",
+    "uploadDate": "2022-03-11T10:07",
+    "size": 264982,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05099497/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 600,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-15",
+    "completionDate": "2022-11-15",
+    "primaryCompletionDate": "2022-03-15",
+    "firstSubmitDate": "2021-10-05",
+    "firstPostDate": "2021-10-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 6,690 family physicians across Ontario who have active (up-to-date passwords) ONE ID accounts\n\nExclusion Criteria:\n\n* family physicians across Ontario who do not have an active ONE ID account\n* family physicians with less than 300 rostered patients\n* family physicians with more than 3000 rostered patients",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Any vaccine dose during follow-up interval",
+        "description": "Count of vaccine doses among rostered patients 12+/100 patients",
+        "timeFrame": "approximately 4 months (from time of randomization until follow-up completed end of fiscal year, March 31, 2022)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "1st vaccine dose during follow-up interval",
+        "description": "patients 12+ eligible not yet vaccinated and received first dose during follow-up interval",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "2nd vaccine dose during follow-up interval",
+        "description": "Second vaccine doses among rostered patients 12+ during follow-up interval",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "3rd vaccine dose during follow-up interval",
+        "description": "Third (booster) doses among rostered patients 12+ during follow-up interval",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "Pediatric dose during follow-up interval",
+        "description": "Vaccine doses among rostered patients aged 5-11 during follow-up interval",
+        "timeFrame": "4 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Any engagement",
+        "description": "Number of physicians and practices that agreed to receive support by facilitators",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "Medical office assistant engagement",
+        "description": "Number of practices in which the facilitator engaged with a medical assistant to arrange patient outreach",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "Report data engagement",
+        "description": "Number of physicians that logged into their vaccine report with the help of a practice facilitator",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "Volunteer engagement",
+        "description": "Number of practices that used medical student volunteers to help engage with their unvaccinated patients",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "Townhall uptake",
+        "description": "Number of patients that attended townhalls with their physician",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "Calls by volunteers",
+        "description": "Number of medical student volunteers calls made to contact unvaccinated patients",
+        "timeFrame": "4 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 6,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 71,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:16.419Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

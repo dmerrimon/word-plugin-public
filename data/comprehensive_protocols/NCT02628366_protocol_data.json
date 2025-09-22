@@ -1,0 +1,161 @@
+{
+  "nctId": "NCT02628366",
+  "briefTitle": "Major Outcomes With Personalized Dialysate TEMPerature",
+  "officialTitle": "Major Outcomes With Personalized Dialysate TEMPerature: Pragmatic, Registry-Based, Cluster Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT02628366",
+    "filename": "Prot_SAP_003.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-09-06",
+    "uploadDate": "2023-06-21T10:00",
+    "size": 2440192,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02628366/document/Prot_SAP_003.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 84,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-04-03",
+    "completionDate": "2021-03-31",
+    "primaryCompletionDate": "2021-03-31",
+    "firstSubmitDate": "2015-11-16",
+    "firstPostDate": "2015-12-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "This pragmatic cluster randomized controlled trial has only two inclusion criteria:\n\nInclusion Criteria:\n\n* The hemodialysis centre must have cared for a minimum of 15 outpatients being treated with maintenance in-centre hemodialysis on January 1st, 2017.\n* The medical director of the hemodialysis centre (who acted as the centre's gatekeeper) must have been willing for their centre to adopt the randomly allocated dialysate temperature protocol for the duration of the trial.\n\nExclusion Criteria:\n\n* The centre cares for less than 15 patients being treated with conventional in-centre hemodialysis.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Composite outcome of cardiovascular-related mortality or major cardiovascular event",
+        "description": "There are many challenges associated with selecting the primary endpoint in MyTEMP because of heterogeneity of the population, complexity of renal pathophysiology and its interaction with cardiovascular disease, and competing risks of non-cardiovascular-related death.\n\nOur primary outcome is a composite outcome of cardiovascular-related mortality or a hospitalization for non-fatal major cardiovascular event which is any of myocardial infarction, ischemic stroke, or congestive heart failure. We chose a cause-specific death (i.e. cardiovascular) in our endpoint, in contrast to all-cause mortality, because non-cardiovascular causes of death are common in the hemodialysis population and the intervention is less likely to reduce the rate of such deaths. However, as a secondary outcome (see Secondary outcomes), we will also test the effect of personalized temperature-reduced dialysate temperature on all-cause mortality.",
+        "timeFrame": "Four Years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Key secondary outcome: Between-group mean difference in the intradialytic drop of systolic blood pressure.",
+        "description": "A blood pressure drop is defined as the pre-dialysis systolic blood pressure minus the intradialytic nadir systolic blood pressure, where the greater the number (in the positive direction) the larger the drop.",
+        "timeFrame": "Four Years"
+      },
+      {
+        "measure": "Composite outcome of all-cause mortality or major cardiovascular event",
+        "description": "Composite of all-cause mortality and hospitalization for a major cardiovascular event including: myocardial infarction, ischemic stroke, or congestive heart failure.",
+        "timeFrame": "Four Years"
+      },
+      {
+        "measure": "All-cause mortality",
+        "timeFrame": "Four Years"
+      },
+      {
+        "measure": "Hospitalization for non-fatal myocardial infarction",
+        "timeFrame": "Four Years"
+      },
+      {
+        "measure": "Hospitalization for non-fatal congestive heart failure",
+        "timeFrame": "Four Years"
+      },
+      {
+        "measure": "Hospitalization for non-fatal ischemic stroke",
+        "timeFrame": "Four Years"
+      },
+      {
+        "measure": "Cardiovascular-related mortality",
+        "timeFrame": "Four Years"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Composite of All-Cause emergency department visits or all-cause hospitalizations (repeated measure)",
+        "description": "Patients on hemodialysis are frequently hospitalized and account for 5% to 7% of healthcare expenditures in developed countries despite comprising a very small percentage of the general adult population. These patients have several characteristics that make them vulnerable to hospitalization and emergency department use, including multimorbidity, high rates cardiovascular and complications, and complex medication regimens. The historic hazard rate for emergency department visits was 1.05, all-cause hospitalization was 0.65, and the composite all-cause emergency department visits or hospitalizations over a 4-year period (from April 1, 2013 to March 31, 2017) for an open cohort was 1.22 events per person-year.",
+        "timeFrame": "Four Years"
+      },
+      {
+        "measure": "All-Cause emergency department visits (repeated measures)",
+        "timeFrame": "Four Years"
+      },
+      {
+        "measure": "All-cause hospitalizations (repeated measure)",
+        "timeFrame": "Four years"
+      },
+      {
+        "measure": "Hospital encounter with lower limb amputation",
+        "description": "Patients on hemodialysis, especially those with diabetes, have a high incident rate of amputation. Amputations are associated with cardiovascular risk factors and likely linked to vascular injury caused by hemodialysis-induced ischemia, which complicates pre-existing arterial disease and diabetes related injury. We will compare the lower extremity amputation (excluding digit amputations) rate for the two groups. In separate analyses, we will estimate the amputation rate for subgroups of patients with diabetes, as well as those with and without a history of lower extremity amputation in the 10 years before the trial start date or the date entering the trial cohort for new patients starting MyTEMP after April 3rd, 2017.",
+        "timeFrame": "Four Years"
+      },
+      {
+        "measure": "Hospital encounter with a major fall or fracture",
+        "description": "Many patients on dialysis are frail and prone to falling, which may also predispose them to suffer a fracture. Bone fractures are an important outcome and can result in morbidity, high economic costs, and mortality. Intra-dialytic hypotension might increase the rate and severity of falls after a hemodialysis session leading to additional fractures requiring hospitalizations. We will estimate the rate of fractures for both arms of the trial.",
+        "timeFrame": "Four Years"
+      },
+      {
+        "measure": "Intradialytic hypotension",
+        "description": "Nadir systolic blood pressure \\< 90 mmHg anytime during dialysis session when value prior to session was ≥ 90 mmHg, or ii) drop in systolic blood pressure ≥ 30 mmHg anytime during session from value prior to session.",
+        "timeFrame": "Four years"
+      },
+      {
+        "measure": "Intradialytic hypotension alternate definition #1",
+        "description": "Systolic blood pressure \\< 90 mmHg alone (only count if systolic blood pressure is ≥90 mmHg pre-dialysis).",
+        "timeFrame": "Four years"
+      },
+      {
+        "measure": "Intradialytic hypotension alternate definition #2",
+        "description": "At least a 25% relative reduction in nadir systolic blood pressure from pre-dialysis systolic blood pressure or nadir \\<90 mmHg (only count latter if not present pre-dialysis).",
+        "timeFrame": "Four years"
+      },
+      {
+        "measure": "Intradialytic hypotension alternate definition #3",
+        "description": "At least a 25% relative reduction in nadir systolic blood pressure from pre-dialysis systolic blood pressure.",
+        "timeFrame": "Four years"
+      },
+      {
+        "measure": "Intradialytic hypotension alternate definition #4",
+        "description": "A drop in nadir systolic blood pressure by ≥ 35 mmHg from pre-dialysis systolic blood pressure.",
+        "timeFrame": "Four years"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 10,
+      "totalCount": 18
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:07.876Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

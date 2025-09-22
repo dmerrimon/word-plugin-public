@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT02528942",
+  "briefTitle": "Feasibility Study Incorporating Lung Function Imaging Into Radiation Therapy for Lung Cancer Patients",
+  "officialTitle": "Early Phase Clinical Trial Incorporating Lung Function Imaging Into Radiation Therapy for Lung Cancer Patients",
+  "protocolDocument": {
+    "nctId": "NCT02528942",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-05-16",
+    "uploadDate": "2021-06-03T14:41",
+    "size": 797569,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02528942/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 101,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-04-22",
+    "completionDate": "2021-01-25",
+    "primaryCompletionDate": "2021-01-25",
+    "firstSubmitDate": "2015-08-06",
+    "firstPostDate": "2015-08-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Diagnosis of pathologically confirmed lung cancer by tumor biopsy and/or fine-need aspiration\n2. Lung Cancer patients that will undergo definitive radiation therapy defined as 45-75 Gy as part of standard of care for their disease\n3. 18 years of age or older\n4. Signed informed consent\n5. Planned curative intent chemotherapy, delivered concurrently or sequentially in combination with radiotherapy\n6. The patient's 4DCT-ventilation image meets image heterogeneity criteria\n\nExclusion Criteria:\n\n1. Patients receiving Stereotactic Body Radiation Therapy\n2. Patient receiving palliative radiation therapy (defined as less than 45 Gy)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Radiation Safety (Rate of Grade 2 or Higher (Grade 2+) Radiation Pneumonitis as Defined by the Common Toxicity Criteria for Adverse Effects (CTCAE) Scoring System",
+        "description": "To assess safety, investigators will evaluate the rate of grade 2 or higher (grade 2+) radiation pneumonitis as defined by the Common Toxicity Criteria for Adverse Effects (CTCAE) scoring system.",
+        "timeFrame": "Up to 14 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Patients Eligible for 4DCT-ventilation Functional Avoidance",
+        "description": "The percentage will be calculated by taking the ratio of patients that had lung function profiles suitable for functional avoidance and patients that were clinically eligible (receiving 45-75 Gy).",
+        "timeFrame": "Up to 14 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:55.728Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

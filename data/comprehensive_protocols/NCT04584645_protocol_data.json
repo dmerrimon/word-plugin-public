@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04584645",
+  "briefTitle": "A Digital Flu Intervention for People With Cardiovascular Conditions",
+  "officialTitle": "Increasing Influenza Vaccination in Individuals With Cardiovascular Conditions: Assessing the Effectiveness of a Digital Intervention in a Decentralized Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT04584645",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2020-08-11",
+    "uploadDate": "2022-02-07T14:35",
+    "size": 298476,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04584645/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 49138,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-09-21",
+    "completionDate": "2021-04-12",
+    "primaryCompletionDate": "2021-04-12",
+    "firstSubmitDate": "2020-09-15",
+    "firstPostDate": "2020-10-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18 years or older\n* Resides in the U.S.\n* Speaks, reads, and understands English\n* Has self-reported being diagnosed with any of the following cardiac conditions below in their Achievement profile:\n* Atrial Fibrillation or Afib\n* Abnormal or irregular heart rhythm, other arrhythmic heart disease\n* Cardiac arrest, or heart attack (myocardial infarction)\n* Coronary heart disease like a heart blockage, treated with medications, a stent in the heart, or sometimes bypass surgery-\n* Heart failure, like congestive heart failure\n* Stroke or cerebrovascular accident (CVA)\n\nExclusion Criteria:\n\n* Participated in Step 1, Part 2 semi-structured interviews used to obtain feedback on the intervention messages",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Self-reported Influenza Vaccination Status as Vaccinated",
+        "description": "To determine the effectiveness of a digital intervention designed to increase influenza vaccination rates in individuals with cardiovascular diagnoses (CV diagnoses) by examining differences in self-reported influenza vaccination rates between individuals with cardiovascular disease who receive a targeted digital intervention (CVD-I) aimed at increasing influenza vaccination and those with CV diagnoses who received no intervention (CVD-C) by the end of the study period.",
+        "timeFrame": "Up to 7 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Self-reported Influenza Vaccination Status as Vaccinated",
+        "description": "Differences in rates of self-reported influenza vaccination status after study start between individuals in the intervention group that completed different numbers of intervention messages (0 to 6 messages) over the course of the study",
+        "timeFrame": "Up to 7 months"
+      },
+      {
+        "measure": "Participant Completion Rate",
+        "description": "Differences in completion rates of specific intervention types by individuals in the group receiving the targeted intervention",
+        "timeFrame": "Up to 7 months"
+      },
+      {
+        "measure": "Self-Reported Influenza Vaccination Status Prediction",
+        "description": "Development of a logistic regression model to predict self-reported influenza vaccination status using vaccination predictors such as vaccine drivers/barriers, and vaccine knowledge.",
+        "timeFrame": "Up to 7 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:33.202Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

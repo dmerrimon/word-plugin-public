@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT02163226",
+  "briefTitle": "A Randomized Trial Evaluating Rapid Delivery of Dose Escalated Hypofractionated Radiotherapy for Patients Diagnosed With Bone Metastases for Effective Palliation of Symptoms",
+  "officialTitle": "A Randomized Trial Evaluating Rapid Delivery of Dose Escalated Hypofractionated Radiotherapy for Patients Diagnosed With Bone Metastases for Effective Palliation of Symptoms",
+  "protocolDocument": {
+    "nctId": "NCT02163226",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-08-19",
+    "uploadDate": "2021-08-18T19:10",
+    "size": 293921,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02163226/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 167,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-08-06",
+    "completionDate": "2020-09-02",
+    "primaryCompletionDate": "2020-09-02",
+    "firstSubmitDate": "2014-06-09",
+    "firstPostDate": "2014-06-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patients with a pathologic diagnosis of malignancy\n2. Patients with any radiographic evidence of bone metastases, including plain x-ray, bone scan, computed tomography (CT) scan, magnetic resonance imaging (MRI), or positron emission tomography (PET) scan\n3. Patients with pain or dysaesthesia\n4. Patients with a life expectancy of more than 3 months\n5. Patients able to complete pain assessment and quality of life surveys\n6. Patients with multiple osseous sites are eligible; however should not treat more than 3 separate radiation treatment fields concurrently.\n7. Patients with surgery for osseous metastases are allowed.\n\nExclusion Criteria:\n\n1. Patients with prior radiation therapy to the treatment site\n2. Patients with a current, untreated spinal cord compression\n3. Patients with a radiographic or pathologic fracture to the treatment site\n4. Patients with painful metastases to hands and feet that need to be radiated on protocol\n5. Patients previously treated with radioactive isotope (e.g. Sr89) within 30 days of randomization",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Intent- to- Treat Patients With Pain Response by Treatment",
+        "description": "Evaluate single fraction stereotactic regimen for pain response in terms of time to failure. Pain response was defined by international consensus criteria as a combination of pain score and analgesic use (daily morphine-equivalent dose). Pain failure (ie, lack of response) was defined as worsening pain score (2 points on a 0-to-10 scale), an increase in morphine-equivalent opioid dose of 50% or more, reirradiation, or pathologic fracture. Time to failure was defined as the first occurrence of any of the following events: worsening in pain score by at least 2 categories by MDASI survey. Statistical tests in treatment group were based on the Wilcoxon rank sum test to compare changes in pain scores and analgesic use at each assessment point relative to baseline. Increases or decreases of 2 or more points on a scale of 0 to 10 indicated improving or worsening pain. Fisher exact tests were used to compare the distribution of pain responders (CR + PR) and nonresponders (PP + IR).",
+        "timeFrame": "From date of registration until the date of first documented Pain failure or death from any cause, or lost to follow up, whichever came first, assessed up to 9 months"
+      },
+      {
+        "measure": "Number of Evaluable Participants With Pain Response by Treatment",
+        "description": "Evaluate single fraction stereotactic regimen for pain response in terms of time to failure. Pain response was defined by international consensus criteria as a combination of pain score and analgesic use (daily morphine-equivalent dose). Pain failure (ie, lack of response) was defined as worsening pain score (2 points on a 0-to-10 scale), an increase in morphine-equivalent opioid dose of 50% or more, reirradiation, or pathologic fracture. Time to failure was defined as the first occurrence of any of the following events: worsening in pain score by at least 2 categories by MDASI survey. Complete response (CR) is a pain score of 0 at the treated site and no increase in analgesic. Partial response (PR): reduction in pain score of 2 or more points above baseline with no increase in analgesic. Pain progression (PP): Increases of 2 or more points on a scale of 0 to 10 or worsening pain. indeterminate response (IR): were all other responses.",
+        "timeFrame": "From date of registration until the date of first documented Pain failure or death from any cause, or lost to follow up, whichever came first, assessed up to 9 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Toxicity Associated With Treatment",
+        "description": "Report grade 3 acute (skin, fatigue, flare reaction) and long term (sclerosis, bone ossification, bone fracture rate) toxicity associated with treatment. During radiotherapy, the patient will be examined weekly and acute reactions recorded and toxicity occurring after 3 months of radiation therapy.",
+        "timeFrame": "From date of registration until the date of documented death from any cause, or lost to follow up, whichever came first, assessed up to 2 years."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:54.224Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

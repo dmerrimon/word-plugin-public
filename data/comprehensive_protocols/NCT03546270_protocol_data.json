@@ -1,0 +1,106 @@
+{
+  "nctId": "NCT03546270",
+  "briefTitle": "The Effects of Swimming on Elderly Women With Stage-2 Hypertension",
+  "officialTitle": "The Effects of Swimming Training on Arterial Function, Strength and Cardiorespiratory Capacity in Elderly Women With Stage 2 Hypertension",
+  "protocolDocument": {
+    "nctId": "NCT03546270",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-03-25",
+    "uploadDate": "2019-06-21T16:04",
+    "size": 442998,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03546270/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-01",
+    "completionDate": "2018-04",
+    "primaryCompletionDate": "2018-01",
+    "firstSubmitDate": "2018-05-22",
+    "firstPostDate": "2018-06-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* systolic/diastolic BP: 140-179 over 90-119 mm Hg\n* had experienced the absence of menstruation for at least 1 year\n* body mass index \\<30 kg/m2\n* \\<1 h of regular exercise per week in the previous year\n\nExclusion Criteria:\n\n* Smoker\n* Taking any medications or hormone therapy in previous year",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "65 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Arterial Stiffness",
+        "description": "via Pulse Wave Velocity",
+        "timeFrame": "20-weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Systolic Blood Pressure",
+        "description": "systolic blood pressure",
+        "timeFrame": "20-weeks"
+      },
+      {
+        "measure": "Pressure Wave Reflection",
+        "description": "via Augmentation Index",
+        "timeFrame": "20-weeks"
+      },
+      {
+        "measure": "Muscular Strength",
+        "description": "via Hand Grip Dynamometer",
+        "timeFrame": "20-weeks"
+      },
+      {
+        "measure": "Cardiorespiratory Endurance (Volume of Maximal Oxygen Consumption)",
+        "description": "via Cornell Modified Bruce treadmill volume of oxygen consumption maximum (VO2max) test",
+        "timeFrame": "20-weeks"
+      },
+      {
+        "measure": "Diastolic Blood Pressure",
+        "timeFrame": "20 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:13.472Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

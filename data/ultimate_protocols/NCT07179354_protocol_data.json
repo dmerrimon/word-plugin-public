@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT07179354",
+  "briefTitle": "Comparative 3D Assessment of Class III Malocclusion Treatments: An RCT",
+  "officialTitle": "Comparative Assessment of Three-Dimensional Soft and Hard Tissue Changes Following Rapid Maxillary Expansion With Face Mask, Mini Maxillary Protractor, and Modified Splints, Elastics, and Chin Cup Protocols in Patients With Class III Malocclusion: A Prospective Randomized Controlled Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT07179354",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-02-21",
+    "uploadDate": "2025-09-11T17:54",
+    "size": 204041,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07179354/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 55,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-02-21",
+    "completionDate": "2025-03-03",
+    "primaryCompletionDate": "2025-01-09",
+    "firstSubmitDate": "2025-09-11",
+    "firstPostDate": "2025-09-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Individuals who have not completed their growth spurt (9-12 years old)\n\nOverjet ≤ 0 mm (patients with negative overjet must be De Nevreze positive)\n\nANB ≤ 0°, Witts \\< 1\n\nGood oral hygiene and healthy periodontal tissues\n\nSN-GoGn angle between 26° and 38°\n\nNo congenital or acquired tooth loss (excluding third molars)\n\nBody mass index (BMI) between 18-26 kg/m²\n\nNo systemic, local, or endocrinological diseases\n\nExclusion Criteria:\n\n* Presence of any syndrome or developmental deformity\n\nPrevious orthodontic treatment\n\nAllergy to any metal or acrylic\n\nPresence of any systemic disease affecting treatment\n\nSN-GoGn angle \\> 38°\n\nPresence of temporomandibular joint disorders",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "9 Months",
+    "maximumAge": "12 Months",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Three-dimensional changes in soft tissues",
+        "description": "3D stereophotogrammetry used to assess overall soft tissue profile changes, including facial convexity and lip-chin relationships.",
+        "timeFrame": "baseline to post-treatment (≈ 9 months)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Two dimensional changes in skeletal parameters of the maxilla and mandible",
+        "description": "Lateral cephalometric radiographs used to evaluate overall skeletal changes in maxillary and mandibular positions, as well as dental relationships including overjet and overbite.",
+        "timeFrame": "Baseline (pre-treatment) to post-treatment (≈ 9 months)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 25,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

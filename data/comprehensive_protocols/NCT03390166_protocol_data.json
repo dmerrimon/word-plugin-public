@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03390166",
+  "briefTitle": "Immunogenicity and Safety of Tri Fluvac, a Seasonal Trivalent Inactivated Influenza Vaccine in Healthy Thai Adults",
+  "officialTitle": "A Phase II/III Double Blinded, Randomized, Controlled, Non-inferiority Trial to Evaluate the Immunogenicity and Safety of Tri Fluvac, a Seasonal Trivalent Inactivated Split Virion Influenza Vaccine, in Healthy Thai Subjects Aged 18-49 Years",
+  "protocolDocument": {
+    "nctId": "NCT03390166",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-03-13",
+    "uploadDate": "2020-03-11T03:01",
+    "size": 14781530,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03390166/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 945,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-07-24",
+    "completionDate": "2019-02-12",
+    "primaryCompletionDate": "2018-03-31",
+    "firstSubmitDate": "2017-07-06",
+    "firstPostDate": "2018-01-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18-49 years old on the day of screening, having Thai ID card or equivalent\n* Able to read and write in Thai and sign written informed consent form\n* Able to attend all scheduled visits and to comply with all trial procedures.\n* Healthy or medically stable, as established by medical history and physical examination. For individuals with medical conditions, symptoms/signs, if present must be stable, under control or unchanged for the past three months. If medication is used to treat the condition, the medication dose must have been stable for at least one month preceding vaccination.\n* For female participants:\n\n  * Not breast feeding, non-pregnant (based on negative urine pregnancy test) and no plan to become pregnant up to Day 60.\n  * Women who are not surgically sterile (hysterectomy or tubal ligation) or post-menopausal for more than one year must be willing to use effective contraceptive method to prevent pregnancy until Day 60 after vaccination. Effective methods include intrauterine device, hormonal contraceptives (oral, injectable, patch, implant, ring) or double barrier contraceptives (condom or diaphragm with spermicide). Women with credible history of abstinence may be enrolled at the discretion of the investigator\n\nExclusion Criteria:\n\n* Participation in another clinical trial involving any therapy within the previous three months or planned enrollment in such a trial during the period of this study.\n* Hypersensitivity after previous administration of any vaccine.\n* Having a history of H1N1, H3N2 or Flu B infection within 3 months preceding enrollment to the trial\n* Vaccination against influenza in the past 6 months preceding enrollment to the trial\n* Receipt of any non-study vaccine within four weeks prior to enrollment or refusal to postpone receipt of such vaccines until after the Day 21 visit.\n* History of bronchial asthma, chronic lung diseases, chronic rhinitis\n* History of immunodeficiency state\n* History of immunosuppression \\< 6 months prior to immunization\n* History of anaphylactic or other allergic reactions to influenza vaccine or any vaccine component or excipient (e.g. gentamicin or thimerosal)\n* History of Guillain-Barré Syndrome.\n* Having acute infection with fever \\> 38 degree Celsius or noninfectious diseases (within 72 hours) preceding enrollment in the trial\n* Volunteers who have been taking immunoglobulin products or have had a blood transfusion during past 3 months before the beginning of the trial or planned receipt of such products prior to the Day 21 visit.\n* Current alcohol abuse or drug addiction that might interfere with the ability to comply with trial procedures\n* Any condition that in the opinion of the investigator would pose a health risk to the subject if enrolled, or could interfere with the evaluation of the vaccine",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "49 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number and Percentage of Seroconverted Participants at 21 Days Post-vaccination",
+        "description": "Seroconversion is defined as a serum HI antibody titer meeting the following four fold rising criteria.\n\nPre-vaccination titer \\<1:10 and a post-vaccination titer measured on Day 21 of ≥1:40; or Pre-vaccination titer ≥1:10 and at least a four-fold increase in post-vaccination measured on Day 21.\n\nMeasured against each of the 3 antigens",
+        "timeFrame": "pre-vaccination (Day 0), 21 days post-vaccination"
+      },
+      {
+        "measure": "Geometric Mean Titers (GMTs) of Participants at 21 Days Post-vaccination",
+        "description": "Geometric mean titers (GMTs) of serum HI antibodies pre- (Day 0) and post-vaccination (Day 21) for each of the three vaccine antigens.\n\nNote that titers below the lowest limit of quantitation (i.e., below the starting dilution of assay reported as \"\\< 10\") will be set to half that limit (i.e., 10/ 2 = 5). If a titer is reported as greater or equal to the upper limit of the assay, it will be set to that limit.",
+        "timeFrame": "pre-vaccination (Day 0), 21 days post-vaccination"
+      },
+      {
+        "measure": "Number of Participants With Solicited Local and Systemic Adverse Events Post-vaccination.",
+        "description": "Solicited local and systemic adverse events within 30 minutes of vaccination and over the 3-day period post vaccination.\n\nPercentage of participants experiencing each reaction was calculated. Analysis based on Intention to Treat analysis",
+        "timeFrame": "30-minutes period,day 1,day 2 and day 3 post-vaccination period"
+      },
+      {
+        "measure": "Number of Participants With Unsolicited Adverse Events.",
+        "description": "Unsolicited adverse events (AEs) occurring within 90 days post-vaccination. Percentage of participants experiencing each reaction will be calculated.",
+        "timeFrame": "within 90 days post-vaccination"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:42.031Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

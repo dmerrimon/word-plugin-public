@@ -1,0 +1,114 @@
+{
+  "nctId": "NCT04072497",
+  "briefTitle": "A Clinical Study of a Zoster Vaccine in Healthy Adults >= 40 Years",
+  "officialTitle": "A Safety and Immunogenicity Study of a Zoster Vaccine in Healthy Adults >= 40 Years",
+  "protocolDocument": {
+    "nctId": "NCT04072497",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-08-30",
+    "uploadDate": "2019-08-27T04:25",
+    "size": 722181,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04072497/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 522,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-11-20",
+    "completionDate": "2020-04-30",
+    "primaryCompletionDate": "2020-04-30",
+    "firstSubmitDate": "2019-08-19",
+    "firstPostDate": "2019-08-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Healthy volunteers aged over 40 years (male or female).\n* Able to comply with all clinical trial protocol requirements and willing to complete all the visit plan process during the whole clinical trial observation period.\n* Able to understand the content of informed consent and willing to sign the informed consent.\n* Able to complete the diary card independently.\n* Patients with chronic diseases need to be in a stable period.\n* Axillary temperature ≤37.0°C.\n\nExclusion Criteria:\n\n* Prior history of herpes zoster.\n* Prior history of vaccination with herpes zoster vaccine or chickenpox vaccine.\n* History of allergic disease likely to be exacerbated by any component of the vaccine.\n* Taking immunoglobulins and/or any blood products within the last 3 months or will receive these products during the study period.\n* Taking certain pharmaceuticals to be like salicylate kind, including aspirin, and difluorosalicylic, or going to take these medicine during the study period.\n* Participation in another research study involving receipt of an investigational product in the last 30 days.\n* Prior administration of live vaccine in last 30 days.\n* Prior administration of subunit vaccine, inactivated vaccine or allergic therapy in last 14 days.\n* History of serious disease and the participation in the clinical trial is likely to increase the disease risk and interfere with the observation of clinical trial index.\n* Taking immunosuppressive therapy in last 6 months.\n* Any autoimmune disease or immunodeficient state, autoimmune disease or immunodeficient disease.\n* Active tuberculosis patient.\n* Acute or chronic infections at the vaccination day (axillary temperature≥ 38.0°C).\n* Coagulation disorders (coagulation factor deficiency, coagulopathy or platelet disorder) diagnosed by doctors, or obvious bruises or blood coagulation noticed.\n* Woman who is breast-feeding.\n* Previous history of mental and neurological diseases (e.g. depression, epilepsy or convulsion)\n* Planned to move before the end of the study or leave the country for a long time during the scheduled study visit.\n* Abnormal Blood Routine and Biochemical Indexes before Inoculation (except for minor abnormalities that are not clinically significant as judged by doctors)\n* Any other conditions may compromise the safety or availability of participants in the judgment of the investigator.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Reactogenicity in the group of live attenuated zoster vaccine",
+        "description": "* The incidence rate of subjects with solicited AE(s) with 95% confidence interval\n* The incidence rate of subjects with solicited SAE(s) with 95% confidence interval",
+        "timeFrame": "0 days-6 months after the vaccination"
+      },
+      {
+        "measure": "VZV specific serum conversion rate",
+        "description": "VZV specific serum conversion is defined as: if serum antibody titer before immunization was less than 1: 8, and antibody titer after immunization was ≥ 1: 8. Or the antibody titer before immunization was≥1:8, and the antibody titer after immunization≥4-fold increase.",
+        "timeFrame": "30 days after the vaccination"
+      },
+      {
+        "measure": "VZV specific serum geometric mean titre",
+        "description": "For each group serum titre with FAMA test",
+        "timeFrame": "30 days after the vaccination"
+      },
+      {
+        "measure": "VZV specific serum geometric mean fold increase",
+        "description": "For each group serum titre with FAMA test",
+        "timeFrame": "30 days after the vaccination"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Reactogenicity in the group of live attenuated varicella vaccine",
+        "description": "* The incidence rate of subjects with solicited AE(s) with 95% confidence interval\n* The incidence rate of subjects with solicited SAE(s) with 95% confidence interval",
+        "timeFrame": "0 days-6 months after the vaccination"
+      },
+      {
+        "measure": "Reactogenicity in the group of placebo",
+        "description": "* The incidence rate of subjects with solicited AE(s) with 95% confidence interval\n* The incidence rate of subjects with solicited SAE(s) with 95% confidence interval",
+        "timeFrame": "0 days-6 months after the vaccination"
+      },
+      {
+        "measure": "The immunogenicity persistence of antibody titer",
+        "description": "The antibody titer measured by FAMA postvaccination in day 90,180,360",
+        "timeFrame": "90 days-360 days after vaccination"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:43.335Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

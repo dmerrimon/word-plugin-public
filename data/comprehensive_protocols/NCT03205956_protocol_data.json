@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT03205956",
+  "briefTitle": "Measuring Parkinson's Disease Progression",
+  "officialTitle": "Dopamine Buffering Capacity Measured by phMRI as a Novel Biomarker of Disease Progression in PD",
+  "protocolDocument": {
+    "nctId": "NCT03205956",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-10-24",
+    "uploadDate": "2017-10-31T15:17",
+    "size": 1019615,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03205956/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 31,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-10-19",
+    "completionDate": "2019-10-19",
+    "primaryCompletionDate": "2019-10-18",
+    "firstSubmitDate": "2017-06-29",
+    "firstPostDate": "2017-07-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 40-79 at screening\n* Meet accepted diagnostic criteria for Parkinson disease\n\nExclusion Criteria: Key exclusion criteria:\n\n* Deep brain stimulator (DBS)\n* Pregnancy\n* Patients taking a dopamine antagonist (like quetiapine) or dopamine partial agonist (like aripiprazole)\n* Metal in the head or eye, or other contraindication to MRI\n* Claustrophobia\n* Serious neurologic disease other than PD\n* Head trauma with loss of consciousness for more than 5 minutes\n* Severe or unstable systemic illness\n* Certain psychiatric illnesses (dementia, psychosis, current major depression)\n* Current alcohol use disorder\n* Subjects who feel that going without nicotine for 3-4 hours would be uncomfortable\n* Currently taking an extended-release formulation of a dopamine agonist (like Mirapex ER or Requip XL)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "79 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Ke measured by phMRI",
+        "description": "Effect site rate constant measured by serum levodopa concentrations and regional cerebral blood flow. Note, there are no outcome measures relevant to clinical care. This is not a placebo-controlled treatment study.",
+        "timeFrame": "2 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Side effect ratings",
+        "description": "Nausea/vomiting, sleepiness, dizziness or lightheadedness, and overall feeling poorly or well, are each measured on a horizontal visual analog scale before and at the end of the i.v. levodopa infusion",
+        "timeFrame": "2 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:44.937Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

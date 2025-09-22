@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT02946034",
+  "briefTitle": "Viekira Pak or Mavyret Treatment for Patient With Chronic Kidney Disease and Hepatitis C",
+  "officialTitle": "Safety, Efficacy, and Changes in Traditional and Novel Biomarkers of Kidney Function in Patients With Hepatitis C and Advanced Chronic Kidney Disease Treated With Abbvie Viekira Pak or Mavyret Regimen",
+  "protocolDocument": {
+    "nctId": "NCT02946034",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-09-25",
+    "uploadDate": "2021-09-08T13:13",
+    "size": 285444,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02946034/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 10,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-02-01",
+    "completionDate": "2020-09-16",
+    "primaryCompletionDate": "2020-09-16",
+    "firstSubmitDate": "2016-10-21",
+    "firstPostDate": "2016-10-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Male or female ≥ 18 year of age\n2. HCV genotype 1 ≥ 1000 IU/mL\n3. 6\\. Estimated glomerular filtration rate 15-45mL/min/1.73m2 as estimated by CKD-Epi equation\n\nExclusion Criteria:\n\n1. Pregnant or lactating females\n2. Uncontrolled depression or psychiatric disease\n3. History or presence of any form of cancer within 3 years of enrollment\n4. Experiencing life-threatening cryoglobulinemic vasculitis requiring initiation of rituximab, steroids or plasmapheresis.\n5. Uncontrolled cardiovascular or pulmonary disease\n6. Experiencing symptoms attributed to uremia\n7. Anticipated need to begin renal replacement therapy in the next 6 months\n8. History of kidney transplant",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Average Change in Urine Tumor Necrosis Factor (TNF)-Alpha From Baseline to Post-treatment",
+        "description": "Measure of novel biomarkers of incident and progressive CKD and liver disease to determine if eradication of HCV infection changes the measures of chronic inflammation associated with progressive end-organ disease.\n\nTo calculate the average change, the difference between baseline values and the average of 12-weeks post treatment and 40-weeks post treatment were found for each patient. These differences were then averaged, as shown below.",
+        "timeFrame": "52 Weeks"
+      },
+      {
+        "measure": "Average Change in Urine Interleukin (IL)-6 From Baseline to Post-treatment",
+        "description": "Measure of novel biomarkers of incident and progressive CKD and liver disease to determine if eradication of HCV infection changes the measures of chronic inflammation associated with progressive end-organ disease.\n\nTo calculate the average change, the difference between baseline values and the average of 12-weeks post treatment and 40-weeks post treatment were found for each patient. These differences were then averaged, as shown below.",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Average Change in Plasma Tumor Necrosis Factor (TNF)-Alpha From Baseline to Post-treatment",
+        "description": "Measure of novel biomarkers of incident and progressive CKD and liver disease to determine if eradication of HCV infection changes the measures of chronic inflammation associated with progressive end-organ disease.\n\nTo calculate the average change, the difference between baseline values and the average of 12-weeks post treatment and 40-weeks post treatment were found for each patient. These differences were then averaged, as shown below.",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Average Change in Plasma Interferon Gamma-induced Protein 10 (IP-10) From Baseline to Post-treatment",
+        "description": "Measure of novel biomarkers of incident and progressive CKD and liver disease to determine if eradication of HCV infection changes the measures of chronic inflammation associated with progressive end-organ disease.\n\nTo calculate the average change, the difference between baseline values and the average of 12-weeks post treatment and 40-weeks post treatment were found for each patient. These differences were then averaged, as shown below.",
+        "timeFrame": "52 Weeks 52 Weeks 52 weeks"
+      },
+      {
+        "measure": "Average Change in Plasma Interferon (IFN)-Gamma From Baseline to Post-treatment",
+        "description": "Measure of novel biomarkers of incident and progressive CKD and liver disease to determine if eradication of HCV infection changes the measures of chronic inflammation associated with progressive end-organ disease.\n\nTo calculate the average change, the difference between baseline values and the average of 12-weeks post treatment and 40-weeks post treatment were found for each patient. These differences were then averaged, as shown below.",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Average Change in Plasma Interleukin (IL)-6 From Baseline to Post-treatment",
+        "description": "Measure of novel biomarkers of incident and progressive CKD and liver disease to determine if eradication of HCV infection changes the measures of chronic inflammation associated with progressive end-organ disease.\n\nTo calculate the average change, the difference between baseline values and the average of 12-weeks post treatment and 40-weeks post treatment were found for each patient. These differences were then averaged, as shown below.",
+        "timeFrame": "52 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Patients Who Suffered Adverse Events Related to Study Drug (Safety and Tolerability)",
+        "description": "Safety and tolerability of Viekira Pak treatment in CKD patients will be assessed by number of patients who suffered adverse events (serious or otherwise) deemed to be related to study drug.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Number of Patients Who Had Sustained Virologic Response at 12-weeks (SVR12) Post-treatment (Efficacy of Treatment)",
+        "description": "Efficacy will be determined by negative HCV RNA viral load measured during the 12 week treatment period as well as 12 weeks after the last dose.",
+        "timeFrame": "24 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 6,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:24.675Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

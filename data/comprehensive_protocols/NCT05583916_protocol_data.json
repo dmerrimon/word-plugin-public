@@ -1,0 +1,121 @@
+{
+  "nctId": "NCT05583916",
+  "briefTitle": "Same Day Discharge for Video-Assisted Thoracoscopic Surgery (VATS) Lung Surgery",
+  "officialTitle": "Phase I Safety and Feasibility Pilot Study of Same-Day Discharge After Video-Assisted Thoracoscopic Surgery (VATS) Anatomical Lung or Wedge Resection (VALUE Trial)",
+  "protocolDocument": {
+    "nctId": "NCT05583916",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-07-27",
+    "uploadDate": "2022-10-05T17:02",
+    "size": 1586157,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05583916/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-09-07",
+    "completionDate": "2023-10",
+    "primaryCompletionDate": "2023-10",
+    "firstSubmitDate": "2022-10-04",
+    "firstPostDate": "2022-10-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Signed or verbal informed consent by participant\n* Male and female adults, age 18 and above\n* Clinical stage I-II lung cancer (suspected, proven, unproven), or secondary pulmonary malignancy\n* BMI \\< 35\n* ECOG 0-1\n* Eligible for surgery and lung cancer resection (FEV1 \\> 60%, DLCO \\> 60%)\n* Elective VATS anatomic resection (segmentectomy or lobectomy), or wedge resection\n* Capable caregiver for discharge home\n\nExclusion Criteria:\n\n* Clinical stage III lung cancer\n* Surgery requiring pneumonectomy\n* Neoadjuvant therapy\n* Active pregnancy or breastfeeding\n* History of chronic pain syndromes\n* History of chronic opioid use\n* Concomitant major surgery indicated with current admission to hospital\n* Anticipated intraoperative complication including conversion to thoracotomy, major bleeding requiring blood transfusion, extensive adhesiolysis, injury to mediastinal structures, airway injury, nerve injury (phrenic, recurrent)\n* Need for epidural or patient-controlled intravenous analgesia\n* Need for urinary catheter",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adverse Event Rate",
+        "timeFrame": "30 days post surgery"
+      },
+      {
+        "measure": "Same Day Discharge Rate",
+        "timeFrame": "Throughout the trial, from start until completion of surgery for all the patients, up to 12 months."
+      },
+      {
+        "measure": "Readmission Rate",
+        "timeFrame": "30 days post surgery"
+      },
+      {
+        "measure": "Rate of presentation to the emergency room after surgery",
+        "timeFrame": "30 days post surgery"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Edmonton Symptom Assessment Scale (ESAS)",
+        "description": "Rating pain, fatigue, nausea, depression, anxiety, drowsiness, appetite, well-being and shortness of breath, on a scale of 1 to 10. Higher scores indicate more serious symptoms.",
+        "timeFrame": "30 days post surgery"
+      },
+      {
+        "measure": "Functional Assessment of Cancer Therapy - Lung (FACT-L)",
+        "description": "Rating questions regarding physical, social/family, emotion and function well-being as well as general questions regarding medical health, on a scale of 0-4 (from 'Not at all' to 'Very much').",
+        "timeFrame": "30 days post surgery"
+      },
+      {
+        "measure": "Duration of indwelling chest tube catheter",
+        "timeFrame": "30 days post surgery or until the chest tube is removed (whichever comes last, assessed until 90 days post surgery)"
+      },
+      {
+        "measure": "Rate of screen failure",
+        "description": "Feasibility calculation of the number of patients approached to participate compared to the number of patients consented to the trial.",
+        "timeFrame": "From trial start until last patient consented, up to 12 months."
+      },
+      {
+        "measure": "Percent of eligible participants consented",
+        "timeFrame": "From trial start until last patient consented, up to 12 months."
+      },
+      {
+        "measure": "Pathway adherence rate",
+        "description": "Calculation of the number of participants who stay on the same-day discharge pathway versus number of patients who deviate from the protocol.",
+        "timeFrame": "From moment of consent until 1 day post surgery."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:58.342Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

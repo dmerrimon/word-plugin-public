@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT05475236",
+  "briefTitle": "Neural Underpinnings of Turning",
+  "officialTitle": "Brain Networks of Turning Performance With Aging and Stroke",
+  "protocolDocument": {
+    "nctId": "NCT05475236",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-10-13",
+    "uploadDate": "2024-08-26T17:13",
+    "size": 423742,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05475236/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 16,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-02-28",
+    "completionDate": "2024-06-28",
+    "primaryCompletionDate": "2024-06-28",
+    "firstSubmitDate": "2022-07-15",
+    "firstPostDate": "2022-07-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* age 65 years or older\n* preferred 10m walking speed \\< 1.1 m/s\n* self-report of \"some difficulty with walking tasks, such as becoming tired when walking a quarter mile, or when climbing two flights of stairs, or when performing household chores.\"\n* Willingness to be randomized to either study group and to participate in all aspects of study assessment and intervention\n\nExclusion Criteria:\n\n* Diagnosed neurological disorder or injury of the central nervous system, or observation of symptoms consistent with such a condition (Alzheimer's, Parkinson's, stroke, etc.)\n* Contraindications to non-invasive brain stimulation (e.g., metal in head, wound on scalp)\n* Contraindications to magnetic resonance imaging (e.g., metal in body, claustrophobia, etc).\n* Use of medications affecting the central nervous system\n* severe arthritis, such as awaiting joint replacement\n* severe obesity (body mass index \\> 35)\n* current cardiovascular, lung or renal disease; diabetes; terminal illness\n* myocardial infarction or major heart surgery in the previous year\n* cancer treatment in the past year, except for nonmelanoma skin cancers and cancers having an excellent prognosis (e.g., early stage breast or prostate cancer)\n* current diagnosis of schizophrenia, other psychotic disorders, or bipolar disorder\n* uncontrolled hypertension at rest (systolic \\> 180 mmHg and/or diastolic \\> 100 mmHg)\n* bone fracture or joint replacement in the previous six months\n* current participation in physical therapy for lower extremity function or cardiopulmonary rehabilitation\n* current enrollment in any clinical trial\n* difficulty communicating with study personnel, and/or non-English speaking\n* planning to relocate out of the area during the study period\n* clinical judgment of investigative team regarding safety or non-compliance",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Duration of Cortical Silent Period (CSP) (ms)",
+        "description": "Cortical Silent Period (CSP) is a single-pulse TMS measure of GABA-mediated cortical inhibition, in which stimulation is applied to the motor cortex while participants are activating a target muscle (here, the tibialis anterior muscle), resulting in a brief reduction in muscle activity. CSP is measured as the time during which the muscle activity is less than the pre-simulation muscle activity level until the return of voluntary muscle activity. CSP is measured in milliseconds (ms).",
+        "timeFrame": "30 minutes, Measured at Baseline"
+      },
+      {
+        "measure": "360 Degree Turn Duration From Baseline",
+        "description": "Change in 360 degree turn duration during a 360 degree turn test",
+        "timeFrame": "Measured at follow up visit (approximately three weeks after baseline)"
+      },
+      {
+        "measure": "180 Degree Turn Duration From Baseline",
+        "description": "Change in 180 degree turn duration as measured during a 2 minute walking task where participants walk back and forth down a corridor.",
+        "timeFrame": "Measured at follow up visit (approximately three weeks after baseline)"
+      },
+      {
+        "measure": "Resting Motor Threshold (Percent of Machine Output)",
+        "description": "Resting motor threshold (rMT) is obtained by single-pulse TMS and assesses voltage-gated sodium-channel-mediated cortical excitability. rMT is the minimum intensity (% machine output) of stimulation needed to repeatedly evoke a motor evoked potential (MEP) of at least 50 microvolts in over 50% of trials. It is reported as a percentage of total machine output.",
+        "timeFrame": "20 minutes, Measured at Baseline"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Katz Independence Questionnaire",
+        "description": "6-item participant reported questionnaire assessing level of independence \\[bathing, dressing, toileting, transferring, continence, feeding\\]. Total scores range: 0-6, the higher the score, the more independent.",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:36.512Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT01687738",
+  "briefTitle": "Lung Cancer Surgery: Decisions Against Life Saving Care - The Intervention",
+  "officialTitle": "Lung Cancer Surgery: Decisions Against Life Saving Care - The Intervention",
+  "protocolDocument": {
+    "nctId": "NCT01687738",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2011-05-13",
+    "uploadDate": "2017-10-11T16:41",
+    "size": 231228,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01687738/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 238,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-08",
+    "completionDate": "2017-06-30",
+    "primaryCompletionDate": "2017-06-30",
+    "firstSubmitDate": "2012-09-11",
+    "firstPostDate": "2012-09-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age 21 years or greater;\n2. A probability of 60% or higher of a lung lesion being malignant as calculated by a Bayesian algorithm using clinical and radiographic characteristics or biopsy proven disease; and\n3. The patient has been clinically classified as having stage I or II disease.\n\nExclusion Criteria:\n\n1. incarceration / ward of the state status,\n2. Severe cognitive impairment. If a patient meets the inclusion criteria but is consistently unable to comprehend survey questions during the interview process, we will exclude that patient from the overall study.\n3. absolute contraindications by pulmonary function testing (FEV-1 \\< 25% of predicted)\n4. Non-English speaking. Hispanic patients represent less than 4 percent of lung cancer patients in North Carolina restricting our ability to document an intervention effect.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of patients with stage I and II, non-small cell lung cancer who receive surgery.",
+        "description": "The primary outcome variable, surgery yes or no, will be compared in the control group randomized to usual care, to the intervention group randomized to the cancer communicator.",
+        "timeFrame": "Baseline to 4 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:31:00.083Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

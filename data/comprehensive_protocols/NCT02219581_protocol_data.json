@@ -1,0 +1,138 @@
+{
+  "nctId": "NCT02219581",
+  "briefTitle": "Steroids in Total Knee Arthroplasty",
+  "officialTitle": "Evaluation of Intravenous Glucocorticoid Therapy in Total Knee Arthroplasty",
+  "protocolDocument": {
+    "nctId": "NCT02219581",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-08-01",
+    "uploadDate": "2022-08-31T16:59",
+    "size": 490008,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02219581/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-10-16",
+    "completionDate": "2015-12-01",
+    "primaryCompletionDate": "2015-12-01",
+    "firstSubmitDate": "2014-08-13",
+    "firstPostDate": "2014-08-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients undergoing primary total joint arthroplasty of the knee\n* Adult patients ages 18-100 years\n* Patients must have smart phone and/or device for app usage\n\nExclusion Criteria:\n\n* Current chronic steroid use\n* Patients undergoing revision knee surgery\n* Patients ambulating preoperatively with assistive devices\n* Patients with avascular necrosis of the operative knee\n* Patients with a history of an adverse reaction to glucocorticoid steroids\n* Patients unable to provide informed consent\n* Patients with inflammatory arthritis\n* Prisoners\n* Current smokers\n* Patients \\<18 years of age\n* Any patient with a complicated postoperative course that requires transfer to the Intensive Care Unit (ICU) or to another facility for further management will be removed from the study.\n* Any contraindication that would prevent the patient from being treated with the standard multimodal postoperative pain management regimen History of infection of surgical knee.\n* Patients with diabetes.\n* Patients that have an intolerance to Toradol.\n* Patients that do not have smart phone and/or device for app usage",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pain Score",
+        "description": "Post-operative pain was assessed using the well-standardized and accepted visual analog pain scale. The scale shows a series of faces ranging from a happy face at 0= \"No hurt\", to a crying face at 10= \"Hurts worst\". The participant was asked to choose the face that best describes their level of pain. Higher scores indicate higher intensities of pain.",
+        "timeFrame": "Baseline, end of hospital stay (up to 3 days), 1, 4, and 12 months post-operatively"
+      },
+      {
+        "measure": "Opioid Analgesic Usage",
+        "description": "The amount of post-operative opioid analgesic usage is assessed as Oral Morphine Equivalents (OME) which is the amount of an oral morphine drug that would be necessary to equal the pain treatment from opioid morphine.",
+        "timeFrame": "1 day post-operatively"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Soft Tissue Swelling",
+        "description": "Evaluation of soft tissue swelling uses a measurement of knee circumference at the midpoint of the patella, with the knee in the maximum amount of extension allowed by the patient.",
+        "timeFrame": "1 day post-operatively"
+      },
+      {
+        "measure": "Range of Motion (ROM)",
+        "description": "Maximum passive ROM allowed by the patient will be measured using a goniometer. The ROM measurement is the amount of flexion and extension recorded in degrees. An increased ROM is indicative of better joint mobility.",
+        "timeFrame": "Baseline, 1 day post-operatively, 1, 4, and 12 months post-operatively"
+      },
+      {
+        "measure": "Post-operative Day of Physical Therapy Clearance",
+        "description": "The post-operative day when the participant was cleared by the physical therapy staff to go home was recorded. A shorter clearance time is indicative of better joint function.",
+        "timeFrame": "Up to 3 days post-operatively"
+      },
+      {
+        "measure": "Antiemetic Dose Administered",
+        "description": "Post-operative nausea and/or vomiting was assessed by the use of the antiemetic Zofran, which was administered as-needed.",
+        "timeFrame": "Post-operative Days 1 and 2"
+      },
+      {
+        "measure": "Blood Glucose",
+        "description": "To assess postoperative glucose levels after steroid administration, blood glucose level will be analyzed using a HemoCue testing system. Diabetes is indicated with a random blood glucose measurement of greater than 200 milligrams per deciliter (mg/dL).",
+        "timeFrame": "Baseline, Post-operative Day 1"
+      },
+      {
+        "measure": "36-Item Short Form Health Survey (SF-36) Score",
+        "description": "The subjects' functional ability will be assessed using the SF-36 questionnaire. The SF-36 Health Survey is a 36-item, self-reported survey of patient health and is a measure of health status. The SF-36 consists of eight scaled scores, which are the weighted sums of the questions in their section. Each scale is directly transformed into a 0-100 scale. The lower the score the more disability.",
+        "timeFrame": "Baseline, 12 months post-operatively"
+      },
+      {
+        "measure": "Knee Injury and Osteoarthritis Outcome Score for Joint Replacement (KOOS, JR.) Score",
+        "description": "The KOOS, JR. instrument has 7 items assessing knee stiffness, knee pain, and daily living physical function following knee joint replacement. Responses are given on a 5-point scale where 0 = no pain or disability and 4 = extreme pain or disability. Total raw scores range from 0 to 28, where higher scores indicate increased pain or disability. Total raw scores can be converted to an interval score ranging from 0 to 100 where 0 = total knee disability and 100 = perfect knee health.",
+        "timeFrame": "Baseline, 1, 4, and 12 months post-operatively"
+      },
+      {
+        "measure": "Length of Hospital Stay",
+        "description": "The length of hospital stay in days is reported here. A higher number of days in the hospital indicates slower recovery.",
+        "timeFrame": "Up to 3 days post-operatively"
+      },
+      {
+        "measure": "Number of Participants Readmitted to the Hospital",
+        "description": "The number of participants with hospital readmissions after being discharged were recorded.",
+        "timeFrame": "Up to 12 months post-operatively"
+      },
+      {
+        "measure": "Number of Participants With Wound Infections",
+        "description": "The number of participants with the clinical presence of wound drainage and periprosthetic infection were recorded.",
+        "timeFrame": "Up to 12 months post-operatively"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 99,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:57.631Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

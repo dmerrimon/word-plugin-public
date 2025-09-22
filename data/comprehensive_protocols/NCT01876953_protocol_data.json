@@ -1,0 +1,99 @@
+{
+  "nctId": "NCT01876953",
+  "briefTitle": "Dasatinib, Cytarabine, and Idarubicin in Treating Patients With High-Risk Acute Myeloid Leukemia",
+  "officialTitle": "Phase I/II Study of the Combination of Dasatinib With Chemotherapy for High Risk Acute Myeloid Leukemia (AML) Patients",
+  "protocolDocument": {
+    "nctId": "NCT01876953",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-01-22",
+    "uploadDate": "2021-06-08T14:38",
+    "size": 750455,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01876953/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-09-13",
+    "completionDate": "2018-04-25",
+    "primaryCompletionDate": "2018-04-25",
+    "firstSubmitDate": "2013-06-11",
+    "firstPostDate": "2013-06-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients diagnosed with AML meeting one of the following criteria:\n\n  * Newly diagnosed, age 60 and older\n  * High risk cytogenetics and molecular abnormalities (National Comprehensive Cancer Network \\[NCCN\\] criteria)\n  * Relapsed or refractory to prior chemotherapy\n  * Secondary AML\n* Any prior chemotherapy must have been completed \\>= 2 weeks prior to day 1 of study treatment and the participant must have recovered to eligibility levels from prior toxicity\n\n  * Only one prior regimen is allowed for relapsed AML patients; note one prior regimen is defined as follows:\n\n    * Induction chemotherapy followed by consolidation is considered one regimen\n    * Induction chemotherapy followed by re-induction in case of persistent disease followed by consolidation is considered one regimen\n  * Hydroxyurea is allowed prior to day 1 of study treatment to keep white blood cell (WBC) below 20 K\n* Karnofsky performance status \\>= 60%\n* Total bilirubin \\< 1.5 x institutional upper limit of normal\n* Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase \\[SGOT\\])/alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase \\[SGPT\\]) =\\< 2.5 x institutional upper limit of normal\n* Creatinine \\< 1.5 x institutional upper limit or normal OR creatinine clearance \\>= 60 mL/min for patients with creatinine levels above 1.5 x institutional upper limit of normal\n* Ejection fraction (EF) \\>= 45%\n* Ability to understand and sign a written informed consent document\n* Patients should not be receiving any other investigational agents\n\nExclusion Criteria:\n\n* Patients with clinically significant illness which would compromise participation in the study, including, but not limited to: active or uncontrolled infection, immune deficiencies or confirmed diagnosis of human immunodeficiency virus (HIV) infection, active hepatitis B, active hepatitis C, or uncontrolled diabetes, uncontrolled hypertension, symptomatic congestive heart failure, unstable angina pectoris, myocardial infarction within the past 6 months, uncontrolled cardiac arrhythmias; or psychiatric illness/social situations that would limit compliance with study requirements\n* Patients with additional (other than AML) currently active primary malignancy other than curatively treated carcinoma in situ (CIS) of the cervix, or basal or squamous cell carcinoma of the skin; patients are not considered to have a \"currently active\" malignancy if they have completed therapy for a prior malignancy and disease free from prior malignancies for \\> 2 years\n* Patients with active central nervous system (CNS) disease\n* Patients with Chronic Myelogenous Leukemia (CML) in Myeloid blasts crisis\n* Active infections, including opportunistic infections\n* Women of childbearing potential (WOCBP) who have a positive serum pregnancy test within 14 days of the first administration of oral dasatinib",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Maximum Tolerated Dose of Dasatinib (Phase I)",
+        "description": "Maximum tolerated dose of dasatinib, determined according to incidence of dose limiting toxicity (DLT), graded using the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 4.0 (Phase I)",
+        "timeFrame": "From the first dose of Dasatinib through the DLT observation period (Day +28)"
+      },
+      {
+        "measure": "Complete Remission Rate (Phase II)",
+        "description": "Remission rates will be calculated as the percent of evaluable patients that have a confirmed CR, and exact 95% confidence intervals will be calculated for these estimates.",
+        "timeFrame": "From the first cycle up to two years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Survival (Phase II)",
+        "description": "Overall survival was measured from the first dose of Dasatinib to death from any cause or last contact, whichever comes first. It was estimated using the product-limit method of Kaplan and Meier.",
+        "timeFrame": "Time from start of study therapy until death, or last contact, whichever comes first, assessed up to 2 years"
+      },
+      {
+        "measure": "Event-free Survival (Phase II)",
+        "description": "Event-free survival was defined as time from the first dose of Dasatinib to relapse/progression, receipt of anti-leukemia therapy, death, or last contact, whichever comes first. It was estimated using the product-limit method of Kaplan and Meier.",
+        "timeFrame": "Time from start of study therapy until death, relapse/progression, receipt of anti-leukemia therapy, or last contact, whichever comes first, assessed up to two years."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:52.660Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

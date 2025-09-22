@@ -1,0 +1,122 @@
+{
+  "nctId": "NCT03888287",
+  "briefTitle": "Parkinson's Disease Inpatient Clinical Knowledge and Management",
+  "officialTitle": "Parkinson's Disease Inpatient Clinical Knowledge and Management",
+  "protocolDocument": {
+    "nctId": "NCT03888287",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-05-09",
+    "uploadDate": "2022-10-12T10:32",
+    "size": 927440,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03888287/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 477,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-08-01",
+    "completionDate": "2022-01-03",
+    "primaryCompletionDate": "2022-01-03",
+    "firstSubmitDate": "2018-08-01",
+    "firstPostDate": "2019-03-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adult patients diagnosed with primary and secondary diagnosis of Parkinson's disease\n* Patient 22 years old and older\n* Patients admitted to inpatient units\n* Patient who are verbally informed and agree to participate in the study\n\nExclusion Criteria:\n\n* Patients less than or equal to 21 years of age\n* Patients who refuse to wear the PD wrist band.\n* Patients who verbally refuse enrollment in the PD registry.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "22 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Clinician's Parkinson's Disease Knowledge Assessment Survey Scores",
+        "description": "Clinician's Parkinson's Disease Knowledge Assessment Survey scores before and after the Parkinson's Disease Inpatient Clinical Knowledge and Management Program.\n\nA 20-question survey was administered to PD clinicians for a group measurement of PD knowledge. Scores ranged from 0 - 100% and reflected the percentage of clinicians who correctly answered the question. If 70% or more clinicians correctly answered the question, the group was considered knowledgeable on that topic; if \\<70% of clinicians responded incorrectly, they were considered not knowledgeable on the information that the question assessed. Survey questions addressed three PD areas: 1) medication/treatment, 2) symptoms/diagnosis, and 3) epidemiology/pathophysiology.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of PD Medications Administered on Time (15 Minute Window)",
+        "description": "The number of Parkinson's Disease (PD) medications administered within the 15-minute timeframe at baseline",
+        "timeFrame": "within 15 minutes post PD medication administration time"
+      },
+      {
+        "measure": "Number of Patients With Contraindicated Medications Administered.",
+        "description": "Measure the number of patients who were adminstered contraindicated medications",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number Patients With Falls, Falls With Injury, Positive CAM/Mini-cog",
+        "description": "The number of falls, number of falls with injury, and number of patients with positive Confusion Assessment Method (CAM)/Mini-Cog scores) in hospitalized patients.\n\nMini-cog is performed on all admitted patients 65 years and older and is a quick screening for \"cognitive vital sign\" and early dementia detection. The scale classifies patients as being positive or negative for dementia.\n\nThe Confusion Assessment Method (CAM) is performed on all adult admissions at the time of admission with reporting 1) every shift if the first test is positive, or 2) daily if the first test is negative. It improves the detection and recognition of delirium accurately and quickly in clinical and research settings. CAM is documentation of observed patient behavior during brief, structured interviews according to classification of positive or negative for dementia. There are no numerical (minimum or maximum) values assigned.",
+        "timeFrame": "6 Months"
+      },
+      {
+        "measure": "Length of Stay in Hospitalized Parkinson's Disease Patients.",
+        "description": "Average length of stay in hospitalized Parkinson's Disease patients",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of PD Medications Administered on Time (Within 15 Minute Window)",
+        "description": "Track the difference that the WatchRx system has on scheduled PD medication administration time versus actual PD medication administration time",
+        "timeFrame": "15 minutes post assigned medication administration time."
+      },
+      {
+        "measure": "Number of PD Medication Errors After Using the WatchRX System",
+        "description": "The number of contraindicated medications administered to Parkinson's disease patients after using the WatchRX system",
+        "timeFrame": "6 Months"
+      },
+      {
+        "measure": "Number of Falls, Falls Within Injury, Positive CAM Scores, and Positive Mini-Cog Scores After Using the WatchRX System",
+        "description": "The number of falls, number of falls with injury, number of positive CAM scores, and number of positive Mini-Cog scores after using the WatchRX system.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Length of Stay With the WatchRx System",
+        "description": "Parkinson's disease patients' length of stay after using the WatchRx system",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:46.441Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

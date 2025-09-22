@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02501265",
+  "briefTitle": "Adaptive Pharmacotherapy for Smoking Cessation",
+  "officialTitle": "Randomized Controlled Smoking Cessation Trial on Adaptive Pharmacotherapy",
+  "protocolDocument": {
+    "nctId": "NCT02501265",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-02-26",
+    "uploadDate": "2021-07-14T12:06",
+    "size": 1417408,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02501265/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 188,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-06-06",
+    "completionDate": "2021-05-12",
+    "primaryCompletionDate": "2020-07-30",
+    "firstSubmitDate": "2015-06-30",
+    "firstPostDate": "2015-07-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria\n\n1. Age 18 years or older\n2. Actively smoking 5 or more cigarettes per day for at least one year\n3. Fluency in spoken and written English\n4. Willing to set a quit date within 6 weeks\n5. Access to a telephone\n6. Willingness to take Varenicline OR nicotine patch (patient choice)\n7. Willingness to take Bupropion\n\nExclusion Criteria\n\n1. Daily use of a second form of tobacco or nicotine (e.g. e-cigarettes, cigars, chewing tobacco, snuff).\n2. Current use of a smoking cessation medication (e.g. nicotine replacement, Varenicline, Bupropion).\n3. Report of pregnancy, attempting to get pregnant, or actively breast feeding or positive urine pregnancy test (only given to females with child bearing potential).\n4. Additional criteria may apply.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Biochemically-confirmed 30-day Continuous Smoking Abstinence",
+        "description": "Number of participants who self report complete smoking abstinence over the last 30 days and are also verified to be abstinent by carbon monoxide (CO) expired breath testing with CO \\< 7 parts per million.",
+        "timeFrame": "12 weeks post-TQD (Visit 4)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "7-day Point Prevalence Biochemically Confirmed Abstinence",
+        "description": "Number of participants who self report complete smoking abstinence over the last 7 days and are also verified to be abstinent by carbon monoxide (CO) expired breath testing with CO \\< 7 parts per million.",
+        "timeFrame": "12 weeks post-TQD (Visit 4)"
+      },
+      {
+        "measure": "Phone-assessed Self-reported Abstinence",
+        "description": "Number of participants who self reported smoking abstinence over the last 24 hours assessed via single-item question.",
+        "timeFrame": "52 weeks post-TQD"
+      },
+      {
+        "measure": "Change in Cigarettes Smoked Per Day",
+        "description": "The percentage of participants who decreased the number of daily cigarettes smoked by 50% or more from the baseline assessment visit to 12 weeks post target quit day assessment visit collected by self-report in participants who completed the 12-week post target quit day assessment visit",
+        "timeFrame": "12 weeks post-TQD (Visit 4)"
+      },
+      {
+        "measure": "Change in Cigarettes Smoked Per Day (Phone)",
+        "description": "The percentage of participants who decreased the number of daily cigarettes smoked by 50% or more from the baseline assessment visit to 52 weeks post target quit day assessment visit collected by self-report in participants who completed the 52-week post target quit day phone assessment.",
+        "timeFrame": "52 weeks post-TQD"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:50.428Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

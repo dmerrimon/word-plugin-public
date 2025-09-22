@@ -1,0 +1,132 @@
+{
+  "nctId": "NCT02996110",
+  "briefTitle": "A Study to Test Combination Treatments in People With Advanced Renal Cell Carcinoma",
+  "officialTitle": "A Phase 2, Real-time Assessment of Combination Therapies in Immuno-Oncology Study in Participants With Advanced Renal Cell Carcinoma (FRACTION-RCC)",
+  "protocolDocument": {
+    "nctId": "NCT02996110",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-01-11",
+    "uploadDate": "2022-11-18T13:29",
+    "size": 3529533,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02996110/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 182,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-02-02",
+    "completionDate": "2021-11-23",
+    "primaryCompletionDate": "2021-11-23",
+    "firstSubmitDate": "2016-12-15",
+    "firstPostDate": "2016-12-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Advanced Renal Cell Carcinoma\n* Must have at least 1 lesion with measurable disease\n* Life expectancy of at least 3 months\n* Karnofsky Performance Status (KPS) must be =\\>70%\n\nExclusion Criteria:\n\n* Patients/subjects with suspected or known central nervous system metastases unless adequately treated\n* Patients/subjects with autoimmune disease\n* Patients/subjects who need daily oxygen therapy\n\nOther protocol defined inclusion/exclusion criteria apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Objective Response Rate (ORR) Per Investigator",
+        "description": "ORR is percent of participants whose best overall response (BOR) is complete response (CR) or partial response (PR).\n\nBOR is the best response from the start of the study treatment until objectively documented progression per RECIST v1.1 or subsequent anticancer therapy, whichever occurs first.\n\nFor participants who received re-treatment or were re-randomized, the re-treatment and re-randomized therapies were considered subsequent anticancer therapy.\n\nCR is the disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) have reduction in short axis to \\<10 mm.\n\nPR is at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.\n\nThe Response Evaluation Criteria in Solid Tumors (RECIST) is a standard way to measure the response of a tumor to treatment.\n\nCR+PR, confidence interval based on Clopper and Pearson method.",
+        "timeFrame": "From first dose of study treatment until progression or subsequent anticancer therapy, whichever occurs first (assessed up to approximately 247 weeks)"
+      },
+      {
+        "measure": "Median Duration of Response (DOR) Per Investigator",
+        "description": "Duration of Response is defined as the time between the date of first response and the date of first documented disease progression as determined by RECIST 1.1 or death due to any cause (death occurring after re-treatment or randomization to new combination treatment was not considered), whichever occurred first.\n\nComplete Response (CR) is the disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have reduction in short axis to \\<10 mm.\n\nPartial Response (PR) is at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.\n\nMedian computed using Kaplan -Meier method",
+        "timeFrame": "From first dose to the date of first documented disease progression or death due to any cause (assessed from an average of 22 weeks up to approximately 247 weeks)"
+      },
+      {
+        "measure": "Progression Free Survival Rate (PFSR) at 24 Weeks.",
+        "description": "The PFSR at 24 weeks is defined as the proportion of treated participants remaining progression free and surviving at 24 weeks since the first dosing date.\n\nProgressive Disease (PD) is at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. (Note: the appearance of one or more new lesions is also considered progression).\n\nPoint estimates are derived from Kaplan-Meier analyses, the 95% CIs are derived from Greenwood formula",
+        "timeFrame": "24 weeks after first treatment dose."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Adverse Events (AEs)",
+        "description": "An Adverse Event (AE) is defined as any new untoward medical occurrence or worsening of a preexisting medical condition in a clinical investigation participant administered study treatment and that does not necessarily have a causal relationship with this treatment.",
+        "timeFrame": "From first dose to 100 days after last dose of study therapy (assessed up to approximately 118 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Serious Adverse Events (SAEs)",
+        "description": "Serious Adverse Event (SAE) is defined as any untoward medical occurrence that, at any dose results in death, is life-threatening (defined as an event in which the participant was at risk of death at the time of the event; it does not refer to an event which hypothetically might have caused death if it were more severe), requires inpatient hospitalization or causes prolongation of existing hospitalization",
+        "timeFrame": "From first dose to 100 days after last dose of study therapy (assessed up to approximately 118 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events (AEs) Leading to Discontinuation",
+        "description": "An Adverse Event (AE) is defined as any new untoward medical occurrence or worsening of a preexisting medical condition in a clinical investigation participant administered study treatment and that does not necessarily have a causal relationship with this treatment.",
+        "timeFrame": "From first dose to 100 days after last dose of study therapy (assessed up to approximately 118 weeks)"
+      },
+      {
+        "measure": "Number of Participants Who Died",
+        "description": "Death is defined as the cessation of all vital functions of the body including the heartbeat, brain activity (including the brain stem), and breathing.",
+        "timeFrame": "From first dose to 100 days after last dose of study therapy (assessed up to approximately 118 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Abnormal Thyroid Test Results - Track 1",
+        "description": "The number of participants with laboratory abnormalities in specific thyroid tests based on SI conventional units. TSH = Thyroid Stimulating Hormone LLN = Lower Limit of Normal ULN = Upper Limit of Normal.",
+        "timeFrame": "From first dose to 30 days after last dose of study therapy (approximately 108 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Abnormal Thyroid Test Results - Track 2",
+        "description": "The number of participants with laboratory abnormalities in specific thyroid tests based on SI conventional units. TSH = Thyroid Stimulating Hormone LLN = Lower Limit of Normal ULN = Upper Limit of Normal",
+        "timeFrame": "From first dose to 30 days after last dose of study therapy (approximately 108 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Abnormal Hepatic Test Results - Track 1",
+        "description": "The number of participants with laboratory abnormalities in specific liver tests based on SI conventional units. ALT = Alanine Aminotransferase AST = Aspartate Aminotransferase ULN = Upper Limit of Normal",
+        "timeFrame": "From first dose to 30 days after last dose of study therapy (approximately 108 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Abnormal Hepatic Test Results - Track 2",
+        "description": "The number of participants with laboratory abnormalities in specific liver tests based on SI conventional units. ALT = Alanine Aminotransferase AST = Aspartate Aminotransferase ULN = Upper Limit of Normal",
+        "timeFrame": "From first dose to 30 days after last dose of study therapy (approximately 108 weeks)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:06.863Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

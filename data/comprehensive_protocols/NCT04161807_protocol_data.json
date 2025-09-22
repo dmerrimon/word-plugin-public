@@ -1,0 +1,124 @@
+{
+  "nctId": "NCT04161807",
+  "briefTitle": "Efficacy and Safety of Nerivio™ for Acute Treatment of Migraine in People With Chronic Migraine",
+  "officialTitle": "Efficacy and Safety of Nerivio™, a Remote Electrical Neuromodulation Device, for Acute Treatment of Migraine in People With Chronic Migraine: an Open Label, Single Arm, Multicenter Study",
+  "protocolDocument": {
+    "nctId": "NCT04161807",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-07-16",
+    "uploadDate": "2020-12-15T07:12",
+    "size": 919440,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04161807/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 42,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-18",
+    "completionDate": "2020-02-18",
+    "primaryCompletionDate": "2020-02-18",
+    "firstSubmitDate": "2019-11-10",
+    "firstPostDate": "2019-11-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Participants aged 18-75 years old.\n2. Participants meeting the ICHD-3 diagnostic criteria for chronic migraine\n3. Participants have personal access to a smartphone\n4. Participants must be able and willing to comply with the protocol\n5. Participants must be able and willing to provide written informed consent\n\nExclusion Criteria:\n\n1. Participants with an implanted electrical and/or neurostimulator device (e.g. cardiac pacemaker, cochlear implant).\n2. Participants with congestive heart failure (CHF), severe cardiac or cerebrovascular disease.\n3. Participants with uncontrolled epilepsy.\n4. Lack of efficacy, after an adequate therapeutic trial, of at least two migraine specific acute medications\n5. Change in migraine preventive medications (type or dose) in the last two months prior to recruitment and/or during the study\n6. Pregnant, trying to get pregnant or breastfeeding female participants\n7. Subjects participating in any other interventional clinical study.\n8. Participants without basic cognitive and motor skills needed to operate a smartphone\n9. Participants with other significant pain, medical or psychological problems that in the opinion of the investigator may confound the study assessments\n10. Participants who have previous experience with the device",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Participants With Reduction of Migraine Headache at 2 Hours Post Treatment",
+        "description": "The proportion of participants reporting pain relief at 2 hours post-treatment without the use of rescue medication following the test treatment . Pain relief is defined as an improvement from severe or moderate pain to mild or no pain, or from mild pain to no pain.",
+        "timeFrame": "2 hours post-treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Proportion of Participants With Pain Disappearance at 2 Hours Post Treatment",
+        "description": "The proportion of participants reporting freedom from migraine pain at 2 hours post-treatment without medications following the test treatment. Pain freedom is defined as an improvement from severe or moderate or mild pain to no pain",
+        "timeFrame": "2 hours post treatment"
+      },
+      {
+        "measure": "Proportion of Participants With Disappearance of Nausea and/or Vomiting at 2 Hours Post-treatment",
+        "description": "The proportion of participants reporting disappearance of nausea and/or vomiting at 2 hours post-treatment without rescue medications following the test treatment.",
+        "timeFrame": "2 hours post treatment"
+      },
+      {
+        "measure": "Proportion of Participants With Disappearance of Photophobia at 2 Hours Post-treatment",
+        "description": "The proportion of participants reporting disappearance of photophobia at 2 hours post-treatment without rescue medications following the test treatment.",
+        "timeFrame": "2 hours post treatment"
+      },
+      {
+        "measure": "Proportion of Participants With Disappearance of Phonophobia at 2 Hours Post-treatment",
+        "description": "The proportion of participants reporting disappearance phonophobia at 2 hours post-treatment without rescue medications following the test treatment.",
+        "timeFrame": "2 hours post treatment"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Within-patient Consistency - Percentage of Participants With Reduction in Headache Pain in at Least 50% of Their Treatments",
+        "description": "Proportions of participants achieving pain relief at 2 hours in at least 50% of all their treatments (excluding the training treatment)",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Within-patient Consistency - Percentage of Participants Free of Headache Pain in at Least 50% of Their Treatments",
+        "description": "Proportion of participants achieving pain free at 2 hours in at least 50% of all their treatments (excluding the training treatment)",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Proportion of Participants With Improve Functional Disability at 2 Hours Post-treatment",
+        "description": "The proportion of participants achieving improvement of at least one grade in functional disability in the test treatment at 2 hours post-treatment with no use of rescue medication. the scale used was: (0) No limitation, (1) Some limitation, (2) Moderate limitation and (3) Severe limitation.",
+        "timeFrame": "2 hours post treatment"
+      },
+      {
+        "measure": "Proportion of Participants With Improve Functional Disability at 24 Hours Post-treatment",
+        "description": "The proportion of participants achieving improvement of at least one grade in functional disability in the test treatment at 24 hours post-treatment with no use of rescue medication. the scale used was: (0) No limitation, (1) Some limitation, (2) Moderate limitation and (3) Severe limitation.",
+        "timeFrame": "24 hours post treatment"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 4,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 42,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:54.305Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

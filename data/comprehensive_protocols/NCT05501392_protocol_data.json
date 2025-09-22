@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT05501392",
+  "briefTitle": "South Texas Early Prevention Studies PreK",
+  "officialTitle": "South Texas Early Prevention Studies - PreK",
+  "protocolDocument": {
+    "nctId": "NCT05501392",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-09-28",
+    "uploadDate": "2022-08-11T12:17",
+    "size": 110383,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05501392/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1277,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-09-28",
+    "completionDate": "2020-06-30",
+    "primaryCompletionDate": "2020-03-17",
+    "firstSubmitDate": "2022-08-08",
+    "firstPostDate": "2022-08-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* PreK children\n* Enrolled in PSJA and La Joya ISDs\n\nExclusion Criteria:\n\n* na",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "3 Years",
+    "maximumAge": "5 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "cardiorespiratory fitness",
+        "description": "as measured by the number of laps run in the Progressive Anaerobic Capacity Endurance Run (PACER) fitness test",
+        "timeFrame": "1.5 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:15.019Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

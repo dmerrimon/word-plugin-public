@@ -1,0 +1,148 @@
+{
+  "nctId": "NCT04652804",
+  "briefTitle": "Supporting Treatment Outcomes Among PWID",
+  "officialTitle": "A Precision Randomized Trial to Evaluate the Impact of Tailored Hepatitis C Virus (HCV) Treatment Adherence Support on HCV Treatment Outcomes in HIV/HCV Co-infected and HCV Mono-infected People Who Inject Drugs (PWID) in India.",
+  "protocolDocument": {
+    "nctId": "NCT04652804",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-06-30",
+    "uploadDate": "2025-01-14T10:45",
+    "size": 933372,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04652804/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 3000,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-21",
+    "completionDate": "2024-12-31",
+    "primaryCompletionDate": "2023-12-30",
+    "firstSubmitDate": "2020-11-20",
+    "firstPostDate": "2020-12-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Registered for care at an Integrated Care Center (ICC) in one of the 7 field sites.\n* Active HCV infection confirmed by a detectable HCV RNA by polymerase chain reaction (PCR) (HCV RNA ≥ 30 copies/ml) within 90 days prior to study entry.\n* Liver disease stage defined as non-cirrhotic or compensated cirrhotic (metric/diagnostic criteria used for fibrosis staging) within 90 days prior to study entry.\n\n  i. Albumin \\>3.0 g/L. ii. Hemoglobin \\>8.0 g/dL for women; \\>9.0 g/dL for men. iii. Platelet count \\>50,000/mm3. iv. Calculated creatinine clearance (CrCl) using Cockcroft-Gault method \\>30 mL/min. v. Aspartate aminotransferase (AST/SGOT) \\<10 times the upper limit of the normal range (ULN). vi. Alanine aminotransferase (ALT/SGPT) \\<10 times the ULN. vii. Total bilirubin \\<1.5 times the ULN for participants not on atazanavir (ATV) and \\<3 times the ULN for participants on ATV. viii. International normalized ratio (INR) \\<1.5 times the ULN.\n* Life expectancy greater than 1 year (as determined by study clinician)\n* Willing to initiate HCV treatment\n* Agree to be randomized to an adherence support strategy\n* Ability and willingness to provide written informed consent\n* Female participants of reproductive potential must not be pregnant\n* All female participants of reproductive potential must agree not to participate in a conception process\n* All female participants of reproductive potential must agree to use at least one reliable form of contraceptive while receiving protocol-specified medication, and for 6 weeks after stopping the medication.\n\nExclusion Criteria:\n\n* Psychologically unfit to provide written informed consent.\n* Planning to migrate within the next six months.\n* Known allergy/sensitivity or any hypersensitivity to components of study drug(s) or their formulation.\n* Acute or serious illness requiring systemic treatment and/or hospitalization within 30 days prior to study entry.\n* In HIV positive participants, presence of active or acute AIDS-defining opportunistic infections within 30 days prior to study entry.\n* Use of prohibited medications within the past 14 days prior to study entry.\n* Evidence of decompensated liver disease on clinical exam.\n* Evidence of active tuberculosis.\n* Evidence of chronic hepatitis B infection (HBsAg positive).\n* Currently on HCV treatment.\n* Prior history of DAA-based HCV treatment\n* Confirmed active SARS CoV-2 infection or suspected active SARS CoV-2 infection at enrollment.\n* Currently nursing (breastfeeding).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Sustained Virologic Response (SVR) by Intervention Group Stratified by Defined Risk for Treatment Failure (Minimal vs Elevated)",
+        "description": "The percentage of participants who achieved SVR defined as HCV RNA \\< lower limit of quantification (LLOQ). HCV RNA \\< lower limit of quantification (LLOQ, 30 IU/ml) was measured 12 weeks (range 10 - 60 weeks) after treatment completion.",
+        "timeFrame": "Between 10 and 60 weeks after scheduled end of treatment."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "HCV Treatment Completion",
+        "description": "The percentage of participants who completed the prescribed course of treatment (12 or 24 weeks). Participants with compensated cirrhosis and genotype 3 infection would have received 24 weeks of treatment. All other participants would have received treatment for 12 weeks. All participants in this study received 12 weeks of treatment.",
+        "timeFrame": "Measured at the end of prescribed course of treatment (12 or 24 weeks)"
+      },
+      {
+        "measure": "Adherence >90% (Self-report)",
+        "description": "The percentage of participants who self-report taking \\>90% of doses during treatment.",
+        "timeFrame": "Measured at the end of prescribed course of treatment (12 or 24 weeks)"
+      },
+      {
+        "measure": "Adherence >90% (Medication Records)",
+        "description": "The percentage of participants in possession of \\>90% of doses during treatment based on medication refills and pill counts.",
+        "timeFrame": "Measured at the end of prescribed course of treatment (12 or 24 weeks)"
+      },
+      {
+        "measure": "Adherence Level (Self-report)",
+        "description": "The percentage of doses taken during treatment as self-reported by the participant.",
+        "timeFrame": "Measured at the end of prescribed course of treatment (12 or 24 weeks)"
+      },
+      {
+        "measure": "Adherence Level (Medication Records)",
+        "description": "The percentage of doses participants had in their possession during treatment based on medication refills and pill counts.",
+        "timeFrame": "Measured at the end of prescribed course of treatment (12 or 24 weeks)"
+      },
+      {
+        "measure": "HCV Reinfection",
+        "description": "The percentage of participants who test positive for HCV Core Antigen after achieving SVR.",
+        "timeFrame": "Measured at 6 month intervals after confirmation of SVR for up to 36 months."
+      },
+      {
+        "measure": "HIV Viral Suppression Among HIV/HCV Coinfected Participants",
+        "description": "The percentage of HIV/HCV co-infected participants with HIV RNA less than LLOQ after the SVR assessment. HCV RNA abstracted from chart reviews.",
+        "timeFrame": "After assessment of SVR for up to 36 months."
+      }
+    ],
+    "other": [
+      {
+        "measure": "Exploratory Outcome Measure: Medication for Opioid Use Disorder (MOUD) Initiation",
+        "description": "Rate of MOUD Initiation post randomization",
+        "timeFrame": "Measured daily from Entry Visit to post SVR for up to 36 months"
+      },
+      {
+        "measure": "Exploratory Outcome Measure: Medication for Opioid Use Disorder Retention",
+        "description": "Consistent MOUD use post randomization",
+        "timeFrame": "Measured daily from Entry Visit to post SVR for up to 36 months"
+      },
+      {
+        "measure": "Exploratory Outcome Measure: Quality of Life",
+        "description": "Self-reported quality of life score based on self-report",
+        "timeFrame": "Measured at 6 month intervals at the SVR visit and post SVR for up to 36 months."
+      },
+      {
+        "measure": "Exploratory Outcome Measure: Mortality",
+        "description": "Mortality rate per person years",
+        "timeFrame": "Measured from Entry visit to post SVR for up to 36 months."
+      },
+      {
+        "measure": "Exploratory Outcome Measure: Cost Effectiveness of Tailored Support Options (Low, Medium and High Intensity)",
+        "description": "Incremental cost effectiveness ratios calculated between an intervention and its next least costly comparator and assessed against per capita Gross Domestic Product (GDP)",
+        "timeFrame": "Measured at weekly intervals starting from Entry visit to SVR visit (up to 12 weeks after treatment completion)."
+      },
+      {
+        "measure": "Exploratory Outcome Measure: Acceptability of Low, Medium and High Intensity Interventions",
+        "description": "Measured by in-depth qualitative interviews with integrated care clinic staff and clients post intervention.",
+        "timeFrame": "Qualitative interviews will be conducted between the end of treatment visit and the SVR visit (up to 12 weeks after treatment completion)."
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 6,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 71,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:24.150Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

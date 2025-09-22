@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT04950192",
+  "briefTitle": "Philips Intracardiac Echocardiography (ICE) Clinical Registry",
+  "officialTitle": "The Philips (VeriSight) Intracardiac Echocardiography (ICE) Registry",
+  "protocolDocument": {
+    "nctId": "NCT04950192",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-04-24",
+    "uploadDate": "2024-03-20T12:46",
+    "size": 907716,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04950192/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 155,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-10-25",
+    "completionDate": "2023-07-30",
+    "primaryCompletionDate": "2022-12-30",
+    "firstSubmitDate": "2021-06-25",
+    "firstPostDate": "2021-07-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. 18 years of age and willing to provide written, dated and signed, informed consent\n2. Scheduled for a procedure that is within the scope of clinical indication for VeriSight per Instructions for Use (IFU)\n\nExclusion Criteria:\n\n1. Contraindicated for ICE catheter placement or patient considerations that make placement of VeriSight not technically feasible\n2. If alternate access (as needed instead of femoral) is not viable\n3. Known contraindicated conditions include sepsis, major coagulation abnormalities, presence of any intracardiac thrombus, presence of class IV angina or heart failure, deep vein thrombosis, or significant peripheral vascular disease.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Technical Success",
+        "description": "Investigator's assessment (Y/N) on successful delivery of VeriSight to the target intracardiac position and sustained device operation during the procedure",
+        "timeFrame": "During procedure"
+      },
+      {
+        "measure": "Imaging Success",
+        "description": "Adequate image quality via Likert scale ( Acceptable or better) as determined by the investigator",
+        "timeFrame": "During procedure"
+      },
+      {
+        "measure": "Clinical Success",
+        "description": "Investigator's assessment (Y/N) on adequacy of VeriSight imaging for visualization of major cardiac structures, and guiding procedural intervention, and ability to detect/ assess intra-procedural complications.",
+        "timeFrame": "During procedure"
+      },
+      {
+        "measure": "Number of Participants With Device-related Adverse Event Detection",
+        "description": "Detect device-related adverse events periprocedural through discharge or ≤48 hours post-procedure, whichever is earlier.",
+        "timeFrame": "Procedure through 48 hours or discharge, whichever is earlier"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:14.797Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

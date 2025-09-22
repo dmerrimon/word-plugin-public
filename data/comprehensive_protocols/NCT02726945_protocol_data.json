@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02726945",
+  "briefTitle": "Adipose-derived SVF for the Treatment of Knee OA",
+  "officialTitle": "Use of Autologous Adipose-Derived Stromal Vascular Fraction to Treat Osteoarthritis of the Knee: A Controlled, Randomized, Double-Blinded Trial",
+  "protocolDocument": {
+    "nctId": "NCT02726945",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-10-01",
+    "uploadDate": "2019-05-29T11:32",
+    "size": 863298,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02726945/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 39,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-04",
+    "completionDate": "2019-10-01",
+    "primaryCompletionDate": "2018-04-01",
+    "firstSubmitDate": "2016-03-24",
+    "firstPostDate": "2016-04-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Grade II or Grade III osteoarthritis using Kellgren-Lawrence grading scale (K-L Grade) as diagnosed using weight bearing X-ray, physician review, and/or pre-op MRI.\n* Study Subjects must have failed a minimum of at least two conservative therapies, spanning a period of at least 3 months.\n* Study Subjects must be willing to voluntarily give written Informed Consent to participate in the study and sign the Health Insurance Portability and Accountability Act (HIPAA) authorization before any study procedures are performed.\n* Subjects will be in good health (ASA Class I-II) with a BMI \\< 35.\n* Subjects must have continued pain in the knee despite conservative therapies for at least 3 months.\n* Subjects with unilateral disease must present with symptomatic knee pain using the WOMAC subscale for pain.\n* Subjects must speak, read and understand English.\n* Subjects must be reasonably able to return for multiple follow-up visits.\n\nExclusion Criteria:\n\n* Subjects whose knee pain is caused by, (i) diffuse edema, (ii) displaced meniscus tear, (iii) lesion greater than 1 cm in any direction, or (iv) osteochondritis dissecans.\n* Subjects who have had surgery of either knee within 6 months prior to the screening visit.\n* Subjects who have had a major injury to the targeted knee within 12 months prior to enrolling in the study.\n* Subjects who have had an injection in either knee in the prior 3 months, including corticosteroids, viscosupplementation or platelet rich plasma (PRP).\n* Subjects who have gout, rheumatoid arthritis, lupus arthropathy, psoriatic arthritis, avascular necrosis, severe bone deformity, infection of the knee joint, fibromyalgia, pes anserine bursitis, or neurogenic or vascular claudication.\n* Subjects who have symptomatic OA of the hips, spine, or ankle that would interfere with the evaluation of the treated knee.\n* Subjects that are unwilling to stop taking prescription or over the counter pain medication for 7 days prior to any visit\n* Subjects that are allergic to lidocaine, epinephrine or valium\n* Subjects with a history of bleeding disorders, anticoagulation therapy that cannot be stopped as prior to injection.\n* Subjects with systemic immunosuppressant use within six (6) weeks from screening and subjects with HIV/viral hepatitis.\n* Subjects with chondrocalcinosis, Paget's disease and Villonodular synovitis\n* Subjects that use any form of tobacco\n* Women that are pregnant or planning to become pregnant during the study.\n* Subjects on long term use of oral steroids\n* History of any chemotherapy or radiation therapy of the targeted/treatment leg or adipose harvest site.\n* Subjects currently on worker's compensation",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Safety - Number of Participants With Treatment-Emergent Serious Adverse Events",
+        "description": "Subjects will be monitored for serious and device related adverse events. Baseline MRIs will be compared to 1 year for any abnormal findings.",
+        "timeFrame": "up to 1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Efficacy - Percent Change in Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) Score From Baseline to 6 Months",
+        "description": "The primary efficacy will be achieved if either dose group is shown to be superior to the placebo group at 6 months post-treatment, using the percent change in WOMAC score from baseline as the primary variable.\n\nThe WOMAC score consists of 3 subscales, pain, stiffness and function. The overall score is normalized to a range of 0 to 100 points with a lower score indicating less symptoms of osteoarthritis.",
+        "timeFrame": "baseline and 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:58.461Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

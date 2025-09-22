@@ -1,0 +1,128 @@
+{
+  "nctId": "NCT04581200",
+  "briefTitle": "Lift Mobile Mindfulness for COVID-19 Distress Symptoms",
+  "officialTitle": "Addressing Psychological Distress Symptoms Among Serious Illness Survivors of a Viral Pandemic With a Completely Self-directed, Symptom-responsive Mobile Mindfulness Intervention: a Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT04581200",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-03-05",
+    "uploadDate": "2023-03-06T16:59",
+    "size": 1020670,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04581200/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 56,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-25",
+    "completionDate": "2022-05-30",
+    "primaryCompletionDate": "2022-03-30",
+    "firstSubmitDate": "2020-10-04",
+    "firstPostDate": "2020-10-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "BLUE CORAL eligibility (the parent cohort study from which RCT participants will be recruited)\n\nInclusion criteria:\n\n1. Adult hospitalized within 14 days of a positive PCR test for COVID-19\n2. Evidence of acute COVID-19, with fever or respiratory manifestations, as characterized by signs and symptoms such as cough, dyspnea, tachypnea, hypoxemia, and infiltrates on chest imaging.\n\nExclusion criteria:\n\n1. Lack of informed consent\n2. More than 72 hours of continuous hospitalization.\n3. Comfort care orders in place at the time of enrollment and/or unexpected to survive for 24 hours\n4. Prisoners\n5. Previous enrollment in BLUE CORAL\n\nLIFT COVID RCT eligibility\n\nInclusion criteria:\n\n1. Enrolled in BLUE CORAL\n2. Survival to time of BLUE CORAL 1-month post-discharge interview\n\n2\\. English-speaking 3. Domiciled with access to a working telephone and smartphone, tablet, or computer with wifi or internet connection 4. Absence of severe dementia or cognitive dysfunction either before hospitalization or at time of 1 month post-discharge interview\n\nExclusion criteria:\n\n1. PHQ-9 \\<5 at time of interview 1 month post-discharge\n2. Suicidal ideation at time of interview 1 month post-discharge",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Patient Health Questionnaire-9 Item Scale (PHQ-9) Over 3 Months Post-discharge",
+        "description": "Depression symptoms. Scores range from 0 (better) to 27 (worse)",
+        "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Patient Health Questionnaire-9 Item Scale (PHQ-9) Over 6 Months Post-discharge",
+        "description": "Depression symptoms. Scores range from 0 (better) to 27 (worse)",
+        "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+      },
+      {
+        "measure": "Change in Generalized Anxiety Disorder 7-item Scale (GAD-7) at 3 Months Post-discharge",
+        "description": "Anxiety symptoms. Scores range from 0 (better) to 21 (worse).",
+        "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)"
+      },
+      {
+        "measure": "Change in Generalized Anxiety Disorder 7-item Scale (GAD-7) at 6 Months Post-discharge",
+        "description": "Anxiety symptoms. Scores range from 0 (better) to 21 (worse).",
+        "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+      },
+      {
+        "measure": "Change in EuroQOL-5DL (Quality of Life) Scale at 3 Months Post-discharge",
+        "description": "EuroQOL-5DL health states can be represented by a single summary number (index value), which reflects how good or bad a health state is according to the preferences of the general population of a country/region. An EQ-5D summary index is derived by applying a formula that attaches values (weights) to each of the levels in each dimension. The index is calculated by deducting the appropriate weights from 1, the value for full health. A higher index value indicates a greater health state; an increase in index value indicates an improvement in health state. The summary item can range from 0 (worst quality of life) to 100 (best quality of life).",
+        "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)"
+      },
+      {
+        "measure": "Change in EuroQOL-5DL (Quality of Life) Scale at 6 Months Post-discharge",
+        "description": "EuroQOL-5DL health states can be represented by a single summary number (index value), which reflects how good or bad a health state is according to the preferences of the general population of a country/region. An EQ-5D summary index is derived by applying a formula that attaches values (weights) to each of the levels in each dimension. The index is calculated by deducting the appropriate weights from 1, the value for full health. A higher index value indicates a greater health state; an increase in index value indicates an improvement in health state. The summary item can range from 0 (worst quality of life) to 100 (best quality of life).",
+        "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+      },
+      {
+        "measure": "Number of Participants With Cardiopulmonary Symptoms at 3 Months Post-discharge",
+        "description": "Cardiopulmonary symptoms such as breathlessness, fatigue, oxygen use",
+        "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)"
+      },
+      {
+        "measure": "Number of Participants With Cardiopulmonary Symptoms at 6 Months Post-discharge",
+        "description": "Cardiopulmonary symptoms such as breathlessness, fatigue, oxygen use",
+        "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Healthcare Utilization",
+        "description": "Hospital readmissions and clinic visits during follow up",
+        "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+      },
+      {
+        "measure": "Intervention Adherence as Measured by Percentage of Tasks Completed",
+        "description": "Tasks include intervention sessions, weekly surveys, and intervention elements (e.g., videos, audio).",
+        "timeFrame": "T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 2,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 78,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:35.760Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

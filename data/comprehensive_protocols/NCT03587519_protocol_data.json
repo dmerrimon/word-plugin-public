@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT03587519",
+  "briefTitle": "Short Versus Long Interval to Ileostomy Reversal After Ileal Pouch Surgery",
+  "officialTitle": "Short Versus Long Interval to Ileostomy Reversal After Ileal Pouch Surgery for Ulcerative Colitis",
+  "protocolDocument": {
+    "nctId": "NCT03587519",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-10-11",
+    "uploadDate": "2021-10-13T12:27",
+    "size": 933157,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03587519/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 36,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-11-06",
+    "completionDate": "2021-03-31",
+    "primaryCompletionDate": "2021-02-16",
+    "firstSubmitDate": "2018-06-26",
+    "firstPostDate": "2018-07-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Signed informed consents.\n* Man or woman between 18 and 64 years of age.\n* Ulcerative colitis (UC) or indeterminate colitis (IC) diagnosed by routine clinical, radiographic, endoscopic, and pathological criteria.\n* Patient will be scheduled for non-emergent proctocolectomy or completion proctectomy with ileal j-pouch anal anastomosis (IPAA) and loop ileostomy (IPAA).\n* Clinical assessment of patient after IPAA surgery indicates that patient is suitable for early ileostomy reversal\n\nExclusion Criteria:\n\n* Age \\< 18 or \\> 64 years\n* Colon or rectal cancer\n* Crohn's disease or suspected Crohn's disease\n* Prednisone dose \\> 20 mg per day (or equivalent other steroid dose) within 4 weeks of scheduled IPAA\n* Body mass index (BMI) equal to or greater than 40 kg/m2\n* Hemodynamic instability (persistent pulse rate \\< 50 or \\> 120 bpm, systolic blood pressure \\< 90 or \\> 160 mm Hg, uncontrolled cardiac arrhythmia, or active vasopressor drug use)\n* Organ transplant recipient (e.g. Liver, Kidney, Pancreas)\n* Immunosuppression due to chemotherapy drug use or systemic disease.\n* Sepsis\n* Renal insufficiency (i.e. serum creatinine ? 2 mg/dl or need for dialysis)\n* Therapeutic anticoagulation (e.g. venous thromboembolic disease, prosthetic heart valve)\n* Blood Hemoglobin \\< 8 g/dl\n* Serum Albumin \\< 2.5 g/dl\n* Individualized decision by the surgeon to exclude the patient based on sound surgical judgment\n* Pregnant patients and female patients who do not satisfy the standard of care requirements of participating centers for an elective surgical procedure.\n* Clinical assessment of patient after IPAA surgery indicates that patient is not suitable for early ileostomy reversal\n* Participation in another clinical trial within the last 30 days, or simultaneous participation in another clinical trial\n* Well-founded doubt about the patient's cooperation.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "64 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Comprehensive Complication Index at 6 months after randomization.",
+        "description": "The CCI® calculator is an online tool to support the assessment of patients' overall morbidity. The Comprehensive Complication Index (CCI®) is based on the complication grading by Clavien-Dindo Classification and implements every occurred complication after an intervention. The overall morbidity is reflected on a scale from 0 (no complication) to 100 (death).",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Total number of postoperative complications per patient",
+        "description": "Post-operative complications. For example, surgical site infection, venous thromboembolism, lung or heart-related complications, etc.)",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Percent of patients with complications",
+        "description": "Percentage of patients with one or more postoperative complication such as surgical site infection, venous thromboembolism, lung or heart-related complications, etc.",
+        "timeFrame": "1-2 month intervals after randomization through 6 months\"."
+      },
+      {
+        "measure": "Total number of stoma related complications per patient",
+        "description": "Examples: leakage, pain, retraction, prolapse, bleeding, etc.",
+        "timeFrame": "1-2 month intervals after randomization through 6 months"
+      },
+      {
+        "measure": "Health-related quality of life",
+        "description": "PROMIS questionnaire. This will be used to assess the study patient's overall health, quality of life, physical health, mental health, social activities, relationships, activities of daily living, emotional health, fatigue level, and pain.",
+        "timeFrame": "Once, at 6 months after ostomy closure surgery"
+      },
+      {
+        "measure": "IPAA functional outcomes",
+        "description": "Daily stools, nightly stools, stool seepage, stool incontinence, anti-peristaltic medication use",
+        "timeFrame": "Once, at 6 months after ostomy closure surgery"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:31:00.803Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

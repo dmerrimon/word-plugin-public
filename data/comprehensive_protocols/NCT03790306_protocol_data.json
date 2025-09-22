@@ -1,0 +1,115 @@
+{
+  "nctId": "NCT03790306",
+  "briefTitle": "Opioid Free and Therapy Minimized Advantages Using HANA Table for Total Hip Arthroplasty",
+  "officialTitle": "Opioid Free and Therapy Minimized Advantages Using HANA Table for Total Hip Arthroplasty",
+  "protocolDocument": {
+    "nctId": "NCT03790306",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-03-13",
+    "uploadDate": "2020-03-13T16:31",
+    "size": 147052,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03790306/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 207,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-15",
+    "completionDate": "2020-03-30",
+    "primaryCompletionDate": "2020-01-24",
+    "firstSubmitDate": "2018-12-20",
+    "firstPostDate": "2018-12-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Elective total hip arthroplasty\n* unilateral\n* patient surgeries scheduled to be performed at the hospital and surgery center\n* patients must enroll in SwiftPath\n* Ability to read and understand English\n\nExclusion Criteria:\n\n* Patient diagnosis of schizophrenia, bipolar disease, dementia\n* previous burn to affected extremity\n* BMI \\> 40\n* Hemoglobin \\<12 female, \\<13 male\n* Albumin less than 3.5\n* A1C \\>8.0",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pre-operative Narcotic Use",
+        "description": "Percentage of patients that used used opioids pre-operatively",
+        "timeFrame": "Pre-operatively"
+      },
+      {
+        "measure": "Number of Patients That Took Any Opioids Throughout 6-week Follow-up Period",
+        "description": "Number of patients that took any opioids throughout 6-week follow-up period",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Short Physical Performance Battery",
+        "description": "Assessment tool measuring gait speed, balance and chair stand test. Scores range from 0 to 4 with higher scores indicating a better outcome.",
+        "timeFrame": "6 Weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Numeric Pain Scores",
+        "description": "A numeric pain score (0-10, 0 is no pain and 10 is worst imaginable pain). This will be used to assess patients level of pain relating to opioid use and recovery. Both 'best' pain level and 'worst' pain level as reported by the patient will be reported.",
+        "timeFrame": "6 Weeks"
+      },
+      {
+        "measure": "Sleep Quality",
+        "description": "The percentage of patients where pain interrupts sleep 'never' or 'rarely' will be combined together and reported.",
+        "timeFrame": "6 Weeks"
+      },
+      {
+        "measure": "Number of Participants Who Adhere to Prescribed Post op Recovery Protocol",
+        "description": "Number of Participants Who Adhere to Prescribed Post op Recovery Protocol collected via a questionnaire",
+        "timeFrame": "2 weeks"
+      },
+      {
+        "measure": "Length of Stay in Hospital",
+        "description": "Average number of days in hospital after surgery",
+        "timeFrame": "1 week"
+      },
+      {
+        "measure": "Number of Patients That Return to Work 6 Weeks After Surgery",
+        "description": "questionnaire asking the patient to report whether or not they have returned to employment and at what capacity (using Department of Labor physical employment scale). Patients will answer \"yes\" or \"no\" when asked if they have returned to work.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Number of Patients Who Return to Driving 6 Weeks After Surgery",
+        "description": "Patients will respond yes or no when asked if they have resumed driving.",
+        "timeFrame": "6 Weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:56.753Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

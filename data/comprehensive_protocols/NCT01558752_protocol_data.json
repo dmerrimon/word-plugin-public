@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT01558752",
+  "briefTitle": "A Clinical Trial of a Metal on Poly Component Versus CORAIL Stem: A Bone Mineral Density Study",
+  "officialTitle": "A Randomized Clinical Trial of a Modular Cementless Acetabular Metal on Poly Component Versus a Monoblock Cementless Titanium Shell With Ceramic on Ceramic Bearing and CORAIL Stem: A Bone Mineral Density Study",
+  "protocolDocument": {
+    "nctId": "NCT01558752",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2013-02-07",
+    "uploadDate": "2020-11-20T17:05",
+    "size": 230726,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01558752/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 88,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2010-04",
+    "completionDate": "2020-11-20",
+    "primaryCompletionDate": "2019-07-31",
+    "firstSubmitDate": "2012-03-16",
+    "firstPostDate": "2012-03-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients who are undergoing primary hip surgery for osteo/degenerative arthritis (does not include traumatic arthritis, congenital hip dysplasia, or avascular necrosis).\n* Patients who are skeletally mature, as determined by Risser sign or at least 18 years of age\n* Patients under 75 years of age\n* Patients for whom there is a reasonable expectation that they will be available for each examination scheduled over a two year post-operative follow-up period.\n\nExclusion Criteria:\n\n* Patients with previous fusions, acute femoral neck fractures and above knee amputations.\n* Patients with evidence of active local infection\n* Patients with neurologic or musculoskeletal disease that may adversely affect gait or weight-bearing.\n* Patients who have previously undergone an ipsilateral hemi resurfacing, total resurfacing, total bipolar, unipolar or total hip replacement device, or any prior hip surgery or retained internal fixation.\n* Patients who are anticipated to require contralateral hip surgery in the next year\n* Patients with known disorders of bone metabolism, systemic inflammatory disorders, and use of drug medications, including oral steroids, HRT, Tamoxifen, calcium, or vitamin D in the past year, and any past bisphosphonate therapy.\n* Patients with a Body Mass Index (BMI) \\> 35\n* Patients with neuropathic joints\n* Patients with severe documented psychiatric disease\n* Patients requiring structural bone grafts\n* Patients with an ipsilateral girdlestone\n* Patients with sickle cell disease\n* Patients with major acetabular bone stock deficiency",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "74 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Bone Mineral Density",
+        "description": "To prospectively evaluate bone mineral density adjacent to the femoral component and femoral bone remodeling for the 2 groups. Bone mineral density was assessed using high-sensitivity dual x-ray absorptiometry region-free analysis (DXA-RFA). Mean number of pixels with change with significant BMD decrease.",
+        "timeFrame": "2 Years Post-operative"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Comparison of Bone Turnover Markers Between Groups",
+        "description": "Biochemical markers of bone turnover will be assessed from morning-fasting serum samples and compared from baseline to 2-years post-operative.",
+        "timeFrame": "2 Years post-operative"
+      },
+      {
+        "measure": "Implant Migration",
+        "description": "Stem and cup migration will be assessed using radiographic images at baseline and 2-years post-operative.",
+        "timeFrame": "2 years post-operative"
+      },
+      {
+        "measure": "Change in Modified Harris Hip Score",
+        "description": "The change from baseline to 2-years post-operative on the Modified Harris Hip Score (mHHS). The mHHS assesses a patient's functional outcome and pain. The maximum score is 100 and the lowest is 0. A higher score is indicative of better outcomes and lower pain levels.",
+        "timeFrame": "2 Years post-operative"
+      },
+      {
+        "measure": "Change in SF-36 Score",
+        "description": "The change from baseline to 2-years post-operative on the SF-36 score: a quality of-life measure. The score consists of 36 questions separated into 8 concepts. These outcomes will be grouped as physical component summary and mental component summary. The norm data is 0-100. The health related quality of life is increases as the scores are increased. The average score is 50.",
+        "timeFrame": "2 Years post-operative"
+      },
+      {
+        "measure": "Change in WOMAC Questionnaire",
+        "description": "The change from baseline to 2-years post-operative on the Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC). The WOMAC score consists of 24 items, separated into 3 subscales. Each question is scored on a scale of 0 to 4, with a possible score range of 0-20 for pain, 0-8 for stiffness, and 0-68 for physical function. The scores of each subscale are summed to give a total score. Higher scores are indicative of worse pain, stiffness and functional limitations.",
+        "timeFrame": "2 Years post-operative"
+      },
+      {
+        "measure": "Change in UCLA Activity Scale",
+        "description": "The change from baseline to 2-years post-operative on the UCLA Activity score. The UCLA activity scale is a 10 point scale evaluating a patients activity level. The possible score range is from 0-10. A low value is indicative of sedentary or inactivity, whereas a high score is indicative of high levels of activity.",
+        "timeFrame": "2 Years post-operatively"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:54.172Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

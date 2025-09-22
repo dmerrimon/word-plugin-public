@@ -1,0 +1,1192 @@
+{
+  "metadata": {
+    "generationDate": "2025-09-22T04:51:58.119Z",
+    "totalProtocols": 2439,
+    "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection",
+    "methodology": "Statistical analysis of real protocol documents",
+    "reliability": "HIGH - Large sample size with verified data"
+  },
+  "phaseBasedBenchmarks": {
+    "Phase 1": {
+      "sampleSize": {
+        "median": 31,
+        "mean": 100,
+        "range": {
+          "min": 1,
+          "max": 7192
+        },
+        "p25": 14,
+        "p75": 67,
+        "p90": 165,
+        "p95": 300,
+        "count": 287
+      },
+      "studyDuration": {
+        "median": 26,
+        "mean": 33,
+        "range": {
+          "min": 1,
+          "max": 118
+        },
+        "p25": 12,
+        "p75": 47,
+        "p90": 74,
+        "p95": 84,
+        "count": 277
+      },
+      "complexityScore": {
+        "median": 64,
+        "mean": 67,
+        "range": {
+          "min": 14,
+          "max": 100
+        },
+        "p25": 42,
+        "p75": 100,
+        "p90": 100,
+        "p95": 100,
+        "count": 275
+      },
+      "eligibilityCriteria": {
+        "median": 23,
+        "mean": 27,
+        "range": {
+          "min": 4,
+          "max": 84
+        },
+        "p25": 15,
+        "p75": 36,
+        "p90": 51,
+        "p95": 58,
+        "count": 287
+      },
+      "primaryEndpoints": {
+        "median": 2,
+        "mean": 4,
+        "range": {
+          "min": 1,
+          "max": 42
+        },
+        "p25": 1,
+        "p75": 4,
+        "p90": 12,
+        "p95": 18,
+        "count": 287
+      },
+      "secondaryEndpoints": {
+        "median": 5,
+        "mean": 10,
+        "range": {
+          "min": 1,
+          "max": 131
+        },
+        "p25": 2,
+        "p75": 11,
+        "p90": 19,
+        "p95": 42,
+        "count": 243
+      },
+      "totalEndpoints": {
+        "median": 6,
+        "mean": 13,
+        "range": {
+          "min": 1,
+          "max": 171
+        },
+        "p25": 3,
+        "p75": 14,
+        "p90": 26,
+        "p95": 50,
+        "count": 287
+      },
+      "sampleCount": 287
+    },
+    "Phase 2": {
+      "sampleSize": {
+        "median": 54,
+        "mean": 192,
+        "range": {
+          "min": 1,
+          "max": 11942
+        },
+        "p25": 22,
+        "p75": 156,
+        "p90": 351,
+        "p95": 581,
+        "count": 671
+      },
+      "studyDuration": {
+        "median": 32,
+        "mean": 39,
+        "range": {
+          "min": 0,
+          "max": 118
+        },
+        "p25": 17,
+        "p75": 56,
+        "p90": 79,
+        "p95": 91,
+        "count": 633
+      },
+      "complexityScore": {
+        "median": 64,
+        "mean": 65,
+        "range": {
+          "min": 10,
+          "max": 100
+        },
+        "p25": 44,
+        "p75": 99,
+        "p90": 100,
+        "p95": 100,
+        "count": 645
+      },
+      "eligibilityCriteria": {
+        "median": 21,
+        "mean": 25,
+        "range": {
+          "min": 2,
+          "max": 90
+        },
+        "p25": 14,
+        "p75": 32,
+        "p90": 46,
+        "p95": 51,
+        "count": 673
+      },
+      "primaryEndpoints": {
+        "median": 1,
+        "mean": 3,
+        "range": {
+          "min": 1,
+          "max": 80
+        },
+        "p25": 1,
+        "p75": 2,
+        "p90": 5,
+        "p95": 11,
+        "count": 673
+      },
+      "secondaryEndpoints": {
+        "median": 5,
+        "mean": 7,
+        "range": {
+          "min": 1,
+          "max": 64
+        },
+        "p25": 3,
+        "p75": 10,
+        "p90": 15,
+        "p95": 18,
+        "count": 595
+      },
+      "totalEndpoints": {
+        "median": 7,
+        "mean": 9,
+        "range": {
+          "min": 1,
+          "max": 80
+        },
+        "p25": 3,
+        "p75": 12,
+        "p90": 19,
+        "p95": 25,
+        "count": 673
+      },
+      "sampleCount": 673
+    },
+    "Phase 3": {
+      "sampleSize": {
+        "median": 413,
+        "mean": 1002,
+        "range": {
+          "min": 1,
+          "max": 30415
+        },
+        "p25": 142,
+        "p75": 933,
+        "p90": 1714,
+        "p95": 3790,
+        "count": 431
+      },
+      "studyDuration": {
+        "median": 28,
+        "mean": 34,
+        "range": {
+          "min": 1,
+          "max": 114
+        },
+        "p25": 17,
+        "p75": 50,
+        "p90": 68,
+        "p95": 81,
+        "count": 419
+      },
+      "complexityScore": {
+        "median": 79,
+        "mean": 75,
+        "range": {
+          "min": 14,
+          "max": 100
+        },
+        "p25": 54,
+        "p75": 100,
+        "p90": 100,
+        "p95": 100,
+        "count": 410
+      },
+      "eligibilityCriteria": {
+        "median": 16,
+        "mean": 19,
+        "range": {
+          "min": 3,
+          "max": 68
+        },
+        "p25": 11,
+        "p75": 25,
+        "p90": 34,
+        "p95": 40,
+        "count": 431
+      },
+      "primaryEndpoints": {
+        "median": 1,
+        "mean": 2,
+        "range": {
+          "min": 1,
+          "max": 50
+        },
+        "p25": 1,
+        "p75": 2,
+        "p90": 5,
+        "p95": 7,
+        "count": 431
+      },
+      "secondaryEndpoints": {
+        "median": 7,
+        "mean": 11,
+        "range": {
+          "min": 1,
+          "max": 208
+        },
+        "p25": 3,
+        "p75": 13,
+        "p90": 22,
+        "p95": 36,
+        "count": 397
+      },
+      "totalEndpoints": {
+        "median": 9,
+        "mean": 12,
+        "range": {
+          "min": 1,
+          "max": 209
+        },
+        "p25": 4,
+        "p75": 14,
+        "p90": 24,
+        "p95": 38,
+        "count": 431
+      },
+      "sampleCount": 431
+    },
+    "Phase 4": {
+      "sampleSize": {
+        "median": 89,
+        "mean": 513,
+        "range": {
+          "min": 1,
+          "max": 54115
+        },
+        "p25": 32,
+        "p75": 258,
+        "p90": 479,
+        "p95": 985,
+        "count": 200
+      },
+      "studyDuration": {
+        "median": 27,
+        "mean": 31,
+        "range": {
+          "min": 2,
+          "max": 116
+        },
+        "p25": 17,
+        "p75": 40,
+        "p90": 64,
+        "p95": 73,
+        "count": 199
+      },
+      "complexityScore": {
+        "median": 64,
+        "mean": 65,
+        "range": {
+          "min": 14,
+          "max": 100
+        },
+        "p25": 44,
+        "p75": 94,
+        "p90": 100,
+        "p95": 100,
+        "count": 193
+      },
+      "eligibilityCriteria": {
+        "median": 15,
+        "mean": 18,
+        "range": {
+          "min": 4,
+          "max": 72
+        },
+        "p25": 11,
+        "p75": 23,
+        "p90": 33,
+        "p95": 35,
+        "count": 200
+      },
+      "primaryEndpoints": {
+        "median": 1,
+        "mean": 2,
+        "range": {
+          "min": 1,
+          "max": 30
+        },
+        "p25": 1,
+        "p75": 2,
+        "p90": 5,
+        "p95": 7,
+        "count": 200
+      },
+      "secondaryEndpoints": {
+        "median": 5,
+        "mean": 9,
+        "range": {
+          "min": 1,
+          "max": 189
+        },
+        "p25": 3,
+        "p75": 11,
+        "p90": 17,
+        "p95": 23,
+        "count": 163
+      },
+      "totalEndpoints": {
+        "median": 6,
+        "mean": 9,
+        "range": {
+          "min": 1,
+          "max": 190
+        },
+        "p25": 3,
+        "p75": 12,
+        "p90": 17,
+        "p95": 25,
+        "count": 200
+      },
+      "sampleCount": 200
+    },
+    "N/A": {
+      "sampleSize": {
+        "median": 66,
+        "mean": 739,
+        "range": {
+          "min": 1,
+          "max": 94321
+        },
+        "p25": 30,
+        "p75": 182,
+        "p90": 510,
+        "p95": 1145,
+        "count": 741
+      },
+      "studyDuration": {
+        "median": 24,
+        "mean": 31,
+        "range": {
+          "min": 0,
+          "max": 119
+        },
+        "p25": 12,
+        "p75": 42,
+        "p90": 67,
+        "p95": 81,
+        "count": 729
+      },
+      "complexityScore": {
+        "median": 54,
+        "mean": 59,
+        "range": {
+          "min": 10,
+          "max": 100
+        },
+        "p25": 39,
+        "p75": 79,
+        "p90": 100,
+        "p95": 100,
+        "count": 711
+      },
+      "eligibilityCriteria": {
+        "median": 11,
+        "mean": 13,
+        "range": {
+          "min": 1,
+          "max": 71
+        },
+        "p25": 7,
+        "p75": 16,
+        "p90": 24,
+        "p95": 30,
+        "count": 746
+      },
+      "primaryEndpoints": {
+        "median": 1,
+        "mean": 2,
+        "range": {
+          "min": 1,
+          "max": 40
+        },
+        "p25": 1,
+        "p75": 2,
+        "p90": 4,
+        "p95": 7,
+        "count": 746
+      },
+      "secondaryEndpoints": {
+        "median": 4,
+        "mean": 6,
+        "range": {
+          "min": 1,
+          "max": 43
+        },
+        "p25": 2,
+        "p75": 8,
+        "p90": 13,
+        "p95": 17,
+        "count": 584
+      },
+      "totalEndpoints": {
+        "median": 5,
+        "mean": 7,
+        "range": {
+          "min": 1,
+          "max": 48
+        },
+        "p25": 3,
+        "p75": 9,
+        "p90": 14,
+        "p95": 20,
+        "count": 746
+      },
+      "sampleCount": 746
+    }
+  },
+  "therapeuticAreaAdjustments": {
+    "other": {
+      "sampleSize": {
+        "median": 94,
+        "mean": 729,
+        "range": {
+          "min": 1,
+          "max": 98278
+        },
+        "p25": 32,
+        "p75": 300,
+        "p90": 967,
+        "p95": 1895,
+        "count": 1392
+      },
+      "studyDuration": {
+        "median": 24,
+        "mean": 30,
+        "range": {
+          "min": 0,
+          "max": 118
+        },
+        "p25": 12,
+        "p75": 43,
+        "p90": 66,
+        "p95": 77,
+        "count": 1352
+      },
+      "complexityScore": {
+        "median": 61,
+        "mean": 65,
+        "range": {
+          "min": 10,
+          "max": 100
+        },
+        "p25": 44,
+        "p75": 99,
+        "p90": 100,
+        "p95": 100,
+        "count": 1349
+      },
+      "eligibilityCriteria": {
+        "median": 13,
+        "mean": 16,
+        "range": {
+          "min": 1,
+          "max": 90
+        },
+        "p25": 8,
+        "p75": 22,
+        "p90": 32,
+        "p95": 39,
+        "count": 1400
+      },
+      "primaryEndpoints": {
+        "median": 1,
+        "mean": 3,
+        "range": {
+          "min": 1,
+          "max": 80
+        },
+        "p25": 1,
+        "p75": 3,
+        "p90": 5,
+        "p95": 8,
+        "count": 1398
+      },
+      "secondaryEndpoints": {
+        "median": 5,
+        "mean": 8,
+        "range": {
+          "min": 1,
+          "max": 208
+        },
+        "p25": 2,
+        "p75": 10,
+        "p90": 17,
+        "p95": 23,
+        "count": 1167
+      },
+      "totalEndpoints": {
+        "median": 6,
+        "mean": 10,
+        "range": {
+          "min": 1,
+          "max": 209
+        },
+        "p25": 3,
+        "p75": 12,
+        "p90": 19,
+        "p95": 26,
+        "count": 1398
+      },
+      "sampleCount": 1400
+    },
+    "oncology": {
+      "sampleSize": {
+        "median": 48,
+        "mean": 168,
+        "range": {
+          "min": 1,
+          "max": 4446
+        },
+        "p25": 16,
+        "p75": 172,
+        "p90": 410,
+        "p95": 800,
+        "count": 321
+      },
+      "studyDuration": {
+        "median": 49,
+        "mean": 52,
+        "range": {
+          "min": 0,
+          "max": 119
+        },
+        "p25": 29,
+        "p75": 71,
+        "p90": 92,
+        "p95": 106,
+        "count": 288
+      },
+      "complexityScore": {
+        "median": 49,
+        "mean": 55,
+        "range": {
+          "min": 10,
+          "max": 100
+        },
+        "p25": 34,
+        "p75": 75,
+        "p90": 100,
+        "p95": 100,
+        "count": 302
+      },
+      "eligibilityCriteria": {
+        "median": 23,
+        "mean": 25,
+        "range": {
+          "min": 4,
+          "max": 78
+        },
+        "p25": 14,
+        "p75": 34,
+        "p90": 47,
+        "p95": 54,
+        "count": 321
+      },
+      "primaryEndpoints": {
+        "median": 1,
+        "mean": 2,
+        "range": {
+          "min": 1,
+          "max": 21
+        },
+        "p25": 1,
+        "p75": 2,
+        "p90": 4,
+        "p95": 6,
+        "count": 321
+      },
+      "secondaryEndpoints": {
+        "median": 5,
+        "mean": 7,
+        "range": {
+          "min": 1,
+          "max": 54
+        },
+        "p25": 3,
+        "p75": 8,
+        "p90": 12,
+        "p95": 18,
+        "count": 282
+      },
+      "totalEndpoints": {
+        "median": 6,
+        "mean": 8,
+        "range": {
+          "min": 1,
+          "max": 66
+        },
+        "p25": 3,
+        "p75": 10,
+        "p90": 15,
+        "p95": 18,
+        "count": 321
+      },
+      "sampleCount": 321
+    },
+    "endocrinology": {
+      "sampleSize": {
+        "median": 106,
+        "mean": 1427,
+        "range": {
+          "min": 1,
+          "max": 94321
+        },
+        "p25": 25,
+        "p75": 291,
+        "p90": 653,
+        "p95": 1103,
+        "count": 86
+      },
+      "studyDuration": {
+        "median": 26,
+        "mean": 28,
+        "range": {
+          "min": 2,
+          "max": 110
+        },
+        "p25": 17,
+        "p75": 37,
+        "p90": 48,
+        "p95": 67,
+        "count": 85
+      },
+      "complexityScore": {
+        "median": 59,
+        "mean": 65,
+        "range": {
+          "min": 24,
+          "max": 100
+        },
+        "p25": 39,
+        "p75": 94,
+        "p90": 100,
+        "p95": 100,
+        "count": 80
+      },
+      "eligibilityCriteria": {
+        "median": 15,
+        "mean": 15,
+        "range": {
+          "min": 4,
+          "max": 47
+        },
+        "p25": 7,
+        "p75": 20,
+        "p90": 28,
+        "p95": 34,
+        "count": 87
+      },
+      "primaryEndpoints": {
+        "median": 1,
+        "mean": 2,
+        "range": {
+          "min": 1,
+          "max": 10
+        },
+        "p25": 1,
+        "p75": 2,
+        "p90": 2,
+        "p95": 3,
+        "count": 87
+      },
+      "secondaryEndpoints": {
+        "median": 6,
+        "mean": 10,
+        "range": {
+          "min": 1,
+          "max": 60
+        },
+        "p25": 2,
+        "p75": 12,
+        "p90": 25,
+        "p95": 33,
+        "count": 70
+      },
+      "totalEndpoints": {
+        "median": 5,
+        "mean": 10,
+        "range": {
+          "min": 1,
+          "max": 61
+        },
+        "p25": 3,
+        "p75": 12,
+        "p90": 22,
+        "p95": 28,
+        "count": 87
+      },
+      "sampleCount": 87
+    },
+    "neurology": {
+      "sampleSize": {
+        "median": 68,
+        "mean": 447,
+        "range": {
+          "min": 1,
+          "max": 47396
+        },
+        "p25": 30,
+        "p75": 242,
+        "p90": 541,
+        "p95": 852,
+        "count": 188
+      },
+      "studyDuration": {
+        "median": 35,
+        "mean": 39,
+        "range": {
+          "min": 1,
+          "max": 109
+        },
+        "p25": 24,
+        "p75": 51,
+        "p90": 70,
+        "p95": 86,
+        "count": 186
+      },
+      "complexityScore": {
+        "median": 59,
+        "mean": 67,
+        "range": {
+          "min": 10,
+          "max": 100
+        },
+        "p25": 49,
+        "p75": 99,
+        "p90": 100,
+        "p95": 100,
+        "count": 181
+      },
+      "eligibilityCriteria": {
+        "median": 15,
+        "mean": 17,
+        "range": {
+          "min": 1,
+          "max": 61
+        },
+        "p25": 10,
+        "p75": 21,
+        "p90": 33,
+        "p95": 41,
+        "count": 189
+      },
+      "primaryEndpoints": {
+        "median": 1,
+        "mean": 3,
+        "range": {
+          "min": 1,
+          "max": 50
+        },
+        "p25": 1,
+        "p75": 3,
+        "p90": 4,
+        "p95": 9,
+        "count": 189
+      },
+      "secondaryEndpoints": {
+        "median": 4,
+        "mean": 7,
+        "range": {
+          "min": 1,
+          "max": 45
+        },
+        "p25": 2,
+        "p75": 9,
+        "p90": 17,
+        "p95": 26,
+        "count": 160
+      },
+      "totalEndpoints": {
+        "median": 6,
+        "mean": 9,
+        "range": {
+          "min": 1,
+          "max": 60
+        },
+        "p25": 3,
+        "p75": 10,
+        "p90": 20,
+        "p95": 28,
+        "count": 189
+      },
+      "sampleCount": 189
+    },
+    "infectious_disease": {
+      "sampleSize": {
+        "median": 184,
+        "mean": 1203,
+        "range": {
+          "min": 1,
+          "max": 80452
+        },
+        "p25": 63,
+        "p75": 600,
+        "p90": 1677,
+        "p95": 3038,
+        "count": 235
+      },
+      "studyDuration": {
+        "median": 18,
+        "mean": 26,
+        "range": {
+          "min": 1,
+          "max": 101
+        },
+        "p25": 11,
+        "p75": 35,
+        "p90": 59,
+        "p95": 73,
+        "count": 239
+      },
+      "complexityScore": {
+        "median": 84,
+        "mean": 75,
+        "range": {
+          "min": 14,
+          "max": 100
+        },
+        "p25": 54,
+        "p75": 100,
+        "p90": 100,
+        "p95": 100,
+        "count": 220
+      },
+      "eligibilityCriteria": {
+        "median": 21,
+        "mean": 23,
+        "range": {
+          "min": 2,
+          "max": 84
+        },
+        "p25": 10,
+        "p75": 31,
+        "p90": 44,
+        "p95": 53,
+        "count": 240
+      },
+      "primaryEndpoints": {
+        "median": 2,
+        "mean": 5,
+        "range": {
+          "min": 1,
+          "max": 42
+        },
+        "p25": 1,
+        "p75": 5,
+        "p90": 12,
+        "p95": 15,
+        "count": 240
+      },
+      "secondaryEndpoints": {
+        "median": 6,
+        "mean": 9,
+        "range": {
+          "min": 1,
+          "max": 68
+        },
+        "p25": 3,
+        "p75": 12,
+        "p90": 18,
+        "p95": 25,
+        "count": 199
+      },
+      "totalEndpoints": {
+        "median": 10,
+        "mean": 12,
+        "range": {
+          "min": 1,
+          "max": 73
+        },
+        "p25": 4,
+        "p75": 16,
+        "p90": 25,
+        "p95": 30,
+        "count": 240
+      },
+      "sampleCount": 240
+    },
+    "psychiatry": {
+      "sampleSize": {
+        "median": 83,
+        "mean": 445,
+        "range": {
+          "min": 8,
+          "max": 7505
+        },
+        "p25": 32,
+        "p75": 280,
+        "p90": 816,
+        "p95": 1582,
+        "count": 60
+      },
+      "studyDuration": {
+        "median": 22,
+        "mean": 26,
+        "range": {
+          "min": 3,
+          "max": 103
+        },
+        "p25": 13,
+        "p75": 31,
+        "p90": 51,
+        "p95": 67,
+        "count": 60
+      },
+      "complexityScore": {
+        "median": 64,
+        "mean": 62,
+        "range": {
+          "min": 14,
+          "max": 100
+        },
+        "p25": 44,
+        "p75": 84,
+        "p90": 100,
+        "p95": 100,
+        "count": 57
+      },
+      "eligibilityCriteria": {
+        "median": 12,
+        "mean": 14,
+        "range": {
+          "min": 4,
+          "max": 41
+        },
+        "p25": 7,
+        "p75": 16,
+        "p90": 22,
+        "p95": 36,
+        "count": 60
+      },
+      "primaryEndpoints": {
+        "median": 1,
+        "mean": 2,
+        "range": {
+          "min": 1,
+          "max": 11
+        },
+        "p25": 1,
+        "p75": 2,
+        "p90": 5,
+        "p95": 7,
+        "count": 60
+      },
+      "secondaryEndpoints": {
+        "median": 3,
+        "mean": 6,
+        "range": {
+          "min": 1,
+          "max": 43
+        },
+        "p25": 1,
+        "p75": 8,
+        "p90": 13,
+        "p95": 19,
+        "count": 49
+      },
+      "totalEndpoints": {
+        "median": 5,
+        "mean": 7,
+        "range": {
+          "min": 1,
+          "max": 48
+        },
+        "p25": 3,
+        "p75": 8,
+        "p90": 14,
+        "p95": 19,
+        "count": 60
+      },
+      "sampleCount": 60
+    },
+    "cardiology": {
+      "sampleSize": {
+        "median": 80,
+        "mean": 1717,
+        "range": {
+          "min": 2,
+          "max": 51690
+        },
+        "p25": 33,
+        "p75": 343,
+        "p90": 4500,
+        "p95": 6263,
+        "count": 140
+      },
+      "studyDuration": {
+        "median": 32,
+        "mean": 37,
+        "range": {
+          "min": 1,
+          "max": 103
+        },
+        "p25": 16,
+        "p75": 50,
+        "p90": 73,
+        "p95": 95,
+        "count": 142
+      },
+      "complexityScore": {
+        "median": 59,
+        "mean": 60,
+        "range": {
+          "min": 14,
+          "max": 100
+        },
+        "p25": 39,
+        "p75": 79,
+        "p90": 99,
+        "p95": 100,
+        "count": 134
+      },
+      "eligibilityCriteria": {
+        "median": 13,
+        "mean": 15,
+        "range": {
+          "min": 2,
+          "max": 53
+        },
+        "p25": 8,
+        "p75": 19,
+        "p90": 32,
+        "p95": 36,
+        "count": 142
+      },
+      "primaryEndpoints": {
+        "median": 1,
+        "mean": 2,
+        "range": {
+          "min": 1,
+          "max": 41
+        },
+        "p25": 1,
+        "p75": 2,
+        "p90": 4,
+        "p95": 4,
+        "count": 142
+      },
+      "secondaryEndpoints": {
+        "median": 5,
+        "mean": 7,
+        "range": {
+          "min": 1,
+          "max": 49
+        },
+        "p25": 3,
+        "p75": 8,
+        "p90": 12,
+        "p95": 14,
+        "count": 101
+      },
+      "totalEndpoints": {
+        "median": 5,
+        "mean": 7,
+        "range": {
+          "min": 1,
+          "max": 90
+        },
+        "p25": 3,
+        "p75": 8,
+        "p90": 13,
+        "p95": 15,
+        "count": 142
+      },
+      "sampleCount": 142
+    }
+  },
+  "overallStatistics": {
+    "totalProtocols": 2439,
+    "phaseDistribution": {
+      "Phase 1": 287,
+      "Phase 2": 557,
+      "Phase 3": 383,
+      "Phase 4": 200,
+      "N/A": 1012
+    },
+    "therapeuticAreaDistribution": {
+      "other": 1400,
+      "oncology": 321,
+      "endocrinology": 87,
+      "neurology": 189,
+      "infectious_disease": 240,
+      "psychiatry": 60,
+      "cardiology": 142
+    },
+    "yearDistribution": {
+      "2002": 1,
+      "2003": 3,
+      "2004": 2,
+      "2005": 4,
+      "2006": 9,
+      "2007": 7,
+      "2008": 13,
+      "2009": 12,
+      "2010": 21,
+      "2011": 35,
+      "2012": 40,
+      "2013": 75,
+      "2014": 102,
+      "2015": 178,
+      "2016": 262,
+      "2017": 267,
+      "2018": 264,
+      "2019": 248,
+      "2020": 321,
+      "2021": 215,
+      "2022": 159,
+      "2023": 93,
+      "2024": 50,
+      "2025": 54
+    },
+    "enrollmentTypeDistribution": {},
+    "studyTypeDistribution": {
+      "INTERVENTIONAL": 2175,
+      "OBSERVATIONAL": 262,
+      "EXPANDED_ACCESS": 2
+    }
+  }
+}

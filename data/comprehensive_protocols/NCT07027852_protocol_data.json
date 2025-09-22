@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT07027852",
+  "briefTitle": "My Lung Health Coach-A Virtual COPD Self-management Support Program Integrated Into the Electronic Patient Record",
+  "officialTitle": "My Lung Health Coach-A Virtual COPD Self-management Support Program Integrated Into the Electronic Patient Record",
+  "protocolDocument": {
+    "nctId": "NCT07027852",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2024-05-28",
+    "uploadDate": "2024-12-04T15:02",
+    "size": 547248,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07027852/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-01-15",
+    "completionDate": "2026-06-05",
+    "primaryCompletionDate": "2025-10-01",
+    "firstSubmitDate": "2025-01-13",
+    "firstPostDate": "2025-06-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Must be deemed to have capacity to provide informed consent;\n2. Must sign and date the informed consent form;\n3. Stated willingness to comply with all study procedures;\n4. Be diagnosed with COPD as per a WCH Respirologist\n5. Be 40 years or older\n6. Be a current or ex-smoker\n7. Preferred but not required: have a history of at least 1 COPD exacerbation (requiring prednisone or antibiotic use, or an urgent healthcare visit of any kind) in the previous 12 months\n\nExclusion Criteria:\n\n1. Experienced a COPD exacerbation in the 4 previous weeks to study enrollment\n2. Co-diagnosis of asthma by a WCH Respirologist\n3. Significant co-morbidities that could interfere with program participation or terminal illness\n4. Unwilling to download and use the Epic Care Companion app and has a unsuitable mobile device to do this\n5. Pregnancy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Feasibility (system use): Number of patients who started program over total offered, over one year.",
+        "description": "Number of patients who started program over total offered for one year.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Feasibility (system use): Number of patients who completed program over total started, over one year.",
+        "description": "Number of patients who completed program over total started for one year.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Feasibility (system use): Number of providers who referred patients to the program over total Number of providers, over approximately one year.",
+        "description": "Number of providers who referred patients to the program over total Number of providers, over approximately one year.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Effectiveness (clinical outcomes): Number of COPD-related outpatient visits",
+        "description": "Number of COPD-related outpatient visits",
+        "timeFrame": "outcomes will be collected prior to program commencement, at program completion (3 month), and at 6-month follow-up."
+      },
+      {
+        "measure": "Effectiveness (clinical outcomes): Hospital admissions",
+        "description": "Hospital admissions",
+        "timeFrame": "outcomes will be collected prior to program commencement, at program completion (3 month), and at 6-month follow-up."
+      },
+      {
+        "measure": "Effectiveness (clinical outcomes): ED visits",
+        "description": "ED visits",
+        "timeFrame": "outcomes will be collected prior to program commencement, at program completion (3 month), and at 6-month follow-up."
+      },
+      {
+        "measure": "Effectiveness (clinical outcomes): ICU admissions (at baseline will be over the previous 12 months)",
+        "description": "ICU admissions (at baseline will be over the previous 12 months)",
+        "timeFrame": "outcomes will be collected prior to program commencement, at program completion (3 month), and at 6-month follow-up."
+      },
+      {
+        "measure": "Effectiveness (clinical outcomes): COPD severity as measured by the COPD assessment test (CAT)",
+        "description": "COPD severity as measured by the COPD assessment test (CAT)",
+        "timeFrame": "outcomes will be collected prior to program commencement, at program completion (3 month), and at 6-month follow-up."
+      },
+      {
+        "measure": "Effectiveness (clinical outcomes): Medication",
+        "description": "Medication",
+        "timeFrame": "outcomes will be collected prior to program commencement, at program completion (3 month), and at 6-month follow-up."
+      },
+      {
+        "measure": "Effectiveness (clinical outcomes): Referrals: pulmonary rehab",
+        "description": "Referrals: pulmonary rehab",
+        "timeFrame": "outcomes will be collected prior to program commencement, at program completion (3 month), and at 6-month follow-up."
+      },
+      {
+        "measure": "Effectiveness (clinical outcomes): Referrals: smoking cessation counseling",
+        "description": "Referrals: smoking cessation counseling",
+        "timeFrame": "outcomes will be collected prior to program commencement, at program completion (3 month), and at 6-month follow-up."
+      },
+      {
+        "measure": "Effectiveness (clinical outcomes): Referrals: specialist care",
+        "description": "Referrals: specialist care",
+        "timeFrame": "outcomes will be collected prior to program commencement, at program completion (3 month), and at 6-month follow-up."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 12,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:26.664Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

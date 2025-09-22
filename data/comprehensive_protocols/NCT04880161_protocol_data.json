@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04880161",
+  "briefTitle": "A Study to Evaluate Ampion in Patients With Prolonged Respiratory Symptoms Due to COVID-19 (Long COVID)",
+  "officialTitle": "A Randomized, Double-Blinded, Placebo-Controlled Phase I Study to Evaluate the Safety and Efficacy of Ampion in Patients With Prolonged Respiratory Symptoms Due to COVID-19 (Long COVID)",
+  "protocolDocument": {
+    "nctId": "NCT04880161",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-05-15",
+    "uploadDate": "2022-08-10T10:26",
+    "size": 668868,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04880161/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 32,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-07-26",
+    "completionDate": "2022-02-21",
+    "primaryCompletionDate": "2021-12-22",
+    "firstSubmitDate": "2021-05-06",
+    "firstPostDate": "2021-05-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Male or female adults: ≥ 18 years.\n2. Must have a clinical diagnosis of COVID-19 at least 4 weeks prior to the screening date, with at least one of clinical symptoms (e.g., fever ≥ 38°C, fatigue, cough) and a positive result by the reverse-transcription polymerase chain reaction (RT-PCR) testing or equivalent.\n3. Experiencing at least two COVID-19 respiratory symptoms with a score of two or higher using the FDA Assessment of 14 Common COVID-19-Related Symptoms questionnaire for at least 4 weeks (28 days) after initial positive COVID-19 diagnosis: cough, sore throat, runny/stuffy nose, shortness of breath (difficulties breathing), tightness of chest, low exercise tolerance.\n4. Able to bear weight and ambulate a minimum of 10 meters distance.\n5. Women of childbearing potential and their partner must agree to use at least one highly effective method of contraception (e.g., hormonal contraceptives \\[implants, injectables, combination oral contraceptives, transdermal patches, or contraceptive rings\\], intrauterine devices, bilateral tubal occlusion, or sexual abstinence) for the duration of the study.\n6. Informed consent obtained from the patient or the patient's legal representative.\n\nExclusion Criteria:\n\n1. Subjects who require hospitalization.\n2. Patient has severe chronic obstructive or restrictive pulmonary disease (COPD) as defined by prior pulmonary function tests, chronic renal failure, or significant liver abnormality (e.g., cirrhosis, transplant, etc.).\n3. History of Chronic Fatigue Syndrome prior to COVID-19 infection.\n4. Patient is on chronic immunosuppressive medication.\n5. Patient requires surgery that could be life-threatening within the study window.\n6. A history of allergic reactions to human albumin (reaction to non-human albumin such as egg albumin is not an exclusion criterion) or ingredients in 5% human albumin (N-acetyl tryptophan, sodium caprylate).\n7. Patient has known pregnancy or is currently breastfeeding.\n8. Participation in a trial such that enrollment in this study would fall within the time frame of the half-life of the other investigational product(s).\n9. Clinically significant findings via electrocardiogram (ECG), including acute myocardial infarction, acute ischemic changes, atrial fibrillation, atrial flutter, paced rhythms in individuals who have undergone permanent pacemaker placement, evidence of prior infarction, unchanged stable conduction abnormalities e.g., right bundle branch block, or any other finding which does not significantly impact mortality.\n10. Pre-existing co-morbid condition(s) preventing outcome assessments, e.g. disease or condition that would prevent ability to transfer and walk for 6 minutes, prior to confirmed COVID-19 diagnosis (assisted walking devices are acceptable)\n11. As a result of the medical review and screening investigation, the Principal Investigator considers the patient unfit for the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Number of Participants With Treatment Emergent Adverse Events of Ampion Compared to Placebo",
+        "description": "Number of subjects with treatment emergent adverse events (TEAEs) and serious adverse events (SAEs) of treatment of inhalation Ampion compared to Placebo. AEs were assessed based on symptoms as a severity rating of mild, moderate, or severe. The relationship between AE and study drug was determined as either unrelated, possibly related, or related. SAEs are defined as resulting death, life threatening, requires prolonged hospitalization, results in persistent or significant disability/incapacity, or results in congenital anomaly/birth defect.",
+        "timeFrame": "Baseline to Day 28"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:37.271Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

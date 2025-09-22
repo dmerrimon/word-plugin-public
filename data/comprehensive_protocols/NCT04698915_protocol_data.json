@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04698915",
+  "briefTitle": "Phase 2b Study of GC4711 in Combination With SBRT for Nonmetastatic Pancreatic Cancer",
+  "officialTitle": "GRECO-2: A Randomized, Phase 2b Study of GC4711 in Combination With Stereotactic Body Radiation Therapy (SBRT) in the Treatment of Unresectable or Borderline Resectable Nonmetastatic Pancreatic Cancer",
+  "protocolDocument": {
+    "nctId": "NCT04698915",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-10-08",
+    "uploadDate": "2024-03-01T12:55",
+    "size": 4492673,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04698915/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 177,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-05-07",
+    "completionDate": "2023-11-30",
+    "primaryCompletionDate": "2023-11-30",
+    "firstSubmitDate": "2021-01-05",
+    "firstPostDate": "2021-01-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Histological or biopsy proven adenocarcinoma of the pancreas. Cytology is acceptable if histology cannot be obtained.\n2. Newly diagnosed non-metastatic PC judged by tumor board to be feasible for SBRT\n3. Completed at least 6 weeks of chemotherapy consisting of FOLFIRINOX, mFOLFIRINOX, or a gemcitabine-based doublet regimen prior to start of SBRT\n4. Remain non-metastatic as confirmed by a CT scan at screening.\n5. Female or male subjects ≥ 18 years of age\n6. ECOG performance status of 0-2\n7. Adequate end-organ function\n\nExclusion Criteria:\n\n1. Subjects with documented metastatic disease\n2. First-line chemotherapy other than FOLFIRINOX, mFOLFIRINOX, and/or a gemcitabine-based doublet regimen\n3. Prior abdominal RT with substantial overlap in radiation fields\n4. Subjects not recovered/controlled from treatment-related toxicities\n5. Uncontrolled malignancy other than PC\n6. Uncontrolled gastric or duodenal ulcer disease within 30 days of dosing\n7. Visible invasion of bulky tumor into the lumen of the bowel or stomach on endoscopy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Overall Survival",
+        "description": "Overall survival is defined as the time from randomization to the date of death from any cause. The number of subjects that have died during this time period is the reported outcome measure.",
+        "timeFrame": "From randomization of the first subject until 30 days post last dose of GC4711/ and SBRT for the last subject randomized to the study (total duration 2years and 6.5 months)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:55.006Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

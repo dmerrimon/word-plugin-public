@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT02896257",
+  "briefTitle": "De-implementing Inhaled Steroids to Improve Care and Safety in COPD",
+  "officialTitle": "De-implementing Inhaled Steroids to Improve Care and Safety in COPD (DISCUSS COPD) (QUE 15-471)",
+  "protocolDocument": {
+    "nctId": "NCT02896257",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-12-01",
+    "uploadDate": "2021-12-13T20:48",
+    "size": 1118355,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02896257/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 181,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-09-06",
+    "completionDate": "2021-06-30",
+    "primaryCompletionDate": "2019-07-29",
+    "firstSubmitDate": "2016-08-12",
+    "firstPostDate": "2016-09-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nProvider:\n\nPrimary care provider (medical doctor/osteopathic physician, nurse practitioner, physician assistant \\[MD/DO, NP, PA\\]) assigned to a PACT from VA Puget Sound Health Care System or Edith Nourse Rogers Memorial Veterans Hospital (Bedford VA).\n\nPatient:\n\n* Patient is a Veteran who is assigned a VA PCP and has received Rx for an inhaled corticosteroid within the past 180 days.\n* Patient has an inpatient or outpatient diagnosis of COPD in the prior two years.\n* Patient has undergone spirometry in the past 5 years that indicates either no airflow obstruction or mild to moderate airflow obstruction indicated by a forced expiratory volume 1 (FEV1)/\\[greater of forced vital capacity (FVC) or vital capacity (VC)\\] =\\< 0.7 \\& FEV1% predicted \\>= 30%.\n\nExclusion Criteria:\n\nPatients:\n\n* Very severe airflow obstruction (\\<30% FEV1 % predicted)\n* Severe disease as indicated by 1 inpatient COPD exacerbation in the year prior\n* Severe disease as indicated by 2 outpatient COPD exacerbations in the year prior\n* International Classification of Diseases (ICD) 9 and/or 10 diagnosed or clinically indicated asthmatics\n* Significant bronchodilator response on spirometry (\\>12% increase in FEV1 post bronchodilator; \\>375 mL post-bronchodilator improvement)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Patients With Discontinued or Expired and Not Renewed Inhaled Corticosteroids That Remain Off at 6 Months.",
+        "description": "Percentage of patients with discontinued or expired and not renewed inhaled corticosteroids that remain off at 6 months from index date.",
+        "timeFrame": "Assessed at 6 months post primary care visit defined as (index date + 180 days)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Rate of COPD Exacerbation",
+        "description": "Rate of COPD exacerbation within 6 months starting the day after index date.",
+        "timeFrame": "Within 6 months defined as (index date +1 day) to (index date + 180 days)"
+      },
+      {
+        "measure": "Rate of Pneumonia",
+        "description": "Rate of pneumonia within 6 months starting the day after index date.",
+        "timeFrame": "Within 6 months defined as (index date +1 day) to (index date + 180 days)"
+      },
+      {
+        "measure": "Mortality",
+        "description": "Mortality determined by the presence of date of death occurring between (index date + 1 day) to (index date + 180 days)",
+        "timeFrame": "Assessed during 6 months following primary care visit defined as (index date + 1 day) to (index date + 180 days)"
+      },
+      {
+        "measure": "Number of Patients Recommended to Stop Inhaled Corticosteroids",
+        "description": "Among patients of intervention PCPs, number of patients recommended to stop inhaled corticosteroids",
+        "timeFrame": "Collected at time of recommendation/order entry"
+      },
+      {
+        "measure": "Percentage of Recommendations to Discontinue Inhaled Corticosteroids Accepted by Primary Care Providers",
+        "description": "Among patients assigned to intervention PCPs, percentage of recommendations to discontinue inhaled corticosteroids accepted by primary care providers",
+        "timeFrame": "Assessed during 6 months following index date"
+      },
+      {
+        "measure": "Percentage of Patients Where ICS Discontinuation Recommendations Are Accepted But Restarted by 6 Months Following Index Date",
+        "description": "Percentage of patients where ICS discontinuation recommendations are accepted but restarted by 6 months following index date",
+        "timeFrame": "Assessed at 6 months post index date"
+      },
+      {
+        "measure": "Number of Patients for Whom Recommendations Are Made",
+        "description": "Among patients assigned to intervention providers, number of patients for whom recommendations are made.",
+        "timeFrame": "Collected at time or recommendation order entry"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:29.711Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

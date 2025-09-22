@@ -1,0 +1,119 @@
+{
+  "nctId": "NCT06955442",
+  "briefTitle": "Racial Disparities in Acute Stroke",
+  "officialTitle": "Analysis of Ethnic and Racial Disparities in Access to Acute Stroke Care in Italy: A Multicentric, Prospective Cohort Study",
+  "protocolDocument": {
+    "nctId": "NCT06955442",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-01-21",
+    "uploadDate": "2025-04-16T12:51",
+    "size": 441260,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06955442/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 4500,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-04-03",
+    "completionDate": "2027-01-15",
+    "primaryCompletionDate": "2026-10-15",
+    "firstSubmitDate": "2025-04-16",
+    "firstPostDate": "2025-05-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults (≥18 years old);\n* Admission to the Emergency Department of the participating center with a diagnosis of ischemic stroke, as defined by the International Classification of Diseases, 9th Revision (ICD-9) codes;\n* Signed informed consent provided by the patient or, in cases of impaired decision-making capacity, by their legal guardian/representative.\n\nExclusion Criteria:\n\n* Discharge diagnosis other than ischemic stroke;\n* Refusal to participate in the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Racial/ethnic disparities in the access to revascularization treatments",
+        "description": "Comparison of the likelihood of undergoing revascularization treatments among patients from different racial and/or ethnic groups.",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Racial/ethnic disparities in onset to door times",
+        "description": "Comparison of Onset-to-Door Time among patients from different racial and/or ethnic groups.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Racial/ethnic disparities in door to needle times",
+        "description": "Comparison of differences in Door-to-Needle Time (DTN) between patients from different racial and/or ethnic groups.",
+        "timeFrame": "From the time of ED admission at baseline to start of intravenous thrombolysis"
+      },
+      {
+        "measure": "Racial/ethnic disparities in door to groin times",
+        "description": "Comparison of differences in Door-to-Groin Time (DTG) between patients from different racial and/or ethnic groups.",
+        "timeFrame": "From the time of ED admission at baseline to femoral puncture for mechanical thrombectomy"
+      },
+      {
+        "measure": "Racial/ethnic differences in mode of emergency department arrival",
+        "description": "Comparison of ED arrival modes (walk-in vs emergency medical services) among patients from different racial and/or ethnic groups.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Racial/ethnic differences in the prevalence of cardiovascular risk factors",
+        "description": "Comparison of the prevalence of cerebrovascular risk factors among patients from different racial and/or ethnic groups.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Racial/ethnic differences in onset symptoms of stroke",
+        "description": "Comparison of stroke clinical presentation patterns among patients from different racial and/or ethnic groups.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Racial/ethnic differences in stroke pathogenesis",
+        "description": "Comparison of stroke etiologies, classified according to the Trial of Org 10172 in Acute Stroke Treatment (TOAST) criteria, among patients from different racial and/or ethnic groups.",
+        "timeFrame": "From enrollment to hospital discharge, up to 90-days from baseline"
+      },
+      {
+        "measure": "Racial/ethnic differences stroke outcome at discharge",
+        "description": "Comparison of discharge modified Rankin Scale (mRS) scores among patients from different racial and/or ethnic groups.",
+        "timeFrame": "From enrollment to hospital discharge, up to 90-days from baseline"
+      },
+      {
+        "measure": "Racial/ethnic differences in 3-month stroke outcome",
+        "description": "Comparison of 3-month modified Rankin Scale (mRS) scores after acute ischemic stroke among patients from different racial and/or ethnic groups.",
+        "timeFrame": "From enrollment to the 3-month follow-up visit"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:34.511Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

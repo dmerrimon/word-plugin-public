@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02585232",
+  "briefTitle": "Optimizing Dementia Care",
+  "officialTitle": "Optimizing Dementia Care Through Collaborative Recovery Interventions",
+  "protocolDocument": {
+    "nctId": "NCT02585232",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-08-13",
+    "uploadDate": "2021-06-02T14:52",
+    "size": 436803,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02585232/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 86,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-10-01",
+    "completionDate": "2020-10-22",
+    "primaryCompletionDate": "2020-08-05",
+    "firstSubmitDate": "2015-10-14",
+    "firstPostDate": "2015-10-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nVeterans:\n\n* Must be age 19 or older\n* Must have a diagnosis of dementia or a related disorder\n* Must live in the community (i.e. not in a VA Community Living Center, nursing home, or other facility)\n* Must cohabitate with a caregiver\n* Must have reliable access to a telephone\n* Must be willing to consent to participate or provide assent in conjunction with proxy consent if their decision-making capacity is compromised\n\nCaregivers:\n\n* Must be age 19 or older\n* Must self-identify as assisting with care for at least 8 hours/week\n* Must be willing to consent to participate\n\nExclusion Criteria:\n\nVeterans:\n\n* Currently incarcerated\n* Currently pregnant\n* Dyads experiencing low levels of distress\n\nCaregivers:\n\n* Currently incarcerated\n* Currently pregnant\n* Experiencing severe cognitive impairment that would impair their ability to communicate during an interview\n* Dyads experiencing low levels of distress",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "19 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Caregiver Burden Scores on the Zarit Caregiver Burden Inventory",
+        "description": "The Zarit Caregiver Burden Inventory is a measure of strain related to providing care for someone with dementia. Scores range from 0 to 48 with higher scores indicating more caregiver burden.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Change From Baseline in Relationship Cohesion on the Dyadic Adjustment Scale",
+        "description": "Relationship satisfaction and cohesion measure for spouses and partners in a romantic relationship. Scores range from 0 to 151, and higher scores indicate higher levels of relationship satisfaction. Not all caregivers were in a romantic relationship with the person with dementia, this scale was only administered to dyads who were married or partnered (e.g., adult children caregivers would not have received this measure).",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Change From Baseline in Quality of Life on the World Health Organization (WHO) Quality of Life Measure",
+        "description": "Change in shared pleasant events, social engagement, and quality of life is hypothesized to be greater in caregivers assigned to CC+C than in CC alone at 6 months. Scores range from 19 to 95, and higher scores indicate better quality of life.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Change From Baseline Depressive Symptoms on the Cornell Scale for Depression in Dementia",
+        "description": "Depression symptoms measure, scores range from 0 to 38 with higher scores indicating more depressive symptoms as rated by their caregiver.",
+        "timeFrame": "Baseline, 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number and Percentage of Veterans With Dementia in Long-term Care Facilities as Reported by the Caregivers at 12 Months",
+        "description": "Number and percentage of Veterans with dementia in long-term care facilities as reported by the caregivers at 12 months.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:39.642Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

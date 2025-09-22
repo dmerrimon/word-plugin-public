@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT02637609",
+  "briefTitle": "Measuring the Priorities of Patients With Type II Diabetes Using Likert Scale and Best-worst Scaling",
+  "officialTitle": "Advancing Stated-preference Methods for Measuring the Preferences of Patients With Type II Diabetes",
+  "protocolDocument": {
+    "nctId": "NCT02637609",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2014-09-26",
+    "uploadDate": "2024-12-12T10:33",
+    "size": 263494,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02637609/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 1103,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-07",
+    "completionDate": "2017-02",
+    "primaryCompletionDate": "2017-02",
+    "firstSubmitDate": "2015-11-18",
+    "firstPostDate": "2015-12-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participate in the GfK's KnowledgePanel\n* Self-reported Type II diabetes diagnosis\n\nExclusion Criteria:\n\n* Does not have Type II diabetes diagnosis\n* Unable to communicate in English or Spanish",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Priority Scores for Potential Barriers and Facilitators for Diabetes Self-management",
+        "description": "Average Likert score or best-worst score that measures the impact of each factor on diabetes self-management. Positive scores indicate facilitators for diabetes self-management while negative scores indicate barriers. The magnitude of the score suggests the degree of the impact. Both scales are on a +1--1 scale. Positive 1 would be the largest possible facilitator and a negative 1 would be the largest possible barrier.",
+        "timeFrame": "One-time survey"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Self-reported Difficulty in Understanding and Answering the Survey Questions",
+        "description": "Questions that asked respondents to evaluate whether it was easy to understand and answer the Likert scale or BWS tasks.",
+        "timeFrame": "One-time survey"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:02.805Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

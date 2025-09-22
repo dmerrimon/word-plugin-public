@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04141930",
+  "briefTitle": "Pilot of Cohort of Households for Influenza Monitoring and Evaluation in Seattle",
+  "officialTitle": "Pilot of Cohort of Households for Influenza Monitoring and Evaluation in Seattle (pCHIMES)",
+  "protocolDocument": {
+    "nctId": "NCT04141930",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-01-14",
+    "uploadDate": "2021-03-31T01:33",
+    "size": 523756,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04141930/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 481,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-11-01",
+    "completionDate": "2020-04-01",
+    "primaryCompletionDate": "2020-04-01",
+    "firstSubmitDate": "2019-10-23",
+    "firstPostDate": "2019-10-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Household Level:\n* Group of at least 3 individuals of any ages defined as at least 3 persons residing at the same address for at least 4 days per calendar week\n* Household group utilizes common household areas\n* At least 2 household members meeting all individual inclusion/exclusion criteria listed below and willing to participate (e.g. at least two members of the household are 12 years of age or older)\n* At least one member of the household has a smartphone\n* Individual Level: Drug Eligible\n* Resident of a household with 3 or more members (including eligible cases) for 4 or more days a calendar week\n* Age 12 years or older weighing at least 40 kg (greater than 88 pounds)\n* Willing and able to take study medication\n* Willing to comply with all study procedures\n* English-speaking\n* Able to provide written, informed consent and/or assent (if applicable)\n* Permanent mailing address that is available for study staff to mail necessary materials\n* Individual Level: Drug Ineligible\n* Resident of a household with 3 or more members (including eligible cases) for 4 or more days a calendar week\n* Willing to comply with all study procedures\n* English-speaking\n* Able to provide written, informed consent and/or assent (if applicable)\n\nExclusion Criteria:\n\n* Household Level:\n* Previous documentation of an influenza infection prior to or during the annual influenza season in any household member prior to enrollment\n* Individual Level:\n* Any serious or uncontrolled medical disorder or active infection that, in the opinion of the investigator, may increase the risk associated with study participation or study drug administration\n* Individuals with hypersensitivity to baloxavir\n* Individuals that already have a tele-health account\n* Any individual that has one or more of the following conditions:\n* Pregnant\n* Currently lactating\n* Immunosuppressed or immunocompromised (by disease or medication)\n* Cancer\n* Liver disease\n* Kidney disease",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "3 Months",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Initiate Antiviral Therapy Within 48 Hours of Symptom Onset",
+        "description": "Among symptomatic participants, this outcome measure will be calculated by determining the number of home influenza test-positive, drug eligible participants that were prescribed and rapidly delivered baloxavir by the study within 48 hours of symptom onset.",
+        "timeFrame": "Up to 48 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Home Influenza Tests Confirmed by Laboratory Testing",
+        "description": "Proportion of individuals who test positive for influenza using the home-based influenza test compared to the number of individuals that test positive for influenza via a PCR laboratory test",
+        "timeFrame": "Up to 48 hours"
+      },
+      {
+        "measure": "Delivered Antivirals Within 48 Hours of Symptom Onset",
+        "description": "Proportion of individuals who are delivered antivirals within 48 hours of symptom onset. Only drug eligible study participants prescribed an antiviral",
+        "timeFrame": "Up to 48 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:32.993Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

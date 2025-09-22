@@ -1,0 +1,111 @@
+{
+  "nctId": "NCT05042063",
+  "briefTitle": "Acoustic Cough Monitoring for the Management of Patients With Known Respiratory Disease",
+  "officialTitle": "Acoustic Cough Monitoring for the Management of Patients With Known Respiratory Disease",
+  "protocolDocument": {
+    "nctId": "NCT05042063",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-04",
+    "uploadDate": "2021-11-04T04:56",
+    "size": 531385,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05042063/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2021-09-15",
+    "completionDate": "2026-09-15",
+    "primaryCompletionDate": "2022-04-15",
+    "firstSubmitDate": "2021-09-02",
+    "firstPostDate": "2021-09-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nFor participants in the main study group\n\n* Outpatient or inpatients at the Clinical Universidad de Navarra with a complaint of cough.\n* The patient or his/her legal representative, have given consent to participate in the study.\n\nFor participants in the sub-study groups:\n\n* Being 18 years or older.\n* Providing consent for the sub-study\n\nExclusion Criteria:\n\n* Inability to accept the privacy policy and terms of use of Hyfe.\n* Lack of access to a Wi-Fi network at the site of residence (for the main study group).\n* Unwillingness to regularly use the cough-surveillance system throughout the monitoring period",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Correlation between subjective perception of cough and objective frequency",
+        "description": "The daily VAS score of participants will be compared to the cough frequency registered by the cough surveillance system. These data will be used to fit a linear regression model to compare self-reported VAS scores to daily cough frequency and calculate a correlation coefficient (r).",
+        "timeFrame": "6 months."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Sensitivity of the system discriminating coughs",
+        "description": "The sensitivity of Hyfe for the discrimination of coughs from other explosive sounds will be compared to that of trained human listeners. Sensitivity will be reported as the proportion of sounds correctly identified as coughs (true positives), from the total cough sounds produced (true positives + false negatives).",
+        "timeFrame": "6 months."
+      },
+      {
+        "measure": "Specificity of the system discriminating coughs",
+        "description": "The specificity of Hyfe for the discrimination of coughs from other explosive sounds will be compared to that of trained human listeners. Specificity will be defined as the proportion of non-cough sounds correctly identified by the system (true negatives) from the total non-cough sounds produced (true negatives + false positives)",
+        "timeFrame": "6 months."
+      },
+      {
+        "measure": "Positive predictive value (PPV) of the system discriminating coughs",
+        "description": "The PPV of Hyfe for the discrimination of coughs from other explosive sounds will be compared to that of trained human listeners. PPV will be defined as the proportion of cough sounds correctly identified by the system (true positives) from the total sounds labelled as coughs (true positives + false positives).",
+        "timeFrame": "6 months."
+      },
+      {
+        "measure": "Negative predictive value (NPV) of the system discriminating coughs",
+        "description": "The NPV of Hyfe for the discrimination of coughs from other explosive sounds will be compared to that of trained human listeners. NPV will be defined as the proportion of non-cough sounds correctly identified by the system (true negatives) from the total of sounds labelled as non-coughs (true negatives+ false negatives).",
+        "timeFrame": "6 months."
+      },
+      {
+        "measure": "Construction of an annotated cough dataset",
+        "description": "Cough registries of participants with an etiologic diagnosis will be annotated and stored to create a dataset that can be used for further algorithm training and refinement.",
+        "timeFrame": "5 years."
+      },
+      {
+        "measure": "Sensitivity of the system differentiating coughs caused by different conditions",
+        "description": "The records obtained from participants for which an etiologic diagnosis is reached before the end of the study will be analysed to detect differential acoustic patterns, which will in turn be used to train the system's convolutional neural network to perform respiratory disease cough classification. The performance of this system will be retrospectively evaluated by determining its sensitivity for the diagnosis of different respiratory conditions, compared to clinical diagnoses made by a physician. Sensitivity will be defined as the proportion of participants in which Hyfe reaches a correct diagnoses based on cough acoustic patterns (true positives) from the total number of participants diagnosed with a certain condition (true positives + false negatives).",
+        "timeFrame": "5 years."
+      },
+      {
+        "measure": "Specificity of the system differentiating coughs caused by different conditions",
+        "description": "The records obtained from participants for which an etiologic diagnosis is reached before the end of the study will be analysed to detect differential acoustic patterns, which will in turn be used to train the system's convolutional neural network to perform respiratory disease cough classification. The performance of this system will be retrospectively evaluated by determining its specificity for the diagnosis of different respiratory conditions, compared to clinical diagnoses made by a physician. Specificity will be defined as the proportion of participants in which Hyfe correctly identifies the absence of acoustic cough patterns associated to a certain disease (true negatives), from the total of participants without that specific condition (true negatives+ false positives).",
+        "timeFrame": "5 years."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:28.083Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT02477800",
+  "briefTitle": "221AD301 Phase 3 Study of Aducanumab (BIIB037) in Early Alzheimer's Disease",
+  "officialTitle": "A Phase 3 Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study to Evaluate the Efficacy and Safety of Aducanumab (BIIB037) in Subjects With Early Alzheimer's Disease",
+  "protocolDocument": {
+    "nctId": "NCT02477800",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-06-28",
+    "uploadDate": "2021-07-01T08:08",
+    "size": 27593067,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02477800/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1653,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-08-13",
+    "completionDate": "2019-08-08",
+    "primaryCompletionDate": "2019-08-08",
+    "firstSubmitDate": "2015-06-18",
+    "firstPostDate": "2015-06-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Must meet all of the following clinical criteria for MCI due to AD or mild AD and must have:\n* A Clinical Dementia Rating (CDR)-Global Score of 0.5.\n* Objective evidence of cognitive impairment at screening\n* An MMSE score between 24 and 30 (inclusive)\n* Must have a positive amyloid Positron Emission Tomography (PET) scan\n* Must consent to apolipoprotein E (ApoE) genotyping\n* If using drugs to treat symptoms related to AD, doses must be stable for at least 8 weeks prior to screening visit 1\n* Must have a reliable informant or caregiver\n\nKey Exclusion Criteria:\n\n* Any medical or neurological condition (other than Alzheimer's Disease) that might be a contributing cause of the subject's cognitive impairment\n* Have had a stroke or Transient Ischemic Attack (TIA) or unexplained loss of consciousness in the past 1 year\n* Clinically significant unstable psychiatric illness in past 6 months\n* History of unstable angina, myocardial infarction, advanced chronic heart failure, or clinically significant conduction abnormalities within 1 year prior to Screening\n* Indication of impaired renal or liver function\n* Have human immunodeficiency virus (HIV) infection\n* Have a significant systematic illness or infection in past 30 days\n* Relevant brain hemorrhage, bleeding disorder and cerebrovascular abnormalities\n* Any contraindications to brain magnetic resonance imaging (MRI) or PET scans\n* Alcohol or substance abuse in past 1 year\n* Taking blood thinners (except for aspirin at a prophylactic dose or less)\n\nNOTE: Other protocol defined Inclusion/Exclusion criteria may apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 78",
+        "description": "CDR-SB integrates assessments from 3 domains of cognition (memory, orientation, judgment/problem-solving) and 3 domains of function (community affairs, home/hobbies, personal care). Following caregiver interview and systematic patient examination, the rater assigns a score describing the participant's current performance level in each of these domains of life functioning. Prespecified severity anchors range from none = 0, questionable = 0.5, mild = 1, moderate = 2 to severe = 3 (the personal care domain omits the 0.5 score). \"Sum of boxes\" scoring methodology sums the score for each of the 6 domains and provides a value ranging from 0 to 18 that can change in increments of 0.5 or greater. Higher scores indicate greater disease severity. Mixed model for repeated measures (MMRM) analysis was used to analyze change from baseline in CDR-SB. A positive change from baseline indicates clinical decline.",
+        "timeFrame": "Baseline, Week 78"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Mini-Mental State Examination (MMSE) Score at Week 78",
+        "description": "The MMSE is a widely used performance-based test of global cognitive status. It consists of 11 tasks that assess orientation, word recall, attention and calculation, language abilities, and visuospatial functions. The scores from the 11 tests are combined to obtain the total score, which ranges from 0 to 30, with lower scores over time indicating increasing cognitive impairment. MMRM analysis was used to analyze change from baseline in MMSE. A negative change from baseline indicates clinical decline.",
+        "timeFrame": "Baseline, Week 78"
+      },
+      {
+        "measure": "Change From Baseline in Alzheimer's Disease Assessment Scale-Cognitive Subscale (13 Items) (ADAS-Cog 13) Score at Week 78",
+        "description": "ADAS-Cog13 comprises both cognitive tasks and clinical ratings of cognitive performance. The scale items capture word recall, ability to follow commands, the ability to correctly copy or draw an image, naming, the ability to interact with everyday objects, orientation, word recognition, memory, comprehension of spoken language, word-finding, and language ability, with a measure for delayed word recall and concentration/distractibility. The total score ranges from 0 to 85. An increase in score over time indicates increasing cognitive impairment. MMRM analysis was used to analyze change from baseline in ADAS-Cog 13. A positive change from baseline indicates clinical decline.",
+        "timeFrame": "Baseline, Week 78"
+      },
+      {
+        "measure": "Change From Baseline in Alzheimer's Disease Cooperative Study-Activities of Daily Living Inventory (Mild Cognitive Impairment Version) (ADCS-ADL-MCI) Score at Week 78",
+        "description": "The ADCS-ADL-MCI consists of 17 instrumental items (e.g., shopping, preparing meals, using household appliances) and 1 basic item (getting dressed). Ratings reflect caregiver observations about the patient's actual functioning over the previous month and provide an assessment of change in the functional state of the participant over time. The total score ranges from 0 to 53, with lower values over time reflecting functional deterioration. MMRM analysis was used to analyze change from baseline in ADAS-ADL-MCI. A negative change from baseline indicates clinical decline.",
+        "timeFrame": "Baseline, Week 78"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:42.016Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

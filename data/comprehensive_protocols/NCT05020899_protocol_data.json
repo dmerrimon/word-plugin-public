@@ -1,0 +1,138 @@
+{
+  "nctId": "NCT05020899",
+  "briefTitle": "Quit For Life (QFL): Smoking Cessation Among Chinese Smokers Living With HIV",
+  "officialTitle": "Quit For Life (QFL): Smoking Cessation Among Chinese Smokers Living With HIV",
+  "protocolDocument": {
+    "nctId": "NCT05020899",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-11-21",
+    "uploadDate": "2024-11-25T06:01",
+    "size": 411585,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05020899/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 109,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-02-24",
+    "completionDate": "2023-08-01",
+    "primaryCompletionDate": "2023-08-01",
+    "firstSubmitDate": "2021-08-19",
+    "firstPostDate": "2021-08-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* HIV seropositive (by being at the HIV clinic and receiving care)\n* Receiving ART treatment from the clinic (by being at the HIV clinic and receiving care)\n* Smokes ≥ 5 cigarettes per day\n* Able to speak and read in Mandarin Chinese\n* Self-reported anticipate to receive ART treatment from the clinic for at least 9 months\n* Own a cell phone\n* Be willing to set a quit date within 1 month after baseline assessment\n\nExclusion Criteria:\n\n* Self-reported using other smoking cessation program or medication\n* Having a serious health problem that may make them unsuitable to stay in the study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Biochemically Verified Smoking Cessation",
+        "description": "Defined as not smoking during the previous 7 days, not even a puff, validated by measuring CO level (\\<8ppm) in the exhaled air",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants That Self Reported Smoking Cessation at 8 Weeks",
+        "description": "Participants will report if they did not smoke in the previous 7 days by answering questions in an interviewer-administered questionnaire.",
+        "timeFrame": "8 weeks"
+      },
+      {
+        "measure": "Number of Participants That Self Reported Smoking Cessation at 12 Weeks",
+        "description": "Participants will report if they did not smoke in the previous 7 days by answering questions in an interviewer-administered questionnaire.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Change in Number of Cigarettes Smoked in the Previous 30 Days at 8 Weeks",
+        "description": "Participants will report the number of cigarettes they smoked in the previous 30 days by answering questions in an interviewer-administered questionnaire.",
+        "timeFrame": "baseline, 8 weeks"
+      },
+      {
+        "measure": "Change in Number of Cigarettes Smoked in the Previous 30 Days at 12 Weeks",
+        "description": "Participants will report the number of cigarettes they smoked in the previous 30 days by answering questions in an interviewer-administered questionnaire.",
+        "timeFrame": "baseline, 12 weeks"
+      },
+      {
+        "measure": "Number of Quit Attempts at 8 Weeks",
+        "description": "Participants will report the number of quit attempts since the study started by answering questions in an interviewer-administered questionnaire.",
+        "timeFrame": "8 weeks"
+      },
+      {
+        "measure": "Number of Quit Attempts at 12 Weeks",
+        "description": "Participants will report the number of quit attempts since the study started by answering questions in an interviewer-administered questionnaire.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Adherence to Antiretroviral Treatments (ART) at 8 Weeks",
+        "description": "ART adherence will be assessed with the investigator developed, interviewer-administered 'Adherence to HIV medicine' questionnaire. This questionnaire assesses degree of adherence to taking HIV medicine on time by selecting a number between 0 and 10, where 0 = never on time \\[worse outcome\\] and 10 = always on time \\[best outcome\\]. Higher scores are more favorable.",
+        "timeFrame": "8 weeks"
+      },
+      {
+        "measure": "Adherence to Antiretroviral Treatments (ART) at 12 Weeks",
+        "description": "ART adherence will be assessed with the investigator developed, interviewer-administered 'Adherence to HIV medicine' questionnaire. This questionnaire assesses degree of adherence to taking HIV medicine on time by selecting a number between 0 and 10, where 0 = never on time \\[worse outcome\\] and 10 = always on time \\[best outcome\\]. Higher scores are more favorable.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Quality of Life (QOL) in the Dimensions of Mobility, Self-care, Usual Activities, Pain/Discomfort, and Anxiety/Depression at 12 Weeks",
+        "description": "The EuroQol- 5 Dimension (EQ-5D) will be used to assess QOL. It is a questionnaire with five dimensions (mobility, self-care, usual activities, pain/discomfort, and anxiety/depression) and a scale of 0 to 100 where 0 means the worst health and 100 means the best health the participant can imagine.",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Intervention Satisfaction at 8 Weeks",
+        "description": "Participant satisfaction with the intervention will be assessed using an investigator-developed questionnaire",
+        "timeFrame": "8 weeks"
+      },
+      {
+        "measure": "Intervention Satisfaction at 12 Weeks",
+        "description": "Participant satisfaction with the intervention will be assessed using an investigator-developed questionnaire",
+        "timeFrame": "12 weeks"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 2,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 73,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:21.095Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

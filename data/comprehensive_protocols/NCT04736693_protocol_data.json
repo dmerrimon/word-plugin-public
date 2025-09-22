@@ -1,0 +1,78 @@
+{
+  "nctId": "NCT04736693",
+  "briefTitle": "Replication of the HORIZON Pivotal Fracture Trial in Healthcare Claims Data",
+  "officialTitle": "Replication of the HORIZON Pivotal Fracture Trial in Healthcare Claims Data",
+  "protocolDocument": {
+    "nctId": "NCT04736693",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2021-02-11",
+    "uploadDate": "2021-02-11T20:06",
+    "size": 1260594,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04736693/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 18028,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-09-22",
+    "completionDate": "2021-02-18",
+    "primaryCompletionDate": "2021-02-18",
+    "firstSubmitDate": "2021-01-25",
+    "firstPostDate": "2021-02-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Criteria:\n\nPlease see https://drive.google.com/drive/folders/1WD618wrywYjEaXzfLTcuK-VCcnb6b-gV for full code and algorithm definitions.\n\nEligible cohort entry dates:\n\nZoledronic acid indication for treatment of postmenopausal women with osteoporosis was approved by FDA on Aug 20, 2007.\n\n* For IBM MarketScan: Aug 21, 2007 - December 31, 2018 (end of available data)\n* For Optum CDM: Aug 21, 2007 - Mar 31, 2020 (end of available data)\n\nInclusion Criteria:\n\n* Postmenopausal women between the ages of 65 and 89 years\n* Osteoporosis diagnosis\n\nExclusion Criteria:\n\n* Bisphosphonate users\n* Previous use of:\n\n  1. Any use of parathyroid hormone\n  2. Use of anabolic steroids or growth hormone within 6 months before cohort entry date OR\n  3. Use of oral or intravenous systemic corticosteroids within 12 months of cohort entry date\n* Serious disease that may limit life expectancy to less than 6 months\n* Malignant neoplasm diagnosis within 12 months prior to the cohort entry date\n* Conditions that influence bone metabolism\n* Treatment and Prevention of Glucocorticoid-Induced Osteoporosis\n* Treatment of Paget's Disease of Bone\n* Alcohol abuse/dependence OR Drug abuse/dependence OR Non-compliance\n* Pregnancy\n* Diagnosis and procedure for amputee of lower limb\n* Use of Zoledronic acid within 450 days prior to the cohort entry date\n* Use of Denosumab within 450 days prior to the cohort entry date\n* Diagnosis of End-Stage Renal Disease OR Diagnosis and procedure for Kidney transplant\n* Diagnosis of End-Stage Liver Disease: Cirrhosis, Hepatic decompensation\n* Blindness or compromised vision\n* Use of Abaloparatide within 450 days prior to the cohort entry date\n* Use of Romosozumab within 450 days prior to the cohort entry date",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of patients with hip fracture",
+        "description": "Please refer to attached protocol for full definition due to size limitations",
+        "timeFrame": "Through study completion (earliest of 540 days or censoring)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of patients with non-vertebral fracture",
+        "description": "Please refer to attached protocol for full definition due to size limitations",
+        "timeFrame": "Through study completion (earliest of 540 days or censoring)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:02.474Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

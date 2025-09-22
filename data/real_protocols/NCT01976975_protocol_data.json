@@ -1,0 +1,84 @@
+{
+  "nctId": "NCT01976975",
+  "briefTitle": "Brain Mechanisms of Human Motivation",
+  "officialTitle": "Multi Level Analysis of Positive Valence Systems Across Mood Disorders",
+  "protocolDocument": {
+    "nctId": "NCT01976975",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-03-01",
+    "uploadDate": "2018-06-01T14:35",
+    "size": 955431,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01976975/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 270,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-10",
+    "completionDate": "2018-01",
+    "primaryCompletionDate": "2018-01",
+    "firstSubmitDate": "2013-10-25",
+    "firstPostDate": "2013-11-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Written informed consent\n* Right-handed\n* (For mood disorder group only) Stable medication over the past 8 weeks OR absence of any psychotropic medications for at least 2 weeks (for follow-up analyses testing effects in medication-free patients):\n\n  * 6 weeks for fluoxetine,\n  * 6 months for neuroleptics,\n  * 2 weeks for benzodiazepines,\n  * 2 weeks for any other antidepressants\n  * 4 weeks for any mood-stabilizers\n\nExclusion Criteria:\n\n* Suicidal ideation where outpatient treatment is determined unsafe by the study clinician\n* Pregnant women or women of childbearing potential who 1) have not completed a negative urine pregnancy test prior to the MRI scan and/or 2) are seeking to become pregnant or believe that they may be pregnant\n* Serious/unstable medical illness (e.g., cardiovascular, renal, endocrine, neurologic disease)\n* Clinical or laboratory evidence of hypothyroidism\n* History of seizure disorder, history or current diagnosis of dementia, score \\< 26 on the MMSE at screening\n* History or current diagnosis of the following DSM-IV psychiatric illness: organic mental disorder, schizophrenia, schizoaffective disorder, delusional disorder, psychotic disorder NOS, patients with mood congruent or mood incongruent psychotic features, anorexia nervosa, obsessive compulsive disorder\n* Lifetime history of stimulant dependence (e.g., cocaine, amphetamines)\n* Current use of Methylphenidate (Ritalin) and other ADHD medications with dopaminergic effects\n* Patients with a lifetime history of electroconvulsive therapy (ECT)\n* Failure to meet standard MRI safety requirements",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "50 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Response Bias",
+        "description": "The Probabilistic Reward Task (PRT) is a behavioral task that measures an individual's ability to learn to choose a more rewarding outcome versus a less rewarding one (Response Bias). The response bias score is a ratio of the number of times a participant correctly chooses the high reward stimulus (the \"rich\" stimulus) versus the low reward stimulus (the \"lean\" stimulus). Response bias scores range between -1 and +1. A higher Response Bias score indicates a stronger bias toward the rich stimulus, and a negative Response Bias indicates a stronger bias toward the lean stimulus. The Change-in-Response-Bias is calculated by subtracting Response Bias in block 1 (trials 0-100) of the task from Response Bias in block 3 (trials 201-300) of the task. This metric represents the degree to which an individual is able to update behavior as a function of the asymmetrical reinforcement schedule.",
+        "timeFrame": "Administered during the first session."
+      },
+      {
+        "measure": "Mean Accuracy on Gain Trials During an Instrumental Learning Task",
+        "description": "The instrumental learning task requires participants to choose between two abstract symbols. Each symbol in the pair is associated with an 80% or 20% probability of a given outcome (gain: win $1 or $0; loss: lose $1 or $0; neutral: view a gray square or see the word 'nothing'). The task consists of three blocks. Behavioral performance focuses on the number of times the participant chose the symbol that was associated more frequently associated with the more desirable outcome. A participant scores 1 if they choose correctly, and 0 if they choose in correctly, and correct choices across all three blocks are added and converted to a percentage relative to the total number of trials in that condition (i.e., gain, loss, or neutral). This study focused on percent of accuracy responses in the gain condition.",
+        "timeFrame": "Administered in session 3 during 1.5 hour MR scan"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Symptom Severity at 6 Month Follow-up",
+        "description": "* Beck Depression Inventory (BDI-II). Severity of depressive symptoms, from 0 (no symptoms) to 63 (severely depressed)\n* Young Mania Rating Scale (YMRS). Severity of manic symptoms, from 0 (not manic) to 60 (severely manic)\n* Temporal Experience of Pleasure Scale (TEPS). The TEPS is an 18-item questionnaire. Ten items make up the TEPS-Anticipatory Pleasure scale with a range from 10 (not motivated) to 60 (highly motivated).\n* The other eight TEPS items make up the TEPS-Consummatory Pleasure scale; range from 8 (not responsive) to 48 (highly responsive)\n* Mood and Anxiety Symptom Questionnaire - Anhedonic Depression (MASQ-AD). The MASQ is a 62-item self-report on the severity of anxiety and depressive symptoms. The AD subscale is a 22-item measure of severity of anhedonic symptoms. Range: 22 -110 (higher scores mean greater severity)\n* Barrett Impulsiveness Scale 11 (BIS-11): a 30-item assessment of Trait Impulsivity. Range: 30-120 (higher scores mean more impulsiveness)",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 8,
+      "exclusionCount": 10,
+      "totalCount": 18
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 76,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:32:59.342Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

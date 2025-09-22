@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02658136",
+  "briefTitle": "Right Ventricular Function and Exercise Capacity in Patients With Continuous-flow Left Ventricular Assist Devices",
+  "officialTitle": "Computed Tomography Estimated Right Ventricular Function and Exercise Capacity in Patients With Continuous-flow Left Ventricular Assist Devices",
+  "protocolDocument": {
+    "nctId": "NCT02658136",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-11-14",
+    "uploadDate": "2021-11-14T16:20",
+    "size": 164864,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02658136/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-02",
+    "completionDate": "2017-08-15",
+    "primaryCompletionDate": "2017-08-15",
+    "firstSubmitDate": "2016-01-12",
+    "firstPostDate": "2016-01-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Outpatients from Department of Cardiology, Rigshospitalet, Denmark.\n* Age ≥ 18 years.\n* Ischemic or non-ischemic cardiomyopathy.\n* Signed informed consent.\n\nExclusion Criteria:\n\n* Unstable patients with the need for intravenous inotropic therapy.\n* CF-LVAD implantation less than one month ago.\n* eGFR \\< 45 ml/min.\n* Contrast allergy.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Peak Oxygen Uptake",
+        "description": "Cardiopulmonary exercise testing (CPET) measuring peak oxygen uptake in ml/kg/min.",
+        "timeFrame": "Day 1"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Right Ventricular Function (RVEF) During Exercise",
+        "description": "Right ventricular function during exercise was estimated by use of contrast enhanced cardiac computed tomography.",
+        "timeFrame": "Day 1"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:33.157Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

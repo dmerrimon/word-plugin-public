@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT02533921",
+  "briefTitle": "Does Outpatient Palliative Care Improve Patient-centered Outcomes in Parkinson's Disease?",
+  "officialTitle": "Does Outpatient Palliative Care Improve Patient-centered Outcomes in Parkinson's Disease?",
+  "protocolDocument": {
+    "nctId": "NCT02533921",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-04-07",
+    "uploadDate": "2019-01-10T12:54",
+    "size": 500575,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02533921/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 210,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-10",
+    "completionDate": "2019-09-30",
+    "primaryCompletionDate": "2018-09-20",
+    "firstSubmitDate": "2015-08-20",
+    "firstPostDate": "2015-08-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Fluent in English\n* UK Brain Bank criteria for diagnosis of probable PD or Multiple Systems Atrophy (MSA) or Corticobasal Degeneration (CBD) or Progressive Supranuclear Palsy (PSP) or Lewy Body Dementia (LBD)\n* At high risk for poor outcomes as identified by the Palliative Care Needs Assessment Tool (PC-NAT)\n\nExclusion Criteria:\n\n* Immediate and urgent palliative care needs\n* Unable or unwilling to commit to study procedures including;\n\n  1. randomization,\n  2. study visits or\n  3. the addition of a neurologist to their care team\n* Presence of additional chronic medical illnesses which may require palliative services\n* Already receiving palliative care and/or hospice services.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Changes in the Subjects Quality of Life (QOL)",
+        "description": "The QOL-AD (Quality of Life in Alzheimer's Disease) survey will be used to measure the differences in the quality of life between groups.Higher numbers indicate better outcomes. The scale ranges from 4 to 52.",
+        "timeFrame": "0 to 6 months"
+      },
+      {
+        "measure": "Changes in Caregiver Distress",
+        "description": "The Zarit Caregiver Burden Interview Form (ZBI) will be used to measure differences in Caregiver Distress between groups. Higher scores indicate worse outcomes. Scale ranges from 0 to 48.",
+        "timeFrame": "0 to 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Changes in Patient Anxiety",
+        "description": "The Hospital Anxiety and Depression Scale (HADS) will be used to quantify changes in patient anxiety. Higher numbers indicate worse outcomes. Scale ranges from 0 to 21.",
+        "timeFrame": "0 to 6 months"
+      },
+      {
+        "measure": "Changes in Patient Depression",
+        "description": "The Hospital Anxiety and Depression Scale (HADS) will be used to quantify changes in patient depression. Higher numbers indicate worse outcomes. Scale ranges from 0 to 21.",
+        "timeFrame": "0 to 6 months"
+      },
+      {
+        "measure": "Changes in Caregiver Anxiety",
+        "description": "The Hospital Anxiety and Depression Scale (HADS) will be used to quantify changes in caregiver anxiety. Higher numbers indicate worse outcomes. Scale ranges from 0 to 21.",
+        "timeFrame": "0 to 6 months"
+      },
+      {
+        "measure": "Changes in Caregiver Depression",
+        "description": "The Hospital Anxiety and Depression Scale (HADS) will be used to quantify changes in caregiver depression. Higher numbers indicate worse outcomes. Scale ranges from 0 to 21.",
+        "timeFrame": "0 to 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:43.328Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

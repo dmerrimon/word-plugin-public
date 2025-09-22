@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT01118299",
+  "briefTitle": "AMPLATZER Cardiac Plug Clinical Trial",
+  "officialTitle": "Amplatzer Cardiac Plug Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT01118299",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-09-23",
+    "uploadDate": "2020-04-02T18:33",
+    "size": 2965604,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01118299/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 97,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2010-04-26",
+    "completionDate": "2018-12-06",
+    "primaryCompletionDate": "2018-12-06",
+    "firstSubmitDate": "2010-05-05",
+    "firstPostDate": "2010-05-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subject must have a documented history of paroxysmal, persistent or permanent nonvalvular atrial fibrillation\n* Subject must be ≥18 years of age\n* Subject must be on warfarin or dabigatran therapy\n* Subject must be eligible for long term warfarin or dabigatran therapy\n* Subject must have a CHADS(2) score of 2 or greater\n\nSummary of Exclusion Criteria:\n\n* Subject who requires warfarin or dabigatran for a condition other than AF\n* Subject who is on clopidogrel or another P2Y12 platelet inhibitor such as prasugrel or ticagrelor\n* Subject who has an absolute or relative contraindication to aspirin, or warfarin and dabigatran\n* Subject with a New York Heart Association (NYHA) classification equal to IV\n* Subject with an implanted or surgical repair atrial septal defect (ASD) device or patent foramen ovale (PFO) device\n* Subject with aortic or mitral valve regurgitation of grade 2+ or greater\n* Subject with left ventricular ejection fraction (LVEF) ≤30\n* Subject with mitral or aortic prosthetic valve\n* Subject with a history of hemorrhagic or aneurysmal stroke\n* Subject with a history of previous radio frequency (RF) ablation for atrial fibrillation\n* Subject with a body mass index (BMI) ≥40\n* Subject with a history of acute or recent MI, or unstable angina, or coronary artery bypass graft surgery (within 6 months)\n* Subject who is on aspirin dose therapy greater than 81mg/day at time of enrollment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Acute Safety - Procedure Related SAEs From Randomization Through Discharge For Device Arm Only",
+        "description": "An analysis comparing the rate of procedure related serious adverse events that occur in the device arm to a performance goal determined from literature reported rates for similar procedural techniques.\n\nThe study as designed was intended to determine the difference in efficacy and safety between the device and control arm (subjects treated with OMT).\n\nHowever, due to early enrollment closure, the three primary endpoints were not analyzed as specified in the original trial protocol. As the Control arm subjects exited the study early, no sufficient data was available to summarize any endpoints. The three primary endpoints as mentioned in the Appendix D of the clinical investigational plan (Revision 06, dated September 2014) were summarized for the Device arm below. The secondary endpoint analysis requirement was removed from the protocol.",
+        "timeFrame": "From Randomization to Discharge Visit"
+      },
+      {
+        "measure": "Long-term Safety - Device Arm Only",
+        "description": "All-Cause Mortality and Major Bleeds Through 2 years in device arm subjects only. The study as designed was intended to determine the difference in efficacy and safety between the device and control arm (subjects treated with OMT).\n\nHowever, due to early enrollment closure, the three primary endpoints were not analyzed as specified in the original trial protocol. As the Control arm subjects exited the study early, no sufficient data was available to summarize any endpoints. The three primary endpoints as mentioned in the Appendix D of the clinical investigational plan (Revision 06, dated September 2014) were summarized for the Device arm. The secondary endpoint analysis requirement was removed from the protocol.",
+        "timeFrame": "Randomization to 2 year follow-up"
+      },
+      {
+        "measure": "Effectiveness Endpoint - Device Arm Only",
+        "description": "Occurrence of ischemic stroke and peripheral thromboembolism in the device arm. The study as designed was intended to determine the difference in efficacy and safety between the device and control arm (subjects treated with OMT).\n\nHowever, due to early enrollment closure, the three primary endpoints were not analyzed as specified in the original trial protocol. As the Control arm subjects exited the study early, no sufficient data was available to summarize any endpoints. The three primary endpoints as mentioned in the Appendix D of the clinical investigational plan (Revision 06, dated September 2014) were summarized for the Device arm. The secondary endpoint analysis requirement was removed from the protocol.",
+        "timeFrame": "Randomization through 2 year follow up"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:12.948Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

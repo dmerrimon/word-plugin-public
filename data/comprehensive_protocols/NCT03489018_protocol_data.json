@@ -1,0 +1,123 @@
+{
+  "nctId": "NCT03489018",
+  "briefTitle": "The Effect of Fractional Doses of Pneumococcal Conjugate Vaccines on Immunogenicity and Carriage in Kenyan Infants",
+  "officialTitle": "The Effect of Fractional Doses of Pneumococcal Conjugate Vaccines (PCV10 and PCV13) on Immunogenicity and Vaccine-serotype Carriage in Kenyan Infants",
+  "protocolDocument": {
+    "nctId": "NCT03489018",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2018-05-01",
+    "uploadDate": "2018-11-22T05:21",
+    "size": 1191998,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03489018/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-21",
+    "completionDate": "2024-11-01",
+    "primaryCompletionDate": "2022-09-30",
+    "firstSubmitDate": "2018-03-29",
+    "firstPostDate": "2018-11-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Healthy infants aged 6-8 weeks of age (HIV positive or negative but with no symptoms of current clinical immunosuppression i.e. HIV infection at WHO clinical stage 1);\n* Parents are willing to provide informed consent for their child to participate in the study\n* Parents and infant are likely to remain in the study area until the infant is 18 months of age and comply with study requirements including the requirement to return to the same health facility to obtain all other childhood vaccines.\n\nExclusion Criteria:\n\n* Infants \\>8 weeks of age at time of enrolment\n* Signs or symptoms of immunosuppression or HIV infection clinical stage 2 or above.\n* Acute illness (e.g. febrile disease) on the day of vaccination\n* Contraindications precluding vaccination (e.g. hypersensitivity to any component of the vaccine, including diphtheria toxoid)\n* Previous PCV vaccination\n* Family are planning to migrate out of the study areas before the end of the study follow-up\n* Family are planning to obtain the subsequent vaccine doses of the routine immunisation schedule elsewhere and therefore their child may receive a full dose under the routine vaccination programme.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "6 Weeks",
+    "maximumAge": "8 Weeks",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Immunogenicity: The ratio of IgG GMCs at 1-month post boost",
+        "description": "The ratio of the geometric mean concentrations of IgG after vaccination with 3 full or fractional doses of PCV",
+        "timeFrame": "4-weeks post-boost (approximately 10 months of age)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Immunogenicity: the proportion of children who 'seroconvert' to vaccine-serotypes after vaccination",
+        "description": "The proportion of children with vaccine-serotype specific IgG antibody concentrations more than or equal to 0.35 mcg/ml after vaccination",
+        "timeFrame": "4-weeks post-primary series (approximately 18 weeks of age)"
+      },
+      {
+        "measure": "The proportion of children with evidence of vaccine-serotype carriage",
+        "description": "Vaccine-type carriage prevalence across arms",
+        "timeFrame": "Approximately 18 months of age"
+      },
+      {
+        "measure": "The proportion of children with evidence of vaccine-serotype carriage",
+        "description": "Vaccine-type carriage prevalents across arms",
+        "timeFrame": "Approximately 9 months of age"
+      },
+      {
+        "measure": "The direct vaccine effectiveness of full/fractional doses of PCV13 against carriage of serotypes 6A and 19A",
+        "description": "The direct effectiveness of full/fractional doses of PCV13 in preventing carriage of serotypes 6A and 19A compared to that of full dose PCV10",
+        "timeFrame": "Approximately 18 months of age"
+      },
+      {
+        "measure": "Opsonophagocytic activity of vaccine-induced antibody to 4 serotypes",
+        "description": "Functionality of the antibody response",
+        "timeFrame": "Approximately 18 months of age"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Immunogenicity: the geometric mean concentration (GMC) of serotype-specific IgG",
+        "description": "IgG GMCs elicited post-primary series",
+        "timeFrame": "4-weeks post-primary series (approximately 18 weeks of age)"
+      },
+      {
+        "measure": "Safety: the prevalence of adverse events following immunisation by arm",
+        "description": "The proportion fo children with adverse events following immunisation by arm",
+        "timeFrame": "Infants 6weeks-18 months of age"
+      },
+      {
+        "measure": "Immunogenicity: The geometric mean concentration (GMC) of serotype-specific IgG after the primary series of the 2p+1 schedule, prior to boost (9 months of age) and at the end of study follow-up at 18 months of age.",
+        "description": "IgG GMCs at 9 and 18 months of age",
+        "timeFrame": "Approximately 9 and 18 months of age"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 3,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 70,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:43.283Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

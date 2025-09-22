@@ -1,0 +1,147 @@
+{
+  "nctId": "NCT04875533",
+  "briefTitle": "20-valent Pneumococcal Conjugate Vaccine Safety and Immunogenicity Study in Pneumococcal Vaccine-Naïve Adults 60 Years of Age and Older in Japan, Korea, and Taiwan",
+  "officialTitle": "A PHASE 3, RANDOMIZED, DOUBLE-BLIND, THIRD-PARTY-UNBLINDED TRIAL TO EVALUATE THE SAFETY AND IMMUNOGENICITY OF A 20-VALENT PNEUMOCOCCAL CONJUGATE VACCINE IN PNEUMOCOCCAL VACCINE-NAÏVE ADULTS 60 YEARS OF AGE AND OLDER IN JAPAN, KOREA, AND TAIWAN",
+  "protocolDocument": {
+    "nctId": "NCT04875533",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-01-13",
+    "uploadDate": "2023-05-10T09:44",
+    "size": 10684224,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04875533/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1425,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-06-14",
+    "completionDate": "2022-05-13",
+    "primaryCompletionDate": "2022-05-13",
+    "firstSubmitDate": "2021-05-03",
+    "firstPostDate": "2021-05-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n* Male or female participants 60 years of age and older at the time of consent.\n* Adults determined by clinical assessment, including medical history and clinical judgment, to be eligible for the study, including adults with preexisting stable disease, defined as disease not requiring significant change in therapy in the previous 6 weeks or hospitalization for worsening disease within 12 weeks before receipt of study intervention. (For adults 60 through 64 years of age to be enrolled at Japan sites: Participants must have a preexisting chronic stable disease with an elevated risk for pneumococcal disease.)\n\nExclusion criteria:\n\n* History of microbiologically proven invasive disease caused by S pneumoniae.\n* Serious chronic disorder, including metastatic malignancy, severe COPD requiring supplemental oxygen, end-stage renal disease with or without dialysis, cirrhosis of the liver, clinically unstable cardiac disease, or any other disorder that, in the investigator's opinion, excludes the participant from participating in the study.\n* Previous vaccination with any licensed or investigational pneumococcal vaccine, or planned receipt through study participation.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Prompted Local Reactions Within 10 Days After Vaccination 1 (20vPnC or 13vPnC)",
+        "description": "Reactions were collected in the e-diary including redness, swelling, and pain at the injection site. Exact 2-sided CI was calculated based on the Clopper and Pearson method.\n\nRedness and swelling were graded as mild (\\>2.0 to 5.0 cm), moderate (\\>5.0 to 10.0 cm), and severe (\\>10.0 cm).\n\nPain at the injection site was graded as mild (does not interfere with activity), moderate (interferes with activity), and severe (prevents daily activity).",
+        "timeFrame": "Within 10 days after 20vPnC in the 20vPnC/Saline group or 13vPnC in the 13vPnC/PPSV23 group"
+      },
+      {
+        "measure": "Percentage of Participants With Prompted Systemic Events Within 7 Days After Vaccination 1 (20vPnC or 13vPnC)",
+        "description": "Events were collected in the e-diary including fever, headache, fatigue, muscle pain, and joint pain. Exact 2-sided CI was calculated based on the Clopper and Pearson method.\n\nFever was categorized as ≥38.0 degree Celsius (°C), ≥38.0°C to 38.4°C, \\>38.4°C to 38.9°C, \\>38.9°C to 40.0°C, and \\>40.0°C.\n\nFatigue, headache, muscle pain, and joint pain were graded as mild (does not interfere with activity), moderate (some interference with activity), and severe (prevents daily activity).",
+        "timeFrame": "Within 7 days after 20vPnC in the 20vPnC/Saline group or 13vPnC in the 13vPnC/PPSV23 group"
+      },
+      {
+        "measure": "Percentage of Participants With Adverse Events (AEs) Within 1 Month After Vaccination 1 (20vPnC or 13vPnC)",
+        "description": "An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention.",
+        "timeFrame": "Within 1 month after 20vPnC in the 20vPnC/Saline group or 13vPnC in the 13vPnC/PPSV23 group"
+      },
+      {
+        "measure": "Percentage of Participants With Serious Adverse Events (SAEs) Within 1 Month After Vaccination 1 (20vPnC or 13vPnC)",
+        "description": "An SAE was any untoward medical occurrence at any dose that resulted in death; was life-threatening; required inpatient hospitalization or prolongation of existing hospitalization; resulted in persistent disability/incapacity; resulted in congenital anomaly/birth defect or that was considered to be an important medical event.",
+        "timeFrame": "Within 1 Month After Vaccination 1 (20vPnC or 13vPnC)"
+      },
+      {
+        "measure": "Pneumococcal Opsonophagocytic Activity (OPA) Geometric Mean Titers (GMTs) for 13-matched Serotypes at 1 Month After Vaccination 1 (20vPnC or 13vPnC)",
+        "description": "OPA titers were determined for the 13 matching pneumococcal serotypes: 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 23F. GMTs and 2-sided CIs were calculated by exponentiating the Least Square (LS) means and the corresponding CIs based on analysis of log-transformed OPA titers using a regression model with vaccine group, sex, smoking status, age at vaccination in years (continuous), baseline log-transformed OPA titers, and country.",
+        "timeFrame": "1 month after 20vPnC in the 20vPnC/Saline group or 13vPnC in the 13vPnC/PPSV23 group"
+      },
+      {
+        "measure": "Pneumococcal OPA GMTs for 7 Additional Serotypes at 1 Month After Vaccination 1 (20vPnC) or 1 Month After Vaccination 2 (PPSV23)",
+        "description": "OPA titers were determined for serotypes: 8, 10A, 11A, 12F, 15B, 22F, and 33F. GMTs and 2-sided CIs were calculated by exponentiating the LS means and the corresponding CIs based on analysis of log-transformed OPA titers using a regression model with vaccine group, sex, smoking status, age at vaccination in years (continuous), baseline log-transformed OPA titers, and country.",
+        "timeFrame": "1 month after 20vPnC in the 20vPnC/Saline group or 1 month after PPSV23 in the 13vPnC/PPSV23 group."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "OPA Geometric Mean Fold Rise (GMFRs) For 13-matched Serotypes From Before To 1 Month After Vaccination 1 (20vPnC or 13vPnC)",
+        "description": "GMFRs and the corresponding 2-sided CIs were calculated by exponentiating the mean logarithm of the fold rises and the corresponding CIs (based on the Student's t distribution), for serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F and 23F.",
+        "timeFrame": "Before Vaccination 1 to 1 month after 20vPnC in the 20vPnC/saline group or 13vPnC in the 13vPnC/PPSV23 group."
+      },
+      {
+        "measure": "OPA GMFRs for 7 Additional Serotypes From Before to 1 Month After Vaccination 1 (20vPnC) or From Before Vaccination 1 to 1 Month After Vaccination 2 (PPSV23)",
+        "description": "GMFRs and the corresponding 2-sided CIs were calculated by exponentiating the mean logarithm of the fold rises and the corresponding CIs (based on the Student's t distribution), for serotypes 8, 10A, 11A, 12F, 15B, 22F, and 33F.",
+        "timeFrame": "From before Vaccination 1 (20vPnC) to 1 month after Vaccination 1 (20vPnC) in the 20vPnC/Saline group or from before Vaccination 1 (13vPnC) to 1 month after Vaccination 2 (PPSV23) in the 13vPnC/PPSV23 group"
+      },
+      {
+        "measure": "Percentage of Participants With ≥4 Fold Rise for 13-matched Serotypes of OPA Titers From Before to 1 Month After Vaccination 1 (20vPnC or 13vPnC)",
+        "description": "The percentage of participants with a ≥4-fold rise in OPA titers and associated 95% CI before vaccination to 1 month after vaccination with 20vPnC or 13vPnC for the 13 matching serotypes, including 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F were summarized.",
+        "timeFrame": "From before Vaccination 1 to 1 month after 20vPnC in the 20vPnC/Saline group or 13vPnC in the 13vPnC/PPSV23 group"
+      },
+      {
+        "measure": "Percentage of Participants With ≥4 Fold Rise in 7 Additional Serotypes of OPA Titers From Before Vaccination 1 to 1 Month After Vaccination 1 (20vPnC) or From Before Vaccination 1 to 1 Month After Vaccination 2 (PPSV23)",
+        "description": "The percentage of participants with a ≥4-fold rise in OPA titers and associated 95% CI before vaccination to 1 month after vaccination with 20vPnC or PPSV23 for the 7 additional serotypes, including 8, 10A, 11A, 12F, 15B, 22F, and 33F were summarized.",
+        "timeFrame": "From before Vaccination 1 (20vPnC) to 1 month after Vaccination 1 (20vPnC) in the 20vPnC/Saline group or from before Vaccination 1 (13vPnC) to 1 month after Vaccination 2 (PPSV23) in the 13vPnC/PPSV23 group"
+      },
+      {
+        "measure": "Percentage of Participants With 13-matched Serotypes of OPA Titers ≥The Lower Limit of Quantitation (LLOQ) 1 Month After Vaccination 1 (20vPnC or 13vPnC)",
+        "description": "The percentage of participants with OPA titers ≥LLOQ and associated 95% CIs were calculated for the time point 1 month after vaccination with 20vPnC or 13vPnC for serotypes: 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F.",
+        "timeFrame": "1 month after 20vPnC in the 20vPnC/saline group or 13vPnC in the 13vPnC/PPSV23 group"
+      },
+      {
+        "measure": "Percentage of Participants With Pneumococcal OPA Titers ≥LLOQ for the 7 Additional Serotypes at 1 Month After Vaccination 1 (20vPnC) or 1 Month After Vaccination 2 (PPSV23)",
+        "description": "The percentage of participants with OPA titers ≥LLOQ and associated 95% CIs were calculated for the time point 1 month after vaccination with 20vPnC in the 20vPnC/saline groups or PPSV23 in the 13vPnC/PPSV23 group for serotypes: 8, 10A, 11A, 12F, 15B, 22F, and 33F.",
+        "timeFrame": "1 month after Vaccination 1 (20vPnC) in the 20vPnC/saline group or a month after Vaccination 2 (PPSV23) in the 13vPnC/PPSV23 group"
+      },
+      {
+        "measure": "Percentage of Participants With Prompted Local Reactions Within 10 Days After Vaccination 2 (PPSV23 or Saline) in Participants Enrolled at Japan Sites",
+        "description": "Reactions within 10 days after Vaccination 2 (PPSV23 or saline) in participants enrolled at Japan sites were collected in the e-diary including redness, swelling, and pain at the injection site. Exact 2-sided CI was calculated based on the Clopper and Pearson method.\n\nRedness and swelling were graded as mild (\\>2.0 to 5.0 cm), moderate (\\>5.0 to 10.0 cm), and severe (\\>10.0 cm).\n\nPain at the injection site was grades as mild (does not interfere with activity), moderate (interferes with activity), and severe (prevents daily activity).\n\nThis endpoint was requested by local Japan regulator.",
+        "timeFrame": "Within 10 days after saline in 20vPnC/Saline group or PPSV23 in 13vPnC/PPSV23 group"
+      },
+      {
+        "measure": "Percentage of Participants With Prompted Systemic Events Within 7 Days After Vaccination 2 (PPSV23 or Saline) in Participants Enrolled at Japan Sites",
+        "description": "Events within 7 days after Vaccination 2 (PPSV23 or saline) in participants enrolled at Japan sites were collected in the e-diary including fever, headache, fatigue, muscle pain, and joint pain. Exact 2-sided CI was calculated based on the Clopper and Pearson method.\n\nFever was categorized as ≥38.0 °C, ≥38.0°C to 38.4°C, \\>38.4°C to 38.9°C, \\>38.9°C to 40.0°C, and \\>40.0°C.\n\nFatigue, headache, muscle pain, and joint pain were grades as mild (does not interfere with activity), moderate (some interference with activity), and severe (prevents daily activity).\n\nThis endpoint was requested by local Japan regulator.",
+        "timeFrame": "Within 7 days after saline in 20vPnC/Saline group or PPSV23 in 13vPnC/PPSV23 group"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 6,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:42.343Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

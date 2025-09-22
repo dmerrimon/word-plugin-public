@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT03394391",
+  "briefTitle": "The Effectiveness of SMS in Improving Antiretroviral Medication Adherence Among Adolescents Living With HIV in Nigeria",
+  "officialTitle": "A Single-blind, Randomized, Parallel Design Study to Assess the Effectiveness of SMS Reminders in Improving ART Adherence Among Adolescents Living With HIV in Nigeria (STARTA Trial-Adolescents)",
+  "protocolDocument": {
+    "nctId": "NCT03394391",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2018-01-31",
+    "uploadDate": "2019-08-20T15:34",
+    "size": 686696,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03394391/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 212,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-07-05",
+    "completionDate": "2019-06-30",
+    "primaryCompletionDate": "2019-05-03",
+    "firstSubmitDate": "2017-12-28",
+    "firstPostDate": "2018-01-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* HIV seropositivity\n* Being on ART for at least three month\n* Age 15 to 19 years as at last birthday\n* Use of personal mobile phone\n* Poor adherence to ART\n\nExclusion Criteria:\n\nAdolescents who are too ill to require hospital admission will be excluded from the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "15 Years",
+    "maximumAge": "19 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "ART Adherence at 20 Weeks as Determined by VAS, Viral Load",
+        "description": "ART adherence is assessed by different well-validated methods. In this study, ART adherence will be measured, primarily, using the self-report visual analog scale. The scale is well-validated, self-report of the level of ART adherence with a range from 0 to 100%. While higher values indicate better levels of adherence, patients with adherence levels of 95% and above are regarded as ART-adherent while those with values less than 95% are not adherent to ART medications.\n\nViral load is the number of copies of viral RNA detected in participants' blood. Participants with viral load \\</=20 copies per ml are regarded to have optimal viral suppression indicative of optimal adherence to medications.",
+        "timeFrame": "20week [End of study]"
+      },
+      {
+        "measure": "ART Adherence at 20 Weeks as Determined by Pill Counts, ACTG Adherence Questionnaire, and VAS Scores",
+        "description": "AIDS Clinical Trials Group Scale scores range from 0 to 1. The higher scores reflect better ART adherence Pill count scores also range from 0 to 1 and the higher scores also reflect better adherence.\n\nVisual analog scale \\[VAS\\] adherence ranges between 0 and 100%. Higher scores reflect better ART adherence",
+        "timeFrame": "20week [End of study]"
+      },
+      {
+        "measure": "ART Adherence at 20 Weeks as Determined by Viral Load Count",
+        "description": "Viral load count is measured in copies per ml. The minimum value is 0. There is no maximum value. The higher values reflect poor adherence",
+        "timeFrame": "20 week [End of study]"
+      },
+      {
+        "measure": "ART Adherence at 20 Weeks as Determined by Log of Viral Load Count",
+        "description": "log of viral load count is log 10 transformation of the viral load values",
+        "timeFrame": "20week [End of study]"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Patient Satisfaction Score at 20 Weeks",
+        "description": "Patient satisfaction will be assessed using a 22-item adaptation of the SERVQUAL tool. It is a multi-dimensional service quality assessment tool that uses a 5-point likert scale scored from 1 to 5 points to assess 5 domains of client satisfaction. The domains are tangibility (4 items; scores from 4 to 20), reliability (5 items; scores from 5 to 25), responsiveness (4 items; scores from 4 to 20), assurance (4 items; scores from 4 to 20), and empathy (5 items; scores from 5 to 25). Patient satisfaction is measured by the total score which will range between 22 and 110. Higher scores indicate better client satisfaction.",
+        "timeFrame": "End of Study (20weeks)"
+      },
+      {
+        "measure": "Number of Participants With Mental Distress Determined by General Health Questionnaire 12 at 20 Weeks",
+        "description": "The General Health Questionnaire 12 (GHQ12) will be used to assess the mental health status of all the participants. It is a well-validated and widely used instrument for screening for mental health distress. It is a 12-item questionnaire that is based on a 4-point likert scale scored from 0 to 3 points. The scores will range between 0 and 36. A score of 12 or more is suggestive of mental distress while scores less than 12 suggest that mental distress is absent.",
+        "timeFrame": "End of study (20weeks)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:13.976Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

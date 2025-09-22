@@ -1,0 +1,119 @@
+{
+  "nctId": "NCT06795867",
+  "briefTitle": "Acceptance and Commitment Therapy to Improve Disability in Chronic Migraine",
+  "officialTitle": "Does Acceptance and Commitment Therapy (ACT) Improve Disability in Chronic Migraine? A Randomized Headache Center Trial",
+  "protocolDocument": {
+    "nctId": "NCT06795867",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-11-26",
+    "uploadDate": "2025-01-14T15:18",
+    "size": 351699,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06795867/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-02",
+    "completionDate": "2027-12",
+    "primaryCompletionDate": "2027-12",
+    "firstSubmitDate": "2025-01-14",
+    "firstPostDate": "2025-01-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Willingness and ability to engage in the consent process\n* Willingness to participate in the study, despite randomization outcome\n* Availability for the duration of the study\n* Diagnosis of chronic migraine followed at the Graham Headache Center\n* Access to the necessary resources for participating in a technology-based intervention\n\nExclusion Criteria:\n\n* Known major depression or other psychiatric condition\n* Non-English speaking\n* Secondary headache diagnosis\n* Psychotherapy in the prior 18 months\n* Any reason the provider feels would limit participant ability to learn or practice ACT\n* Any previous experience with mindfulness or meditation approaches",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Headache Disability Index",
+        "description": "Change in Headache Disability Index from baseline to 3 months. Scores at 3 months minus scores at baseline.",
+        "timeFrame": "3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Disability Measures",
+        "description": "Headache Disability Index.",
+        "timeFrame": "Baseline, 3,6 and 12 months"
+      },
+      {
+        "measure": "Anxiety Assessment",
+        "description": "Hospital Anxiety and Depression Scale",
+        "timeFrame": "Baseline, 3, 6 and 12 months"
+      },
+      {
+        "measure": "Catastrophizing Score",
+        "description": "Patient Catastrophizing Scale",
+        "timeFrame": "Baseline, 3, 6 and 12 months"
+      },
+      {
+        "measure": "Mindfulness Assessment",
+        "description": "Five Facet Mindfulness Questionnaire",
+        "timeFrame": "Baseline, 3, 6 and 12 months"
+      },
+      {
+        "measure": "Disability Measures",
+        "description": "Headache Impact Test",
+        "timeFrame": "Baseline, 3,6 and 12 months"
+      },
+      {
+        "measure": "Disability Measure",
+        "description": "Migraine Disability Assessment Score",
+        "timeFrame": "Baseline, 3,6 and 12 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Abortive Medication Use",
+        "description": "Headache Diary",
+        "timeFrame": "Through study completion"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 1,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 56,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:54.357Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

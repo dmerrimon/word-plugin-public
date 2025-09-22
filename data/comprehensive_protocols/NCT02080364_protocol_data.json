@@ -1,0 +1,127 @@
+{
+  "nctId": "NCT02080364",
+  "briefTitle": "Evaluation of the Efficacy and Safety of Azeliragon (TTP488) in Patients With Mild Alzheimer's Disease",
+  "officialTitle": "Randomized, Double-blind, Placebo Controlled, Multi-center Registration Trial to Evaluate the Efficacy and Safety of Azeliragon (TTP488) in Patients With Mild Alzheimer's Disease Receiving Acetylcholinesterase Inhibitors and/or Memantine",
+  "protocolDocument": {
+    "nctId": "NCT02080364",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-11-28",
+    "uploadDate": "2021-03-05T15:37",
+    "size": 2571551,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02080364/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 880,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-04",
+    "completionDate": "2018-06-01",
+    "primaryCompletionDate": "2018-06-01",
+    "firstSubmitDate": "2014-02-25",
+    "firstPostDate": "2014-03-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosis of probable Alzheimer Disease (AD) with documented evidence of progression of disease\n* Mini Mental State Examination (MMSE) score of 21-26, inclusive\n* Clinical Dementia Rating global score of 0.5 or 1\n* Rosen-Modified Hachinski Ischemia Score less than or equal to 4\n* Brain magnetic resonance imaging (MRI) consistent with the diagnosis of probable AD\n* Concurrent use of cholinesterase inhibitor or memantine with stable dose for at least 3 months prior to randomization\n* Caregiver willing to participate and be able to attend clinic visits with patient\n* Ability to ingest oral medications\n\nExclusion Criteria:\n\n* Significant neurological or psychiatric disease other than Alzheimer's disease\n* Participants with evidence or history of severe drug allergies (resulting in dyspnea or severe rash).\n* Any contraindications to MRI (e.g., clinically significant claustrophobia, non-removable ferromagnetic implants). Patients with contraindications to MRI may undergo computed tomography (CT) on approval by sponsor.\n* Any contraindications to the FDG-PET study (e.g. allergy to any component of the FDG dose) in the cohort undergoing a PET scan.\n* Previous exposure to investigational or non-investigational therapies for Alzheimer's disease within 6 months of screening\n* History of cancer within the last 5 years except adequately treated cervical carcinoma in-situ, cutaneous basal cell or squamous cell cancer, or non-progressive prostate cancer not requiring treatment\n* Women of childbearing potential\n* Uncontrolled blood pressure and/or blood pressure above 160/100\n* Prescription medical food intended for dietary management of the metabolic processes associated with Alzheimer's disease.\n* Diagnosis or history of cerebrovascular stroke, severe carotid stenosis, cerebral hemorrhage, intracranial tumor, subarachnoid hemorrhage.\n* Patients with unstable, uncontrolled diabetes (HbA1c \\> 7.7%) and those requiring insulin.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Alzheimer's Disease Assessment Scale - Cognitive (ADAS-cog) Total Score",
+        "description": "The ADAS-cog is a structured scale (approximately 40 minutes to complete) that evaluates memory, orientation, attention, reasoning, language and constructional praxis (Rosen, 1984). The ADAS-cog scoring range for the version used in this study is from 0 to 70, with higher scores indicating greater cognitive impairment.",
+        "timeFrame": "Baseline and 18 months (A-Study); baseline and 12 months (B-Study)"
+      },
+      {
+        "measure": "Change From Baseline in Clinical Dementia Rating Scale Sum of Boxes (CDR-sb)",
+        "description": "The CDR scale is used as a global measure of dementia and is completed by a clinician in the setting of detailed knowledge of the individual patient collected from interviews with the patient and caregiver (Berg, 1988). The CDR describes 5 degrees of impairment in performance on each of 6 categories including memory, orientation, judgment and problem solving, community affairs, home and hobbies, and personal care. CDR ratings are 0 for healthy individuals, 0.5 for questionable dementia and 1, 2 and 3 for mild, moderate and severe dementia as defined in the CDR scale. The scores for each category can also be summed and this is known as the sum of box score (CSR-SB). Sum of box scores range from 0 to 18 with higher scores indicating greater cognitive impairment.",
+        "timeFrame": "Baseline and 18 months (A-Study); baseline and 12 months (B-Study)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Magnetic Resonance Imaging (MRI) Brain Volumetric Measures",
+        "description": "Percent of Total Hippocampus Atrophy to Intracranial Volume",
+        "timeFrame": "Baseline and 18 months"
+      },
+      {
+        "measure": "Change From Baseline in the Normalized Mean Composite SUVR of the 5 Regions",
+        "description": "Extent and severity of brain hypometabolism was assessed centrally at Baseline and Month 18. SUVR PET was designed to make use of FreeSurfer-based segmentations of the brain obtained using the 3DT1 MRI. Following the methods published by Landau and Jagust (Landau SM, Annals of Neurology 2012) and described on the ADNI website (http://adni.loni.usc.edu/methods/pet-analysis-method/), regions were defined in native patient space on the 3DT1 MRI acquired at the Baseline visit and at Month 18 visit. An SUVR measure was computed regionally over five sub-regions (anterior/posterior cingulate, temporal, parietal, frontal and hippocampal areas), normalized to activity in the cerebral white matter. These sub-regions were selected to optimize sensitivity in longitudinal studies. This outcome measure presents the change from baseline in the normalized mean composite SUVR of the 5 regions. A negative change from baseline indicates a decrease (worsening) in brain glucose metabolism/utilization.",
+        "timeFrame": "Baseline to 18 months"
+      },
+      {
+        "measure": "Change From Baseline in Alzheimer's Disease Cooperative Study- Activities of Daily Living Inventory (ADCS-ADL)",
+        "description": "The ADCS-ADL is an activity of daily living inventory developed by the ADCS to assess functional performance in participants with AD (Galasko et al., 1997). Informants are queried via a structured interview format as to whether participants attempted each item in the inventory during the preceding 4 weeks, as well as their level of performance. Scores range from 0-78 with lower scores indicating greater functional impairment.",
+        "timeFrame": "Baseline and 18 months (A-Study); baseline and 12 months (B-Study)"
+      },
+      {
+        "measure": "Change From Baseline in Mini-Mental State Examination (MMSE)",
+        "description": "The MMSE is a brief 30-point test that is used to assess cognition (Folstein, 1975). It is commonly used to screen for dementia. In the time span of about 10 minutes, it samples various functions, including arithmetic, memory and orientation. Scores range from 0-30 with lower scores indicating greater cognitive impairment.",
+        "timeFrame": "Baseline and 18 months (A-Study); baseline and 12 months (B-Study)"
+      },
+      {
+        "measure": "Change From Baseline in Neuropsychiatric Inventory (NPI)",
+        "description": "The NPI is a well-validated, reliable, multi-item instrument to assess psychopathology in AD based on an interview with the caregiver (Cummings et al, 1994). It evaluates both the frequency and severity of 12 behavioral areas including delusions, hallucinations, dysphoria (depression) anxiety, agitation/aggression, euphoria, disinhibition, irritability, lability, apathy, aberrant motor behavior, appetite and eating changes and night-time behaviors.\n\nFrequency assessments range from 1 (occasionally, less than once per week) to 4 (very frequently, once or more per day or continuously) as well as severity (1= mild, 2 = moderate, 3 = severe). Distress is rated by the study partner or caregiver and ranges from 0 (no distress) to 5 (very severe or extreme). The overall score and the score for each subscale are the product of severity and frequency. Scores range from 0-144 with higher scores indicating a greater presence of neuropsychiatric symptoms.",
+        "timeFrame": "Baseline and 18 months (A-Study); baseline and 12 months (B-Study)"
+      },
+      {
+        "measure": "Change From Baseline in Dementia Quality of Life (DEMQOL)",
+        "description": "The DEMQOL-Proxy questionnaire is a validated and reliable questionnaire that is interview administered and completed by the caregiver about the patient's health related quality of life (Smith et al, 2005). It consists of 31 items representing 5 domains (daily activities and looking after yourself, health and well-being, cognitive functioning, social relationships, and self-concept) and takes approximately 20 minutes to complete. Scores range 31-124 with higher scores indicate better health related quality of life.",
+        "timeFrame": "Baseline and 18 months (A-Study); baseline and 12 months (B-Study)"
+      },
+      {
+        "measure": "Change From Baseline in Continuous Oral Word Association Task (COWAT)",
+        "description": "The COWAT is a measure of verbal fluency in which the participant is asked to generate orally as many words as possible that begin with the letters \"F\", \"A\", and \"S\", excluding proper names and different forms of the same word. (Borkowski, 1967, Loonstra 2001) For each letter, the participant is allowed one minute to generate the words. Performance is measured by the total number of correct words produced summed across the three letters. Perseverations (i.e., repetitions of a correct word) and intrusions (i.e., words not beginning with the designated letter) are noted.",
+        "timeFrame": "Baseline and 18 months (A-Study); baseline and 12 months (B-Study)"
+      },
+      {
+        "measure": "Change From Baseline in Category Fluency Test (CFT)",
+        "description": "Study participants are given one minute to provide exemplars of the category 'animals'.",
+        "timeFrame": "Baseline and 18 months (A-Study); baseline and 12 months (B-Study)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:39.538Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

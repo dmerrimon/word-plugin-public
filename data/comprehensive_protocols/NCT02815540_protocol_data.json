@@ -1,0 +1,95 @@
+{
+  "nctId": "NCT02815540",
+  "briefTitle": "The Effects of Cannabidiol (CBD) on Electrical and Autonomic Cardiac Function in Children With Severe Epilepsy",
+  "officialTitle": "The Effects of Cannabidiol (CBD) on Electrical and Autonomic Cardiac Function in Children",
+  "protocolDocument": {
+    "nctId": "NCT02815540",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-09-28",
+    "uploadDate": "2021-12-02T11:12",
+    "size": 225539,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02815540/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-02-16",
+    "completionDate": "2018-12-01",
+    "primaryCompletionDate": "2018-12-01",
+    "firstSubmitDate": "2016-06-20",
+    "firstPostDate": "2016-06-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosed with Dravet syndrome or Lennox-Gastaut syndrome\n* Patients who are planning to obtain medical cannabidiol\n* Patients who are already taking medical cannabidiol and are planning to stop taking it\n\nExclusion Criteria:\n\n* Patients without a diagnosis of Dravet syndrome or Lennox-Gastaut syndrome",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "30 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Holter SDNN Parameter Change",
+        "description": "Change from baseline Holter SDNN parameter to follow up visit Holter SDNN parameter.",
+        "timeFrame": "Baseline to 4 to 8 week follow up visit"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Seizure Frequency",
+        "description": "Change from baseline seizure frequency to follow up visit seizure frequency.",
+        "timeFrame": "Baseline and 4 to 8 week follow up visit"
+      },
+      {
+        "measure": "Dysautonomia Signs and Symptoms",
+        "description": "signs and symptoms assessed by questionnaire developed for this study that documents observable signs and symptoms of dysautonomia",
+        "timeFrame": "Baseline and 4 to 8 week follow up visit"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:47.626Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT04266028",
+  "briefTitle": "Study to Evaluate Safety and Tolerability of sc Immunotherapy With DM-101 in Adults With Birch Pollen Allergy",
+  "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Dose Escalation Study to Evaluate the Safety and Tolerability of Subcutaneous Immunotherapy With DM-101 in Adults With Birch Pollen Allergy",
+  "protocolDocument": {
+    "nctId": "NCT04266028",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-01-25",
+    "uploadDate": "2022-06-07T07:19",
+    "size": 1824719,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04266028/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 27,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-02-11",
+    "completionDate": "2021-05-31",
+    "primaryCompletionDate": "2021-05-31",
+    "firstSubmitDate": "2020-02-10",
+    "firstPostDate": "2020-02-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Males or females, aged 18 to 65 years\n* Good general health\n* A documented clinical history of birch pollen-induced allergic rhinitis or rhinoconjunctivitis with symptoms that interfere with daily activities or sleep and remain bothersome despite the use of relevant symptomatic medication, and have been present over, at least, 2 allergy seasons.\n* Bet v 1 specific serum IgE ≥ 0.7 kU/L\n* Positive SPT to birch pollen allergen, with a wheal diameter ≥ 5 mm\n* Body weight ≥50 kg and body mass index (BMI) within the range 18-35 kg/m2.\n\nKey Exclusion Criteria:\n\n* History or findings on physical examination of any significant disease or disorder which, in the opinion of the Investigator, may put the subject at risk because of participation in the study, influence the results of the study or the subject's ability to participate in the study.\n* Current diagnosis of asthma (other than seasonal during the birch pollen allergy season), requiring Global Initiative for Asthma (GINA) Step 2 or higher treatment, or asthma partially controlled or uncontrolled according to GINA classification in the 6 months before Screening.\n* History of asthma deterioration that resulted in emergency treatment or hospitalisation in the 12 months before screening, or a life-threatening asthma attack at any time in the past.\n* Forced Expiratory Volume in one second (FEV1) \\< 70% of predicted, regardless of asthma status at screening or baseline assessment at the first dosing visit.\n* History of severe drug allergy, severe angioedema or systemic allergic reaction of Grade 3 or greater, according to the World Allergy Organization (WAO) scale, due to any cause.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Treatment Emergent Adverse Events",
+        "description": "Number of All Treatment Emergent Adverse Events (TEAEs) in Subjects Receiving DM-101 Compared to Placebo",
+        "timeFrame": "From the first dose until 28 days following the last dose."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number and Severity of Systemic Allergic Reactions (SARs) in Subjects Receiving DM-101 Compared to Placebo",
+        "description": "Severity of SARs are graded from Grade 1 to 5 (Grade 5 being fatal) as defined by WAO Subcutaneous Immunotherapy Systemic Reaction Grading System.",
+        "timeFrame": "From the first dose until 28 days following the last dose."
+      },
+      {
+        "measure": "Number and Severity of Local Injection Site Reactions (LISRs) in Subjects Receiving DM-101 Compared to Placebo",
+        "description": "Pain, tenderness, erythema/redness and induration/swelling at the injection site was assessed after each injection using a 4-point scale (Grade 1 = mild, Grade 4 = severe) as defined in the study protocol.",
+        "timeFrame": "From the first dose until 28 days following the last dose."
+      },
+      {
+        "measure": "Subjects Reaching the Pre-defined DM-101 Dose",
+        "description": "Proportion of subjects reaching the pre-defined, admissible dose in each DM-101 dosing group",
+        "timeFrame": "From the first dose until 28 days following the last dose."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:47.227Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

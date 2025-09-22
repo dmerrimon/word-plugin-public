@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT00980785",
+  "briefTitle": "Studying the Effects of Antihypertensives on Individuals at Risk for Alzheimer's",
+  "officialTitle": "Studying the Effects of Antihypertensives on Individuals at Risk for Alzheimer's",
+  "protocolDocument": {
+    "nctId": "NCT00980785",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-12-05",
+    "uploadDate": "2020-08-13T18:09",
+    "size": 544305,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00980785/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 14,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2009-04-09",
+    "completionDate": "2011-07-26",
+    "primaryCompletionDate": "2011-07-26",
+    "firstSubmitDate": "2009-09-18",
+    "firstPostDate": "2009-09-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Between the ages of 40 and 65\n* Mean resting blood pressure between 130-160 systolic and 85-100 diastolic\n* Parent with Alzheimer's Disease\n\nExclusion Criteria:\n\n* Current involvement in another investigational drug trial.\n* Potassium \\> 5.0\n* Dementia based on DSMIV criteria\n* Mini-Mental State Exam (MMSE) score \\< 27\n* Current blood pressure medication (\\< 4 months from screening)\n* Weight loss medication\n* Contraindications for LP\n* Know diagnosis or history of hospitalization due to congestive heart failure\n* Elevated creatinine (females \\> 1.3 mg/dL or males \\> 1.4 mg/dL at baseline)\n* Diabetes Type I and II\n* Know adverse reaction to an ACE-I or an angiotensin receptor blocker\n* Pregnant of nursing women",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Cerebrospinal Fluid (CSF) Amyloid Beta-42 (Aβ42) Levels Between Baseline and Month 4 in Subjects Taking Ramipril vs Subjects on Placebo",
+        "description": "CSF Aβ42 levels will be measured from the cerebrospinal fluid taken from subjects on ramipril or placebo at the baseline visit and month 4 and will be measured by Dr. Henrik Zetterberg's laboratory.",
+        "timeFrame": "Baseline to 4 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in CSF Angiotensin Converting Enzyme (ACE) Levels Between Baseline and Month 4 in Subjects Taking Ramipril vs Subjects on Placebo",
+        "description": "CSF ACE levels will be measured from the cerebrospinal fluid taken from subjects on Ramipril or placebo at the baseline visit and month 4 and will be measured by ARUP® laboratories by spectrophotometric enzymatic assay.",
+        "timeFrame": "Baseline to 4 months"
+      },
+      {
+        "measure": "Change in Flow-mediated Vasodilation (FMD) Between Baseline and Month 4 in Subjects Taking Ramipril vs Subjects on Placebo",
+        "description": "FMD is calculated as the ratio of brachial artery diameter after reactive hyperemia to baseline diameter, expressed as percentage change. FMD for each subject (ramipril v placebo) will be measured at baseline and month 4, observing any differences.",
+        "timeFrame": "Baseline to 4 months"
+      },
+      {
+        "measure": "Change in Augmentation Index (%) Between Baseline and Month 4 in Subjects Taking Ramipril vs Subjects on Placebo",
+        "description": "Pulse wave velocity was measured using an AtCor SphymoCor Px tonometry system. A small pressure transducer was placed on the skin at the point the arterial pulsation of the right common carotid and right radial arteries. A Millar micromanometer is in the tip of the probe. Using a generalized transfer function, the distance between these pressure points, and the peripheral arterial waveforms, a central aortic pressure signal is derived, from which aortic augmentation index is determined.",
+        "timeFrame": "Baseline to 4 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.697Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

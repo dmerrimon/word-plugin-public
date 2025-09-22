@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT05609760",
+  "briefTitle": "Pictograms to Facilitate Comprehension of Medical Indications",
+  "officialTitle": "Effects of an Automated System of Pictograms to Facilitate Comprehension of Medical Indications: A Randomised Trial",
+  "protocolDocument": {
+    "nctId": "NCT05609760",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-01-05",
+    "uploadDate": "2024-01-05T14:21",
+    "size": 267004,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05609760/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 22,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-08-01",
+    "completionDate": "2023-02-20",
+    "primaryCompletionDate": "2023-02-20",
+    "firstSubmitDate": "2022-09-06",
+    "firstPostDate": "2022-11-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adult patients aged 18 to 65 years with a recent diagnosis of bronchial asthma (\\<=15 days) based on 2018 Global Initiative For Asthma (GINA) criteria.\n* Diagnosis substantiated clinically and with consistent spirometry results as established by current GINA guidelines.\n* Patients who are to initiate bronchodilator treatment, including at least one inhaled corticosteroid and one short-acting bronchodilator.\n\nExclusion Criteria:\n\n* Patients presenting obstructive bronchial pathology other than bronchial asthma (chronic obstructive pulmonary disease, mixed states, etc.),\n* Patients who have participated in the pictogram design phase (Stage 1 of the project),\n* Patients with a diagnosis of dementia, diagnosis of harmful use of alcohol and other drugs according to the International Classification of Diseases (ICD-10).\n* Patients with significant ophthalmologic pathology that prevents the use of pictograms.\n* Patients who do not wish to participate in the project.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Disease Control at 60 Days",
+        "description": "60 days after randomisation between groups using the Asthma Control Test (ACT). Min Score: 5 (indicating poor asthma control), Max Score 25 (indicating complete control). A score above 19 suggests well-controlled asthma.",
+        "timeFrame": "60 days"
+      },
+      {
+        "measure": "Disease Control at 30 Days",
+        "description": "Asthma control achieved at 30 days after randomisation between groups using the Asthma Control Test (ACT).Min Score: 5 (indicating poor asthma control), Max Score 25 (indicating complete control). A score above 19 suggests well-controlled asthma.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Disease Control at 7 Days",
+        "description": "Asthma control achieved at 7 days after randomisation between groups using the Asthma Control Test (ACT). Min Score: 5 (indicating poor asthma control), Max Score 25 (indicating complete control). A score above 19 suggests well-controlled asthma.",
+        "timeFrame": "7 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Inhaler Technique",
+        "description": "Proper application of the inhaler technique.",
+        "timeFrame": "60 days"
+      },
+      {
+        "measure": "Patient Adherence to Inhaler Technique Steps at 60 Days",
+        "description": "To assess patients' adherence to the correct inhaler technique, a five-step checklist was created, and a nurse evaluated each patient's inhalation technique. Then, the number of participants who correctly completed each individual step was reported.",
+        "timeFrame": "60 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:22.989Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

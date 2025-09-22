@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT03158038",
+  "briefTitle": "Study to Evaluate the Safety of 1 New 6:2 Influenza Virus Reassortant in Adults for the 2017-2018 Season",
+  "officialTitle": "A Phase 4 Randomized, Double-blind, Placebo-controlled Study to Evaluate the Safety of 1 New 6:2 Influenza Virus Reassortant in Adults",
+  "protocolDocument": {
+    "nctId": "NCT03158038",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-03-03",
+    "uploadDate": "2018-12-10T11:55",
+    "size": 16172991,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03158038/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 300,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-30",
+    "completionDate": "2017-12-14",
+    "primaryCompletionDate": "2017-12-14",
+    "firstSubmitDate": "2017-05-16",
+    "firstPostDate": "2017-05-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Age 18 through 49 years\n* Written informed consent\n* Participant available by telephone\n* Ability to understand and comply with the requirements of the protocol, as judged by the Investigator\n\nKey Exclusion Criteria:\n\n* Concurrent enrollment in another clinical study up to 180 days after receipt of investigational product (Day 181)\n* History of hypersensitivity to any component of the vaccine, including egg or egg protein or serious, life threatening, or severe reactions to previous influenza vaccinations\n* Any condition for which the inactivated influenza vaccine is indicated, including chronic disorders of the pulmonary or cardiovascular systems (example \\[eg\\], asthma), chronic metabolic diseases (eg, diabetes mellitus), renal dysfunction, or hemoglobinopathies that required regular medical follow-up or hospitalization during the preceding year\n* Acute febrile (greater than \\[\\>\\] 100.0 degrees Fahrenheit \\[F\\] oral or equivalent) and/or clinically significant respiratory illness (example, cough or sore throat) within 14 days to randomization\n* Any known immunosuppressive condition or immune deficiency diseases, including human immunodeficiency virus infection, or ongoing immunosuppressive therapy\n* History of Guillain-Barre syndrome\n* Receipt of any investigational agent within 30 days prior to randomization, or expected receipt through 30 days after the dose of investigational product (use of licensed agents for indications not listed in the Package Insert is permitted)\n* Receipt of any non-study vaccine within 30 days prior to randomization, or expected receipt through 30 days after receipt of investigational product\n* Expected receipt of antipyretic or analgesic medication on a daily or every other day basis from randomization through 14 days after receipt of investigational product\n* Administration of intranasal medications within 14 days prior to randomization, or expected receipt through 14 days after administration of investigational product\n* Receipt of influenza antiviral therapy or influenza antiviral agents within 48 hours prior to investigational product administration or expected receipt of influenza antiviral therapy or influenza antiviral agents through 14 days after receipt of investigational product",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "49 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Fever Greater Than or Equal to (>=) 101 Degrees Fahrenheit (F)",
+        "description": "Percentage of participants with fever defined as oral temperature \\>=101 degrees F were reported.",
+        "timeFrame": "Baseline (Day 1) up to Day 8"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With Solicited Symptoms",
+        "description": "Solicited symptoms are predefined symptoms or events specifically inquired about and assessed daily after vaccine administration up to 15 days after vaccination. The solicited symptoms include fever greater than (\\>) 100.0 degrees F (37.8 degrees Celsius), runny nose, sore throat, cough, vomiting, muscle aches, chills, decreased activity and headache. Results were reported for all solicited symptoms except fever \\>=101 degrees F (reported as primary outcome) up to 8 days after vaccination and all solicited symptoms up to 15 days after vaccination.",
+        "timeFrame": "Baseline (Day 1) up to Day 8 and Day 15"
+      },
+      {
+        "measure": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs)",
+        "description": "An adverse event (AE) is any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. Treatment-emergent AEs were events between administration of study drug and up to 15 days after vaccination that are absent before treatment or that worsened relative to pre-treatment state. Results were given for AEs reported up to 8 days and 15 days after vaccination.",
+        "timeFrame": "Baseline (Day 1) up to Day 8 and Day 15"
+      },
+      {
+        "measure": "Number of Participants With Treatment-Emergent Serious Adverse Events (TESAEs) and New Onset Chronic Diseases (NOCDs)",
+        "description": "An AE is any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. An serious adverse event (SAE) is an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent SAEs were serious events between administration of study drug and up to 181 days after the dose that are absent before treatment or that worsen relative to pretreatment state. An NOCD is a newly diagnosed medical condition that is of a chronic, ongoing nature and is assessed by the investigator as medically significant. Results were given for TESAEs and NOCDs reported up to 29 days and 181 days after vaccination.",
+        "timeFrame": "Baseline (Day 1) up to Day 29 and Day 181"
+      },
+      {
+        "measure": "Percentage of Participants Who Require Antipyretic and/or Analgesic Medication",
+        "description": "Percentage of participants who require antipyretic and/or analgesic medication were reported.",
+        "timeFrame": "Baseline (Day 1) up to Day 8 and Day 15"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:33.563Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

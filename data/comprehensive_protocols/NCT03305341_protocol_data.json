@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT03305341",
+  "briefTitle": "Proof-of-Concept Clinical Pharmacology Trial for COVID-19 Antigen Presentation Therapeutic Biologic Mix",
+  "officialTitle": "Conducting an Initial Small, Controlled Clinical Pharmacology Trial to Assess for Therapeutic Biologics Activity (Proof-of-Concept) That Suggests the Potential for Clinical Benefits of COVID-19 Patients With Controlled Cancers.",
+  "protocolDocument": {
+    "nctId": "NCT03305341",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2025-06-04",
+    "uploadDate": "2025-06-06T13:50",
+    "size": 1089789,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03305341/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "EARLY_PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-05-18",
+    "completionDate": "2026-07-28",
+    "primaryCompletionDate": "2026-07-18",
+    "firstSubmitDate": "2017-10-04",
+    "firstPostDate": "2017-10-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "* Conducting an initial small, controlled trial to assess therapeutic biologics activity (proof-of-concept) that suggests the potential for clinical benefit of COVID-19 patients with controlled cancers.\n* 20 Moderate COVID-19 patients with controlled cancers\n\nInclusion Criteria:\n\n* Controlled Cancers\n* Moderate COVID-19\n* Positive testing by standard RT-PCR assay or equivalent testing\n* Symptoms of moderate illness with COVID-19, which could include any symptom of mild illness or shortness of breath with exertion\n* Clinical signs suggestive of moderate illness with COVID-19, such as respiratory rate ≥ 20 breaths per minute, saturation of oxygen (SpO2) \\> 93% on room air at sea level, heart rate ≥ 90 beats per minute\n* No clinical signs indicative of Severe or Critical Illness Severity\n\nExclusion Criteria:\n\n* 1\\. Uncontrolled Cancers\n* 2\\. Severe or Critical Illness Severity\n* 3\\. Pregnancy\n* 4\\. Breast-feeding\n* 5\\. The patients with other serious inter-current illness\n* 6\\. Serious Allergy\n* 7\\. Serious Bleed Tendency\n* 8\\. The prohibition of the biological product",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "24 Years",
+    "maximumAge": "64 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants with Moderate COVID-19:",
+        "description": "* 20 Moderate COVID-19 patients with controlled cancers\n* Moderate COVID-19\n* Positive testing by standard RT-PCR assay\n* Symptoms of moderate illness with COVID-19, which could include any symptom of mild illness or shortness of breath with exertion\n* Clinical signs suggestive of moderate illness with COVID-19, such as respiratory rate ≥ 20 breaths per minute, saturation of oxygen (SpO2) \\> 93% on room air at sea level, heart rate ≥ 90 beats per minute\n* No clinical signs indicative of Severe or Critical Illness Severity",
+        "timeFrame": "Duration at least 28 days"
+      },
+      {
+        "measure": "Rate of Positive COVID-19 nucleic acid:",
+        "description": "* 20 Moderate COVID-19 patients with controled cancers\n* Positive testing COVID-19 by standard RT-PCR assay immediately\n* COVID-19 nucleic acid testing, assessed by RT-PCR Assay Kit\n* Rate of Positive COVID-19 nucleic acid must be 100%",
+        "timeFrame": "Duration at least 28 days"
+      },
+      {
+        "measure": "Rate of Negative COVID-19 nucleic acid",
+        "description": "* 20 Moderate COVID-19 patients with controlled cancers\n* NOVAVAX COVID-19 VACCINE 1.0 mL plus BCG Organism 50 MG Mix\n* By the percutaneous route with the multiple puncture device\n* Negative COVID-19 by standard RT-PCR assay after percutaneous use 3 weeks\n* COVID-19 nucleic acid testing, assessed by RT-PCR Assay Kit\n* Rate of Negative COVID-19 nucleic acid will be more than 80%",
+        "timeFrame": "Duration at least 28 days"
+      },
+      {
+        "measure": "20 COVID-19 Participants with IGRA blood test with COVID-19 spike protein antigen",
+        "description": "Positive IGRA blood test with COVID-19 spike protein antigen after percutaneous use 21 days",
+        "timeFrame": "Duration at least 28 days"
+      },
+      {
+        "measure": "20 COVID-19 Participants with IGRA blood test with TB antigens",
+        "description": "* Negative IGRA blood test with TB antigens before percutaneous use\n* Positive IGRA blood test with TB antigens after percutaneous use 21 days",
+        "timeFrame": "Duration at least 28 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.165Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT03137433",
+  "briefTitle": "Weight Loss With Meal-Replacement Therapy in Teens",
+  "officialTitle": "Enhancing Weight Loss With Meal-Replacement Therapy in Teens With Severe Obesity",
+  "protocolDocument": {
+    "nctId": "NCT03137433",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-04-06",
+    "uploadDate": "2023-09-12T09:37",
+    "size": 521826,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03137433/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 126,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-01-02",
+    "completionDate": "2023-04-30",
+    "primaryCompletionDate": "2022-09-30",
+    "firstSubmitDate": "2017-04-25",
+    "firstPostDate": "2017-05-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* BMI ≥1.2 times the 95th percentile (based on sex and age) or BMI ≥35 kg/m2\n* 13-17 years old\n\nExclusion Criteria:\n\n* Type 1 or 2 diabetes mellitus\n* Previous (within 6 months) or current use of meal replacements\n* Previous (within 6 months) or current use of medication(s) prescribed primarily for weight loss (refer to appendix material for comprehensive list)\n* If currently using weight altering drug(s) for non-obesity indication(s) (refer to appendix material for comprehensive list), any change in drug(s) or dose within the previous 6 months\n* Previous bariatric surgery\n* If currently using anti-hypertensive medication(s), lipid medication(s), and/or medication(s) to treat insulin resistance (refer to appendix material for comprehensive list), any change in drug(s) or dose within the previous 6 months\n* If currently using CPAP/BIPAP (for sleep apnea), change in frequency of use or settings within the previous 6 months\n* History of treatment with growth hormone\n* Neurodevelopmental disorder severe enough to impair ability to comply with study protocol\n* Clinical diagnosis of bipolar illness, schizophrenia, conduct disorder, and/or substance use/abuse\n* Females: currently pregnant or planning to become pregnant\n* Tobacco use\n* Bulimia nervosa\n* Endorsement of vomiting, laxative use, and/or diuretic use for weight control (EDE-Q)\n* Binge eating disorder\n* Neurological disorder\n* Hypothalamic obesity\n* Obesity associated with genetic disorder (monogenetic obesity)\n* Hyperthyroidism or uncontrolled hypothyroidism\n* History of cholelithiasis",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "13 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Body Mass Index (From Baseline to 1-year)",
+        "description": "Percent change in body mass index (BMI) from baseline to 1-year (kg/m2)",
+        "timeFrame": "52 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Total Fat Mass (kg)",
+        "description": "Change in fat mass from randomization to week 52",
+        "timeFrame": "52 Weeks"
+      },
+      {
+        "measure": "Carotid-radial Pulse Wave Velocity (m/s)",
+        "description": "Change in measure of arterial stiffness (from baseline to 1-year)",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Impact of Weight-related on Quality of Life",
+        "description": "Impact of Weight-related on Quality of Life Total Transformed Score (from physical comfort transformed score, body self esteem transformed score, social life transformed score, and family relations transformed score). Scores range from 0 to 100 with 100 representing the best quality of life.",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Systolic Blood Pressure",
+        "description": "Change in systolic blood pressure (from baseline to 1-year)",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Diastolic Blood Pressure",
+        "description": "Change in diastolic blood pressure (from baseline to 1-year)",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Total Cholesterol",
+        "description": "Total cholesterol (mg/dL)",
+        "timeFrame": "52 Weeks"
+      },
+      {
+        "measure": "HDL",
+        "description": "High Density Lipoprotein (mg/dL)",
+        "timeFrame": "52 Weeks"
+      },
+      {
+        "measure": "LDL",
+        "description": "Low Density Lipoprotein (mg/dL)",
+        "timeFrame": "52 Weeks"
+      },
+      {
+        "measure": "Triglyceride/HDL Cholesterol Ratio",
+        "description": "Triglyceride/HDL cholesterol ratio (from baseline to 1-year)",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Total Glucose",
+        "description": "Total Glucose (mg/dL)",
+        "timeFrame": "52 Weeks"
+      },
+      {
+        "measure": "Insulin",
+        "description": "Insulin (mU/dL)",
+        "timeFrame": "52 Weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 11,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:16.266Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04854382",
+  "briefTitle": "Tailored Information About the Coronavirus for Patients With Chronic Kidney Disease",
+  "officialTitle": "Tailored Information About the Coronavirus for Patients With Chronic Kidney Disease",
+  "protocolDocument": {
+    "nctId": "NCT04854382",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-11-01",
+    "uploadDate": "2021-04-22T14:01",
+    "size": 757209,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04854382/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 215,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2021-04-14",
+    "completionDate": "2023-12-31",
+    "primaryCompletionDate": "2022-03-10",
+    "firstSubmitDate": "2021-04-13",
+    "firstPostDate": "2021-04-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Chronic kidney disease stage 5\n\nExclusion Criteria:\n\n* Covid-19 during last 12 months. Dementia or other reason why cannot participate like major depression, psychosis or hospitalized persons with severe frailty.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Digital health literacy",
+        "description": "Digital health literacy measured by Electronic Health Literacy Scale (shortened eHEALS, Norman et al 2006), a questionnaire composed of 8 items measuring combined knowledge, comfort, and perceived skills at finding, evaluating, and applying electronic health information to health problems, Likert scale 1 (lowest, worst digital health literacy) - 5 (highest, best digital health literacy), with max score 40.",
+        "timeFrame": "9 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Health literacy",
+        "description": "Health literacy measured by Health Literacy Questionnaire (shortened HLQ, Osborne et al 2013), a questionnaire composed of 44 items (9 dimensions) measuring reading and writing skills (functional), interactive and critical literacy. Likert scale 1 (lowest, worst health literacy) - 4 (highest, best health literacy) for some items and 1 (lowest, similar) - 5 (highest) for other items with calculations of mean score for each of the 9 dimensions.",
+        "timeFrame": "9 months"
+      },
+      {
+        "measure": "Self-perceived Health",
+        "description": "Self-perceived health measured with the EQ-5D-5L (EuroQol Group 1990), a questionnaire composed of 5 items / dimensions (mobility, autonomy, daily activities, pain, and anxiety and depression), Likert scale 1 (lowest / best health) - 5 (highest / worst health) with max score 25",
+        "timeFrame": "9 months"
+      },
+      {
+        "measure": "Anxiety / concern",
+        "description": "Anxiety / concern measured by the questionnaire Fear of corona scale (Ahorsu et al 2020), Likert scale 1 (lowest, least concern) - 5 (highest, most concern) with max score 35",
+        "timeFrame": "9 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:06.318Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,74 @@
+{
+  "nctId": "NCT06979440",
+  "briefTitle": "Study on the Molecular Mechanism of Berberine to Improve Type 2 Diabetes Mellitus Complicated With Depression",
+  "officialTitle": "Study on the Molecular Mechanism of Berberine Regulating the Gut Microbiota-derived Metabolites 5-AVAB to Improve Type 2 Diabetes Mellitus Complicated With Depression.",
+  "protocolDocument": {
+    "nctId": "NCT06979440",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-05-18",
+    "uploadDate": "2025-05-19T01:52",
+    "size": 234934,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06979440/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2024-11-09",
+    "completionDate": "2027-12-31",
+    "primaryCompletionDate": "2027-12-31",
+    "firstSubmitDate": "2025-05-13",
+    "firstPostDate": "2025-05-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Aged 18-65 years (including the critical value), regardless of gender;\n2. The Con group was diagnosed with type 2 diabetes and had no history of mental disorders such as depression;\n3. The T2DD patient group was diagnosed with type 2 diabetes and depression, where depression met the DSM-5 diagnostic criteria for recurrent depression without psychotic symptoms or single-episode MDD, and the total score of the HAMD-17 scale was ≥22 points;\n4. The subjects read and fully understood the patient instructions and signed the informed consent form.\n\nExclusion Criteria:\n\n1. Those who do not meet the inclusion criteria;\n2. Those who have not used antibiotics, prebiotics, probiotics, enteral nutrition drugs, etc. within 3 months before diagnosis, and those who do not use antibiotics, prebiotics, probiotics, enteral nutrition drugs, etc. during treatment;\n3. Those with progressive serious diseases (such as cancer);\n4. Those with severe aphasia, agnosia, and apraxia;\n5. Those who have used psychotropic drugs for a long time within 1 month before the study or have received new drug research in the past 3 months;\n6. Pregnant or breastfeeding women;\n7. Alcoholics or drug addicts;\n8. Those with poor mental condition and unable to cooperate;\n9. Those who are considered unsuitable for inclusion in the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The levels of 5-AVAB",
+        "description": "There were no additional intervention measures in this study. Faeces were collected after excretion for in vitro drug intervention experiments. The blood collection volume (5 mL) met the ISO international standard and was used to detect the 5-AVAB content in each group.",
+        "timeFrame": "3 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:18.206Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT03446313",
+  "briefTitle": "Technology-Based Intervention to Promote Heart Health After Cardiac Rehab (Mobile4Heart)",
+  "officialTitle": "A Technology-Based Adaptive Intervention to Promote Cardiovascular Health After Completion of Cardiac Rehabilitation (Mobile4Heart)",
+  "protocolDocument": {
+    "nctId": "NCT03446313",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-02-23",
+    "uploadDate": "2022-06-13T16:54",
+    "size": 260233,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03446313/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-02-28",
+    "completionDate": "2019-04-05",
+    "primaryCompletionDate": "2019-04-05",
+    "firstSubmitDate": "2018-02-14",
+    "firstPostDate": "2018-02-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* At least 18 years of age\n* History of cardiovascular disease that qualified patient for cardiac rehab (i.e. ischemic heart disease, history of unstable angina, systolic heart failure with ejection fraction at 35% or less, and Class II to IV symptoms, coronary artery bypass graft surgery, valve replacement)\n* Own a smartphone or tablet\n\nExclusion Criteria:\n\n* Cognitive impairment\n* Lack of English proficiency/literacy\n* Clinical conditions including: unstable arrhythmias, aortic stenosis, thrombophlebitis, dissecting aneurysm, symptomatic anemia, active infection, uncontrolled hypertension (resting diastolic \\> 100 mmHg, systolic \\> 180 mmHg), decompensated heart failure NYHA class 3-4, current unstable angina, 2nd or 3rd degree heart block, or uncontrolled high grade exercise-induced ventricular ectopy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Steps Per Day",
+        "description": "Physical activity will be measured by steps per day using activity tracker.",
+        "timeFrame": "Two months"
+      },
+      {
+        "measure": "6MWT",
+        "description": "Physical activity will be measured by a six minute walk test.",
+        "timeFrame": "2 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "PHQ-9",
+        "description": "Depression will be measured by the Patient Health Questionnaire-9 (PHQ-9). Scores range from 0 (lowest) to 27 (highest), higher score associated with moderate to severe depression.",
+        "timeFrame": "2 months"
+      },
+      {
+        "measure": "Exercise Self-Efficacy Scale (EXSE)",
+        "description": "Self-efficacy will be measured by the Exercise Self-Efficacy Scale (EXSE). Scores can range from 0 (lowest) to 100 (highest) with 0 indicating low self-efficacy and 100 indicating high self-efficacy.",
+        "timeFrame": "2 months"
+      },
+      {
+        "measure": "Acceptability",
+        "description": "Satification survey, scored 0 (lowest) to 5 (highest), higher score associated with greater satisfaction",
+        "timeFrame": "2 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:31.790Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

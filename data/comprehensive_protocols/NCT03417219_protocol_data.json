@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT03417219",
+  "briefTitle": "Mobile Tablet Education to Advance Caregiver Health",
+  "officialTitle": "Mobile Media Intervention for Family Caregivers of Veterans With Dementia",
+  "protocolDocument": {
+    "nctId": "NCT03417219",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2014-08-21",
+    "uploadDate": "2019-04-23T13:50",
+    "size": 197624,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03417219/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 16,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-01-01",
+    "completionDate": "2018-06-30",
+    "primaryCompletionDate": "2017-12-31",
+    "firstSubmitDate": "2018-01-23",
+    "firstPostDate": "2018-01-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\-- Participants must:\n\n* report distress associated with being the primary caregiver for a family member with dementia\n* reporting at least 2 of the following 6 items at baseline assessment: felt overwhelmed, felt like they often needed to cry, were angry or frustrated, felt they were cut off from family or friends, reported moderate to high levels of general stress, or felt their health had declined\n* provide at least 7 hours of care (supervision or direct assistance) per week over the past 3 months (other sources of caregiving for the Veteran with dementia can also be utilized; e.g., respite, home health aide, other family members)\n* cohabitate with a Veteran diagnosed with dementia\n* be proficient in spoken and written English\n* be capable of providing informed consent\n\nExclusion Criteria:\n\n\\-- Potential participants will be screened and excluded for:\n\n* current or lifetime history of any psychiatric disorder with psychotic features\n* prominent suicidal or homicidal ideation\n* having met DSM-IV criteria for drug or alcohol abuse or dependence (except nicotine) within the past six months\n* presence of alcohol intoxication (by breathalyzer) or alcohol withdrawal (by exam) during study recruitment or participation\n* diagnosis of probable or possible dementia\n* a Telephone Cognitive Screen score of \\< 20\n* participation in another caregiver intervention study within the past year\n* lack of access to telephone and internet services in the home\n* illness that would prevent study participation\n* planned transfer of care receiver to another caregiver or nursing home within 6 months\n* currently living with an implantable cardioverter defibrillator or pacemaker\n* known pregnancy at time of consent",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline Zarit Burden Interview (ZBI) at 4 Months",
+        "description": "The Zarit Burden Interview (ZBI) is a 22-item self-report measure of caregiver burden. Several version of the ZBI have been used successfully as outcome measures in interventions for dementia caregivers. Scores for each item range from 0 (never) to 4 (nearly always) on questions such as \"Do you feel embarrassed by your relative's behavior?.\" Total scores are calculated by summing all responses and range from 0-88. A higher score is indicative of a worse outcome.",
+        "timeFrame": "Baseline, 4 month follow-up"
+      },
+      {
+        "measure": "Change From Baseline Center for Epidemiological Studies-Depression (CES-D) at 4 Months",
+        "description": "The Center for Epidemiological Studies-Depression (CES-D) is a 20-item, self-report measure of frequency of depressive symptoms over a one week period. The CES-D is frequently used to assess depression in dementia caregivers and has been shown to be sensitive to changes in caregiver depression post intervention. Scores for each item range from 0 (rarely or none of the time) to 3 (most or all of the time), with some items reverse coded. Total scores are calculated by summing all responses and range from 0-60. A higher score is indicative of a worse outcome.",
+        "timeFrame": "Baseline, 4 month follow-up"
+      },
+      {
+        "measure": "Change From Baseline Perceived Stress Scale (PSS) at 4 Months",
+        "description": "The Perceived Stress Scale (PSS) is the most widely used psychological instrument for measuring the perception of stress. It is a measure of the degree to which situations in one's life are appraised as stressful. Items were designed to tap how unpredictable, uncontrollable, and overloaded respondents find their lives. The scale also includes a number of direct queries about current levels of experienced stress. We use a 14 item version of the PSS with a minimum score of 0 and a maximum score of 56. Lower values indicate lower perceived stress while higher values indicate higher perceived stress.",
+        "timeFrame": "Baseline, 4 month follow-up"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:41.332Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

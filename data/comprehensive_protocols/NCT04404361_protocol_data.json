@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT04404361",
+  "briefTitle": "PRE-VENT Study in Hospitalized Patients With Severe COVID-19 With or Without Cancer",
+  "officialTitle": "A Phase 2 Randomized, Double-blind, Placebo-controlled, Multicenter Study of Pacritinib Plus Standard of Care Versus Placebo and Standard of Care in Hospitalized Patients With Severe COVID-19 With or Without Cancer",
+  "protocolDocument": {
+    "nctId": "NCT04404361",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-08-11",
+    "uploadDate": "2023-12-29T10:30",
+    "size": 829120,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04404361/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 200,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-22",
+    "completionDate": "2021-09-21",
+    "primaryCompletionDate": "2021-09-21",
+    "firstSubmitDate": "2020-05-22",
+    "firstPostDate": "2020-05-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Hospitalized or will be hospitalized prior to randomization for the treatment of severe COVID-19 with SARS-CoV-2 infection confirmed by either a) a positive reverse transcriptase polymerase chain reaction (RT PCR) or b) an antigen-based test from any respiratory, nasopharyngeal, saliva, blood, or stool specimen at Screening or documented within 1 week prior to the start of Screening (Severe COVID-19 is defined as confirmed disease in patients who are hospitalized with hypoxia \\[SpO2 ≤93% on room air\\], respiratory rate \\>30, PaO2/FiO2 \\<300, but do not require IMV).\n2. Age ≥ 18 years\n3. Platelet count ≥ 50,000/µL\n4. If fertile, willing to use effective birth control methods during the study\n5. Provision of informed consent within 96 hours after hospitalization\n\nExclusion Criteria:\n\n1. In the opinion of the investigator, progression to death is imminent and inevitable within the next 24 hours, irrespective of the provision of treatments\n2. Currently intubated or intubated between screening and randomization\n3. Suspected active uncontrolled bacterial, fungal, viral, or other infection (besides COVID 19)\n4. Prior allogenic hematopoietic stem cell transplantation\n5. Active lung cancer or history of lung cancer within the past 12 months\n6. Any active grade 2 or higher hemorrhage\n7. Any active gastrointestinal or metabolic condition that could interfere with absorption of oral medication\n8. Uncontrolled intercurrent illness that, in the judgment of the treating physician, would limit compliance with study requirements\n9. Known seropositivity for human immunodeficiency virus with cluster of differentiation 4 (CD4) count \\< 200/mm3 within 3 months prior to randomization\n10. Pregnant or breastfeeding, or positive pregnancy test in a pre-dose examination\n11. Concurrent enrollment in another interventional trial (investigational COVID-19 antiviral studies are permitted)\n12. Serum creatinine \\> 2.5 mg/dL\n13. Total bilirubin \\> 4× the upper limit of normal\n14. QT corrected by the Fridericia method (QTcF) prolongation \\> 480 msec\n15. Known history of New York Heart Association Class II, III, or IV congestive heart failure prior to hospital admission\n16. Known allergic reaction to any Janus kinase 2 (JAK2) inhibitor\n17. Exposure to any JAK2 inhibitor within 28 days\n18. Currently receiving a strong CYP3A4 inhibitor or strong P450 inducer (Appendix 1 and Appendix 2, respectively) and unable to stop the medication prior to the first dose of study drug and throughout the duration of study drug administration\n19. Treatment with cytoreductive chemotherapy administered within 14 days prior to randomization\n20. Administration of an IL 1 or IL 6 blocking immunomodulatory agent (such as tocilizumab, canakinumab, sarilumab, anakinra) within 48 hours prior to randomization\n21. Currently receiving therapeutic anticoagulation or anti platelet medication and unable to stop the medication prior to randomization. Prophylactic anticoagulation therapy or aspirin (≤ 100mg) are permitted.\n22. Unable to ingest capsules or tablets at randomization",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Progression to IMV and/or ECMO or Death",
+        "description": "The percentage is calculated as the number of patients who progress to IMV/ECMO or death divided by the total number of patients in the ITT population (n/N \\* 100).",
+        "timeFrame": "Baseline to Day 28"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The Number of Ventilator-Free Days",
+        "description": "the number of days that patients are alive and not intubated, from randomization to Day 28",
+        "timeFrame": "Baseline to Day 28"
+      },
+      {
+        "measure": "The Mortality Rate at Day 28",
+        "description": "the number of patients with outcome of death during the 28 days following randomization",
+        "timeFrame": "Baseline to Day 28"
+      },
+      {
+        "measure": "The Mortality Rate at Day 15",
+        "description": "the number of patients with outcome of death in the 15 days following randomization",
+        "timeFrame": "Baseline to Day 15"
+      },
+      {
+        "measure": "The Time to Improvement by at Least 2 Points Relative to Baseline on the 7-point Ordinal Scale of Clinical Status",
+        "description": "Time to Improvement (days) = Date of improvement - Date of randomization + 1. Date of Improvement was defined as the time to first ordinal scale assessment 2 points or more lower than the baseline clinical status assessment.",
+        "timeFrame": "Baseline, Day 8, 15, 22, and 28."
+      },
+      {
+        "measure": "The Clinical Status as Assessed by the 7-point Ordinal Scale of Clinical Status at Days 8, 15, 22, and 28",
+        "description": "Clinical status assessment based on the adapted scale from Cao et al. The patient CS is summarized by study visit.\n\nSTATUS:\n\n1. not hospitalized with resumption of normal activities;\n2. not hospitalized but unable to resume normal activities;\n3. hospitalization, not requiring supplemental oxygen;\n4. hospitalization, requiring supplemental oxygen not meeting the criteria for categories 5 or 6;\n5. hospitalization, on non-invasive positive pressure ventilation or high-flow nasal cannula;\n6. hospitalization, requiring IMV and/or ECMO;\n7. death.",
+        "timeFrame": "Baseline, Day 8, 15, 22, 28"
+      },
+      {
+        "measure": "The Rate of Use of Immunomodulatory Agents as Treatment for COVID-19",
+        "description": "the proportion of patients reporting use of medications such as corticosteroids, tocilizumab, anakinra, or eculizumab as treatment for COVID-19, during 28 days following randomization",
+        "timeFrame": "Baseline to Day 28"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:36.855Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

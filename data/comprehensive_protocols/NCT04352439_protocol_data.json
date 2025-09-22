@@ -1,0 +1,90 @@
+{
+  "nctId": "NCT04352439",
+  "briefTitle": "Aspirin for Prevention of Venous Thromboembolism Among Ovarian Cancer Patients Receiving Neoadjuvant Chemotherapy",
+  "officialTitle": "Aspirin for Prevention of Venous Thromboembolism Among Ovarian Cancer Patients Receiving Neoadjuvant Chemotherapy",
+  "protocolDocument": {
+    "nctId": "NCT04352439",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-06-01",
+    "uploadDate": "2022-09-06T12:34",
+    "size": 626557,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04352439/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 19,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-08-08",
+    "completionDate": "2022-03-02",
+    "primaryCompletionDate": "2022-03-02",
+    "firstSubmitDate": "2020-04-13",
+    "firstPostDate": "2020-04-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Khorana score = 1\n* Over age 18\n* English-speaking female patients\n* Able to consent\n* Receiving neoadjuvant chemotherapy Cancer of primary ovarian, fallopian tube, mullerian, or peritoneal origin\n\nExclusion Criteria:\n\n* Allergy or intolerance to study medication\n* Indication for a non-aspirin form of antiplatelet (i.e. cardiac stent)\n* Already on alternative form of anticoagulation\n* Active bleeding\n* High risk for active bleeding (i.e. recent intracranial bleed or gastrointestinal bleed, known brain metastases)\n* Thrombocytopenia (platelets \\<50,000)\n* Unable to complete medication adherence diary\n* Unable to take oral medications",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Experiencing a Venous Thromboembolism",
+        "timeFrame": "Up to six months"
+      },
+      {
+        "measure": "Number of Participants With at Least One Adverse Event",
+        "description": "Adverse events will only include those that are determined to be related to the study drug.",
+        "timeFrame": "Up to six months"
+      },
+      {
+        "measure": "Medication Adherence",
+        "description": "Patient adherence to aspirin as defined by percent of pills used.",
+        "timeFrame": "Up to six months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:50.998Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT06048471",
+  "briefTitle": "High Tone Therapy for Chemotherapy Induced Neuropathy",
+  "officialTitle": "High Tone Therapy for Chemotherapy Induced Neuropathy",
+  "protocolDocument": {
+    "nctId": "NCT06048471",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-09-01",
+    "uploadDate": "2023-09-15T01:27",
+    "size": 152878,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06048471/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 14,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-04-01",
+    "completionDate": "2023-09-22",
+    "primaryCompletionDate": "2023-09-22",
+    "firstSubmitDate": "2020-03-02",
+    "firstPostDate": "2023-09-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n* Patients with histologically verified colorectal cancer and adjuvant treatment with a platin derivate (e.g., cisplatin, oxaliplatin): This group was chosen due to relatively high risk of neuropathy due to this special therapeutic agent 1,9.\n* Cumulative dose of at least 3 cycles\n* Interval of 2 weeks since the last chemotherapeutic cycle in order to prevent false worsenings due to delayed neurotoxic effects\n* Life expectancy of at least 3 months\n* Stable medication (no changes of especially pain medication during the study)\n* Eastern Cooperative Oncology Group (ECOG) Performance Status score of 0-2 (that is, the capability to walk and to spend less than 50% of waking hours sitting or lying)\n* Ability to walk (with or without aids)\n* European Organisation for Research and Treatment of Cancer (EORTC) common toxicity criteria (CTC) peripheral sensory neuropathy grade 1 or 2\n* Intensity of paresthesias of 3/10 or higher on the Numeric Rating Scale (NRS)\n\nExclusion criteria:\n\n* Prevalent neuropathy of different etiology\n* Serious central-neurological or psychiatric disorder that would interfer with a proper order of the study, according to the judgement of the investigators\n* Epilepsy\n* Minors or persons unable to give informed consent\n* Current neurotoxic medication\n* Implanted pacemakers or defibrillators\n* Pregnancy\n* Wounds in the area to be treated, acute local or systemic infection\n* Peripheral arterial occlusive disease \\> grade 2",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Intensity of paresthesia",
+        "description": "NRS scale",
+        "timeFrame": "5 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "health related Quality of life (QOL), detailed symptroms of neuropathy",
+        "description": "EORTC C30, CIPN 20, Neuropathy symptom scale (NSS), NRS scales",
+        "timeFrame": "5 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:50.687Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

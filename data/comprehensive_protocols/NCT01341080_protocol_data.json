@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT01341080",
+  "briefTitle": "Varenicline for Gait and Balance Impairment in Parkinson Disease",
+  "officialTitle": "Varenicline for the Treatment of Postural and Gait Dysfunction in Parkinson Disease",
+  "protocolDocument": {
+    "nctId": "NCT01341080",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2011-08-23",
+    "uploadDate": "2020-10-14T14:15",
+    "size": 2068374,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01341080/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2010-12-28",
+    "completionDate": "2018-11-02",
+    "primaryCompletionDate": "2018-11-02",
+    "firstSubmitDate": "2011-04-21",
+    "firstPostDate": "2011-04-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subjects will be diagnosed with Parkinson Disease (PD) by the United Kingdom (UK) Brain Bank criteria.\n* Subjects will have to be at least stage 2 on the Hoehn and Yahr staging system of PD and have a history of at least 1 fall or near fall in the last 6 months\n* Subjects must have a stable medication regimen.\n* All subjects will be over the age of 40 in an attempt to exclude inherited forms of parkinsonism.\n* Serum creatine kinase, complete metabolic panel, complete blood count, liver function tests, renal function tests, platelets and EKG are within normal limits (results obtained from primary care physician and dated within the past 6 months or obtained at screening visit).\n\nExclusion Criteria:\n\n* Hoehn and Yahr stage V subjects.\n* Subjects with a history of major psychiatric disorder, deep brain stimulation surgery, recent cerebral trauma, cardiac arrhythmia, or renal insufficiency.\n* A cardiovascular procedure in the last 5 years (eg, percutaneous transluminal coronary angioplasty) or have cardiovascular instability (including myocardial infarction or unstable angina). Other cardiovascular exclusions include uncontrolled hypertension, significant neurological sequelae of cerebrovascular disease, peripheral vascular disease with prior amputation, or severe congestive heart failure (New York Heart Association class III or IV).\n* Concurrent treatment with any monoamine oxidase inhibitors (MAOIs), bupropion (Wellbutrin), or nicotine patches.\n* Dementia or other psychiatric illness that prevents the patient from giving informed consent (Folstein Mini Mental Status Exam score less than 25).\n* Concurrent treatment with trihexyphenidyl (Artane) or benztropine mesylate (Cogentin).\n* Significant degree of dysphagia, by history.\n* Legal incapacity or limited legal capacity.\n* Presence of severe renal disease (BUN 50% greater than normal or creatinine clearance \\<60 mL/min) or hepatic disease.\n* Abnormal creatine kinase and/or platelet count in the past 6 months (as determined by lab reports obtained from primary care physicians or conducted at baseline).\n* Use of varenicline within the previous 30 days.\n* Women of childbearing potential who are pregnant at the time of screening or who will not use adequate protection during participation of the study.\n* Allergy/sensitivity to the drug or its formulations.\n* Concurrent participation in another clinical study.\n* Active substance or tobacco use or dependence.\n* Moderate or severe chronic obstructive pulmonary disease.\n* Serious illness (requiring systemic treatment/or hospitalization) until the subject either completes therapy or is clinically stable on therapy, in the opinion of the site investigator, for at least 60 days prior to study entry.\n* Inability or unwillingness of the subject or legal guardian/representative to give written informed consent.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Berg Balance Scale",
+        "description": "Efficacy was measured as a change on the Berg Balance Scale (BBS) from baseline to the end of the study after 8 weeks on drug. The BBS is a 14-item measure consisting of basic balance tasks, with a final score indicative of overall balance ability. The maximum score is 56 and minimum is 0. Higher scores reflect better balance.",
+        "timeFrame": "9 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Frontal Assessment Battery",
+        "description": "The change in cognitive functioning was measured with the Frontal Assessment Battery (FAB, score range 0-18) and the Mini-Mental State Exam (MMSE, score range 0-30) from baseline to 8 weeks on drug. High scores on both scales indicate better performance. The FAB measures executive functioning and consists of the following 6 sections: conceptualization, mental flexibility, motor programming, sensitivity to interference, inhibitory control, and environmental autonomy.",
+        "timeFrame": "9 weeks"
+      },
+      {
+        "measure": "Mini Mental Status Exam (MMSE)",
+        "description": "The change in cognitive functioning was measured with the Mini-Mental State Exam (MMSE) from baseline to 8 weeks on drug. The maximum score on the MMSE is 30 and lowest score 0, with higher score indicating better cognitive function.",
+        "timeFrame": "9 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:43.224Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

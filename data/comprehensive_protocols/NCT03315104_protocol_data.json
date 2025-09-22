@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT03315104",
+  "briefTitle": "Exploring Safety & Clinical Benefit of Anti-Influenza Immunoglobulin Intravenous in Hospitalized Adults With Influenza A",
+  "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Dose Ranging Study Evaluating Safety, Pharmacokinetics and Clinical Benefit of FLU-IGIV in Hospitalized Patients With Serious Influenza A Infection",
+  "protocolDocument": {
+    "nctId": "NCT03315104",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2019-01-24",
+    "uploadDate": "2020-06-15T15:42",
+    "size": 1389443,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03315104/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 65,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-11-17",
+    "completionDate": "2019-06-17",
+    "primaryCompletionDate": "2019-06-17",
+    "firstSubmitDate": "2017-10-06",
+    "firstPostDate": "2017-10-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Provision of voluntary informed consent in writing by patient, or legally authorized representative.\n* Age ≥ 18 years of age.\n* Locally determined positive influenza A infection (Rapid Antigen (Ag) Test or PCR) from a specimen obtained within 2 days prior to randomization.\n* Onset of symptoms ≤ 6 days before randomization, defined as when the patient first experienced at least one respiratory symptom or fever.\n* Hospitalized (or in observation unit) with influenza, with anticipated hospitalization for more than 24 hours and will be/already are receiving antiviral SOC.\n* Experiencing ≥ 1 respiratory symptom (ex. cough, sore throat, nasal congestion) and ≥ 1 constitutional symptom (ex. headache, myalgia, feverishness or fatigue).\n* For women of child-bearing potential: willingness to abstain from sexual intercourse or use at least 1 form of hormonal or barrier contraception through Day 60 of the study.\n* Willingness to have blood and respiratory samples obtained and stored.\n* National Early Warning Score (NEW score) ≥ 3 at screening.\n\nExclusion Criteria:\n\n* Use of any investigational product within the past 30 days prior to screening.\n* History of hypersensitivity to blood or plasma products (as judged by the site investigator).\n* History of allergy to latex or rubber.\n* Known medical history of IgA deficiency.\n* Pregnancy or lactation.\n* Medical conditions for which receipt of a 500 mL volume of intravenous fluid may be dangerous to the patient (e.g. decompensated congestive heart failure), based on investigator's medical opinion with careful consideration of lab results.\n* Liver function: liver function test (LFT) \\> 2.5 times upper limit of normal (ULN).\n* Renal Function: glomerular filtration rate (GFR) \\< 60 mL/min/1.73 m2 (age and sex adjusted).\n* A pre-existing condition or use of a medication that, in the opinion of the site investigator, may place the individual at a substantially increased risk of thrombosis (e.g. cryoglobulinemia, severe refractory hypertriglyceridemia, or clinically significant monoclonal gammopathy).\n* An opinion of the investigator that it would be unwise to allow participation of the patient in the study (the reason for exclusion of the patient must be documented).\n* Receiving extracorporeal membrane oxygenation (ECMO).\n* Anticipated life expectancy of \\< 90 days.\n* Confirmed bacterial pneumonia or any concurrent respiratory viral infection that is not influenza A (ex. respiratory syncytial virus (RSV) infection).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Frequency Counts and Percentage of Subjects With Adverse Events",
+        "description": "Frequency counts and percentage of subjects with Adverse Events by severity",
+        "timeFrame": "Measured through Day 60"
+      },
+      {
+        "measure": "Area Under the Plasma Concentration Curve [AUC] From Time 0 to 48 Hours Post-dose by Hemagglutinin Inhibition Assay",
+        "description": "Levels of anti-influenza A antibodies circulating in blood over time. We initially intended to look at this variable through Day 8, however, potential native antibody level changes and sparse sampling confounded results from 0 to 48 hours post-dose from PK samples collected from Baseline Day 1 pre-dose (time 0), Day 1 post-dose, Day 2 and Day 3 (if continued hospitalization), and Day 8. For AUC from time 0 to 48 hours, subjects who did not have a sample collected within +/-10% of 48 hours post-dose had this parameter set to missing, which is why the number of subjects who contributed data for this outcome measure is lower than the overall number of subjects analyzed.",
+        "timeFrame": "Measured through 48 Hours post-dose"
+      },
+      {
+        "measure": "Maximum Plasma Concentration [Cmax] Reported as a Titer for Hemagglutinin Inhibition Assay",
+        "description": "Maximum observed concentration (reported as a titer) of anti-influenza A antibodies measured from Day 1 pre-dose (time 0) through Day 8 post-dose from PK samples collected from Baseline Day 1 pre-dose (time 0), Day 1 post-dose, Day 2 and Day 3 (if continued hospitalization), and Day 8.",
+        "timeFrame": "Measured through Day 8 post-dose"
+      },
+      {
+        "measure": "Time Cmax is Observed [Tmax] by Hemagglutinin Inhibition Assay",
+        "description": "Time that anti-influenza A antibodies are at maximum concentration from Day 1 pre-dose (time 0) through Day 8 post-dose from PK samples collected from Baseline Day 1 pre-dose (time 0), Day 1 post-dose, Day 2 and Day 3 (if continued hospitalization), and Day 8.\n\nThe rate of study drug elimination and dependent parameters were not accurately estimable due to rising or sustained levels of anti-influenza A antibodies, this includes First Order Terminal Elimination Rate Constant \\[Kel\\], Plasma Clearance \\[Cl\\] and Total Volume of Distribution \\[Vz\\].",
+        "timeFrame": "Measured through Day 8 post-dose"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Ordinal Scale Subject Distribution Reflecting Clinical Status",
+        "description": "Score (physician-assessed): 1=death; 2=hospitalization in the intensive care unit (ICU); 3=non-ICU hospitalization requiring supplemental oxygen; 4=non-ICU hospitalization not requiring supplemental oxygen; 5=no longer hospitalized but unable to resume normal activities; 6=no longer hospitalized with full resumption of normal activities. A higher score reflects improved clinical status. Not all ITT subjects had ordinal scale data available at Day 8 post-dose which explains why the overall number of participants analyzed is not consistent with the overall number of subjects included at baseline. For subjects who were discharged with unknown ordinal score the more conservative of two relevant discharged categories was imputed.",
+        "timeFrame": "At Day 8 post-dose"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:32.262Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

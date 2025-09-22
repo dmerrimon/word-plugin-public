@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT06584786",
+  "briefTitle": "Therapeutic Effects of Jing Si Herbal Tea for COPD",
+  "officialTitle": "Therapeutic Effects of Jing Si Herbal Tea for Chronic Obstructive Pulmonary Disease: A Comprehensive Investigation From Clinical to Basic Research",
+  "protocolDocument": {
+    "nctId": "NCT06584786",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-01-01",
+    "uploadDate": "2024-08-26T00:34",
+    "size": 166222,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06584786/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "EARLY_PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 120,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-01-01",
+    "completionDate": "2024-12-31",
+    "primaryCompletionDate": "2024-12-31",
+    "firstSubmitDate": "2024-04-02",
+    "firstPostDate": "2024-09-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* COPD patients willing to enter this study\n\nExclusion Criteria:\n\n* not COPD patients, no willing to enter this study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "COPD Assessment Test (CAT)",
+        "description": "The Taiwan Society of Pulmonary and Critical Care Medicine offers the Chinese version of the COPD Assessment Test (CAT) on the website (http://tspccm.org.tw). This test consists of eight items designed to evaluate COPD symptoms. These symptoms include cough, phlegm production, chest tightness, breathlessness, limitations in daily activities, confidence in leaving the house, sleep disturbances, and energy levels. Each symptom is rated on a scale from 0 to 5, culminating in a total CAT score ranging from 0 to 40. A higher score reflects more severe COPD symptoms. A score of 10 or higher is indicative of a significant symptom burden.",
+        "timeFrame": "Assess at baseline and three months of treatment"
+      },
+      {
+        "measure": "Modified Medical Research Council (mMRC)",
+        "description": "The Modified Medical Research Council (mMRC) scale was used to evaluate dyspnea. This scale, comprising a 5-point grading system ranging from 0 to 4, measures dyspnea severity. A score of 0 indicates dyspnea only during intense exercise, while a sore of 4 represents breathlessness at rest.",
+        "timeFrame": "Assess at baseline and three months of treatment"
+      },
+      {
+        "measure": "Brief Symptom Rating Scale (BSRS-5)",
+        "description": "The 5-item Brief Symptom Rating Scale (BSRS-5) was used to assess psychological distress. It consists of five items: feeling tense, being easily angered, feeling depressed, feeling inferior to others, difficulty with sleep, and suicidal thoughts. The scale is a 5-point scale ranging from 0 (not at all) to 4 (extremely), with higher scores indicating more severe symptoms.",
+        "timeFrame": "Assess at baseline and three months of treatment"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:27.350Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

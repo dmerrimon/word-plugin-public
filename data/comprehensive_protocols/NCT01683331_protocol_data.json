@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT01683331",
+  "briefTitle": "A Clinical Trial to Prevent New Onset Diabetes After Transplantation",
+  "officialTitle": "A Clinical Trial to Prevent New Onset Diabetes After Transplantation",
+  "protocolDocument": {
+    "nctId": "NCT01683331",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-11-20",
+    "uploadDate": "2019-02-25T07:51",
+    "size": 582863,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01683331/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 251,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-08",
+    "completionDate": "2018-02-27",
+    "primaryCompletionDate": "2018-02-27",
+    "firstSubmitDate": "2012-08-30",
+    "firstPostDate": "2012-09-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Adult patients (\\> 18 years) with end stage renal disease (ESRD) undergoing kidney transplantation;\n2. Standard triple immunosuppressive medications following kidney transplantation including tacrolimus, mycophenolate mofetil and corticosteroids;\n3. Capable to understand the study protocol and to give informed consent;\n\nExclusion Criteria:\n\n1\\. Type 1 and 2 Diabetes Mellitus (DM) either as co-morbidity or cause of ESRD;",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Incidence of New Onset of Diabetes After Transplant (NODAT) 12 Months After Kidney Transplantation",
+        "description": "NODAT will be defined according to American Diabetes Association definition:\n\n1. Fasting glucose level equal or greater than 126 mg/dl on two separate blood testings; and/or\n2. 2 hours Oral Glucose Tolerance Test (OGTT) values equal or greater than 200 mg/dl; and/or\n3. Glycosylated hemoglobin A1c equal or greater than 6.5; and/or\n4. On oral hypoglycemic agents and/or insulin therapy; Incidence is measured in terms of number of participants who meet any of these 4 criteria.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The Incidence of New Onset of Diabetes After Transplant (NODAT) 24 Months After Kidney Transplantation",
+        "description": "NODAT will be defined according to American Diabetes Association definition:\n\n1. Fasting glucose level equal or greater than 126 mg/dl on two separate blood testings; and/or\n2. 2 hours OGTT values equal or greater than 200 mg/dl; and/or\n3. Glycosylated hemoglobin A1c equal or greater than 6.5; and/or\n4. On oral hypoglycemic agents and/or insulin therapy;",
+        "timeFrame": "24 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Incidence of Impaired Fasting Glycemia and Impaired Glucose Tolerance 6, 12 and 24 Months After Transplantation.",
+        "description": "Following American Diabetes Association's definition:\n\nImpaired fasting glycemia: fasting glucose levels between 100 and 125 mg/dl;\n\nImpaired glucose tolerance: 2 hours' OGTT values between 140 and 199 mg/dl;",
+        "timeFrame": "6, 12 and 24 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 31,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:07.511Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

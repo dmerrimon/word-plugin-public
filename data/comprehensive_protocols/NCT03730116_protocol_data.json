@@ -1,0 +1,100 @@
+{
+  "nctId": "NCT03730116",
+  "briefTitle": "Assessment of the Efficacy and Tolerability of the Fixed-dose Combination of Bisoprolol/Perindopril",
+  "officialTitle": "Multicenter Observational Open Program. Assessment of the Efficacy and Tolerability of the Fixed-dose Combination of Bisoprolol/Perindopril in Patients With Arterial Hypertension and Stable CAD in Daily Clinical Practice (STYLE)",
+  "protocolDocument": {
+    "nctId": "NCT03730116",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-08-08",
+    "uploadDate": "2020-10-22T10:20",
+    "size": 775632,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03730116/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 1909,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-11-14",
+    "completionDate": "2019-10-24",
+    "primaryCompletionDate": "2019-10-24",
+    "firstSubmitDate": "2018-10-22",
+    "firstPostDate": "2018-11-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Stable CAD, defined as stable angina pectoris of class 1-3 by CCS (Canadian Cardiovascular Society) classification;\n* Previously or newly diagnosed essential hypertension\n* Age 18 to 79 years old;\n* Informed consent of the patient for participation in the program;\n* Decision of the doctor to prescribe bisoprolol/perindopril FDC before the inclusion in the program in accordance to the instruction for use.\n\nExclusion Criteria:\n\n* Stable angina pectoris, class 4;\n* History of myocardial infarction or cerebrovascular event within the past 3 months;\n* Unstable angina within the past 6 months;\n* Chronic heart failure classes 3-4 (NYHA);\n* Type 1 diabetes mellitus or decompensated type 2 diabetes mellitus;\n* Any serious decompensated concomitant diseases requiring the regular medical therapy;\n* Inability to understand the essence of the program and follow the recommendations;\n* Contraindications to beta-blockers or ACE inhibitors using;\n* Participation of the patient in other trials in the present time or within 30 days before the start of observational program.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "79 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Mean SBP Changes (mm Hg) at the Visit 3 vs. Baseline",
+        "description": "Changes in the mean office systolic BP levels (in mm Hg) in the sitting position",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Efficacy of Bisoprolol/Perindopril FDC in Patients With HT and Stable CAD in Everyday Practice Regarding the BP: % of Patients Achieving Target Levels",
+        "description": "The percentage of the patients achieved the target levels of clinical BP among included patients ( SBP \\< 140 mm Hg and DBP \\< 90 mm Hg) with HT and stable CAD recieving Bisoprolol/Perindopril FDC",
+        "timeFrame": "3 month"
+      },
+      {
+        "measure": "Efficacy of Bisoprolol/Perindopril FDC in Patients With HT and Stable CAD in Everyday Practice: # of Angina Attacks",
+        "description": "Average decrease of the number of angina attacks in patients with HT and stable CAD who recieved the bisoprolol/perindopril FDC",
+        "timeFrame": "3 month"
+      },
+      {
+        "measure": "Changes in the Mean Office Diastolic BP Levels (in mm Hg) in the Sitting Position",
+        "description": "Changes in the mean office diastolic BP levels (in mm Hg) in the sitting position among the patints with HT and CAD recieving bis/perindopril FDC",
+        "timeFrame": "3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Impact on the Quality of Life of Bisoprolol/Perindopril FDC in Patients With HT and Stable CAD in Everyday Practice: VAS",
+        "description": "Changes of the score in the visual analog scale (VAS) to assess the wellbeing; (minimum score 0 mm and maximum score 100 mm) among patients with HT and CAD recieving biso/perindopril FDC",
+        "timeFrame": "3 month"
+      },
+      {
+        "measure": "Good and Moderate Adherence to Bisoprolol/Perindopril FDC Therapy in Patients With HT and Stable CAD in Everyday Practice",
+        "description": "Percentage of the patients with definite answer on question from questionnaire regarding adherence; (Compliance evaluation test - 6 questions tes; Answer \"No\" to all questions: good compliance; Answer \"Yes\" to 1-2 questions: minor compliance; Answer \"Yes\" to 3 or more questions: noncompliance)",
+        "timeFrame": "3 month"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:13.258Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

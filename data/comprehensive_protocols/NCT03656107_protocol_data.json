@@ -1,0 +1,122 @@
+{
+  "nctId": "NCT03656107",
+  "briefTitle": "The Cognition and Flow Study",
+  "officialTitle": "The Effects of Brain Training on Brain Blood Flow: The Cognition and Flow Study",
+  "protocolDocument": {
+    "nctId": "NCT03656107",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-12-19",
+    "uploadDate": "2021-09-13T09:33",
+    "size": 995798,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03656107/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 56,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-14",
+    "completionDate": "2020-09-04",
+    "primaryCompletionDate": "2020-09-04",
+    "firstSubmitDate": "2018-08-28",
+    "firstPostDate": "2018-09-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nOne of:\n\n1. Healthy controls will be free of any medical co-morbidity or medication that could adversely affect cognition. Volunteers with well-controlled co-morbidities (i.e. hypertension, diabetes, will be considered for inclusion)\n2. MCI as defined by National Institute on Aging and Alzheimer's Association (NIA-AA) 2011 and Petersen criteria\n3. AzD as defined by the NIA-AA 2011 criteria\n\n   And:\n4. Deficits will be mild to moderate as defined by Montreal Cognitive Assessment (MoCA) score of 19-26 for MCI, and 9-18 for AzD (32-34).\n5. Willing to participate\n6. Capacity to consent to the study/personal consultee\n7. Patients on and off anti-dementia medications will be included (acetylcholinesterase inhibitors, glutamate receptor antagonists)\n8. Good understanding of written and spoken English\n9. Age \\>50 years\n10. Access to the internet and a computer/laptop or tablet device.\n\nExclusion Criteria:\n\n1. Healthy controls with any medical co-morbidity or medication that could adversely affect cognition, or poorly controlled medical co-morbidities (i.e. hypertension, diabetes)\n2. Unwilling to take part\n3. Unable to consent/no personal consultee\n4. Major medical co-morbidity; severe heart failure (ejection fraction \\<20%), carotid artery stenosis, severe respiratory disease, major stroke\n5. Pregnancy, planning pregnancy, or lactating\n6. Inadequate bilateral TCD windows\n7. Participants already enrolled into other interventional studies\n8. Insufficient understanding of written and spoken English\n9. Age \\<50 years\n10. No access to the internet and a computer/laptop or tablet device",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants Successfully Recruited",
+        "description": "Feasibility",
+        "timeFrame": "15 months"
+      },
+      {
+        "measure": "Percentage of Participants Able to Successfully Complete the Minimum (15 Mins, 3x Per Week, for 8 Weeks) and Maximum (30 Mins, 5x Per Week, for 12 Weeks) Criteria CT Program and Complete All Assessments",
+        "description": "Feasibility",
+        "timeFrame": "17 months"
+      },
+      {
+        "measure": "Percentage of Participants With Full Bilateral Data for Cerebral Blood Flow Velocity (CBFv)",
+        "description": "Feasibility CBFv as measured using transcranial Doppler ultrsonography (TCD)",
+        "timeFrame": "17 months"
+      },
+      {
+        "measure": "Percentage of Control Participants Willing to be Randomised to Waiting List Control",
+        "description": "Feasibility",
+        "timeFrame": "17 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Cognition Score as Detected by the Addenbrooke's Cognitive Examination (ACE-III) From Baseline to Follow-up at 12 Weeks",
+        "description": "cognitive function. Maximum score 100, minimum score 0. Sub scale scores: attention (0-18), language (0-26), fluency (0-14), visuospatial (0-16), memory (0-26). Higher score = better cognition.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Change in Functional Status - Lawton Instrumental Activities of Daily Living (IADL) From Baseline to Follow-up at 12 Weeks",
+        "description": "Functional status (maximum score =8, minimum score =0). Higher score is equivalent to better function.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Change in Mood - Geriatric Depression Scale (GDS-15) From Baseline to Follow-up at 12 Weeks",
+        "description": "Mood, maximum score 15, minimum score 0. Severe depression = 10-15, mild depression = 5-9, no depression = 0-4.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Change in Quality of Life Measure - Dementia Quality of Life Measure (DEMQOL) From Baseline to Follow-up at 12 Weeks",
+        "description": "Quality of life, minimum score 28, maximum score 112. higher score = better quality of life.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Percentage Increase in Cerebral Blood Flow Velocity (CBFv) From Baseline to Follow-up at 12 Weeks",
+        "description": "Neurovascular function as measured by task activation, TCD protocol. Continuous CBFv was measured using TCD whilst participants underwent five cognitive tasks from the ACE-III. Task activation was measured as the percentage change in CBFv from 20 second prior to the task. T2 is the percentage change at 5-10 seconds after the task and T3 is the percentage change at 10-20 seconds after the task.",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.170Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

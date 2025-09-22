@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03620747",
+  "briefTitle": "Continuation of TRAVERSE- LTS12551 Evaluating Dupilumab Safety in Patients With Asthma (Long-Term Follow-Up)",
+  "officialTitle": "Open-label, Interventional, Cohort Study to Evaluate Long-term Safety of Dupilumab in Patients With Moderate to Severe Asthma Who Completed the TRAVERSE-LTS12551 Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT03620747",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-02-27",
+    "uploadDate": "2023-02-15T11:08",
+    "size": 1051022,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03620747/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 393,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-08-30",
+    "completionDate": "2022-02-18",
+    "primaryCompletionDate": "2022-02-18",
+    "firstSubmitDate": "2018-07-26",
+    "firstPostDate": "2018-08-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n* Participants with asthma who completed the treatment period in the previous dupilumab asthma clinical study LTS12551.\n* Signed written informed consent.\n\nExclusion criteria:\n\n* Participants who experienced any systemic hypersensitivity reactions to the investigational medicinal product in the previous dupilumab asthma study LTS12551, which, in the opinion of the Investigator, could indicate that continued treatment with dupilumab might present an unreasonable risk for the participant.\n* Clinically significant comorbidity/lung disease other than asthma.\n* Participants with active autoimmune disease or participants who, as per Investigator's medical judgment, were suspected of having high risk for developing autoimmune disease.\n* History of malignancy within 5 years before enrollment except completely treated in situ carcinoma of the cervix, completely treated and resolved non-metastatic squamous or basal cell carcinoma of the skin.\n\nThe above information was not intended to contain all considerations relevant to a participant's potential participation in a clinical trial.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Treatment-emergent Adverse Events (TEAEs)",
+        "description": "An adverse event (AE) was defined as any untoward medical occurrence in a participant who received study drug and did not necessarily had to have a causal relationship with the treatment. TEAEs were the AEs that developed or worsened or became serious during the TEAE period (defined as the time from the first dose of the investigational medicinal product \\[IMP\\] up to 12 weeks after the last dose of the IMP).",
+        "timeFrame": "From first dose of IMP up to 12 weeks after last dose of IMP (maximum duration: up to 144 Weeks)"
+      },
+      {
+        "measure": "Treatment-emergent Adverse Event Rate (Event Per 100 Participant-years)",
+        "description": "An AE was defined as any untoward medical occurrence in a participant who received study drug and did not necessarily had to have a causal relationship with the treatment. TEAEs were the AEs that developed or worsened or became serious during the TEAE period (defined as the time from the first dose of the IMP up to 12 weeks after last dose of the IMP). TEAE event rate was defined as the number of TEAE events per 100 participant-years.",
+        "timeFrame": "From first dose of IMP up to 12 weeks after last dose of IMP (maximum duration: up to 144 Weeks)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Adverse Events of Special Interest (AESIs) Event Rate (Event Per100 Participant-years)",
+        "description": "An AE was defined as any untoward medical occurrence in a participant who received study drug and did not necessarily had to have a causal relationship with the treatment. AESIs were AE (serious or non-serious) of scientific and medical concern specific to the Sponsor's product or program, for which ongoing monitoring and immediate notification by the investigator to the Sponsor was required. AESI event rate was defined as the number of AESI events per 100 participant-years.",
+        "timeFrame": "From first dose of IMP up to 12 weeks after last dose of IMP (maximum duration: up to 144 Weeks)"
+      },
+      {
+        "measure": "Percentage of Participants With Treatment-emergent Serious Adverse Events (TESAEs), Adverse Events of Special Interest (AESIs) and AEs Leading to Study Discontinuation",
+        "description": "AE: any untoward medical occurrence in participants that received IMP and did not necessarily had to have causal relationship with treatment. TEAEs: AEs developed/worsened in grade/become serious during the TEAE period (from first dose of IMP up to 12 weeks after last dose of IMP).SAE: any untoward medical occurrence at any dose resulted in death, was life-threatening, required inpatient hospitalization, prolongation of existing hospitalization, resulted in persistent or significant disability/incapacity, was congenital anomaly/birth defect or was medically important event. AESI: AE (serious/non-serious) of scientific and medical concern specific to Sponsor's product/program, for which ongoing monitoring and immediate notification by Investigator to Sponsor required.",
+        "timeFrame": "From first dose of IMP up to 12 weeks after last dose of IMP (maximum duration: up to 144 Weeks)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:23.992Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT04887129",
+  "briefTitle": "Testing for COVID-19 in High Risk Children With Intellectual and Developmental Disabilities (COV-IDD)",
+  "officialTitle": "COV-IDD: Testing for COVID-19 in High Risk Children With Intellectual and Developmental Disabilities",
+  "protocolDocument": {
+    "nctId": "NCT04887129",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-04-17",
+    "uploadDate": "2024-10-03T11:11",
+    "size": 1392438,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04887129/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 392,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-05-03",
+    "completionDate": "2024-03-31",
+    "primaryCompletionDate": "2023-08-31",
+    "firstSubmitDate": "2021-05-13",
+    "firstPostDate": "2021-05-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nStudents:\n\n* IDD Student of the Mary Cariola Center\n* Age 3 - 18\n* Have a parent/guardian who can give informed consent\n* In the judgement of the Mary Cariola Medical Staff will be able to safely participate in the study procedures (nasal swab, phlebotomy)\n\nStaff\n\n* Age 18 - 72\n* Able give informed consent\n* Anticipated duration of remaining employment less than 1 month (e.g. retiring)\n* Must be willing to participate in RT-PCR and antibody testing\n\nExclusion Criteria:\n\nStudents\n\n* Contraindication to nasal swab\n* Contraindication to phlebotomy (e.g. anticoagulated, bleeding diathesis)\n\nStaff\n\n* Contraindication to nasal swab\n* Contraindication to phlebotomy (e.g. anticoagulated, bleeding diathesis)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "3 Years",
+    "maximumAge": "72 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number Infected With COVID-19",
+        "description": "Number of students or staff who test positive for COVID-19 at least once using a nasal swab test.",
+        "timeFrame": "16 months"
+      },
+      {
+        "measure": "Change in the Percentage of Participants Reporting Anxiety",
+        "description": "Anxiety will be measured using the PROMIS-29 assessment. Participants were classified within normal range, mild, moderate or severe. They were counted as having anxiety if they were moderate or severe.",
+        "timeFrame": "baseline to 16 months"
+      },
+      {
+        "measure": "Change in the Percentage of Participants Classified as Depressed",
+        "description": "Depression was measured using the PROMIS-29 assessment. Students or staff were classified within normal range, mild, moderate or severe. They were counted as having depression if they were moderate or severe.",
+        "timeFrame": "baseline to 16 months"
+      },
+      {
+        "measure": "Change in the Percentage of Participants Classified With Fatigue",
+        "description": "Fatigue will be measured using the PROMIS-29 assessment. Participants were classified within normal range, mild, moderate or severe. They were counted as having fatigue if they were moderate or severe.",
+        "timeFrame": "baseline to 16 months"
+      },
+      {
+        "measure": "Change in Percentage of Participants With Deficits in Social Functioning",
+        "description": "Social functioning will be measured using the PROMIS-29 assessment. Participants were classified within normal range, mild, moderate or severe. They were counted as having social functioning deficits if they were moderate or severe.",
+        "timeFrame": "baseline to 16 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.846Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

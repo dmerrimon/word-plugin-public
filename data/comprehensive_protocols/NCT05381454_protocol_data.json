@@ -1,0 +1,105 @@
+{
+  "nctId": "NCT05381454",
+  "briefTitle": "An Open Label Study in Adults to Test the Efficacy of Mitoquinone/Mitoquinol Mesylate to Prevent Severe Viral Illness",
+  "officialTitle": "An Open Label Study in Adults to Test the Efficacy of Mitoquinone/Mitoquinol Mesylate as Prophylaxis for Development of Severe Viral Illness",
+  "protocolDocument": {
+    "nctId": "NCT05381454",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-04-01",
+    "uploadDate": "2024-04-12T00:23",
+    "size": 255759,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05381454/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 80,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-04-28",
+    "completionDate": "2023-05-09",
+    "primaryCompletionDate": "2023-05-09",
+    "firstSubmitDate": "2022-05-14",
+    "firstPostDate": "2022-05-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* All enrolled participants must meet the following criteria:\n\n  * Age 18-65 years old.\n  * Asymptomatic (no symptoms of viral infection) on study entry.\n  * Exposure to a person with at least two new onset independent symptoms or signs (fever) of respiratory viral disease\n  * High risk exposure without use of masks and physical distancing to suspected case of viral illness (based on established symptoms of viral illness) in the household within 3 days prior to study entry. Rationale: Antivirals are most efficacious when given as early as possible post exposure.\n  * Ineligible for FDA approved alternative treatments to prevent progression to severe COVID-19 based on established criteria https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html or FDA approved alternative treatment cannot be obtained or not indicated (e.g. allergy).\n  * Without established significant coronary artery/vascular disease, lung, stroke, kidney, liver, heart disease) based on history.\n  * Adequate renal function. This is defined as absence of documented history of any kidney disease.\n\nExclusion Criteria:\n\n* Participants who meet any of the following criteria at screening will be excluded from the study:\n\n  1. Use of Coenzyme Q10 or Vitamin E \\< 120 days from enrollment\n  2. Women with variations in physiological functions due to hormones that may effect immune function and (taking hormones, pregnant, breastfeeding, on contraceptives).\n  3. Pregnant (based on history).\n  4. History of known gastrointestinal disease (such as gastroparesis) that may predispose patients to nausea. Gastrointestinal symptoms are the most common side effects of MitoQ.\n  5. History of auto-immune diseases\n  6. Chronic viral hepatitis\n  7. History of underlying cardiac arrhythmia\n  8. History of severe recent cardiac or pulmonary event\n  9. A history of a hypersensitivity reaction to any components of the study drug or structurally similar compounds including Coenzyme Q10 and idebenone\n  10. Unable to swallow tablets\n  11. Use of any investigational products within 28 days of study enrollment\n  12. Any other clinical condition or prior therapy that, in the opinion of the investigator, would make the patient unsuitable for the study or unable to comply with the study requirements. Such conditions may include, but are not limited to, current or recent history of severe, progressive, or uncontrolled renal, hepatic, hematological, gastrointestinal, endocrine, pulmonary, neurological, or cerebral disease\n  13. Participants who are eligible for FDA approved alternative treatments to prevent progression to severe COVID-19 based on established criteria https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Viral Illness",
+        "description": "Development of viral illness based on diagnostic test",
+        "timeFrame": "14 days"
+      },
+      {
+        "measure": "Severity Score of Symptoms of Viral Illness",
+        "description": "Severity of viral illness based on a quantitative score system. Each of the above 14 symptoms will be given a score based on severity: 1 for mild, 2 for moderate, 3 for severe. Then a total severity score will be estimated (range of score is 0-42). Common example: a person with mild coryza, sore throat and cough will be given a score of 3. A higher score means worse outcome",
+        "timeFrame": "14 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Incidence of Treatment-Emergent Adverse Events as Assessed by the Proportion of Participants Exhibiting Adverse Events of Any Grade",
+        "description": "Assessment of adverse events up to 14 days post initiation of therapy. Adverse events: the proportion of participants exhibiting adverse events of any grade",
+        "timeFrame": "14 days"
+      },
+      {
+        "measure": "Number of Participants With Fever",
+        "description": "Development of new onset fever (T\\> 100.3 F or 38C) based on documented",
+        "timeFrame": "14 days"
+      },
+      {
+        "measure": "Number of Participants With Any Symptoms of Viral Illness",
+        "description": "Duration in days of at least three respiratory/systemic symptom of viral illness. This means that if any of the listed symptoms last more than a day, then the participant is considered to have a viral illness. (Symptom 1: fever, Symptom 2: cough, Symptom 3: coryza, Symptom 4: sore throat, Symptom 5: shortness of breath, Symptom 6: chills, Symptom 7: fatigue, Symptom 8: loss of smell or taste, Symptom 9: myalgias, Symptom 10: arthralgias, Symptom 11: headache, Symptom 12: nausea, Symptom 13: vomiting, Symptom 14: diarrhea",
+        "timeFrame": "14 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:36.123Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT04070833",
+  "briefTitle": "Effects of Vitamin D and Omega-3 on Cerebrovascular Disease",
+  "officialTitle": "Effects of Vitamin D and Omega-3 on Cerebrovascular Disease",
+  "protocolDocument": {
+    "nctId": "NCT04070833",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-08-13",
+    "uploadDate": "2021-09-17T12:08",
+    "size": 152615,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04070833/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 290,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08-01",
+    "completionDate": "2018-09-17",
+    "primaryCompletionDate": "2018-09-17",
+    "firstSubmitDate": "2019-08-23",
+    "firstPostDate": "2019-08-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participants eligible and willing to participate in the main VITAL trial (NCT 01169259) who experience a stroke during follow-up.\n\nExclusion Criteria:\n\n* Participants eligible and willing to participate in the main VITAL trial (NCT 01169259) who do not experience a stroke during follow-up.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Poor Stroke Outcome at Hospital Discharge as Measured by the Modified Rankin Scale (mR 3-6)",
+        "description": "modified Rankin Scale (mRS) at hospital discharge\n\nThe mRS is often seen as a measure of disability or a \"global health index\" due to its strong emphasis on mobility although it claims to be a measure of handicap. The mRS is a seven-point scale (0=no symptoms at all; 1=no significant disability despite symptoms; 2=slight disability; 3=moderate disability; 4=moderately severe disability; 5=severe disability; 6=death). To avoid issues with model convergence due to sparse data, I will a priori categorize the mRS into good (mRS 0-2) versus poor (mRS 3-6) outcomes. These data were collected during the parent study (NCT01169259)",
+        "timeFrame": "1 day"
+      },
+      {
+        "measure": "Number of Participants With at Least One Functional Limitation After Stroke According to the Scale Adapted From Nagi",
+        "description": "Functional limitations will be assessed through self-report using the physical performance scale adapted from Nagi. The adapted Nagi scale asks respondents if they experience any limitations in each of the following items: pulling or pushing large objects; stooping, crouching, or kneeling; reaching or extending arms above shoulder level; reaching or extending arms below shoulder level; writing or handling or fingering small objects; standing in one place for long periods; and sitting for an hour. Participants reporting a limitation in any of these items will be considered to have at least one functional limitation after stroke.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Number of Participants With a Physical Disability After Stroke as Measured by the Modified Katz Activities of Daily Living (ADL) Scale",
+        "description": "The modified Katz ADL scale ask participants to self-report if they need needing help with any of the following items: bathing; dressing; eating; getting in and out of a chair; and walking 50 yards. Individuals who report needing help with any of those items will be considered to have a physical disability after stroke.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Number of Participants With a Physical Disability After Stroke as Measured by the Rosow-Breslau Functional Health Scale",
+        "description": "The Rosow-Breslau Functional Health Scale asks participants to self-report if they need help with any of the following tasks: walking 0.5 mile; walking up and down stairs to the second floor; and doing heavy work around the house. Individuals who report needing help with any of those tasks will be considered to have a physical disability after stroke.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Number of Participants With Social Disability After Stroke as Measured by FHS Social Disability Scale",
+        "description": "Social disability was assessed through a self-administered questionnaire which asked questions about social functioning developed in the Framingham Heart Study. The scale covers five social areas (housekeeping, transportation, social interaction, food preparation, and grocery shopping). Respondents are grouped into four categories (need met, no apparent problem (best outcome); need met, potential problem; uncertain need met, potential problem; need unmet, current problem (worst outcome)) for each social area using a previously published algorithm.\n\nWe created summary indices for the total number of unmet needs across all areas and for the total number of unmet needs or uncertain needs met, potential problem. These indices range from 0 to 5, but to avoid problems with model convergence due to sparse data, we will a priori categorize them as 0 (best outcome), 1, or ≥2 (worst outcome).",
+        "timeFrame": "1 year"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:37.463Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

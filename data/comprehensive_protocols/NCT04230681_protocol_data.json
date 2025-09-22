@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT04230681",
+  "briefTitle": "Hydromorphone vs Fentanyl in Children Undergoing Tonsillectomy Surgery",
+  "officialTitle": "A Randomized Controlled Trial to Compare Hydromorphone vs Fentanyl in Children Undergoing Tonsillectomy Surgery",
+  "protocolDocument": {
+    "nctId": "NCT04230681",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-03-26",
+    "uploadDate": "2023-05-10T08:52",
+    "size": 227881,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04230681/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "EARLY_PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 189,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-02-26",
+    "completionDate": "2022-04-01",
+    "primaryCompletionDate": "2022-04-01",
+    "firstSubmitDate": "2019-12-27",
+    "firstPostDate": "2020-01-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Children ages 2 to 15 years old\n2. Presenting for tonsillectomy or adenotonsillectomy surgery\n3. American Society of Anesthesiologists Physical Status (ASAPS) Classification 1, 2 or 3\n4. Provide Informed Consent / Assent (as appropriate)\n\nExclusion Criteria:\n\n1. Additional Concurrent surgeries, exclusive of myringotomy tubes, minor oral/nasal procedures (e.g. frenulectomy), and endoscopic procedures\n2. Revision tonsillectomy or revision adenotonsillectomy surgery\n3. Known pregnancy\n4. Any condition which would make the participant, in the opinion of the investigator or the attending anesthesiologist caring for the patient, unsuitable for the study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "15 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Patients Requiring Rescue Intravenous Opioid",
+        "description": "Number",
+        "timeFrame": "up to 6 hours post surgery"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Evaluation of Participant's Pain",
+        "description": "Revised Face, Legs, Activity, Cry, Consolability (rFLACC) Scale Each of the five categories (F) Face; (L) Legs; (A) Activity; (C) Cry; (C) Consolability is scored from 0-2, which results in a total score between zero and ten. 0=no pain/relaxed, 10=distressed/in pain",
+        "timeFrame": "Upon arrival and then every 5 minutes for 15 minutes. Then every 15 minutes until discharged from phase 1 of the PACU."
+      },
+      {
+        "measure": "Evaluation of Participant's SpO2 Saturation",
+        "description": "SpO2 %",
+        "timeFrame": "Upon arrival and then every 5 minutes for 15 minutes. Then every 15 minutes until discharged from phase 1 of the PACU."
+      },
+      {
+        "measure": "Respiratory and PONV Events in PACU",
+        "timeFrame": "up to 6 hours following surgery"
+      },
+      {
+        "measure": "Respiratory and PONV Events at Home",
+        "description": "Survey sent to parent by email postoperatively",
+        "timeFrame": "up to 7 days following surgery"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:58.025Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

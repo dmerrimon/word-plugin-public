@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT02880540",
+  "briefTitle": "Dexmedetomidine to Treat Bariatric Surgery-associated Pain",
+  "officialTitle": "The Use of Dexmedetomidine as an Adjuvant for Perioperative Pain Management in Morbidly Obese Adolescents Undergoing Bariatric Surgery",
+  "protocolDocument": {
+    "nctId": "NCT02880540",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-02-17",
+    "uploadDate": "2021-11-09T09:44",
+    "size": 421000,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02880540/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 26,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-03",
+    "completionDate": "2018-02",
+    "primaryCompletionDate": "2018-02",
+    "firstSubmitDate": "2016-05-12",
+    "firstPostDate": "2016-08-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* BMI ≥ 95th percentile.\n* Hospitalized overnight after surgery\n\nExclusion Criteria:\n\n* History or a family (parent or sibling) history of malignant hyperthermia\n* Renal or hepatic disorders\n* Allergy to opioid analgesics\n* An allergy to α2-adrenergic agonists or sulfa drugs\n* Uncontrolled hypertension\n* Clinically significant neurologic diseases\n* Pregnancy or lactating female",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "maximumAge": "20 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pain Scores (Numerical Rating Scale 0-10) Using the Faces Pain Scale-Revised",
+        "description": "Average pain scores during the day of surgery using the FPS-R rates pain on a scale from 1-10, with 0 representing \"no pain\" and 10 \"very much pain. Each level accompanies a facial expression, ranging from content to distress.",
+        "timeFrame": "From surgery until discharge from the hospital, an average of 48 hours."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:15.643Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

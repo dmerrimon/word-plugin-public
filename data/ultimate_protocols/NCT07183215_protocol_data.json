@@ -1,0 +1,99 @@
+{
+  "nctId": "NCT07183215",
+  "briefTitle": "Efficacy Test of Curcuminoid Standardized Turmeric Capsules to Improving Inflammatory Biomarkers in Osteoarthritis Genu",
+  "officialTitle": "Efficacy Test of Curcuminoid Standardized Turmeric Capsules to Improving Inflammatory Biomarkers in Osteoarthritis Genu",
+  "protocolDocument": {
+    "nctId": "NCT07183215",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-07-20",
+    "uploadDate": "2025-09-06T22:17",
+    "size": 338149,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07183215/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 72,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-06-01",
+    "completionDate": "2025-10-30",
+    "primaryCompletionDate": "2025-09-30",
+    "firstSubmitDate": "2025-09-06",
+    "firstPostDate": "2025-09-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Clinical diagnosis of Osteoarthritis which confirmed by physical examination and x-rays\n2. Experience pain with a Numeric Rating scale of 1-7\n3. Must be able to swallow capsules\n4. Must be able to carry out mobility without assistance or with minimal assistance\n\nExclusion Criteria:\n\n1. Parkinson's disease\n2. Dementia disease\n3. Psychosis disease\n4. Fractures\n5. Joint dislocations\n6. Cancer\n7. Rheumatic diseases other than Osteoarthritis (rheumatoid arthritis)\n8. Undergoing joint replacement therapy.\n9. Analgesic dependent disease",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Secretion of TNF Alpha",
+        "description": "TNF alpha is a cytokine, a protein that plays a role in the immune system and inflammation. TNF alpha is produced by various types of cells, particularly activated macrophages, and plays a role in various biological processes such as inflammation and immunity against infection.\n\nThe cytokine TNF alpha is an essential mediator in increasing the inflammatory response, which can be detected in the blood plasma of patients with Osteoarthritis. The TNF alpha examination was conducted using the Enzyme Linked Immunosorbent Assay (ELISA) method on blood plasma",
+        "timeFrame": "3 weeks"
+      },
+      {
+        "measure": "Secretion of the Interleukin-1",
+        "description": "Interleukin-1 is a pro-inflammatory cytokine that plays a key role in immune and inflammatory responses, produced primarily by macrophages. IL-1 can cause fever, increase blood vessel permeability, and trigger bone and cartilage damage.\n\nThe cytokine Interleukin-1 is an essential mediator in increasing the inflammatory response, which can be detected in the blood plasma of patients with Osteoarthritis. The Interleukin-1 examination was conducted using the Enzyme Linked Immunosorbent Assay (ELISA) method on blood plasma",
+        "timeFrame": "3 weeks"
+      },
+      {
+        "measure": "Secretion of C Reactive Protein",
+        "description": "C-reactive protein (CRP) is a blood marker for inflammation in the body, produced by the liver in response to infection, injury, or autoimmune conditions. A simple blood test measures CRP levels, with higher concentrations indicating greater inflammation.\n\nC-reactive protein (CRP) is measured with a blood test to detect and monitor inflammation in your body. A blood sample is taken from a vein and analyzed in a laboratory to determine the CRP level. The results are reported in milligrams per liter (mg/L), and higher than normal levels indicate inflammation that may be caused by infection, injury, or a chronic condition.",
+        "timeFrame": "3 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change of Pain",
+        "description": "Therapy effectiveness is the ability of a given treatment regimen to suppress several expected outcome indicators. Other outcome indicators were measured before starting therapy and after 3 weeks of therapy, including knee pain, as measured using a VAS score. Pain is expressed on a scale of 0 to 10, with higher numbers indicating more severe pain.",
+        "timeFrame": "3 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 70,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T05:06:11.774Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

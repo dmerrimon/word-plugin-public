@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT03127852",
+  "briefTitle": "Effects of Remote Patient Monitoring on Chronic Disease Management",
+  "officialTitle": "Randomized Controlled Trial of a Mobile Phone-based Telemonitoring Application for Self-management and Clinical Decision Support for Patients With Complex Chronic Conditions",
+  "protocolDocument": {
+    "nctId": "NCT03127852",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-05-29",
+    "uploadDate": "2022-03-03T17:21",
+    "size": 210391,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03127852/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 96,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08-23",
+    "completionDate": "2020-12-15",
+    "primaryCompletionDate": "2020-06-20",
+    "firstSubmitDate": "2016-08-09",
+    "firstPostDate": "2017-04-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nAll participants:\n\n1. Adults (age 18 years or older)\n2. Diagnosed with HF, COPD, CKD, and/or uncontrolled hypertension (individuals with diabetes who require blood glucose monitoring will be included as a co-morbidity only if patient's have at least one of the above four chronic illnesses, and will be in the form of self-care support only)\n3. Patient or their caregiver speaks and reads English adequately to provide informed consent and understand the text prompts in the application.\n4. Ability to comply with using the telemonitoring system (e.g, able to stand on the weight scale, able to answer symptom questions, etc.).\n\nPrimary chronic disease-specific criteria:\n\n* Patients with HF as the primary chronic disease: with reduced ejection fraction (EF\\<0.40)\n* Patients with COPD as the primary chronic disease: Spirometrically confirmed diagnosis of COPD of GOLD Stage II or higher (defined as post-bronchodilator FEV1 \\< 80% predicted and FEV1/FVC ratio \\< 70%); smoking history of ≥ 20 pack-years or homozygous alpha-1 antitrypsin deficiency; and prescribed an action plan for the early self-treatment of acute exacerbations\n* Patients with CKD as the primary chronic disease: Grade 3-5 (eGFR \\< 60mL/1.73 m2)\n* Patients with uncontrolled hypertension as the primary chronic disease: For non-diabetics: blood pressure \\>=140/90 mmHg auscultatory (manual measurement) or \\>=135/85 mmHg oscillometric (automated measurement). For diabetics: blood pressure \\>=130/80 mmHg\n\nExclusion Criteria:\n\n1. Patients on mechanical circulatory support\n2. Patients on the heart transplant list\n3. Terminal diagnosis with life expectancy \\< 1 year\n4. Dementia or uncontrolled psychiatric illness\n5. Resident of a long term care facility",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Quality of Life as Measured by SF-36",
+        "description": "Change in Quality of life as measured by the Short Form (36) Health Survey. The SF-36 assesses participants' overall quality of life in eight domains 1) limitations in physical functioning due to health problems; 2) limitations in usual role because of physical health problems; 3) bodily pain; 4) general health perceptions; 5) vitality; 6) limitations in social functioning because of physical or emotional problems; 7) limitations in usual role due to emotional problems; and 8) general mental health. Items 1-4 contribute to the physical component summary (PCS) score, and items 5-8 contribute to the mental component summary (MCS) score of the SF-36. Scores on each item are summed and averaged (range: 0=worst to 100=best). Increases from baseline indicate improvement.",
+        "timeFrame": "Baseline, 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Self-reported Health Service Use",
+        "description": "Number of hospitalizations, number of ED and clinic visits, and family physician visits.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Self-Care of Health Failure as Measured by the SCHFI",
+        "description": "Self-care of health failure as measured by the Self-Care of Heart Failure Index (SCHFI). The SCFHI has three scales: maintenance, management, confidence with each scale score is standardized to a 0 to 100 range with 0 indicating the worst and 100 indicating the best performance for each scale score.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Heart-failure Specific Quality of Life (MLHFQ)",
+        "description": "Heart-failure specific quality of life as measured by the Minnesota Living with Heart Failure Questionnaire (MLHFQ). The MLHFQ provides a total score (score range 0-105), as well as scores for two dimensions, physical (score range 0-40) and emotional (score range 0-25). A lower total score is indicative of better quality of life.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Anxiety and Depression as Measured by HADS",
+        "description": "Anxiety and depression as measured by the Hospital Anxiety and Depression Scale (HADS). The HADS has two sub-scales for anxiety and depression. Each sub-scale has scores ranging from 0 to 21, with higher scores indicating higher levels of anxiety/depression.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Self-efficacy as Measured by the SEMCD6.",
+        "description": "Self-efficacy as measured by the Self-Efficacy for Managing Chronic Disease 6-Item scale (SEMCD6). Each item on the scale is rated from 1 (not at all confident) to 10 (totally confident). The final score for the scale is the mean of the six items with higher scores indicating higher self-efficacy.",
+        "timeFrame": "Baseline, 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:28.452Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

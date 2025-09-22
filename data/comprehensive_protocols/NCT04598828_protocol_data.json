@@ -1,0 +1,174 @@
+{
+  "nctId": "NCT04598828",
+  "briefTitle": "Use of a Non-Invasive Brainstem Neuromodulation Device to Improve Neurovascular Status in Parkinson's Disease",
+  "officialTitle": "Using Time Varying Non-Invasive Neuromodulation to Improve Neurovascular Status in Parkinson's Disease",
+  "protocolDocument": {
+    "nctId": "NCT04598828",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-07-24",
+    "uploadDate": "2025-06-24T12:33",
+    "size": 641605,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04598828/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-07-06",
+    "completionDate": "2024-10-07",
+    "primaryCompletionDate": "2023-10-02",
+    "firstSubmitDate": "2020-10-16",
+    "firstPostDate": "2020-10-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Must be 21-85 years old\n* Diagnosed with Parkinson's Disease\n* Within driving distance of Atrium Health Wake Forest Baptist (Winston-Salem, NC)\n* Responsive to Parkinson's medication for a minimum of 3 years\n* Have ability to reliably use the investigational device\n* Understand and complete all assessments (provided in English only)\n* Be able to have 3 separate MRI scans (1.5 hours per MRI)\n* Have a study partner/regular caregiver that is willing to participate in the trial\n* Demonstrate moderate burden of motor symptoms and non-motor symptoms\n* Consent to being videotaped during motor examination visit\n* Willing to answer questions related to sexual interest, arousal and performance in an interview with study staff\n\nExclusion Criteria:\n\n* Cannot attend all study visits (4 on-site visits) or complete all study activities\n* Heart attack, angina, or stroke within the past year\n* Use medications that regulate heart rate\n* Have a history or prior diagnosis of dementia\n* Receiving deep brain stimulation therapy\n* Treated with a pump for continuous delivery of dopamine replacement therapy\n* Use of Apomorphine rescue\n* Works night shifts\n* Have any significant co-morbidity such as stroke, brain tumor, epilepsy, Alzheimer's disease, multiple sclerosis, ALS, atypical Parkinsonism, or aneurysm\n* History or evidence of unstable mood disorder or demonstrates evidence of suicidality\n* Hearing aids that are implanted or cannot be easily removed and replaced, such as cochlear implants\n* Chronic ringing in the ears for more than 3 months\n* Diagnosed with traumatic brain injury with ongoing symptoms\n* Recent history of substance abuse and/or dependence (alcohol or other drugs)\n* Diagnosed balance dysfunction\n* Eye surgery within the previous 3 months\n* Ear surgery within the previous 6 months\n* Active ear infection, perforated tympanic membrane, or inner ear inflammation\n* Recent history of frequent ear infections (≥ 1 per year over the past two years)\n* Contraindications for MRI scans, such as metal implants or a pacemaker\n* Currently enrolled or have participated in another interventional clinical trial within the last 30 days\n* Taking medication for vomiting or nausea more than 2 times per week, consistently\n* Ongoing symptoms from a COVID-19 infection that includes one or more of the exclusion criteria listed above\n* Planned surgery scheduled to occur during the clinical trial that requires sedation and/or would typically be followed with a prescription for pain management\n* Women who are pregnant or plan to become pregnant during the the study\n\nWomen of child-bearing potential (i.e., are not yet 3 years removed from their first menopausal symptom), who are not abstinent or exclusively in same sex relationships must:\n\nTest negative for pregnancy as indicated by a negative urine pregnancy test\n\nAgree to use an approved contraception method",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Cerebral Blood Flow (CBF) Perfusion",
+        "description": "Cerebral blood flow (CBF) measured using pseudo Continuous Arterial Spin Labeling (pCASL) magnetic resonance imaging (MRI) will be used to monitor changes in global perfusion",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Cerebral Blood Flow (CBF) Perfusion",
+        "description": "Cerebral blood flow (CBF) measured using pseudo Continuous Arterial Spin Labeling (pCASL) magnetic resonance imaging (MRI) will be used to monitor changes in global perfusion",
+        "timeFrame": "end of treatment (week 12)"
+      },
+      {
+        "measure": "Cerebrovascular Reactivity",
+        "description": "Cerebral blood flow is measured with pCASL MRI at baseline and during hypercapnic challenge. The percent change in CBF is divided by the increase in end-tidal CO2 measured in mmHg, measured with RespirACT system",
+        "timeFrame": "baseline"
+      },
+      {
+        "measure": "Cerebrovascular Reactivity",
+        "description": "Cerebral blood flow is measured with pCASL MRI at baseline and during hypercapnic challenge. The percent change in CBF is divided by the increase in end-tidal CO2 measured in mmHg, measured with RespirACT system",
+        "timeFrame": "end of treatment (week 12)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percent Change in Functional Connectivity",
+        "description": "Changes to the within-network connectivity of the DMN (Default Mode Network)",
+        "timeFrame": "baseline and end of treatment (week 12)"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Change in Cerebral Haemodynamics",
+        "description": "Transcranial Doppler sonography (TCD), a non-invasive ultrasound, will be used to monitor changes in cerebral blood flow velocity (cm/s) in response to a hypercapnic challenge.",
+        "timeFrame": "baseline and end of treatment (week 12)"
+      },
+      {
+        "measure": "Durability of Change of Cerebral Blood Flow (CBF) Perfusion",
+        "description": "Arterial arrival time (AAT) measured using pseudo Continuous Arterial Spin Labeling (pCASL) magnetic resonance imaging (MRI) will be used to monitor changes in global perfusion.",
+        "timeFrame": "baseline and the post-treatment follow-up (week 17)"
+      },
+      {
+        "measure": "Durability of Change of Cerebrovascular Reactivity",
+        "description": "AAT measured using pCASL MRI after a hypercapnic challenge will be used to monitor changes in cerebrovascular reactivity",
+        "timeFrame": "baseline and the post-treatment follow-up (week 17)"
+      },
+      {
+        "measure": "Durability of Change of Functional Connectivity",
+        "description": "Resting-state magnetic resonance imaging (rs-MRI) will be used to monitor changes in functional connectivity",
+        "timeFrame": "baseline and the post-treatment follow-up (week 17)"
+      },
+      {
+        "measure": "Change in the Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS)",
+        "description": "Used to follow the longitudinal course of symptoms of Parkinson's disease - Each parkinsonian sign or symptom is rated on a 5-point Likert-type scale (ranging from 0 to 4), with higher scores indicating more severe impairment. The maximum total UPDRS score is 199, indicating the worst possible disability from PD",
+        "timeFrame": "baseline, end of treatment (week 12), and the post-treatment follow-up (week 17)"
+      },
+      {
+        "measure": "Change in the Timed Up and Go Test",
+        "description": "To determine fall risk and measure the progress of balance, sit to stand and walking (ranging from ≤10 seconds as normal to 30 seconds as high fall risk).",
+        "timeFrame": "baseline, end of treatment (week 12) and the post-treatment follow-up (week 17)"
+      },
+      {
+        "measure": "Change in the Montreal Cognitive Assessment",
+        "description": "Cognitive screening test - range from zero to 30, with a score of 26 and higher generally considered normal.",
+        "timeFrame": "baseline, end of treatment (week 12) and the post-treatment follow-up (week 17)"
+      },
+      {
+        "measure": "Change in the Non-Motor Symptom Scale",
+        "description": "Scale to assess a wide range of non-motor symptoms in patients with Parkinson's disease - 30-item rater-based scale to assess a wide range of non-motor symptoms in patients with Parkinson's disease (PD). The Non-Motor Symptom Scale measures the severity and frequency of non-motor symptoms across nine dimensions - the total score significantly increased with disease severity and duration meaning that the number of individual non-motor symptoms reported by our patients increases as the disease progresses. Score range 0 - 360.",
+        "timeFrame": "Change between the baseline and end of treatment (week 12) measure."
+      },
+      {
+        "measure": "Change in the Non-Motor Symptom Scale",
+        "description": "Scale to assess a wide range of non-motor symptoms in patients with Parkinson's disease - 30-item rater-based scale to assess a wide range of non-motor symptoms in patients with Parkinson's disease (PD). The Non-Motor Symptom Scale measures the severity and frequency of non-motor symptoms across nine dimensions - the total score significantly increased with disease severity and duration meaning that the number of individual non-motor symptoms reported by our patients increases as the disease progresses. Score range 0 - 360.",
+        "timeFrame": "Change between the baseline and the post-treatment follow-up (week 17) measure."
+      },
+      {
+        "measure": "Change in the Geriatric Depression Scale",
+        "description": "A self-report measure of depression in older adults - Scores of 0-4 are considered normal, depending on age, education, and complaints; 5-8 indicate mild depression; 9-11 indicate moderate depression; and 12-15 indicate severe depression.",
+        "timeFrame": "baseline, end of treatment (week 12) and the post-treatment follow-up (week 17)"
+      },
+      {
+        "measure": "Change in the Parkinson's Anxiety Scale",
+        "description": "Anxiety assessment - The PAS is a 12-item observer or patient-rated scale with three subscales, for persistent, episodic anxiety and avoidance behavior - There is a maximum total score of 48. Higher scores indicate great experiences of anxiety.",
+        "timeFrame": "baseline, end of treatment (week 12) and the post-treatment follow-up (week 17)"
+      },
+      {
+        "measure": "Change in the Epworth Sleepiness Scale",
+        "description": "A self-administered questionnaire to assess the daytime sleepiness - The ESS score (the sum of 8 item scores, 0-3) can range from 0 to 24. The higher the ESS score, the higher that person's average sleep propensity in daily life (ASP), or their 'daytime sleepiness'.",
+        "timeFrame": "baseline, end of treatment (week 12) and the post-treatment follow-up (week 17)"
+      },
+      {
+        "measure": "Change in the Functional Assessment of Chronic Illness Therapy - Fatigue",
+        "description": "A tool to help manage chronic illness - The responses to the 13 items on the FACIT fatigue questionnaire are each measured on a 4-point Likert scale. Thus, the total score ranges from 0 to 52. High scores represent less fatigue",
+        "timeFrame": "baseline, end of treatment (week 12) and the post-treatment follow-up (week 17)"
+      },
+      {
+        "measure": "Change in Arterial Stiffness",
+        "description": "Arterial stiffness will be assessed as carotid-femoral pulse wave velocity (PWV). PWV is calculated by dividing the distance between the carotid and femoral arteries by the pulse transit time.",
+        "timeFrame": "baseline and end of treatment (week 12)"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 1,
+      "otherCount": 14,
+      "totalCount": 19
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:44.781Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

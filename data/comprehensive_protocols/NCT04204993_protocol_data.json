@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04204993",
+  "briefTitle": "Assessment of Wearable Sensors During Experimental Human Influenza Infection (Sigma Plus)",
+  "officialTitle": "Assessment of Wearable Sensors During Experimental Human Influenza Infection (Sigma Plus)",
+  "protocolDocument": {
+    "nctId": "NCT04204993",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-08-14",
+    "uploadDate": "2021-09-15T18:03",
+    "size": 863295,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04204993/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-02-11",
+    "completionDate": "2021-05-17",
+    "primaryCompletionDate": "2020-12-31",
+    "firstSubmitDate": "2019-11-12",
+    "firstPostDate": "2019-12-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Healthy persons aged 18 to 55 years, able to give informed consent\n\nExclusion Criteria:\n\n* Chronic respiratory disease (asthma, chronic obstructive pulmonary disease, rhinitis, sinusitis) in adulthood\n* Inhaled bronchodilator or steroid use within the last 12 months\n* Use of any medication or other product (prescription or over-the-counter) for symptoms of rhinitis or nasal congestion within the last 3 months\n* Acute upper respiratory infection (URI or sinusitis) in the past 6 weeks\n* Smoking in the past 6 months OR \\>5 pack-year lifetime history\n* Subjects with allergic symptoms present at baseline\n* Clinically relevant abnormality on chest X-ray\n* Any ECG abnormality deemed clinically significant.\n* Those in close domestic contact (i.e. sharing a household with, caring for, or daily face to face contact) with children under 3 years, the elderly (\\>65 years), immunosuppressed persons, or those with chronic respiratory disease\n* Subjects with known or suspected immune deficiency\n* Receipt of systemic glucocorticoids (in a dose ≥ 5 mg prednisone daily or equivalent) within one month, or any other cytotoxic or immunosuppressive drug within 6 months prior to challenge\n* Known immunoglobulin A deficiency, immotile cilia syndrome, or Kartagener's syndrome\n* History of frequent nose bleeds\n* Any significant medical condition or prescribed drug deemed by the study doctor to make the participant unsuitable for the study\n* Pregnant or breastfeeding women\n* Positive urine drug screen\n* Detectable baseline antibody titres against influenza challenge strains\n* History of hypersensitivity to eggs, egg proteins, gentamicin, gelatin or arginine, or with life-threatening reactions to previous influenza vaccinations.\n* Participants may only recruited if they have previously been involved in research if they have completed the earlier study and are beyond the washout period of any administered drugs or period of effect of any intervention that would cause interference for either study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "55 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of PCR-confirmed Influenza Infections",
+        "description": "Nasal wash viral load by quantitative polymerase chain reaction (qPCR)",
+        "timeFrame": "Baseline to day 28"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time to Algorithmic Detection of Heart Rate Abnormalities",
+        "description": "Sensor data read-outs",
+        "timeFrame": "Baseline to day 10"
+      },
+      {
+        "measure": "Tissue Oxygen Levels",
+        "description": "Sensor data read-outs",
+        "timeFrame": "Baseline to day 10"
+      },
+      {
+        "measure": "Participant-reported Total Symptom Score",
+        "description": "Cumulative daily symptom score derived from self-reported upper and lower respiratory and systemic symptoms by diary card using the modified Jackson's symptom scoring system. Eight symptoms were scored: nasal obstruction, nasal discharge, sore throat, sneezing, cough, malaise, headache, and chills. Each symptom was scored 0-3, where 0=absent, 1=mild, 2=moderate and 3=severe. The maximum daily score is 24 and minimum daily score is 0.",
+        "timeFrame": "Day 1, Day 3 and Day 10"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:31.693Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

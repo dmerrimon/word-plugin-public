@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04555616",
+  "briefTitle": "Environmental Design for Behavioral Regulation in People With Dementia",
+  "officialTitle": "Environmental Design for Behavioral Regulation in People With Dementia",
+  "protocolDocument": {
+    "nctId": "NCT04555616",
+    "filename": "Prot_SAP_ICF_001.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2022-10-10",
+    "uploadDate": "2022-11-22T13:56",
+    "size": 816922,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04555616/document/Prot_SAP_ICF_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-25",
+    "completionDate": "2021-10-13",
+    "primaryCompletionDate": "2021-10-13",
+    "firstSubmitDate": "2020-09-14",
+    "firstPostDate": "2020-09-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Men or women aged 21-90, inclusive.\n* Living at home in the community with one primary caregiver.\n* Diagnosis of Alzheimer's disease as primary dementia type of moderate to severe stages\n* Stable medical condition for one month prior to screening visit\n* Stable medications for 4 weeks prior to screening visit\n* Caregiver report of challenges related to behaviors within 4 weeks of study enrollment\n* Caregiver willing to participant throughout duration of study\n\nExclusion Criteria:\n\n* Unstable medical conditions for 3 months prior to screening\n* Wheelchair or bed bound.\n* Residence in skilled nursing facility or facility-based care.\n* Skin lesions or skin abnormalities throughout upper extremities.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Success Rate of Adherence",
+        "description": "Percentage of participants who had 75% adherence to the protocol based on visits and journals.",
+        "timeFrame": "6 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Occupational Performance",
+        "description": "Occupational performance will be measured using the Canadian Occupational Performance Measure (COPM) at baseline, post-intervention and the 4-week follow up. Scores range from 0-10; higher scores indicate (increased) occupational performance.",
+        "timeFrame": "10 weeks (at baseline, 6 weeks and the 4 week follow up)"
+      },
+      {
+        "measure": "Change in Behavior",
+        "description": "Behavior will be measured using the Neuropsychiatric Inventory (NPI-Q) at baseline, post-intervention and the 4-week follow up. Scores range from 1-36; higher scores indicate higher behavior severity.",
+        "timeFrame": "10 weeks (at baseline, 6 weeks and the 4 week follow up)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:39.959Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

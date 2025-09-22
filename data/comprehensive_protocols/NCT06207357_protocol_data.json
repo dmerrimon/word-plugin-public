@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT06207357",
+  "briefTitle": "Optical Trocar to Create the Pneumoperitoneum in Bariatric Patients",
+  "officialTitle": "Optical Trocar to Facilitate the Pneumoperitoneum Creation in Bariatric Patients: Our Experience and Systematic Review",
+  "protocolDocument": {
+    "nctId": "NCT06207357",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-12-14",
+    "uploadDate": "2023-12-15T17:11",
+    "size": 158467,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06207357/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 403,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-03-01",
+    "completionDate": "2023-12-15",
+    "primaryCompletionDate": "2023-11-30",
+    "firstSubmitDate": "2023-12-15",
+    "firstPostDate": "2024-01-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nBMI\\>40 kg/m2 BMI\\>35 kg/m2with at least one associated major comorbidity\n\nExclusion Criteria:\n\nsecondary obesity due to endocrine and psychological disorders",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "optical trocar to induce the pneumoperitoneum",
+        "description": "the use of optical trocar to facilitate the creation of the pneumoperitoneum in obese patients underwent bariatric surgery",
+        "timeFrame": "5 years"
+      },
+      {
+        "measure": "complication rate using optical trocar to create the pneumopritoneum in laparoscopic surgery",
+        "description": "in literature we observe a low complication rate which include bowel and vessel injuries",
+        "timeFrame": "5 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:17.299Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

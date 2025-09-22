@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT02319304",
+  "briefTitle": "Pelvic Radiotherapy With Concurrent Neoadjuvant FOLFOX for Patients With Newly Diagnosed Rectal Adenocarcinoma",
+  "officialTitle": "Phase II Trial of Low Dose Whole Pelvic Radiotherapy With Concurrent Neoadjuvant FOLFOX for Patients With Newly Diagnosed T3N0M0, T2N1M0, or T3N1M0 Rectal Adenocarcinoma",
+  "protocolDocument": {
+    "nctId": "NCT02319304",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-05-16",
+    "uploadDate": "2021-09-09T13:05",
+    "size": 824330,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02319304/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 3,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-03",
+    "completionDate": "2018-10-05",
+    "primaryCompletionDate": "2018-10-05",
+    "firstSubmitDate": "2014-12-10",
+    "firstPostDate": "2014-12-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. ≥ 18 years old at diagnosis.\n2. ECOG Performance Status 0, 1, or 2.\n3. Biopsy-proven diagnosis of rectal adenocarcinoma.\n4. Radiographically measurable or clinically evaluable disease by CT scan of chest/abdomen/pelvis with and without contrast ≤ 28 days prior to registration.\n5. Clinical AJCC 7th edition stage T2N1M0, T3N0M0 or T3N1M0 based on physical examination, CT scan chest/abdomen/pelvis, and pelvic MRI or endorectal ultrasound.\n6. Preoperative proctoscopy confirming tumor extent as no less than 5 cm and no greater than 12 cm from the anal verge.\n7. Evaluation by a surgical oncologist, radiation oncologist, and medical oncologist ≤ 28 days prior to registration.\n8. Confirmation by a surgeon that the patient is able to undergo a low anterior resection with total mesorectal excision ≤ 28 days prior to registration.\n9. In the absence of a being treated on a clinical trial, the patient would be recommended to receive neoadjuvant chemoradiation followed by curative intent surgery.\n10. The following laboratory values obtained ≤ 28 days prior to registration:\n\n    * Absolute neutrophil count (ANC) ≥ 1500/mm3.\n    * Platelet count ≥ 100,000/mm3.\n    * Hemoglobin \\> 8.0 g/dL. May transfuse to meet eligibility.\n    * Total bilirubin ≤ 1.5 x upper limit of normal (ULN).\n    * SGOT (AST) ≤ 3 x ULN.\n    * SGPT (ALT) ≤ 3 x ULN.\n    * Creatinine ≤ 1.5 x ULN.\n11. Negative pregnancy test (B-HCG) within 7 days prior to registration for women of childbearing potential.\n12. Did the patient provide study-specific informed consent prior to study entry?\n13. Willingness to return to the enrolling medical site for all study assessments.\n\nExclusion Criteria:\n\n1. Clinical T4 tumor.\n2. Primary surgeon indicates the need for an abdominal perineal resection (APR) at baseline.\n3. Previous pelvic RT.\n4. Autoimmune disease such as scleroderma, lupus, or inflammatory bowel disease.\n5. Tumor \\< 3 mm from the mesorectal fascia as seen on MRI or endorectal ultrasound.\n6. Tumor-induced symptomatic bowel obstruction.\n7. Chemotherapy (including hormonal therapy) within the past 5 years from date of registration.\n8. Other invasive malignancies within past 5 years from date of registration.\n9. Pregnant or nursing women.\n10. Men or women of childbearing potential who are unwilling to employ adequate contraception.\n11. Other co-morbid conditions that, based on the judgment of the physicians obtaining informed consent, would make the patient inappropriate for this study.\n12. Any conditions that would preclude a patient from completing all study assessments.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Primary Outcome Measure (Overall Survival Rate)",
+        "description": "Overall survival rate of patients who receive a neoadjuvant full dose FOLFOX plus the addition of concurrent LDFRT result in a pCR response rate of at least 35%.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Secondary Outcome Measure (Number of Adverse Events)",
+        "description": "Number of adverse events caused from the administration of neoadjuvant concurrent LDFRT-FOLFOX while maintaining a high rate of pelvic R0 resection compared to standard preoperative chemoradiation and total mesorectal excision surgery.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-21T22:34:07.469Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

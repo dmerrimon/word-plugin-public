@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT02243631",
+  "briefTitle": "Effect of Probenecid on Synovial Fluid ATP Levels in CPPD",
+  "officialTitle": "ANK-dependent ATP Efflux Causes Calcium Pyrophosphate Deposition in Cartilage",
+  "protocolDocument": {
+    "nctId": "NCT02243631",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-02-28",
+    "uploadDate": "2022-03-24T17:36",
+    "size": 169398,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02243631/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "EARLY_PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 8,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-10-15",
+    "completionDate": "2021-04-08",
+    "primaryCompletionDate": "2021-04-08",
+    "firstSubmitDate": "2014-09-16",
+    "firstPostDate": "2014-09-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age \\>21 years,\n* CPPD diagnosed by Ryan /McCarty criteria\n* Joint effusion in a shoulder or knee\n\nExclusion Criteria:\n\n* Inability to sign informed consent\n* Age \\<21 years\n* History of renal stones\n* Significant renal dysfunction (CKD \\>stage 2)\n* Blood dyscrasias\n* Current use of drugs which interact with probenecid\n* Concurrent gout\n* Active infection, including bacteremia and overlying cellulitis\n* Recent joint trauma\n* Intra-articular corticosteroids in the affected joint within three months",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "ATP Levels in Synovial Fluid",
+        "description": "The investigators will measure levels of ATP in synovial fluid from patients with CPPD before and after treatment with probenecid compared to patients receiving no therapy. ATP levels are measured with a standard bioluminescent assay.",
+        "timeFrame": "5 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:57.787Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

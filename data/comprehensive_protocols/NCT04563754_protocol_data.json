@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT04563754",
+  "briefTitle": "The Effectiveness of High Resolution Microendoscopy for People Living With HIV",
+  "officialTitle": "The Effectiveness of High Resolution Microendoscopy (HRME) in High Grade Intraepithelial Lesions (HSIL) Diagnosis for People Living With HIV",
+  "protocolDocument": {
+    "nctId": "NCT04563754",
+    "filename": "Prot_SAP_004.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-03-24",
+    "uploadDate": "2024-12-13T15:25",
+    "size": 491018,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04563754/document/Prot_SAP_004.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 163,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-07-30",
+    "completionDate": "2025-03-28",
+    "primaryCompletionDate": "2024-03-28",
+    "firstSubmitDate": "2020-03-10",
+    "firstPostDate": "2020-09-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Consentable patients with documented HIV disease\n* Either: 1) previously documented HSIL or 2) abnormal anal cytology within the past 2 years\n* Ages 18 years and older\n* Seen at the Baylor-affiliated Thomas Street Clinic (TSC), Mount Sinai Hospital and affiliated clinics\n\nExclusion Criteria:\n\n* Unable to undergo routine anoscopy\n* Allergy or prior reaction to the fluorescent contrast agent Proflavine or Iodine\n* Unable to give informed consent\n* Current or prior history of Invasive Anal Cancer\n* Known permanent or irreversible bleeding disorder, or other hematologic disorder that in the opinion of the investigator would place the patient at increased risk for adverse outcome from the procedure\n* Pregnancy",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Performance Characteristics: Sensitivity (SN), Specificity (SP), Positive Predictive Value (PPV) and Negative Predictive Values (NPV)",
+        "description": "The primary outcome of this study is to measure the operating characteristics including SN, SP, PPV and NPV comparing the physician- and algorithm- guided HRME-based image compared to the Lugol's- guided physician diagnosis of HSIL during HRA. Gold standard consensus pathology was used and pathology data needs to be obtained, verified, and entered.",
+        "timeFrame": "1 day"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Procedure Efficiency",
+        "description": "Diagnostic yield: The number of neoplastic biopsies/total number of biopsies obtained in patients who received biopsies.",
+        "timeFrame": "1 day"
+      },
+      {
+        "measure": "Procedure Time",
+        "description": "Total procedure time (HRA+HRME+biopsies) vs HRME time alone",
+        "timeFrame": "1 day"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:19.484Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

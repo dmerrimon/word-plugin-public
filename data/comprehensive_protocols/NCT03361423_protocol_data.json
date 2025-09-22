@@ -1,0 +1,119 @@
+{
+  "nctId": "NCT03361423",
+  "briefTitle": "Evaluation of a Novel Device for Treatment of Migraine Headache",
+  "officialTitle": "A Randomized, Double Blinded, Sham Controlled Clinical Study to Evaluate the Safety and Efficacy of the Nerivio Migra 1, a Neuromodulation Device, for the Acute Treatment of Migraine",
+  "protocolDocument": {
+    "nctId": "NCT03361423",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-11-01",
+    "uploadDate": "2020-12-06T08:45",
+    "size": 1434256,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03361423/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 296,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-12-17",
+    "completionDate": "2018-12-25",
+    "primaryCompletionDate": "2018-11-25",
+    "firstSubmitDate": "2017-11-18",
+    "firstPostDate": "2017-12-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Subjects age 18-75 years old.\n2. Subjects meet the ICHD-3 diagnostic criteria for migraine with or without aura\n3. Subjects report 2-8 migraine attacks per month.\n4. Stable migraine preventive medications in the last two months prior to recruitment (No change in usage or dosage).\n5. Subjects must be able and willing to comply with the protocol\n6. Subjects must be able and willing to provide written informed consent\n\nExclusion Criteria:\n\n1. Subject has other significant pain, medical or psychologic problems that in the opinion of the investigator may confound the study assessments\n2. Subject has an implanted electrical and/or neurostimulator device (e.g. cardiac pacemaker or defibrillator, vagus nerve neurostimulator, deep brain stimulator, spinal stimulator, bone growth stimulator cochlear implant, Sphenopalatine ganglion stimulator or Occipital nerve stimulator).\n3. Subject has known uncontrolled epilepsy.\n4. Any use of Cannabis including medical use.\n5. Subject has \\>10 headache days per month.\n6. Subject has undergone nerve block (occipital or other) in the head or neck within the last 2 weeks.\n7. Subject is participating in any other clinical study.\n8. The subject does not have the basic cognitive and motor skills needed to operate a smartphone.\n9. Pregnant, or trying to get pregnant\n10. Subject is experiencing a menstrually related migraine\n11. Received OnabotulinumtoxinA or any botulinum toxin injections for migraine within the previous month\n12. Received parenteral infusions for migraine within the previous 2 weeks.\n13. Subject participated in a previous study with the Nerivio Migra 1 device",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Reduction of Migraine Headache at 2 Hours Post Treatment",
+        "description": "The percentage of patients reporting reduction in their pain level 2 hours post-treatment without rescue medications from severe or moderate to mild or no pain, or from mild to no pain, in their first treated migraine attack (excluding the \"run-in test\" treatment).",
+        "timeFrame": "2 hours post migraine onset"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With Reduction of Most Bothersome Migraine-associated Symptom (MBS) Relief at 2 Hours Post Treatment",
+        "description": "The percentage of patients reporting, 2 hours post-treatment, freedom from their most bothersome migraine-associated symptom (MBS) other than a headache, in their first treated migraine attack (excluding the \"run-in test\" treatment). MBS may be nausea, photophobia, phonophobia or allodynia - as defined by each subject at the beginning of the treatment",
+        "timeFrame": "2 hours post migraine onset"
+      },
+      {
+        "measure": "Percentage of Participants With Reduced Migraine Headache AND MBS Relief at 2 Hours Post Treatment",
+        "description": "The percentage of patients reporting, 2 hours post treatment response to both the primary and the first secondary endpoints",
+        "timeFrame": "2 hours post migraine onset"
+      },
+      {
+        "measure": "Percentage of Participants With Pain Disappearance at 2 Hours Post Treatment",
+        "description": "The percentage of subjects reporting freedom from migraine pain at 2 hours post-treatment without medications in their first treated migraine attack",
+        "timeFrame": "2 hours post migraine onset"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number of Adverse Events Related or Unrelated to the Study Device",
+        "description": "The number of Adverse events related to the study device. Safety analyses were performed on all participants from the ITT population (126 participants in each group).",
+        "timeFrame": "up to 14 weeks"
+      },
+      {
+        "measure": "Within-patient Consistency - Percentage of Participants With Reduction in Headache Pain in at Least 50% of Their Treatments",
+        "description": "The repeatability of migraine headache reduction, as described in the primary endpoint definition, in subsequent treated attacks. Thus, this endpoint measures the % of patient responding to the primary endpoint in at least 50% of their treated attacks (excluding the run-in attack",
+        "timeFrame": "up to 6 weeks"
+      },
+      {
+        "measure": "Percentage of Participants With Sustained Pain-free 48 Hours With Single Use of the Device",
+        "description": "The proportion (%) of subjects reporting pain-free at 2 hours, and no return of any pain or use of rescue/acute medication, or reuse of device between 2 hours and 48 hours, in their first treated migraine attack",
+        "timeFrame": "48 hours post treatment"
+      },
+      {
+        "measure": "Percentage of Participants With Sustained Headache Reduction for 48 Hours With Single Use of the Device",
+        "description": "The proportion (%) of subjects reporting treatment response 2 hours post-treatment without rescue medications, and no return to baseline level of pain at time of treatment, or use of rescue/acute medication, or reuse of device between 2 hours and 48 hours, in their first treated migraine attack",
+        "timeFrame": "48 hours post treatment"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 4,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 62,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:51.968Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

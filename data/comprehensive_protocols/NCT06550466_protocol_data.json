@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT06550466",
+  "briefTitle": "The Effect of Pre-exercise Feeding on Bone Turnover Biomarkers",
+  "officialTitle": "The Influence of Pre-exercise Feeding on Acute Bone Turnover Biomarkers in Response to Physical Activity in Healthy Participants",
+  "protocolDocument": {
+    "nctId": "NCT06550466",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-06-30",
+    "uploadDate": "2024-08-06T17:36",
+    "size": 627442,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06550466/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 16,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2024-10",
+    "completionDate": "2025-06",
+    "primaryCompletionDate": "2025-03",
+    "firstSubmitDate": "2024-07-30",
+    "firstPostDate": "2024-08-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male (females excluded to remove the interplay between menstrual cycle and bone turnover)\n* Caucasian ethnicity\n* Aged 28 ± 4 years\n* Are physically active (meet the UK guidelines for physical activity of at least 150 minutes moderate intensity activity and/or at least 75 minutes of vigorous intensity activity per week)\n* Otherwise, healthy, able and willing to participate and provide written informed consent\n\nExclusion Criteria:\n\n* Current smokers\n* Excessive alcohol consumption (max 15 alcohol units/week)\n* Any musculoskeletal injury/disabilities\n* Any conditions known to affect bone metabolism (e.g. uncontrolled hyper-/hypothyroidism, hyperparathyroidism, hypo-/hypercalcaemia) or malabsorption syndromes (e.g. Crohn's disease, coeliac disease or inflammatory bowel disease).\n* Taking any medication known to affect bone metabolism (such as glucocorticoids or bisphosphonates)\n* Positive Covid-19 test within the last 8 weeks\n* Suffered a fracture in the previous 12 months\n* Sedentary status (see physical activity inclusion criteria above)\n* Have been told by medical professionals that they should not take part in moderate to high intensity exercise\n* Should not be a professional athlete or take part in significant competitive recreational activity (takes no more than 4 structured exercise sessions per week on average)\n* History of diagnosed eating disorders",
+    "healthyVolunteers": true,
+    "sex": "MALE",
+    "minimumAge": "24 Years",
+    "maximumAge": "32 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "C-terminal telopeptide of type-1 collagen (CTX-1)",
+        "description": "The primary endpoint of this study is the change of the bone resorption biomarker C-terminal telopeptide of type-1 collagen (CTX-1) expression",
+        "timeFrame": "Between pre-exercise and 2 hours following the exercise timepoints"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Procollagen type 1 N-terminal propeptide (P1NP)",
+        "description": "The change of the bone formation biomarker procollagen type 1 N-terminal propeptide (P1NP) expression",
+        "timeFrame": "Between pre-exercise and 2 hours following the exercise timepoints"
+      },
+      {
+        "measure": "Cortisol",
+        "description": "Markerof physiological and psychological stress is assessed and because of its promotion of bone resorption",
+        "timeFrame": "Between pre-exercise and 2 hours following the exercise timepoints"
+      },
+      {
+        "measure": "Insulin",
+        "description": "The change of concentration in fasted and fed states is assessed",
+        "timeFrame": "Between pre-exercise and 2 hours following the exercise timepoints"
+      },
+      {
+        "measure": "Glucose",
+        "description": "The change of concentration in fasted and fed states is assessed",
+        "timeFrame": "Between pre-exercise and 2 hours following the exercise timepoints"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:03.607Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

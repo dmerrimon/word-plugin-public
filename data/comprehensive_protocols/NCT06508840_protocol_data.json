@@ -1,0 +1,104 @@
+{
+  "nctId": "NCT06508840",
+  "briefTitle": "The Clear Conversations Project",
+  "officialTitle": "Clear Conversations: Evaluating a Verbal Health Literacy Intervention in Derbyshire",
+  "protocolDocument": {
+    "nctId": "NCT06508840",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-05-13",
+    "uploadDate": "2024-07-11T09:37",
+    "size": 288682,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06508840/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 400,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2024-07-01",
+    "completionDate": "2025-06-30",
+    "primaryCompletionDate": "2025-03-31",
+    "firstSubmitDate": "2024-07-12",
+    "firstPostDate": "2024-07-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* • Public Health Intervention Advisors delivering the tier 2 weight management programme across Derbyshire.\n\n  * Physiotherapists and specialist nurses involved in the assessment of patients and delivery of the six week DCHS NHS pulmonary rehabilitation programme.\n  * Adults aged 18 or over who start the rolling 12 week tier two weight management programme during the intervention period.\n  * Adults aged 18 or over, with Chronic Obstructive Pulmonary Disease, who are being assessed for and undertaking the six week pulmonary rehabilitation programme during the study intervention period.\n  * For the staff questionnaire only - Healthcare staff from other services that attend Verbal Health Literacy training, during the study period in 2024, will also be eligible\n\nExclusion Criteria:\n\n* • Service users attending the two service programmes outside of the data collection period.\n\n  * Other pulmonary rehabilitation staff. i.e. staff who are not physiotherapists or specialist nurses.",
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Chronic Respiratory Disease Questionnaire (CDRQ)",
+        "description": "The CRQ is an interviewer-administered questionnaire measuring both physical and emotional aspects of chronic respiratory disease. The total score for the CRDQ ranges from 0 to 100, with higher scores indicating better HRQOL",
+        "timeFrame": "0, 6 weeks"
+      },
+      {
+        "measure": "Weight in kilogrammes",
+        "description": "Services attending the weight management programme will be weighed at the start and end of the programme",
+        "timeFrame": "0, 12, 26 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The short Warwick and Edinburgh Mental Health and Well being Scale (weight management programme only)",
+        "description": "A 7 point scale to enable the monitoring of mental wellbeing in the general population and the evaluation of projects, programmes and policies which aim to improve mental wellbeing. The total score range for SWEMWBS is 7-35. A higher score indicating better HRQL.",
+        "timeFrame": "0 and 12 weeks"
+      },
+      {
+        "measure": "Incremental shuttle walking test in meters (Pulmonary Rehab prgramme only)",
+        "description": "The patient is required to walk around two cones set 9 metres apart (so the final track is 10 metres) in time to a set of auditory beeps. The patient walks for as long as they can until they are either too breathless or can no longer keep up with the beeps, at which time the test ends.",
+        "timeFrame": "0, 6 weeks"
+      },
+      {
+        "measure": "Lung Information Needs Questionnaire (LINQ) - pulmonary rehab programme",
+        "description": "A brief questionnaire completed prior to the clinical encounter would assist health professionals identify areas of information need. The total score range is 0-25.A higher score indicates a greater need for information.",
+        "timeFrame": "0, 6 weeks"
+      },
+      {
+        "measure": "Generalised Anxiety Disorder Assessment (GAD-7) - Pulmonary rehab programme",
+        "description": "A self-administered patient questionnaire used as a screening tool and severity measure for generalised anxiety disorder. It measures severity of anxiety, mainly in outpatients.. The total score range is 0-21. A higher score indicating higher levels of anxiety.",
+        "timeFrame": "0, 6 weeks"
+      },
+      {
+        "measure": "Patient Health Questionnaire (PHQ-9) - Pumonary rehab programme",
+        "description": "a self-administered version of the PRIME-MD diagnostic instrument for common mental disorders.1 The PHQ-9 is the depression module, which scores each of the nine DSM-IV criteria as \"0\" (not at all) to \"3\" (nearly every day). It has been validated for use in primary care. The total score range is 0-27. A higher score indicating higher levels of depression.",
+        "timeFrame": "0-6weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:27.506Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04446429",
+  "briefTitle": "Anti-Androgen Treatment for COVID-19",
+  "officialTitle": "Anti-Androgen Treatment for COVID-19",
+  "protocolDocument": {
+    "nctId": "NCT04446429",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan: Study Protocol (English Translation)",
+    "date": "2020-09-17",
+    "uploadDate": "2021-06-11T09:44",
+    "size": 2310161,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04446429/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 268,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-21",
+    "completionDate": "2021-01-21",
+    "primaryCompletionDate": "2020-12-24",
+    "firstSubmitDate": "2020-06-22",
+    "firstPostDate": "2020-06-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Male age ≥18 years old\n2. Laboratory confirmed positive SARS-CoV-2 rtPCR test within 7 days prior to randomization\n3. Clinical status on the COVID-19 8-point Ordinal Scale of 1 or 2\n4. Coagulation: INR ≤ 1.5×ULN, and APTT ≤ 1.5×ULN\n5. Subject (or legally authorized representative) gives written informed consent prior to any study screening procedures\n6. Subject (or legally authorized representative) agree that subject will not participate in another COVID-19 trial while participating in this study\n\nExclusion Criteria:\n\n1. Subject enrolled in a study to investigate a treatment for COVID-19\n2. Subject taking an anti-androgen of any type including: androgen depravation therapy, 5-alpha reductase inhibitors, etc…\n3. Patients who are allergic to the investigational product or similar drugs (or any excipients);\n4. Subjects who have malignant tumors in the past 5 years, with the exception of completed resected basal cell and squamous cell skin cancer and completely resected carcinoma in situ of any type\n5. Subjects with known serious cardiovascular diseases, congenital long QT syndrome, torsade de pointes, myocardial infarction in the past 6 months, or arterial thrombosis, or unstable angina pectoris, or congestive heart failure which is classified as New York Heart Association (NYHA) class 3 or higher, or left ventricular ejection fraction (LVEF) \\< 50%, QTcF \\> 450 ms\n6. Subjects with uncontrolled medical conditions that could compromise participation in the study(e.g. uncontrolled hypertension, hypothyroidism, diabetes mellitus)\n7. Known diagnosis of human immunodeficiency virus(HIV) , hepatitis C, active hepatitis B, treponema pallidum (testing is not mandatory）\n8. Alanine Transaminase (ALT) or Aspartate Transaminase (AST) \\> 5 times the upper limit of normal.\n9. Estimated glomerular filtration rate (eGFR) \\< 30 ml/min\n10. Severe kidney disease requiring dialysis\n11. Subject unlikely to return for day 15 site visit for reasons other then remission\n12. Subject (or legally authorized representative) not willing or unable to provide informed consent",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "COVID-19 Hospitalization",
+        "description": "Percentage of subjects hospitalized due to COVID-19",
+        "timeFrame": "30 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:37.638Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT03378479",
+  "briefTitle": "Posaconazole for the Prevention of Influenza-associated Aspergillosis in Critically Ill Patients",
+  "officialTitle": "A Phase iv, Interventional, Non-blinded, Randomized Controlled Multicenter Study of Posaconazole Prophylaxis for the Prevention of Influenza-associated Aspergillosis (IAA) in Critically Ill Patients",
+  "protocolDocument": {
+    "nctId": "NCT03378479",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-01-03",
+    "uploadDate": "2022-06-30T05:28",
+    "size": 774872,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03378479/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 88,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-12-27",
+    "completionDate": "2021-03-30",
+    "primaryCompletionDate": "2020-03-31",
+    "firstSubmitDate": "2017-10-30",
+    "firstPostDate": "2017-12-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Written informed consent must be obtained from the patient or his/her legal representative prior to any study procedures\n2. Adult patient (≥ 18 years)\n3. PCR-confirmed influenza based on nasopharyngeal swab (NS), bronchial aspirate (BA) or broncho-alveolar lavage (BAL) within 7 days before ICU admission or within 48 hours after ICU admission. If PCR is not available a positive result of a rapid test is required (a negative rapid test does not imply absence of influenza and thus requires confirmation by PCR)\n4. Influenza symptoms present for no more than 10 days before ICU admission\n5. Respiratory distress as the main reason for ICU admission. Respiratory distress will be defined as tachypnea with an respiratory rate ≥ 25x/min and a paO2/fiO2-ratio (fraction of inspired oxygen) ≤ 300 with or without (bilateral) infiltrates.\n\nExclusion Criteria:\n\n1. Patients with age \\< 18 years\n2. Pregnant women (based on a positive serum sample)\n3. Expected survival on ICU admission ≤ 48h\n4. Patients having influenza symptoms for more than 10 days before ICU admission\n5. Patients being transferred from another hospital ward or another hospital who already have mycological evidence for an IAA-infection (based on sputum, BA or BAL culture, BAL or serum GM)\n6. Patients with known intolerance or hypersensitivity to posaconazole or other azole antifungal agents\n7. Patients that are being treated actively with antifungal agents for invasive aspergillosis\n8. Patients with a QTc (corrected QT interval) interval ≥500 msec\n9. Patients with liver cirrhosis (Child C)\n10. Participation in another interventional clinical trial -",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With IAA-infection at ICU Discharge",
+        "description": "A patient with IAA-infection is defined as a patient having mycological evidence of Aspergillus and at least one Aspergillus compatible sign or symptom and radiological abnormalities",
+        "timeFrame": "from date of admission in ICU assessed up to ICU discharge, approximately 21 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time to IAPA Diagnosis",
+        "description": "Days to influenza-associated pulmonary aspergillosis (IAPA) diagnosis",
+        "timeFrame": "from date of inclusion to date of first sign/symptom of IAA infection, assessed up to ICU discharge, approximately 10 days"
+      },
+      {
+        "measure": "Length of ICU Stay",
+        "description": "amount of days at ICU",
+        "timeFrame": "from date of admission in ICU to date of discharge from ICU, approximately 20 days"
+      },
+      {
+        "measure": "Length of Hospital Stay",
+        "description": "Number of days in the hospital",
+        "timeFrame": "from date of admission in hospital to date of discharge from hospital, approximately 25 days"
+      },
+      {
+        "measure": "ICU Mortality - Number of Participant Deaths",
+        "description": "survival status",
+        "timeFrame": "At ICU discharge"
+      },
+      {
+        "measure": "Hospital Mortality - Number of Participant Deaths",
+        "description": "Survival status at hospital discharge",
+        "timeFrame": "At hospital discharge"
+      },
+      {
+        "measure": "90-day Mortality - Number of Participant Deaths",
+        "description": "Survival status at 90 days after ICU admission",
+        "timeFrame": "At 90 days after ICU admission"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:31.848Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT03834142",
+  "briefTitle": "NSS-2-BRIDGE Study for Total Knee and Hip Arthroplasties, Bariatric, and Kidney Transplant Surgeries",
+  "officialTitle": "Pilot Study to Investigate the Feasibility and Tolerability of the Use of NSS-2-BRIDGE Device for Post-Operative Pain in Total Knee and Hip Arthroplasties, Bariatric, and Kidney Transplant Surgeries",
+  "protocolDocument": {
+    "nctId": "NCT03834142",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2019-09-26",
+    "uploadDate": "2022-04-29T09:47",
+    "size": 205225,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03834142/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-08",
+    "completionDate": "2021-06-30",
+    "primaryCompletionDate": "2021-03-30",
+    "firstSubmitDate": "2019-02-06",
+    "firstPostDate": "2019-02-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Over 18 years of age\n* Elective Total Knee OR Total Hip Arthroplasties OR Kidney transplant surgery OR Bariatric surgery\n\nExclusion Criteria:\n\n* History of active depression, anxiety or catastrophizing\n* Active alcoholism or drug abuse\n* Severe chronic pain condition that requires daily preoperative opioid dependence\n* History of hemophilia\n* Patients with cardiac pacemakers or other implanted devices (e.g. vagal nerve simulators)\n* Patients with psoriasis vulgaris diagnosis\n* Women who are pregnant or breastfeeding",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Efficacy of NSS-2 Bridge Device in Changing Perioperative Opioid Consumption",
+        "description": "Investigate the efficacy of the NSS-2 BRIDGE device in changing perioperative opioid consumption in opioid-naïve patients undergoing either a total hip or total knee arthroplasty procedure, bariatric or kidney donor surgeries. Since we are comparing to historical controls, we can only analyze data from when the controls were in the hospital. This could be within a 24hrs, 48hrs, 72 hours, 96 hours, or 120 hours timeframe.",
+        "timeFrame": "This could be within a 24hrs, 48hrs, 72 hours, 96 hours, or 120 hours timeframe."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Pain Scores",
+        "description": "Investigate the efficacy of the NSS-2 BRIDGE device in changing perioperative NRS Pain scores in opioid-naïve patients undergoing either a total hip or total knee arthroplasty, bariatric or kidney donor surgeries. Since we are comparing to historical controls, we can only analyze data from when the controls were in the hospital.\n\nNumerical Rating Scale (NRS) Pain scores on a scale from 0-10, with 0 being no pain, 5 being moderate pain and 10 being the worst imaginable pain. The lowest possible score is 0 and the highest possible score is 10. higher scores represent a worse outcome.",
+        "timeFrame": "Day of Surgery, 24 hours post-operative, 48 hours post-operative"
+      },
+      {
+        "measure": "Number of Participants With Post-operative Complications",
+        "description": "Investigate the number of participants that experienced post-operative complications .",
+        "timeFrame": "Day of Surgery through post-operative day 5"
+      },
+      {
+        "measure": "Level of Comfort Wearing NSS-2 Bridge Device",
+        "description": "This was determined by asking the subject \"How satisfied were you with the NSS-Bridge Device during the time in which it was worn, with 0 being the worst and 10 being the most satisfied?\"",
+        "timeFrame": "Post-operative day 5"
+      },
+      {
+        "measure": "Time to Hospital Discharge",
+        "description": "Length of time from end of surgery to discharge from hospital",
+        "timeFrame": "Day of Surgery to post-op day 5"
+      },
+      {
+        "measure": "Time to Discharge From Recovery Room",
+        "description": "Length of time from end of surgery to discharge from the recovery room",
+        "timeFrame": "Day of Surgery through post-operative day 5"
+      },
+      {
+        "measure": "Time to Oral Intake",
+        "description": "Length of time from end of surgery to first oral intake",
+        "timeFrame": "Day of surgery to post-op day 5"
+      },
+      {
+        "measure": "Time to Ambulation",
+        "description": "Length of time from end of surgery to first ambulation",
+        "timeFrame": "Day of surgery to post-op day 5"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:07.353Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

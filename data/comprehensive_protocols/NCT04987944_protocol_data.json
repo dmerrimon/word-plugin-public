@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT04987944",
+  "briefTitle": "Safety and Efficacy Active Drug vs. Placebo in Subjects With Asthma",
+  "officialTitle": "A Phase 1b, Double-blind, Placebo-controlled, Parallel-group Study to Evaluate Safety and Efficacy of Oral Zavegepant in Subjects With Mild Allergic Asthma",
+  "protocolDocument": {
+    "nctId": "NCT04987944",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-06-09",
+    "uploadDate": "2024-02-02T10:10",
+    "size": 1914866,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04987944/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 45,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-10-18",
+    "completionDate": "2023-04-04",
+    "primaryCompletionDate": "2023-03-29",
+    "firstSubmitDate": "2021-07-26",
+    "firstPostDate": "2021-08-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subjects with Asthma\n\nExclusion Criteria:\n\n\\-",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Maximum Percentage Decrease From Baseline in Forced Expiratory Volume in 1 Second (FEV1) at Any Time Between 3 and 7 Hours Post-Allergen Challenge",
+        "description": "Allergen inhalation challenge was performed on Day 27 and FEV1 was measured using spirometry prior to the challenge and between 3 to 7 hours post allergen challenge to assess late asthmatic response (LAR). FEV1 was the maximal volume of air exhaled in 1 second of a forced expiration from a position of full inspiration. The maximum percentage decrease was the difference between the baseline (pre-allergen challenge) FEV1 on Day 27 and lowest FEV1 between hours 3 and 7 on Day 27 divided by the baseline value from Day 27. Analysis was performed using analysis of covariance (ANCOVA) model with treatment as main effect and baseline FEV1 as covariate.",
+        "timeFrame": "Baseline (pre-allergen challenge on Day 27) and anytime between 3 and 7 hours post-challenge on Day 27"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Maximum Percentage Decrease From Baseline in FEV1 at Any Time Between 0 and 2 Hours Post-Allergen Challenge",
+        "description": "Allergen inhalation challenge was performed on Day 27 and FEV1 was measured using spirometry prior to the challenge and between 0 to 2 hours post allergen challenge to assess early asthmatic response (EAR). FEV1 was the maximal volume of air exhaled in 1 second of a forced expiration from a position of full inspiration. The maximum percentage decrease was the difference between the baseline (pre-allergen challenge) FEV1 on Day 27 and lowest FEV1 between hours 0 and 2 on Day 27 divided by the baseline value from Day 27. Analysis was performed using ANCOVA model with treatment as main effect and baseline FEV1 as covariate.",
+        "timeFrame": "Baseline (pre-allergen challenge on Day 27) and anytime between 0 and 2 hours post-challenge on Day 27"
+      },
+      {
+        "measure": "Change in Methacholine PC20 From Pre-Allergen Challenge to Post-Allergen Challenge",
+        "description": "Airway hyperresponsiveness was assessed using methacholine provocation concentration causing a 20% decline in FEV1 (PC20). Change in PC20 from pre-allergen to post-allergen = PC20 in post-allergen challenge minus PC20 in pre-allergen challenge. Shift in PC20 was calculated as post-allergen challenge minus pre-allergen challenge (Day 28 minus Day 26), and baseline shift in PC20 was calculated as post-allergen challenge minus pre-allergen challenge (Day -13 minus Day-15). Analysis was performed using ANCOVA model with treatment as main effect and baseline shift as covariate.",
+        "timeFrame": "From Day -15 to Day 28"
+      },
+      {
+        "measure": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)",
+        "description": "An adverse event (AE) was any untoward medical occurrence or worsening of a pre-existing medical condition in a clinical investigation participant administered an investigational (medicinal) product and that did not necessarily have a causal relationship with this treatment. An SAE was defined as any adverse event that, at any dose: resulted in death; required inpatient hospitalization or prolongation of existing hospitalization; life-threatening; resulted in persistent or significant disability/incapacity; congenital anomaly/birth defect or other important medical events. TEAEs were events with onset dates on or after the start of the study drug.",
+        "timeFrame": "From start of treatment on Day 1 up to Day 41"
+      },
+      {
+        "measure": "Number of Participants With Clinically Significant Laboratory Test Abnormalities on Treatment",
+        "description": "The following laboratory parameters were assessed: hematology (eosinophils, hemoglobin, leukocytes, lymphocytes, neutrophils and platelets), chemistry (Albumin, alanine aminotransferase \\[ALT\\], alkaline phosphatase \\[ALP\\], aspartate aminotransferase \\[AST\\], bicarbonate, bilirubin, calcium, cholesterol, creatine kinase, creatinine, glucose, low-density lipoproteins \\[LDL\\], lactate dehydrogenase, potassium, sodium, triglycerides) and urinalysis (urine glucose and urine protein). Clinically significant laboratory test abnormalities were Grade 3 (severe) to Grade 4 (potentially life-threatening) laboratory test results graded according to Common Terminology Criteria for Adverse Events (CTCAE) version 5.0 except for glucose, LDL cholesterol, uric acid and urinalysis which were graded using Division of Aids (DAIDS) Version 2.1 where, Grade 3=severe and Grade 4=potentially life-threatening. Number of participants with clinically significant abnormalities in any laboratory parameter is presented.",
+        "timeFrame": "From start of treatment on Day 1 to Day 28"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:22.308Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

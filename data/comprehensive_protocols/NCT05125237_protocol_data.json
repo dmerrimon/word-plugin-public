@@ -1,0 +1,78 @@
+{
+  "nctId": "NCT05125237",
+  "briefTitle": "Data Analysis for Drug Repurposing for Effective Alzheimer's Medicines (DREAM)- Amiloride vs Triamterene",
+  "officialTitle": "Data Analysis for Drug Repurposing for Effective Alzheimer's Medicines (DREAM)- Amiloride vs Triamterene",
+  "protocolDocument": {
+    "nctId": "NCT05125237",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-07-11",
+    "uploadDate": "2022-07-11T09:21",
+    "size": 3126086,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05125237/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 146670,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-10-01",
+    "completionDate": "2023-12-31",
+    "primaryCompletionDate": "2023-07-07",
+    "firstSubmitDate": "2021-11-08",
+    "firstPostDate": "2021-11-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Please see https://docs.google.com/spreadsheets/d/1IdoLUI5-bz\\_1D\\_0IflZovJO9e1\\_3kFLc\\_JLEFM030No/edit?usp=sharing or Appendix A for full code and algorithm definitions.\n\nMedicare timeframe: 2008 to 2018 (end of data availability).\n\nInclusion Criteria:\n\n* 1\\. Aged \\> 65 years on the index date\n* 2\\. Enrollment in Medicare Part A, B, and D with no HMO coverage for 365 days prior to and including cohort entry date\n* 3\\. At least two claims with hypertension diagnosis recorded in 365 days prior to cohort entry date\n\nExclusion Criteria:\n\n* 1\\. Prior history of dementia measured anytime prior to cohort entry date\n* 2\\. Prior use of amiloride or triamterene any time prior to cohort entry date",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time to dementia onset",
+        "description": "Time to dementia onset, i.e., Alzheimer's disease, vascular dementia, senile, presenile, or unspecified dementia, or dementia in other diseases classified elsewhere. Please refer to uploaded protocol for full definition due to size limitations.",
+        "timeFrame": "Through study completion (a median of 114 days)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time to Alzheimer's disease onset",
+        "description": "Time to Alzheimer's disease onset. Please refer to uploaded protocol for full definition due to size limitations.",
+        "timeFrame": "Through study completion (a median of 114 days)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:13.790Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

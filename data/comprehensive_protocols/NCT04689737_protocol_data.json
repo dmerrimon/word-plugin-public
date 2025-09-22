@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04689737",
+  "briefTitle": "Removal of Doravirine by Hemodialysis in HIV-Infected Patients With End-stage Renal Disease (ESRD)",
+  "officialTitle": "Removal of Doravirine by Hemodialysis in HIV-Infected Patients With End-Stage Renal Disease (ESRD)",
+  "protocolDocument": {
+    "nctId": "NCT04689737",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-10-06",
+    "uploadDate": "2022-08-18T06:07",
+    "size": 665215,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04689737/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 8,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-03-20",
+    "completionDate": "2021-06-14",
+    "primaryCompletionDate": "2021-06-14",
+    "firstSubmitDate": "2020-12-29",
+    "firstPostDate": "2020-12-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Males and females\\* aging ≥ 18 years.\n2. Documented HIV infection).\n3. Stable antiretroviral treatment for at least 2 weeks prior to enrolment.\n4. Optimal adherence to antiretroviral treatment, defined as less than 2 missed doses within the previousweek.\n5. End-stage renal disease in renal replacement therapy with periodic hemodialysis.\n6. Agree with the study procedures and signature of the informed consent. \\*Women of childbearing potential must have a negative pregnancy test prior to randomization into the study and commitment to useat least one of these birth control methods: male or female condom with or without spermicide, cap, diaphragm or sponge with orwithout spermicide, intrauterine device, bilateral tubal occlusion, vasectomized partner, sexual abstinence during the study. Condomuse is considered as an additional method of contraception only and cannot be the only method of contraception used as not beenconsidered an effective method by the Clinical Trial Facilitation Group (CTFG) guidelines.\n\nBased on ICH, M3 (R2) 2009 a woman is considered of childbearing potential: fertile, following menarche and until becoming post-menopausal unless permanently sterile. Permanent sterilization methods include tubal ligation, hysterectomy, bilateral oophorectomy.\n\nExclusion Criteria:\n\n1. Evidence or clinical suspicion that the patient will not be able to comply with the study protocol.\n2. Hypersensitivity to doravirine\n3. Concomitant therapy within the previous 4 weeks with any of the following drugs:\n\n   * Anticonvulsants: carbamazepine, oxcarbazepine, phenobarbital, phenytoin\n   * Androgen receptor inhibitor: enzalutamide\n   * Antimycobacterials: rifampin, rifapentine\n   * Cytotoxic agent: mitotane\n   * St. John's wort (Hypericum perforatum)\n4. Females who are pregnant or breastfeeding.\n5. ALT and/ or AST ≥ 4 times the upper limit of normal (ULN) at screening.\n6. Hemoglobin \\< 7,5 g/dL at screening.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentatge of Doravirine Dialysis Extraction Ratio (ER)",
+        "description": "The haemodialysis extraction ratio (ER) for doravirine was calculated as: ER(%) = ((Cin - Cout)/ Cin) × 100 where Cin is the pre-dialyser doravirine concentration (i.e. blood entering the dialyser) and Cout is the post-dialyser doravirine concentration (i.e. blood leaving the dialyser). Post-dialyser doravirine concentrations (Cout) were corrected for haemoconcentration by a factor F based on total protein (TP) concentration pre- and post-dialyser: F = TPin / TPout.",
+        "timeFrame": "At day 6"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants Developing Related Adverse Events Grade 3-4 Related to Doravirine",
+        "description": "Percentage of participants developing related adverse events grade 3 or grade 4 related to doravirine. Defining Grade 3 (severe) as symptoms causing inability to perform usual social and functional activities and Grade 4 (potentially life-threatening)as Symptoms causing inability to perform basic self-care functions or Medical or operative intervention indicated to prevent permanent impairment, persistent disability, or death.",
+        "timeFrame": "Baseline to day 20"
+      },
+      {
+        "measure": "Doravirine Concentration (mg/dl)",
+        "description": "Doravirine Concentration (mg/dl) in plasma at the end of the haemodialysis session.",
+        "timeFrame": "At day 6"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:19.274Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT01620983",
+  "briefTitle": "Knee Arthroplasty Pain Coping Skills Training (KASTPain): A Randomized Trial",
+  "officialTitle": "Knee Arthroplasty Pain Coping Skills Training (KASTPain): A Randomized Trial",
+  "protocolDocument": {
+    "nctId": "NCT01620983",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2012-07-20",
+    "uploadDate": "2018-08-14T13:45",
+    "size": 364741,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01620983/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 402,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-12",
+    "completionDate": "2018-06-30",
+    "primaryCompletionDate": "2017-06-27",
+    "firstSubmitDate": "2012-06-13",
+    "firstPostDate": "2012-06-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults 45 years and older and capable of providing informed consent\n* Diagnosis of osteoarthritis as determined by participating orthopaedic surgeons\n* Scheduled for an elective unilateral total or unicompartmental knee arthroplasty no sooner than 1 week and no later than 8 weeks from the time of recruitment\n* Score of greater than or = to 16 on the Pain Catastrophizing Scale\n* Score of greater than or = to 5 on the WOMAC Pain Scale\n* Able to read and speak English\n\nExclusion Criteria:\n\n* Scheduled for revision arthroplasty surgery\n* Underwent contralateral knee arthroplasty surgery or hip arthroplasty surgery within 6 months of currently planned surgery\n* Unable to or declines study participation\n* Self-reported diagnosis of rheumatoid arthritis, psoriatic arthritis, systemic lupus erythematosis, ankylosing spondylitis\n* Arthroplasty surgery scheduled because of fracture, malignancy or infection\n* Scheduled for bilateral arthroplasty surgery\n* Scheduled to undergo hip or knee arthroplasty within 6 months of current knee arthroplasty\n* Score of 20 or greater on the PHQ-8 depression scale\n* Score of less than 3 on the six-item cognitive screener",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "45 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) Pain Scale",
+        "description": "A self report scale that quantifies the extent of function limiting pain. The scale ranges from 0 to 20 with higher scores denoting worse activity related pain.",
+        "timeFrame": "twelve months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "WOMAC Physical Function Scale",
+        "description": "A self report scale that quantifies the extent of difficulty with everyday activity. The scale ranges from 0 to 68 with higher scores denoting greater difficulty with daily function.",
+        "timeFrame": "twelve months"
+      },
+      {
+        "measure": "0 to 10 Verbal Pain Rating Scale",
+        "description": "An 11 point verbal pain rating scale with higher scores denoting higher pain intensity.",
+        "timeFrame": "twelve months"
+      },
+      {
+        "measure": "Pain Catastrophizing Scale",
+        "description": "A scale that quantifies the extent to which a participant catastrophizes about their pain. Score range from 0 to 52 with higher scores denoting greater pain catastrophizing.",
+        "timeFrame": "twelve months"
+      },
+      {
+        "measure": "Global Rating of Change Scale",
+        "description": "11 point scale ranging from -5 to +5 with higher scores denoting a greater recovery.",
+        "timeFrame": "twelve months"
+      },
+      {
+        "measure": "Six-minute Walk Test",
+        "description": "Distance walked in six minutes.",
+        "timeFrame": "twelve months"
+      },
+      {
+        "measure": "Short Physical Performance Battery",
+        "description": "The Short Physical Performance Battery measures actual physical performance of four common daily physical activities including standing balance, single standing from a chair, repeated standing from a chair, and a 4 meter walk test. Scores range from 0 to 12 with higher scores indicating better physical performance.",
+        "timeFrame": "twelve months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:58.830Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

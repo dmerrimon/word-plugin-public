@@ -1,0 +1,132 @@
+{
+  "nctId": "NCT04900038",
+  "briefTitle": "A Clinical Trial of GSK3640254 + Dolutegravir (DTG) in Human Immunodeficiency Virus-1 Infected Treatment-naive Adults",
+  "officialTitle": "A Phase IIb, Randomized, Double-blind, Parallel-group Study to Assess the Efficacy, Safety, Tolerability, and Resistance Profile of GSK3640254 in Combination With Dolutegravir Compared to Dolutegravir Plus Lamivudine in HIV-1 Infected, Treatment-naïve Adults",
+  "protocolDocument": {
+    "nctId": "NCT04900038",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-08-11",
+    "uploadDate": "2023-11-21T09:21",
+    "size": 2333914,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04900038/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 85,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-08-18",
+    "completionDate": "2023-05-11",
+    "primaryCompletionDate": "2022-11-22",
+    "firstSubmitDate": "2021-05-19",
+    "firstPostDate": "2021-05-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Treatment-naive, defined as no anti-retrovirals (ARVs) (in combination or monotherapy) received after a known diagnosis of HIV-1 infection.\n* Documented HIV infection and Screening plasma HIV-1 RNA greater than or equal to (\\>=)1000 c/mL.\n* Screening CD4+ T-cell count \\>=250 cells per millimeter\\^3 (cells/cubic millimeter).\n* Body weight \\>=50.0 kilograms (kg) (110 pounds \\[lbs.\\]) for men and \\>=45.0 kg (99 lbs.) for women and body mass index (BMI) \\>18.5 kilograms per meter\\^2 (kg/meter square). Calculations will utilize sex assigned at birth.\n\nExclusion Criteria:\n\n* Any evidence of an active Centers for Disease Control and Prevention (CDC) Stage 3 disease \\[CDC, 2014\\], except cutaneous Kaposi's sarcoma not requiring systemic therapy.\n* Presence of primary HIV infection, evidenced by acute retroviral syndrome (example \\[e.g.\\], fever, malaise, fatigue, etc.) and/or evidence of recent (within 3 months) documented viremia without antibody production and/or evidence of recent (within 3 months) documented seroconversion.\n* Unstable liver disease (as defined by any of the following: presence of ascites, encephalopathy, coagulopathy, hypoalbuminemia, esophageal or gastric varices, or persistent jaundice or cirrhosis), known biliary abnormalities (with the exception of Gilbert's syndrome or asymptomatic gallstones or otherwise stable chronic liver disease per investigator assessment);\n* History of ongoing or clinically relevant hepatitis within the previous 6 months.\n* Any history of significant underlying psychiatric disorder.\n* Any history of major depressive disorder with or without suicidal features, or anxiety disorders, that required medical intervention (pharmacologic or not) such as hospitalization or other inpatient treatment and/or chronic (\\>6 months) outpatient treatment.\n* A pre-existing condition, in the opinion of the Investigator or Medical Monitor, that could interfere with normal gastrointestinal anatomy or motility (e.g., gastroesophageal reflux disease \\[GERD\\], gastric ulcers, gastritis, inflammatory bowel disease), hepatic and/or renal function, or with the absorption, metabolism, and/or excretion of the study interventions or render the participant unable to take oral study treatment.\n* Familial or personal history of long QT syndrome or sudden cardiac death.\n* Active treatment for a viral infection other than HIV-1, such as Hepatitis B, with an agent that is active against HIV-1 (were known to be infected with HIV-1 after treatment for Hepatitis B was completed).\n* Participants who require concomitant medications known to be associated with a prolonged corrected QT (QTc) interval.\n* Exposure to an experimental drug, human blood product, monoclonal antibody, or vaccine (which does not have emergency, conditional, or standard market authorization) within 28 days prior to the first dose of study treatment.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Plasma HIV-1 Ribonucleic Acid (RNA) Less Than (<)50 Copies Per Milliliter (c/mL) at Week 24",
+        "description": "Percentage of participants with plasma HIV-1 RNA \\<50 c/mL at Week 24 using the Food and Drug Administration (FDA) snapshot algorithm was assessed to evaluate the antiviral activity in HIV-1 infected ART (anti-retroviral therapy)-naïve participants.",
+        "timeFrame": "At Week 24"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Absolute Values of HIV-1 RNA Through Week 24",
+        "description": "Plasma samples were collected for quantitative analysis of HIV-1 RNA. Logarithm to base 10 (log 10) values for plasma HIV-1 RNA has been presented. Baseline is defined as the latest non-missing value prior to first dose of treatment according to date and time including unscheduled visits.",
+        "timeFrame": "At Baseline (Day 1) and Week 24"
+      },
+      {
+        "measure": "Change From Baseline in HIV-1 RNA Through Week 24",
+        "description": "Plasma samples were collected for quantitative analysis of HIV-1 RNA. Logarithm to base 10 (log 10) values for plasma HIV-1 RNA has been presented. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+        "timeFrame": "At Week 24 compared to baseline (Day 1)"
+      },
+      {
+        "measure": "Absolute Values of Cluster of Differentiation 4+ (CD4+) T-cell Counts Through Week 24",
+        "description": "Blood samples were collected and CD4+ cell count assessment by flow cytometry was carried out to evaluate the immunologic activity. Baseline is defined as the latest non-missing value prior to first dose of treatment according to date and time including unscheduled visits.",
+        "timeFrame": "At Baseline (Day 1) and Week 24"
+      },
+      {
+        "measure": "Change From Baseline in CD4+ T-cell Counts Through Week 24",
+        "description": "Blood samples were collected and CD4+ cell count assessment was carried out to evaluate the immunologic activity. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+        "timeFrame": "At Week 24 compared to baseline (Day 1)"
+      },
+      {
+        "measure": "Number of Participants With Serious Adverse Events (SAEs) and Deaths, up to End of Continued Access to Treatment Post-study Termination (Day 478)",
+        "description": "An SAE is defined as any serious adverse event that, at any dose results in death, is life-threatening, requires inpatient hospitalization or prolongation of existing hospitalization, results in persistent or significant disability/incapacity and is a congenital anomaly/birth defect.\n\nThe study was terminated by the sponsor after primary analysis (at week 24). Adverse event data were collected up to end of continued access to treatment post-study termination (Day 478).",
+        "timeFrame": "From Day 1 up to end of continued access to treatment post-study termination (Day 478)"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events (AEs) Leading to Discontinuation, up to End of Continued Access to Treatment Post-study Termination (Day 478)",
+        "description": "Number of participants who discontinued treatment due to AEs are presented. The study was terminated by the sponsor after primary analysis (at week 24). Adverse event data were collected up to end of continued access to treatment post-study termination (Day 478).",
+        "timeFrame": "From Day 1 up to end of continued access to treatment post-study termination (Day 478)"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events of Special Interest (AESIs), up to End of Continued Access to Treatment Post-study Termination (Day 478)",
+        "description": "AEs of special interest (AESIs) included AEs related to QT prolongation, gastrointestinal (GI) intolerability/toxicity, psychiatric events, nervous system disorders, skin and subcutaneous tissue disorders and cardiac disorders.\n\nThe study was terminated by the sponsor after primary analysis (at week 24). Adverse event data were collected up to end of continued access to treatment post-study termination (Day 478).",
+        "timeFrame": "From Day 1 up to end of continued access to treatment post-study termination (Day 478)"
+      },
+      {
+        "measure": "Number of Participants Who Develop Genotypic Resistance up to Week 24",
+        "description": "Blood samples were collected for drug resistance testing to assess the development of viral resistance to GSK3640254 through Week 24. New mutations were tabulated by drug class: integrase strand transfer inhibitor (INSTI), non-nucleoside reverse transcriptase inhibitor (NNRTI), nucleoside reverse transcriptase inhibitor (NRTI) and protease inhibitor (PI).\n\nProtocol-Defined Virologic Failure (PDVF) was defined as having virologic non-response (HIV-1 RNA \\<1.0 log10 c/mL reduction from baseline and \\<200 copies/mL by Week 12, confirmed levels \\>=200 c/mL at or after Week 24 and plasma HIV-1 RNA \\<= 50 c/mL from testing on Week 24, virologic rebound (confirmed HIV-1 RNA \\>=200 copies/mL after confirmed consecutive HIV-1 RNA \\<50 copies/mL).",
+        "timeFrame": "From Day 1 up to Week 24"
+      },
+      {
+        "measure": "Number of Participants Who Develop Phenotypic Resistance up to Week 24",
+        "description": "Blood samples were collected for drug resistance testing to assess the development of viral resistance to GSK3640254 and other on-study Anti-Retroviral Therapy (ART) in participants experiencing virologic failure through Week 24. Only plasma HIV-1 RNA values determined by the central laboratory were used to assess virologic failure. PDVF was defined as having virologic non-response (HIV-1 RNA \\<1.0 log10 c/mL reduction from baseline and \\<200 copies/mL by Week 12, confirmed levels \\>=200 c/mL at or after Week 24 and plasma HIV-1 RNA \\<= 50 c/mL from testing on Week 24, virologic rebound (confirmed HIV-1 RNA \\>=200 copies/mL after confirmed consecutive HIV-1 RNA \\<50 copies/mL).",
+        "timeFrame": "From Day 1 up to Week 24"
+      },
+      {
+        "measure": "Trough Concentration (Ctrough) of GSK3640254 at Weeks 2, 4, 8, 12 and 24",
+        "description": "Trough concentration (Ctrough) is the concentration reached by a drug immediately before the next dose is administered. This was determined to assess the steady-state exposure of GSK3640254 when given in combination with DTG.",
+        "timeFrame": "At Weeks 2, 4, 8, 12 (PRE DOSE), 12 (2-6HR POST DOSE), 24 (PRE DOSE), 24 (2-6HR POST DOSE)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:21.149Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

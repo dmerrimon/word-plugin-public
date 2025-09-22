@@ -1,0 +1,133 @@
+{
+  "nctId": "NCT05422885",
+  "briefTitle": "Safety and Feasibility of Dasatinib and Quercetin in Adults at Risk for Alzheimer's Disease",
+  "officialTitle": "Senolytics To Alleviate Mobility Issues and Neurological Impairment in Aging",
+  "protocolDocument": {
+    "nctId": "NCT05422885",
+    "filename": "Prot_ICF_000.pdf",
+    "label": "Study Protocol and Informed Consent Form",
+    "date": "2022-05-09",
+    "uploadDate": "2022-05-27T13:38",
+    "size": 1932285,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05422885/document/Prot_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": true
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-05-20",
+    "completionDate": "2024-01-24",
+    "primaryCompletionDate": "2024-01-24",
+    "firstSubmitDate": "2022-03-14",
+    "firstPostDate": "2022-06-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Men and women \\>/= 65 years\n* Ambulatory,\n* Community dwelling,\n* Slow gait speed (\\<1 m/second),\n* Mild Cognitive Impairment (Telephone MoCA score \\<21, which is indicative of cognitive impairment)\n\nExclusion Criteria, or as per clinical judgment:\n\n* Telephone MoCA score \\<10 points\n* Unwilling to take study medications or follow study protocol\n* Inability to independently perform Katz Activities of Daily Living (ADLs),\n* Allergies to Dasatinib or Quercetin,\n* Hospitalization within 6 months,\n* Unstable coronary artery disease (myocardial infarction within 6 months or angina),\n* Stroke or transient ischemic attack in the past 6 months,\n* Chronic heart failure,\n* Current or chronic history of liver disease,\n* Neurodegenerative disease including Parkinson's disease,\n* Anemia,\n* Chronic renal disease,\n* Drug or alcohol abuse in the last 5 years,\n* QTc prolongation,\n* Thrombocytopenia,\n* Neutropenia,\n* Prolonged prothrombin time or INR,\n* Indications of current fluid retention,\n* History or current diagnosis of pulmonary hypertension,\n* Inability to insonate the middle cerebral artery through a temporal bone window on at least one side using transcranial Doppler ultrasound, or\n* Chronic use of any of the following medications: anti-arrhythmic medications, antipsychotics, anxiolytics, anti-platelet or anti-coagulant medications other than aspirin, quinolone antibiotics, or drugs metabolized by the same liver enzymes as Quercetin or Dasatinib.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Neurovascular Coupling",
+        "description": "Change in cerebral blood flow during an N-back cognitive task using transcranial doppler ultrasound.",
+        "timeFrame": "Screening, 8, and 14 weeks"
+      },
+      {
+        "measure": "Executive Function",
+        "description": "Assess change in executive cognitive function using TRAILS test, corrected for response time. Higher scores indicate worse executive functioning.",
+        "timeFrame": "Baseline, 8, and 14 weeks"
+      },
+      {
+        "measure": "Gait Speed",
+        "description": "Assess change in gait speed. Performed without a distracting cognitive task.",
+        "timeFrame": "Baseline, 8, and 14 weeks"
+      },
+      {
+        "measure": "Montreal Cognitive Assessment (MoCA) Score",
+        "description": "The Montreal Cognitive Assessment evaluates global cognition. Scores range from 0-30 points, with higher scores indicating better cognition",
+        "timeFrame": "Baseline, 8, and 14 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Physical Performance",
+        "description": "Assessment of overall physical function using the short physical performance battery (SPPB) scored from 0-12, based on a composite of balance, strength, and walking speed. Higher scores indicate better mobility.",
+        "timeFrame": "Baseline, 8, and 14 weeks"
+      },
+      {
+        "measure": "Mobility",
+        "description": "Test of mobility using timed up and go test, including standing from a chair, walking, and turning.",
+        "timeFrame": "Baseline, 8, and 14 weeks"
+      },
+      {
+        "measure": "Grip Strength",
+        "description": "Measure of grip strength using a hand dynamometer.",
+        "timeFrame": "Baseline, 8, and 14 weeks"
+      },
+      {
+        "measure": "Gait Speed During Cognitive Task",
+        "description": "Measure of gait speed during a cognitive task.",
+        "timeFrame": "Baseline, 8, and 14 weeks"
+      },
+      {
+        "measure": "P16 ink4a Expression in CD3 Positive Cells",
+        "description": "Measure of P16 ink4a expression in senescent CD3 lymphocytes in the blood.",
+        "timeFrame": "Screening and 14 weeks"
+      },
+      {
+        "measure": "SASP Factors in Blood and Urine",
+        "description": "Measure of the senescence-associated biomarkers IL-1alpha picogram/mL and IL-6 picogram/mL.",
+        "timeFrame": "Screening and 14 weeks"
+      },
+      {
+        "measure": "SASP Factors in Blood and Urine",
+        "description": "Measure of the senescence-associated biomarkers MMP-9 nanograms/mL and MMP-12 nanograms/mL.",
+        "timeFrame": "Screening and 14 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:39.382Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

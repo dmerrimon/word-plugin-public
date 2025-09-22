@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03037203",
+  "briefTitle": "A 4-Week Study of the Safety, Efficacy, and Pharmacokinetics of JZP-110 [(R)-2-amino-3-phenylpropylcarbamate Hydrochloride] in Subjects With Parkinson's Disease and Excessive Sleepiness",
+  "officialTitle": "A 4-Week, Double-blind, Placebo-controlled, Randomized, Multicenter, Crossover Study of the Safety, Efficacy, and Pharmacokinetics of JZP-110 [(R)-2-amino-3-phenylpropylcarbamate Hydrochloride] in Subjects With Parkinson's Disease and Excessive Sleepiness",
+  "protocolDocument": {
+    "nctId": "NCT03037203",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-01-26",
+    "uploadDate": "2019-08-16T11:46",
+    "size": 2151637,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03037203/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 66,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-01",
+    "completionDate": "2018-08",
+    "primaryCompletionDate": "2018-08",
+    "firstSubmitDate": "2017-01-23",
+    "firstPostDate": "2017-01-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Diagnosis of idiopathic PD according to the UK PDS Brain Bank Criteria.\n2. Hoehn and Yahr stage 1, 2, or 3.\n3. Screening and Baseline ESS scores \\>11.\n\nExclusion Criteria:\n\n1. Diagnosis of other degenerative Parkinsonian syndromes (e.g., progressive supranuclear palsy, multiple system atrophy \\[MSA\\], or dementia with Lewy bodies \\[DLB\\]).\n2. Usual nightly time in bed of \\<6 hours, including the night before the Baseline visit.\n3. Untreated or inadequately treated moderate to severe OSA.\n4. Has evidence at screening of severe cognitive impairment or has cognitive impairment that in the opinion of the investigator would prevent completion of study procedures or the ability to provide informed consent.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "35 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAEs) Leading to Early Discontinuation",
+        "timeFrame": "Up to Day 35"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Epworth Sleepiness Scale (ESS) Total Score",
+        "description": "Change from Baseline ESS defined in terms of change from study baseline (prior to first dose in Period 1) to the end of each Treatment Period (Weeks 1, 2, 3, and 4).\n\nThe Epworth Sleepiness Scale (ESS) is a self-administered questionnaire with 8 questions, asking subjects how likely they would be to doze off or fall asleep in different situations. Responses range from 0 = would never doze to 3 = high chance of dozing. Higher scores represent greater severity of excessive sleepiness. The total score ranges from 0 - 24, with higher scores representing greater severity of excessive sleepiness.",
+        "timeFrame": "Baseline to Weeks 1, 2, 3, and 4"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Change From Baseline in the Mean Sleep Latency Time (in Minutes) on the Maintenance of Wakefulness Test (MWT)",
+        "description": "Change from Baseline mean sleep latency (in minutes) on the MWT defined in terms of change from study baseline (prior to first dose in Period 1) to the end of each Treatment Period (Weeks 1, 2, 3, and 4).\n\nThe MWT is the standard objective measure of an individual's ability to remain awake during the daytime in a darkened, quiet environment. MWT sleep latency ranges from 0 to 40 minutes, with higher scores indicated greater ability to stay awake.",
+        "timeFrame": "Baseline to Weeks 1, 2, 3, and 4"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 46,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:44.625Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

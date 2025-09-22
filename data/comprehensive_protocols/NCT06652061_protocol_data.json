@@ -1,0 +1,84 @@
+{
+  "nctId": "NCT06652061",
+  "briefTitle": "AI Model for Bone Mineral Density Prediction From X-Ray Images",
+  "officialTitle": "Development and Evaluation of an Artificial Intelligence Model for Bone Mineral Density Prediction From X-Ray Images",
+  "protocolDocument": {
+    "nctId": "NCT06652061",
+    "filename": "Prot_ICF_000.pdf",
+    "label": "Study Protocol and Informed Consent Form",
+    "date": "2024-06-06",
+    "uploadDate": "2024-10-18T19:11",
+    "size": 1138754,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06652061/document/Prot_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": true
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 600,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2024-09-12",
+    "completionDate": "2025-03-12",
+    "primaryCompletionDate": "2025-03-12",
+    "firstSubmitDate": "2024-10-16",
+    "firstPostDate": "2024-10-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "▪ Inclusion criteria:\n\n* Female and male patients aged 18 and above\n* Individuals willing to participate and who have provided informed consent for the use of their X-ray images and clinical data for research purposes.\n* Subjects with both X-ray images of hip and spine and DEXA scan results.\n* Accessibility to supplementary medical records that may contribute to the model's predictive accuracy, such as historical data on fractures, pregnancies, relevant medical conditions and other osteoporosis-related factors.\n* Exclusion criteria:\n\n  * Subjects for whom X-ray images or clinical data are incomplete or of insufficient quality for analysis.\n  * Individuals with medical conditions that could significantly alter bone density independently of osteoporosis, such as bone cancers or certain metabolic diseases.\n  * Subjects who have undergone treatments or procedures that might significantly impact bone density measurement, such as long-term steroid use or recent orthopaedic surgeries.\n  * Pregnant women, given the potential impact on screening results and the need for special considerations during pregnancy.\n  * Patients with implant in hip or spine",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Bone Mineral Density (BMD) - Hip and Spinal (L1-L4)",
+        "description": "Measurement of bone mineral density in the hip and spinal regions (L1-L4) as an indicator for assessing bone strength. The BMD values will be used as key metrics to train the AI model for predicting osteoporosis risk from x-ray data.",
+        "timeFrame": "Day 1"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "WHO Classification (Normal, Low Bone Mass, Osteoporosis)",
+        "description": "Classification of bone health based on BMD values into categories defined by the World Health Organization: normal, low bone mass (osteopenia), or osteoporosis. This classification will be used as an outcome metric for evaluating the patient's bone health status.",
+        "timeFrame": "Through study completion, an average of 6 months"
+      },
+      {
+        "measure": "Fracture risk assessment",
+        "description": "A fracture risk assessment tool would be used to estimate risk of having a hip or other major fracture in the next 10 years, especially in case of osteoporosis. It is based on individual patient models that integrate the risks associated with clinical risk factors as well as bone mineral density (BMD) at the femoral neck.",
+        "timeFrame": "Through study completion, an average of 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:03.197Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

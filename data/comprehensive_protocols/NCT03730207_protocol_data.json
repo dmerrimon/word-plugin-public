@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT03730207",
+  "briefTitle": "Xpede Clinical Study",
+  "officialTitle": "A Prospective, 1: 1 Randomized, Single Blind, Multi-center Human Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT03730207",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-09-17",
+    "uploadDate": "2022-09-22T01:37",
+    "size": 973479,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03730207/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 180,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-12-18",
+    "completionDate": "2021-10-14",
+    "primaryCompletionDate": "2021-10-14",
+    "firstSubmitDate": "2018-10-16",
+    "firstPostDate": "2018-11-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Subject being diagnosed as having painful pathological vertebral body fracture, who is suitable for VP/BKP procedure (1-3 levels) according to clinic practice.\n2. Subjects who are willing to participate in study through consent and willing to undergo study specific required procedures with expectancy of geographically stable for follow up duration.\n3. Subjects are at least 18 and ≤80 years old .\n\nExclusion Criteria:\n\n1. Subject has a local or systemic infection.\n2. Subject has pains caused by other spine disease than painful pathological vertebral compression fracture.\n3. Subject has a medical condition with less than 1 year of life expectancy.\n4. Subject is grossly obese, i.e. BMI≥40.\n5. Subject has medical conditions that represent contraindications for the use of bone cement by investigator's decision.\n6. Subject has an allergy or an intolerance to bone cement component.\n7. Subject has past spinal surgeries at the target level(s) for which the VP/BKP procedure is suitable.\n8. Subjects who are currently enrolled or planning to participate in a potentially confounding drug or device trial during the course of this study. Co-enrollment in concurrent trials is only allowed when document pre-approval is obtained from the Medtronic study manager and Medtronic Medical Advisor.\n9. Pregnant women or breastfeeding women, or women of child bearing potential who are not on a reliable form of birth regulation method or abstinence.\n10. Subjects with exclusion criteria required by local law (age or other).\n11. Subjects with medical condition which precludes them from participation in the opinion of the Investigator.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Change of Numerical Rating Scale (NRS) Score From Baseline at 6 Months Postoperative",
+        "description": "NRS is used for rating patient pain intensity from 0-10, with a score of 0 representing \"no pain\" and a score of 10 representing \"pain as bad as it could be.\"",
+        "timeFrame": "Baseline and 6 months"
+      },
+      {
+        "measure": "The Change of Index Vertebral Body Angle From Baseline at 6 Months",
+        "description": "Vertebral body angle is defined the angle formed by lines drawn parallel to the superior endplate of the fractured vertebral body and the inferior endplate of the fractured vertebral body for each fractured vertebral body.",
+        "timeFrame": "Baseline and 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The Change of NRS Score From Baseline at 1 Day and 3 Months",
+        "description": "NRS is used for rating patient pain intensity from 0-10, with a score of 0 representing \"no pain\" and a score of 10 representing \"pain as bad as it could be.\"",
+        "timeFrame": "Baseline, 1 day, and 3 months"
+      },
+      {
+        "measure": "The Change of Oswestry Disability Index (ODI) Score From Baseline at 1 Day, 3 Months, and 6 Months",
+        "description": "ODI Questionnaire is used to assess patient back function. The ODI score ranges from 0-100. The best score is 0 (no disability) and worst is 100 (maximum disability).",
+        "timeFrame": "Baseline, 1 day, 3 months, and 6 months"
+      },
+      {
+        "measure": "The Change of SF-36 From Baseline at 1 Day, 3 Months, and 6 Months",
+        "description": "The Medical Outcomes Study 36-Item Short Form Health Survey (SF-36) is used to assess general health status. The SF-36 results were summarized into two components, a physical component summary (PCS) and a mental component summary (MCS). The score for PCS/MCS is between 0 and 100, with higher scores denoting better quality of life.",
+        "timeFrame": "Baseline, 1 day, 3 months, and 6 months"
+      },
+      {
+        "measure": "Change in Vertebral Body Height at 1 Day, 3 Months, and 6 Months",
+        "description": "Vertebral Body Height in the lateral projection will be measured at each treated vertebra as well as the next adjacent vertebrae (superior and inferior) without fracture and reported in millimeters.\n\nVertebral Body Height is the distance between comparable points on the superior and inferior endplates of the vertebral body at the posterior (Hp), midline (Hm) and anterior (Ha) locations。",
+        "timeFrame": "1 day, 3 months, and 6 months"
+      },
+      {
+        "measure": "Change in Vertebral Body Angle From Baseline at 1 Day and 3 Months",
+        "description": "Vertebral body angle is defined the angle formed by lines drawn parallel to the superior endplate of the fractured vertebral body and the inferior endplate of the fractured vertebral body for each fractured vertebral body.",
+        "timeFrame": "Baseline, 1 day and 3 months"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events Reported Through 6 Months",
+        "description": "Adverse events reported through 6 months, in particular, the following events will be reported:\n\n* Bone Cement Implantation Syndrome;\n* Bone Cement leakage;\n* Vertebral body compression fracture;\n* Adjacent vertebral body fracture;",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:02.577Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

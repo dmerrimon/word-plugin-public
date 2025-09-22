@@ -1,0 +1,185 @@
+{
+  "nctId": "NCT03022981",
+  "briefTitle": "Study to Investigate the Safety and Efficacy of Sofosbuvir/Velpatasvir in Adolescents and Children With Chronic HCV Infection",
+  "officialTitle": "A Phase 2, Open-Label, Multicenter, Multi-cohort Study to Investigate the Safety and Efficacy of Sofosbuvir/Velpatasvir in Adolescents and Children With Chronic HCV Infection",
+  "protocolDocument": {
+    "nctId": "NCT03022981",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-06-15",
+    "uploadDate": "2020-07-14T07:24",
+    "size": 3302481,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03022981/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 216,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-01-26",
+    "completionDate": "2020-02-26",
+    "primaryCompletionDate": "2019-11-19",
+    "firstSubmitDate": "2017-01-13",
+    "firstPostDate": "2017-01-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Chronic HCV-infected, treatment-naive and treatment-experienced adolescent and pediatric individuals aged 3 to \\< 18 as determined at Day 1.\n\nNote: Other protocol defined Inclusion/Exclusion criteria may apply.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "3 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "PK Lead-in Phase: AUCtau: Area Under the Plasma Concentration Versus Time Curve Over the Dosing Interval of Velpatasvir (VEL)",
+        "description": "AUCtau is defined as concentration of drug over time (the area under the concentration versus time curve over the dosing interval).",
+        "timeFrame": "Day 7: 0 (predose), 0.5, 1, 2, 3, 4, 6 (Cohorts 1 and 2 only), 8, and 12 hours postdose"
+      },
+      {
+        "measure": "PK Lead-in Phase: AUCtau: Area Under the Plasma Concentration Versus Time Curve Over the Dosing Interval of Sofosbuvir (SOF)",
+        "description": "AUCtau is defined as concentration of drug over time (the area under the concentration versus time curve over the dosing interval).",
+        "timeFrame": "Day 7: 0 (predose), 0.5, 1, 2, 3, 4, 6 (Cohorts 1 and 2 only), 8, and 12 hours postdose"
+      },
+      {
+        "measure": "PK Lead-in Phase: AUCtau: Area Under the Plasma Concentration Versus Time Curve Over the Dosing Interval of GS-331007 (Metabolite of SOF)",
+        "description": "AUCtau is defined as concentration of drug over time (the area under the concentration verses time curve over the dosing interval).",
+        "timeFrame": "Day 7: 0 (predose), 0.5, 1, 2, 3, 4, 6 (Cohorts 1 and 2 only), 8, and 12 hours postdose"
+      },
+      {
+        "measure": "Treatment Phase: Percentage of Participants Who Discontinued Study Drug Due to Any Treatment-Emergent Adverse Event (TEAE)",
+        "description": "An AE is any untoward medical occurrence in a clinical study participant administered a medicinal product, which does not necessarily have a causal relationship with the treatment. An AE can therefore be any unfavorable and/or unintended sign, symptom, or disease temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. TEAEs were defined as 1 or both of the following: Any AEs with an onset date on or after the study drug start date and no later than 30 days after permanent discontinuation of study drug and/or Any AEs leading to premature discontinuation of study drug.",
+        "timeFrame": "From first dose through last dose of the study drug (Up to 12 weeks) plus 30 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "PK Lead-in Phase: Change From Baseline in Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) at Day 7",
+        "timeFrame": "Baseline; Day 7"
+      },
+      {
+        "measure": "PK Lead-in Phase: Percentage of Participants Who Permanently Discontinued Study Drug Due to an Adverse Event (AE)",
+        "description": "An AE is any untoward medical occurrence in a clinical study participant administered a medicinal product, which does not necessarily have a causal relationship with the treatment. An AE can therefore be any unfavorable and/or unintended sign, symptom, or disease temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product.",
+        "timeFrame": "First dose date up to Day 7"
+      },
+      {
+        "measure": "Treatment Phase: Percentage of Participants With Sustained Virologic Response (SVR) at 12 Weeks After Discontinuation of Therapy (SVR12)",
+        "description": "SVR12 was defined as HCV RNA \\< the lower limit of quantitation (LLOQ; ie, 15 IU/mL) at 12 weeks after stopping study treatment.",
+        "timeFrame": "Posttreatment Week 12"
+      },
+      {
+        "measure": "Treatment Phase: Percentage of Participants With SVR at 4 Weeks After Discontinuation of Therapy (SVR4)",
+        "description": "SVR4 was defined as HCV RNA \\< LLOQ (ie, 15 IU/mL) at 4 weeks after stopping study treatment.",
+        "timeFrame": "Posttreatment Week 4"
+      },
+      {
+        "measure": "Treatment Phase: Percentage of Participants With SVR at 24 Weeks After Discontinuation of Therapy (SVR24)",
+        "description": "SVR 24 was defined as HCV RNA \\< LLOQ (ie, 15 IU/mL) at 24 weeks after stopping study treatment.",
+        "timeFrame": "Posttreatment Week 24"
+      },
+      {
+        "measure": "Treatment Phase: Percentage of Participants With Virologic Failure",
+        "description": "Virologic failure was defined as: On-treatment virologic failure - Breakthrough (confirmed HCV RNA ≥ LLOQ after having previously had HCV RNA \\< LLOQ while on treatment), or Rebound (confirmed \\> 1 log10 IU/mL increase in HCV RNA from nadir while on treatment), or Non-response (HCV RNA persistently ≥ LLOQ through 8 weeks of treatment); Virologic relapse: Confirmed HCV RNA ≥ LLOQ during the posttreatment period having achieved HCV RNA \\< LLOQ at last on-treatment visit.",
+        "timeFrame": "Up to Posttreatment Week 24"
+      },
+      {
+        "measure": "Treatment Phase: Percentage of Participants With HCV RNA < LLOQ On Treatment",
+        "description": "Percentage of participants with HCV RNA \\< LLOQ while on treatment by analysis visit.",
+        "timeFrame": "Weeks 1, 4, 8, and 12"
+      },
+      {
+        "measure": "Treatment Phase: Percentage of Participants Who Develop Viral Resistance to SOF and/or VEL During Treatment and After Discontinuation of Treatment",
+        "description": "Drug-resistant substitutions were analyzed as part of the Virology Study. Plasma samples were collected and stored for potential HCV sequencing. Impact on the treatment outcomes of SVR12 and SVR24 were observed during the study. Baseline deep sequencing of the HCV nonstructural protein (NS)5A and NS5B genes was performed for all participants at the first time point after virologic failure if the plasma or serum sample was available. Pretreatment full-length NS5A deep sequencing data were obtained at a 15% assay cutoff for the Resistance Analysis Population which covered all NS5A and NS5B nucleoside inhibitor (NI) resistance-associated variants (RAVs).",
+        "timeFrame": "First dose date up to Posttreatment Week 24"
+      },
+      {
+        "measure": "Treatment Phase: Change From Baseline in HCV RNA at Weeks 1, 4, 8, and 12",
+        "timeFrame": "Baseline; Weeks 1, 4, 8, and 12"
+      },
+      {
+        "measure": "Treatment Phase: Quality of Life (QoL) and Neuropsychiatric Assessments as Measured by PedsQL™ Pediatric QoL Survey",
+        "description": "To evaluate the effect of treatment with SOF/VEL on general and disease-specific health-related QoL, the PedsQL™ Pediatric QoL Inventory V4.0 Short Form (SF15) was completed at Day 1, end of treatment, early termination (if applicable), and posttreatment Weeks 12 and 24. The SF15 questionnaire represented 4 domains: physical, emotional, social, and school functioning, with the emotional, social, and school functioning domains representing the psychosocial health summary. Neuropsychiatric assessment was conducted using the PedsQL™ Pediatric QoL Inventory V4.0 SF15 psychosocial domain-related scores. Items were calculated and transformed into an overall score with a range of 0 to 100 points, with more points indicating better QoL.",
+        "timeFrame": "Baseline; Week 12, End of Treatment (EOT), Posttreatment/Follow-up (FU) Week-12 (FU-12), and FU Week-24 (FU-24)"
+      },
+      {
+        "measure": "Treatment Phase: Change From Baseline in Growth and Development as Measured by Height Percentiles",
+        "description": "An age- and sex-specific percentile was derived for each weight, height, and body mass index (BMI) measurement according to the statistical analysis system (SAS) program available on the Centers for Disease Control and Prevention (CDC) website using the year 2000 growth charts.",
+        "timeFrame": "Baseline; Weeks 1, 4, 8, 12, Follow-up (FU) Week 4 (FU-4), FU-12, and FU-24"
+      },
+      {
+        "measure": "Treatment Phase: Change From Baseline in Growth and Development as Measured by Weight Percentiles",
+        "description": "An age- and sex-specific percentile was derived for each weight, height, and BMI measurement according to the SAS program available on the CDC website using the year 2000 growth charts.",
+        "timeFrame": "Baseline; Weeks 1, 4, 8, 12, FU-4, FU-12, and FU-24"
+      },
+      {
+        "measure": "Treatment Phase: Changes in Growth and Development as Measured by Tanner Stage Assessment From Baseline",
+        "description": "Tanner Pubertal Staging was assessed for pubic hair growth and genitalia development (males) and for pubic hair growth and breast development (females) in stages 1 to 5. Tanner stages were used to evaluate the onset and progression of pubertal changes from stage 1 (pre-pubertal) to stage 5 (adult). If a participant had reached Tanner stage 5, no further Tanner pubertal stage assessments were to be completed. Pubic hair growth: Tanner stages (1: No hair, 2: Downy hair, 3: More coarse and curly hair, 4: Adult-like hair quality; 5: Hair extends to the medial surface of the thighs); Breast development: Tanner stages (1: No glandular tissue, 2: Breast bud forms,3: More elevated, outside areola, 4: Increased breast size,5: Final adult-size breasts); Genitalia development: Tanner stages (1: Testes, scrotum, and penis about same size, 2: Enlargement of scrotum, testes and penis, 3: Enlargement of penis, 4: Penis size enlargement, 5: Genitalia adult in size and shape).",
+        "timeFrame": "Baseline; EOT, FU-12 and FU-24"
+      },
+      {
+        "measure": "Treatment Phase: Growth and Development as Measured by Parental Height",
+        "description": "Mid-parental height was calculated as the average of the biological father's and mother's heights. For boys, the sex-adjusted mid-parental height was calculated by adding 2.5 inches or 6.5 cm to the mean of the parents' heights. For girls, 2.5 inches or 6.5 cm was subtracted from the mean of the parents' heights.",
+        "timeFrame": "Day 1"
+      },
+      {
+        "measure": "Treatment Phase: Change From Baseline in Growth and Development as Measured by Bone Age",
+        "description": "Bone age was determined based on x-ray of the left wrist, hand, and fingers. Baseline value is the last available value on or prior to first dose date of study drug.",
+        "timeFrame": "Baseline; FU-24"
+      },
+      {
+        "measure": "Treatment Phase: Swallowability of SOF/VEL as Assessed by the Participant's Ability to Swallow SOF/VEL Placebo Tablets at Baseline",
+        "description": "A SOF/VEL FDC swallowability assessment was performed using placebo tablets at baseline.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Treatment Phase: Number of Participants With Acceptability of SOF/VEL as Measured by a Questionnaire to Assess Acceptability, Including Palatability at Day 1",
+        "description": "Acceptability was assessed by numeric response marked on line between numbers 0 - 100. Higher scores indicate better acceptability and/or palatability.",
+        "timeFrame": "Day 1"
+      },
+      {
+        "measure": "Treatment Phase: Number of Participants With Acceptability of SOF/VEL as Measured by a Questionnaire to Assess Acceptability, Including Palatability at Week 12",
+        "description": "Acceptability was assessed by numeric response marked on line between numbers 0 - 100. Higher scores indicate better acceptability and/or palatability.",
+        "timeFrame": "Week 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 18,
+      "otherCount": 0,
+      "totalCount": 22
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:26.069Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04549259",
+  "briefTitle": "Multi-Component Intervention to Improve Health Outcomes and Quality of Life Among Rural Older Adults Living With HIV",
+  "officialTitle": "Testing a Multi-Component Intervention to Improve Health Outcomes and Quality of Life Among Rural Older Adults Living With HIV",
+  "protocolDocument": {
+    "nctId": "NCT04549259",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-05-23",
+    "uploadDate": "2023-05-23T10:51",
+    "size": 196172,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04549259/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 61,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-04-14",
+    "completionDate": "2022-05-09",
+    "primaryCompletionDate": "2022-05-09",
+    "firstSubmitDate": "2020-09-01",
+    "firstPostDate": "2020-09-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 50 years or greater\n* Living in a zip code classified as a \"Small and Isolated Small Rural Town\" area by Rural-Urban Commuting Area Codes (RUCAs), and/or in a county classified as rural based on RUCAs, and/or in a county with a score of .4 or higher on the index of relative rurality (IRR)\n* Living in Alabama, Arkansas, Georgia, Kentucky, Mississippi, Missouri, Oklahoma, South Carolina, or Tennessee\n* Living with HIV\n* Indicates willingness to participate in support groups\n* Indicates willingness to self-collect a dried blood spot sample\n* Has a telephone at home\n* Able to provide informed consent\n\nExclusion Criteria:\n\n* Not meeting eligibility criteria described above",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Participants With HIV Viral Load ≥832 Copies/mL (HemaSpot DBS)",
+        "description": "Proportion of participants with HIV viral load ≥832 copies/mL, as measured through use of HemaSpot dried blood spot (DBS) testing. At baseline and follow-up, participants were sent dried blood spot (DBS) kits by mail to complete self-collection of blood samples for HIV viral load testing. Following specimen collection, participants placed the filled HemaSpot container into the shipping envelope, which sent the specimen directly to the clinical laboratory for testing. HemaSpot devices with sufficient blood volume were tested using Abbott m2000 RealTime HIV-1 dried blood spot (DBS) quantitative assay, with 832 copies/mL limit of detection. DBS viral load results were classified in three categories: 1. Detected and quantifiable at ≥832 copies/mL; 2. Detected and non-quantifiable, estimated between \\<832 and \\>300 copies/mL; and 3. Not detected, estimated to be \\<300 copies/mL.",
+        "timeFrame": "3 months following enrollment/baseline survey"
+      },
+      {
+        "measure": "Health-Related Quality of Life",
+        "description": "Based on full scale scores from the 31-item WHOQOL-HIV BREF (O'Connell \\& Skevington, 2012), with scores ranging from 0 to 100. Higher scores indicate higher (better) quality of life.\n\nQuality of life was assessed with 31 items from the WHOQOL-HIV BREF (O'Connell \\& Skevington, 2012). Domains assessed include physical health; psychological health; level of independence; social relationships; environmental health; and personal beliefs. Additionally, two individual items focus on overall quality of life and general health. Domain scores were created as described by the WHO, and we created a composite quality of life score by equally weighting the 6 domains, overall quality of life item, and general health item. The composite score was rescaled such that overall scores ranged from 0 to 100, with higher scores indicating better health-related quality of life.",
+        "timeFrame": "3 months following enrollment/baseline survey"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Medication Adherence",
+        "description": "Adherence to HIV antiretroviral medications in the past 30 days was assessed with the 3 items from the Wilson adherence scale (Wilson et al., 2017; αs = .71-.79). This scale was scored in line with Wilson et al., with scores ranging from 0 to 100 and higher scores indicating better adherence. Due to significant skew in this outcome, we created a binary variable indicating perfect adherence to HIV medications.",
+        "timeFrame": "3 months following enrollment/baseline survey"
+      },
+      {
+        "measure": "Depressive Symptoms",
+        "description": "Depressive symptoms during the past 2 weeks were assessed with the 9 items from the Patient Health Questionnaire-9 (PHQ-9; Kroenke et al., 2001; αs = .87-.90). Participants indicated how often they had experienced different depressive symptoms (e.g., \"Feeling down, depressed, or hopeless\"). Responses ranged from not at all (0) to nearly every day (3). Items were summed to yield scores ranging from 0 to 27, with higher scores indicating more depressive symptoms.",
+        "timeFrame": "3 months following enrollment/baseline survey"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:21.771Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

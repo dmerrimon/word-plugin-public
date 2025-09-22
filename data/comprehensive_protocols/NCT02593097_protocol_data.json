@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT02593097",
+  "briefTitle": "Metformin for the Prevention of Episodic Migraine (MPEM)",
+  "officialTitle": "Metformin for the Prevention of Episodic Migraine: a Randomized, Double-blind, Placebo-controlled, Crossover Study",
+  "protocolDocument": {
+    "nctId": "NCT02593097",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-01-12",
+    "uploadDate": "2020-05-14T10:55",
+    "size": 540411,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02593097/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 34,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-02",
+    "completionDate": "2019-06",
+    "primaryCompletionDate": "2019-06",
+    "firstSubmitDate": "2015-10-28",
+    "firstPostDate": "2015-10-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. age 18-65 years\n2. a diagnosis of migraine with or without aura for \\>1 year according to the International Classification of Headache Disorders-IIIb\n\nExclusion Criteria:\n\n1. a diagnosis of diabetes mellitus or polycystic ovarian syndrome\n2. overuse of acute migraine treatments\n3. failure to respond to 3 or more classes of preventive drug treatments\n4. change in dose of migraine-preventive medication within 2 months of beginning the baseline diary phase\n5. significant somatic or psychiatric disease\n6. known alcohol or other substance abuse\n7. pregnant or breastfeeding.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Headache Days",
+        "description": "Total number of moderate and severe headache days",
+        "timeFrame": "Baseline through end of study for a total of approximately 32 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Greater Than >50% Reduction in Migraine Days on Metformin",
+        "description": "Percentage of patients whose migraines reduced by at least 50% on Metformin.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Adverse Events",
+        "description": "Total number of subjects with treatment-related adverse events",
+        "timeFrame": "Baseline through end of study for a total of approximately 32 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:53.524Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT07178379",
+  "briefTitle": "Hysteroscopy Anesthesia for Relief of Pain",
+  "officialTitle": "HARP Trial: Hysteroscopy Anesthesia for Relief of Pain",
+  "protocolDocument": {
+    "nctId": "NCT07178379",
+    "filename": "Prot_ICF_000.pdf",
+    "label": "Study Protocol and Informed Consent Form",
+    "date": "2025-09-08",
+    "uploadDate": "2025-09-10T06:03",
+    "size": 436768,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07178379/document/Prot_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 70,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-09-06",
+    "completionDate": "2025-12-31",
+    "primaryCompletionDate": "2025-10-31",
+    "firstSubmitDate": "2025-08-02",
+    "firstPostDate": "2025-09-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria\n\n* Age ≥ 18 years: To ensure that participants are legal adults and able to provide informed consent.\n* Indication for office-based diagnostic hysteroscopy: The patient must be scheduled for a diagnostic hysteroscopy, either for uterine cavity evaluation or diagnostic purposes.\n* Simple procedures like uterine polypectomies involving 1, 2, or more than 3 polyps or endometrial biopsy\n* No previous hysteroscopies\n\nExclusion Criteria\n\n* Age \\< 18 years\n* Known allergy to any local anesthetic\n* General contraindications to hysteroscopy including pregnancy (established via interview, last menstrual period, contraceptive use, or pregnancy test), active infection (e.g., pyometra or recent pelvic inflammatory disease), recent uterine perforation, etc.\n* Complex procedures like myomectomy with morcellator\n* Failure to access the uterine cavity\n* Anatomic conditions preventing cavity access\n* Excessive procedure duration or fluid use (fluid deficit \\> 1000 cc)\n* Known uterine malformations\n* Waiting times exceeding 60 minutes\n* Use of analgesic medication prior to the procedure\n* Major complications related to the procedure including uterine perforation, creation of a false passage, or significant bleeding requiring interventions beyond standard care.\n* Incomplete delivery of informed consent or failure to complete the pre-procedure anxiety questionnaire.",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pain intensity during hysteroscopy",
+        "description": "Pain will be measured using a 10-point Visual Analog Scale (VAS) immediately after the procedure. Patients will be asked to rate the maximum pain experienced during the hysteroscopy.\n\nMeasure Type: Continuous (VAS score 0-10) Unit of Measure: Points on VAS scale Method of Aggregation: Mean (± SD) Statistical Analysis Plan: Comparison between groups using Student's t-test or Mann-Whitney U test depending on normality.",
+        "timeFrame": "Immediately after the procedure"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Need for post-procedure analgesia",
+        "description": "Whether patients required any analgesic medication after the hysteroscopy, and what type.\n\nMeasure Type: Binary (Yes/No), plus qualitative record of analgesic used Unit of Measure: Proportion of patients (%)",
+        "timeFrame": "Within 30 minutes post-procedure"
+      },
+      {
+        "measure": "Procedure-related complications",
+        "description": "Description:\n\nRecording of any intraoperative or immediate postoperative complications (e.g., vasovagal episodes, perforation, bleeding).\n\nMeasure Type: Binary (Yes/No), with qualitative subtype Unit of Measure: Number of events",
+        "timeFrame": "During and immediately after the procedure"
+      },
+      {
+        "measure": "Indication for surgical hysteroscopy due to intolerable pain",
+        "description": "Description:\n\nWhether the patient had to be referred for surgical hysteroscopy under anesthesia due to failure or intolerance of office hysteroscopy.\n\nMeasure Type: Binary (Yes/No) Unit of Measure: Number of cases",
+        "timeFrame": "Immediately post-procedure"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 50,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04347993",
+  "briefTitle": "A Prospective \"Universal\" Observational Database for COVID-19",
+  "officialTitle": "Real World Observational Database for COVID-19 Treatment and Outcomes",
+  "protocolDocument": {
+    "nctId": "NCT04347993",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-10-02",
+    "uploadDate": "2022-10-11T09:18",
+    "size": 333218,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04347993/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 4588,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-03-27",
+    "completionDate": "2023-06-12",
+    "primaryCompletionDate": "2022-06-12",
+    "firstSubmitDate": "2020-04-13",
+    "firstPostDate": "2020-04-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Confirmed or suspected COVID-19\n* Data available via the EPIC system\n* NO age restriction\n* NO pregnancy restrictions\n\nExclusion Criteria:\n\n* Patients on a clinical trial in which the treatment is blinded may be included in the database, however the study medication or treatment will be noted as \"experimental\" and not reported individually. NO efforts to \"break\" randomization or blinding will be permitted\n* Patients may refuse to be tracked in the database and/or participate in this observational study. Given the lack of active \"study\" procedures in this observational database, formal informed consent is not required",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Need for Hospitalization",
+        "description": "Number of Participants needing hospitalization",
+        "timeFrame": "1 Year"
+      },
+      {
+        "measure": "Duration of Hospitalization",
+        "description": "The duration of hospitalization is defined as the time in days from the first day of hospitalized to the date of discharge or death. Patients who are not discharged, are alive and still in the hospital on the date of closing follow-up, or lost follow-up on the date of closing follow-up will be considered censored on that date.",
+        "timeFrame": "1 Year"
+      },
+      {
+        "measure": "Need for ICU/Ventilator Support",
+        "description": "Rate of ICU/Ventilator Support",
+        "timeFrame": "1 Year"
+      },
+      {
+        "measure": "Duration of Ventilator Support",
+        "description": "The duration of Ventilator Support is defined as the time in days from the first day of using mechanical ventilation to the last day of using mechanical ventilation. All evaluable patients will be included and no censoring for this analysis.",
+        "timeFrame": "1 Year"
+      },
+      {
+        "measure": "Overall Survival Rate",
+        "description": "Overall survival will be defined as rate of patients alive at end of follow up",
+        "timeFrame": "1 Year"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.430Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

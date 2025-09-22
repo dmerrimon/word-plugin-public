@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT01793142",
+  "briefTitle": "Post Marketing Surveillance For General Drug Use To Assess the Safety And Efficacy Profile Of Viviant In Usual Practice",
+  "officialTitle": "Post Marketing Surveillance For General Drug Use To Assess The Safety And Efficacy Profile Of Viviant In Usual Practice.",
+  "protocolDocument": {
+    "nctId": "NCT01793142",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-06-22",
+    "uploadDate": "2018-05-31T09:37",
+    "size": 819246,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01793142/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 3430,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-10-24",
+    "completionDate": "2017-05-31",
+    "primaryCompletionDate": "2017-05-31",
+    "firstSubmitDate": "2013-02-13",
+    "firstPostDate": "2013-02-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Postmenopausal osteoporosis and osteopenia patients\n\nExclusion Criteria:\n\n* Patients with active or past history of venous thromboembolic events including deep vein thrombosis,\n* Patients with pulmonary embolism and retinal vein thrombosis",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Treatment-Emergent Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+        "description": "An AE was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. An SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent are events between first dose of study drug and up to 28 days after last dose of Viviant 20 mg tablet, that were absent before treatment or that worsened relative to pre-treatment state. AEs included both serious and non-serious adverse events.",
+        "timeFrame": "Baseline, up to 28 days after last dose of Viviant 20 mg (up to 6 months)"
+      },
+      {
+        "measure": "Number of Participants With Treatment Related Adverse Drug Reactions (ADRs), Serious ADRs, and Unexpected ADRs",
+        "description": "An AE was any untoward medical occurrence in a participant who received study drug. An SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. AEs included both serious and non-serious AEs. All AEs, except for those with causal relationship to the study drug assessed as \"unlikely\" or \"no\", were considered as ADRs. Unexpected AEs/ADRs were classified by medical review with reference to the local product document and confirmed by Pfizer. Treatment related ADRs included all ADRs with causality related to treatment as judged by the investigator.",
+        "timeFrame": "Baseline up to 28 days after last dose of Viviant 20 mg (up to 6 months)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Efficacy Evaluation of Viviant 20 mg Tablet",
+        "description": "Efficacy evaluation of Viviant 20 mg tablet was carried out on the basis of the assessment of clinical response by the treating physician. Clinical response among participants were assessed by the physician as improved, no change, worsened and unevaluable for efficacy.",
+        "timeFrame": "Baseline up to 3 months"
+      },
+      {
+        "measure": "Number of Participants With Osteoporosis Related Fractures",
+        "timeFrame": "Baseline up to 3 months"
+      },
+      {
+        "measure": "Number of Participants With Abnormal Dual Energy X-Ray Absorptiometry (DXA)",
+        "description": "DXA is established standard for measuring bone mineral density. Criteria for abnormality was based on investigator's discretion.",
+        "timeFrame": "Baseline up to 3 months"
+      },
+      {
+        "measure": "Number of Participants With Abnormal X-ray Result",
+        "description": "Criteria for abnormality was based on investigator's discretion.",
+        "timeFrame": "Baseline up to 3 months"
+      },
+      {
+        "measure": "Number of Participants With Abnormal Bone Mineral Density Result",
+        "description": "A bone mineral density test examines segments of bone through X-rays to detect osteoporosis. Criteria for abnormality was based on investigator's discretion.",
+        "timeFrame": "Baseline up to 3 months"
+      },
+      {
+        "measure": "Number of Participants With Abnormal Biochemical Markers of Bone Turnover",
+        "description": "In this study biochemical markers of bone turnover included C-telopeptide of collagen cross links (CTX), osteocalcin and bone specific alkaline phosphatase. Criteria for abnormality was based on investigator's discretion.",
+        "timeFrame": "Baseline up to 3 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:04.634Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

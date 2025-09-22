@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT03098563",
+  "briefTitle": "Maximizing Analgesia to Reduce Pain in Knee Osteoarthritis",
+  "officialTitle": "Maximizing Analgesia to Reduce Pain Sensitivity in Chronic Knee Osteoarthritis Pain Patients",
+  "protocolDocument": {
+    "nctId": "NCT03098563",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-08-17",
+    "uploadDate": "2024-11-12T14:55",
+    "size": 286231,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03098563/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 58,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-11-01",
+    "completionDate": "2023-11-27",
+    "primaryCompletionDate": "2023-11-17",
+    "firstSubmitDate": "2017-03-17",
+    "firstPostDate": "2017-04-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosis of knee osteoarthritis\n* Urine sample tests negative for common illicit substances of abuse (e.g., cannabis)\n* Medically cleared to take study medications\n* Are not pregnant or breast feeding\n* Willing to comply with the study protocol.\n\nExclusion Criteria:\n\n* Pain other than Knee Osteoarthritis\n* Taking opioids for pain\n* Prescribed and taking gabapentinoid, Tricyclic Antidepressants (TCA), venlafaxine, duloxetine, stimulants or benzodiazepines\n* Presence of any clinically significant medical/psychiatric illness judged by the investigators to put subject at elevated risk for experiencing an adverse event\n* Known allergy to the blinded study medications",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "45 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Largest Change From Baseline on Clinical Pain Rating",
+        "description": "The study will measure whether blinded study medications change clinical pain ratings (0-100 pain rating scale). Higher score indicates worse outcome. Biggest difference from baseline over the entire session is reported.",
+        "timeFrame": "8 hour study session"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:57.579Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

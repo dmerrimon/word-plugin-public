@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT05074303",
+  "briefTitle": "Beta-glucan and Immune Response to Influenza Vaccine",
+  "officialTitle": "Yeast-derived Beta-glucan Supplementation on Antibody Response Following Influenza Vaccination: A Randomized, Placebo-controlled Study (M-Unity)",
+  "protocolDocument": {
+    "nctId": "NCT05074303",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-11-21",
+    "uploadDate": "2025-02-21T12:04",
+    "size": 260874,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05074303/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 78,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-07-18",
+    "completionDate": "2024-08-28",
+    "primaryCompletionDate": "2024-03-01",
+    "firstSubmitDate": "2021-09-29",
+    "firstPostDate": "2021-10-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Adult volunteers ≥ 50 years of age.\n2. Planning to be vaccinated for influenza\n3. Have been immunized for COVID-19\n4. Willing and able to provide written informed consent in English.\n5. Willing and able to comply with all the study-related procedures, including attending to study visits for blood draw, taking the influenza vaccine, intake of the study supplement, and completing study questionnaires.\n\nExclusion Criteria:\n\n1. Demonstrate an inability to comply with the study-related procedures.\n2. Have a history of a severe reaction or hypersensitivity following vaccination with influenza vaccine, vaccination with any other vaccine containing the same substances, or intake of the study product.\n3. Have an immune system alteration because of an underlying illness (e.g., autoimmune disease) or immune-suppressing treatment (e.g., steroids (last 30 days); cytotoxic drugs, medical surgery, or radiation therapy during the 6 months, previous to enrollment).\n4. Be concurrently participating in a clinical trial that, in the judgement of the investigator, would interfere with the evaluation of the study outcomes.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Antibody Titer",
+        "description": "Change in influenza-specific antibody influenza A titer to the influenza vaccine after beta-glucan supplementation. Titer from 0 to 1024; higher titer indicates stronger immune response.",
+        "timeFrame": "42 days (Day 14 and Day 42)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Inflammatory Cytokine Profile",
+        "description": "Change in TNF-α, IL-1β, IL-6, IL-8, MIP-1α and IFN-γ",
+        "timeFrame": "42 days (Day 1, Day 14, Day 15, and Day 42)"
+      },
+      {
+        "measure": "Incidence of Influenza and Covid-19",
+        "description": "Self-reported incidence of influenza and Covid-19",
+        "timeFrame": "42 days"
+      },
+      {
+        "measure": "Fever",
+        "description": "Number of subjects with self-reported fever",
+        "timeFrame": "42 days"
+      },
+      {
+        "measure": "Cold and Flu Symptoms",
+        "description": "Number of subjects with cold and flu symptoms using Modified Jackson Criteria",
+        "timeFrame": "42 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:33.976Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

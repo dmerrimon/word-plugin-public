@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT02280252",
+  "briefTitle": "Study of Concurrent Paclitaxel and Radiation: Correlation of Tumor Profiles With Pathologic Response",
+  "officialTitle": "Response, Resistance and Metastasis of Locally Advanced Breast Cancer (LABC, Stage 2B-3C) in a Multiethnic Cohort: A Phase II International Multicentric Study of Concurrent Paclitaxel and Radiation",
+  "protocolDocument": {
+    "nctId": "NCT02280252",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-02-03",
+    "uploadDate": "2020-10-19T14:13",
+    "size": 622040,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02280252/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 69,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2005-03",
+    "completionDate": "2018-12-20",
+    "primaryCompletionDate": "2018-12-20",
+    "firstSubmitDate": "2014-10-08",
+    "firstPostDate": "2014-10-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Biopsy proven locally-advanced breast cancer: IIB, IIIA, and IIIB\n* Metastatic breast cancer: limited to the subset of patients with intact breast, locally advanced tumor and involved ipsilateral supraclavicular nodes\n* Measureable disease required\n* Adequate laboratory values:\n\nHgb \\> 10 ANC \\> 1500 Platelets \\> 150,000 Creatinine \\< 1.5 Liver function \\< 3x normal\n\n* Patient ≥ 18 years of age\n* Medically and psychologically able to comply with all study requirements\n* ECOG performance score 0-1\n* CT chest, abdomen, and pelvis performed\n* Mammogram or USG performed\n* Signed informed consent\n\nExclusion Criteria:\n\n* Breast cancer patients with Stage 0, Stage I, or Stage IIA\n* Previous XRT or chemotherapy\n* Presence of distant metastases documented clinically or radiographically with the exception of ipsilateral supraclavicular nodes\n* Pregnancy\n* Inflammatory breast cancer\n* Patients under treatment (or who will have recently been treated) with anti-neoplastic, immunosuppressive or hormonal medications\n* Patients who are found to have a cancer positive for the marker HER-2/neu (applies only to NYU Tisch and Bellevue sites)",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Test the Clinical Effectiveness of Concurrent Paclitaxel and Radiation in a Multiethnic Cohort",
+        "description": "Test the effectiveness of concurrent paclitaxel and radiation in a prospective multiethnic cohort of patients with newly diagnosed stage 2B-3C breast cancer treated at three international academic centers under uniform conditions. Local recurrence, regional recurrence and overall survival will be measured",
+        "timeFrame": "4.5 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Measure the Pathological Response Rate of Concurrent Paclitaxel-radiation",
+        "description": "Measure the pathological response rate to concurrent paclitaxel-radiation at each collaborating institution and compare it to that achieved in a previous Phase I-II trial",
+        "timeFrame": "4.5 years"
+      },
+      {
+        "measure": "Perform Molecular Biology and Genomic Studies of Obtained Core Biopsies to Identify Biomarkers for Predisposition to Breast Cancer",
+        "description": "Obtain core biopsies of the original tumor before and after treatment (from the surgical specimen) for molecular biology and genomic studies of biomarkers and genetic anomalies that may signal a population's predisposition to breast cancer and/or susceptibility to study intervention",
+        "timeFrame": "4.5 years"
+      },
+      {
+        "measure": "Patient Demographics",
+        "description": "Acquire descriptive information on patient epidemiological, cultural and behavioral characteristics",
+        "timeFrame": "4.5 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:55.625Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,84 @@
+{
+  "nctId": "NCT03478254",
+  "briefTitle": "Adherence to Guidelines VAccination in Type 1 DIabetes Mellitus Patients (AVADI-1).",
+  "officialTitle": "Adherence to Guidelines for Influenza, Pneumococcal and Hepatitis B Vaccination in Adult Patients With Type 1 Diabetes Mellitus (AVADI-1).",
+  "protocolDocument": {
+    "nctId": "NCT03478254",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-07-15",
+    "uploadDate": "2020-07-14T11:40",
+    "size": 120233,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03478254/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 300,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-12-01",
+    "completionDate": "2018-12-31",
+    "primaryCompletionDate": "2018-12-01",
+    "firstSubmitDate": "2018-03-20",
+    "firstPostDate": "2018-03-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* ≥18 years of age.\n* Diagnosed of Type 1 Diabetes Mellitus.\n* Be attended in Ciudad Real General University Hospital.\n\nExclusion Criteria:\n\n* Less than 18 years old.\n* Other types of diabetes mellitus.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adherence to Regional Guidelines for the Immunization of Adults With Type 1 Diabetes Mellitus (T1DM",
+        "description": "Adherence to Influenza, Pneumococcal and Hepatitis B Vaccination in adult patients with type 1 Diabetes mellitus.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Patient Age According to Vaccination Status",
+        "description": "Age (years)",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Number of Participants Who Have Taken Related Sick Leaves",
+        "description": "Number of patients who have taken related sick leaves.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:32.732Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,163 @@
+{
+  "nctId": "NCT03221387",
+  "briefTitle": "Sleep and Daytime Use of Humidified Nasal High-flow Oxygen in COPD Outpatients",
+  "officialTitle": "Feasibility of Using Daily Home HNHF-O2 During Sleep and/or Daytime in Hypercapnic COPD Patients Following Recent (&lt 12 Wks.) Hospitalization for AECOPD for 90 Days",
+  "protocolDocument": {
+    "nctId": "NCT03221387",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-10-06",
+    "uploadDate": "2021-04-12T14:38",
+    "size": 717867,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03221387/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-09-10",
+    "completionDate": "2019-12-15",
+    "primaryCompletionDate": "2019-12-15",
+    "firstSubmitDate": "2017-07-13",
+    "firstPostDate": "2017-07-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* admitted to the hospital for an acute exacerbation of COPD within the past 12 weeks\n* have COPD as the primary diagnosis\n* have smoked \\> 10 pack years.\n* receiving supplemental oxygen as part of their usual clinical care.\n* willing to give informed consent\n\nExclusion Criteria:\n\n* upper airway or nasal problems that prohibit the use of high flow oxygen\n* current use (≤ 4 weeks of study entry) of any PAP-therapy (e.g., CPAP or NPPV)\n* sleep apnea as follows: STOPBang scores ≥ 5 or STOPBang score ≥ 2 plus BMI \\> 35 kg/m2; or Berlin questionnaire scores suggesting high likelihood of sleep apnea with increased risk of sleep-related accident (e.g., occupation as a commercial driver or pilot);\n* excessive daytime sleepiness (i.e., either of High (\\>15) score on the Epworth Sleepiness Scale or \"fall asleep\" accident or \"near miss\" accident in prior 12 months).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Use of Oxygen Therapy by HNHF-O2 at Home",
+        "description": "Number of hours of use of the device per day as recorded on the device",
+        "timeFrame": "90 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Spirometry",
+        "description": "Change in FEV1",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "Change in 6 Minute Walk Distance",
+        "description": "Total distance walked in 6 minutes",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "Breathlessness",
+        "description": "Borg dyspnea scale Minimum value =0; Maximum value = 10 Higher scores mean greater shortness of breath",
+        "timeFrame": "90 days"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Sputum Quantity",
+        "description": "Volume of sputum",
+        "timeFrame": "Measured daily for 90 days"
+      },
+      {
+        "measure": "Sputum Consistency",
+        "description": "Watery, thin, thick, none, no report made",
+        "timeFrame": "Measured daily for 90 days"
+      },
+      {
+        "measure": "Sputum Color",
+        "description": "Clear, yellow, brown, white, none",
+        "timeFrame": "Measured daily for 90 days"
+      },
+      {
+        "measure": "Peak Flow",
+        "description": "liters/minute",
+        "timeFrame": "Measured daily for 90 days"
+      },
+      {
+        "measure": "Body Temperature > 100 Degrees F",
+        "description": "Yes/no Subjects recorded body temperature via thermometer",
+        "timeFrame": "Measured daily for 90 days"
+      },
+      {
+        "measure": "Presence of Cough",
+        "description": "Yes/no",
+        "timeFrame": "Measured daily for 90 days"
+      },
+      {
+        "measure": "Presence of Wheeze",
+        "description": "Yes/no",
+        "timeFrame": "Measured daily for 90 days"
+      },
+      {
+        "measure": "Presence of Sore Throat",
+        "description": "Yes/no",
+        "timeFrame": "Measured daily for 90 days"
+      },
+      {
+        "measure": "Presence of Nasal Congestion",
+        "description": "Yes/no",
+        "timeFrame": "Measured daily for 90 days"
+      },
+      {
+        "measure": "Polysomnography",
+        "description": "Heart rate",
+        "timeFrame": "70 days"
+      },
+      {
+        "measure": "Polysomnography",
+        "description": "Pulse oximetry",
+        "timeFrame": "70 days"
+      },
+      {
+        "measure": "Polysomnography",
+        "description": "Total sleep time in hours",
+        "timeFrame": "70 days"
+      },
+      {
+        "measure": "Polysomnography",
+        "description": "Sleep efficiency (percent of time sleeping/total amount of time in bed)",
+        "timeFrame": "70 days"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 13,
+      "totalCount": 17
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:28.188Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

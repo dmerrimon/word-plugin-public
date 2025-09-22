@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT02786134",
+  "briefTitle": "Coronary Flow Reserve to Assess Cardiovascular Inflammation (CIRT-CFR)",
+  "officialTitle": "Coronary Flow Reserve to Assess Cardiovascular Inflammation (CIRT-CFR)",
+  "protocolDocument": {
+    "nctId": "NCT02786134",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-04-05",
+    "uploadDate": "2020-11-13T17:10",
+    "size": 523970,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02786134/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-04",
+    "completionDate": "2019-10",
+    "primaryCompletionDate": "2019-10",
+    "firstSubmitDate": "2016-05-20",
+    "firstPostDate": "2016-05-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age ≥18 years at screening;\n2. Documented past history of MI OR past evidence of multivessel CAD by angiography, completed any planned coronary revascularization associated with a qualifying event at least 60 days prior to enrollment, and clinically stable for ≥60 days prior to enrollment; qualifying prior MI must be documented either by hospital records, evidence on current ECG of Q waves in 2 contiguous leads, and/or an imaging test demonstrating wall motion abnormality or scar; qualifying evidence of multivessel CAD by angiography must be documented by CAD in at least two major epicardial vessels defined either as the presence of a stent, a coronary artery bypass graft, or an angiographic lesion of 60% or greater (left main CAD that has been revascularized with a stent or bypass graft will qualify as multivessel disease, as will the presence of a 50% or greater isolated left main stenosis);\n3. History of type 2 DM or metabolic syndrome (meeting 2004 AHA/NHLBI definition\\*) at time of study enrollment; \\*includes any 3 of the following 5 diagnostic criteria: waist circumference ≥ 102 cm in men or 88 cm in women; triglycerides ≥ 150 mg/dl or on drug treatment for elevated triglycerides; high-density lipoprotein cholesterol (HDL-C)\\< 40 mg/dL in men or \\< 50 mg/dL in women or on drug treatment for reduced HDL-C; systolic blood pressure ≥ 130 mm Hg or diastolic blood pressure ≥ 85 mm Hg or on drug treatment for hypertension; and elevated fasting glucose ≥ 100 mg/dL or on drug treatment for elevated glucose.\n4. Willingness to participate as evidenced by signing the CIRT and CIRT-CFR informed consent.\n\nExclusion criteria:\n\n1. Prior history of chronic infectious disease, tuberculosis, or severe fungal disease; chronic hepatitis B or C infection; renal insufficiency; interstitial pneumonitis, bronchiectasis, or pulmonary fibrosis; known chronic pericardial effusion, pleural effusion, or ascites; chronic liver disease; myeloproliferative disorders in the past 5 years; non-basal cell malignancy or treated lymphoproliferative disease within the past 5 years; known HIV positive; life expectancy of \\<3 years;\n2. Chronic inflammatory condition such as lupus or rheumatoid arthritis, ulcerative colitis or Crohn's disease\n3. White blood cell count \\<3,500/ul, hematocrit \\< 32 percent, or platelet count \\< 75,000/ul\n4. Liver transaminase levels (AST or ALT) \\>upper limit of normal (ULN) or albumin \\< the lower limit of normal (LLN);\n5. Creatinine clearance \\< 40 ml/min as estimated with the Cockroft-Gault equation;\n6. History of alcohol abuse or unwillingness to limit alcohol consumption to less than 4 drinks per week\n7. Women of child bearing potential, even if they are currently using contraception, and women intending to breastfeed.\n8. Men who plan to father children during the study period or who are unwilling to use effective forms of contraception.\n9. Requirement for use of drugs that alter folate metabolism (trimethoprim/sulfamethoxazol) or reduce tubular excretion (probenecid) or known allergies to antibiotics making avoidance of trimethoprim impossible;\n10. Current indication for methotrexate therapy;\n11. Chronic use of oral steroid therapy or other immunosuppressive or biologic response modifiers (see Exclusionary Medication List in Manual of Operations). Eligible study participants will be encouraged to have up to date pneumococcal and influenza vaccinations as recommended based on their age and underlying medical conditions.\n12. Chest X-ray evidence in the past 12 months of interstitial pneumonitis, bronchiectasis, or pulmonary fibrosis. For participants who do not have a chest X-ray in the prior 12 months, a chest X-ray will be obtained at baseline as part of the study protocol.\n13. New York Heart Association Class IV congestive heart failure.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Global Myocardial Blood Flow in Response to Vasodilator",
+        "description": "Change (from baseline) in global coronary flow reserve in response to vasodilator as measured by PET imaging at baseline and at one year",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:11.282Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

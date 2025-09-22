@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT02291133",
+  "briefTitle": "Treatment of Primary Liver Tumors With Electrochemotherapy (ECT)",
+  "officialTitle": "Treatment of Primary Liver Tumors With Electrochemotherapy (ECT)",
+  "protocolDocument": {
+    "nctId": "NCT02291133",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2014-11-06",
+    "uploadDate": "2021-07-02T04:30",
+    "size": 865831,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02291133/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 25,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-06",
+    "completionDate": "2020-01",
+    "primaryCompletionDate": "2019-09",
+    "firstSubmitDate": "2014-11-06",
+    "firstPostDate": "2014-11-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patients with primary liver tumors; hepatocellular carcinoma, intrahepatic cholangiocarcinoma and other primary tumors not larger than 7 cm that are positioned in unresectable liver area, near blood vessels in operable patients.\n2. Patients with the progression of the disease (confirmed by radiological imaging) after treatment with TACE, RFA or percutaneous alcohol ablation, which are not suitable for potentially curative treatment, but with relatively good \"performance status\" and Child-Pugh score \\< 8.\n\n   Patients from group 1. and 2. are patients, in whom standard treatment procedures are not eligible, so ECT will be the only therapeutic option. In patients with multiple liver tumors, unresectable tumors which are also unsuitable for RAF will be treated by ECT, whereas other tumors will be resected or treated by RAF.\n3. Patients with tumors smaller tumors, not suitable for liver transplantation, but also unsuitable for RFA treatment or percutaneous alcohol ablation because of the position of the tumor. Electrochemotherapy will be as bridge therapy, till liver transplantation.\n4. Patients with tumors\\> 4 cm in diameter, in difficult to reach locations, and patients unsuitable for treatment with other treatment options.\n\n   Patients from group 3. and 4. are patients, potentially curable with standard treatment. Electrochemotherapy in these patients will not affect the standard of care of these patients, recommended in guidelines for HCC.\n5. Electrochemotherapy is offered to the patients also when they refuse standard treatments.\n6. Histologically confirmed primary liver cancer and/or based on radiological imaging laboratory tests confirmed primary liver cancer by multidisciplinary team for liver tumors.\n7. Age more than 18.\n8. Life expectancy more than 3 month.\n9. Performance status Karnofsky ≥ 70 or (World Health Organization) WHO \\< or 2.\n10. Treatment free interval 2-5 weeks, depending on the drugs used.\n11. Patient must be mentally capable of understanding the information given.\n12. Patient must give informed consent.\n13. Patient must be discussed at the multidisciplinary team for liver tumors before entering the trial.\n\nExclusion Criteria:\n\n1. Secondary primary tumor, except surgically treated noninvasive cancer of cervix, or surgically or irradiated basal cell carcinoma\n2. Visceral, bone or diffuse metastases.\n3. Life-threatening infection and/or heart failure and/or liver failure and/or other severe systemic pathologies.\n4. Clinically significant ascites.\n5. Significant reduction in respiratory function.\n6. Age less than 18 years.\n7. Coagulation disturbances (those who do not respond on standard treatment with vitamin-K or fresh frozen plasma).\n8. Cumulative dose of 250 mg/m2 bleomycin received.\n9. Allergic reaction to bleomycin.\n10. Impaired kidney function (creatinin \\> 150 µmol/l).\n11. Patients with epilepsy.\n12. Patients with arrhythmias.\n13. Patients with heart failure or pace maker.\n14. Pregnancy.\n15. Patient incapable of understanding the aim of the study or disagree with the entering into the clinical study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Toxicity Related to Electrochemotherapy",
+        "description": "Biochemistry, blood test and/or US",
+        "timeFrame": "After operation on day 7"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Clinical Response Evaluation According to RECIST v1.1",
+        "description": "Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1) for target lesions and assessed by MRI/CT:\n\nComplete Response (CR), Disappearance of all target lesions; Partial Response (PR), \\>=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR",
+        "timeFrame": "After operation on days 1, 7, 30, 60, 90, 120"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:10.611Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

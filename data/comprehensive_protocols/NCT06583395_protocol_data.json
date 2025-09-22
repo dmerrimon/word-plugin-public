@@ -1,0 +1,104 @@
+{
+  "nctId": "NCT06583395",
+  "briefTitle": "Quest to Analyze One Thousand Humans Meditating",
+  "officialTitle": "Effects Of Meditation On The Gut Microbiome And Human Health and Disease",
+  "protocolDocument": {
+    "nctId": "NCT06583395",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-04-01",
+    "uploadDate": "2023-11-29T13:18",
+    "size": 473844,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06583395/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 3000,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2021-12-05",
+    "completionDate": "2025-03-25",
+    "primaryCompletionDate": "2025-03-25",
+    "firstSubmitDate": "2023-11-29",
+    "firstPostDate": "2024-09-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Must be at 21 years of age or older\n2. Must speak English\n3. Must be a registered attendee of the advanced 7-Day meditation retreat\n4. Must be willing to wear a Garmin device for the entire retreat\n5. Must complete the research consent to participate in the study\n6. Must be willing to complete self-report surveys for physical and emotional well-being\n\nExclusion Criteria:\n\n1. Younger than 21 years of age\n2. Non-English speaking\n3. Not a registered attendee of the advanced 7-Day meditation retreat\n4. Not willing to wear a Garmin device for the entire meditation retreat\n5. Did not complete the research consent\n6. Not willing or able to complete all self-report surveys",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Effect of Meditation in an Advanced Retreat Setting on Heart Rate Variability in a Global Population",
+        "description": "In Phases 1, 2, and 3 of this study, heart rate data will be collected using a Garmin wrist device at the beginning of the meditation retreat and continuously for up to ten months after the retreat. Beat-to-beat interval data will be used to calculate heart rate variability. Time domain measures will include the mean of R-R intervals (mRR), standard deviation of all R-R intervals (SDRR), root mean square of successive R-R differences (RMSSD), and the percentage of R-R intervals that vary by at least 50 ms (pRR50). Frequency domain measures will include very low frequency (VLF), low frequency (LF), and high frequency (HF) measures.",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "Effect of Meditation in an Advanced Retreat Setting on the Gut Microbiome and Metabolites in a Global Population.",
+        "description": "In Phases 1, 2, and 3 of this study, metagenomic analysis will be carried out on stool samples collected before and after the retreat. This analysis will assess changes in gut microbes and metabolites as a function of multiple variables, including age and sex.",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "Effect of Meditation in an Advanced Retreat Setting on the Multi-omic Expression of Genes, Proteins, and Metabolites in the Blood in a Global Population",
+        "description": "In Phases 2 and 3 of this study, an integrative analysis of multi-omic assessments will be carried out in whole blood and plasma samples collected before and after the retreat. Whole blood will be analyzed for gene expression while proteomic and metabolomic analysis will be carried out in blood plasma.",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "Effect of Meditation in an Advanced Retreat Setting on Physical and Emotional Health outcomes in a global population.",
+        "description": "In Phases 1, 2, and 3 of this study, physical and emotional states will be assessed using the Short Form (SF)-36 self-report survey instrument. This scale includes measures for the following domains: bodily pain, general health, mental health, physical functioning, role emotional, role physical, social functioning, and vitality. Data will be reported as the average percent change from baseline to follow-up for each domain. When necessary, data will be rescaled such that positive values will indicate improvement from pre- to post-retreat.",
+        "timeFrame": "4 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Assess the Effect of Meditation in an Advanced Retreat Setting on Physical and Emotional Health for Multiple Disease States",
+        "description": "In Phases 1, 2, and 3 of this study, demographic data will be collected to assess the health status of each study subject including all physical and emotional conditions. Physical and emotional health will be assessed using the Short Form (SF)-36 self-report survey instrument. This scale includes measures for the following domains: bodily pain, general health, mental health, physical functioning, role emotional, role physical, social functioning, and vitality. Data will be reported as the average percent change from baseline to follow-up for each domain. When necessary, data will be rescaled such that positive values will indicate improvement from pre- to post-retreat.",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "Assess the Effect of Meditation in an Advanced Retreat Setting on the Gut Microbiome and Metabolites for Multiple Disease States",
+        "description": "In Phases 1, 2, and 3 of this study, metagenomic data generated in Primary Outcome #2 will be stratified by health condition. These data will highlight specific changes in gut microbes and metabolites resulting from the meditation retreat.",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "Assess the Effect of Meditation in an Advanced Retreat Setting on the Differential Expression of Genes, Proteins, and Metabolites in Blood for Multiple Disease States",
+        "description": "In Phases 2 and 3 of this study, transcriptomic, proteomic, and metabolomic data generated in Primary Outcome #3 will be stratified by health condition. These data will highlight specific changes in gene expression, protein expression, and metabolites resulting from the meditation retreat.",
+        "timeFrame": "4 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:04.480Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT04042324",
+  "briefTitle": "A Study to Investigate the Effect of Triferic Plus Heparin Infusion Compared to Heparin Alone on Coagulation Parameters in Hemodialysis Patients",
+  "officialTitle": "A Randomized 3 Period Crossover Study to Investigate the Effect of Triferic Plus Heparin Infusion Compared to Heparin Alone on Coagulation Parameters in Hemodialysis Patients",
+  "protocolDocument": {
+    "nctId": "NCT04042324",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-07-12",
+    "uploadDate": "2020-06-19T10:07",
+    "size": 574691,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04042324/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-30",
+    "completionDate": "2020-01-16",
+    "primaryCompletionDate": "2020-01-16",
+    "firstSubmitDate": "2019-07-22",
+    "firstPostDate": "2019-08-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Adult hemodialysis patients ≥18 years of age.\n2. Signed informed consent to participate in the study.\n3. Stable on hemodialysis prescription for ≥3 months.\n4. Hemoglobin concentration \\>9.5 g/dL.\n5. Serum TSAT ≥20%.\n6. Able to receive continuous heparin infusion as their anticoagulation protocol.\n7. Receiving hemodialysis via AV (arteriovenous) fistula or graft.\n8. Able to receive hemodialysis for 4 hours at each session over the duration of the treatment periods.\n\nExclusion Criteria:\n\n1. Active bleeding disorder (GI, skin, nasal…)\n2. Receiving hemodialysis via catheter.\n3. Receiving heparin free dialysis.\n4. Receiving low molecular weight heparin as sole anti-coagulation for dialysis.\n5. Receiving IV iron within 2 weeks of the first on-study hemodialysis treatment.\n6. Receiving oral anti-coagulants or anti-platelet agents.\n7. Any other condition, that in the opinion of the investigator would not allow completion of the 3 hemodialysis treatments in the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Anti-Xa Activity as Measured by the AUC (Area Under the Curve) 0-t",
+        "timeFrame": "8 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Anti-Xa Activity as Measured by the AUC (Area Under the Curve) 0-4 Hours",
+        "timeFrame": "4 hours"
+      },
+      {
+        "measure": "aPTT (Activated Partial Thromboplastin Time) as Measured by the AUC (Area Under the Curve) 0-4 Hours",
+        "timeFrame": "4 hours"
+      },
+      {
+        "measure": "TT (Thrombin Time) as Measured by the AUC (Area Under the Curve) 0-4 Hours",
+        "timeFrame": "4 hours"
+      },
+      {
+        "measure": "Iron Profile as Measured by the sFe Cmax (Peak Serum Iron Concentration)",
+        "timeFrame": "8 hours"
+      },
+      {
+        "measure": "Iron Profile as Measured by the AUC (Area Under the Curve) 0-t",
+        "timeFrame": "8 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:06.211Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

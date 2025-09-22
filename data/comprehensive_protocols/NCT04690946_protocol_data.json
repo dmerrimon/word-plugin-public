@@ -1,0 +1,127 @@
+{
+  "nctId": "NCT04690946",
+  "briefTitle": "Comparing Effect and Change Processes in Cognitive Behavioral Therapy and Emotion-Focused Therapy for Depression",
+  "officialTitle": "Randomized Controlled Study Comparing the Therapeutic Effect and Change Processes in Cognitive Behavioral Therapy and Emotion-Focused Therapy for Depression",
+  "protocolDocument": {
+    "nctId": "NCT04690946",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2021-02-09",
+    "uploadDate": "2021-02-12T05:43",
+    "size": 216688,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04690946/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 112,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-20",
+    "completionDate": "2025-03-30",
+    "primaryCompletionDate": "2024-07-30",
+    "firstSubmitDate": "2020-12-16",
+    "firstPostDate": "2020-12-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\- Moderate or major depressive episode as primary diagnosis\n\nExclusion Criteria:\n\n* Serious mental illness (schizophrenia, severe bipolar disorder, recent or current psychotic episode) or intellectual disability.\n* Severe alcohol or drug abuse, last 12 months.\n* Suicidality last 6 months\n* Severe medical issues\n* If the participant is on antidepressive medication, the dosage must have been stable for more than 4 weeks, and the participant must consent to staying on the same dosage for the duration of the treatment.\n* The participant is currently in another treatment for depression",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Beck Depression Inventory from session to session",
+        "description": "Self-report measure of depressive symptoms, ranging from minimum 0 and maximum 63. Higher scores suggests worse outcome.",
+        "timeFrame": "1 week before treatment startup, 1 day after each therapy session, within 1 week after treatment, 3 month follow up, 6 month follow up, 12 months follow up"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Beck Anxiety Inventory",
+        "description": "Self-report measure of anxiety symptoms, ranging from minimum 0 and maximum 63. Higher scores suggests worse outcome.",
+        "timeFrame": "1 week before treatment startup, within 1 week after treatment, 3 month follow up, 6 month follow up, 12 months follow up"
+      },
+      {
+        "measure": "Change in Repetitive Eating Questionnaire",
+        "description": "Self-report measure of symptoms related to eating disorders, average scores, minimum 0, maximum 6, higher score indicates worse outcome.",
+        "timeFrame": "1 week before treatment startup, within 1 week after treatment, 3 month follow up, 6 month follow up, 12 months follow up"
+      },
+      {
+        "measure": "Change in Inventory of Interpersonal problems",
+        "description": "Self-report measure of interpersonal difficulties, average scores minimum 0, maximum 4. Higher score suggests worse outcome.",
+        "timeFrame": "1 week before treatment startup, within 1 week after treatment, 3 month follow up, 6 month follow up, 12 months follow up"
+      },
+      {
+        "measure": "Change in The Acceptance and Action Questionnaire from session to session",
+        "description": "Self-report measure of psychological flexibility, average scores minimum 1, maximum 7. Higher score suggests worse outcome.",
+        "timeFrame": "1 week before treatment startup, 1 day after each therapy session, within 1 week after treatment, 3 month follow up, 6 month follow up, 12 months follow up"
+      },
+      {
+        "measure": "Change in Emotion Approach Coping Scale",
+        "description": "Self-report measure of emotional processing ability, average scores minimum 1, maximum 4. Higher score suggests better outcome.",
+        "timeFrame": "1 week before treatment startup, within 1 week after treatment, 3 month follow up, 6 month follow up, 12 months follow up"
+      },
+      {
+        "measure": "Change in Penn State Worry Questionaire",
+        "description": "Self-report measure of rumination and cognitive processing, total scores minimum 16, maximum 80. Higher score suggests worse outcome.",
+        "timeFrame": "1 week before treatment startup, within 1 week after treatment, 3 month follow up, 6 month follow up, 12 months follow up"
+      },
+      {
+        "measure": "Change in Self-Compassion Scale",
+        "description": "Self-report measure of self-relating, average scores, minimum 1, maximum 5, higher scores suggests better outcome.",
+        "timeFrame": "1 week before treatment startup, within 1 week after treatment, 3 month follow up, 6 month follow up, 12 months follow up"
+      },
+      {
+        "measure": "Change in Quality of life questionnaire",
+        "description": "Self-report measure of quality of life, average scores, minimum 1, maximum 5, higher scores indicate better outcome.",
+        "timeFrame": "1 week before treatment startup, within 1 week after treatment, 3 month follow up, 6 month follow up, 12 months follow up"
+      },
+      {
+        "measure": "Change in Working Alliance Inventory - short version",
+        "description": "Self report measure on experience of therapeutic alliance, average scores, minimum 1, maximum 7, higher scores suggests better outcome.",
+        "timeFrame": "1 day after 1st through 14th therapy session."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:17.944Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

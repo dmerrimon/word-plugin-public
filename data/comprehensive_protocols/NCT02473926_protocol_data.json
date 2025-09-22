@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT02473926",
+  "briefTitle": "Targeting Physical Activity to Improve Cardiovascular Health in Type 2 Diabetes",
+  "officialTitle": "Targeting Physical Activity to Improve Cardiovascular Health in Type 2 Diabetes",
+  "protocolDocument": {
+    "nctId": "NCT02473926",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-06-19",
+    "uploadDate": "2022-08-12T15:46",
+    "size": 1318226,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02473926/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 55,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-12",
+    "completionDate": "2019-07-29",
+    "primaryCompletionDate": "2019-06",
+    "firstSubmitDate": "2015-04-24",
+    "firstPostDate": "2015-06-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 diabetes\n* Sedentary individual, performing \\<20 minutes of physical activity on \\<3 days/week\n\nExclusion Criteria:\n\n* Dementia (Folstein Mini-Mental Status Exam \\<24) or clinical diagnosis\n* Excessive fall risk: Can not hold semi-tandem stance for \\>10 seconds\n* Type 2 diabetes-related safety concerns: Prior diabetic foot ulcer, Charcot foot, asymptomatic hypoglycemia\n* Severely uncontrolled hypertension (BP \\>180/100)\n* Excessive hearing or visual impairment for counseling\n* Limited life expectancy: Active treatment for malignancy\n* Performs regular physical activity \\>20 minutes on \\>3 days/week",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Objective Physical Activity at 4 Months",
+        "description": "ActiGraph accelerometer measures physical activity objectively as steps/week. These data are presented as the change from baseline values.",
+        "timeFrame": "Baseline, 4 Months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Physical Function at 4 Months",
+        "description": "Measured via 400-meter rapid gait speed test. These data are presented as the change from baseline values, where decrease in numbers indicate a faster walking speed.",
+        "timeFrame": "Baseline, 4 Months"
+      },
+      {
+        "measure": "Change From Baseline in Physical Function at 4 Months",
+        "description": "Measured via the Short Physical Performance Battery (SPPB), which evaluates balance, usual walking speed, and repeated chair rise. These data are presented as the change from baseline values where higher values indicate better physical function (scoring range 0-12).",
+        "timeFrame": "Baseline, 4 Months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:09.474Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

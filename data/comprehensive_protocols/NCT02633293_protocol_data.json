@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT02633293",
+  "briefTitle": "An Open Label Extension Study to Evaluate Inhaled Treprostinil in Adult PH With ILD Including CPFE",
+  "officialTitle": "An Open-Label Extension Study of Inhaled Treprostinil in Subjects With Pulmonary Hypertension Due to Parenchymal Lung Disease",
+  "protocolDocument": {
+    "nctId": "NCT02633293",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-08-18",
+    "uploadDate": "2022-06-01T09:07",
+    "size": 441146,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02633293/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 243,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-09-15",
+    "completionDate": "2021-08-01",
+    "primaryCompletionDate": "2021-08-01",
+    "firstSubmitDate": "2015-12-11",
+    "firstPostDate": "2015-12-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Subject voluntarily gives informed consent to participate in the study.\n2. The subject participated in study RIN-PH-201, remained on study drug, was compliant with RIN-PH-201 study procedures or was enrolled in study RIN-PH-201 at the time that the study was discontinued by the sponsor.\n3. Females of reproductive potential must be non-pregnant (as confirmed by a urine pregnancy test at Baseline) and non-lactating, and will:\n\n   * Either abstain from intercourse (when it is in line with their preferred and usual lifestyle), or\n   * Use two medically acceptable, highly-effective forms of contraception for the duration of study, and at least 30 days after discontinuing study drug.\n4. Males must use a condom for the duration of treatment and for at least 48 hours after discontinuing study drug.\n\nExclusion Criteria:\n\n1. The subject is pregnant or lactating.\n2. The subject was prematurely discontinued from study RIN-PH-201.\n3. The subject developed a concurrent illness or condition during the conduct of RIN-PH-201 which, in the opinion of the Investigator, would represent a risk to overall health if they enrolled in this study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Peak 6-Minute Walk Distance (6MWD) From Baseline",
+        "description": "The intent of the 6MWD test is to evaluate exercise capacity associated with carrying out activities of daily living. Change in 6MWD from Baseline correlates with the current clinical standard for assessing patient functional status in the treatment of PH and is considered an objective measure of patient functional status. Subjects will be instructed to walk down a corridor at a comfortable speed as far as they can manage for 6 minutes. Distance \\<500 meters suggests considerable exercise limitation; Distance 500-800 meters suggests moderate limitation; Distance \\>800 meters (with no rests) suggests mild or no limitation. Peak exposure 6MWD will occur by conducting 6MWT within 10 to 60 minutes after the most recent dose of study drug dose.",
+        "timeFrame": "Baseline through Week 124 in RIN-PH-202 (Combined data from parent study RIN-PH-201 [NCT02630316] and this open-label extension study RIN-PH-202)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Plasma Concentration of N-terminal Pro-Brain Natriuretic Peptide (NT-proBNP) From Baseline",
+        "description": "The N-terminal pro-BNP (NT-proBNP) serum concentration is a useful biomarker associated with changes in right heart morphology and function. NT-proBNP serum concentration will be assessed to compare the severity of heart failure at Baseline and each visit through Week 124. Blood for NT-proBNP assessment must be drawn prior to conducting the 6-minute walk test (6MWT).",
+        "timeFrame": "Baseline through Week 124 in RIN-PH-202 (Combined data from parent study RIN-PH-201 [NCT02630316] and this open-label extension study RIN-PH-202)"
+      },
+      {
+        "measure": "Change in Percent Predicted Forced Vital Capacity (FVC) From Baseline",
+        "description": "Change in pulmonary function following inhaled treprostinil therapy will be measured by Forced Vital Capacity (FVC), calculated from a Pulmonary Function Test (PFT) performed at Baseline and Weeks 12, 48, and 108.",
+        "timeFrame": "Baseline and Weeks 12, 48, and 108"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:15.369Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

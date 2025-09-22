@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03349775",
+  "briefTitle": "Cardiometabolic Disease and Pulmonary Hypertension",
+  "officialTitle": "Cardiometabolic Disease and Pulmonary Hypertension",
+  "protocolDocument": {
+    "nctId": "NCT03349775",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-08-14",
+    "uploadDate": "2021-12-06T13:08",
+    "size": 3871007,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03349775/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "EARLY_PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 21,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-11-27",
+    "completionDate": "2020-12-22",
+    "primaryCompletionDate": "2020-12-22",
+    "firstSubmitDate": "2017-06-06",
+    "firstPostDate": "2017-11-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 30-80 years\n* History of obesity and current BMI ≥ 25 kg/ m2 for study volunteers or BMI ≥ 25 kg/ m2 for those with clinically indicated CPET or known HFpEF\n* History of Dyspnea (Grade 1 or more)\n* Able to provide informed consent and willing to comply with study\n\nExclusion Criteria:\n\n* History of diabetes mellitus\n* History of primary pulmonary arterial hypertension\n* History of moderate to severe COPD\n* History of severe Obstructive Sleep apnea\n* History of renal disease (eGFR\\< 45 mL/min/1.732)\n* History of severe liver disease\n* History of cardiovascular disease (recent heart attack or stroke) except known HFpEF\n* History of blood clot in lung\n* History of Splenectomy\n* History of Active Cancer\n* Platelets count of \\< 75,000\n* International normalized ration (INR) of \\> 1.5\n* History of recent anemia (HB \\< 9g/dL)\n* Current use of Metformin\n* Prior LVEF \\< 50% on echocardiogram\n* Indication of severe valvular disease on echo\n* Pregnant or planning to become pregnant in next 4 months\n* History of HIV infection",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pulmonary Vascular Hemodynamics (Rest)",
+        "description": "The metformin and placebo groups will be compared with respect to resting mean pulmonary artery pressure (mmHg)",
+        "timeFrame": "Baseline and 3 months"
+      },
+      {
+        "measure": "Pulmonary Vascular Hemodynamics (Exercise)",
+        "description": "The metformin and placebo groups will be compared with respect to augmentation of mean pulmonary artery pressure divided by augmentation of cardiac output during cardiopulmonary exercise testing (change in mean PAP divided by change in cardiac output from rest to peak exercise)",
+        "timeFrame": "Baseline and 3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Effect on Pulmonary Artery Endothelial Cell Phenotypes",
+        "description": "We will compare the metformin and placebo groups. Specifically we will examine the following pulmonary artery endothelial cell phenotypes:\n\n(1) activation of phospho-eNOS as detected by immunofluorescence staining",
+        "timeFrame": "baseline and 3 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:15.276Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

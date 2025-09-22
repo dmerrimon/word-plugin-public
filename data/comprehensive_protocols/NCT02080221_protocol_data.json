@@ -1,0 +1,85 @@
+{
+  "nctId": "NCT02080221",
+  "briefTitle": "BrUOG 292: FOLFOX-A For Metastatic Pancreatic Cancer: A Phase II Brown University Oncology Research Group Trial",
+  "officialTitle": "BrUOG 292: FOLFOX-A For Metastatic Pancreatic Cancer: A Phase II Brown University Oncology Research Group Trial",
+  "protocolDocument": {
+    "nctId": "NCT02080221",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2018-12-26",
+    "uploadDate": "2021-02-04T12:13",
+    "size": 1192451,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02080221/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-08",
+    "completionDate": "2022-03-16",
+    "primaryCompletionDate": "2020-01-09",
+    "firstSubmitDate": "2014-03-03",
+    "firstPostDate": "2014-03-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Pathologically or cytological confirmed pancreatic ductal adenocarcinoma. Patients with pathology or cytology showing carcinoma of pancreas or adenosquamous of the pancreas are also eligible.\n2. Metastatic advanced disease.\n3. No prior chemotherapy for pancreatic cancer\n4. No major surgery within 3 weeks of the start of study treatment. Patients must have recovered from the side effects of any major surgery at the start of study treatment. For questions on if a surgery is deemed \"major,\" definition by surgeon can be used for clarification. Laparoscopy and central venous catheter placement are not considered major surgery.\n5. No prior invasive malignancy within the prior two years. However, patients with an early stage malignancy that is not expected to require treatment in the next 2 years (such as early stage, resected breast cancer or asymptomatic prostate cancer) are eligible.\n6. ECOG performance status 0 or 1.\n7. Age ≥ 18\n8. Not pregnant and not nursing. Women of child bearing potential must have a negative serum or urine pregnancy test (minimum sensitivity 25 IU/L or equivalent units of HCG) within 7 days prior to beginning of treatment. Post-menopausal women (surgical menopause or lack of menses \\>12 months) do not need to have a pregnancy test, please document status.\n9. Women of childbearing potential and sexually active males must use an effective contraception method during treatment and for three months after completing treatment. Documentation of this being discussed required.\n10. Required Initial Laboratory Values:\n\n    * Neutrophils ≥ 1,500/mm3\n    * Platelet count ≥ 100,000/mm3\n    * Creatinine ≤ 1.5 mg/dL -or- creatinine clearance ≥ 60 mL/min\n    * Total bilirubin ≤ 1.25 x ULN\n    * AST (SGOT) \\& ALT (SGPT) ≤ 2.5 x ULN (for patients with liver metastases, AST\\&ALT \\< 5xULN)\n    * Alkaline phosphatase \\< 2.5xULN, unless bone metastasis is present and in the absence of liver metastasis\n\nExclusion Criteria:\n\n1. Patients with known brain metastases\n2. Prior hypersensitivity to Oxaliplatin or Abraxane ® that in the investigators opinion would put the patient at risk if re-exposed\n3. Preexisting neuropathy\n4. Patients with serious medical risk factors involving any of the major organ systems such that the investigator considers it unsafe for the patient to receive FOLFOX-A 5. Patients with unstable biliary stents or with plastic stents. Information on type of stent is required at registration.\n\n6\\. Patients with active infection or fever (patients on antibiotics for infection or patients getting over a cold or seasonal virus are not excluded), or known historical or active infection with HIV, hepatitis B, or hepatitis C.\n\n7\\. Patients with sepsis or pneumonitis. 8. Patients with a history of interstitial lung disease, history of slowly progressive dyspnea and unproductive cough, sarcoidosis, silicosis, idiopathic pulmonary fibrosis, pulmonary hypersensitivity pneumonitis or multiple allergies that in the investigator's opinion would put the patient at an increased risk.\n\n10\\. Uncontrolled diabetes. If patient has diabetes, confirmation on status (controlled or uncontrolled) required at registration.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Survival for Patients With Metastatic Pancreatic Cancer With First-line Treatment With FOLFOX-A as Compared to Historical Controls of Gemcitabine Alone.",
+        "timeFrame": "Every 3 months for up to 5 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Response of Patients With Metastatic Pancreatic Cancer Who Receive the FOLFOX-A Regimen",
+        "timeFrame": "Every 3 months for up to 5 years."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:06.782Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,73 @@
+{
+  "nctId": "NCT02228499",
+  "briefTitle": "Academic Achievement in Children With Asthma",
+  "officialTitle": "Academic Achievement in Children With Asthma",
+  "protocolDocument": {
+    "nctId": "NCT02228499",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-06-22",
+    "uploadDate": "2019-01-29T13:27",
+    "size": 1368339,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02228499/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 66,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-12-15",
+    "completionDate": "2017-05",
+    "primaryCompletionDate": "2017-03-31",
+    "firstSubmitDate": "2014-08-26",
+    "firstPostDate": "2014-08-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Inclusion criteria for cases include asthma diagnosed by a clinician for greater than 1 year with a history of exacerbation requiring systemic corticosteroids within the past 2 years. Controls will have no history of asthma. All children, cases and controls, must (1) be in grade level 6-8 in the 2013-2014 school year, attend public school in Washington, DC (DCPS) or Prince George's County Public Schools (PGCPS), and reside in their school district;(2) be accompanied by their parent or legal guardian.\n\nExclusion Criteria: Exclusion criteria for cases and controls will be (1) presence of a chronic medical condition other than asthma; (2) triage category 1 or 2 in the emergency department; and (3) a family that does not speak English or Spanish\n\n\\-",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "11 Years",
+    "maximumAge": "14 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "GPA",
+        "description": "To determine the association between asthma and school performance by comparing grade point averages (GPA) in school aged children with and without asthma. We will enroll 200 children in grades 3-8 with asthma (cases) from the ED/IMPACT DC and compare them with a group of 200 children in grades 3-8 without asthma (controls) recruited from the ED. Report cards will be collected between June 2014 and November 1, 2014 or until 200 cases and 200 controls have been recruited, and GPAs will be compared. We expect children with asthma will have lower GPAs . GPAs are unweighted 0-4 scale.",
+        "timeFrame": "single time point"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:22.572Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

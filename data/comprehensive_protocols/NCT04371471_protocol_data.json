@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT04371471",
+  "briefTitle": "Pandemic Triage Score in Patients With Known or Suspected Severe Acute Respiratory Syndrome (SARS) CoronaVirus (CoV) 2 Infection",
+  "officialTitle": "On-admission Multifactorial Evaluation of Inflammation as Prognostic Marker of Death in Patients Diagnosed With Coronavirus Infectious Disease (COVID-19) Syndrome",
+  "protocolDocument": {
+    "nctId": "NCT04371471",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-03-30",
+    "uploadDate": "2022-04-01T05:11",
+    "size": 312925,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04371471/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 91,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-03-01",
+    "completionDate": "2020-04-30",
+    "primaryCompletionDate": "2020-04-30",
+    "firstSubmitDate": "2020-04-30",
+    "firstPostDate": "2020-05-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patient with clinical signs of CoV-2-SARS infection\n* Complete blood count test and systolic blood pressure available at the time of diagnosis\n* Informed of the study.\n\nExclusion Criteria:\n\n* Women beyond the 1st trimester of pregnancy\n* Persons under-the-age-of or legally-denied medical decision-making capacity by a judicial or administrative decision,\n* Persons of full age who are subject to a legal protection measure,\n* Persons unable to consent,\n* Persons who are not members of or beneficiaries of a social welfare program administered by the Republic of France\n* Patient's refusal to participate in the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Normal and Above Triage (STC-19) Score",
+        "description": "Correlation between the STC-19 score based on biological measures at the time of diagnosis and patient outcome (deceased or alive within 29 days of hospitalization)\n\nThe STC-19 score is based on the genito-thyroid index (GTi) calculated from the neutrophil-to-lymphocyte ratio (NLR) and the cortisol index :\n\nNormal value for cortisol range from 3 to 7 Normal value for GTi range from 1.5 to 2.5",
+        "timeFrame": "Day 0"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Normal and Above Genito-thyroid Index (GTi) Value",
+        "description": "Correlation between the STC-19 score based on biological measures at the time of diagnosis and patient outcome (deceased or alive within 29 days of hospitalization) The genito-thyroid index (GTi) is calculated from the neutrophil-to-lymphocyte ratio (NLR).\n\nNormal value for GTi range from 1.5 to 2.5",
+        "timeFrame": "Day 5"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:36.488Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

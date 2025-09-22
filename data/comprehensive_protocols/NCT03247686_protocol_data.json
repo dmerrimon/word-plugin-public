@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT03247686",
+  "briefTitle": "A Study of RSLV-132 in Subjects With Primary Sjogren's Syndrome",
+  "officialTitle": "A Phase 2, Double-blind, Placebo-controlled Study of RSLV-132 in Subjects With Primary Sjogren's Syndrome",
+  "protocolDocument": {
+    "nctId": "NCT03247686",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-04-19",
+    "uploadDate": "2020-11-20T11:33",
+    "size": 628181,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03247686/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 28,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-02-01",
+    "completionDate": "2019-08-01",
+    "primaryCompletionDate": "2018-07-15",
+    "firstSubmitDate": "2017-08-03",
+    "firstPostDate": "2017-08-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Meet 4 of 6 criteria of 2002 American-European Consensus Group (AECG) criteria for Primary Sjogren's Syndrome\n2. Presence of anti Ro autoantibodies\n3. Presence of interferon signature\n\nExclusion Criteria:\n\n1. Use fo hydroxychloroquine within 30 days of baseline\n2. Use of cyclophosphamide within 180 days of baseline\n3. Use of oral corticosteroids greater than 10 mg/day\n4. Known IgG4-related disease",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Blood Cell Gene Expression",
+        "description": "Interferon gene expression (mean log2 fold change from baseline to Day 99). The of expression of three IFN-inducible genes (HERC5, EPSTI1, CMPK2) was measured by qPCR to assess the IFN signature status (the altered pattern of gene expression) of Sjögren's syndrome patients.",
+        "timeFrame": "Day 1 and Day 99"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "EULAR ESSDAI Total Score.",
+        "description": "Clinical disease activity: Change from Baseline to Day 99 in European League Against Rheumatism Sjögren's Syndrome Disease Activity Index Total Scores (imputed values with last observation carried forward). The scale ranges from 0 to 123. A higher score means more disease activity (worse outcome).",
+        "timeFrame": "Days 1, 29, 57, 85 and 99"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:58.305Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

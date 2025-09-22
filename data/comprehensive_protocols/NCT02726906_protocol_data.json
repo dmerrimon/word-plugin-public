@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT02726906",
+  "briefTitle": "Lifestyle Enriching Activities for Research in Neuroscience Intervention Trial: LEARNit Study",
+  "officialTitle": "Lifestyle Enriching Activities for Research in Neuroscience Intervention Trial: LEARNit Study",
+  "protocolDocument": {
+    "nctId": "NCT02726906",
+    "filename": "Prot_ICF_000.pdf",
+    "label": "Study Protocol and Informed Consent Form",
+    "date": "2024-04-26",
+    "uploadDate": "2024-06-24T17:03",
+    "size": 3019644,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02726906/document/Prot_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 66,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08-21",
+    "completionDate": "2022-07-15",
+    "primaryCompletionDate": "2022-07-13",
+    "firstSubmitDate": "2016-03-28",
+    "firstPostDate": "2016-04-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Male or female\n2. English-speaking\n3. 55-80 years old\n4. Exhibits sedentary behavior\n5. Objective cognitive impairment\n6. Mini-Mental State Exam score \\> 26\n7. Perform at least 1 standard deviations below normative values on cognitive tests\n8. Absence of dementia\n9. Ability to complete both MRI and PET scans\n10. Physically capable of completing health programs\n\nExclusion Criteria:\n\n1. Baseline dementia\n2. History of a neurological disorder\n3. Current psychiatric illness\n4. Head trauma with a loss of consciousness \\> 10 minutes\n5. Severe sensory deficits\n6. Substance abuse\n7. Depression (GDS \\< 8 of 15)\n8. Inability to perform intervention (e.g., inability to walk without assistance)\n9. Contraindications to MRI scan (e.g., pacemaker)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "55 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Functional Magnetic Resonance Imaging (fMRI) Brain Scan as a Measure of Brain Function",
+        "description": "Functional MRI has proven to be an effective non-invasive, in-vivo tool for measuring brain function via the BOLD signal. Growing evidence supports that fMRI BOLD can detect neuronal changes that occur very early in the disease process. The hippocampus has been shown to be a selectively vulnerable region in AD, and several studies, including our own, identified a aberrant brain signal in the hippocampus in older adults. The typical range for this outcome is -10 to 10 with higher scores indicating better brain function.",
+        "timeFrame": "Baseline and Follow-up at 6 months"
+      },
+      {
+        "measure": "Mnemonic Similarity Test as a Measure of Memory (Cognition)",
+        "description": "The participants will encode a series of objects presented on a computer. Following the encoding period, they will begin their fMRI scan and be asked to indicate if they recognize the objects on the screen, which include targets (previously seen objects), lures (objects that are similar to previously seen objects) and novel (unrelated objects). The discrimination between Targets and Lures will indicate the rate at which participants \"correctly reject\" the Lures (via pattern separation) or \"false alarm\" to the Lures (via pattern completion). The theoretical range for this outcome is -1 to 1 with higher scores indicating better memory function.",
+        "timeFrame": "Baseline and Follow-up at 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Amyloid Positron Emission Tomography (PET) Scan as a Measure of Tracer Binding (SUVr)",
+        "description": "Each participant received PET scans with Neuraceq \\[florbetaben F 18 (FBB)\\] to measure amyloid-beta PET binding. IV injections of the tracers (FBB, -8.11 6 0.6 mCi) were done outside of the scanning room. Four 5-min frames were acquired 90 minutes after injection.",
+        "timeFrame": "Baseline and Follow-up at 6 months"
+      },
+      {
+        "measure": "Single-stage Treadmill Test",
+        "description": "This is a measure of cardiovascular fitness. This test has been validated against peak VO2 max with r=0.96. Heart rate response is monitored with a Polar heart rate monitor and the heart rate at the end of the 4 min test is used to estimate VO2max using an established equation for conversion. The theoretical range for this outcome is 0 to 200 with higher scores indicating better cardiovascular fitness.",
+        "timeFrame": "Baseline and Follow-up at 6 months"
+      },
+      {
+        "measure": "Modified Physical Function Test",
+        "description": "This test is a measure of multiple domains related to functional activities of daily living. Each physical activity in score is of varying difficulty level. The theoretical range for this outcome is 0 to 36 with higher scores indicating better physical function.",
+        "timeFrame": "Baseline and Follow-up at 6 months"
+      },
+      {
+        "measure": "Brain-derived Neurotropic Factor (BDNF) as a Measure From Blood",
+        "description": "We will quantitatively analyze pre- and post-measurements of brain derived neurotrophic factor (BDNF). BDNF has been shown to increase after exercise intervention in humans and peripheral increases in these hormones correlate to cell proliferation in the dentate gyrus of the hippocampus. We measure total BDNF from plasma.",
+        "timeFrame": "Baseline and Follow-up at 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.696Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

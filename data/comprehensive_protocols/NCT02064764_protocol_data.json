@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT02064764",
+  "briefTitle": "Renal Nerve Denervation in Patients With Hypertension and Paroxysmal and Persistent Atrial Fibrillation",
+  "officialTitle": "Renal Nerve Denervation in Patients With Hypertension and Paroxysmal and Persistent Atrial Fibrillation",
+  "protocolDocument": {
+    "nctId": "NCT02064764",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-08-19",
+    "uploadDate": "2023-12-13T08:04",
+    "size": 1002546,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02064764/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 102,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-02",
+    "completionDate": "2021-04-19",
+    "primaryCompletionDate": "2021-04-19",
+    "firstSubmitDate": "2014-02-13",
+    "firstPostDate": "2014-02-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Drug refractory recurrent symptomatic paroxysmal or persistent atrial fibrillation\n* Office-based systolic blood pressure of ≥140 mm Hg based despite treatment with 1 or more antihypertensive medications\n* Age 18 years to 80 years old.\n\nKey Exclusion Criteria:\n\n* Renal artery anatomy that is ineligible for treatment including: Lacks at least one renal artery for each kidney with ≥3 mm diameter and minimum treatable length per the Spyral Instructions for Use, Renal artery stenosis (\\>50%) or renal artery aneurysm in either renal artery, A history of prior renal artery intervention including balloon angioplasty or stenting, Renal artery which contain calcification which does not allow at least four radio frequency ablations to be delivered , Diffuse fibromuscular dysplasia (FMD) or FMD which does not allow at least four radio frequency ablations to be delivered; FMD defined as visible beading of the artery on angiography , Unilateral kidney.\n* Estimated Glomerular Filtration Rate of \\<30 mL/min/1.73m2.\n* Pregnant, nursing or planning to be pregnant. (Female participants of childbearing potential must have a negative serum or urine human chorionic gonadotropin (hCG) pregnancy test prior to angiography).\n* Currently enrolled or plans to participate in a potentially confounding drug or device trial during the course of this study. Co-enrollment in concurrent studies is allowed when documented pre-approval is obtained from the Medtronic study manager.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Subjects in Each Arm That Experience Safety Composite Events",
+        "description": "Characterize the rate of safety composite events, (End stage renal disease, Death, Significant Embolic Event, Renal Artery Perforation or Dissection Requiring Intervention, Vascular Complications, Hospitalization for Hypertensive Crisis, New Renal Artery Stenosis, Cardiac Damage, Pulmonary Vein Stenosis, Atrio-Esophageal Fistula, Arrhythmia, Persistent Phrenic Nerve Palsy), within each of the two study arms and also characterize the difference in the rates between study arms. Each event in the composite has its own time frame, either one month or six months post procedure.",
+        "timeFrame": "Up to one or six months post procedure depending on the event"
+      },
+      {
+        "measure": "Proportion of Patients With Chronic Treatment Success",
+        "description": "Chronic treatment success is freedom from chronic treatment failure. Chronic treatment failure is defined as the occurrence of either a documented episode of AF lasting 2 or more minutes (as measured by an implantable loop recorder) or an intervention for AF.",
+        "timeFrame": "Minimum of six months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Office Systolic and Diastolic Blood Pressure at 6 Months From Baseline",
+        "description": "Compare the difference of office systolic and diastolic blood pressure at 6 months and baseline between study arms.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Difference in Heart Rate at 6 Months and Baseline",
+        "description": "Compare the difference in heart rate using the 6 month follow-up measurement and baseline visit measurement. These values will then be compared between study arms.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Procedural Measures",
+        "description": "Elapsed fluoroscopy time and cryocatheter procedure time between study arms. Renal Denervation Procedure Time and Total Procedural Time will be reported only for the Cryoablation and Renal Denervation group.",
+        "timeFrame": "Procedure"
+      },
+      {
+        "measure": "Proportion of Participants With Symptoms at 6 Months Between Study Arms",
+        "description": "The endpoints for this objective are presence of the following arrhythmic symptoms as recorded at the 6-month visit through discussion with the patient at the time of the visit:\n\n* Dizziness\n* Palpitations\n* Rapid heart beat\n* Dyspnea\n* Fatigue\n* Syncope\n* Other",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Rate of Chronic Treatment Success (Primary Effectiveness Endpoint) for Subjects Off of Class I and III Anti-arrhythmic Drugs Following the Blanking Period.",
+        "description": "Compare the rate of chronic treatment success (primary effectiveness endpoint) between study arms for subjects off of Class I and III anti-arrhythmic drugs following the blanking period.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Percent of Time in AF Burden Over All Follow-up Occurring After the Blanking Period",
+        "description": "Compare the Percent of time in AF burden over all follow-up occurring after the blanking period between study arms.",
+        "timeFrame": "91 days after the cryoablation procedure date until the last Reveal LINQ device data date."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:07.666Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

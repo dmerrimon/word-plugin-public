@@ -1,0 +1,120 @@
+{
+  "nctId": "NCT07172529",
+  "briefTitle": "Pulmonary Function, Muscle Strength, and Functional Capacity in Minimally Invasive Cardiac Surgery",
+  "officialTitle": "Evaluation of Pulmonary Function, Respiratory Muscle Strength, Peripheral Muscle Strength and Functional Capacity in Individuals Undergoing Minimally Invasive Cardiac Surgery",
+  "protocolDocument": {
+    "nctId": "NCT07172529",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-08-22",
+    "uploadDate": "2025-09-03T03:17",
+    "size": 156779,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07172529/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-05-01",
+    "completionDate": "2025-11",
+    "primaryCompletionDate": "2025-11-01",
+    "firstSubmitDate": "2025-08-18",
+    "firstPostDate": "2025-09-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults aged 18-80 years\n* Scheduled for elective cardiac surgery via either minimally invasive approach (mini-thoracotomy) or conventional sternotomy at Gülhane Training and Research Hospital\n* Able to provide written informed consent\n\nExclusion Criteria:\n\n* Previous history of cardiac surgery\n* Presence of orthopedic or neurological disorders affecting mobility or muscle strength\n* Postoperative cerebrovascular event\n* Requirement for mechanical ventilation \\> 24 hours postoperatively\n* Intensive care unit stay \\> 48 hours",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Pulmonary Function - Forced Vital Capacity (FVC)",
+        "description": "Forced Vital Capacity measured by spirometry. Results will be reported in liters (L).",
+        "timeFrame": "Baseline [preoperative] and postoperative day 4)"
+      },
+      {
+        "measure": "Change in Pulmonary Function - Forced Expiratory Volume in 1 second (FEV1)",
+        "description": "Forced Expiratory Volume in 1 second measured by spirometry. Results will be reported in liters (L).",
+        "timeFrame": "Baseline to postoperative day 4"
+      },
+      {
+        "measure": "Change in Respiratory Muscle Strength - Maximal Inspiratory Pressure (MIP)",
+        "description": "Inspiratory muscle strength measured with mouth pressure device. Results will be reported in cmH₂O.",
+        "timeFrame": "Baseline [preoperative] and postoperative day 4"
+      },
+      {
+        "measure": "Change in Respiratory Muscle Strength - Maximal Expiratory Pressure (MEP)",
+        "description": "Expiratory muscle strength measured with mouth pressure device. Results will be reported in cmH₂O.",
+        "timeFrame": "Baseline [preoperative] and postoperative day 4"
+      },
+      {
+        "measure": "Change in Handgrip Strength",
+        "description": "Handgrip strength measured with handheld dynamometer. Results will be reported in kilograms (kg).",
+        "timeFrame": "Baseline to postoperative day 4"
+      },
+      {
+        "measure": "Change in Knee Extension Strength",
+        "description": "Knee extension strength measured with handheld dynamometer. Results will be reported in kilograms (kg).",
+        "timeFrame": "Baseline to postoperative day 4"
+      },
+      {
+        "measure": "Change in Functional Capacity - 30-Second Sit-to-Stand Test",
+        "description": "Number of repetitions performed during the 30-second sit-to-stand test. Results will be reported as number of repetitions.",
+        "timeFrame": "Baseline to postoperative day 4"
+      },
+      {
+        "measure": "Change in Functional Capacity - 6-Minute Walk Distance",
+        "description": "Distance covered during the 6-minute walk test. Results will be reported in meters (m).",
+        "timeFrame": "Baseline to postoperative day 4"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Pain Intensity - McGill Pain Questionnaire",
+        "description": "Pain intensity assessed with the McGill Pain Questionnaire. Results will be reported as score values (units on a scale). Minimum score: 0 (no pain) Maximum score: 78 (maximum pain intensity) Higher scores indicate worse pain.",
+        "timeFrame": "Baseline and postoperative day 4"
+      },
+      {
+        "measure": "Change in Kinesiophobia - Tampa Scale of Kinesiophobia (TSK-17)",
+        "description": "Fear of movement assessed with the Tampa Scale of Kinesiophobia (TSK-17). Results will be reported as score values ranging from 17 to 68 (units on a scale).Higher scores indicate greater fear of movement (worse outcome).",
+        "timeFrame": "Baseline and postoperative day 4"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 8,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T05:06:11.776Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

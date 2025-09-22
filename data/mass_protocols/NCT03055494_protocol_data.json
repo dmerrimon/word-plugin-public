@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT03055494",
+  "briefTitle": "Study to Explore the Effect of Secukinumab, Compared to Placebo, on Fat Tissue and Skin in Plaque Psoriasis Patients",
+  "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter Study to Explore Changes in Subcutaneous Adipose Tissue and Modulation of Skin Inflammation After 12 Weeks of Treatment With Secukinumab, Compared to Placebo, and up to 52 Weeks of Treatment With Secukinumab in Adult Patients With Moderate to Severe Plaque Psoriasis",
+  "protocolDocument": {
+    "nctId": "NCT03055494",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-02-23",
+    "uploadDate": "2020-02-25T17:13",
+    "size": 1186998,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03055494/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 102,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-04-18",
+    "completionDate": "2019-02-26",
+    "primaryCompletionDate": "2018-04-25",
+    "firstSubmitDate": "2017-02-14",
+    "firstPostDate": "2017-02-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Written informed consent must be obtained before any assessment is performed\n* Clinical diagnosis of chronic plaque-type psoriasis at least 6 months prior to randomization\n* Moderate to severe plaque psoriasis as defined at baseline by:\n\n  * ≥10% Body Surface Area (BSA) involvement and\n  * PASI total score of ≥12 and\n  * IGA mod 2011 score of ≥3 (based on a scale of 0-4)\n\nExclusion Criteria:\n\n* Forms of diagnosed psoriasis other than chronic plaque psoriasis\n* Medication-induced or medication exacerbated psoriasis\n* Previous exposure to secukinumab or any other biologic drug directly targeting IL-17A or IL-17RA receptors\n* Ongoing use of prohibited treatments\n* Pregnant or nursing (lactating) women\n\nOther protocol-defined inclusion/exclusion criteria may apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number and Percentage of Participants With Response of Psoriasis Skin Lesions to Treatment at Week 12",
+        "description": "Response in skin histology/K16 expression to treatment (answered no)",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Number of and Percentage of Participants Who Achieved Psoriasis Area and Severity Index 90 (PASI 90) at Week 12",
+        "description": "Psoriasis Area and Severity Index 90",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number and Percentage of Participants With Response of Psoriasis Skin Lesions to Treatment at Week 52",
+        "description": "Response in skin histology/K16 expression to treatment (answered no)",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Number of and Percentage of Participants Who Achieved Psoriasis Area and Severity Index 90 (PASI 90) at Week 52",
+        "description": "Psoriasis Area and Severity Index 90",
+        "timeFrame": "52 weeks"
+      },
+      {
+        "measure": "Change in Systolic Blood Pressure From Baseline to Week 12",
+        "description": "Vital signs: summary statistics for change from baseline to Week 12",
+        "timeFrame": "baseline, Week 12"
+      },
+      {
+        "measure": "Change in Diastolic Blood Pressure From Baseline to Week 12",
+        "description": "Vital signs: summary statistics for change from baseline to Week 12",
+        "timeFrame": "baseline, Week 12"
+      },
+      {
+        "measure": "Change in Body Weight From Baseline to Week 12",
+        "description": "Vital signs: summary statistics for change from baseline to Week 12",
+        "timeFrame": "baseline, Week 12"
+      },
+      {
+        "measure": "Change in Glucose Level From Baseline to Week 12",
+        "description": "Vital signs: summary statistics for change from baseline to Week 12",
+        "timeFrame": "baseline, Week 12"
+      },
+      {
+        "measure": "Change in Insulin Level From Baseline to Week 12",
+        "description": "Vital signs: summary statistics for change from baseline to Week 12",
+        "timeFrame": "baseline, Week 12"
+      },
+      {
+        "measure": "Change in High-sensitivity C-reactive Protein (hsCRP) From Baseline to Week 12",
+        "description": "Vital signs: summary statistics for change from baseline to Week 12",
+        "timeFrame": "baseline, Week 12"
+      },
+      {
+        "measure": "Change in Homeostatic Model Assessment of Insulin Resistance (UNIT) (HOMA-IR) From Baseline to Week 12",
+        "description": "Vital signs: summary statistics for change from baseline to Week 12\n\nHealthy Range: 1.0 (0.5-1.4) Less than 1.0 means you are insulin-sensitive which is optimal. Above 1.9 indicates early insulin resistance. Above 2.9 indicates significant insulin resistance.",
+        "timeFrame": "baseline, Week 12"
+      },
+      {
+        "measure": "Change in Hemoglobin A1c (HbA1c) Test for Diabetes Score From Baseline to Week 12",
+        "description": "Vital signs: summary statistics for change from baseline to week 12\n\nFor people without diabetes, the normal range for the hemoglobin A1c level is between 4% and 5.6%. Hemoglobin A1c levels between 5.7% and 6.4% mean you have a higher chance of getting diabetes. Levels of 6.5% or higher mean you have diabetes.",
+        "timeFrame": "baseline, week 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 99,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:19.690Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

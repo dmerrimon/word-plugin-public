@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04116073",
+  "briefTitle": "INCMGA00012 in Patients With Previously Treated Unresectable or Metastatic Adenosquamous Pancreatic or Ampullary Cancer",
+  "officialTitle": "A Phase II Trial of INCMGA00012 in Patients With Previously Treated Unresectable or Metastatic Adenosquamous Pancreatic or Ampullary Cancer",
+  "protocolDocument": {
+    "nctId": "NCT04116073",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-07-20",
+    "uploadDate": "2025-07-08T07:51",
+    "size": 662352,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04116073/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 25,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-04-09",
+    "completionDate": "2024-12-03",
+    "primaryCompletionDate": "2024-08-06",
+    "firstSubmitDate": "2019-10-03",
+    "firstPostDate": "2019-10-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age ≥18 years.\n* Have histologically or cytologically - proven adenosquamous carcinoma of the pancreas or ampulla.\n* Has unresectable or metastatic measurable disease.\n* Has received (or been intolerant to or ineligible for) at least 1 prior line of cytotoxic chemotherapy and received no more than 2 prior systemic treatments.\n* Presence of at least one lesion with measurable disease.\n* Accept to have a tumor biopsy of an accessible lesion at baseline and on treatment.\n* Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1.\n* If HIV-positive, then all of the following criteria must also be met: cluster of differentiation (CD) 4+ count ≥ 350/μL, undetectable viral load, and receiving highly active antiretroviral therapy.\n* Life expectancy of greater than 3 months.\n* Patients must have adequate organ and marrow function defined by study-specified laboratory tests prior to initial study drug.\n* Woman of childbearing potential must have a negative pregnancy test and follow contraceptive guidelines as defined per protocol.\n* Men must use acceptable form of birth control while on study.\n* Ability to understand and willingness to sign a written informed consent document.\n\nExclusion Criteria\n\n* Known history or evidence of brain metastases.\n* Has had chemotherapy, radiation, or biological cancer therapy within 14 days prior to the first dose of study drug.\n* Has received an investigational agent or used an investigational device within 28 days of the first dose of study drug.\n* Expected to require any other form of systemic or localized antineoplastic therapy while on study.\n* Has had major surgery within 28 days of dosing of investigational agent, excluding minor procedures.\n* Has received a live vaccine within 28 days prior to the first dose of study drug.\n* Prior treatment with immunotherapy agents (including, anti-PD-1, anti-PD-L1, anti-PD-L2, anti-CTLA4, anti-OX40 and LAG-3 antibodies)\n* Have used any systemic steroids within 14 days of study treatment.\n* Hypersensitivity reaction to any monoclonal antibody.\n* Evidence of clinical or radiographic ascites.\n* Have clinically significant and/or malignant pleural effusion.\n* Uncontrolled intercurrent illness including, but not limited to, uncontrolled infection, symptomatic congestive heart failure, unstable angina, cardiac arrhythmia, metastatic cancer, or psychiatric illness/social situations that would limit compliance with study requirements.\n* History of autoimmune disease requiring systemic immunosuppression within the last 2 years.\n* Presence of any tissue or organ allograft, regardless of need for immunosuppression, including corneal allograft. Patients with a history of allogeneic hematopoeitic stem cell transplant will be excluded.\n* All toxicities attributed to prior anti-cancer therapy other than alopecia and fatigue must have resolved to a grade 1 or baseline before administration of study drug.\n* Infection with Hepatitis A, B or C.\n* Patient has a pulse oximetry of \\<92% on room air.\n* Patient is on supplemental home oxygen.\n* Has an unhealed surgical wound or ulcer, or a bone fracture considered non-healing.\n* Patient has clinically significant heart disease.\n* Patient is, at the time of signing informed consent, a regular user (including \"recreational use\") of any illicit drugs or other substance abuse.\n* Unwilling or unable to follow the study schedule for any reason.\n* Patient has history of non-infectious pneumonitis.\n* Serum albumin level less than 2.8 g/dL.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Disease Control Rate (DCR) at 4 Months Using RECIST 1.1",
+        "description": "Disease control rate (DCR) is defined as the proportion of subjects with complete response, partial response and stable disease based on RECIST 1.1 criteria. CR = disappearance of all target lesions, PR is =\\>30% decrease in sum of diameters of target lesions. SD=Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum diameters while on study. Subjects who discontinue due to toxicity prior to post-baseline tumor assessments will be evaluable and considered treatment failures.",
+        "timeFrame": "4 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Objective Response Rate (ORR) Using RECIST 1.1.",
+        "description": "ORR is defined as the proportion subjects with partial response (PR) or complete response (CR) according to RECIST 1.1. Subjects who discontinue due to toxicity or clinical progression prior to post-baseline tumor assessments will be considered as non-responders",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "Progression-free Survival (PFS)",
+        "description": "Progression-free survival (PFS) is defined as the number of months from the first dose of retifanlimab to radiographic disease progression (PD or relapse from CR as assessed using RECIST 1.1 criteria), documented clinical progression as assessed by the treating provider, or death due to any cause. PFS will be censored at the date of the last scan for subjects without documentation of disease progression at the time of analysis.",
+        "timeFrame": "34 months"
+      },
+      {
+        "measure": "Grade 3 and Higher Study Drug-related Toxicities.",
+        "description": "Number of participants experiencing study drug-related adverse events Grade 3 or higher as defined by CTCAE v5.0.",
+        "timeFrame": "26 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 27,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:47.227Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

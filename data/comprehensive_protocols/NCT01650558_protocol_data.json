@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT01650558",
+  "briefTitle": "Daily Trimethoprim-sulfamethoxazole or Weekly Chloroquine Among Adults on ART in Malawi",
+  "officialTitle": "Randomized, Open-label Controlled Trial of Daily Trimethoprim-sulfamethoxazole or Weekly Chloroquine Among Adults on Anti-retroviral Therapy in Malawi",
+  "protocolDocument": {
+    "nctId": "NCT01650558",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-09-02",
+    "uploadDate": "2019-07-23T09:29",
+    "size": 702853,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01650558/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1499,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-11",
+    "completionDate": "2018-07-31",
+    "primaryCompletionDate": "2018-07-31",
+    "firstSubmitDate": "2012-07-06",
+    "firstPostDate": "2012-07-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18 years or older\n* Documented HIV-1 infection\n* Initiation of ART through a government-sponsored ART program at least six months prior\n* Undetectable HIV viral load (\\< 400 copies/mL)\n* CD4 count \\> 250/mm3\n* TS prophylaxis prescribed for at least the previous 2 months\n* Intention to remain in the study area until the end of the study period\n* Informed consent from participant\n* Female study volunteers of reproductive potential must have a negative urine pregnancy test performed within 20 days before randomization.\n* Female study volunteers of reproductive potential who participate in sexual activity that could lead to pregnancy must use contraception (male or female condoms, diaphragm or cervical cap with spermicide, intrauterine device, or hormone-based contraceptive) while receiving their assigned study drug and for one month after stopping the medications.\n\nExclusion Criteria:\n\n* Severe acute illness (defined as requiring hospitalization at the time of screening or other conditions such as laboratory abnormalities as determined by the investigators)\n* Chronic treatment (requiring therapy for \\> 14 days) or secondary prophylaxis (for toxoplasmosis, Pneumocystis pneumonia, or tuberculosis for example) with any drug with antimalarial or antibacterial activity\n* History of hypersensitivity to antifolate drugs or CQ\n* Laboratory exclusion criteria\n* Hemoglobin \\< 8.0 gm/dL\n* Platelet count \\< 50,000/mm3\n* Absolute granulocyte count \\< 500/mm3\n* Serum alanine aminotransferase (ALT) concentration \\> 210 U/L for men, \\>160 U/L for women\n* Serum creatinine concentration \\> 3.3mg/dl (291.7µmol/L) for men, and \\> 2.7mg/dl (238.7µmol/L) for women)\n* History of visual field or retinal changes\n* History of preexisting auditory damage\n* History of porphyria\n* History of psoriasis\n* History of liver disease\n* History of seizure disorder\n* History of glucose-6-phosphate dehydrogenase (G6PD) deficiency\n* History of ECG and cardiac conduction abnormality or cardiomyopathy\n* History of myopathy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Severe Events",
+        "description": "Incidence of severe events (composite of death and WHO stage 3 and 4 illness)",
+        "timeFrame": "22-66 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With at Least One Detectable HIV Viral Load",
+        "description": "Number of participants who ever have a detectable viral load (\\>400 copies/ml).",
+        "timeFrame": "Throughout study participation, measured every six months (2-5.5 years)."
+      },
+      {
+        "measure": "CD4 Cell Count",
+        "description": "Number of Participants with at Least One CD4 Count \\<200",
+        "timeFrame": "Every 6 months for 22-66 months"
+      },
+      {
+        "measure": "WHO HIV Stage 2, 3, 4 Illness",
+        "description": "Incidence of any WHO HIV stage 2, 3, or 4 illness",
+        "timeFrame": "32-66 months"
+      },
+      {
+        "measure": "Bacterial Infections and Malaria",
+        "description": "Incidence of bacterial infections and malaria",
+        "timeFrame": "32-66 months"
+      },
+      {
+        "measure": "Adverse Events Greater Than or Equal to Grade 3 That Are Related to the Study Product",
+        "description": "Occurrence of adverse events that are greater than or equal to Grade 3 that require discontinuation of TS or CQ prophylaxis",
+        "timeFrame": "32-66 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Bacterial or Malaria Infection With CQ or TS Resistant Organism",
+        "description": "Occurrence of bacterial or malaria infection with CQ or TS resistant organism",
+        "timeFrame": "32-66 months"
+      },
+      {
+        "measure": "Clinical and Parasitological Response to Antimalarial Therapy",
+        "description": "Clinical and parasitological response to antimalarial therapy in cases of uncomplicated malaria",
+        "timeFrame": "32-66 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 2,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 53,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:21.043Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

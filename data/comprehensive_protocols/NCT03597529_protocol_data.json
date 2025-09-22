@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT03597529",
+  "briefTitle": "CHOCOlate MeLatonin for AdolescenT MigrainE",
+  "officialTitle": "CHOCOlate MeLatonin for AdolescenT MigrainE: The CHOCOLATE Study",
+  "protocolDocument": {
+    "nctId": "NCT03597529",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-02-05",
+    "uploadDate": "2021-03-25T19:07",
+    "size": 338769,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03597529/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 84,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-09-25",
+    "completionDate": "2019-12-01",
+    "primaryCompletionDate": "2019-12-01",
+    "firstSubmitDate": "2017-06-26",
+    "firstPostDate": "2018-07-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Meet ICHD criteria for episodic migraine in children and adolescents, with at least 1 migraine attack per month on average.\n2. Age 3-17 years\n3. Dissatisfaction with previous acute treatments, for one or more of the following reasons: a) One or more previously tried acute medications have not been effective, or adequately effective, b) previously tried acute treatments have caused side effects, or C) patient/family would prefer a natural supplement for acute treatment over medication treatment\n4. If of driving age, teen participant agrees not to drive for at least 8 hours after treating with melatonin.\n\nExclusion Criteria:\n\n1. Allergy or intolerance to melatonin, or to chocolate.\n2. Opioid or barbiturate overuse as defined in ICHD\n3. Pregnant/lactating",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "3 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Mean Visual Analog Scale (VAS) Score",
+        "description": "Visual Analog Scale (VAS) score ranges from 0-10, measured in cm, 0 indicating no pain and 10 indicating the worst pain.",
+        "timeFrame": "Baseline (Time 0) and 2 hours"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:55.033Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

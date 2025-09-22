@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03688074",
+  "briefTitle": "Study to Evaluate Tezepelumab on Airway Inflammation in Adults With Uncontrolled Asthma (CASCADE)",
+  "officialTitle": "A Phase 2, Randomized, Double-blind, Parallel Group, Placebo Controlled Study to Evaluate the Effect of Tezepelumab on Airway Inflammation in Adults With Inadequately Controlled Asthma on Inhaled Corticosteroids and at Least One Additional Asthma Controller (CASCADE)",
+  "protocolDocument": {
+    "nctId": "NCT03688074",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-04-30",
+    "uploadDate": "2021-11-12T14:32",
+    "size": 1260234,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03688074/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 116,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-11-02",
+    "completionDate": "2020-11-16",
+    "primaryCompletionDate": "2020-11-16",
+    "firstSubmitDate": "2018-09-26",
+    "firstPostDate": "2018-09-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Principal Inclusion Criteria:\n\n* Subject must be 18 to 75 years of age.\n* Documented physician-diagnosed asthma for at least 12 months.\n* Subjects who have received a physician- prescribed asthma controller medication with medium or high dose ICS for at least 12 months; must be stable for at least 3 months prior to screening visit.\n* At least one additional maintenance asthma controller medication is required according to standard practice of care and must be documented for at least 3 months.\n* At enrolment, the subject must have a predicted normal value for the morning pre-bronchodilator FEV1\\>50% and more than 1L.\n* Evidence of asthma as documented by reversibility of FEV1 ≥12% and ≥200 mL in the previous 12 months prior to screening, or during the screening period prior to randomization.\n* ACQ-6 score ≥ 1.5 during the screening period prior to randomization.\n\nPrincipal Exclusion Criteria:\n\n* Any clinically important pulmonary disease other than asthma.\n* History of cancer.\n* Hospitalization or required OCS for asthma exacerbation within 6 weeks of enrolment or \\>3 exacerbations requiring OCS or hospitalization in the year prior to visit 1 or who had been intubated or admitted to ICU for asthma exacerbation in the year prior to enrolment.\n* History of a clinically significant infection, including upper (URTI) or lower respiratory tract infection (LRTI), requiring treatment with antibiotics or antiviral medications finalized \\<2 weeks before visit 1 or during the run-in period.\n* Current smokers or subjects with smoking history ≥10 pack-yrs, including e-cigarettes. Former smokers with a smoking history of \\<10 pack-yrs must have stopped for at least 6 months prior to visit 1, including e-cigarette use.\n* History of chronic alcohol or drug abuse within 12 months prior to visit 1.\n* Tuberculosis requiring treatment within 12 months prior to visit 1.\n* History of known immunodeficiency disorder including a positive HIV test at visit 1, or the subject is taking antiretroviral medications as determined by medical history and/or subject's verbal report.\n* History of anaphylaxis or documented immune complex disease (type III hypersensitivity reactions) following any biologic therapy Subject randomized in a previous Tezepelumab study or in a current study with another investigational product.\n* Pregnant, breastfeeding or lactating women.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Airway Submucosal Inflammatory Cells Ratio Change From Baseline to EOT.",
+        "description": "The change from baseline to end of treatment (EOT) expressed as a ratio i.e. (EOT/baseline) in numbers of each of the airway submucosal inflammatory cells, determined by microscopic evaluation of bronchoscopic biopsies.",
+        "timeFrame": "First dose of investigational product to end of treatment (EOT) at Week 28 (or up to Week 48 due to COVID19 pandemic)."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Reticular Basement Membrane (RBM) Thickness Ratio Change From Baseline to EOT.",
+        "description": "The change from baseline to EOT expressed as a ratio i.e. (EOT/baseline) in RBM thickness, determined by microscopic evaluation of bronchoscopic biopsies.",
+        "timeFrame": "First dose of investigational product to end of treatment (EOT) at Week 28 (or up to Week 48 due to COVID19 pandemic)."
+      },
+      {
+        "measure": "Percent (%) Airway Epithelial Integrity Ratio Change From Baseline to EOT.",
+        "description": "The change from baseline to EOT expressed as a ratio i.e. (EOT/baseline) in % airway epithelial, determined by microscopic evaluation of bronchoscopic biopsies.",
+        "timeFrame": "First dose of investigational product to end of treatment (EOT) at Week 28 (or up to Week 48 due to COVID19 pandemic)."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:23.939Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

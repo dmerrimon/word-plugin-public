@@ -1,0 +1,127 @@
+{
+  "nctId": "NCT05526716",
+  "briefTitle": "A Study to Evaluate the Safety, Tolerability, and Immunogenicity of V116 When Administered Concomitantly With Influenza Vaccine in Adults 50 Years of Age or Older (V116-005, STRIDE-5)",
+  "officialTitle": "A Phase 3 Randomized, Double-blind, Placebo-Controlled Clinical Study to Evaluate the Safety, Tolerability, and Immunogenicity of V116 When Administered Concomitantly With Influenza Vaccine in Adults 50 Years of Age or Older",
+  "protocolDocument": {
+    "nctId": "NCT05526716",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-06-09",
+    "uploadDate": "2024-06-12T15:01",
+    "size": 888036,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05526716/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1080,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-09-23",
+    "completionDate": "2023-06-21",
+    "primaryCompletionDate": "2023-06-21",
+    "firstSubmitDate": "2022-08-31",
+    "firstPostDate": "2022-09-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Any underlying chronic conditions were assessed to be in stable condition per the investigator's judgment\n* Females: Not pregnant or a breast feeding and not a woman of childbearing potential (WOCBP) or a WOCBP agrees to use contraception or remain abstinent\n\nExclusion Criteria:\n\n* History of IPD or other culture-positive pneumococcal disease\n* Known or suspected impairment of immunological function\n* Receipt of systemic corticosteroids or immunosuppressive therapy\n* Received any pneumococcal vaccine \\<12 months prior to enrollment\n* Prior administration of PCV15 or PCV20\n* Received any influenza vaccine \\<6 months prior to enrollment",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Solicited Injection-site Adverse Events (AEs)",
+        "description": "An adverse event (AE) is any untoward medical occurrence in a patient or clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention. Solicited injection-site AEs included erythema, pain, and swelling.",
+        "timeFrame": "Up to 5 days post-vaccination"
+      },
+      {
+        "measure": "Number of Participants With Solicited Systemic AEs",
+        "description": "An adverse event (AE) is any untoward medical occurrence in a patient or clinical study participant, temporally associated with the use of study treatment, whether or not considered related to the study treatment. Solicited systemic AEs include fatigue, headache, myalgia, and pyrexia.",
+        "timeFrame": "Up to 5 days post-vaccination"
+      },
+      {
+        "measure": "Percentage of Participants With Vaccine-related Serious Adverse Events (SAEs)",
+        "description": "A serious adverse event (SAE) is any untoward medical occurrence that, at any dose, results in death, is life threatening, requires inpatient hospitalization or prolongs existing hospitalization, results in persistent or significant disability/incapacity, is a congenital anomaly/birth defect, or is another important medical event. SAEs that were reported to be at least possibly related by the investigator to study vaccination are summarized.",
+        "timeFrame": "Up to ~6 months postvaccination with V116"
+      },
+      {
+        "measure": "Geometric Mean Titer (GMT) of Serotype-specific Opsonophagocytic Activity (OPA) Responses",
+        "description": "OPA for the serotypes in V116 were determined using a multiplexed opsonophagocytic assay (MOPA). Serotype-specific OPA GMTs (GMTs) (estimated) and GMT ratios with 95% CIs were calculated using a constrained longitudinal data analysis (cLDA) model utilizing data from both vaccination groups. Per the statistical analysis plan, the only CIs calculated were the between-group CIs (for the GMT ratios); within-group CIs were not calculated.",
+        "timeFrame": "30 days after V116 vaccination (Day 30 for concomitant group and Day 59 for sequential group)"
+      },
+      {
+        "measure": "GMT of Influenza Strain-specific Hemagglutination Inhibition (HAI)",
+        "description": "GMTs for the 4 strains contained in QIV vaccine were determined using an HAI assay.",
+        "timeFrame": "Day 30"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Geometric Mean Concentration (GMC) of Serotype-specific Immunoglobulin G (IgG)",
+        "description": "The GMCs of serotype-specific IgG for the serotypes contained in V116 were determined using a pneumococcal electrochemiluminescence (Pn ECL) assay.",
+        "timeFrame": "30 days after V116 vaccination (Day 30 for concomitant group and Day 59 for sequential group)"
+      },
+      {
+        "measure": "Geometric Mean Fold Rise (GMFR) Ratio of Serotype-specific OPA",
+        "description": "OPA for the serotypes in V116 were determined using a MOPA. GMFR ratio is defined as the geometric mean of the ratio of concentration at Day 30 after vaccination divided by concentration at baseline.",
+        "timeFrame": "Baseline (Day 1 for the concomitant group and Day 30 for the sequential group) and Postvaccination (Day 30 for the concomitant group and Day 59 for the sequential group)"
+      },
+      {
+        "measure": "GMFR Ratio of Serotype-specific IgG",
+        "description": "GMFR ratios for the serotype-specific IgG in V116 were determined using a Pn ECL.",
+        "timeFrame": "Baseline (Day 1 for the concomitant group and Day 30 for the sequential group) and Postvaccination (Day 30 for the concomitant group and Day 59 for the sequential group)"
+      },
+      {
+        "measure": "GMFR in Influenza Strain-specific HAI",
+        "description": "Activity for the 4 strains contained in QIV vaccine was determined using an HAI assay. GMFR is GMT 30 days after vaccination / GMT at Baseline.",
+        "timeFrame": "Day 1 (Baseline) and Day 30 (Postvaccination)"
+      },
+      {
+        "measure": "Percentage of Participants Who Seroconvert for Influenza Strain-specific HAI Titer ≥1:40",
+        "description": "The percentage of participants with seroconversion is presented. Activity for the 4 strains contained in QIV vaccine was determined using an HAI assay.",
+        "timeFrame": "Day 30"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:33.615Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

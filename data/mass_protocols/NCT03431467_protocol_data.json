@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT03431467",
+  "briefTitle": "Impella CP With VA ECMO for Cardiogenic Shock",
+  "officialTitle": "A Prospective Randomised Trial of Early LV Venting Using Impella CP for Recovery in Patients With Cardiogenic Shock Managed With VA ECMO",
+  "protocolDocument": {
+    "nctId": "NCT03431467",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-12-20",
+    "uploadDate": "2018-01-29T18:11",
+    "size": 1068697,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03431467/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-03-19",
+    "completionDate": "2023-09-01",
+    "primaryCompletionDate": "2023-09-01",
+    "firstSubmitDate": "2018-01-21",
+    "firstPostDate": "2018-02-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Cardiogenic shock: Including refractory to conventional therapy, including systolic blood pressure \\< 90mm Hg, Cardiac Index \\< 1.8 or a cardiac index \\< 2.0 on moderate to high doses of inotropes and vasopressors for greater than 30 mins, or systemic signs of tissue hypoxia.\n* Post-acute myocardial infarction cardiogenic shock: excluding mechanical complications requiring surgical intervention after extracorpeal membrane oxygenator (ECMO) such as post-ischaemic ventricular septal defect (VSD).\n* Drug overdose-induced cardiogenic shock.\n* Early graft failure: post orthotropic heart transplantation cardiogenic shock, excluding immediate intra-operative failure.\n* Acute on chronic cardiomyopathy with progressive shock and decompensation unresponsive to medical therapies.\n\nExclusion Criteria:\n\n* Recent Significant Pulmonary Embolus\n* Moderate to severe aortic valve insufficiency (AI)\n* Ongoing significant sepsis\n* Severe pulmonary hypertension \\& shock\n* Hypothermia\n* Post-cardiotomy cardiogenic shock\n* Continuous cardiopulmonary resuscitation (CPR) \\>20-30 minutes, except if neurological status is satisfactory\n* Transfer from outside hospital on VA ECMO or with history of CPR\n* Listed for cardiopulmonary transplantation or being evaluated for cardiopulmonary transplantation or permanent mechanical circulatory support\n* Known or suspected chronic heart failure with echocardiogram documenting left ventricular diastolic diameter \\>6.5cm\n* Known or suspected chronic heart failure with echocardiogram documenting left ventricular ejection fraction \\< 25%\n* Mechanical aortic valve replacement\n* Presence of left ventricular thrombus\n* Pre-existing Impella 2.5, CP, 3.5 or 5.0\n* Cardiogenic shock due to primary respiratory failure\n* Mechanical complications requiring surgical intervention after ECMO such as post-ischaemic VSD.\n* Severe liver failure\n* Active malignancy\n* Acute aortic dissection\n* Intracranial hemorrhage\n* Neurological injury including recent cerebrovascular accident or suspected severe neurologic injury",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Recovery from cardiogenic shock.",
+        "description": "Proportion of subjects treated with this standardized ECMO protocol with either (i) no additional therapy or (ii) Impella CP for LV mechanical unloading who experience myocardial recovery defined as: survival free from mechanical circulatory support, heart transplantation or inotropic support.",
+        "timeFrame": "At thirty days."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Survival to hospital discharge.",
+        "timeFrame": "At discharge from hospital, an average of 60 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:03.588Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

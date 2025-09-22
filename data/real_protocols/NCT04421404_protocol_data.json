@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT04421404",
+  "briefTitle": "Effects of COVID-19 Convalescent Plasma (CCP) on Coronavirus-associated Complications in Hospitalized Patients",
+  "officialTitle": "A Randomized Controlled Adaptive Study Comparing COVID-19 Convalescent Plasma (CCP) to Non-immune Plasma to Limit Coronavirus-associated Complications in Hospitalized Patients",
+  "protocolDocument": {
+    "nctId": "NCT04421404",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-07-26",
+    "uploadDate": "2021-05-17T18:57",
+    "size": 1551934,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04421404/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 34,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-06-09",
+    "completionDate": "2021-04-30",
+    "primaryCompletionDate": "2021-04-30",
+    "firstSubmitDate": "2020-06-03",
+    "firstPostDate": "2020-06-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria for Enrollment:\n\n1. Patients ≥18 years of age\n2. Hospitalized with COVID-19\n3. Enrolled within 72 hours of hospitalization OR within day 14 from first signs of illness\n4. Pulmonary infiltrates on chest imaging\n5. Oxygenation of \\<95% on room air\n6. Laboratory confirmed COVID-19\n\nExclusion Criteria\n\n1. Contraindication to transfusion due to inability to tolerate additional fluid, such as due to decompensated congestive heart failure\n2. Baseline requirement for oxygen supplementation prior to COVID-19 infection or use of positive pressure therapy for sleep disordered breathing\n3. Currently experiencing severe hypoxemic failure, as defined in study endpoints\n4. Prior receipt of plasma products, IVIG, or hyperimmune globulin within past 3 months\n5. Not currently enrolled another interventional clinical trial of COVID-19 treatment.\n\nNote: If taking medications with potential anti-COVID activity for the purpose of COVID-19 treatment that do not yet have data to support efficacy, such as IL-6 antagonists, these medications must be stopped prior to enrollment. Receipt of current standard of care COVID-19 treatment, including remdesivir and dexamethasone is permitted and should be recorded as a concomitant medication.\n\nNote: Pregnancy is not exclusionary but will merit additional discussion of risks \\& benefits in the context of ongoing pregnancy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mechanical Ventilation or Death Endpoint",
+        "description": "Number of participants that progressed to mechanical ventilation or death within the first 14 days of enrollment.",
+        "timeFrame": "Day 14"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Mechanical Ventilation or Death Endpoint",
+        "description": "Progression to mechanical ventilation or death within the first 28 days of enrollment.",
+        "timeFrame": "Day 28"
+      },
+      {
+        "measure": "8-Point Ordinal Scale Endpoint",
+        "description": "Clinical efficacy of CCP relative to the control arm in adults hospitalized with COVID-19 according to clinical status as assessed by 8-point ordinal scale.\n\n8 Point WHO Ordinal Scale of Clinical Status:\n\nUninfected (No clinical or virological evidence of infection) - 0\n\nAmbulatory (No limitation of activities) - 1 Ambulatory (Limitation of Activities) - 2\n\nHospitalized Mild Disease (Hospitalized, no oxygen therapy) - 3 Hospitalized Mild Disease (Oxygen by mask or nasal prongs) - 4\n\nHospitalized Severe Disease (Non-invasive ventilation or high flow oxygen) - 5 Hospitalized Severe Disease (Intubation and mechanical ventilation) - 6 Hospitalized Severe Disease (Ventilation + Additional organ support (pressors, RRT, ECMO)) - 7\n\nDead (Death) - 8",
+        "timeFrame": "Day 29"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 6,
+      "exclusionCount": 1,
+      "totalCount": 7
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:32:23.757Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

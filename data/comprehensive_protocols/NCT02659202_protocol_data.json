@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT02659202",
+  "briefTitle": "Spinal Stimulation During Exercise in Heart Failure",
+  "officialTitle": "Spinal Cord Stimulation to Inhibit Afferent Feedback During Exercise in Heart Failure",
+  "protocolDocument": {
+    "nctId": "NCT02659202",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-02-05",
+    "uploadDate": "2024-04-17T14:52",
+    "size": 723782,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02659202/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-06",
+    "completionDate": "2018-03-23",
+    "primaryCompletionDate": "2018-03-23",
+    "firstSubmitDate": "2016-01-11",
+    "firstPostDate": "2016-01-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria, includes:\n\n* Heart Failure patients with reduced ejection fraction:\n* History of ischemic or idiopathic dilated cardiomyopathy (duration \\> 1yr.) stable for \\> 3mo and New York Heart Association Class I-III\n* Not pacemaker dependent\n* Body Mass Index ≤35\n* Ejection Fraction \\< 40%\n* Current nonsmokers with \\< 15 pack year history\n* Able to exercise\n\nExclusion Criteria includes:\n\n* History of cardiopulmonary disorders and dangerous arrhythmias\n* Pregnant women\n* Taking prescribed opioid medications or have had a fusion or laminectomy at L3 or above\n* Patients with a recent drug-eluding stent\n* History of spinal stenosis, lumbar radiculopathy, or peripheral neuropathy\n* Must not currently be taking blood thinners or anticoagulant medications.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean Arterial Pressure",
+        "description": "This will allow for continuous real-time intra-arterial measurement of beat-to-beat blood pressure.",
+        "timeFrame": "2 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:30.686Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

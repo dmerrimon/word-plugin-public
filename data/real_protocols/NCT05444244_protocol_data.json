@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT05444244",
+  "briefTitle": "A Relational Research Recruitment and Engagement Intervention for Cognitive Aging Research",
+  "officialTitle": "Novel Approaches to Identifying and Engaging Disadvantaged Patients With Alzheimer's Disease (AD) in Clinical Research",
+  "protocolDocument": {
+    "nctId": "NCT05444244",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-10-31",
+    "uploadDate": "2023-11-14T18:47",
+    "size": 198477,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05444244/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 182,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-08-01",
+    "completionDate": "2023-05-31",
+    "primaryCompletionDate": "2023-05-31",
+    "firstSubmitDate": "2022-06-29",
+    "firstPostDate": "2022-07-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria for Participants Ages 40 or Older:\n\n* English-speaking\n* Interested in learning about research opportunities related to aging, brain health, and caregiving\n* If evidence of a lack of decision-making capacity is present, presence and consent from a legally authorized representative (LAR) in addition to assent from the participant with cognitive challenges\n\nInclusion Criteria for Caregiver Participants Ages 18 or Older:\n\n* English-speaking\n* Has had previous or current contact (phone, in-person, coordination of services, etc.) with a person with Alzheimer's disease or related dementia at least monthly and provides unpaid support to the individual which can be health, financial, social, or logistical in nature\n* Interested in learning about research opportunities related to aging and brain health, particularly related to care for people living with Alzheimer's disease or related dementia\n\nExclusion Criteria for Participants Ages 40 or Older:\n\n* Is not interested in learning about research opportunities related to aging and brain health\n* Under 40 years of age and/or no ADRD caregiving experience\n* Evidence of a lack of decision-making capacity and LAR cannot be found or contacted\n* Populations who are completely blind or completely deaf\n\nExclusion Criteria for Caregiver Participants Ages 18 or Older:\n\n* Frequency of contact with the person with ADRD is or has been less than monthly\n* Nature of contact does not involve providing supports for person with ADRD, or caregiver is paid for supports\n* Under 18 years of age\n* Populations who are completely blind or completely deaf",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Enrolled in Each Recruitment Arm",
+        "description": "Number of participants enrolled in the Brain Health Community Registry",
+        "timeFrame": "10 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Retained Over Time",
+        "description": "Number of participants in the Brain Health Community Registry",
+        "timeFrame": "10 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Participants Matched With Resources",
+        "description": "As part of the Brain Health Community Registry, participants were given the option to have a tailored list of resources created for them. Resources included transportation needs, caregiving support groups, resources related to eyeglasses or hearing aids, food, and other needs. This measure indicates the number of participants out of the 182 total participants that requested and received a personal resource list.",
+        "timeFrame": "10 months"
+      }
+    ]
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 6,
+      "exclusionCount": 8,
+      "totalCount": 14
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 70,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:32:48.860Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

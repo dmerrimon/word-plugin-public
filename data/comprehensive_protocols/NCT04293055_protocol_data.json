@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT04293055",
+  "briefTitle": "Phone Coaching for Weight Loss Maintenance",
+  "officialTitle": "Examination of Phone Coaching as a Weight Loss Maintenance Strategy",
+  "protocolDocument": {
+    "nctId": "NCT04293055",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-10-28",
+    "uploadDate": "2024-08-09T16:43",
+    "size": 206420,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04293055/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 77,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-03-04",
+    "completionDate": "2023-08-23",
+    "primaryCompletionDate": "2023-08-23",
+    "firstSubmitDate": "2020-02-27",
+    "firstPostDate": "2020-03-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18-72 years of age\n* Recent completion of a 1-year behavioral weight loss program\n* Achievement of \\>=5% weight loss at the end of the 1-year weight loss program\n\nExclusion Criteria:\n\n* Not currently enrolled in another weight management program",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "72 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percent Change in Body Weight From Baseline to Month 12",
+        "timeFrame": "Baseline and Month 12"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percent Weight Change Over the Coaching Period",
+        "description": "The 'coaching period' weight change was calculated by subtracting the 'trigger date' weight (i.e., the weight measurement from the smart scale on the day the participant achieved the trigger threshold, which was defined as the final day in a series of 4 days \\>1.5% or the final day in which the previous 7 days averaged \\>1.5%) from the smart scale weight 40 days following the 'trigger date'. Percent weight change was then calculated by taking the 'coaching period weight change' and dividing it by the 'trigger date weight' and multiplying by 100. Therefore, a negative number indicates weight loss and a positive number indicates weight gain over the 40-day coaching period.",
+        "timeFrame": "Trigger date and 40 days post-trigger date"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:16.781Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

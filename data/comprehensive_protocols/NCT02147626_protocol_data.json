@@ -1,0 +1,111 @@
+{
+  "nctId": "NCT02147626",
+  "briefTitle": "Heart Health 4 Moms Trial to Reduce CVD Risk After Preeclampsia",
+  "officialTitle": "Heart Health 4 Moms: Engaging Women With a Recent History of Preeclampsia to Reduce Their Cardiovascular Disease Risk",
+  "protocolDocument": {
+    "nctId": "NCT02147626",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-01-05",
+    "uploadDate": "2019-07-09T13:46",
+    "size": 985045,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02147626/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 151,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-09-21",
+    "completionDate": "2017-05-31",
+    "primaryCompletionDate": "2017-05-31",
+    "firstSubmitDate": "2014-05-20",
+    "firstPostDate": "2014-05-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Within 5 years of a live birth complicated by preeclampsia as determined by medical chart review\n* Age \\>=18\n* Not pregnant\n* Normotensive or prehypertensive\n* Access to the internet via computer or mobile device\n* Able to communicate in English or Spanish at an 8th grade level.\n\nExclusion Criteria:\n\n* Type 1 or Type 2 diabetes\n* Currently pregnant\n* Diagnosis of hypertension BP \\>140/90 mm Hg or on medications for treatment of hypertension",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "44 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Eating Habits Confidence Survey",
+        "description": "The Eating Habits Confidence Survey measures the self-efficacy of a patient to improve their diet. Scores range from 1 (low self-efficacy) to 5 (high self-efficacy). A higher score is a better outcome.",
+        "timeFrame": "9 months after intervention starts"
+      },
+      {
+        "measure": "Exercise Confidence Survey",
+        "description": "The Exercise Confidence Survey measures self-efficacy of patient to increase physical activity Scores range from 1 (low self-efficacy) to 5 (high self-efficacy). A higher score is a better outcome.",
+        "timeFrame": "9 months after intervention starts"
+      },
+      {
+        "measure": "DASH Online Questionnaire",
+        "description": "The DASH Online Questionnaire is a food frequency questionnaire that prompts recall of daily servings of foods and beverages consumed in the past 30 days. We calculate a DASH score based on daily intake of eight components (fruits, vegetables, nuts and legumes, whole grains, low-fat dairy, sodium, lean meats and poultry, and sweets). Quintile rankings were summed across components to obtain a summary DASH score for each participant that ranged from 8 to 40. A higher score indicates higher DASH compliance.",
+        "timeFrame": "9 months after intervention starts"
+      },
+      {
+        "measure": "Pregnancy Physical Activity Questionnaire",
+        "description": "The Pregnancy Physical Activity Questionnaire is a validated questionnaire for women that includes activities relevant to caring for young children. Our measure ascertained type, duration, and frequency of recreational activity and childcare activity. It also measured inactivity (sedentary behavior), such as reading, using a computer, and watching television. The time spent in each activity is multiplied by its intensity measured in Metabolic Equivalent of Task Value (METS) to yield the average weekly energy expenditure related to that activity. The score ranged from 0 to 113 METS per week.",
+        "timeFrame": "9 months after intervention starts"
+      },
+      {
+        "measure": "Physical Inactivity in the Pregnancy Physical Activity Questionnaire",
+        "description": "The Pregnancy Physical Activity Questionnaire is a validated questionnaire for women that includes activities relevant to caring for young children. Our measure ascertained type, duration, and frequency of recreational activity and childcare activity. It also measured inactivity (sedentary behavior), such as reading, using a computer, and watching TV. The time spent in each inactivity was summed. The hours per week of reported inactivity ranged from 0 to 85.",
+        "timeFrame": "9 months after intervention starts"
+      },
+      {
+        "measure": "Patient Knowledge of Cardiovascular Disease Risk",
+        "description": "Adapted from 2012 American Heart Association National Survey of women's knowledge of their cardiovascular disease (CVD) risk; adaptation is knowledge of risk with respect to preeclampsia history. The score ranges from 1 (low knowledge) to 4 (high knowledge).",
+        "timeFrame": "9 months after intervention starts"
+      },
+      {
+        "measure": "Patient Control Over Cardiovascular Disease Risk",
+        "description": "To assess women's sense of personal control over their health, we adapted Kim and Walker's survey on perception of chronic diabetes risk among women with a history of gestational diabetes, using factor analysis (with varimax rotation) to reduce seven items from the Kim scales to a single factor we named ''Personal Control over Cardiovascular Disease Risk.'' The resulting measure had a Cronbach's alpha of 0.73. The score ranges from 1 (low control) to 4 (high control). High control is a better outcome.",
+        "timeFrame": "9 months after intervention starts"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 7,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:14.999Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

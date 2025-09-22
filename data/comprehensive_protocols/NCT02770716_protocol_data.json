@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT02770716",
+  "briefTitle": "Study To Confirm Efficacy and Safety of Terlipressin in Hepatorenal Syndrome (HRS) Type 1",
+  "officialTitle": "A Multi-Center, Randomized, Placebo Controlled, Double-Blind Study to Confirm Efficacy and Safety of Terlipressin in Subjects With Hepatorenal Syndrome Type 1 (The CONFIRM Study)",
+  "protocolDocument": {
+    "nctId": "NCT02770716",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-02",
+    "uploadDate": "2022-11-01T09:37",
+    "size": 1452740,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02770716/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 300,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07-13",
+    "completionDate": "2019-07-24",
+    "primaryCompletionDate": "2019-07-24",
+    "firstSubmitDate": "2016-05-10",
+    "firstPostDate": "2016-05-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Written informed consent by participant or legally authorized representative\n* Cirrhosis and ascites\n* Rapidly progressive worsening in renal function to a serum creatinine (SCr) at least 2.25 mg/dL and meeting a trajectory for SCr to double over 2 weeks\n* No sustained improvement in renal function (less than 20% decrease in SCr and SCr at least 2.25 mg/dL) at least 48 hours after diuretic withdrawal and the beginning of plasma volume expansion with albumin\n* Discontinues midodrine and octreotide before randomization if applicable\n\nExclusion Criteria:\n\n* Serum creatinine level greater than 7.0 mg/dL\n* At least 1 event of large volume paracentesis (LVP) at least 4 L within 2 days of randomization\n* Sepsis and/or uncontrolled bacterial infection\n* Less than 2 days anti-infective therapy for documented or suspected infection\n* Shock\n* Being treatment with or exposure to nephrotoxic agents, nonsteroidal anti-inflammatory drugs, or significant radiographic contrast agents (within the last 4 weeks)\n* Estimated life expectancy of less than 3 days\n* Superimposed acute liver injury due to drugs, dietary supplements, herbal preparations, viral hepatitis, or toxins, with the exception of acute alcoholic hepatitis\n* Proteinuria greater than 500 mg/day\n* Evidence of obstructive uropathy or parenchymal renal disease on ultrasound or other imaging\n* Tubular epithelial casts, heme granular casts, hematuria or microhematuria (greater than 50 red blood cells per high power field in the absence of recent catheterization) on urinalysis\n* Pregnancy; all women of child-bearing age and potential must have a negative pregnancy test\n* Cardiovascular disease judged by the investigator to be severe\n* Current or recent renal replacement therapy (RRT) within the past 4 weeks\n* Participation in other clinical research involving investigational medicinal products within 30 days of randomization\n* Transjugular intrahepatic portosystemic shunt (TIPS) within 30 days of randomization\n* Use of vasopressors for at least 3 consecutive days within the 14-day screening period - patients receiving any vasopressor other than midodrine and octreotide within 24 hours of qualifying SCr are also excluded, ie, a 24-hour washout is required prior to enrollment\n* Known allergy or sensitivity to terlipressin or another component of the study treatment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Verified HRS Reversal",
+        "description": "Defined as the percentage of participants with 2 consecutive SCr values ≤ 1.5 mg/dL at least 2 hours apart, while on treatment by Day 14 or discharge (on treatment defined as up to 24 hours after the final dose of study drug), per protocol.",
+        "timeFrame": "within 15 Days"
+      },
+      {
+        "measure": "Percentage of Participants Who Were Viable (Per Protocol) for Inclusion in the Primary End Point Analysis",
+        "description": "Defined as the percentage of participants with verified HRS reversal who lived at least 10 days without RRT, and were otherwise viable (per protocol) for inclusion in the primary endpoint analysis",
+        "timeFrame": "within 25 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With HRS Reversal",
+        "description": "Defined as the percentage of participants with a SCr value no more than 1.5 mg/dL by Day 14 or discharge, and were viable (per protocol) for inclusion in the secondary endpoint analysis",
+        "timeFrame": "within 14 days"
+      },
+      {
+        "measure": "Percentage of Participants With Durable HRS Reversal",
+        "description": "Defined as the percentage of participants maintaining HRS reversal without RRT to Day 30",
+        "timeFrame": "Day 30"
+      },
+      {
+        "measure": "Percentage pf Participants in the SIRS Subgroup With HRS Reversal",
+        "description": "Defined as the percentage of participants in the SIRS subgroup with HRS reversal by Day 14 or discharge",
+        "timeFrame": "within 14 days"
+      },
+      {
+        "measure": "Percentage of Participants With Verified HRS Reversal Without HRS Recurrence by Day 30",
+        "description": "Defined as the percentage of participants who had achieved verified HRS reversal by Day 15 or discharge and did not revert to baseline measures by day 30",
+        "timeFrame": "Day 30"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:13.194Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

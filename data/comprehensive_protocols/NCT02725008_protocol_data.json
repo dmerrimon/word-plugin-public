@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02725008",
+  "briefTitle": "Trial of One Versus Two Doses of Dexamethasone for Pediatric Asthma Exacerbation",
+  "officialTitle": "A Randomized Double Blinded Placebo Controlled Trial of One Versus Two Doses of Oral Dexamethasone for the Treatment of Acute Asthma Exacerbation in the Pediatric Emergency Department (ED)",
+  "protocolDocument": {
+    "nctId": "NCT02725008",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-02-13",
+    "uploadDate": "2018-11-30T08:36",
+    "size": 161403,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02725008/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 99,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-11",
+    "completionDate": "2017-11",
+    "primaryCompletionDate": "2017-11",
+    "firstSubmitDate": "2016-03-18",
+    "firstPostDate": "2016-03-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* History of asthma defined as at least two (2) prior episodes of respiratory illness characterized by wheezing treated with inhaled beta agonists\n\nExclusion Criteria:\n\n* pregnancy\n* severe chronic cardiac, respiratory, neurological or neuromuscular disease\n* complete resolution of symptoms after one treatment of beta agonists\n* severe asthma symptoms as defined by a Pulmonary Index Score of 12 or greater",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Months",
+    "maximumAge": "20 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Treatment Failure",
+        "description": "number of patients who experience any of the following outcomes - unplanned hospital admission for asthma symptoms, unplanned ED visit for asthma symptoms, unplanned urgent care visit for asthma symptoms, unplanned primary care physician visit for asthma symptoms, or prescription of a course of steroids",
+        "timeFrame": "5 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Symptom Severity From Day 1 to Day 5",
+        "description": "Severity of asthma symptoms as reported by the Patient Self Assessment Score. Patients assessed severity of asthma symptoms in 4 categories (wheezing, coughing, activity and sleep) once per day during the 5 days between study enrollment and follow-up. Score range is 0 - 12 with 0 being mildest symptoms and 12 being most severe symptoms. Reported as change in score between enrollment (day 1) and follow-up (day 5).",
+        "timeFrame": "5 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:21.305Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

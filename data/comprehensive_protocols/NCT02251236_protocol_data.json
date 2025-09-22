@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT02251236",
+  "briefTitle": "Elvitegravir (EVG) Cerebrospinal Fluid (CSF) Pharmacokinetics in HIV-Infected Individuals",
+  "officialTitle": "Elvitegravir (EVG) Cerebrospinal Fluid (CSF) Pharmacokinetics in HIV-Infected Individuals",
+  "protocolDocument": {
+    "nctId": "NCT02251236",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-07-02",
+    "uploadDate": "2019-10-08T16:09",
+    "size": 266957,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02251236/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 14,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-01",
+    "completionDate": "2017-01-18",
+    "primaryCompletionDate": "2017-01-18",
+    "firstSubmitDate": "2014-09-24",
+    "firstPostDate": "2014-09-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adult men or women aged 18-60 years. Able and willing to provide informed consent.\n* Presence of HIV-1 infection as documented by a licensed ELISA test kit and confirmed by Western blot or HIV RNA.\n* Track A (Currently taking E/C/F/TDF or E/C/F/TAF): Taking E/C/F/TDF or E/C/F/TAF for at least 3 months prior to screening and undetectable plasma HIV-1 RNA (≤ 40 copies/mL)\n* Track B (Currently not taking ART): Off ART for at least 3 months. Prior exposure to TDF and FTC will be allowed but subjects must not have primary genotypic drug resistance mutations to elvitegravir, tenofovir, or emtricitabine (see Exclusion Criteria)\n* Plasma HIV-1 RNA ≥ 5,000c/mL and CD4+ T-cell count ≥200cells/mm3.\n\nExclusion Criteria:\n\n* Track B: Presence of primary drug resistance mutations for EVG, tenofovir, or emtricitabine.\n* Use of drugs of abuse or alcohol which would interfere with adherence or completion of this study. While on-study, subjects will be instructed not to consume alcohol for 48 hours prior to pharmacokinetic sampling days.\n* Pregnancy or breast-feeding. Women of childbearing potential must have a negative serum or urine pregnancy test within 14 days prior to study entry and day of entry.\n* Chronic, severe, or other medical conditions that, in the opinion of the investigator, would interfere with the subjects ability to participate in the protocol.\n* Use of prohibited protocol-specified drugs, prescription or over-the-counter, within 14 days prior to study entry.\n* Bleeding abnormality or other contraindication to lumbar puncture.\n* Moderate or severe cognitive impairment by history or based on Montreal Cognitive Assessment.\n* Hepatitis B surface antigen (HBsAg) positive (Positive anti-HBs antibody and negative HBsAg results are acceptable)\n* Hepatitis C antibody (HCV Ab) positive\n* Laboratory parameters documented within 21 days prior to study entry that would increase the risk for adverse events:\n\n  1. Hemoglobin \\< 12.5 g/dL for men; \\< 11.5 g/dL for women;\n  2. Platelet count \\< 100,000 platelets/mm3;\n  3. AST (SGOT) or ALT (SGPT) \\> 1.5 x the upper limit of normal (ULN);\n  4. Estimated GFR\\<70 ml/min\n  5. Weight less than 50 kg",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Concentration of Elvitegravir in Cerebrospinal Fluid at Baseline",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Concentration of Elvitegravir in Cerebrospinal Fluid at Week 24",
+        "timeFrame": "Week 24"
+      },
+      {
+        "measure": "Concentration of Tenofovir in Cerebrospinal Fluid at Baseline",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Concentration of Tenofovir in Cerebrospinal Fluid at Week 24",
+        "timeFrame": "Week 24"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:19.014Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

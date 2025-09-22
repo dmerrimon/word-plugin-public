@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03411044",
+  "briefTitle": "Fitmore Hip Stem PMCF Study: A Multi-centre, Non-comparative, Prospective Post-market Clinical Follow-up Study.",
+  "officialTitle": "Fitmore Hip Stem Post-Market Clinical Follow-Up (PMCF) Study",
+  "protocolDocument": {
+    "nctId": "NCT03411044",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2010-11-02",
+    "uploadDate": "2023-10-10T05:18",
+    "size": 200623,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03411044/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 420,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2008-02-08",
+    "completionDate": "2023-06-10",
+    "primaryCompletionDate": "2023-06-10",
+    "firstSubmitDate": "2018-01-19",
+    "firstPostDate": "2018-01-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients who are capable of understanding the doctor\"s explanations, following his instructions and who are able to participate in the follow-up program.\n* Patients who have given written consent to take part in the study by signing the \"Patient Consent Form\".\n* 18 years minimum.\n* Male and female.\n* Patients suffering from severe hip pain and disability requiring hip surgery or as indicated in the treatment of a fracture.\n\nExclusion Criteria:\n\n* Patients who are unwilling or unable to give consent or to comply with the follow-up program.\n* Pregnancy.\n* Patients who are skeletally immature.",
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Harris Hip Score",
+        "description": "The Harris hip Score (HHS) is an outcome measure that includes a series of questions answered by the patient and physical examinations recorded by a qualified health care Professional. The HHS covers four domains: pain (one item, 0-44 points), function and functional activities (seven items, 0-47 points), absence of deformity (one item, 0-4 points) and range of motion (one item, 0-5 points). The total score can vary from a range of 0 - 100. The outcome score can be categorized as Excellent: 90-100; Good: 80-90; Fair: 70-80; Poor: \\< 70.",
+        "timeFrame": "Preop, 6 - 12 weeks, 1 year, 2 year, 3 year, 5 year, 7 and 10 years"
+      },
+      {
+        "measure": "Radiographic Evaluations",
+        "description": "Radiographic evaluation was assessed at the time points listed below in order to identify potential adverse events.",
+        "timeFrame": "6 - 12 weeks and 7 years"
+      },
+      {
+        "measure": "Survivorship",
+        "description": "The primary endpoint for this study is implant survival at 10 years which is assessed by revision of the Fitmore Hip Stem calculated using the Kaplan-Meier Survival Estimation. The survivorship with Kaplan-Meier (K-M) was calculated at 10 year for endpoint revision of any component.",
+        "timeFrame": "10 years post surgery"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "EQ5D",
+        "description": "The EuroQol 5 Dimension (EQ-5D) is a standardized Instrument widely used to measure health status. It is a self reported assessment about the patient's quality of life composed of two parts: a questionnaire and a visual analogue scale (VAS). The questionnaire includes 5 questions referring to mobility, selfcare, daily activities, pain/discomfort, and anxiety/depression. Each question can be answered in five ways, indicating no, slight, moderate, severe problems or inability to complete the task. The EQ-5D-5L score ranges from -0.59 to 1, where 1 is the best possible health state. The Visual Analogue Scale (VAS) is a vertical scale ranges from 100 ('The best health you can imagine') to 0 ('The worst health you can imagine') where the patient reports his/her self-rated health.",
+        "timeFrame": "Preop, 6-12 weeks, 1 Year, 2 Year, 3 Year, 5 Year, 7 Year and 10 Year"
+      },
+      {
+        "measure": "SF-12 Physical and Mental Functional Scores",
+        "description": "The SF-12 is a multipurpose short-form (SF) generic measure of health status. It consists of twelve questions that measure eight health domains to assess physical and mental health. Physical health-related domains include General Health (GH), Physical Functioning (PF), Role Physical (RP), and Body Pain (BP). Mental health-related scales include Vitality (VT), Social Functioning (SF), Role Emotional (RE), and Mental Health (MH). Scores ranges from 0 to 100, with higher scores indicating better physical and mental health functioning.",
+        "timeFrame": "Preop, 6-12 Weeks, 1 Year, 2 Year, 3 Year, 5 Year, 7 Year and 10 Year"
+      },
+      {
+        "measure": "Oxford Hip Score",
+        "description": "The Oxford Hip Score (OHS) is a patient-reported outcome measure that was developed to specifically assess the patient's perspective of outcome following THA. The OHS consists of twelve questions covering function and pain associated with the hip. To calculate the total score, each response is scored from 0 (warst outcome) to 4 (best outcome) and the sum of all 12 items is reported with a maximum of 48, representing the best score possible. The Score ranges from 0 - 100 and the outcome score can be categorized as Excellent: \\> 41; Good: 34 - 41; Fair: 27 - 33; Poor: \\< 27.",
+        "timeFrame": "Preop, 6-12 Weeks, 1 Year, 2 Year, 3 Year, 5 Year, 7 Year and 10 Year"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 5,
+      "exclusionCount": 3,
+      "totalCount": 8
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 76,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:33:03.097Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

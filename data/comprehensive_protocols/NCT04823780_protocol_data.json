@@ -1,0 +1,74 @@
+{
+  "nctId": "NCT04823780",
+  "briefTitle": "The Effects of Early Enteral Nutrition on Endoscopic Therapy of Esophagogastric Varices in Liver Cirrhosis",
+  "officialTitle": "Investigation of the Effects of Early Enteral Nutrition on Endoscopic Therapy of Esophagogastric Varices in Liver Cirrhosis:An Observational Study",
+  "protocolDocument": {
+    "nctId": "NCT04823780",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-09-01",
+    "uploadDate": "2022-02-14T23:50",
+    "size": 143100,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04823780/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 397,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-09-01",
+    "completionDate": "2021-10-20",
+    "primaryCompletionDate": "2021-08-30",
+    "firstSubmitDate": "2021-02-04",
+    "firstPostDate": "2021-04-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with cirrhosis of gastroesophageal varices undergoing endoscopic therapy\n\nExclusion Criteria:\n\n* Endoscopic treatment of uncontrollable bleeding\n* Accompanied with other endoscopic treatments that need to be fasting\n* With obvious hepatic encephalopathy and liver failure\n* Did not sign the informed consent form and refused to participate",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "rebleeding",
+        "description": "the rate of rebleeding after endoscopic therapy",
+        "timeFrame": "2 to 30days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:11.435Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

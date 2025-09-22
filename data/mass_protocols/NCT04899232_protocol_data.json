@@ -1,0 +1,132 @@
+{
+  "nctId": "NCT04899232",
+  "briefTitle": "Antithrombin III in Infectious Disease Caused by COVID-19",
+  "officialTitle": "Antithrombin III (AT3) in Infectious Disease Caused by Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-COV-2)/ Coronavirus Disease of 2019 (COVID-19)",
+  "protocolDocument": {
+    "nctId": "NCT04899232",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-01-24",
+    "uploadDate": "2022-06-02T13:08",
+    "size": 245009,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04899232/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 52,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-07-06",
+    "completionDate": "2022-03-31",
+    "primaryCompletionDate": "2022-03-31",
+    "firstSubmitDate": "2021-05-20",
+    "firstPostDate": "2021-05-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "INCLUSION CRITERIA:\n\n1. \\>18y of age,\n2. Subject or proxy who can provide informed consent\n3. Positive SARS-COV-2 by Polymerase Chain Reaction (PCR) or as determined by clinical team\n\nEXCLUSION CRITERIA:\n\n1. Adults or Proxy unable to consent\n2. Individuals who are not yet adults (infants, children, teenagers)\n3. Pregnant women\n4. Prisoners\n5. Patients expected to die within 24 hours or with a \"do not resuscitate\" order,\n6. Multi-organ failure,\n7. History of hypersensitivity or allergy to any component of the study drug,\n8. Ongoing massive surgical or unexplained bleeding,\n9. History of bleeding or clotting disorder,\n10. Severe traumatic brain injury (Glasgow Coma Scale \\<6),\n11. Spinal or multiple-trauma,\n12. Cancer (incurable/terminal phase) and/or patients receiving palliative care,\n13. Enrollment in another concurrent clinical interventional study if considered interfering with this study objectives\n14. Per study team discretion, any condition(s) that may prevent safe treatment, preclude adequate evaluation or adding further risk to their underlying illness.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in ISTH DIC Score",
+        "description": "As measured by the International Society of Thrombosis and Haemostasis Disseminated Intravascular Coagulation scale (ISTH DIC) which has a total score ranging from 0-8 with a score of 5 and higher indicating overt DIC.",
+        "timeFrame": "Baseline, Day 9"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in D-Dimer Levels",
+        "description": "D-Dimer levels assessed from blood samples will be evaluated in mcg/ml D-Dimer Units (DDU)",
+        "timeFrame": "Baseline, Day 9"
+      },
+      {
+        "measure": "Change in Fibrinogen Levels",
+        "description": "Fibrinogen levels assessed from blood samples will be evaluated in mg/dL.",
+        "timeFrame": "Baseline, Day 9"
+      },
+      {
+        "measure": "Change in Prothrombin Time",
+        "description": "Prothrombin time assessed from blood samples will be evaluated in seconds.",
+        "timeFrame": "Baseline, Day 9"
+      },
+      {
+        "measure": "Length of Hospital Stay",
+        "description": "Length of Hospital Stay reported in days.",
+        "timeFrame": "Up to 60 days"
+      },
+      {
+        "measure": "Mortality Rate",
+        "description": "The number of participants with reported death.",
+        "timeFrame": "Up to 60 days"
+      },
+      {
+        "measure": "Pulmonary Function",
+        "description": "Pulmonary Function will be reported as the mean days the participant was on any of the following: mechanical ventilation and/or Extracorporeal Membrane Oxygenation (ECMO) use.",
+        "timeFrame": "Up to 60 days"
+      },
+      {
+        "measure": "Change in SOFA Scores",
+        "description": "Sequential Organ Failure Assessment (SOFA) is scored from 0-4 with the higher score indicating more organ failure.",
+        "timeFrame": "Baseline, Day9"
+      },
+      {
+        "measure": "Change in SOFA Respiratory Sub Score",
+        "description": "SOFA Respiratory Sub Score is scored from 0-4 with the higher score indicating worse organ failure.",
+        "timeFrame": "Baseline, Day 9"
+      },
+      {
+        "measure": "Number of Events of Venous Thromboembolism",
+        "description": "Number of events of venous thromboembolisms from admission to hospital discharge.",
+        "timeFrame": "Up to 60 days"
+      },
+      {
+        "measure": "Number of Events of Major Bleeding",
+        "description": "Number of events of major bleeding from admission to hospital discharge.",
+        "timeFrame": "Up to 60 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:08.489Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

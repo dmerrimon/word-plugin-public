@@ -1,0 +1,104 @@
+{
+  "nctId": "NCT03296579",
+  "briefTitle": "Non-invasive Ventilation vs. Standard Therapy for Children Hospitalized With an Acute Exacerbation of Asthma",
+  "officialTitle": "A Prospective Open Randomized Clinical Trial of Non-invasive Ventilation Versus Standard Therapy for Children Hospitalized With an Acute Exacerbation of Asthma.",
+  "protocolDocument": {
+    "nctId": "NCT03296579",
+    "filename": "Prot_SAP_004.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-09-27",
+    "uploadDate": "2017-09-29T14:44",
+    "size": 343900,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03296579/document/Prot_SAP_004.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2018-06",
+    "completionDate": "2018-12",
+    "primaryCompletionDate": "2018-11",
+    "firstSubmitDate": "2017-09-21",
+    "firstPostDate": "2017-09-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 2-18 years old\n* Clinical diagnosis of acute asthma exacerbation (respiratory rate greater than WHO's age-dependent criteria, a history of similar previous episodes and wheezing heard on auscultation by an experienced physician)\n* PRAM score of 8 or more after 2 hours post-steroid administration\n* Parents willing and able to sign consent\n* Children over the age of 6 willing to provide assent\n\nExclusion Criteria:\n\n* Clinical suspicion of bacterial pneumonia: focal crackles or bronchial breathing, and/or major chest x-ray findings.\n* Impending respiratory failure at presentation requiring direct PICU admission\n* Any contraindication to BiPAP use including altered mental status, recent bowel surgery, intractable vomiting, inability to protect airway, pneumothorax.\n* Receiving maintenance dose of oral steroid at time of hospital admission\n* History of serious unrelated illness such as congenital heart disease or bronchopulmonary dysplasia.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time to reach a PRAM score of ≤3",
+        "description": "PRAM score includes assessment of oxygen saturations, suprasternal retractions, scalene muscle contraction, air entry and wheezing.",
+        "timeFrame": "Patients will be followed for the duration of their hospital stay (an estimated average duration of 4 days)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time to room air",
+        "description": "Time that oxygen is required",
+        "timeFrame": "Patients will be followed for the duration of their hospital stay (an estimated average of 4 days)."
+      },
+      {
+        "measure": "Total medication use per 12 hr period",
+        "description": "Comparison of total medication use by children in each arm.",
+        "timeFrame": "Patients will be followed for the duration of their hospital stay (an estimated average of 4 days)."
+      },
+      {
+        "measure": "Numbers failing treatment and transferred to ICU",
+        "description": "Number of patients in each group that fail treatment and require transfer to ICU",
+        "timeFrame": "Patients will be followed for the duration of their hospital stay (an estimated average of 4 days)."
+      }
+    ],
+    "other": [
+      {
+        "measure": "Time to reach FEV1 >80% predicted in those children able to perform pulmonary function tests",
+        "description": "Standard pulmonary function tests can usually be performed by children \\>6 years.",
+        "timeFrame": "Patients will be followed for the duration of their hospital stay (an estimated average of 4 days)."
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 1,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 41,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:23.359Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

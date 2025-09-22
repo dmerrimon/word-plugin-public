@@ -1,0 +1,100 @@
+{
+  "nctId": "NCT03290014",
+  "briefTitle": "Sleep Quality in (COPD) Patients (COPD: Chronic Obstructive Pulmonary Disease)",
+  "officialTitle": "Sleep Quality in COPD Patients. A Clinical and Polysomnographic Study",
+  "protocolDocument": {
+    "nctId": "NCT03290014",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-06-10",
+    "uploadDate": "2017-09-12T10:21",
+    "size": 180589,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03290014/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 58,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2017-03-01",
+    "completionDate": "2018-09-30",
+    "primaryCompletionDate": "2018-06-30",
+    "firstSubmitDate": "2017-09-08",
+    "firstPostDate": "2017-09-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\nPatients with written inform consent to participate in the study and all the following criteria will be selected:\n\n* Age 40-80 years\n* Smokers or exsmokers of at least 10 pack-years\n* Moderate-to-severe COPD\n\nExclusion criteria:\n\n* Non-stable COPD. Stability is defined as being exacerbation free and without treatment changes for at least 4 weeks prior to baseline evaluation. The presence of a COPD exacerbation previous to the sleep studies (polysomnography, actigraphy, OSLER test) will lead to an early discontinuation of the patient´s participation in the study.\n* Heart failure, asthma, cancer or other major medical illness with known effects on sleep quality.\n* Unable to understanding the questionnaires administered in the study.\n* Known Obstructive Sleep Apnea, other sleep disorder (narcolepsy, periodic limb movements) or shift work.\n* Chronic respiratory failure (PaO2 \\<60 mmHg).\n* Treatment with sedatives or antidepressants.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Sleep efficiency",
+        "description": "Sleep time/Time in bed",
+        "timeFrame": "One night at the sleep unit"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Total sleep time",
+        "description": "Total sleep time",
+        "timeFrame": "One night at the sleep unit"
+      },
+      {
+        "measure": "Arousal index",
+        "description": "number of arousals/hour of sleep",
+        "timeFrame": "One night at the sleep unit"
+      },
+      {
+        "measure": "sleep architecture",
+        "description": "percentage of the different sleep phases",
+        "timeFrame": "One night at the sleep unit"
+      },
+      {
+        "measure": "Osler test error index",
+        "description": "number of errors",
+        "timeFrame": "Next morning after polysomnography (8a.m.--4 p.m.)"
+      },
+      {
+        "measure": "Actigraphy",
+        "description": "Monitoring of rest/activity cycles",
+        "timeFrame": "One week previous to polysomnography"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:28.715Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

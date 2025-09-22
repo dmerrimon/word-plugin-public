@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT02170389",
+  "briefTitle": "Vaccine Therapy Before Surgery in Treating Patients With Localized Kidney Cancer",
+  "officialTitle": "Neoadjuvant AGS-003 Immunotherapy in Patients With Localized Kidney Cancer &lt;pT2",
+  "protocolDocument": {
+    "nctId": "NCT02170389",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-03-13",
+    "uploadDate": "2020-06-19T13:46",
+    "size": 950401,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02170389/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-10-14",
+    "completionDate": "2017-03-17",
+    "primaryCompletionDate": "2017-03-17",
+    "firstSubmitDate": "2014-06-19",
+    "firstPostDate": "2014-06-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Have localized non-metastatic renal cell carcinoma (RCC) (\\< pT2, NO, MO), as per the American Joint Committee on Cancer (AJCC) seventh (7th) edition criteria\n* Must be surgical candidates as deemed fit by surgeon\n* Patients of child-bearing potential must agree to use adequate contraceptive methods (e.g., hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation; should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform the treating physician immediately\n* Willingness to undergo leukapheresis and biopsy procedures for the autologous components (peripheral blood mononuclear cells, plasma and fresh tumor specimen) required for manufacture of AGS-003\n* Patient or legal representative must understand the investigational nature of this study and sign an Independent Ethics Committee/Institutional Review Board approved written informed consent form prior to receiving any study related procedure\n\nExclusion Criteria:\n\n* Patients who have had chemotherapy or radiotherapy within 4 weeks (6 weeks for nitrosoureas or mitomycin C) prior to entering the study or those who have not recovered from adverse events due to agents administered more than 4 weeks earlier\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure (e.g., shortness of breath, fatigue, orthopnea, paroxysmal nocturnal dyspnea), unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements\n* Radiation to primary tumor prior to enrollment in this study\n* Pregnant or nursing female patients\n* Unwilling or unable to follow protocol requirements\n* Active autoimmune disease or condition requiring chronic immunosuppressive therapy (e.g., rheumatoid arthritis, systemic lupus erythematous, multiple sclerosis, organ transplant recipient, etc.)\n\n  * NOTE: abnormal laboratory values for autoimmunity markers in the absence of other signs/symptoms of autoimmune disease are not exclusionary\n* Known clinically significant infections, including human immunodeficiency virus (HIV) and active hepatitis B or C\n* Any condition which in the Investigator's opinion deems the patient an unsuitable candidate to receive treatment (i.e., any significant medical illness or abnormal laboratory finding that would, in the investigator's judgment, increase the subject's risk by participating in this study)\n* Chronic use of systemic corticosteroids (i.e., \\>= 10 mg/day prednisone or equivalent)\n* Received an investigational agent within 30 days prior to enrollment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Immune Marker Expression Levels",
+        "description": "The time component will be modeled as a three-level classification factor. The full model for the effects of time will be fit using linear mixed model methods. The model will include a random patient effect and 5 fixed effects for time and the interactions. The presence of any time effect will be assessed with full-reduced model type 3 test. If the omnibus test is statistically significant at the p \\< 0.05 level, then three pairwise time-point comparisons will be conducted.\n\nExpression measurements may be transformed to satisfy modeling assumptions.",
+        "timeFrame": "Baseline to up to 30 days post-nephrectomy"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Adverse Event Rates as Graded by the Common Terminology Criteria for Adverse Events Version 4.0",
+        "description": "Summarized in all patients who received AGS-003. These rates will be described as the proportion of patients with the event, by grade, and supported with exact 95% confidence intervals.",
+        "timeFrame": "Up to 30 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:47.436Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

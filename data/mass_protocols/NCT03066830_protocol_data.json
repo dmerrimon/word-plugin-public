@@ -1,0 +1,116 @@
+{
+  "nctId": "NCT03066830",
+  "briefTitle": "Efficacy and Safety of Sotagliflozin Versus Placebo in Participants With Type 2 Diabetes Mellitus on Background of Sulfonylurea Alone or With Metformin",
+  "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter Study to Evaluate the Efficacy and Safety of Sotagliflozin Added to a Sulfonylurea Alone or in Combination With Metformin in Patients With Type 2 Diabetes Who Have Inadequate Glycemic Control on a Sulfonylurea Alone or With Metformin",
+  "protocolDocument": {
+    "nctId": "NCT03066830",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-12-21",
+    "uploadDate": "2021-04-12T09:04",
+    "size": 3455609,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03066830/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 507,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-02-24",
+    "completionDate": "2019-04-30",
+    "primaryCompletionDate": "2019-04-17",
+    "firstSubmitDate": "2017-02-24",
+    "firstPostDate": "2017-02-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria :\n\n* Participants with T2D treated with a Sulfonylurea (≥half the maximum recommended dose as per local label or maximum tolerated dose \\[documented\\]) as monotherapy or in combination with Metformin (≥1500 mg per day or maximum tolerated dose \\[documented\\]) each at a stable dose for at least 12 weeks without a dose adjustment before screening.\n* Signed written informed consent.\n\nExclusion criteria:\n\n* At the time of screening, age \\<18 years or \\< legal age of majority, whichever is greater.\n* Body Mass Index (BMI) ≤20 or \\>45 kilograms per meter square (kg/m\\^2) at Screening.\n* Hemoglobin A1c (HbA1c) \\<7% or HbA1c \\>10% via central lab test at screening.\n* Fasting plasma glucose (FPG) \\>15 mmol/L (270 mg/dL) measured by the central laboratory at screening (Visit 1), and confirmed (\\>15 mmol/L \\[270 mg/dL\\]) by a repeat test before randomization.\n* Women of childbearing potential with no effective contraceptive method.\n* Treated with an antidiabetic pharmacological regimen other than a Sulfonylurea at a stable dose with or without Metformin within 12 weeks preceding the screening visit.\n* Previous insulin use \\>1 month (at any time, aside from treatment of gestational diabetes).\n* History of prior gastric surgical procedure including gastric banding or inflammatory bowel disease within 3 years before the Screening Visit.\n* History of diabetic ketoacidosis or nonketotic hyperosmolar coma within 12 weeks prior to the Screening Visit.\n* History of severe hypoglycemia within 6 months prior to the Screening visit.\n* Systolic blood pressure (SBP) \\>180 millimeter per mercury (mmHg) or diastolic blood pressure (DBP) \\>100 mmHg or history of hypertensive emergency.\n* Aspartate aminotransferase and/or alanine aminotransferase: \\>3 times the upper limit of the normal laboratory range (ULN).\n* Total bilirubin: \\>1.5 times ULN (except in case of Gilbert's syndrome).\n* Use of systemic glucocorticoids (excluding topical or ophthalmic, application or inhaled forms) for more than 10 consecutive days within 90 days prior to the Screening Visit.\n* Pregnancy, breastfeeding.\n* Participants is unwilling to perform self-monitoring of blood glucose (SMBG), and complete the participant's diary as required per protocol.\n\nThe above information is not intended to contain all considerations relevant to a participant's potential participation in a clinical trial.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Hemoglobin A1c (HbA1c) at Week 26",
+        "description": "Missing data are imputed using the retrieved dropouts imputation method. An analysis of covariance (ANCOVA) model was used for the analysis.",
+        "timeFrame": "Baseline to Week 26"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Fasting Plasma Glucose (FPG) at Week 26",
+        "description": "Missing data are imputed using the retrieved dropouts imputation method. An ANCOVA model was used for the analysis.",
+        "timeFrame": "Baseline to Week 26"
+      },
+      {
+        "measure": "Change From Baseline in Systolic Blood Pressure (SBP) for Participants With Baseline SBP ≥130 mmHg",
+        "description": "Missing data are imputed using the washout imputation method under the missing, not at random framework. An ANCOVA model was used for the analysis.",
+        "timeFrame": "Baseline to Week 12"
+      },
+      {
+        "measure": "Change From Baseline in SBP at Week 12 for All Participants",
+        "description": "Missing data are imputed using washout imputation method under the missing not at random framework. An ANCOVA model was used for the analysis.",
+        "timeFrame": "Baseline to Week 12"
+      },
+      {
+        "measure": "Change From Baseline in Body Weight at Week 26",
+        "description": "Missing data are imputed using the retrieved dropouts imputation method. An ANCOVA model was used for the analysis.",
+        "timeFrame": "Baseline to Week 26"
+      },
+      {
+        "measure": "Percentage of Participants With HbA1c <6.5% at Week 26",
+        "timeFrame": "Week 26"
+      },
+      {
+        "measure": "Percentage of Participants With HbA1c <7.0% at Week 26",
+        "timeFrame": "Week 26"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Percentage of Participants With Hypoglycemic Events",
+        "description": "Percentage of participants with hypoglycemic events are reported for the following 3 categories: Any hypoglycemia (as reported in the Electronic Case Report Form); Documented symptomatic hypoglycemia \\[typical symptoms of hypoglycemia (increased sweating, nervousness, asthenia/weakness, tremor, dizziness, increased appetite, palpitations, headache, sleep disorder, confusion, seizures, unconsciousness, and/or coma) and plasma glucose ≤ 70 mg/dL (3.9 mmol/L)\\]; Severe \\[an event requiring assistance of another person to actively administer carbohydrate, glucagon, intravenous glucose or other resuscitative actions\\] or documented symptomatic hypoglycemia \\[typical symptoms of hypoglycemia and plasma glucose ≤ 70 mg/dL\\]. Participants may be reported in more than one category.",
+        "timeFrame": "Up to 79 weeks in the treatment period"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 1,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 71,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:01.375Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

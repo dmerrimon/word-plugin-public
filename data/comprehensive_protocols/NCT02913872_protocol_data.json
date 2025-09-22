@@ -1,0 +1,105 @@
+{
+  "nctId": "NCT02913872",
+  "briefTitle": "Childhood Asthma Management in Primary Care: Implementation Of Exhaled Nitric Oxide and Spirometry Testing",
+  "officialTitle": "Childhood Asthma Management in Primary Care: Implementation Of Exhaled Nitric Oxide and Spirometry Testing",
+  "protocolDocument": {
+    "nctId": "NCT02913872",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-05-25",
+    "uploadDate": "2024-01-10T05:12",
+    "size": 527953,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02913872/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 613,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-06-01",
+    "completionDate": "2017-09-01",
+    "primaryCompletionDate": "2017-09-01",
+    "firstSubmitDate": "2016-09-09",
+    "firstPostDate": "2016-09-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. On the practice asthma register or\n2. Are prescribed regular (on repeat prescription) inhaled corticosteroids including beclometasone, fluticasone and budesonide and also search specifically for 'brands' that are commonly prescribed to include 'clenil', 'seretide', 'symbicort', and 'qvar' or\n3. Have been prescribed ≥ 2 Salbutamol MDI's in the last 12 months or\n4. Had a documented exacerbation of asthma in the last 12 months\n5. Able and willing, in the opinion of the Investigator, to give informed consent\n\nExclusion Criteria:\n\n1. Children who are unable to perform lung function tests for any reason\n2. Children and young people \\<5 years and \\>16 years\n3. Unable or unwilling, in the opinion of the Investigator, to give informed consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "maximumAge": "16 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time Needed to Perform Paediatric Spirometry and eNO Testing in General Practice",
+        "description": "Time (minutes) to perform both spirometry and eNO test in children",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Number of Children in Whom Usable Spirometry and eNO Data Can be Obtained",
+        "description": "Number of children (out of 612) able to perform objective tests",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The Number of Children in Whom a Diagnosis of Asthma Can be Confirmed Using Spirometry and eNO Testing",
+        "description": "Number of children in whom an asthma diagnosis could be confirmed on objective testing",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Change in Paediatric Asthma Quality of Life Questionnaire Score Measured at Enrolment and 3-6 Months Post-enrollment",
+        "description": "Timepoints - Assessed at enrolment and at 3-6 months post enrolment Purpose: The Paediatric Asthma Quality of Life Questionnaire (PAQLQ) was developed to measure the functional problems (physical, emotional and social) that are most troublesome to children with asthma.\n\nFormat: The PAQLQ can be administered by an interviewer or self-administered by the child Content: The PAQLQ contains 23 questions that cover three domains: activity limitation, symptoms, and emotional function Scoring: Children are asked to think about how they have been during the previous week and to respond to each of the 32 questions on a 7-point scale (7 = not bothered at all -\n\n1 = extremely bothered). The overall PAQLQ score is the mean of all 23 responses and the individual domain scores are the means of the items in those domains. A change in score greater than 0.5 on the 7-point scale can be considered clinically important.",
+        "timeFrame": "PAQLQ score was assessed at enrolment and then again at 3-6 months post enrolment"
+      },
+      {
+        "measure": "Change in Child Health Utility 9D Questionnaire Score Measured at Enrolment and at 3-6 Months Post-enrolment",
+        "description": "Timepoints - measured at enrolment and at 3-6 months post-enrolment Purpose: The CHU9D is a paediatric generic preference based measure of health related quality of life. It consists of a descriptive system and a set of preference weights, giving utility values for each health state described by the descriptive system, allowing the calculation of quality adjusted life years (QALYs) for use in cost utility analysis.\n\nFormat: Consists of nine dimensions of health-related quality of life, including worry, sadness, pain, tiredness, annoyance, school, sleep, daily routine, and activities. The child completes the questionnaire, or a proxy can complete it for younger children Scoring: Scores can range from -0.1059 (min) to 1 (max); with a score of 1 indicating a \"state of perfect health\", and a lower score indicating worse health. A minimally important difference (MID) of 0.03 is used to assess the magnitude of mean difference when comparing CHU9D scores.",
+        "timeFrame": "CHU9D score was assessed at enrolment and then again at 3-6 months post-enrolment."
+      }
+    ],
+    "other": [
+      {
+        "measure": "The Number of Primary Care Staff Who Found Providing Spirometry and eNO Testing for Children Acceptable After Being Trained",
+        "description": "Based on responses to a questionnaire administered at the end of their training using pre-determined responses along a 5-point likert scale.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "The Number of Participants Who Found Spirometry and eNO Testing Acceptable",
+        "description": "Based on responses to a questionnaire administered at the end of their asthma review using pre-determined responses along a 5-point likert scale.",
+        "timeFrame": "12 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 2,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 58,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:22.361Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

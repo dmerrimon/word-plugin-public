@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT05728736",
+  "briefTitle": "Acute Effect of Lemborexant on CSF Amyloid-Beta and Tau",
+  "officialTitle": "Acute Effect of Lemborexant on CSF Amyloid-Beta and Tau",
+  "protocolDocument": {
+    "nctId": "NCT05728736",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-06-21",
+    "uploadDate": "2023-11-01T13:06",
+    "size": 1307922,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05728736/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 0,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-03-01",
+    "completionDate": "2023-10-04",
+    "primaryCompletionDate": "2023-09-27",
+    "firstSubmitDate": "2023-02-05",
+    "firstPostDate": "2023-02-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 60-80 years\n* Any sex\n* Any race/ethnicity\n* Mini-Mental Status Examination score (MMSE) ≥ 27\n* Positive plasma amyloid-beta test (i.e., amyloid-positive)\n* Pittsburgh Sleep Quality Index \\>5\n\nExclusion Criteria:\n\n* Cognitive impairment as determined by history of MMSE \\< 27\n* Inability to speak or understand English\n* Any sleep disorders other than insomnia\n* No history of moderate-to-severe sleep-disordered breathing and STOP-Bang score \\> 5\n* History or reported symptoms suggestive of restless legs syndrome, narcolepsy or other sleep disorders\n* No more than mild sleep apnea (AHI \\<16) on PSG\n* Sleep schedule outside the range of bedtime 22:00-midnight\n* Contraindication to lumbar catheter (anticoagulants; bleeding disorder; allergy to lidocaine or disinfectant; prior central nervous system or lower back surgery)\n* Cardiovascular disease requiring medication except for controlled hypertension (PI discretion)\n* Stroke\n* Hepatic or renal impairment\n* Pulmonary disease (PI discretion)\n* Type 1 diabetes\n* HIV or AIDS\n* Neurologic or psychiatric disorder requiring medication (PI discretion)\n* Suicidal ideations\n* Alcohol, tobacco or marijuana use (PI discretion)\n* Use of sedating medications (PI discretion)\n* Inability to get out of bed independently\n* In the opinion of the investigator, the participant should be excluded due to an abnormal physical examination.\n* Current pregnancy\n* Body Mass Index \\>35\n* History of migraines (PI discretion)\n* History of drug abuse in the last 6 months\n* History or presence of any clinically significant medical condition, behavioral or psychiatric disorder (including suicidal ideation), or surgical history based on medical record or patient report that could affect the safety of the subject or interfere with study assessments or in the judgment of the PI participant is not a good candidate.\n* Urinary or fecal incontinence\n* Concurrently enrolled in another trial of an investigational drug or device",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in CNS tau phosphorylation",
+        "description": "Changes in CSF pT181/T181 ratio compared to placebo",
+        "timeFrame": "48 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Changes in other CSF AD biomarkers",
+        "description": "Changes in CSF pS202/S202, pT217/T217, and amyloid-beta",
+        "timeFrame": "48 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:42.069Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

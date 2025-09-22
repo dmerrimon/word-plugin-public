@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03071094",
+  "briefTitle": "A Trial to Evaluate the Safety and Efficacy of the Combination of the Oncolytic Immunotherapy Pexa-Vec With the PD-1 Receptor Blocking Antibody Nivolumab in the First-line Treatment of Advanced Hepatocellular Carcinoma (HCC)",
+  "officialTitle": "A Phase I/IIa Trial to Evaluate the Safety and Efficacy of the Combination of the Oncolytic Immunotherapy Pexa-Vec With the PD-1 Receptor Blocking Antibody Nivolumab in the First-line Treatment of Advanced Hepatocellular Carcinoma (HCC)",
+  "protocolDocument": {
+    "nctId": "NCT03071094",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-03-20",
+    "uploadDate": "2021-09-22T08:15",
+    "size": 9132132,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03071094/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 14,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-07-27",
+    "completionDate": "2021-02-03",
+    "primaryCompletionDate": "2020-09-30",
+    "firstSubmitDate": "2017-02-10",
+    "firstPostDate": "2017-03-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histological/cytological diagnosis of primary HCC, excluding cholangiocarcinoma, hepatocholangiocarcinoma, fibrolamellar carcinoma and hepatoblastoma\n* Advanced stage HCC per EASL-EORTC (European Association for the Study of the Liver-European Organisation for Research and Treatment of Cancer) guidelines, i.e. patients who are not candidates for curative interventions and not candidates for locoregional modalities\n* Patients naïve to systemic therapy for HCC\n* Tumor status (as determined by radiology evaluation): At least one measurable viable tumor in the liver, ≥1 cm longest diameter (LD), using a dynamic imaging technique (arterial phase of triphasic computerized tomography \\[CT\\] scan, or dynamic contrast-enhanced magnetic resonance imaging \\[MRI\\]), and injectable under imaging-guidance (CT or ultrasound)\n* At least one tumor that has not received prior local-regional treatment, or that has exhibited definitive growth of viable tumor since prior local-regional treatment of HCC undertaken at least 4 weeks prior to enrolment or 3 months prior to enrolment for radioembolization\n* Child-Pugh Class A. Note: paracentesis, albumin infusion or diuretic treatment cannot be used to downgrade Child-Pugh score (e.g., to improve from severe to moderate/mild or from moderate to mild ascites)\n* Performance status 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) scale\n* Adequate hematological, hepatic, and renal function\n* Additional inclusion criteria exist\n\nExclusion Criteria:\n\n* Histological diagnosis of cholangiocarcinoma, hepatocholangiocarcinoma, fibrolamellar carcinoma and hepatoblastoma\n* Symptomatic cardiovascular disease, including but not limited to significant coronary artery disease (e.g., requiring angioplasty or stenting) or congestive heart failure within the preceding 12 months\n* Current or past history of cardiovascular disease (e.g., past history of myocardial infarction, ischemic cardiomyopathy) unless cardiology consultation and clearance has been obtained for study participation\n* History of moderate or severe ascites, bleeding esophageal varices, hepatic encephalopathy or pleural effusions related to liver insufficiency within 6 months of screening; patients with adequately treated esophageal varices are allowed\n* Active, known or suspected significant immunodeficiency due to underlying illness including HIV/AIDS, autoimmune diseases, and/or immune-suppressive medication including high-dose corticosteroids\n* History of severe eczema and/or ongoing severe inflammatory skin condition (as determined by the Investigator) requiring medical treatment\n* Any known allergy or reaction to any component of nivolumab formulation or its excipients\n* Additional exclusion criteria exist",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Phase I: Number of Participants With Dose Limiting Toxicities (DLTs)",
+        "description": "DLTs are occurrence of any following AE related to study drugs occurring during 4 weeks after 1st Pexa-Vec injection:\n\n1. Grade 3-4 non-hematologic toxicity representing a 2-grade increase over baseline, excluding: nausea, vomiting, diarrhea, fever\\>40.0°C lasting less than 24h (grade 3), alopecia, grade 3 fatigue\\* and grade 3 laboratory/metabolic abnormalities\\* (\\*returning to grade 2 or less within 72h)\n2. Grade ≥ 3 acute immune-related AE involving major organs\n3. Grade ≥ 3 injection site reaction\n4. AST or ALT ≥ 10xULN unless related to liver metastases progression; AST or ALT doubling concurrent with total bilirubin doubling\n5. Any toxicity resulting in treatment delay of 2 or more weeks\n6. Grade ≥ 3 or ≥ 2-grade neutropenia increase over baseline lasting \\>7 days, neutropenic fever, grade 4 thrombocytopenia (or grade 3 with bleeding)\n7. Association of LVEF less than LLN, blood troponin T or I increase above ULN and any ECG abnormality indicating grade 3 cardiac disorder.",
+        "timeFrame": "4 weeks from the first study drug administration"
+      },
+      {
+        "measure": "Phase I: Number of Participants With Serious Adverse Events (SAEs)",
+        "description": "A Serious Adverse Event (SAE) is defined as any untoward medical occurrence or effect in a patient, whether or not considered related to the protocol treatment, that at any dose: (i) results in death, (ii) is life-threatening, (iii) requires inpatient's hospitalization or prolongation of existing inpatients´ hospitalization, (iv) results in persistent or significant disability or incapacity, (v) is a congenital anomaly or birth defect, (vi) results in any other medically important condition.",
+        "timeFrame": "4 weeks from the first study drug administration"
+      },
+      {
+        "measure": "Overall Response Rate (ORR) According to RECIST 1.1.",
+        "description": "Overall Response Rate (ORR): proportion of patients, whose best overall response is either complete response (CR) or partial response (PR), confirmed at least 4 weeks after initial documentation.",
+        "timeFrame": "6 months from the first study drug administration"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:45.510Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

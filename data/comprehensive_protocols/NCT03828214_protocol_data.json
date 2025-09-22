@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03828214",
+  "briefTitle": "Post Stroke Walking Kinematics Using the Honda Walking Assist Robotic Exoskeleton",
+  "officialTitle": "Post Stroke Walking Kinematics Using the Honda Walking Assist Robotic Exoskeleton",
+  "protocolDocument": {
+    "nctId": "NCT03828214",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-08",
+    "uploadDate": "2021-08-04T15:39",
+    "size": 468817,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03828214/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 11,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-12-11",
+    "completionDate": "2019-08-31",
+    "primaryCompletionDate": "2019-08-31",
+    "firstSubmitDate": "2019-01-31",
+    "firstPostDate": "2019-02-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* ≥12 weeks but \\<1 year post stroke at time of study participation\n* Age: 18-85 years\n* Ability to walk a minimum of 10 meters with standby assistance with or without orthosis or assistive device (Functional Ambulation categories 3, 4 or 5)\n* Able to follow three step commands\n* Express the ability to understand study tasks and purpose\n* Able and willing to provide written informed consent\n* Living in the community with the ability to travel to maurices Community Clinic for testing\n* Willingness to wear the StepWatch pedometer for a period of 3 days in their home\n* (If applicable) ≥ 90 days post major orthopedic surgery (such as a joint replacement)\n* (If applicable) ≥ 6 months post cardiac surgery\n\nExclusion Criteria:\n\n* Serious cardiac conditions (hospitalized for myocardial infarction or heart surgery within 3 months, congestive heart failure, unstable cardiac arrhythmias, hypertrophic cardiomyopathy, severe aortic stenosis, angina or dyspnea at rest or during activities of daily living)\n* Severe arthritis or orthopedic conditions that limit lower extremity range of motion (\\> 10° or \\< 90° knee flexion, lacking \\> 25° hip extension, \\>15° from neutral plantar flexion.)\n* Preexisting neurologic disorders such as Dementia, Multiple Sclerosis, Amyotrophic Lateral Sclerosis, Parkinson's Disease or Ataxia.\n* History of lower limb amputation, non-healing ulcers, legal blindness or severe visual impairment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Gait Kinematics",
+        "description": "Difference in affected leg maximum knee flexion angle (initial swing to midswing) between conditions Kinematic Analysis of Gait will be obtained using a Qualisys 8-camera motion capture system. Sample rate 120 Hz. A modified Istituti Ortopedici Rizzoli (IOR) gait marker set (\\~40 markers) applied bilaterally.",
+        "timeFrame": "Gait kinematics were measured in each of 4 conditions during one 2-hour session for each participant."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Lower Limb Electromyography (EMG)",
+        "description": "Average max EMG of affected tibialis anterior muscle measured during swing phase for walking conditions using Delsys Tringo EMG sensors. Sample rate 2000Hz.",
+        "timeFrame": "Measured during swing phase of gait during each of 4 walking conditions during a single data collection session."
+      },
+      {
+        "measure": "Ground Reaction Force at Terminal Stance",
+        "description": "2 Force platforms were used to quantify ground reaction forces at terminal stance for the affected lower limbs during gait. Sample rate 1200Hz.",
+        "timeFrame": "Force data will be measured at a single time point (in one 2-hour session) for each participant in each of 4 conditions."
+      },
+      {
+        "measure": "Stair Climbing Ascend/Descend Test",
+        "description": "A timed test of the ability to ascend and descend stairs with our without a rail. For this study a flight of 7 stairs will be used. The means of two trials of ascending and descending will be recorded. (Flansbjer et al., 2005)",
+        "timeFrame": "Stairs will be measured at a single time point (in one 2-hour session) for each participant"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:36.303Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

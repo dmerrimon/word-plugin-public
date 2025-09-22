@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT02642744",
+  "briefTitle": "Improving Coordination and Transitions of Care in Stroke Patients",
+  "officialTitle": "Improving Coordination and Transitions of Care for Stroke Patients With an Attending Nurse: a Comparative Effectiveness Single Center Study Comparing Models of Nursing Care",
+  "protocolDocument": {
+    "nctId": "NCT02642744",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-09-01",
+    "uploadDate": "2023-01-25T16:17",
+    "size": 635389,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02642744/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 670,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-10",
+    "completionDate": "2023-12",
+    "primaryCompletionDate": "2017-09-30",
+    "firstSubmitDate": "2015-12-24",
+    "firstPostDate": "2015-12-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* \\> 18 years of age\n* Admission to the Hospital of the University of Pennsylvania Vascular Neurology service\n* Incident or recurrent:\n* Ischemic stroke: focal neurological deficit of likely ischemic vascular origin\n* Intracerebral hemorrhage: blood seen on initial head CT\n* Transient Ischemic attack: focal neurological deficit of likely ischemic vascular origin that has clinically resolved\n\nExclusion Criteria:\n\n* Pregnancy\n* Comfort or hospice care\n* Severe dementia prior to stroke\n* Non-communicative and have no family/social support",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Stroke Patient Education Retention Tool",
+        "description": "measures patient knowledge about stroke",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "Medication Compliance",
+        "description": "medication adherence measurement",
+        "timeFrame": "90 Days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:36.675Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

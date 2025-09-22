@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT06065501",
+  "briefTitle": "Effects of Personalized Actionable Connected Extensible (PACE) Interventions Among Patients With Chronic Kidney Disease",
+  "officialTitle": "Frailty Trajectories and Effects of Personalized Actionable Connected Extensible (PACE) Interventions Among Patients With Chronic Kidney Disease: A Longitudinal Study",
+  "protocolDocument": {
+    "nctId": "NCT06065501",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-05-20",
+    "uploadDate": "2025-05-20T06:31",
+    "size": 62697,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06065501/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 120,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-10-19",
+    "completionDate": "2024-09-30",
+    "primaryCompletionDate": "2024-09-30",
+    "firstSubmitDate": "2023-09-26",
+    "firstPostDate": "2023-10-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosed with CKD stage 1 to 5\n* Participants with pre-frail and frail conditions.\n* Having access to a mobile phone and is capable of using mobile social network application (Line)\n\nExclusion Criteria:\n\n* Received renal replacement therapy\n* Participants achieved TTM stage 5",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Tilburg Frailty Indicator (TFI)",
+        "description": "Frailty was measured using the Tilburg Frailty Indicator (TFI), a 15-item self-reported questionnaire assessing physical, psychological, and social domains. Total score ranges from 0 to 15, with higher scores indicating greater frailty.",
+        "timeFrame": "Baseline, 3 months, and 6 months post-intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Physical Activity Level Measured by IPAQ-Taiwan",
+        "description": "Physical activity was assessed using the International Physical Activity Questionnaire - Taiwan version (IPAQ-Taiwan). Total physical activity score was calculated in MET-minutes/week, including walking, moderate, and vigorous intensity activities.",
+        "timeFrame": "Baseline, 3 months, and 6 months post-intervention"
+      },
+      {
+        "measure": "Health-promoting Lifestyle Behaviors (HPLP-II, Taiwan Version)",
+        "description": "Lifestyle behaviors were assessed using the HPLP-II, Taiwan version, including six subscales. Scores range from 52 to 208, with higher scores indicating more frequent health-promoting behaviors.",
+        "timeFrame": "Baseline, 3 months, and 6 months post-intervention"
+      },
+      {
+        "measure": "Nutritional Status Measured by MNA-SF",
+        "description": "Nutritional status was assessed using the Mini Nutritional Assessment - Short Form (MNA-SF), a 6-item tool scored 0-14. Higher scores indicate better nutritional status. A score ≥12 is considered normal. The Taiwan version was used.",
+        "timeFrame": "Baseline, 3 months, and 6 months post-intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:07.249Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

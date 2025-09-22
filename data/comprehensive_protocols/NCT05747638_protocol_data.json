@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT05747638",
+  "briefTitle": "Study of Children's Well-being After the COVID-19 Pandemic in Belgian French-speaking Primary Schools",
+  "officialTitle": "Children's Well-being After the COVID-19 Pandemic in French-speaking Primary Schools of the Federation Wallonia - Brussels in Belgium - (DYNAtracs)",
+  "protocolDocument": {
+    "nctId": "NCT05747638",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2023-01-09",
+    "uploadDate": "2023-04-12T11:05",
+    "size": 368221,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05747638/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 315,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-03-14",
+    "completionDate": "2027-03-01",
+    "primaryCompletionDate": "2023-06-01",
+    "firstSubmitDate": "2023-02-27",
+    "firstPostDate": "2023-02-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* All children between the ages of 6 and 12 years and all school attenders from selected primary schools were invited to participate.\n\nExclusion Criteria:\n\n* Refusal or absence of written informed consent before enrolment",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "6 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Anxiety symptoms in children",
+        "description": "Anxiety symptoms measured by the \"Revised Children's Manifest Anxiety Scale\" after the COVID-19 pandemic. A total anxiety score can be calculated by counting 28 items. The minimum score is 0 and the maximum is 28. The higher the score the greater the susceptibility to anxiety.",
+        "timeFrame": "Once"
+      },
+      {
+        "measure": "Anxiety and depression symptoms in school staff.",
+        "description": "Anxiety and depression symptoms measured by the \"Hospital Anxiety and Depression\" Scale in adults after the COVID-19 pandemic.The person is invited to choose between 4 responses for each question and the score varies between 0 to 3. A total anxiety and depression score can be calculated for a total of 21 points each. The minimum value is 0 and the maximum is 21. A score under or equal 7 was considered with an absence of anxiety and depression; between 8 to 10 corresponds to an anxious or depressive symptoms; and over 11 indicates a definite state of anxiety or depression.",
+        "timeFrame": "Once"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:37.794Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

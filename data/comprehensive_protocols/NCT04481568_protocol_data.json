@@ -1,0 +1,96 @@
+{
+  "nctId": "NCT04481568",
+  "briefTitle": "Reducing Behavioral and Psychological Symptoms of Dementia: Family Caregivers (Aim 1)",
+  "officialTitle": "Reducing Behavioral and Psychological Symptoms of Dementia (BPSD) for Acutely-Ill Persons With Alzheimers Disease and Related Dementias Via Patient Engagement Specialists",
+  "protocolDocument": {
+    "nctId": "NCT04481568",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-03-01",
+    "uploadDate": "2022-12-02T13:44",
+    "size": 528800,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04481568/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 158,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-02-03",
+    "completionDate": "2021-12-29",
+    "primaryCompletionDate": "2021-12-29",
+    "firstSubmitDate": "2020-07-15",
+    "firstPostDate": "2020-07-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n* Patients who have an acute medical admission to either the control unit (Geriatric Care Model) or intervention unit (PES-4-BPSD).\n* Patients age 65 and above\n* Documentation of dementia in the medical record (based on the International Classification of Diseases, Ninth and Tenth Revision codes \\[ICD-9 and ICD-10\\])\n* AD8 score of 2 or greater (obtained from the family caregiver \\[FCG\\])\n\nExclusion Criteria:\n\n* Patients who are known to be terminally ill and/or receiving hospice or surgery\n* Patients with a length of stay of less than 48 hours.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Neuropsychiatric Inventory Questionnaire Average Score During Hospital Admission",
+        "description": "The Neuropsychiatric Inventory Questionnaire (NPI-Q) is a validated tool with 12 behavioral domains for the assessment of neuropsychiatric symptomology designed for completion by caregivers of patients with Alzheimer's Disease and Related Dementias. The tool asks the interviewee to rate each symptom, if present, as mild, moderate, or severe. Total scores range from 0-36 with higher scores indicating greater prominence of dementia symptoms. A Research Coordinator (RC) will utilize a multimodal approach, consisting of daily NPI-Q interviews with Hospital Caregivers and daily reviews of the patient's medical record, to provide a daily assessment of the 12 NPI-Q domains during hospitalization. Upon discharge, the average of each patient's daily NPI-Q total scores will be calculated, and this average will serve as the primary outcome.",
+        "timeFrame": "Participant length of stay varies, median of 7 days; will be assessed for 1 year duration of study"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Length of Stay",
+        "description": "Collected via chart review.",
+        "timeFrame": "Participant length of stay varies, median of 7 days; will be assessed for 1 year duration of study"
+      },
+      {
+        "measure": "Practices for the Management of BPSD",
+        "description": "Collected via chart review. Practices include orders placed for special observation (1:1 or enhanced), restraints, psychoactive medications, psychiatric evaluation, as well as adverse events (falls). Orders for constant observation are reported below.",
+        "timeFrame": "Outcomes vary by participant; will be assessed through duration of study for 1 year"
+      },
+      {
+        "measure": "Family Caregiver (FCG) Satisfaction",
+        "description": "FCGs will be interviewed by research coordinator with a one-time telephone survey within 48 hours of discharge using the UK National Audit of Dementia Round 3, Caregiver Questionnaire. The survey consists of 10 items assessing perceptions of hospital quality of care provided by hospital staff. Responses of \"Excellent\" to the primary question assessed, \"overall, how would you rate the care received by your loved one during their hospital stay?\" is reported.",
+        "timeFrame": "Collected within 48 hours of hospital discharge for the 1-year study duration"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:39.016Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

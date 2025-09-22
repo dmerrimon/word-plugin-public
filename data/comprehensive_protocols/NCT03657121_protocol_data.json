@@ -1,0 +1,219 @@
+{
+  "nctId": "NCT03657121",
+  "briefTitle": "Mortality and Symptom Burden Post Hospitalisation With COPD",
+  "officialTitle": "COPD: Comparison of Existing Prognostic Tools for 1 Year Mortality and Assessment of Symptom Burden to Facilitate Advance Care Planning",
+  "protocolDocument": {
+    "nctId": "NCT03657121",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-01-02",
+    "uploadDate": "2019-01-03T07:13",
+    "size": 499022,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03657121/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 447,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-16",
+    "completionDate": "2020-12-18",
+    "primaryCompletionDate": "2020-12-18",
+    "firstSubmitDate": "2018-08-02",
+    "firstPostDate": "2018-09-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age 35 years or older.\n2. Smoking history greater than or equal to 10 pack years.\n3. Obstructive spirometry (FEV1/FVC \\< 0.7).\n4. ECOPD primary diagnosis.\n5. Survival to discharge.\n\nExclusion Criteria:\n\n1. Previous inclusion in the study.\n2. Malignant neoplasm or other pathology likely to limit survival to less than 1 year.\n3. For the longitudinal study only, inability to give informed consent.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "35 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Positive predictive value of the prognostic tools listed for prediction of one year mortality.",
+        "description": "This is an exploratory study. The optimal tool to identify patients for advance care planning needs to offer high PPV (i.e. the substantial majority of those identified at high risk of dying should not survive beyond one year) and reasonably high sensitivity (i.e. most deaths within one year should be identified). Ease of completion must also be considered as this will strongly influence engagement.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Sensitivity of the prognostic tools listed for prediction of one year mortality.",
+        "description": "As above",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Ease of completion of prognostic tools assessed by Likert scale",
+        "description": "Commonly used psychometric scale, which will be utilised by the principal investigator to score the practical ease of completion of the prognostic tools for individual patients. A 10 point scale (score range 1-10) will be utilised with higher numbers conferring greater ease.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Ease of completion of prognostic tools assessed by missing data.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "For each prognostic tool, the area under the receiver operating characteristic curve.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Negative predictive value of the prognostic tools for prediction of one year mortality.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Hospital readmission rates at 30, 90 and 365 days.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Proportion of patients on the palliative care register and relation to mortality.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Utilisation of palliative care services: hospice; community palliative care team.",
+        "description": "Rates of usage of these services will be identified at 12 months",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Inter-observer agreement on scoring of the prognostic tools",
+        "description": "A random sample of patients will be selected and the prognostic tools re-scored by a different member of the research team to identify disagreements.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Determine baseline St George's Respiratory Questionnaire score",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools.\n\nSGRQ is a validated questionnaire which measures the health status of patients with COPD, with a score ranging from 0 (no impairment) to 100 (worst possible health). Patients in a high mortality risk group identified for advance care planning who do not die are not \"false positives\" if they have a high symptom burden. The proportion of patients with high symptom burden not identified is also clinically relevant. This and the subsequent secondary outcomes are therefore important in this regard.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Determine baseline Hospital Anxiety and Depression Score",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools. HADS is a validated questionnaire with a score range of 0 (healthy) to maximum 21 (abnormal) for both anxiety and depression components.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Determine baseline modified Borg score",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools. The modified Borg scale is validated to assess breathlessness and is scored from 0 (not breathless) to 10 (maximal breathlessness).",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Assess baseline Australia-modified Karnofsky Performance Status",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools. AKPS is a validated 10 point scale measuring performance status with 0 being normal health and 100 being dead.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Mean change in SGRQ compared to MCID.",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools. MCID is the minimal clinically important difference for the validated tool. SGRQ is a validated questionnaire which measures the health status of patients with COPD, with a score ranging from 0 (no impairment) to 100 (worst possible health).",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Mean change in HADS compared to MCID.",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools. MCID is the minimal clinically important difference for the validated tool. HADS is a validated questionnaire with a score range of 0 (healthy) to maximum 21 (abnormal) for both anxiety and depression components.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Mean change in modified BORG score compared to MCID.",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools. MCID is the minimal clinically important difference for the validated tool. The modified Borg scale is validated to assess breathlessness and is scored from 0 (not breathless) to 10 (maximal breathlessness).",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Mean change in AKPS compared to MCID.",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools. MCID is the minimal clinically important difference for the validated tool. AKPS is a validated 10 point scale measuring performance status with 0 being normal health and 100 being dead.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Duration SGRQ score maintained above baseline.",
+        "description": "To be measured in days. Within the whole longitudinal cohort and individual risk groups within the prognostic tools. SGRQ is a validated questionnaire which measures the health status of patients with COPD, with a score ranging from 0 (no impairment) to 100 (worst possible health).",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Duration HADS score maintained above baseline.",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools. To be measured in days. HADS is a validated questionnaire with a score range of 0 (healthy) to maximum 21 (abnormal) for both anxiety and depression components.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Duration modified BORG score maintained above baseline.",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools. To be measured in days. The modified Borg scale is validated to assess breathlessness and is scored from 0 (not breathless) to 10 (maximal breathlessness).",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Duration AKPS maintained above baseline.",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools. To be measured in days. AKPS is a validated 10 point scale measuring performance status with 0 being normal health and 100 being dead.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Relation between clinically significant anxiety on discharge and survival.",
+        "description": "As per the anxiety component of the HADS tool - HADS is a validated questionnaire with a score range of 0 (healthy) to maximum 21 (abnormal) for both anxiety and depression components.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Relation between clinically significant depression on discharge and survival.",
+        "description": "As per the depression component of the HADS tool - HADS is a validated questionnaire with a score range of 0 (healthy) to maximum 21 (abnormal) for both anxiety and depression components.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Relation between clinically significant anxiety on discharge and quality of life.",
+        "description": "As per the anxiety component of the HADS tool - HADS is a validated questionnaire with a score range of 0 (healthy) to maximum 21 (abnormal) for both anxiety and depression components. Quality of life as measured by the SGRQ, modified Borg and AKPS scores, with details of these scores described above.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Relation between clinically significant depression on discharge and quality of life.",
+        "description": "As per the depression component of the HADS tool - HADS is a validated questionnaire with a score range of 0 (healthy) to maximum 21 (abnormal) for both anxiety and depression components. Quality of life as measured by the SGRQ, modified Borg and AKPS scores, with details of these scores described above.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Relation between clinically significant anxiety on discharge and functional status.",
+        "description": "As per the anxiety component of the HADS tool - HADS is a validated questionnaire with a score range of 0 (healthy) to maximum 21 (abnormal) for both anxiety and depression components. Functional status as per the AKPS and SGRQ scores described above.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Relation between clinically significant depression on discharge and functional status.",
+        "description": "As per the depression component of the HADS tool - HADS is a validated questionnaire with a score range of 0 (healthy) to maximum 21 (abnormal) for both anxiety and depression components. Functional status as per the AKPS and SGRQ scores described above.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Relation between clinically significant anxiety on discharge and readmissions.",
+        "description": "As per the anxiety component of the HADS tool - HADS is a validated questionnaire with a score range of 0 (healthy) to maximum 21 (abnormal) for both anxiety and depression components.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Relation between clinically significant depression on discharge and readmissions.",
+        "description": "As per the depression component of the HADS tool - HADS is a validated questionnaire with a score range of 0 (healthy) to maximum 21 (abnormal) for both anxiety and depression components.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Best prognostic tool to predict poor QoL and/or death within one year, as per positive predictive value and sensitivity.",
+        "description": "Within the whole longitudinal cohort and individual risk groups within the prognostic tools.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 29,
+      "otherCount": 0,
+      "totalCount": 31
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:25.822Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

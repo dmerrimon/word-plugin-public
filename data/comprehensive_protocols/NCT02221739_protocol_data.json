@@ -1,0 +1,90 @@
+{
+  "nctId": "NCT02221739",
+  "briefTitle": "Study of Combined Ionizing Radiation and Ipilimumab in Metastatic Non-small Cell Lung Cancer (NSCLC)",
+  "officialTitle": "Phase II Study of Combined Ionizing Radiation and Ipilimumab in Metastatic Non-small Cell Lung Cancer (NSCLC)",
+  "protocolDocument": {
+    "nctId": "NCT02221739",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-12-04",
+    "uploadDate": "2019-09-23T13:04",
+    "size": 2995867,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02221739/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 39,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-07-01",
+    "completionDate": "2015-10-27",
+    "primaryCompletionDate": "2015-04-15",
+    "firstSubmitDate": "2014-06-24",
+    "firstPostDate": "2014-08-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Ability to understand and the willingness to sign a written informed consent document;\n2. Histologic diagnosis of metastatic NSCLC;\n3. Any Kras or EGFR status is permitted;\n4. Patients must have at least two distinct measurable metastatic sites, with one of at least 1 cm or larger in its largest diameter. Patients may have additional non-measurable metastatic lesions (e.g., bone metastases);\n5. Patients must have prior treatment with at least one line of therapy for metastatic NSCLC. Any prior therapy is permitted except prior therapy with ipilimumab;\n6. An interval of 2 weeks from last previous therapy is required;\n7. Patients must have adequate organ and marrow function as defined by initial laboratory tests:\n\n   * WBC ≥ 2000/uL\n   * ANC ≥ 1000/uL\n   * Platelets ≥ 50 x 103/uL\n   * Hemoglobin ≥ 8 g/dL\n   * Creatinine ≤ 3.0 x ULN\n   * AST/ALT ≤ 2.5 x ULN, or ≤ 5 x ULN if liver metastases are present.\n   * Bilirubin ≤ 3.0 x ULN (except patients with Gilbert's Syndrome, who must have a total bilirubin ≤ 3.0 mg/dL);\n8. Performance status ECOG 0-1;\n9. Men and women, ages \\> 18 years of age;\n10. Life expectancy \\> 3 months;\n11. Patients may have brain metastases if these are stable for at least 4 weeks, or greater than 2 weeks post gamma knife therapy and patients are not steroid dependent;\n12. Brain Scan (CT/MRI) prior to enrollment\n13. Women of childbearing potential (WOCBP) must be using an adequate method of contraception to avoid pregnancy throughout the study and for up to 8 weeks after the last dose of Ipi.\n\nExclusion Criteria:\n\n1. Patients having no lesions outside the field of radiation thus nullifying the ability to measure an abscopal effect;\n2. Autoimmune disease: Patients with a history of inflammatory bowel disease are excluded from this study as are patients with a history of symptomatic disease (e.g., rheumatoid arthritis, progressive systemic sclerosis \\[scleroderma\\]), systemic lupus erythematosus, autoimmune vasculitis \\[e.g., Wegener's granulomatosis\\];\n3. Any underlying medical or psychiatric condition, which in the opinion of the Investigator, will make the administration of study drug hazardous or obscure the interpretation of adverse events (AEs), such as a condition associated with frequent diarrhea;\n4. Concomitant therapy with any of the following: Interleukin-2 (IL-2), interferon or other non-study immunotherapy regimens; cytotoxic chemotherapy; immunosuppressive agents; other investigation therapies; or chronic use of systemic corticosteroids;\n5. Prior therapy with ipilimumab or another anti-CTLA-4 antagonist;\n6. Women who are unwilling or unable to use an acceptable method to avoid pregnancy for the entire study period and for at least 8 weeks after cessation of study drug, or have a positive pregnancy test at baseline, or are pregnant or breastfeeding;\n7. Prisoners or subjects who are compulsorily detained (involuntarily incarcerated) for treatment of either a psychiatric or physical (e.g., infectious) illness.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Therapeutic Efficacy of Anti-CTLA-4 mAb and Concurrent Local RT in NSCLC Patients With Metastatic Disease.",
+        "description": "Tumor Response will be evaluated using the irRC best response (Partial Response (PR) + Complete Response (CR)). Modified WHO criteria will be used for measurement of tumors. The irradiated lesion will be excluded from the assessment of response.",
+        "timeFrame": "3 weeks - 6 months post treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number pf Patients With Objective Radioactive Responses to Measure the Effects of RT and Anti-CTLA-4 mAb on Development of Anti-tumor Immunity Measured by T Cell Clone Frequency",
+        "description": "The study uses a comprehensive approach to analyze immunological changes that reflect both local and systemic responses, and investigate both general immune activation as well as tumor antigen-specific T- and B-cell responses. The activity of anti-CTLA-1 mAb is thought to be mainly dependent on modulating the quantity and quality of T-cells in cancer patients. A highly extensive analysis of the Cluster of differentiation 4 + (CD4+) and cluster of differentiation 8 + (CD8+) T-cell subsets will be characterized by multi-color flow Cytometry. To facilitate these analyses, serial blood samples will be collected for serum and peripheral blood mononuclear cells (PBMC) at different time points, where, a part of these samples will be used for DNA/RNA extraction. Optional tissue biopsies will be obtained from consenting patients.Tumor tissue will be tested for expression of seven antigens frequently expressed in NSCLC.",
+        "timeFrame": "3 weeks - 6 months post-treatment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:47.124Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

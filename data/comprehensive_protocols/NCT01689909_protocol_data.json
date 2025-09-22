@@ -1,0 +1,124 @@
+{
+  "nctId": "NCT01689909",
+  "briefTitle": "Reducing Suicidal Ideation Through Insomnia Treatment",
+  "officialTitle": "Reducing Suicidal Ideation Through Insomnia Treatment",
+  "protocolDocument": {
+    "nctId": "NCT01689909",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-03-08",
+    "uploadDate": "2018-03-23T14:54",
+    "size": 781947,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01689909/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 103,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-12-06",
+    "completionDate": "2018-01-01",
+    "primaryCompletionDate": "2017-06",
+    "firstSubmitDate": "2012-09-18",
+    "firstPostDate": "2012-09-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Persons 18-65 years of age\n* Persons with confirmed DSM-IV diagnosis of MDE by SCID\n* Persons with Research Diagnostic Criteria diagnosis of insomnia\n* Persons free of all psychotropic medications for one week before baseline assessment, except that prior FLX treatment will require 4 weeks of abstinence, and MAOIs will require 2 weeks of abstinence.\n* Persons with Scale for Suicide Ideation (SSI) scores \\>2\n* Persons with Hamilton Rating Scale for Depression (HRSD24) score \\>20\n* Persons with Mini Mental State Exam (MMSE) score \\>24\n* Persons with Insomnia Severity Index (ISI) score \\> 7\n* Persons with habitual sleep latency \\> or = 30 minutes or wake time in the middle of the night of \\> or = 30 minutes, and sleep efficiency \\< 85%\n\nExclusion Criteria:\n\n* Non-English speaking, reading, writing persons\n* Persons who pose imminent danger to self or others\n* Persons with severe suicidal ideation (C-SSRS Suicidal Ideation Score \\>3)\n* Persons with clinical diagnosis of dementia\n* Persons with active or past diagnosis of alcohol or substance abuse, bipolar disorder, schizophrenia per the SCID\n* Persons who screen positive for moderate-severe sleep apnea (AHI \\>10) or a prior sleep laboratory-confirmed diagnosis of a primary sleep disorder, such as sleep apnea or periodic limb movement disorder.\n* Persons with BMI \\> 50\n* Persons with a self-reported history of napping \\> 2 times per week (as these are associated with sleep apnea and periodic limb movement disorder in depressed insomniacs)\n* Persons who might be harmed by exposure to hypnotics, including pregnant women and patients with respiratory conditions",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Scale for Suicide Ideation Index (SSI)",
+        "description": "This is the total score for the Scale for Suicide Ideation. It has 19 items, each scored 0-2, for a maximum of 38 points. Higher scores indicate worse suicidal ideation",
+        "timeFrame": "Over 8 weeks of treatment"
+      },
+      {
+        "measure": "Columbia Suicide Severity Rating Scale (C-SSRS): the Suicidal Ideation Scale",
+        "description": "The suicide ideation scale of the C-SSRS is rated 0-5, with \"0\" meaning no suicidal ideation, \"1\" meaning a wish t be dead, \"2\" meaning non-specific active suicidal thoughts, \"3\" meaning active suicidal ideation with any methods but no plan or intent, \"4\" meaning active suicidal ideation with some intent but no specific plan, and \"5\" meaning active suicidal ideation with intent and a specific plan",
+        "timeFrame": "8 weeks of treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Dysfunctional Beliefs and Attitudes About Sleep",
+        "description": "The Dysfunctional Beliefs and Attitudes About Sleep scale has 16 items and is self administered. Each item is scored 0-10. The total score is an average of the scores of the 16 items. Hence the range of the total score is also 0-10, with higher scores indicating greater dysfunctional beliefs about sleep",
+        "timeFrame": "8 weeks of treatment"
+      },
+      {
+        "measure": "Disturbing Dreams and Nightmares Severity Index (DDNSI)",
+        "description": "This self-rated scale has 5 items, with asymmetric weighting of each item. The range of the total score is 0-37, with higher scores indicating worse nightmares",
+        "timeFrame": "8 weeks of treatment"
+      },
+      {
+        "measure": "Beck Hopelessness Scale (BHS)",
+        "description": "The Beck Hopelessness Scale is self administered and has 20 'true/false' choices. Some items are reversed scored. The range of scores for the total is 0-20, with higher scores indicating greater hopelessness",
+        "timeFrame": "8 weeks of treatment"
+      },
+      {
+        "measure": "Hamilton Rating Scale for Depression (HAM-D)",
+        "description": "This version of the Hamilton Rating Scale for Depression uses 24 items, with a possible total score ranging from 0-74, with higher scores indicating worse depression",
+        "timeFrame": "8 weeks of treatment"
+      },
+      {
+        "measure": "Insomnia Severity Index (ISI)",
+        "description": "The Insomnia Severity Index is self rated. It has 7 items, each scored 0-4. Therefore the range of scores is 0-28, with higher scores indicating worse insomnia",
+        "timeFrame": "8 weeks of treatment"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Basis-32 - the Daily Living and Role Functioning (DLRF) Subscale",
+        "description": "This is one of the subscales of the Basis 32. It is self-administered. This subscale has 7 items, each scored 0-4. The totals score is an average of the scores of these 7 items. Higher scores indicate more difficulty with daily living and role functioning.",
+        "timeFrame": "8 weeks of treatment"
+      },
+      {
+        "measure": "Actigraphy",
+        "description": "This device measures arm motion over time, reported as \"average actigraphic activity Level\". The scale is reported as a continuous measure ranging from 0-200, and reported as the average score for each hour for all 24-hours of the day. Higher score represent greater c=activity at that point in time",
+        "timeFrame": "8 weeks of treatment"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 5,
+      "otherCount": 2,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 78,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:18.260Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

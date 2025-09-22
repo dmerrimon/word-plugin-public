@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT01684722",
+  "briefTitle": "Vitamin D and Omega-3 Trial to Prevent and Treat Diabetic Kidney Disease",
+  "officialTitle": "Vitamin D and Omega-3 Trial to Prevent and Treat Diabetic Kidney Disease",
+  "protocolDocument": {
+    "nctId": "NCT01684722",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2010-06-28",
+    "uploadDate": "2020-05-07T15:49",
+    "size": 1032984,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01684722/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1312,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2010-07",
+    "completionDate": "2019-11-08",
+    "primaryCompletionDate": "2019-11-08",
+    "firstSubmitDate": "2012-09-06",
+    "firstPostDate": "2012-09-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria: Participants in VITAL (NCT 01169259) with a self-reported physician diagnosis of diabetes are eligible to participate in this ancillary study.\n\nExclusion Criteria:\n\n* Type 1 diabetes\n* Diabetes only during pregnancy\n* Known cause of kidney disease other than diabetes\n* History of kidney transplantation",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Estimated Glomerular Filtration Rate",
+        "description": "GFR estimated from serum creatinine and cystatin C",
+        "timeFrame": "baseline to 5 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Urine Albumin Excretion",
+        "description": "Change in urine albumin-creatinine ratio.",
+        "timeFrame": "baseline to 5 years"
+      },
+      {
+        "measure": "Change in C-reactive Protein",
+        "description": "Changes in serum concentrations in CRP",
+        "timeFrame": "baseline to 5 years"
+      },
+      {
+        "measure": "Change in Interleukin-6",
+        "description": "Changes in serum concentrations in IL-6",
+        "timeFrame": "baseline to 5 years"
+      },
+      {
+        "measure": "Change in NT-proBNP",
+        "description": "Changes in serum concentrations in NT-proBNP",
+        "timeFrame": "baseline to 5 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:08.807Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

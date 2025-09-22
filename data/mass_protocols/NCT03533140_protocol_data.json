@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT03533140",
+  "briefTitle": "Postoperative Atrial Fibrillation Suppression By Nerve Stimulation",
+  "officialTitle": "Low Level Transcutaneous Electrical Vagus Nerve Stimulation To Suppress Atrial Fibrillation",
+  "protocolDocument": {
+    "nctId": "NCT03533140",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2015-09-21",
+    "uploadDate": "2018-05-09T09:25",
+    "size": 115111,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03533140/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 42,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-10-01",
+    "completionDate": "2018-05-31",
+    "primaryCompletionDate": "2018-03-01",
+    "firstSubmitDate": "2018-04-26",
+    "firstPostDate": "2018-05-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* De-novo postoperative AF\n* CABG or aortic valve replacement\n* Age of 18-80 years\n* Willing and able to understand, sign and date the informed consent form that has been approved by the institutional review board\n\nExclusion Criteria:\n\n* Pacemaker or ICD\n* Impaired EF \\< 30%\n* Patients with acute myocardial infarction within the past 14 days\n* Pregnant or lactating patients\n* Any condition that, in the judgement of the investigator, would place the patient at undue risk\n* Any concurrent disease or condition that, in the opinion of the investigator, would make the subject unsuitable for participation in the study\n* Treatment and/or an uncompleted follow-up treatment of any investigational therapy within 6 months before procedure and intent to participate in any other investigational drug or cell therapy study during the follow-up period of this study\n* Active participation in other Research therapy for cardiovascular repair/regeneration",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Incidence of Atrial Fibrillation events in routine ECG and continous HOLTER ECG for the length of the hospital stay.",
+        "description": "Patients are randomized to a treatment or a sham group. The corresponding device is prepared by a third person according to the double-blind setting for the surgeon. The DUCEST Neurostimulator V needle-electrodes are applied post-operatively to stimulate the R.auricularis of the vagus nerve located at the Fossa triangularis. Connecting the needle-electrode cables to the Neurostimulator V activates the device. (The stimulation intensity can be adjusted from 0,05mA to 1,2mA, default value is 0,4mA). The starting stimulation intensity will be adjusted to 1mA and takes place at 1Hz continuously for 40 minutes, followed by a 20 minute break. After 7 days the electrodes are replaced and applied to the other ear of the patient. A plaster with a plastic mounting clip is attached on the shoulder of the patient. The Neurostimulator is connected to the mounting clip. After 14 days or at hospital discharge of the patient, the device is unmounted and the needle-electrodes are removed.",
+        "timeFrame": "07-14 days post operative"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Measurement of postoperative inflammation markes, using plasma values of CRP, TNF-alpha, IL-6, and IL-10",
+        "description": "Inflammation markers will be assessed via laboratory blood sample testing at day 0 (at device attachment), +2 and +7 days post device attachment. CRP, TNF-alpha, IL-6, and IL-10 will be will be measured.",
+        "timeFrame": "07-14 days post operative"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:13.155Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

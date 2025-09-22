@@ -1,0 +1,99 @@
+{
+  "nctId": "NCT01832038",
+  "briefTitle": "Study to Evaluate the Safety, Tolerability, and Efficacy of Long-term Adjunctive Therapy With Lacosamide in Adults With Partial-onset Seizures",
+  "officialTitle": "A Multi-center, Open-label, Uncontrolled, Long-term, Extension Study to Evaluate the Safety and Efficacy of Lacosamide as Adjunctive Therapy in Japanese and Chinese Adults With Partial-onset Seizures With or Without Secondary Generalization",
+  "protocolDocument": {
+    "nctId": "NCT01832038",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2013-03-13",
+    "uploadDate": "2020-06-15T11:36",
+    "size": 2454634,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01832038/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 473,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-03-26",
+    "completionDate": "2019-07-31",
+    "primaryCompletionDate": "2019-07-31",
+    "firstSubmitDate": "2013-03-28",
+    "firstPostDate": "2013-04-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subject has completed the Treatment and Transition Period of EP0008 \\[NCT01710657\\]\n\nExclusion Criteria:\n\n* Subjects who withdrew from EP0008 \\[NCT01710657\\]",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "16 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With at Least One Adverse Event Reported Spontaneously by the Subject or Observed by the Investigator From Baseline Until the End of Study Visit",
+        "description": "An Adverse Event (AE) is any untoward medical occurrence in a patient or clinical investigation participant administered a pharmaceutical product, which does not necessarily have a causal relationship with this treatment. An AE could therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product.",
+        "timeFrame": "From Visit 1 (Week 0) up to approximately Week 323"
+      },
+      {
+        "measure": "Number of Participants That Withdrew Due to Adverse Events From Baseline Until the End of Study Visit",
+        "description": "An Adverse Event (AE) is any untoward medical occurrence in a patient or clinical investigation participant administered a pharmaceutical product, which does not necessarily have a causal relationship with this treatment and led to the withdrawal of the participants from the study. An AE could therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product.",
+        "timeFrame": "From Visit 1 (Week 0) up to approximately Week 323"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percent Change in Partial-onset Seizure Frequency Per 28 Days From Baseline of Study EP0008 [NCT01710657] Until the End of Study Visit in Study EP0009",
+        "description": "The percent change from Baseline to the Treatment Period was calculated as {\\[(Seizure frequency per 28 days during the Treatment Period) minus (Seizure frequency per 28 days during Baseline Period)\\] divided by (Seizure frequency per 28 days during Baseline Period)} multiplied by 100. Baseline was defined as the Baseline Period of study EP0008 \\[NCT01710657\\].",
+        "timeFrame": "From Visit 1 in study EP0008 [NCT01710657] up to approximately Week 323 in study EP0009"
+      },
+      {
+        "measure": "Percentage of Participants With 50 % Response Rate in Partial-onset Seizure Frequency Per 28 Days From Baseline of Study EP0008 [NCT01710657] Until the End of Study Visit in Study EP0009",
+        "description": "A responder is a subject experiencing a greater than or equal to (≥) 50 % reduction in partial-onset seizure frequency per 28 days from baseline. Baseline was defined as the Baseline Period of study EP0008 \\[NCT01710657\\].",
+        "timeFrame": "From Visit 1 in study EP0008 [NCT01710657] up to approximately Week 323 in study EP0009"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:49.139Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

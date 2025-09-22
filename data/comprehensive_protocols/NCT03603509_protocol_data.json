@@ -1,0 +1,136 @@
+{
+  "nctId": "NCT03603509",
+  "briefTitle": "Gene Signatures of Influenza Vaccine Responses in Older Adults",
+  "officialTitle": "Transcriptomic Signatures of Influenza Vaccine Responses",
+  "protocolDocument": {
+    "nctId": "NCT03603509",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2019-05-19",
+    "uploadDate": "2023-03-28T12:46",
+    "size": 595483,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03603509/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 241,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-08-27",
+    "completionDate": "2019-01-02",
+    "primaryCompletionDate": "2019-01-02",
+    "firstSubmitDate": "2018-07-18",
+    "firstPostDate": "2018-07-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or female adults ages 18-40 or of 65 and or older at the time of enrollment\n* Eligible to receive Fluad® (MF59Flu) or Fluzone® (HDFlu) if age 65 or older\n* No history of anaphylactic reaction to gelatin, neomycin, or other vaccine component\n* Not pregnant\n* No immunosuppression or immunodeficiency\n* No acute illness at time of vaccination\n* Determined by medical history and clinical judgment to be eligible for the study, by being generally healthy, with no autoimmune or immunosuppressive conditions and having stable current medical conditions (subjects with preexisting stable disease, defined as disease not requiring significant change in therapy or hospitalization for worsening disease 12 weeks before receipt of study vaccine, will be eligible. A change in dose or therapy within a category (e.g., change from one nonsteroidal anti-inflammatory drug to another) is allowed. A change to a new therapy category (e.g., surgery or addition of a new pharmacological class) is only allowed if it is not caused by worsening disease. A change to a new therapy category caused by worsening disease is considered significant and therefore ineligible for enrollment.\n* Patients with diabetes mellitus are eligible for inclusion if they have had a hemoglobin A1c measurement of \\<8.0 within the past 6 months prior to enrollment. These hemoglobin A1c measurements are recommended at least twice yearly by the American Diabetes Association (ADA), and the target levels here are representative of the goals of the ADA. These hemoglobin A1c levels will ensure that these participants have good glycemic control. (American Diabetes Association. American Diabetes Association Position Statement: Standards of Medical Care in Diabetes- 2015. Diabetes Care 2015;38(Suppl. 1): S1-S94)\n* Able to follow study procedures in the opinion of the investigator\n* Expected to be available for the duration of the study\n* Weighs \\>110 lbs\n\nExclusion Criteria:\n\n* Known or suspected immunodeficiency or receiving treatment with immunosuppressive therapy including cytotoxic agents or systemic corticosteroids (e.g., for cancer, HIV, or autoimmune disease). If systemic corticosteroids have been administered short term for treatment of an acute illness, subjects will be included if corticosteroid therapy (inhaled, intranasal, and intra-articular corticosteroid therapy is permitted) has been discontinued for at least 30 days.\n* Serious chronic medical conditions including metastatic malignancy, severe chronic obstructive pulmonary disease requiring supplemental oxygen, end-stage renal disease with or without dialysis, clinically unstable cardiac disease, or any other disorder that, in the investigator's opinion, precludes the subject from participating in the study. Diabetic patients will be excluded if they do not have a hemoglobin A1c measurement within the past 6 months or if they had a hemoglobin A1c measurement of an A1c \\>8.0\n* Receipt of any blood products, including immunoglobulin, within 6 months of study enrollment.\n* Current anticoagulant therapy or a history of bleeding diathesis that would contraindicate intramuscular (IM) injection. (Note: antiplatelet drugs such as aspirin and clopidogrel are permitted.)\n* Receipt of any vaccines within the past 30 days prior to enrollment\n* Receipt of the current seasonal influenza vaccine other than in this study\n* Acute illness within the last 30 days\n* Blood donation within the last 58 days prior to study enrollment\n* Any medical condition that would, in the opinion of the investigator, interfere with the evaluation of the study objectives\n* Pregnant patients will be excluded\n* Any condition (e.g. allergic reaction, Guillain-Barre Syndrome) that precludes their receipt of the influenza vaccine",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Innate Cell IFNa2a Production",
+        "description": "Cytokine secretion (interferon alpha 2a) after in vitro stimulation with influenza virus",
+        "timeFrame": "Baseline, Day 1"
+      },
+      {
+        "measure": "Hemagglutination Inhibition Ab Titer",
+        "description": "Reciprocal of the serum dilution exhibiting no hemagglutination (the larger the number, the more agglutinating antibodies the subject has. A titer of equal to more than 1:40 and above is considered a protective antibody titer)",
+        "timeFrame": "Baseline and Day 28"
+      },
+      {
+        "measure": "T Cell Gene Expression",
+        "description": "Gene expression counts. The number shown is the total number of RNA molecules whose sequence matches a human gene. This is a measure of how much gene expression is occurring in the cells in each subject's blood sample.",
+        "timeFrame": "Baseline, Day 28"
+      },
+      {
+        "measure": "T Cell miRNA Expression",
+        "description": "Next generation sequencing of purified T cells' miRNA",
+        "timeFrame": "Baseline, Day 8, Day 28"
+      },
+      {
+        "measure": "Innate IFNAR1 Cell Gene Expression",
+        "description": "IFNAR1 gene counts (the number of molecules of RNA whose sequence matches the interferon alpha receptor 1 gene that were present in the subject's blood sample).",
+        "timeFrame": "Baseline, Day 8"
+      },
+      {
+        "measure": "Innate Cell miRNA Expression",
+        "description": "Next generation sequencing of purified innate cells' miRNA",
+        "timeFrame": "Baseline, Day 1, Day 8"
+      },
+      {
+        "measure": "Memory B Cell ELISPOT",
+        "description": "Number of influenza-specific Ab producing memory B cells. Spot Forming Units (SFUs) are the frequency of Ab secreting B cells in an ELISPOT assay.",
+        "timeFrame": "Day 28"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "T Cell ELISPOT Response",
+        "description": "influenza-specific, IFNg producing, memory T cells. Spot Forming Units (SFUs) are the frequency of IFN-g secreting T cells in an ELISPOT assay.",
+        "timeFrame": "Day 28"
+      },
+      {
+        "measure": "T Cell Phenotype",
+        "description": "Flow cytometry analysis of T cells. The results show the percentage of specific white blood cell types are present in each subject's blood sample. Reported as a % of the total peripheral blood mononuclear cells.",
+        "timeFrame": "Day 28"
+      },
+      {
+        "measure": "Innate Cell Phenotype",
+        "description": "Flow cytometry analysis of innate cells. The results show the percentage of classical monocytes in each subject's blood sample. The data are reported as a percentage of the peripheral blood mononuclear cells.",
+        "timeFrame": "Day 1 (stim)"
+      },
+      {
+        "measure": "CMV Serostatus",
+        "description": "Serum CMV-specific IgG level. Number reported as Sample Index (the optical density in an ELISA). The Sample Index is a semi-quantitative measure of how much CMV-specific IgG antibodies are in each subject's blood sample. The values range from 0 to 4. Values between 0 and 3 are relative measures of the amount of antibody (0 = no antibody, 1 = a low level of antibody, 3 = a high level of antibody). Values from 3-4 all reflect high levels of antibody but typically exceed the linear range of the assay and cannot be used to quantify exact amounts of antibody.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "CD4/CD8 Ratio",
+        "description": "Flow cytometry analysis of T cells. The results show the ratio of CD4+ T cells compared to CD8+ T cells present in each subject's PBMCs.",
+        "timeFrame": "Day 28"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 7,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:43.179Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

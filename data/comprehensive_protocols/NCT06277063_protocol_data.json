@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT06277063",
+  "briefTitle": "nVNS for the Prevention and Treatment of Primary Headache",
+  "officialTitle": "Noninvasive Vagus Nerve Stimulation for the Prevention and Treatment of Primary Headache: a Single-arm Single-center Clinical Trial.",
+  "protocolDocument": {
+    "nctId": "NCT06277063",
+    "filename": "Prot_SAP_ICF_004.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form: Study Protocol",
+    "date": "2024-01-04",
+    "uploadDate": "2025-08-06T08:43",
+    "size": 77732,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06277063/document/Prot_SAP_ICF_004.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2024-12-05",
+    "completionDate": "2026-12-30",
+    "primaryCompletionDate": "2026-08-31",
+    "firstSubmitDate": "2024-02-04",
+    "firstPostDate": "2024-02-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patients with migraine, cluster headache and tension-type headache were diagnosed according to Chinese Guidelines for the diagnosis and Treatment of Migraine (2022 edition) and Chinese Guidelines for the diagnosis and treatment of cluster headache (2022 edition).\n2. Age \\>=7 years old, \\<=20 years old;\n3. Patients have experienced headache on 3-15 days per month in the past;\n4. Maintain a stable dose and frequency of medication and do not take new drugs during the course of participating in the trial;\n5. They volunteered to participate in the trial and signed informed consent.\n\nExclusion Criteria:\n\n1. History of secondary headache, aneurysm, intracranial hemorrhage, brain tumor, severe head trauma, drug abuse, addiction, syncope, or seizures;\n2. prior migraine-preventive surgery, cervical vagotomy, or implantation of an electronic or neurostimulator device;\n3. Simultaneous use of other devices (e.g., TENS devices, muscle stimulators);\n4. An implantable medical device in use, such as a pacemaker, hearing aid, or any implantable electronic device;\n5. underwent head and neck nerve block within the past 2 months;\n6. Opioid use (more than 2 days per month); Use of analgesics alone or non-steroidal anti-inflammatory drugs (more than 15 days per month); Or tamoxifen, ergots or combination analgesics (more than 10 days per month);\n7. Patients who underwent cervical vagotomy (cervical vagotomy);\n8. Pediatric patients (under 6 years old); Pregnant women;\n9. Patients with clinically significant hypertension, hypotension, bradycardia or tachycardia;\n10. Patients with congenital heart disease;\n11. Mental/cognitive disorders, etc.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "7 Years",
+    "maximumAge": "20 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Reduction in pain intensity--actue period study",
+        "description": "The visual analogue scale (VAS) was used to evaluate the pain. It is widely used in clinical practice in China. The basic method is to use a swimming ruler of about 10cm in length, marked with 10 scales on one side, and \"0\" and \"10\" scales on both ends.\n\nFor the AP study, the primary outcome measure is the reduction in pain intensity assessed by VAS 2 hours after treatment.",
+        "timeFrame": "2 hours after treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Heart rate variability(HRV)--actue period study and preventive period study",
+        "description": "A 20-minute closed-loop ECG assessment test was performed before and after the intervention for both the AP study and PP study. The test consisted of 5 minutes of rest (i.e., no vagal stimulation), 10 minutes of vagal stimulation, 5 minutes of rest, and a total of 20 minutes of electrocard.",
+        "timeFrame": "before and after the intervention. The test consisted of 5 mins of rest (i.e., no vagal stimulation), 10 mins of vagal stimulation, 5 mins of rest, and a total of 20 minutes of electrocard"
+      },
+      {
+        "measure": "Electromyography(EMG)--actue period study and preventive period study",
+        "description": "A 20-minute closed-loop evaluation test of neck electromyography was performed before and after the intervention for both the AP study and PP study. The testing process consisted of 5 minutes of rest (i.e., no vagal stimulation), 10 minutes of vagal stimulation, 5 minutes of rest, and a total of 20 minutes of electrocard.",
+        "timeFrame": "before and after the intervention. The test consisted of 5 mins of rest (i.e., no vagal stimulation), 10 mins of vagal stimulation, 5 mins of rest, and a total of 20 minutes of electrocard"
+      },
+      {
+        "measure": "Change in pain intensity--actue period study",
+        "description": "For the AP study, we will analysis the change in pain intensity assessed by VAS scores, half hour, 8-12 hours, 24 hours, and 36-48 hours after treatment.",
+        "timeFrame": "half hour, 8-12 hours, 24 hours, and 36-48 hours after treatment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:53.784Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

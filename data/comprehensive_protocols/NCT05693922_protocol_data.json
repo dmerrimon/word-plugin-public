@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT05693922",
+  "briefTitle": "Augmenting Single-session Behavioral Activation (BA) With Delta-beta Transcranial Alternating Current Stimulation (tACS) for the Treatment of Depression",
+  "officialTitle": "Augmenting Single-session Behavioral Activation (BA) With Delta-beta Transcranial Alternating Current Stimulation (tACS) for the Treatment of Depression",
+  "protocolDocument": {
+    "nctId": "NCT05693922",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-09-19",
+    "uploadDate": "2025-04-03T13:59",
+    "size": 1081664,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05693922/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-02-09",
+    "completionDate": "2024-05-22",
+    "primaryCompletionDate": "2024-05-22",
+    "firstSubmitDate": "2023-01-11",
+    "firstPostDate": "2023-01-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18 years old or order\n* Able to provide informed consent\n* Willing to comply with all study procedures and be available for the duration of the study\n* Speak and understand English\n* DSM-5 diagnosis of major depressive disorder (MDD) as assessed by the MINI\n\nExclusion Criteria:\n\n* Participants must not have active suicide intent as determined by the Columbia Suicide Severity Rating Scale (C-SSRS). Active suicide intent will be captured in responses to items 4 and/or 5 on the C-SSRS.\n* Participants must not meet criteria for current severe substance use disorder, anorexia nervosa, or active psychosis as captured by the MINI.\n* Participants may not currently be in psychotherapy and have not received any other psychotherapy and/or stimulation (ECT, TMS) within the last 4 weeks.\n* Any participants taking psychotropic medication must be on a stable dose for at least 4 weeks with no planned dose changes within the next 4 weeks.\n* (for female participants) Participants must not be pregnant or breastfeeding.\n* Participants may not have any medical or neurological illness for which symptom presentation or treatment could interfere with study participation\n* Participants may not have undergone prior brain surgery\n* Participants may not have any brain devices/implants, including cochlear implants and aneurysm clips\n* Participants may not have had brain injury or concussion within the last three months\n* Participants may not have a history of brain injury requiring current treatment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Clinician-rated Depressive Symptoms",
+        "description": "Treatment response will be reported for clinician-rated depression symptom scores using the Hamilton Depression Rating Scale (HDRS). Items are scaled either from 0-2 to 0-4, and each item is summed for a total score ranging from 0 to 53 with higher scores indicating greater depression symptoms. Benchmarks suggested at: 0-7 normal; 8-13 mild depression; 14-18 moderate depression; 19-22 severe depression; \\>=23 very severe depression.",
+        "timeFrame": "Baseline, 2 weeks post treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Phase-amplitude Coupling (PAC) Between Delta-beta Oscillations During Task Performance of the Streamlined Expenditure of Effort for Reward Task (S-EEfRT)",
+        "description": "Participants choose to complete a \"hard\" task or \"easy\" task. Coupling during the hard/easy decision is calculated between delta oscillations phase (2-3Hz) in prefrontal electrodes (FCz and surrounding electrodes) and the beta oscillations amplitude (15-25Hz) in left motor electrodes (C3 and surrounding electrodes). Instantaneous phase \\& amplitude of oscillations is calculated by averaging the signal in the two regions, band-filtering the signal to the specified range, and performing the Hilbert transform. PAC is normalized by creating a null distribution randomly shifting the beta time series by at least 10% of the number of time points. PAC is calculated between the delta-phase time series and each randomly shifted beta-amplitude time series. PAC is z-transformed relative to the null distribution. Values range from -3 to 3 and a score \\>=0.4 means the coupling is present. A higher value represents greater coupling strength which has been linked with greater cognitive processing.",
+        "timeFrame": "Baseline, 2 weeks post treatment"
+      },
+      {
+        "measure": "Proportion of Hard Trials Chosen During the S-EEfRT",
+        "description": "In the Streamlined Expenditure of Effort for Reward Task (S-EEfRT), participants choose to complete a \"hard\" task requiring many button presses or an \"easy\" task with fewer button presses for variable monetary incentives. Number of button presses is individualized for each participant. Goal-directed behavior will be calculated as the proportion of \"hard\" tasks chosen across trials.",
+        "timeFrame": "Baseline, 2 weeks post treatment"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Change in Clinician-rated Anhedonia Symptoms Using SHAPS-C",
+        "description": "The Snaith-Hamilton Pleasure Scale-Clinician (SHAPS-C) is a clinician administered tool to assess symptoms of anhedonia. The SHAPS-C items use a Likert scale of 1-4, with higher scores reflecting greater pathology.",
+        "timeFrame": "Baseline up to follow-up 2 weeks post treatment"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 1,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 51,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:17.891Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

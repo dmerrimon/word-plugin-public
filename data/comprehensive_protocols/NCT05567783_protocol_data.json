@@ -1,0 +1,125 @@
+{
+  "nctId": "NCT05567783",
+  "briefTitle": "A Phase 2 Study to Evaluate the Efficacy and Safety of VIR-2482 for the Prevention of Illness Due to Influenza A",
+  "officialTitle": "A Double-Blind, Randomized, Placebo-Controlled Phase 2 Study to Evaluate the Efficacy and Safety of VIR-2482 for the Prevention of Illness Due to Influenza A",
+  "protocolDocument": {
+    "nctId": "NCT05567783",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-06-29",
+    "uploadDate": "2024-05-03T11:06",
+    "size": 1865521,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05567783/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2977,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-10-30",
+    "completionDate": "2023-08-31",
+    "primaryCompletionDate": "2023-05-05",
+    "firstSubmitDate": "2022-09-24",
+    "firstPostDate": "2022-10-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participant must be 18 to \\< 65 years of age, at time of randomization\n* Participants must be in good health, determined from medical history and no clinically significant findings from physical examination, 12-lead electrocardiogram (ECG), vital signs, and laboratory values\n\nExclusion Criteria:\n\n* History or clinical evidence of conditions considered high risk for developing influenza-related complications\n* History of confirmed influenza infection within 3 months prior to randomization.\n* Febrile illness with or without respiratory symptoms\n* History of malignancy within 5 years or participant is under evaluation for malignancy.\n* Any condition or receipt of any medication contraindicating IM injection, as judged by the investigator.\n* History of a severe allergic reaction with generalized urticaria, angioedema or anaphylaxis\n* Participant has a clinically significant medical condition, physical exam finding, or abnormal laboratory result.\n* Prior or planned receipt of any influenza vaccine for the upcoming season.\n* Received any investigational agent within 90 days or within 5 half-lives of the investigational agent.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "64 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Protocol-defined Influenza-like Illness (ILI) With Confirmed Influenza A (by Reverse Transcription Polymerase Chain Reaction [RT-PCR])",
+        "description": "Protocol-defined ILI with confirmed influenza A defined as RT-PCR confirmed influenza A with at least one respiratory symptom and at least one systemic symptom",
+        "timeFrame": "Up to 24 Weeks"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events (AEs)",
+        "timeFrame": "Up to 26 Weeks"
+      },
+      {
+        "measure": "Number of Participants With Serious Adverse Events (SAEs)",
+        "timeFrame": "Up to 26 Weeks"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events of Special Interest (AESI)",
+        "description": "AESI is anaphylaxis per MedDRA anaphylaxis algorithmic SMQ",
+        "timeFrame": "Up to 26 Weeks"
+      },
+      {
+        "measure": "Number of Participants With Vital Sign Abnormalities",
+        "description": "Defined as a graded abnormality in systolic blood pressure, diastolic blood pressure, pulse, respiratory rate, or oral temperature as per the Toxicity Grading Scale for Healthy Adult and Adolescent Volunteers Enrolled in Preventive Vaccine Clinical Trials at any time on/after receipt of study intervention.",
+        "timeFrame": "Up to 26 Weeks"
+      },
+      {
+        "measure": "Number of Participants With Clinical Laboratory Abnormalities",
+        "description": "Defined as graded abnormality in chemistry, hematology, liver function, or urinalysis clinical laboratory values as per the Toxicity Grading Scale for Healthy Adult and Adolescent Volunteers Enrolled in Preventive Vaccine Trials at any time on/after receipt of study intervention.",
+        "timeFrame": "Up to 26 Weeks"
+      },
+      {
+        "measure": "Number of Participants With Solicited Injection Site Reactions",
+        "description": "Injection site reactions from the study intervention diary card",
+        "timeFrame": "Up to Day 7 following study intervention administration"
+      },
+      {
+        "measure": "Number of Participants With Solicited Systemic Reactions",
+        "description": "Systemic reactions from the study intervention diary card",
+        "timeFrame": "Up to Day 7 following study intervention administration"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With CDC-defined Influenza-like Illness (ILI) With Confirmed Influenza A (by Reverse Transcription Polymerase Chain Reaction [RT-PCR])",
+        "description": "CDC-defined ILI with RT-PCR confirmed influenza A",
+        "timeFrame": "Up to 24 Weeks"
+      },
+      {
+        "measure": "Percentage of Participants With WHO-defined Influenza-like Illness (ILI) With Confirmed Influenza A (by Reverse Transcription Polymerase Chain Reaction [RT-PCR])",
+        "description": "WHO-defined ILI with RT-PCR confirmed influenza A",
+        "timeFrame": "Up to 24 Weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 8,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:34.856Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

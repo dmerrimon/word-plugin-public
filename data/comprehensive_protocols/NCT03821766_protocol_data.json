@@ -1,0 +1,74 @@
+{
+  "nctId": "NCT03821766",
+  "briefTitle": "Haemodynamic Abnormalities Recorded With Cardiac Catheterization Along With Body's Surface Micro-accelerometers (KT-KCG)",
+  "officialTitle": "Do Abnormal Hemodynamic Features Generate Relevant Reactions and Vibrations at the Skin Level When Recorded by Micro Accelerometers",
+  "protocolDocument": {
+    "nctId": "NCT03821766",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-01-25",
+    "uploadDate": "2019-01-25T03:17",
+    "size": 672278,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03821766/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 0,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-02-01",
+    "completionDate": "2020-12-30",
+    "primaryCompletionDate": "2020-09-01",
+    "firstSubmitDate": "2019-01-11",
+    "firstPostDate": "2019-01-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18 y.o. to 80 y.o.\n* Heart failure\n\nExclusion Criteria:\n\n* Left ventricle assistance device\n* Refused participation",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Micro-accelerations recorded at the body's surface",
+        "description": "Analysis of heart-induced velocities (m/s) by the means of micro-accelerometers and secondary computation of the kinetic energy (KE= 1/2 mv²) recorded with the seismocardiography and ballistocardiography at the skin level during cardiac catheterization.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:31.316Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT05799495",
+  "briefTitle": "A Study to Understand the Effect and Safety of the Study Medicine PF-07817883 in Adults Who Have Symptoms of COVID-19 But Are Not Hospitalized",
+  "officialTitle": "A PHASE 2B, DOUBLE-BLIND, RANDOMIZED, PLACEBO-CONTROLLED, PARALLEL GROUP, DOSE RANGING STUDY TO EVALUATE VIROLOGICAL RESPONSE AND SAFETY OF ORAL PF-07817883 IN NON-HOSPITALIZED SYMPTOMATIC ADULT PARTICIPANTS WITH COVID-19",
+  "protocolDocument": {
+    "nctId": "NCT05799495",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-04-14",
+    "uploadDate": "2024-09-12T10:49",
+    "size": 668056,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05799495/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 240,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-05-23",
+    "completionDate": "2023-10-11",
+    "primaryCompletionDate": "2023-09-13",
+    "firstSubmitDate": "2023-04-04",
+    "firstPostDate": "2023-04-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Participants ≥18 to \\<65 years of age at the time of the Screening Visit.\n\n   * WOCBP may be enrolled.\n   * All fertile participants must agree to use a highly effective method of contraception.\n2. Confirmed SARS-CoV-2 infection as determined by RAT in NP specimen collected within 48 hours prior to randomization. Investigator sites will use test kits that are authorized for use in this study and the test result must be available to confirm eligibility.\n3. Initial onset of signs/symptoms attributable to COVID-19 within 5 days prior to the day of randomization and at least 1 of the specified signs/symptoms attributable to COVID-19 present on the day of randomization.\n\nExclusion Criteria:\n\n1. Current need for hospitalization or anticipated need for hospitalization within 24h after randomization in the clinical opinion of the site investigator.\n2. Known medical history of active liver disease (other than nonalcoholic hepatic steatosis), including chronic or active hepatitis B or C infection, primary biliary cirrhosis, Child-Pugh Class B or Class C, or acute liver failure.\n3. History of hypersensitivity or other contraindication to any of the components of the study interventions, as determined by the investigator.\n4. Suspected or confirmed concurrent active systemic infection other than COVID-19 that may interfere with the evaluation of response to the study intervention.\n5. Immunocompromised with ≥1 of the following:\n\n   1. Solid organ (eg, liver, heart, lung or kidney) transplant recipient who is receiving immunosuppressive therapy.\n   2. Receipt of CAR-T-cell therapy or HCT either within 2 years of transplantation or receiving immunosuppressive therapy.\n   3. Moderate or severe primary immunodeficiency (eg, DiGeorge syndrome, Wiskott-Aldrich syndrome).\n   4. Use of at least 1 of the following immune-weakening medications:\n\n      iii. Has received corticosteroids equivalent to prednisone ≥20 mg daily for at least 14 consecutive days within 30 days prior to study entry.\n\n      iv. Active treatment causing significant immunosuppression, including alkylating agents, antimetabolites, transplant-related immunosuppressive drugs, cancer chemotherapeutic agents, TNF blockers, or other highly immunosuppressive drugs such as biologics.\n   5. Hematological malignancy (including leukemia, lymphoma and myeloma) or active immunosuppressive treatment for solid tumor.\n   6. HIV infection with CD4 cell count \\<200 mm3 from known medical history within the past 6 months of screening.\n6. known severe renal impairment (eGFR of \\<30 mL/min/1.73 m2 within 6 months of the screening visit, using the serum creatinine-based CKD-EPI formula12).\n7. Oxygen saturation of \\<92% on room air obtained at rest within 24h prior to randomization.\n8. Has received or is expected to receive any other antiviral for the treatment of COVID 19, including remdesivir, PAXLOVID, molnupiravir, mAb treatment (within 30 days or 5 half-lives \\[whichever is longer\\] prior to screening) or received convalescent COVID-19 plasma within 12 months.\n9. Expected to receive any dose of a SARS-CoV-2 vaccine within 14 days of randomization or during the study.\n10. Current or previous administration with an investigational product (drug or vaccine) within 30 days (or as determined by the local requirement) or 5 half-lives preceding the first dose of study intervention used in this study (whichever is longer). Authorized or products with conditional approval are not considered investigational.\n11. Known prior participation in this trial\n12. Known history of any of the following abnormalities in clinical laboratory tests (within past 6 months of the screening visit):\n\n    * T bili ≥2 × ULN (except for Gilbert's syndrome)\n    * AST or ALT ≥2.5 × ULN\n    * Abs neutrophil count \\<1000/mm3.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "64 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Logarithm Base 10 (Log10) Transformed Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Ribo Nucleic Acid (RNA) Level on Day 5",
+        "description": "Change from baseline in SARS-CoV-2 RNA level at Day 5 was analyzed using Mixed Effects Repeated Measures (MMRM) model with fixed effects including treatment, visit, visit by treatment interaction, and baseline viral load. Covariates included days from baseline since symptom onset (\\<=3 versus \\[vs.\\] \\>3 days), vaccination status (complete or partial vs. unvaccinated), baseline anti-N serology status and age at screening (years). Participants were excluded from the analysis if baseline viral load was less than 4\\*log10 copies/milliliter, missing, or not detected.",
+        "timeFrame": "Baseline (Day 1), Day 5"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Log10 Transformed SARS-CoV-2 RNA Level on Days 3, 10 and 14",
+        "description": "Change from baseline in SARS-CoV-2 RNA level at Day 3, Day 10 and Day 14 were analyzed using MMRM model with fixed effects including treatment, visit, visit by treatment interaction, and baseline viral load. Covariates included days from baseline since symptom onset (\\<=3 vs. \\>3 days), vaccination status (complete or partial vs. unvaccinated), baseline anti-N serology status and age at screening (years). Participants were excluded from the analysis if baseline viral load was less than 4\\*log10 copies/milliliter, missing, or not detected.",
+        "timeFrame": "Baseline (Day 1), Day 3, Day 10 and Day 14"
+      },
+      {
+        "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+        "description": "An AE was any untoward medical occurrence in a study participant after administration of a product or medical device; the event need not necessarily have a causal relationship with the treatment or usage. An adverse event is considered a treatment-emergent adverse event (TEAE) if the event started on or after the study medication start date and time. An SAE was any untoward medical occurrence at any dose that: resulted in death; was life-threatening (immediate risk of death); required inpatient hospitalization or prolongation of existing hospitalization; resulted in persistent or significant disability/incapacity (substantial disruption of the ability to conduct normal life functions) or resulted in congenital anomaly/birth defect or was considered an important medical event.",
+        "timeFrame": "From start of study intervention up to 28 days after last dose of study intervention (up to 33 days)"
+      },
+      {
+        "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAEs) Leading to Discontinuations",
+        "description": "An AE was any untoward medical occurrence in a study participant after administration of a product or medical device; the event need not necessarily have a causal relationship with the treatment or usage. An adverse event is considered a treatment-emergent adverse event (TEAE) if the event started on or after the study medication start date and time. Participants with an AE record indicating the AE caused permanent discontinuation from the study were reported under discontinuations from study due to TEAEs. Permanent discontinuations from study intervention due to TEAEs included those participants who had an AE record that indicated that action taken with study treatment was drug withdrawn but AE did not cause the participant to be discontinued from study.",
+        "timeFrame": "From start of study intervention up to 28 days after last dose of study intervention (up to 33 days)"
+      },
+      {
+        "measure": "Number of Participants With Laboratory Test Abnormalities",
+        "description": "The following laboratory parameters were assessed according to pre-specified criteria for abnormalities: a) hematology; hemoglobin (gram per deciliter \\[g/dL\\]), (less than\\[\\<\\]0.8\\*lower limit of normal \\[LLN\\]), erythrocytes(10\\^12/Liter \\[L\\])(\\< 0.8\\*LLN), lymphocytes(10\\^9/L)(more than\\[\\>\\]1.2\\*upper limit of normal \\[ULN\\]), neutrophils(\\> 1.2\\*ULN and \\< 0.8\\*LLN), basophils(10\\^9/L)(\\> 1.2\\*ULN) and eosinophils (10\\^9/L)(\\> 1.2\\*ULN). b) clinical chemistry; bilirubin(mg/dL)(\\> 1.5\\*ULN), urea nitrogen(mg/dL)(\\> 1.3\\*ULN), creatinine(mg/dL)(\\> 1.3\\*ULN), potassium(milli equivalence per millilitre \\[mEq/L\\], (\\< 0.9\\*LLN and \\> 1.1\\*ULN), calcium (mg/dL)(\\< 0.9\\*LLN), bicarbonate(mEq/L)(\\< 0.9\\*LLN and \\> 1.1\\*ULN), glucose (mg/dL)(\\> 1.5\\*ULN), creatine kinase(units per litre \\[U/L) (\\> 2.0\\* ULN), D-Dimer(nanogram per milliliter\\[ng/mL\\]), (\\>1.5\\*ULN) and c)urinalysis; bacteria (low power field \\[LPF\\]\\>20). Number of participants with any laboratory abnormalities meeting pre-specified criteria are reported in this outcome measure.",
+        "timeFrame": "From start of study intervention up to 28 days after last dose of study intervention (up to 33 days)."
+      },
+      {
+        "measure": "Number of Participants Meeting Pre-defined Criteria of Vital Sign Abnormalities",
+        "description": "Vital signs included blood pressure and pulse rate and were assessed with the participant in the supine or seated position with a completely automated device after at least 5 minutes of rest for the participant in a quiet setting without distractions. Pre-defined criteria for vital sign abnormalities was as systolic blood pressure (millimeter of mercury \\[mmHg\\]): value \\< 90, change \\>= 30 increase and change \\>= 30 decrease, diastolic blood pressure (mmHg): value \\<50; change \\>= 20 increase and change \\>= 20 decrease, pulse rate (beats per minute \\[bpm\\]): value \\< 40 and value \\> 120.",
+        "timeFrame": "From start of study intervention up to 28 days after last dose of study intervention (up to 33 days)."
+      },
+      {
+        "measure": "Number of Participants Meeting Pre-defined Criteria For ECG Abnormalities",
+        "description": "Twelve lead ECGs were collected using an ECG machine that automatically calculated heart rate and measured PR interval, QT interval, and QT interval correct by Frederica formula (QTcF). ECG abnormalities included: PR interval (millisecond \\[msec\\]): value \\>=280, change \\>40 increase; QT interval aggregate (msec): value \\> 500), QTcF interval (450 \\< value =\\< 480; 480 \\< value =\\< 500; value \\> 500; 30 \\< change \\<= 60 increase and change \\> 60 increase).",
+        "timeFrame": "From baseline (Day 1) up to Day 10"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:10.517Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

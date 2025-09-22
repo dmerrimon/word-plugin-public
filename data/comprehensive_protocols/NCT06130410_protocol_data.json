@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT06130410",
+  "briefTitle": "Special Investigation for Booster Dose of Comirnaty in Children Ages 6 Months Though 4 Years",
+  "officialTitle": "COMIRNATY Intramuscular Injection for 6 Months to 4 Years Old (Monovalent: Omicron XBB.1.5) Special Investigation for Booster Immunization in Children Aged 6 Months to 4 Years",
+  "protocolDocument": {
+    "nctId": "NCT06130410",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-11-27",
+    "uploadDate": "2025-06-25T14:27",
+    "size": 3875166,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06130410/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 25,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-03-06",
+    "completionDate": "2024-07-26",
+    "primaryCompletionDate": "2024-07-26",
+    "firstSubmitDate": "2023-11-08",
+    "firstPostDate": "2023-11-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Children aged 6 months to 4 years at the time of the booster vaccination (4th dose) who (or whose representative) gave written consent to take part in the study.\n\nExclusion Criteria:\n\n-There are no exclusion criteria for this study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "6 Months",
+    "maximumAge": "4 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Participants With Adverse Reaction (AR)",
+        "description": "An adverse event was defined as any untoward medical occurrence attributed to COMIRNATY intramuscular injection for 6 months to 4 years old (monovalent: Omicron XBB.1.5) in a participant who was vaccinated. The relatedness was assessed by the physician. Events for which a causal relationship with intramuscular injection could not be ruled out were handled as ARs.",
+        "timeFrame": "For 28 days after the booster (4th) dose"
+      },
+      {
+        "measure": "Proportion of Participants With Serious Adverse Reaction (SAR)",
+        "description": "An SAR was defined as any AR resulting in any of the following outcomes or deemed significant for any other reason: death; life-threatening; hospitalization or prolongation of existing hospitalization; persistent or significant disability/malfunction; congenital anomaly/birth defect; or other medically important events.",
+        "timeFrame": "For 28 days after the booster (4th) dose"
+      },
+      {
+        "measure": "Proportion of Participants With Reactogenicity (≥ Grade 1) in Those Who Are Younger Than 2 Years of Age",
+        "description": "Local reactions and systemic events recorded in the health observation diary collected by the physician from study participants were handled as reactogenicity events.\n\nThey were aggregated for the vaccinated participants by age group and grade. The results were aggregated by age group for local reactions and systemic events of grade 1 or higher.\n\nIf the participants were younger than 2 years of age on the date of the booster (4th) dose, the following reactogenicity events were aggregated. Local reactions: injection site tenderness, redness, and injection site swelling. Systemic events: pyrexia, decreased appetite, somnolence, and irritability. If the participants were 2 years or older on the date of the booster (4th) dose, the following reactogenicity events were aggregated. Local reactions: injection site pain, redness, and injection site swelling. Systemic events: pyrexia, vomiting, diarrhoea, headache, malaise, chills, myalgia, and arthralgia.",
+        "timeFrame": "Within 7 days after the date of the booster (4th) dose"
+      },
+      {
+        "measure": "Proportion of Participants With Reactogenicity (≥ Grade 1) in Those Who Are Aged 2 Years or Older",
+        "description": "Local reactions and systemic events recorded in the health observation diary collected by the physician from study participants were handled as reactogenicity events.\n\nThey were aggregated for the vaccinated participants by age group and grade. The results were aggregated by age group for local reactions and systemic events of grade 1 or higher.\n\nIf the participants were younger than 2 years of age on the date of the booster (4th) dose, the following reactogenicity events were aggregated. Local reactions: injection site tenderness, redness, and injection site swelling. Systemic events: pyrexia, decreased appetite, somnolence, and irritability. If the participants were 2 years or older on the date of the booster (4th) dose, the following reactogenicity events were aggregated. Local reactions: injection site pain, redness, and injection site swelling. Systemic events: pyrexia, vomiting, diarrhoea, headache, malaise, chills, myalgia, and arthralgia.",
+        "timeFrame": "Within 7 days after the date of the booster (4th) dose"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:43.335Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

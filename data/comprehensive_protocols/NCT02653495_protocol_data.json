@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT02653495",
+  "briefTitle": "Impact of Metabolic Syndrome on Flu Vaccine Efficacy",
+  "officialTitle": "Impact of Metabolic Syndrome on Flu Vaccine Efficacy",
+  "protocolDocument": {
+    "nctId": "NCT02653495",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-05-07",
+    "uploadDate": "2017-09-01T16:20",
+    "size": 10473387,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02653495/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 17,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-01",
+    "completionDate": "2017-03",
+    "primaryCompletionDate": "2017-03",
+    "firstSubmitDate": "2016-01-08",
+    "firstPostDate": "2016-01-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria for the METABOLIC SYNDROME COHORT( Participants must have 3 or more of the following 5 risk factors):\n\n* Abdominal Obesity, given as a waist circumference: Men \\>102 cm (\\>40 in) Women \\> 88 cm (\\>35 in)\n* Triglycerides \\>150 mg/dl\n* HDL Cholesterol: Men \\< 40 mg/dl Women \\< 50 mg/dl\n* Blood Pressure \\>130/ \\>85 mm Hg - or controlled on antihypertensive medication\n* Fasting Glucose \\> 100 mg/dl\n\nInclusion criteria for the HEALTHY CONTROLS (Participants must have all of the requirements below) :\n\n* body mass index 18.5 - 25 kg/m2\n* HDL female \\> 50 mg/dL, male \\> 40 mg/dL\n* fasting glucose \\< 100 mg/dL\n* triglycerides \\<150 mg/dL,\n* waist circumference of a female \\< 88 cm, male \\< 102 cm)\n* \\- Blood pressure \\< or = to 120/80 (based on an average of 3 readings taken 5 minutes apart after the consent form has been signed)\n\nExclusion criteria :\n\n* Currently undergoing treatment for the metabolic syndrome\n* The average of 2 BP readings \\> 150/90 (based on 2 B/Ps taken at screening visit 1).\n* Hepatitis A, B and C\n* NSAIDs and/or Aspirin ingestion within the last 14 days\n* Self-reported history of any active autoimmune diseases\n* Self-reported ingestion of statins within the last 3 months\n* Self-reported antibiotic use within the last 3 months\n* Anti-inflammatory drugs including biologics and corticosteroids within last 3 months( nasal spray and topical applications are OK)or Omega 3 Fatty Acids.\n* Self-reported hx of cancer treatment within the last year\n* Allergy to eggs\n* History of Guillain-Barre syndrome\n* Pregnant ( determined by point of care testing at screening visit 1).\n* HIV positive\n* Self-reported history of flu vaccination within the past 3 months.\n* Any self-reported infection in the week of the visit except the first two visits (Screening visit 1 and Screening visit 2) and the last visit (Study visit #5) that could be rescheduled.\n* Any medical, psychological or social condition that, in the opinion of the Investigator, would jeopardize the health or well-being of the participant during any study procedures or the integrity of the data.\n\nStudy Population Description The population from which the groups will be selected are resident of New York City.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Antibody Response D28",
+        "description": "Measured by hemagglutination inhibition assay",
+        "timeFrame": "28 days after vaccination compare to baseline (screening visit 1) pre-vaccination"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Gene Expression Profiling D1",
+        "description": "Analyze by RNA-seq",
+        "timeFrame": "1 day post-vaccination compare to baseline (gene expression screening visit #1 and study visit #1 D0 of vaccination)"
+      },
+      {
+        "measure": "Gene Expression Profiling D28",
+        "description": "Analyze by RNA-seq",
+        "timeFrame": "28 days post-vaccination compare to baseline (gene expression screening visit #1 and study visit #1 D0 of vaccination)"
+      },
+      {
+        "measure": "Gene Expression Profiling D90",
+        "description": "Analyze by RNA-seq",
+        "timeFrame": "90 days post-vaccination compare to baseline (gene expression screening visit #1 and study visit #1 D0 of vaccination)"
+      },
+      {
+        "measure": "Antibody Response D90",
+        "description": "Measured by hemagglutination inhibition assay",
+        "timeFrame": "90 days after vaccination compare to day 28"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:34.908Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

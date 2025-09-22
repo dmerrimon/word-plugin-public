@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT06987032",
+  "briefTitle": "Hemodynamics in Chronic Kidney Disease",
+  "officialTitle": "Improving the Hemodynamic Profile Of Chronic Renal Patients by Use of Bioimpedance",
+  "protocolDocument": {
+    "nctId": "NCT06987032",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-12-03",
+    "uploadDate": "2025-04-15T09:47",
+    "size": 1497003,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06987032/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 71,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-09",
+    "completionDate": "2022-03-09",
+    "primaryCompletionDate": "2022-03-09",
+    "firstSubmitDate": "2025-03-21",
+    "firstPostDate": "2025-05-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Prevalent non-dialysis patients with estimated glomerular filtration rate \\< 60 ml/min (for chronic kidney disease subjects)\n* Age \\> 18 years\n* Signed informed consent\n\nExclusion Criteria:\n\n* Acute kidney injury\n* estimated glomerular filtration rate \\< 20ml/min directly post-nephrectomy\n* Clinical conditions affecting bioimpedance measurements: limb amputation, impaired skin integrity, brain stimulator, pacemaker with low threshold or unipolar pacemaker.\n* Clinical conditions affecting body composition: liver cirrhosis, active infectious disease or any acute cardiovascular event (defined as cerebrovascular event, myocard infarction, heart failure) during the 3 months before screening for inclusion\n* Pregnancy",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "whole body fluid status",
+        "description": "The primary objective is to associate the bioimpedance-determined fluid status \\[fluid overload versus non-fluid overload\\] with kidney function decline in patients with chronic kidney disease stage 3 (59-30ml/min), 4 (29-15ml/min) and 5 (\\< 15 ml/min).",
+        "timeFrame": "Baseline, every 3 months during 1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "identify the clinical factors associated with fluid overload during a longitudinal follow up",
+        "description": "Secondary outcomes of interest are the central volume status (measured as ejection fraction in % by echocardiography and thoracic bioimpedance in Ohms in combination with photoplethysmography), the cardiac systolic and diastolic function (measured by echocardiography), cardiovascular events, hospitalizations, inflammatory- and nutrition status (by whole body bioimpedance measurements), and quality of life (by Short Form 36 questionnaire).",
+        "timeFrame": "Baseline, every 3 months during 1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:08.238Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

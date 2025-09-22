@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT04891770",
+  "briefTitle": "Study to Evaluate the Safety and Efficacy of Selgantolimod (SLGN)-Containing Combination Therapies for the Treatment of Chronic Hepatitis B (CHB)",
+  "officialTitle": "A Phase 2a, Open-Label Study to Evaluate the Safety and Efficacy of Selgantolimod (SLGN)-Containing Combination Therapies for the Treatment of Chronic Hepatitis B (CHB)",
+  "protocolDocument": {
+    "nctId": "NCT04891770",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-04-12",
+    "uploadDate": "2025-05-24T12:18",
+    "size": 3595442,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04891770/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 103,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-08-14",
+    "completionDate": "2024-07-19",
+    "primaryCompletionDate": "2024-01-23",
+    "firstSubmitDate": "2021-05-14",
+    "firstPostDate": "2021-05-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Willing and able to provide informed consent\n* Chronic HBV infection for at least 6 months\n* Willing to follow protocol-specified contraception requirement\n\nKey Exclusion Criteria:\n\n* Have extensive fibrosis or cirrhosis in the liver\n* Have or had liver cancer (hepatocellular carcinoma)\n* Have an autoimmune disease\n* Have chronic liver disease other than HBV\n* Females who are breastfeeding, pregnant, or who wish to become pregnant during the study\n\nNote: Other protocol defined Inclusion/Exclusion criteria may apply.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants Who Achieved Functional Cure",
+        "description": "Functional cure was defined as hepatitis B surface antigen (HBsAg) loss and hepatitis B virus (HBV) deoxyribonucleic acid (DNA) less than the lower limit of quantitation (LLOQ) at follow-up Week 24. LLOQ for HBV DNA CAP/CTM 2.0 is 20 IU/mL. LLOQ for HBV DNA Cobas 6800 is 10 IU/mL. The HBsAg loss was defined as HBsAg changing from positive at baseline to negative at any postbaseline visit. Percentages were rounded off.",
+        "timeFrame": "At Follow-up Week 24 (Cohort 1 and Cohort 2A: At Week 60; Cohort 2B: At Week 48)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With HBsAg Loss With and Without Anti-HBsAg Seroconversion",
+        "description": "HBsAg loss was defined as HBsAg changing from positive at baseline to negative at any postbaseline visit. HBsAg seroconversion was defined as HBsAg loss and HBsAb changes from negative/missing at baseline to positive at a postbaseline visit. Percentages were rounded-off.",
+        "timeFrame": "Up to Follow-up Week 48 (Cohort 1 and Cohort 2A: At Week 84; Cohort 2B: At Week 72)"
+      },
+      {
+        "measure": "Percentage of Participants With Hepatitis B e Antigen (HBeAg) Loss With and Without Anti-HBeAg Seroconversion in Participants With CHB Who Are HBeAg-Positive at Baseline",
+        "description": "HBeAg loss is defined as HBeAg changing from positive at baseline to negative at any postbaseline visit. HBeAg seroconversion was defined as HBeAb test changing from negative or missing at baseline to positive at a postbaseline visit. Percentages were rounded-off.",
+        "timeFrame": "Up to Follow-up Week 48 (Cohort 1 and Cohort 2A: At Week 84; Cohort 2B: At Week 72)"
+      },
+      {
+        "measure": "Percentage of Participants Who Remain Off NUC Treatment During Follow-Up",
+        "description": "NUC treatments included for analysis: adefovir dipivoxil, entecavir, telbivudine, tenofovir, tenofovir alafenamide, tenofovir alafenamide fumarate, tenofovir disoproxil fumarate, and lamivudine. Percentages were rounded-off.",
+        "timeFrame": "Cohort 1 and Cohort 2A: From Week 36 up to Week 84 and for Cohort 2B: From Week 24 up to Week 72"
+      },
+      {
+        "measure": "Percentage of Participants Experiencing Hepatitis B Virus (HBV) Virologic Breakthrough During Study Treatments",
+        "description": "Virologic breakthrough was defined as confirmed HBV DNA ≥ LLOQ after 2 consecutive HBV DNA \\< LLOQ in participants who are complying with NUC therapy or confirmed HBV DNA ≥ 1 log10 IU/mL increase from nadir during study treatments. LLOQ for HBV DNA CAP/CTM 2.0 is 20 IU/mL. LLOQ for HBV DNA Cobas 6800 is 10 IU/mL. Percentages were rounded-off.",
+        "timeFrame": "Up to 36 Weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:23.686Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

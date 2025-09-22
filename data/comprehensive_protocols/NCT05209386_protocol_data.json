@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT05209386",
+  "briefTitle": "Flexible Representation of Speech",
+  "officialTitle": "Flexible Representation of Speech in the Supratemporal Plane",
+  "protocolDocument": {
+    "nctId": "NCT05209386",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-02-02",
+    "uploadDate": "2025-07-01T10:08",
+    "size": 595213,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05209386/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 48,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-05-02",
+    "completionDate": "2025-04-10",
+    "primaryCompletionDate": "2024-07-01",
+    "firstSubmitDate": "2022-01-12",
+    "firstPostDate": "2022-01-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Individuals 15-25 years old\n* Undergoing sEEG placement in the supratemporal plane for clinically necessary localization of epileptic foci or language mapping\n* Fluent English speakers\n* Cognition and speech-language skills within normal limits (as determined by evaluation prior to surgery)\n* Normal or correct-to-normal visual acuity\n* Normal hearing acuity in each ear (as determined by audiometric assessment)\n* No history of autism or ADHD\n\nExclusion Criteria:\n\n* Individuals with intellectual disabilities\n* Abnormal epileptiform activity in the supratemporal plane\n* Lack of fluent English comprehension/production\n* Severe language or auditory-specific cognitive dysfunction\n* History of autism or ADHD",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "15 Years",
+    "maximumAge": "25 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Supratemporal Neural Response to Change in Acoustic-Phonetic Dimensions",
+        "description": "Neural activity will be measured via simultaneous EEG-sEEG monitoring in the supratemporal plane as indicated by high-gamma band activity in the electrical signal. Neural activity will be measured as participants listen to acoustic stimuli with gradually manipulated acoustic dimensions, fundamental frequency (F0) and voice onset time (VOT). The data reported here is the number of temporal lobe channels demonstrating significant encoding of change in acoustic dimension (F0 as VOT is held constant).",
+        "timeFrame": "During sEEG-EEG recording sessions, up to 3 hours total"
+      },
+      {
+        "measure": "Behavioral Impact of Change in Acoustic-Phonetic Dimensions",
+        "description": "Behavioral responses in the form of a category judgment will be obtained as participants listen to acoustic stimuli in with gradually varying fundamental frequency (F0) and voice onset time (VOT). Participants will provide a behavioral response by indicating the phoneme perceived at the beginning of stimulus words (/b/ or /p/). Specifically, the outcome is reported as percent of stimuli classified as /p/ over varying F0 with VOT held constant.",
+        "timeFrame": "During sEEG-EEG recording sessions, up to 3 hours total"
+      },
+      {
+        "measure": "Supratemporal Neural Response to Change in Listening Context",
+        "description": "Neural activity was measured via sEEG monitoring as indicated by high-gamma band activity in the electrical signal. Neural activity will be measured as participants listen to acoustic stimuli in accented speech. The un-transformed voltage represents the difference in electric potential between a specific electrode contact and the reference electrode contact; since we use a common average reference, that means it's the difference between a specific electrode contact and the mean voltage across all electrodes. We then z-score to characterize shifts from baseline activity (where z = 0) at a specific electrode, which is believed to measure changes in voltage due largely to post-synaptic currents. This is a mathematical transformation rather than a published scale or standardized assessment. More extreme z-scores (+ or -) indicate a greater change from baseline local neural activity; in other words, stimuli evoked greater activity in this region.",
+        "timeFrame": "During sEEG-EEG recording sessions, up to 3 hours total"
+      },
+      {
+        "measure": "Behavioral Impact of Change in Listening Context",
+        "description": "Behavioral responses in the form of a category judgment will be obtained as participants listen to acoustic stimuli in a varied listening context: accented speech. Participants will provide a behavioral response by indicating the phoneme perceived at the beginning of stimulus words (/b/ or /p/). Specifically, the outcome is reported as the mean % of stimuli classified as /p/ with varying VOT and F0 relationships.",
+        "timeFrame": "During sEEG-EEG recording sessions, up to 3 hours total"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Neural Response of Non-Regions of Interest to Change in Acoustic-Dimension",
+        "description": "Neural activity will be measured via simultaneous EEG-sEEG monitoring in the supratemporal plane as indicated by high-gamma band activity in the electrical signal. Neural activity will be measured as participants listen to acoustic stimuli with gradually manipulated acoustic dimensions, fundamental frequency (F0) and voice onset time (VOT). The data reported here is the number of temporal lobe channels demonstrating significant encoding of change in acoustic dimension (F0 as VOT is held constant).",
+        "timeFrame": "During sEEG-EEG recording sessions, up to 3 hours total"
+      },
+      {
+        "measure": "Neural Response of Non-Regions of Interest to Change in Listening Context",
+        "description": "Neural activity was measured via sEEG monitoring as indicated by high-gamma band activity in the electrical signal. Neural activity will be measured as participants listen to acoustic stimuli in accented speech. The un-transformed voltage represents the difference in electric potential between a specific electrode contact and the reference electrode contact; since we use a common average reference, that means it's the difference between a specific electrode contact and the mean voltage across all electrodes. We then z-score to characterize shifts from baseline activity (where z = 0) at a specific electrode, which is believed to measure changes in voltage due largely to post-synaptic currents. This is a mathematical transformation rather than a published scale or standardized assessment. More extreme z-scores (+ or -) indicate a greater change from baseline local neural activity; in other words, stimuli evoked greater activity in this region.",
+        "timeFrame": "During sEEG-EEG recording sessions, up to 3 hours total"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:49.604Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

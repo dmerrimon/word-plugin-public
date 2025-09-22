@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT00792077",
+  "briefTitle": "A Pilot Study to Investigate the Effect of Cytotoxic Therapy and/or Radiotherapy on Cancer Related Sleep Disturbances in CLL and Breast Cancer Patients Experiencing Fatigue",
+  "officialTitle": "A Pilot Open Label Study to Investigate the Effect of Cytotoxic Therapy and/or Radiotherapy Including Lenalidomide on Cancer Related Sleep Disturbances in Chronic Lymphocytic Leukemia (CLL) and Breast Cancer Patients Experiencing Clinically Significant Fatigue",
+  "protocolDocument": {
+    "nctId": "NCT00792077",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2008-07-22",
+    "uploadDate": "2021-06-03T13:29",
+    "size": 354351,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00792077/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 6,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2008-11",
+    "completionDate": "2020-08-03",
+    "primaryCompletionDate": "2020-08-03",
+    "firstSubmitDate": "2008-11-13",
+    "firstPostDate": "2008-11-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Describe fatigue as being present every day for most of day for a minimum of 2 weeks and rate fatigue greater than or equal to 4 on a 0-10 scale, in which 0= no fatigue and 10=worst possible fatigue as assessed by MD Anderson symptom Inventory(MDASI).\n2. Have diagnoses of CLL and started on a new cytotoxic therapy or breast cancer receiving new cytotoxic or radiation therapy\n3. Patients will be eligible to participate in this study if they rate sleep disturbance greater than or equal to 4 on a 0-10 scale, in which 0= disturbed sleep is not present and 10 = disturbed sleep as bad as you can imagine as assessed by MDASI.\n4. Have a MDAS of 13 or less.\n5. Able to understand the description of the study and give written informed consent.\n\nExclusion Criteria:\n\n1. Patients who are unable to complete the assessment measures or refuse to participate\n2. Patients with known history of brain metastasis.\n3. Patients with known history of sleep apnea.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Total Sleep Time as Measured by Polysomnography (PSG)",
+        "description": "Polysomnography (PSG) was done to measure the total sleep time in minutes. It was measured as a change in total sleep time between the before and after 1st cycle of treatment with Lenalidomide.",
+        "timeFrame": "before and after 1st cycle of Lenalidomide treatment, up to 8 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The Functional Assessment of Chronic Illness Therapy-Fatigue Subscale Score",
+        "description": "The FACIT-F subscale is a validated measure of fatigue. In the FACIT-F, the patient rates the intensity of their fatigue and its related symptoms on a scale of 0 to 4. The total score can range between 0 and 52, with higher scores denoting less fatigue. The score 0= worst fatigue possible, 52 indicates no fatigue. The scores reported is the median (IQR) change at 8 weeks compared to baseline.",
+        "timeFrame": "before and after 1st cycle of Lenalidomide treatment, up to 8 weeks"
+      },
+      {
+        "measure": "Epwort Sleep Scale",
+        "description": "The Epworth sleep scale is an 8-item questionnaire designed to asses general level of daytime sleepiness, and scores on this instrument range form 0-24, with higher scores indicating greater sleepiness. It was measured as a change in total score between the before and after 1st cycle of treatment with Lenalidomide.",
+        "timeFrame": "before and after 1st cycle of Lenalidomide treatment, up to 8 weeks"
+      },
+      {
+        "measure": "ECOG Performance Status",
+        "description": "This criteria is used to assess how a patient's disease is progressing and to assess how the disease affects the daily living abilities of the patient. The scores on this instrument range from 0-5 (0=fully active and 5=dead), with higher scores indicating poorer performance. It was measured as a change in performance status between before and after 1st cycle of treatment with Lenalidomide.",
+        "timeFrame": "before and after first cycle of Lenalidomide treatment, up to 8 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:55.368Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

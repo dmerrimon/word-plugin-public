@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02795936",
+  "briefTitle": "Feasibility of Cardiac Rehabilitation in Patients With Heart Failure at the Moi Teaching and Referral Hospital",
+  "officialTitle": "Feasibility of Cardiac Rehabilitation in Patients With Heart Failure at the Moi Teaching and Referral Hospital",
+  "protocolDocument": {
+    "nctId": "NCT02795936",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-05-23",
+    "uploadDate": "2018-07-10T17:15",
+    "size": 241279,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02795936/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07",
+    "completionDate": "2018-06",
+    "primaryCompletionDate": "2018-06",
+    "firstSubmitDate": "2016-05-31",
+    "firstPostDate": "2016-06-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. New York Heart Association (NYHA) Class II and III heart failure\n2. Have had an echocardiographic study in the past 5 years\n3. Owns a mobile telephone\n4. Can participate in exercise\n5. Can read/ primary care giver can read in English or Kiswahili\n6. Can travel to hospital three times a week\n\nExclusion Criteria:\n\n1. Recent acute illness requiring hospitalization or initiation of new medication in the preceding 4 weeks\n2. Limitation of activity because of factors other than fatigue or exertional dyspnea, such as arthritis, claudication in the legs, angina, advanced comorbidities\n3. Known arrhythmia\n4. Heart failure due to congenital heart disease\n5. Pregnant patients as may be confirmed by patient report or urine pregnancy tests\n6. Heart failure due to obstructive cardiomyopathy including mitral stenosis and aortic stenosis\n7. Presence of implanted pacemaker",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Protocol adherence",
+        "description": "Mean adherence of at least 25% to the exercise prescriptions",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in 6 minute walk time distance (in meters)",
+        "description": "Measure of functional capacity",
+        "timeFrame": "baseline, 12 weeks"
+      },
+      {
+        "measure": "Change in Depression screen score using patient health questionnaire 9 (PHQ9)",
+        "description": "Screen score based on patient health questionnaire 9 (PHQ9)",
+        "timeFrame": "baseline, 12 weeks"
+      },
+      {
+        "measure": "Change in Quality of life using short form health survey (SF 36) score",
+        "description": "Quality of life based on short form health survey (SF 36) score",
+        "timeFrame": "baseline, 12 weeks"
+      },
+      {
+        "measure": "Qualitative assessment of perceptions towards cardiac rehabilitation from focus group discussions",
+        "description": "Thematic analysis of barriers and incentives towards cardiac rehabilitation",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:30.424Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

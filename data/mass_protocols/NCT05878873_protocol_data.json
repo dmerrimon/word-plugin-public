@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT05878873",
+  "briefTitle": "The Neural Mechanisms of Split-belt Treadmill Adaptation in People With Multiple Sclerosis",
+  "officialTitle": "The Neural Underpinnings and the Impact of Wearable Sensory Stimulation During Split-belt Treadmill Adaptation in People With Multiple Sclerosis",
+  "protocolDocument": {
+    "nctId": "NCT05878873",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-07-25",
+    "uploadDate": "2025-05-28T16:38",
+    "size": 892325,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05878873/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 51,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-11-28",
+    "completionDate": "2024-06-30",
+    "primaryCompletionDate": "2024-06-30",
+    "firstSubmitDate": "2023-05-12",
+    "firstPostDate": "2023-05-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* A diagnosis of relapsing remitting multiple sclerosis OR a neurotypical adult (ages 18-86)\n* Not experiencing an active relapse\n* Able to stand and walk without an assistive device\n* Able to walk for three tenths of a mile without stopping to rest\n\nExclusion Criteria:\n\n* Unable to walk for three tenths of a mile without assistance\n* Musculoskeletal injury in past 6 months\n* Lower extremity surgery in past 6 months\n* Unable to abstain from medications that impair balance\n* Currently pregnant\n* History of traumatic brain injury\n* History of vestibular disease\n* History of any other balance impairment unrelated to multiple sclerosis",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "86 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Cortical Activation",
+        "description": "Cortical activation is measured using functional near-infrared spectroscopy (fNIRS) during split-belt treadmill walking. Hemodynamic responses are modeled using a general linear model (GLM) applied to the oxyhemoglobin (HbO) signal. The model includes regressors for distinct phases of walking, with the primary contrast comparing early adaptation (strides 6-30 after split-belt onset) to a baseline walking period. The outcome is defined as the difference in this HbO beta weight contrast with TENS ON compared to TENS OFF. Activation is averaged across all fNIRS channels to provide a whole-brain estimate of cortical activity. A larger value indicates a greater increase in activation from baseline walking to early adaptation. This was measured on both training session 1 and training session 2 to account for the crossover design (i.e. participants are receiving TENS on different days).",
+        "timeFrame": "Training session 1 (day 1), training session 2 (day 28)"
+      },
+      {
+        "measure": "Change in Adaptation Savings",
+        "description": "Adaptation savings is defined as the difference in early adaptation performance between training session 1 (Day 1) and training session 2 (Day 28) during split-belt treadmill walking. Early adaptation is quantified using relative step length asymmetry (SLA), calculated from strides 6 to 30 following split-belt onset. SLA is computed from three-dimensional motion capture and force data as the difference between step lengths of the legs, normalized to total stride length:\n\nSLA = (Step Length\\_fast - Step Length\\_slow) / (Step Length\\_fast + Step Length\\_slow).\n\nThis yields a unitless measure of asymmetry. The outcome measure is the difference in SLA between visits (training session 2 - training session 1). Larger values reflect faster adaptation at training session 2, consistent with retention of prior learning.",
+        "timeFrame": "Training session 1 (day 1), training session 2 (day 28)"
+      },
+      {
+        "measure": "Rate of Step Length Asymmetry Adaptation",
+        "description": "Step length asymmetry during early adaptation, representing the rate of adaptation. Early adaptation is quantified using relative step length asymmetry (SLA), calculated from strides 6 to 30 following split-belt onset. SLA is computed from three-dimensional motion capture and force data as the difference between step lengths of the legs, normalized to total stride length:\n\nSLA = (Step Length\\_fast - Step Length\\_slow) / (Step Length\\_fast + Step Length\\_slow).\n\nThis yields a unitless measure of asymmetry. The outcome measure is the difference in early adaptation SLA during TENS ON compared to TENS OFF. Values closer to zero reflect faster adaptation.This analysis was performed only on data from each participant's first visit to avoid known effects of increased adaptation rate (learning) during subsequent exposures.",
+        "timeFrame": "Training session 1 (day 1)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:13.154Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT02812186",
+  "briefTitle": "Deep Versus Moderate Neuromuscular Blockade During Laparoscopic Surgery",
+  "officialTitle": "Effect of Deep Versus Moderate Neuromuscular Blockade on Peak Airway Pressures During Elective Laparoscopic Surgery",
+  "protocolDocument": {
+    "nctId": "NCT02812186",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-04-05",
+    "uploadDate": "2020-01-31T15:19",
+    "size": 853706,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02812186/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 79,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-12-27",
+    "completionDate": "2019-02-06",
+    "primaryCompletionDate": "2019-01-17",
+    "firstSubmitDate": "2016-06-06",
+    "firstPostDate": "2016-06-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Each participant must be willing and able to provide written informed consent for the study.\n* Each participant must be American Society of Anesthesiologists (ASA) class I, II or III.\n* Each participant must be scheduled for elective laparoscopic surgery (this includes robotic laparoscopic surgery).\n* Expected surgical duration of 60 min or longer\n\nExclusion Criteria:\n\n* Inability to give informed oral or written consent\n* Known or suspected neuromuscular disorders impairing neuromuscular function;\n* True allergies as defined as hypotension, bronchospasm, or anaphylaxis to muscle relaxants, anesthetics or opioids\n* A history (patient or family) of malignant hyperthermia\n* A contraindication for neostigmine administration\n* Renal insufficiency, as defined by serum creatinine levels at 2.5 fold the normal level\n* Body mass index \\>40 kg/m\\^2\n* Significant respiratory disease.\n* Planned postoperative mechanical ventilation",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Peak Airway Pressures",
+        "description": "To determine if a deep NMB can lead to lower peak airway pressures in patients undergoing laparoscopic procedures when compared to a moderate NMB",
+        "timeFrame": "Intra-operative, from intubation time to extubation time"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Abdominal Insufflation Pressure",
+        "description": "To compare surgical operating condition by Abdominal Insufflation Pressure in patients undergoing laparoscopic procedures using deep NMB versus moderate NMB",
+        "timeFrame": "Intra-operative, from intubation time to extubation time"
+      },
+      {
+        "measure": "Surgical Rating Scale",
+        "description": "To compare surgical operating condition by Surgical Rating Scale (SRS) in patients undergoing laparoscopic procedures using deep NMB versus moderate NMB\n\nSurgical Rating Score scores are on a 1-5 scale with 1 = extremely poor conditions, 2 = poor conditions, 3 = adequate conditions, 4 = good conditions, 5= excellent conditions. Higher scores mean a better outcome.",
+        "timeFrame": "Intra-operative, from intubation time to extubation time"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:59.130Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

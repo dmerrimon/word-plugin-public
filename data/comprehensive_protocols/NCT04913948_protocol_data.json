@@ -1,0 +1,78 @@
+{
+  "nctId": "NCT04913948",
+  "briefTitle": "Assessing the Mother-to-infant Transmission Capabilities of COVID-19 Infection Among Pregnant Women in Ontario, Canada",
+  "officialTitle": "Assessing the Mother-to-infant Transmission Capabilities of COVID-19 Infection Among Pregnant Women in Ontario, Canada",
+  "protocolDocument": {
+    "nctId": "NCT04913948",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-11-15",
+    "uploadDate": "2024-11-22T12:30",
+    "size": 690747,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04913948/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 246,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-04-30",
+    "completionDate": "2021-07-31",
+    "primaryCompletionDate": "2021-07-31",
+    "firstSubmitDate": "2021-03-03",
+    "firstPostDate": "2021-06-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Pregnant women with confirmed COVID-19 at any point during pregnancy or suspected COVID-19 at time of delivery (as identified at local hospital) , who will be delivering at a participating hospital in Ontario or Quebec\n\nExclusion Criteria:\n\n* None",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Rate of Perinatal Transmission of SARS-CoV-2",
+        "description": "Evidence of SARS-CoV-2 RNA or antibodies against SARS-CoV-2 from a sterile (amniotic fluid) or non-sterile sample (nasopharyngeal swab sample, placental tissue, subamniotic swab or by cord blood serology \\[for IgM or IgA\\]) collected during the maternal hospital admission for delivery (specific time frame varied per participant).",
+        "timeFrame": "During the delivery admission"
+      },
+      {
+        "measure": "Rate of Intrauterine Transmission of SARS-CoV-2",
+        "description": "Evidence of SARS-CoV-2 RNA or antibodies against SARS-CoV-2 in fetal tissues (i.e., amniotic fluid, placental tissue, sub-amniotic swab, cord blood) collected during maternal hospital admission for delivery (specific time frame varied per participant). Evidence of intrauterine transmission was determined using RT-PCR and serological analysis.",
+        "timeFrame": "During the delivery admission"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:38.626Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

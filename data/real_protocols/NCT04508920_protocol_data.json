@@ -1,0 +1,95 @@
+{
+  "nctId": "NCT04508920",
+  "briefTitle": "A Survey to Assess Effects of Covid-19 on Cardiovascular Patients",
+  "officialTitle": "A Survey to Assess Effects of the Covid-19 Pandemic on Symptomatology, Treatment and Medical Care for Cardiovascular Patients",
+  "protocolDocument": {
+    "nctId": "NCT04508920",
+    "filename": "Prot_ICF_000.pdf",
+    "label": "Study Protocol and Informed Consent Form",
+    "date": "2020-06-04",
+    "uploadDate": "2020-08-10T15:34",
+    "size": 329816,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04508920/document/Prot_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": true
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 76,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2019-05-15",
+    "completionDate": "2021-07-15",
+    "primaryCompletionDate": "2021-06-15",
+    "firstSubmitDate": "2020-08-07",
+    "firstPostDate": "2020-08-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* confirmed diagnosis of HF, according with the ESC guidelines criteria\n* both genders,\n* above 18 years,\n* agreed to participate\n\nExclusion Criteria:\n\n* Impediment to contacting patients\n* marked physical impairment\n* cognitive impairment that prevents optimal interrogation\n* Cultural barriers involving communication limitation (languages, dialects, reading and writing)\n* Patient doesn't want to participate.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "NYHA class deterioration",
+        "description": "NYHA class modification in the last four weeks. Basal and follow-up measures: Basal on June 2020. Follow up: every three months and a year (June 2021). NYHA Scale: Minimum: 1 to maximum :4",
+        "timeFrame": "1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Dyspnea deterioration",
+        "description": "physiological parameter to worsening of shortness of breath perception, in last four weeks. Basal and follow-up measures: Basal on June 2020. Follow up: every three months and a year (June 2021).Dichotomic scale presence or absence",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Paroxysmal nocturnal dyspnea deterioration",
+        "description": "Physiological parameter to worsening of dyspnea that suddenly occurs to decubitus, in last four weeks. Basal and follow-up measures: Basal on June 2020. Follow up: every three months and a year (June 2021). Dichotomic scale presence or absence.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Edema",
+        "description": "Physiological parameter to worsening of quantification of swollen ankles in both pelvic limbs, in last four weeks. Basal and follow-up measures: Basal on June 2020. Follow up: every three months and a year (June 2021). Dichotomic scale presence or absence",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Daily activities In the last four weeks? Please, mention if you a perceived limitation on : Walking deterioration",
+        "description": "a perceived limitation on walking more 500 meters, in last four weeks. Basal and follow-up measures: Basal on June 2020. Follow up: every three months and a year (June 2021). Dichotomic scale presence or absence.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 4,
+      "exclusionCount": 5,
+      "totalCount": 9
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 63,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:32:42.493Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

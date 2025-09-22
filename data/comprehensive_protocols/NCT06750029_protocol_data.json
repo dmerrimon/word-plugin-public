@@ -1,0 +1,129 @@
+{
+  "nctId": "NCT06750029",
+  "briefTitle": "How Does Medical Clown Intervention Affect the Length of Hospitalization in Children With Pneumonia",
+  "officialTitle": "How Does Medical Clown Intervention Affect the Length of Hospitalization in Children With Pneumonia",
+  "protocolDocument": {
+    "nctId": "NCT06750029",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-01",
+    "uploadDate": "2024-12-06T06:12",
+    "size": 192129,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06750029/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 51,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-10-30",
+    "completionDate": "2023-11-07",
+    "primaryCompletionDate": "2023-11-07",
+    "firstSubmitDate": "2024-12-06",
+    "firstPostDate": "2024-12-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of pneumonia.\n* Ages 2-18 years.\n\nExclusion Criteria:\n\n* Hemodynamically unstable patients.\n* Other systemic comorbidities or chronic respiratory diseases\n* Children from families unable to comprehend and sign an informed consent form.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The length of hospitalization in hours",
+        "description": "The length of hospitalization in hours is determined by the duration between admission and discharge from the pediatric department.",
+        "timeFrame": "Immediately after the intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Duration of IV treatment",
+        "description": "Duration of IV treatment in hours.",
+        "timeFrame": "Immediately after the intervention"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Changes in well-being scores as reported by both the parent and the treating physician.",
+        "description": "Changes in well-being scores as reported by both the parent and the treating physician, and alterations in vital signs and laboratory results.",
+        "timeFrame": "Immediately after the intervention"
+      },
+      {
+        "measure": "Alterations in Heart rate",
+        "description": "Alterations in Heart rate",
+        "timeFrame": "Immediately after the intervention"
+      },
+      {
+        "measure": "Alterations in body temperature",
+        "description": "Alterations in body temperature",
+        "timeFrame": "Immediately after the intervention"
+      },
+      {
+        "measure": "Alterations in Respiratory rate",
+        "description": "Alterations in Respiratory rate",
+        "timeFrame": "Immediately after the intervention"
+      },
+      {
+        "measure": "Alterations in oxygen saturation",
+        "description": "Alterations in oxygen saturation",
+        "timeFrame": "Immediately after the intervention"
+      },
+      {
+        "measure": "Alterations in white blood cell count",
+        "description": "Alterations in white blood cell count",
+        "timeFrame": "Immediately after the intervention"
+      },
+      {
+        "measure": "Alterations in absolute neutrophil count",
+        "description": "Alterations in absolute neutrophil count",
+        "timeFrame": "Immediately after the intervention"
+      },
+      {
+        "measure": "Alterations in C-reactive protein levels",
+        "description": "Alterations in C-reactive protein levels",
+        "timeFrame": "Immediately after the intervention"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 8,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 50,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:28.726Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

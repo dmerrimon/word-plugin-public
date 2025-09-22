@@ -1,0 +1,99 @@
+{
+  "nctId": "NCT03828539",
+  "briefTitle": "Head-to-head Study of Erenumab Against Topiramate in Patients With Episodic and Chronic Migraine",
+  "officialTitle": "Head-to-head Study of Erenumab Against topiRamate-a Double-blind, Double Dummy Migraine Study to Assess Tolerability and Efficacy in a patiEnt -Centered Setting",
+  "protocolDocument": {
+    "nctId": "NCT03828539",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-06-06",
+    "uploadDate": "2021-07-16T11:27",
+    "size": 1288124,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03828539/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 777,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-02-22",
+    "completionDate": "2020-07-29",
+    "primaryCompletionDate": "2020-07-29",
+    "firstSubmitDate": "2019-02-01",
+    "firstPostDate": "2019-02-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n1. Documented history of migraine in the 12 months prior to screen\n2. at least 4 days per month of migraine symptoms\n3. \\>=80% diary compliance during the Baseline period\n4. Patients must be either naïve or not suitable or have failed previous migraine prophylactic treatments\n\nKey Exclusion Criteria:\n\n1. Older than 50 years of age at migraine onset\n2. Pregnant or nursing\n3. History of cluster or hemiplegic headache\n4. History or evidence of major psychiatric disorder\n5. Score of 19 or higher on Beck Depression Inventory (BDI)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Patients With Treatment Discontinuation Due to an Adverse Event (AE) During the Double-blind Treatment Epoch/Period (DBTE)",
+        "description": "The primary objective was to demonstrate the tolerability of 70 mg and 140 mg erenumab compared to topiramate in the highest tolerated dose assessed by the rate of patients discontinuing treatment due to AE during the double-blind epoch of the study.",
+        "timeFrame": "24 Weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Patients With at Least 50% Reduction From Baseline in Monthly Migraine Days (MMD) Over the Last Three Months (Month 4, 5, and 6)",
+        "description": "The secondary objective of this study was to evaluate the effect of erenumab compared to topiramate on the proportion of patients with at least 50% reduction from baseline in MMDs. The Baseline period was defined as the period between Week -4 and the day prior to first dose. This was analyzed by logistic regression over the last 3 months (months 4, 5, and 6) of treatment. All the subjects' data collected regarding 50% response in MMD was used in the analysis regardless of whether subjects discontinue study treatment or not. Subjects with missing response information on this endpoint were imputed as non-response (non-responder imputation).",
+        "timeFrame": "Baseline, Last three months (month 4, 5, and 6)"
+      }
+    ],
+    "other": [
+      {
+        "measure": "EXPLORATORY ENDPOINT: Proportion of Patients Achieving at Least a 5 Points Reduction in the Headache Impact Test (HIT-6) From Baseline to Week 24",
+        "description": "The HIT-6 is a widely used patient-reported outcome measure that assesses the negative effects of headaches on normal activity. Six items assess the frequency of pain severity, headaches limiting daily activity (household, work, school, and social), wanting to lie down when headache is experienced, feeling too tired to work or do daily activities because of headache, feeling \"fed up\" or irritated because of headache, and headaches limiting ability to concentrate or work on daily activities. Each of the 6 questions is responded to using 1 of 5 response categories: \"never,\" \"rarely,\" \"sometimes,\" \"very often,\" or \"always.\" For each HIT-6 item, 6, 8, 10, 11, or 13 points, respectively, are assigned to the response provided. These points are summed to produce a total HIT-6 score that ranges from 36 to 78. HIT-6 scores are categorized into 4 grades: little or no impact (49 or less), some impact (50 - 55), substantial impact (56 - 59), and severe impact (60 - 78) due to headache.",
+        "timeFrame": "Baseline, Week 24"
+      },
+      {
+        "measure": "EXPLORATORY ENDPOINT: Proportion of Patients Achieving at Least a 5 Points Increase in the Medical Outcome Short Form Health Survey Version 2 (SF-36) From Baseline to Week 24",
+        "description": "The SF-36 is a widely used and extensively studied instrument to measure health-related quality of life (HRQoL) among healthy subjects and patients with acute and chronic conditions. It consists of eight subscales that can be scored individually: Physical Functioning, Role-Physical, Bodily Pain, General Health, Vitality, Social Functioning, Role-Emotional, and Mental Health. Two overall summary scores, the Physical Component Summary (PCS) and the Mental Component Summary (MCS) also can be computed. The SF-36 has proven useful in monitoring general and specific populations, comparing the relative burden of different disease, differentiating the health benefits produced by different treatments, and in screening individual patients. The purpose of the SF-36 in this study was to assess the HRQoL of patients. Given the nature of this disease and the 4-weekly assessment, the SF-36 version 2, with a 4-week recall period, was used in this study.",
+        "timeFrame": "Baseline, Week 24"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 2,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 48,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:54.357Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

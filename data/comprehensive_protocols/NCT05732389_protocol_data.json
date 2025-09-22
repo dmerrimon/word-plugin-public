@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT05732389",
+  "briefTitle": "Immunotherapy in Patients With Early dMMR Rectal Cancer",
+  "officialTitle": "Immunotherapy in Patients With Early dMMR Rectal Cancer",
+  "protocolDocument": {
+    "nctId": "NCT05732389",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-10-30",
+    "uploadDate": "2023-01-17T04:40",
+    "size": 1229801,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05732389/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 39,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-02-01",
+    "completionDate": "2052-02",
+    "primaryCompletionDate": "2027-07",
+    "firstSubmitDate": "2023-01-17",
+    "firstPostDate": "2023-02-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years.\n* Histologically verified non-metastatic rectal cancer stage 1-3.\n* No indication for local therapy like TEM.\n* Histologically verified dMMR or MSI.\n* Performance status (WHO) of 0-1.\n* No previous chemotherapy, radiotherapy or immunotherapy for colorectal cancer\n* Adequate haematological function defined as neutrophils ≥ 1.5 x 109/l and platelets ≥ 100 x 109/l.\n* Adequate organ function (bilirubin ≤ 1.5 x UNL (upper normal limit), GFR (may be calculated) \\> 30 ml/min.\n* Women of childbearing potential must have been tested negative in a serum pregnancy test within five days prior to registration. Fertile patients must agree to use a highly effective method of birth control. (i.e., pregnancy rate of less than 1 % per year) (Appendix 1) during the study and for six months after the discontinuation of study medication.\n* Has provided written informed consent prior to performance of any study procedure.\n* Written informed consent must be obtained according to the local Ethics Committee requirements.\n\nExclusion Criteria:\n\n* Any other condition or therapy, which in the investigator's opinion may pose a risk to the patient or interfere with the study objectives.\n* Concomitant use of systemic glucocorticoids more than the equivalent dose to tablet prednisolone 10 mg/day. Treatment with systemic glucocorticoids must end no later than two weeks before inclusion.\n* Subjects with active, known, or suspected autoimmune disease. Subjects with vitiligo, type I diabetes mellitus, residual hypothyroidism due to autoimmune condition only requiring hormone replacement, psoriasis not requiring systemic treatment, or conditions not expected to recur in the absence of an external trigger are permitted to enrol.\n* Known allergy or intolerance to any of the drugs used (nivolumab and ipilimumab).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Complete clinical response",
+        "description": "Proportion of patients with complete clinical response Complete clinical response will be defined as no visible or palpable tumor examined by rectal exploration (if low tumors), endoscopy and MR-scan. Patients with definite but less than complete regression BUT with a representative biopsy without viable tumor cells will also be classified as cCR in this trial.",
+        "timeFrame": "Evaluated at day 93 (+/- 7 days) after one or two cycles of immunotherapy. (Each cycle is 7 weeks)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Complete biological response",
+        "description": "Proportion of patients with complete biological response",
+        "timeFrame": "Evaluated at day 93 (+/- 7 days) after one or two cycles of immunotherapy. (Each cycle is 7 weeks)"
+      },
+      {
+        "measure": "12 months recurrence",
+        "description": "Proportion of patients without any sign of recurrence after 12 months.",
+        "timeFrame": "after 12 months"
+      },
+      {
+        "measure": "Respons rate",
+        "description": "Response rate according to mrTRG.",
+        "timeFrame": "after 1 or 2 cycles of immunotherapy. (Each cycle is 7 weeks)"
+      },
+      {
+        "measure": "Adverse events",
+        "description": "Adverse events assessed by the investigator according to the definitions in NCI-CTC, version 5.0",
+        "timeFrame": "after 1 or 2 cycles of immunotherapy and months 4, 10, 16, and 24. (Each cycle is 7 weeks)"
+      },
+      {
+        "measure": "Bio-marker predictive models for treatment response and survival.",
+        "description": "Correlation between bio-markers (ctDNA and CEA) and outcome.",
+        "timeFrame": "after 1 or 2 cycles of immunotherapy. (Each cycle is 7 weeks)"
+      },
+      {
+        "measure": "Quality of life (EORCT QLQ-C30)",
+        "description": "Change in Quality of life (EORCT QLQ-C30)",
+        "timeFrame": "after 1 or 2 cycles of immunotherapy and months 4, 10, 16, and 24. (Each cycle is 7 weeks)"
+      },
+      {
+        "measure": "Quality of life (EORCT QLQ-CR29)",
+        "description": "Change in Quality of life (EORCT QLQ-CR29)",
+        "timeFrame": "after 1 or 2 cycles of immunotherapy and months 4, 10, 16, and 24. (Each cycle is 7 weeks)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:48.165Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

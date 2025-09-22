@@ -1,0 +1,74 @@
+{
+  "nctId": "NCT03979807",
+  "briefTitle": "A Study Based on Medical Records That Looks at the Duration of Use of Two Types of Inhalers With Different Medicines in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+  "officialTitle": "The Role of Inhaler Device in the Treatment Persistence With Dual Bronchodilators in Patients With COPD",
+  "protocolDocument": {
+    "nctId": "NCT03979807",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-11-22",
+    "uploadDate": "2020-07-02T11:17",
+    "size": 553885,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03979807/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 11296,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-06-10",
+    "completionDate": "2019-06-11",
+    "primaryCompletionDate": "2019-06-11",
+    "firstSubmitDate": "2019-06-06",
+    "firstPostDate": "2019-06-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\-\n\nExclusion Criteria:\n\n* Aged \\<40 years\n* Enrolment with medical and pharmacy coverage prior to the cohort entry \\< 180 days\n* Never had COPD diagnosis on the cohort entry date or prior to cohort entry\n* A record for dispensed Olodaterol/Tiotropium Bromide delivered with Respimat inhalator or Umeclidinium/Vilanterol delivered with the Ellipta Inhaler during the 180-day baseline prior to cohort entry\n* Diagnosis of asthma any time prior to cohort entry\n* Diagnosis of lung cancer any time prior to cohort entry\n* Diagnosis of lung transplant any time prior to cohort entry",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "1 Year",
+    "maximumAge": "40 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Rate of Discontinuation of Index Treatment (Olodaterol/Tiotropium Bromide or Umeclidinium/Vilanterol)",
+        "description": "The primary outcome of interest was discontinuation of index treatment (Olodaterol/Tiotropium Bromide or Umeclidinium/Vilanterol), defined as persistence, (i.e. no refill Claim within 60 days \\[not including treatment Switch, nor death\\] after end of supply) during follow-up. Persistence was assessed by calculating rates of discontinuation in the matched cohorts using a 60-day allowable gap. Rates of discontinuation are reported as the number of events divided by the number of Person-years at risk. Addition of another treatment to index treatment did not count as discontinuation.",
+        "timeFrame": "From first day after the cohort entry date to the earliest occurence of the outcome (discontinuation or refills), or any censoring criteria (365 days of follow-up without discontinuation, death, disenrollment end of data)."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:27.665Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

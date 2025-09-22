@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT02081638",
+  "briefTitle": "Elite Controller and ART-treated HIV+ Statin Versus ASA Treatment Intervention Study",
+  "officialTitle": "Elite Controller and ART-Treated HIV+ Statin Versus ASA Treatment Intervention Study",
+  "protocolDocument": {
+    "nctId": "NCT02081638",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-09-21",
+    "uploadDate": "2020-10-07T20:55",
+    "size": 5763464,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02081638/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 53,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-04-18",
+    "completionDate": "2019-10-16",
+    "primaryCompletionDate": "2019-10-16",
+    "firstSubmitDate": "2014-03-05",
+    "firstPostDate": "2014-03-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "* INCLUSION CRITERIA:\n\nEC Arm\n\n1. Age greater than or equal to 18 years.\n2. Documented HIV-1 infection confirmed by enzyme-linked immunosorbent assay (ELISA) and Western blot tests (will not be repeated if performed previously at NIH).\n3. Categorized as a long term non-progressor EC as defined by viral loads typically less than the LLD of commercially available assays and clinical and laboratory criteria (no OIs, no ART, stable CD4 T cell counts for more than 3 years). Viral load blips are allowed as long as they are less than 500 copies/mL and flanked by viral load measurements less than 100copies/mL. Viral load \\<100c/mL will be acceptable for eligibility at screening.\n4. In women of childbearing potential, with no plans for pregnancy for the next 15 months and willing to use 2 investigator approved highly reliable methods of birth control consistently while on the study or in 3 month follow up.\n5. Willingness to have samples stored for future research.\n6. Not on a statin or ASA for the past 6 months.\n\nART \\<50 Arm\n\n1. Age greater than or equal to 18 years.\n2. Documented HIV-1 infection confirmed by enzyme-linked immunosorbent assay (ELISA) and Western blot tests.\n3. In women of childbearing potential, with no plans for pregnancy for the next 15 months and willing to use 2 investigator approved highly reliable methods of birth control consistently while on the study or in 3 month follow up.\n4. On continuous combination ART \\>4 years.\n5. HIV RNA \\<50 copies/mL (or less than 40 or less than 48 copies/mL, depending on the lower limit of detection of the assay used; transient periods of low level (\\<300) detectable virus, blips, acceptable if isolated and followed by viral loads less than the lower limit of detection) \\>3 years and current HIV-RNA less than the LLD of the commercially available assay used. Subject will be rescreened if HIV is detectable at screening visit.\n6. Willingness to have samples stored for future research.\n7. Not on a statin or ASA for the past 6 months.\n\nEXCLUSION CRITERIA\n\n1. Diagnosis of cardiovascular disease or hypercholesterolemia (LDL cholesterol 190 mg/dL).\n2. Known hypersensitivity or allergy to ATV or ASA, including a history of myositis or rhabdomyolysis with statin or ASA use.\n3. Other contraindication for ASA or statin therapy (active liver disease, peptic ulcer disease, etc.).\n4. Women who are lactating, pregnant, or actively trying to become pregnant or considering pregnancy over the likely span of the study (including women of childbearing potential who are unwilling to use adequate contraception throughout the study).\n5. Any chronic inflammatory condition either requiring anti-inflammatory medication (systemic corticosteroids, daily NSAID use,immunomodulating medications) which may, in the opinion of the investigator, confound the interpretation of soluble inflammatory biomarkers. While on study, short term (less than 5 days) NSAID use will be allowed at the discretion of the investigator.\n6. Active drug use or alcohol abuse that, in the opinion of the investigator, may interfere with the ability of the subject to participate in the study or that may unacceptably increase the risk of the study intervention..\n7. Safety laboratory cut offs: coagulation (INR \\>2 upper limit of normal \\[ULN\\], PLT\\<75K), renal function (GFR\\<60), liver function (ALT or Alkaline phosphatase or direct bilirubin \\>2x ULN), aldolase \\<1.5 ULN and anemia (Hg \\<9 mg/dL).\n8. Antiretroviral therapy with tipranivir, or any therapy which combines non-nucleoside reverse transcriptase inhibitors with protease inhibitors.\n9. Chronic hepatitis C co-infection. However, if a subject has more than 24 weeks of sustained virologic response (SVR), the subject can be considered for eligibility.\n10. If either MR or apheresis is contraindicated, subject may still participate without this procedure. In the case of missed apheresis, a 30 mL research blood draw will be substituted (see Appendices B and C).\n\n    * If statin initiation is indicated per current guidelines, subject will be counseled to consult with their PMD. If the subject then chooses to take part in the study, we will provide their PMD with all pertinent lab results during the course of the study, if requested.\n\nCo-enrollment Guidelines: Co-enrollment in other trials will be restricted, other than enrollment on observational studies. Study staff should be notified of co-enrollment as it may require the approval of the Investigator.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Changes in sCD14 After 9 Months of Treatment With Aspirin or Atorvastatin",
+        "description": "sCD14 change between baseline (average of month 0 and month 3 in the study) and month 12",
+        "timeFrame": "Month 12"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Changes in sCD14 in EC and ART <50 Groups Treated With Aspirin or Atorvastatin.",
+        "description": "sCD14 change between baseline (average of month 0 and month 3 in the study) and month 12",
+        "timeFrame": "Month 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:20.369Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

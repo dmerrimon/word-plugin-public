@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT02391987",
+  "briefTitle": "Integrated Tele-monitoring and Patient-centric Health Coaching Strategy in Patients Hospitalized With Heart Failure",
+  "officialTitle": "A Randomized Study of the Effectiveness of an Integrated Tele-monitoring and Patient-centric Health Coaching Strategy (Tele-HC) in Adult Patients Recently Hospitalized With Acute Decompensated Heart Failure (ADHF) Compared to Standard Care",
+  "protocolDocument": {
+    "nctId": "NCT02391987",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-04-03",
+    "uploadDate": "2020-01-07T12:56",
+    "size": 810167,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02391987/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 112,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-05",
+    "completionDate": "2019-03",
+    "primaryCompletionDate": "2019-03",
+    "firstSubmitDate": "2015-03-12",
+    "firstPostDate": "2015-03-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Hospitalized with primary or secondary diagnosis of Acute Decompensated Heart Failure (one or more of these symptoms: shortness of breath, orthopnea or edema AND one or more of these signs: rales, peripheral edema, ascites, or pulmonary vascular congestion on chest radiography)\n* Adult patients \\>18 years old\n\nExclusion Criteria:\n\n* Overall life expectancy \\< 1 year\n* Known skin allergy to adhesives (hydrocolloid, silicone, acrylic)\n* Active systemic infection\n* Pregnant or lactating\n* End stage renal disease on dialysis\n* Subject or caregiver is not visually and tactile capable of smartphone and home device usage\n* Inadequate cell phone coverage (including international patients or international travel during study period)\n* Subject or legal guardian is not willing and able to provide appropriate informed consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Hospital Readmission",
+        "description": "Occurrence of all-cause hospital readmissions or death within 60 days",
+        "timeFrame": "60 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Readmissions or Visits",
+        "description": "Number of hospital readmissions or emergency room visits (visits without admissions)",
+        "timeFrame": "60 days"
+      },
+      {
+        "measure": "Mortality",
+        "description": "All-cause mortality",
+        "timeFrame": "60 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:32.580Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

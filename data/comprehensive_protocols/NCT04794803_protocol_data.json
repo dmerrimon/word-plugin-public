@@ -1,0 +1,175 @@
+{
+  "nctId": "NCT04794803",
+  "briefTitle": "Reparixin in COVID-19 Pneumonia - Efficacy and Safety",
+  "officialTitle": "Study on the Efficacy and Safety of Reparixin in the Treatment of Hospitalized Patients With COVID-19 Pneumonia",
+  "protocolDocument": {
+    "nctId": "NCT04794803",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-04-23",
+    "uploadDate": "2022-03-15T13:01",
+    "size": 668702,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04794803/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 56,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-05",
+    "completionDate": "2021-02-02",
+    "primaryCompletionDate": "2020-11-27",
+    "firstSubmitDate": "2021-03-08",
+    "firstPostDate": "2021-03-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Phase 2 Inclusion Criteria:\n\n  1. Age 18 to 90.\n  2. Confirmed COVID-19 diagnosis\n  3. At least one of the following: # Respiratory distress, RR ≥ 30 breaths/min without oxygen; # Partial arterial oxygen pressure (PaO2) / Fraction of inspiration O2 (FiO2) \\>100 \\<300mmHg\n\n  (1mmHg = 0.133kPa). 4. Chest imaging confirms lung involvement and inflammation. 5. Inflammatory status as documented by at least one of the following: Lactate dehydrogenase (LDH) \\> normal range, C-reactive protein (CRP) ≥ 100mg/L or IL-6 ≥ 40pg/mL, serum ferritin ≥ 900ng/mL, XDP \\>20mcg/mL.\n* Phase 3 Inclusion Criteria: Same as above; other criteria TBD based on Phase 2 outcomes.\n\nExclusion Criteria:\n\n• Phase 2/3 Exclusion Criteria:\n\n1. Cannot obtain informed consent.\n2. Severe hepatic dysfunction (Child Pugh score ≥ C, or AST\\> 5 times the upper limit); Severe renal dysfunction (estimated glomerular filtration rate ≤ 30mL / min / 1.73 m2) or receive continuous renal replacement therapy, hemodialysis, or peritoneal dialysis.\n3. Patients with hypersensitivity to ibuprofen or to more than one non steroidal anti-inflammatory drug or to more than one medication belonging to the class of sulfonamides (e.g. sulfamethazine, sulfamethoxazole, sulfasalazine, nimesulide or celecoxib; hypersensitivity to sulphanilamide antibiotics alone, e.g. sulfamethoxazole, does not qualify for exclusion)\n4. Severe, active bleeding such as hemoptysis, gastrointestinal bleeding, central nervous system bleeding, and nosebleeds within 1 month before enrollment.\n5. Pregnant and lactating women and those planning to get pregnant.\n6. Participated in other interventional clinical trials with investigational medicinal products, not considered suitable for this study by the researchers.\n7. At the time of enrollment, patients not in a clinical condition compatible with the oral administration of the study drug.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Phase 2 - Percentage of Participants With Composite Endpoint of Clinical Events",
+        "description": "Composite event is defined as the onset of at least one of the following events:\n\n* supplemental oxygen requirement based on a worsening of PaO2/FiO2 ratio,\n* invasive mechanical ventilation use,\n* admission to Intensive Care Unit (ICU),\n* use of a rescue medication for any reason. Please note that in the measure type \"number\" actually is a \"rate\" of patients. Rate is referred to a binomial response rate while the 95% CIs are estimated by using the Clopper-Pearson's method",
+        "timeFrame": "Up to Day 1"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Phase 2 - Percentage of Patients With Improvement in Clinical Severity Score (as Recommended by WHO for COVID Studies) of at Least Two Points",
+        "description": "Changes in clinical severity score are defined as the time to clinical improvement of two points from the time of randomization on a seven-category ordinal scale or live discharge from the hospital, whichever came first. The seven-category ordinal scale consisted of the following: 1) not hospitalized, with resumption of normal activities; 2) not hospitalized, but unable to resume normal activities; 3) hospitalized, not requiring supplemental oxygen; 4) hospitalized, requiring supplemental oxygen; 5) hospitalized, requiring high-flow oxygen therapy, non-invasive mechanical ventilation, or both; 6) hospitalized, requiring Extracorporeal Membrane Oxygenation (ECMO), invasive mechanical ventilation, or both; and 7) death. The higher the score, the worse the outcome. A subject is considered \"improved\" with a clinical severity score improvement of at least two points compared to randomization or live discharge from the hospital.\n\nn are the subjects improved at each time point vs baseline.",
+        "timeFrame": "At day 1, day 2, week 1, day 21(end of treatment, EOT), EOS (end of study, i.e. 7±3 days after EOT)"
+      },
+      {
+        "measure": "Phase 2 - Percentage of Improved Subjects in Dyspnea Severity, Assessed by Liker Scale",
+        "description": "The severity of dyspnea can be measured through the Liker scale. The Liker scale is used as follows: the patient grades his current breathing compared to when he first started the drug (from -3 to 3). \"0\" = no change, \"1\" =minimally better, \"2\" =moderately better, \"3\" =markedly better, \"-1\" =minimally worse, \"-2\" =moderately worse, \"-3\" =markedly worse. The higher the score, the better the outcome. N is the number of subjects for which the evaluation of the dyspnea severity scale at each time point is available. n is the number of subjects improved at each time point in comparison with the randomization.",
+        "timeFrame": "Baseline, day 1, day 2, week 1, day 21(end of treatment, EOT), 7±3 days after treatment period (end of study, EOS)"
+      },
+      {
+        "measure": "Phase 2 - Change From Baseline in Dyspnea Severity, Assessed by VAS Scale",
+        "description": "The severity of dyspnea is measured also through the VAS scale. The VAS scale is used as follows: the patient draws a horizontal line on an axial graph (from 0 to 100) to show the degree of how he feels about breathing. The number \"0\" equals the worst breathing the patient has ever felt and the number \"100\" equals the best he has ever felt. N is the number of subjects for which the evaluation of the dyspnea severity scale at each time point is available. n is the number of subjects improved at each time point in comparison with the randomization.",
+        "timeFrame": "Baseline, day 1, day 2, week 1, day 21(end of treatment, EOT), 7±3 days after treatment period (end of study, EOS)"
+      },
+      {
+        "measure": "Changes From Baseline in Body Temperature to Any Post-baseline Timepoints",
+        "description": "Variations in the mean body temperature from baseline to any post-baseline timepoint were assessed.\n\nn is the number of subjects for which the evaluation of the body temperature at each time point is available.",
+        "timeFrame": "Baseline, Day 1, Day 2, Week 1, EOT and EOS"
+      },
+      {
+        "measure": "Phase 2 - Percentage of Subjects Worsened, During Supplemental Oxygen Treatment, From Randomization According to PaO2/FiO2",
+        "description": "Cumulative quantity of oxygen treatment (L) = Sum of all Quantity (L) in CONCOMITANT OXYGEN TREATMENT form, from randomization to time point of interest.\n\nAccording to PaO2/FiO2, the classification is 'mild' if 200 \\<= PaO2/FiO2 \\< 300 mmHg, 'moderate' if 100 \\<= PaO2/FiO2 \\< 200 mmHg, 'severe' if PaO2/FiO2 \\< 100 mmHg. A patient with ARDS (PaO2/FiO2\\<300 mmHg) is considered 'worsened' in case of a decrease of PaO2/FiO2 of at least one third (-33,3%) from the baseline PaO2/FiO2 value.\n\nNOTE that: N is the number of subjects for which the evaluation of the PaO2/FiO2 ratio at each time point is available. While n is the number of subjects worsened at each time point in comparison with the randomization, expressed in percentage.",
+        "timeFrame": "At day 1, day 2, week 1, day 21(end of treatment), follow-up (FU) (7±3 days after treatment period)"
+      },
+      {
+        "measure": "Phase 2 - Percentage of Subjects Worsened, During Supplemental Oxygen Treatment, From Randomization According to Oxygen Delivery System Classification",
+        "description": "Duration of oxygen administration (hours) = Administration end date/time - Administration start date/time / 60. N is the number of subjects for which the evaluation of the Oxygen Delivery System Classification at each time point is available. n is the number of subjects worsened at each time point, expressed in percentage, in comparison with the randomization. According to Oxygen Delivery System, the classification is 'invasive' if there is Invasive Medicinal Ventilation or ECMO, else 'high flow' if there is High Flow Nasal Cannula or BIPAP or CPAP, else 'low flow' if there is Nasal Cannula or Mask then Class=Low Flow Classification. A patient is considered 'Worsened' after baseline if there is an increase in the level of severity within the oxygen delivery system classification (Invasive \\> High Flow \\> Low Flow).",
+        "timeFrame": "day 1, day 2, week 1, day 21(end of treatment), follow-up (FU) (7±3 days after treatment period)"
+      },
+      {
+        "measure": "Phase 2 - Oxygen Cumulative Duration During the Study",
+        "description": "This outcome assesses the oxygen cumulative duration during the study. N is the number of subjects for which the evaluation of the PaO2/FiO2 ratio or Oxygen Delivery System Classification at each time point is available. n is the number of subjects worsened at each time point in comparison with the randomization.",
+        "timeFrame": "Week 1, EOT, EOS"
+      },
+      {
+        "measure": "Phase 2 - Oxygen Cumulative Quantity During the Study",
+        "description": "In this endpoint is assessed the oxygen cumulative quantity needed at each single timepoint.\n\nN is the number of subjects for which the evaluation of the PaO2/FiO2 ratio or Oxygen Delivery System Classification at each time point is available. n is the number of subjects worsened at each time point in comparison with the randomization.",
+        "timeFrame": "Week 1, EOT and EOS"
+      },
+      {
+        "measure": "Phase 2 - Percentage of Subjects Requiring Mechanical Ventilation Use, Overall",
+        "description": "Percentage along with the 95% confidence interval (Clopper-Pearson's formula) of subjects requiring mechanical ventilation are calculated and compared. N is the number of subjects for which the evaluation of the use of mechanical ventilation is available. n is the number, expressed in percentage, of subjects requiring mechanical ventilation, overall.",
+        "timeFrame": "Baseline, day 1, day 2, week 1, day 21(end of treatment), follow-up (FU) (7±3 days after treatment period)"
+      },
+      {
+        "measure": "Phase 2 - Cumulative Duration of Mechanical Ventilation Use, Overall",
+        "description": "Cumulative duration of mechanical ventilation (in hours) = Sum of duration of mechanical ventilation (hours) in mechanical ventilation form, from randomization to time point of interest.\n\nDuration of mechanical ventilation (hours) = End date/time - Start date/time / 60. n is the number of subjects for which the evaluation of the use of mechanical ventilation is available",
+        "timeFrame": "Baseline, day 1, day 2, week 1, day 21(end of treatment), follow-up (FU) (7±3 days after treatment period)"
+      },
+      {
+        "measure": "Phase 2 - Percentage of Subjects With Intensive Care Unit (ICU) Admission Need",
+        "description": "Percentage, along with the 95% confidence interval (Clopper-Pearson's formula), of subjects requiring ICU admission are calculated and compared.N is the number of subjects for which the evaluation of the ICU admission need is available.",
+        "timeFrame": "Baseline, day 1, day 2, week 1, day 21(end of treatment), follow-up (FU) (7±3 days after treatment period)"
+      },
+      {
+        "measure": "Phase 2 - Cumulative ICU Stay",
+        "description": "Cumulative ICU stay was assessed at different timepoints and measured in days",
+        "timeFrame": "Day 1, Day 2, Week 1, EOT, EOS"
+      },
+      {
+        "measure": "Phase 2 - Lung Damage Extension by Severity and by Timepoint",
+        "description": "Lung damage extensions is assessed by Chest CT or Rx. This damage can be as follows: \"none\", \"trace\", \"mild\", \"moderate\", or \"severe\".\n\nN is the number of subjects for which the evaluation of the lung damage extension at each time point is available.",
+        "timeFrame": "Baseline, day 1, day 2, week 1, day 21(end of treatment), follow-up (FU) (7±3 days after treatment period)"
+      },
+      {
+        "measure": "Phase 2 - Lung Exudation by Severity and by Timepoint",
+        "description": "Lung exudation is assessed by Chest CT or Rx. This can be as follows: \"none\", \"trace\", \"mild\", \"moderate\", or \"severe\".\n\nN is the number of subjects for which the evaluation of the lung damage extension at each time point is available.",
+        "timeFrame": "Baseline, day 1, day 2, week 1, day 21(end of treatment), follow-up (FU) (7±3 days after treatment period)"
+      },
+      {
+        "measure": "Phase 2 - Change From Baseline in Partial Arterial Oxygen Pressure (PaO2)",
+        "description": "PaO2 measures the pressure of oxygen dissolved in the blood and how well oxygen is able to move from the airspace of the lungs into the blood.\n\nNormally, PaO2 is between 75 and 100 mmHg (at sea level). Lower levels indicate an unsufficient amount of oxygen flowing from the alveoli to the blood. Please note that a significant proportion of patients in both groups did not have post-baseline assessments of PaO2.",
+        "timeFrame": "Baseline, day 1, day 2, week 1, day 21(end of treatment), follow-up (FU) (7±3 days after treatment period)"
+      },
+      {
+        "measure": "Phase 2 - Change From Baseline in Oxygen Saturation (SpO2)",
+        "description": "SpO2 measures the amount of oxygen-carrying hemoglobin in the blood relative to the amount of hemoglobin not carrying oxygen. Acceptable normal ranges for patients without pulmonary pathology are from 95 to 99 percent.",
+        "timeFrame": "Baseline, day 1, day 2, week 1, day 21(end of treatment), follow-up (FU) (7±3 days after treatment period)"
+      },
+      {
+        "measure": "Phase 2 - Partial Arterial Oxygen Pressure (PaO2) to Fraction of Inspiration O2 (FiO2) Ratio [PaO2/FiO2 Ratio]",
+        "description": "PaO2/FiO2 ratio is the ratio of arterial oxygen partial pressure (PaO2 in mmHg) to fractional inspired oxygen (FiO2 expressed as a fraction, not a percentage) also known as the Horowitz index, the Carrico index, and (most conveniently) the P/F ratio at sea level, the normal PaO2/FiO2 ratio is \\~ 400-500 mmHg (\\~55-65 kPa).",
+        "timeFrame": "Baseline, day 1, day 2, week 1, day 21(end of treatment), follow-up (FU) (7±3 days after treatment period)"
+      },
+      {
+        "measure": "Phase 2 - Change From Baseline in Reactive Protein (CRP)",
+        "description": "For a standard CRP test, a normal reading is less than 10 milligram per liter (mg/L). Levels between 10 mg/L and 100 mg/L are moderately elevated and are usually due to more significant inflammation from an infectious or non-infectious cause. Inflammatory status is documented by C-reactive protein (CRP) ≥ 100mg/L.",
+        "timeFrame": "Baseline, day 1, day 2, week 1, day 21(end of treatment), follow-up (FU) (7±3 days after treatment period)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 18,
+      "otherCount": 0,
+      "totalCount": 19
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.218Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

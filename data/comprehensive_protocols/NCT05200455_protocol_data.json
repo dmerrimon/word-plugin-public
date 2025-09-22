@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT05200455",
+  "briefTitle": "Microelectrodes in Epilepsy",
+  "officialTitle": "Microelectrodes in Epilepsy",
+  "protocolDocument": {
+    "nctId": "NCT05200455",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-06-22",
+    "uploadDate": "2022-05-25T14:04",
+    "size": 1420490,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05200455/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 34,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2009-09-18",
+    "completionDate": "2021-05-18",
+    "primaryCompletionDate": "2021-03-30",
+    "firstSubmitDate": "2022-01-07",
+    "firstPostDate": "2022-01-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18-65 year old\n* male or female\n* right or left handed\n* IQ\\>70\n* medically refractory focal epilepsy requiring intracranial EEG for pre-surgical evaluation deemed medically necessary\n* no contraindications to intracranial electrode study\n* able and willing to participate in research\n\nExclusion Criteria:\n\n* does not meet the inclusion criteria",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Feasibility of Microelectrode Technology to Isolate Place Responsive Neurons in the Human Hippocampus as Measured by the Number of Place Responsive Neurons.",
+        "description": "With the occipito-temporal implantation approach of implantation of microelectrodes, feasibility will measured by the number of place responsive neurons that could be isolated.",
+        "timeFrame": "Evaluated for each patient during monitoring period of approximately 2 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "How Precise the Frequencies (Alpha, Beta, Delta, Theta, Gamma, and High-gamma) of Neural Brain Activity Predict the Speed of the Participant at Performing the Cognitive Task (Accuracy Measured in Percentage).",
+        "description": "Secondary objective is to investigate whether it is possible to predict the speed of which each participant is performing and navigating during the cognitive task via the intracranial spectral EEG changes (alpha, beta, delta, theta, gamma, and high-gamma) during these tasks. Accuracy of frequency band (brain waves) predicting speed during specific cognitive tasks is measured by how precisely the frequency band predicts navigational speed and is expressed as a percentage of correct prediction.",
+        "timeFrame": "Evaluated for each patient during monitoring period of approximately 2 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:48.984Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

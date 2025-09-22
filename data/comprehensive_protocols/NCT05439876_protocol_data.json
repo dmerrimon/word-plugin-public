@@ -1,0 +1,90 @@
+{
+  "nctId": "NCT05439876",
+  "briefTitle": "Getting SMART for Pediatric Epilepsy",
+  "officialTitle": "Getting SMART for Pediatric Epilepsy (Sleep, Melatonin, and Research Trial, SMART)",
+  "protocolDocument": {
+    "nctId": "NCT05439876",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-06-18",
+    "uploadDate": "2025-06-19T05:38",
+    "size": 116113,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05439876/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 147,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-07-18",
+    "completionDate": "2025-01-03",
+    "primaryCompletionDate": "2025-01-03",
+    "firstSubmitDate": "2022-06-20",
+    "firstPostDate": "2022-06-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\- Children aged between 1 and 18 years with a confirmed diagnosis of epilepsy and with sleep problems\n\nExclusion Criteria:\n\n* Children who are bedridden with limited mobility\n* Children with liver or kidney dysfunction\n* Children on hypnotics, antidepressants, or anxiolytics within 4 weeks before the baseline clinic visit\n* Adolescent girls who are pregnant or breastfeeding\n* Adolescent girls who have sexual activities but cannot take effective contraceptive measures during the trial",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "1 Year",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Sleep Onset Latency",
+        "description": "Sleep onset latency was assessed by actigraphy.",
+        "timeFrame": "4 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Children's Sleep Disturbance",
+        "description": "Children's sleep disturbance was assessed by Children's Sleep Habits Questionnaire (CSHQ) total sleep disturbance score. There are 33 questions sumed as total score, range between 33 to 99. Higher score indicated more sleep disturbance problems in children.",
+        "timeFrame": "4 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:48.415Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

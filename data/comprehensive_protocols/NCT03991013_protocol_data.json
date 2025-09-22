@@ -1,0 +1,122 @@
+{
+  "nctId": "NCT03991013",
+  "briefTitle": "Tenofovir-lamivudine-dolutegravir Combination as Second-line ART: a Randomised Controlled Trial",
+  "officialTitle": "AntiRetroviral Therapy In Second-line: Investigating Tenofovir-lamivudine-dolutegravir (ARTIST): a Randomised Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT03991013",
+    "filename": "Prot_005.pdf",
+    "label": "Study Protocol",
+    "date": "2020-06-17",
+    "uploadDate": "2020-07-17T08:58",
+    "size": 711968,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03991013/document/Prot_005.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 192,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-08-08",
+    "completionDate": "2022-10-27",
+    "primaryCompletionDate": "2022-04-26",
+    "firstSubmitDate": "2019-05-31",
+    "firstPostDate": "2019-06-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nHIV positive patients over 18 years old, who have failed first-line ART regimen of tenofovir-emtricitabine/lamivudine-efavirenz, are able to attend the study clinic for one year of scheduled visits and who have given written, informed consent will be enrolled in this study. In female patients of child-bearing potential, those willing to use effective and reliable contraception for the duration of the study will be eligible.\n\nFailure of a first-line regimen is defined as a viral load (VL) of \\>1000 copies/mL (within the previous two months) and an immediately prior VL \\>1000 copies/mL, taken 2-24 months prior (based on data captured by National Health Laboratory Service).\n\nExclusion Criteria:\n\n* If the patient has two VLs 2-3 months apart: \\>2 log drop in VLs between the most recent VL (within the previous two months) and the immediately prior VL (taken 2-3 months prior)\n* CD4 count \\<100 cells/microlitre\n* Estimated glomerular filtration rate (eGFR) \\<50 mL/min/1.73 m2 using the Modification of Diet in Renal Disease (MDRD) formula\n* Alanine aminotransferase \\>100 U/L or total bilirubin \\>twice the upper limit of normal\n* Pregnant or desire to become pregnant during the study period (48 weeks)\n* Breastfeeding\n* Being treated for active tuberculosis (TB) or concern that patient has undiagnosed active TB (based on symptom screening) as rifampicin reduces the concentrations of dolutegravir and thus requires dose adjustments\n* Any current diagnosis of malignancy\n* Allergy or intolerance to one of the drugs in regimen\n* Active, severe psychiatric disease judged likely to impact adherence\n* Current substance abuse judged likely to impact adherence\n* On treatment for AIDS-defining condition (not including secondary prophylaxis maintenance therapy)\n* Any other clinical condition that in the opinion of an investigator puts the patient at increased risk if participating in the study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Virological Suppression at 24 Weeks",
+        "description": "Proportion of participants with HIV viral load \\<50 copies/mL at 24 weeks analysed by modified intention to treat (ITT) and according to the FDA snapshot algorithm",
+        "timeFrame": "24 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Virological Suppression at 24 Weeks (Sensitivity Analysis)",
+        "description": "Proportion of participants with HIV viral load \\<50 copies/mL at 24 weeks using pre-specified sensitivity analyses",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Virological Suppression at 12 Weeks (Modified ITT)",
+        "description": "Proportion of participants with HIV viral load \\<50 copies/mL at 12 weeks analysed by modified ITT.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Antiretroviral Resistance Mutations by Genotypic Resistance Testing",
+        "description": "To describe dolutegravir resistance or emergent resistance mutations to tenofovir or lamivudine in participants eligible for genotypic resistance testing by 24 weeks",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "CD4 Change at 24 Weeks",
+        "description": "Change in CD4 count from screening to week 24",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Adverse Events",
+        "description": "To describe grade 3 or 4 adverse events and serious adverse events",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "All-cause Mortality",
+        "description": "To describe all-cause mortality.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Adherence to Treatment",
+        "description": "To describe tenofovir-diphosphate (TFV-DP) concentrations (ng/mL) at 24 weeks",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Geometric Mean Ratio (GMR) of Dolutegravir Trough Concentrations on Day 7 Versus Day 28",
+        "description": "To evaluate the geometric mean ratio (GMR) of dolutegravir trough concentrations on day 7 versus day 28",
+        "timeFrame": "First 28 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:21.459Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT04595435",
+  "briefTitle": "IORT-Breast at Medical Center Navicent Health",
+  "officialTitle": "Prospective Registry of Intraoperative Radiation Therapy Using Low Energy X-ray for Breast Cancer at Medical Center, Navicent Health",
+  "protocolDocument": {
+    "nctId": "NCT04595435",
+    "filename": "Prot_ICF_000.pdf",
+    "label": "Study Protocol and Informed Consent Form",
+    "date": "2023-06-29",
+    "uploadDate": "2024-01-12T09:44",
+    "size": 335277,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04595435/document/Prot_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": true
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 94,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-19",
+    "completionDate": "2033-12-31",
+    "primaryCompletionDate": "2033-12-31",
+    "firstSubmitDate": "2019-04-08",
+    "firstPostDate": "2020-10-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Signed informed consent and HIPAA authorization\n* T1 tumor (less than or equal to 20mm in greatest diameter)\n* Unifocal\n* Histological Grade 1 or 2\n* Node Negative\n* ER +ve\n* HER-2 -ve\n\nExclusion Criteria:\n\n* Previous radiation therapy to the involved breast other than IORT within 6 months\n* High grade tumors (Histologic grade 3)\n* Her-2 Positive\n* Lymphovascular invasion\n* Metastatic disease\n* close proximity to or involvement of skin\n* Multifocal cancer",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "55 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Rate of recurrence",
+        "description": "To determine rate of recurrence of disease at specific time period",
+        "timeFrame": "5 year"
+      },
+      {
+        "measure": "Rate of recurrence",
+        "description": "To determine rate of recurrence of disease at specific time period",
+        "timeFrame": "10 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Acute and late effects",
+        "description": "To determine the rate of acute and late effects of IORT at the treatment site. Periodic review by surgeon and self reports identifying acute and late effects and calculating the rate of incidence for the treated group.",
+        "timeFrame": "5 years"
+      },
+      {
+        "measure": "Treatment Abandonment",
+        "description": "To determine rate and reason for abandoning procedure after being scheduled for procedure. Calculating the rate of those who were scheduled to receive IORT and then did not receive the treatment as planned and reason why they did not receive the treatment.",
+        "timeFrame": "5 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:55.989Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

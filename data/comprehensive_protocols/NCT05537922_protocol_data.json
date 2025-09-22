@@ -1,0 +1,84 @@
+{
+  "nctId": "NCT05537922",
+  "briefTitle": "I3LUNG: Integrative Science, Intelligent Data Platform for Individualized LUNG Cancer Care With Immunotherapy",
+  "officialTitle": "I3LUNG: Integrative Science, Intelligent Data Platform for Individualized LUNG Cancer Care With Immunotherapy",
+  "protocolDocument": {
+    "nctId": "NCT05537922",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-06-22",
+    "uploadDate": "2022-09-05T14:14",
+    "size": 1217801,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05537922/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 2200,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-10-01",
+    "completionDate": "2027-10-01",
+    "primaryCompletionDate": "2025-10-01",
+    "firstSubmitDate": "2022-09-05",
+    "firstPostDate": "2022-09-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age \\>/= 18 years.\n* Eastern Cooperative Oncology Group (ECOG) performance status \\</= 2.\n* Histologically confirmed diagnosis of stage IIIB/C-IV Non-Small-Cell Lung Cancer\n* Received any line immunotherapy (maintenance therapy with Durvalumab is allowed) for retrospective cohort; clinical indication for frontline treatment with immunotherapy as first line treatment for prospective cohort.\n* Patients with CNS metastasis are allowed\n* Patients with driver genomic alterations are allowed (only for retrospective cohort)\n* Evidence of a personally signed and dated ICF indicating that the patient has been informed of and understands all pertinent aspects of the study before enrolment (only for prospective cohort)\n* Availability of at least one FFPE block for -omics data generation (only for prospective cohort)\n\nExclusion Criteria:\n\n* Patients without minimal treatment information data to be included in the retrospective cohort\n* Prior treatment for advanced disease (only for prospective cohort)\n* Unavailability or inability to comply with the requested study procedures, including compilation of QoL questionnaires",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Response Rate",
+        "description": "Prediction of response to immune checkpoint inhibitors in NSCLC",
+        "timeFrame": "8 weeks (i.e. first radiological evaluation)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "PFS",
+        "description": "Progression Free Survival in NSCLC treated with immune checkpoint inhibitors",
+        "timeFrame": "From date of enrollment until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 120 months"
+      },
+      {
+        "measure": "OS",
+        "description": "Overall Survival in NSCLC treated with immune checkpoint inhibitors",
+        "timeFrame": "From date of enrollment until the date of death from any cause, assessed up to 120 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:47.905Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,124 @@
+{
+  "nctId": "NCT05212883",
+  "briefTitle": "You and Me COVID Free",
+  "officialTitle": "Rapid Acceleration for Diagnostics in Underserved Populations: Home Testing",
+  "protocolDocument": {
+    "nctId": "NCT05212883",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2021-12-28",
+    "uploadDate": "2023-03-08T13:31",
+    "size": 93297,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05212883/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 2778,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-15",
+    "completionDate": "2022-04-19",
+    "primaryCompletionDate": "2022-03-08",
+    "firstSubmitDate": "2022-01-25",
+    "firstPostDate": "2022-01-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Self- reported primary residence within the pre-identified communities\n* Age \\>12 years at enrollment\n* Provision of signed and dated informed consent form\n\nExclusion Criteria:\n\n-None if above are met",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Main Reason for Testing for COVID-19",
+        "description": "Those that used a test from a kit were asked to provide the reason why they were doing a test. The possible answers are: \"I wanted to be sure I/my child did not have COVID-19 before being around others\", \"I/my child had COVID-19 like symptoms\", \"I/my child was in close contact with someone who might have COVID-19\", \"I/my child was in close contact with someone who tested positive for COVID-19\", \"Someone in my household might have COVID-19\", \"Someone in my household tested positive for COVID-19\", \"Other\"",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of Positive COVID-19 Test Results",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of Participants Who Responded That They Have Received a COVID Vaccine",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Who Indicated That They Have Access to Necessary Personal Protective Equipment in Work Place",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of Participants Who Indicated They Have Tested Positive for COVID in Their Lifetime",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of Participants Who Report Knowing Where to Get COVID-19 Tests in the Community",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of Participants Who Report COVID Symptoms During Previous Week",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Likelihood of Future COVID-19 Vaccination",
+        "description": "Number of participants with front door survey entries indicating various levels of the likelihood the responder will get vaccinated in the future. Available options: \"Very likely\", \"Somewhat likely\", \"Not very likely\", \"Not at all likely\", and \"Prefer not to answer\".",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Reasons for Not Getting a COVID-19 Vaccine",
+        "description": "Number of participants indicating various reasons for why they have not received a COVID-19 vaccine on the baseline survey. Available options: \"I'm allergic to vaccines\", \"I don't like needles\", \"I'm not concerned about getting really sick from COVID-19\", \"I'm concerned about side effects from the vaccines\", \"I don't think vaccines work very well\", \"I don't trust that the vaccines will be safe\", \"I don't believe the COVID-19 pandemic is as bad as some people say it is\", \"I don't want to pay for it\", and \"I don't know enough about how well a COVID-19 vaccine works\".",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Reasons for Getting a COVID-19 Vaccine",
+        "description": "Number of participants indicating various reasons for why they have received a COVID-19 vaccine on the baseline survey. Available options: \"I want to keep my family safe\", \"I want to keep my community safe\", \"I want to keep myself safe\", \"I have a chronic health problem, like asthma or diabetes\", \"My doctor told me to get a COVID-19 vaccine\", \"I don't want to get really sick from COVID-19\", \"I want to feel safe around other people\", \"I believe life won't go back to normal until most people get a COVID-19 vaccine\", \"Required by my school or workplace\", and \"Required for travel\".",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Perspective on Easiest Way to Obtain Free Oral COVID-19 Medications",
+        "description": "Number of front door survey entries indicating various ways in which participants would find it easy to get free COVID-19 oral medications. Available options: \"An urgent care center\". \"A doctor's or other health professional's office\", \"A mobile health unit\", \"A drug store / pharmacy\", \"A grocery store\", \"A community center\", \"A place of worship\", \"A community park\", \"A neighborhood school\", or \"other\". More than one answer can be selected by an individual participant.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Method Used to Test for COVID-19",
+        "description": "Number of participants indicating the method used to test for COVID-19 on the baseline survey. Available options: \"Nasal swab\", \"Throat swab\", \"Blood sample\", and \"Saliva\".",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:36.595Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

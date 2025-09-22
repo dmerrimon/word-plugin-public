@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT03111147",
+  "briefTitle": "Impact of Humeral Component Version on Outcomes Following RTSA",
+  "officialTitle": "The Impact of Humeral Component Version on Outcomes Following Reverse Total Shoulder Arthroplasty: A Prospective Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT03111147",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-02-08",
+    "uploadDate": "2024-01-11T10:37",
+    "size": 294584,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03111147/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 95,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-12",
+    "completionDate": "2023-05-23",
+    "primaryCompletionDate": "2023-05-23",
+    "firstSubmitDate": "2017-04-07",
+    "firstPostDate": "2017-04-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients undergoing primary reverse total shoulder arthroplasty\n* Diagnosis of cuff tear arthropathy or primary OA with RCT\n* Intact posterior rotator cuff and subscapularis preoperatively, as determined by surgeon-administered physical exam\n* 18 years or older\n\nExclusion Criteria:\n\n* Revision arthroplasty\n* Diagnosis of rheumatoid arthritis, infection, acute trauma or instability\n* Minors (under 18 years of age)\n\n  * Prior open shoulder surgery\n  * Concomitant latissimus dorsi transfer\n  * Patients not undergoing a standard of care physical therapy protocol\n  * Pregnant, patient-reported\n  * Cognitively impaired",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Postoperative External Range of Motion (ROM)",
+        "description": "External range of motion measurements of the shoulder in degrees",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Postoperative Internal Range of Motion (ROM)",
+        "description": "Internal range of motion measurements of the shoulder in degrees",
+        "timeFrame": "2 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:57.061Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

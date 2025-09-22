@@ -1,0 +1,127 @@
+{
+  "nctId": "NCT06475586",
+  "briefTitle": "Effect of Semaglutide on the Psoriatic Lesions in Patients With Type 2 Diabetes Mellitus",
+  "officialTitle": "Effect of Semaglutide on the Inflammatory Response and Clinical Course of Psoriatic Lesions in Patients With Type 2 Diabetes Mellitus",
+  "protocolDocument": {
+    "nctId": "NCT06475586",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-05-08",
+    "uploadDate": "2024-06-20T13:06",
+    "size": 318433,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06475586/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-05-03",
+    "completionDate": "2024-06-10",
+    "primaryCompletionDate": "2024-03-01",
+    "firstSubmitDate": "2024-06-11",
+    "firstPostDate": "2024-06-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients who signed a personal consent to participate in the study,\n* Patients with a typical clinical picture of moderately-severe to severe plaque psoriasis (PASI SCORE ≥10) and\n* DMT2 diagnosed at least 6 months before inclusion in the study,\n* Patients who were not treated with immunosuppressive therapy.\n\nExclusion Criteria:\n\n* Other forms of psoriasis,\n* Other chronic, inflammatory diseases (data obtained by reviewing the medical history),\n* Drugs that can cause the appearance of psoriasis (lithium, systemic antimalarials, systemic corticosteroids) - for the past 3 months,\n* Systemic therapy of vulgaris psoriasis 3 months before inclusion in the study,\n* Patients on therapy with other GLP-1 RAs except semaglutide (liraglutide, dulaglutide, lixisenatide), SGLT-2 inhibitors (empagliflozin and dapagliflozin) and NSAIDs, photo UVB therapy,\n* Patients who did not personally sign consent to participate in the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "clinical characteristics of patients with psoriasis",
+        "description": "clinical examination by a dermatovenerologist (PASI SCORE- Psoriasis Area and Severity Index). To assess disease activity, i.e. skin surface affected by changes (erythema, infiltration and extent of squamous matter), investigators used the PASI score. According to the European consensus, mild psoriasis is defined as PASI≤10 and DLQI≤10, while moderate psoriasis is defined as PASi\\>10 and DLQI\\>10.",
+        "timeFrame": "up to 12 weeks"
+      },
+      {
+        "measure": "Determine BMI Body Mass Index",
+        "description": "e.g., weight and height will be combined to report BMI in kg/m\\^2",
+        "timeFrame": "up to 12 weeks"
+      },
+      {
+        "measure": "Serum values of TNFa, IL-1b, IL-6, IL-17 and IL-23",
+        "description": "ELISA-Enyzme linked immunosorbent assay technique -Bio Legend ELISA MAX Deluxe Sets, Bio Legend, San Diego, CA.\n\nsame units",
+        "timeFrame": "up to12 weeks"
+      },
+      {
+        "measure": "Correlation between the course and prognosis of the disease after the treatment",
+        "description": "the Wilcoxon Mann-Whitney test for two independent groups will be used. Spearman's correlation analysis will be used to determine the correlation between parameters, binary logistic regression",
+        "timeFrame": "up to 12 weeks"
+      },
+      {
+        "measure": "Change in HgbA1C,",
+        "description": "by enzymatic method with hexakinase glucose-6-phosphate dehydrogenase (Roche Diagnostic) will be expressed in %",
+        "timeFrame": "up to 12 weeks"
+      },
+      {
+        "measure": "lipid status, change in Total cholesterol (TC), low-density lipoprotein(LDL), high-density lipoprotein (HDL) and triglicerides",
+        "description": "Biochemical analyses Clinical colorimetric tests, and results will be expressed in same units",
+        "timeFrame": "up to 12 weeks"
+      },
+      {
+        "measure": "fasting insulin",
+        "description": "Biochemical analyses",
+        "timeFrame": "up to 12 weeks"
+      },
+      {
+        "measure": "Change in inflammation marker level: CRP,",
+        "description": "Biochemical analyses-Turbid metric test",
+        "timeFrame": "up to 12 weeks"
+      },
+      {
+        "measure": "fasting glycemia",
+        "description": "by enzymatic method with hexakinase glucose-6-phosphate dehydrogenase (Roche Diagnostic)",
+        "timeFrame": "up to 12 weeks"
+      },
+      {
+        "measure": "urate",
+        "description": "Biochemical analyses",
+        "timeFrame": "up to 12 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 10,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:11.710Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

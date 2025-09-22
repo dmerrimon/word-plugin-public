@@ -1,0 +1,127 @@
+{
+  "nctId": "NCT04592341",
+  "briefTitle": "A Study to Evaluate the Pharmacodynamic (PD) Effects of Once Weekly Administration of Gantenerumab in Participants With Early Alzheimer's Disease (AD)",
+  "officialTitle": "A Phase II, Multicenter, Open-Label, Single Arm Study to Evaluate the Pharmacodynamic Effects of Once Weekly Administration of Gantenerumab in Participants With Early (Prodromal to Mild) Alzheimer's Disease",
+  "protocolDocument": {
+    "nctId": "NCT04592341",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-05-16",
+    "uploadDate": "2024-01-10T06:57",
+    "size": 2330177,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04592341/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 192,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-11-18",
+    "completionDate": "2023-03-15",
+    "primaryCompletionDate": "2023-01-11",
+    "firstSubmitDate": "2020-10-02",
+    "firstPostDate": "2020-10-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Probable Alzheimer's Disease (AD) dementia or prodromal AD.\n* Availability of a reliable study partner (non-professional caregiver) who accepts to participate in study procedure throughout the study duration\n* The participant should be capable of completing all aspects of study assessments including MRI, clinical genotyping, and PET imaging, either alone or with the help of the study partner (non-professional caregiver).\n* Adequate visual and auditory acuitysufficient to perform the neuropsychological testing (eye glasses and hearing aids are permitted).\n* Evidence of AD pathological process, as confirmed by amyloid PET scan by qualitative read by the core/central PET laboratory.\n* Prodromal or mild symptomatology, as defined by a screening Mini-Mental State Examination (MMSE) score \\>/=22 and Clinical Dementia Rating global score (CDR-GS) of 0.5 or 1.0, as well as a clinical dementia rating (CDR) memory domain score \\>/=0.5.\n* If the participant is receiving symptomatic AD medications, a stable dosing regimen for at least 3 months prior to screening and until start of study treatment.\n* Agreement not to donate blood or blood products for transfusion for the duration of the study and for 1 year after final dose of study drug.\n* Agreement not to participate in other research studies for the duration of this trial, unless these are related Roche-sponsored non-interventional studies.\n* For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive methods hat result in a failure rate of \\< 1% per year during the treatment period and for at least 16 weeks after the final dose of study drug.\n\nExclusion Criteria:\n\n* Any evidence of a condition other than AD that may affect cognition.\n* History or presence of clinically evident systemic vascular disease that in the opinion of the investigator has the potential to affect cognitive function.\n* History or presence of clinically evident cerebrovascular disease.\n* History or presence of posterior reversible encephalopathy syndrome.\n* History or presence of any stroke with clinical symptoms within the past 12 months, or documented history within the last 6 months of an acute event that is consistent with a transient ischemic attack.\n* History of severe, clinically significant CNS trauma.\n* History or presence of intracranial mass that could potentially impair cognition.\n* Presence of infections that affect brain function or history of infections that resulted in neurologic sequelae.\n* History or presence of systemic autoimmune disorders that potentially cause progressive neurologic disease with associated cognitive deficits.\n* History of schizophrenia, schizoaffective disorder, major depression, or bipolar disorder.\n* At risk for suicide in the opinion of the investigator.\n* Alcohol and/or substance abuse or dependants in past 2 years.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Brain Amyloid Load at Week 104 as Measured by [18F] Florbetaben Positron Emission Tomography (PET) Scan",
+        "description": "Screening amyloid PET scan was considered baseline evaluation.Brain amyloid load was quantified in terms of Standardized Uptake Value Ratio (SUVR),defined as ratio of tracer uptake in cortical composite target region of interest(ROI)to tracer uptake in reference ROI.Composite region: frontal,parietal,temporal,posterior cingulate cortex,anterior cingulate cortex. Reference ROI (whole cerebellum) was represented by weighted average of Cerebellum Ventral,Cerebellum Dorsal (left/right), Cerebellar White Matter.SUVR linearly transformed to standardized Centiloid Scale (CL) using formula CL=175.6xSUVR-174.2.CL ranges from \\<0 to \\>100, anchor points are 0=high-certainty amyloid negative scan and 100=amount of global amyloid deposition found in typical AD scan.",
+        "timeFrame": "Baseline, Week 104"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Caregiver or Study Partner With Responses to Home Administration Questionnaire (HAQ)",
+        "description": "HAQ comprised 4 items completed by study partner capturing confidence (Q1), convenience (Q2), ease of use (Q3), and overall satisfaction (Q4) with administering medication. Response options Q1: Not at all confident, somewhat confident, confident, very confident; Q2: Not at all convenient, somewhat convenient, convenient, very convenient; Q3: Not at all easy, somewhat easy, easy, very easy; Q4:Not at all satisfied, somewhat satisfied, satisfied, very satisfied.",
+        "timeFrame": "Weeks 36, 52, 76, 104"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+        "description": "AE: any untoward medical occurrence in participant administered pharmaceutical product, which does not necessarily have a causal relationship with treatment. Also, any unfavorable, unintended sign, symptom, or disease temporally associated with use of medicinal product, whether or not considered related to it. SAE: any AE that was fatal, life threatening, required prolonged inpatient hospitalization, resulted in significant disability or resulted in a congenital anomaly to mother exposed to study treatment. This was a single-arm study and all participants received gantenerumab according to predefined universal up-titration scheme as follows: 120 mg Q4W (Day 1, Week (W) 4, and W8), then 255 mg Q4W (W 12, 16, and 20), then 255 mg Q2W for 12 weeks (W 24, 26, 28, 30, 32, and 34), followed by target dose of 255 mg Q1W (W 36 to 104). Data was collected and reported in single arm for each participant who started treatment as specified and either completed or discontinued study.",
+        "timeFrame": "From day of first dose up to 16 weeks after the last dose (up to 120 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Suicidal Ideation or Suicidal Behavior as Measured Using Columbia-Suicide Severity Rating Scale (C-SSRS)",
+        "description": "C-SSRS=assessment tool used to assess lifetime suicidality of a participant (at baseline) as well as any new instances of suicidality (C-SSRS since last visit). Structured interview prompts recollection of suicidal ideation, including intensity of ideation, behavior, \\& attempts with actual/potential lethality. Categories have binary responses (yes/no) \\& include Wish to be Dead; Non-specific Active Suicidal Thoughts; Active Suicidal Ideation with Any Methods(Not Plan)without Intent to Act; Active Suicidal Ideation with Some Intent to Act, without Specific Plan; Active Suicidal Ideation with Specific Plan and Intent, Preparatory Acts and Behavior; Aborted Attempt; Interrupted Attempt; Actual Attempt (non-fatal);Completed Suicide. Suicidal ideation/behavior is indicated by a \"yes\" answer to any of the listed categories. Score of 0 is assigned if no suicide risk is present. Score of 1 or higher= suicidal ideation or behavior. Categories with non-zero values are only reported here.",
+        "timeFrame": "From day of first dose up to 16 weeks after the last dose (up to 120 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Amyloid-Related Imaging Abnormalities-Edema (ARIA-E) Confirmed by Magnetic Resonance Imaging (MRI)",
+        "description": "ARIA are an identified risk with anti-amyloid antibodies, including gantenerumab. These changes can be identified on brain MRI. The occurrences of imaging abnormalities in vasogenic edema and sulcal effusions (ARIA-E) were evaluated.",
+        "timeFrame": "From day of first dose up to 16 weeks after the last dose (up to 120 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Amyloid-Related Imaging Abnormalities-Haemosiderin Deposition (ARIA-H) Confirmed by Magnetic Resonance Imaging (MRI)",
+        "description": "ARIA are an identified risk with anti-amyloid antibodies, including gantenerumab. These changes can be identified on brain MRI. ARIA-H (H for hemosiderosis) are small foci of signal loss observed on MRI sequences sensitive for paramagnetic tissue properties and comprise cerebral microbleeds (small foci of bleeding in the brain parenchyma) and leptomeningeal hemosiderosis (small foci of bleeding on the surface of the brain). These changes also occur sporadically in AD.",
+        "timeFrame": "From day of first dose up to 16 weeks after the last dose (up to 120 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Injection-Site Reactions (ISR)",
+        "description": "An AE is any unfavorable and unintended sign, symptom, or disease temporally associated with the use of an investigational product or other protocol-imposed intervention, regardless of attribution. Injection reactions (local and systemic) were defined as AEs that occured during or within 24 hours after study drug administration that were judged to be related to the study drug injection.",
+        "timeFrame": "From day of first dose up to 16 weeks after the last dose (up to 120 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Treatment-emergent Anti-Drug Antibodies to Gantenerumab",
+        "description": "A participant with an ADA assay result from at least one post-baseline sample was defined as a post-baseline evaluable participant. Treatment Emergent ADA was defined as a participant with a negative or missing baseline ADA result(s) and at least one positive post-baseline ADA result, or a participant with a positive ADA result at baseline who has at least one post-baseline titer results with at least a \\>2.5-fold increase in titer compared to baseline greater than the baseline titer result.",
+        "timeFrame": "From day of first dose up to 16 weeks after the last dose (up to 120 weeks)"
+      },
+      {
+        "measure": "Plasma Concentration of Subcutaneous (SC) Gantenerumab at Specified Timepoints",
+        "timeFrame": "Day 4 of Week 1, Week 24, 36, 52, and 76"
+      },
+      {
+        "measure": "Change in Brain Amyloid Based on Different Dosing Frequency",
+        "description": "The change from baseline at Week 52 using the once-weekly dosing frequency was analysed using the centiloid scale. The centiloid scale anchor points are 0 and 100, where 0 represents a high-certainty amyloid negative scan and 100 represents the amount of global amyloid deposition found in a typical AD scan. The range of centiloid values can be below 0 (negative) and greater than 100.",
+        "timeFrame": "Baseline up to Week 52"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:39.226Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

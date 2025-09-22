@@ -1,0 +1,99 @@
+{
+  "nctId": "NCT03360019",
+  "briefTitle": "Accurate WiFi-Based Localization of Dementia Patients For Caregiver Support:",
+  "officialTitle": "Accurate WiFi-Based Localization of Dementia Patients For Caregiver Support: Phase II",
+  "protocolDocument": {
+    "nctId": "NCT03360019",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-11-02",
+    "uploadDate": "2022-12-06T13:53",
+    "size": 345225,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03360019/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 13,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-27",
+    "completionDate": "2022-05-31",
+    "primaryCompletionDate": "2022-05-31",
+    "firstSubmitDate": "2017-11-27",
+    "firstPostDate": "2017-12-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nPersons With Dementia Resides in memory care or skilled nursing\n\n* Moderate dementia (MMSE of 10-18)\n* Ambulatory (without or with cane, walker or wheelchair assist)\n* A legal proxy that can provide consent\n\nPersons With Dementia Resides in independent living setting in community.\n\n* Mild dementia (MMSE of 19-25)\n* Ambulatory (without or with cane, walker or wheelchair assist).\n* Has a legal proxy that can provide consent.\n\nCare Partners\n\n* Speaks English\n* Be 21 years of age or over\n* Has at least three times per week direct contact with person with dementia (PWD)\n* Consents to participate in the study\n\nExclusion Criteria:\n\n* Is not fluent in written or spoken English\n* Indicate an unwillingness to use the Activlink\n* History of Major Mental Illness for patient or caregiver",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Caregiver Activity Survey",
+        "description": "Validated scale requires caregivers to report on amount of time spent caregiving for a particular patient. It has high test-retest reliability. Caregivers will be asked to complete this instrument once every two weeks. The scale describes the total number of minutes spent daily on six different caregiving activities. Therefore the minimum value for each item is 0 and the maximum is 1,440 for each item. Higher scores on each item mean more time spent caregiving.",
+        "timeFrame": "week 2"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Zarit Caregiver Burden Scale",
+        "description": "This is validated instrument designed to reflect what people sometimes feel when taking care of another person. Caregivers will be asked to complete this instrument once every two weeks. Total score was calculated. Scores ranged from 0-48 with a higher score indicating greater caregiver burden.",
+        "timeFrame": "Up to 6 months"
+      },
+      {
+        "measure": "AD Quality of Life Scale",
+        "description": "Assesses Caregiver quality of life with 13 questions rating from poor to excellent. Caregivers circle their responses. Caregivers will be asked to complete this instrument once every two weeks. Total score was calculated. Scores ranged from 13-52, with a higher score indicating better quality of life in caregivers.",
+        "timeFrame": "up to 6 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Device Accuracy",
+        "description": "Percentage of physical checks where device displayed correct location of patient/resident. Only partners reported on the accuracy. No data were required from participants. Therefore, they were entered as 0s in the chart.",
+        "timeFrame": "First month of overall study period"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 1,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 26,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:41.120Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

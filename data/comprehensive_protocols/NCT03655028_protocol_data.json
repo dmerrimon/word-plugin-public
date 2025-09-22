@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT03655028",
+  "briefTitle": "Increasing Physical Activity in COPD Through Rhythmically Enhanced Music",
+  "officialTitle": "Increasing Physical Activity in COPD Through Rhythmically Enhanced Music",
+  "protocolDocument": {
+    "nctId": "NCT03655028",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-07-12",
+    "uploadDate": "2025-01-03T11:45",
+    "size": 1045113,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03655028/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 93,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-10-01",
+    "completionDate": "2023-11-14",
+    "primaryCompletionDate": "2023-09-11",
+    "firstSubmitDate": "2018-08-29",
+    "firstPostDate": "2018-08-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nCOPD patients:\n\n* =\\< 40 yr. of age\n* FEV1 =\\< 70%\n* FEV1/FVC \\<70%\n* Mean SpO2 88% at peak exercise (with or without oxygen supplementation)\n\nCOVID19 patients\n\n* \\>=18 yrs. of age\n* Previous hospital and/or emergency room visit for laboratory-confirmed COVID-19 diagnosis.\n* Able to walk independently\n* Mean SpO2 88% at peak exercise (with or without oxygen supplementation)\n* Ability to hear music\n\nExclusion Criteria:\n\nCOPD patients:\n\n* Respiratory infection/COPD exacerbation within the previous four weeks\n* Exercise-limiting heart disease\n\n  * Congestive heart failure - i.e., New York Heart Association Class III or IV\n  * Positive stress test or other indicators of heart disease or complaints of angina during the stress test\n* Exercise-limiting peripheral arterial disease\n\n  * Stops walking due to intermittent claudication\n* Stops exercise for arthritic pain in knee or hips\n* Inability to walk on the treadmill\n* Any unforeseen illness or disability that would preclude exercise testing or training\n* Participation in a formal exercise program within the previous 12-weeks\n\nCOVID patients:\n\n* Able to walk more than 550 meters during a standard 6-minute walk test\n* Exercise limiting heart disease\n\n  * Complaints of angina during the 6- minute walk distance tests or other indicators of exercise-limiting heart disease\n* Congestive heart failure (New York Heart Association Class III or IV)\n* Exercise-limiting peripheral arterial disease (stops exercise due to intermittent claudication)\n* Stops exercise due to arthritic pain in the knee or hips (self-report)\n* Pregnancy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Six-minute Walk Distance",
+        "description": "Patients will be instructed to walk as fast as they can without running for six minutes. The test will be conducted according to ATS standards. Distance will be recorded in meters walked. Outcomes will be compared between the intervention groups.",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Volume of Daily Physical Activity",
+        "description": "Volume of daily physical activity over a seven day period will be recorded using a triaxial accelerometer worn on the hip (actigraph). Volume of physical activity will be compared between the intervention group and the control group.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Six-minute Walk Distance",
+        "description": "To determine whether, 24-weeks after randomization, gains in 6-minute walk distance and perceived functional improvements will be sustained to a greater extent in the rhythmic auditory stimulation enhanced music group than in the control group the six-minutes walk test will be repeated 24-weeks after randomization. During the six-minute walk test patients will be instructed to walk as fast as they can without running for six minutes. The test will be conducted according to ATS standards. Distance will be recorded in meters walked. Outcomes will be compared between the two groups.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Quality of Life Physical Function",
+        "description": "measured by the Short Form-36 Physical component score. Scores range from 0-100 (higher scores are better).",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Quality of Life Mental Health",
+        "description": "Quality of Life measured by Short Form-36 Mental Component Scale (range=0-100; higher score is better)",
+        "timeFrame": "12-weeks"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Adherence to Training Sessions Protocol",
+        "description": "number of walking exercise sessions completed",
+        "timeFrame": "12 weeks"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 1,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 61,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:36.488Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

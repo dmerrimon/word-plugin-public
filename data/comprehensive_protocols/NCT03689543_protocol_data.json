@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT03689543",
+  "briefTitle": "Estrogen Receptor Beta and Mood",
+  "officialTitle": "The Effects of an ER Beta Agonist (Lilly Compound LY500307) on Estradiol-withdrawal-induced Mood Symptoms in Women With Past Perimenopausal Depression",
+  "protocolDocument": {
+    "nctId": "NCT03689543",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-12-15",
+    "uploadDate": "2025-04-23T15:34",
+    "size": 791994,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03689543/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 74,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-05-23",
+    "completionDate": "2024-09-09",
+    "primaryCompletionDate": "2024-09-09",
+    "firstSubmitDate": "2018-09-26",
+    "firstPostDate": "2018-09-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "INCLUSION CRITERIA:\n\n1. Women with a past perimenopause-related depression (within 12 years). The diagnosis of perimenopause-related depression will be based on a history of a past depressive episode (major or minor depression confirmed by Structured Clinical Interview for Diagnostic and Statistical Manual (DSM)-V (SCID)) at midlife in association with menstrual cycle irregularity (and possibly hot flushes and/or vaginal dryness) and in whom menopausal hormone therapy was reported to improve their depression at any time within the prior twelve years. All women participating in this protocol will be screened with psychiatric, medical, and reproductive evaluations to confirm they are in good medical health.\n2. Age 45 to 65\n3. Medication free (including no mood stabilizers, no sleep medication) except for the following: women on menopausal hormone therapy who will discontinue these medications at the start of this study and have their hormone therapy replaced with estradiol 100mcg per day (as described below), women who are on stable doses of thyroid replacement for at least six months prior to study enrollment, or women who occasionally take non-steroidal anti-inflammatory drugs \\[NSAIDs\\] or allergy medications (although we will ask women to minimize the use of these medications during the study).\n4. Subjects must have consent capacity\n\nEXCLUSION CRITERIA:\n\nThe following conditions will constitute contraindications to participate in this protocol:\n\n1. Any current Axis 1 psychiatric illness or any clinically significant sleep disorder;\n2. Women with histories of hormone replacement therapy-induced dysphoria due to either the estrogen or the progesterone components of their hormone replacement;\n3. Past history of major depression with suicidal ideation;\n4. History of ischemic cardiac disease, pulmonary embolism, or thrombophlebitis;\n5. Renal disease; hepatic dysfunction; history of cholecystitis; hypertension;\n6. Women with a history of carcinoma of the breast or any undiagnosed breast nodule/mass;\n7. Women with a history of uterine cancer, ill-defined pelvic lesions, particularly undiagnosed ovarian enlargement, undiagnosed vaginal bleeding;\n8. Pregnant women; sexually active women will be required to employ barrier contraceptive methods;\n9. Cerebrovascular disease (stroke);\n10. Recurrent migraine headaches;\n11. Women who have had a hysterectomy before one year after their last menstrual period.\n\nNational Institute of Mental Health (NIMH) employees/staff and their immediate family members will be excluded from the study per NIMH policy.",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "45 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Center for Epidemiologic Studies-Depression (CES-D) Scale Mean Total Score",
+        "description": "Center for Epidemiologic Studies-Depression (CES-D) Scale is a 20-item questionnaire that asks participants to rate how often over the past week they experienced symptoms associated with depression. Each item is rated from 0 to 3 (0 = Rarely or None of the Time, 1 = Some or Little of the Time, 2 = Moderately or Much of the time, 3 = Most or Almost All the Time). Total scores range from 0 to 60, with high scores indicating greater depressive symptoms. CES-D scores \\>8 and \\<16 is consistent with subsyndromal depression. CES-D scores \\> 16 are consistent with clinically significant depressive symptoms of at least moderate severity. Participants completed the CES-D at baseline and every week for six weeks during each of the study phases (open label estradiol patch, double blind placebo or LY500307 compound). Analysis was calculated as the mean of scores for baseline (week 0) and weekly through week six (6).",
+        "timeFrame": "Baseline, then weekly through end of week six"
+      },
+      {
+        "measure": "Hamilton Rating Scale of Depression (HRSD) Mean Total Score",
+        "description": "The Hamilton Rating Scale of Depression (HRSD) is a 21-item scale used by clinicians to assess the severity of depressive symptoms administered through a structured interview. The HRSD contains 21 items, but four questions are not added to the numerical total score. The first 17 items are scored on a 3 (0-2) or 5 (0-4) point scale, with total score range between 0 and 52. Higher score indicates greater depressive symptom. Scores of 0-7 are considered normal, 8-16 suggest mild depression, 17-23 moderate depression and scores over 24 are indicative of severe depression. Participants completed the HRSD at baseline and every week for six weeks during each of the study phases (open label estradiol patch, double blind placebo or LY500307 compound). Analysis was calculated as the mean of scores for baseline (week 0) and weekly through week six (6).",
+        "timeFrame": "Baseline, then weekly through end of week six"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:17.364Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

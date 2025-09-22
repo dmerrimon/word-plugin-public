@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT01822353",
+  "briefTitle": "The Effect of Per Oral Immunotherapy in Severe IgE Mediated Egg, Milk, and Nut Allergy in Adults",
+  "officialTitle": "The Effect of Per Oral Immunotherapy in Severe IgE Mediated Egg, Milk and Nut Allergy in Adults",
+  "protocolDocument": {
+    "nctId": "NCT01822353",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2012-10-19",
+    "uploadDate": "2019-06-27T11:04",
+    "size": 190200,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01822353/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 23,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-01",
+    "completionDate": "2017-11",
+    "primaryCompletionDate": "2017-11",
+    "firstSubmitDate": "2013-03-07",
+    "firstPostDate": "2013-04-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* severe IgE-mediated milk allergy or\n* severe IgE-mediated egg allergy or\n* severe IgE-mediated nut allergy or\n* 18-50 years\n\nExclusion Criteria:\n\n* instable cerebrovascular or heart disease\n* active autoimmune disease or cancer\n* use of betablocker agents\n* poorly controlled asthma\n* FEV1 \\< 70% of the predicted",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "50 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of the Patients That Achieve Higher Tolerance of Allergen With Immunotherapy",
+        "description": "Number of the patients that achieve higher tolerance of allergen with immunotherapy in one year than the measured baseline allergen challenge shows.",
+        "timeFrame": "One year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Effect of Therapy on Lung Function.",
+        "description": "Does hyposensitisation change lung function (do spirometry tests show difference from the baseline values (= before immunotherapy) after the immunotherapy) ?",
+        "timeFrame": "One year"
+      },
+      {
+        "measure": "Does Oral Immunotherapy Change Bronchial Hyperreactivity?",
+        "description": "Does bronchial hyperreactivity (measured with methacholine bronchial challenge test) show change from the baseline level after the immunotherapy?",
+        "timeFrame": "One year"
+      },
+      {
+        "measure": "Does the Oral Immunotherapy Have en Effect on Airway Inflammation?",
+        "description": "Does the oral immunotherapy change exhaled nitric oxide levels (measured before and after immunotherapy)",
+        "timeFrame": "One year"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Safety of Oral Immunotherapy in Severe IgE Mediated Food Allergy in Adults.",
+        "description": "How many of the patients have side effects (categorized as mild, moderate or severe)of the hyposensitisation and how many of the patients discontinue the therapy because of side effects?",
+        "timeFrame": "One year"
+      },
+      {
+        "measure": "Effect of Treatment on Quality of Life",
+        "description": "Quality of life is assessed by a questionnaire before and after immunotherapy (VAS scale on worries on allergy 0-100, 0 no worries, 100 maximal worries).",
+        "timeFrame": "one year"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 2,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 33,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:47.698Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

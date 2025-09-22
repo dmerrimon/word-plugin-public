@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT03484117",
+  "briefTitle": "Retention in HIV Care for Hispanic Immigrants",
+  "officialTitle": "Addressing Barriers to Retention in HIV Care for Hispanic Immigrants",
+  "protocolDocument": {
+    "nctId": "NCT03484117",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-04-07",
+    "uploadDate": "2022-07-27T10:42",
+    "size": 123860,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03484117/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 67,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-26",
+    "completionDate": "2019-05-01",
+    "primaryCompletionDate": "2019-05-01",
+    "firstSubmitDate": "2018-03-07",
+    "firstPostDate": "2018-03-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18 years or older and able to communicate in Spanish or English\n* Born in Puerto Rico or Spanish-speaking Latin American country\n* HIV-infected or HIV-positive\n* New HIV diagnosis or unable to regularly attend HIV primary care appointments\n\nExclusion Criteria:\n\n* Unable to provide verbal consent due to unstable medical or psychiatric condition",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Retention in Care - Yes Responses",
+        "description": "A dichotomized outcome (yes/no) with yes defined as at least one visit to HIV clinic at both time periods (week 1-16 and week 17-32), and no defined as no HIV visit from at least one time period. Responses determined by review of the medical record for evidence of attended HIV clinic visits.",
+        "timeFrame": "32 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With HIV Viral Load Suppression up to Week-24",
+        "description": "Participants with HIV viral load \\<200 copies/ml",
+        "timeFrame": "From baseline to week-24"
+      },
+      {
+        "measure": "Change in CD4 T-cell Count Over 24 Weeks",
+        "description": "Change in CD4 T-cell count from baseline to week-24 post-randomization",
+        "timeFrame": "From baseline to week-24"
+      },
+      {
+        "measure": "Number of Participants With HIV Viral Load Suppression up to 48 Weeks.",
+        "description": "Number of participants with HIV RNA \\<200 copies/ml",
+        "timeFrame": "Baseline to week-48"
+      },
+      {
+        "measure": "Change in CD4 T-cell Count Over 48 Weeks.",
+        "description": "Change in CD4 T-cell count from baseline to week-48 post-randomization",
+        "timeFrame": "Baseline to week-48"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:20.369Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

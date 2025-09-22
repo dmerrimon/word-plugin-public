@@ -1,0 +1,90 @@
+{
+  "nctId": "NCT03134963",
+  "briefTitle": "Cerebral Haemodynamic Changes During Cognitive Testing: A fTCD Study",
+  "officialTitle": "Cerebral Haemodynamic Changes During Cognitive Testing: a Functional Transcranial Doppler (fTCD) Study",
+  "protocolDocument": {
+    "nctId": "NCT03134963",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-06-01",
+    "uploadDate": "2020-02-03T11:26",
+    "size": 823152,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03134963/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 42,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-05",
+    "completionDate": "2017-12-01",
+    "primaryCompletionDate": "2017-12-01",
+    "firstSubmitDate": "2017-03-09",
+    "firstPostDate": "2017-05-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Informed volunteer consent, patient consent\n* Male or female, aged between 18 and 100 years of age\n* Able (in the Investigator's opinion) and willing to comply with all study requirements\n* Willing to allow his or her General Practitioner (GP) to be notified of participation in the study\n* Good understanding of written and verbal English\n\nHealthy Controls-specific Inclusion Criteria\n\n* No evidence of subjective or objective memory impairment on cognitive testing\n* No major medical co-morbidity (outlined in detail in the exclusion criteria) or medication use that could adversely affect cognition\n\nMCI Patient-specific Inclusion Criteria\n\nClinical diagnosis of MCI made by a specialist\\* in a patient who fulfils the established clinical consensus criteria for MCI \\[NIA/AA 2011\\] specifically:\n\n* Concern regarding a change in cognition compared to the person's previous level, by the patient and/or informant\n* Objective evidence of impairment of one or more cognitive domains, greater than expected for age, and educational background, over time if repeated measures are available.\n* Preserved independence of functional abilities and minimal to no impairment on complex instrumental functions\n* Not demented\n\nVascular Dementia Specific Inclusion Criteria\n\nClinical diagnosis of VascD made by a specialist\\* in a patient who fulfils the NINDS-AIREN criteria for VascD, specifically:\n\n* Cerebrovascular disease defined by the presence of focal signs on neurological examination consistent with stroke and evidence of cerebrovascular disease on brain imaging.\n* One or more of:\n\n  * Onset of dementia within 3 months of a diagnosed stroke\n  * Abrupt deterioration in cognitive function\n  * Fluctuating, stepwise progression of cognitive deficits\n\nAlzheimer's Dementia Specific Inclusion Criteria\n\nClinical Diagnosis of AlzD made by a specialist\\* in a patient who fulfils the NIA/AA criteria for Probable AlzD, specifically:\n\n* Meets the criteria for dementia\n\n  * The memory impairment and cognitive deficits cause significant impairment in social or occupational functioning, and represent a significant decline from a previous level of functioning, not explained by a delirium or a major psychiatric disorder\n  * Impairment of at least two cognitive domains\n* Insidious or gradual onset\n* Clear history of worsening cognition by report or observation\n* The initial and most prominent cognitive deficits are evident on history and examination in one of the following domains:\n\n  * Amnestic: impaired learning and recall of recently learned information\n  * Non amnestic: language/visuospatial/executive dysfunction\n* No evidence of substantial cerebrovascular disease, core features of dementia with lewy bodies, features of frontotemporal dementia, prominent features of semantic variant primary progressive aphasia, evidence of active neurological disease, a non-neurological co-morbidity or medication that could affect cognition\n\n  * A specialist being defined as a psychiatrist or a geriatrician, or a specialist mental health nurse with a specific interest or expertise in cognitive disorders.\n\nExclusion Criteria:\n\nExclusion Criteria\n\n* Male or Female, aged under 18 years\n* Unable (in the Investigator's opinion) or unwilling to comply with any study requirements\n* Female participants who are pregnant, lactating or planning pregnancy during the course of the study\n* Major co-morbidity likely to affect cerebral autoregulation; severe respiratory disease, carotid artery stenosis, atrial fibrillation, severe cardiac failure (left ventricular ejection fraction \\<20%), extreme frailty or multi-morbidity.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Recruited Subjects Able to Comply With the Protocol",
+        "description": "The percentage of recruited subjects (HC, MCI patients, VascD patients and AlzD patients) able to comply with the full measurement protocol.",
+        "timeFrame": "8 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Rejected Measurements",
+        "description": "The percentage of measurements rejected because of aspects related to data quality during the analysis protocol, with recorded reasons",
+        "timeFrame": "8 months"
+      },
+      {
+        "measure": "Number of Participants in Which Percentage Change in CBFv Can be Derived",
+        "description": "Overall, the percentage of recruited subjects (healthy controls, MCI patients, VascD patients and AlzD patients) in whom values for the following parameters can be derived:\n\n• % change of CBFv at baseline in response to performance of the ACE-III Cognitive Examination",
+        "timeFrame": "8 months"
+      },
+      {
+        "measure": "Number of Participants in Which the Change in the Autoregulation Index (ARI) Can be Derived",
+        "description": "Overall, the percentage of recruited subjects (healthy controls, MCI patients, VascD patients and AlzD patients) in whom values for the following parameters can be derived:\n\n• Autoregulation index (using the Tiecks model and from the phase, gain and coherence).",
+        "timeFrame": "8 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:40.486Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

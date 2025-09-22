@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT03931109",
+  "briefTitle": "Circulating miRNA in Primary Hyperparathyroidism",
+  "officialTitle": "Circulating microRNA Signatures in Primary Hyperparathyroidism",
+  "protocolDocument": {
+    "nctId": "NCT03931109",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-08-06",
+    "uploadDate": "2019-04-23T15:59",
+    "size": 300383,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03931109/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 96,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-09-07",
+    "completionDate": "2024-07-01",
+    "primaryCompletionDate": "2024-07-01",
+    "firstSubmitDate": "2019-04-15",
+    "firstPostDate": "2019-04-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* post menopausal\n* has had DXA scan\n* has 24 hr Urine Calcium\n* Elevated serum calcium\n* Vitamin D above 20 ng/ml\n* capable of giving informed consent\n* female\n* indication for biochemical primary hyperparathyroidism or an indication for partial or total thyroidectomy\n\nExclusion Criteria:\n\n* history of ESRD on dialysis or renal osteodystrophy\n* prior parathyroidectomy\n* hyper or hypothyroid by TSH\n* currently taking steroids or has been on steroids for more than 7 days in the last two years\n* estrogen therapy within the last two years\n* bisphosphonate therapy within the last two years\n* diagnosis of Cushing's disease or Cushing's syndrome\n* taking biotin within 24 hours of blood draw",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "50 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "circulating microRNAs in primary hyperparathyroidism patients",
+        "description": "Serum miRNA levels",
+        "timeFrame": "2019-2021"
+      },
+      {
+        "measure": "serum miRNA after parathyroidectomy",
+        "description": "clinical markers of bone remodeling, including serum levels of bone-specific alkaline phosphatase, osteocalcin, P1NP, CTX, calcium, phosphate, Vitamin D metabolites, and PTH; urine calcium; and DXA scan",
+        "timeFrame": "2019-2021"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:03.607Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

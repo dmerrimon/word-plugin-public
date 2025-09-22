@@ -1,0 +1,129 @@
+{
+  "nctId": "NCT05216627",
+  "briefTitle": "COVID-19 Screening Program",
+  "officialTitle": "COVID SAFE 2.0: COVID-19 Screening Program",
+  "protocolDocument": {
+    "nctId": "NCT05216627",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-01-20",
+    "uploadDate": "2022-01-31T09:42",
+    "size": 296590,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05216627/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 61,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-02-07",
+    "completionDate": "2022-07-01",
+    "primaryCompletionDate": "2022-07-01",
+    "firstSubmitDate": "2022-01-27",
+    "firstPostDate": "2022-01-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "To be eligible, participants must:\n\n1. Be 18 years or older\n2. Be University of Pennsylvania staff, faculty or trainee who is working in person on campus at a PSOM laboratory\n3. Have knowledge of safe practices in and access to a biological safety cabinet\n4. Have knowledge and access to pipet and PCR machine",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Use of a Voluntary COVID-19 Point of Care (POC) Screening Program",
+        "description": "How often they use the POC screening program",
+        "timeFrame": "fourteen weeks"
+      },
+      {
+        "measure": "Acceptability of Implementing a Voluntary COVID-19 Point of Care (POC) Screening Program",
+        "description": "Self-reported acceptability of implementing POC screening program using the Acceptability of Intervention Measure (i.e., \"Point of care testing is acceptable to me\"). Scale values: 1 (completely disagree) to 5 (completely agree).",
+        "timeFrame": "fourteen weeks"
+      },
+      {
+        "measure": "Appropriateness of Implementing a Voluntary COVID-19 Point of Care (POC) Screening Program",
+        "description": "Self-reported appropriateness of implementing POC screening program using the Intervention Appropriateness Measure (i.e., \"Point of care testing seems appropriate.\"). Scale values: 1 (completely disagree) to 5 (completely agree).",
+        "timeFrame": "fourteen weeks"
+      },
+      {
+        "measure": "Feasibility of Implementing a Voluntary COVID-19 Point of Care (POC) Screening Program",
+        "description": "Self-reported feasibility of implementing POC screening program using the Feasibility of Intervention Measure (i.e., \"Point of care testing seems feasible.\"). Scale values: 1 (completely disagree) to 5 (completely agree).",
+        "timeFrame": "fourteen weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Self Report of Test Results",
+        "description": "Self-report of if participant received any positive test results from saliva-based viral test or Clinical Laboratory Improvement Amendments (CLIA) approved test",
+        "timeFrame": "four weeks"
+      },
+      {
+        "measure": "Program Usability",
+        "description": "Self report of program usability using the Intervention Usability Scale. Scale values: 1 (strongly disagree) to 5 (strongly agree).",
+        "timeFrame": "four weeks"
+      },
+      {
+        "measure": "User Burden",
+        "description": "self report of user burden using the User Burden Scale. Scale values: 0 (not at all) to 5 (extremely).",
+        "timeFrame": "four weeks"
+      },
+      {
+        "measure": "Participant Experience",
+        "description": "self report of participant's experience in program using open ended qualitative questions",
+        "timeFrame": "four weeks"
+      },
+      {
+        "measure": "Program Ease",
+        "description": "self report of ease of program using open ended qualitative questions",
+        "timeFrame": "four weeks"
+      },
+      {
+        "measure": "Program Continuation",
+        "description": "self report of interest in program continuing using a Likert Scale. Scale values: 1 (strongly disagree) to 5 (strongly agree).",
+        "timeFrame": "four weeks"
+      },
+      {
+        "measure": "Program Availability",
+        "description": "self report of interest in program being more widely available using a Likert Scale. Scale values: 1 (strongly disagree) to 5 (strongly agree).",
+        "timeFrame": "four weeks"
+      },
+      {
+        "measure": "Participant Perspective of Program Implementation and Change in Behavior or Decision-making Process",
+        "description": "self report of perspectives of program implementation and change in behavior or decision-making using qualitative open ended questions",
+        "timeFrame": "one time interview after four weeks of intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 95,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.534Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

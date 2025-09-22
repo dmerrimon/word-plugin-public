@@ -1,0 +1,119 @@
+{
+  "nctId": "NCT03652675",
+  "briefTitle": "Understanding and Intervening With Heavy Drinking Among Patients With HIV and HCV",
+  "officialTitle": "Understanding and Intervening With Heavy Drinking Among Patients With HIV and HCV: Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT03652675",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2020-07-01",
+    "uploadDate": "2021-06-01T15:54",
+    "size": 502952,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03652675/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 31,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-11-01",
+    "completionDate": "2020-06-08",
+    "primaryCompletionDate": "2020-06-08",
+    "firstSubmitDate": "2018-08-24",
+    "firstPostDate": "2018-08-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18 through 99 (inclusive)\n* HIV infection\n* Ever been diagnosed with HCV infection (regardless of treatment status; including active or remitted infection)\n* Recent (last 3 month) liver panel results available\n* During prior 30 days, ≥4 drinks in one day at least once\n* Can speak and read English\n* Current and regular HIV care in NYC metro area\n\nExclusion Criteria:\n\n* Participation in ongoing HealthCall study at Montefiore Hospital\n* Potential participant has definite plans to leave the greater New York metropolitan area during study period\n* Potential participant is psychotic, suicidal, or homicidal\n* Potential participant is at-risk for developing alcohol withdrawal symptoms",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean Drinks Per Drinking Day Measured Using Timeline Follow Back (TLFB) at 60 Days.",
+        "description": "Mean drinks per drinking day in the last 30 days, assessed at baseline and repeatedly during follow-up so that change can be analyzed. Abstention is coded as zero.",
+        "timeFrame": "60 days (end of treatment)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Number of Days Drank as Assessed by Item From the Alcohol Use Disorder and Associated Disabilities Interview Schedule (AUDADIS)",
+        "description": "Number of days drank in the last 30 days (RANGE 0-30) was assessed at baseline and repeatedly during follow-up so that change can be analyzed. A change value is calculated here such that a negative value indicates a decrease in drinking.",
+        "timeFrame": "60 days (end of treatment)"
+      },
+      {
+        "measure": "Change in Largest Number of Drinks Assessed by Item From the Alcohol Use Disorder and Associated Disabilities Interview Schedule (AUDADIS)",
+        "description": "The largest number of drinks consumed within one day in the last 30 days (RANGE 0-30) was assessed at baseline and repeatedly during follow-up so that change can be analyzed. A change value is calculated here such that a negative value indicates a decrease in drinking.",
+        "timeFrame": "60 days (end of treatment)"
+      },
+      {
+        "measure": "Change in Number of Days Binge Drinking as Assessed by Item From the Alcohol Use Disorder and Associated Disabilities Interview Schedule (AUDADIS)",
+        "description": "Number of days engaging in binge drinking (4+ drinks) in the last 30 days (RANGE 0-30) was assessed at baseline and repeatedly during follow-up so that change can be analyzed. A change value is calculated here such that a negative value indicates a decrease in drinking.",
+        "timeFrame": "60 days (end of treatment)"
+      },
+      {
+        "measure": "Change in Number of Days Intoxicated as Assessed by Item From the Alcohol Use Disorder and Associated Disabilities Interview Schedule (AUDADIS)",
+        "description": "Number of days intoxicated in the last 30 days (RANGE 0-30) was assessed at baseline and repeatedly during follow-up so that change can be analyzed. A change value is calculated here such that a negative value indicates a decrease in drinking.",
+        "timeFrame": "60 days (end of treatment)"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Self-efficacy to Change Drinking as Measured by Brief Version of Situational Confidence Questionnaire (SCQ)",
+        "description": "Self-efficacy to change drinking in the last 30 days, assessed at baseline and repeatedly during follow-up so that change can be analyzed. Participants rate eight situations regarding their confidence in their ability to resist drinking (0% - Not at all confident to 100% - Totally confident). The final score is an average that can range from 0 (lowest) to 100 (highest) self-efficacy.",
+        "timeFrame": "60 days (end of treatment)"
+      },
+      {
+        "measure": "Readiness to Change Drinking Measured by University of Rhode Island Change Assessment Scale (URICA)",
+        "description": "Readiness to change drinking in the last 30 days, assessed at baseline and repeatedly during follow-up so that change can be analyzed.\n\nHigher scores indicate more readiness to change. Range from -2 to +14.\n\nThe scale is scored when points are averaged for all four (precontemplation, contemplation, action, maintenance) scales. Add Contemplation + Action + Maintenance averages, then subtract Precontemplation average.",
+        "timeFrame": "60 days (end of treatment)"
+      },
+      {
+        "measure": "Readiness to Change Drinking Measured by The Stages of Change Readiness and Treatment Eagerness Scale (SOCRATES)",
+        "description": "Readiness to change drinking in the last 30 days,assessed at baseline and repeatedly during follow-up so that change can be analyzed.\n\nHigher scores indicate more recognition, ambivalence, and taking steps toward change, respectively. For full range and interpretation, see individual outcomes below.\n\nRecognition scale - Range 7 (very low recognition) to 35 (high recognition)\n\nAmbivalence scale - Range 4 (very low ambivalence) to 20 (very high ambivalence)\n\nTaking Steps scale - Range 8 (very low on taking steps to change drinking) to 40 (very high score)",
+        "timeFrame": "60 days (end of treatment)"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 3,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 65,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:24.829Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

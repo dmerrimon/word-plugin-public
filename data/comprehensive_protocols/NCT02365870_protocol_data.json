@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02365870",
+  "briefTitle": "Anxiety in Parkinson's: Use of Quantitative Methods to Guide Rational Treatment",
+  "officialTitle": "Anxiety in Parkinson's: Use of Quantitative Methods to Guide Rational Treatment",
+  "protocolDocument": {
+    "nctId": "NCT02365870",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-04-26",
+    "uploadDate": "2020-03-05T14:41",
+    "size": 862035,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02365870/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 4,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08",
+    "completionDate": "2019-07",
+    "primaryCompletionDate": "2019-07",
+    "firstSubmitDate": "2015-02-11",
+    "firstPostDate": "2015-02-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosis of Diagnostic and Statistical Manual of Mental Disorders (DSM) 5 Anxiety Disorder\n* Stable medical history and general health\n* On stable anti-parkinsonian therapy for 2 weeks before enrollment\n\nExclusion Criteria:\n\n* Unstable medical disease of comorbid psychiatric disease\n* Dementia\n* Subjects with less than one year duration of Parkinson's\n* Current treatment with a dopamine agonist",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "maximumAge": "89 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Anxiety Symptom Severity as Assessed by the Hamilton Anxiety Rating Scale",
+        "description": "The main outcome measure for this study was change in anxiety symptom severity over the course of the study. Anxiety severity was measured using the Hamilton Anxiety Rating Scale (HARS).The HARS is a 14-item questionnaire, with each item assigned a score ranging from 0 (\"not present\") to 4 (\"severe\"). The total score of this scale ranges from 0 to 56, with scores greater than 17 indicating mild severity, scores between 18 and 24 indicating mild to moderate severity and scores greater than 25 indicating moderate to severe severity.",
+        "timeFrame": "Baseline, weeks 2, 4 and 8"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Depression Symptom Severity as Assessed by the 17-item Hamilton Depression Rating Scale",
+        "description": "The main outcome measure for this study was change in depression symptom severity over the course of the study. Depression severity was measured using the Hamilton Depression Rating Scale (HAMD). The HAMD is a 17-item questionnaire, with each item assigned a score ranging from 0 (\"not present\") to 4 (\"severe\"). The total score of this scale ranges from 0 to 68, with scores greater than 7 indicating mild depressive symptoms.",
+        "timeFrame": "Baseline, weeks 2, 4 and 8"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:44.884Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

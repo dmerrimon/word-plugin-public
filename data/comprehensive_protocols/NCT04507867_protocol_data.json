@@ -1,0 +1,209 @@
+{
+  "nctId": "NCT04507867",
+  "briefTitle": "Effect of a NSS to Reduce Complications in Patients With Covid-19 and Comorbidities in Stage III",
+  "officialTitle": "Effect of a Nutritional Support System to Reduce Complications in Patients With Covid-19 and Comorbidities in Stage III",
+  "protocolDocument": {
+    "nctId": "NCT04507867",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-07-28",
+    "uploadDate": "2021-10-07T14:45",
+    "size": 314677,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04507867/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 80,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-09-07",
+    "completionDate": "2021-04-10",
+    "primaryCompletionDate": "2021-04-10",
+    "firstSubmitDate": "2020-08-06",
+    "firstPostDate": "2020-08-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients admitted to the ISSEMYM Toluca Medical Center \"Arturo Montiel Rojas \", diagnosed with COVID-19 confirmed by PCR.\n* Patients in need of supplemental O2 with nasal prongs or reservoir-mask for satO2 \\<90% and respiratory distress.\n* With concomitant diseases such as cardiovascular disease, diabetes mellitus 2, hypertension, overweight or obesity BMI \\<35.\n* Both sexes.\n* Over 30 years old.\n* The patient tolerate oral feeding.\n* Signing of the letter of informed consent.\n\nExclusion Criteria:\n\n* Detachment from treatment.\n* Admission to the ICU for any reason.\n* Patients who do not tolerate the oral route.\n* Reactions to treatment that compromise the health of patients.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Overall Survival",
+        "description": "Overall survival, the total number of patients included in the study and completed a 40-day follow-up.",
+        "timeFrame": "40 days."
+      },
+      {
+        "measure": "Overall Mortality at Day 40",
+        "description": "Total number of patients who died before day 40 of follow-up.",
+        "timeFrame": "40 days."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Survival in Intubated Patients at Day 40",
+        "description": "Total number of patients who were intubated, extubated, discharged and completes the 40 day follow-up",
+        "timeFrame": "40 days"
+      },
+      {
+        "measure": "Mortality in Intubated Patients at Day 40",
+        "description": "Patients who were intubated during their hospital stay and died before completing follow-up on day 40.",
+        "timeFrame": "40 days"
+      },
+      {
+        "measure": "Progression to Mechanical Ventilation Assistance",
+        "description": "total number of patients included in the study who progressed to mechanical ventilation during the first 10 days of hospital stay.",
+        "timeFrame": "10 days."
+      },
+      {
+        "measure": "Participants With Normal Bristol Scale at Day 3",
+        "description": "The Bristol Stool Form Scale categorizes stools into one of seven stool types ranging from type 1 (hard lumps) to type 7 (watery diarrhea). Type 3 and 4 were considered \"Normal\".",
+        "timeFrame": "day 3"
+      },
+      {
+        "measure": "Hidric Balance on Day 3",
+        "description": "The ratio between the water assimilated into the body and that lost from the body, in milliliters.",
+        "timeFrame": "It is evaluated on day 3 of hospital stay (duration approximately 10 minutes)."
+      },
+      {
+        "measure": "Oxigen Saturation >90% on Day 3",
+        "description": "the total number of patients with oxygen saturation \\>90% on day 3 of their hospital stay.",
+        "timeFrame": "day 3."
+      },
+      {
+        "measure": "PHQ-9 Test",
+        "description": "Is a self-administered version of the PRIME-MD diagnostic instrument for common mental disorders, includes 9 items, which evaluate the presence of depressive symptoms based on the criteria of the Diagnostic and Statistical Manual of Mental Disorders version 4, during the last 2 weeks, how often the patient presented depressive symptoms. According to the sum of the score obtained, the following 4 categories will be considered: 0-4 minimum existence or absence of depressive symptoms; 5-9 = mild depressive symptoms; 10-14 = moderate depressive symptoms; 15-19 = moderate to severe depressive symptoms; 20-27 = severe depressive symptoms.",
+        "timeFrame": "baseline and hospital discharge"
+      },
+      {
+        "measure": "Oxigen Flow (Intragroup)",
+        "description": "Difference in oxygen delivery between the baseline period and day 3 of hospital stay in each group.",
+        "timeFrame": "baseline and day 3"
+      },
+      {
+        "measure": "qSOFA at Day 3",
+        "description": "Quick-Sequential Organ Failure Assessment (qSOFA) score gives 0 to 3 points. ≥2 in the setting of suspected infection had a high predicted in-hospital mortality rate and could be considered septic.",
+        "timeFrame": "Baseline and Day 3"
+      },
+      {
+        "measure": "Number of Defectations on Day 3",
+        "description": "Refers to the subjective sensation of increased abdominal pressure without an increase in abdominal size, the number of defecations were quantified at day 3 and compared between both groups.",
+        "timeFrame": "Day 3"
+      },
+      {
+        "measure": "Number of Participants With Distension on Day 3",
+        "description": "Is a visible increase in abdominal girth.1. Present, 2. Absent.",
+        "timeFrame": "Day 3"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Saturation Without Supplementary Oxygen",
+        "description": "The oxygen saturation without supplementary oxygen is taken at the control appointment 40 days after hospital discharge.",
+        "timeFrame": "day 40"
+      },
+      {
+        "measure": "Need for Home Oxygen Flow",
+        "description": "The need to continue with supplemental oxygen at hospital discharge. Categories: 1. Yes, 2. No.",
+        "timeFrame": "Day 40"
+      },
+      {
+        "measure": "Time of Home Oxigen Use",
+        "description": "It is recorded for how many days the treating doctor asked the patients to continue to administer supplemental oxygen after hospital discharge",
+        "timeFrame": "day 40"
+      },
+      {
+        "measure": "Post Covid Syndrome",
+        "description": "Persistence of clinical signs and symptoms that arise after developing COVID-19, and are not explained by an alternative diagnosis. 1. Present. 2. Absent.",
+        "timeFrame": "Day 40."
+      },
+      {
+        "measure": "Weight Decrease",
+        "description": "Is defined as at least a 5% reduction in weight from the baseline level.Total number of patients with weight loss at the end of follow-up at day 40",
+        "timeFrame": "Day 40"
+      },
+      {
+        "measure": "Gastrointestinal Symptoms",
+        "description": "Total number of patients with gastrointestinal symptoms at the end of follow-up at day 40.Those symptoms perceived abdominal region (pain, burn, pressure, nausea, vomiting)",
+        "timeFrame": "Day 40"
+      },
+      {
+        "measure": "Number of Deceased Patients Stratified by Fibrinogen Level.",
+        "description": "Association between the presentation of certain laboratory parameters taken at baseline with the overall mortality of discharged patients compared to deceased patients.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of Deceased Patients Stratified by Procalcitonin Level.",
+        "description": "Association between the presentation of certain laboratory parameters taken in the baseline period, with te overall mortality of discharge patients in comparison with deceased patients",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of Deceased Patients Stratified by Ureic Nitrogen Level",
+        "description": "Association between the presentation of certain laboratory parameters taken in the baseline period, with te overall mortality of discharge patients in comparison with deceased patients",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of Deceased Participants Stratified by RCP Level",
+        "description": "Association between the presentation of certain laboratory parameters taken in the baseline period, with te overall mortality of discharge patients in comparison with deceased patients",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of Deceased Participants Stratified by Neutrophils Level",
+        "description": "Association between the presentation of certain laboratory parameters taken in the baseline period, with te overall mortality of discharge patients in comparison with deceased patients",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of Deceased Participants Stratified by Leukocytes Level",
+        "description": "Association between the presentation of certain laboratory parameters taken in the baseline period, with te overall mortality of discharge patients in comparison with deceased patients",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Number of Deceased Participants Stratified by Urea Level",
+        "description": "Association between the presentation of certain laboratory parameters taken in the baseline period, with te overall mortality of discharge patients in comparison with deceased patients",
+        "timeFrame": "Baseline"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 11,
+      "otherCount": 13,
+      "totalCount": 26
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.430Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

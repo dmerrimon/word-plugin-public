@@ -1,0 +1,148 @@
+{
+  "nctId": "NCT03040336",
+  "briefTitle": "Piloting Prehabilitation Before Abdominal Surgery",
+  "officialTitle": "Pilot Testing Prehabilitation Services Aimed at Improving Outcomes of Frail Veterans Following Major Abdominal Surgery",
+  "protocolDocument": {
+    "nctId": "NCT03040336",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-04-03",
+    "uploadDate": "2020-02-14T08:24",
+    "size": 358503,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03040336/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 17,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-02-01",
+    "completionDate": "2018-12-28",
+    "primaryCompletionDate": "2018-12-28",
+    "firstSubmitDate": "2017-01-18",
+    "firstPostDate": "2017-02-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Frail as defined by an Risk Analysis Index (RAI) score \\>=16\n* Scheduled for Major Abdominal Surgery as defined by a procedure that plans to violate the peritoneum or retroperitoneum (excluding inguinal hernias)\n\nExclusion Criteria:\n\n* Unable to participate in planned Prehabilitation regimen\n* Surgery is cancelled by IMPACT clinic or surgeon due to unacceptable risk\n* Left ventricular ejection fractions \\<35%\n* Severe valvular heart disease\n* Significant arrhythmia\n* Cognitive impairments that necessitate surrogate informed consent for the planned surgery\n* Unable to speak English",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Recruitment Rate",
+        "description": "Recruitment will be expressed as the percentage of eligible patients approached who agree to participate in this pilot study.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Randomization Rate",
+        "description": "Randomization rate will be expressed as the percentage of eligible patients who agreed to participate who then agreed to be randomized to control or intervention conditions",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Retention Rate",
+        "description": "Retention rate will be expressed as the percentage of enrolled patients who were retained in the study and completed study procedures. It will be calculated for incremental steps along the study timeline and at the completion of study procedures 90 days postoperatively.",
+        "timeFrame": "Baseline to 90 days postoperatively"
+      },
+      {
+        "measure": "Compliance Rate",
+        "description": "Compliance rates will be expressed as the percentage of total compliance with assigned pehab activities actually completed by patients as recorded in home exercise and nutrition logs and completion of on site exercise sessions.",
+        "timeFrame": "Baseline to Day of Surgery"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Grip Strength",
+        "description": "Grip strength will be measured in kilograms of pressure using a Jamar grip dynamometer",
+        "timeFrame": "Baseline, day of surgery, 90 days postoperatively"
+      },
+      {
+        "measure": "Pulmonary Function",
+        "description": "Pulmonary function will be measured in terms of maximal inspiratory and expiratory pressures.",
+        "timeFrame": "Baseline, day of surgery, 90 days postoperatively"
+      },
+      {
+        "measure": "Serum Prealbumin",
+        "description": "Nutrition will be measured by serum prealbumin. Higher scores indicate greater levels of protein. Lower levels indicate the potential of inflammation.",
+        "timeFrame": "Baseline, day of surgery, 90 days postoperatively"
+      },
+      {
+        "measure": "Gait Speed",
+        "description": "Gait speed will be measured by using a stopwatch to time how long the patient takes to walk 4 meters.",
+        "timeFrame": "Baseline, day of surgery, 90 days postoperatively"
+      },
+      {
+        "measure": "Short Physical Performance Battery (SPPB)",
+        "description": "This standardized outcome measure asks patients to complete several activities that are scored independently and then aggregated into an overall score ranging from 0-12. Higher scores indicate better physical performance.",
+        "timeFrame": "Baseline, day of surgery, 90 days postoperatively"
+      },
+      {
+        "measure": "Risk Analysis Index of Frailty (RAI)_questionnaire",
+        "description": "This recently published frailty index is assessed by a clinician administered questionnaire. The score and reflects frailty-associated mortality risk ranging from 0-81. Higher scores indicate higher risk for post operative complications and other frailty-related outcomes.",
+        "timeFrame": "Baseline, day of surgery, 90 days postoperatively"
+      },
+      {
+        "measure": "7-point Subjective Global Assessment of Nutrition_questionnaire",
+        "description": "This standardized survey instrument is completed by a trained clinician after assessing a nutrition-specific patient history. The minimum score is 1 and the maximum score is 7. High scores indicate better nourishment.",
+        "timeFrame": "Baseline, day of surgery, 90 days postoperatively"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Postoperative Mortality",
+        "description": "Postoperative mortality",
+        "timeFrame": "30 and 90 days postoperatively"
+      },
+      {
+        "measure": "Health Related Quality of Life",
+        "description": "Assessment of Quality of Life (AQoL-6D). Utility score ranges from 0 to 1. Higher scores indicate better quality of life.",
+        "timeFrame": "Baseline, day of surgery, 90-days postoperatively"
+      },
+      {
+        "measure": "Quality of Surgical Care",
+        "description": "AHRQ Surgical Care Survey (SCS). Scores on this scale range from 1 to 3. Lower scores indicate better communication.",
+        "timeFrame": "Day of Surgery and 30-days postoperatively"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 7,
+      "otherCount": 3,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 95,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:31:00.803Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

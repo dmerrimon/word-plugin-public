@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT01813357",
+  "briefTitle": "Does Rosuvastatin Delay Progression of Atherosclerosis in HIV",
+  "officialTitle": "Does Rosuvastatin Delay Progression of Atherosclerosis in People With HIV Infection at Moderate Cardiovascular Risk? A Multicentre Randomized, Double Blind Placebo-controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT01813357",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2014-02-14",
+    "uploadDate": "2020-08-27T00:15",
+    "size": 1316381,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01813357/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 84,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-07-02",
+    "completionDate": "2018-11-01",
+    "primaryCompletionDate": "2018-05-17",
+    "firstSubmitDate": "2012-12-09",
+    "firstPostDate": "2013-03-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Moderate cardiovascular disease (CVD) risk, (10-15% 10 year risk of CVD)\n* HIV positive\n* Stable combination anti-retroviral therapy (cART) with plasma HIV viral load \\<200copies/ml for ≥ 6 months\n\nExclusion Criteria:\n\n* Recommended use of lipid lowering therapy according to Australian guidelines\n* Prior use of statin, fibrate, ezetimibe within the last six months\n* Contraindication to statin use",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Progression of Carotid Intima Media Thickness",
+        "description": "Carotid intima media thickness will be measured by ultrasonography and the change from baseline to week 96 calculated",
+        "timeFrame": "Baseline to week 96"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Rates of Adverse Events",
+        "description": "Number of participants with adverse events in total and also the number of participants with adverse events thought secondary to the study medication",
+        "timeFrame": "Will be assessed every 12 weeks and formally reported at 96 weeks of followup"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:19.799Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

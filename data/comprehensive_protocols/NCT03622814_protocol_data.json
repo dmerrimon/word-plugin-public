@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT03622814",
+  "briefTitle": "Partners at Meals - Respite Care and Home (PAM)",
+  "officialTitle": "Mealtime Partnerships for People With Dementia in Respite Centers and at Home",
+  "protocolDocument": {
+    "nctId": "NCT03622814",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-07-12",
+    "uploadDate": "2023-10-12T13:31",
+    "size": 274450,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03622814/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 106,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-08-15",
+    "completionDate": "2023-06-30",
+    "primaryCompletionDate": "2023-06-30",
+    "firstSubmitDate": "2018-05-03",
+    "firstPostDate": "2018-08-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Persons with Dementia (PWD): aged ≥ 60 years; attending a participating respite care center (RCC) at least once/week; living with or within the same property as caregiver (CG); diagnosis of Alzheimer's disease or related dementia with mild to moderate stage as demonstrated by the Functional Assessment Staging Scale (FAST) of 5 or greater and a MMSE of 12 or above; absence of wasting disorders (e.g., HIV/AIDS, heart or renal failure or COPD, end-stage cancer); some supervision required or dysfunctional behavior present (e.g., redirection)\n* Caregiver (CG): lives with or on same property as the PWD; provides 4 hours or more of care/day; assists with ADLs including meals\n* Volunteer: present at the RCC at least weekly (at least 4 hours/week); identify as comfortable in the teacher/coach role, and demonstrate ability to use televideo and photograph.\n\nExclusion Criteria:\n\n* Persons with Dementia (PWD): not receiving enteral feeding or active treatment by a speech pathologist/therapist; not diagnosed with dysphagia as identified by caregiver or on RCC Intake Sheet. Those enrolled in or qualifying for hospice will not be included.\n* Caregiver (CG): paid for services as caregiver; unable to speak or read English\n* Volunteer: unable to read and speak English",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Monthly Weight in Pounds on a Scale for Person With Dementia",
+        "description": "Assessed by unit of measure in pounds; reported as mean difference in pounds from baseline to follow-up at 6 months",
+        "timeFrame": "This was a 6-month study. We are reporting the change from baseline to the 6-month end of study time period."
+      },
+      {
+        "measure": "Person With Dementia: Dysfunctional Behavior at Meals Measured With the Edinburgh Feeding in Dementia Scale (EdFED)",
+        "description": "The Edinburgh Feeding in Dementia Scale (EdFED) is an observational instrument used across settings to evaluate feeding problem behavior. Using Guttmann Scaling, the EdFED Q has 4 items that measure level of assistance and 6 behavioral descriptors of specific mealtime behaviors; all are each rated 'never, sometimes, often' and cannot be rated 0, 1, 2, respectively, producing a range of 0-20 with higher scores indicating more problem behaviors. The instrument was used to also assess specific behaviors seen in moderate stage dementia such as wandering, distracted, perseverating, unable to use utensils, premature oral closure.",
+        "timeFrame": "This was a 6-month study. We are reporting the change from baseline to the 6-month end of study time period."
+      },
+      {
+        "measure": "Person With Dementia: Quality of Life",
+        "description": "The QOL scale in Alzheimer's disease (QOL--AD) is a 13--item rating of domains of physical condition, mood, memory, functional abilities, interpersonal relationships, ability to participate in meaningful activities, financial situation, and global assessments of self as a whole and QOL as a whole. Scoring instructions for QOL-AD:\n\nPoints are assigned to each item as follows: poor = 1, fair = 2, good = 3, excellent = 4. The total score is the sum of all 13 items (scoring ranging from 13 to 52. Higher scores indicated better quality of life.",
+        "timeFrame": "This was a 6-month study. We are reporting the change from baseline to the 6-month end of study time period."
+      },
+      {
+        "measure": "Caregiver: Quality of Life Measured With European Quality of Life (Euro-QOL)",
+        "description": "European Quality of Life (Euro--QL) measures 5 domains: mobility, self--care, usualactivities, pain/discomfort, and depression and have three levels of functioning each (no problems, some problems, and unable to/extreme problems). The VAS is a scale from 0 (worst imaginable health state) to 100 (best imaginable health state).",
+        "timeFrame": "This was a 6-month study. We are reporting the change from baseline to the 6-month end of study time period."
+      },
+      {
+        "measure": "Caregiver: Self Efficacy",
+        "description": "The self-efficacy score was a 8--item likert scale with each item rated from 1--5 (unable to most able). A total score for the instrument is provided by summing the scores of each item and dividing by the number of items producing a score in the range of 1-5. Higher overall mean scores indicate greater self efficacy.",
+        "timeFrame": "This was a 6-month study. We are reporting the change from baseline to the 6-month end of study time period."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:39.435Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

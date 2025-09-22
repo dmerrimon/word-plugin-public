@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT04091971",
+  "briefTitle": "Ketamine Treatment Effects on Synaptic Plasticity in Depression",
+  "officialTitle": "Examining the Effects of Ketamine Treatment on Synaptic Plasticity in Depression Using PET Imaging",
+  "protocolDocument": {
+    "nctId": "NCT04091971",
+    "filename": "Prot_SAP_003.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-09-15",
+    "uploadDate": "2023-11-10T14:47",
+    "size": 545961,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04091971/document/Prot_SAP_003.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-09",
+    "completionDate": "2022-05-01",
+    "primaryCompletionDate": "2022-05-01",
+    "firstSubmitDate": "2019-09-11",
+    "firstPostDate": "2019-09-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Unipolar, major depressive episode (MDE), with 17-item Hamilton Depression Rating Scale score ≥16. Patients may be psychiatric medication- free, or if currently taking psychiatric medication, not responding adequately as evidenced by current MDE.\n* 18-55 years old\n* Female patients of child-bearing potential must be willing to use an acceptable form of birth control during study participation such as condoms, diaphragm, oral contraceptive pills.\n* Must be enrolled in division's umbrella research protocol\n* Able to provide informed consent\n* Agrees to voluntary admission to an inpatient research unit at The New York State Psychiatric Institute (NYSPI) for baseline PET imaging and Magnetic Resonance Imaging (MRI), ketamine infusion, and repeat PET imaging\n\nExclusion Criteria:\n\n* Unstable medical or neurological illness including: A) baseline hypertension (BP\\>140/90); B) significant history of cardiovascular illness; C) Platelet count \\< 80,000 cells/uL; and D) Hemoglobin \\< 11 g/dL for females and \\< 12 g/dL for males\n* Significant electrocardiogram (ECG) abnormality (e.g., Ventricular tachycardia, evidence of myocardial ischemia, symptomatic bradycardia, unstable tachycardia, second degree (or greater) atrioventricular (AV) block).\n* Pregnancy, currently lactating, or planning to conceive during the course of study participation.\n* Diagnosis of bipolar disorder or current psychotic symptoms.\n* Current or past ketamine use disorder (lifetime); any drug or alcohol use disorder within past 6 months\n* Inadequate understanding of English.\n* Prior ineffective trial of or adverse reaction to ketamine.\n* A neurological disease or prior head trauma with evidence of cognitive impairment.\n\nSubjects who endorse a history of prior head trauma and score ≥ 1.5 standard deviations below the mean on the Trailmaking A\\&B will be excluded from study participation.\n\n\\- Metal implants or paramagnetic objects contained within the body (including heart pacemaker, shrapnel, or surgical prostheses) which may present a risk to the subject or interfere with the MRI scan, according to the guidelines set forth in the following reference book commonly used by neuroradiologists: \"Guide to MR procedures and metallic objects,\" F.G. Shellock, Lippincott Williams and Wilkins NY 2001. Additionally transdermal patches will be removed during the MR study at the discretion of the investigator.\n\n* Current, past, or anticipated exposure to radiation, that may include: \\*\\*\n* being badged for radiation exposure in the workplace\n* participation in nuclear medicine research protocols in the last year\n* Claustrophobia significant enough to interfere with MRI scanning\n* Weight that exceeds 325 lbs or inability to fit into MRI scanner\n* Individuals taking prescribed opioid medication, using opioids recreationally, or taking naltrexone at the time of enrollment 14. Daily use of: benzodiazepine, zolpidem (Ambien), zaleplon (Sonata), or eszopiclone (Lunesta) for ≥2 weeks at time of consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "55 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Synaptic Density",
+        "description": "PET imaging measure of synaptic density (\\[11C\\]UCB-J binding potential, BPND) before and after ketamine treatment. This type of brain scan takes pictures to measure the density of synapses, or connections between brain cells (neurons), in the brain. \\[11C\\]UCB-J is a radiotracer specific for SV2A, a protein present in presynaptic vesicles. \\[11C\\]UCB-J BPND was quantified in a brain region called the medial prefrontal cortex; previous studies have found lower levels of \\[11C\\]UCB-J binding in patients with more severe depression. BPND is the ratio at equilibrium of specifically bound radioligand to that of nondisplaceable radioligand in tissue.\n\nTime frame of assessment: Time frame 1 = baseline. This pre-treatment PET scan was acquired as close as possible prior to the first ketamine infusion, up to 7 days prior to first ketamine infusion. Time frame 2 = post-treatment. This post-treatment PET scan was acquired 24-48 hours following the final (4th) ketamine infusion.",
+        "timeFrame": "Measured at two time frames: Time frame 1 = Baseline. Time frame 2 = post-treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "17-item Hamilton Depression Rating Scale",
+        "description": "The 17-item Hamilton Depression Rating Scale (HDRS) is a clinician-administered scale that quantifies depression severity, and includes items assessing mood, suicidal thinking, insomnia, feelings of guilt, work and activities, somatic symptoms, and insight. It is a well-characterized scale with excellent psychometric properties. The version of the scale used in this study has a range from 0 to 51. Interpretation of score values is as follows:\n\nNone: 0-7 Mild: 8-13 Moderate: 14-19 Severe: 20-25 Very Severe: 26-51",
+        "timeFrame": "Measured at 3 time frames. Time frame one = Baseline: 24 hours prior to infusion one (\"PRE\"). Time frame two = 24 hours following ketamine infusion 4 (\"POST1\"). Time frame three = one week following ketamine infusion 4 (\"POST2\")."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:17.576Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

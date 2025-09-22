@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT02238639",
+  "briefTitle": "Pulmonary Embolism as a Cause of COPD Exacerbations",
+  "officialTitle": "Efficacy and Safety of an Active Strategy for the Diagnosis and Treatment of Acute Pulmonary Embolism (PE) in Patients With Unexplained Exacerbations of Chronic Obstructive Pulmonary Disease (COPD): a Randomized Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT02238639",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-09-03",
+    "uploadDate": "2021-12-09T02:48",
+    "size": 482222,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02238639/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 746,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-10",
+    "completionDate": "2020-12",
+    "primaryCompletionDate": "2020-10",
+    "firstSubmitDate": "2014-09-09",
+    "firstPostDate": "2014-09-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Confirmation of COPD according to SEPAR-ALT criteria: post-bronchodilator forced expiratory volume in one second (FEV1)/forced vital capacity (FVC) \\< 0.7;\n* Hospital admission because COPD exacerbation without initial clinical suspicion of PE in the Emergency Department (according by the Emergency Department physician evaluation).\n\nExclusion Criteria:\n\n* Contraindication to multidetector computed tomographic angiography (allergy to intravenous contrast medium, or renal failure defined as a creatinine clearance less than 30 mL/min, according to the Cockcroft-Gault formula)\n* Informed consent denied\n* Pregnancy\n* Life expectancy less than 3 months\n* Anticoagulant therapy at the time of hospital admission\n* Diagnosis of pneumothorax, or pneumonia (fever, and purulent sputum, and new infiltrate in chest X-ray)\n* Diagnosis of lower respiratory tract infection (fever \\[\\>37.8ºC\\], increased sputum volume and/or increased sputum purulence).\n* Indication of invasive mechanical ventilation at the time of hospital admission;\n* Impossibility for follow-up.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "All-cause Mortality, Symptomatic Venous Thromboembolism Recurrence, or Need for Readmission.",
+        "description": "Clinical composite endpoint of all-cause mortality, or symptomatic venous thromboembolism recurrence, or need for readmission.",
+        "timeFrame": "90-day follow-up"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "All-cause Mortality",
+        "description": "All-cause mortality.",
+        "timeFrame": "90-day follow-up"
+      },
+      {
+        "measure": "Symptomatic Recurrent Venous Thromboembolism",
+        "description": "Symptomatic venous thromboembolic recurrence confirmed by objective testing.",
+        "timeFrame": "90-day follow-up"
+      },
+      {
+        "measure": "Hospitalization",
+        "description": "Need for readmission.",
+        "timeFrame": "90-day follow-up"
+      },
+      {
+        "measure": "Major Bleeding",
+        "description": "Major bleeding (defined according to previously published criteria)",
+        "timeFrame": "90-day follow-up"
+      },
+      {
+        "measure": "Clinically Relevant Non Major Bleeding",
+        "description": "Clinically relevant non major bleeding (defined according to previously published criteria)",
+        "timeFrame": "90-day follow-up"
+      },
+      {
+        "measure": "Serious Adverse Events",
+        "description": "Serious adverse events.",
+        "timeFrame": "90-day follow-up"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:26.296Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

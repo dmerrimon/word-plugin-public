@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT03668379",
+  "briefTitle": "An Adaptive Intervention for Depression Among Latinos Living With HIV",
+  "officialTitle": "An Adaptive Treatment Intervention for Depression and Engagement in HIV Care Among Latinos Living With HIV",
+  "protocolDocument": {
+    "nctId": "NCT03668379",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-09-08",
+    "uploadDate": "2024-08-13T15:02",
+    "size": 977626,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03668379/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 10,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-02-26",
+    "completionDate": "2022-08-28",
+    "primaryCompletionDate": "2022-08-28",
+    "firstSubmitDate": "2018-08-28",
+    "firstPostDate": "2018-09-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* HIV positive\n* 18 years of age and older\n* Self identifies as Latino/Hispanic\n* Fluent in English or Spanish\n* Receives HIV care at study site clinic\n* Has a moderate depression severity score or higher (Patient Health Questionnaire-9 score \\>9; PHQ)\n* Agrees to discuss depression, treatment preferences, and mobile health\n* Owns a mobile phone that can send/receive short-message service (SMS) text messages\n* Agrees to participate in the intervention that lasts three months\n* Agrees to have medical and clinical data abstracted one year after baseline\n* Able and willing to consent to participate\n\nExclusion Criteria:\n\n* Not HIV positive\n* Under 18 years of age\n* Does not self-identify as Latino/Hispanic\n* Not fluent in English or Spanish\n* Does not receive primary HIV care at the study site\n* Has a less than moderate depression severity score (Patient Health Questionnaire-9 score ≤9; PHQ)\n* Does not agree to discuss depression, treatment preferences, and mobile health\n* Does not owns a mobile phone that can send/receive short-message service (SMS) text messages\n* Does not agree to participate in the intervention that lasts three months\n* Does not agree to have medical and clinical data abstracted one year after baseline\n* Not able and willing to consent to participate",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Composite Measure of Feasibility for the Adaptive Treatment Strategy (ATS)",
+        "description": "This is one composite measure. Feasibility of the adaptive treatment strategy (ATS) will be measured to assess whether the ATS is appropriate for further testing, relevant and sustainable. Feasibility of the ATS will be reported as a composite score of the following measures taken at the end of the second-stage treatment:\n\n1. Total number of participants screened, eligible and enrolled;\n2. At least 80% of all BAT \\& CBT sessions completed;\n3. 80% retention of participants across all \"outcome groups\".",
+        "timeFrame": "4 months"
+      },
+      {
+        "measure": "Composite Measure of Acceptability for the Adaptive Treatment Strategy (ATS)",
+        "description": "This is one composite measure. Acceptability of the adaptive treatment strategy will be measured to determine the tolerability or appropriateness of the SMART intervention from the perspective of both participants and clinicians.Acceptability of the ATS will be reported as a composite score of the following measures taken at the end of the second-stage treatment:\n\n1. Greater than 90% adherence to the BAT \\& CBT session schedule;\n2. Responsiveness to text-messages: a) \\>80% of all two-way messages replied back to study line during the set of blocked hours; b) \\>90% of participants reporting direct benefit from one-way text messages;\n3. Acceptability responses coded from post-intervention exit interview transcripts;\n4. Limited number of barriers to participation reported by participants in exit interviews;\n5. Responses to a brief survey (to be developed) assessing clinic staff acceptability of the intervention.",
+        "timeFrame": "4 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Self-reported Adherence to Antiretroviral Therapy (ART)",
+        "description": "Self-reported adherence will be measured using the the visual analog scale (VAS), a 10-cm line on which participants indicate the percentage of doses (intervals of 10 percentage points indicated from 0% to 100%) of all HIV medications taken in the past 30 days (Amico et al., 2006). Higher percentage indicates greater adherence to HIV medications. This measure will be used for descriptive purposes.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Viral Load",
+        "description": "Viral load measures the amount of HIV virus in the blood. Viral load data abstracted from patient medical records will act as a descriptive measure of HIV-related clinical outcomes. A detectable viral load is a measurement of the amount of HIV in the blood, and an indication that HIV is replicating in the body. Undetectable viral load means that there is not enough of the virus to be detected.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Patient Health Questionnaire-9 (PHQ-9)",
+        "description": "Patient Health Questionnaire-9 is a self-report measure of depression with a range from 0-27, with higher score indicating greater severity of depression symptoms.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Engagement in HIV Care",
+        "description": "Engagement in care will be measured utilizing the multidimensional index of engagement in HIV care, a 10-item unit-dimensional patient-centered scale that assesses provider, clinic, and patient-level characteristics associated with being engaged in HIV care. This measure will be used for descriptive purposes. Mean scores are the sum of all 10 items divided by 10 with a range of 1-5, and higher scores indicate better engagement in care.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:21.095Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

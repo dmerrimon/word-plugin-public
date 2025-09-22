@@ -1,0 +1,133 @@
+{
+  "nctId": "NCT04191616",
+  "briefTitle": "Study of Early Relapsed, Lenalidomide-refractory Subjects Eligible for Carfilzomib Triplet",
+  "officialTitle": "An Open-label, Phase 2 Study Treating Subjects With First or Second Relapse of Multiple Myeloma With Carfilzomib, Pomalidomide, and Dexamethasone (KPd)",
+  "protocolDocument": {
+    "nctId": "NCT04191616",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-05-16",
+    "uploadDate": "2023-10-18T08:14",
+    "size": 1647092,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04191616/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 54,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-08-06",
+    "completionDate": "2024-10-01",
+    "primaryCompletionDate": "2022-11-30",
+    "firstSubmitDate": "2019-11-22",
+    "firstPostDate": "2019-12-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria\n\n* Subject has provided informed consent prior to initiation of any study specific activities or procedures.\n* Male or female subjects age ≥ 18 years\n* First or second relapse of multiple myeloma by IMWG criteria (subjects refractory to the most recent line of therapy, excluding carfilzomib, are eligible)\n* Refractory to lenalidamide\n* Measurable disease with at least 1 of the following assessed within 28 days prior to enrollment:\n\n  * IgG multiple myeloma: serum monoclonal protein (M-protein) level ≥ 1.0 g/dL\n  * IgA, IgD, IgE multiple myeloma: serum M-protein level ≥ 0.5 g/dL\n  * urine M-protein ≥ 200 mg per 24 hours\n  * in subjects without measurable serum or urine M-protein, serum-free light chain (SFLC) ≥ 100 mg/L (involved light chain) and an abnormal serum kappa lambda ratio\n* Must have at least a PR to at least 1 line of prior therapy\n* Prior therapy with proteasome inhibitors is allowed. Subjects receiving prior carfilzomib therapy must have achieved at least a PR, was not removed due to toxicity, did not relapse within 60 days from discontinuation of carfilzomib, and must have at least a 6 month carfilzomib treatment-free interval from their last dose of carfilzomib\n* ECOG PS of 0 to 2\n\nExclusion Criteria\n\n* Primary refractory multiple myeloma\n* Waldenström macroglobulinemia\n* Multiple myeloma of IgM subtype\n* POEMS syndrome (polyneuropathy, organomegaly, endocrinopathy, monoclonal protein, and skin changes)\n* Plasma cell leukemia ( greater than 2.0 × 109/L circulating plasma cells by differential). If automated differential shows ≥ 20% of other cells, obtain manual differential to identify other cells.\n* Primary amyloidosis (patients with multiple myeloma with asymptomatic deposition of amyloid plaques found on biopsy would be eligible if all other criteria are met)\n* Previous diagnosis of amyloidosis associated with myeloma\n* Myelodysplastic syndrome\n* Toxicity requiring discontinuation of lenalidomide therapy\n* Prior treatment with pomalidomide",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Overall Response Rate (ORR) As Assessed by the Independent Review Committee (IRC)",
+        "description": "Overall response was defined as the best overall confirmed response of: Complete response (CR): Negative immunofixation on serum and urine, soft tissue plasmacytomas disappearance, \\< 5% plasma cells in bone marrow (BM). Stringent CR (sCR): CR and normal serum free light chain ratio and no clonal cells in BM. Very Good Partial Response (VGPR): Serum and urine M-protein detectable by immunofixation or ≥ 90% reduction in serum M-protein (urine M-protein level \\< 100 mg/24-h). PR: ≥ 50% reduction of serum M-protein and 24-h urinary M-protein by ≥ 90% or to \\< 200 mg/24-h. Assessment was by IRC per International Myeloma Working Group Uniform Response Criteria (IMWG-URC). The 90% confidence intervals were estimated using the Clopper-Pearson method (1994).",
+        "timeFrame": "From day 1 cycle 1 until the primary analysis (PA) data cutoff (DCO); the mean duration of KPd treatment as of the DCO was 42.0 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With a Minimal Residual Disease Negative Complete Response (MRD[-]CR) as Assessed by the IRC",
+        "description": "The MRD\\[-\\]CR rate was defined as the percentage of participants who reached MRD\\[-\\]CR at the 12 month landmark (8- to 13-month window). MRD\\[-\\]CR was defined as the achievement of CR (including sCR or better) per IMWG-URC by IRC assessment and MRD\\[-\\] status at a sensitivity of 10\\^-5 using next-generation sequencing based method in the bone marrow. The 90% CIs were estimated using the Clopper-Pearson method (1994).",
+        "timeFrame": "Day 1 cycle 1 to month 12 (8 to 13 month window)"
+      },
+      {
+        "measure": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+        "description": "TEAEs were defined as events with onset on or after the administration of the first dose of any study treatment and within the end of study, or 30 days after the last dose of any study treatment, whichever one was earlier, excluding events reported after end of study date.",
+        "timeFrame": "From the first dose of any study treatment until the end of study or 30 days after the last dose of any study treatment, whichever occured earlier; Median (min, max) was 8.5 (1.0, 46.6) months"
+      },
+      {
+        "measure": "Number of Participants Achieving MRD[-] Response",
+        "description": "MRD\\[-\\] response was defined as achievement of MRD\\[-\\] status using next generation sequencing (NGS) based method in the bone marrow at any time.",
+        "timeFrame": "From day 1 cycle 1 until the end of study (EOS); the mean duration of KPd treatment as of the EOS was 55.3 weeks"
+      },
+      {
+        "measure": "Number of Participants With Sustained MRD[-]CR for at Least 12 Months as Assessed by the IRC",
+        "description": "MRD\\[-\\]CR at the 12 months landmark was defined as achievement of CR (including sCR or better) per IMWG-URC by IRC and MRD\\[-\\] status at a sensitivity of 10\\^-5 using NGS based method in the bone marrow at the 12 months landmark (from 8 months to 13 months window). Maintaining MRD\\[-\\]CR for at least 12 months (- 4 weeks) was considered as sustained.",
+        "timeFrame": "Day 1 cycle 1 to month 12 (8 to 13 month window)"
+      },
+      {
+        "measure": "Number of Participants With Sustained MRD[-]CR at Month 24 as Assessed by the IRC",
+        "description": "Sustained MRD\\[-\\]CR at 24 months included participants that maintained MRD\\[-\\]CR for 12 months or more after achieving MRD\\[-\\]CR status at 12 months.",
+        "timeFrame": "Day 1 cycle 1 to month 26 (19 to 26 month window)"
+      },
+      {
+        "measure": "Kaplan-Meier Estimate of Duration of Response as Assessed by the IRC",
+        "description": "Disease response and progression were determined using IMWG-URC. Durations were calculated for responders. Medians and percentiles were estimated using the Kaplan-Meier method. 90% CIs for medians and percentiles were estimated using the method by Klein and Moeschberger (1997) with log-log transformation.",
+        "timeFrame": "From day 1 cycle 1 until the PA DCO; the mean duration of KPd treatment as of the DCO was 42.0 weeks"
+      },
+      {
+        "measure": "Time to Response as Assessed by the IRC",
+        "description": "Durations were calculated for responders. Time to response was defined as the time from start of any study treatment date to the earliest date when confirmed sCR, CR, very good partial response (VGPR), or partial response (PR) was first achieved.",
+        "timeFrame": "From day 1 cycle 1 until the PA DCO; the mean duration of KPd treatment as of the DCO was 42.0 weeks"
+      },
+      {
+        "measure": "Kaplan-Meier Estimate of Progression Free Survival (PFS) as Assessed by the IRC",
+        "description": "PFS was defined as time from start of treatment until progression or death from any cause. Medians and percentiles were estimated using the Kaplan-Meier method by Klein and Moeschberger (1997). 90% CIs for medians were estimated using the method by Klein and Moeschberger (1997) with log-log transformation.",
+        "timeFrame": "From day 1 cycle 1 until the PA DCO; the mean duration of KPd treatment as of the DCO was 42.0 weeks"
+      },
+      {
+        "measure": "Kaplan-Meier Estimate of Overall Survival (OS)",
+        "description": "OS was defined as the time from the start of treatment until death from any cause. Medians and percentiles were estimated using the Kaplan-Meier method. 90% CIs for medians were estimated using the method by Klein and Moeschberger (1997) with log-log transformation.",
+        "timeFrame": "From day 1 cycle 1 until the EOS; the mean duration of KPd treatment was 55.3 weeks."
+      },
+      {
+        "measure": "Number of Participants With Best Overall Confirmed Response of CR or Better as Assessed by the IRC",
+        "description": "The number of safety analysis set participants whose best overall response was sCR or CR per IMWG-URC over the duration of the study.",
+        "timeFrame": "From day 1 cycle 1 until the PA DCO; the mean duration of KPd treatment as of the DCO was 42.0 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 62,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:04.208Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

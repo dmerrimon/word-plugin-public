@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT05311176",
+  "briefTitle": "A Study of IMU-131 (HER-Vaxx) in Combination With Chemotherapy or Pembrolizumab in Patients With Metastatic HER2/Neu Over-Expressing Gastric Cancer (nextHERIZON)",
+  "officialTitle": "nextHERIZON: An Open-Label, Signal Generating, Phase 2 Study of HER-Vaxx in Combination With Chemotherapy or Pembrolizumab in Patients With Metastatic HER2/Neu Over-Expressing Gastric or Gastroesophageal Junction (GEJ) Adenocarcinomas Who Have Previously Received Trastuzumab and Progressed on This Treatment",
+  "protocolDocument": {
+    "nctId": "NCT05311176",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-08-08",
+    "uploadDate": "2025-03-31T09:08",
+    "size": 1564873,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05311176/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-08-17",
+    "completionDate": "2024-04-04",
+    "primaryCompletionDate": "2024-04-04",
+    "firstSubmitDate": "2022-03-08",
+    "firstPostDate": "2022-04-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years with confirmed diagnosis of advanced or metastatic HER2/neu overexpressing gastric or GEJ adenocarcinoma;\n2. Progressed on or after trastuzumab therapy;\n3. Eastern Cooperative Oncology Group (ECOG) performance status 0-1;\n4. Life expectancy of a minimum of 3 months;\n5. At least one measurable lesion as defined by RECIST 1.1 criteria and assessed by the local investigator;\n6. HER2/neu overexpression assessed using post-progression fresh or archival tissue, or post-progression pathology report;\n7. Adequate left ventricular ejection function at baseline, defined as left ventricular ejection fraction (LVEF) \\> 50% by echocardiogram or Multi Gated Acquisition (MUGA) scan;\n8. Adequate hematologic, liver and renal function;\n9. A female patient of childbearing potential must agree to use a highly effective method of contraception throughout the study and for at least 120 days after the last dose of assigned treatment.\n\nExclusion Criteria:\n\n1. Previous malignant disease (other than primary malignancy) within the last 5 years, except basal or squamous cell carcinoma of the skin or cervical carcinoma in situ;\n2. Concurrent active malignancy except for adequately controlled limited basal cell carcinoma of the skin;\n3. Systemic chemotherapy or major surgery within 28 days before starting study treatment and recovered from all adverse events ≤ Grade 1 or baseline with possible exceptions for neuropathy and endocrine-related AEs;\n4. Received prior radiotherapy within 2 weeks of start of study treatment and recovered from all radiation-related toxicities and not require corticosteroids; or history of radiation pneumonitis.\n5. Previous treatment with trastuzumab-deruxtecan or any other anti-HER2 therapy (except trastuzumab);\n6. Clinically significant cardiovascular disease, or other diseases that in the Investigator's opinion may influence the patient's tolerance to study treatment;\n7. Pleural effusion or ascites requiring more than weekly drainage;\n8. Prior organ transplantation, including allogenic stem-cell transplantation;\n9. Chronic immunosuppressive therapy within 7 days prior the first dose of study drug;\n10. Active, known, or suspected autoimmune disease;\n11. History of (non-infectious) pneumonitis / interstitial lung disease that required steroids or has current pneumonitis / interstitial lung disease;\n12. Positivity for human immunodeficiency virus (HIV) (HIV 1/2 antibodies) or active hepatitis B (HBsAg reactive) or active hepatitis C (HCV ribonucleic acid \\[RNA\\] qualitative) infection;\n13. Current participation or has participated in a study of an investigational agent or has used an investigational device within 4 weeks prior to the first dose of study treatment;\n14. Any vaccination within 30 days prior to starting study treatment;\n15. Pregnant or lactating females;\n16. Arm 2 only: Has received prior therapy with an anti-PD-1, anti-PD-L1, or anti-PD-L2 agent;\n17. Arm 2 only: Has received prior therapy with an ICI or with an agent directed to another stimulatory or co-inhibitory T-cell receptor (e.g., CTLA-4, OX 40, CD137) and was discontinued from treatment due to a grade 3 or higher adverse event.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+        "description": "An AE was defined as any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. A summary of other non-serious AEs and all serious AEs, regardless of causality is located in the Reported AE section.",
+        "timeFrame": "First dose of study drug up to approximately 1.5 years"
+      },
+      {
+        "measure": "Number of Participants With Immune-related Adverse Events (irAEs)",
+        "description": "irAEs were monitored throughout the study as per National Comprehensive Cancer Network® (NCCN) guidelines. irAEs were defined as any Grade ≥3 event that did not resolve to Grade 1 (or baseline) within 7 days from the onset of the event, or any Grade ≥3 organ toxicity involving major organ systems that persisted for greater than 72 hours.",
+        "timeFrame": "First dose of study drug up to approximately 1.5 years"
+      },
+      {
+        "measure": "Number of Participants With Objective Response",
+        "description": "Objective response was defined as the number of participants achieving a confirmed best overall response of complete response (CR) or partial response (PR) according to Response Evaluation Criteria for Solid Tumors, Version 1.1 (RECIST v1.1).\n\n* CR: Disappearance of all target lesions.\n* PR: At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.",
+        "timeFrame": "Up to approximately 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "Overall Survival (OS) was defined as the time from first dose of study drug to death due from any cause.",
+        "timeFrame": "Up to approximately 6 months"
+      },
+      {
+        "measure": "Progression Free Survival (PFS)",
+        "description": "PFS was defined as the time from first dose of study drug to first documentation of progressive disease (PD) based on RECIST 1.1, or to death from any cause.\n\nPD: At least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study.",
+        "timeFrame": "Up to approximately 6 months"
+      },
+      {
+        "measure": "Duration of Response (DoR)",
+        "description": "DoR was measured from earliest CR or PR until first documentation of PD based on RECIST 1.1 or death due to any cause.",
+        "timeFrame": "Up to approximately 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:46.445Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT03525431",
+  "briefTitle": "Clinical Utility of Pediatric Whole Exome Sequencing",
+  "officialTitle": "Genomic Sequencing to Aid Diagnosis in Pediatric and Prenatal Practice: Examining Clinical Utility, Ethical Implications, Payer Coverage, and Data Integration in a Diverse Population.",
+  "protocolDocument": {
+    "nctId": "NCT03525431",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-02-09",
+    "uploadDate": "2022-06-14T19:31",
+    "size": 444500,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03525431/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 529,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-08-01",
+    "completionDate": "2022-05-13",
+    "primaryCompletionDate": "2022-05-13",
+    "firstSubmitDate": "2018-04-17",
+    "firstPostDate": "2018-05-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Presenting clinical features suggestive of a genetic etiology, including intellectual disability, seizures, multiple congenital anomalies, metabolic conditions, and neurodegenerative conditions or idiopathic cerebral palsy.\n2. A minimum of one biological parent is available and willing to provide a specimen for WES, with a preference for two available parents. At least one parent consenting to WES of the child.\n\n4\\. Pediatric patients must have had at least one prior genetics appointment or evaluation 5. Pediatric patients may have had a single nucleotide polymorphism (SNP) array or oligonucleotide array that did not provide a diagnosis.\n\nEven though this study is for pediatric patients, maximum age limit was increased to 25, if patients fulfilling the above criteria were being followed by Pediatrics Department since they were younger than 18.\n\nExclusion Criteria:\n\n1. Prior WES performed for a clinical or research indication\n2. Lack of phenotypic indication of a likely underlying genetic etiology\n3. Both biological parents are unavailable.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "maximumAge": "25 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Pediatric Patients With a Positive Exome Sequencing Result",
+        "description": "Number of pediatric patients with a diagnostic result among all patients where exome was performed.\n\nA positive exome sequencing result means the identification of a pathogenic or likely pathogenic gene variant to explain the child's condition.\n\nThe definition of pediatric was expanded to include participants over the age of 18 if they were being followed by UCSF pediatrics department if they were patients at the pediatrics department before they were 18 years old.",
+        "timeFrame": "At the completion of data collection (follow-up visit at 6-12 months after return of results)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:49.760Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

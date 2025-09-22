@@ -1,0 +1,132 @@
+{
+  "nctId": "NCT04360694",
+  "briefTitle": "RandomizEd ClinicAL triaL on the Efficacy and saFety of Incremental Hemodialysis (REAL-LIFE)",
+  "officialTitle": "RandomizEd ClinicAL triaL on the Efficacy and saFety of Incremental Hemodialysis",
+  "protocolDocument": {
+    "nctId": "NCT04360694",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-05-05",
+    "uploadDate": "2024-06-06T06:45",
+    "size": 326690,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04360694/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 190,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2021-05-10",
+    "completionDate": "2026-12-31",
+    "primaryCompletionDate": "2026-12-31",
+    "firstSubmitDate": "2020-04-17",
+    "firstPostDate": "2020-04-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults aged \\> 18 years\n* Start of maintenance hemodialysis treatment due to advanced CKD stage 5D\n* Patients who are about to start HD or have already started HD within a period of ≤ 2 weeks\n* Glomerular filtration rate \\<= 10 mL/min/1.73 m2, as estimated by means of CKD-EPI formula.\n\nExclusion Criteria:\n\n* Age \\< 18 years\n* Acute kidney injury or acute on chronic kidney injury\n* eGFR higher than 10 mL/min/1.73 m2\n* UO \\< 600 mL/day\n* Already treated with other replacement therapies (peritoneal dialysis or kidney transplant)\n* Unable or unwilling to give informed consent.\n* Unable to comply with trial procedures, e.g., collection of UO.\n* Likely survival prognosis or planned modality or centre transfer \\< 6 months.\n* Patients who are in the waiting list for a living kidney transplant\n* Associated diseases: active neoplastic disease; refractory congestive heart failure (type IV NYHA, ejection fraction ≤ 30%) requiring high ultrafiltration volumes per session.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of participants whose kidney function remains >200 ml",
+        "description": "The survival of kidney function is defined as a time to the event (anuria): the anuria is defined as urinary output (UO) ≤ 200 mL/day, confirmed by a further collection after 2 weeks to exclude temporary illness",
+        "timeFrame": "24 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of participants who develop cardiovascular death, non fatal myocardial infarction and/or or non fatal stroke (composite outcome)",
+        "description": "Cardiovascular death, non fatal myocardial infarction and/or or non fatal stroke",
+        "timeFrame": "24 months"
+      },
+      {
+        "measure": "Mean value of intima-media thickness of the carotid arteries of participants at end of treatment and change from beginning to end of treatment",
+        "description": "Echographic evaluation of intima-media thickness of the carotid arteries",
+        "timeFrame": "12 and 24 months"
+      },
+      {
+        "measure": "Value of left ventricular ejection fraction established with cardiac ultrasound at end of treatment and change from beginning to end of treatment",
+        "description": "Ecocardiography reporting data on the left ventricular ejection fraction (LVEF)",
+        "timeFrame": "12 and 24 months"
+      },
+      {
+        "measure": "Value of residual kidney function (RKF) preservation established by the slope of decline of residual renal urea clearance",
+        "description": "The rate of decline in RKF defined as the slope of decline of residual renal urea clearance",
+        "timeFrame": "24 months"
+      },
+      {
+        "measure": "Number of people who die",
+        "description": "The follow-up time will be determined in days. It will be defined as the difference in days from the date of the end of the follow-up minus the date of the baseline visit. Events will be counted either as deaths (follow-up of less than 24 months) or as end of the follow-up",
+        "timeFrame": "24 months"
+      },
+      {
+        "measure": "Number of people who are hospitalized",
+        "description": "The number of admissions will be registered.",
+        "timeFrame": "24 months"
+      },
+      {
+        "measure": "Value of hemoglobin in participants at end of treatment and change from beginning to end of treatment",
+        "description": "The hemoglobin levels (in g/dl) will be measured.",
+        "timeFrame": "Every month"
+      },
+      {
+        "measure": "Value of serum phosphorus, calcium and parathyroid hormone in participants at end of treatment and change from beginning to end of treatment",
+        "description": "Serum phosphorus and calcium levels (in mg/dl), and intact PTH (in pg/dl) will be measured.",
+        "timeFrame": "Every month and three months"
+      },
+      {
+        "measure": "Value of serum beta 2 microglobulin (middle molecule) at end of treatment and change from beginning to end of treatment",
+        "description": "The rate of change in serum beta 2 microglobulin in time will be evaluated",
+        "timeFrame": "Every three months"
+      },
+      {
+        "measure": "Value of p-cresyl sulfate and inoxyl sulfate at end of treatment and change from beginning to end of treatment (uraemic toxins variation)",
+        "description": "Variation of uremic toxins including p-cresyl sulfate and inoxyl sulfate",
+        "timeFrame": "Every six months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:08.084Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

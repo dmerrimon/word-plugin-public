@@ -1,0 +1,124 @@
+{
+  "nctId": "NCT03788057",
+  "briefTitle": "Inflammatory Indices in Predicting the Failure of Inhaled Corticosteroids Reduction in Young Participants With Asthma",
+  "officialTitle": "Evaluation of the Usefulness of Induced Sputum Eosinophilia, eNO and Bronchial Hyperresponsiveness in Predicting the Failure of Inhaled Corticosteroids Dose Reduction in Children and Adolescents With Stable Asthma",
+  "protocolDocument": {
+    "nctId": "NCT03788057",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-12-25",
+    "uploadDate": "2024-04-21T17:57",
+    "size": 134102,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03788057/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 58,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-02-01",
+    "completionDate": "2019-03-31",
+    "primaryCompletionDate": "2019-03-31",
+    "firstSubmitDate": "2018-12-12",
+    "firstPostDate": "2018-12-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* mild or moderate asthma with a stable course of at least 3 months:\n\n  * symptoms less than 4x per week,\n  * use of SABA below 3x a week,\n  * night awakening below 1x per week,\n  * FEV1\\> 80% of predicted\n  * no dose change in ICS or use of systemic steroids from 3 months\n* good adherence to treatment\n\nExclusion Criteria:\n\n* infection or exacerbation of asthma requiring the use of systemic steroids (or changes in the dose of inhaled steroids) in the last 3 months before the study\n* other chronic lung diseases or general diseases affecting the respiratory system\n* tobacco smoking\n* FEV1 below 80% of the predicted value",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Percentage of Patients With Loss of Asthma Control",
+        "description": "Criteria for loss of control (any of the following):\n\n* use of bronchodilators \\> 5 times a week\n* the need for treatment with oral corticosteroids\n* PEFR decrease \\>20% for 2 consecutive days, compared to the average run-in period",
+        "timeFrame": "at 9 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Sputum Eosinophilia",
+        "description": "eosinophil percentage in induced sputum compared to baseline",
+        "timeFrame": "at 1, 3, 4, 6 and 7 month"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Change in Airway Hyperresponsiveness to Hypertonic Saline",
+        "description": "Airway hyperresponsiveness to hypertonic saline measured using combined method (together with sputum induction) and compared to baseline",
+        "timeFrame": "at 1, 3, 4, 6 and 7 month"
+      },
+      {
+        "measure": "Change in Airway Hyperresponsiveness (Exercise)",
+        "description": "Airway hyperresponsiveness measured using an exercise challenge test and compared to baseline",
+        "timeFrame": "at 2, 5 and 8 month"
+      },
+      {
+        "measure": "Change in Exhaled NO",
+        "description": "Measured every month and compared to baseline",
+        "timeFrame": "months 1 - 8"
+      },
+      {
+        "measure": "Change in Exhaled Breath Temperature (EBT)",
+        "description": "Measured every month and compared to baseline",
+        "timeFrame": "months 1 - 8"
+      },
+      {
+        "measure": "Change in FEV1",
+        "description": "Measured every month and compared to baseline",
+        "timeFrame": "months 1 - 8"
+      },
+      {
+        "measure": "Change in FVC",
+        "description": "Measured every month and compared to baseline",
+        "timeFrame": "months 1 - 8"
+      },
+      {
+        "measure": "Change in FEF25-75",
+        "description": "Measured every month and compared to baseline",
+        "timeFrame": "months 1 - 8"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 7,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 33,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:21.886Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,152 @@
+{
+  "nctId": "NCT01991977",
+  "briefTitle": "18F-DOPA-PET in Finding Tumors in Patients With Newly Diagnosed Gliomas Undergoing Radiation Therapy",
+  "officialTitle": "Evaluating the Impact of 18F-DOPA-PET on Radiotherapy Planning for Newly Diagnosed Gliomas",
+  "protocolDocument": {
+    "nctId": "NCT01991977",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-03-15",
+    "uploadDate": "2020-03-17T08:41",
+    "size": 4072773,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01991977/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 91,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-12",
+    "completionDate": "2024-07-15",
+    "primaryCompletionDate": "2019-07-01",
+    "firstSubmitDate": "2013-11-18",
+    "firstPostDate": "2013-11-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologically confirmed newly diagnosed grade IV malignant glioma; Note: grade III patients are no longer being enrolled\n* Computed tomography (CT) simulation, immobilization, MRI and PET imaging, treatment planning, and all follow-up MRI and PET scans to be performed at Mayo Clinic Rochester; Note: the actual radiation therapy treatments and follow-up other than imaging can be performed at Mayo Clinic Rochester, Northfield, LaCrosse, Mankato, Eau Claire, or Albert Lea\n* Provide written informed consent\n* Ability to complete questionnaire(s) by themselves or with assistance\n\nExclusion Criteria:\n\n* Patients diagnosed with anaplastic oligodendroglioma\n* Unable to undergo MRI scans with contrast (e.g. cardiac pacemaker, defibrillator, kidney failure)\n* Unable to undergo an 18F-DOPA PET scan (e.g. Parkinson's disease, taking anti-dopaminergic, or dopamine agonist medication or less than 6 half-lives from discontinuance of dopamine agonists); NOTE: other potentially interfering drugs consist of: amoxapine, amphetamine, benztropine, bupropion, buspirone, cocaine, mazindol, methamphetamine, methylphenidate, norephedrine, phentermine, phenylpropanolamine, selegiline, paroxetine, citalopram, and sertraline; if a patient is on any of these drugs, list which ones on the on-study form\n* Any of the following:\n\n  * Pregnant women\n  * Nursing women\n  * Men or women of childbearing potential who are unwilling to employ adequate contraception",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Grade IV MGMT Un-methylated Patients That Experience Confirmed-progression-free Survival at 6 Months (CPFS6)",
+        "description": "The proportion of Grade IV MGMT un-methylated patients that experience confirmed-progression-free survival at 6 months (CPFS6). Progression is defined by any of the following:\n\n* ≥25% increase in the sum of products of perpendicular diameters of enhancing lesions compared to the smallest tumor measurement obtained either at baseline or best response, on stable or increasing doses of corticosteroids\n* Significant increase in T2/FLAIR non-enhancing lesion on stable or increasing doses of corticosteroids compared to baseline scan or best response following initiation of therapy, not due to co-morbid events\n* Any new lesion\n* Clear clinical deterioration not attributable to other causes apart from the tumor or changes in corticosteroid dose.\n* Failure to return for evaluation due to death or deteriorating condition\n* Clear progression of non-measurable disease",
+        "timeFrame": "Time from registration to the confirmed disease progression, assessed at 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Survival",
+        "description": "The distributions of survival times and comparisons between study patients and historical controls will be estimated using the method of Kaplan-Meier.",
+        "timeFrame": "Time from registration to death due to any cause, assessed up to 5 years"
+      },
+      {
+        "measure": "Progression Free Survival",
+        "description": "The proportion of successes will be estimated by the number of successes divided by the total number of grade III evaluable patients. Confidence intervals for the true success proportion will be calculated according to the approach of Duffy and Santner. The distributions of progression free survival times and comparisons between these two groups will be estimated using the method of Kaplan-Meier.",
+        "timeFrame": "Time from registration to the earliest date of documenting disease progression, assessed up to 5 years"
+      },
+      {
+        "measure": "Quality of Life Evaluated With the MD Anderson Symptom Inventory Brain Tumor Module and Mini-Mental Status Exam Questionnaires",
+        "description": "Analysis will include change percent from baseline using t-tests and generalized linear models to test for changes at each time point and non-zero slope, respectively.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Rate of Acute Treatment-related Toxicities Graded Using Common Terminology Criteria for Adverse Events Version 4.0",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Incidence of Late Treatment-related Toxicities",
+        "description": "Late treatment-related toxicities will be assessed using the Radiation Therapy Oncology Group (RTOG) European Organization for Research and the Treatment of Cancer (EORTC) toxicity criteria.",
+        "timeFrame": "Up to 5 years"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Inter-observer Variability With or Without the Addition of 18F-DOPA Positron Emission Tomography Uptake for Radiotherapy Target Volume Delineation",
+        "description": "The concordance correlation coefficient will be used to measure agreement between volumes generated with each method, as well as to evaluate inter-observer variability, where variability associated with magnetic resonance imaging will serve as the standard for comparison.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Intra-observer Variability With or Without the Addition of 18F-DOPA Positron Emission Tomography Uptake for Radiotherapy Target Volume Delineation",
+        "description": "The concordance correlation coefficient will be used to measure agreement between volumes generated with each method, as well as to evaluate inter-observer variability, where variability associated with magnetic resonance imaging will serve as the standard for comparison.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Magnetic Resonance Imaging-only Defined Volumes and the Volumes Defined With the Combination of Magnetic Resonance and Positron Emission Tomography Planning",
+        "description": "Paired t-test statistical analysis will be performed to determine if any differences exist and the level of statistical significance between treatment volumes defined by magnetic resonance imaging only and treatment volumes defined with both positron emission tomography and magnetic resonance imaging information. The analysis of volumes from 72 grade IV patients will have 90% power to detect differences in volumes with an effect size of 0.39 using a paired t-test with a 0.05 two-sided significance level. Alternate metrics for comparison will also be assessed, including spatial overlap, distanc",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Patterns of Failure After Radiation Therapy Targeting Volumes by 18F-DOPA Positron Emission Tomography and Conventional Magnetic Resonance Imaging",
+        "description": "Chi-square tests of proportions will be used to test for differences in the proportions of patients with central, in-field, marginal, or distant failures between the patients on this study and historical controls.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Predictive Capabilities of 18F-DOPA Positron Emission Tomography, Perfusion Magnetic Resonance Imaging, and Diffusion Tensor Imaging for Localization of Recurrences",
+        "description": "Compared by identifying the recurrence volume with each modality and correlating with identification of aggressive disease in the pre-radiation therapy planning images.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Radiation Therapy Treatment Volumes Defined by Magnetic Resonance Imaging Only and Defined With Both Positron Emission Tomography and Magnetic Resonance Imaging Information for Grade III Glioma Patients",
+        "description": "Paired t-test statistical analysis will be performed to determine if any differences exist and the level of statistical significance between treatment volumes defined by magnetic resonance imaging only and treatment volumes defined with both positron emission tomography and magnetic resonance imaging information.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Radiation Therapy Treatment Volumes Defined by Magnetic Resonance Imaging Only or Defined With Both Positron Emission Tomography and Magnetic Resonance Imaging Information for Grade IV Glioma Patients",
+        "description": "Paired t-test statistical analysis will be performed to determine if any differences exist and the level of statistical significance between treatment volumes defined by magnetic resonance imaging only and treatment volumes defined with both positron emission tomography and magnetic resonance imaging information. The analysis of volumes from 72 grade IV patients will have 90% power to detect differences in volumes with an effect size of 0.39 using a paired t-test with a 0.05 two-sided significance level. Alternate metrics for comparison will also be assessed, including spatial overlap, distan",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Timing of Accurate Identification of Progression Defined by 18F- DOPA Positron Emission Tomography, Perfusion Magnetic Resonance Imaging and Conventional Magnetic Resonance Imaging for Grade IV Glioma Patients",
+        "description": "The progression identification timing will be compared by calculating the percentage of time each modality was earlier than conventional magnetic resonance imaging. With a sample size of 72, if the observed percentage earlier than conventional magnetic resonance imaging is 30% for either modality, a two-sided 95% confidence interval for a single proportion using the large sample normal approximation will be +/- 10.6%. Progression identification timing will also be compared using Kaplan-Meier methods and paired t-tests to determine if differences exist between the modalities.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Timing of Accurate Identification of Progression Defined by 18F- DOPA Positron Emission Tomography, Perfusion Magnetic Resonance Imaging and Conventional Magnetic Resonance Imaging for Grade III Glioma Patients",
+        "description": "Progression identification timing will be compared using Kaplan-Meier methods and paired t-tests to determine if differences exist between the modalities. An exploratory analysis of diffusion tensor imaging for detecting invasive non-enhancing tumor recurrence will also be performed.",
+        "timeFrame": "Up to 5 years"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 9,
+      "totalCount": 15
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 57,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:54.637Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,130 @@
+{
+  "nctId": "NCT03181971",
+  "briefTitle": "School Water Access, Food and Beverage Intake, and Obesity",
+  "officialTitle": "The Impact of the School Water Access on Child Food and Beverage Intake and Obesity",
+  "protocolDocument": {
+    "nctId": "NCT03181971",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2024-02-29",
+    "uploadDate": "2024-03-02T15:31",
+    "size": 321531,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03181971/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1861,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08-01",
+    "completionDate": "2022-05-27",
+    "primaryCompletionDate": "2022-05-25",
+    "firstSubmitDate": "2017-06-03",
+    "firstPostDate": "2017-06-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 4th grade students, students in 4th grade combination classes who speak English or Spanish and who don't have health conditions that preclude intake of water\n* School administrators and food service directors at study schools\n\nExclusion Criteria:\n\n* Students not in the 4th grade or 4th grade combination classes\n* Students who do not speak English or Spanish",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "9 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Age- and Sex-adjusted BMI% Greater Than or Equal to 85%",
+        "description": "Trained research staff will measure students' heights and weights as outlined in the National Health and Nutrition Examination Survey Anthropometry Procedures Manual.",
+        "timeFrame": "Baseline, 7-months, and 15-months after the start of the study."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Age- and Sex-adjusted BMI% Greater Than or Equal to 95%. Yes or No.",
+        "description": "Trained research staff will measure students' heights and weights as outlined in the National Health and Nutrition Examination Survey Anthropometry Procedures Manual.",
+        "timeFrame": "Baseline, 7-months, and 15-months after the start of the study."
+      },
+      {
+        "measure": "BMI Percentile,Mean(SD)",
+        "description": "Trained research staff will measure students' heights and weights as outlined in the National Health and Nutrition Examination Survey Anthropometry Procedures Manual.",
+        "timeFrame": "Baseline, 7-months, and 15-months after the start of the study."
+      },
+      {
+        "measure": "BMI, Mean (SD)",
+        "description": "Trained research staff will measure students' heights and weights as outlined in the National Health and Nutrition Examination Survey Anthropometry Procedures Manual.",
+        "timeFrame": "Baseline, 7-months, and 15-months after the start of the study."
+      },
+      {
+        "measure": "BMI Z-score, Mean (SD)",
+        "description": "Trained research staff will measure students' heights and weights as outlined in the National Health and Nutrition Examination Survey Anthropometry Procedures Manual. BMI z-scores (or standard deviation scores) are used in anthropometry to quantify a measurement's distance from the mean. The measurement is obtained using the sex, age, weight and height of the participants. The z-score is based on United States Centers for Disease Control and Prevention growth references for children. A z-score of 0 reflects the 50th percentile based on the reference growth charts. For example, a z-score of 1.5 indicates a child is 1.5 standard deviations above the average value, whereas a z-score of -1.5 means a child is 1.5 standard deviations below the average value.",
+        "timeFrame": "Baseline, 7-months, and 15-months after the start of the study."
+      },
+      {
+        "measure": "Caloric Intake",
+        "description": "Food and beverage diaries will be used to calculate daily caloric intake from foods and beverages.",
+        "timeFrame": "Baseline and 7-months after the start of the study"
+      },
+      {
+        "measure": "Water Intake - Grams Consumed",
+        "description": "Food and beverage diaries will be used to calculate daily water intake.",
+        "timeFrame": "Baseline and 7-months"
+      },
+      {
+        "measure": "Beverage Intake",
+        "description": "Beverage intake frequency questionnaires will be used to calculate past-week frequency of beverages consumed (times per day).",
+        "timeFrame": "Baseline, 7-months, and 15-months after the start of the study."
+      },
+      {
+        "measure": "Water Intake",
+        "description": "Direct observations of water consumed at lunchtime, 4th-grade physical education (PE) classes, and recess. Researchers tallied the number of students using water sources and the student census in the area to estimate the proportion using stations or fountains.",
+        "timeFrame": "Baseline, 7-months, and 15-months after the start of the study."
+      }
+    ],
+    "other": [
+      {
+        "measure": "School Policies and Practices",
+        "description": "School administrators and food service director surveys of nutrition and physical activity policies and practices at schools",
+        "timeFrame": "Baseline and 15-months after the start of the study"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 1,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 66,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:16.319Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

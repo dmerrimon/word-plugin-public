@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT01183884",
+  "briefTitle": "3F8/GM-CSF Immunotherapy Plus 13-Cis-Retinoic Acid for Consolidation of Second or Greater Remission of High-Risk Neuroblastoma",
+  "officialTitle": "3F8/GM-CSF Immunotherapy Plus 13-Cis-Retinoic Acid for Consolidation of Second or Greater Remission of High-Risk Neuroblastoma: A Phase II Study",
+  "protocolDocument": {
+    "nctId": "NCT01183884",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-08-06",
+    "uploadDate": "2019-10-25T12:30",
+    "size": 1003169,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01183884/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 46,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2010-08",
+    "completionDate": "2018-11-09",
+    "primaryCompletionDate": "2018-11-09",
+    "firstSubmitDate": "2010-08-16",
+    "firstPostDate": "2010-08-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosis of NB as defined by a) histopathology (confirmed by the MSKCC Department of Pathology), or b) BM metastases or MIBG-avid lesion(s) plus high urine catecholamine levels.\n* High-risk NB as defined by risk-related treatment guidelines1 and the International NB Staging System,89 i.e., stage 4 with (any age) or without (\\> or = to 18 months of age) MYCN amplification, MYCN-amplified stage 2 or stage 3 (any age), or MYCN-amplified stage 4S.\n* The patients are in \\>2nd CR/VGPR, including no measurable MIBG-avid soft tissue tumor assessable for response.\n* Signed informed consent indicating awareness of the investigational nature of this program.\n\nExclusion Criteria:\n\n* Creatinine \\> 3.0 mg/dL\n* ALT, AST and Alkaline Phosphatase \\> 5.0 times the upper limit of normal\n* Bilirubin \\> 3.0 mg/dL\n* Patients with grade 3 or higher toxicities (using the CTCAE v34.0) related to cardiac, neurological, pulmonary or gastrointestinal function as determined by physical exam. Patients must have normal blood pressure for age.\n* Progressive disease\n* History of allergy to mouse proteins\n* Active life-threatening infection.\n* Human anti-mouse antibody (HAMA) titer \\>1000 Elisa units/ml.\n* Inability to comply with protocol requirements.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Months",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Assess the Impact of High-dose 3F8/GM-CSF on Relapse-free Survival",
+        "description": "in patients in second or greater complete or very good partial remission, but at high risk of additional relapse.",
+        "timeFrame": "2 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Apply Real-time Quantitative RT-PCR to Test the Hypothesis That the Minimal Residual Disease Content of Bone Marrow",
+        "description": "after the first treatments with 3F8/GMCSF has significant prognostic impact on relapse-free survival.",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Monitor Safety of the High-dose Antibody Treatment",
+        "description": "to assure no side-effects or noxious sequelae develop or emerge that were not seen in the prior phase I study.",
+        "timeFrame": "2 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:47.071Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

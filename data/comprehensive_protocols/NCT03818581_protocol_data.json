@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03818581",
+  "briefTitle": "Suvorexant on Sleep Disturbance in Patients With Chronic Insomnia and Suboptimally Controlled Type 2 Diabetes",
+  "officialTitle": "Effect of Suvorexant on Sleep Disturbance in Patients With Chronic Insomnia and Suboptimally Controlled Type 2 Diabetes: A Randomized 3-month Clinical Trial Using a Sequential Parallel Comparison Design",
+  "protocolDocument": {
+    "nctId": "NCT03818581",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-02-08",
+    "uploadDate": "2022-11-03T20:02",
+    "size": 816873,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03818581/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 108,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-15",
+    "completionDate": "2021-11-03",
+    "primaryCompletionDate": "2021-11-03",
+    "firstSubmitDate": "2019-01-24",
+    "firstPostDate": "2019-01-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Men or women of any ethnic origin\n2. Written informed consent is obtained\n3. Speaks and writes in English\n4. A willingness and ability to comply with study procedures.\n5. Age 25-75 years\n6. Diagnosis of Type 2 diabetes with suboptimally controlled blood sugar determined by HbA1c \\> 6.5% (and \\< 10.0%) at both the screening and randomization visits\n7. No changes in diabetes medication in the previous month\n8. DSM-5 criteria for Insomnia Disorder\n9. Score on the Insomnia Severity Index (ISI) measure \\>10, indicating at least a moderate level of insomnia symptoms2\n10. Report a total sleep time ≤ 6.5 hours and combined sleep onset latency (SOL) and wake after sleep onset (WASO) \\> 45 minutes on 7 or more of the 14 nightly sleep logs during both the initial 2-week screening period and the two-week screening run-in period. Combined SOL and WASO does not decrease by more than 50% on the 2-week sleep diary obtained between the screening visit and the randomization visit.\n\nExclusion Criteria:\n\n1. Sleep and medical factors:\n\n   1. Diagnosis of severe obstructive sleep apnea not using CPAP (can be included if CPAP adherent), or other untreated primary sleep disorders (e.g. narcolepsy, moderate to severe restless legs syndrome)\n   2. Shift workers\n   3. Use of hypnotic medications more than twice per week in the past month\n   4. Unwillingness to not use sedative-hypnotics (other than suvorexant) during the study period\n   5. Unwillingness to maintain stable diabetes medication during the study unless medically indicated\n   6. Positive urine toxic screen for any drugs of abuse other than marijuana at Screening Visit\n   7. HbA1c ≥ 10.0% at either the screening or randomization visit\n2. Psychiatric factors:\n\n   1. Current major depressive episode, by report and as indicated by the Quick Inventory of Depressive Symptoms-Self Report (QIDS-SR).\n   2. Subjects with active or unstable major psychiatric disorder, who, in the investigator's judgement, require further treatment.\n   3. Current alcohol/substance use disorder\n3. Medical factors:\n\n   1. Renal or hepatic disease judged to interfere with drug metabolism and excretion\n   2. Pregnant or breastfeeding\n   3. Malignancy within past 2 years\n   4. Surgery within past 3 months\n   5. Neurological disorder or cardiovascular disease raising safety concerns about use of suvorexant and/or judged to interfere with ability to assess efficacy of the treatment\n   6. Medical instability considered to interfere with study procedures\n   7. Concomitant medications with drug interaction or co-administration concerns\n   8. Contraindications or allergic responses to suvorexant\n   9. History of being treated with suvorexant\n4. Lifestyle and other factors:\n\n   1. Travel across two time-zones during the week prior to enrollment\n   2. Greater than 6 cups of coffee per day",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "25 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Subjective Total Sleep Time",
+        "description": "Total sleep time as reported on daily sleep diaries",
+        "timeFrame": "2 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Subjective Wake After Sleep Onset",
+        "description": "Total time awake after sleep onset as reported on daily sleep diaries",
+        "timeFrame": "2 weeks"
+      },
+      {
+        "measure": "Insomnia Severity Index",
+        "description": "A validated tool to measure insomnia severity, on a scale of 0-28, with a higher score representing greater insomnia severity.",
+        "timeFrame": "2 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:09.798Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

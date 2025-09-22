@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT00614172",
+  "briefTitle": "Proton Therapy for Early Stage Breast Cancer",
+  "officialTitle": "Phase II Trial of Lumpectomy and Partial Breast Proton Therapy for Early Stage Breast Cancer",
+  "protocolDocument": {
+    "nctId": "NCT00614172",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2008-04-08",
+    "uploadDate": "2023-08-03T15:39",
+    "size": 145304,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00614172/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2004-02",
+    "completionDate": "2020-05-12",
+    "primaryCompletionDate": "2020-05-12",
+    "firstSubmitDate": "2007-12-26",
+    "firstPostDate": "2008-02-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Invasive ductal, medullary, papillary, colloid or tubular histologies\n* Stages T1 or T2 (tumors \\< or = 3 cm) from lumpectomy specimen.\n* No more then 3 positive nodes on axillary dissection or negative sentinel node.\n* Negative surgical margins (\\>2mm)\n\nExclusion Criteria:\n\n* Invasive lobular histology\n* Previous chemotherapy for breast cancer\n* Extensive intraductal component\n* Collagen vascular disease\n* Prior malignancy unless disease-free for 5 years\n* Patients who are pregnant or lactating",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Ipsilateral Breast Tumor Recurrence-free Survival",
+        "description": "Lack of tumor recurrence in the treated breast as assessed by imaging and physical exam",
+        "timeFrame": "Up to 5 years post-treatment completion, average of 48 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Survival",
+        "description": "Overall survival rate at 5 years post-treatment completion.",
+        "timeFrame": "Up to 5 years post- completion of treatment, average 48 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:55.521Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

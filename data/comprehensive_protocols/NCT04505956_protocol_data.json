@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT04505956",
+  "briefTitle": "A Comparison of Ureteroscopic Treatment of Nephrolithiasis With and Without Moses Technology",
+  "officialTitle": "Prospective Randomized Double Blind Clinical Trial to Compare Holmium Laser Lithotripsy With and Without Moses Laser Technology for the Ureteroscopic Treatment of Nephrolithiasis",
+  "protocolDocument": {
+    "nctId": "NCT04505956",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-07-26",
+    "uploadDate": "2024-07-29T22:28",
+    "size": 145887,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04505956/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 171,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-13",
+    "completionDate": "2023-12-01",
+    "primaryCompletionDate": "2023-08-01",
+    "firstSubmitDate": "2020-08-05",
+    "firstPostDate": "2020-08-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Solitary renal stone 8 to 20 mm in size or in the case of multiple stones the conglomerate diameter (additive maximal diameter of all stones on axial imaging of computed tomography) of 8-20 mm is required\n* Must be a suitable operative candidate for flexible ureteroscopy per urologic guidelines\n* Must be 18 years or older\n* Must be able to give consent\n\nExclusion Criteria:\n\n* Concomitant stones in the ureter\n* Prior ipsilateral upper urinary tract reconstructive procedures or history of ipsilateral ureteral stricture\n* Prior radiotherapy to the abdomen or pelvis\n* Neurogenic bladder or spinal cord injury\n* Pregnancy\n* Untreated UTI",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Operative Time",
+        "description": "Total operative times between Moses holmium laser lithotripsy and non-Moses holmium laser lithotripsy in the ureteroscopic treatment of renal stones using a dusting technique",
+        "timeFrame": "Beginning to end of procedure time, assessed up to 2 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Stone Retropulsion",
+        "description": "Stone movement during laser lithotripsy will be recorded on video and graded on a Likert scale by blinded reviewers. Video could not be taken for all trial patients. Videos were obtained and stored when feasible.",
+        "timeFrame": "First 20 seconds of laser lithotripsy"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:07.197Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

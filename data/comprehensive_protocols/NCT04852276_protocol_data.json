@@ -1,0 +1,80 @@
+{
+  "nctId": "NCT04852276",
+  "briefTitle": "COVID-19 Vaccination and Outcomes in Individuals With and Without Immune Deficiencies and Dysregulations",
+  "officialTitle": "Analysis of the Immune Response to COVID-19 Vaccination and Outcomes in Individuals With and Without Immune Deficiencies and Dysregulations",
+  "protocolDocument": {
+    "nctId": "NCT04852276",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-06-13",
+    "uploadDate": "2024-05-01T14:41",
+    "size": 526992,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04852276/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 308,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-04-20",
+    "completionDate": "2023-08-31",
+    "primaryCompletionDate": "2023-08-31",
+    "firstSubmitDate": "2021-04-20",
+    "firstPostDate": "2021-04-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "* INCLUSION CRITERIA:\n\nIn order to be eligible to participate in this study, an individual must meet the following criteria:\n\n1. Aged 3 years and older.\n2. Must be eligible to receive (based on official FDA authorization or approval) and scheduled to receive or have already received a COVID-19 vaccine outside of this facility.\n3. Must meet the definition of affected participant or control participant:\n\n   1. Affected participants must have evidence of a primary or secondary immune deficiency or dysregulation under another NIAID protocol or as documented by an outside physician.\n   2. Control participants are healthy volunteers that do not have evidence of a primary or secondary immune deficiency or dysregulation and may include unaffected relatives of affected participants.\n4. Ability to provide informed consent.\n5. Willing to have blood samples stored for future research.\n6. Able to proficiently speak, read, and write English.\n\nEXCLUSION CRITERIA:\n\nIndividuals meeting any of the following criteria will be excluded from study participation:\n\n1. Receipt of any other vaccine within 14 days prior to screening.\n2. Planned non-COVID-19 vaccination within 28 days after COVID-19 vaccination(s).\n3. Any condition that, in the opinion of the investigator, contraindicates participation in this study (e.g. specific autoinflammatory diseases, interferonopathies).\n4. Self-reported history of HIV.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "3 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in S and Receptor Binding Domain (RBD) Immunoglobulin G (IgG) Antibody Titer From Baseline Depending on Vaccine Manufacturer and Platform",
+        "description": "To characterize the immune response to coronavirus disease 2019 (COVID-19) vaccination among immunodeficient and immune dysregulated individuals compared to healthy volunteers",
+        "timeFrame": "Baseline, post dose 1 (14-21 days), and post dose 2 (21-28 days), depending on vaccine manufacturer and platform"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Incidence of Vaccine-associated Adverse Events (AE) Experienced by Immunodeficient Individuals Compared to Healthy Volunteers",
+        "description": "To characterize the COVID-19 vaccine-associated adverse events among immunodeficient and immune dysregulated individuals compared to healthy volunteers.\n\nNote on terminology: \"No vaccine-associated side effects\" means participants reported zero symptoms or reactions after vaccination. A \"mild vaccine-associated side effect\" means a participant reported any symptom/reaction and reported is as \"mild\" on the scale of \"mild\", \"moderate\", or \"severe\". A participant could have reported several mild symptom/reactions and several moderate or severe symptoms/reactions. Therefore, the number of mild, moderate, and severe vaccine-associated side effects will not sum to the total number of surveys completed.",
+        "timeFrame": "Baseline up to a maximum of 24 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:37.690Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

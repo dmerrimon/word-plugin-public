@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03772041",
+  "briefTitle": "Efficacy and Safety Trial of OPC-61815 Injection Compared With Tolvaptan 15-mg Tablet in Patients With Congestive Heart Failure",
+  "officialTitle": "A Multicenter, Double-blind, Randomized, Active-controlled, Parallel-group, Non-inferiority Trial to Evaluate the Efficacy and Safety of OPC-61815 Injection Compared With Tolvaptan 15-mg Tablet in Patients With Congestive Heart Failure",
+  "protocolDocument": {
+    "nctId": "NCT03772041",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-03-27",
+    "uploadDate": "2021-07-08T21:40",
+    "size": 936559,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03772041/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 294,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-16",
+    "completionDate": "2020-07-29",
+    "primaryCompletionDate": "2020-07-21",
+    "firstSubmitDate": "2018-12-05",
+    "firstPostDate": "2018-12-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients who are currently on treatment with any of the following diuretics\n\n  1. Loop diuretics equivalent to furosemide tablet or fine granules at a dose of 40 mg/day or higher\n  2. Concomitant use of a loop diuretic and a thiazide diuretic (including thiazide analogs) at any dose\n  3. Concomitant use of a loop diuretic and an aldosterone antagonist or potassium-sparing diuretic agent at any dose\n* Patients with congestive heart failure in whom lower limb edema, pulmonary congestion, and/or jugular venous distension due to volume overload is present\n* Patients who are currently hospitalized or who are able to be hospitalized during the trial\n\nExclusion Criteria:\n\n* Patients with acute heart failure\n* Patients who are on a ventricular assist device\n* Patients who are unable to sense thirst or who have difficulty with fluid intake",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Body Weight",
+        "description": "Change in body weight from baseline (before investigational medicinal product \\[IMP\\] administration on Day 1) at time of final IMP administration (day after final IMP administration). A negative change from baseline indicates improvement.",
+        "timeFrame": "Baseline, Day 6"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Improvement Rate for Lower Limb Edema and Pulmonary Congestion",
+        "description": "The improvement rate was defined as the percentage of subjects in whom the symptom was present at baseline and it markedly improved or improved after IMP administration. Improvement category is a 4-point scale below:\n\n* Markedly improved\n* Improved\n* Unchanged\n* Deteriorated",
+        "timeFrame": "Baseline, Day 6"
+      },
+      {
+        "measure": "Change From Baseline in Jugular Venous Distension and Hepatomegaly",
+        "description": "* Jugular Venous Distension: the presence of Jugular Venous Distension was checked, and if present, the height (in cm) from the sternal angle to the highest point of pulsation in the internal Jugular vein was measured with the subject in a semi-upright position. A negative change from baseline indicates improvement.\n* Hepatomegaly: the presence of a palpable liver was checked, and if present, the width (distance from the right costal arch of the right chest, in cm) was measured. A negative change from baseline indicates improvement.",
+        "timeFrame": "Baseline, Day 6"
+      },
+      {
+        "measure": "Percentage of Subjects Who Achieve Resolution of Pulmonary Rales and Third Cardiac Sound",
+        "description": "Percentage of subjects in whom the symptom was present at baseline and disappeared after IMP administration was provided.\n\n* The presence of pulmonary rales was checked by auscultation.\n* The presence of cardiac third sound was checked by auscultation.",
+        "timeFrame": "Baseline, Day 6"
+      },
+      {
+        "measure": "Improvement Rate for New York Heart Association (NYHA) Classification",
+        "description": "NYHA classification assesses the severity of heart failure based on subjective symptoms as follows.\n\nClass I: No limitations of physical activity. Ordinary physical activity caused no undue fatigue, palpitation, dyspnea or anginal pain.\n\nClass II: Slight limitation of physical activity, comfortable at rest. Ordinary physical activity resulted in fatigue, palpitation, dyspnea or anginal pain.\n\nClass III: Marked limitation of physical activity, comfortable at rest. Less than ordinary physical activity caused fatigue, palpitation, dyspnea or anginal pain.\n\nClass IV: Inability to carry on any physical activity without discomfort. heart failure or anginal syndrome may have been present even at rest. If any physical activity was undertaken, discomfort was increased.\n\nOf the subjects with Class II or higher at baseline, the percentage of subjects whose NYHA classification stage at the time of final IMP administration improved by 1 or more grades was provided.",
+        "timeFrame": "Baseline, Day 6"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:31.054Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

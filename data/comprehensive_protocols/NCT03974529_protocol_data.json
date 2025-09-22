@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT03974529",
+  "briefTitle": "Intensive Running Exercise Improves Parkinson's Motor and Non-motor Symptoms",
+  "officialTitle": "Intensive Running Exercise Improves Parkinson's Motor and Non-motor Symptoms",
+  "protocolDocument": {
+    "nctId": "NCT03974529",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-12-01",
+    "uploadDate": "2019-03-28T06:16",
+    "size": 298944,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03974529/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2018-12-29",
+    "completionDate": "2020-12-30",
+    "primaryCompletionDate": "2020-06-30",
+    "firstSubmitDate": "2019-04-17",
+    "firstPostDate": "2019-06-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patient with idiopathic Parkinson's disease, aging from 40 years to 60 years old.\n2. Patient who are able to walk independently without walking aids for a distance of 30 meters.\n\nExclusion Criteria:\n\n1. Previous history of other neuro-degenerative diseases\n2. Presence of ischemic heart disease or musculoskeletal and cardiopulmonary diseases\n3. Presence of physical disability\n4. History of regular running practice in the past 6 months.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Unified Parkinson's disease rating scale Overall Score",
+        "description": "A comprehensive 50 question assessment of both motor and non-motor symptoms associated with Parkinson's. The MDS-UPDRS features sections that require independent completion by people affected by Parkinson's and their carers, and sections to be completed by the clinician.\n\nPart 1: non-motor experiences of daily living Part 2: motor experiences of daily living Part 3: motor examination Part 4: motor complications. Some sections of the UPDRS scale require multiple grades assigned to each extremity with a possible maximum of 199 points. A score of 199 on the UPDRS scale represents the worst (total disability) with a score of zero representing (no disability).",
+        "timeFrame": "Six months after finishing the training"
+      },
+      {
+        "measure": "Parkinson's Disease Questionnaire - 39 (PDQ39) Quality of Life Score",
+        "description": "The PDQ39 is a 39-item self-reporting questionnaire which assess the Parkinson's disease associated health related quality over the last month. PDQ-39\n\nThere are 39 questions in the long form Parkinson's Disease Questionnaire, with 8 discrete scales:\n\nmobility (10 items) activities of daily living (6 items) emotional well-being (6 items) stigma (4 items) social support (3 items) cognitions (4 items) communication (3 items) bodily discomfort (3 items) Patients are asked to think about their health and general well-being and to consider how often in the last month they have experienced certain events (e.g. difficulty walking 100 yards). Patients are asked to indicate the frequency of each event by selecting one of 5 options (likert Scale): never/occasionally/sometimes/often/always or cannot do at all.",
+        "timeFrame": "Six months after finishing the training"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Endurance",
+        "description": "The 6-min walk test (6 MWT) is a submaximal exercise test that entails measurement of distance walked over a span of 6 minutes. It is suitable in assessing endurance in patients with Parkinson's disease",
+        "timeFrame": "Six months after finishing the trainingBaseline, one month after finishing the training, and six months after finishing the training"
+      },
+      {
+        "measure": "Gait performance",
+        "description": "Fastest walking speed: Duration for individual walks without assistance for 10 meters",
+        "timeFrame": "Six months after finishing the training"
+      },
+      {
+        "measure": "MiniBest Test Score",
+        "description": "MiniBest test is an evaluation system focusing on the balance of patients with Parkinson's disease. The maximum score for the system is 28 whereas the minimum score is 0. The higher the score is, the better the patient's function.",
+        "timeFrame": "Six months after finishing the training"
+      },
+      {
+        "measure": "Mood",
+        "description": "Symptoms related to anxiety and depression measured with Anxiety and depression Hospital Anxiety and Depression Scale (HADS). It is a commonly used tools in hospital settings to determine the level of depression and anxiety. There are 14 questions in total, with 7 items assessing level of depression whereas 7 for the level of anxiety. Each item on the questionnaire is scored from 0-3 and this means that a person can score between 0 and 21 for either anxiety or depression. The higher the score, the higher level of depression/ anxiety patient is experiencing.The HADS uses a scale and therefore the data returned from the HADS is ordinal.",
+        "timeFrame": "Six months after finishing the training"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:46.130Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

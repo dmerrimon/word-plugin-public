@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT05438888",
+  "briefTitle": "Safety and Effectiveness of Apixaban in Very Elderly Patients With Non-valvular Atrial Fibrillation (NVAF) Compared to Warfarin Using Administrative Claims Data",
+  "officialTitle": "Safety and Effectiveness of Apixaban in Very Elderly Patients With NVAF Compared to Warfarin Using Administrative Claims Data",
+  "protocolDocument": {
+    "nctId": "NCT05438888",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-08-10",
+    "uploadDate": "2023-10-02T10:36",
+    "size": 767581,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05438888/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 77814,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-07-01",
+    "completionDate": "2022-10-19",
+    "primaryCompletionDate": "2022-10-19",
+    "firstSubmitDate": "2022-06-25",
+    "firstPostDate": "2022-06-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients must meet all the following inclusion criteria to be eligible for inclusion in the study.\n\n  1. Diagnosed with Atrial fibrillation (AF) anytime in the baseline period or on the index date, also have definitive diagnosis of AF anytime in the baseline period, on the index date, or post-index period.\n  2. Prescribed apixaban or warfarin on or after the day of AF diagnosis. The first observed prescription will be used to identify the patient's index date and treatment cohort\n  3. No use of the any Oral anticoagulants (OAC)s during the baseline period (the 180 days before the index date)\n  4. Age of 18 years or older on the index date.\n  5. Index date is at age 80 or older\n\nExclusion Criteria:\n\n* Patients meeting any of the following criteria will not be included in the study:\n\n  1. Having a diagnosis of valvular atrial fibrillation, post-operative atrial fibrillation, rheumatic atrial fibrillation or mechanical-valvular atrial fibrillation during the baseline and post-index period\n  2. Having a cardiac surgery procedure record during the baseline period\n  3. Having a joint replacement procedure record during the baseline period\n  4. Having a procedure of prosthetic heart valve during the baseline period\n  5. Having a diagnosis of venous thromboembolism during the baseline period\n  6. Female patients with pregnancy during the follow-up period\n  7. Patients prescribed \"off-label\" doses of OACs (per Japanese package insert of each OAC) or patients treated with OAC but in \"off-label\" or \"contraindicated\" manners.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "80 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Incidence Rate (Per 1,000 Participant-Year) of Composite of Stroke and Systemic Embolism (SE): Balanced Cohorts",
+        "description": "Incidence rate per 1000 participant-years for the first occurrence of composite stroke and SE events after index date was reported. Stroke events included ischemic and hemorrhagic stroke. International Classification of Diseases 10th Revision (ICD-10) diagnosis code was used to label the events. Index date was defined as a date when participants initiated warfarin or apixaban. Follow-up period: the next day of the index date till occurrence of target outcome, discontinuation of the warfarin or apixaban, switching from the warfarin or apixaban, withdrawal from the database, whichever observed first.",
+        "timeFrame": "Follow-up period during data observation period from 26-Feb-2013 to 31-Dec-2021 (approximately 8 years 10 months); extracted data evaluated in approximately 3.5 months of this study"
+      },
+      {
+        "measure": "Incidence Rate (Per 1,000 Participant-Year) of Major Bleeding: Balanced Cohorts",
+        "description": "Incidence rate per 1000 participant-years for the first occurrence of major bleeding event after index date was reported. Major bleeding was defined as any bleeding that required hospitalization for treatment. ICD-10 diagnosis code was used to label the events. Index date was defined as a date when participants initiated warfarin or apixaban. Follow-up period: the next day of the index date till occurrence of target outcome, discontinuation of the warfarin or apixaban, switching from the warfarin or apixaban, withdrawal from the database, whichever observed first.",
+        "timeFrame": "Follow-up period during data observation period from 26-Feb-2013 to 31-Dec-2021 (approximately 8 years 10 months); extracted data evaluated in approximately 3.5 months of this study"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Incidence Rate (Per 1,000 Participant-Year) of Cardiogenic Cerebral Embolism: Balanced Cohorts",
+        "description": "Incidence rate per 1000 participant-years for the first occurrence of cardiogenic cerebral embolism events after index date was reported. ICD-10 diagnosis code was used to label the events. Index date was defined as a date when participants initiated warfarin or apixaban. Follow-up period: the next day of the index date till occurrence of target outcome, discontinuation of the warfarin or apixaban, switching from warfarin or apixaban, withdrawal from the database, whichever observed first.",
+        "timeFrame": "Follow-up period during data observation period from 26-Feb-2013 to 31-Dec-2021 (approximately 8 years 10 months); extracted data evaluated in approximately 3.5 months of this study"
+      },
+      {
+        "measure": "Incidence Rate (Per 1,000 Participant-Year) of Ischemic Stroke (Cerebral Infarction): Balanced Cohorts",
+        "description": "Incidence rate per 1000 participant-years for the first occurrence of ischemic stroke event after index date was reported. ICD-10 diagnosis code was used to label the events. Index date was defined as a date when participants initiated warfarin or apixaban. Follow-up period: the next day of the index date till occurrence of target outcome, discontinuation of the warfarin or apixaban, switching from warfarin or apixaban, withdrawal from the database, whichever observed first.",
+        "timeFrame": "Follow-up period during data observation period from 26-Feb-2013 to 31-Dec-2021 (approximately 8 years 10 months); extracted data evaluated in approximately 3.5 months of this study"
+      },
+      {
+        "measure": "Incidence Rate (Per 1,000 Participant-Year) of Intracranial Hemorrhage: Balanced Cohorts",
+        "description": "Incidence rate per 1000 participant-years for the first occurrence of intracranial hemorrhage event after index date was reported. ICD-10 diagnosis code was used to label the events. Index date was defined as a date when participants initiated warfarin or apixaban. Follow-up period: the next day of the index date till occurrence of target outcome, discontinuation of the warfarin or apixaban, switching from warfarin or apixaban, withdrawal from the database, whichever observed first.",
+        "timeFrame": "Follow-up period during data observation period from 26-Feb-2013 to 31-Dec-2021 (approximately 8 years 10 months); extracted data evaluated in approximately 3.5 months of this study"
+      },
+      {
+        "measure": "Incidence Rate (Per 1,000 Participant-Year) of Gastrointestinal Bleeding: Balanced Cohorts",
+        "description": "Incidence rate per 1000 participant-years for the first occurrence of major GI bleeding event after index date was reported. ICD-10 diagnosis code was used to label the events. Index date was defined as a date when participants initiated warfarin or apixaban. Follow-up period: the next day of the index date till occurrence of target outcome, discontinuation of the warfarin or apixaban, switching from warfarin or apixaban, withdrawal from the database, whichever observed first.",
+        "timeFrame": "Follow-up period during data observation period from 26-Feb-2013 to 31-Dec-2021 (approximately 8 years 10 months); extracted data evaluated in approximately 3.5 months of this study"
+      },
+      {
+        "measure": "Incidence Rate (Per 1,000 Participant-Year) of Intraocular Bleeding: Balanced Cohorts",
+        "description": "Incidence rate per 1000 participant-years for the first occurrence of intraocular bleeding event after index date was reported. ICD-10 diagnosis code was used to label the events. Index date was defined as a date when participants initiated warfarin or apixaban. Follow-up period: the next day of the index date till occurrence of target outcome, discontinuation of the warfarin or apixaban, switching from warfarin or apixaban, withdrawal from the database, whichever observed first.",
+        "timeFrame": "Follow-up period during data observation period from 26-Feb-2013 to 31-Dec-2021 (approximately 8 years 10 months); extracted data evaluated in approximately 3.5 months of this study"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:35.245Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

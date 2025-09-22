@@ -1,0 +1,96 @@
+{
+  "nctId": "NCT03402386",
+  "briefTitle": "Efficacy and Safety Study to Evaluate MT-6548 in Peritoneal Dialysis Subjects With Anemia Associated With Chronic Kidney Disease in Japan",
+  "officialTitle": "A Phase III, Open-label Study of MT-6548 in Peritoneal Dialysis Subjects With Anemia Associated With Chronic Kidney Disease in Japan",
+  "protocolDocument": {
+    "nctId": "NCT03402386",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-12-26",
+    "uploadDate": "2021-03-12T00:39",
+    "size": 2739867,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03402386/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 42,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-01-03",
+    "completionDate": "2018-12-20",
+    "primaryCompletionDate": "2018-11-22",
+    "firstSubmitDate": "2017-12-27",
+    "firstPostDate": "2018-01-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosis of CKD\n* Receiving peritoneal dialysis for more than 4 weeks prior to the screening period. However, receiving hemodialysis is excluded\n* Not expected to start hemodialysis during the study\n* Correction group: Not being treated with ESAs for the recent 8 weeks prior to the screening period\n* Conversion group: Being treated with ESAs for the recent 8 weeks prior to the screening period\n* Mean of the two screening Hb levels closest in time to the baseline visit. Correction group: ≥8.0 g/dL and \\< 11.0 g/dL Conversion group: ≥9.0 g/dL and ≤12.5 g/dL\n* Fluctuation between the two Hb levels closest in time to the baseline visit during the screening period less than 1.5 g/dL\n* Serum ferritin ≥ 100 ng/mL, or TSAT ≥20% during the screening period\n* Folate and vitamin B12 ≥ lower limit of normal during the screening period\n\nExclusion Criteria:\n\n* Anemia due to a main cause other than CKD: sickle cell disease, myelodysplastic syndrome, bone marrow fibrosis, hematologic malignancy, hemolytic anemia, thalassemia, or pure red cell aplasia\n* Active bleeding or recent blood loss within 8 weeks prior to the screening period\n* RBC transfusion within 8 weeks prior to the screening period\n* Received testosterone enanthate or mepitiostane within 8 weeks prior to the screening period\n* Peritonitis within 4 weeks prior to the screening period\n* AST, ALT, or total bilirubin \\>2.5 x upper limit of normal during the screening period\n* Uncontrolled hypertension (diastolic blood pressure \\>110 mm Hg or systolic blood pressure \\>180 mm Hg) during the screening period and Day 1\n* Ophthalmic examinations during the screening period correspond to either of the following criteria;\n\n  * No available fundal findings\n  * Findings indicating the presence of active fundal disease\n* Severe heart failure (New York Heart Association Class IV)\n* Cerebrovascular disorder or acute coronary syndrome (e.g. hospitalization due to unstable angina or myocardial infarction), requiring hospitalization due to urgent percutaneous intervention for coronary or heart failure within 12 weeks prior to the screening period\n* Current or history of malignancy. History of malignancy with no recurrence for the recent 5 years is not an exclusion criterion\n* New onset or recurrent event of deep vein thrombosis or pulmonary embolism within 12 weeks prior to the screening period\n* Current or history of hemosiderosis or hemochromatosis\n* History of prior organ transplantation or scheduled organ transplant, or prior transplantation of hematopoietic stem cell or bone marrow\n* Males and females of childbearing potential who are unwilling to use an acceptable method of contraception during the designated period (Males: during the study and 90 days after the last dose, Females: during study and 30 days after the last dose)\n* Females who are pregnant or breast feeding, or are predicted to be pregnant",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean Hb Level of Week 20 and Week 24",
+        "timeFrame": "Up to Week 24"
+      },
+      {
+        "measure": "Hb Level at Each Assessment Time Point",
+        "timeFrame": "Up to Week 24"
+      },
+      {
+        "measure": "Percentage of Subjects With Hb Level at Each Assessment Time Point Within the Target Range During the Treatment Period",
+        "timeFrame": "Up to Week 24"
+      },
+      {
+        "measure": "Time to Reach the Target Hb Range in Correction Group Only",
+        "timeFrame": "Up to Week 24"
+      },
+      {
+        "measure": "Rate of Increase in Hb Level in Correction Group Only",
+        "timeFrame": "Up to Week 6"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:08.033Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

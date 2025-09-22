@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02819843",
+  "briefTitle": "A Study of T-VEC (Talimogene Laherparepvec) With or Without Radiotherapy for Melanoma, Merkel Cell Carcinoma, or Other Solid Tumors",
+  "officialTitle": "A Phase II Randomized Trial of Intralesional Talimogene Laherparepvec (TALIMOGENE LAHERPAREPVEC) With or Without Radiotherapy for Cutaneous Melanoma, Merkel Cell Carcinoma, or Other Solid Tumors",
+  "protocolDocument": {
+    "nctId": "NCT02819843",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-09-10",
+    "uploadDate": "2025-01-06T12:21",
+    "size": 977037,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02819843/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 19,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-06-21",
+    "completionDate": "2024-02-22",
+    "primaryCompletionDate": "2024-02-22",
+    "firstSubmitDate": "2016-06-28",
+    "firstPostDate": "2016-06-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Man or woman ≥ 18 years old\n* Life expectancy \\> 4 months\n* Histopathologically confirmed melanoma, Merkel cell carcinoma or other solid tumor malignancy\n* Cutaneous subcutaneous soft tissue, or superficial lymphatic metastasis not suitable for surgical resection\n* Eastern Cooperative Oncology Group (ECOG) performance status 0 to 2\n* Cutaneous subcutaneous soft tissue, or superficial lymphatic metastasis that is amenable to injection and irradiation and \\> 10 mm in longest dimension\n\n  ° Cutaneous metastasis in a region of previous radiation therapy is amenable to radiation therapy as part of this protocol if at least 6 months has elapsed since prior radiotherapy and the dose of radiotherapy previously administered did not exceed an equivalent dose of 60 Gy in 2 Gy equivalent fractions at the skin surface (using linear-quadratic modeling with alpha/beta=11.5)\n* Metastasis that is \\> 10 mm in longest dimensionor exhibits radiotracer uptake consistent with metastasis on PET/CT\n* Adequate coagulation function (platelet count \\>50 k/mcL, international normalized ratio of \\< 1.5)\n* Resolution or stabilization of clinically significant adverse events from prior therapy\n* Able to provide valid written informed consent\n\nExclusion Criteria:\n\n* Active herpetic skin lesions or prior complications of HSV-1 infection (such as herpetic keratitis, herpetic encephalitis)\n* Receipt of a therapeutic anticoagulant\n* Receipt of live vaccine within 28 days of planned first dose of TVEC\n* Receipt of another cancer therapy (targeted therapy, chemotherapy, investigational therapy, immunotherapy, radiotherapy or surgery) which is yielding an overall response (by response criteria in this study)\n\n  ° Patients with stable or progressing disease (as determined by at least 2 consecutive assessments at 6-week interval) can continue to receive the same therapy during treatment as part of this protocol\n* History of symptomatic autoimmune disease (such as lupus, scleroderma, Crohn's disease, ulcerative colitis) requiring systemic treatment (for example corticosteroids or immunosuppressants); replacement therapy (for example, thyroxine, insulin) is not considered a systemic treatment\n* History of high grade (CTCAE ≥ Grade 3) immune mediated adverse event from prior cancer immunotherapy\n* History of CTCAE ≥ Grade 2 immune mediated endocrinopathy from prior cancer immunotherapy\n* Intermittent or chronic use of oral or intravenous antiherpetic drug (such as acyclovir)\n* Active or chronic hepatitis B or C infection\n\n  ° Previously infected, with evidence of immunity and no evidence of active hepatitis is not an exclusion criterion\n* Known human immunodeficiency virus (HIV) infection\n* Known leukemia or lymphoma\n* Common variable immunodeficiency\n* Patients requiring chronic high dose immunosuppressants including steroids (prednisone daily equivalent of ≥ 10 mg)\n* Known severe congenital or acquired cellular or humoral immunodeficient or immunocompromised patients\n* High likelihood of protocol non-compliance (in opinion of investigator)\n* Woman of childbearing potential unwilling to use effective contraception during protocol treatment and for 3 months after last dose of Talimogene Laherparepvec\n* Woman of childbearing potential that is pregnant or breast-feeding, or planning to become pregnant or breast-feed during protocol treatment and for 3 months after last dose of Talimogene Laherparepvec",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Best Response",
+        "description": "Overall subject level response is defined as partial or complete (\\>50% or greater decrease in largest lesion) by the modified World Health Organization (mWHO) criteria, and will include measurements of tumor size by CT component of PET/CT, and clinically by digital photography.",
+        "timeFrame": "16 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:55.625Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

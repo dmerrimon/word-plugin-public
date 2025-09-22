@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT05052190",
+  "briefTitle": "Patient Portal Flu Vaccine Reminders_RCT 4",
+  "officialTitle": "Improving Influenza Vaccination Delivery Across a Health System by the Electronic Health Records Patient Portal RCT 4",
+  "protocolDocument": {
+    "nctId": "NCT05052190",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-10-18",
+    "uploadDate": "2024-12-12T18:48",
+    "size": 185937,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05052190/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 239567,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-10-14",
+    "completionDate": "2022-04-01",
+    "primaryCompletionDate": "2022-04-01",
+    "firstSubmitDate": "2021-08-31",
+    "firstPostDate": "2021-09-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Active Portal Users A patient within the UCLA Health System identified as a primary care patient per an internal algorithm\n\nExclusion Criteria:\n\n* A patient within the UCLA Health System not identified as a primary care patient per an internal algorithm",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "6 Months",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Receipt of the Annual Influenza Vaccine Among Adult and Pediatric Index Patients",
+        "description": "Percent of patients with annual influenza vaccination (between 10/1/21 - 4/1/22) among adult and pediatric index patients. Outcomes will be assessed via vaccine data extraction from the electronic health record and external claims and pharmacy data.\n\nThe index patients must also be an active UCLA Health MyChart user (\\>= 1 login over the last 12 months from 8/1/21, excluding activity on the user's initial profile activation date). Individuals not affiliated with any primary care practice will be excluded from the primary analysis.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "Receipt of the Annual Influenza Vaccine Among Pediatric Index Patients",
+        "description": "Percent of patients with annual influenza vaccination (between 10/1/21 - 4/1/22) among pediatric index patients. Outcomes will be assessed via vaccine data extraction from the electronic health record and external claims and pharmacy data.\n\nThe index patients must also be an active UCLA Health MyChart user (\\>= 1 login over the last 12 months from 8/1/21, excluding activity on the user's initial profile activation date). Individuals not affiliated with any primary care practice will be excluded from the primary analysis.",
+        "timeFrame": "6 months - Unable to analyze data due to contaminated study arms"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 1,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 41,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:34.908Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

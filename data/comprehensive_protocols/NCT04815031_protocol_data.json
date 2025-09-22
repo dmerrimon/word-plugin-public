@@ -1,0 +1,99 @@
+{
+  "nctId": "NCT04815031",
+  "briefTitle": "Drug Use Investigation of COMIRNATY Intramuscular Injection",
+  "officialTitle": "General Investigation of COMIRNATY Intramuscular Injection (Follow-up Study for Subjects [Healthcare Professionals] Who Are Vaccinated at an Early Post-Approval Stage)",
+  "protocolDocument": {
+    "nctId": "NCT04815031",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-09-06",
+    "uploadDate": "2023-12-14T15:45",
+    "size": 546655,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04815031/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 14570,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-03-20",
+    "completionDate": "2023-01-27",
+    "primaryCompletionDate": "2023-01-27",
+    "firstSubmitDate": "2021-03-22",
+    "firstPostDate": "2021-03-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subjects who have participated in the Investigation of Health Status of Recipients Vaccinated First and have provided written consent to continue participation in this study.\n\nExclusion Criteria:\n\n* No exclusion criteria.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "16 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Participants With Serious Adverse Events",
+        "description": "A serious adverse event was any untoward medical occurrence resulting in any of the following outcomes or deemed significant for any other reason: death; life-threatening experience (immediate risk of dying); initial or prolonged inpatient hospitalization; persistent or significant disability/incapacity; or congenital anomaly.",
+        "timeFrame": "From the day following 28 days after the final vaccination of COMIRNATY, If those who did not conducted the booster vaccination was 11 months, If booster vaccination was conducted, up to the day before booster vaccination."
+      },
+      {
+        "measure": "Proportion of Participants With Severe COVID-19",
+        "description": "By using the information on COVID-19 entered in the CRF submitted by the physician, participants who were considered to be in a severe condition were identified and the number and proportion of the participants were tabulated with reference to the severity classification in the Guidance for Treatment of Novel Coronavirus Infection (COVID-19).\n\nParticipants with severe COVID-19 were defined as any of the following actions taken during the period from disease onset to the outcome date: admission to an ICU; use of mechanical ventilation; or use of ECMO.",
+        "timeFrame": "From the day following 28 days after the final vaccination of COMIRNATY, If those who did not conducted the booster vaccination was 11 months, If booster vaccination was conducted, up to the day before booster vaccination."
+      },
+      {
+        "measure": "Proportion of Participants With Serious Adverse Reactions",
+        "description": "A serious adverse reaction was any untoward medical occurrence attributed to COMIRNATY resulting in any of the following outcomes or deemed significant for any other reason: death; life-threatening experience (immediate risk of dying); initial or prolonged inpatient hospitalization; persistent or significant disability/incapacity; or congenital anomaly. Relatedness to COMIRNATY was assessed by the physician.",
+        "timeFrame": "From the day following 28 days after the final vaccination of COMIRNATY, If those who did not conducted the booster vaccination was 11 months, If booster vaccination was conducted, up to the day before booster vaccination."
+      },
+      {
+        "measure": "Number of Participants With Serious Adverse Events After Booster Vaccination",
+        "description": "A serious adverse event was any untoward medical occurrence resulting in any of the following outcomes or deemed significant for any other reason: death; life-threatening experience (immediate risk of dying); initial or prolonged inpatient hospitalization; persistent or significant disability/incapacity; or congenital anomaly.",
+        "timeFrame": "From the day of booster vaccination up to 11 months from the day following 28 days after the final vaccination of COMIRNATY. (out of scope of the safety evaluation)"
+      },
+      {
+        "measure": "Number of Participants With Severe COVID-19 After Booster Vaccination",
+        "description": "By using the information on COVID-19 entered in the CRF submitted by the physician, participants who were considered to be in a severe condition were identified and the number and proportion of the participants were tabulated with reference to the severity classification in the Guidance for Treatment of Novel Coronavirus Infection (COVID-19).\n\nParticipants with severe COVID-19 were defined as any of the following actions taken during the period from disease onset to the outcome date: admission to an ICU; use of mechanical ventilation; or use of ECMO.",
+        "timeFrame": "From the day of booster vaccination up to 11 months from the day following 28 days after the final vaccination of COMIRNATY. (out of scope of the safety evaluation)"
+      },
+      {
+        "measure": "Number of Participants With Serious Adverse Reactions After Booster Vaccination",
+        "description": "A serious adverse reaction was any untoward medical occurrence attributed to the vaccines received as a booster vaccination resulting in any of the following outcomes or deemed significant for any other reason: death; life-threatening experience (immediate risk of dying); initial or prolonged inpatient hospitalization; persistent or significant disability/incapacity; or congenital anomaly. Relatedness to COMIRNATY was assessed by the physician.",
+        "timeFrame": "From the day of booster vaccination up to 11 months from the day following 28 days after the final vaccination of COMIRNATY. (out of scope of the safety evaluation)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 6,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:41.978Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

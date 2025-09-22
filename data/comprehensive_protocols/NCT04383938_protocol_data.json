@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT04383938",
+  "briefTitle": "Phase 1/2 Study of APR-246 in Combination With Pembrolizumab in Subjects With Solid Tumor Malignancies",
+  "officialTitle": "Study of APR-246 in Combination With Pembrolizumab in Subjects With Solid Tumor Malignancies",
+  "protocolDocument": {
+    "nctId": "NCT04383938",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-03-13",
+    "uploadDate": "2024-02-27T13:19",
+    "size": 714854,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04383938/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-06-25",
+    "completionDate": "2022-04-30",
+    "primaryCompletionDate": "2022-04-30",
+    "firstSubmitDate": "2020-05-07",
+    "firstPostDate": "2020-05-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Signed informed consent form (ICF) and ability to comply with protocol requirements.\n2. Known tumor TP53 mutation status from recent or archival sample.\n3. Histologically and/or cytologically confirmed solid tumor malignancy\n\n   1. Safety lead in- Advanced non-central nervous system (CNS) primary tumors that have progressed after first line treatment, who are intolerant to first line treatment, or who are unable to receive first line treatment, and for whom pembrolizumab, or pembrolizumab-based therapy is considered appropriate\n   2. Expansion 1- Patients with a confirmed diagnosis of advanced gastric or gastroesophageal junction (GEJ) tumors that have progressed after first line treatment, who are intolerant to first line treatment, or who are unable to receive first line treatment\n   3. Expansion 2- Patients with a confirmed diagnosis of advanced bladder/urothelial tumors that have progressed after first line treatment, or who are intolerant to first line treatment, or who are unable to receive first line treatment with cisplatin-based chemotherapy.\n   4. Expansion 3- Confirmed diagnosis of advanced non-small cell lung cancer (NSCLC) previously treated with anti-PD-1 or anti-PD-L1 therapy.\n4. Adequate organ function\n\n   1. Creatinine clearance \\> 30 mL/min\n   2. Total serum bilirubin \\< 1.5 × upper limit of normal (ULN) unless due to Gilbert's syndrome, tumor involvement, hemolysis or considered an effect of regular blood transfusions\n   3. Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) \\< 3 × ULN, unless due to involvement by the underlying malignancy.\n5. Projected life expectancy of ≥ 12 weeks.\n6. Age ≥ 18 years at the time of signing the ICF.\n7. Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1 or 2\n8. In the expansion portion, measurable disease meeting the following criteria:\n\n   1. At least 1 lesion of ≥10 mm in the longest diameter (LD) for a non-lymph node or ≥15 mm in the short-axis diameter for a lymph node that is serially measurable according to RECIST 1.1.\n   2. Lesions that have had external beam radiotherapy or loco-regional therapies such as radiofrequency ablation must show subsequent evidence of substantial size increase (ex. 20% increase in LD) to be deemed a target lesion.\n9. Negative serum or urine pregnancy test prior to study treatment initiation in female subjects of childbearing potential.\n10. Women of childbearing potential and men with female partners of childbearing potential must be willing to use an effective form of contraception\n\nExclusion Criteria:\n\n1. Known history of untreated human immunodeficiency virus (HIV)/HIV with a detectable viral load or active hepatitis B or active hepatitis C infection.\n2. Cardiac abnormalities\n3. Concomitant malignancies or previous malignancies with less than a 1-year disease-free interval at the time of signing consent.\n4. Pregnancy or lactation.\n5. Active uncontrolled systemic infection.\n6. An autoimmune condition requiring ≥ 10 mg (or equivalent corticosteroid) prednisone daily, or any other systemic immunosuppressive treatment within 28 days of first dose of study therapy.\n7. Known history of active tuberculosis.\n8. Current (non-infectious) pneumonitis, or a history of pneumonitis that required steroids.\n9. A live vaccine administered within 30 days of the first dose of study treatment.\n10. Receipt of any investigational product within 14 days or 5 half-lives prior to study treatment initiation, whichever is shortest.\n11. Prior intolerance to pembrolizumab or other anti-PD-1/PD-L1 agents.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "To Evaluate the Safety of APR-246 in Combination With Pembrolizumab in Subjects With Solid Tumors.",
+        "description": "To determine the Frequency of treatment-emergent adverse events (TEAEs), and serious adverse events (SAEs) related to APR-246 in combination with pembrolizumab.",
+        "timeFrame": "Through study completion, approximately 1 year"
+      },
+      {
+        "measure": "To Confirm the Recommended Phase 2 Dose (RP2D) for APR-246 in Combination With Pembrolizumab",
+        "description": "To determine the dose of APR-246 to be selected for the expansion phase based on the occurence of dose limiting toxicities (DLTs) experienced during the safety assessment period",
+        "timeFrame": "Through safety lead in period, during cycle 1 (approximately 21 days)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:06.048Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

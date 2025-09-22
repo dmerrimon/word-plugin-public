@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03273270",
+  "briefTitle": "Effects of Neuromodulation and Rehabilitation of the Locomotor Network in Freezing of Gait",
+  "officialTitle": "Effects of Neuromodulation and Rehabilitation of the Locomotor Network in Freezing of Gait",
+  "protocolDocument": {
+    "nctId": "NCT03273270",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-06-17",
+    "uploadDate": "2021-02-09T14:17",
+    "size": 175744,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03273270/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-07-31",
+    "completionDate": "2020-03-23",
+    "primaryCompletionDate": "2020-03-23",
+    "firstSubmitDate": "2017-08-28",
+    "firstPostDate": "2017-09-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nSubjects meeting diagnostic criteria for PD and documented FoG\n\n\\-\n\nExclusion Criteria:\n\n* Subjects with contraindications to MRI, or TMS (no history of seizures, no metal implants in head, no pregnancy) dementia, or inability to complete the walk 30 feet in the off state without assistance will be excluded.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Functional Connectivity to the Supplementary Motor Area.",
+        "description": "Change (pre vs post intervention) in resting-state fMRI connectivity (fisher z-score) of the supplemental motor area (SMA). A negative change score means there was a reduction in SMA connectivity pre to post intervention. A positive change score means there was an increase in SMA connectivity pre to post intervention.",
+        "timeFrame": "pre and post intervention (within one week of completion)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in New Freezing of Gait Questionnaire",
+        "description": "The new freezing of gait questionnaire is a measure of freezing severity (total score range: 0-28) wherein higher scores represent worse freezing behavior. The outcome measures represent the change in freezing of gait questionnaire score from pre to post intervention. A larger, positive value represents a greater reduction in freezing severity and a better outcome.",
+        "timeFrame": "pre and post intervention (within one week of completion)"
+      },
+      {
+        "measure": "Change in Dual Task Time to Turn Off",
+        "description": "The time to turn around a cone (in seconds) while dual tasking (performing a serial 7s and/or every other letter of the alphabet task) was measured while participants were in the OFF state (off of their Parkinson's medication). The assessment were performed pre to post intervention. A greater reduction in time to turn (pre versus post interverntion) is represented by a larger positive number. A larger reduction in time to turn represents a better outcome.",
+        "timeFrame": "pre and post intervention (within one week of completion)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:46.027Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

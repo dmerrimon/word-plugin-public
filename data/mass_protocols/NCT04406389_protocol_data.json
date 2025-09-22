@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04406389",
+  "briefTitle": "Anticoagulation in Critically Ill Patients With COVID-19 (The IMPACT Trial)",
+  "officialTitle": "InterMediate ProphylACtic Versus Therapeutic Dose Anticoagulation in Critically Ill Patients With COVID-19: A Prospective Randomized Study (The IMPACT Trial)",
+  "protocolDocument": {
+    "nctId": "NCT04406389",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-12-03",
+    "uploadDate": "2023-08-24T12:18",
+    "size": 904714,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04406389/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 14,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-13",
+    "completionDate": "2022-04-21",
+    "primaryCompletionDate": "2021-04-17",
+    "firstSubmitDate": "2020-05-26",
+    "firstPostDate": "2020-05-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age \\>18 years old\n* COVID-19 positive on (RT-PCR) nasopharyngeal swab, or suspected COVID-19 infection with detectable SARS-CoV-2 IgG or IgM.\n* Intensive care unit (ICU) patient or non-ICU patient on invasive mechanical ventilation, BiPAP, 100% non-rebreather mask, or high flow oxygen or supplemental oxygen of at least 4 liters per minute nasal cannula.\n* D dimer level greater than 700 ng/mL (3 times the upper limit of normal).\n\nExclusion Criteria:\n\n* Objectively documented deep vein thrombosis or pulmonary embolism\n* Patients in whom there is very high suspicion for pulmonary embolism and are on full-dose anticoagulation as per the treating physician\n* Platelets \\<30,000 not due to disseminated intravascular coagulation (DIC), based on the International Society of Thrombosis and Haemostasis (ISTH) criteria and American Society of Hematology (ASH) Frequently Asked Questions\n* Active bleeding that poses a contraindication to therapeutic anticoagulation in the opinion of the investigator.\n* History of bleeding diathesis (e.g., hemophilia, severe von Willebrand disease, severe thrombocytopathy)\n* History of intracranial hemorrhage in the last 90 days\n* History of ischemic stroke in the past 2 weeks\n* Major neurosurgical procedure in the past 30 days\n* Cardiothoracic surgery in the past 30 days\n* Intra-abdominal surgery in the past 30 days\n* Intracranial malignancy\n* Patients who require therapeutic anticoagulation for other reasons like atrial fibrillation, deep venous thrombosis, pulmonary embolism, or antiphospholipid syndrome.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "30-day Mortality",
+        "description": "Comparison of number of COVID-19 positive patients who have died within 30 days of starting treatment on each treatment arm",
+        "timeFrame": "30 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Length of Intensive Care Unit (ICU) Stay in Days",
+        "description": "Comparison of length of ICU stay in days between each treatment arm.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Documented Venous Thromboembolism (VTE), Arterial Thrombosis (Stroke, Myocardial Infarction, Other) and Microthrombosis Events",
+        "description": "Comparison of number of documented VTE, arterial thrombosis and microthrombosis events on each treatment arm",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Major and Clinically Relevant Non-major Bleeding Events",
+        "description": "Comparison of major and clinically-relevant non-major bleeding events on each treatment arm, as defined by the International Society of Thrombosis and Haemostasis (ISTH) criteria.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:15.608Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

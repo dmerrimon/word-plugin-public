@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT02471040",
+  "briefTitle": "Brain Ketone Metabolism in Type 1 Diabetes",
+  "officialTitle": "Impact of Recurrent Hypoglycemia on Brain Ketone Metabolism in Type 1 Diabetes",
+  "protocolDocument": {
+    "nctId": "NCT02471040",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-03-04",
+    "uploadDate": "2023-03-27T12:29",
+    "size": 809195,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02471040/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 44,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-05-14",
+    "completionDate": "2022-04-04",
+    "primaryCompletionDate": "2022-04-04",
+    "firstSubmitDate": "2015-05-28",
+    "firstPostDate": "2015-06-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Type 1 diabetes mellitus of \\> 5 years (C-peptide negative, age 18-60 years, on intensive insulin therapy (HbA1c \\<7.5%)\n2. Non-diabetic volunteers, age 18-65 years that do not meet any of the exclusion criteria.\n\nExclusion Criteria:\n\n1. Pregnancy\n2. Significant baseline anemia (hemoglobin \\<11.0 or hematocrit \\< 33%)\n3. A history of liver cirrhosis or porto-caval shunt surgery.\n4. Any contraindications for MRI scanning.\n5. Subjects that follow a vegetarian diet\n6. Subjects that exercise heavily on a regular basis (i.e. marathon runners, body builders or other forms of excessive exercise as determined by the PI)\n7. Subjects with a history of anxiety/ panic attacks",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Cognitive Function",
+        "description": "Subjects from all groups will be studied using the NIH Toolbox Cognition Battery, which includes measurements of Executive Function, Attention, Episodic Memory, Language, Processing Speed and Working Memory.",
+        "timeFrame": "Under clamped hypoglycemia (50 min from start)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:09.580Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

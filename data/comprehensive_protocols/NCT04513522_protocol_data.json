@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT04513522",
+  "briefTitle": "A Study to Evaluate the Safety and Efficacy of Nivolumab With Ipilimumab in Participants With Untreated Advanced Kidney Cancer Conducted in India",
+  "officialTitle": "A Phase 4 Study of Nivolumab in Combination With Ipilimumab in Patients With Previously Untreated Advanced Renal Cell Carcinoma and Intermediate-or Poor-risk Factors Conducted in India",
+  "protocolDocument": {
+    "nctId": "NCT04513522",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-11-10",
+    "uploadDate": "2024-12-10T09:58",
+    "size": 6260031,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04513522/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 101,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-12-17",
+    "completionDate": "2024-01-04",
+    "primaryCompletionDate": "2024-01-04",
+    "firstSubmitDate": "2020-08-13",
+    "firstPostDate": "2020-08-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histological confirmation of renal cell carcinoma (RCC) with clear cell component including participants who may have sarcomatoid features\n* Qualifies as intermediate or poor risk by meeting at least one of the prognostic factors as per the International Metastatic RCC Database Consortium (IMDC) criteria\n* Indian participants with Indian ethnicity living in India\n* No prior systemic therapy for RCC\n* Measurable disease lesion by computed tomography (CT) or magnetic resonance imaging (MRI) per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 criteria\n\nExclusion Criteria:\n\n* Participants with active, untreated, symptomatic central nervous system (CNS) metastases\n* Major surgery less than 28 days prior to the first dose of study treatment\n* Participants with an autoimmune disease, or any other condition, requiring systemic treatment with either corticosteroids or other immunosuppressive medications\n\nOther protocol-defined inclusion/exclusion criteria apply",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Total Number of Participants Experiencing High Grade Immune-Mediated Adverse Events (IMAE)",
+        "description": "IMAEs are a type of adverse event that occurs when the immune system reacts against the body's own tissues, including diarrhea/colitis, hepatitis, pneumonitis, nephritis and renal dysfunction, rash, and endocrine (adrenal insufficiency, hypophysitis, hypothyroidism/thyroiditis, hyperthyroidism, and diabetes mellitus). IMAE analyses includes events, regardless of causality, which occurred during the study and follow-up. Only participants who received immune-modulating medication for treatment of the event are reported, with the exception of endocrine events, which will be included regardless of treatment since these events are often managed without immunosuppression.\n\nHigh grade (Grade 3 to 4 and Grade 5) IMAEs are reported. IMAEs are graded on a scale from 1 to 5, in which Grade 3 is severe or medically significant but not immediately life-threatening; Grade 4 events may require hospitalization; Grade 5 events are fatal.",
+        "timeFrame": "From first dose until 100 days after the last dose or for a maximum of 52 weeks from the date of the first on-study dose of nivolumab, whichever occurs earlier."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time to Onset of High Grade Immune-Mediated Adverse Event (IMAE)",
+        "description": "Time to onset is defined as the time between the day of the first dose of study treatment and the onset date of the earliest AE (Grades 3-5) in this category. All IMAEs that occurred between first dose and 100 days past last dose are recorded. IMAEs are a type of adverse event that occurs when the immune system reacts against the body's own tissues. IMAE analyses includes events, regardless of causality, which occurred during the study and follow-up. Only participants who received immune-modulating medication for treatment of the event are reported, with the exception of endocrine events, which will be included regardless of treatment since these events are often managed without immunosuppression.\n\nHigh grade (Grades 3 through 5) IMAEs are reported. IMAEs are graded on a scale from 1 to 5, in which Grade 3 is severe or medically significant but not immediately life-threatening; Grade 4 events may require hospitalization; Grade 5 events are fatal.",
+        "timeFrame": "From first dose until onset of IMAE (up to approximately 15 months)"
+      },
+      {
+        "measure": "Time to Resolution of High Grade Immune-Mediated Adverse Event (IMAE)",
+        "description": "Time to resolution of IMAEs is defined as the longest time from onset to complete resolution or improvement to the grade at baseline among all clustered AEs experienced by the participant in this category per adverse event criteria category. Events which worsened into grade 5 events (death) or have a resolution date equal to the date of death are considered unresolved. If a clustered AE is considered as unresolved, the resolution date will be censored to the last known alive date. Improvement to the grade at baseline implies that all different events in the clustered adverse event should at least have improved to the corresponding (i.e. with same preferred term) baseline grade.\n\nHigh grade (Grades 3 through 5) IMAEs are reported. IMAEs are graded on a scale from 1 to 5, in which Grade 3 is severe or medically significant but not immediately life-threatening; Grade 4 events may require hospitalization; Grade 5 events are fatal.",
+        "timeFrame": "From first dose until resolution of IMAE (up to approximately 15 months)"
+      },
+      {
+        "measure": "The Number of Participants Who Received Immune-Modulating Medication",
+        "description": "Immune modulating medications are medications entered on an immune modulating medication form or available from the most current pre-defined list of immune modulating medications. This list is revisited whenever UMC WHO releases a new version and updated accordingly.",
+        "timeFrame": "From first dose up to 100 days after last dose (up to approximately 15 months)"
+      },
+      {
+        "measure": "Objective Response Rate (ORR)",
+        "description": "Objective Response Rate (ORR) was defined as the number of participants with a best overall response of confirmed Complete Response (CR) or Partial Response (PR) (per RECIST 1.1 criteria) divided by the number of all treated participants. RECIST 1.1 = Response Evaluation Criteria in Solid Tumors. CR= Disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have reduction in short axis to \\< 10 mm. PR= At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.",
+        "timeFrame": "From first dose up to 100 days after last dose (up to approximately 15 months)"
+      },
+      {
+        "measure": "Time to Response (TTR)",
+        "description": "TTR is defined as the time from the date of first dose to the date of the first confirmed documented response (CR or PR). For the non-responders, TTR was censored at the maximum time of response + 1 day of all participants.\n\nCR= Disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have reduction in short axis to \\< 10 mm. PR= At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.",
+        "timeFrame": "From first dose to the date of CR or PR (up to approximately 15 months)"
+      },
+      {
+        "measure": "Duration of Response (DoR)",
+        "description": "Duration of Response (DOR) is defined as the time between the date of first documented response (CR or PR) that was subsequently confirmed to the date of the first documented progression as determined using RECIST 1.1, or death due to any cause, whichever occurs first. For participants who neither progress nor die, the duration of response will be censored on the date of their last evaluable tumor assessment. For participants who start subsequent therapy before progression or die, the duration of response will be censored on the date of their last evaluable tumor assessment conducted on or prior to the initiation of the subsequent therapy.\n\nCR= Disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have reduction in short axis to \\< 10 mm. PR= At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters. Analysis based on Kaplan Meier estimates.",
+        "timeFrame": "From first documented response (CR or PR) up to first documented progression or death due to any cause, whichever occurs first (up to approximately 3 years)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:07.145Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

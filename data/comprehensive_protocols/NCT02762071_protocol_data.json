@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT02762071",
+  "briefTitle": "Liposomal Bupivacaine for Pain Control After Total Shoulder Arthroplasty",
+  "officialTitle": "Liposomal Bupivacaine vs. Interscalene Nerve Block for Pain Control After Total Shoulder Arthroplasty: A Randomized Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT02762071",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-03-23",
+    "uploadDate": "2020-03-05T10:25",
+    "size": 142346,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02762071/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 108,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-04",
+    "completionDate": "2019-04-15",
+    "primaryCompletionDate": "2019-04-15",
+    "firstSubmitDate": "2016-04-28",
+    "firstPostDate": "2016-05-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Degenerative changes of the shoulder joint (documented by radiographs) in patients planning total joint replacement with one of the study's four fellowship-trained orthopaedic surgeons.\n* Patients who require revision surgeries, hemiarthroplasties, or who have chronic pain issues will be included.\n\nExclusion Criteria:\n\n* Allergy to liposomal bupivacaine\n* Contraindications to the interscalene nerve block such as:\n* Preexisting neurologic defects\n* Local anesthetic allergy\n* Coagulopathy\n* Contralateral phrenic nerve dysfunction\n* Severe chronic obstructive pulmonary disease",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Visual Analog Scale Pain Score at 24 Hours Postoperatively",
+        "description": "The primary outcome was pain score on a visual analog scale (VAS) at 24 hours postoperatively. VAS pain scores range from 0 (no pain) to 10 (unbearable pain).",
+        "timeFrame": "At 24 hours after surgery"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Opioid Medication Consumption in Morphine Milligram Equivalents",
+        "description": "We analyzed intraoperative opioid consumption; postoperative opioid consumption at days 1, 2, 3, and 4; total opioid consumption at day 1 (intraoperative + postoperative day 1). This was measured in morphine milligram equivalents.",
+        "timeFrame": "Up to 4 days postoperatively"
+      },
+      {
+        "measure": "Length of Hospital Stay",
+        "description": "Duration of stay in hospital (hours) after shoulder replacement surgery.",
+        "timeFrame": "At the time of discharge from hospital, Up to 4 days"
+      },
+      {
+        "measure": "Postoperative Visual Analog Scale (VAS) Pain Scores",
+        "description": "We analyzed postoperative VAS pain scores at 6, 12, 18, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96 hours and at the first postoperative visit. VAS pain scores range from 0 (no pain) to 10 (unbearable pain).",
+        "timeFrame": "Up to first postoperative visit, maximum 30 days"
+      },
+      {
+        "measure": "Patient Satisfaction With Pain Management",
+        "description": "Visual Analog Scale (VAS) score for satisfaction with pain control in the hospital and at home. This was assessed at subjects' first postoperative visit.VAS satisfaction scores range from 0 (not satisfied) to 10 (completely satisfied).",
+        "timeFrame": "At first postoperative visit, up to 30 days"
+      },
+      {
+        "measure": "Length of Stay in the Post-anesthesia Care Unit (PACU)",
+        "description": "Duration of stay in the post-anesthesia care unit (minutes) after shoulder replacement surgery.",
+        "timeFrame": "At the time of discharge from PACU, Up to 1 day"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:58.722Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,142 @@
+{
+  "nctId": "NCT06313736",
+  "briefTitle": "What SSI Duration is Most Effective? An Online Experiment With American Adults",
+  "officialTitle": "How Long Should a Behavioral Activation Single-session Intervention be? A Four-armed Trial Comparing Effectiveness by Intervention Duration",
+  "protocolDocument": {
+    "nctId": "NCT06313736",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-03-17",
+    "uploadDate": "2024-03-17T16:12",
+    "size": 81821,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06313736/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1145,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-03-20",
+    "completionDate": "2024-05-22",
+    "primaryCompletionDate": "2024-05-22",
+    "firstSubmitDate": "2024-03-11",
+    "firstPostDate": "2024-03-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria: Participants must be:\n\n* Located in the United States\n* At least 18 years old\n* Patient Health Questionnaire-8 (PHQ-8) score of at least 10 (moderate or more severe) at screener.\n* Able to read and speak fluent English\n* Able to access to the internet via a computer, tablet or smartphone for the next eight weeks\n\nExclusion Criteria:\n\n* Participants who have completed the first session of the study before or completed another study testing a depression intervention from our laboratory via the same participant recruitment platform in the past two months.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Patient Health Questionnaire-8 at 8 weeks (PHQ-8; Kroenke et al., 2009)",
+        "description": "Patient Health Questionnaire-8 is a well-validated and self-administered measure to assess depression symptom severity in the general population. Participants are asked to rate how often they are bothered by 8 items (e.g., Poor appetite or overeating) on a scale of 0 (Not at all) to 3 (Nearly every day). Total score can range from 0 to 24, with higher scores indicating higher symptom severity.",
+        "timeFrame": "Baseline to 8 weeks post-intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Beck Hopelessness Scale at 8 weeks (BHS-4; Perczel Forintos et al., 2013)",
+        "description": "Beck Hopelessness Scale-4 is the 4-item version of the 20-item Beck Hopelessness scale (Beck et al. 1974). Participants will be asked to rate 4 items assessing different aspects of hopelessness (e.g., My future seems dark to me) on a scale of 0 (Absolutely disagree) to 3 (Absolutely agree). Total score can range between 0 to 12 with higher scores indicating higher hopelessness.",
+        "timeFrame": "Baseline to 8 weeks post-intervention"
+      },
+      {
+        "measure": "Change in Beck Hopelessness Scale - 4-item at post-intervention",
+        "description": "Beck Hopelessness Scale-4 is the 4-item version of the 20-item Beck Hopelessness scale (Beck et al. 1974). Participants will be asked to rate 4 items assessing different aspects of hopelessness (e.g., My future seems dark to me) on a scale of 0 (Absolutely disagree) to 3 (Absolutely agree). Total score can range between 0 to 12 with higher scores indicating higher hopelessness.",
+        "timeFrame": "Baseline to immediately post-intervention"
+      },
+      {
+        "measure": "Change in UCLA Loneliness Scale 3-item version at 8-week follow-up (ULS-3; Hughes et al., 2004)",
+        "description": "The ULS-3 is the 3-item version of the 20-item UCLA Loneliness Scale. The measure includes questions such as \"how often do you feel left out\" with responses ranging from 1 (hardly ever) to 3 (often), producing a total score between 3 and 9. Researchers have labeled people who score 3-5 as \"not lonely\" and those who score 6-9 as \"lonely.\"",
+        "timeFrame": "Baseline to 8 weeks post-intervention"
+      },
+      {
+        "measure": "Presence of an \"Aha! moment\" at post-intervention",
+        "description": "The survey will ask participants if they experienced an \"Aha! moment\" during the SSI.",
+        "timeFrame": "Immediately post-intervention"
+      },
+      {
+        "measure": "Presence of an \"Aha! moment\" at 8 weeks post-intervention",
+        "description": "The survey will ask participants if they experienced an \"Aha! moment\" during the SSI.",
+        "timeFrame": "8 weeks post-intervention"
+      },
+      {
+        "measure": "Significance of the \"Aha! moment\" at immediately post-intervention",
+        "description": "Among participants who report an Aha! Moment, the survey will ask how significant they felt that Aha! was (on a scale from 1 \\[not at all significant\\] - 5 \\[extremely significant\\]).",
+        "timeFrame": "Immediately post-intervention"
+      },
+      {
+        "measure": "Significance of the \"Aha! moment\" at 8 weeks post-intervention",
+        "description": "Among participants who report an Aha! Moment, the survey will ask how significant they felt that Aha! was (on a scale from 1 \\[not at all significant\\] - 5 \\[extremely significant\\]).",
+        "timeFrame": "8 weeks post-intervention"
+      },
+      {
+        "measure": "Change in Frequency of actions and thoughts scale at post-test at 8 weeks post-intervention (FATS; Terides et al., 2016)",
+        "description": "A 12-item measure of adaptive thoughts and behaviors, improvement in which might be a target of cognitive behavioral therapy. Range 0-48 with higher scores indicating greater frequency of adaptive thoughts and behaviors.",
+        "timeFrame": "Baseline to 8 weeks post-intervention"
+      },
+      {
+        "measure": "Expected improvement at post-intervention (from the Credibility / Expectancy Questionnaire; Devilly, 2004)",
+        "description": "This will be computed as the sum of two items: \"At this point, how successful do you think this treatment will be in reducing your feelings of depression?\" and \"Over the next few weeks, how much improvement in your feelings of depression do you think will occur?\"). Each item will be rated from 1-9 and will be summed together to create a total score of 2-18 with higher scores indicating greater expected improvement.",
+        "timeFrame": "Immediately post-intervention"
+      },
+      {
+        "measure": "Self-reported improvement at 8-weeks post-intervention (adapted from the Credibility/ Expectancy Questionnaire; Devilly, 2004)",
+        "description": "This will be computed as the sum of two items: \"At this point, how successful do you think this treatment was in reducing your feelings of depression?\" and \"Over the past eight weeks, how much improvement in your feelings of depression do you think occurred?\"). Each item will be rated from 1-9 and will be summed together to create a total score of 2-18 with higher scores indicating greater improvement.",
+        "timeFrame": "8 weeks post-intervention"
+      },
+      {
+        "measure": "Intervention satisfaction star rating at post-intervention",
+        "description": "The survey will evaluate participants' satisfaction with the intervention they completed using a star rating from 1 to 5 stars, with 1 star indicating very low satisfaction and 5 stars indicating very high satisfaction.",
+        "timeFrame": "Immediately post-intervention"
+      },
+      {
+        "measure": "Intervention satisfaction star rating at 8 week follow-up",
+        "description": "The survey will evaluate participants' satisfaction with the intervention they completed using a star rating from 1 to 5 stars, with 1 star indicating very low satisfaction and 5 stars indicating very high satisfaction.",
+        "timeFrame": "8 weeks post-intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 12,
+      "otherCount": 0,
+      "totalCount": 13
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 99,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:17.575Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

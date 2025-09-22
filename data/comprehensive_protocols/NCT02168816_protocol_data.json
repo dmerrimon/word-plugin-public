@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT02168816",
+  "briefTitle": "Efficacy of Oral Antibiotic Therapy Compared to Intravenous Antibiotic Therapy for Osteomyelitis",
+  "officialTitle": "Efficacy of Oral Antibiotic Therapy Compared to Intravenous Antibiotic Therapy for the Treatment of Diabetic Foot Osteomyelitis (CRO-OSTEOMYELITIS)",
+  "protocolDocument": {
+    "nctId": "NCT02168816",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-02-02",
+    "uploadDate": "2018-05-05T12:21",
+    "size": 253453,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02168816/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-03-19",
+    "completionDate": "2017-02-02",
+    "primaryCompletionDate": "2017-02-02",
+    "firstSubmitDate": "2014-06-10",
+    "firstPostDate": "2014-06-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18 years of age and older\n* Diagnosis of Diabetes Mellitus (per past medical history documented in the patient medical record)\n* Foot osteomyelitis (distal to ankle)\n* Surgical debridement (in operating room)\n\nExclusion Criteria:\n\n* Absolute neutrophil count (ANC) \\< 500\n* Pregnant or lactating patients\n* Patients with organisms resistant to oral therapy\n* Internal hardware\n* Definitive amputations (BKA)\n* Limb ischemia \\[absent pedal pulses or ankle-brachial index (ABI) \\< 0.5\\]",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Bone Infection",
+        "description": "Six months following completion of treatment, the researchers record evidence of bone infection for each participant. A negative diagnosis is made when there is (i) an absence of infection based on clinical examination and (ii) down-trending of inflammatory markers. Otherwise, a positive diagnosis is made.",
+        "timeFrame": "Six Months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Ulcer Resolution",
+        "description": "Six months following completion of treatment, the researchers record whether each participant's ulcer has resolved.",
+        "timeFrame": "Six Months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:08.261Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02880189",
+  "briefTitle": "EUS Guided Core Liver Biopsy and IGB Placement for the Diagnosis and Management of NASH and Obesity",
+  "officialTitle": "Combined Endoscopic Ultrasound Guided Core Liver Biopsy and Intragastric Balloon Placement for the Diagnosis and Management of Nonalcoholic Steatohepatitis and Obesity",
+  "protocolDocument": {
+    "nctId": "NCT02880189",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-06-23",
+    "uploadDate": "2019-03-18T14:14",
+    "size": 456309,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02880189/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 21,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-12",
+    "completionDate": "2018-03-13",
+    "primaryCompletionDate": "2018-03-13",
+    "firstSubmitDate": "2016-08-23",
+    "firstPostDate": "2016-08-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients diagnosed with Non-alcoholic Steatohepatitis with early evidence of fibrosis as seen on MRE-hepatogram\n* Referred clinically for an intragastric balloon placement for weight loss\n\nExclusion Criteria:\n\n* Women who are pregnant or plan to be pregnant or are breastfeeding\n* Previous history of gastric surgery\n* Current or recent (within 6 months) gastric or duodenal ulcers\n* Gastroparesis\n* Liver cirrhosis\n* Coagulopathy or active use of coagulation\n* Inability to provide a written informed consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "22 Years",
+    "maximumAge": "69 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Weight Loss Achieved With Intragastric Balloon (IGB)",
+        "description": "Total number of subjects with two points or greater improvement on objective Non-alcoholic Steatohepatitis (NASH) histopathological parameters. The NAS scale can range from 0 to 8 and is calculated by the sum of scores of steatosis (0-3), lobular inflammation (0-3) and hepatocyte ballooning (0-2).",
+        "timeFrame": "Baseline to 6 months post-procedure"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Diagnosis of NASH and Early Fibrosis by Endoscopic Ultrasound (EUS) Guided Liver Core Biopsies",
+        "description": "Total number of subjects correctly diagnosed with NASH and Early Fibrosis by EUS guided core liver biopsies",
+        "timeFrame": "Baseline to 6 months post-procedure"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:16.678Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

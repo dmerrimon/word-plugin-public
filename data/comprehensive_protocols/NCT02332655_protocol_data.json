@@ -1,0 +1,90 @@
+{
+  "nctId": "NCT02332655",
+  "briefTitle": "Cannabidiol Expanded Access Study in Medically Refractory Sturge-Weber Syndrome",
+  "officialTitle": "Cannabidiol Expanded Access Study in Medically Refractory Sturge-Weber Syndrome",
+  "protocolDocument": {
+    "nctId": "NCT02332655",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-07-06",
+    "uploadDate": "2021-07-27T15:27",
+    "size": 474165,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02332655/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-12",
+    "completionDate": "2021-04",
+    "primaryCompletionDate": "2019-04",
+    "firstSubmitDate": "2015-01-05",
+    "firstPostDate": "2015-01-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria: Participants with Sturge-Weber syndrome brain involvement as defined on neuroimaging (n=10 subjects, male and female, ages 1 month to 45 years of age) and the following:\n\n* Documentation of a diagnosis of drug resistant epilepsy as evidenced by failure to control seizures despite appropriate trial of two or more AEDs at therapeutic doses. Drug resistant epilepsy for this study is defined as: At least 1 reported quantifiable (no cluster or innumerable) defined seizure with motor signs per month for at least 3 months prior to initial visit and during the period between Visit 1 (Screening Visit) and Visit 2 (Baseline Visit), as per data captured in daily seizure diaries. These can be focal seizures, focal seizures with impaired consciousness, myoclonic seizures, generalized, and secondarily generalized seizures.\n* Between 1-5 baseline anti-epileptic drugs at stable doses for a minimum of 4 weeks prior to enrollment. Vagus nerve stimulator (VNS), ketogenic diet and modified Atkins diet do not count toward this limit.\n* VNS must be on stable settings for a minimum of 3 months prior to enrollment.\n* If on ketogenic or Atkins diet, must be on stable ratio for a minimum of 3 months prior to enrollment.\n* Previous subjects who failed at any point to meet continuation criteria and withdrew early may be considered for re-enrollment under a new subject ID as long as the above inclusion criteria are met. The determination of whether to re-enroll will be made by the PI and sponsor on a case-by-case basis. Re-enrollment can occur no earlier than 4 weeks after the final, post-weaning follow-up visit under the old subject ID.\n\nWritten informed consent obtained from the patient or the patient's legal representative must be obtained prior to beginning treatment.\n\nExclusion Criteria:\n\n* Patients with seizures secondary to metabolic, toxic, infectious or psychogenic disorder or drug abuse or current seizures related to an acute medical illness.\n* Presence of only non-motor partial seizures (without limb or facial movements, eye deviation or head turning)\n* Patients who require rescue medication during the Baseline phase for more than 6 days.\n* Patients with any severe and/or uncontrolled medical conditions at randomization such as:\n\n  1. liver disease such as cirrhosis, decompensated liver disease, and chronic hepatitis \\[i.e. quantifiable hepatitis B virus (HBV)-DNA and/or positive HbsAg, quantifiable hepatitis C virus (HCV)-RNA\\]\n  2. Uncontrolled diabetes as defined by fasting serum glucose \\> 1.5\n  3. Active (acute or chronic) or uncontrolled severe infections.\n  4. Patients with an active, bleeding diathesis.\n* Patients who have had a major surgery or significant traumatic injury within 4 weeks of study entry. Patients who have not recovered from the side effects of any major surgery (defined as requiring general anesthesia), or patients that may require major surgery during the course of the study.\n* Patients who change the dose of the AEDs during 4 weeks before screening or during the baseline period.\n* Prior treatment with any investigational drug within the preceding 4 weeks prior to study entry.\n* Patients with a history of non-compliance to medical regimens or who are considered potentially unreliable or will not be able to complete the entire study. Those in foster care, unable to keep follow-up appointments, maintain close contact with Principal Investigator, or complete all necessary studies to maintain safety.\n* Pregnant or nursing (lactating) women, where pregnancy is defined as the state of a female after conception and until the termination of gestation, confirmed by a positive human chorionic gonadotropin (hCG) laboratory test.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "1 Month",
+    "maximumAge": "45 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Seizures Per Month",
+        "description": "A baseline seizure frequency was recorded for each subject in a diary for eight weeks prior to investigational drug initiation and parents/caregivers documented seizures on a daily basis throughout the trial using a seizure log. For assessing the efficacy of CBD, the investigator counted the change in frequency of seizures per month. The number of seizures within 56 days of the baseline and the number of seizures within 56 days of week 14 were calculated. Higher seizure frequency indicates worse outcome. This outcome is measured as the change in number of seizures per month between the baseline and week 14 time points.",
+        "timeFrame": "Measured within 56 days before baseline and 56 days before week 14"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage Change in Seizure Frequency at Most Recent Visit on CBD Compared With Baseline",
+        "description": "The percentage change, between the seizure frequency per month reported at baseline compared to seizure frequency per month at the subject's most recent visit, on CBD was calculated. Higher positive percentage change in seizure frequency per month would indicate better outcome. Positive values indicate a decrease in seizure frequency.",
+        "timeFrame": "Measured at Baseline and most recent visit within 1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:48.621Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

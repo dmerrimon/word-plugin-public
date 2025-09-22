@@ -1,0 +1,116 @@
+{
+  "nctId": "NCT05648357",
+  "briefTitle": "A Study to Assess the Safety and Immune Response of Quadrivalent Seasonal Influenza Vaccine (Fluarix Tetra) in Participants Aged 65 Years and Older in India",
+  "officialTitle": "A Single-arm, Open-label, Multi-center, Phase IV Trial to Evaluate the Reactogenicity, Safety, and Immunogenicity of Quadrivalent Seasonal Influenza Vaccine (Fluarix Tetra) in Participants Aged 65 Years and Older in India",
+  "protocolDocument": {
+    "nctId": "NCT05648357",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-05-05",
+    "uploadDate": "2025-02-14T01:54",
+    "size": 1794982,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05648357/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 250,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-12-14",
+    "completionDate": "2024-02-26",
+    "primaryCompletionDate": "2024-02-26",
+    "firstSubmitDate": "2022-12-05",
+    "firstPostDate": "2022-12-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or female participants aged \\>= 65 years of age\n* Participants and/or legally acceptable representative (s) (LAR) who in the opinion of the Investigator, can and will comply with the requirements of the protocol (e.g., completion of the diary cards, return for follow-up visits\n* Written or witnessed/thumb printed informed consent obtained from the participant and/or participant's LAR(s) after the study has been explained according to the local authority requirements and prior to performance of any study-specific procedure\n\nExclusion Criteria:\n\n* History of severe allergic reactions (e.g., anaphylaxis) to any component of the vaccine, including egg protein, or following a previous dose of any influenza vaccine.\n* Receipt of licensed vaccine, immune sera and/or any blood products, or an investigational trial agent within previous 30 days or planned during their participation in the trial.\n* Receipt of any flu vaccine within 6 months before trial start or any other vaccine within 30 days before the trial.\n* Receipt of any dose of a Coronavirus Disease 2019 (COVID-19) vaccine within 15 days of trial start.\n* History of Guillain-Barré Syndrome.\n* Altered immune status or chronic administration (defined as more than 14 days) of immunosuppressants or other immune-modifying agents within six months prior to administration of trial vaccine.\n* History of acute infectious disease or acute respiratory illness needing antibiotics or antivirals in the previous 7 days, based on investigator's judgement.\n* If a participant candidate has fever, the trial vaccination should be postponed to when the fever has resolved for at least 2 days (temporary exclusion criterion). Fever is defined as temperature \\>=38.0 degree Celsius (°C) (100.4 degrees Fahrenheit \\[°F\\]) by any route. The preferred location for measuring temperature will be oral route.\n* Acute or chronic clinically significant pulmonary, cardiovascular, hepatic, or renal functional abnormality, as determined by medical history, physical examination, or laboratory screening tests.\n* Any other clinical condition that, in the opinion of the investigator, might pose additional risk to the participant due to participation in the trial.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Reporting Any Solicited Administration Site Adverse Event",
+        "description": "The solicited administration site adverse events included pain, redness and swelling.",
+        "timeFrame": "Day 1 to Day 7"
+      },
+      {
+        "measure": "Number of Participants Reporting Any Solicited Systemic Events",
+        "description": "The solicited systemic events included fever, headache, myalgia (muscle pain), arthralgia (joint pain), fatigue, gastrointestinal symptoms (including nausea, vomiting, diarrhea and/or abdominal pain), sweating and shivering.",
+        "timeFrame": "Day 1 to Day 7"
+      },
+      {
+        "measure": "Number of Participants Reporting Unsolicited Adverse Events (AEs)",
+        "description": "An unsolicited AE is defined as an event reported in addition to the solicited AEs during the clinical study. Also, any solicited symptom with onset outside the specified period of follow-up for solicited symptoms is reported as an unsolicited adverse event.",
+        "timeFrame": "Day 1 to Day 21"
+      },
+      {
+        "measure": "Number of Participants Reporting Serious Adverse Events (SAEs)",
+        "description": "A SAE is defined as any untoward medical occurrence that results in death, is life-threatening, requires hospitalization or prolongation of existing hospitalization, results in disability/incapacity, is a congenital anomaly/birth defect in the offspring of a study participant.",
+        "timeFrame": "Day 1 to Day 21"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Geometric Mean Titers (GMT) of Serum Hemagglutination-inhibiting (HI) Antibodies",
+        "description": "Serum HI antibodies against the four-influenza vaccine strains are expressed as GMTs, in titers. The assessed strains are: A/Victoria/4897/2022 (H1N1), A/Darwin/9/2021 (H3N2), B/Austria/1359417/2021 and B/Phuket/3073/2013.",
+        "timeFrame": "At Baseline (Day 1) and Day 22"
+      },
+      {
+        "measure": "Mean Geometric Increase (MGI) of Serum HI Antibodies",
+        "description": "MGI is defined as the fold increase in post-vaccination serum HI GMTs compared with Baseline. Analysis was performed for four influenza strains: A/Victoria/4897/2022 (H1N1), A/Darwin/9/2021 (H3N2), B/Austria/1359417/2021 and B/Phuket/3073/2013.",
+        "timeFrame": "At Day 22 (compared with Baseline [Day 1])"
+      },
+      {
+        "measure": "Number of Participants With Seroconversion Rate (SCR)",
+        "description": "SCR is defined as the percentage of participants who have either a pre-vaccination titer less than (\\<) 1:10 and a postvaccination titer greater than or equal to (\\>=) 1:40 or a pre-vaccination titer \\>= 1:10 and at least a 4-fold increase in post-vaccination titer.",
+        "timeFrame": "At Day 22"
+      },
+      {
+        "measure": "Number of Participants With Seroprotection Rate (SPR)",
+        "description": "SPR is defined as the percentage of participants with a serum HI titer \\>=1:40.",
+        "timeFrame": "At Day 1 and Day 22"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:41.090Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

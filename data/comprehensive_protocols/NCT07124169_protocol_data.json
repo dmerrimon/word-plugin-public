@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT07124169",
+  "briefTitle": "Therapeutic Effects of Kinesiotape in the Management of Gonarthrosis",
+  "officialTitle": "Therapeutic Effects of Kinesiotape in the Management of Gonarthrosis: A Randomized Controlled Approach",
+  "protocolDocument": {
+    "nctId": "NCT07124169",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-11-25",
+    "uploadDate": "2025-08-12T03:22",
+    "size": 394521,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07124169/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 38,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-11",
+    "completionDate": "2016-06",
+    "primaryCompletionDate": "2016-01",
+    "firstSubmitDate": "2025-08-05",
+    "firstPostDate": "2025-08-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* having a diagnosis of primary gonarthrosis according to ACR classification criteria,\n* being between 45 and 65 years of age,\n* having a radiological diagnosis of gonarthrosis between Kellgren-Lawrence stage 1-3 ,\n* signing the informed consent\n\nExclusion Criteria:\n\n* presence of a neurological disorder affecting muscle strength or balance,\n* history of any surgical operation on the knee, hip or spine,\n* physiotherapy or injections for the knee within the previous year,\n* presence of systemic conditions such as diabetes mellitus, vertigo, visual problems,\n* history of severe trauma within the previous year",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "45 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC)",
+        "description": "WOMAC consists of 24 questions in total (pain 5, joint stiffness 2, functional status 17). Each question was scored on a scale of 1-5. A high score indicates poor health, while a low score indicates good health.",
+        "timeFrame": "From enrollment to the end of treatment at 6 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Visual Analogue Scale (VAS)",
+        "description": "VAS, which ranges from 0 to 10, is used to assess pain levels. A score of 0 represents no pain, while 10 indicates the most severe, unbearable pain. Participants were instructed to indicate their perceived pain level by marking a 10 cm straight line, and the corresponding value was recorded in centimeters.",
+        "timeFrame": "From enrollment to the end of treatment at 6 weeks"
+      },
+      {
+        "measure": "Berg Balance Scale (BBS)",
+        "description": "BBS is a test consisting of 14 items used to evaluate the functional balance of individuals. The application time is approximately 15-20 minutes, and the following materials are needed: a ruler, a stopwatch, a chair, a step, and an area suitable for 360-degree rotation. Each item is evaluated on a scale of 0-4 points based on the individual's ability to perform the given task independently and correctly. The total score is 56. A score between 0-20 indicates severe balance impairment, between 21-40 indicates acceptable balance, and between 41-56 indicates good balance.",
+        "timeFrame": "From enrollment to he end of treatment at 6 weeks."
+      },
+      {
+        "measure": "Short Form (SF-36)",
+        "description": "The SF-36 questionnaire was developed to assess quality of life. A total of 8 sub-parameters, including pain, social functioning, energy/vitality, emotional role difficulties, physical role difficulties, physical functioning, general health perception, and mental health, are examined",
+        "timeFrame": "From enrollment to the end of treatment at 6 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:58.934Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

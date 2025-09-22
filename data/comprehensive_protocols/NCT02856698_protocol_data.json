@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT02856698",
+  "briefTitle": "MIdazolam Versus MOrphine in Acute Pulmonary Edema (MIMO Trial)",
+  "officialTitle": "Study Design and Rationale of \"A Multicenter, Open-Labeled, Randomized Controlled Trial Comparing MIdazolam Versus MOrphine in Acute Pulmonary Edema\": MIMO Trial",
+  "protocolDocument": {
+    "nctId": "NCT02856698",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-07-07",
+    "uploadDate": "2021-10-26T07:47",
+    "size": 625190,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02856698/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 111,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-04-08",
+    "completionDate": "2020-12-31",
+    "primaryCompletionDate": "2020-12-31",
+    "firstSubmitDate": "2016-07-20",
+    "firstPostDate": "2016-08-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with acute pulmonary edema with dyspnoea and anxiety\n\nExclusion Criteria:\n\n* Patients with known severe liver disease.\n* Patients with known severe renal disease.\n* Patients with expectation of death from other illness during the course of the trial.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "In-hospital Mortality",
+        "description": "In hospital mortality",
+        "timeFrame": "28 days after of the hospitalization"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants That Required Invasive Mechanical Ventilation",
+        "timeFrame": "Up to 1 week"
+      },
+      {
+        "measure": "Length of Hospital Stay",
+        "description": "Length of hospital stay",
+        "timeFrame": "Up to 30 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:33.317Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

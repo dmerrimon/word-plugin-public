@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT01519453",
+  "briefTitle": "Reducing Asthma Morbidity In High Risk Minority Preschool Children",
+  "officialTitle": "Reducing Asthma Morbidity in High Risk Minority Preschool Children (Asthma Basic Care (ABC) at Head Start)",
+  "protocolDocument": {
+    "nctId": "NCT01519453",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-01-26",
+    "uploadDate": "2021-02-09T09:50",
+    "size": 308314,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01519453/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 404,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-09",
+    "completionDate": "2018-03",
+    "primaryCompletionDate": "2017-11",
+    "firstSubmitDate": "2012-01-24",
+    "firstPostDate": "2012-01-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Enrolled in Head Start\n* Physician diagnosed asthma or reactive airway disease\n* Resides in Baltimore City or Baltimore County\n* English Speaking\n\nExclusion Criteria:\n\n* Enrolled in another pulmonary research study\n* Sibling enrolled in study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "6 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Asthma Control as Determined by Test for Respiratory and Asthma Control in Kids Assessment Tool",
+        "description": "The Test for Respiratory and Asthma Control in Kids test is an assessment tool consisting of 5 questions posed to caregivers and designed to assess respiratory and asthma control in patients between 12 months and 5 years. It addresses risk and impairment domains outlined in the Asthma Guidelines and is meant to be interpreted by medical professionals. A total score is calculated from 0-100 with scores less than 80 indicating the child's asthma may not be under control and scores of 80 or more indicating that a child's asthma seems to be under control.",
+        "timeFrame": "Baseline, 3, 6, 9 and 12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Total Number of Emergency Department (ED) Visits [Child]",
+        "description": "Aggregate number of ED visits for asthma in past 90 days for all participants.",
+        "timeFrame": "Baseline, 3, 6, 9 and 12 months"
+      },
+      {
+        "measure": "Total Number of Hospitalizations [Child]",
+        "description": "Aggregate number of hospitalizations due to asthma 12 months before randomization vs after randomization for all participants.",
+        "timeFrame": "Baseline and 12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:23.676Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

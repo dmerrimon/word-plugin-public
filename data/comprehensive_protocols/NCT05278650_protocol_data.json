@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT05278650",
+  "briefTitle": "Senior PharmAssist: Co-Design and Evaluation of a Toolkit to Promote Scalable Implementation",
+  "officialTitle": "Senior PharmAssist: Co-Design and Evaluation of a Toolkit to Promote Scalable Implementation",
+  "protocolDocument": {
+    "nctId": "NCT05278650",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-02-11",
+    "uploadDate": "2025-05-05T10:11",
+    "size": 191984,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05278650/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-08-24",
+    "completionDate": "2024-07-31",
+    "primaryCompletionDate": "2024-07-31",
+    "firstSubmitDate": "2022-03-04",
+    "firstPostDate": "2022-03-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Aged 60 or older\n* Currently or soon to be enrolled in Medicare\n* Income is at or below 200% of Poverty Line\n* Lives in one of 3 targeted communities learning to implement the Senior PharmAssist\\^TM core services\n* Seeks assistance with medications, Medicare counseling, or tailored referrals from agencies participating in Senior PharmAssist\\^TM learning collaborative\n\nExclusion Criteria:\n\nNone",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Older Adults Seeking Service Who Received All 4 Components of Senior PharmAssist Intervention",
+        "timeFrame": "13 months post-completion of learning collaborative"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Older Adults Receiving Medication Therapy Management",
+        "timeFrame": "13 months post-completion of learning collaborative"
+      },
+      {
+        "measure": "Percentage of Older Adults Receiving Medication Co-pay Assistance",
+        "timeFrame": "13 months post-completion of learning collaborative"
+      },
+      {
+        "measure": "Percentage of Older Adults Receiving at Least One Tailored Community Referral",
+        "timeFrame": "13 months post-completion of learning collaborative"
+      },
+      {
+        "measure": "Percentage of Older Adults Receiving Medicare Counseling",
+        "timeFrame": "13 months post-completion of learning collaborative"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Change in Self-rated Health",
+        "description": "Change from baseline in proportion of participants who rate their health as good to excellent.\n\nScale of rating ranges from 1 = poor, 2 = fair, 3 = good, 4 = very good, 5 = excellent.",
+        "timeFrame": "Baseline, 13 months post-completion of learning collaborative"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 1,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 36,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:49.756Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

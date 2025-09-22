@@ -1,0 +1,132 @@
+{
+  "nctId": "NCT03689621",
+  "briefTitle": "Proof of Concept Study of Vagus Nerve Stimulation",
+  "officialTitle": "Proof of Concept Study of Vagus Nerve Stimulation Using an External Device for the Treatment of Behaviour Problems in People With Neurodevelopmental Disorders, Specifically Prader Willi Syndrome",
+  "protocolDocument": {
+    "nctId": "NCT03689621",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-01-01",
+    "uploadDate": "2018-09-27T08:06",
+    "size": 270505,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03689621/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-01-01",
+    "completionDate": "2018-12-31",
+    "primaryCompletionDate": "2018-12-31",
+    "firstSubmitDate": "2018-09-26",
+    "firstPostDate": "2018-09-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or female aged over 18 years of age.\n* Genetically and clinically determined diagnosis of PWS or meeting clinical or the presence of another neurodevelopmental syndrome such as an autistic spectrum condition.\n* History of problem behaviours of, on average, at least one significant informant-reported episode each week.\n* Capacity to consent.\n* Able to commit to the study duration and to attend assessments in Cambridge.\n\nExclusion Criteria:\n\n* Meet exclusion criteria for MRI scanning and/or unable to tolerate MRI environment.\n* Serious co-morbid physical or psychiatric disorder which would disrupt ability to comply with study demands (e.g. a history of serious bipolar disorder; sleep apnoea not well-controlled with CPAP; insulin dependent diabetes).\n* Current or past history of neurological disorders or trauma, including epilepsy, and head injury.\n* Currently or recently (within 12 months) participating in a clinical trial of an investigational medicinal product (CTIMP) or another medical device.\n* Lacking the capacity to consent.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The number of operationally defined outbursts",
+        "description": "Measured using participant and informant diaries.",
+        "timeFrame": "15-17 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The Challenging Behaviour Checklist",
+        "description": "Scores on rating scale, repeated over time. Score range 50-55. higher score indicates more severe behaviour.",
+        "timeFrame": "15-17 months"
+      },
+      {
+        "measure": "Repetitive Behaviour Questionnaire",
+        "description": "Scores on rating scale, repeated over time. Total scores range between 20-60. The higher toe score the worse behaviours are.",
+        "timeFrame": "15-17 months"
+      },
+      {
+        "measure": "Life Experiences Checklist.",
+        "description": "Intended to gather information about the potentially traumatic experiences a person has experienced. There is no formal scoring protocol or interpretation per se, other than identifying whether a person has experienced one or more of the events listed. Respondents indicate varying levels of exposure to each type of potentially traumatic event included on a 6-point nominal scale, and respondents may endorse multiple levels of exposure to the same trauma type.",
+        "timeFrame": "15-17 months"
+      },
+      {
+        "measure": "fMRI at resting and on-task",
+        "description": "FMRI data will be analysed using both 1st and 2nd level general linear model (GLM) analyses to compare within cases and across time points. Network analyses of functional connectivity may also be appropriate",
+        "timeFrame": "15-17 months"
+      },
+      {
+        "measure": "Participants response to challenge",
+        "description": "Using methodology developed by Prof Oliver, filmed and subsequently rated blind for emotional and behavioural changes.",
+        "timeFrame": "15-17 months"
+      },
+      {
+        "measure": "Semi-structured interviews",
+        "description": "With participants and carers to probe about any observed subtle changes in behaviour. Analysed thematically.",
+        "timeFrame": "15-17 months"
+      },
+      {
+        "measure": "Attention shifting ability",
+        "description": "Tested via go-no-go task developed for people with PWS by Woodcock et al (2009). Reaction times analysed.",
+        "timeFrame": "15-17 months"
+      },
+      {
+        "measure": "Salival cortisol measures",
+        "description": "recorded across the course of four separate days during the course of study (at waking, 30 minutes post-waking, 45 minutes post-waking, 1 hour post-waking and then four more times throughout the day at approximately +3h, +6h, +9h and +14h after waking).",
+        "timeFrame": "15-17 months"
+      },
+      {
+        "measure": "Vocal prosody",
+        "description": "Two voice recordings of the participant talking will be collected on each of these occasions. Each recording will be at least 20 seconds long, with the participant asked to talk about a positive experience (e.g. favourite birthday, best friend etc.) in one, a less positive time (e.g. a time when he/she was disappointed or sad) in the other. These will be analysed for changes in vocal prosody with t-VNS.",
+        "timeFrame": "15-17 months"
+      },
+      {
+        "measure": "Heart Rate Variability",
+        "description": "derived from ECG and respiration measured using an Intelesens (Belfast) 3-axis 'Zensor' wearable monitor. For each participant ECG recording will take place in 24-hour blocks. HRV will be determined from R-R intervals as root mean of squared successive differences and average HRV will be determined for each participant for brief (15 minutes) and prolonged (24 hours) periods.",
+        "timeFrame": "15-17 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:12.833Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

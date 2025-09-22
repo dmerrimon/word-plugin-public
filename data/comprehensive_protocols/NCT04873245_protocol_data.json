@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04873245",
+  "briefTitle": "Lifestyle Counseling and Medication for Adolescent Weight Management",
+  "officialTitle": "Lifestyle Counseling and Medication for Adolescent Weight Management",
+  "protocolDocument": {
+    "nctId": "NCT04873245",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-03-12",
+    "uploadDate": "2025-05-08T10:03",
+    "size": 1009121,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04873245/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 120,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-03-15",
+    "completionDate": "2027-07-31",
+    "primaryCompletionDate": "2026-07-31",
+    "firstSubmitDate": "2021-04-30",
+    "firstPostDate": "2021-05-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Severe obesity (Body Mass Index (BMI) \\>/= 120% of the 95th percentile or BMI \\>/= 35 kg/m2)\n* Age 12 to \\< 18 years old and Tanner stage \\>1\n\nExclusion Criteria:\n\n* Diabetes (type 1 or 2)\n* Current or recent (\\< 6 months prior to enrollment) use of anti-obesity medication(s) defined as orlistat, phentermine, topiramate, combination phentermine/topiramate, liraglutide (or other GLP-1RA) and/or combination naltrexone/bupropion (monotherapy use of naltrexone or bupropion is not an exclusion)\n* Previous bariatric surgery\n* Any history of treatment with growth hormone\n* Medically-documented history of bulimia nervosa\n* Major psychiatric disorder as determined by the local medical monitor\n* Unstable depression requiring hospitalization within the previous 6 month\n* Any history of suicide attempt\n* History of suicidal ideation or self-harm within the previous 30 days\n* Current pregnancy or plans to become pregnant\n* ALT or AST \\>/= 5 times the upper limit of normal\n* Creatinine \\> 1.2 mg/dL\n* Uncontrolled hypertension as determined by the local medical monitor\n* Diagnosed and medically-documented monogenic obesity\n* Medically-documented history of cholelithiasis\n* Untreated thyroid disorder\n* Medically documented history of pancreatitis\n* Personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2\n* Clinically significant heart disease as determined by the local medical monitor\n* Personal history of malignant neoplasms within the past five years\n* Hypersensitivity to any component of semaglutide",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in body mass index",
+        "description": "The percent change in body mass index (BMI) from Baseline to Week 52 will be calculated. BMI is defined as a person's weight in kilograms divided by the square of height in meters.",
+        "timeFrame": "52 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:16.006Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

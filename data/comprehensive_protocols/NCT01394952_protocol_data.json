@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT01394952",
+  "briefTitle": "Researching Cardiovascular Events With a Weekly Incretin in Diabetes (REWIND)",
+  "officialTitle": "The Effect of Dulaglutide on Major Cardiovascular Events in Patients With Type 2 Diabetes: Researching Cardiovascular Events With a Weekly INcretin in Diabetes (REWIND)",
+  "protocolDocument": {
+    "nctId": "NCT01394952",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-10-05",
+    "uploadDate": "2019-04-08T13:14",
+    "size": 918504,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01394952/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9901,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-07-22",
+    "completionDate": "2018-08-21",
+    "primaryCompletionDate": "2018-08-21",
+    "firstSubmitDate": "2011-07-13",
+    "firstPostDate": "2011-07-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes with Hemoglobin A1c equal to or less than 9.5% (equal to or less than 81 mmol/mol)\n* Anti-hyperglycemic drug naive or treated with up to 2 oral hyperglycemic drugs with or without a glucagon-like peptide-1analog or basal insulin, or basal insulin alone\n* On stable antihyperglycemic regimen for at least 3 months\n* Age equal to or greater than 50 years with established clinical vascular disease, or age equal to or greater than 55 years and subclinical vascular disease or age equal to or greater than 60 years and at least 2 or more cardiovascular risk factors\n\nExclusion Criteria:\n\n* Uncontrolled diabetes requiring immediate therapy\n* History of severe hypoglycemia in past year\n* Acute coronary or cerebrovascular event within past 2 months\n* Planned or anticipated revascularization procedure\n* History of pancreatitis, hepatic insufficiency , chronic renal failure or of C-cell thyroid disorder\n* Pregnancy or planned pregnancy during the trial period\n* Completed or withdrawn from any study investigating dulaglutide",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Who Experienced an Event For Time, From Randomization to First Occurrence of Cardiovascular Death, Non-fatal Myocardial Infarction, or Non-fatal Stroke (a Composite Cardiovascular Outcome)",
+        "description": "The time from randomization to first occurrence of cardiovascular death, non-fatal myocardial infarction, or non-fatal stroke (a composite endpoint) was evaluated using time-to-event analysis. The primary analysis model was a Cox proportional hazards regression model for the time to the first occurrence of a primary endpoint event, with treatment as a fixed effect using the intent-to-treat population. The number of participants who experienced a primary cardiovascular (CV) endpoint event is presented.",
+        "timeFrame": "From randomization to first occurrence or death from any cause or study completion (Median Follow-Up of 5.4 Years)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Who Experienced an Event for Time to First Occurrence After Randomization of Cardiovascular Death, Non-fatal Myocardial Infarction, or Non-fatal Stroke, Individually",
+        "description": "The time from randomization to first occurrence of cardiovascular death, non-fatal myocardial infarction, or non-fatal stroke (individually) was evaluated using time-to-event analysis via the Cox proportional hazards regression model where response equals treatment. Death from CV causes is defined as a death resulting from an acute myocardial infarction (MI), sudden cardiac death, death due to heart failure, death due to stroke, or death due to other CV causes. The number of participants who experienced an event is presented.",
+        "timeFrame": "From randomization to first occurrence or study completion (Median Follow-Up of 5.4 Years)"
+      },
+      {
+        "measure": "Number of Participants Who Experienced an Event for Time to All-cause Mortality",
+        "description": "The time to all-cause mortality was evaluated using time-to-event analysis via the Cox proportional hazards regression model where response equals treatment. The number of participants who experienced an event is presented.",
+        "timeFrame": "From randomization to study completion (Median Follow-Up of 5.4 Years)"
+      },
+      {
+        "measure": "Number of Participants Who Experienced an Event for Time to First Occurrence After Randomization of the Composite Microvascular Endpoint",
+        "description": "The time from randomization to first occurrence of the composite microvascular endpoint was evaluated using time-to-event analysis via the Cox proportional hazards regression model where response equals treatment. The composite microvascular endpoint is defined as diabetic retinopathy requiring laser therapy, vitrectomy, or anti-vascular endothelial growth factor therapy (VEGF), clinical proteinuria, a greater than equal ≥ 30% decline in estimated glomerular filtration rate, or need for chronic renal replacement therapy. The number of participants who experienced the composite microvascular endpoint event is presented.",
+        "timeFrame": "From randomization to first occurrence or study completion (Median Follow-Up of 5.4 Years)"
+      },
+      {
+        "measure": "Number of Participants Who Experienced An Event for Time to First Occurrence After Randomization of Heart Failure Requiring Hospitalization or an Urgent Heart Failure Clinic Visit",
+        "description": "The time to first occurrence after randomization of heart failure requiring hospitalization or an urgent heart failure clinic visit was evaluated using time-to-event analysis via the Cox proportional hazards regression model where response equals treatment. The number of participants who experienced an event is presented.",
+        "timeFrame": "From randomization to first occurrence or study completion (Median Follow-Up of 5.4 Years)"
+      },
+      {
+        "measure": "Number of Participants Who Experienced an Event for Time to First Occurrence After Randomization of First Hospitalization for Unstable Angina",
+        "description": "Time to first occurrence after randomization of first hospitalization for unstable angina was evaluated using time-to-event analysis via the Cox proportional hazards regression model where response equals treatment. The number of participants who experienced an event is presented.",
+        "timeFrame": "From randomization to first occurrence or study completion (Median Follow-Up of 5.4 Years)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:09.580Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

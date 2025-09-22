@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT02056340",
+  "briefTitle": "Statin Therapy in Acute Influenza",
+  "officialTitle": "Statin Therapy in Acute Influenza",
+  "protocolDocument": {
+    "nctId": "NCT02056340",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-02-01",
+    "uploadDate": "2019-07-22T10:43",
+    "size": 365175,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02056340/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 116,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-10",
+    "completionDate": "2018-06-30",
+    "primaryCompletionDate": "2018-06-30",
+    "firstSubmitDate": "2013-10-15",
+    "firstPostDate": "2014-02-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:(all must be present):\n\n1. Adult patient (age \\> 18 years)\n2. Positive influenza DFA/RAT test result\n3. \\<12 hours from positive influenza test result\n\nExclusion Criteria:\n\n1. Prior statin medication use (within 30 days of positive influenza test result)\n2. Comfort measures only designation or anticipated withdrawal of life-support\n3. Atorvastatin specific exclusions:\n\n   1. Documented liver cirrhosis or liver dysfunction (AST or ALT greater than 240)\n   2. Known allergy or intolerance to statins\n   3. Rhabdomyolysis (CPK elevation \\> 6x normal)\n   4. Patients taking the following medications: cyclosporine, HIV protease inhibitors, hepatitis C protease inhibitor telaprevir, fibric acid derivatives (gemfibrozil), niacin, azole antifungals (itraconazole, ketoconazole) clarithromycin and colchicine\n4. Patients unable to take oral or nasogastric medications or plan for no oral intake as part of medical course (eg. emergent surgical intervention)\n5. Known pregnancy or active breastfeeding\n6. Inability to provide written informed consent for any reason",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Inflammatory Markers From Time Zero to 72 Hours",
+        "description": "The primary IL- 6 measurements were at time zero and at 72 hours. Analysis was performed using a linear mixed effects model to make use of all biomarker timepoints as hospitalized patients had biomarkers measured at additional timepoints.",
+        "timeFrame": "Baseline to 72 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Severity of Illness Score Baseline to 72 Hours",
+        "description": "Composite score for 5 major symptoms (fever, cough, sore throat, headache, myalgia) ranked from 0 to 3 (none, mild, moderate, severe) for a score ranging from 0 to 15. Higher scores reflect more severe symptoms.",
+        "timeFrame": "Baseline and 72 hours"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Progression to Shock State",
+        "description": "The investigators will assess the effect of statin therapy on rates of development of shock state",
+        "timeFrame": "From date of randomization until discharge from hospital"
+      },
+      {
+        "measure": "Severity of Illness",
+        "description": "The investigators will assess the effect of statin therapy on APACHE II scores",
+        "timeFrame": "24 hours post enrollment"
+      },
+      {
+        "measure": "In-hospital Mortality",
+        "description": "The investigators will assess the effect of statin therapy on in-hospital mortality",
+        "timeFrame": "From date of randomization until the date of first documented discharge from hospital or date of death from any cause, whichever came first, assessed up to 1 year"
+      },
+      {
+        "measure": "ICU and Hospital Length of Stay",
+        "description": "The investigators will assess the effect of statin therapy on hospital and ICU length of stay.",
+        "timeFrame": "From date of randomization until the date of ICU discharge (in the event of ICU admission) and/or hospital discharge, based on an estimated average of 30 days"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 4,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 52,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:34.029Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT05764785",
+  "briefTitle": "Evaluating a Digital Peer Mentoring Platform With College Student Populations",
+  "officialTitle": "Evaluating the Acceptability, Feasibility, and Efficacy of a Digital Peer Mentoring Platform With College Student Populations",
+  "protocolDocument": {
+    "nctId": "NCT05764785",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-08-02",
+    "uploadDate": "2023-10-10T17:02",
+    "size": 336401,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05764785/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 63,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-06-22",
+    "completionDate": "2023-08-21",
+    "primaryCompletionDate": "2023-08-21",
+    "firstSubmitDate": "2023-02-10",
+    "firstPostDate": "2023-03-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n* Being a current member of the identified summer program (Directions for Student Potential at the University of Massachusetts Boston during the 2023 summer)\n* Can speak, read, and write in English\n* Has access to a smartphone\n* 18-years-old or older\n* Any self-reported symptoms of anxiety, depression, life dissatisfaction, or lack of college belonging\n\nExclusion criteria:\n\n* Not a member of the identified summer program (Directions for Student Potential at the University of Massachusetts Boston during the 2023 summer)\n* No access to smartphone\n* Cannot speak, read, and write in English\n* under 18-years-old\n* Not reporting any symptoms of anxiety, depression, life dissatisfaction, or lack of college belonging",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Self-reported Depression Symptoms",
+        "description": "Patient Health Questionnaire - 9 (PHQ-9): Depression symptoms over the last two weeks, minus item 9 (suicidal ideation) Scores range from 0 (no depression symptoms) to 24 (high/extreme depression symptoms).",
+        "timeFrame": "9 weeks after program start"
+      },
+      {
+        "measure": "Self-reported Anxiety Symptoms",
+        "description": "General Anxiety Disorder - 7 (GAD-7): Anxiety symptoms over the last two weeks Scores range from 0 (no anxiety symptoms) to 21 (extreme/severe anxiety symptoms)",
+        "timeFrame": "9 weeks after program start"
+      },
+      {
+        "measure": "Life Satisfaction",
+        "description": "Single item of current life satisfaction: In general, how satisfied are you with your life? Responses ranging from 1 (very satisfied) to 4 (very dissatisfied)",
+        "timeFrame": "9 weeks after program start"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Academic Self-efficacy",
+        "description": "Single item of feelings of academic self-efficacy: I am confident that I will be a successful student at UMass Boston.\n\nScores range from strongly disagree (1) to strongly agree (5) Greater scores reflect greater perceived academic self-efficacy",
+        "timeFrame": "9 weeks after program start"
+      },
+      {
+        "measure": "Cognitive Load",
+        "description": "Single item assessing cognitive load of finding resources on campus: It can be exhausting to find the information and resources I need to succeed.\n\nScores range from strongly disagree (1) to strongly agree (5) Greater scores reflect greater perceived exhaustion when finding needed resources",
+        "timeFrame": "9 weeks after program start"
+      },
+      {
+        "measure": "Sense of Belonging to the University Community",
+        "description": "Single item assessing feelings of sense of belonging: I feel part of the UMass Boston community.\n\nScores range from strongly disagree (1) to strongly agree (5) Greater scores reflect greater sense of belonging to the university community",
+        "timeFrame": "9 weeks after program start"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:19.107Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

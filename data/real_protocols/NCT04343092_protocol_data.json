@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT04343092",
+  "briefTitle": "Effectiveness of Ivermectin as add-on Therapy in COVID-19 Management",
+  "officialTitle": "Effectiveness of Ivermectin as add-on Therapy in COVID-19 Management (An Externally Controlled Pilot Trial)",
+  "protocolDocument": {
+    "nctId": "NCT04343092",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-07-15",
+    "uploadDate": "2020-11-02T12:45",
+    "size": 287424,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04343092/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 16,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-04-18",
+    "completionDate": "2020-06-01",
+    "primaryCompletionDate": "2020-05-31",
+    "firstSubmitDate": "2020-04-05",
+    "firstPostDate": "2020-04-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n-1. Patients with age above 18 years and any gender with definite Dx of covid19 and pneumonia in the ward according to the clinical, laboratory, and imaging criteria.\n\n2\\. Understands and agrees to comply with planned study procedures.\n\nExclusion Criteria:\n\n1. Patients with hypersensitivity or severe adverse effects to Ivermectin\n2. Renal impairment\n3. Hepatic impairment.\n4. Pregnancy or a desire to become pregnant (drug considered pregnancy category c)\n5. Breast feeding.\n6. Patient with covid 19 positive and mild no pneumonia\n7. Children under the age of five or those who weigh less than 15 kilograms",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Cured Patients",
+        "description": "Primary outcome is assessed by calculating the number of patients who had symptoms free and two successive readings of negative PCR swab.",
+        "timeFrame": "4 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time to Cure of COVID-19 Patients in the IVM +HCQ+AZT Group",
+        "description": "Time to cure is evaluated by measuring time from admission of the patient to the hospital till discharge after being free of symptoms and negative PCR swab. Once nasopharyngeal and oropharyngeal swab viral PCR testing yielded negative results 2 times consecutively, no further testing was performed",
+        "timeFrame": "4 week"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 7,
+      "totalCount": 8
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 31,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:32:20.742Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT01266642",
+  "briefTitle": "Hypofractionated Radiation Therapy or Standard Radiation Therapy in Treating Patients With Ductal Breast Carcinoma In Situ or Early Invasive Breast Cancer",
+  "officialTitle": "Randomized Trial of Hypofractionated Whole Breast Irradiation Versus Conventionally Fractionated Whole Breast Irradiation for Ductal Carcinoma In Situ and Early Invasive Breast Cancer",
+  "protocolDocument": {
+    "nctId": "NCT01266642",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-08-16",
+    "uploadDate": "2021-09-16T19:07",
+    "size": 590768,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01266642/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 301,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-02-08",
+    "completionDate": "2025-11-30",
+    "primaryCompletionDate": "2020-11-30",
+    "firstSubmitDate": "2010-12-20",
+    "firstPostDate": "2010-12-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Pathologically confirmed ductal carcinoma in situ of the breast or early invasive breast cancer defined as pathologic stage Tis, T1, or T2, N0, N1mic, or N1a (pathologic staging of the axilla is required for all patients with invasive disease but is not required for patients with ductal carcinoma in situ \\[DCIS\\] only); (upfront pathologic stage cannot be assigned to patients treated with neoadjuvant chemotherapy; for such patients, the criteria for pathologic stage shall be applied to the initial clinical stage)\n* Treatment with breast conserving surgery\n* Final surgical margins must be negative, defined as no evidence for ductal carcinoma in situ or invasive breast cancer touching the inked surgical margin; if the invasive or in situ breast cancer approaches within less than 1 mm of the final surgical margin, then a re-excision is strongly encouraged; lobular carcinoma in situ at the final surgical margin will be disregarded\n* Age 40 years or older. This age cutoff is justified because breast cancers in women under the age of 40 are known to have a significantly higher risk of IBTR presumably due to underlying biologic differences.\n* Female sex.\n* Attending radiation oncologist declares intention to treat the whole breast only and that a third radiation field to treat regional lymph nodes is not planned (radiation of the undissected level I/II axilla with high tangents is allowed)\n* If the patient has a history of a prior non-breast cancer, all treatment for this cancer must have been completed prior to study registration and the patient must have no evidence of disease for this prior non-breast cancer\n* Patients must be enrolled on the trial within 12 weeks of the later of two dates: the final breast conserving surgical procedure or administration of the last cycle of concurrent cytotoxic chemotherapy\n\nExclusion Criteria:\n\n* Pathologic or clinical evidence for a stage T3 or T4 breast cancer\n* Pathologic evidence for involvement of 4 or more axillary lymph nodes, or imaging evidence of involvement of infraclavicular, supraclavicular, or internal mammary lymph nodes\n* Clinical or pathologic evidence for distant metastases\n* Any prior diagnosis of invasive or ductal carcinoma in situ breast cancer in either breast\n* Current diagnosis of bilateral breast cancer\n* History of therapeutic irradiation to the breast, lower neck, mediastinum or other area in which there could potentially be overlap with the affected breast\n* Patients not fluent in English or Spanish (The BCTOS will be available in these two languages)\n* Patient is pregnant",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Scores of Either <2.5 or >=2.5 on the Breast Cancer Treatment Outcome Scale (BCTOS) Cosmesis",
+        "description": "BCTOS cosmesis score range from 1 to 4, and scores of 2.5 or more indicate adverse cosmetic outcomes.",
+        "timeFrame": "3 years after completing radiation therapy"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Panel Physicians Rated Cosmesis",
+        "description": "A group of three attending physicians blinded to the treatment scored the photographs using the Radiation Therapy and Oncology Group (RTOG) criteria. RTOG scale range from 1 (excellent), 2 (good), 3 (fair), and 4 (poor).",
+        "timeFrame": "3 years after completing radiation therapy."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:54.017Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

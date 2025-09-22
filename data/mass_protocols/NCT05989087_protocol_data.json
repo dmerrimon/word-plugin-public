@@ -1,0 +1,90 @@
+{
+  "nctId": "NCT05989087",
+  "briefTitle": "The Resting-state EEG Gamma Oscillations in Alzheimer's Disease",
+  "officialTitle": "The Underestimated Utility of Resting-state Gamma Oscillations: Both Increase and Decrease of Gamma Discriminates Early-onset Alzheimer's Disease Patients From Healthy Individuals",
+  "protocolDocument": {
+    "nctId": "NCT05989087",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-07-25",
+    "uploadDate": "2023-07-25T09:31",
+    "size": 421800,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05989087/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 51,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-11-07",
+    "completionDate": "2019-04-05",
+    "primaryCompletionDate": "2016-01-02",
+    "firstSubmitDate": "2023-07-25",
+    "firstPostDate": "2023-08-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* For all participants: Age \\< 65\n* For EOAD patients: Meeting National Institute on Aging-Alzheimer's Association diagnostic criteria.\n* For healthy controls: Mini-Mental State Examination (MMSE) \\>25 Instrumental Activities of Daily Living Scale (IADL) = 8\n\nExclusion Criteria:\n\n* For EOAD patients: MMSE \\> 24 Geriatric depression scale (GDS) \\> 14 Having treatment with antipsychotics and comorbidities that may affect cognitive abilities.\n* For healthy controls: Having neurological and/or cognitive abnormalities Having a history of neurological, psychiatric, or systemic disorders, and alcohol/drug abuse. GDS \\> 14\n* For all participants: Having neurological (other than AD) or any other serious disease (cancer, systemic disease)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "EEG",
+        "description": "The resting state EEG recordings were acquired using Easy-Cap comprising 30 Ag/AgCl electrodes placed according to the international 10-20 system. Coherence and maximum peak power of the total gamma (30-48 Hz) and sub-gamma bands \\[gamma-1 (30-35 Hz), gamma-2 (35-40 Hz), and gamma-3 (40-48 Hz)\\] were measured for each participant.",
+        "timeFrame": "Day 2"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Correlation Analysis",
+        "description": "Correlations between CSF, neuropsychological tests (NPT), EEG, and MRI measures were investigated.",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Discriminant Analysis",
+        "description": "The discriminative power of gamma measures (power and coherence) was investigated with discriminant analysis (DA).",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "MRI",
+        "description": "Participants underwent structural magnetic resonance imaging on a Philips Achieva 1.5 Tesla scanner. The gray matter volumes were obtained from the 3D-T1 weighted Turbo field echo (TFE) sequence (TR: 9ms, Time to Echo (TE): 4ms, Field-of-view (FOV): 240mm, matrix: 256, slice thickness: 1mm, numbers of signal averages (NSA): 1). The images were segmented into gray matter, white matter, and CSF with the default parameters of the CAT12 segmentation function. Only the gray matter calculations were compared between groups.",
+        "timeFrame": "Day 1"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:00.783Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

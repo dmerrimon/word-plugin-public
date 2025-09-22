@@ -1,0 +1,83 @@
+{
+  "nctId": "NCT02012621",
+  "briefTitle": "Quantifying Drug Adherence and Drug Exposure to Antiretroviral Therapy",
+  "officialTitle": "Quantifying Drug Adherence and Drug Exposure to Antiretroviral Therapy.",
+  "protocolDocument": {
+    "nctId": "NCT02012621",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2013-08-21",
+    "uploadDate": "2019-09-13T13:32",
+    "size": 137468,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02012621/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 807,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-12",
+    "completionDate": "2017-07",
+    "primaryCompletionDate": "2017-07",
+    "firstSubmitDate": "2013-12-04",
+    "firstPostDate": "2013-12-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* HIV-infected individual.\n* 18 years and older.\n* Taking tenofovir.\n* Blood drawn during regular clinic visit.\n\nExclusion Criteria:\n\n* Refusal to participate.\n* Pregnancy.\n* Inability to provide informed consent.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adjusted Odds Ratio of Level of Tenofovir-diphosphate (TFV-DP) in Dried Blood Spots (DBS) Associated With Odds of HIV Viral Suppression at All Study Visits",
+        "description": "HIV viral load, binary cutoff at assay level of detection (\\<20 copies/mL vs. \\>= 20 copies/mL); reference group: drug concentration (TFV-DP) \\< 350 femtomole (fmol)/punch vs. drug concentration (TFV-DP) \\>= 1850 fmol/punch; adjusted odds ratio calculated using generalized estimating equations; concentration cutoffs established in prior research of healthy volunteers",
+        "timeFrame": "Up to 48 Weeks"
+      },
+      {
+        "measure": "Adjusted Odds Ratio of Three-month Self-reported Adeherence Associated With Odds of HIV Viral Suppression at All Study Visits",
+        "description": "HIV viral load, binary cutoff at assay level of detection (\\<20 copies/mL vs. \\>= 20 copies/mL); reference group: three-month self-reported adherence \\<28.5% vs. three-month self-reported adherence 100%; adherence cutoffs established in prior research",
+        "timeFrame": "Up to 48 Weeks"
+      },
+      {
+        "measure": "Adjusted Odds Ratio of Level of Tenofovir-diphosphate (TFV-DP) in Dried Blood Spots (DBS) Associated With Odds of HIV Viral Suppression at Next Study Visit",
+        "description": "HIV viral load, binary cutoff at assay level of detection (\\<20 copies/mL vs. \\>= 20 copies/mL); drug concentration (TFV-DP) \\<800 femtomole (fmol)/punch) vs reference group of drug concentration (TFV-DP) \\>= 1650 fmol/punch; adjusted odds ratio calculated using generalized estimating equations",
+        "timeFrame": "Up to 48 Weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:20.369Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

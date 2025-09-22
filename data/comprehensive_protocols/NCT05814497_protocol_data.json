@@ -1,0 +1,126 @@
+{
+  "nctId": "NCT05814497",
+  "briefTitle": "Supraspinal Processing of Sensory Aspects of Pain",
+  "officialTitle": "Supraspinal Processing of Sensory Aspects of Pain",
+  "protocolDocument": {
+    "nctId": "NCT05814497",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-02-10",
+    "uploadDate": "2023-02-22T18:51",
+    "size": 329576,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05814497/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 350,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-05-01",
+    "completionDate": "2027-06-30",
+    "primaryCompletionDate": "2027-06-30",
+    "firstSubmitDate": "2023-02-10",
+    "firstPostDate": "2023-04-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients will need a diagnosis of a chronic pain derived congruent with ICD-11 criteria related to headache (migraine, daily headache), abdominal (FAPD), localized MSK (single limb/joint, low back or chest pain), diffuse MSK (widespread MSK pain), or CRPS\n* If on medications, they need to be on stable doses of prescribed pain and/or psychiatric medications for 4 weeks before the baseline study visit.\n* Male or female, age 10 -17 (inclusive)\n* English speaking, able to complete interviews and questionnaires in English\n\nExclusion Criteria:\n\n* Weight/size incompatible with MRI scanner\n* Orthodontic braces, metallic or electronic implants, or other metal objects in the body which obscure or interfere with the MRI, or pose a risk from heating, movement, or malfunction in the MRI environment\n* Claustrophobia\n* Youth who are pregnant\n* Any comorbid rheumatic disease, diagnosis of epilepsy, other neurological diseases, or medical condition (e.g. diabetes, cancer, IBD)\n* Present psychiatric disease as defined by DSM IV (e.g. psychosis, bipolar disorder, major depression, generalized anxiety disorder), alcohol or drug dependence, or documented developmental delays or impairments (e.g., autism, cerebral palsy, ADHD, or mental retardation) that, in the opinion of the investigator, would interfere with adherence to study requirements or safe participation in the study\n* Skin conditions or past skin damage on the arms or legs in or near sites of sensory testing\n* Outside the age range (9 years old or younger; 18 years or older) at the time of consent\n* History of \\> 1 month opioid treatment.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "10 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "FMRI: BOLD resting connectivity of the amygdala",
+        "description": "BOLD resting connectivity of the amygdala",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Resting Cerebral Blood Flow (CBF)",
+        "description": "CBF derived from resting arterial spin labeled MRI",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "FMRI: Multisensory task activity",
+        "description": "BOLD activation during multisensory task",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "FMRI: Spatial task activity",
+        "description": "BOLD activation during spatial summation and divided attention",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "FMRI: BOLD resting connectivity of the posterior parietal cortex",
+        "description": "BOLD resting connectivity of the posterior parietal cortex",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "FMRI: Graphesthesia Activation",
+        "description": "BOLD activation during graphesthesia task",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Pain Ratings",
+        "description": "Visual analog scale (VAS) ratings of pain intensity and pain unpleasantness. The VAS is a scale of 0-10, with higher scores indicating a worse outcome.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Pain Ratings",
+        "description": "Visual analog scale (VAS) ratings of pain intensity and pain unpleasantness. The VAS is a scale of 0-10, with higher scores indicating a worse outcome.",
+        "timeFrame": "1 Year Followup"
+      },
+      {
+        "measure": "Spatial Distribution of Pain",
+        "description": "Body map assessment of location of pain",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Spatial Distribution of Pain",
+        "description": "Body map assessment of location of pain",
+        "timeFrame": "1 Year Followup"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 10,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:51.865Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

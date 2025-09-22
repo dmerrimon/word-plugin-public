@@ -1,0 +1,114 @@
+{
+  "nctId": "NCT00214097",
+  "briefTitle": "Phase I/II Hypofractionated Radiotherapy for Prostate Cancer",
+  "officialTitle": "Phase I/II Trial Examining Dose-per-Fraction Escalation Using Intensity Modulated Radiation Therapy in the Treatment of Prostate Cancer",
+  "protocolDocument": {
+    "nctId": "NCT00214097",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2006-01-11",
+    "uploadDate": "2018-09-06T14:57",
+    "size": 503588,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00214097/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 347,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2002-10-14",
+    "completionDate": "2017-08-21",
+    "primaryCompletionDate": "2017-08-21",
+    "firstSubmitDate": "2005-09-13",
+    "firstPostDate": "2005-09-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nHistologically proven adenocarcinoma of the prostate.\n\n* Stage ≤ T2b disease, as defined by 1997 American Joint Committee on Cancer (AJCC) classification\n* Predicted risk of lymph node involvement (by standard nomograms) of 15% or less (24), OR histologically negative pelvic nodes\n* Gleason score ≤ 7\n* No evidence of distant metastasis\n* Age 18+\n* Informed consent signed in accordance with institutional protocol\n* Pretreatment evaluations must be completed as specified in Section 7.0.\n* ECOG performance status 0-1\n* No previous or concurrent cancers, other than localized basal cell or squamous cell skin carcinoma, unless continually disease free for at least 5 years\n* No prior pelvic irradiation, prostate brachytherapy, or bilateral orchiectomy\n* Gonadotropin-releasing hormone agonist (GnRH-a) use permitted (maximum of 6 months duration). Anti-androgen therapy permitted concurrently with GnRH-a.\n* No previous or concurrent cytotoxic chemotherapy\n* No radical surgery or cryosurgery for prostate cancer\n* The absence of any co-morbid medical condition which would constitute a contraindication for radical radiotherapy\n* The absence of serious concurrent illness of psychological, familial, sociological, geographical or other concomitant conditions which do not permit adequate follow-up and compliance with the study protocol.\n* No current use of anticoagulation therapy, other than aspirin.",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Who Experience Grade 3 or Higher Acute Toxicities",
+        "description": "To evaluate acute tolerances to dose-per-fraction escalation in the treatment of prostate cancer using optimized treatment of Intensity-modulated radiation therapy (IMRT), daily rectal balloon displacement, and transabdominal ultrasound localization of the prostate. For toxicities observed within the first 10 patients at each hypofractionation level, ≥20% acute grade 3 or higher GI or genitourinary (GU) toxicity will constitute a threshold toxicity level and will dictate a decrease in frequency of treatment by one treatment per week. Maximum tolerated dose is reached if 20% of participants experience acute toxicities grade 3 or higher.",
+        "timeFrame": "90 days post radiation treatment"
+      },
+      {
+        "measure": "Number of Subjects Experiencing Grade 2 or Higher Late Rectal Toxicities at Any Time During Follow Up",
+        "description": "To evaluate late radiation toxicities to dose-per fraction escalation in the treatment of prostate",
+        "timeFrame": "from 90 days post XRT through last follow-up visit (up to 3 years)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Biochemical Progression-free Survival Based on PSA Surveillance",
+        "description": "Patients will be considered to be without biochemical recurrence if either the Prostate-specific antigen (PSA) is still declining or the PSA nadir has been reached and is below 1.0ng/ml",
+        "timeFrame": "up to 15 years from enrollment"
+      },
+      {
+        "measure": "Fox Chase Bowel Survey at Baseline and 3 Years",
+        "description": "The Fox Chase Bowel/Bladder survey was divided into two sections: Bowel (questions 1 to 14, N=14) and Bladder (questions 19, and 21 to 30, N=11). To facilitate analysis, Bowel and Bladder scores for each section were rescaled to a total score of between 0 - 100, where higher scores indicated better Quality of Life (QoL). Results for the Bowel Section are reported here.",
+        "timeFrame": "Baseline and 3 years"
+      },
+      {
+        "measure": "Fox Chase Bladder Survey at Baseline and 3 Years",
+        "description": "The Fox Chase Bowel/Bladder survey was divided into two sections: Bowel (questions 1 to 14, N=14) and Bladder (questions 19, and 21 to 30, N=11). To facilitate analysis, Bowel and Bladder scores for each section were rescaled to a total score of between 0 - 100, where higher scores indicated better Quality of Life. Results for the Bladder Section are reported here.",
+        "timeFrame": "Baseline and 3 years"
+      },
+      {
+        "measure": "International Index of Erectile Function (IIEF) Score at Baseline and 3 Years",
+        "description": "The IIEF is a 15-item survey where 9-items are scored 0-5 and 6-items are scored 1-5 with a total range of 6-75. The standard scoring mechanism was used for IIEF, where the QoL items corresponded to the following domains: erectile function (score range 1-30), orgasmic function (score range 1-10), sexual desire (score range 2-10), intercourse satisfaction (score range 0-15), and overall satisfaction (score range 2-10). Higher numbers indicate increased QoL.",
+        "timeFrame": "Baseline and 3 years"
+      },
+      {
+        "measure": "Spritzer Quality of Life Index (SQLI) at Baseline and 3 Years",
+        "description": "The SQLI is composed of five items (activity, daily living, health, support, outlook) scored utilizing a numerical scale of 0-2. Standard scoring was also used for the SQLI survey (total score range 0-10) where higher score indicate increased QoL.",
+        "timeFrame": "Baseline and 3 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:56.618Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT03067948",
+  "briefTitle": "Improving Identification of Mental Health/Substance Use Disorders in HIV Primary Care: Pilot Clinical Response",
+  "officialTitle": "Improving Identification of Mental Health/Substance Use Disorders in HIV Primary Care: Pilot Clinical Response",
+  "protocolDocument": {
+    "nctId": "NCT03067948",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-12-20",
+    "uploadDate": "2018-09-17T15:45",
+    "size": 530639,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03067948/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 32,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-02-09",
+    "completionDate": "2017-07-31",
+    "primaryCompletionDate": "2017-06-30",
+    "firstSubmitDate": "2016-12-06",
+    "firstPostDate": "2017-03-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* must be enrolled in the Johns Hopkins Clinical Cohort at the Johns Hopkins Moore Clinic\n* must be living with HIV\n\nExclusion Criteria:\n\n\\-",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mental Health or Substance Use Issue Raised in Visit",
+        "description": "Number of participants for whom review and coding of audio recording captured a mental health or substance use issue during their visit",
+        "timeFrame": "Visit following intervention which will occur on the same day or up to 1 week after the intervention"
+      },
+      {
+        "measure": "Audio Recording Data - Mental Health/Substance Use Action Taken",
+        "description": "Number of participants for whom review of transcript of clinic visit characterized discussion of mental health issues and referral for services",
+        "timeFrame": "Visit following intervention which will occur on the same day or up to 1 week after the intervention"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:20.628Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

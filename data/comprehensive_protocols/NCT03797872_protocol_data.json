@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03797872",
+  "briefTitle": "Psoriatic Oligoarthritis Intervention With Symptomatic thErapy",
+  "officialTitle": "Clinical Effectiveness of Symptomatic Therapy Compared to Standard Step up Care for the Treatment of Low Impact Psoriatic Oligoarthritis: a 2 Arm Parallel Group Feasibility Study",
+  "protocolDocument": {
+    "nctId": "NCT03797872",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-08-27",
+    "uploadDate": "2021-02-15T10:25",
+    "size": 1825910,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03797872/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-04-17",
+    "completionDate": "2020-07-16",
+    "primaryCompletionDate": "2020-07-16",
+    "firstSubmitDate": "2018-12-18",
+    "firstPostDate": "2019-01-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participants consented to the PsA inception cohort (MONITOR-PsA) and to be approached for alternate interventional therapies.\n* Participants with mild disease as defined by:\n\n  * Oligoarticular disease with \\<5 active joints at baseline assessment.\n  * Low disease activity as defined by a PsA disease activity score (PASDAS) ≤3.2.\n  * Low impact of disease as defined a PsA impact of disease (PSAID) ≤4.\n* Participant is willing and able to give informed consent for participation in the trial.\n* Male or female.\n* Aged 18 years or above.\n* Female Participants of child bearing potential and male Participants whose partner is of child bearing potential must be willing to ensure that they or their partner use effective contraception (defined as true abstinence, oral contraceptives, implants, intrauterine device, barrier method with spermicide, or surgical sterilization) during the trial and for 3 months thereafter if receiving DMARD therapy (excluding sulfasalazine).\n* Participant has clinically acceptable laboratory results within 6 weeks of enrolment:\n\n  * Haemoglobin count \\> 8.5 g/dL\n  * White blood count (WBC) \\> 3.5 x 109/L\n  * Absolute neutrophil count (ANC) \\> 1.5 x 109/L\n  * Platelet count \\> 100 x 109/L\n  * ALT and alkaline phosphatase levels \\<3 x upper limit of normal\n* In the Investigator's opinion, is able and willing to comply with all trial requirements.\n* Willing to allow his or her GP and consultant, if appropriate, to be notified of participation in the trial.\n\nExclusion Criteria:\n\n* ≥1 poor prognostic factors for psoriatic arthritis, from\n\n  * raised C reactive protein (CRP) defined as \\> 4g/dl for standard non-hsCRP\n  * radiographic damage defined as the presence of ≥ 1 erosion on plain radiographs of the hands and feet\n  * health assessment questionnaire (HAQ) score \\> 1\n* Contraindications to non-steroidal anti-inflammatory drugs\n* Previous treatment for articular disease with synthetic DMARDs (including methotrexate, leflunomide or sulfasalazine) or biologic DMARDs (including TNF, IL12/23 or IL17 inhibitor therapies) or targeted synthetic DMARDs (PDE4 of JAK inhibitor therapies).\n* Female patient who is pregnant, breast feeding or planning pregnancy during the course of the trial.\n* Significant renal or hepatic impairment.\n* Scheduled elective surgery or other procedures requiring general anaesthesia during the trial.\n* Any other significant disease or disorder which, in the opinion of the Investigator, may either put the patients at risk because of participation in the trial, or may influence the result of the trial, or the participant's ability to participate in the trial.\n* Patients who have participated in another research trial involving an investigational product in the past 12 weeks.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Who Are Eligible, Consent, and Complete the 48 Weeks Study",
+        "description": "To establish acceptability of this treatment approach assessing proportion of patients who are eligible, consent and complete the 48 week study. We will examine how many patients in the MONITOR cohort are eligible per year. All eligible patients in the MONITOR cohort will be approached and invited to join the study. We will then review how many patients complete the 48 week study period attending all visits from baseline to 48 weeks (0, 12, 24, 36 and 48).",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Psoriatic Arthritis Disease Activity Score (PASDAS)",
+        "description": "A composite measure of PsA disease activity. This score is a composite measure of disease activity in PsA. There is only one total score which ranges from 0-10 with higher numbers indicating more active disease. Low disease activity is defined as \\<3.2.",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Ultrasound Score of Synovitis",
+        "description": "A summary score of synovitis measured at baseline. The score will comprise of 23 joints bilaterally. Grey scale synovitis is scored at each site 0-3 and power doppler is also scored 0-3 at each site where higher scores indicate more severe disease. These scores are then summed to give a final score. Score range is 0-276",
+        "timeFrame": "0 weeks"
+      },
+      {
+        "measure": "Ultrasound Score of Enthesitis",
+        "description": "A summary score of enthesitis measured at baseline. The score will comprise of 5 entheses bilaterally. Power doppler is scored 0-3 at each site where higher scores indicate more severe disease activity. Calcifications, enthesophytes and grey scale abnormalities will each be score 0 (absent) or 1 (present) at each site. These scores are then summed to give a final score. Score range is 0-30",
+        "timeFrame": "0 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:58.566Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

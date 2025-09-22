@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT04355117",
+  "briefTitle": "A Safety Evaluation Trial of TEV-48125 Self-administered in Migraine Patients",
+  "officialTitle": "A Multicenter, Open-label Trial to Evaluate the Safety of TEV-48125 When Subcutaneously Self-administered in Migraine Patients at the Trial Site and at Home",
+  "protocolDocument": {
+    "nctId": "NCT04355117",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-03-16",
+    "uploadDate": "2021-10-04T21:20",
+    "size": 3621165,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04355117/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 71,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-06-17",
+    "completionDate": "2020-11-11",
+    "primaryCompletionDate": "2020-11-11",
+    "firstSubmitDate": "2020-03-19",
+    "firstPostDate": "2020-04-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patient has a history of migraine (according to the ICHD-3 criteria) diagnosis for ≥12 months prior to giving informed consent.\n* Patient fulfills any of the migraine criteria(according to the ICHD-3 criteria) on ≥4 days in baseline information collected during the 28-day screening period\n\nExclusion Criteria:\n\n* History of hypersensitivity reactions to injected proteins, including monoclonal antibodies\n* Prior exposure to a monoclonal antibody targeting (CGRP) pathway meeting the following conditions:\n\n  * Less than 5 months has passed since the final administration of AMG334, ALD304, or LY2951742.\n  * Less than 1 year has passed since the final administration of TEV-48125",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Subjects With at Least One Treatment-emergent Adverse Event (TEAE)",
+        "description": "* TEAEs were defined as AEs that started after the start of investigational medicinal product (IMP) treatment; or if the event was continuous from baseline and was worsening after the start of IMP treatment.\n* The number of subjects with TEAEs were provided by self-administration at the trial site and by self-administration at home.\n\n  1. For TEAEs following self-administration at the trial site, TEAEs that occurred after self-administration at the trial site (Baseline) but before self-administration at home (Visit 3) were tabulated.\n  2. For TEAEs following self-administration at home, TEAEs that occurred after self-administration at home but before the end of the trial were tabulated.",
+        "timeFrame": "[1] Baseline (Day 1) to Day 28, [2] Visit 3 (Day 29) up to end of treatment (Day 57)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Execution Status of Self-administration - Amount of Drug Solution Remaining in the AI",
+        "description": "Following self-administration at the trial site and at home, the AI was checked to see whether or not all of the drug solution had been injected and the appropriate description of the amount of drug solution remaining in the AI was recorded based on th following 5-point scale (0 to 4) measure.\n\n* 0: All drug solution has been injected\n* 1: Approximately 1/4 of the drug solution remaining\n* 2: Approximately 1/2 of the drug solution remaining\n* 3: Approximately 3/4 of the drug solution remaining\n* 4: Almost all of the drug solution remaining",
+        "timeFrame": "Baseline (Day 1) and Visit 3 (Day 29)"
+      },
+      {
+        "measure": "Execution Status of Self-administration - Leakage of Drug Solution on the Skin",
+        "description": "Following self-administration at the trial site and at home, the injection site was observed for any leakage of drug solution on the skin was recorded based on the following 5-point scale (0 to 4) measure. Criteria 0, 1, and 2 on the 5-point scale measure were deemed to represent a successful self-injection.\n\n* 0: No sign of drug solution on the skin\n* 1: Slight wetness on the skin (mist)\n* 2: Approx. 1/5 (0.3 mL) of the drug solution observed on the skin (most of the drug solution subcutaneously administered)\n* 3: Approx. 1/2 (0.75 mL) of the drug solution observed on the skin (ie, approx. 1/2 of drug solution subcutaneously administered)\n* 4: Almost all of the drug solution observed on the skin (ie, little or no drug solution subcutaneously administered)",
+        "timeFrame": "Baseline (Day 1) and Visit 3 (Day 29)"
+      },
+      {
+        "measure": "Subject Compliance With the Self-administration Procedure",
+        "description": "Subject compliance with the self-administration procedure was evaluated based on information recorded on a checklist.\n\nCompliance with each of the procedures during IMP preparation, injection administration, and after injection was verified by checking the \"Yes\" or \"No\" responses marked for each item on the checklist. Based on this checklist, the investigator judged adherence to self-administration procedure.",
+        "timeFrame": "Baseline (Day 1) and Visit 3 (Day 29)"
+      },
+      {
+        "measure": "Number of Deficiencies With the AI Device",
+        "description": "A deficiency with the AI device (AI device deficiency) is defined as any defect in the quality, safety, or performance of the device, such as mechanical breakage and malfunction, no matter whether it is caused by design, manufacture, dispensing, storage,or use.",
+        "timeFrame": "Baseline (Day 1) and Visit 3 (Day 29)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:54.980Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

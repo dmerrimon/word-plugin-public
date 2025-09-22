@@ -1,0 +1,239 @@
+{
+  "nctId": "NCT05589766",
+  "briefTitle": "N-DOSE: A Dose Optimization Trial of Nicotinamide Riboside in Parkinson's Disease",
+  "officialTitle": "N-DOSE: A Dose Optimization Trial of Nicotinamide Riboside in Parkinson's Disease",
+  "protocolDocument": {
+    "nctId": "NCT05589766",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2025-06-05",
+    "uploadDate": "2025-07-02T05:59",
+    "size": 7137816,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05589766/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 81,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-01-23",
+    "completionDate": "2025-04-22",
+    "primaryCompletionDate": "2025-04-22",
+    "firstSubmitDate": "2022-10-13",
+    "firstPostDate": "2022-10-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Clinically established diagnosis of idiopathic PD according to the MDS criteria.\n* 123I-Ioflupane dopamine transporter imaging (DAT-scan) confirming nigrostriatal degeneration.\n* Hoehn and Yahr score \\< 4 at enrolment.\n* Age ≥ 40 years at the time of enrollment.\n* Able to undergo lumbar punction.\n* Able to undergo MRI.\n\nExclusion Criteria:\n\n* Dementia or other neurodegenerative disorder at baseline visit.\n* Diagnosed with atypical parkinsonism (progressive supranuclear palsy (PSP), multiple system atrophy (MSA), corticobasal degeneration (CBD)) or vascular parkinsonism.\n* Any psychiatric disorder that would interfere with compliance in the study.\n* Metabolic, neoplastic, or other physically or mentally debilitating disorder at baseline visit.\n* Use of high dose vitamin B3 supplementation within 30 days of enrollment.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Cerebral NAD levels measured by 31P-MRS",
+        "description": "Change in cerebral NAD/ATP-α ratio measured by 31 Phosphorus magnetic resonance spectroscopy (31P-MRS) in the posterior brain (encompassing the occipital, parietooccipital and posterior parts of the temporal cortex).",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "CSF NAD or other metabolite of the NAD metabolome, measured by LC-MS",
+        "description": "Change in the cerebrospinal fluid (CSF) levels of NAD or other metabolites of the NAD metabolome\\*, measured by LC-MS.",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Safety, measured by the frequency and severity of adverse events",
+        "description": "Number and severity of adverse events from baseline to week 12 across treatment groups and NR dose levels.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Expression of the Nicotinamide Riboside Related Pattern (NRRP).",
+        "description": "Change in NRRP expression, measured by FDG-PET.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "Expression of the Parkinsons Disease Related Pattern (PDRP).",
+        "description": "Change in PDRP expression, measured by FDG-PET.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "NAD metabolites in blood, urine and CSF",
+        "description": "Change in levels of NAD metabolites in blood, urine and CSF, measured by HPLC-MS and/or the NADMed method.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "NAD metabolites in blood and urine",
+        "description": "Change in levels of NAD metabolites in blood and urine, measured by HPLC-MS and/or the NADMed method.",
+        "timeFrame": "4, 8 and 12 weeks"
+      },
+      {
+        "measure": "Inflammatory cytokines in serum and CSF",
+        "description": "Change in inflammatory cytokines in serum and CSF, measured by ELISA.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Inflammatory cytokines in serum",
+        "description": "Change in inflammatory cytokines in serum, measured by ELISA.",
+        "timeFrame": "4, 8 and 12 weeks."
+      },
+      {
+        "measure": "Total MDS-UPDRS score",
+        "description": "Change in the total MDS-UPDRS score in the ON-medication state.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "MDS-UPDRS part I score",
+        "description": "Change in the MDS-UPDRS part I score in the ON-medication state.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "MDS-UPDRS part II score",
+        "description": "Change in the MDS-UPDRS part II score in the ON-medication state.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "MDS-UPDRS part III score",
+        "description": "Change in the MDS-UPDRS part III score in the ON-medication state.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "MDS-UPDRS part IV score",
+        "description": "Change in the MDS-UPDRS part IV score in the ON-medication state.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "MDS-NMS score",
+        "description": "Change in the total MDS-NMS score.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "Modified GIDS-PD score",
+        "description": "Change in the modified GIDS-PD score.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "MoCA score",
+        "description": "Change in the MoCA score.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "EQ-5D-EL score",
+        "description": "Change in the EQ-5D-5L score.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "Gene expression, measured by RNA sequencing (RNAseq)",
+        "description": "Change in gene expression, measured by RNA sequencing (RNAseq).",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "Protein expression, measured by LC-MS",
+        "description": "Change in protein levels, measured by LC-MS.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "Histone panacetylation, measured by immunoblotting",
+        "description": "Change in histone panacetylation, measured by immunoblotting.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "H3K27 and H4K16 histone acetylation",
+        "description": "Changes in levels of H3K27 and H4K16 acetylation, measured by immunoblotting.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "Genomic distribution of H3K27 and H4K16 histone acetylation",
+        "description": "Change in the genomic distribution of H3K27 and H4K16 acetylation, measured by chromatin immunoprecipitation sequencing (ChIPseq).",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "Folate and one-carbon metabolism in blood and CSF",
+        "description": "Change in folate and one-carbon metabolites in blood and CSF, measured by HPLC-MS.",
+        "timeFrame": "12 weeks."
+      },
+      {
+        "measure": "Folate and one carbon metabolism in blood",
+        "description": "Change in folate and one-carbon metabolites in blood, measured by HPLC-MS.",
+        "timeFrame": "4, 8 and 12 weeks."
+      },
+      {
+        "measure": "Methyl-donors in blood and/or CSF",
+        "description": "Change in methyl-donors (e.g., SAM), measured by HPLC-MS, in the blood and/or CSF.",
+        "timeFrame": "12 weeks."
+      },
+      {
+        "measure": "Methyl donors in blood",
+        "description": "To assess the dose-response relationship between NR dose (1000 mg, 2000 mg, 3000 mg per day) and changes in methyl-donors in PD from baseline to weeks 4, 8 and 12. Change in methyl-donors (e.g., SAM), measured by HPLC-MS, in the blood.",
+        "timeFrame": "4, 8 and 12 weeks."
+      },
+      {
+        "measure": "DNA methylation",
+        "description": "Change in level and genomic distribution of DNA methylation, measured by Illumina Infinium MethylationEpic kit.",
+        "timeFrame": "12 weeks for primary analysis. 4, 8 and 12 weeks for secondary analysis."
+      },
+      {
+        "measure": "Neurotransmitters in CSF",
+        "description": "Change in neurotransmitters in CSF, measured by HPLC-MS.",
+        "timeFrame": "12 weeks."
+      },
+      {
+        "measure": "Gut microbiome composition",
+        "description": "Change in gut microbiome composition, measured by metagenomics in fecal samples.",
+        "timeFrame": "12 weeks."
+      },
+      {
+        "measure": "Fecal metabolomics",
+        "description": "Change in fecal metabolomics, measured by LC-MS in fecal samples.",
+        "timeFrame": "12 weeeks."
+      },
+      {
+        "measure": "Sense of smell",
+        "description": "Change in sense of smell, measured by B-SIT score.",
+        "timeFrame": "12 weeks."
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 30,
+      "totalCount": 32
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:46.338Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,132 @@
+{
+  "nctId": "NCT03702816",
+  "briefTitle": "The Relationship Between Neuropsychological Testing and MRI, PET and COBRE - Project 1: AIM 2 (GE-180)",
+  "officialTitle": "The Relationship Between Neuropsychological Testing and MRI, PET and Blood Biomarkers in Neurodegenerative Disease (COBRE - Project 1): AIM 2",
+  "protocolDocument": {
+    "nctId": "NCT03702816",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-01-03",
+    "uploadDate": "2023-01-03T19:21",
+    "size": 398831,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03702816/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 24,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-12-13",
+    "completionDate": "2019-09-29",
+    "primaryCompletionDate": "2019-09-29",
+    "firstSubmitDate": "2018-10-01",
+    "firstPostDate": "2018-10-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Be enrolled in CNTN\n2. Aged 55 to 90\n3. Available study partners\n4. Willing and able to participate in longitudinal follow-up study\n5. For MCI patients, fit criteria based in Movement Disorders Task Force or NIA\n\nExclusion Criteria:\n\n1. Significant neurological disorders other than AD or PD;\n2. Unstable medical conditions\n3. History of major psychiatric diseases\n4. MRI evidence of infarction or other focal lesion or multiple lacunes\n5. Clinically significant abnormalities in B12 or TSH\n6. Identified as having a common polymorphism (rs6971) in the TSPO gene which has been shown to reduce binding affinity of tracers similar to GE180. This testing will be done as part of their CNTN participation.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "55 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Frontal GE180 Standardized Uptake Value Ratio (SUVR)",
+        "description": "Frontal SUVR- GE180 binding potential in the frontal cortical ROI, as a marker of frontal neuroinflammation. Frontal neuroinflammation would be expected to relate to frontal lobe AD pathology, and given known frontal lobe role in executive system function, is hypothesized to relate to measures of executive function in particular, and also to memory and language dysfunction, as these have executive components. Greater frontal lobe GE180 is expected to relate to poorer cognitive function.",
+        "timeFrame": "Baseline (Single scan)"
+      },
+      {
+        "measure": "Cingulate GE180 Standardized Uptake Value Ratio (SUVR)",
+        "description": "Cingulate SUVR- GE180 binding potential in the cingulate ROI, as a marker of cingulate neuroinflammation. Cingulate neuroinflammation would be expected to relate to cingulate AD pathology, and given known cingulate lobe role in executive system function, is hypothesized to relate to measures of executive function in particular, with greater cingulate GE180 relating to poorer cognitive function.",
+        "timeFrame": "Baseline (Single scan)"
+      },
+      {
+        "measure": "Parietal GE180 Standardized Uptake Value Ratio (SUVR)",
+        "description": "Parietal SUVR - GE180 binding potential in the parietal cortical ROI, as a marker of parietal neuroinflammation. Parietal neuroinflammation would be expected to relate to parietal lobe AD pathology, and given known parietal lobe role in visual and executive system function, is hypothesized to relate to measures of visuospatial and executive skills in particular, with greater parietal lobe GE180 relating to poorer cognitive function.",
+        "timeFrame": "Baseline (Single scan)"
+      },
+      {
+        "measure": "Temporal GE180 Standardized Uptake Value Ratio (SUVR)",
+        "description": "Temporal SUVR-- GE180 binding potential in the temporal cortical ROI, as a marker of temporal neuroinflammation. Temporal neuroinflammation would be expected to relate to temporal lobe AD pathology, and given known temporal lobe role in memory and language system function, is hypothesized to relate to measures of memory in particular, with greater temporal lobe GE180 relating to poorer memory and language function.",
+        "timeFrame": "Baseline (Single scan)"
+      },
+      {
+        "measure": "Whole Brain GE180 Standardized Uptake Value Ratio (SUVR)",
+        "description": "Whole Brain GE180- GE180 binding potential in the whole brain, as a marker of global neuroinflammation. Global neuroinflammation would be expected to relate to more widespread pathology on average, and is hypothesized to relate to global measures of cognition, including the MoCA and DRS, with greater whole brain GE180 relating to poorer cognitive function overall.",
+        "timeFrame": "Baseline (Single scan)"
+      },
+      {
+        "measure": "Memory Composite Score (Z-score)",
+        "description": "The memory composite score is comprised from data from two gold-standard clinical measures of verbal and nonverbal memory (Rey Auditory Verbal Learning Test, delayed recall score; Brief Visuospatial Memory Test, Revised, delayed recall score). The raw score for each individual assessment is corrected for age based on published normative data for each test. These adjusted scores (T scores and/or scaled scores) are converted to z-scores, then the two z-scores are averaged together to create the composite score. A higher value is indicative of better memory function, a lower value is indicative of worse memory function. A z-score of 0 represents the sample mean. Composite Z-scores do not have direct clinical relevance.",
+        "timeFrame": "Baseline (Pre-scan)"
+      },
+      {
+        "measure": "Executive Function Composite Score (Z-score)",
+        "description": "The executive function composite score is comprised from data from two gold-standard clinical measures of set-shifting and inhibition (Trail Making Test, part B; Delis Kaplan Executive Functioning Scale Color Word Inhibition, inhibition score). The raw score for each individual assessment is corrected for age based on published normative data for each test. These adjusted scores (T scores and/or scaled scores) are converted to z-scores, then the two z-scores are averaged together to create the composite score. A higher value is indicative of better executive function, a lower value is indicative of worse executive function. A z-score of 0 represents the sample mean. Composite Z-scores do not have direct clinical relevance.",
+        "timeFrame": "Baseline (Pre-scan)"
+      },
+      {
+        "measure": "Speed Composite Score (Z-score)",
+        "description": "The speed composite score is comprised from data from two gold-standard clinical measures of speeded attention and psychomotor speed (Trail Making Test, part A; Symbol Digit Modalities Test, oral version). The raw score for the Symbol Digit Modalities Test, oral version is converted directly to a z-score based on published normative data. The Trail making Test, part A is corrected for age based on published normative data, resulting in a T-score, which is then converted to a z-score. Then the two z-scores are averaged together to create the composite score. A higher value is indicative of better speed function, a lower value is indicative of worse speed function. A z-score of 0 represents the sample mean. Composite Z-scores do not have direct clinical relevance.",
+        "timeFrame": "Baseline (Pre-scan)"
+      },
+      {
+        "measure": "Language Composite Score (Z-score)",
+        "description": "The language composite score is comprised from data from two gold-standard clinical measures of confrontation naming and semantic fluency (Boston Naming Test; Animal Naming Test). The raw score for the Animal Naming Test is converted directly to a z-score based on published normative data. The Boston Naming Test is corrected for age based on published normative data, resulting in a scaled score, which is then converted to a z-score. Then the two z-scores are averaged together to create the composite score. A higher value is indicative of better language function, a lower value is indicative of worse language function. A z-score of 0 represents the sample mean. Composite Z-scores do not have direct clinical relevance.",
+        "timeFrame": "Baseline (Pre-scan)"
+      },
+      {
+        "measure": "Dementia Rating Score",
+        "description": "DRS- The Dementia Rating Scale is a comprehensive, but relatively brief assessment of overall cognitive functioning. The measure consists of items testing memory, attention, executive skills, and visuospatial skill, for a total of 144 points. A score of less than 124 is indicative of dementia level cognitive functioning. A higher score indicates a better outcome.",
+        "timeFrame": "Baseline (Pre-scan)"
+      },
+      {
+        "measure": "Montreal Cognitive Assessment Score (MoCA)",
+        "description": "MoCA -The Montreal Cognitive Assessment is a brief screening tool, originally designed to detect patients with MCI in a memory disorders clinic \\[10\\]. Standard administration consists of 12 individual tasks grouped into seven cognitive domains (visuospatial/executive, naming; attention, language, abstraction, memory, and orientation). Task performance is summed generating both domain and a total score. An education correction of one point is added to the total score for individuals with 12 years of education or less. Scores range from 0-30, with a score of 26 or less indicating cognitive impairment.",
+        "timeFrame": "Baseline (Pre-scan)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 11,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:46.234Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

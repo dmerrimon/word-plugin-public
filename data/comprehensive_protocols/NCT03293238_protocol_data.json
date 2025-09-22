@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03293238",
+  "briefTitle": "Ultrasound Guided Knee Injections in Musculoskeletal Medicine",
+  "officialTitle": "Practical Indications for Sonography in Musculoskeletal Medicine-Knee Joint Injections",
+  "protocolDocument": {
+    "nctId": "NCT03293238",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2011-11-30",
+    "uploadDate": "2019-10-18T13:54",
+    "size": 346762,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03293238/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 63,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-11-03",
+    "completionDate": "2018-02",
+    "primaryCompletionDate": "2018-02",
+    "firstSubmitDate": "2017-09-18",
+    "firstPostDate": "2017-09-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or female, age 18 to 90\n* Clinician determined need for intra-articular knee injection\n* Radiograph confirmed grade 1-4 Kellgren Lawrence osteoarthritis scale\n\nExclusion Criteria:\n\n* Allergy to contrast dye, shellfish\n* Allergy to egg product or hyaluronate\n* Allergy to lidocaine\n* Localized skin infection at planned site of injection\n* Inability to complete follow-up phone call three months following the injection\n* Viscosupplementation injection within 6 months of the current evaluation",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Successful Knee Injection",
+        "description": "To assess presence or absence of contrast medium within the target knee joint as determined by a blinded radiologist. If contrast medium could be observed in the joint then the injection was considered a success.",
+        "timeFrame": "Procedure visit 3 (3-4 weeks after 1st injection)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Procedural Satisfaction Score at 3 Months Post Injection",
+        "description": "Patient reported procedural satisfaction score on scale of 0 to 10. A score of 10 indicates high satisfaction with the procedure.",
+        "timeFrame": "3 month follow-up appointment following 3rd injection"
+      },
+      {
+        "measure": "Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) Score",
+        "description": "Compare the Western Ontario and McMaster Universities Osteoarthritis Index between groups at the 3-month follow-up appointment. The scale is 0-100. Higher scores on the WOMAC indicate worse pain, stiffness, and functional limitations.",
+        "timeFrame": "Pre-Injection and 3 month follow-up appointment following 3rd injection"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:00.126Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

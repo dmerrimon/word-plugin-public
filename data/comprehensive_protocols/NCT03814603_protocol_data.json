@@ -1,0 +1,84 @@
+{
+  "nctId": "NCT03814603",
+  "briefTitle": "The Sleep Amyloid, Slow WAve Race and Ethnicity Study",
+  "officialTitle": "A Single-center, Observational, Longitudinal Study on the Effect of Slow Wave Sleep (SWS) Characteristics and Race and Ethnicity on Amyloid Burden (a Marker of Alzheimer's Disease Risk), Among Cognitively Normal Elderly",
+  "protocolDocument": {
+    "nctId": "NCT03814603",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-12-12",
+    "uploadDate": "2018-12-14T12:52",
+    "size": 1028843,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03814603/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 210,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2018-11-21",
+    "completionDate": "2025-05-31",
+    "primaryCompletionDate": "2025-05-31",
+    "firstSubmitDate": "2018-12-27",
+    "firstPostDate": "2019-01-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male and female subjects with normal cognition and ages 60 to 75.\n* Within normal limits on neurological and psychiatric examinations. All subjects enrolled will have a CDR=0.\n* An informed family member or life-partner (preferably bed-partner) will be interviewed over the phone or on the first or second visit to confirm the reliability of the subject interview. A study partner is preferably a spouse, close friend, or relative.\n* Self-identified as African-American Black or non-Hispanic white.\n* All subjects must sign the Alzheimer's Disease Center consent form\n\nExclusion Criteria:\n\n* History of brain tumor, MRI evidence of brain damage or brain disease including significant trauma, hydrocephalus, seizures, mental retardation or other serious neurological disorder (e.g. Parkinson's disease or other movement disorders).\n* Significant history of alcoholism based off of the CAGE questionnaire (\\>2) or drug abuse.\n* History of psychiatric illness (e.g., schizophrenia, bipolar or PTSD)\n* Lifelong depression and anxiety will be allowed as long as there has been no active depressive episode within the last two years.\n* Geriatric Depression Scale (short form)\\>6.\n* Insulin dependent diabetes.\n* Evidence of clinically relevant cardiac, pulmonary, endocrine or hematological conditions based off of the PI's discretion.\n* Physical impairment of such severity as to adversely affect the validity of psychological testing.\n* Any prosthetic devices (e.g., pacemaker or surgical clips) that constitutes a hazard for MRI imaging.\n* Medications affecting cognition or SWS:\n\n  * Narcotic analgesics.\n  * Chronic use of medications with anticholinergic activity.\n  * Anti-Parkinsonian medications (carbidopa/levodopa, amantadine, bromocriptine, pergolide, selegiline).\n  * Others: amphetamines, amphetamine-like compounds, appetite suppressants, phenothiazines, reserpine, buspirone, clonidine, disulfiram, guanethidine, MAO inhibitors, theophylline, tricyclic antidepressants, gabapentin, pregabalin, trazodone, cholinesterase inhibitors, memantine.\n* Chronic use of antidepressants are allowed.\n* History of a first-degree family member with early onset (age \\<60 years) dementia.\n* Short sleepers (\\< 5 hours a day) and long sleepers (\\> 10 hours a day).\n* OSA (defined as AHI4%\\>15 and AHI4%\\>5 with Epworth≥10)\n* Self-identified as US-born Caribbean Black, Caribbean-born Black or African-born Black.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Association between Percentage of African Ancestry (%AF) and Slow Wave Sleep (SWS) duration and activity (SWA).",
+        "description": "Aim 1 will test if individual % African ancestry (%AF), estimated from 0-100 and computed using a maximum likelihood method for inferring individual admixture based upon allele frequencies ascertained from Utah residents with Northern and Western European ancestry and West African samples, is associated with short SWS duration/ and poor slow wave activity (SWA), determined through polysomnography, in older AAs while controlling for other moderating factors.",
+        "timeFrame": "Determined at baseline."
+      },
+      {
+        "measure": "Examine association between SWS duration and poor SWA with longitudinal change in amyloid burden.",
+        "description": "Aim 2 will test the effect of race and its interaction with baseline SWS duration and SWA with amyloid plaque burden both at baseline and follow-up by determining mean PiB standard uptake value using PET-MR.",
+        "timeFrame": "Baseline and 2.5 year follow-up"
+      },
+      {
+        "measure": "Examine the association between race, SWS duration and poor SWA and cognition using both standardized and sleep-dependent cognitive tests at baseline and follow-up.",
+        "description": "Aim 3 will test the effect of race and baseline SWS duration and poor SWA on overall cognition using standardized and sleep-dependent tests: the UDS 3.0, WHICAP Clinical Core Neuropsychological test battery, as well as a 3-D Virtual Maze Task, both at baseline and follow-up.",
+        "timeFrame": "Baseline and 2.5 year follow-up"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:40.117Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

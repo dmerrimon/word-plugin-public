@@ -1,0 +1,123 @@
+{
+  "nctId": "NCT02791191",
+  "briefTitle": "A Study of LY3202626 on Disease Progression in Participants With Mild Alzheimer's Disease Dementia",
+  "officialTitle": "Effect of LY3202626 on Alzheimer's Disease Progression as Measured by Cerebral ¹⁸F-AV-1451 Tau-PET in Mild Alzheimer's Disease Dementia",
+  "protocolDocument": {
+    "nctId": "NCT02791191",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-01-31",
+    "uploadDate": "2020-11-16T15:06",
+    "size": 1031030,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02791191/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 316,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-06-16",
+    "completionDate": "2018-07-02",
+    "primaryCompletionDate": "2018-07-02",
+    "firstSubmitDate": "2016-06-01",
+    "firstPostDate": "2016-06-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Present with mild AD dementia based on the National Institute on Aging (NIA) and the Alzheimer's Association (AA) disease diagnostic criteria as determined by a qualified clinician approved by the Sponsor or designee.\n* Mini-Mental State Examination score of 20 to 26 inclusive at screening visit.\n* Has a florbetapir PET scan consistent with the presence of amyloid pathology at screening.\n\nExclusion Criteria:\n\n* Significant neurological disease affecting the central nervous system (CNS), other than AD, that may affect cognition or ability to complete the study, including but not limited to, other dementias, serious infection of the brain, Parkinson's disease, multiple concussions, or epilepsy or recurrent seizures (except febrile childhood seizures).\n* Ocular pathology that significantly limits ability to reliably evaluate vision or the retina.\n* Use of strong inducers of cytochrome P450 3A (CYP3A).\n* Sensitivity to florbetapir or ¹⁸F-AV-1451.\n* Contraindication to MRI or PET or poor venous access for blood draws.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "55 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in ¹⁸F-AV-1451 Positron Emission Tomography (PET) Standard Uptake Value Ratio (SUVr) at 52 Weeks",
+        "description": "The 18F-AV-1451 PET tracer assesses change from baseline in the pharmacodynamic effect of 3 mg and 12 mg doses of LY3202626 in participants with mild Alzheimer's disease (AD), compared with placebo at Week 52.The SUVr of ¹⁸F-AV-1451 was modeled using analysis of covariance (ANCOVA) to include the fixed, categorical effects of treatment dose, and the continuous, fixed covariate of baseline Tau PET SUVr and age at baseline.",
+        "timeFrame": "Baseline, Week 52"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With Emergent Magnetic Resonance Imaging (MRI) Findings",
+        "description": "Percentage of participants with treatment-emergent MRI findings at Week 52 are summarized here. The mixed-effect model for repeated measures (MMRM) analysis was adjusted for fixed effects of treatment, visit (categorical covariate), treatment-by-visit interaction, baseline age, baseline score (continuous covariate) and baseline-by-visit interaction.",
+        "timeFrame": "Week 52"
+      },
+      {
+        "measure": "Percentage of Participants With Amyloid-Related Imaging Abnormalities (ARIA)",
+        "description": "Percentage of participants with presence of amyloid-related imaging abnormalities-edema (ARIA-E, also known as vasogenic edema) and percentage of an increase in amyloid-related imaging abnormalities-hemorrhage (ARIA-H, also known as also known as microhemorrhage) at Week 52 are summarized here. The mixed-effect model for repeated measures (MMRM) analysis was adjusted for fixed effects of treatment, visit (categorical covariate), treatment-by-visit interaction, baseline age, baseline score (continuous covariate) and baseline-by-visit interaction.",
+        "timeFrame": "Week 52"
+      },
+      {
+        "measure": "Percentage of Participants With Suicidal Ideation and Behaviors Assessed by the Columbia Suicide Severity Rating Scale (C-SSRS) Scores",
+        "description": "The Columbia-Suicide Severity Rating Scale (C-SSRS) captures occurrence, severity, and frequency of suicide-related thoughts and behaviors. Suicidal ideation is defined as a \"yes\" answer to any 1 of 5 suicidal ideation questions, which includes a wish to be dead and 4 different categories of active suicidal ideation. Suicidal behavior is defined as a \"yes\" answer to any of 5 suicidal behavior questions: preparatory acts or behavior, aborted attempt, interrupted attempt, actual attempt, and completed suicide. Suicidal ideation and behavior are defined as treatment-emergent (TE) if not present during the period up through randomization. A summary of serious and other non-serious adverse events regardless of causality is located in the Reported Adverse Event module.",
+        "timeFrame": "Baseline through Week 52"
+      },
+      {
+        "measure": "Pharmacokinetics (PK): Area Under the Plasma Concentration-Time Curve at Steady State (AUC [T,SS]) of LY3202626",
+        "description": "PK: AUC \\[T,SS\\] of LY3202626",
+        "timeFrame": "Week 2, 4, and 12: Predose and Postdose prior to departing; Week 8 and 16: Postdose after arriving and prior to departing; Week 24: Postdose after cognitive testing"
+      },
+      {
+        "measure": "Change From Baseline in Plasma Amyloid Beta Aβ₁-₄₀, ₁-₄₂, and 1-x Concentration",
+        "description": "A mixed model repeated measures (MMRM) analysis will be used to evaluate the change from baseline to Week 52 in plasma Aβ₁-₄₀, Aβ₁-₄₂, and Aβ 1-x. The model for the fixed effects will include terms for the following independent effects: log transformed baseline plasma Aβ, treatment, visit, treatment-by-visit interaction.",
+        "timeFrame": "Baseline, Week 52"
+      },
+      {
+        "measure": "Change From Baseline on the 13-item Alzheimer's Disease Assessment Scale-Cognition (ADAS-Cog₁₃)",
+        "description": "The ADAS is a rater administered instrument that was designed to assess the severity of the dysfunction in the cognitive and noncognitive behaviors characteristic of persons with AD. The cognitive subscale of the ADAS that was used as the primary efficacy measure consists of 13 items assessing areas of cognitive function most typically impaired in AD: orientation, verbal memory, language, praxis, delayed free recall, digit cancellation. The ADAS--Cog13 scale ranges from 0 to 85. Higher scores indicate greater disease severity. A mixed model repeated measures (MMRM) was used in analysis. The model included fixed, categorical effects of treatment, visit and treatment-by-visit interaction, as well as the continuous, fixed covariates of baseline, baseline-by-visit, and age at baseline.",
+        "timeFrame": "Baseline, Week 52"
+      },
+      {
+        "measure": "Change From Baseline on the Alzheimer's Disease Cooperative Study-Instrumental Activities of Daily Living Inventory (ADCS-iADL)",
+        "description": "The ADCS-ADL is a 23-item inventory developed as a rater-administered questionnaire answered by the participant's caregiver. The ADCS-ADL measures both basic and instrumental activities (instrumental activity items 7-23) of daily living by participants. The range for the ADCS-iADL is 0-56 with higher scores reflecting better performance. ADCS-iADL was analyzed using mixed-model repeated measures (MMRM), Least Square (LS) Mean was controlled for treatment, visit, treatment-by-visit interaction, baseline age, baseline score and baseline-by-visit interaction.",
+        "timeFrame": "Baseline, Week 52"
+      },
+      {
+        "measure": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+        "description": "The iADRS comprises scores form the ADAS-Cog and the ADCS-iADL. The iADRS is calculated as a linear combination of the total scores of the ADAS-Cog13 9score range 0 to 85 with higher scores reflecting worse performance and the ADCS-iADL (score range 0-56 with higher scores reflecting better performance). The iADRS score ranges from 0 to 141 with lower scores indicating worse performance. iADRS was analyzed using mixed-model repeated measures (MMRM); Least Square (LS) Mean was controlled for treatment, visit, treatment-by-visit interaction, baseline age, baseline score and baseline-by-visit interaction.",
+        "timeFrame": "Baseline, Week 52"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.962Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT03924193",
+  "briefTitle": "Cognitive-Behavioral and Pharmacologic (LDX) Treatment of Binge-Eating Disorder and Obesity: Acute Treatment",
+  "officialTitle": "Cognitive-Behavioral and Pharmacologic (LDX) Treatment of Binge-Eating Disorder and Obesity",
+  "protocolDocument": {
+    "nctId": "NCT03924193",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-06-13",
+    "uploadDate": "2024-09-11T16:53",
+    "size": 621328,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03924193/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 141,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-25",
+    "completionDate": "2023-09-13",
+    "primaryCompletionDate": "2023-09-13",
+    "firstSubmitDate": "2019-04-17",
+    "firstPostDate": "2019-04-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18 to 64 years old\n* Meets DSM-5 criteria for binge-eating disorder\n* BMI 27-30 with a controlled obesity-related co-morbidity; or BMI ≥ 30 and \\<50\n* Medically cleared as determined by EKG and medical record review\n* Available for the duration of the treatment and follow-up (18 months)\n* Read, comprehend, and write English at a sufficient level to complete study-related materials\n* Able to travel to study location (New Haven, CT) for weekly visits\n\nExclusion Criteria:\n\n* Previous history of problems with LDX or other stimulants\n* Current psychostimulant use or use of any medication for ADHD\n* Current use of study medications: LDX (Vyvanse), Bupropion (Wellbutrin, Zyban), Naltrexone, or Contrave\n* History of congenital heart disease, known structural cardiac abnormalities, cardiomyopathy, serious heart arrhythmia, coronary artery disease, cerebrovascular pathology including stroke, exertional chest pain, uncontrolled high blood pressure, and other serious heart problems.\n* History of severe renal, hepatic, neurological, or chronic pulmonary disease or other serious, unstable medical disorder.\n* Current uncontrolled hypertension\n* Current uncontrolled type I or II diabetes mellitus\n* Current uncontrolled thyroid illness\n* Gallbladder disease\n* Co-occurring severe mental illness requiring hospitalization or intensive treatment\n* Endorses current active suicidal or homicidal ideation with intent or plan\n* History or current alcohol or substance use disorder (smoking is not exclusionary)\n* Predisposition to seizures\n* History of anorexia nervosa or bulimia nervosa, or currently regularly self-inducing vomiting\n* Currently taking MAOI, SSRI or strong inhibitors of CYP2D6\n* History of allergy or sensitivity to the study medication or stimulant medications\n* Current use of medications contraindicated with the study medications\n* Currently breast feeding or pregnant, or not willing to use reliable form of contraception\n* Currently taking opioid pain medications or drugs\n* Currently using effective treatment (evidence-based therapeutic or psychopharmacologic) for eating and/or weight loss\n* Currently participating in another clinical study in which the participant is or will be exposed to an investigational or a non-investigational drug or device\n* Medical status judged by study physician as contraindication",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "64 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Binge-Eating Frequency",
+        "description": "Binge eating will be assessed by interview and self-report and the primary outcomes is frequency. Frequency will be defined continuously (analyzed dimensionally).",
+        "timeFrame": "Post-treatment (3 months)"
+      },
+      {
+        "measure": "Body Mass Index",
+        "description": "BMI is calculated using measured height and weight (e.g., percent loss). We note that % BMI change and % Weight Loss are exactly the same (when height is kept constant, which was the case with this short-term study with adults). Negative values indicate weight loss and positive values indicate weight gain.",
+        "timeFrame": "Post-treatment (3 months)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Binge-Eating Remission",
+        "description": "Categorical: zero binges/28 days",
+        "timeFrame": "Post-treatment (3 months)"
+      },
+      {
+        "measure": "Eating-Disorder Psychopathology",
+        "description": "Eating-disorder psychopathology is a continuous variable as assessed by the global score of the Eating Disorder Examination/Eating Disorder Examination-Questionnaire. Scores range from 0-6 (0=no eating-disorder psychopathology; 6=severe eating-disorder psychopathology).",
+        "timeFrame": "Post-treatment (3 months)"
+      },
+      {
+        "measure": "Depressive Symptoms",
+        "description": "Depressive symptoms is a continuous variable of depressive symptomatology as assessed by the self-report measure, the Beck Depression Inventory - Second Edition. Scores range from 0-63 (0=no depressive symptoms, 63=greater depressive symptoms).",
+        "timeFrame": "Post-treatment (3 months)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:12.632Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT03257722",
+  "briefTitle": "Pembrolizumab + Idelalisib for Lung Cancer Study",
+  "officialTitle": "A Phase Ib /II Trial of Pembrolizumab and Idelalisib in Patients With Non-small Cell Lung Cancer (NSCLC) Who Have Failed Immune Checkpoint Inhibitor",
+  "protocolDocument": {
+    "nctId": "NCT03257722",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2017-12-05",
+    "uploadDate": "2023-07-31T14:32",
+    "size": 1174346,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03257722/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 4,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-09-26",
+    "completionDate": "2021-08-25",
+    "primaryCompletionDate": "2020-08-15",
+    "firstSubmitDate": "2017-08-16",
+    "firstPostDate": "2017-08-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "All subjects must have documented metastatic or recurrent NSCLC from biopsy. They must have failed or progressed on platinum-based chemotherapy (e.g. cisplatin, carboplatin) as well as immune checkpoint inhibitor therapy (e.g nivolumab or pembrolizumab). Patients with EGFR/ALK mutations/translocations must have failed or progressed on small molecule inhibitor therapies (e.g. erlotinib, afatinib, etc.).\n\nInclusion Criteria:\n\n* Have at least one measurable lesion\n* Have an ECOG Performance Status of 1 or less\n* Demonstrate adequate organ function as defined in the protocol.\n* Female subjects of childbearing potential must have a negative pregnancy test before starting treatment; they must also be willing to use two methods of birth control or abstain from heterosexual activity for the duration of the study.\n* Male subjects must agree to use an adequate method of contraception starting with the first dose of study therapy through the duration of the study.\n\nExclusion Criteria:\n\n* Is currently receiving study drug in another trial; or has participated in an investigational drug study within 3 weeks of the first dose of treatment.\n* Is within 3 weeks of most recent chemotherapy.\n* Has a history of hypersensitivity to pembrolizumab or idelalisib, or any of their excipients.\n* Has known active central nervous system (CNS) metastases and/or carcinomatous meningitis. Subjects with previously treated, stable, brain metastases may participate; carcinomatous meningitis is excluded regardless of clinical stability.\n* Has known history of non-infectious pneumonitis that required steroid use or has current pneumonitis.\n* Has a known history of active TB (Bacillus Tuberculosis)\n* Has active autoimmune disease that has required treatment; known history of Human Immunodeficiency Virus (HIV); known active Hepatitis B or Hepatitis C.\n* Has an active infection requiring systemic therapy.\n* Is pregnant or breastfeeding, or expecting to conceive or father children within the projected duration of the trial",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Dose-Limiting Toxicity (DLT) Events as Assessed by CTCAE v4.03",
+        "description": "Modified 3+3 dose escalation design will be used to determine whether the addition of idelalisib to standard pembrolizumab is safe and tolerable in checkpoint inhibitor refractory NSCLC patients. An initial cohort of 3 patients will receive 50 mg twice daily idelalisib with standard pembrolizumab. If none of the 3 patients develop a DLT, another 3 patients will be enrolled. Dose will be escalated or de-escalated based on the occurrence of DLTs. All events will be assessed for possible, probable, or definite relation to idelalisib.",
+        "timeFrame": "First 9 weeks at each dose level"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Dose-Finding Assessment for Optimum Dose of Idelalisib in Combination With Pembrolizumab",
+        "description": "Determine the phase 2 recommended dose (P2RD) of idelalisib, in combination with pembrolizumab, in patients with checkpoint inhibitor refractory NSCLC. If no more than 1/6 patients in initial cohort develop a DLT, the patients will be tested for T-regulatory cell function suppression (80% suppression in 80% of patients). If dose is escalated or de-escalated, testing will continue to assess for optimal T-reg suppression. The dose at which the tolerability and suppression criteria are both met will be declared the P2RD and the study will proceed to phase 2.",
+        "timeFrame": "18-27 weeks"
+      },
+      {
+        "measure": "Overall Response Rates (ORR) to Combination Therapy",
+        "description": "Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by MRI: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), \\>=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.",
+        "timeFrame": "18 weeks - 2 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:45.719Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

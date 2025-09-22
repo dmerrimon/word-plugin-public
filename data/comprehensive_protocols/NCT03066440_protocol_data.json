@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03066440",
+  "briefTitle": "Double Blinded Randomized Control Trial of Types of IVF in Children With DKA",
+  "officialTitle": "A Single-center Randomized Double Blinded Control Trial of Intravenous Fluid Content in Children With Diabetic Ketoacidosis Admitted to the Pediatric Intensive Care Unit",
+  "protocolDocument": {
+    "nctId": "NCT03066440",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-05-23",
+    "uploadDate": "2024-06-20T10:22",
+    "size": 1667277,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03066440/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 53,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-09-01",
+    "completionDate": "2024-03-18",
+    "primaryCompletionDate": "2024-03-18",
+    "firstSubmitDate": "2017-02-23",
+    "firstPostDate": "2017-02-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age between 0 and 18 years\n2. Diagnosis of DKA:\n\n   1. Venous pH less than 7.25\n   2. Ketonuria as confirmed on urine point-of-care testing or urinalysis\n   3. Hyperglycemia (Serum glucose \\> 200 mg/dl)\n   4. Serum bicarbonate \\<15 mmol/L\n3. PICU admission\n\nExclusion Criteria:\n\n1. Age \\> 18 Years\n2. Physician discretion\n3. Septic or hypovolemic shock\n4. Signs of life-threatening cerebral edema or multi-organ failure upon presentation to the emergency room or pediatric intensive care unit\n5. Enrollment time more than 1 hr since arrival to emergency room or PICU\n6. Pregnancy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Length of Acidosis",
+        "description": "Hours to pH\\>7.25 and normal anion gap and serum bicarbonate over 15",
+        "timeFrame": "28 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Length of Stay in the Pediatric Intensive Care Unit",
+        "description": "Time from admission to the emergency room or pediatric intensive care unit and transfer from the pediatric intensive care unit to the general pediatric ward",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Length of Stay in the Hospital",
+        "description": "Time from admission to the emergency room or pediatric intensive care unit and transfer from the pediatric intensive care unit to discharge home",
+        "timeFrame": "28 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:11.014Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

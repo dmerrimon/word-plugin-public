@@ -1,0 +1,156 @@
+{
+  "nctId": "NCT04423393",
+  "briefTitle": "Study of VIR-3434 in Healthy Volunteers and Patients With Chronic Hepatitis B Virus Infection",
+  "officialTitle": "A Phase 1, Randomized, Placebo-Controlled Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Antiviral Activity of VIR-3434",
+  "protocolDocument": {
+    "nctId": "NCT04423393",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-01-20",
+    "uploadDate": "2023-10-20T11:34",
+    "size": 1094965,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04423393/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 113,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-26",
+    "completionDate": "2022-11-25",
+    "primaryCompletionDate": "2022-10-24",
+    "firstSubmitDate": "2020-05-25",
+    "firstPostDate": "2020-06-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Healthy Volunteers:\n\nInclusion Criteria:\n\n* Male or female age 18 - 55\n* Weight 40-125 kg\n\nExclusion Criteria:\n\n* Any clinically significant chronic or acute medical condition that makes the volunteer unsuitable for participation\n* History or evidence of drug or alcohol abuse\n* History of allergic reactions to monoclonal antibodies or antibody fragments\n* History of anaphylaxis\n\nCHB Patients:\n\nInclusion Criteria:\n\n* Male or female age 18 - 65\n* Weight 40-125 kg\n* Chronic HBV infection for \\>/= 6 months\n\nExclusion Criteria:\n\n* Any clinically significant chronic or acute medical condition that makes the participant unsuitable for participation\n* Significant fibrosis or cirrhosis\n* History or evidence of drug or alcohol abuse\n* History of chronic liver disease from any cause other than chronic HBV infection\n* History of hepatic decompensation\n* History of anaphylaxis\n* History of allergic reactions to monoclonal antibodies or antibody fragments\n* History of immune complex disease\n* Active infection with HIV, HCV or hepatitis Delta virus",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+        "timeFrame": "Treatment-emergent period, which is up to Week 24 in part A, and up to Week 8 in part B/C/D"
+      },
+      {
+        "measure": "Number of Participants With Clinical Laboratory Abnormalities",
+        "timeFrame": "Up to 280 days post-dose"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Cmax",
+        "description": "VIR-3434 Maximum Concentration in Serum",
+        "timeFrame": "Parts B-D: pre-dose and 1, 4, 6, 24 hours, 3, 7, 10, 14, 28, 56, 84, 112, 168, 224, 280 days post-dose"
+      },
+      {
+        "measure": "Tmax",
+        "description": "VIR-3434 time of Cmax in Serum",
+        "timeFrame": "Part A: pre-dose and 1, 4, 6, 24 hours, 3, 7, 14, 28, 56, 84, 126, 168 days post-dose; Parts B-D: pre-dose and 1, 4, 6, 24 hours, 3, 7, 10, 14, 28, 56, 84, 112, 168, 224, 280 days post-dose"
+      },
+      {
+        "measure": "AUClast",
+        "description": "VIR-3434 under the curve from time 0 to last measurable Time",
+        "timeFrame": "Parts B-D: pre-dose and 1, 4, 6, 24 hours, 3, 7, 10, 14, 28, 56, 84, 112, 168, 224, 280 days post-dose"
+      },
+      {
+        "measure": "t1/2",
+        "description": "VIR-3434 apparent Elimination Half-life (t1/2) in serum",
+        "timeFrame": "Part A: pre-dose and 1, 4, 6, 24 hours, 3, 7, 14, 28, 56, 84, 126, 168 days post-dose; Parts B-D: pre-dose and 1, 4, 6, 24 hours, 3, 7, 10, 14, 28, 56, 84, 112, 168, 224, 280 days post-dose"
+      },
+      {
+        "measure": "Vz/F",
+        "description": "VIR-3434 Volume of Distribution (SC only)",
+        "timeFrame": "Part A: pre-dose and 1, 4, 6, 24 hours, 3, 7, 14, 28, 56, 84, 126, 168 days post-dose; Parts B-D: pre-dose and 1, 4, 6, 24 hours, 3, 7, 10, 14, 28, 56, 84, 112, 168, 224, 280 days post-dose"
+      },
+      {
+        "measure": "Vz",
+        "description": "VIR-3434 Volume of Distribution (IV only)",
+        "timeFrame": "Part A: pre-dose and 1, 4, 6, 24 hours, 3, 7, 14, 28, 56, 84, 126, 168 days post-dose"
+      },
+      {
+        "measure": "CL/F",
+        "description": "VIR-3434 Apparent serum clearance (SC only)",
+        "timeFrame": "Part A: pre-dose and 1, 4, 6, 24 hours, 3, 7, 14, 28, 56, 84, 126, 168 days post-dose; Parts B-D: pre-dose and 1, 4, 6, 24 hours, 3, 7, 10, 14, 28, 56, 84, 112, 168, 224, 280 days post-dose"
+      },
+      {
+        "measure": "CL",
+        "description": "VIR-3434 Apparent serum clearance (IV only)",
+        "timeFrame": "Part A: pre-dose and 1, 4, 6, 24 hours, 3, 7, 14, 28, 56, 84, 126, 168 days post-dose"
+      },
+      {
+        "measure": "Number of Participants With ADA to VIR-3434",
+        "description": "Evaluate the immunogenicity of VIR-3434",
+        "timeFrame": "Part A: Up to 168 days post-dose. Parts B-D: Up to 280 days post-dose"
+      },
+      {
+        "measure": "Maximum Reduction of Serum HBsAg From Baseline (Day 1 Predose)",
+        "description": "HBsAg reductions at nadir and Week 4",
+        "timeFrame": "Parts B-D: pre-dose and 1, 3, 7, 10, 14, 28, 56, 84, 112, 168, 224, 280 days post-dose"
+      },
+      {
+        "measure": "Part D Only: Maximum Change of HBV DNA From Baseline (Day 1 Predose)",
+        "description": "HBV DNA reductions at nadir and Week 4",
+        "timeFrame": "Parts B-D: pre-dose and 1, 3, 7, 10, 14, 28, 56, 84, 112, 168, 224, 280 days post-dose Parts B-D: pre-dose and 1, 3, 7, 10, 14, 28, 56, 84, 112, 168, 224, 280 days post-dose"
+      },
+      {
+        "measure": "Titers (if Applicable) of ADA to VIR-3434",
+        "description": "Evaluate the immunogenicity of VIR-3434",
+        "timeFrame": "Part A: Up to 168 days post-dose. Parts B-D: Up to 280 days post-dose"
+      },
+      {
+        "measure": "Cmax",
+        "description": "VIR-3434 Maximum Concentration in Serum",
+        "timeFrame": "Part A: pre-dose and 1, 4, 6, 24 hours, 3, 7, 14, 28, 56, 84, 126, 168 days post-dose"
+      },
+      {
+        "measure": "AUClast",
+        "description": "VIR-3434 under the curve from time 0 to last measurable Time",
+        "timeFrame": "Part A: pre-dose and 1, 4, 6, 24 hours, 3, 7, 14, 28, 56, 84, 126, 168 days post-dose"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 14,
+      "otherCount": 0,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:22.914Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

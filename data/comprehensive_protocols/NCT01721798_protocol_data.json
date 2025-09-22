@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT01721798",
+  "briefTitle": "Comparison of Two Intrauterine Devices (IUDs) Among Cape Town HIV-positive Women",
+  "officialTitle": "Comparison of Two Intrauterine Devices (IUDs) Among Cape Town HIV-positive Women: A Randomized Controlled Trial Assessing Safety of Registered Products in South Africa",
+  "protocolDocument": {
+    "nctId": "NCT01721798",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-06-19",
+    "uploadDate": "2022-01-05T15:30",
+    "size": 1238458,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01721798/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 199,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-11-10",
+    "completionDate": "2018-07-13",
+    "primaryCompletionDate": "2018-07-13",
+    "firstSubmitDate": "2012-10-18",
+    "firstPostDate": "2012-11-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria\n\n* Willing and able to provide written informed consent (IC) to be screened for and to participate in the trial\n* Interested and willing to use the intrauterine device (IUD) as a family planning method.\n* Between 18 to 40 years of age (inclusive): This age range includes women during their years of greatest fertility and 18 is the age of majority for research consent in South Africa.\n* Willing to participate in all aspects of the study and to comply with study procedures and visits, for 24 months, including:\n\n  * Be randomized\n  * Adhere to follow-up schedule and willing to be contacted by site staff between study visits (by phone and/or in person)\n  * Provide contact/locator information\n  * Agree for site staff to review clinic chart to confirm HIV status\n* Has documented HIV infection\n* For pre-antiretroviral therapy (ART) entrants:\n\n  * ART-ineligible at screening, based on current South African ART guidelines\n  * Be at least 6 months post-delivery and not pregnant or desiring pregnancy for the next 30 months.\n* For ART-using entrants:\n\n  * ART-use demonstrated by clinical records reflecting laboratory measures consistent with ART use and evidence of viral suppression (plasma viral load (VL)\\<1000 copies/mL) at the most recent VL measure.\n  * Be at least 6 weeks post-delivery and not pregnant or desiring pregnancy for the next 30 months.\n* Intending residence in Cape Town area for next 30 months\n* No documented or known history of infertility or sterilization\n* No gross evidence of cervical neoplasia on examination\n* No prior history of ectopic pregnancy\n* No history of or suspected hormonally-dependent neoplasm or undiagnosed abnormal vaginal bleeding\n* Local language fluency and comprehension\n* Not participating in any other clinical trial with a biomedical intervention\n* Have no condition that, based on the opinion of the Site Principal Investigator (PI), would preclude provision of informed consent, make participation in the study unsafe, or complicate interpretation of data.\n\nExclusion Criteria:\n\n* Known congenital or acquired uterine anomaly including fibroids distorting the uterine cavity;\n* Known acute liver disease or hepatic neoplasm;\n* Known copper storage disease;\n* Known hypersensitivity to any component of the levonorgestrel IUD (LNG IUD) or copper IUD (C-IUD) or latex allergy\n* Pregnant or desiring pregnancy in next 24 months\n* Gross cervical lesion concerning for neoplasia\n* CD4 lymphocyte count\\<350 cells/mm3 if not using ART\n* Less than 6 weeks postpartum",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "40 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Participants With Detectable Genital Tract HIV Ribonucleic Acid (RNA) Viral Load (VL)",
+        "description": "Number of women with detectable genital tract HIV RNA as measured with menstrual cup sampling at each scheduled visit. Level of detection was 20-40 copies/mL depending on assay; outcome was dichotomous with copies above level of detection coded as detectable and those below level of detection considered undetectable.",
+        "timeFrame": "Enrollment to 24 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Participants With Detectable Plasma HIV Ribonucleic Acid (RNA) Viral Load Among Those Using Antiretroviral Therapy (ART)",
+        "description": "The proportion of women using ART at enrollment with detectable plasma HIV RNA viral load. Viral load assays detected HIV RNA levels at 20-40 copies/mL as the lower limit of detection. The outcome measure coded values above that limit as detectable and those below as undetectable for women using ART and in mean viral load for women not using ART.",
+        "timeFrame": "Enrollment to 24 months"
+      },
+      {
+        "measure": "Mean Hemoglobin Concentration as Part of Intrauterine Contraceptive Safety",
+        "description": "Participant hemoglobin measured at baseline, 6, 12, 18, and 24 months with blood sample with mean hemoglobin calculated and trends over time assessed. Other safety measures were included with this secondary outcome, such as adverse events, summarized with descriptive statistics.",
+        "timeFrame": "Enrollment to 24 months"
+      },
+      {
+        "measure": "Participants Continuing Use of the Allocated Intrauterine Device (IUD)",
+        "description": "Measure of the number of women continuing to use the allocated intrauterine device (IUD) across all visits as a measure of acceptability. Proportion of women using the allocated IUD measured at each scheduled visit with time using the IUD adjusted for discontinuation at unscheduled visits. Continuation rate analyzed longitudinally with Kaplan-Meier survival analysis.",
+        "timeFrame": "Enrollment to 24 months"
+      },
+      {
+        "measure": "HIV Ribonucleic Acid (RNA) Concentration by Lower Female Genital Tract Sampling Method",
+        "description": "Proportion of specimens with quantifiable genital viral load compared by specific sampling method (menstrual cup, endocervical swab, and swab-enriched lavage) at enrollment, 3 months and 6 months among women not using antiretroviral therapy (ART). Allocated intrauterine device (IUD) was not considered in this analysis.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:24.984Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

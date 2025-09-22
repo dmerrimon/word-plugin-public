@@ -1,0 +1,133 @@
+{
+  "nctId": "NCT04952402",
+  "briefTitle": "SARS-CoV-2 Immune Responses After COVID-19 Therapy and Subsequent Vaccine",
+  "officialTitle": "SARS-CoV-2 Immune Responses After COVID-19 Therapy and Subsequent Vaccine",
+  "protocolDocument": {
+    "nctId": "NCT04952402",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol: Letter of Amendment #1",
+    "date": "2021-07-12",
+    "uploadDate": "2023-02-16T14:56",
+    "size": 530436,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04952402/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 43,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-07-09",
+    "completionDate": "2023-01-10",
+    "primaryCompletionDate": "2022-02-28",
+    "firstSubmitDate": "2021-06-28",
+    "firstPostDate": "2021-07-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* For all participants: Ability and willingness of participant (or legally authorized representative) to provide informed consent prior to initiation of any study procedures.\n* For participants who are in, or who have completed, the ACTIV-2/A5401 trial: Receipt of all selected investigational therapy or active comparator/placebo for that therapy at selected sites.\n* For participants who are in, or who have completed, the ACTIV-2/A5401 trial and receive study-provided Moderna mRNA-1273 COVID-19 vaccine: Receipt of the last dose of investigational therapy or active comparator/placebo for that therapy ≥30 days and ≤240 days prior to study entry.\n* For participants who are in, or who have completed, the ACTIV-2/A5401 trial and have received or will be receiving community-provided mRNA-based COVID-19 vaccine: Receipt of the last dose of investigational therapy or active comparator/placebo for that therapy ≥30 and ≤240 days prior to receipt or planned receipt of the first dose of community-provided vaccine.\n\nExclusion Criteria:\n\n* For participants who are in, or who have completed, the ACTIV-2/A5401 trial: Self-report of prior receipt of a non-mRNA-based COVID-19 vaccine.\n* For participants who are in, or who have completed, the ACTIV-2/A5401 trial: Self-report of receipt of the first dose of an mRNA-based COVID-19 vaccine 140 days or more before A5404 enrollment.\n* For participants who are in, or who have completed, the ACTIV-2/A5401 trial: Self-report of a second SARS-CoV-2 infection after the infection that qualified the participant for ACTIV-2/A5401.\n* For non-A5401/ACTIV-2 participants: Self-report of receipt of any prior COVID-19 vaccine.\n* For non-A5401/ACTIV-2 participants: Known prior history of any SARS-CoV-2-positive test (e.g., PCR test, Nucleic Acid Amplification Test (NAAT), antigen test, serology test).\n* For participants who receive study-provided Moderna mRNA-1273 COVID-19 vaccine: Known allergy to any component of the Moderna COVID-19 vaccine.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Neutralizing Antibody (NAb) Level",
+        "description": "NAb level was measured by using both 50% neutralizing dilution titers (ND50) and 80% neutralizing titers (ND80). A higher NAb level corresponds to a stronger immune response. For ND50 values less than lower limit of quantification (LLQ), we impute with 10 (which is ½ LLQ of 20). For ND50 values exceeding the upper limit of quantification (ULQ), we impute with 20,000 (a value suggested by the immunology lab, which is 2 times the ULQ of 10,000). For ND80, we impute similarly with 10 and 20,000. We carry forward the Day 56 NAb measurement if the Day 140 measurement is not reported.",
+        "timeFrame": "Measured 140 days after the first dose of the vaccine"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Geometric Mean of Relative Change in Neutralizing Antibody Levels From Pre-vaccine to Post-vaccine",
+        "description": "Relative change is defined as the ratio of post-vaccine NAb level/pre-vaccine NAb level. A ratio greater than one indicates an increase of NAb response. For ND50 values less than lower limit of quantification (LLQ), we impute with 10 (which is ½ LLQ of 20). For ND50 values exceeding the upper limit of quantification (ULQ), we impute with 20,000 (a value suggested by the immunology lab, which is 2 times the ULQ of 10,000). For ND80, we impute similarly with 10 and 20,000.",
+        "timeFrame": "Measured before the first dose of the vaccine, and 56 days after the first dose of the vaccine"
+      },
+      {
+        "measure": "Proportion of Participants With New Grade 3 or Higher AE, or SAE, or AE Leading to Change or Discontinuation in Vaccine Receipt",
+        "description": "An adverse event (AE) is any unfavorable and unintended sign, symptom, or diagnosis that occurs in a study participant during the conduct of the study REGARDLESS of the attribution. A serious adverse event (SAE) is defined as any untoward medical occurrence that results in death; is life-threatening; requires inpatient hospitalization or prolongation of existing hospitalization; results in persistent or significant disability/incapacity; is a congenital anomaly/birth defect; is an important medical event that may not be immediately life-threatening or result in death or hospitalization but may jeopardize the patient or may require intervention to prevent one of the other outcomes listed in the definition above.\n\nAdverse events are graded on a scale from 1-5: 1=mild, 2=moderate, 3=severe, 4=life-threatening, 5=death. AE grading was per Division of AIDS Table for Grading the Severity of Adult and Pediatric Adverse Events (DAIDS AE Grading Table V2.1).",
+        "timeFrame": "From first dose of the vaccine through 140 days after the first dose of the vaccine"
+      },
+      {
+        "measure": "Number of Participants With Grade 1 or Higher Allergic Reaction",
+        "description": "Adverse events are graded on a scale from 1-5: 1=mild, 2=moderate, 3=severe, 4=life-threatening, 5=death. AE grading was per Division of AIDS Table for Grading the Severity of Adult and Pediatric Adverse Events (DAIDS AE Grading Table V2.1).",
+        "timeFrame": "From first dose of the vaccine through 56 days after the first dose of the vaccine"
+      },
+      {
+        "measure": "Proportion of Participants With Grade 2 or Higher Injection Site Reaction",
+        "description": "Adverse events are graded on a scale from 1-5: 1=mild, 2=moderate, 3=severe, 4=life-threatening, 5=death. AE grading was per Division of AIDS Table for Grading the Severity of Adult and Pediatric Adverse Events (DAIDS AE Grading Table V2.1).",
+        "timeFrame": "From first dose of the vaccine through 56 days after the first dose of the vaccine"
+      },
+      {
+        "measure": "Geometric Mean of Relative Change in Neutralizing Antibody Levels From Pre-vaccine to Post-vaccine by Received Vaccine",
+        "description": "Relative change is defined as the ratio of post-vaccine NAb level/pre-vaccine NAb level by received vaccine, i.e., Moderna mRNA-1273 versus Pfizer-BioNTech BNT162b2. A ratio greater than one indicates an increase of NAb response for those on Moderna mRNA-1273 versus Pfizer-BioNTech BNT162b2. For ND50 values less than lower limit of quantification (LLQ), we impute with 10 (which is ½ LLQ of 20). For ND50 values exceeding the upper limit of quantification (ULQ), we impute with 20,000 (a value suggested by the immunology lab, which is 2 times the ULQ of 10,000). For ND80, we impute similarly with 10 and 20,000.",
+        "timeFrame": "Measured before the first dose of the vaccine, and 56 days after the first dose of the vaccine"
+      }
+    ],
+    "other": [
+      {
+        "measure": "CD4+ T Cell Response to SARS-CoV-2 Spike Protein",
+        "description": "Team re-prioritized the analysis of secondary objectives due to limited accrual and moved this outcome to exploratory.",
+        "timeFrame": "At the visit 56 days after the first dose of the vaccine"
+      },
+      {
+        "measure": "CD8+ T Cell Response to SARS-CoV-2 Spike Protein",
+        "description": "Team re-prioritized the analysis of secondary objectives due to limited accrual and moved this outcome to exploratory.",
+        "timeFrame": "At the visit 56 days after the first dose of the vaccine"
+      },
+      {
+        "measure": "IgG Serologic Response to SARS-CoV-2 Spike Protein at Receptor Binding Domain (RBD) and N Terminal Domain (NTD) and Matrix (M) Protein.",
+        "description": "Team re-prioritized the analysis of secondary objectives due to limited accrual and moved this outcome to exploratory.",
+        "timeFrame": "At the visit 56 days after the first dose of the vaccine"
+      },
+      {
+        "measure": "Flow Cytometry of PBMC for Markers of Exhaustion on B and T Cells",
+        "description": "Team re-prioritized the analysis of secondary objectives due to limited accrual and moved this outcome to exploratory.",
+        "timeFrame": "At study entry/Day 0 and 56 days after the first vaccine dose."
+      },
+      {
+        "measure": "IgM Serologic Response to SARS-CoV-2 Spike Protein at Receptor Binding Domain (RBD) and N Terminal Domain (NTD) and Matrix (M) Protein.",
+        "description": "Team re-prioritized the analysis of secondary objectives due to limited accrual and moved this outcome to exploratory.",
+        "timeFrame": "At the visit 56 days after the first dose of the vaccine"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 5,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:41.615Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

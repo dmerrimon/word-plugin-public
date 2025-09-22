@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03531710",
+  "briefTitle": "An Extension Study of V203-AD Study to Evaluate the Safety, Tolerability, Immunogenicity, and Efficacy of UB-311",
+  "officialTitle": "An Extension Study of a Phase IIa Study in Patients With Mild Alzheimer's Disease to Evaluate the Safety, Tolerability, Immunogenicity, and Efficacy of UBITh® AD Immunotherapeutic Vaccine (UB-311)",
+  "protocolDocument": {
+    "nctId": "NCT03531710",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-01-22",
+    "uploadDate": "2020-06-01T14:20",
+    "size": 1057884,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03531710/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 34,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-08-10",
+    "completionDate": "2019-10-31",
+    "primaryCompletionDate": "2019-10-31",
+    "firstSubmitDate": "2018-04-06",
+    "firstPostDate": "2018-05-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients who participated in V203-AD trial without major safety concerns;\n* Stable doses of permitted medications for 3 months before screening;\n* With a caregiver;\n* Other inclusion criteria apply\n\nExclusion Criteria:\n\n* Clinically significant neurological disease other than Alzheimer's disease\n* Major psychiatric disorder\n* Severe systemic disease\n* Serious adverse reactions to any vaccine\n* Other exclusion criteria apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Incidence of Adverse Event (AE)/Serious Adverse Event (SAE) [Safety and Tolerability]).",
+        "description": "Summary of Treatment Emergent Adverse Events (TEAEs), based on reported adverse events and other safety information including local tolerability at injection site, MRI, vital signs, physical examination, 12-lead ECG and laboratory tests.",
+        "timeFrame": "Overall Study Duration/Early Termination, over an average study duration of 326 days"
+      },
+      {
+        "measure": "Change From Baseline and Through to the End of the Study in Anti-Aβ Antibody Titers [The Immunogenicity of UB-311]",
+        "description": "For the immunogenicity assessment of the investigational product, UB-311, the level of anti-Aβ antibodies in the serum samples will be measured by a validated enzyme immunoassay manufactured by United Biomedical, Inc. (UBI). The level of anti-Aβ antibodies is assessed at every visit throughout the study period.",
+        "timeFrame": "Overall Study Duration/Early Termination, over an average study duration of 326 days"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "Change From Baseline and Through to the End of the Study in Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog);",
+        "description": "The ADAS-Cog 13 contains 13 items, with a total scoring range of 0 - 85 and higher scores indicating greater dysfunction. ADAS-Cog scores were evaluated at V1 and V8/ET. The observed values and change from baseline for ADAS-Cog scores by treatment groups in the extension study are presented",
+        "timeFrame": "Overall Study Duration/Early Termination, over an average study duration of 326 days"
+      },
+      {
+        "measure": "Change From Baseline and Through to the End of the Study in Mini-Mental State Exam (MMSE)",
+        "description": "The MMSE is a 30-point questionnaire. The total score range is 0 - 30 and lower scores indicating greater impairment. MMSE scores were evaluated at V1 and V8/ET. The observed values and change from baseline for MMSE scores by treatment groups in the extension study are presented",
+        "timeFrame": "Overall Study Duration/Early Termination, over an average study duration of 326 days"
+      },
+      {
+        "measure": "Change From Baseline and Through to the End of the Study in Clinical Dementia Rating - Sum of Boxes (CDR-SB)",
+        "description": "The CDR-SB includes 6 domains (0 - 3 points/domain), with a total scoring range of 0 - 18 and higher scores indicate greater impartment. CDR-SB scores were evaluated at V1 and V8/ET. The observed values and change from baseline for CDR-SB scores by treatment groups in the extension study are presented",
+        "timeFrame": "Overall Study Duration/Early Termination, over an average study duration of 326 days"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 3,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 45,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:03.418Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

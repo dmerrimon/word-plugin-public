@@ -1,0 +1,114 @@
+{
+  "nctId": "NCT03932812",
+  "briefTitle": "Building a Bridge (BAB) Between Clinical and Community Care",
+  "officialTitle": "Building a Bridge (Between Clinical and Community Care): Post-diagnosis Support for Persons With Dementia and Their Families",
+  "protocolDocument": {
+    "nctId": "NCT03932812",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-07-30",
+    "uploadDate": "2022-10-12T20:02",
+    "size": 1208594,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03932812/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 82,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-08-01",
+    "completionDate": "2021-10-31",
+    "primaryCompletionDate": "2021-10-31",
+    "firstSubmitDate": "2019-04-16",
+    "firstPostDate": "2019-05-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18 years of age\n* Speaks English\n* Lives in Iowa\n* Caregiver of someone diagnosed with dementia within the past 6 months\n\nExclusion Criteria:\n\n\\- Does not meet inclusion criteria",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "110 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Modified Zarit Burden Interview",
+        "description": "Caregiver burden 12 item self report questionnaire; Minimum score 0, maximum score 36 with low scores showing less burden",
+        "timeFrame": "Change over time from baseline to 6-month"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Knowledge of Formal Services",
+        "description": "Established measure of the extent to which caregiver knows about formal services available in their communities. Participants answer the extent to which (on a five-point Likert scale from \"not at all true of me\" to \"completely true of me\") they are informed about federal programs, that they know what to do to get help, that they know how to get the person they care for into a nursing home, that they are aware of how to pay for a nursing home, that they can get information about different options for getting care, that they know which home health care agencies are active in their area, that they know which nursing facilities are available in their area, and how to get assistance due to COVID (added later). The scale ranges from \"Not True at all of me\" to \"Completely true of me\", where these answers and those in between score 1-5. The scale is scored by adding up these scores of the 8 questions. Thus, the range is 8-40, with a 40 being the highest knowledge of formal services.",
+        "timeFrame": "Change over time from baseline to 6-month"
+      },
+      {
+        "measure": "Center for Epidemiologic Studies Depression",
+        "description": "Ten item measure assessing the extent to which the individual is experiencing depressive symptoms. Questions ask about how often feelings or events happen in a week on a scale from None of the time, where less than one day receives 0 points, to Most of the time, where 5 to 7 days receives 3 points. The lowest score is a 0, indicating no depression. The highest score is 30, indicating high depression.",
+        "timeFrame": "Change over time from baseline to 6-month"
+      },
+      {
+        "measure": "Emergency Care Use",
+        "description": "Self-reported measure of the number of times participants have visited a doctor or other health care provider unexpectedly in the past 6 months. The lowest score could be 0, indicating no emergency care use and the highest score for each could be 180 days, indicating that the participant visited a doctor or health care provider every day for the past six months",
+        "timeFrame": "Change over time from baseline to 6-month"
+      },
+      {
+        "measure": "Social Network-Uplift",
+        "description": "Count of network members engaging in supportive interactions (Uplift) for each caregiver. Each caregiver had network members providing different levels of support. There are 8 survey questions to indicate whether network members engaged in uplifting interactions in any way. A network member with at least one interaction is counted. At each time point, the questions are asked again and reevaluated.",
+        "timeFrame": "Change over time from baseline to 6-month"
+      },
+      {
+        "measure": "Social Network-Malfeasant",
+        "description": "Count of network members engaging in negative caregiving social interactions (Malfeasant) for each caregiver. Each caregiver had network members providing different levels of support. There are 7 survey questions to indicate whether network members engaged in malfeasant interactions in any way. A network member with at least one interaction is counted. At each time point, the questions are asked again and reevaluated.",
+        "timeFrame": "Change over time from baseline to 6-month"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Caregiving Self-Efficacy",
+        "description": "5-item self-reported measure assessing caregivers' confidence to use community-based services. The scale ranges on level of certainty from \"not at all certain\" to \"very certain.\" The responses are scored on a scale of 0-10. These scores are summed up for a final score of 0-50, with a 50 being the highest knowledge of formal services. Questions include how certain the caregiver can get answers to all questions about services in the community, find organizations or agencies that provide services in need, arrange for services themselves, get answers to all questions about the individual's care, and get answers to changes in services due to the COVID-19 pandemic.",
+        "timeFrame": "Change over time from baseline to 6-month"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 1,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 66,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:39.382Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

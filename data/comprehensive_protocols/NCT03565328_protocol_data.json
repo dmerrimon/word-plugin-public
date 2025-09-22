@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03565328",
+  "briefTitle": "The Effect of Nicotinamide Riboside on Skeletal Muscle Function in Heart Failure Subjects",
+  "officialTitle": "Pilot Study to Evaluate the Effect of Nicotinamide Riboside on Skeletal Muscle Function in Heart Failure Subjects",
+  "protocolDocument": {
+    "nctId": "NCT03565328",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-02-15",
+    "uploadDate": "2020-09-25T14:31",
+    "size": 642165,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03565328/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-09-27",
+    "completionDate": "2019-11-18",
+    "primaryCompletionDate": "2019-11-18",
+    "firstSubmitDate": "2018-06-20",
+    "firstPostDate": "2018-06-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "* INCLUSION CRITERIA:\n\nMen and women between the ages of 18 and 75 years with New York Heart Association (NYHA) Functional Classification Class II-III systolic heart failure ( Left Ventricular Ejection Fraction (LVEF) by standard echocardiography or radionuclide ventriculography of less than or equal to 45%) deemed to be non-ischemic or ischemic in origin.\n\nClinically stable (no cardiac procedures or hospitalizations for hospitalizations for cardiac causes, including HF, ischemia or arrhythmia) within the previous 3 months\n\nAbility to undergo study procedures, including scheduled visits, blood draws, skeletal muscle exercise NMR spectroscopy and CPET testing\n\nWillingness/ability to provide informed consent\n\nMust be DEERS eligible to be enrolled in a research protocol at Walter Reed National Military Medical Center (WRNMMC).\n\nEXCLUSION CRITERIA:\n\nHeart failure with preserved ejection fraction (LVEF greater than 45%)\n\nChange in heart failure medications due to deterioration of function with the exception of up- or down-titration of diuretic dose up to 100% of baseline dose.\n\nHeart failure due to etiologies other than non-ischemic or ischemic. Examples of exclusionary heart failure etiologies include primary valvular disease, or infiltrative or inflammatory cardiomyopathies.\n\nCardiac surgery, percutaneous coronary intervention (PCI) or cardiac device implantation within the previous 3 months\n\nHospitalizations for cardiovascular causes, including heart failure, chest pain, stroke/TIA or arrhythmias within the previous 3 months\n\nInability to perform Study visits or procedures (e.g., physical inability to perform exercise testing)\n\nUnwillingness/inability to provide informed consent\n\nALT greater than x3 upper limit of normal, hepatic insufficiency or active liver disease\n\nRecent history of acute gout\n\nChronic renal insufficiency with creatinine greater than 2.5mg/dl\n\nPregnant (or likely to become pregnant) women\n\nSignificant co-morbidity likely to cause death in the 6 month follow-up period\n\nSignificant active history of substance abuse within the previous 5 years\n\nCurrent participation in another drug study\n\nHistory of intolerance to NR precursor compounds, including niacin or nicotinamide\n\nMRI incompatible hardware including pacemakers or ICD s\n\nStudy adherence concerns\n\nIndividuals with diabetes type 1 and 2 who use insulin\n\nWomen of child-bearing potential unwilling to use contraception or unwilling to practice abstinence\n\nBreastfeeding women unwilling to stop breastfeeding",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Who Had Enhancement of Mitochondrial Function in Skeletal Muscle",
+        "description": "Number of participants who had enhancement mitochondrial function in skeletal muscle Nuclear magnetic resonance (NMR) spectroscopy will be performed at baseline, at the end of the 12-week Nicotinamide Riboside (NR) supplementation period and repeated 4 weeks post-NR washout.",
+        "timeFrame": "baseline-12 week-16 week"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Measure the Effects of Nicotinamide Riboside (NR) on Oxidative Phosphorylation and Inflammation in Respective Subject Primary Skin Fibroblasts",
+        "description": "Measure the effects in participants of Nicotinamide Riboside (NR) on oxidative phosphorylation and inflammation in respective subject primary skin fibroblasts",
+        "timeFrame": "Baseline, 12 week"
+      },
+      {
+        "measure": "Number of Participants Without Heart Failure Linked Inflammation",
+        "description": "To quantitative serum cytokine immunoassay profiling to assess whether Nicotinamide Riboside (NR) blunts heart failure (HF) linked inflammation",
+        "timeFrame": "Baseline, 12 week"
+      },
+      {
+        "measure": "Number of Participants Who Experienced an Increased Rate of Oxidative Phosphorylation",
+        "description": "Serum quantitative metabolomic profiling, pre and post-cardiopulmonary exercise testing (CPET) to evaluate whether Nicotinamide Riboside (NR) increases the rate of oxidative phosphorylation",
+        "timeFrame": "Baseline, 12 week"
+      },
+      {
+        "measure": "VO2 Max and Anaerobic Thresholds",
+        "description": "Analysis of VO2max and the anaerobic threshold will be measured.",
+        "timeFrame": "Baseline, 12 week"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:31.949Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

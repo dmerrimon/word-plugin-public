@@ -1,0 +1,134 @@
+{
+  "nctId": "NCT02543658",
+  "briefTitle": "Neostigmine Treatment of Acute Pancreatitis Combined With Intra-abdominal Hypertension",
+  "officialTitle": "The Curative Effect and Security of Neostigmine Treatment of Acute Pancreatitis Combined With Intra-abdominal Hypertension",
+  "protocolDocument": {
+    "nctId": "NCT02543658",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-06-02",
+    "uploadDate": "2020-05-04T07:24",
+    "size": 265359,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02543658/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 80,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-09-01",
+    "completionDate": "2018-05-30",
+    "primaryCompletionDate": "2017-08-15",
+    "firstSubmitDate": "2015-08-27",
+    "firstPostDate": "2015-09-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age 18-70 year ;\n2. The diagnosis of acute pancreatitis according to the revised Atlanta classification.\n3. IAH is defined as IAP ≥ 12 mmHg by the World Society of Abdominal;Compartment Syndrome (WSACS);\n4. After 24 hours of conventional treatment(such as gastrointestinal decompression or percutaneous drainage of ascites), the IAP of AP patients with IAH was still ≥ 12 mmHg;\n5. The onset time of acute pancreatitis was within 2 weeks;\n6. Signed the informed consent.\n\nExclusion Criteria:\n\n1. Previous history of laparotomy;\n2. Mechanical ileus or abdominal hemorrhage were considered clinically;\n3. Those who have contraindications to neostigmine: 1) Patients with angina; 2) myocardial infarction; 3) ventricular tachycardia; 4) bradycardia; 5) acute circulatory failure; 6) epilepsy; 7) bronchial asthma; 8) mechanical intestinal obstruction; 9) urinary tract infarction; 10) hyperthyroidism; 11) serious arrhythmia; 12) bladder operation; 13) intestinal fistula;\n4. Allergic to neostigmine;\n5. Pregnant or lactating patients.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percent Change of IAP After Treatment",
+        "description": "Monitor the intra-abdominal pressure within 1 to 7 days after randomization, and calculate the percent change compared with that before randomization",
+        "timeFrame": "From randomization to 7 days after treatment,Measured IAP every 6 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The Change of Stool Volume at 1-7 Days After Randomization",
+        "description": "After randomization, the change of stool volume (ML) was calculated every 24 hours.For example, the amount of stool volume decreased or increased in 24 hours after grouping compared to before grouping.",
+        "timeFrame": "From randomization to 7 days"
+      },
+      {
+        "measure": "New-onset Abdominal Compartment Syndrom",
+        "description": "Abdominal compartment syndrome is defined as a sustained IAP\\>20 mmHg (with or without an APP\\<60 mmHg) that is associated with new organ dysfunction/failure",
+        "timeFrame": "From randomization to discharge or death, assessed up to 4 weeks"
+      },
+      {
+        "measure": "New-onset Organ Failure",
+        "description": "Incidence of organ failure from randomization to discharge or death, assessed up to 3 months",
+        "timeFrame": "From randomization to discharge or death, assessed up to 3 months"
+      },
+      {
+        "measure": "Death of 90 Days",
+        "description": "Death during from randomization to 90 days after onset.",
+        "timeFrame": "From randomization to 90 days after onset."
+      },
+      {
+        "measure": "Timing of Enteral Nutrition",
+        "description": "From date of randomization to enteral nutrition, assessed up to 30 days",
+        "timeFrame": "Start time of enteral nutrition after randomization, assessed up to 30 days"
+      },
+      {
+        "measure": "Number of Participants With Deterioration of IAH",
+        "description": "IAP rebound ≥ 5mmHg or increase ≥ 20mmHg within 1-7 days after grouping",
+        "timeFrame": "From randomization to 7 days"
+      },
+      {
+        "measure": "Number of Participants With Adverse Effects on the Cardiovascular System",
+        "description": "Due to that neostigmine has an inhibitory effect on the cardiovascular system, new-onset cardiovascular failure after grouping is considered as a possible adverse event related to neostigmine.Cardiovascular failure was defined as circulatory systolic blood pressure \\<90 mm Hg, despite adequate fluid resuscitation, or need for inotropic catecholamine support",
+        "timeFrame": "From randomization to 7 days"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Days in Hospital",
+        "description": "Days in hospital within 6 months after randomisation",
+        "timeFrame": "From randomisation to 6 months"
+      },
+      {
+        "measure": "Days in ICU",
+        "description": "Days in ICU within 6 months after randomisation",
+        "timeFrame": "From randomisation to 6 months"
+      },
+      {
+        "measure": "Medical Expenses",
+        "description": "Medical expenses within 6 months after randomisation",
+        "timeFrame": "From randomisation to 6 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 3,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 80,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:13.895Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

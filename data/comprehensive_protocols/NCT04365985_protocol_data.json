@@ -1,0 +1,132 @@
+{
+  "nctId": "NCT04365985",
+  "briefTitle": "Study of Immunomodulation Using Naltrexone and Ketamine for COVID-19",
+  "officialTitle": "Study of Immunomodulation Using Naltrexone and Ketamine for COVID-19",
+  "protocolDocument": {
+    "nctId": "NCT04365985",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-09-02",
+    "uploadDate": "2021-12-15T18:44",
+    "size": 349655,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04365985/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 70,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-04-29",
+    "completionDate": "2021-04-01",
+    "primaryCompletionDate": "2021-04-01",
+    "firstSubmitDate": "2020-04-26",
+    "firstPostDate": "2020-04-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Positive for COVID -19\n* Admitted to Beaumont Hospital - Royal Oak, Michigan\n* Age ≥18\n* Receiving ≤ 6 liters/minute oxygen by nasal cannula for randomization to either placebo or naloxone arm OR receiving ≥ 6 liters/minute oxygen by nasal cannula or requiring advanced oxygenation for placement in ketamine arm\n\nExclusion Criteria:\n\n* Known allergy to naltrexone\n* Known allergy to ketamine\n* Diagnosis of schizophrenia or psychosis\n* Pregnancy based on available medical history, existing labs, or verbal report\n* On chronic high dose opioids \\> 90mg morphine mg equivalence\n* Use of naltrexone or Vivitrol within 90 days",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Progression of Oxygenation Needs",
+        "description": "Count of participants initially presenting with mild/moderate disease who progress to requiring advanced oxygenation (high flow nasal canula, non-rebreather, continuous positive airway pressure (CPAP), bilevel positive airway pressure (BIPAP), or intubation)",
+        "timeFrame": "up to 1 month"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Renal Failure",
+        "description": "Count of participants who develop or experience worsened renal failure as defined by RIFLE criteria, a 5-point scale where the categories are labeled: Risk-Injury-Failure-Loss-End stage renal disease, with Risk being the least severe and End stage renal disease being the most severe. The criteria for determination of stage are factors of serum creatinine and urine output. Numbers of participants worsening one or more RIFLE stages will be reported.",
+        "timeFrame": "up to 1 month"
+      },
+      {
+        "measure": "Liver Failure",
+        "description": "Count of participants who develop or experience worsened liver failure as defined by serum transaminases five times normal limits",
+        "timeFrame": "up to 1 month"
+      },
+      {
+        "measure": "Cytokine Storm",
+        "description": "Count of participants who develop cytokine storm as measured by elevated markers of inflammation (elevated D-dimer, hypofibrinogenemia, hyperferritinemia), evidence of acute respiratory distress syndrome (ARDS) measured by imaging findings and mechanical ventilator requirements, and/or continuous fever (≥ 38.1 ° Celsius unremitting)",
+        "timeFrame": "up to 1 month"
+      },
+      {
+        "measure": "COVID Mortality",
+        "description": "Count of participants who die from COVID-19",
+        "timeFrame": "up to 1 month post hospital discharge"
+      },
+      {
+        "measure": "Length of Hospital Stay",
+        "description": "Length of hospital stay in days",
+        "timeFrame": "up to 1 month"
+      },
+      {
+        "measure": "Intensive Care Unit (ICU) Admission",
+        "description": "Count of patients admitted to the ICU at any time during index hospitalization",
+        "timeFrame": "up to 1 month"
+      },
+      {
+        "measure": "Intensive Care Unit (ICU) Duration",
+        "description": "Length of ICU stay in days",
+        "timeFrame": "up to 1 month"
+      },
+      {
+        "measure": "Intubation",
+        "description": "Count of participants requiring intubation",
+        "timeFrame": "up to 1 month"
+      },
+      {
+        "measure": "Intubation Duration",
+        "description": "Length of intubation, measured in days",
+        "timeFrame": "up to 1 month"
+      },
+      {
+        "measure": "Time Until Recovery",
+        "description": "Time measured in days from hospital admission to determination patient is stable for discharge",
+        "timeFrame": "up to 1 month"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.061Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

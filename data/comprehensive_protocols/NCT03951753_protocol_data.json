@@ -1,0 +1,123 @@
+{
+  "nctId": "NCT03951753",
+  "briefTitle": "A Study of Tirzepatide in Participants With Type 2 Diabetes Mellitus (T2DM)",
+  "officialTitle": "The Effect of Tirzepatide on α and β Cell Function and Insulin Sensitivity in Patients With Type 2 Diabetes Mellitus",
+  "protocolDocument": {
+    "nctId": "NCT03951753",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-06-10",
+    "uploadDate": "2022-05-31T06:23",
+    "size": 1996510,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03951753/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 117,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-06-28",
+    "completionDate": "2021-04-08",
+    "primaryCompletionDate": "2021-04-08",
+    "firstSubmitDate": "2019-05-14",
+    "firstPostDate": "2019-05-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Have T2DM for at least 6 months\n* Treated with diet and exercise and stable dose(s) of metformin, with or without 1 additional stable dose of oral antihyperglycemia medication other than metformin, 3 months prior to study entry\n* Have a hemoglobin A1c (HbA1c) value at screening of ≥7% and ≤ 9.5 % if on metformin only; or ≥6.5% and ≤9.0% if on metformin in combination with oral antihyperglycemia medications other than metformin\n* Have a body mass index (BMI) between 25 and 45 kilograms per square meter (kg/m² ) inclusive, at screening; are of stable weight (±5%) \\>3 months prior to screening\n\nExclusion Criteria:\n\n* Have a history of proliferative retinopathy or maculopathy as determined by the investigator based on a recent (\\<1.5 years) ophthalmologic examination\n* Impaired renal estimated glomerular filtration rate (eGFR) \\<45 milliliters per minute per 1.73 square meters (mL/min/1.73 m²) calculated by Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI)\n* Have a history or current cardiovascular, respiratory, hepatic, renal, GI,endocrine, hematological or neurological disorders capable of significantly altering the absorption, metabolism or elimination of drugs; of constituting a risk when taking the study drug; or of interfering with the interpretation of data",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "maximumAge": "74 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Total Clamp Disposition Index (cDI)",
+        "description": "cDI is defined as the product of the M-value derived from the hyperinsulinemic euglycemic clamp over the last 30 minutes and total insulin secretion (ISR AUC0-120min) derived from the insulin secretion rate based on C-peptide using the using the deconvolution technique divided by the total glucose AUC0-120min from the hyperglycemic clamp portion of the study. Least squares (LS) mean was determined by analysis of covariance (ANCOVA) model for endpoint measures: log(Actual Measurement/Baseline) = log(Baseline) + Treatment (Type III sum of squares).",
+        "timeFrame": "Baseline, Week 28"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Fasting Glucose",
+        "description": "Fasting glucose is a test to determine sugar levels in blood sample after an overnight fast. Fasting glucose was measured prior to standardized mixed-meal tolerance tests (sMMTT). LS mean was determined by ANCOVA model for endpoint measures: Variable = Baseline + Treatment (Type III sum of squares).",
+        "timeFrame": "Baseline, Week 28"
+      },
+      {
+        "measure": "Change From Baseline in Postmeal Glucose",
+        "description": "Total AUC from time zero to 240 minutes after start of the meal \\[AUC0-240min\\]) during sMMTT was evaluated. LS mean was determined by ANCOVA model for endpoint measures: Variable = Baseline + Treatment (Type III sum of squares) and ANOVA model for baseline measures: Variable = Treatment (Type III sum of squares).",
+        "timeFrame": "Baseline, Week 28"
+      },
+      {
+        "measure": "Change From Baseline in Hemoglobin A1c (HbA1c)",
+        "description": "HbA1c is the glycosylated fraction of hemoglobin A. HbA1c is measured primarily to identify average plasma glucose concentration over prolonged periods of time. LS mean was determined by mixed model repeated measures; (MMRM) model for post-baseline measures: Variable = Baseline + Treatment + Time + Treatment\\*Time (Type III sum of squares).",
+        "timeFrame": "Baseline, Week 28"
+      },
+      {
+        "measure": "Change From Baseline in Total Insulin Secretion Rate During the 120-Minute Hyperglycemic Clamp (ISR0-120min)",
+        "description": "Total Insulin Secretion Rate During the 120-Minute Hyperglycemic Clamp (ISR0-120min) will be determined from C-peptide concentrations using the deconvolution technique. LS mean was determined by ANCOVA model for endpoint measures: log(Actual Measurement/Baseline) = log(Baseline) + Treatment (Type III sum of squares).",
+        "timeFrame": "Baseline and Week 28"
+      },
+      {
+        "measure": "Change From Baseline in Hyperinsulinemic Euglycemic Clamp M-value",
+        "description": "Hyperinsulinemic euglycemic clamp M-value is calculated from glucose infusion rate (GIR) over the last 30 minutes, corresponding to steady-state (+150 to +180 minutes), corrected for urine loss and space. LS mean was determined by ANCOVA model for endpoint measures: Variable = Baseline + Treatment (Type III sum of squares).",
+        "timeFrame": "Baseline, Week 28"
+      },
+      {
+        "measure": "Change From Baseline in Glucagon Concentration at Fasting",
+        "description": "Glucagon concentration was measured prior to sMMTT. LS mean was determined by ANCOVA model for endpoint measures: Variable = Baseline + Treatment (Type III sum of squares).",
+        "timeFrame": "Baseline and Week 28"
+      },
+      {
+        "measure": "Change From Baseline in Glucagon Concentration at Postmeal",
+        "description": "Total AUC from time zero to 240 minutes after start of the meal \\[AUC0-240min\\]) during sMMTT. LS mean was determined by ANCOVA model for endpoint measures: Variable = Baseline + Treatment (Type III sum of squares).",
+        "timeFrame": "Baseline and Week 28"
+      },
+      {
+        "measure": "Change From Baseline in Food Intake During Ad Libitum Meal",
+        "description": "Ad libitum meal served buffet-style. Food intake was recorded during a 45 minute period. The sum of the caloric breakdown (carbohydrates, protein, and fats) was calculated from the respective nutritional information of the food items. LS mean was determined by MMRM model for post-baseline measures: Variable = Baseline + Treatment + Time + Treatment\\*Time (Type III sum of squares).",
+        "timeFrame": "Baseline, Week 28"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:10.593Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT04309110",
+  "briefTitle": "Efficacy of Adhesive Strength of New Hydrogel Formulation",
+  "officialTitle": "Evaluation of the Adhesive Strength of the Geko™ X-T3 Neuromuscular Stimulator Incorporating a New Skin Adhesive Hydrogel Formulation Designated KM40C",
+  "protocolDocument": {
+    "nctId": "NCT04309110",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-09-29",
+    "uploadDate": "2023-04-13T07:32",
+    "size": 1421521,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04309110/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-07-13",
+    "completionDate": "2021-11-25",
+    "primaryCompletionDate": "2021-11-25",
+    "firstSubmitDate": "2020-03-12",
+    "firstPostDate": "2020-03-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or female aged ≥ 18 years\n* Currently an in-patient hospitalised for acute stroke\n* Use of geko™ as a mechanical prophylaxis strategy for venous thromboembolism\n* Patient understands and is willing to participate in the study and is able to comply with study procedures\n\nExclusion Criteria:\n\n* Pregnancy or breast feeding\n* Use of any neuro-modulation device other than geko™\n* Participation in any other clinical study that may interfere with the outcome of either study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Efficacy of the Skin Adhesive Strength of Hydrogel KM40C Compared to That of Hydrogel KM10T.",
+        "description": "Self reported - how well did the geko™ device stick to the patients leg? Scale 1-5, Lowest score indicates best adhesion.",
+        "timeFrame": "10 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Incidence of Adverse Events",
+        "description": "Reporting of the incidence of adverse events , incidence of serious adverse events, incidence of study treatment related adverse events, and the incidence of device related adverse events",
+        "timeFrame": "10 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:36.885Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

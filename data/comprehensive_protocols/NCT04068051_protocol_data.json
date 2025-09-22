@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT04068051",
+  "briefTitle": "Multimechanistic Treatment Over Time of Migraine Symptoms (MOVEMENT)",
+  "officialTitle": "An Open-Label, Long-Term Study to Assess the Safety and Efficacy of AXS-07 (MoSEIC™ Meloxicam and Rizatriptan) for the Acute Treatment of Migraine in Adults",
+  "protocolDocument": {
+    "nctId": "NCT04068051",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-10-17",
+    "uploadDate": "2023-09-15T17:33",
+    "size": 535971,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04068051/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 706,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-07-06",
+    "completionDate": "2020-09-22",
+    "primaryCompletionDate": "2020-09-22",
+    "firstSubmitDate": "2019-07-27",
+    "firstPostDate": "2019-08-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Has participated in a prior study with AXS-07 for the treatment of migraine\n\nExclusion Criteria:\n\n* Has previously received any investigational drug or device or investigational therapy within 30 days before Screening, other than AXS-07\n* Pregnant, breastfeeding, or planning to become pregnant or breastfeed during the study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Long-term Safety of Chronic Intermittent Use of AXS-07",
+        "description": "Long-term safety as measured by:\n\nSubjects with any TEAEs\n\nSubjects with suspected to be drug-related TEAEs\n\nSubjects with serious TEAEs\n\nSubjects with TEAEs that led to drug withdrawal\n\nSubjects with TEAEs that led to withdrawal from study\n\nSubjects with TEAEs that resulted in death",
+        "timeFrame": "Up to 12 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:53.524Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

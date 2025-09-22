@@ -1,0 +1,85 @@
+{
+  "nctId": "NCT02860507",
+  "briefTitle": "Study to Determine if Administration of Sugammadex Impacts Hospital Efficiency",
+  "officialTitle": "A Randomized, Blinded-assessor, Single Center Study to Determine if Administration of Sugammadex, When Used to Reverse Deep Neuromuscular Blockade (NMB) After Open Abdominal Surgery, Impacts Hospital Efficiency",
+  "protocolDocument": {
+    "nctId": "NCT02860507",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-09-22",
+    "uploadDate": "2018-11-19T11:24",
+    "size": 964088,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02860507/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08",
+    "completionDate": "2018-02",
+    "primaryCompletionDate": "2018-02",
+    "firstSubmitDate": "2016-08-02",
+    "firstPostDate": "2016-08-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients scheduled for open ventral hernia repair or open colectomy\n* ASA class I-III\n* 18 years and older\n* Subjects with a body mass index (BMI) of \\<45kg/m2 and weight less than 150kg\n* Subjects who have given written informed consent\n\nExclusion Criteria:\n\n* Subjects with medical conditions and/or undergoing surgical procedures that are not compatible with the use of the TOF-Watch® SX (e.g., injuries to the thumbs/distal forearms, bilateral ulnar nerve damage or subjects with cardiac pacemaker\n* Subjects known or suspected to have neuromuscular disorders impairing neuromuscular blockade (e.g., subjects with myasthenia gravis)\n* Subjects known or suspected to have significant renal dysfunction (e.g. creatinine clearance \\< 30 mL.min-1\n* Subjects known or suspected to have a (family)history of malignant hyperthermia; have significant hepatic dysfunction\n* Subjects known or suspected to have an allergy to opiates/opioids, muscle relaxants or other medications used during general anesthesia;\n* Subjects known or suspected to be hypersensitive to Sugammadex or other cyclodextrins or Rocuronium or any of its excipients\n* Subjects who have a contraindication to, Rocuronium or Sugammadex\n* Female subjects who are pregnant\n* Morbidly obese subjects with a BMI \\> 45 kg/m2 or weight more than 150 kg",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Operating Room (OR) Turnover Time When Using Sugammadex Instead of Combination of Neostigmine and Glycopyrrolate.",
+        "timeFrame": "through start of next surgery, average of 2 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Patients Who Experience Postoperative Nausea and Vomiting, Post-operative Pain, and Post-operative Complications",
+        "timeFrame": "through discharge from hospital, average of 72 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:58.186Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

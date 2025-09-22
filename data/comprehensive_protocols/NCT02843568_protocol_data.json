@@ -1,0 +1,122 @@
+{
+  "nctId": "NCT02843568",
+  "briefTitle": "Improving Pulmonary Function Following Radiation Therapy",
+  "officialTitle": "Improving Pulmonary Function Following Radiation Therapy",
+  "protocolDocument": {
+    "nctId": "NCT02843568",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-06-09",
+    "uploadDate": "2023-10-26T15:13",
+    "size": 1129104,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02843568/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 122,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08-17",
+    "completionDate": "2023-08-16",
+    "primaryCompletionDate": "2022-10-28",
+    "firstSubmitDate": "2016-07-15",
+    "firstPostDate": "2016-07-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologic diagnosis of non-small cell lung cancer or lung metastasis from a solid tumor. One biopsy site is adequate for multiple sites of thoracic disease.\n* Treatment includes localized radiation therapy with or without chemotherapy\n* Karnofsky ≥ 60%\n* Not pregnant per radiation oncology standard procedures\n* Ability to understand and the willingness to sign a written informed consent document\n\nExclusion Criteria:\n\n* Prior (within last 6 months) or future planned therapeutic surgery for the treatment of the existing lung cancer\n* Prior thoracic radiotherapy\n* Severe COPD defined as disease requiring an inpatient stay for respiratory deterioration within the past 3 months\n* Oxygen dependence of \\> 2 L/min continuously throughout the day at baseline\n* Known underlying collagen vascular disease or intrinsic lung disease that could complicate expected sequelae of radiation (idiopathic pulmonary fibrosis, Wegener's granulomatosis)\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pulmonary Function, Based on Changes in Tissue Elasticity Measured From 4DCT",
+        "description": "The primary endpoint of this study will be the ratio of the tissue elasticity map following RT to the elasticity map before RT (i.e., the Jacobian ratio of (post RT /pre RT)) calculated from 4DCT at 3 months post-RT. Based on the randomness of our measurement technique, diminished expansion (i.e. substantial change) is defined as a Jacobian ratio \\<0.94 (i.e., less than 94% of the pre-RT value).",
+        "timeFrame": "3 months post RT"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Temporal Changes in Reduced Elasticity Determined by the Volume of Lung Where Expansion is Improved",
+        "description": "All statistical tests will be two-sided and assessed for significance at the 5% level.",
+        "timeFrame": "During therapy to 12 months post-RT"
+      },
+      {
+        "measure": "Temporal Changes in Increased Elasticity Determined by the Volume of Lung Where Expansion is Improved",
+        "description": "All statistical tests will be two-sided and assessed for significance at the 5% level.",
+        "timeFrame": "During therapy to 12 months post-RT"
+      },
+      {
+        "measure": "Temporal Changes in Fraction of Expanding Lung Determined by the Volume of Lung Where \"Meaningful\" Expansion Occurs",
+        "description": "All statistical tests will be two-sided and assessed for significance at the 5% level.",
+        "timeFrame": "During therapy to 12 months post-RT"
+      },
+      {
+        "measure": "Validation in Consistency of Tissue Elasticity Changes Measured With Values Predicted Based on Existing Radiation Dose Response Curves",
+        "description": "All statistical tests will be two-sided and assessed for significance at the 5% level.",
+        "timeFrame": "Up to 12 months post-RT"
+      },
+      {
+        "measure": "Median Absolute Change in the Percent Predicted for Pulmonary Function Tests (PFTs)",
+        "description": "Median absolute change in the percent predicted following pulmonary function tests reported: Forced Expiratory Volume in 1 second (FEV1), Forced Vital Capacity (FVC), and diffusing capacity of carbon monoxide (DLCO). All statistical tests will be two-sided and assessed for significance at the 5% level.",
+        "timeFrame": "Pre-RT up to 12 months post-RT"
+      },
+      {
+        "measure": "Change in Level of Plasma TGF-beta",
+        "description": "All statistical tests will be two-sided and assessed for significance at the 5% level.",
+        "timeFrame": "Baseline up to 12 months post-RT"
+      },
+      {
+        "measure": "Change in Level of Plasma Cytokines",
+        "description": "All statistical tests will be two-sided and assessed for significance at the 5% level.",
+        "timeFrame": "Baseline up to 12 months post-RT"
+      },
+      {
+        "measure": "Variation of the Tissue Elasticity Calculated Between Scan 1 and Scan 2 at Each Time Point Will be Quantified and Compared to Longitudinal Changes in Tissue Elasticity",
+        "description": "All statistical tests will be two-sided and assessed for significance at the 5% level.",
+        "timeFrame": "Up to 12 months post-RT"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:54.954Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

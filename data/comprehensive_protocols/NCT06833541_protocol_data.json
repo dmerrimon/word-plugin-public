@@ -1,0 +1,125 @@
+{
+  "nctId": "NCT06833541",
+  "briefTitle": "Research on Gut Microbiota and Metabolomics in Diabetic Kidney Disease",
+  "officialTitle": "Research on Gut-kidney Axis Regulation of Diabetic Kidney Disease Based on Multi-omics and Bacterio-drug Interaction Control Mechanism",
+  "protocolDocument": {
+    "nctId": "NCT06833541",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-02-22",
+    "uploadDate": "2024-12-07T08:49",
+    "size": 202235,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06833541/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 720,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-04-18",
+    "completionDate": "2025-12-01",
+    "primaryCompletionDate": "2025-02-28",
+    "firstSubmitDate": "2025-02-13",
+    "firstPostDate": "2025-02-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Patient inclusion criteria：\n\n1. Age ≥18 years old and ≤75 years old, gender is not limited.\n2. Complete demographic data.\n3. Meet the diagnostic criteria of the Chinese Guidelines for the Prevention and Treatment of Diabetic Kidney Disease (2021 edition), the Chinese Guidelines for the Prevention and Treatment of Type 2 Diabetes Mellitus (2020 edition), and the Guidelines for the Screening, Diagnosis, Prevention and Treatment of Chronic Kidney Disease (2017 edition).\n4. The patient is informed of the study as approved by the ethics committee.\n\nHealthy population inclusion criteria:\n\n(1) The patient has no known history of infection or risk factors including HIV hepatitis B or C virus syphilis etc. and no current systemic infection; (2) No obesity (body mass index \\>30) and/or diabetes no history of chronic kidney disease; (3) Approved by the ethics committee patients were informed about the study. Exclusion criteria：\n\n1. A history of infection or other acute disease within one month prior to enrollment.\n2. Current state of stress.\n3. Other unstable chronic diseases;\n4. A history of acute and chronic gastrointestinal diseases, including acute gastroenteritis, functional gastrointestinal diseases, inflammatory bowel disease, celiac disease, and other chronic gastrointestinal diseases.\n5. Individuals who have received systemic antibiotics, immunosuppressants, chemotherapy, or chronic treatment with proton pump inhibitors within the past three months will be excluded from participation.\n6. Pregnant or lactating women will also be excluded.\n7. Individuals who have participated in other drug clinical trials within the past three months will be excluded.\n8. Individuals who suffer from mental illness, intellectual disability, confusion, or other conditions that may interfere with their ability to cooperate with the completion of relevant information collection will also be excluded.\n\nThose who were unable to cooperate with the collection of pertinent data were likewise excluded from the study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "UACR",
+        "description": "Urine Albumin-to-Creatinine Ratio",
+        "timeFrame": "Complete once at enrollment"
+      },
+      {
+        "measure": "eGFR",
+        "description": "Estimated Glomerular Filtration Rate",
+        "timeFrame": "Complete once at enrollment"
+      },
+      {
+        "measure": "BUN",
+        "description": "blood urea nitrogen",
+        "timeFrame": "Complete once at enrollment"
+      },
+      {
+        "measure": "Scr",
+        "description": "serum creatinine",
+        "timeFrame": "Complete once at enrollment"
+      },
+      {
+        "measure": "FBG",
+        "description": "fasting blood glucose",
+        "timeFrame": "Complete once at enrollment"
+      },
+      {
+        "measure": "HbA1c",
+        "description": "Glycosylated Hemoglobin, Type A1C",
+        "timeFrame": "Complete once at enrollment"
+      },
+      {
+        "measure": "GSP",
+        "description": "glucosylated serum protein",
+        "timeFrame": "Complete once at enrollment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "16S rDNA",
+        "description": "16S ribosomal DNA identification",
+        "timeFrame": "Complete once at enrollment"
+      },
+      {
+        "measure": "Targeted Metabolomics",
+        "description": "Targeted Metabolomics technology detection",
+        "timeFrame": "Complete once at enrollment"
+      },
+      {
+        "measure": "Non-targeted metabolomics",
+        "description": "Non-targeted metabolomics technology detection",
+        "timeFrame": "Complete once at enrollment"
+      },
+      {
+        "measure": "mNGS",
+        "description": "metagenomic Next Generation Sequencing",
+        "timeFrame": "Complete once at enrollment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 7,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:06.160Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

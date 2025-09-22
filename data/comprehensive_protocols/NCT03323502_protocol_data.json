@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03323502",
+  "briefTitle": "Aligning Patient Preferences: a Role Offering Alzheimer's Patients, Caregivers, and Healthcare Providers Education and Support",
+  "officialTitle": "A Nursing Home Pragmatic Trial of APPROACHES (Aligning Patient Preferences: a Role Offering Alzheimer's Patients, Caregivers, and Healthcare Providers Educ. and Support)",
+  "protocolDocument": {
+    "nctId": "NCT03323502",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-07-15",
+    "uploadDate": "2025-07-28T14:33",
+    "size": 865702,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03323502/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 47396,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-02-01",
+    "completionDate": "2022-08-31",
+    "primaryCompletionDate": "2022-08-31",
+    "firstSubmitDate": "2017-10-24",
+    "firstPostDate": "2017-10-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Facilities are owned by NH corporate partners\n* Facilities are Medicare/Medicaid-certified\n* Facilities have an electronic medical records system\n* Minimum bedsize of 50 or more;\n* At least 50% long-stay as defined by a length of stay of 100 days or longer.\n\nExclusion Criteria:\n\n* Problematic or unstable facilities will be removed in consultation with NH corporate leaders prior to randomization",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Hospital Transfers",
+        "description": "Hospital transfers (admissions and emergency department visits) over 12 months between Alzheimer's Disease and Related Dementias (ADRD) patients in intervention vs. control NHs",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Hospice Enrollment",
+        "description": "% ADRD patients who use hospice",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Death in Hospital",
+        "description": "% ADRD patients who die in the hospital",
+        "timeFrame": "12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:41.068Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

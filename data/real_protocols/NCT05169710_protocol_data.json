@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT05169710",
+  "briefTitle": "A Clinical Study of an Investigational Drug for the Treatment of Major Depressive Episode Associated With Bipolar I Disorder.",
+  "officialTitle": "A Multi-region, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study Evaluating SEP-4199 Controlled Release (CR) for the Treatment of Major Depressive Episode Associated With Bipolar I Disorder (Bipolar I Depression)",
+  "protocolDocument": {
+    "nctId": "NCT05169710",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-12-06",
+    "uploadDate": "2024-08-23T10:49",
+    "size": 1057168,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05169710/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 83,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-12-21",
+    "completionDate": "2023-10-18",
+    "primaryCompletionDate": "2023-10-18",
+    "firstSubmitDate": "2021-12-13",
+    "firstPostDate": "2021-12-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nInclusion Criteria (not all inclusive):\n\n* Subject provides written informed consent and is willing and able to comply with the protocol in the opinion of the Investigator.\n* Subject is 18 to 65 years of age, inclusive, at the time of informed consent.\n* Subject meets DSM-5 criteria, based on the SCID-5-CT, for bipolar I disorder, current episode depressed with or without rapid cycling disease course (≥ 4 episodes of mood disturbance but \\< 8 episodes in the previous 12 months) with or without psychotic features.\n* Subject's current major depressive episode is ≥ 4 weeks and less than 12 months in duration at Screening.\n* Subject has a MADRS total score ≥ 22 at both Screening and Baseline.\n* Subject has a CGI-BP-S depression score ≥ 4 at both Screening and Baseline.\n* Subject has a YMRS total score ≤ 12 at both Screening and Baseline.\n* Subject is in good physical health, based on medical history, physical examination, neurological examination, vital signs, ECGs, and results of clinical laboratory tests (hematology, chemistry, and urinalysis).\n\nExclusion Criteria:\n\nExclusion Criteria (not all inclusive):\n\n* Subject currently has any DSM-5 defined psychiatric diagnosis other than bipolar I disorder that was the primary focus of treatment, or is currently being treated with concomitant medication\n* Subject has a lifetime history of, or symptoms consistent with, schizophrenia, schizoaffective disorder, or a major psychiatric diagnosis other than bipolar I disorder that is judged to pose risk to the study scientific objectives\n* Subject has a history of non-response to an adequate (6-week) trial of 3 or more antidepressants (with or without mood stabilizers) during the current major depressive episode.\n* Subject has any clinically significant unstable medical condition or any clinically significant chronic disease that would pose a risk to the subject or that might confound the results of the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Montgomery-Asberg Depression Rating Scale (MADRS) Total Score at Week 6",
+        "description": "Montgomery-Asberg Depression Rating Scale (MADRS) is a clinician-rated assessment of the subject's level of depression. The measure contains 10 items that measure apparent and reported sadness, inner tension, reduced sleep and appetite, difficulty concentrating, lassitude, inability to feel, and pessimistic and suicidal thoughts, each ranging from 0 to 6. The MADRS total score ranges from 0 to 60, with higher scores indicating increased depressive symptoms",
+        "timeFrame": "6 Weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in Global Severity Assessed by the Clinical Global Impressions Severity: Bipolar Version (CGI-BP-S) Score (Depression) at Week 6",
+        "description": "Clinical Global Impressions Severity: Bipolar Version (CGI-BP-S) score (depression) is a single value, clinician-rated assessment of illness severity, and 7-point scale with range from 1 = normal, not at all ill; 2 = borderline mentally ill; 3 = mildly ill; 4 = moderately ill; 5 = markedly ill; 6 = severely ill; 7 = among the most extremely ill subjects. A higher score is associated with greater illness severity.",
+        "timeFrame": "6 Weeks"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 8,
+      "exclusionCount": 4,
+      "totalCount": 12
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:33:01.351Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

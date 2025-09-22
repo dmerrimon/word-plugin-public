@@ -1,0 +1,214 @@
+{
+  "nctId": "NCT05110911",
+  "briefTitle": "Does Repeat Influenza Vaccination Constrain Influenza Immune Responses and Protection",
+  "officialTitle": "Does Repeat Influenza Vaccination Constrain Influenza Immune Responses and Protection",
+  "protocolDocument": {
+    "nctId": "NCT05110911",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan: Addendum Study Protocol for COVID-19",
+    "date": "2021-03-04",
+    "uploadDate": "2021-10-18T21:25",
+    "size": 758569,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05110911/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 1500,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2020-04-02",
+    "completionDate": "2025-06-30",
+    "primaryCompletionDate": "2025-06-30",
+    "firstSubmitDate": "2021-10-27",
+    "firstPostDate": "2021-11-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nEligible participants will be recruited from 1 of 6 participating hospitals and will meet the following criteria:\n\n* Personnel (including staff, honorary staff, students and volunteers) located at a participating hospital or healthcare service at the time of recruitment who would be eligible for the hospital's free vaccination programme\n* Be aged ≥18 years old and ≤60 years old;\n* Have a mobile phone that can receive and send SMS messages;\n* Willing and able to provide blood samples;\n* Available for follow-up over the next 7 months;\n* Able and willing to complete the informed consent process.\n\nThere are no restrictions on the type of healthcare worker (HCW) that can be recruited into the study in terms of their job role. HCWs can be any hospital staff, including clinical, research, administrative and support staff.\n\nExclusion Criteria:\n\n* Immunosuppressive treatment (including systemic corticosteroids) within the past 6 months;\n* Personnel for whom vaccination is contraindicated at the time of recruitment.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Seropositivity post-vaccination (influenza vaccine)",
+        "description": "Seropositivity among vaccination groups will be calculated and compared using logistic regression, with seropositivity coded as 1 if the titre ≥40, and 0 if the titre is \\<40. We will test for trend among vaccination groups, assuming seropositivity will be lowest in the most highly vaccinated.",
+        "timeFrame": "Post-vaccination blood draws are at 14-21 days post vaccination. Collected each year 2020-2023 post annual influenza vaccination."
+      },
+      {
+        "measure": "Seropositivity post-season (influenza vaccine)",
+        "description": "Seropositivity among vaccination groups will be calculated and compared using logistic regression, with seropositivity coded as 1 if the titre ≥40, and 0 if the titre is \\<40. We will test for trend among vaccination groups, assuming seropositivity will be lowest in the most highly vaccinated.",
+        "timeFrame": "End of the season blood draws are in October or November each year, at the conclusion of Australia's annual influenza season. Vaccination usually occurs in April or May. Collected each year 2020-2023 post annual influenza season."
+      },
+      {
+        "measure": "Fold-rise in geometric mean antibody titre (GMT) pre- to post-vaccination",
+        "description": "The changes in GMT from pre- to post-vaccination. Seroconversion is defined as samples with 4-fold increases in hemagglutination inhibition (HI) titre.",
+        "timeFrame": "Changes from day 0 to day 14-21 post influenza vaccination. Collected each year 2020-2023 pre and post annual influenza vaccination."
+      },
+      {
+        "measure": "Fold-change in geometric mean antibody titre (GMT) post-vaccination to post-season",
+        "description": "The changes in GMT from post-vaccination to post-season.",
+        "timeFrame": "Changes from day 14-21 to post-season. Influenza season in Australia is approximately May to November. Pre-vaccination to post-season is approximately April or May to October or November each year. Collected each year 2020-2023."
+      },
+      {
+        "measure": "Seroconversion fraction post-vaccination",
+        "description": "The proportion of samples with 4-fold increases in hemagglutination inhibition (HI) titre. Seroconversion post-vaccination will be calculated and compared among vaccination groups by logistic regression, with seroconversion coded as 1 if the fold-rise in titre is ≥4 and 0 if the fold-rise in titre is \\<4. We will test for trend, assuming seroconversion will be lowest in the most highly vaccinated.",
+        "timeFrame": "Changes from day 0 to day 14-21 post influenza vaccination. Collected each year 2020-2023 pre and post annual influenza vaccination."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Healthcare workers (HCWs) PCR-positive for influenza at the end of each season",
+        "description": "Proportion of HCWs that are PCR-positive for influenza at the end of each season.",
+        "timeFrame": "Influenza season in Australia is approximately May to November. Follow up for PCR-positives from approximately April/May to October/November each year from 2020-2023."
+      },
+      {
+        "measure": "Influenza attack rate at the end of each season",
+        "description": "Evidence of influenza infection will be based on RT-PCR-confirmed infection, only, as serological evidence may be biased in vaccinees who elicit a good antibody response to vaccination. Attack rates will be calculated for each vaccination group as the number of cases during the person-time at risk.",
+        "timeFrame": "Person-time at risk, during influenza season. Influenza season in Australia is approximately May to November. Follow up for PCR-positives from approximately April/May to October/November each year from 2020-2023."
+      },
+      {
+        "measure": "Vaccine efficacy (VE)",
+        "description": "VE will be estimated using a Cox proportional hazards regression model comparing the risk of influenza infection (coded as 1 for infected or 0 for uninfected) among healthcare workers (HCWs) by vaccination status: VE = (1-HRadj) × 100%. If there are sufficient cases, the model will be adjusted for potential confounders (e.g. age group), and factors that may modify the risk of infection. Using virus characterization data, we will assess if failures are associated with antigenic mismatch.",
+        "timeFrame": "Person-time at risk, during influenza season. Influenza season in Australia is approximately May to November. Follow up for PCR-positives from approximately April/May to October/November each year from 2020-2023."
+      },
+      {
+        "measure": "Duration of illness (influenza)",
+        "description": "The number of days ill with influenza (count) will be compared among vaccination groups, adjusted for age. Because of the excess of 0 counts (people who never get infected), zero-inflated negative binomial regression will be used.",
+        "timeFrame": "Days ill, during influenza season. Influenza season in Australia is approximately May to November. Follow up for PCR-positives from approximately April/May to October/November each year from 2020-2023."
+      },
+      {
+        "measure": "Haemagglutinin (HA) antibody landscapes for vaccine-naïve and highly-vaccinated healthcare workers (HCWs)",
+        "description": "By collating the results of many antibody assays to historical influenza strains, it is possible to visualize the landscape of an individual's responses to vaccination and infection. We are using strains going back to 1968 when A(H3N2) emerged in humans.",
+        "timeFrame": "Bloods on day 0, day 7, day 14-21 post influenza vaccination and end of season. Collected each year 2020-2023 pre and post annual influenza vaccination and end of influenza season."
+      },
+      {
+        "measure": "Haemagglutinin (HA) antibody landscapes for infected versus uninfected healthcare workers (HCWs)",
+        "description": "By collating the results of many antibody assays to historical influenza strains, it is possible to visualize the landscape of an individual's responses to vaccination and infection. We are using strains going back to 1968 when A(H3N2) emerged in humans.",
+        "timeFrame": "Bloods on day 7 and day 14-21 post influenza infection. Collected each year 2020-2023 along with pre and post annual influenza vaccination and end of influenza season bloods."
+      },
+      {
+        "measure": "Enumeration of cells",
+        "description": "Enumeration of influenza haemagglutinin (HA)-reactive B cells, and of subsets with phenotypic markers indicative of activation, and of memory versus naïve status, for vaccine-naïve, highly vaccinated and infected healthcare workers (HCWs) (i.e. we are comparing frequency fold-change/ratio between groups highly vaccinated and infrequently vaccinated).",
+        "timeFrame": "Bloods on day 0 and day 14-21 post influenza vaccination and post infection. The key indicator is the frequency of these B cells on day 14 post-vaccination relative to pre-vaccination frequencies. Collected each year 2020-2023."
+      },
+      {
+        "measure": "B cells",
+        "description": "B cell receptor gene usage by influenza haemagglutinin (HA)-reactive B cells recovered post vaccination and post infection from selected vaccine naïve, highly vaccinated and infected healthcare workers (HCWs) with distinct antibody response profiles. In depth characterization of HA antigenic sites recognized by serum antibodies from selected HCW including vaccine non-responders who lack seroprotection, and vaccine serological responders who fail to be protected. This analysis will largely be performed on B cells detected on day 7 post vaccination, when there is the greatest potential to differentiate between vaccine reactive B cells that have come from naïve versus memory pools.",
+        "timeFrame": "Blood draws on day 7 post influenza vaccination and post infection. Collected each year 2020-2023."
+      },
+      {
+        "measure": "Quantify biological mechanisms that shape the antibody response",
+        "description": "Models of antibody dynamics and individual-level exposures will be develop to quantify the different aspects of the antibody response that generated observed immunological profiles.",
+        "timeFrame": "Bloods on day 0, day 7, day 14-21 post influenza vaccination, day 7, day 14-21 post infection and end of season. Collected each year 2020-2023."
+      },
+      {
+        "measure": "Estimate protective titres",
+        "description": "As the model is refined we will identify a minimum set of titres against past or forward strains that capture the underlying 'smooth' antibody landscape and provide a reliable correlate of protection.",
+        "timeFrame": "Bloods on day 0, day 7, day 14-21 post influenza vaccination, day 7, day 14-21 post infection and end of season. Collected each year 2020-2023."
+      },
+      {
+        "measure": "Optimal influenza vaccination strategy for healthcare workers (HCWs) under different vaccine availability",
+        "description": "With our model in place, we will compare the performance of current vaccination programs with simulated alternatives to predict the impact of repeated vaccination and circulating virus on vaccine efficacy (VE) under different scenarios. In particular, we will examine the potential impact of: highly-valent vaccines, which include more than a single strain for each subtype; universal vaccines that generate a broadly cross-reactive response against conserved influenza epitopes; and near-universal vaccines that produce a broader response, but still have potential to generate effects such as antibody focusing or seniority, which could reduce effectiveness.",
+        "timeFrame": "Bloods on day 0, day 7, day 14-21 post influenza vaccination, day 7, day 14-21 post infection and end of season. Collected each year 2020-2023."
+      },
+      {
+        "measure": "Estimated SARS-CoV-2 attack rates among symptomatic and asymptomatic healthcare workers (HCWs)",
+        "description": "Symptomatic attack (incidence) rates will be calculated as the number of cases testing positive by RT-PCR during the person-time at risk. The asymptomatic incidence proportion will be calculated as the number of HCWs with evidence of sero-conversion and no acute respiratory infection reported among all HCWs followed during the same period.",
+        "timeFrame": "Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Case-hospitalization risk",
+        "description": "The hospitalization risk (or incidence proportion) will be calculated as the number of healthcare workers (HCWs) hospitalized due to COVID-19 among all HCW with either asymptomatic or symptomatic evidence of infection during the same period.",
+        "timeFrame": "Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Risk factors for asymptomatic, mild and severe SARS-CoV-2 infection",
+        "description": "The predictors of severe infection will be estimated using a Cox proportional hazards regression model comparing the risk of COVID-19 illness (coded as 1 for hospitalised or 0 for infected but not hospitalised) among HCWs. If there are sufficient cases, various predictors of severity will be explored in either univariate or multivariate analysis. Predictors may include age, presence of comorbidities, and viral load.",
+        "timeFrame": "Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Estimated SARS-CoV-2 antibody titre associated with protection",
+        "description": "We will compare post-season geometric mean titres between those with asymptomatic and symptomatic infections. We will attempt to establish serological correlates of protection for SARS-CoV-2, using a Bayesian implementation of logistic regression that we have used for influenza cohort studies.",
+        "timeFrame": "Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Estimated SARS-CoV-2 antibody kinetics over time",
+        "description": "Sera collected more frequently will be assessed for antibody titre and the titres compared over time. Geometric mean titres will be calculated and plotted to allow visual inspection of the antibody kinetics, overall and within groups (e.g. age groups, severity of infection). The mean rate of decay will be calculated using linear regression. Because little is known about the decay kinetics, various models will be explored to identify the model with best fit, based on visual inspection of the data and model fitting diagnostics.\n\nViral load will be included in analyses comparing asymptomatic, mild and severe infections. If possible we will explore the interactions of viral load with demographic (e.g. age) or medical (e.g. heart disease) characteristics.",
+        "timeFrame": "Bloods on day 3, day 7, day 14-21, day 30 post infection and end of season. Daily swabs during symptomatic infection to two days post resolution of symptoms. Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Identification of key behavioural drivers of transmission",
+        "description": "Using social contacts data, we will attempt to infer the transmission dynamics for our healthcare worker (HCW) participants between each round of sample collection. We will use mathematical models social mixing data with infection risk to untangle specific behaviours/contact scaling that may be driving transmission. These models may be extended to include genetic sequencing data, which has been previously used to reconstruct transmission clusters.",
+        "timeFrame": "Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Estimated duration of viral shedding and viral load in SARS-CoV-2 infection over time",
+        "description": "We will estimate the average duration of viral shedding and viral load over time and correlation with severity.",
+        "timeFrame": "During symptomatic infection to two days post resolution of symptoms. Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Enumeration of SARS-CoV-2-reactive B and T cells and identification of dominant epitopes",
+        "description": "Mean antibody concentration will be calculated in innate immune responses.",
+        "timeFrame": "Bloods on day 3, day 7, day 14-21, day 30 post infection and end of season. Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Gene expression",
+        "description": "Identification of genes that are differentially expressed on day 7 compared to day 0 for each vaccine formulation, focusing on innate immune associated genes.",
+        "timeFrame": "Changes from day 0 to day 7 post vaccination. Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Enumeration of SARS-CoV-2-reactive B and T cells induced by each vaccine formulation",
+        "description": "Mean antibody concentration will be calculated and compared for vaccine groups (Comirnaty vs Vaxzevria vaccine).",
+        "timeFrame": "Specific B and T cells detected at day 14-21 post vaccine schedule completion versus day 0. Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Seroconversion of SARS-CoV-2 serum antibody titres induced by each vaccine formulation",
+        "description": "Seroconversion post-vaccination will be calculated and compared between vaccine groups by logistic regression (Comirnaty vs Vaxzevria vaccine).",
+        "timeFrame": "At day 14-21 post vaccine schedule completion. Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Fold changes in innate immune cells and in vaccine specific B and T cells",
+        "description": "Antibody levels will be correlated with fold changes in innate immune cells and in vaccine specific B and T cells in each vaccine formulation (Comirnaty vs Vaxzevria vaccine).",
+        "timeFrame": "Vaccine specific B and T cells detected at day 14-21 post vaccine schedule completion versus day 0. Follow-up period 2020-2023."
+      },
+      {
+        "measure": "Comparison of antibody (and B and T cell) responses induced against COVID-19 and influenza vaccines among participants who received COVID-19 versus influenza vaccine first or who were co-administered both vaccines.",
+        "description": "Mean antibody concentration will be calculated and compared for vaccine groups (CoVax vs influenza vaccine). Seroconversion post-vaccination will be calculated and compared between vaccine groups by logistic regression.",
+        "timeFrame": "Antibody levels will be correlated with fold changes in innate immune cells and in vaccine specific B and T cells detected at day 14-21 post vaccine schedule completion versus day 0. Follow-up period 2020-2023."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 24,
+      "otherCount": 0,
+      "totalCount": 29
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:40.366Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

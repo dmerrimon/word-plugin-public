@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT03051620",
+  "briefTitle": "Predictive Value of Bone Turnover Markers During Discontinuation With Alendronate",
+  "officialTitle": "Predictive Value of Bone Turnover Markers During Discontinuation With Alendronate",
+  "protocolDocument": {
+    "nctId": "NCT03051620",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-04-23",
+    "uploadDate": "2020-11-26T06:42",
+    "size": 311074,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03051620/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 142,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-02-01",
+    "completionDate": "2019-01-31",
+    "primaryCompletionDate": "2019-01-31",
+    "firstSubmitDate": "2017-02-07",
+    "firstPostDate": "2017-02-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Postmenopausal women (postmenopausal for at least two years)\n* Men above 50 years\n* Treatment for at least five years with alendronate\n* BMD T-score total hip \\> -2.5\n* BMD T-score lumbar spine (L1-L4) \\> -4\n\nExclusion Criteria:\n\n* Any low-energy fracture within the previous five years during alendronate treatment (not including fingers, toes, or skull)\n* Low-energy vertebral fracture at any time\n* Low-energy hip fracture at any time\n* Ongoing treatment with glucocorticoids\n* Metabolic bone disease\n* Hormone replacement therapy\n* Cancer\n* Other conditions affecting bone metabolism",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "If Carboxy-terminal Collagen Crosslinks (CTX) Three and Six Months After Stopping Alendronate Predicted TH BMD (Total Hip BMD) Loss Above the Least Significant Change at Month 12 at the Individual Level.",
+        "description": "We constructed receiver operating characteristic (ROC) curves to evaluate if carboxy-terminal collagen crosslinks (CTX) three and six months after stopping alendronate predicted TH BMD loss above the least significant change (LSC) at month 12 at the individual level.",
+        "timeFrame": "Baseline and one year after baseline"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percent Change in Bone Turnover Markers Measured Three and Six Months After Stopping Alendronate Treatment and BMD After One and Two Years",
+        "description": "We constructed receiver operating characteristic (ROC) curves to evaluate if changes in p-CTX or p-PINP measured three and six months after stopping alendronate predicted TH BMD loss above the least significant change at month 12 and/or month 24 at the individual level.",
+        "timeFrame": "one and two years after baseline"
+      },
+      {
+        "measure": "Number of Participants in Which CTX Increased Above the Least Significant Change",
+        "description": "Number of participants in which CTX increased above the least significant change.\n\nThe Department of Clinical Biochemistry, Rigshospitalet, Glostrup, Denmark provided the the least significant change for p-CTX \\> 30%.",
+        "timeFrame": "From baseline to month 24"
+      },
+      {
+        "measure": "The Number of Participants Who Lost BMD Beyond the Least Significant Change (LSC) at the Lumbar Spine and Total Hip.",
+        "description": "the number of patients who lost BMD beyond the LSC at the lumbar spine (\\>3%) and total hip (\\>5%)",
+        "timeFrame": "from baseline to month 24"
+      },
+      {
+        "measure": "If Baseline Bone Turnover Markers at the Time of Alendronate Discontinuation Predict Changes in BMD After One and Two Years.",
+        "description": "We constructed receiver operating characteristic (ROC) curves to evaluate if baseline p-CTX or baseline p-PINP at the time of alendronate discontinuation predicted TH BMD loss above the least significant change at month 12 and/or month 24 at the individual level.",
+        "timeFrame": "Changes in TH BMD after one and two years."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:04.223Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

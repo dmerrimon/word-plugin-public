@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03082963",
+  "briefTitle": "Mapping Electrogram Morphology Recurrence for Atrial Fibrillation Ablation",
+  "officialTitle": "Mapping Electrogram Morphology Recurrence for Atrial Fibrillation Ablation",
+  "protocolDocument": {
+    "nctId": "NCT03082963",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-11-19",
+    "uploadDate": "2023-06-13T10:43",
+    "size": 249185,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03082963/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 10,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-04-04",
+    "completionDate": "2022-06-18",
+    "primaryCompletionDate": "2022-06-18",
+    "firstSubmitDate": "2017-02-27",
+    "firstPostDate": "2017-03-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male and female at least 21 years of age\n* persistent Afib with one prior failed ablation for persistent or long standing persistent Afib\n\nExclusion Criteria:\n\n* Inability to sign consent\n* Patients with a life expectancy less than one (1) year\n* Patients with chronic kidney disease with sufficiently low GFR that precludes either CT angiogram of the heart or contrast MRI study\n* Pregnant women and women that are breast feeding\n* Patients with multiple (2 or more) prior failed ablations\n* Patients who have had chemotherapy or radiotherapy within 4 weeks prior to entering the study or those who have not recovered from adverse events due to agents administered more than 4 weeks earlier.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Real-time Electrogram Morphology Recurrence (EMR) Mapping Feasibility",
+        "description": "As measured by number of patients where real-time EMR mapping is completed.",
+        "timeFrame": "2 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Ablation Acute Effects",
+        "description": "ablation based on EMR map as measured by number of participants that terminate atrial fibrillation.",
+        "timeFrame": "2 hours"
+      },
+      {
+        "measure": "Number of Participants With Treatment Emergent Adverse Events",
+        "description": "Number of participants with treatment emergent adverse events will be measured by the type of adverse event, severity, and whether the AE/SAE is related to the mapping",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Ablation Acute Effects",
+        "description": "ablation based on EMR map as measured by number of participants that slow atrial fibrillation cycle length by at least 15%.",
+        "timeFrame": "2 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:14.591Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

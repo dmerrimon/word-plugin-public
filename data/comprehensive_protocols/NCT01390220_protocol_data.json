@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT01390220",
+  "briefTitle": "Study to Evaluate the Safety and Efficacy of USL261 (Intranasal Midazolam) in Patients With Seizure Clusters",
+  "officialTitle": "A Randomized, Double-blind, Placebo-controlled Study of the Safety and Efficacy of Intranasal Midazolam (USL261) in the Outpatient Treatment of Subjects With Seizure Clusters. ARTEMIS-1: Acute Rescue Therapy in Epilepsy With Midazolam Intranasal Spray-1",
+  "protocolDocument": {
+    "nctId": "NCT01390220",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2015-05-20",
+    "uploadDate": "2019-05-09T11:54",
+    "size": 2941434,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01390220/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 292,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-06",
+    "completionDate": "2017-03",
+    "primaryCompletionDate": "2017-03",
+    "firstSubmitDate": "2011-07-06",
+    "firstPostDate": "2011-07-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Has a competent, adult caregiver who can recognize and observe the subject's seizure cluster episodes\n* Has an established diagnosis of partial or generalized epilepsy that includes the following:\n\n  * A documented history of seizure clusters lasting a minimum of 10 minutes\n  * Seizure cluster pattern is observable, stereotyped, and recognizably different from the subject's other non-cluster seizure activity (if any)\n  * A second seizure in the seizure cluster typically occurring within 6 hours from the time of cluster recognition\n  * A seizure cluster pattern composed of multiple (≥ 2) partial or generalized seizures\n  * A seizure cluster pattern established \\> 3 months before Visit 1\n  * A frequency of ≥ 3 seizure clusters during the year before Visit 1\n  * At least 1 seizure cluster occurring ≤ 4 months before Visit 1\n  * Seizure cluster pattern is confirmed by a central reviewer\n* Currently on a stable regimen of anti-epileptic drugs (AEDs) with no changes in type of AEDs since Visit 1 and for ≥ 7 days before Visit 2, with or without intermittent use of benzodiazepines at a constant dose\n* Weight is 40 kg to 125 kg, inclusive\n\nExclusion Criteria:\n\n* Has a neurological disorder that is likely to progress in the next year\n* Has severe chronic cardio-respiratory disease\n* Has had psychogenic, non-epileptic seizure(s) within the 5 years before Visit 1\n* Has a history of their stereotypical seizure cluster progressing to status epilepticus within the 2 years before Visit 1\n* Has a history of acute narrow-angle glaucoma.\n* Has had active suicidal plan/intent or active suicidal thoughts in the 6 months before Visit 1 or a suicide attempt in the past 5 years\n* Currently using a vagal nerve stimulator (VNS) unless the device has been implanted for at least 6 months and the setting stable for 4 weeks before Visit 1",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Participants Who Met the Criteria for Treatment Success After Administration of the Double-blind Dose in the Comparative Phase (CP)",
+        "description": "Treatment Success is defined as achieving both of the following: 1) termination of seizure(s) within 10 minutes after double-blind study drug administration, and 2) no recurrence of seizure(s) beginning 10 minutes after study drug administration to 6 hours after study drug administration. Participants who received the open-label second dose within 6 hours of administration of the double-blind dose were analyzed as having had a seizure.",
+        "timeFrame": "6 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Participants With Seizure(s) >10 Minutes to 4 Hours After Administration of the Double-blind Dose",
+        "description": "Participants with recurrence of seizure(s) \\>10 minutes and up to 4 hours after administration of the double-blind dose in the CP. Participants who received the open-label second dose within 4 hours of administration of the double-blind dose were analyzed as having had a seizure.",
+        "timeFrame": "4 hours"
+      },
+      {
+        "measure": "Occurrence of Seizure With a Start Time >10 Minutes After Administration of the Double-blind Dose",
+        "description": "Occurrence of next seizure with a start time \\>10 minutes and up to 24 hours after administration of the double-blind dose in the CP. Participants who did not have another seizure before the end of the 24-hour observation period were censored at the end of the observation period. Participants administered the open-label second dose who did not have a seizure were censored at the time of the administration.",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "Time to Next Seizure With a Start Time >10 Minutes After Administration of the Double-blind Dose",
+        "description": "Time to next seizure with a start time \\>10 minutes and up to 24 hours after administration of the double-blind dose in the CP. Participants who did not have another seizure before the end of the 24-hour observation period were censored at the end of the observation period. Participants administered the open-label second dose who did not have a seizure were censored at the time of the administration.",
+        "timeFrame": "24 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:49.501Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

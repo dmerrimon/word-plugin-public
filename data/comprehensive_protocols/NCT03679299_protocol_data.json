@@ -1,0 +1,100 @@
+{
+  "nctId": "NCT03679299",
+  "briefTitle": "Vascular Implications of a Naturally Occurring Asthma Exacerbation",
+  "officialTitle": "Vascular Implications of a Naturally Occurring Asthma Exacerbation",
+  "protocolDocument": {
+    "nctId": "NCT03679299",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-12",
+    "uploadDate": "2019-04-23T13:11",
+    "size": 1843238,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03679299/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 3,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-10-10",
+    "completionDate": "2024-06-30",
+    "primaryCompletionDate": "2024-06-30",
+    "firstSubmitDate": "2018-09-14",
+    "firstPostDate": "2018-09-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* between the ages of 18 and 55 years old\n* waist circumference less than 88 cm for women and 102 cm for men.\n* Asthma participants will be recruited from the University of Alberta Emergency Department with asthma exacerbation as their primary reason for visit.\n* healthy controls will be recruited from the general population according to the same criteria, but with no history of asthma.\n\nExclusion Criteria:\n\n* known heart failure or unstable cardiac disease,\n* lung diseases other than asthma,\n* known chronic inflammatory condition other than asthma\n* known metabolic disease\n* current infections,\n* smoking history \\> 10 pack years,\n* or waist circumference \\>88 cm for women and \\>102 cm for men",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "55 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Flow-mediated dilation",
+        "description": "Percent change in diameter in response to shear stress",
+        "timeFrame": "Emergency Department (ED), 48 hours and 14 days post ED for asthmatics, 2 time points 48 hours apart for controls."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "C-reactive protein",
+        "description": "A marker for systemic inflammation and immune response",
+        "timeFrame": "Emergency Department (ED), 48 hours and 14 days post ED for asthmatics, 2 time points 48 hours apart for controls"
+      },
+      {
+        "measure": "Eosinophils",
+        "description": "A marker for systemic inflammation and immune response",
+        "timeFrame": "Emergency Department (ED), 48 hours and 14 days post ED for asthmatics, 2 time points 48 hours apart for controls"
+      },
+      {
+        "measure": "Neutrophils",
+        "description": "A marker for systemic inflammation and immune response",
+        "timeFrame": "Emergency Department (ED), 48 hours and 14 days post ED for asthmatics, 2 time points 48 hours apart for controls"
+      },
+      {
+        "measure": "Pulse wave velocity",
+        "description": "Carotid radial arterial stiffness",
+        "timeFrame": "Emergency Department (ED), 48 hours and 14 days post ED for asthmatics, 2 time points 48 hours apart for controls"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Average step count",
+        "description": "Physical activity measured during first 2 weeks of recovery following an asthma exacerbation",
+        "timeFrame": "Fitbit worn in asthmatics for 7 days following 48 hour timepoint"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 1,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 51,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:22.361Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

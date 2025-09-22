@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT06219694",
+  "briefTitle": "Laser Acupuncture for Chronic Migraine",
+  "officialTitle": "Enhancing Chronic Migraine Preventive Therapy: Laser Acupuncture as an Add-On Treatment for Patients With Unsatisfactory Pharmacological Effect, a Pilot Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT06219694",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-01-01",
+    "uploadDate": "2024-01-12T03:45",
+    "size": 608694,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06219694/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-01-01",
+    "completionDate": "2025-12-01",
+    "primaryCompletionDate": "2022-05-04",
+    "firstSubmitDate": "2024-01-03",
+    "firstPostDate": "2024-01-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* patients aged above 20 years old and had CM managed pharmacologically, including preventive and/or acute migraine medications, and in addition, those who had refused preventive agent despite recommendation of the neurologist;\n* patients who had unsatisfactory effect of current pharmacological treatments, defined as they self-reported\n* patients who had a minimum of one-year history of migraine with or without aura.\n\nExclusion Criteria:\n\n* patients who had received another LA therapy or traditional acupuncture at baseline\n* migraine onset after the age of 50\n* cognitive or psychological impairment interfering with the participant's ability to receive LA protocol and describe symptoms\n* patients with missing data at baseline or during the follow-up period.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "monthly migraine days",
+        "description": "change in monthly migraine days (MMD) from baseline and each follow-up time point",
+        "timeFrame": "12 weeks, 24 weeks, 36 weeks"
+      },
+      {
+        "measure": "acute headache medications usage days",
+        "description": "change in acute headache medications usage days per month from baseline and each follow-up time point",
+        "timeFrame": "12 weeks, 24 weeks, 36 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "30% reduction in migraine days",
+        "description": "≥ 30% reduction in migraine days between baseline and each follow-up time point",
+        "timeFrame": "12 weeks, 24 weeks, 36 weeks"
+      },
+      {
+        "measure": "headache duration",
+        "description": "changes in the headache duration between baseline and each follow-up time point",
+        "timeFrame": "12 weeks, 24 weeks, 36 weeks"
+      },
+      {
+        "measure": "headache severity",
+        "description": "changes in the headache severity (based on NRS) between baseline and each follow-up time point",
+        "timeFrame": "12 weeks, 24 weeks, 36 weeks"
+      },
+      {
+        "measure": "the MIDAS score",
+        "description": "changes in the MIDAS score between baseline and each follow-up time point",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Hospital Anxiety and Depression Scale (HADS)",
+        "description": "change in HADS score between baseline and each follow-up time point",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Beck's Depression Inventory",
+        "description": "change in BDI score between baseline and each follow-up time point",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:54.098Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

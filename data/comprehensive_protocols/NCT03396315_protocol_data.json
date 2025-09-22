@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT03396315",
+  "briefTitle": "Bisphosphonates for Prevention of Post-Denosumab Bone Loss",
+  "officialTitle": "Bisphosphonates for Prevention of Post-Denosumab Bone Loss in Premenopausal Women With Idiopathic Osteoporosis",
+  "protocolDocument": {
+    "nctId": "NCT03396315",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-12-06",
+    "uploadDate": "2024-04-16T10:14",
+    "size": 443947,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03396315/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 24,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-01-29",
+    "completionDate": "2023-06-09",
+    "primaryCompletionDate": "2023-06-09",
+    "firstSubmitDate": "2018-01-05",
+    "firstPostDate": "2018-01-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* All women completing at least 12 months of Forteo treatment and at least 12 months of denosumab under previous research studies who remain without a diagnosis of an excluded medical condition and medication exposures as detailed below, will be offered enrollment into this study.\n\nExclusion Criteria:\n\n* Known intolerance to calcium supplements\n* Contraindications to bisphosphonate treatment:\n\n  1. Hypocalcemia\n  2. Pregnancy\n  3. Known hypersensitivity to bisphosphonates\n* History of osteomalacia\n* History of osteonecrosis of the jaw\n* History of dental extraction or other invasive dental surgery within the prior 4 weeks\n* Invasive dental work planned in the next 12 months\n* Any condition or illness (acute, chronic, or history), which in the opinion of the Investigator might interfere with the evaluation of efficacy and safety during the study or may otherwise compromise the safety of the subject\n* Self-reported or known alcohol or drug abuse within the previous 12 months\n* Current or recent (within 1 year of enrollment) inflammatory bowel disease or malabsorption\n* Abnormal laboratory tests performed during Visit 1\n\n  1. Renal insufficiency or liver disease: estimated glomerular filtration rate (eGFR) \\< 35 ml/min, aspartate aminotransferase (AST)/alanine aminotransferase (ALT) \\>50% above upper limit of normal\n  2. Hypercalcemia, hypocalcemia\n  3. Vitamin D deficiency: 25-Hydroxyvitamin D (25-OHD) \\< 30 ng/mL\n* Subjects must be willing to participate voluntarily. Specifically excluded are the following: 1) women less than 20 (or 35 in the case of those who wish to participate because they have low BMD); 2) protected individuals (institutionalized); 3) prisoners; 4) any other prospective participant who, for any reason, might not be able to give voluntary informed consent.",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "20 Years",
+    "maximumAge": "55 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Difference in BMD at the Lumbar Spine (L1-4) Within Group",
+        "description": "Within-group difference (percent change) in BMD at the lumbar spine (L1-4) will be measured by Dual-energy X-ray absorptiometry (DXA) and calculated.",
+        "timeFrame": "Baseline, 12 month"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:03.607Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

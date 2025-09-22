@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT03891199",
+  "briefTitle": "Two Year Study With Robotic-Arm Assisted Hip Surgery.",
+  "officialTitle": "A Two Year Multicenter Study of Robotic-Arm Assisted THA: Acetabular Cup Placement Accuracy and Clinical Outcomes",
+  "protocolDocument": {
+    "nctId": "NCT03891199",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-08-12",
+    "uploadDate": "2023-03-20T13:12",
+    "size": 336399,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03891199/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-04-08",
+    "completionDate": "2020-08-01",
+    "primaryCompletionDate": "2020-08-01",
+    "firstSubmitDate": "2019-03-15",
+    "firstPostDate": "2019-03-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patients requiring primary total hip arthroplasty\n2. Patients willing and able to comply with follow-up requirements\n3. Patients willing to sign an Institutional Review Board approved informed consent form.\n\nExclusion Criteria:\n\n1. Patients with Body Mass Index \\>45\n2. Patients who are \\<18 years of age\n3. Patients with an active infection or suspected latent infection in or about the hip joint\n4. Bone stock that is inadequate for support or fixation of the prosthesis\n5. Previous major hip surgery excluding hip arthroscopy\n6. Total hip arthroplasty using cement fixation or resurfacing",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Accuracy of Acetabular Cup Placement Manually vs. Robotic-arm Assisted - Version.",
+        "description": "Accuracy of cup placement will be measured by absolute value of degrees from target version (40 degrees). Using CT (Computed Tomography) Scans, analysis and radiographs will allow for a complete description of cup placement, and better accounts for factors such as pelvic rotation and/or tilt, otherwise not accounted for in radiographic analysis alone.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Change in Patient Reported \"Hip Dysfunction and Osteoarthritis Outcome Score\" (HOOS) Survey Over 1 Year Period.",
+        "description": "The hip disability and osteoarthritis outcome score (HOOS) is a questionnaire intended to be used to assess the patient's opinion about their hip and associated problems and to evaluate symptoms and functional limitations related to the hip during a therapeutic process . To interpret the score, the outcome measure is transformed in a worst to best scale from 0 to 100, with 100 indicating no symptoms and 0 indicating extreme symptoms. To calculate the total HOOS score the subscales need to be summed up.",
+        "timeFrame": "1 Year"
+      },
+      {
+        "measure": "Change in \"Patient-Reported Outcomes Measurement Information System\" (PROMIS) Survey Over a 1 Year Period.",
+        "description": "The PROMIS Global-10 is a global health quality of life patient reported outcome tool. It is part of the Patient-Reported Outcomes Measurement Information System (PROMIS). It measures symptoms, functioning, and healthcare quality of life for a wide variety of conditions. The PROMIS Global-10 consists of 10 questions assessing physical health, mental health, social health, pain, fatigue, and overall perceived quality of life. 7 questions inquire about health in \"general\" and 3 questions assess emotional problems, fatigue and pain in the last 7 days.\n\nPROMIS 10 Global Physical Health- Scale range (0-20) and what the low number means vs the high number (ex 0 equals worse physical health and 20 equals the best physical health). PROMIS 10 Global Mental Health- Scale range (0-20) and what the low number means vs the high number (ex 0 equals worse mental health and 20 equals the best mental health)",
+        "timeFrame": "1year"
+      },
+      {
+        "measure": "Accuracy of Acetabular Cup Placement Manually vs. Robotic-arm Assisted - Inclination.",
+        "description": "Accuracy of cup placement will be measured by absolute value of degrees from target inclination (20 degrees). Using CT (Computed Tomography) Scans, analysis and radiographs will allow for a complete description of cup placement, and better accounts for factors such as pelvic rotation and/or tilt, otherwise not accounted for in radiographic analysis alone.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Adherence to Lewinnek Safe Zone",
+        "description": "5-25 degrees of anteversion; 30-50 degrees of inclination.",
+        "timeFrame": "6 month"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:57.683Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

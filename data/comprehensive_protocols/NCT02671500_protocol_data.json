@@ -1,0 +1,109 @@
+{
+  "nctId": "NCT02671500",
+  "briefTitle": "Efficacy and Safety of Sofosbuvir/Velpatasvir Fixed Dose Combination for 12 Weeks in Participants With Chronic HCV",
+  "officialTitle": "A Phase 3, Multicenter, Open-Label Study to Investigate the Efficacy and Safety of Sofosbuvir/GS-5816 Fixed Dose Combination for 12 Weeks in Subjects With Chronic HCV",
+  "protocolDocument": {
+    "nctId": "NCT02671500",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol: Amendment 1",
+    "date": "2015-04-21",
+    "uploadDate": "2018-11-29T17:27",
+    "size": 4207289,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02671500/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 375,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-04-19",
+    "completionDate": "2018-03-27",
+    "primaryCompletionDate": "2018-01-05",
+    "firstSubmitDate": "2016-01-29",
+    "firstPostDate": "2016-02-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Willing and able to provide written informed consent\n* HCV RNA ≥ 10\\^4 IU/mL at screening\n* Chronic HCV infection (≥ 6 months) documented by prior medical history or liver biopsy\n* Any HCV genotype (1, 2, 3, 4, 5, 6 or indeterminate)\n* HCV treatment-naive or treatment-experienced\n* Liver imaging within 6 months of Day 1 is required in cirrhotic patients only to exclude hepatocellular carcinoma (HCC)\n\nKey Exclusion Criteria:\n\n* Current or prior history of clinically-significant illness (other than HCV), gastrointestinal disorder, clinical hepatic decompensation, or post-operative condition that could interfere with the absorption of the study drug\n* Pregnant or nursing female or male with pregnant female partner\n* Chronic liver disease of a non HCV etiology\n* Infection with hepatitis B virus (HBV) or human immunodeficiency virus (HIV)\n\nNote: Other protocol defined Inclusion/Exclusion criteria may apply.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Sustained Virologic Response (SVR) 12 Weeks After Discontinuation of Therapy (SVR12)",
+        "description": "SVR12 was defined as HCV RNA \\< the lower limit of quantitation (LLOQ; ie, 15 IU/mL) at 12 weeks after stopping study treatment.",
+        "timeFrame": "Posttreatment Week 12"
+      },
+      {
+        "measure": "Percentage of Participants Who Permanently Discontinued Any Study Drug Due to an Adverse Event",
+        "timeFrame": "Up to 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With SVR at 4 Weeks After Discontinuation of Therapy (SVR4)",
+        "description": "SVR4 was defined as HCV RNA \\< LLOQ at 4 weeks after stopping study treatment.",
+        "timeFrame": "Posttreatment Week 4"
+      },
+      {
+        "measure": "Percentage of Participants With SVR at 24 Weeks After Discontinuation of Therapy (SVR24)",
+        "description": "SVR 24 was defined as HCV RNA \\< LLOQ at 24 weeks after stopping study treatment.",
+        "timeFrame": "Posttreatment Week 24"
+      },
+      {
+        "measure": "Percentage of Participants With HCV RNA < LLOQ On Treatment",
+        "timeFrame": "Weeks 1, 2, 4, 6, 8, 10, and 12"
+      },
+      {
+        "measure": "Change From Baseline in HCV RNA",
+        "timeFrame": "Baseline and up to Week 12"
+      },
+      {
+        "measure": "Percentage of Participants With Overall Virologic Failure",
+        "description": "Virologic failure was defined as: (1) On-treatment virologic failure: Breakthrough (confirmed HCV RNA ≥ LLOQ after having previously had HCV RNA \\< LLOQ while on treatment), or rebound (confirmed \\> 1 log10 IU/mL increase in HCV RNA from nadir while on treatment), or non-response (HCV RNA persistently ≥ LLOQ through 8 weeks of treatment) or (2) Virologic relapse: confirmed HCV RNA ≥ LLOQ during the posttreatment period having achieved HCV RNA \\< LLOQ at last on-treatment visit.",
+        "timeFrame": "Up to Posttreatment Week 24"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:24.153Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

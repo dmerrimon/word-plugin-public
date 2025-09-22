@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT02690649",
+  "briefTitle": "Keep it SIMPLE: Improving Anti-Coagulation Medication Adherence",
+  "officialTitle": "Keep it SIMPLE: Improving Anti-Coagulation Medication Adherence for Patients With Non-valvular Atrial Fibrillation",
+  "protocolDocument": {
+    "nctId": "NCT02690649",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-11-30",
+    "uploadDate": "2020-09-17T10:34",
+    "size": 685160,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02690649/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 160,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-01",
+    "completionDate": "2018-10",
+    "primaryCompletionDate": "2018-10",
+    "firstSubmitDate": "2016-02-10",
+    "firstPostDate": "2016-02-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "FOCUS GROUPS:\n\nInclusion Criteria:\n\n1. Diagnosis of Atrial Fibrillation (Paroxysmal, Persistent, Permanent)\n\n   * focus groups 1 \\& 2: patients diagnosed ≤ 6 months\n   * focus groups 3 \\& 4: patients diagnosed ≥ 6 months\n2. Receiving Oral Anticoagulation -Vitamin K Antagonist (VKA) or Novel Oral Anticoagulant (NOAC)- for non-valvular AF\n\n   * focus groups 1 \\& 2: on VKA or NOAC\n   * focus groups 3 \\& 4: changed VKA to NOAC within last 6 months\n3. \\*Physically and Mentally capable of providing Informed Consent\n4. \\*Age 18 years or older\n5. \\*Ability to read and understand English\n6. Current Patient of Parkview Physicians Group (PPG)-Cardiology\n\n   * 3, 4, and 5 must apply to caregivers, partners, and/or support persons\n\nExclusion Criteria:\n\n1. Absence of History of Atrial Fibrillation (AF)\n2. \\*Does not meet Inclusion Criteria\n3. Anticoagulation with VKA or NOAC for reasons other than non-valvular AF\n4. \\*Designated as part of a vulnerable subject population that the investigator or designee identifies to have compromised autonomy related to potential study participation\n5. Currently participating in another Parkview study that involves PHR use\n\n   * Only 2 and 4 apply to caregivers, partners, and/or support persons\n\nTECHNOLOGY TRIAL:\n\nInclusion Criteria:\n\n1. Diagnosis of Atrial Fibrillation (Paroxysmal, Persistent, Permanent)\n2. Receiving Oral Anticoagulation (VKA or NOAC) for non-valvular AF\n3. Physically and Mentally capable of providing Informed Consent\n4. Age 18 years or older\n5. Access to Computer and Internet\n6. Ability to read and understand English\n7. Current Patient of PPG-Cardiology\n8. Willing to have a MyChart account\n\nExclusion Criteria:\n\n1. Absence of History of Atrial Fibrillation (AF)\n2. Does not meet Inclusion Criteria\n3. Anticoagulation with VKA or NOAC for reasons other than non-valvular AF\n4. Unable to physically or cognitively carry out the tasks necessary for utilizing a PHR such as; blindness, loss of function of arms, cognitive impairments (per chart review) that would interfere in learning a new task\n5. Designated as part of a vulnerable subject population that the investigator or designee identifies to have compromised autonomy related to potential study participation\n6. Currently participating in another Parkview study that involves PHR use\n7. Not willing to have a MyChart account",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Medication Adherence",
+        "description": "AdhereTech smart pill bottles used to collect medication dosing = percentage of allotted doses that were recorded as taken",
+        "timeFrame": "6 months during study"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Patient Portal Login",
+        "description": "The number of times participants logged into their patient portal (Epic's MyChart) during the study period was used as a proxy for patient engagement.",
+        "timeFrame": "6 months during study"
+      },
+      {
+        "measure": "Atrial Fibrillation Knowledge",
+        "description": "End of study score on Atrial Fibrillation Knowledge scale (min:0 is no knowledge, max: 11 is high knowledge), adjusted for age, baseline knowledge, gender and education level.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Patients With Incidence of Adverse Events",
+        "description": "Adverse events include death, stroke, any embolic event, and/or major bleeding.",
+        "timeFrame": "6 months during study"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:13.769Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

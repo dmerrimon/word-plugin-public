@@ -1,0 +1,157 @@
+{
+  "nctId": "NCT03243383",
+  "briefTitle": "Readmission Prevention Pilot Trial in Diabetes Patients",
+  "officialTitle": "A Pilot Trial to Prevent Hospital Readmission of Patients With Diabetes",
+  "protocolDocument": {
+    "nctId": "NCT03243383",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2019-10-22",
+    "uploadDate": "2019-10-22T13:57",
+    "size": 683904,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03243383/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 263,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-09-07",
+    "completionDate": "2019-10-01",
+    "primaryCompletionDate": "2019-07-03",
+    "firstSubmitDate": "2017-08-04",
+    "firstPostDate": "2017-08-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1\\. Diabetes, defined by pre-admission use of a diabetes-specific medication and/or documentation of the diagnosis in the medical record.\n\nExclusion Criteria:\n\n1. Age \\< 18 years at the time of admission\n2. Female subjects who are pregnant and/or admitted to an obstetric service\n3. Current or expected admission to a critical care unit\n4. Binge drinking (5 or more alcoholic drinks for males or 4 or more alcoholic drinks for females on the same day) or drug abuse within 3 months before admission\n5. Inpatient death\n6. Transfer to another hospital or subacute facility\n7. Discharge to hospice or a long-term care facility\n8. Discharge expected within 12 hours or admission to a short-stay unit\n9. Lack of access to a phone\n10. Living more than 30 miles away from Temple University Hospital (TUH)\n11. Mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Incidence of initial hospital readmission",
+        "description": "The number of initial hospital readmissions will be recorded.",
+        "timeFrame": "Within 30 days after discharge"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time to first readmission",
+        "description": "The time to first readmission will be recorded.",
+        "timeFrame": "Assessed at 30 days of discharge"
+      },
+      {
+        "measure": "Incidence of emergency department (ED) visits",
+        "description": "The number of ED visits will be recorded.",
+        "timeFrame": "Assessed at 30 days of discharge"
+      },
+      {
+        "measure": "A composite of 30 day readmission and ED visits",
+        "description": "The composite of 30 day readmission and ED visits will be calculated and recorded.",
+        "timeFrame": "Assessed at 30 days of discharge"
+      },
+      {
+        "measure": "Incidence of primary care and specialist provider follow-up visits scheduled and attended",
+        "description": "The number of primary care provider follow-up visits scheduled and attended will be recorded.",
+        "timeFrame": "Assessed at 30 days of discharge"
+      },
+      {
+        "measure": "Incidence of medication review or reconciliation post-discharge",
+        "description": "The number of medication reviews or reconciliations post-discharge will be recorded.",
+        "timeFrame": "Assessed at 30 days of discharge"
+      },
+      {
+        "measure": "Cost of post-discharge care as a sum of ED visits, readmission, and PCP visits",
+        "description": "The cost of post-discharge care as a sum of ED visits, readmission, home health services, and outpatient provider visits",
+        "timeFrame": "Assessed at 30 days of discharge"
+      },
+      {
+        "measure": "Cost of the intervention",
+        "description": "The cost of nurse and physician time.",
+        "timeFrame": "Assessed at 30 days of discharge"
+      },
+      {
+        "measure": "Subject experience assessed by a brief questionnaire",
+        "description": "Subject experience via a brief questionnaire will be assessed.",
+        "timeFrame": "Assessed at 30 days of discharge"
+      },
+      {
+        "measure": "Self-monitored blood glucose levels and frequency of testing",
+        "description": "Number of blood glucose tests per day and incidence of hypoglycemia.",
+        "timeFrame": "Assessed at 30 days of discharge"
+      },
+      {
+        "measure": "Change in well-being",
+        "description": "Change in well-being from baseline to 5 weeks after discharge as measured by the World Health Organization Well-Being Index (WHO-5)",
+        "timeFrame": "Baseline to 5 weeks after discharge"
+      },
+      {
+        "measure": "Change in diabetes-related distress",
+        "description": "Change in diabetes-related distress at 5 weeks after discharge as measured by the Problem Areas in Diabetes (PAID) scale",
+        "timeFrame": "Baseline to 5 weeks after discharge"
+      },
+      {
+        "measure": "Change in perceived social support",
+        "description": "Change in perceived social support at 5 weeks after discharge as measured by the Multidimensional Scale of Perceived Social Support (MSPSS)",
+        "timeFrame": "Baseline to 5 weeks after discharge"
+      },
+      {
+        "measure": "Change in perceived stress",
+        "description": "Change in perceived stress at 5 weeks after discharge as measured by the perceived stress scale (PSS)",
+        "timeFrame": "Baseline to 5 weeks after discharge"
+      },
+      {
+        "measure": "Change in diabetes knowledge",
+        "description": "Change in diabetes knowledge at 5 weeks after discharge as measured by the Diabetes Knowledge Test (DKT2)",
+        "timeFrame": "Baseline to 5 weeks after discharge"
+      },
+      {
+        "measure": "Change in A1c level",
+        "description": "The change in A1c level from baseline to 3 months after discharge",
+        "timeFrame": "Baseline to 3 months discharge"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 15,
+      "otherCount": 0,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 99,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:10.432Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT07179952",
+  "briefTitle": "Efficacy and Safety of Slow Release DHEA",
+  "officialTitle": "A Study to Evaluate Efficacy and Safety of Slow Release DHEA",
+  "protocolDocument": {
+    "nctId": "NCT07179952",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2025-06-10",
+    "uploadDate": "2025-08-06T11:29",
+    "size": 440685,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07179952/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-10-01",
+    "completionDate": "2028-09-30",
+    "primaryCompletionDate": "2028-09-30",
+    "firstSubmitDate": "2025-08-06",
+    "firstPostDate": "2025-09-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Adult male or female age ≥ 18 and ≤ 50 years at the time of enrollment\n2. Evidence of asthma demonstrated by reversibility at visit 0 or by historical methacholine or bronchodilator reversibility if testing was performed under either the 2017 ERS technical standard (22) or the 1999 ATS Guidelines (23) or outside studies, provided that full sets of flow volume loops have been reviewed and approved by the PI. These criteria are defined as one of the following:\n\n   1. For bronchodilator reversibility: An increase in FEV1 ≥ 10% (24) compared to the baseline (and 200 ml) after up to 8 puffs of albuterol\n   2. For historical methacholine responsiveness: Positive methacholine defined as PC20 ≤ 16 mg/ml, or PD20 ≤ 400 mcg\n3. Physician diagnosis of asthma according to NHLBI guidelines\n4. Consistent use of an ICS inhaler for the prior 2 months\n5. Non-smoker\n6. Females must not be pregnant or breastfeeding\n7. Absence of non-allergic comorbidities\n\nExclusion Criteria:\n\n1. Pregnant or actively trying to become pregnant; breastfeeding\n2. Positive urine pregnancy test\n3. Known lung disease other than asthma\n4. Acute (non-asthma related) dyspnea, viral respiratory illness or asthma exacerbation within 4 weeks of screening\n5. Systemic glucocorticoid dosing for maintenance \\>10 mg/day of prednisone or equivalent\n6. Patients with significant non-allergic comorbidities (e.g. cerebral palsy, heart disease, kidney disease, liver disease, etc.)\n7. Patients with any know central or peripheral endocrine abnormality such as precocious puberty or diabetes\n8. Patients with any known previous adverse reaction to DHEA\n9. Current smoker or pack year history \\> 5 years (includes vaping/nicotine inhalation devices)\n10. Positive urine cotinine test (\\> 100 mg/mL)\n11. Use of prednisone or antibiotics in the last 4 weeks\n12. Use of any performance-enhancing drugs in the last 2 weeks\n13. Use of DHEA in the last 2 weeks\n14. Androgen use for any reason.\n15. Any other condition or finding that would compromise the safety of the subject or the quality of the study data, or otherwise interfere with achieving the study objectives, as determined by the PI\n16. Menopausal amenorrhea by history\n17. Positive PSA (\\>4 ng/ml) (Prostate Specific Antigen)\n18. Prior diagnosis of vocal cord dysfunction, bronchopulmonary dysplasia, cystic fibrosis, chronic obstructive pulmonary disorder, or other lung disease\n19. Systolic blood pressure \\> 150 mm Hg and/or diastolic blood pressure \\>90 mm Hg\n20. Heart rates outside the range of 50 to 120 beats per minutes or with a pathologic irregularity\n21. Patients afflicted with any additional acute or chronic pathology that in the opinion of the screening physician makes them unsuitable for study or increases the risks associated with the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "50 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Scores of Asthma Control Test",
+        "description": "Determine if slow-release DHEA in patients with asthma improves asthma control based on ACT (Asthma Control Test) scoring. Results will be between 0-25.\n\n20-25: Well-controlled asthma 16-19: Not well-controlled asthma 15 or less: Very poorly-controlled asthma",
+        "timeFrame": "From baseline to 12 hours after the final dose of final arm (up to 94 days)"
+      },
+      {
+        "measure": "Scores of Asthma Control Questionnaire",
+        "description": "Determine if slow-release DHEA in patients with asthma improves asthma control based on ACQ (Asthma Control Questionnaire) scoring. Results will be between 0 and \\>1.5.\n\nWell-controlled asthma is indicated by a score ≤ 0.75 Partly controlled asthma is indicated by a score between 0.75 to \\< 1.5 Not well-controlled asthma is indicated by a score ≥ 1.5",
+        "timeFrame": "From baseline to 12 hours after the final dose of final arm (up to 94 days)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Measurements of Forced Expiratory Volume in 1 Second",
+        "description": "FEV1 (Forced Expiratory Volume in 1 Second) will be measured using spirometry at baseline and every in person visit.",
+        "timeFrame": "From baseline to 12 hours after the final dose of final arm (up to 94 days)"
+      },
+      {
+        "measure": "Measurements of Fractional Exhaled Nitric Oxide",
+        "description": "FeNO (Fractional Exhaled Nitric Oxide) will be measured at baseline and at each in person visit.",
+        "timeFrame": "From baseline to 12 hours after the final dose of final arm (up to 94 days)"
+      },
+      {
+        "measure": "Incidences of Adverse Events",
+        "description": "Adverse Events will be recorded from baseline and at every visit.",
+        "timeFrame": "From baseline to 12 hours after the final dose of final arm (up to 94 days)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 60,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

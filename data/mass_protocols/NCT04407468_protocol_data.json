@@ -1,0 +1,85 @@
+{
+  "nctId": "NCT04407468",
+  "briefTitle": "Awake Prone Positioning and Oxygen Therapy in Patients With COVID-19",
+  "officialTitle": "Awake Prone Positioning and Oxygen Therapy in Patients With COVID-19 (APRONOX)",
+  "protocolDocument": {
+    "nctId": "NCT04407468",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-05-10",
+    "uploadDate": "2020-07-13T17:40",
+    "size": 489702,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04407468/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 827,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-01",
+    "completionDate": "2020-07-13",
+    "primaryCompletionDate": "2020-07-13",
+    "firstSubmitDate": "2020-05-27",
+    "firstPostDate": "2020-05-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria\n\n* Patient records with the following characteristics:\n* Patients over 18 years of age\n* Patients of both genders\n* Patients diagnosed with COVID-19 infection\n* Patients admitted to hospital\n* Complete file\n\nNon-inclusion criteria • Patients who do not decide to participate in the study\n\nExclusion criteria\n\n• Files not found.\n\nElimination criteria\n\n* Files with incomplete data\n* File with a voluntary discharge or transfer note.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "To analyze the relationship between the prone position and the need for orotracheal intubation.",
+        "description": "Relationship between awake prone position and the tracheal intubation",
+        "timeFrame": "3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The impact of the prone position on the partial oxygen saturation / inspired oxygen fraction index (SaO2 / FiO2).",
+        "description": "See the relationship between the awake prone position and the SaO2/FiO2 INDEX",
+        "timeFrame": "3 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Determine the free hours without the need for orotracheal intubation of patients in the prone position.",
+        "description": "Determine the free hours without the need for orotracheal intubation of patients in the prone position.",
+        "timeFrame": "3 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:15.201Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

@@ -1,0 +1,100 @@
+{
+  "nctId": "NCT04856865",
+  "briefTitle": "ADP101 for Oral Immunotherapy in Food-Allergic Children and Adults",
+  "officialTitle": "A Phase 1/2, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Efficacy and Safety of ADP101 for Oral Immunotherapy in Food-Allergic Children and Adults (The Harmony Study)",
+  "protocolDocument": {
+    "nctId": "NCT04856865",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-09-02",
+    "uploadDate": "2024-04-04T18:40",
+    "size": 1485003,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04856865/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 73,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-04-20",
+    "completionDate": "2022-12-13",
+    "primaryCompletionDate": "2022-11-22",
+    "firstSubmitDate": "2021-04-20",
+    "firstPostDate": "2021-04-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 4 to 55 (inclusive)\n* Clinical history of allergy to at least 1 of the foods contained in ADP101\n* Experience dose-limiting symptoms at or below the 100-mg dose level to 1 or multiple food sources in ADP101\n\nExclusion Criteria:\n\n* Experience dose limiting symptoms at or below the 100 mg challenge dose level to more than 5 food sources contained in ADP101\n* History of severe or life-threatening episode(s) of anaphylaxis or anaphylactic shock within 60 days of screening\n* History of EoE, other eosinophilic gastrointestinal disease, chronic, recurrent or severe GERD, symptoms of dysphagia\n* Severe asthma\n* Mild or moderate asthma, if uncontrolled or difficult to control\n* History of mast cell disorder, including mastocytosis, urticaria pigmentosa or angioedema\n* History of chronic disease (other than asthma, atopic dermatitis, or allergic rhinitis) at risk of becoming unstable or requiring a change in chronic therapeutic regimen e.g. uncontrolled diabetes\n* History of cardiovascular disease, including hypertension requiring \\> 2 antihypertensive medications\n* History of interstitial lung disease\n* History of celiac disease\n* Active autoimmune disease that has required systemic treatment within 3 months\n* Known malignancy that is progressing or has required active treatment within the past 3 years\n* Known history of HIV, known active hepatitis B infection or known active hepatitis C virus infection\n* Prior/concurrent therapies as follows:\n\n  * beta-blockers, ACE inhibitors, ARBs or calcium channel blockers\n  * regular steroid medication use\n  * therapeutic antibody treatment currently or within the previous 6 months\n  * any food immunotherapy currently or within the previous 12 weeks\n  * In the build up phase of non-food immunotherapy\n* Residing at the same address as another subject (e.g. siblings) participating in this or any other OIT study\n* Develops dose-limiting symptoms to placebo during the Screening DBPCFC\n* Any other condition that might preclude safe participation in the study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "4 Years",
+    "maximumAge": "55 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "600mg Desensitization in at Least One Qualifying Food",
+        "description": "The proportion of participants in the pediatric ITT population who tolerated the 600mg level of a single qualifying food without dose limiting symptoms at the Week 40 Exit DBPCFC.",
+        "timeFrame": "40 Weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "1000mg Desensitization Threshold in Pediatric ITT Population",
+        "description": "Proportion of participants in the pediatric ITT population (age 4-17 at randomization) who tolerated the 1000mg level of a single qualifying food without dose limiting symptoms at the Week 40 Exit DBPCFC.",
+        "timeFrame": "40 weeks"
+      },
+      {
+        "measure": "600mg Desensitization Threshold, Multi-allergic Pediatric ITT Population",
+        "description": "Proportion of participants with \\>=2 qualifying FAs in the pediatric ITT population (age 4-17 at randomization) who tolerated the 600mg level of each of 2 or more qualifying foods without dose limiting symptoms at the Week 40 Exit DBPCFC.",
+        "timeFrame": "40 weeks"
+      },
+      {
+        "measure": "1000mg Desensitization Threshold, Multi-allergic Pediatric ITT Population",
+        "description": "Proportion of participants with \\>=2 qualifying FAs in the pediatric ITT population (age 4-17 at randomization) who tolerated the 1000mg level of each of 2 or more qualifying foods without dose limiting symptoms at the Week 40 Exit DBPCFC.",
+        "timeFrame": "40 Weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:47.279Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

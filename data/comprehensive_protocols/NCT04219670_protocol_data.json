@@ -1,0 +1,119 @@
+{
+  "nctId": "NCT04219670",
+  "briefTitle": "Inpatient Stroke Recovery Using Sensors",
+  "officialTitle": "Wearable Sensor Platform to Monitor Stroke Recovery During Inpatient Rehabilitation",
+  "protocolDocument": {
+    "nctId": "NCT04219670",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2022-09-22",
+    "uploadDate": "2022-12-08T17:22",
+    "size": 1034159,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04219670/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 400,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2017-10-31",
+    "completionDate": "2025-12",
+    "primaryCompletionDate": "2025-12",
+    "firstSubmitDate": "2019-02-13",
+    "firstPostDate": "2020-01-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patient group\n\n  * Individuals diagnosed with stroke admitted to the Shirley Ryan AbilityLab (inpatient), or individuals in the community who had a stroke (chronic)\n  * Age 18 or older\n  * Able and willing to give written consent and comply with study procedures\n* Healthy control group\n\n  * Individuals without any known significant health problem (healthy controls)\n  * Age 18 or older\n  * Able and willing to give written consent and comply with study procedures\n\nExclusion Criteria:\n\n* Patient group\n\n  * Neurological degenerative pathologies as co-morbidities (such as multiple sclerosis, Alzheimer's disease, Parkinson's disease, etc.)\n  * Pregnant or nursing\n  * Skin allergies or irritation; open wounds\n  * Utilizing a powered, implanted cardiac device for monitoring or supporting heart function (i.e. pacemaker, defibrillator, or LVAD)\n* Healthy control group\n\n  * No known history of cerebrovascular accidents or neurological degenerative pathologies (such as multiple sclerosis, Alzheimer's disease, Parkinson's disease, etc.)\n  * Pregnant or nursing\n  * Skin allergies or irritation; open wounds\n  * Utilizing a powered, implanted cardiac device for monitoring or supporting heart function (i.e. pacemaker, defibrillator, or LVAD)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Discharge clinical scores estimation",
+        "description": "Error between clinical scores estimated from machine learning algorithms trained on sensor data from the Admission time-point, and true scores assessed at the discharge from the hospital.",
+        "timeFrame": "Discharge from inpatient stay. Average length of stay is 22 days."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in 6-Minute Walk Test (6MWT)",
+        "description": "The 6MWT measures the distance a subject can walk indoors on a flat, hard surface in 6 minutes, using assistive devices as necessary. The test is a reliable and valid evaluation of functional exercise capacity and is used as a sub-maximal test of aerobic capacity and endurance. The minimal detectable change for people with sub-acute stroke is 60.98 meters. Wearable sensors are used to monitor the movement of the subject during the test.",
+        "timeFrame": "From Admission time-point to 1-2 weeks, 1 month, 3 months, 6 months, 12 months post-stroke"
+      },
+      {
+        "measure": "Change in 10-Meter Walk Test (10MWT)",
+        "description": "The 10MWT measures the amount of time it takes to walk 10 meters. Time will be recorded using a stopwatch and recorded to the one hundredth of a second. The effects of acceleration and deceleration are minimized by adding 1 meter at the beginning and end of the course to isolate the subject's steady state speed. The test will be recorded 3 times each at a normal self-selected pace and at a faster pace, with adequate rest in between. Results will be averaged from 3 trials. Any assistive devices or orthotics should be kept consistent throughout and documented. Wearable sensors are used to monitor the movement of the subject during the test.",
+        "timeFrame": "From Admission time-point to 1-2 weeks, 1 month, 3 months, 6 months, 12 months post-stroke"
+      },
+      {
+        "measure": "Change in Berg Balance Scale (BBS)",
+        "description": "The BBS is a 14-item test, scored on a 5-level ordinal scale and validated against length of stay and discharge destination for stroke patients. The total score is expressed as a number between 0 and 56, where lower score mean increased balance impairment. It measures functional balance in a clinical setting during static and dynamic tasks (sitting, standing, transitioning from sit to stand, etc.). Wearable sensors are used to monitor the movement of the subject during the test.",
+        "timeFrame": "From Admission time-point to 1-2 weeks, 1 month, 3 months, 6 months, 12 months post-stroke"
+      },
+      {
+        "measure": "Change in Timed Up and Go (TUG)",
+        "description": "The TUG assesses mobility by measuring the time a person take to rise from a chair, walk 3 meters, turn around, walk back to the chair, and sit down. It can detect longitudinal changes in mobility in stroke patients. The subject wears their routine footwear and orthotics and can use their mobility aids. Wearable sensors are used to monitor the movement of the subject during the test.",
+        "timeFrame": "From Admission time-point to 1-2 weeks, 1 month, 3 months, 6 months, 12 months post-stroke"
+      },
+      {
+        "measure": "Change in Functional Gait Assessment (FGA)",
+        "description": "The FGA is comprised of 10-item that contains 7 of 8 items (except walking around obstacles) from the Dynamic Gait Index and 3 additional tasks, including walking with a narrow base of support, walking with the eyes closed, and walking backward. Subjects' performance of each test item was rated on a 4-point scale (0-3), with the total score ranging between 0 and 30. Wearable sensors are used to monitor the movement of the subject during the test.",
+        "timeFrame": "From Admission time-point to 1-2 weeks, 1 month, 3 months, 6 months, 12 months post-stroke"
+      },
+      {
+        "measure": "Change in Gait Analysis",
+        "description": "Gait analysis provides a quantitative means of assessing walking function based on spatiotemporal parameters of gait. Subjects walk at both a comfortable and a fast pace over the GaitRite system, an electronic walkway with integrated sensors. Data from GaitRite is reliable and valid for evaluating walking characteristics and provides a gold standard for validating gait parameters from the sensors. Wearable sensors are used to monitor the movement of the subject during the test.",
+        "timeFrame": "From Admission time-point to 1-2 weeks, 1 month, 3 months, 6 months, 12 months post-stroke"
+      },
+      {
+        "measure": "Three months clinical score estimation",
+        "description": "Error between clinical scores estimated from machine learning algorithms trained on sensor data from the Admission time-point, and true scores assessed at three months after the stroke event.",
+        "timeFrame": "3 months after the stroke event"
+      },
+      {
+        "measure": "Six months clinical score estimation",
+        "description": "Error between clinical scores estimated from machine learning algorithms trained on sensor data from the Admission time-point, and true scores assessed at six months after the stroke event.",
+        "timeFrame": "6 months after the stroke event"
+      },
+      {
+        "measure": "Twelve months clinical score estimation",
+        "description": "Error between clinical scores estimated from machine learning algorithms trained on sensor data from the Admission time-point, and true scores assessed at twelve months after the stroke event.",
+        "timeFrame": "12 months after the stroke event"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:36.089Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

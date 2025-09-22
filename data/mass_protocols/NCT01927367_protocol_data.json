@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT01927367",
+  "briefTitle": "Integrated Management Program Advancing Community Treatment of Atrial Fibrillation",
+  "officialTitle": "Integrated Management Program Advancing Community Treatment of Atrial Fibrillation (IMPACT-AF)",
+  "protocolDocument": {
+    "nctId": "NCT01927367",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2017-09-26",
+    "uploadDate": "2020-04-29T08:26",
+    "size": 1604692,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01927367/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1145,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-09",
+    "completionDate": "2018-11",
+    "primaryCompletionDate": "2018-11",
+    "firstSubmitDate": "2013-08-20",
+    "firstPostDate": "2013-08-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age \\>/= 18 years (no max age limit)\n* Confirmed atrial fibrillation.\n* Able to provide informed consent in English.\n\nExclusion Criteria:\n\n* Patients unable to provide informed consent.\n* Patients who are not expected to be alive at the end of the 12 month follow up.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Cardiovascular Hospitalization and AF-related Emergency Department Visits",
+        "description": "Any unplanned hospitalization (admission with an overnight stay in hospital) due to one of the following causes: acute coronary syndrome, pre-syncope /syncope, transient ischemic attack/ stroke, atrial fibrillation, flutter, pulmonary embolism /deep vein thrombosis /systemic embolism, worsening congestive heart failure including pulmonary edema or dyspnea of cardiac origin. AF-related ED visit was predefined as: any presentation with palpitations, rapid heart rate, presyncope or syncope, shortness of breath, transient chest discomfort, or hemodynamic instability resolving with cardioversion or rate-control, not resulting in hospitalization.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With AF-related Emergency Department Visits",
+        "description": "* Individual element of primary outcome.\n* AF-related emergency department visits.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Process of Care",
+        "description": "* Timely access to specialist consultation\n* Timely access to echocardiograms\n* Timely access to catheter ablations for AF and atrial flutter",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Health Related Quality of Life",
+        "description": "\\- Health Related Quality of Life measured using an accepted health questionnaire (EQ-5D-5L).",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Costs",
+        "description": "* The costs associated with the development, implementation, and maintenance of CDSS.\n* The costs associated with managing and treating patients with AF.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Cost Effectiveness",
+        "description": "\\- Incremental cost effectiveness ratio between the interventional arm and the control arm",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Number of Participations With CV Hospitalizations",
+        "description": "* Individual element of primary outcome.\n* AF-related emergency department visits.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number of Participants With Major Bleeding",
+        "description": "Major bleeding, as listed above, is to be defined as fatal bleeding and/or symptomatic bleeding in a critical area or organ, such as intracranial, intraspinal, intraocular, retroperitoneal, intra-articular or pericardial, or intramuscular with compartment syndrome and /or overt bleeding causing a fall in hemoglobin level of 20 g/L or more, or leading to transfusion of two or more units of whole blood or red cells.",
+        "timeFrame": "12 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 1,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 56,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:12.745Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

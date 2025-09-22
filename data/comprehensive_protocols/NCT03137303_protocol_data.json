@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT03137303",
+  "briefTitle": "Reducing Diagnostic Error to Improve Patient Safety in COPD and Asthma (REDEFINE Study)",
+  "officialTitle": "Reducing Diagnostic Error to Improve Patient Safety in COPD and Asthma (REDEFINE Study)",
+  "protocolDocument": {
+    "nctId": "NCT03137303",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-01-11",
+    "uploadDate": "2021-05-21T18:04",
+    "size": 206172,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03137303/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 402,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-07-01",
+    "completionDate": "2019-09-30",
+    "primaryCompletionDate": "2019-09-30",
+    "firstSubmitDate": "2017-04-14",
+    "firstPostDate": "2017-05-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 1.Age ≥40 years of age\n* 2\\. Use of a maintenance respiratory medication and one of the following in the past year:\n* 3\\. Diagnosis of asthma and/or COPD\n* 4\\. No spirometry test performed in the past 3 years\n* 5\\. Past or current smoker or is exposed to tobacco\n\nExclusion Criteria:\n\n* Unable to perform adequate spirometry\n* Non-English speaking\n* Pregnancy\n* Plans to move from the Chicago Area within the next year\n* Seen by pulmonary specialist in the past 3 years\n* Any terminal illness with a life expectancy of \\<6 months\n* Life threatening (e.g. intensive care admission and/or use of mechanical ventilation) respiratory failure event in the past year.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Total Number of Healthcare Visits",
+        "description": "Determine differences in healthcare visits which include all-cause and respiratory related, acute care outpatient visits, emergency department visits, and hospitalizations between groups",
+        "timeFrame": "1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Total With Diagnosis of COPD and/or Asthma Consistent With Spirometry Results",
+        "description": "determine differences in the accuracy of diagnosis between groups",
+        "timeFrame": "1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:26.190Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03702010",
+  "briefTitle": "Spinal Cord Stimulation in Patients With Post-Laminectomy Syndrome in Testing Phase",
+  "officialTitle": "Randomized, Single-blind, Multicenter, Crossover, Controlled Clinical Trial to Compare Difference on the Visual Analogue Scale With Two Modes of Spinal Cord Stimulation in Patients With Post-Laminectomy Syndrome in Testing Phase",
+  "protocolDocument": {
+    "nctId": "NCT03702010",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-06-04",
+    "uploadDate": "2021-03-29T08:26",
+    "size": 598124,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03702010/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 27,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-11-20",
+    "completionDate": "2020-07-01",
+    "primaryCompletionDate": "2020-07-01",
+    "firstSubmitDate": "2018-09-25",
+    "firstPostDate": "2018-10-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients over 18 years of age.\n* Patients with FBSS syndrome with leg pain or leg and back pain.\n* Get a score on the visual analogue scale (VAS) ≥ 7.\n* Have received medical pharmacological treatment for at least 6 months after back surgery.\n* The patient has signed the informed consent form.\n\nExclusion Criteria:\n\n* Patients under 18 years of age.\n* Patients who require a diathermic energy source (microwave, ultrasound or short wave).\n* Patients with a pacemaker.\n* Patients carrying a defibrillator.\n* Patient with a cochlear implant.\n* Patients with other active implanted devices.\n* Patients who are scheduled to have any of the following procedures during the study period: an MRI, defibrillation or cardioversion, electrocautery, lithotripsy, radiofrequency or microwave ablation, and any other high-frequency ultrasound procedure,\n* Women of childbearing age who do not use adequate contraception.\n* Pregnant or breastfeeding.\n* Participation in another trial.\n* Patients who have expressed a desire not to participate in the study and have not formed informed consent.\n* Patients with a failed spinal cord stimulation implant previously",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Comparing Visual Analogue Scale (VAS)",
+        "description": "Visual analogue scale (VAS) at the end of each test phase (either with conventional spinal cord stimulation or with EVOLVE). VAS consists of a 10 centimeter (cm) line, whose ends are defined as the extreme limits of pain (left end corresponds with the absence of pain and the right end with the maximum amount of pain).\n\nThe patient is asked to point out in the line the place that better correspond to his/her pain, ranging from 0 to 10.",
+        "timeFrame": "Baseline, After first stimulation (5days), after washout and second stimulation (12 days), After 30-day follow-up (42 days)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change (%) in VAS Scale at the End of Treatment.",
+        "description": "Change (%) in Visual Analogue Scale (VAS) at the end of treatment.\n\n* Δ = \\[(VAS Initial Visit - VAS Final Visit) / VAS initial visit\\] \\*100\n\nPlease note that positive values indicate a decrease in the VAS scale, which would indicate pain relief, as it was calculated as the value at the earlier time point minus the value at the later time point.",
+        "timeFrame": "After first stimulation (Five days after baseline), After second stimulation (12 days after baseline), at the end of follow-up (42 days after baseline)"
+      },
+      {
+        "measure": "Evaluation Disability",
+        "description": "Oswestry Disability Index of the patients: it is a questionnaire consisting of 10 questions with 6 possible answers each. Every answer gives a punctuation from 0 (less disability) to 5 (more disability).\n\nThis scale is expressed in percentage in which 0 percentage (%) would the least disability and 100 percentage (%) would represent the maximum disability.",
+        "timeFrame": "Baseline, After first stimulation (+5 days), After washout and second stimulation (+12 days), at the end of follow-up (+42days)"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events in Each Arm",
+        "description": "Considering as an adverse event those that result in death, or in severe harm to patient's health (lesion that threatens life, permanent harm on an organ or corporal function, or process that needs a medical or surgical intervention to avoid permanent harm)",
+        "timeFrame": "42 days from baseline"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:59.611Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT03894904",
+  "briefTitle": "Papaverine vs Heparin for Peripheral Arterial Catheter Patency in Pediatric Patients",
+  "officialTitle": "Double-Blind, Randomized, Controlled Trial, Small Volume Bolus of Papaverine Versus Heparin to Maintain Patency of Peripheral Arterial Catheters in Pediatric Patients Undergoing Surgical Procedures: Pilot Study",
+  "protocolDocument": {
+    "nctId": "NCT03894904",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2019-08-05",
+    "uploadDate": "2022-10-17T15:31",
+    "size": 469846,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03894904/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-04-01",
+    "completionDate": "2020-10-10",
+    "primaryCompletionDate": "2020-10-10",
+    "firstSubmitDate": "2019-03-27",
+    "firstPostDate": "2019-03-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\- All patients age 0-17 years who would require elective placements of arterial catheters based on patients clinical complexity (ex. congenital heart disease) or based on the type of surgery (ex. open heart surgery).\n\nExclusion Criteria:\n\n* Patients with a history of significant liver dysfunction.\n* Patients undergoing liver transplants.\n* Patients with Grade 2 or more of intraventricular hemorrhage.\n* All preterm patients with a gestational age less than 37 weeks at the time of surgery.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Optimal Arterial Waveform",
+        "description": "Optimal waveform was defined as easy aspiration of a blood sample (negative aspiration is easy and draws back freely without cavitation, and takes no more than 30 seconds to draw 1 mL), absence of color change at the catheter insertion site, and presence of a dicrotic notch in the arterial pressure waveform (a distinct dicrotic notch implies system has good resolution at higher frequencies and is not overdamped).",
+        "timeFrame": "5 minutes after first dose"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Optimal Arterial Waveform",
+        "description": "Optimal waveform was defined as easy aspiration of a blood sample (negative aspiration is easy and draws back freely without cavitation, and takes no more than 30 seconds to draw 1 mL), absence of color change at the catheter insertion site, and presence of a dicrotic notch in the arterial pressure waveform (a distinct dicrotic notch implies system has good resolution at higher frequencies and is not overdamped).",
+        "timeFrame": "60 minutes after first dose"
+      },
+      {
+        "measure": "Number of Participants With Suboptimal Waveforms Who Received Rescue Papaverine and for Whom Papaverine Rescued Suboptimal Waveforms",
+        "description": "These data were collected only from participants who received rescue papaverine. 7 in the Papaverine plus Heparin arm received rescue papaverine. 17 in the Heparin arm received rescue papaverine.",
+        "timeFrame": "5 minutes after injection of rescue papaverine (about 70 minutes after first study drug dose and about 10 minutes after second study drug dose)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:58.498Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

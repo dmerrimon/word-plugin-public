@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03943303",
+  "briefTitle": "Effects of Sand Treatment on Osteoarthritis",
+  "officialTitle": "Effect of Monazite Sands in Patients With Osteoarthritis of the Knee",
+  "protocolDocument": {
+    "nctId": "NCT03943303",
+    "filename": "Prot_007.pdf",
+    "label": "Study Protocol: Meeting_minutes_template",
+    "date": "2019-05-02",
+    "uploadDate": "2019-05-06T07:23",
+    "size": 265424,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03943303/document/Prot_007.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 150,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-07-28",
+    "completionDate": "2021-08-23",
+    "primaryCompletionDate": "2021-07-28",
+    "firstSubmitDate": "2019-04-29",
+    "firstPostDate": "2019-05-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Joint pain related to daily activities;\n* No morning joint stiffness greater than 30 minutes;\n* Age between 30 and 95 years.\n\nExclusion Criteria:\n\n* History of previous knee surgery.\n* History of fracture in the knee region.\n* History of any secondary OA associated with any cystic arthropathy.\n* Any treatment for the knee with methotrexate.\n* History of hemorrhagic disorders.\n* History of any infiltration of the knee during the previous 6 months (eg corticosteroids and hyaluronic acid).\n* Morbid obesity.\n* History of severe psychiatric disorders.\n* History of skin cancer.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "maximumAge": "95 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in the Visual analgesic scale (0-10)",
+        "description": "Change pain perception through the visual analgesic scale of the volunteers. It consists of a graduated scale of 0 to 10 with regular intervals where zero means absence of pain and 10 is the maximum pain already experienced by the patient.",
+        "timeFrame": "1, 3, 6, 8 and 12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change total score (0 - 96) the Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC)- (lower scores indicate lower levels of symptoms or physical disability)",
+        "description": "Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) questionnaire comprises three subscale. The scores for each subscale are summed up, with a possible score range of 0-20 for Pain, 0-8 for Stiffness, and 0-68 for Physical Function.",
+        "timeFrame": "1, 3, 6, 8 and 12 months"
+      },
+      {
+        "measure": "Change the number of patient with higher concentration of Nonspecific inflammatory markers",
+        "description": "Quantification of nonspecific inflammatory markers (HSV and CRP) and specific (IL-1β, IL-6, IL-8, IL-17, TNF-α and TGF-β) per patient",
+        "timeFrame": "1, 3, 6, 8 and 12 months"
+      },
+      {
+        "measure": "Change the frequency of Self-medicatition to treat pain",
+        "description": "Evaluation of the frequency of self-medication before and during the intervention",
+        "timeFrame": "1, 3, 6, 8 and 12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:54.800Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

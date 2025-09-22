@@ -1,0 +1,159 @@
+{
+  "nctId": "NCT03403751",
+  "briefTitle": "Phase 3 Study of Reltecimod vs Placebo in Patients With Sepsis-associated Acute Kidney Injury",
+  "officialTitle": "Phase 3 Randomized, Double-blind Study to Evaluate the Safety and Efficacy of Reltecimod as Compared to Placebo in Addition to Standard of Care in Patients With Sepsis-associated Acute Kidney Injury (SA-AKI)",
+  "protocolDocument": {
+    "nctId": "NCT03403751",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-07-31",
+    "uploadDate": "2021-08-17T14:43",
+    "size": 1651243,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03403751/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 58,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-05-24",
+    "completionDate": "2019-12-14",
+    "primaryCompletionDate": "2019-12-14",
+    "firstSubmitDate": "2018-01-06",
+    "firstPostDate": "2018-01-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Has either suspected or documented diagnosis of abdominal sepsis requiring treatment with parenteral antibiotics and planned or completed surgical (laparotomy or laparoscopy) or interventional radiologic procedures within 24 hours of evaluation by medical personnel. Recommended surgical or interventional radiologic procedures be performed with 12 hours of evaluation by medical personnel.\n2. Initial diagnosis of AKI Stage 2 or 3 according to KDIGO AKI criteria established either upon presentation to medical care in those patients with suspected abdominal sepsis or in those patients in whom the initial diagnosis of AKI is established during the 48 hour period from the suspected diagnosis of abdominal sepsis.\n3. Study medication must be administered within 6 hours of confirmation of onset of Stage 2 or 3 AKI as established at the study site, under the following criteria:\n\n   * After the decision is made by the attending surgeon at the study site for a surgical or interventional radiology procedure for the abdominal infection OR\n   * After confirmed diagnosis of abdominal infection has been established by a surgical or interventional radiology procedure\n\nExclusion Criteria:\n\n1. Has known prior history of chronic kidney disease (CKD( with a documented estimated GFR (eGFR) \\< 30 mL/min\n\n   • Exception: Patients with history of CKD but no available prior eGFR who have documented normal kidney size on ultrasound or computed tomography evaluation (performed within 90 days of screening) will be eligible\n2. Patients receiving renal replacment therapy (RRT) for CKD\n3. . Previously diagnosed with documented AKI in the last 30 days\n4. Documented primary glomerular disease or toxic tubulo-interstitial nephritis at the time of AKI diagnosis\n5. Patient is not expected to survive throughout 28 days of study due to significant underlying medical condition\n6. Any concurrent medical condition, which in the opinion of the Investigator, may compromise the safety of the patient or the objectives of the study or the patient will not benefit from treatment such as:\n\n   * Congestive heart failure (CHF) {New York Heart Association (NYHA) class III-IV}\n   * Severe chronic obstructive pulmonary disease (COPD) {GOLD - Global Initiative for Chronic Obstructive Lung Disease - stage IV. or chronic hypoxemia)\n   * Liver dysfunction {Childs-Pugh class C}\n   * Primary or acquired immunodeficiency or immunosuppression due to treatment with immunosuppressive medications\n   * Known HIV infection with CD4 count \\< 200 cells/mm3 or \\< 14% of all lymphocytes\n   * Neutropenia \\< 1,000 cells/mm3 not due to the underlying infection\n   * Receiving or about to receive chemotherapy or biologic anti-cancer treatment,\n   * Hematological and lymphatic malignancies in the last 5 years\n7. Patient has acute pancreatitis with no established source of infection, uncomplicated appendicitis, or cholangitis or cholecystitis without peritonitis;\n8. Pregnant or lactating women\n9. Concurrent or previous enrollment in a clinical trial involving investigational drug or a medical device",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Freedom From Durable Loss of Renal Function at Day 28",
+        "description": "Freedom from durable loss of renal function at Day 28 required all of the following 3 components: alive at Day 28, free of dialysis at Day 28, and less than 37% loss of estimated glomerular filtration rate (eGFR) at Day 28 from patient reference eGFR (measured by Modification of Diet in Renal Disease \\[MDRD\\] formula).",
+        "timeFrame": "28 Days"
+      },
+      {
+        "measure": "Serious Adverse Events (SAEs)",
+        "description": "Number of patients experiencing at least one SAE",
+        "timeFrame": "28 Days"
+      },
+      {
+        "measure": "Adverse Events (AEs)",
+        "description": "The number of patients experiencing at least one AE.",
+        "timeFrame": "28 Days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Freedom From Durable Loss of Renal Function at Day 14",
+        "description": "Freedom from durable loss of renal function at Day 14 required all of the following 3 components: alive at Day 14, free of dialysis at Day 14, and less than 37% loss of estimated glomerular filtration rate (eGFR) at Day 14 from patient reference eGFR (measured by Modification of Diet in Renal Disease \\[MDRD\\] formula).",
+        "timeFrame": "14 Days"
+      },
+      {
+        "measure": "Intensive Care Unit (ICU)-Free Days",
+        "description": "ICU-free days refers to the number of days a patient did not spend time in the ICU through Day 28.",
+        "timeFrame": "28 Days"
+      },
+      {
+        "measure": "Ventilator-free Days",
+        "description": "Ventilator-free days refers to the number of days a patient was not on a ventilator through Day 28.",
+        "timeFrame": "28 Days"
+      },
+      {
+        "measure": "Vasopressor-free Days",
+        "description": "Vasopressor-free days refers to the number of days a patient did not receive a vasopressor through Day 28.",
+        "timeFrame": "28 Days"
+      },
+      {
+        "measure": "Hospital Days",
+        "description": "Hospital days refers to the number of days a patient spent time in the hospital.",
+        "timeFrame": "90 Days"
+      },
+      {
+        "measure": "Cumulative Number of Deaths",
+        "description": "The number of deaths occurring through Day 90",
+        "timeFrame": "90 Days"
+      },
+      {
+        "measure": "Secondary Infections",
+        "description": "Number of patients experiencing at least one secondary infection",
+        "timeFrame": "28 Days"
+      },
+      {
+        "measure": "ICU-free Days by Day 14 Modified Sequential Organ Failure Assessment (mSOFA) Category",
+        "description": "The number of days a patient did not spend in the ICU through Day 28, by mSOFA category (mSOFA total score of 1 or less; mSOFA total score of 2 or more). Modified Sequential Organ Failure Assessment (mSOFA) total scores range from 0 to 20, with higher scores reflecting a worse clinical status or outcome. An mSOFA total score of 0 or 1 reflects resolution of organ dysfunction/failure.",
+        "timeFrame": "28 Days"
+      },
+      {
+        "measure": "Ventilator-free Days by Day 14 mSOFA Category",
+        "description": "The number of days a patient was not on a ventilator through Day 28, by mSOFA category",
+        "timeFrame": "28 Days"
+      },
+      {
+        "measure": "Vasopressor-free Days by Day 14 mSOFA Category",
+        "description": "The number of days a patient was not receiving a vasopressor through Day 28, by mSOFA category",
+        "timeFrame": "28 Days"
+      },
+      {
+        "measure": "Hospital Days by Day 14 mSOFA Category",
+        "description": "The number of days a patient was in the hospital.",
+        "timeFrame": "90 Days"
+      },
+      {
+        "measure": "Hospital Discharge Location by Day 14 mSOFA Category",
+        "description": "Number of patients with more favorable discharge location (home or rehabilitation facility) or less favorable discharge location (skilled nursing facility, another acute care facility, death, other) among patients alive at Day 14.",
+        "timeFrame": "90 Days"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Cumulative Mortality by Day 14 mSOFA Category",
+        "description": "Percentage of patients who died through Day 90 using life table analysis",
+        "timeFrame": "90 Days"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 12,
+      "otherCount": 1,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:08.807Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

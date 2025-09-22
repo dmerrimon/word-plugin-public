@@ -1,0 +1,154 @@
+{
+  "nctId": "NCT03453840",
+  "briefTitle": "Extended Duration Artemether-lumefantrine Treatment for Malaria in Children",
+  "officialTitle": "Extended Duration Artemether-lumefantrine Treatment for Malaria in Children",
+  "protocolDocument": {
+    "nctId": "NCT03453840",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-07-19",
+    "uploadDate": "2021-07-22T10:50",
+    "size": 1281616,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03453840/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 305,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-02-21",
+    "completionDate": "2021-08-31",
+    "primaryCompletionDate": "2021-08-31",
+    "firstSubmitDate": "2017-12-22",
+    "firstPostDate": "2018-03-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1, All participants:\n\n1. Residency within 60 km of the study clinics either at TDH or at MGH\n2. Agreement to come to clinic for all follow-up clinical and PK evaluations\n3. Provision of informed consent\n4. Weight ≥6 kg\n5. Presentation with uncomplicated falciparum malaria as indicated by positive smear for malaria parasites along with clinical evidence of infection (fever or history of fever in the past 24 hours)\n6. Willingness to undergo intensive PK sampling and/or population PK sampling during episode(s) of malaria.\n\n2 HIV-infected participants:\n\n1. Confirmed HIV infection (positive rapid HIV test to be confirmed by Western Blot or HIV RNA after enrollment)\n2. On stable EFV-based ART for at least 10 days prior to enrollment\n3. Age 3 years to 18 years\n\n3 HIV-uninfected participants:\n\n1. Confirmed HIV negative test (negative rapid HIV test to be confirmed by Western Blot or HIV RNA after enrollment)\n2. Age 6 months to 18 years\n\nExclusion Criteria:\n\n1. History of significant comorbidities such as malignancy, active tuberculosis or other World Health Organization (WHO) stage 4 disease\n2. Current infection with non-P. falciparum species\n3. Receipt of any medications known to affect CYP450 metabolism (except ART) within 14 days of study enrollment (see 4.2.2)\n4. Hemoglobin \\< 7.0 g/dL\n5. For the population PK study, prior treatment for malaria within 14 days of enrollment\n6. For the intensive PK study, prior treatment for malaria within 28 days of enrollment\n7. Signs or evidence of complicated malaria, defined as unarousable coma or any two of the following symptoms: Recent febrile convulsions, altered consciousness, lethargy, unable to drink, unable to stand/sit due to weakness, severe anemia (Hb \\< 5.0 gm/dL), respiratory distress, jaundice (see Appendix D)\n8. History of toxicity to AL\n\nThe following medications are disallowed within 3 weeks prior to receiving study drug:\n\n* Carbamazepine\n* Clarithromycin\n* Erythromycin (oral)\n* Ketoconazole\n* Phenobarbital\n* Phenytoin\n* Rifabutin\n* Rifampin\n* Halofantrine\n* Any other medication known to significantly affect CYP450 metabolism.\n* Grapefruit juice should be avoided during the study due to its potential effects on CYP3A4.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "6 Months",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "AUC0-21d",
+        "description": "Area under the plasma concentration versus time curve (AUC) from time 0 to day 21 for lumefantrine",
+        "timeFrame": "Study day 0-day21"
+      },
+      {
+        "measure": "Recurrent Parasitemia Following Treatment by Day 42 (Recrudescence or New Infection)",
+        "description": "Recurrent malaria determined by microscopy (thick blood smears), loop mediated isothermal amplification (LAMP), or rapid diagnostic test (RDT).",
+        "timeFrame": "up to study day 42"
+      },
+      {
+        "measure": "AUC0-8h for Artemether",
+        "description": "Area under the plasma concentration versus time curve (AUC) from 0 to 8hr post last dose for artemether (ARM)",
+        "timeFrame": "0-8hr"
+      },
+      {
+        "measure": "AUC0-8h for Dihydroartemisinin",
+        "description": "Area under the plasma concentration versus time curve (AUC) from time 0 to 8hr post last dose for Dihydroartemisinin (DHA)",
+        "timeFrame": "0-8hr"
+      },
+      {
+        "measure": "Cmax for Lumefantrine",
+        "description": "Maximal concentration post last dose for lumefantrine",
+        "timeFrame": "0-21 days"
+      },
+      {
+        "measure": "Cmax for Artemether",
+        "description": "Maximal concentration post last dose for artemether",
+        "timeFrame": "0-8hr"
+      },
+      {
+        "measure": "Cmax for Dihydroartemisinin",
+        "description": "Maximal concentration post last dose for dihydroartimisinin (DHA)",
+        "timeFrame": "0-8hr"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Serious Adverse Events",
+        "description": "We recorded participants tolerance of AL using the NIH Division of AIDS Adult and Pediatric Toxicity Tables.",
+        "timeFrame": "study day 0-42"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Relationship Between Drug Resistance and Treatment Failure",
+        "description": "drug resistance will be accessed by molecular markers. Polymorphic markers will be typed using capillary electrophoresis.",
+        "timeFrame": "study day 0-42"
+      },
+      {
+        "measure": "Metabolomic Measurements in HIV Infected vs HIV Uninfected Children",
+        "description": "Small-molecule metabolites, including metabolic intermediates, hormones and other signaling molecules, and secondary metabolites will be measured in plasma and reported as fold-change (e.g. infected vs uninfected). This is an exploratory study. The multiple measurements could be aggregated to fold-change.",
+        "timeFrame": "study day 0-42"
+      },
+      {
+        "measure": "Height-for-age (HFA) Associations With PK",
+        "description": "chronic protein-calorie malnutrition resulting in slow linear growth (decreased height-for-age: HFA; stunting).",
+        "timeFrame": "study day 0"
+      },
+      {
+        "measure": "Diagnostic Sensitivity of LAMP, HS-RDT, and Microscopy for the Detection of Recurrent Parasitemia",
+        "description": "Using Loop-mediated isothermal amplification (LAMP), highly sensitive Rapid Diagnostic Test (HS-RDT), and microscope to diagnose recurrent parasitemia.\n\nstudy day 0-42",
+        "timeFrame": "study day 0-42"
+      },
+      {
+        "measure": "Weight-for-height (WFH) Associations With PK",
+        "description": "acute protein-calorie malnutrition resulting in weight loss or slow weight gain (decreased weight-for-height: WFH; wasting).",
+        "timeFrame": "study day 0"
+      },
+      {
+        "measure": "Weight-for-age (WFA) Associations With PK",
+        "description": "weight-for-age is an indicator of nutrition status and decreased weight-for-age reflects the combination of chronic and acute protein-calorie malnutrition.",
+        "timeFrame": "study day 0"
+      },
+      {
+        "measure": "Prevalence of Gametocytemia",
+        "description": "At varied time points, blood smears for the determination of parasitemia will be obtained following treatment in 3-day vs 5-day AL regimens.",
+        "timeFrame": "study day 0-42"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 7,
+      "secondaryCount": 1,
+      "otherCount": 7,
+      "totalCount": 15
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:18.547Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

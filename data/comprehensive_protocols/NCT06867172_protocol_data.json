@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT06867172",
+  "briefTitle": "Prevalence of Pancreatic Steatosis in Pancreatic Cystic Neoplasms and Pancreatic Adenocarcinoma",
+  "officialTitle": "The Emerging Issue - Pancreatic Steatosis Prevalence in Pancreatic Cystic Neoplasms and Adenocarcinoma: Insights From a Single-center Retrospective Study",
+  "protocolDocument": {
+    "nctId": "NCT06867172",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2025-02-20",
+    "uploadDate": "2025-02-22T15:18",
+    "size": 603493,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06867172/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 66,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2019-01-01",
+    "completionDate": "2025-06-30",
+    "primaryCompletionDate": "2025-03-31",
+    "firstSubmitDate": "2024-09-27",
+    "firstPostDate": "2025-03-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18 or older\n* Patients with at least 1 pancreatic cystic lesion based on CT and EUS features, with a cyst size ≥ 5mm; or healthy subjects or PDAC (confirmed by histopathological exam).\n\nExclusion Criteria:\n\n* No evidence of written informed consent\n* Patients with contraindications for endoscopy due to comorbidities\n* Metal stent in hepato-bilio-pancreatic region at time of baseline CT-imaging (vascular, luminal and biliary)\n* Acute pancreatitis at baseline imaging\n* Pancreatic surgery at baseline imaging in our department\n* Splenectomy\n* Patients with significant alcohol consumption, defined as alcohol intake of over 20 g daily (140 g weekly) for men and 10 g daily (70 g weekly) for women",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "increased prevalence of pancreatic steatosis in neoplastic cystic lesions",
+        "description": "Increased prevalence of pancreatic steatosis in neoplastic cystic lesions (mostly premalignant lesions)",
+        "timeFrame": "From enrollment up to 5 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Increased prevalence of pancreatic steatosis in PDAC",
+        "description": "The investigators are looking for increased prevalence of pancreatic steatosis in patients with PDAC and its association with stage of PDAC and PDAC-related mortality",
+        "timeFrame": "From enrollment up to 5 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:12.106Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

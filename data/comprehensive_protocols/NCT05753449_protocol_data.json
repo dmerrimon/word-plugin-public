@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT05753449",
+  "briefTitle": "Burst-Type Deep Brain Stimulation of the Subthalamic Nucleus in Parkinson's Disease",
+  "officialTitle": "Burst-Type Deep Brain Stimulation of the Subthalamic Nucleus in Parkinson's Disease: A Pilot Study of Tolerability and Efficacy",
+  "protocolDocument": {
+    "nctId": "NCT05753449",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-02-19",
+    "uploadDate": "2024-11-07T09:29",
+    "size": 431877,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05753449/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-08-24",
+    "completionDate": "2024-02-21",
+    "primaryCompletionDate": "2024-02-21",
+    "firstSubmitDate": "2023-02-07",
+    "firstPostDate": "2023-03-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Bilateral DBS-STN (subthalamic nucleus) target for idiopathic Parkinson's disease implanted minimum 6 months prior to the day of study enrollment\n* Stable DBS programming settings and Parkinson's disease medications defined as no changes to either within past 2 weeks\n* Comfortable using DBS controller to turn off device prior to study visits\n* Able to provide informed consent and complete follow-up visits\n\nExclusion Criteria:\n\n* DBS technology other than Boston scientific Genus/Gevia\n* Unable to complete follow-up visits\n* DBS brain targets other than STN (subthalamic nucleus)\n* Signs of progressive cognitive decline",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Unified Parkinson's Disease Rating Scale (UPDRS) v-III Motor Examination Scores at Baseline (Visit 1)",
+        "description": "This outcome is the Unified Parkinson's Disease Rating Scale (UPDRS) v-III Motor Examination Score in the \"Medication Off\" state, after the first treatment (administered for 30 minutes) and after the second treatment (administered for 30 minutes). For example, the first treatment for patients in the arm \"Baseline Programming First, Then Experimental Burst-type Programming\" was baseline (or standard of care) DBS programming, and the second treatment was experimental Burst-style programming. Each item is scored on a scale from 0 (normal) to 4 (severe, marked, or unable), with the total possible score for the 14 items, including separate questions regarding symptoms present axially and in appendages, ranging from 0 to 108. A higher score indicates a worse outcome.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Unified Parkinson's Disease Rating Scale (UPDRS) v-III Motor Examination Scores at Six Months (Visit 2)",
+        "description": "This outcomes is the Unified Parkinson's Disease Rating Scale (UPDRS) v-III Motor Examination Score in the \"Medication Off\" state and after burst-type DBS programming in the acute setting (after 30 minutes) at six months. Each item is scored on a scale from 0 (normal) to 4 (severe, marked, or unable), with the total possible score for the 14 items, including separate questions regarding symptoms present axially and in appendages, ranging from 0 to 108. A higher score means a worse outcome. Note that the study arm titles refer to whether or not the patients were randomized to baseline programming or Burst-type programming at Visit 1. During this visit (Visit 2), all study subjects were to be evaluated in the medication-off state and then evaluated following 30 minutes of treatment with Burst-type programming. Treatment with baseline programming was not administered during this visit (Visit 2).",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Unified Parkinson's Disease Rating Scale (UPDRS) v-III Motor Examination Scores at Twelve Months (Visit 3)",
+        "description": "This outcomes is the Unified Parkinson's Disease Rating Scale (UPDRS) v-III Motor Examination Score in the \"Medication Off\" state and after burst-type DBS programming in the acute setting (after 30 minutes) at 12 months. Each item is scored on a scale from 0 (normal) to 4 (severe, marked, or unable), with the total possible score for the 14 items, including separate questions regarding symptoms present axially and in appendages, ranging from 0 to 108. A higher score means a worse outcome. Note that the study arm titles refer to whether or not the patients were randomized to baseline programming or Burst-type programming at Visit 1. During this visit (Visit 2), all study subjects were to be evaluated in the medication-off state and then evaluated following 30 minutes of treatment with Burst-type programming. Treatment with baseline programming was not administered during this visit (Visit 2).",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:45.095Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

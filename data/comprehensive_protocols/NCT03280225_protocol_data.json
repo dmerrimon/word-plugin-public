@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT03280225",
+  "briefTitle": "REACH VET Implementation Program Evaluation",
+  "officialTitle": "Risk Stratified Enhancements to Clinical Care: Targeting Care for Patients Identified Through Predictive Modeling as Being at High Risk for Suicide, With the Office of Mental Health Operations",
+  "protocolDocument": {
+    "nctId": "NCT03280225",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-11-01",
+    "uploadDate": "2021-07-22T15:52",
+    "size": 339460,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03280225/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 28,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-09-18",
+    "completionDate": "2020-12-31",
+    "primaryCompletionDate": "2020-03-13",
+    "firstSubmitDate": "2017-09-06",
+    "firstPostDate": "2017-09-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* VA employee at a facility receiving virtual external facilitation\n* Involved in REACH VET implementation\n\nExclusion Criteria:\n\n* Not a VA employee\n* Not employed at a facility receiving virtual external facilitation\n* Not involved in REACH VET implementation",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Coordinator Assigned Post-Implementation",
+        "description": "The average percentage of eligible Veterans across all 23 participating sites having a coordinator assigned within 2 weeks of the monthly REACH VET report being released during the 6 month post-implementation period.",
+        "timeFrame": "6 months after implementation was completed"
+      },
+      {
+        "measure": "Provider Assigned Post-Implementation",
+        "description": "The average percentage of eligible Veterans across all 23 participating sites having a provider assigned within 2 weeks of the monthly REACH VET report being released during the 6 month post-implementation period .",
+        "timeFrame": "6 month period following implementation"
+      },
+      {
+        "measure": "Care Evaluation Performed Post-Implementation",
+        "description": "The average percentage of eligible Veterans across all 23 participating sites receiving a care evaluation within 2 weeks of the monthly REACH VET report being released during the 6 month post-implementation period.",
+        "timeFrame": "6 month period following implementation"
+      },
+      {
+        "measure": "Attempted Outreach Post-Implementation",
+        "description": "The average percentage of eligible Veterans across all 23 participating sites where outreach was attempted within 2 weeks of the monthly REACH VET report being released during the 6 month post-implementation period.",
+        "timeFrame": "6 month period following implementation"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Organizational Readiness for Change Survey",
+        "description": "Eligible staff at participating VA facilities were solicited to complete a modified version of the Texas Christian University Organizational Readiness for Change - Staff (TCU ORC-S). We abbreviated the original instrument to 62 items and modified text for contextual relevance. Responses were collected from 22 sites across five Veteran Integrated Service Networks (VISN). The responses were scored on ten scales: Program Needs (10 - 50 higher is preferred), Training Needs (10 - 50 higher is preferred), Pressure for Change (10 - 50 higher is preferred), Staffing (10 - 50 higher is preferred), Mission (10 - 50 higher is preferred), Cohesion (10 - 50 higher is preferred), Autonomy (10 - 50 higher is preferred), Communication (10 - 50 higher is preferred), Stress (10 - 50 lower is preferred) and Change (10 - 50 lower is preferred).",
+        "timeFrame": "1 month"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:58.971Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

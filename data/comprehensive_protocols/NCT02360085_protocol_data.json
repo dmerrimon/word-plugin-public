@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02360085",
+  "briefTitle": "Does Heart Rate Variablity (HRV) Predict Hypotension in Patients Undergoing Cervical Myelopathy Surgery ?",
+  "officialTitle": "Does Heart Rate Variablity (HRV) Predict Hypotension on Induction in Patients Undergoing Surgery for Cervical Myelopathy ?",
+  "protocolDocument": {
+    "nctId": "NCT02360085",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-10-02",
+    "uploadDate": "2020-05-11T12:03",
+    "size": 243848,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02360085/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 65,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-02",
+    "completionDate": "2020-04",
+    "primaryCompletionDate": "2019-10",
+    "firstSubmitDate": "2015-02-02",
+    "firstPostDate": "2015-02-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults patients, aged 18 - 70 years with the history of cervical myelopathy, presenting for anterior or posterior cervical decompression and fusion.\n\nExclusion Criteria:\n\n1. Patients with arrhythmias or absence of sinus rhythm\n2. Diabetic patients\n3. Degenerative neurological disease e.g. Parkinson's disease\n4. Complete SCI\n5. Inherited autonomic dysfunction",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Heart Rate Variability (HRV)",
+        "description": "Difference between total power (ms2) of patients in the hypotension group compared to stable group",
+        "timeFrame": "1 day"
+      },
+      {
+        "measure": "HRV Indices",
+        "description": "Differences in HRV indices between hypotension group and no hypotension group",
+        "timeFrame": "1 day"
+      },
+      {
+        "measure": "Mean Arterial Pressure",
+        "description": "Preoperative Analysis Mean Arterial Pressure between hypotension group and no hypotension group",
+        "timeFrame": "one day"
+      },
+      {
+        "measure": "HRV Indices Analysis",
+        "description": "Low frequency (LF)/High frequency Ratio",
+        "timeFrame": "One day"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:58.757Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

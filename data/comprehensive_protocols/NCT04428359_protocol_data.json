@@ -1,0 +1,124 @@
+{
+  "nctId": "NCT04428359",
+  "briefTitle": "A Comparative Study to Assess Efficacy of Intralesional MMR Vaccine and Intralesional Vitamin D3 in Treatment of Warts",
+  "officialTitle": "A Comparative Study to Assess Efficacy of Intralesional MMR (Measles, Mumps, Rubella) Vaccine and Intralesional Vitamin D3 in Treatment of Warts",
+  "protocolDocument": {
+    "nctId": "NCT04428359",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2020-05-18",
+    "uploadDate": "2021-03-11T13:07",
+    "size": 1366546,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04428359/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 66,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-06-01",
+    "completionDate": "2021-01-30",
+    "primaryCompletionDate": "2021-01-15",
+    "firstSubmitDate": "2020-06-08",
+    "firstPostDate": "2020-06-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1\\. Clinically diagnosed patients who have more than three warts or single wart in difficult to treat sites (periungual, palms and soles)\n\nExclusion Criteria:\n\n1. Patients not under any systemic or topical treatment of warts for the last four weeks\n2. Patients with a past history of an allergic response to MMR or any other vaccine or Vitamin D\n3. Patients with current acute febrile illness or any bacterial infection\n4. Immunosuppressed patients\n5. Pregnant or lactating women\n6. Patients having a past history of asthma, allergic skin disorders or convulsions\n7. Patients with keloidal tendency\n8. Patient refusal for consent\n9. Treating physician's decision to give other treatment modality\n10. Patients with hypervitaminosis D, muscle weakness, bone pain, altered sensorium",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Efficacy of IL MMR and IL Vitamin D3 in Treatment of Warts",
+        "description": "Percentage of patients showing complete response to IL MMR and IL Vitamin D3\n\nComplete response -Complete disappearance of warts including distant ones and skin texture at the site is restored to normal (100%) Excellent response- Reduction in size and number including distant ones and few residual warts still visible (75-99%) Good response- Some reduction in size only including that of distant ones but no decrease in number of warts (50-74%) Poor or no response- No significant change in size and number of warts (0-49%)",
+        "timeFrame": "Starting of treatment to end of three months follow-up after completing treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants in Each Education Level Group",
+        "description": "Distribution of wart patients into different education level like professional degree, graduate, intermediate, high school, middle school, primary school or illiterate",
+        "timeFrame": "At the time of enrollment"
+      },
+      {
+        "measure": "Number of Participants in Each Occupation Group",
+        "description": "Number of participants with different occupations like professional, semiprofessional, clerical/shop/farm, skilled worker, semiskilled worker, unskilled worker, unemployed",
+        "timeFrame": "At the time of enrollment"
+      },
+      {
+        "measure": "Duration",
+        "description": "Duration of warts",
+        "timeFrame": "At the time of enrollment"
+      },
+      {
+        "measure": "Effect of the Warts on Patient's Life as Assessed by Dermatological Life Quality Index",
+        "description": "Quality of life (QoL) will be measured in wart patients, using the Nepali version of the dermatology life quality index (DLQI) questionnaire before initiation of treatment and at the end of follow up. DLQI contains 10 questions that involves 6 sections: symptoms and feelings, daily activities, leisure, work and school, personal relationships and treatment. Questions 1 and 2 assess symptoms and feelings; 3 and 4, daily activities; 5 and 6, leisure; 7, work and school; 8 and 9, personal relationships and 10, treatment.\n\nThe DLQI consists of 10 questions. Each question is given 4 options from not at all effect (score 0) to very much effect (score 3). The minimum and maximum possible score, thus, is 0 and 30 respectively.\n\nMeaning of DLQI Scores 0-1 = no effect at all on patient's life 2-5 = small effect on patient's life 6-10 = moderate effect on patient's life 11-20 = very large effect on patient's life 21-30 = extremely large effect on patient's life\n\n.",
+        "timeFrame": "At the time of enrollment and at the end of three months follow- up after completion of treatment"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number of Warts",
+        "description": "Number of warts in patients",
+        "timeFrame": "At the time of enrollment"
+      },
+      {
+        "measure": "Size",
+        "description": "Size range of warts",
+        "timeFrame": "At the time of enrollment"
+      },
+      {
+        "measure": "Number of Participants With Each Progression Type",
+        "description": "Number of participants with different progressions of warts like Gradual or rapid or stable or regressing lesions",
+        "timeFrame": "At the time of enrollment"
+      },
+      {
+        "measure": "Number of Participants Who Had Taken Past Treatment",
+        "description": "Frequency of different types of past treatment taken- either traditional or medical treatments",
+        "timeFrame": "At the time of enrollment"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 4,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 67,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:45.928Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

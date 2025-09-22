@@ -1,0 +1,104 @@
+{
+  "nctId": "NCT07181785",
+  "briefTitle": "Molecular Characterization and Outcomes of Aggressive B-Cell Lymphomas.",
+  "officialTitle": "Single-center, Retrospective Study Aimed to Perform a Molecular Characterization of Aggressive B-cell Lymphomas (Diffuse Large B-cell Lymphoma, High-grade B-cell Lymphoma With MYC and BCL2 and/or BCL6 Translocations, High-grade B-cell Lymphoma Not Otherwise Specified) and to Observe the Clinical Patients' Outcomes According to the 2017 WHO Classification",
+  "protocolDocument": {
+    "nctId": "NCT07181785",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-03-21",
+    "uploadDate": "2025-09-05T06:19",
+    "size": 303499,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07181785/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 555,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-07-12",
+    "completionDate": "2023-07-12",
+    "primaryCompletionDate": "2023-07-12",
+    "firstSubmitDate": "2025-09-05",
+    "firstPostDate": "2025-09-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "* Histologically-confirmed diagnosis of LBCL (i.e., DLBCL, HGBCL, unclassifiable B-cell lymphoma with features intermediate between DLBCL and BL), or aggressive B-cell lymphomas with blastoid morphology (excluding blastoid variant of mantle cell lymphoma and lymphoblastic lymphoma)\n* Histopathological diagnosis performed between 2000 and 2019.\n* HIV sero-negativity\n* Age ≥18\n* Treatment with R-CHOP or other intensified polychemotherapy regimen\n* Availability of adequate histopathological samples at diagnosis for FISH analysis\n* Availability of clinical records and outcomes data\n\nExclusion criteria\n\n• Histologic diagnosis other than DLBCL or unclassifiable B-cell lymphoma with features intermediate between DLBCL and BL",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "Overall survival (OS) is time from the date of pathologic diagnosis until death from any cause or last follow-up, whichever occurs first.",
+        "timeFrame": "From the date of pathologic diagnosis until death from any cause or last follow-up, whichever occurs first, assessed up to 60 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Progression-free Survival (PFS)",
+        "description": "Progression-Free Survival (PFS) is the length of time during and after a disease treatment that a patient lives without the disease worsening or progressing",
+        "timeFrame": "From the first day of treatment until relapse, progression, death , or last follow-up, whichever occurs first, assessed up to 60 months"
+      },
+      {
+        "measure": "Overall Response Rate",
+        "description": "the Overall Response Rate (ORR) measures the percentage of patients whose disease shows a reduction in size or is eliminated after a specific treatment. It includes patients who achieve either a Complete Response (CR), where all signs of the lymphoma disappear, or a Partial Response (PR), where there is a significant reduction in tumor burden but some signs of the disease remain",
+        "timeFrame": "From the first day of treatment until the date of first documented response assessment, typically within 6 months of treatment initiation"
+      },
+      {
+        "measure": "Duration of response (DOR; partial response [PR] + complete remission [CR])",
+        "description": "Time from the date of first documented response (complete or partial) until disease progression, relapse, death from any cause, or last follow-up, whichever occurs first.",
+        "timeFrame": "From the date of first documented response (CR or PR) until disease progression, relapse, death from any cause, or last follow-up, whichever occurs first, assessed up to 60 months"
+      },
+      {
+        "measure": "Relapse rates",
+        "description": "Proportion of patients who experience disease relapse after achieving a complete or partial response.",
+        "timeFrame": "From the date of first documented response (CR or PR) until disease relapse or last follow-up, whichever occurs first, assessed up to 60 months"
+      },
+      {
+        "measure": "Relapse Pattern",
+        "description": "Description of the type and location of disease relapse, including nodal vs extranodal and local vs systemic recurrence",
+        "timeFrame": "From the date of first documented response (CR or PR) until disease relapse or last follow-up, whichever occurs first, assessed up to 60 months"
+      },
+      {
+        "measure": "Incidence of chromosomal rearrangements involving MYC gene and BCL2 gene (so called \"double hit lymphoma\", representing 60% of HGBL) and/or BCL6 (also called \"triple hit lymphoma\", representing 20% of HG in Large B-cell Lymphomas.",
+        "description": "Proportion of patients with documented genetic rearrangements of MYC, BCL2, or BCL6 detected at the time of pathologic diagnosis.",
+        "timeFrame": "At the time of pathologic diagnosis (baseline)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

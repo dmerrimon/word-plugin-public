@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT04799795",
+  "briefTitle": "Objective EEG Bed Side Assessment of Impaired Conscious Awareness in Epilepsy",
+  "officialTitle": "Objective EEG Bed Side Assessment of Impaired Conscious Awareness in Epilepsy",
+  "protocolDocument": {
+    "nctId": "NCT04799795",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-04-08",
+    "uploadDate": "2021-04-08T02:57",
+    "size": 881811,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04799795/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 49,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-10-01",
+    "completionDate": "2025-05-24",
+    "primaryCompletionDate": "2025-05-24",
+    "firstSubmitDate": "2021-03-12",
+    "firstPostDate": "2021-03-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* age minimum 18 years\n* diagnosis of (absence) epilepsy // healthy age-matched controls\n* being of good health (besides epilepsy in the case group)\n\nExclusion Criteria:\n\n* central nervous system disorders (besides epilepsy in the case group)\n* substance abuse\n* pregnancy",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "temporal integration changes according to different sleep states",
+        "description": "The investigators develop an EEG-based measure of impaired conscious awareness based on wakefulness and deepening sleep stages which will serve as a model for increasingly impaired conscious awareness. By performing a microstate analysis on EEG data, the investigators hypothesize a decrease of the temporal integration, a prerequisite for conscious awareness, of the EEG gradually from wakefulness to deep sleep.",
+        "timeFrame": "3 years"
+      },
+      {
+        "measure": "temporal integration changes in interictal EEG",
+        "description": "The investigators apply the aforementioned analysis (leading to Outcome 1) on interictal EEG recordings obtained from patients with diagnosed absence epilepsy. The investigators hypothesize a reduced temporal integration in epilepsies with reduced consciousness.",
+        "timeFrame": "3 years"
+      },
+      {
+        "measure": "graph modularity changes according to different sleep states",
+        "description": "The investigators will calculate the EEG-based functional connectivity and graph modularity for each sleep state. The investigators hypothesize that during wakefulness, graph modularity will be lower than during the descent to sleep.",
+        "timeFrame": "3 years"
+      },
+      {
+        "measure": "graph modularity changes in interictal EEG",
+        "description": "The investigators will calculate the EEG-based functional connectivity and graph modularity for the absence epilepsy condition. The investigators hypothesize that impaired consciousness will be reflected in lower graph modularity compared to healthy subjects.",
+        "timeFrame": "3 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "EEG based measures (Outcome 4) correlate with",
+        "description": "The investigators hypothesize that the graph modularity level correlates with neuropsychological test scores in the surveyed data of epilepsy patients.",
+        "timeFrame": "3 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:48.467Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

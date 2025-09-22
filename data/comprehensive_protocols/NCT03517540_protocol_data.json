@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03517540",
+  "briefTitle": "Study of Safety, Tolerability, and Efficacy of a Combination Treatment of LJN452 and CVC in Adult Patients With NASH and Liver Fibrosis",
+  "officialTitle": "A Randomized, Double-blind, Multicenter Study to Assess the Safety, Tolerability, and Efficacy of a Combination Treatment of Tropifexor (LJN452) and Cenicriviroc (CVC) in Adult Patients With Nonalcoholic Steatohepatitis (NASH) and Liver Fibrosis",
+  "protocolDocument": {
+    "nctId": "NCT03517540",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-05-07",
+    "uploadDate": "2021-10-14T09:58",
+    "size": 3782801,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03517540/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 193,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-09-11",
+    "completionDate": "2020-10-15",
+    "primaryCompletionDate": "2020-09-15",
+    "firstSubmitDate": "2018-04-09",
+    "firstPostDate": "2018-05-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nWritten informed consent Male and female patients 18 years or older (at the time of the screening visit). Patients must weigh at least 50 kg (110 lb) and no more than 200 kg (440 lb) to participate in the study.\n\nAble to communicate well with the investigator, to understand and comply with the requirements of the study.\n\nAdequate liver biopsy sample for evaluation by Central Reader. Presence of NASH as demonstrated by histologic evidence based on liver biopsy - NASH with fibrosis stage F2/F3, demonstrated on liver biopsy during the screening period. Alternatively, a historical biopsy can be used if performed within 6 months prior to screening.\n\nExclusion Criteria:\n\nUse of other investigational drugs within 5 half-lives of enrollment or within 30 days whichever is longer.\n\nHistory of hypersensitivity to any of the study drugs or its excipients or to drugs of similar chemical classes.\n\nPrevious exposure to elafibranor, CVC, tropifexor, obeticholic acid (OCA), LMB763 or other FXR agonist.\n\nParticipated in a clinical trial and treated with any investigational product being evaluated for the treatment of liver fibrosis or NASH in the 6 months before screening.\n\nPatients taking medications prohibited by the protocol. History of treated or untreated malignancy of any organ system, other than localized basal cell carcinoma of the skin or treated cervical intraepithelial neoplasia, within the past 5 years, regardless of whether there is evidence of local recurrence or metastases .\n\nPregnant or nursing (lactating) women. Women of child-bearing potential. Current or history of significant alcohol consumption for a period of more than 3 consecutive months within 1 year prior to screening (significant alcohol consumption is defined as more than 20 g/day in females and more than 30 g/day in males, on average) and/or a score on the modified AUDIT questionnaire ≥ 8.\n\nInability to reliably quantify alcohol consumption. History or evidence of ongoing drug abuse, within the last 6 months prior to randomization.\n\nPrior or planned (during the study) bariatric surgery. Uncontrolled diabetes defined as HbA1c ≥ 9% at screening Clinical evidence of hepatic decompensation or severe liver impairment. Previous diagnosis of other forms of chronic liver disease. Calculated eGFR less than 60 mL/min (using the MDRD formula). History of biliary diversion History of liver transplantation or planned liver transplant. Known positivity for HIV. History or current diagnosis of ECG abnormalities indicating significant risk of safety for the patient to participate.\n\nHistory of inflammatory bowel disease. Patients who are not candidates for liver biopsy. Presence of cirrhosis on liver biopsy (F4 by NASH CRN System) or medical history Patients with an abnormal platelet count (referring to reference ranges from the central lab).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Adverse Events",
+        "description": "Occurrence of adverse events and serious adverse events\n\nAdverse Events (AEs) are any untoward sign or symptom that occurs during the study treatment and then up to 66 weeks",
+        "timeFrame": "AEs were collected from first dose of study treatment until end of study treatment at week 48 and then up to maximum duration of 66 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Proportion of Participants Who Have at Least a One Point Improvement in Fibrosis",
+        "description": "Efficacy of tropifexor + CVC in patients with Nonalcoholic steatohepatitis (NASH) with fibrosis stage F2/F3 as assessed by histological improvement after 48 weeks of treatment compared to monotherapies (tropifexor and CVC) compared to baseline biopsy",
+        "timeFrame": "baseline to 48 Weeks"
+      },
+      {
+        "measure": "Proportion of Participants With Resolution of Steatohepatitis",
+        "description": "Efficacy of tropifexor + CVC in patients with Nonalcoholic steatohepatitis (NASH) with fibrosis stage F2/F3 as assessed by histological improvement after 48 weeks of treatment compared to monotherapies (tropifexor and CVC) compared to baseline biopsy",
+        "timeFrame": "baseline to 48 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:10.247Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

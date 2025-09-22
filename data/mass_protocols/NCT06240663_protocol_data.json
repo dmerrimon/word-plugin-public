@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT06240663",
+  "briefTitle": "Walking Before or After Breakfast - Which is Better to Improve Health in Overweight Individuals?",
+  "officialTitle": "A Free-living, Walking-based, Exercise Programme, With Exercise Timed Relative to Breakfast, to Improve Metabolic Health in People Living With Obesity: A Feasibility Study",
+  "protocolDocument": {
+    "nctId": "NCT06240663",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-04-23",
+    "uploadDate": "2024-01-25T07:45",
+    "size": 1109701,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06240663/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 34,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-01",
+    "completionDate": "2021-04-30",
+    "primaryCompletionDate": "2021-04-30",
+    "firstSubmitDate": "2024-01-03",
+    "firstPostDate": "2024-02-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Aged 20-60 years\n* BMI \\>28 kg.m-2\n* Not currently using any anti-diabetes medication\n* Physically inactive (performing less than two 30 min structured exercise sessions per week for the last year)\n* Not pregnant or currently breast feeding\n* Pre-menopausal or peri-menopausal\n* Not currently involved in a weight loss programme or using weight loss medication\n\nExclusion Criteria:\n\n* Involved in regular exercise (engaged in more than 3 sessions of structured exercise of \\>30 min per week)\n* Currently using anti-diabetes medication (e.g. insulin, metformin)\n* Pregnant or breast feeding\n* Currently engaged in active weight loss programme or using weight loss medication\n* Diagnosed with chronic kidney disease\n* Post-menopausal",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adhearance",
+        "description": "Do individuals complete all the exercise sessions.",
+        "timeFrame": "Number of exercise sessions are counted. There are 4 exercise sessions prescribed per week for 12 weeks."
+      },
+      {
+        "measure": "Compliance",
+        "description": "Do participants complete each exercise session as prescribed?",
+        "timeFrame": "HR and duration are measured during every exercise session to calculate this. There are 4 exercise sessions prescribed per week for 12 weeks."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "HbA1c",
+        "description": "A Thriva blood sample kit is sent to individuals through the post. t in the post to measure HbA1c, key liver enzymes and cholesterol markers.",
+        "timeFrame": "0 and 12 weeks."
+      },
+      {
+        "measure": "Waist circumference",
+        "description": "Participants are sent a tape measure in the post and asked to measure the smallest part of their waist.",
+        "timeFrame": "0 and 12 weeks."
+      },
+      {
+        "measure": "Time in Range for Plasma Glucose",
+        "description": "Measured using continuous glucose monitoring",
+        "timeFrame": "Days 0 - 14 and days 77 - 91"
+      },
+      {
+        "measure": "Alanine Transferase",
+        "description": "A Thriva blood sample kit is sent to individuals through the post.",
+        "timeFrame": "0 and 12-weeks."
+      },
+      {
+        "measure": "Hip Circumference",
+        "description": "Participants are sent a tape measure in the post and asked to measure the biggest part of their hip.",
+        "timeFrame": "0 and 12-weeks."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:13.239Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

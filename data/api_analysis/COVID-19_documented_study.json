@@ -1,0 +1,1548 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04581200",
+      "orgStudyIdInfo": {
+        "id": "Pro00106306"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "3U01AT009974-03S1",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/3U01AT009974-03S1"
+        }
+      ],
+      "organization": {
+        "fullName": "Duke University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Lift Mobile Mindfulness for COVID-19 Distress Symptoms",
+      "officialTitle": "Addressing Psychological Distress Symptoms Among Serious Illness Survivors of a Viral Pandemic With a Completely Self-directed, Symptom-responsive Mobile Mindfulness Intervention: a Randomized Controlled Trial",
+      "acronym": "LIFTCOVID"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-01-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-03-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-05-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-10-04",
+      "studyFirstSubmitQcDate": "2020-10-06",
+      "studyFirstPostDateStruct": {
+        "date": "2020-10-09",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2023-03-21",
+      "resultsFirstSubmitQcDate": "2023-05-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2023-05-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-10-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-11-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Duke University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Center for Complementary and Integrative Health (NCCIH)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomized clinical trial (RCT) nested within the NIH PETAL Network's COVID cohort study (BLUE CORAL \\[Biology and Longitudinal Epidemiology: COVID Observational Study\\]) of patients hospitalized for COVID-19-related illness. COVID-19 patients enrolled in BLUE CORAL with elevated distress symptoms 1 month post-discharge will be randomized to either the Lift mobile app intervention or a usual care control.",
+      "detailedDescription": "The novel coronavirus (COVID-19) pandemic has changed access to and the delivery of medical care across the world rapidly and radically as increasingly large waves of patients fill clinics, hospital wards, and intensive care units (ICUs). Patients with comparable illnesses have high rates of persistent psychological distress symptoms including depression, anxiety, and PTSD. Currently there are few easily accessible therapies available for this distress in this time of deep fear and worry, social distancing, cancelled clinics, isolation and quarantine practices, and understaffed hospitals.\n\nLift, a novel mobile app-based mindfulness intervention, may be able to address COVID-19 patients' distress and access to care issues. Lift was piloted successfully in the intensive care unit (ICU; R34 AT00819) and is currently in the midst of a multicenter factorial experimental clinical trial designed to determine which of 8 versions is optimized for symptom relief, cost, and scalability (parent U01 AT009974).\n\nThis 2-arm, parallel group randomized clinical trial seeks to expand the scope of the parent U01 project to test the clinical impact of a psychological distress intervention rapidly deployed during a pandemic. This trial will include 300 patients who were hospitalized due to COVID-19; collect data at 1, 3, and 6 months post-discharge; and address 3 specific aims: (1) Compare the clinical impact of Lift vs. usual care control and (2) Compare long-term (6-month) outcomes of RCT patients both by treatment arm as well to the entire BLUE CORAL cohort, and (3) Explore participant-reported barriers and facilitators to intervention deployment, uptake, and engagement in a pandemic."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19",
+        "Cardiorespiratory Failure"
+      ],
+      "keywords": [
+        "critical illness",
+        "psychological distress",
+        "depression",
+        "anxiety",
+        "adults"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized clinical trial",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Outcomes assessor will be blinded to group assignment, as will the investigators",
+          "whoMasked": [
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 56,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Lift mobile mindfulness program",
+          "type": "EXPERIMENTAL",
+          "description": "Will receive standard dose Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.",
+          "interventionNames": [
+            "Behavioral: Lift"
+          ]
+        },
+        {
+          "label": "Usual care control",
+          "type": "NO_INTERVENTION",
+          "description": "Usual care."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Lift",
+          "description": "The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period.",
+          "armGroupLabels": [
+            "Lift mobile mindfulness program"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Patient Health Questionnaire-9 Item Scale (PHQ-9) Over 3 Months Post-discharge",
+          "description": "Depression symptoms. Scores range from 0 (better) to 27 (worse)",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Patient Health Questionnaire-9 Item Scale (PHQ-9) Over 6 Months Post-discharge",
+          "description": "Depression symptoms. Scores range from 0 (better) to 27 (worse)",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+        },
+        {
+          "measure": "Change in Generalized Anxiety Disorder 7-item Scale (GAD-7) at 3 Months Post-discharge",
+          "description": "Anxiety symptoms. Scores range from 0 (better) to 21 (worse).",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)"
+        },
+        {
+          "measure": "Change in Generalized Anxiety Disorder 7-item Scale (GAD-7) at 6 Months Post-discharge",
+          "description": "Anxiety symptoms. Scores range from 0 (better) to 21 (worse).",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+        },
+        {
+          "measure": "Change in EuroQOL-5DL (Quality of Life) Scale at 3 Months Post-discharge",
+          "description": "EuroQOL-5DL health states can be represented by a single summary number (index value), which reflects how good or bad a health state is according to the preferences of the general population of a country/region. An EQ-5D summary index is derived by applying a formula that attaches values (weights) to each of the levels in each dimension. The index is calculated by deducting the appropriate weights from 1, the value for full health. A higher index value indicates a greater health state; an increase in index value indicates an improvement in health state. The summary item can range from 0 (worst quality of life) to 100 (best quality of life).",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)"
+        },
+        {
+          "measure": "Change in EuroQOL-5DL (Quality of Life) Scale at 6 Months Post-discharge",
+          "description": "EuroQOL-5DL health states can be represented by a single summary number (index value), which reflects how good or bad a health state is according to the preferences of the general population of a country/region. An EQ-5D summary index is derived by applying a formula that attaches values (weights) to each of the levels in each dimension. The index is calculated by deducting the appropriate weights from 1, the value for full health. A higher index value indicates a greater health state; an increase in index value indicates an improvement in health state. The summary item can range from 0 (worst quality of life) to 100 (best quality of life).",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+        },
+        {
+          "measure": "Number of Participants With Cardiopulmonary Symptoms at 3 Months Post-discharge",
+          "description": "Cardiopulmonary symptoms such as breathlessness, fatigue, oxygen use",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)"
+        },
+        {
+          "measure": "Number of Participants With Cardiopulmonary Symptoms at 6 Months Post-discharge",
+          "description": "Cardiopulmonary symptoms such as breathlessness, fatigue, oxygen use",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Healthcare Utilization",
+          "description": "Hospital readmissions and clinic visits during follow up",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+        },
+        {
+          "measure": "Intervention Adherence as Measured by Percentage of Tasks Completed",
+          "description": "Tasks include intervention sessions, weekly surveys, and intervention elements (e.g., videos, audio).",
+          "timeFrame": "T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "BLUE CORAL eligibility (the parent cohort study from which RCT participants will be recruited)\n\nInclusion criteria:\n\n1. Adult hospitalized within 14 days of a positive PCR test for COVID-19\n2. Evidence of acute COVID-19, with fever or respiratory manifestations, as characterized by signs and symptoms such as cough, dyspnea, tachypnea, hypoxemia, and infiltrates on chest imaging.\n\nExclusion criteria:\n\n1. Lack of informed consent\n2. More than 72 hours of continuous hospitalization.\n3. Comfort care orders in place at the time of enrollment and/or unexpected to survive for 24 hours\n4. Prisoners\n5. Previous enrollment in BLUE CORAL\n\nLIFT COVID RCT eligibility\n\nInclusion criteria:\n\n1. Enrolled in BLUE CORAL\n2. Survival to time of BLUE CORAL 1-month post-discharge interview\n\n2\\. English-speaking 3. Domiciled with access to a working telephone and smartphone, tablet, or computer with wifi or internet connection 4. Absence of severe dementia or cognitive dysfunction either before hospitalization or at time of 1 month post-discharge interview\n\nExclusion criteria:\n\n1. PHQ-9 \\<5 at time of interview 1 month post-discharge\n2. Suicidal ideation at time of interview 1 month post-discharge",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Christopher E Cox, MD",
+          "affiliation": "Duke University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Colorado - Denver",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "University of Michigan",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Duke University Medical Center",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Oregon Health & Sciences University",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "24303911",
+          "type": "BACKGROUND",
+          "citation": "Cox CE, Porter LS, Buck PJ, Hoffa M, Jones D, Walton B, Hough CL, Greeson JM. Development and preliminary evaluation of a telephone-based mindfulness training intervention for survivors of critical illness. Ann Am Thorac Soc. 2014 Feb;11(2):173-81. doi: 10.1513/AnnalsATS.201308-283OC."
+        },
+        {
+          "pmid": "29793970",
+          "type": "BACKGROUND",
+          "citation": "Cox CE, Hough CL, Jones DM, Ungar A, Reagan W, Key MD, Gremore T, Olsen MK, Sanders L, Greeson JM, Porter LS. Effects of mindfulness training programmes delivered by a self-directed mobile app and by telephone compared with an education programme for survivors of critical illness: a pilot randomised clinical trial. Thorax. 2019 Jan;74(1):33-42. doi: 10.1136/thoraxjnl-2017-211264. Epub 2018 May 23."
+        },
+        {
+          "pmid": "32805434",
+          "type": "BACKGROUND",
+          "citation": "Cox CE, Olsen MK, Gallis JA, Porter LS, Greeson JM, Gremore T, Frear A, Ungar A, McKeehan J, McDowell B, McDaniel H, Moss M, Hough CL. Optimizing a self-directed mobile mindfulness intervention for improving cardiorespiratory failure survivors' psychological distress (LIFT2): Design and rationale of a randomized factorial experimental clinical trial. Contemp Clin Trials. 2020 Sep;96:106119. doi: 10.1016/j.cct.2020.106119. Epub 2020 Aug 15."
+        },
+        {
+          "pmid": "38957856",
+          "type": "DERIVED",
+          "citation": "Cox CE, Gallis JA, Olsen MK, Porter LS, Gremore TM, Iwashyna TJ, Caldwell ES, Greeson JM, Moss M, Hough CL. Mobile App-Based Mindfulness Intervention for Addressing Psychological Distress Among Survivors of Hospitalization for COVID-19 Infection. CHEST Crit Care. 2024 Jun;2(2):100063. doi: 10.1016/j.chstcc.2024.100063. Epub 2024 Mar 4."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Study website",
+          "url": "http://lift.duke.edu/covid"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "We will follow NIH/NCCIH guidelines for data access.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "We will follow NIH guidelines.",
+      "accessCriteria": "We will follow NIH and institutional guidelines."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Lift Mobile Mindfulness Program",
+          "description": "Will receive standard Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+        },
+        {
+          "id": "FG001",
+          "title": "Usual Care Control",
+          "description": "Usual care."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "29"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "27"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "23"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "22"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "5"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Lift Mobile Mindfulness Program",
+          "description": "Will receive standard Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+        },
+        {
+          "id": "BG001",
+          "title": "Usual Care Control",
+          "description": "Usual care."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "29"
+            },
+            {
+              "groupId": "BG001",
+              "value": "27"
+            },
+            {
+              "groupId": "BG002",
+              "value": "56"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "49.0",
+                      "spread": "14.2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "53.1",
+                      "spread": "11.8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "51.0",
+                      "spread": "13.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "38"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "42"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "14"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "31"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Change in Patient Health Questionnaire-9 Item Scale (PHQ-9) Over 3 Months Post-discharge",
+          "description": "Depression symptoms. Scores range from 0 (better) to 27 (worse)",
+          "populationDescription": "Participants who completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lift Mobile Mindfulness Program",
+              "description": "Will receive standard dose Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+            },
+            {
+              "id": "OG001",
+              "title": "Usual Care Control",
+              "description": "Usual care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "23"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "22"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.09",
+                      "spread": "3.22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.50",
+                      "spread": "4.31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.61",
+              "statisticalMethod": "t-test, 2 sided",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "0.59",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-1.63",
+              "ciUpperLimit": "2.80"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Patient Health Questionnaire-9 Item Scale (PHQ-9) Over 6 Months Post-discharge",
+          "description": "Depression symptoms. Scores range from 0 (better) to 27 (worse)",
+          "populationDescription": "Data not collected on 4 participants.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lift Mobile Mindfulness Program",
+              "description": "Will receive standard dose Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+            },
+            {
+              "id": "OG001",
+              "title": "Usual Care Control",
+              "description": "Usual care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "27"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.63",
+                      "spread": "5.76"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.84",
+                      "spread": "4.71"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "This is an exploratory pilot trial",
+              "pValue": "0.89",
+              "statisticalMethod": "t-test, 2 sided",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "0.21",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-2.66",
+              "ciUpperLimit": "3.08"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Generalized Anxiety Disorder 7-item Scale (GAD-7) at 3 Months Post-discharge",
+          "description": "Anxiety symptoms. Scores range from 0 (better) to 21 (worse).",
+          "populationDescription": "Participants who completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lift Mobile Mindfulness Program",
+              "description": "Will receive standard dose Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+            },
+            {
+              "id": "OG001",
+              "title": "Usual Care Control",
+              "description": "Usual care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "23"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "22"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.09",
+                      "spread": "4.76"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.27",
+                      "spread": "5.29"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.81",
+              "statisticalMethod": "t-test, 2 sided",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "0.36",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-2.58",
+              "ciUpperLimit": "3.30"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Generalized Anxiety Disorder 7-item Scale (GAD-7) at 6 Months Post-discharge",
+          "description": "Anxiety symptoms. Scores range from 0 (better) to 21 (worse).",
+          "populationDescription": "Data not collected on 4 participants.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lift Mobile Mindfulness Program",
+              "description": "Will receive standard dose Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+            },
+            {
+              "id": "OG001",
+              "title": "Usual Care Control",
+              "description": "Usual care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "27"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.26",
+                      "spread": "4.83"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.68",
+                      "spread": "4.57"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.75",
+              "statisticalMethod": "t-test, 2 sided",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-0.42",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-2.98",
+              "ciUpperLimit": "2.14"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in EuroQOL-5DL (Quality of Life) Scale at 3 Months Post-discharge",
+          "description": "EuroQOL-5DL health states can be represented by a single summary number (index value), which reflects how good or bad a health state is according to the preferences of the general population of a country/region. An EQ-5D summary index is derived by applying a formula that attaches values (weights) to each of the levels in each dimension. The index is calculated by deducting the appropriate weights from 1, the value for full health. A higher index value indicates a greater health state; an increase in index value indicates an improvement in health state. The summary item can range from 0 (worst quality of life) to 100 (best quality of life).",
+          "populationDescription": "Participants who completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "index value",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lift Mobile Mindfulness Program",
+              "description": "Will receive standard dose Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+            },
+            {
+              "id": "OG001",
+              "title": "Usual Care Control",
+              "description": "Usual care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "23"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "22"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.02",
+                      "spread": "0.19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.03",
+                      "spread": "0.25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.45",
+              "statisticalMethod": "t-test, 2 sided",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "0.09",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.57",
+              "ciUpperLimit": "0.74"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in EuroQOL-5DL (Quality of Life) Scale at 6 Months Post-discharge",
+          "description": "EuroQOL-5DL health states can be represented by a single summary number (index value), which reflects how good or bad a health state is according to the preferences of the general population of a country/region. An EQ-5D summary index is derived by applying a formula that attaches values (weights) to each of the levels in each dimension. The index is calculated by deducting the appropriate weights from 1, the value for full health. A higher index value indicates a greater health state; an increase in index value indicates an improvement in health state. The summary item can range from 0 (worst quality of life) to 100 (best quality of life).",
+          "populationDescription": "Participants who completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "index value",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lift Mobile Mindfulness Program",
+              "description": "Will receive standard dose Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+            },
+            {
+              "id": "OG001",
+              "title": "Usual Care Control",
+              "description": "Usual care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "23"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "22"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.6",
+                      "spread": "0.36"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.66",
+                      "spread": "0.28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.98",
+              "statisticalMethod": "t-test, 2 sided",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "0.002",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.13",
+              "ciUpperLimit": "0.13"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Cardiopulmonary Symptoms at 3 Months Post-discharge",
+          "description": "Cardiopulmonary symptoms such as breathlessness, fatigue, oxygen use",
+          "populationDescription": "Participants who completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lift Mobile Mindfulness Program",
+              "description": "Will receive standard dose Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+            },
+            {
+              "id": "OG001",
+              "title": "Usual Care Control",
+              "description": "Usual care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "23"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "22"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.08",
+              "statisticalMethod": "Fisher Exact"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Cardiopulmonary Symptoms at 6 Months Post-discharge",
+          "description": "Cardiopulmonary symptoms such as breathlessness, fatigue, oxygen use",
+          "populationDescription": "Participants who completed the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lift Mobile Mindfulness Program",
+              "description": "Will receive standard dose Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+            },
+            {
+              "id": "OG001",
+              "title": "Usual Care Control",
+              "description": "Usual care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "23"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "22"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.69",
+              "statisticalMethod": "Fisher Exact"
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Healthcare Utilization",
+          "description": "Hospital readmissions and clinic visits during follow up",
+          "populationDescription": "Data not collected.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "T1 (time of randomization [i.e., 1 month post-hospital discharge), T2 (2 months post-randomization [i.e., 3 months post-hospital discharge), T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lift Mobile Mindfulness Program",
+              "description": "Will receive standard Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+            },
+            {
+              "id": "OG001",
+              "title": "Usual Care Control",
+              "description": "Usual care."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Intervention Adherence as Measured by Percentage of Tasks Completed",
+          "description": "Tasks include intervention sessions, weekly surveys, and intervention elements (e.g., videos, audio).",
+          "populationDescription": "Not applicable to the usual care arm.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "percentage of tasks completed",
+          "timeFrame": "T3 (5 months post-randomization [i.e., 6 months post-hospital discharge)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lift Mobile Mindfulness Program",
+              "description": "Will receive standard dose Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "23"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23.0",
+                      "spread": "29.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "6 months",
+      "description": "Hospitalization",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Lift Mobile Mindfulness Program",
+          "description": "Will receive standard dose Lift mobile mindfulness program intervention content, app-based response to elevated symptoms, and no introductory call from a therapist. This program lasts 1 month and includes 4 unique weeks' worth of audio, video, and text content.\n\nLift: The intervention is a mobile app-based mindfulness training program designed to be used over a 1-month period.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 23,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 23,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 23
+        },
+        {
+          "id": "EG001",
+          "title": "Usual Care Control",
+          "description": "Usual care.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 22,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 22,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 22
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Christopher Cox",
+        "organization": "Duke University",
+        "email": "christopher.cox@duke.edu",
+        "phone": "9196817232"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2021-03-05",
+          "uploadDate": "2023-03-06T16:59",
+          "filename": "Prot_SAP_001.pdf",
+          "size": 1020670
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2021-07-19",
+          "uploadDate": "2021-12-21T14:08",
+          "filename": "ICF_000.pdf",
+          "size": 203385
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2025-09-19"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000086382",
+          "term": "COVID-19"
+        },
+        {
+          "id": "D016638",
+          "term": "Critical Illness"
+        },
+        {
+          "id": "D003863",
+          "term": "Depression"
+        },
+        {
+          "id": "D001008",
+          "term": "Anxiety Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011024",
+          "term": "Pneumonia, Viral"
+        },
+        {
+          "id": "D011014",
+          "term": "Pneumonia"
+        },
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D018352",
+          "term": "Coronavirus Infections"
+        },
+        {
+          "id": "D003333",
+          "term": "Coronaviridae Infections"
+        },
+        {
+          "id": "D030341",
+          "term": "Nidovirales Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017770",
+          "term": "Lifting"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D055595",
+          "term": "Mechanical Phenomena"
+        },
+        {
+          "id": "D055585",
+          "term": "Physical Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

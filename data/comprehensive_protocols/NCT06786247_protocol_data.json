@@ -1,0 +1,189 @@
+{
+  "nctId": "NCT06786247",
+  "briefTitle": "Evaluation of an Asynchronous Remote Communities Approach to Behavioral Activation for Depressed Adolescents",
+  "officialTitle": "Evaluation of an Asynchronous Remote Communities Approach to Behavioral Activation for Depressed Adolescents",
+  "protocolDocument": {
+    "nctId": "NCT06786247",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2024-01-29",
+    "uploadDate": "2025-01-08T20:10",
+    "size": 1674138,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06786247/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 70,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-04",
+    "completionDate": "2026-03-01",
+    "primaryCompletionDate": "2026-03-01",
+    "firstSubmitDate": "2024-12-20",
+    "firstPostDate": "2025-01-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 13 - 19\n* Referred for MDD treatment\n* Clinically assessed diagnosis of current MDD based on caregiver or patient report or a PHQ-8 total of 8 or greater (moderate MDD)\n* MDD clinically determined to be the primary diagnosis\n* English-speaking\n* Access to a smartphone device\n\nExclusion Criteria:\n\n* Developmental disability (e.g., intellectual disability, autism spectrum disorder)\n* Severe psychiatric comorbidity (e.g., active suicidality requiring higher level of care; psychosis or substance use, bipolar, or conduct disorder)\n* Previously completed a full course of evidence based psychosocial intervention for depression",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "13 Years",
+    "maximumAge": "19 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Intervention Usability Scale",
+        "description": "The IUS was adapted from the System Usability Scale, with the word \"system\" replaced with \"intervention platform\" for each item. Items are rated on a Likert-type scale from 0 (strongly disagree) to 4 (strongly agree) and half of the items are reverse-scored. The total score is calculated by multiplying the sum of these scores by 2.5 (possible range: 0-100), with higher scores indicating greater usability.",
+        "timeFrame": "Week 12"
+      },
+      {
+        "measure": "User Burden Scale",
+        "description": "The User Burden Scale (UBS) is a widely used and reliable scale that includes 20-items that capture user burden of computing systems across 6 subscales1) difficulty of use, 2) physical, 3) time and social, 4) mental and emotional, 5) privacy, and 6) financial. Items are rated on a 5-point Likert scale from 0 (Never/Not at all) to 4 (All of the time/Extremely). Higher scale scores indicate greater user burden.",
+        "timeFrame": "Week 12"
+      },
+      {
+        "measure": "Client Satisfaction Questionnaire - 8",
+        "description": "The CSQ-8 is an 8-item, unidimensional measure assessing general satisfaction with mental health services. Higher scores indicate greater satisfaction (range: 8 - 32)",
+        "timeFrame": "Week 12"
+      },
+      {
+        "measure": "Acceptability Of Intervention Measure",
+        "description": "The Acceptability of Intervention Measure assesses the acceptability of a particular intervention. The measure has 4 items each and responses are coded on a 1 - 5 Likert scale (Completely Disagree to Completely Agree). Higher scores indicate greater acceptability (range: 4 - 20)",
+        "timeFrame": "Week 12"
+      },
+      {
+        "measure": "Intervention Appropriateness Measure",
+        "description": "The Intervention Appropriateness Measure assesses the appropriateness of a particular intervention. The measure has 4 items each and responses are coded on a 1 - 5 Likert scale (Completely Disagree to Completely Agree). Higher scores indicate greater appropriateness (range: 4 - 20)",
+        "timeFrame": "Week 12"
+      },
+      {
+        "measure": "Feasibility Of Intervention Measure",
+        "description": "The Feasibility of Intervention Measure assesses the feasibility of a particular intervention. The measure has 4 items each and responses are coded on a 1 - 5 Likert scale (Completely Disagree to Completely Agree). Higher scores indicate greater feasibility (range: 4 - 20)",
+        "timeFrame": "Week 12"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Loneliness",
+        "description": "The self-report NIH Loneliness Toolbox assesses perceptions of loneliness in the past month using a 7-item survey for ages 8 to 17 scored on a 5-point Likert scale from 1 (Never) to 5 (Always). Higher total scores indicate greater loneliness. Age-adjusted scale scores will be generated for each participant.",
+        "timeFrame": "Baseline to Week 24"
+      },
+      {
+        "measure": "Therapeutic Alliance",
+        "description": "The Working Alliance Inventory, Short Form (WAI-S) will be used to assess the therapeutic alliance between clients and therapists. The WAI-S comprises 12 items designed to evaluate the quality of the working relationship, agreement on goals, and agreement on tasks between the client and therapist. Each item is scored on a 1 to 7 Likert scale, where higher scores indicate stronger therapeutic alliance. The total score ranges from 12 to 84, with higher scores indicating a more positive and effective therapeutic alliance.",
+        "timeFrame": "Week 12"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Enrollment Rate",
+        "description": "The enrollment rate (those enrolled / those screened) will be used as a measure of trial design feasibility. The number of participants enrolled will be divided by the number of candidates screened.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Loss to Follow Up Rate",
+        "description": "The loss-to-follow-up rate (participants who do not complete Week 24 / randomized participants) will be used as a measure of trial design feasibility. The number of participants who do not complete the Week 24 visit will be divided by the number of participants who complete randomization.",
+        "timeFrame": "Baseline to Week 24"
+      },
+      {
+        "measure": "Behavioral Activation Attendance",
+        "description": "Attendance at BA sessions will be used as a measure of engagement in treatment (both study arms receive BA). The number of attended sessions will be divided by the total possible (12).",
+        "timeFrame": "Baseline to Week 12"
+      },
+      {
+        "measure": "Behavioral Activation Homework Completion",
+        "description": "Completion of BA homework will be used as a measure of engagement in treatment (both study arms receive BA). The number of completed homeworks will be divided by the total possible.",
+        "timeFrame": "Baseline to Week 12"
+      },
+      {
+        "measure": "Behavioral Activation Skill Use",
+        "description": "This weekly checklist measures whether or not BA skills are used outside of session. BA skills include Goal Directed Behavior, Tracking Mood-Activities, Mood Boosting Activities, SMART Goal setting, Mini-step Completion, Problem-solving, Making the Most of a Good Moment. The number of skills completed per week will be summed (range: 0 -7) and averaged across the study period. Higher scores indicate greater BA skill use.",
+        "timeFrame": "Baseline to Week 12"
+      },
+      {
+        "measure": "ActivaTeen - Time Spent on Platform",
+        "description": "The amount of time spent on the intervention platform (ActivaTeen) will be measured and recorded. We will use a cut off of XX mins per day as a threshold for low engagement.",
+        "timeFrame": "Baseline to Week 12"
+      },
+      {
+        "measure": "ActivaTeen - Messaging Rates",
+        "description": "Frequency of direct messages sent to other teens and to their assigned clinician via the general Teams chat and/or ActivaTeen Team chat.",
+        "timeFrame": "Baseline to Week 12"
+      },
+      {
+        "measure": "Treatment-Related Adverse Events",
+        "description": "Intervention safety will be assessed by comparing the number of adverse events per person that are \"definitely\" or \"probably\" attributable to study procedures across treatment arms.",
+        "timeFrame": "Baseline to Week 24"
+      },
+      {
+        "measure": "Suicidality",
+        "description": "Suicidality will be assessed with 4 items from the Mood and Feelings Questionnaire (MFQ) called the MFQ-SI (for Suicidal Ideation). Items are rated on a 1 - 3 Likert Scale (Not True, Sometimes, True) and summed with higher total scores indicating greater suicidality.",
+        "timeFrame": "Baseline to Week 24"
+      },
+      {
+        "measure": "Depression Symptoms",
+        "description": "Symptoms of depression will be measured with the 9-item Patient Health Questionnaire (PHQ-9). The PHQ-9 consists of nine questions based on the criteria for major depressive disorder in the DSM-5.Each question is scored on a 0 - 3 Likert scale, with 0 representing \"not at all\" and 3 representing \"nearly every day.\" The total score ranges from 0 to 27, with higher scores indicating more severe depressive symptoms.",
+        "timeFrame": "Baseline to Week 24"
+      },
+      {
+        "measure": "Anxiety Symptoms",
+        "description": "Symptoms of generalized anxiety disorder (GAD) will be assessed using the 7-item Generalized Anxiety Disorder scale (GAD-7). The GAD-7 comprises seven questions designed to evaluate the severity of anxiety symptoms based on criteria in the DSM-5. Each question is rated on a 0 to 3 Likert scale, where 0 indicates \"not at all\" and 3 indicates \"nearly every day.\" The total score on the GAD-7 ranges from 0 to 21, with higher scores indicating greater anxiety symptoms.",
+        "timeFrame": "Baseline to Week 24"
+      },
+      {
+        "measure": "Major Depressive Disorder",
+        "description": "The Children's Depression Rating Scale-Revised (CDRS-R) will be utilized to assess depression symptoms in children and adolescents. The CDRS-R is a clinician-rated scale comprising 17 items that evaluate various aspects of depression, such as mood, behavior, and physical symptoms. Each item is scored on a scale from 1 to 5, with higher scores indicating more severe depressive symptoms. The total score ranges from 17 to 85, with higher scores indicating greater depression severity.",
+        "timeFrame": "Baseline to Week 24"
+      },
+      {
+        "measure": "Externalizing psychopathology symptoms",
+        "description": "The Strengths and Difficulties Questionnaire (SDQ) will be used to assess various aspects of children's emotional and behavioral functioning. The SDQ consists of 25 items that cover emotional symptoms, conduct problems, hyperactivity/inattention, peer relationship problems, and prosocial behavior. Each item is rated on a 3-point scale (0 = not true, 1 = somewhat true, 2 = certainly true). Subscale scores are generated for emotional symptoms, conduct problems, hyperactivity/inattention, peer relationship problems, and prosocial behavior. Higher scores indicate higher levels of emotional and behavioral difficulties.",
+        "timeFrame": "Baseline to Week 24"
+      },
+      {
+        "measure": "Client-Centeredness of Treatment",
+        "description": "The Giving Youth a Voice Short Form questionnaire (GYVSF) will be utilized to assess participant perspectives on the treatment they received in the study. The GYV-SF includes items designed to capture youths' opinions on topics such as education, relationships, and community engagement. Each item is rated on a 7-point Likert scale with higher scores indicating perceptions of more client-centered behaviors from service providers.",
+        "timeFrame": "Week 12"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 6,
+      "secondaryCount": 2,
+      "otherCount": 14,
+      "totalCount": 22
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:18.684Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

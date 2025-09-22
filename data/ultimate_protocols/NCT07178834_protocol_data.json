@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT07178834",
+  "briefTitle": "Impact of a Tele-rehabilitation Program on People With Multiple Sclerosis",
+  "officialTitle": "Impact of a Tele-rehabilitation Program on People With Multiple Sclerosis: A Multicenter, Randomized, Single-blind Study.",
+  "protocolDocument": {
+    "nctId": "NCT07178834",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-01-15",
+    "uploadDate": "2025-07-04T04:59",
+    "size": 131971,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07178834/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 75,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2025-02-10",
+    "completionDate": "2025-09-30",
+    "primaryCompletionDate": "2025-09-30",
+    "firstSubmitDate": "2025-07-04",
+    "firstPostDate": "2025-09-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients diagnosed with multiple sclerosis confirmed using the 2017 McDonald criteria.\n* Patients who have the technological means to conduct online sessions and the autonomy to do so.\n* Patients with cognitive capacity that allows them to sign the informed consent form.\n* Patients with an internet connection and a device compatible with the Rehub tele-rehabilitation platform (desktop computer, laptop, or tablet).\n* EDSS level less than or equal to 6.5.\n\nExclusion Criteria:\n\n* Participants who are currently undergoing RHB at a center.\n* Participants who have undergone RHB during the two months prior to the start of the program.\n* Patients with physical or mental comorbidities that may limit their participation in the rehabilitation program.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adverse events",
+        "description": "Adverse events such as falls, pain, fatigue, and others that may occur.",
+        "timeFrame": "From enrollment to the end of treatment in week 8"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Multiple Sclerosis Quality of Life 54",
+        "description": "Quality of life scale (Min.0; Max.100). The higher the score, the better.",
+        "timeFrame": "(T1) baseline, (T2) after the 8 week, (T3) at 16 week."
+      },
+      {
+        "measure": "10 meters walking test",
+        "description": "The scale measures walking speed. There are no minimum or maximum measurements. The higher the reading, the better.",
+        "timeFrame": "(T1) baseline, (T2) after the 8 week, (T3) at 16 week."
+      },
+      {
+        "measure": "6 minute walking test",
+        "description": "The scale measures capacity for effort. There are no minimum or maximum measurements. The higher the score, the better.",
+        "timeFrame": "(T1) baseline, (T2) after the 8 week, (T3) at 16 week."
+      },
+      {
+        "measure": "Berg Balance Scale",
+        "description": "The scale measures the level of balance. Minimum measurement 0; maximum 56. The higher the reading, the better.",
+        "timeFrame": "(T1) baseline, (T2) after the 8 week, (T3) at 16 week."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

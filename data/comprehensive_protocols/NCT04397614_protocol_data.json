@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT04397614",
+  "briefTitle": "Mobile Health Study and Enhanced Symptom Monitoring in COVID-19 Cancer Patients",
+  "officialTitle": "Mobile Health Study and Enhanced Symptom Monitoring to Prevent Severe Illness From COVID-19 in Cancer Patients",
+  "protocolDocument": {
+    "nctId": "NCT04397614",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-02-23",
+    "uploadDate": "2023-02-22T18:07",
+    "size": 601169,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04397614/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 128,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-07-22",
+    "completionDate": "2021-11-12",
+    "primaryCompletionDate": "2021-11-12",
+    "firstSubmitDate": "2020-05-20",
+    "firstPostDate": "2020-05-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Demonstrate \\> 6th grade English literacy level (i.e., phone based EMAs require \\>6th grade literacy)\n2. Present for care at the Stephenson Cancer Center at the University of Oklahoma Health Sciences Center\n3. Are currently receiving systemic chemotherapy by intravenous infusion or by orally delivered medication\n4. Are greater than or equal to 18 years of age\n5. Are willing and able to complete surveys on their personal smartphone or a study provided smartphone\n6. Are willing and able to provide informed consent\n\nExclusion Criteria:\n\n* None",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Smartphone Based Surveys Completed",
+        "description": "Proportion of completed smartphone-based daily surveys divided by the total number of surveys a participant is staged to receive (daily for 24 weeks = 168 surveys total)",
+        "timeFrame": "up to 24 weeks"
+      },
+      {
+        "measure": "Number of Participants With Manifestations of Severe Disease",
+        "description": "Yes/No; Yes = there were manifestations of severe disease; No = there were no manifestations of severe disease. Those who are marked as Yes are reported below in the Outcome measure data table",
+        "timeFrame": "up to 24 weeks"
+      },
+      {
+        "measure": "Number of Participants With SARS-CoV-2 Related Hospital Admission",
+        "description": "Yes/No; Yes = there were SARS-CoV-2 related hospital admissions; No = there were no SARS-CoV-2 related hospital admissions. Those who are marked as Yes are reported below in the Outcome measure data table",
+        "timeFrame": "up to 24 weeks"
+      },
+      {
+        "measure": "Number of Participants With SARS-CoV-2 Related ICU Admission",
+        "description": "Yes/No; Yes = there were SARS-CoV-2 related ICU admissions; No = there were no SARS-CoV-2 related ICU admissions. Those who are marked as Yes are reported below in the Outcome measure data table",
+        "timeFrame": "up to 24 weeks"
+      },
+      {
+        "measure": "Number of Participants With SARS-CoV-2 That Needed Invasive Mechanical Ventilation",
+        "description": "Yes/No; Yes = participant had SARS-CoV-2 and needed invasive mechanical ventilation; No = participant had SARS-CoV-2 and did not need invasive mechanical ventilation. Those who are marked as Yes are reported below in the Outcome measure data table",
+        "timeFrame": "up to 24 weeks"
+      },
+      {
+        "measure": "Mortality Number for Participants Who Reported SARS-CoV-2 Positive and Got Enhanced Monitoring",
+        "description": "Yes/No; Yes = participant mortality reported; No = participant mortality not reported. Those who are marked as Yes are reported below in the Outcome measure data table",
+        "timeFrame": "up to 24 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percent of Participants Satisfied With Monitoring and Use of mHealth Application",
+        "description": "1. if the participants were satisfied with the number of assessments prompted by the smartphone application - yes/no - those who reported yes are in the outcome measure data table below\n2. if the participants would be interested in using a similar smartphone app in the future if needed - yes/no - those who reported yes are in the outcome measure data table below",
+        "timeFrame": "24 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 6,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:35.760Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

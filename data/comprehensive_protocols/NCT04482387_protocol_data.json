@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT04482387",
+  "briefTitle": "DigiVis: Self-testing Vision App for Telephone Consultations",
+  "officialTitle": "DigiVis: Validation of Self-testing Visual Acuity Web-based App to Aid Ophthalmic Telephone Consultations During Covid19 Lockdown and Subsequent Social Distancing Crisis",
+  "protocolDocument": {
+    "nctId": "NCT04482387",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-07-15",
+    "uploadDate": "2021-08-07T12:52",
+    "size": 166747,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04482387/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 120,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-07-24",
+    "completionDate": "2021-08-01",
+    "primaryCompletionDate": "2021-08-01",
+    "firstSubmitDate": "2020-07-17",
+    "firstPostDate": "2020-07-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age between 5 and 85 years\n* Previous recorded visual acuity of at least +0.8 logMAR in or both eyes\n\nExclusion Criteria:\n\n* Individuals with poor conversant English\n* Individuals with cognitive impairment\n* Subjects unable to access the internet on two digital devices",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean Bias Between the Difference Between DigiVis and Standard Visual Assessment Compared to the Mean of DigiVis and Standard Visual Assessment",
+        "description": "The mean bias (difference) in visual acuity assessment score between the difference in DigiVis and standard testing in logMAR units and the mean of DigiVis and standard testing in logMAR units was calculated. Where 0.00 logMAR is the value representing perfect distance visual acuity (equivalent to 20/20 Snellen acuity) and 1.00 logMAR is the value representing worst distance visual acuity (equivalent to 20/200 Snellen acuity).",
+        "timeFrame": "within 30 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Mean Bias Between Repeated DigiVis Test Assessments",
+        "description": "Mean bias between the difference of two DigiVis visual acuity assessments compared to the mean of two digiVis assessments measured in logMAR units.",
+        "timeFrame": "within 30 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:35.863Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

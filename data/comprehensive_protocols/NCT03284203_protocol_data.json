@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03284203",
+  "briefTitle": "Feasibility of At-Home Handheld Spirometry",
+  "officialTitle": "Feasibility of Inpatient and At-Home Use of Handheld Spirometry (SpiroPD)",
+  "protocolDocument": {
+    "nctId": "NCT03284203",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-04-08",
+    "uploadDate": "2023-01-11T19:39",
+    "size": 130712,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03284203/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 8,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-09-30",
+    "completionDate": "2018-03-01",
+    "primaryCompletionDate": "2017-11-20",
+    "firstSubmitDate": "2017-09-08",
+    "firstPostDate": "2017-09-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18+ years\n* Physician-diagnosed COPD\n* Able to perform spirometry\n* Access to wireless internet at home\n* Visual acuity of at least 20/50 in one eye\n\nExclusion Criteria:\n\n* Currently in ICU\n* Physician declines to provide consent\n* Patient unable to provide consent or declines to provide consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Comparison of KOKO Spirometry to SpiroPD Use",
+        "description": "Participants will use the handheld spirometry device every day for 30 days. After use, the device will store spirometry measurements for each patient each day and the data will be synced over wifi to each individual's associated online account. Daily measurements from the SpiroPD device will be collected over the course of 30 days. These measurements will then be compared against spirometry measurements collected using the bedside KoKo machine during baseline and 30-day follow-up visits.",
+        "timeFrame": "30 days from patient enrollment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Adherence to Using the SpiroPD Device at Home on a Daily Basis",
+        "description": "Daily use of the SpiroPD will be measured by way of captured spirometry measurements. If there is no recorded spirometry measurement in the SpiroPD device for certain days, those days will be considered when discussing non-adherence to daily use of the SpiroPD.",
+        "timeFrame": "30 days from patient enrollment"
+      },
+      {
+        "measure": "Feasibility of Patients to Use the SpiroPD Device at Home Consistently",
+        "description": "Feasibility, or ease of use, will be measured by tracking the number of inquiries received on the designated SpiroPD help line. Each inquiry will be measured and tracked using an inquiry intake form. The type of inquiry or issue the patient is having and the possible solutions to the issue will be recorded. The patient's study ID and the date and time of their call will be recorded. These metrics along with adherence measurements will be factored in when discussing the feasibility of the SpiroPD device.",
+        "timeFrame": "30 days from patient enrollment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:26.243Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,100 @@
+{
+  "nctId": "NCT04838106",
+  "briefTitle": "Outcomes of Patients Who Survived Treatment on an Intensive Care Unit for COVID-19 in England and Wales",
+  "officialTitle": "Outcomes of Patients Who Survived Treatment on an Intensive Care Unit for COVID-19 in England and Wales: a Comparative Retrospective Cohort Study (OPTIC-19)",
+  "protocolDocument": {
+    "nctId": "NCT04838106",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-06-17",
+    "uploadDate": "2022-08-09T09:02",
+    "size": 369384,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04838106/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 319600,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2020-08-01",
+    "completionDate": "2025-02-28",
+    "primaryCompletionDate": "2025-02-28",
+    "firstSubmitDate": "2021-04-07",
+    "firstPostDate": "2021-04-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 16 years or over\n* Admitted to an adult, general ICU in England or Wales as an emergency (unplanned)\n* Admitted to ICU for either: a) confirmed COVID-19 between 1st January to 1st July 2020 or b) without confirmed COVID-19 between 1st July 2016 and 1st July 2020-\n\nExclusion Criteria:\n\n* Patients who died in hospital after treatment on an ICU",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "16 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mortality Rate",
+        "description": "Mortality after discharge from hospital",
+        "timeFrame": "One year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Rate of emergency hospital admission",
+        "description": "Emergency hospital admission",
+        "timeFrame": "one year"
+      },
+      {
+        "measure": "Rate of emergency hospital admission for respiratory infection",
+        "description": "Emergency hospital admission for respiratory infection",
+        "timeFrame": "one year"
+      },
+      {
+        "measure": "Rate of emergency hospital admission for a major adverse cardiac event",
+        "description": "Emergency hospital admission for a major adverse cardiac event (myocardial infarction, stroke, heart failure)",
+        "timeFrame": "one year"
+      },
+      {
+        "measure": "Rate of emergency hospital admission for a venous thrombotic event",
+        "description": "Emergency hospital admission for a venous thrombotic event (deep vein thrombosis or pulmonary embolism)",
+        "timeFrame": "one year"
+      },
+      {
+        "measure": "Rate of development of end stage renal failure",
+        "description": "Development of end stage renal failure treated by renal replacement therapy",
+        "timeFrame": "one year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:38.108Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

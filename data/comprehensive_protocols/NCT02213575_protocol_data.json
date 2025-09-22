@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT02213575",
+  "briefTitle": "Study 3: Minocycline Decreases Microglia Activation",
+  "officialTitle": "Study 3: Effect of Minocycline Treatment on Drug-Resistant Hypertensive Patients",
+  "protocolDocument": {
+    "nctId": "NCT02213575",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-28",
+    "uploadDate": "2025-06-13T12:04",
+    "size": 366325,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02213575/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-03-05",
+    "completionDate": "2018-11-01",
+    "primaryCompletionDate": "2018-11-01",
+    "firstSubmitDate": "2014-08-07",
+    "firstPostDate": "2014-08-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria for Minocycline Subjects:\n\n* Subjects participating in Study 1 will be eligible to participate.\n* (For Study 3 Participants only) Willing to travel to Montreal, Canada for specialized imaging of the participant's brain using magnetic resonance imaging (MRI), positron emission tomography (PET) scanning, Autonomic Nervous System Testing and blood drawing- if participant qualifies\n\nExclusion Criteria for Minocycline Subjects:\n\n-Female participants with positive pregnancy test.\n\nInclusion Criteria for Controls:\n\n* No diagnosis of neurogenic (treatment-resistant) hypertension.\n* Not treated with minocycline.\n* Willing to travel to Montreal, Canada for brain imaging and testing.\n* Able to provide informed consent.\n\nExclusion Criteria for Controls:\n\n-Female participants with positive pregnancy test.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "PET Changes in the Paraventricular Nucleus From Baseline to 26 Weeks.",
+        "description": "This outcome represents the change in PET signal intensity in the bilateral paraventricular nucleus before and after minocycline treatment. PET imaging was performed using the radiotracer \\[¹¹C\\]PBR28, which binds to the Translocator Protein (TSPO), a marker of activated microglia and neuroinflammation. To ensure accurate anatomical localization, each participant's PET scan was co-registered with a high-resolution T1-weighted MRI. Regions of interest (ROIs) were manually drawn on the MRI and applied to the PET images to extract PET signal from the same brain structures. The signal was quantified as non-displaceable binding potential (BP\\_ND). The change in signal is calculated as the average change in BP\\_ND at baseline minus the average change in BP\\_ND after treatment. A positive value indicates that the PET signal decreased following treatment, reflecting a reduction in microglial activation and suggesting a favorable anti-inflammatory response to minocycline.",
+        "timeFrame": "Change in Baseline to 26 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:15.158Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

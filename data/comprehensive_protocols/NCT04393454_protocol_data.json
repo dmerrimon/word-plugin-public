@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT04393454",
+  "briefTitle": "Study to Evaluate the Efficacy and Safety of Sirolimus in Subjects With Metastatic, Mismatch Repair Deficient Solid Tumors After Immunotherapy",
+  "officialTitle": "Phase II Study to Evaluate the Efficacy and Safety of Sirolimus in Subjects With Metastatic, Mismatch Repair Deficient Solid Tumors After Immunotherapy",
+  "protocolDocument": {
+    "nctId": "NCT04393454",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-02-03",
+    "uploadDate": "2024-06-24T09:29",
+    "size": 1168141,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04393454/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 6,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-11-16",
+    "completionDate": "2023-05-16",
+    "primaryCompletionDate": "2023-05-16",
+    "firstSubmitDate": "2020-05-13",
+    "firstPostDate": "2020-05-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Metastatic solid cancer tumor after immunotherapy (either due to progression of disease or inability to tolerate treatment)\n* dMMR by immunohistochemistry (IHC) defined as the loss of expression in any of the four major MMR proteins (MLH1, MSH2, MSH6 and PMS2) or by next- generation sequencing (NGS)\n* Age older than 18 at the time of informed consent\n* Eastern Cooperative Oncology Group performance status of 0-2\n* ≥1 measurable lesion based on RECIST, version 1.1 (16)\n* Absolute neutrophil count (ANC) ≥1,500 mm3\n* Platelet count ≥75,000 mm3\n* Hemoglobin ≥ 9 g/dl\n* Aspartate aminotransferase (AST) ≤3.0 times the upper normal limit (UNL)\n* Alanine aminotransferase (ALT) ≤3.0 times the upper normal limit (UNL) Bilirubin ≤1.5 times the UNL\n* Serum creatinine ≤1.5 times the UNL\n\nExclusion Criteria:\n\n* Received immunotherapy in the prior 21 days.\n* Have not recovered from toxicities of prior treatments to at least grade 1.\n* Symptomatic central nervous system (CNS) metastases\n* Pregnancy or Breast-feeding.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Objective Response Rate (ORR)",
+        "description": "To evaluate the efficacy of sirolimus in patients with metastatic mismatch repair deficient (dMMR) solid cancer after immunotherapy (either due to disease progression or to inability to tolerate treatment), ORR will be determined. For this study ORR will be defined as the percentage of patients who achieve either a complete response (CR = disappearance of all target tumors); or a partial response (PR = ≥30% decrease in the sum of the longest diameters of target tumors) based on Response Evaluation Criteria In Solid Tumors version 1.1 (RECIST v1.1) following review of imaging (CT-CAP or PET-CT) data.",
+        "timeFrame": "Up to approximately 24 weeks after achieving therapeutic sirolimus levels, up to 7 months total"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Progression Free Survival (PFS)",
+        "description": "PFS, the duration of time from treatment initiation to progression of known metastases or new metastatic site, or death from any cause after a timeframe of 24 weeks, will be determined following treatment with sirolimus in patients with metastatic mismatch repair deficient (dMMR) solid cancer after immunotherapy (either due to disease progression or to inability to tolerate treatment). Group median number of months will be reported.",
+        "timeFrame": "Approximately 24 weeks after sirolimus initiation, up to approximately 7 months total"
+      },
+      {
+        "measure": "Response Duration (RD)",
+        "description": "RD, defined as the duration of time from documentation of tumor response until the time of disease progression will be determined following treatment with sirolimus in patients with metastatic mismatch repair deficient (dMMR) solid cancer after immunotherapy (either due to disease progression or to inability to tolerate treatment). Group median number of months will be reported.",
+        "timeFrame": "Up to ~24 weeks from the time of tumor response, up to 7 months total"
+      },
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "Overall Survival, the duration of time from the start of treatment initiation for patients diagnosed with metastatic mismatch repair deficient (dMMR) solid cancer after immunotherapy (either due to disease progression or inability to tolerate treatment) to death from any cause, will be determined. Group median number of months will be reported.",
+        "timeFrame": "Approximately 24 weeks after sirolimus initiation, up to approximately 7 months total"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:46.760Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

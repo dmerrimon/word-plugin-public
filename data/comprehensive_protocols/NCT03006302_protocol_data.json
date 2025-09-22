@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT03006302",
+  "briefTitle": "Epacadostat, Pembrolizumab, and CRS-207, With or Without CY/GVAX Pancreas in Patients With Metastatic Pancreas Cancer",
+  "officialTitle": "Phase 2 Study of Epacadostat, Pembrolizumab, and CRS-207, With or Without Cyclophosphamide and GVAX Pancreas Vaccine in Patients With Metastatic Pancreas Cancer",
+  "protocolDocument": {
+    "nctId": "NCT03006302",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-04-20",
+    "uploadDate": "2024-05-20T13:54",
+    "size": 1357553,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03006302/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 41,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-01-31",
+    "completionDate": "2024-08-05",
+    "primaryCompletionDate": "2023-08-22",
+    "firstSubmitDate": "2016-12-28",
+    "firstPostDate": "2016-12-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria (abbreviated):\n\n* Documented adenocarcinoma of the pancreas\n* Have disease progression after prior chemotherapy for metastatic pancreas cancer (or adjuvant or neoadjuvant if progression occurred within 6 months of completing this regimen)\n* Presence of at least one measurable lesion\n* Patient acceptance to have a tumor biopsy of an accessible lesion at 2 time points (baseline and on study)\n* ECOG performance status of 0 or 1\n* Life expectancy of greater than 3 months\n* Adequate organ and marrow function defined by study-specified laboratory tests\n\nExclusion Criteria (abbreviated):\n\n* Brain metastases\n* Clinical or radiographic ascites (some trace amount may be allowed)\n* Rapidly progressing disease\n* Live vaccine within 30 days of study treatment (flu vaccine allowed)\n* Surgery within 28 days of study treatment (some exceptions for minor procedures)\n* Use of an investigational agent or device within 28 days of study treatment.\n* Chemotherapy, radiation, or biological cancer therapy within 14 days of study treatment.\n* Prior treatment with anti-CTLA-4, anti-PD-1, anti-PD-L1, or anti PD-L2, or with IDO inhibitor.\n* Use of growth factors within 14 days of study treatment\n* Use of any systemic steroids within 14 days of study treatment or other immunosuppressive agents within 7 days of study treatment.\n* Use of more than 2 g/day of acetaminophen\n* Use of any UGT1A9 inhibitor\n* Use of warfarin\n* Use of MAOIs or drugs with significant MAOI activity within the 21 days of screening\n* History of Seratonin Syndome\n* Known allergy to both penicillin and sulfa\n* Known or suspected hypersensitivity to any monoclonal antibody or any study drug component\n* Have artificial joints or implants that cannot be easily removed or a history of infection associated with an implant\n* Significant or malignant pleural effusion\n* New pulmonary embolism, extremity deep venous thromboembolism, or portal vein thrombosis within 2 months of study enrollment\n* History of autoimmune disease (exceptions for Graves or Hashimoto's disease, vitiligo, and type I diabetes mellitus)\n* Gastrointestinal condition that may affect drug absorption\n* Significant heart disease or heart disease requiring antibiotic for prevention of endocarditis\n* History of abnormal electrocardiogram (ECG) that is deemed meaningful by the investigator\n* History of (non-infectious) pneumonitis that required steroids, evidence of interstitial lung disease or active, non-infectious pneumonitis\n* Pulse oximetry of \\< 92% on room air or the need for supplemental home oxygen\n* Infection with HIV, hepatitis B or hepatitis C\n* Other conditions, including alcohol or drug dependence, intercurrent illness, or lack of sufficient peripheral venous access that would affect the patient's ability to comply with study visits and procedures\n* Pregnant or breastfeeding women\n* Unwillingness or inability to follow the study schedule for any reason",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Maximum Tolerated Dose (MTD) of Epacadostat",
+        "description": "Dose escalation (part I of the trial only) to determine the maximum tolerated dose (MTD) in mg BID. Epacadostat (100, 300, or 600 mg) was taken by mouth twice a day, every day.",
+        "timeFrame": "9 weeks"
+      },
+      {
+        "measure": "6 Month Survival",
+        "description": "Number of subjects who are alive 6 months or longer after the date of first treatment.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Experiencing Drug-Related Adverse Events (AEs) Requiring Treatment Discontinuation",
+        "timeFrame": "15 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:46.760Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

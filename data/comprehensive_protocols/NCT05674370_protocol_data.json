@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT05674370",
+  "briefTitle": "A Study of the GRIP Influenza and SARS-CoV-2 POC Assays",
+  "officialTitle": "Clinical Evaluation of the GRIP Influenza and SARS-CoV-2 Point-of-care Assays Using Fresh Patient Nasal Swab Samples",
+  "protocolDocument": {
+    "nctId": "NCT05674370",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-11-09",
+    "uploadDate": "2024-02-09T13:27",
+    "size": 219116,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05674370/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 45,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-02-01",
+    "completionDate": "2023-04-30",
+    "primaryCompletionDate": "2023-04-30",
+    "firstSubmitDate": "2022-12-21",
+    "firstPostDate": "2023-01-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients being tested for COVID 19 or Influenza\n\nExclusion Criteria:\n\n* Patients \\< 18 years of age",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Positive Percent Agreement",
+        "description": "Percent of nasal swabs to report positive results for respiratory virus for both the GRIP device and NAAT routine clinical testing",
+        "timeFrame": "One hour"
+      },
+      {
+        "measure": "Negative Percent Agreement",
+        "description": "Percent of nasal swabs to report negative results for respiratory virus for both the GRIP device and NAAT routine clinical testing",
+        "timeFrame": "One hour"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:37.165Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

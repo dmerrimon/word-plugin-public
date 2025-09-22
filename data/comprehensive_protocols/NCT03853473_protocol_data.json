@@ -1,0 +1,139 @@
+{
+  "nctId": "NCT03853473",
+  "briefTitle": "Prehabilitation of Frail Surgical Cancer Patients Using Remote Ischemic Preconditioning",
+  "officialTitle": "Prehabilitation of Frail Surgical Cancer Patients Using Remote Ischemic Preconditioning",
+  "protocolDocument": {
+    "nctId": "NCT03853473",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2019-12-06",
+    "uploadDate": "2024-05-22T15:20",
+    "size": 318642,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03853473/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 17,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-02-22",
+    "completionDate": "2023-03-01",
+    "primaryCompletionDate": "2023-02-01",
+    "firstSubmitDate": "2019-02-22",
+    "firstPostDate": "2019-02-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Be between the ages of 55-85\n* Have a positive diagnosis of colon cancer or suspected colon cancer based on pathology report\n* Be scheduled for curative resection of non-metastatic colon cancer\n* Have a 6-Minute Walk Test distance ≤80% of predicted value based on age and sex.\n\nExclusion Criteria:\n\n* Condition which prevents walking\n* Any condition in which compression of the arm or transient ischemia is contraindicated (e.g. wounds in the arm)\n* Neurodegenerative disorder\n* Unstable angina in previous month\n* Myocardial infarction during previous month.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "55 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "6 Minute Walk Test Distance (Pre Surgery)",
+        "description": "The investigators will compare the distance study participants can walk in 6 minutes in the pre-surgical period as a measure of frailty.",
+        "timeFrame": "Pre-Surgery"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "10 Meter Walk Test (Pre Surgery)",
+        "description": "The investigators will compare the speed study participants walk over 10 meters in the pre-surgical period as a secondary measure of frailty.",
+        "timeFrame": "Pre-Surgery"
+      },
+      {
+        "measure": "Timed Up and Go (Pre Surgery)",
+        "description": "The investigators will compare the speed study participants stand from a chair, walk three meters, turn around, walk back to the chair, and sit (timed up and go test) in the pre-surgical period as a secondary measure of frailty.",
+        "timeFrame": "Years 1-3"
+      },
+      {
+        "measure": "Hand Grip Strength (Pre Surgery)",
+        "description": "The investigators will compare handgrip strength in the presurgical period as a secondary measure of frailty.",
+        "timeFrame": "Years 1-3"
+      },
+      {
+        "measure": "6 Minute Walk Test Distance (Post Surgery)",
+        "description": "The investigators will compare the distance study participants walk in 6-minutes 4-weeks post-surgery as a secondary outcome of surgical recovery.",
+        "timeFrame": "Years 1-3"
+      },
+      {
+        "measure": "10 Meter Walk Test (Post Surgery)",
+        "description": "The investigators will compare the speed study participants walk 10 meters 4-weeks post-surgery as a secondary outcome of surgical recovery.",
+        "timeFrame": "Years 1-3"
+      },
+      {
+        "measure": "Timed Up and Go (Post Surgery)",
+        "description": "The investigators will compare the speed study participants stand from a chair, walk three meters, turn around, walk back to the chair, and sit (timed up and go test) 4-weeks post surgery as a secondary measure of surgical recovery.",
+        "timeFrame": "Years 1-3"
+      },
+      {
+        "measure": "Hand Grip Strength (Post Surgery)",
+        "description": "The investigators will compare handgrip strength 4-weeks post surgery as a secondary measure of surgical recovery.",
+        "timeFrame": "Years 1-3"
+      },
+      {
+        "measure": "Intraoperative Blood Pressure Variability",
+        "description": "The investigators will measure the variability of blood pressure during the intraoperative period using the anesthetic record.",
+        "timeFrame": "Years 1-3"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number of Hours of Rehabilitation",
+        "description": "The investigators will document the number of hours of physical therapy each study participant participates in following surgery.",
+        "timeFrame": "Years 1-3"
+      },
+      {
+        "measure": "All Cause Mortality",
+        "description": "The investigators will document any deaths that occur during hospitalization following surgery.",
+        "timeFrame": "Years 1-3"
+      },
+      {
+        "measure": "Length of Hospital Stay",
+        "description": "The investigators will document how long participants in both study groups (RIPC or standard of care) stay in the hospital following surgery.",
+        "timeFrame": "Years 1-3"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 3,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 85,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:59.501Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

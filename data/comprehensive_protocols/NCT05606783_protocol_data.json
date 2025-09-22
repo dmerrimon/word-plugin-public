@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT05606783",
+  "briefTitle": "Using Bluetooth Home Blood Pressure Monitors With Pharmacist Interventions",
+  "officialTitle": "Using Bluetooth Home Blood Pressure Monitors With Pharmacist Interventions to Manage Uncontrolled Hypertension in the Community Setting - A Pilot Study",
+  "protocolDocument": {
+    "nctId": "NCT05606783",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-12-06",
+    "uploadDate": "2022-11-01T08:27",
+    "size": 377759,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05606783/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-23",
+    "completionDate": "2019-06-30",
+    "primaryCompletionDate": "2019-04-30",
+    "firstSubmitDate": "2019-03-26",
+    "firstPostDate": "2022-11-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* must be at least 18 years old\n* have a smartphone compatible with the mobile intervention (iPhone)\n* have been previously diagnosed with hypertension\n* have uncontrolled hypertension (SBP \\> 130 mmHg and/or DBP \\> 80 mmHg)\n* be under the care of a primary care physician in the Family Medicine Department of the USF Morsani Center for Advanced Care\n* have had at least one prescription filled at Pharmacy Plus within the last six months\n* speaks English fluently\n\nExclusion Criteria:\n\n* already under the care of a clinical pharmacist in the Family Medicine department\n* pregnant\n* have a serious existing medical condition(s) that may affect their ability to self-monitor their blood pressure (for example, stroke, dementia)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Comfort",
+        "description": "Patient comfort in using home telemonitoring for blood pressure combined with pharmacist counseling and monitoring will be measured using a survey instrument with a Likert scale (4-point scale). (Most of the time; Some of the time; Seldom; Never) (Strongly agree; Agree; Disagree; Strongly disagree) (Nothing; Very little; Some; Knowledgeable)",
+        "timeFrame": "8 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Determine if pharmacists' interventions improved BP",
+        "description": "BP readings were reported and evaluated to discover if these were improved with pharmacists' interventions.",
+        "timeFrame": "8 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:13.737Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

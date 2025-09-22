@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT04726709",
+  "briefTitle": "Poised for Parkinson's - an Intervention to Increase Embodied Agency in People With Parkinson's Disease and Their Carers",
+  "officialTitle": "Alexander Technique Classes - Multisite",
+  "protocolDocument": {
+    "nctId": "NCT04726709",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-13",
+    "uploadDate": "2023-10-05T14:23",
+    "size": 294344,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04726709/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 32,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-06-05",
+    "completionDate": "2022-02-23",
+    "primaryCompletionDate": "2021-08-11",
+    "firstSubmitDate": "2021-01-12",
+    "firstPostDate": "2021-01-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* dyad including care partner and person with Parkinson's disease\n* Hoehn \\& Yahr Stage 2 (estimated)\n* vision and hearing (corrected to) normal\n* able to use computer, Internet, and Zoom\n* ambulatory without assistive devices\n* reside in Idaho\n\nExclusion Criteria:\n\n* dementia (screen with MOCA)\n* severe musculoskeletal pain (screen in interview)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Motor Function - Objective",
+        "description": "Physical Performance Test (7 items). Score can vary from 0-28. Higher score is better.",
+        "timeFrame": "Assessed the week before the intervention (week 1) and the week after the intervention (week 11). Difference is reported. Positive number indicates improvement."
+      },
+      {
+        "measure": "Balance - Objective",
+        "description": "Due to COVID, we only assessed the subset of brief Bestest that can be scored online: standing on each foot, gait stability, and forward reach. Possible scores: 0-12. Higher score is better. Positive number indicates improvement.",
+        "timeFrame": "Assessed the week before the intervention (week 1) and the week after the intervention (week 11). Difference is reported. Positive number indicates improvement."
+      },
+      {
+        "measure": "Balance: Self-report",
+        "description": "Activities Balance Confidence scale. Possible score from 0-100. Higher score is better.",
+        "timeFrame": "Assessed the week before the intervention (week 1) and the week after the intervention (week 11). Difference is reported. Positive number indicates improvement."
+      },
+      {
+        "measure": "Posture - Objective",
+        "description": "Assessed by photo in sagittal plane. Positive numbers indicate a more upright posture.",
+        "timeFrame": "Assessed the week before the intervention (week 1) and the week after the intervention (week 11). Difference is reported. Positive number indicates improvement."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Feasibility - Attendance",
+        "description": "Course attendance (out of 16)",
+        "timeFrame": "Attendance will be tracked at every class session, weeks 2-10."
+      },
+      {
+        "measure": "Feasibility - Retention",
+        "description": "Study retention: number of participants who completed the study",
+        "timeFrame": "assessed after the intervention (week 11)"
+      },
+      {
+        "measure": "Symptom Management",
+        "description": "Survey administered by phone, with 29 Likert scale questions on a scale of 0-5 asking how well the person with Parkinson's disease is able to manage typical Parkinson's symptoms, including bradykinesia, tremor, stooped posture, freezing of gait, anxiety, fatigue, and so on. Higher scores indicate better symptom management. The scores were summed, with a possible range of 0-145.",
+        "timeFrame": "Assessed the week before the intervention (week 1) and the week after the intervention (week 11). Difference is reported. Positive number indicates improvement."
+      },
+      {
+        "measure": "Care-partner Self-management Skill",
+        "description": "Anonymous course evaluation survey filled out and mailed in. Question reported: I feel I am better prepared for the present and future daily challenges of being my partner's care partner. Rate from 1-10 with 10 being high.",
+        "timeFrame": "Assessed after the intervention (week 11)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:43.793Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

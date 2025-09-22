@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT02695329",
+  "briefTitle": "Vanguard TKA With KneeAlign 2 and Without KneeAlign 2",
+  "officialTitle": "Randomized Controlled Study Comparing Vanguard With KneeAlign2 Navigational System Versus Vanguard Conventional",
+  "protocolDocument": {
+    "nctId": "NCT02695329",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-01-20",
+    "uploadDate": "2019-09-05T19:55",
+    "size": 601640,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02695329/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-05-24",
+    "completionDate": "2018-10-26",
+    "primaryCompletionDate": "2018-10-03",
+    "firstSubmitDate": "2016-02-19",
+    "firstPostDate": "2016-03-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Knee (either unilateral or bilateral) Osteoarthritis (varus deformity only)\n* Subjects willing to return for follow-up evaluations\n\nExclusion Criteria:\n\n* Knee degenerative diseases other than Knee Osteoarthritis (such as necrosis / Rheumatoid Arthritis)\n* Severe OA deformation (FTA: \\>185 degrees or \\<175 degrees)\n* Active Infection (or within 6 weeks after infection)\n* Sepsis\n* Osteomyelitis\n* Any type of implant is inserted in the affected side of lower extremity\n* Hip disease on the affected side\n* Uncooperative patient or patient with neurologic disorders who are incapable of following directions\n* diagnosed Osteoporosis or Osteomalacia\n* Metabolic disorders which may impair bone formation\n* Distant foci of infections which may spread to the implant site\n* Rapid joint destruction, marked bone loss or bone resorption apparent on roentgenogram\n* Vascular insufficiency, muscular atrophy or neuromuscular disease.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Subjects That Have Alignment Within 2 Degrees From Neutral on Tibia",
+        "description": "Proportion of subjects that have tibial alignment within 2 degrees from neutral and compare the accuracy of tibial component alignment between two groups.",
+        "timeFrame": "Postoperative 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Tibial Posterior Slope Alignment Within Predetermined Threshold",
+        "description": "Deviation of tibial posterior slope angle from preoperative planned angle (within 2 degrees)",
+        "timeFrame": "Postoperative 6 months"
+      },
+      {
+        "measure": "Number of Participants With Femoral Varus/Valgus Angle Within Predetermined Threshold",
+        "description": "Deviation of femoral valus/valgus angle from preoperative planned angle (within 2 degrees)",
+        "timeFrame": "Postoperative 6 months"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events and/or Adverse Device Effects",
+        "description": "Number of participants, who experience adverse events and/or adverse device effects",
+        "timeFrame": "Intra-operative and Post-operative 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:58.882Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

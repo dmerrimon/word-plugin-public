@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03668223",
+  "briefTitle": "The PRISM Intervention: a Multi-site Randomized Controlled Trial for Adolescents and Young Adults With Advanced Cancer",
+  "officialTitle": "The Promoting Resilience in Stress Management (PRISM) Intervention: a Multi-site Randomized Controlled Trial for Adolescents and Young Adults With Advanced Cancer",
+  "protocolDocument": {
+    "nctId": "NCT03668223",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-04-17",
+    "uploadDate": "2024-09-11T16:47",
+    "size": 766256,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03668223/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 195,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-04-15",
+    "completionDate": "2025-10-31",
+    "primaryCompletionDate": "2024-01-23",
+    "firstSubmitDate": "2018-08-15",
+    "firstPostDate": "2018-09-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 12-24 years\n* Diagnosed with advanced cancer: progressive, recurrent, refractory disease or any diagnosis with estimated overall survival \\<50% at least 2 weeks prior to enrollment\n* Able to speak English\n* Able to read English or Spanish\n* Cognitively able to participate in interviews\n\nExclusion Criteria:\n\n* Patient Refusal\n* Parent Refusal (if patient \\<18 years-old)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "maximumAge": "24 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pediatric Quality of Life Cancer Module",
+        "description": "Pediatric Quality of Life (PedsQL) Cancer Module -This scale was designed to assess pediatric cancer-specific health related quality of life. This is a 27 item scale, with each item rated on a 5-point Likert scale where 0=never and 4=almost always. Higher scores represent better health-related quality of life. Scale range is 0-100.",
+        "timeFrame": "3-months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Hospital Anxiety and Depression Scale (HADS) Total Score",
+        "description": "The Hospital Anxiety and Depression Scale total score is a 14 items scale on a 4-point Likert scale (range 0-3). It is designed to measure anxiety and depression. The total score is the sum of all 14 items, ranging from 0-42. Higher scores indicate higher total anxiety/depression.",
+        "timeFrame": "3-months"
+      },
+      {
+        "measure": "Snyder Hope Scale",
+        "description": "Hope: The Snyder \"Hope\" Scale measures \"the overall perception that one's goals can be met.\" The instrument scored on an 8-point Likert scale (score range 0-64). Higher scores imply greater levels of hopeful thought patterns.",
+        "timeFrame": "3-months"
+      },
+      {
+        "measure": "Connor Davidson Resilience Scale",
+        "description": "Resilience: The Connor-Davidson Resilience Scale (CD-RISC) measures inherent resiliency. This is a 10-item scale ranging from 0-40 where higher scores reflect greater perceived resilience.",
+        "timeFrame": "3-months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:17.944Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,158 @@
+{
+  "nctId": "NCT03635983",
+  "briefTitle": "A Study of NKTR-214 Combined With Nivolumab vs Nivolumab Alone in Participants With Previously Untreated Inoperable or Metastatic Melanoma",
+  "officialTitle": "A Phase 3, Randomized, Open-label Study of NKTR-214 Combined With Nivolumab Versus Nivolumab in Participants With Previously Untreated Unresectable or Metastatic Melanoma",
+  "protocolDocument": {
+    "nctId": "NCT03635983",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-05-19",
+    "uploadDate": "2022-11-17T14:48",
+    "size": 3012054,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03635983/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 783,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-09-21",
+    "completionDate": "2024-03-19",
+    "primaryCompletionDate": "2021-11-19",
+    "firstSubmitDate": "2018-08-16",
+    "firstPostDate": "2018-08-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Eastern Cooperative Oncology Group (ECOG) performance status of ≤1 (adults 18 years or older)/Lansky Performance Score ≥ 80% (minors ages 12-17 only)\n* Histologically confirmed stage III (unresectable) or stage IV melanoma\n* Treatment-naive participants (ie, no prior systemic anticancer therapy for unresectable or metastatic melanoma) with the exception of prior adjuvant and/or neoadjuvant treatment for melanoma with approved agents\n\nExclusion Criteria:\n\n* Active brain metastases or leptomeningeal metastases\n* Uveal melanoma\n* Participants with an active, known or suspected autoimmune disease\n\nOther protocol defined inclusion/exclusion criteria apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Objective Response Rate (ORR) Per Blinded Independent Central Review (BICR)",
+        "description": "ORR is defined as the percentage of participants with a confirmed best overall response of complete response (CR) or partial response (PR) using RECIST v 1.1 per blinded independent central review (BICR) assessment. CR=Disappearance of all target lesions. Any pathological lymph nodes must have reduction in short axis to \\< 10 mm. PR=At least a 30% decrease in the sum of diameters of target lesions.",
+        "timeFrame": "From date of randomization to disease progression (Up to 37 months)"
+      },
+      {
+        "measure": "Progression-free Survival (PFS) Per Blinded Independent Central Review (BICR)",
+        "description": "PFS is defined as the time between the date of randomization and the first date of documented tumor progression using RECIST v 1.1 per blinded independent central review (BICR), or death due to any cause, whichever comes first. Progressive disease (PD)=At least a 20% increase in the sum of diameters of target lesions. The sum must also demonstrate an absolute increase of at least 5 mm.",
+        "timeFrame": "From date of randomization to disease progression, or death, whichever comes first (Up to 37 months)"
+      },
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "OS is defined as the time between the date of randomization and the date of death due to any cause. Participants who do not have a date of death will be censored on the last date for which a participant was known to be alive.",
+        "timeFrame": "From date of randomization to date of death (Up to 37 months)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Clinical Benefit Rate (CBR) Per Blinded Independent Central Review (BICR)",
+        "description": "CBR, or equivalently the disease control rate (DCR) is defined as the percentage of participants with a best overall response of complete response (CR), partial response (PR), or stable disease (SD) as assessed by blinded independent central review (BICR) using RECIST v 1.1. CR=Disappearance of all target lesions. Any pathological lymph nodes must have reduction in short axis to \\< 10 mm. PR=At least a 30% decrease in the sum of diameters of target lesions.SD=Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for progressive disease.",
+        "timeFrame": "From date of randomization to disease progression (Up to 37 months)"
+      },
+      {
+        "measure": "Duration of Response (DoR) Per Blinded Independent Central Review (BICR)",
+        "description": "DOR is defined for participants who have a confirmed complete response (CR) or partial results (PR) as the date from first documented CR or PR using RECIST v 1.1 to the date of the documentation of disease progression per blinded independent central review (BICR) assessment or death due to any cause, whichever is earlier. CR=Disappearance of all target lesions. Any pathological lymph nodes must have reduction in short axis to \\< 10 mm. PR=At least a 30% decrease in the sum of diameters of target lesions.",
+        "timeFrame": "From date of randomization to disease progression, or death, whichever is earlier (Up to 37 months)"
+      },
+      {
+        "measure": "Time to Objective Response (TTR) Per Blinded Independent Central Review (BICR)",
+        "description": "Time to response (TTR) is defined for participants who had a confirmed complete response (CR) or partial response (PR) as the time from the date of randomization to date of first documented CR or PR per blinded independent central review (BICR) assessment using RECIST v 1.1. CR=Disappearance of all target lesions. Any pathological lymph nodes must have reduction in short axis to \\< 10 mm. PR=At least a 30% decrease in the sum of diameters of target lesions.",
+        "timeFrame": "From date of randomization to disease progression (Up to 37 months)"
+      },
+      {
+        "measure": "Objective Response Rate (ORR) Per Investigator",
+        "description": "ORR is defined as the percentage of participants with a confirmed best overall response of complete response (CR) or partial response (PR) using RECIST v 1.1 per investigator assessment. CR=Disappearance of all target lesions. Any pathological lymph nodes must have reduction in short axis to \\< 10 mm. PR=At least a 30% decrease in the sum of diameters of target lesions.",
+        "timeFrame": "From date of randomization to disease progression (Up to 37 months)"
+      },
+      {
+        "measure": "Progression-free Survival (PFS) Per Investigator",
+        "description": "PFS is defined as the time between the date of randomization and the first date of documented tumor progression using RECIST v 1.1 per investigator, or death due to any cause, whichever comes first. Progressive disease (PD)=At least a 20% increase in the sum of diameters of target lesions. The sum must also demonstrate an absolute increase of at least 5 mm.",
+        "timeFrame": "From date of randomization to disease progression, or death, whichever comes first (Up to 37 months)"
+      },
+      {
+        "measure": "Clinical Benefit Rate (CBR) Per Investigator",
+        "description": "CBR, or equivalently the disease control rate (DCR) is defined as the percentage of participants with a best overall response of complete response (CR), partial response (PR), or stable disease (SD) as assessed by investigator using RECIST v 1.1. CR=Disappearance of all target lesions. Any pathological lymph nodes must have reduction in short axis to \\< 10 mm. PR=At least a 30% decrease in the sum of diameters of target lesions. SD=Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD.",
+        "timeFrame": "From date of randomization to disease progression (Up to 37 months)"
+      },
+      {
+        "measure": "Duration of Response (DoR) Per Investigator",
+        "description": "DOR is defined for participants who have a confirmed complete response (CR) or partial results (PR) as the date from first documented CR or PR using RECIST v 1.1 to the date of the documentation of disease progression per investigator assessment or death due to any cause, whichever is earlier. CR=Disappearance of all target lesions. Any pathological lymph nodes must have reduction in short axis to \\< 10 mm. PR=At least a 30% decrease in the sum of diameters of target lesions.",
+        "timeFrame": "From date of randomization to disease progression, or death, whichever is earlier (Up to 37 months)"
+      },
+      {
+        "measure": "Time to Objective Response (TTR) Per Investigator",
+        "description": "Time to response (TTR) is defined for participants who had a confirmed complete response (CR) or partial response (PR) as the time from the date of randomization to date of first documented CR or PR per investigator assessment using RECIST v 1.1. CR=Disappearance of all target lesions. Any pathological lymph nodes must have reduction in short axis to \\< 10 mm. PR=At least a 30% decrease in the sum of diameters of target lesions.",
+        "timeFrame": "From date of randomization to disease progression (Up to 37 months)"
+      },
+      {
+        "measure": "Objective Response Rate (ORR) Per Blinded Independent Central Review (BICR) by Baseline PD-L1 Status",
+        "description": "ORR by baseline PD-L1 tumor cells expression (PD-L1 negative: \\<1%) vs. (PD-L1 positive: \\>=1%). ORR is defined as the percentage of participants with a confirmed best overall response of complete response (CR) or partial response (PR) using RECIST v 1.1 per blinded independent central review (BICR) assessment. CR=Disappearance of all target lesions. Any pathological lymph nodes must have reduction in short axis to \\< 10 mm. PR=At least a 30% decrease in the sum of diameters of target lesions.",
+        "timeFrame": "From date of randomization to disease progression (Up to 37 months)"
+      },
+      {
+        "measure": "Progression-free Survival (PFS) Per Blinded Independent Central Review (BICR) by Baseline PD-L1 Status",
+        "description": "PFS by baseline PD-L1 tumor cells expression (PD-L1 negative: \\<1%) vs. (PD-L1 positive: \\>=1%). PFS is defined as the time between the date of randomization and the first date of documented tumor progression using RECIST v 1.1 per blinded independent central review (BICR), or death due to any cause, whichever comes first. Progressive disease (PD)=At least a 20% increase in the sum of diameters of target lesions. The sum must also demonstrate an absolute increase of at least 5 mm.",
+        "timeFrame": "From date of randomization to disease progression, or death, whichever comes first (Up to 37 months)"
+      },
+      {
+        "measure": "Overall Survival (OS) by Baseline PD-L1 Status",
+        "description": "OS by baseline PD-L1 tumor cells expression (PD-L1 negative: \\<1%) vs. (PD-L1 positive: \\>=1%). OS is defined as the time between the date of randomization and the date of death due to any cause. Participants who do not have a date of death will be censored on the last date for which a participant was known to be alive.",
+        "timeFrame": "From date of randomization to date of death (Up to 37 months)"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events (AEs)",
+        "description": "Number of participants with any grade adverse events (AEs) including treatment-related AEs, AEs leading to discontinuation of any drug, serious adverse events (SAEs), treatment-related SAEs, and deaths from first dose to 30 days post last dose. An AE is defined as any new untoward medical occurrence or worsening of a preexisting medical condition in a clinical investigation participant administered study treatment and that does not necessarily have a causal relationship with this treatment.",
+        "timeFrame": "From first dose to 30 days post last dose (Average of 11 months and a maximum up to 26 months)"
+      },
+      {
+        "measure": "Number of Participants With On-Treatment Laboratory Parameters That Worsened Relative to Baseline",
+        "description": "Number of participants with on-treatment laboratory parameters that worsened relative to baseline. Parameters include hematology, chemistry, liver function, and renal function using worst grade (grade 1-4 and grade 3-4) per national cancer institute (NCI) common terminology criteria for adverse events (CTCAE) v5 criteria.\n\nGrade 1=Mild event Grade 2=Moderate event Grade 3=Severe event Grade 4=Life threatening event",
+        "timeFrame": "From first dose to 100 days post last dose (Average of 13 months and a maximum up to 28 months)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 13,
+      "otherCount": 0,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:46.863Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

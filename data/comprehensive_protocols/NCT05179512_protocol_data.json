@@ -1,0 +1,74 @@
+{
+  "nctId": "NCT05179512",
+  "briefTitle": "Replication of the INSPIRE Trial in Healthcare Claims Data",
+  "officialTitle": "Replication of the INSPIRE Trial in Healthcare Claims Data",
+  "protocolDocument": {
+    "nctId": "NCT05179512",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-08-30",
+    "uploadDate": "2021-08-30T12:47",
+    "size": 918770,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05179512/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 98278,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-09-22",
+    "completionDate": "2021-08-30",
+    "primaryCompletionDate": "2021-08-30",
+    "firstSubmitDate": "2021-09-20",
+    "firstPostDate": "2022-01-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age between 40-80 years \\[0,0\\] days\n* Diagnosis of COPD \\[all available data, 0\\] days\n* Clinical history of at least 1 COPD exacerbation \\[all available data, -43\\] days\n\nExclusion Criteria:\n\n* COPD exacerbation \\[-42, 0\\] days\n* Asthma, eczema, atopic dermatitis, allergic rhinitis \\[-180, 0\\] days\n* Known respiratory disorder other than COPD e.g. pulmonary fibrosis or interstitial lung disease (ILD), sarcoidosis, lymphangioleiomyomatosis, primary/pulmonary tuberculosis, cystic fibrosis, pulmonary hypertension/other pulmonary heart disease, lung/pulmonary malignancies, alpha-1 antitrypsin deficiency, pneumoconioses and other lung diseases due to external agents \\[all available data, 0\\] days\n* Narrow angle glaucoma or prostatic hyperplasia or obstruction of the neck of the bladder \\[-180, 0\\] days\n* At least one 30-day supply prescription claims for oral alfuzosin, doxazosin, tamsulosin, silodosin, finasteride 5 mg, dutasteride \\[-180,0\\] days\n* Lung transplant or lung volume reduction surgery (LVRS) \\[all available data, 0\\] days\n* Daily long term oxygen therapy (LTOT) \\[all available data, 0\\] days\n* Beta-blockers (except eye drops) \\[-180, 0\\] days\n* Evidence of alcohol, drug or solvent abuse \\[-180, 0\\] days\n* Use of salmeterol, tiotropium and fluticasone containing inhaler use \\[-180, 0\\] days",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Healthcare utilization exacerbation rate per year",
+        "description": "Claims-based algorithm: healthcare utilization exacerbation rate per year",
+        "timeFrame": "Through study completion or censoring, up to 193 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:27.665Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03412604",
+  "briefTitle": "Effect of Modulating Gamma Oscillations Using tACS",
+  "officialTitle": "Effect of Modulating Gamma Oscillations by Transcranial Alternating Current Stimulation on Brain Structure and Function in Humans",
+  "protocolDocument": {
+    "nctId": "NCT03412604",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-12-10",
+    "uploadDate": "2020-05-05T17:02",
+    "size": 804901,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03412604/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-08-02",
+    "completionDate": "2019-09-15",
+    "primaryCompletionDate": "2019-05-07",
+    "firstSubmitDate": "2018-01-22",
+    "firstPostDate": "2018-01-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Clinical Diagnosis of mild to moderate AD\\*\n* Mini Mental State Examination (MMSE) \\> 18\n* Mild AD ≥ 21\n* Moderate AD 18-20\n* Demonstration or history of memory impairments.\n\n  \\* Confirmation of diagnosis will be made by the study MD based on a holistic consideration of the participant's cognitive evaluation and history.\n* Amyloid positive PET imaging\n* At least 45 years old\n* On a stable dose of medications for memory loss including cholinesterase inhibitors (e.g. donepezil, rivastigmine or memantine) as defined as 6 consecutive weeks of treatment at an unchanging dose\n* Minimum of completed 8th grade education\n* IQ\\> 85 as determined by the WTAR and no history of intellectual disability\n\nExclusion Criteria:\n\n* Current history of poorly controlled migraines including chronic medication for migraine prevention\n* Current or past history of any neurological disorder other than dementia, such as epilepsy, stroke, progressive neurologic disease (e.g. multiple sclerosis) or intracranial brain lesions; and history of previous neurosurgery or head trauma that resulted in residual neurologic impairment.\n* Past or current history of major depression, bipolar disorder or psychotic disorders, or any other major psychiatric condition.\n* Contraindication for undergoing MRI or receiving TMS or tACS,\n* \\>50 mSv of radiation exposure for research within the past year (PET imaging exclusion)\n* Presence of the Thr/Thr polymorphism in the TSPO gene (rs6971) due to low affinity binding for the PBR 28 (microlgia) PET scan\n* History of fainting spells of unknown or undetermined etiology that might constitute seizures.\n* History of seizures, diagnosis of epilepsy, history of abnormal (epileptiform) EEG or immediate (1st degree relative) family history of epilepsy; with the exception of a single seizure of benign etiology (e.g. febrile seizure) in the judgment of the investigator.\n* Chronic (particularly) uncontrolled medical conditions that may cause a medical emergency in case of a provoked seizure (cardiac malformation, cardiac dysrhythmia, asthma, etc.).\n* Metal implants (excluding dental fillings) or devices such as pacemaker, medication pump, nerve stimulator, TENS unit, ventriculo-peritoneal shunt, cochlear implant, unless cleared by the study MD.\n* Substance abuse or dependence within the past six months.\n* Medications will be reviewed by the responsible MD and a decision about inclusion will be made based on the following: The patient's past medical history, drug dose, history of recent medication changes or duration of treatment, and combination of CNS active drugs.\n* All female participants that are pre-menopausal will be required to have a pregnancy test; any participant who is pregnant or breastfeeding will not be enrolled in the study.\n* Subjects who, in the investigator's opinion, might not be suitable for the study\n* A hair style or head dress that prevents electrode contact with the scalp or would interfere with the stimulation (for example: thick braids, hair weave, afro, wig)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "45 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "PET Amyloid Burden",
+        "description": "Changes in the amyloid load observed via PET imaging will be evaluated by comparing PET data acquired before and after the 20 tACS sessions. The metric used is standardized uptake value ratio (SUVR), a measure of the amount of proteins in the brain identified at the PET exam. We will calculate the difference between pre and post tACS SUVR for the entire brain and report the average value (and standard deviation) for the entire group of patients. A negative value express a decrease in the amount of proteins in the brain post tACS intervention.",
+        "timeFrame": "baseline and up to 12 weeks"
+      },
+      {
+        "measure": "PET Tau Deposition",
+        "description": "Changes in the tau deposition observed via PET imaging will be evaluated by comparing PET data acquired before and after the 20 tACS sessions. The metric used is SUVR, a measure of the amount of proteins in the brain identified at the PET exam. We will calculate the difference between pre and post tACS SUVR (dSUVR) for the entire brain and report the average value (and standard deviation) for the entire group of patients. A negative value express a decrease in the amount of proteins in the brain post tACS intervention.",
+        "timeFrame": "up to 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "PET Microglia Activation",
+        "description": "Changes in the microglia activation observed via PET imaging will be evaluated by comparing PET data acquired before and after the 20 tACS sessions. The metric used is SUVR, a measure of the amount of proteins in the brain identified at the PET exam. We will calculate the difference between pre and post tACS SUVR (dSUVR) for the entire brain and report the average value (and standard deviation) for the entire group of patients. A negative value express a decrease in the amount of proteins in the brain post tACS intervention.",
+        "timeFrame": "up to 12 weeks"
+      },
+      {
+        "measure": "Changes in Brain Perfusion as Measured by Arterial Spin Labeling",
+        "description": "Patients underwent a comprehensive MRI exam before and after the tACS intervention, including measures of brain perfusion via Arterial Spin Labeling (ASL) sequences. The outcome measure represent the average change in perfusion (i.e. blood flow) recorded in regions targeted by tACS. Since Alzheimer's Disease is also characterized by a decrease of brain metabolism, an increased of blood flow after treatment would constitute a very promising sign of tACS efficacy in reducing Alzheimer's pathology in the brain.\n\nWe will report the change in blood flow (mean, standard deviation) after tACS treatment.",
+        "timeFrame": "6 weeks (pre-post tACS intervention)"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Alzheimer's Disease Assessment Scale -Cog Score",
+        "description": "Change in Adas-Cog score will be reported, to document a potential clinical benefit of tACS. The scale ranges from 0-70 with higher score indicating greater cognitive impairment.",
+        "timeFrame": "up to 12 weeks"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 1,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 36,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:41.173Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

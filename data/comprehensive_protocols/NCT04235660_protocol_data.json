@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT04235660",
+  "briefTitle": "Y90 Radiation Segmentectomy vs SBRT for HCC",
+  "officialTitle": "Yttrium-90 Radiation Segmentectomy Versus Stereotactic Body Radiation Therapy (SBRT) for the Treatment of Early Stage Hepatocellular Carcinoma (HCC): A Pilot Study",
+  "protocolDocument": {
+    "nctId": "NCT04235660",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-12-15",
+    "uploadDate": "2023-04-06T11:37",
+    "size": 872017,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04235660/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-07-22",
+    "completionDate": "2022-03-08",
+    "primaryCompletionDate": "2022-03-08",
+    "firstSubmitDate": "2020-01-15",
+    "firstPostDate": "2020-01-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Ability to provide written informed consent and HIPAA authorization\n* Stated willingness to comply with all study procedures and availability for the duration of the study\n* Male or female, aged ≥ 18 years at time of informed consent\n* Solitary HCC (≤3 cm) diagnosed by imaging (LI-RADS 4-5) or histology\n* Childs-Pugh score ≤ 7\n* ECOG performance status 0-1\n* Tumor location/characteristics eligible for either SBRT or Y90 therapy as deemed by local tumor board\n* Adequate organ function defined as:\n\n  1. serum bilirubin \\< 4.0 mg/dL ,\n  2. albumin \\> 2 g/dL\n\nExclusion Criteria:\n\n* Any prior locoregional therapy to the target tumor\n* Any prior radiation therapy to the liver\n* Pregnancy or lactation: Women of childbearing potential must have a negative pregnancy test within 14 days of protocol registration. Women are considered to have childbearing potential (regardless of sexual orientation, having undergone a tubal ligation, or remaining celibate by choice) unless they meet one of the following criteria:\n\n  i. Has undergone a hysterectomy or bilateral oophorectomy; or ii. Has been naturally amenorrheic for at least 24 consecutive months\n* Known severe allergic reaction (anaphylaxis) to iodinated contrast\n* Coagulopathy (platelets \\< 50 K/mm3 and/or INR \\> 2) not correctable by transfusion\n* Macrovascular invasion or extrahepatic HCC",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Feasibility of Recruitment (Recruitment Rate)",
+        "description": "Feasibility of recruitment will be measured by evaluating the proportion of patients enrolled versus those approached for the study after they have been determined to be a candidate.",
+        "timeFrame": "24 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Proportion of Patients With Any Toxicities",
+        "description": "the proportion of patients with any toxicities (≥ grade 4) using CTCAE between RS and SBRT for patients with small (≤3 cm) solitary hepatocellular carcinoma (HCC).",
+        "timeFrame": "16 months for the first subject and 4 months for the second"
+      },
+      {
+        "measure": "Mean Change in Hepatobiliary Function",
+        "description": "the mean change in hepatobiliary function, as measured 3 months after treatment using a functional HIDA scan, between RS and SBRT for patients with small (≤3 cm) solitary hepatocellular carcinoma (HCC).",
+        "timeFrame": "16 months for the first subject and 4 months for the second"
+      },
+      {
+        "measure": "Mean Change in Functional Assessment of Cancer Therapy- General (FACT-G) Score",
+        "description": "the mean change in patient-reported outcomes from baseline, at 1, 3 and 6 months, between RS and SBRT, for patients with small (≤3 cm) solitary hepatocellular carcinoma (HCC), using the Functional Assessment of Cancer Therapy- General (FACT-G). scale goes from 0-108 with a higher score being better.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Mean Change in Comprehensive Score for Financial Toxicity",
+        "description": "the mean change in patient-reported outcomes from baseline, at 1, 3 and 6 months, between RS and SBRT, for patients with small (≤3 cm) solitary hepatocellular carcinoma (HCC), using the Comprehensive Score for Financial Toxicity (COST). scale is from 0-44 with higher being bettter",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Disease-free Survival (DFS) Rates of RS and SBRT",
+        "description": "the disease-free survival (DFS) rates of RS and SBRT at 2 years using mRECIST on CT or MR for patients with small (≤3 cm) solitary hepatocellular carcinoma (HCC).",
+        "timeFrame": "16 months for the first subject and 4 months for the second"
+      },
+      {
+        "measure": "Time-to-secondary Treatment (TTST) Between RS and SBRT",
+        "description": "time-to-secondary treatment (TTST) between RS and SBRT for patients with small (≤3 cm) solitary hepatocellular carcinoma (HCC) up to 2 years after initial treatment.",
+        "timeFrame": "16 months for the first subject and 4 months for the second"
+      },
+      {
+        "measure": "Objective Response Rate",
+        "description": "the objective response rate (ORR) of radiation segmentectomy (RS) and stereotactic body radiation therapy (SBRT) as measured at 6 months using mRECIST (appendix IV) for patients with small (≤3 cm) solitary hepatocellular carcinoma (HCC) to better allow for an appropriately powered trial evaluating the efficacy of these treatments.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:54.793Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

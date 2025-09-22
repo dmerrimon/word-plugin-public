@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT06241703",
+  "briefTitle": "Effect of ICCAUT Strategy on Postoperative Urinary Dysfunction After Radical Rectal Cancer Surgery",
+  "officialTitle": "Effect of Intermittent Urethral Catheter Clamping Combined With Active Urination Training (ICCAUT) Strategy on Postoperative Urinary Dysfunction After Radical Rectal Cancer Surgery: a Single-Center Randomized Controlled Trial (ICCAUT-1)",
+  "protocolDocument": {
+    "nctId": "NCT06241703",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2024-02-21",
+    "uploadDate": "2025-05-10T11:01",
+    "size": 2997863,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06241703/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 400,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-03-20",
+    "completionDate": "2025-07-20",
+    "primaryCompletionDate": "2025-06-27",
+    "firstSubmitDate": "2024-01-17",
+    "firstPostDate": "2024-02-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patients with a confirmed preoperative diagnosis of rectal cancer.\n2. Patients with tumors located below the rectosigmoid junction (12 cm from the anal verge), as determined by preoperative computed tomography (CT) or rectal magnetic resonance imaging (MRI).\n3. Patients undergoing laparoscopic or robotic-assisted total mesorectal excision (TME) for rectal cancer.\n\nExclusion Criteria:\n\n1. History of abdominal surgery involving the rectum, sigmoid colon, left hemicolectomy, bladder resection or partial resection, prostate surgery, or hysterectomy.\n2. History of urethral injury, cranial surgery, spinal surgery, stroke with limb dysfunction, or Parkinson's disease.\n3. Inability to urinate through the urethra preoperatively due to various reasons (e.g., ureteral puncture or ureterostomy).\n4. Presence of urinary tract infection preoperatively.\n5. Previously diagnosed with bladder overactivity syndrome, urinary retention or voiding dysfunction, or diabetic bladder disease.\n6. Concomitant resection of other pelvic organs was performed during surgery, including the bladder, prostate, uterus, cervix, and vagina, except for simple adnexal resection.\n7. Lateral lymph node dissection for rectal cancer.\n8. Injury to the ureter, bladder, or urethra during the perioperative period.\n9. Preoperative renal dysfunction (serum creatinine level \\>133 μmol/L).\n10. Emergency surgery.\n11. Male patients with preoperative benign prostatic hyperplasia receiving medication treatment.\n12. Patients with a ureteral stent or ureteral stricture, or bilateral hydronephrosis.\n13. Conversion to open surgery.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Rate of urinary dysfunction",
+        "description": "Urinary dysfunction is defined as the presence of residual urine volume greater than 100ml, as estimated by bladder ultrasound, after the first voiding following catheter removal, or the need for a second catheterization.",
+        "timeFrame": "within 7 days after the first time of urethral catheter removal"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Rate of Urinary tract infections",
+        "description": "A urinary tract infection is characterized by an inflammatory response in the urinary tract epithelium resulting from bacterial invasion. To diagnose a urinary tract infection, the following criteria must be met simultaneously: 1) urinalysis indicating a bacterial count above the upper limit of normal and 2) positive urine culture.",
+        "timeFrame": "within 1 days after the first time of urethral catheter removal"
+      },
+      {
+        "measure": "The time to first voiding after catheter removal",
+        "description": "The time to first voiding after catheter removal refers to the duration, measured in hours, from the moment the catheter was removed until the patient spontaneously voids for the first time.",
+        "timeFrame": "within 1 days after the first time of urethral catheter removal"
+      },
+      {
+        "measure": "Graded assessment of catheter-related bladder discomfort (CRBD)",
+        "description": "CRBD is a questionnaire given to the patients, to investigate the severity of the discomfort of patients to the urinary catheter",
+        "timeFrame": "within 1 days after the first time of urethral catheter removal"
+      },
+      {
+        "measure": "International Consultation on Incontinence Questionnaire-Short Form",
+        "description": "International Consultation on Incontinence Questionnaire-Short Form is used to evaluate the incontinence of voiding. The minimum value is 0 and maximum value is 21. A higher score means a worse outcome",
+        "timeFrame": "on the second day after the first time of urethral catheter removal, and at the 30th day after surgery"
+      },
+      {
+        "measure": "Postoperative complications",
+        "description": "Complications that occur within 30 days after the operation will be evaluated and documented according to the Clavien-Dindo classification. Complications of grade II or higher were analyzed.",
+        "timeFrame": "within 30 days after the operation"
+      },
+      {
+        "measure": "International Prostate Symptom Score",
+        "description": "International Prostate Symptom Score is used to evaluate the severity of urinary difficulties. The scoring range ranges from 0 to 35 points for asymptomatic to severe symptoms. There are three levels of severity: 0-7 is mild, 8-19 is moderate, and 20-35 is severe.",
+        "timeFrame": "on the second day after the first time of urethral catheter removal, and at the 30th day after surgery"
+      },
+      {
+        "measure": "Incidence rate of residual urine volume greater than 200 ml after the first voiding",
+        "description": "Incidence rate of residual urine volume greater than 200 ml after the first voiding",
+        "timeFrame": "within 1 days after the first time of urethral catheter removal"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:59.557Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

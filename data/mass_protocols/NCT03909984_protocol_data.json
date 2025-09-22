@@ -1,0 +1,147 @@
+{
+  "nctId": "NCT03909984",
+  "briefTitle": "Promoting Implementation of Seizure Detection Devices in Epilepsy Care",
+  "officialTitle": "Promoting Implementation of Seizure Detection Devices in Epilepsy Care: the PROMISE Study",
+  "protocolDocument": {
+    "nctId": "NCT03909984",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-04-19",
+    "uploadDate": "2019-04-05T07:55",
+    "size": 671414,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03909984/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-04-26",
+    "completionDate": "2021-04-08",
+    "primaryCompletionDate": "2021-04-08",
+    "firstSubmitDate": "2018-03-08",
+    "firstPostDate": "2019-04-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 4-16 years\n* Diagnosis of refractory epilepsy with ≥1 major nocturnal seizure per week.\n* Treated at one of the following epilepsy centers: SEIN, Kempenhaeghe or UMCU.\n* Written informed consent by legal representatives (mostly parents) and also by the subject when aged ≥12 years and capable of signing informed consent.\n\nExclusion Criteria:\n\n* Intensive non-epileptic movement patterns such as severe choreatiform movements, intensive sleep walking, or frequent night terrors (\\> 1/week).\n* Minor motor seizures only, i.e. non-generalized or short (\\< 10 sec.) tonic seizures or isolated myoclonias that are self-limited and do not require intervention.\n* Presence of a pacemaker or cardiac arrhythmias that may generate false alarms (e.g. supraventricular tachycardia).\n* Inability to comply to the trial procedure.\n* Skin characteristics (e.g. tattoo) that may affect photoplethysmography and thereby influence performance of the Nightwatch.\n* Dependence on another SDD (e.g. Emfit or saturation monitor). Simultaneous use of a baby phone (or other types of microphones) is permitted.\n* Subjects who are not sleeping alone in the bed (i.e. co-sleeping in the parents'/guardians' bed influences the remote SDD). Subjects and parents/guardians are not allowed to change their sleeping habits for the duration of the study only.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "4 Years",
+    "maximumAge": "16 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Diagnostic performance Nightwatch - sensitivity",
+        "description": "Performance of Nightwatch to detect major nocturnal motor seizures in children at home, measured prospectively by means of sensitivity.",
+        "timeFrame": "Monitoring period of 2 months per participant."
+      },
+      {
+        "measure": "Diagnostic performance Nightwatch - positive predictive value",
+        "description": "Performance of Nightwatch to detect major nocturnal motor seizures in children at home, measured prospectively by means of positive predictive value.",
+        "timeFrame": "Monitoring period of 2 months per participant."
+      },
+      {
+        "measure": "Diagnostic performance Nightwatch - false alarm rate",
+        "description": "Performance of Nightwatch to detect major nocturnal motor seizures in children at home, measured prospectively by means of false alarm rate.",
+        "timeFrame": "Monitoring period of 2 months per participant."
+      },
+      {
+        "measure": "Diagnostic performance Nightwatch - % time with uninterrupted signal",
+        "description": "Performance of Nightwatch to detect major nocturnal motor seizures in children at home, measured prospectively by means of % of time with uninterrupted signal output.",
+        "timeFrame": "Monitoring period of 2 months per participant."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Diagnostic performance of video and audio detection - sensitivity",
+        "description": "Diagnostic performance of our remote seizure detection devices (video and audio) to detect major nocturnal motor seizures in children at home, measured retrospectively by means of sensitivity.",
+        "timeFrame": "Monitoring period of 2 months per participant."
+      },
+      {
+        "measure": "Diagnostic performance of video and audio detection - positive predictive value",
+        "description": "Diagnostic performance of our remote seizure detection devices (video, audio) to detect major nocturnal motor seizures in children at home, measured retrospectively by means of positive predictive value.",
+        "timeFrame": "Monitoring period of 2 months per participant."
+      },
+      {
+        "measure": "Diagnostic performance of video and audio detection - false alarm rate",
+        "description": "Diagnostic performance of our remote seizure detection devices (video, audio) to detect major nocturnal motor seizures in children at home, measured retrospectively by means of false alarm rate.",
+        "timeFrame": "Monitoring period of 2 months per participant."
+      },
+      {
+        "measure": "Diagnostic performance of video and audio detection - % time with uninterrupted signal output.",
+        "description": "Diagnostic performance of our remote seizure detection devices (video, audio) to detect major nocturnal motor seizures in children at home, measured retrospectively by means of % time with uninterrupted signal output.",
+        "timeFrame": "Monitoring period of 2 months per participant."
+      },
+      {
+        "measure": "Feasibility of Nightwatch will be examined in an interview with parents/guardians, focussing on different aspects of the device.",
+        "description": "Feasibility of Nightwatch with a mixed methods approach focusing on Acceptability, Demand, Implementation, Practicality, Expansion, Limited-efficacy testing, impact of the SDD on parents/guardians with children (interview).",
+        "timeFrame": "4 month period (2 months usual care + 2 months monitoring)"
+      },
+      {
+        "measure": "Feasibility of Nightwatch by means of Caregiver Strain Index (CSI).",
+        "description": "Effect of Nightwatch on parental stress, with a stress questionnaire (CSI), containing 13 questions about stress with 'yes/no' answers.\n\n11-13 tims 'yes' indicates high level of stress, 7-10 times 'yes' indicates medium level of stress and 0-6 times 'yes' means low level of stress.",
+        "timeFrame": "4 month period (2 months usual care + 2 months monitoring)"
+      },
+      {
+        "measure": "Feasibility of Nightwatch by means of Pittsburgh Sleep Quality Index (PSQI).",
+        "description": "Effect of Nightwatch on parental sleep with a sleep questionnaire (PSQI), containing 10 questions about sleep, with scales from 1-4 to indicate how often parents/guardians experience certain sleep problems.",
+        "timeFrame": "4 month period (2 months usual care + 2 months monitoring)"
+      },
+      {
+        "measure": "Feasibility of Nightwatch by means of the Quality of Life questionnaire: EQ-5D-5L",
+        "description": "Effect of Nightwatch on parental quality of life, with a QoL questionnaire (EQ-5D-5L), containing 5 questions about the person's health with a 1-5 scale indicating the severity of a certain health problem and a 0-100 rating scale of their health.",
+        "timeFrame": "4 month period (2 months usual care + 2 months monitoring)"
+      },
+      {
+        "measure": "Cost-effectiveness analysis of Nightwatch",
+        "description": "Economic evaluation from a societal prospective of Nightwatch involving a cost-effectiveness analysis (CEA).",
+        "timeFrame": "4 month period (2 months usual care + 2 months monitoring)"
+      },
+      {
+        "measure": "Cost-utility analysis of Nightwatch",
+        "description": "Economic evaluation from a societal prospective of Nightwatch involving a cost- a cost-utility analysis (CUA).",
+        "timeFrame": "4 month period (2 months usual care + 2 months monitoring)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:18.200Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

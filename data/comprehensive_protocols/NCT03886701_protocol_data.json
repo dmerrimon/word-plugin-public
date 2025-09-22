@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03886701",
+  "briefTitle": "Doravirine, Rifapentine and Isoniazid Interaction",
+  "officialTitle": "A Phase 1, Open-Label, Fixed-Sequence, Drug Interaction Study to Investigate the Effect of Once-Weekly Rifapentine and Isoniazid on the Pharmacokinetics of Steady-State Doravirine",
+  "protocolDocument": {
+    "nctId": "NCT03886701",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-04-17",
+    "uploadDate": "2020-02-11T11:11",
+    "size": 1446128,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03886701/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 11,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-04-22",
+    "completionDate": "2019-05-20",
+    "primaryCompletionDate": "2019-05-20",
+    "firstSubmitDate": "2019-03-12",
+    "firstPostDate": "2019-03-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Healthy male or female between 18-60 years old at the time of screening.\n2. Have a Body Mass Index (BMI) \\> 19 and \\< 33.\n3. Weigh \\> 45 kg but \\< 120 kg.\n4. Non-smoker (tobacco or electronic cigarettes).\n5. Negative QuantiFERON-TB Gold at screening.\n6. Subjects who agree to abstain from alcohol consumption throughout the duration of the study.\n7. Female subjects of childbearing potential must demonstrate a urine beta-hCG consistent with non-pregnancy at the time of the screening visit and agree to the use (and/or have their partner use) of an acceptable method of birth-control at initial screening, during the time of the trial and until two weeks after the last dose of drug following the last treatment period.\n8. Evidence of a personally signed and dated informed consent document indicating that the subject has been informed of all pertinent aspects of the study.\n\nExclusion Criteria:\n\n1. History of clinically significant endocrine, gastrointestinal, cardiovascular, hematological, hepatic, immunological, renal, respiratory, genitourinary, dermatologic, psychiatric abnormalities or neurological (including stroke and chronic seizure) diseases.\n2. \\>500 mL blood or plasma donation in the 6 weeks prior to study start\n3. Known anaphylactic or severe systemic reactions to any components of doravirine, rifapentine, isoniazid or pyridoxine.\n4. Positive HIV, Hepatitis B or Hepatitis C virus. Evidence of prior Hepatitis B infection and immunity is not exclusionary.\n5. Latent or active tuberculosis infection. Documented prior fully treated latent tuberculosis is not exclusionary.\n6. Females who are postpartum \\< 12 months.\n7. Current drug or alcohol abuse.\n8. Received study drug in another study within 4 weeks or within 5 half-lives, which ever occurring first, before first anticipated dose of study drug in this study.\n9. Unable to refrain from use of over-the-counter, prescription (unless determined appropriate by the investigator), herbal or natural products, vitamins or supplements, or grapefruit juice/grapefruit products.\n10. Any clinical significant findings on lab, ECG or physical exam at screening.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Doravirine Maximum Concentration (Cmax)",
+        "description": "Doravirine maximum observed concentration during the dosing interval",
+        "timeFrame": "Day 4 and 21 (Period 1 and 2): 0, 1, 2, 3, 4, 6, 8, 12, 24, 48, 72, 96 hours post-dose"
+      },
+      {
+        "measure": "Doravirine Area Under the Plasma Concentration Versus Time Curve From 0 to 12 Hours (AUC0-12)",
+        "description": "Doravirine area under the plasma-concentration time curve derived from plasma sampling during one dosing interval",
+        "timeFrame": "Day 4 and 21 (Period 1 and 2): 0, 1, 2, 3, 4, 6, 8, 12, 24, 48, 72, 96 hours post-dose"
+      },
+      {
+        "measure": "Doravirine Oral Clearance (CL/F)",
+        "description": "Doravirine apparent oral clearance derived from plasma sampling",
+        "timeFrame": "Day 4 and 21 (Period 1 and 2): 0, 1, 2, 3, 4, 6, 8, 12, 24, 48, 72, 96 hours post-dose"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Adverse Event",
+        "description": "Safety and tolerability",
+        "timeFrame": "Days 1-24 post-dose (period 1 and 2) and 31-34 post-dose (post-study)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:20.421Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

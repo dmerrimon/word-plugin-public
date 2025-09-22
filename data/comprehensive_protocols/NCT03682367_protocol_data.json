@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT03682367",
+  "briefTitle": "Perioperative Analgesia Using Gabapentin in Head and Neck Cancer Surgery",
+  "officialTitle": "Perioperative Analgesia Using Gabapentin in Head and Neck Cancer Surgery: A Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT03682367",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-11-26",
+    "uploadDate": "2021-06-03T18:08",
+    "size": 685830,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03682367/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 8,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-12-01",
+    "completionDate": "2020-04-06",
+    "primaryCompletionDate": "2020-04-01",
+    "firstSubmitDate": "2018-09-21",
+    "firstPostDate": "2018-09-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients undergoing major head and neck surgery with concomitant free flap reconstruction surgery at UCDMC (oncology and non-oncologic): There will be two groups. Group 1 will include reconstruction with fibula free flap only. Group 2 will include any other free flap reconstruction, including scapular free flap, radial forearm free flap, anterolateral thigh free flap, anteromedial thigh free flap, and latissimus dorsi free flap.\n* Patients naïve to gabapentin\n* Adult patients \\>18 years of age and able to consent\n\nExclusion Criteria:\n\n* Patients who are already taking scheduled gabapentin\n* Patients allergic to gabapentin\n* Chronic opioid use not from active head and neck cancer\n* Illicit drug use (per report)\n* Patients with known renal compromise, such that Creatinine clearance is \\< 30\n* Patient with known hepatic insufficiency or cirrhosis\n* Adults unable to consent\n* Individuals less than 18 years old\n* Pregnant women\n* Prisoners",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Average Morphine Equivalent Units",
+        "description": "Determine the difference in average morphine equivalent units between experimental and control group.",
+        "timeFrame": "Perioperative."
+      },
+      {
+        "measure": "Average Morphine Equivalent Units",
+        "description": "Determine the difference in average morphine equivalent units between experimental and control group.",
+        "timeFrame": "1 week post-operation."
+      },
+      {
+        "measure": "Average Morphine Equivalent Units",
+        "description": "Determine the difference in average morphine equivalent units between experimental and control group.",
+        "timeFrame": "30 days post-operation."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Pain Score (10 Point VAS)",
+        "description": "Determine average change of inpatient Pain Score Visual Analog Scale (VAS) on a standardized 1 (no pain) to 10 (highest level of pain) scale between experimental and control groups.",
+        "timeFrame": "Perioperative, 1 week post-operation, 1 week post-discharge, and 30 days post-operation."
+      },
+      {
+        "measure": "Post-operative Complications",
+        "description": "Incidence of postoperative complications between experimental and control group.",
+        "timeFrame": "30 days post-operation."
+      },
+      {
+        "measure": "Narcotics-related Complications",
+        "description": "Incidence of narcotics-related complications between experimental and control group.",
+        "timeFrame": "30 days post-operation."
+      },
+      {
+        "measure": "Inpatient Length of Stay",
+        "description": "Determine the difference of average inpatient length of stay between experimental and control group.",
+        "timeFrame": "1 week post-operation."
+      },
+      {
+        "measure": "Inpatient Cost",
+        "description": "Determine the difference of average inpatient cost between experimental and control group.",
+        "timeFrame": "1 week post-operation."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:31:00.803Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

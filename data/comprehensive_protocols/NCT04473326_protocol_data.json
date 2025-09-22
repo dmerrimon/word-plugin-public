@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT04473326",
+  "briefTitle": "Reinforcement Learning in Diabetes Mellitus Trial",
+  "officialTitle": "Optimizing Message Framing for Healthy Habits for Patients With Type 2 Diabetes - Phase II (Pragmatic Trial)",
+  "protocolDocument": {
+    "nctId": "NCT04473326",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-04-01",
+    "uploadDate": "2023-01-11T22:25",
+    "size": 426379,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04473326/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-02-04",
+    "completionDate": "2022-01-28",
+    "primaryCompletionDate": "2022-01-04",
+    "firstSubmitDate": "2020-07-13",
+    "firstPostDate": "2020-07-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n* Age between 18-84 years\n* Diagnosed with type 2 diabetes mellitus (T2DM) and are prescribed between 1-3 daily oral medications for this disease\n* Currently have a smartphone with a data plan or WiFi at home\n* HbA1c level ≥7.5%\n* Basic working knowledge of English\n* Willing and able to set up the platform and adhere to study procedures\n* Either not currently using a pillbox or willing to use electronic pill bottles (EDMs) for diabetes medications for the duration of the study\n\nExclusion criteria:\n\n* Patients with active enrollment in another diabetes trial within Mass General Brigham\n* Patients who receive daily assistance with taking their medications at home\n* Patients who are unable to receive text messages for more than 3 days in a row during the study period",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "84 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Medication Adherence",
+        "description": "Medication adherence to type 2 diabetes oral medications (averaged) as measured by the number of dates and times of pillbottle openings in the electronic pill bottles",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Glycemic Control",
+        "description": "Change in glycated hemoglobin A1c from baseline to end of the 6-month follow-up",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:09.368Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

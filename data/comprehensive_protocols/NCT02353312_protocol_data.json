@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02353312",
+  "briefTitle": "Rhode Island Diastolic Dysfunction - Heart Failure",
+  "officialTitle": "Rhode Island Diastolic Dysfunction - Heart Failure",
+  "protocolDocument": {
+    "nctId": "NCT02353312",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-09-22",
+    "uploadDate": "2022-09-26T15:24",
+    "size": 374279,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02353312/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 28,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-03",
+    "completionDate": "2018-12",
+    "primaryCompletionDate": "2018-12",
+    "firstSubmitDate": "2014-12-29",
+    "firstPostDate": "2015-02-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Male and female U.S. Veteran patients over the age of eighteen, with echocardiographic findings of \\>= Grade 2 diastolic dysfunction \\[as per American Society of Echocardiography guidelines\\] and\n2. Diagnosis of hypertension, diabetes, or heart failure in medical records.\n3. Eligible subjects must be ambulatory (not dependent on any ambulatory assist devices including cane or walker).\n\nExclusion Criteria:\n\n1. Any history of documented ejection fraction \\<50%\n2. Significant COPD (defined as oxygen-dependent COPD)\n3. Acute coronary syndrome within the past three months defined by EKG changes and biomarkers of myocardial necrosis (ie. elevated troponin) in the setting of chest pain or an anginal equivalent)\n4. Presence of hypertrophic cardiomyopathy\n5. Presence of infiltrative/restrictive cardiomyopathy\n6. Echocardiographic evidence of moderate or severe aortic or mitral valve stenosis or regurgitation\n7. Previously diagnosed phenylketonuria\n8. End stage renal disease requiring hemodialysis\n9. Pre-existing seizure disorder\n10. Terminal illness (not including heart failure) with expected survival of one year or less\n11. Females who are pregnant or breastfeeding. All females of child bearing age will undergo pregnancy testing prior to randomization.\n12. Recent hospitalization within three months.\n13. Previous Bioprosthetic and/or mechanical aortic or mitral valves",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Oxygen Consumption During Maximal Bike Exercise",
+        "description": "The change from baseline in oxygen consumption during maximal bike exercise. This was measured using cardiopulmonary exercise tress test (CPET), recorded in milliliters per kilogram per minute (mL/kg/min). Higher oxygen consumption scores indicate better aerobic capacity and cardiovascular function. An increase in oxygen consumption from baseline to post-intervention signifies an improvement in these areas. Conversely, a decrease would indicate a decline in aerobic capacity and cardiovascular health.",
+        "timeFrame": "Baseline (period 0), 3 mos (period 1), 6 mos (period 2)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:31.422Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

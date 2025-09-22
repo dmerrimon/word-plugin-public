@@ -1,0 +1,127 @@
+{
+  "nctId": "NCT05513391",
+  "briefTitle": "Study With Quadrivalent Recombinant Influenza Vaccine (RIV4) Compared With Egg-Based Quadrivalent Influenza Vaccine (IIV4) in Participants Aged 3 to 8 Years",
+  "officialTitle": "Immunogenicity and Safety of Quadrivalent Recombinant Influenza Vaccine Compared With Egg-Based Standard-Dose Quadrivalent Influenza Vaccine in Children 3 to 8 Years of Age.",
+  "protocolDocument": {
+    "nctId": "NCT05513391",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-03-22",
+    "uploadDate": "2024-07-01T06:21",
+    "size": 18706653,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05513391/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 366,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-11-10",
+    "completionDate": "2023-10-03",
+    "primaryCompletionDate": "2023-10-03",
+    "firstSubmitDate": "2022-08-22",
+    "firstPostDate": "2022-08-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Aged 3 to 8 years on the day of inclusion\n* Assent form has been signed and dated by the participant (according to local regulations), and informed consent form has been signed and dated by the parent(s) or another legally acceptable representative and by an independent witness, if required by local regulations\n\nExclusion Criteria:\n\n* Known or suspected congenital or acquired immunodeficiency, or receipt of immunosuppressive therapy, such as anti-cancer chemotherapy or radiation therapy, within the preceding 6 months; or long-term systemic corticosteroid therapy (prednisone or equivalent for more than 2 consecutive weeks within the past 3 months)\n* Known systemic hypersensitivity to any of the vaccine components, or history of a life-threatening reaction to the vaccines used in the trial or to a vaccine containing any of the same substances\n* Thrombocytopenia\n* Bleeding disorder, or receipt of anticoagulants in the 3 weeks preceding inclusion, contraindicating intramuscular vaccination based on the Investigator's judgment\n* Personal or family history of Guillain-Barre Syndrome (GBS)\n* Personal history of clinically significant development delay (at the discretion of the Investigator), neurologic disorder, or seizure disorder NOTE: The above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "3 Years",
+    "maximumAge": "8 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Geometric Mean Titers (GMTs) of Influenza Vaccine Antibodies 28 Days After the Last Vaccination",
+        "description": "GMTs of influenza vaccine antibodies were measured using individual hemagglutination inhibition (HAI) assay for 4 influenza virus strains: A/H1N1 strain, A/H3N2 strain, B/Victoria lineage strain, and B/Yamagata lineage strain.",
+        "timeFrame": "Day 29 [participants previously vaccinated] or Day 57 [participants previously unvaccinated]"
+      },
+      {
+        "measure": "Percentage of Participants With Seroconversion (SC) Against Antigens 28 Days After the Last Vaccination",
+        "description": "Anti-influenza antibodies were measured using HAI assay for 4 influenza virus strains: A/H1N1 strain, A/H3N2 strain, B/Victoria lineage strain, and B/Yamagata lineage strain. SC was defined as either a pre-vaccination HAI titer less than (\\<) 10 (1/dilution) and a post-vaccination titer greater than or equal to (≥) 40 (1/dilution) or a pre-vaccination titer ≥ 10 (1/dilution) and a ≥ 4-fold increase in post-vaccination titer.",
+        "timeFrame": "Day 29 [participants previously vaccinated] or Day 57 [participants previously unvaccinated]"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "GMTs of Influenza Vaccine Antibodies at Day 1",
+        "description": "GMTs of influenza vaccine antibodies were measured using HAI assay for 4 influenza virus strains: A/H1N1 strain, A/H3N2 strain, B/Victoria lineage strain, and B/Yamagata lineage strain.",
+        "timeFrame": "Pre-vaccination on Day 1"
+      },
+      {
+        "measure": "Percentage of Participants With Detectable HAI Titer ≥ 10 and ≥ 40 for Influenza Vaccine Antibodies at Day 1 and 28 Days After the Last Vaccination",
+        "description": "Antibody titers were measured using HAI assay for 4 influenza virus strains: A/H1N1 strain, A/H3N2 strain, B/Victoria lineage strain, and B/Yamagata lineage strain.",
+        "timeFrame": "Day 1 (all participants) and Day 29 (participants previously vaccinated) or Day 57 (participants previously unvaccinated)"
+      },
+      {
+        "measure": "Geometric Mean Titer Ratio (GMTR) of Influenza Vaccine Antibodies",
+        "description": "GMTR was the ratio of the individual titers post-vaccination over pre-vaccination. The GMTs of influenza vaccine antibodies were measured using HAI assay for 4 influenza virus strains: A/H1N1 strain, A/H3N2 strain, B/Victoria lineage strain, and B/Yamagata lineage strain.",
+        "timeFrame": "Day 1 (all participants) and Day 29 (participants previously vaccinated) or Day 57 (participants previously unvaccinated)"
+      },
+      {
+        "measure": "Number of Participants With Immediate Unsolicited Adverse Events (AEs)",
+        "description": "An AE was any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention. An unsolicited AE was an observed AE that did not fulfill the conditions of solicited reactions, i.e., pre-listed in the case report form (CRF) in terms of diagnosis and onset window post-vaccination. Immediate events were recorded to capture medically relevant unsolicited systemic AEs which occurred within the first 30 minutes after vaccination.",
+        "timeFrame": "Within 30 minutes post-vaccination on Day 1 (all participants) and Day 29 (participants previously unvaccinated)"
+      },
+      {
+        "measure": "Number of Participants With Solicited Injection Site Reactions and Systemic Reactions",
+        "description": "Solicited injection site reactions were reactions at and around the injection/administration site of the investigational medicinal product (IMP) observed and reported under the conditions (nature and onset) pre-listed in the protocol and CRF and considered as being related to the IMP administered at that site. Solicited systemic reactions were systemic AEs observed and reported under the conditions (nature and onset) pre-listed in the protocol and CRF, and those occurring during the specified collection period were always considered related to the IMP even if there was evidence of alternative etiology.",
+        "timeFrame": "Day 1 to Day 8 (all participants); Day 29 to Day 36 (participants previously unvaccinated)"
+      },
+      {
+        "measure": "Number of Participants With Unsolicited AEs",
+        "description": "An AE was any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention. An unsolicited AE was an observed AE that did not fulfill the conditions of solicited reactions, i.e., pre-listed in the CRF in terms of diagnosis and onset window post-vaccination.",
+        "timeFrame": "Up to Day 29 (all participants); Up to Day 57 (participants previously unvaccinated)"
+      },
+      {
+        "measure": "Number of Participants With Medically Attended Adverse Events (MAAEs)",
+        "description": "An AE was any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention. An MAAE was a new onset or a worsening of a condition that prompted the participant or participant's parent/legally acceptable representative to seek unplanned medical advice at a physician's office or emergency department.",
+        "timeFrame": "Up to Day 29 (all participants); Up to Day 57 (participants previously unvaccinated)"
+      },
+      {
+        "measure": "Number of Participants With Serious Adverse Events (SAEs) And Adverse Events of Special Interest (AESI)",
+        "description": "An SAE was defined as any adverse event that, at any dose: resulted in death, was life-threatening, required inpatient hospitalization or prolongation of existing hospitalization, resulted in persistent or significant disability/incapacity, was a congenital anomaly/birth defect, or was other medically important event. An AESI was defined as one of scientific and medical concern specific to the Sponsor's study intervention or program, for which ongoing monitoring and rapid communication by the Investigator to the Sponsor was appropriate.",
+        "timeFrame": "From the first vaccination up to 6 months after the last vaccination, 209 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:34.081Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

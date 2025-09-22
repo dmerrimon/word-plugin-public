@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT04517500",
+  "briefTitle": "A Home-based Module to Promote Mindful Breathing Awareness for COPD Patients",
+  "officialTitle": "A Home-based Intervention to Promote Mindful Breathing Awareness Through Pursed-lip Breathing Training for COPD Patients",
+  "protocolDocument": {
+    "nctId": "NCT04517500",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-06-08",
+    "uploadDate": "2024-07-19T14:51",
+    "size": 560620,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04517500/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 99,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-08-06",
+    "completionDate": "2024-05-07",
+    "primaryCompletionDate": "2024-05-07",
+    "firstSubmitDate": "2020-07-17",
+    "firstPostDate": "2020-08-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults, age ≥ 40 years old.\n* Clinical diagnosis of Chronic Obstructive Pulmonary Disease (COPD).\n* At least 10 pack years of smoking.\n\nExclusion Criteria:\n\n* Unable to do mild exercise (orthopedic-neurologic problems or confined to a bed).\n* Unable to follow commands (cognitive impairment).\n* Have a high likelihood of being lost to follow-up (active alcohol or drug abuse).\n* Live in an area that does not have cellular service (Verizon).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Chronic Respiratory Disease Questionnaire (CRQ)- Dyspnea Score",
+        "description": "The CRQ-Dyspnea is a 5-item questionnaire that assesses dyspnea on a Likert scale from 1 (Extremely short of breath) to 7 (Not at all short of breath). Total scores range from 5 - 35. Lower scores indicated higher severity of dyspnea. Higher scores indicate less severity of dyspnea.",
+        "timeFrame": "Baseline, 3 months, 6 months"
+      },
+      {
+        "measure": "Change in Chronic Respiratory Disease Questionnaire (CRQ)- Emotions Score",
+        "description": "The CRQ-Emotions is a 7-item questionnaire that assesses emotions on a Likert scale from 1 (All of the time) to 7 (None of the time). Total scores range from 7-49. Lower scores indicate more severity of emotions. Higher scores indicate less severity of emotions.",
+        "timeFrame": "baseline, 3 months, 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Daily Physical Activity",
+        "description": "Mean change in the number of steps per day",
+        "timeFrame": "baseline, 3 months, 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:26.928Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

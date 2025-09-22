@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT04633200",
+  "briefTitle": "Mhealth for PrEP Adherence by Young Adult MSM, Phase 2",
+  "officialTitle": "Mhealth for Pre-exposure Prophylaxis Adherence by Young Adult MSM",
+  "protocolDocument": {
+    "nctId": "NCT04633200",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-12-10",
+    "uploadDate": "2023-09-08T16:52",
+    "size": 243125,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04633200/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 108,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-02-01",
+    "completionDate": "2022-07-30",
+    "primaryCompletionDate": "2022-06-30",
+    "firstSubmitDate": "2020-11-11",
+    "firstPostDate": "2020-11-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria: (self report) Individuals who self-identify as a male, age 18-35, who has sex with men or who self-identify as a bisexual male or a gay male; currently taking PrEP; own a smartphone and desirous of adherence support.\n\n\\-\n\nExclusion Criteria: (self report) Males who do not meet the above criteria and/or currently use I.V. drugs.",
+    "healthyVolunteers": true,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "35 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Wilson Self-reported Medication Adherence Scale",
+        "description": "The self-reported medication adherence scale, developed by Wilson et al. (2016), is designed to assess self-reported medication adherence to HIV-related and other types of medications. In this study, it was used to assess self-reported PrEP medication adherence. Minimum score=0, maximum=299.9. Higher score means better adherence.",
+        "timeFrame": "90 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "PrEP Medication Adherence Self Efficacy Scale",
+        "description": "This scale was adapted by Kogelman and Weitzman from the Johnson HIV Adherence Self-Efficacy Scale. The PrEP medication adherence self efficacy scale was developed to assess one's confidence in one's ability to adhere to their PrEP medication treatment plan. The minimum score = 0, maximum score =80. Higher score indicates greater PrEP medication adherence self efficacy.",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "Intention to Follow PrEP Treatment Guidelines",
+        "description": "This measure was developed by Kogelman and Weitzman to assess an individual's intention to engage in key behaviors that are recommended while on PrEP treatment, e.g. concomitant use of condoms and testing for HIV every 3 months. The minimum score=0, the maximum score=16. Higher score means greater intention to follow PrEP treatment guidelines.",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "PrEP Medication Knowledge Measure",
+        "description": "This measure was developed by Kogelman and Weitzman to assess an individual's knowledge of PrEP medication through questions about medication purpose, side effects, etc. Minimum score =0, maximum score = 8. Higher score means greater knowledge about PrEP medication.",
+        "timeFrame": "90 days"
+      },
+      {
+        "measure": "Perceived Stress Scale",
+        "description": "The Perceived Stress Scale, developed by Cohen et al. (1983), is designed to measure the degree to which one perceives situations in one's life as stressful. The minimum score=0, maximum score=40. Higher score indicates higher perceived stress.",
+        "timeFrame": "90 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:12.503Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

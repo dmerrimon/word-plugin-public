@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT06550726",
+  "briefTitle": "High-resolution Multi-parametric Magnetic Resonance Imaging for Focal Epilepsy",
+  "officialTitle": "High-resolution Multi-parametric Magnetic Resonance Imaging for Focal Epilepsy",
+  "protocolDocument": {
+    "nctId": "NCT06550726",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2024-04-18",
+    "uploadDate": "2024-08-05T11:33",
+    "size": 183987,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06550726/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 66,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2024-09-01",
+    "completionDate": "2027-08-31",
+    "primaryCompletionDate": "2026-08-31",
+    "firstSubmitDate": "2024-08-05",
+    "firstPostDate": "2024-08-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Consecutive patients with drug-resistant focal epilepsy fulfilling the following criteria -\n\n  1\\. Diagnosis of focal epilepsy with a probable site identified, as defined by concordant results from any TWO of the following:\n* Clinical seminology compatible with focal epilepsy.\n* Electroencephalography pointing towards a specific site for focal epilepsy.\n* Positive ictal brain scintigraphy with SPECT-CT correlation. AND 2. Previous MRI (at least one study with protocol tailored for epilepsy) which did not reveal accountable focal lesion.\n\nAND 3. Able to consent for MRI examination (if patient under age of 18, consent for MRI will be obtained from guardian). Patients will be provided information leaflets to read on, and written consent before taking part in this study and MRI examination.\n\nExclusion Criteria:\n\n* Patients who are contraindicated to magnetic resonance imaging (such as due to underlying MRI incompatible metallic implants)\n* Patients who cannot cooperate for MRI scanning.\n* Patients show are unable to provide informed consent.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Accuracy of high resolution MRI in diagnosis",
+        "description": "the sensitivity and specificity of the baseline MRI (bMRI) and the high-resolution MRI (hrMRI) studies, based on the standard of surgical findings on patients who underwent either intracranial EEG or surgical resection",
+        "timeFrame": "At the time of MRI scanning, typically 1 day"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:50.751Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

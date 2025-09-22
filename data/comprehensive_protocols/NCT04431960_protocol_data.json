@@ -1,0 +1,128 @@
+{
+  "nctId": "NCT04431960",
+  "briefTitle": "Blackcurrants Modify Gut Microbiota and Reduce Osteoporosis and CVD Risk",
+  "officialTitle": "Blackcurrant Modifies Gut Microbiota and Reduces the Risk of Postmenopausal Osteoporosis and Cardiovascular Disease: A Pilot Randomized Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT04431960",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-09-29",
+    "uploadDate": "2023-09-29T18:19",
+    "size": 210376,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04431960/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 51,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-07-20",
+    "completionDate": "2022-10-03",
+    "primaryCompletionDate": "2022-10-03",
+    "firstSubmitDate": "2020-06-06",
+    "firstPostDate": "2020-06-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* perimenopausal or early postmenopausal women aged 45-60 years old\n* not on HRT for at least one year before the initiation of the study\n* maintaining normal exercise level (\\<7 h/wk) and willing to avoid exercise 24-h prior to blood and stool sampling and 12-h prior to bone measurements\n* willing to ingest a dietary BC supplement or placebo (up to 900 mg/day, two 450 mg capsules) as well as 400 mg calcium and 500 IU vitamin D daily\n* willing to avoid other dietary supplements for the duration of the study\n* willing to avoid intake of foods extremely rich in anthocyanins and fermented dairy products containing viable Bifidobacteria or Lactobacilli\n* willing to have 3 blood draws, 2 stool collections, and 2 bone scans\n* willing to take urine pregnancy test if they are perimenopausal.\n\nExclusion Criteria:\n\n* those with metabolic bone disease, renal disease, cancer, cardiovascular disease, diabetes mellitus, respiratory disease, gastrointestinal disease, liver disease or other chronic diseases\n* those with hypertension or on drugs that lower blood pressure\n* those with planned surgery during the study period or within 2 weeks of ending the intervention\n* taking medications that alter bleeding (such as antiplatelets or anticoagulants) or those with a bleeding disorder\n* taking a phenothiazine drug (most commonly used for nausea or mental health conditions)\n* having a sensitivity or allergy to any of ingredients for the placebo (rice powder) and calcium/D supplement (calcium citrate, polyethylene glycol, croscarmellose sodium, hydroxypropyl methylcellulose, magnesium stearate, oligofructose enriched inulin, propylene glycol dicaprylate/dicaprate, talc, titanium dioxide, vitamin D3)\n* heavy smokers (\\>20 cigarettes/day)\n* perimenopausal women with any chance or plan of pregnancy\n* taking prescription medications known to alter bone and Ca metabolism such as calcitonin, bisphosphonates, raloxifene within 3 months before the start of the study\n* taking anabolic agents such as parathyroid hormone, growth hormone, or steroids within 3 months before the start of the study\n* planning any procedure that includes iodine, barium or nuclear medicine isotopes in next 7 months\n* alcohol consumption exceeding 2 drinks/day (approximately 14 g ethanol per drink) or a total of 12/week\n* UConn students and/or employees who any key personnel teach or who report to any key personnel\n* study key personnel, spouses of key personnel, or dependents/relatives of any key personnel.",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "45 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Bone Mineral Density (BMD)",
+        "description": "Changes in BMD of whole-body measured via dual energy x-ray absorptiometry",
+        "timeFrame": "From baseline to 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Serum Marker of Bone Formation",
+        "description": "Changes to serum concentrations of P1NP",
+        "timeFrame": "From baseline to 6 months"
+      },
+      {
+        "measure": "Plasma Regulator of Bone Metabolism",
+        "description": "Changes to plasma concentrations RANKL",
+        "timeFrame": "From baseline to 6 months"
+      },
+      {
+        "measure": "Changes in Plasma Inflammatory Cytokine",
+        "description": "Changes to plasma concentrations of IL-1B",
+        "timeFrame": "From baseline to 6 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Changes in Gut Microbial Composition",
+        "description": "This was measured using alpha diversity by species richness and Shannon diversity and beta diversity by principal component analysis. Structural comparisons were done comparing relative abundance between groups at the genus and phylum levels",
+        "timeFrame": "from baseline to 6 months"
+      },
+      {
+        "measure": "Serum Inflammation Biomarker",
+        "description": "changes in serum inflammation biomarker (hs-CRP)",
+        "timeFrame": "from baseline to 6 months"
+      },
+      {
+        "measure": "Fasting Blood Lipids",
+        "description": "Changes in plasma CVD risk factors (total cholesterol \\[TC\\], high density lipoprotein \\[HDL\\] and triglycerides \\[TG\\])",
+        "timeFrame": "from baseline to 6 months"
+      },
+      {
+        "measure": "Blood Pressure (SBP/DBP), BMI, WC, Body Composition",
+        "description": "changes in blood pressure (SBP/DBP), BMI, WC, body composition",
+        "timeFrame": "from baseline to 6 months"
+      },
+      {
+        "measure": "Concentrations of Plasma Immune Markers",
+        "description": "changes in plasma concentrations of immune biomarkers (IL-1β, IL-6, TNFα, Th17 and Treg)",
+        "timeFrame": "from baseline to 6 months"
+      },
+      {
+        "measure": "Concentrations of Plasma IGF-1 and cGP",
+        "description": "changes in plasma concentrations of endocrine biomarkers",
+        "timeFrame": "from baseline to 6 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 6,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 66,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:02.267Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

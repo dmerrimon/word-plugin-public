@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT03475758",
+  "briefTitle": "Goserelin for Ovarian Protection in Premenopausal Patients Receiving Cyclophosphamide",
+  "officialTitle": "Phase II Study of Goserelin for Ovarian Protection in Premenopausal Patients Receiving Cyclophosphamide Containing Chemotherapy: Menstruation Outcome",
+  "protocolDocument": {
+    "nctId": "NCT03475758",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-03-17",
+    "uploadDate": "2018-03-17T09:08",
+    "size": 785802,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03475758/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2018-03",
+    "completionDate": "2020-03",
+    "primaryCompletionDate": "2020-03",
+    "firstSubmitDate": "2018-03-11",
+    "firstPostDate": "2018-03-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nPremenopausal cancer patients who will receive Cyclophosphamide-containing chemotherapy.\n\nExclusion Criteria:\n\npostmenopausal cancer patients. cancer patients who will receive non Cyclophosphamide containing chemotherapy.",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "compare rate of ovarian failure at 1 year between the two treatment groups",
+        "description": "rate of ovarian failure",
+        "timeFrame": "1 year"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:49.859Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT01917136",
+  "briefTitle": "11C-acetate/18Fluorodeoxyglucose-FDG PET/CT and Cardiac MRI in Pulmonary Hypertension",
+  "officialTitle": "Evaluation of Regional Myocardial Perfusion, Glucose Utilization and Oxidative Metabolism in Patients With Pulmonary Hypertension Using Combined [11C]Acetate and [18F]Fluorodeoxyglucose (FDG) PET/CT and Cardiovascular MRI",
+  "protocolDocument": {
+    "nctId": "NCT01917136",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-04-11",
+    "uploadDate": "2018-11-29T23:26",
+    "size": 289746,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01917136/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 21,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-08",
+    "completionDate": "2018-10",
+    "primaryCompletionDate": "2018-10",
+    "firstSubmitDate": "2013-08-03",
+    "firstPostDate": "2013-08-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nParticipation in the companion treatment protocol \"A randomized, double-blind, placebo controlled, multi-center study to assess the effect of ranolazine on outcomes in subjects with pulmonary hypertension and right ventricular dysfunction accompanied by a comparative study of cellular metabolism in subjects with pulmonary hypertension with and without right ventricular dysfunction\"\n\nExclusion Criteria:\n\n* Pregnancy or lactation: Women of childbearing potential must have a negative urine or blood pregnancy test on the day of the PET/CT scan.\n* Severe anxiety or claustrophobia prohibiting completion of imaging\n* Inability to tolerate imaging procedures (1 hour MRI, 30 min and 15 min PET)\n* Implantable cardioverter-defibrillator, Pacemaker, hazardous metallic implants or any other contraindication to MRI.\n* Uncontrolled diabetes mellitus with fasting glucose \\> 150 mg/dL",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Changes in RV Function",
+        "description": "RV function as measured by cardiac MRI",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:13.364Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

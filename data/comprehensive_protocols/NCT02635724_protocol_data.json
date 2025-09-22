@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT02635724",
+  "briefTitle": "Safety, PK and Effectiveness of IV Peramivir in Elderly and Higher Risk Subjects With Uncomplicated Influenza",
+  "officialTitle": "A Phase 3, Multicenter, Single-arm, Open-label, Study to Evaluate the Safety, Pharmacokinetics and Effectiveness of Intravenous Peramivir in Elderly Subjects With Acute Uncomplicated Influenza Infection and in Subjects With Acute Uncomplicated Influenza Infection at Higher Risk for Influenza Complications",
+  "protocolDocument": {
+    "nctId": "NCT02635724",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-08-09",
+    "uploadDate": "2020-11-10T08:29",
+    "size": 934221,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02635724/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 74,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-12",
+    "completionDate": "2018-09",
+    "primaryCompletionDate": "2018-04",
+    "firstSubmitDate": "2015-12-17",
+    "firstPostDate": "2015-12-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* A positive influenza Rapid Antigen Test (RAT) and/or a FDA-approved PCR test and at least one clinical sign or symptom consistent with acute influenza infection as listed below OR\n* Clinical signs and symptoms consistent with acute influenza infection consisting of an oral temperature ≥ 100°F (37.8°C) with at least one respiratory symptom of at least moderate severity (cough or rhinitis) and at least one constitutional symptom of at least moderate severity (myalgia \\[aches and pains\\], headache, feverishness, or fatigue)\n* Influenza symptom onset \\< 48 hours. However, due to historically delayed presentation for medical care in the adult population, approximately 20% of the elderly population may be enrolled with symptoms starting \\> 48-hours but ≤ 72-hours\n\nExclusion Criteria:\n\n* Women who plan to breast-feed for the first 48 hours after study drug administration\n* Subjects requiring hospital admission to treat medical condition(s) which could represent complications of influenza.\n* Recent worsening of any chronic medical condition consistent with complications of influenza\n* Current evidence of a bacterial infection requiring antibiotic treatment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Safety and Tolerability, as Measured by the Number of Adverse Events.",
+        "description": "Safety was evaluated through assessment of Adverse Events (AEs).",
+        "timeFrame": "14 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Plasma Exposure of IV Peramivir as Measured by Drug Concentrations up to 3 Hours Post Infusion",
+        "description": "Up to 3 plasma samples will be drawn, where possible: immediately following infusion, 30 mins to 1 hr post-infusion \\& 1 to 3 hrs post-infusion. Maximum concentration (Cmax), area under the concentration vs. time curve (AUC) from time 0 to 1 hour (AUC0-1), AUC from time 0 to 1.5 hours (AUC0-1.5), and AUC from time 0 to the last measurable time point (AUC0-last) were calculated in Phoenix® WinNonlin® v6.4. No summary statistics were reported due to the variation in the infusion time and sampling times.",
+        "timeFrame": "up to 3 hours post peramivir infusion"
+      },
+      {
+        "measure": "Time to Resolution of Fever",
+        "description": "Time for fever resolution based on subject diary record of temperature recorded twice daily. A subject had resolution of fever if he/she had an oral temperature \\< 37.4°C/99.4°F oral and no antipyretic medications were taken for at least 12 hours. The time to resolution of fever was estimated for each age group and overall using the Kaplan-Meier method with temperature and symptom relief medication information obtained from the Subject Diary data. Subjects who did not have resolution of fever were censored at the time of their last non-missing post-baseline temperature assessment.",
+        "timeFrame": "14 days"
+      },
+      {
+        "measure": "Time to Resolution of Influenza Symptoms",
+        "description": "Subjects were asked to provide an assessment of 7 influenza symptoms (cough, sore throat, nasal congestion, myalgia \\[aches and pains\\], headache, feverishness, and fatigue) on a 4-point severity scale (0, absent; 1, mild; 2, moderate; 3, severe) beginning at Screening then twice daily beginning on Day 1 through to Day 13, and prior to the subject's clinic visit on Day 14. Once all symptoms were scored a 0 or 1 for at least 48 hours, recordings were discontinued. The time to alleviation of symptoms, defined as the time from initiation of study drug until the start of the 21.5-hour period (24 hours less 10%), where all symptoms of influenza were recorded as none (0) or mild (1), was estimated overall and for each age group using the Kaplan-Meier method.",
+        "timeFrame": "14 days"
+      },
+      {
+        "measure": "Changes in Influenza Virus Titer in Nasopharyngeal Samples in Response to Treatment.",
+        "description": "Change in influenza viral titers was defined as the time-weighted change from Baseline in log\\_10 tissue culture infective dose\\_50 (TCID50/mL) and was summarized for each treatment group.",
+        "timeFrame": "Change from baseline assessed on days 3, 7 and 14."
+      },
+      {
+        "measure": "Time to Reduction in Viral Shedding",
+        "description": "Assessment of viral shedding in bilateral, mid-nasal swab specimens taken at baseline and then on Day 3, 7 and 14.",
+        "timeFrame": "14 days"
+      },
+      {
+        "measure": "Incidence of Influenza-related Complications",
+        "description": "Study personnel evaluated the subject at Screening and Days 3, 7, and 14 for the presence of clinical signs and/or symptoms of the following influenza-related complications: Sinusitis, Otitis media, Bronchitis \\& Pneumonia. Note that subjects with clinical signs and/or symptoms consistent with bacterial infections, including otitis media, bronchitis, sinusitis, and/or pneumonia at Screening, were not eligible for enrollment in this study. If an influenza-related complication was suspected, then a targeted physical examination was to be conducted to confirm the presence or absence of the influenza-related complication.",
+        "timeFrame": "14 days"
+      },
+      {
+        "measure": "Time to Return to Usual Activities",
+        "description": "The ability to perform usual daily activities was assessed on a VAS (Visual Analogue Scale), where 0 indicates \"unable to perform usual activities at all\" and 10 indicates \"able to perform usual activities.\". The time to return to usual activities was the number of days from initiation of study drug until the subject recorded a rating of 10 (able to perform all usual activities fully) on the VAS; this was estimated for each age group and overall using the Kaplan-Meier method.",
+        "timeFrame": "14 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:33.976Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

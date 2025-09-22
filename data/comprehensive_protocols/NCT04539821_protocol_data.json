@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT04539821",
+  "briefTitle": "Virtual Pain Care Management (COVID-19)",
+  "officialTitle": "Virtual Pain Care for High Risk Veterans on Opioids During COVID19 (and Beyond)",
+  "protocolDocument": {
+    "nctId": "NCT04539821",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-07-14",
+    "uploadDate": "2024-01-24T17:20",
+    "size": 244336,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04539821/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 44,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-01",
+    "completionDate": "2021-08-12",
+    "primaryCompletionDate": "2021-05-31",
+    "firstSubmitDate": "2020-09-03",
+    "firstPostDate": "2020-09-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Eligible participants must currently receive LTOT for chronic pain at 50 mg morphine equivalent daily dose\n\nExclusion Criteria:\n\nExclusion criteria at baseline are:\n\n* dementia diagnosis or moderate-severe cognitive impairment\n* unstable or severe untreated psychiatric disorder or medical disease that requires hospitalization\n* documentation of suspected controlled substance diversion\n* inability to communicate by phone",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Number of Patients Who Agree to Change in Their Opioid Regimen, Including Buprenorphine Transfer",
+        "description": "Using shared decision-making with Veterans, we will based the measure on clinical reports of patient change in opioid regimen. This would be tapering (reducing opioid dose), discontinuation, or transfer to buprenorphine. Any reduction or change was considered positive for change, even if the patients returned to their initial dose. The number of patients who agree to change their opioid regimen provides a realistic indicator of overall feasibility/acceptability.",
+        "timeFrame": "30 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Retained in Care at End of Study",
+        "description": "Of participants who engaged in initial treatment the number who completed or were retained in care at the end of the study provides a outcome measure of engagement",
+        "timeFrame": "60 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:39.150Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

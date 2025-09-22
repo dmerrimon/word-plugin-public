@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04334473",
+  "briefTitle": "IOP and Ocular Biometrics Changes After Phacoemulsification in Glaucoma Patients and Controls",
+  "officialTitle": "Intraocular Pressure and Ocular Biometrics Changes After Phacoemulsification in Glaucomatous Patients and Age Matched Controls, Comparative Study",
+  "protocolDocument": {
+    "nctId": "NCT04334473",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-09-14",
+    "uploadDate": "2020-04-02T20:34",
+    "size": 172793,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04334473/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 37,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-20",
+    "completionDate": "2020-04-01",
+    "primaryCompletionDate": "2020-03-15",
+    "firstSubmitDate": "2020-04-02",
+    "firstPostDate": "2020-04-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 40-70 years.\n* Glaucomtous and nonglaucomatous participants with visually significant cataracts.\n* Best-corrected visual acuity (BCVA) equal to or worse than 6/12.\n* patients candidates for standard cataract surgeries without adjunctive procedure (e.g., pupil stretching or iris hooks).\n\nExclusion Criteria:\n\n* Major intraoperative or postoperative complications from cataract surgery\n* Peripheral anterior synechiae (PAS) detected by indentation gonioscopy.\n* Uveitis, severe retinal diseases, or congenital Anomalies.\n* History of ocular trauma or any intraocular Surgery. ocular trauma or any intraocular Surgery",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Intraocular pressure change",
+        "description": "intraocular pressure measurement by Goldman's applanation tonometr",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "ocular bio-metrics change",
+        "description": "anterior chamber angle angle opening distance and anterior chamber depth change",
+        "timeFrame": "4 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Phacoemulsification as treatment to glaucoma",
+        "description": "intraocular pressure decrease after surgery in glaucoma patients",
+        "timeFrame": "4 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:01.186Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

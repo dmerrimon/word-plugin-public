@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT04588077",
+  "briefTitle": "Comparison Between 2-dose Versus 3-dose Regimens of Heplisav B in Cirrhosis",
+  "officialTitle": "Comparison the Seroconversion Rate Between Two-dose and Three-dose Regimens of Heplisav B Among Patients With Cirrhosis, a Randomized-control Prospective Study.",
+  "protocolDocument": {
+    "nctId": "NCT04588077",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-09-11",
+    "uploadDate": "2020-10-07T01:07",
+    "size": 44530,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04588077/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 200,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2020-09-14",
+    "completionDate": "2028-12-01",
+    "primaryCompletionDate": "2028-12-01",
+    "firstSubmitDate": "2020-09-18",
+    "firstPostDate": "2020-10-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\- All the cirrhosis patients more than 18 years old presented to the hepatology clinic in Mercy Medical Center between 09/2020 and 07/2021 who do not have immunity against Hepatitis B (defined as anti-HBs titer \\< 10 mIU/ml) will be recruited.\n\nExclusion Criteria:\n\n* Anyone who has had a serious allergic reaction to a prior dose of the hepatitis B vaccine, a component of the hepatitis B vaccine, or yeast should not receive the hepatitis B vaccine.\n* Those who had previous exposure to hepatitis B.\n* Post liver transplant patients.\n* Less than 18 years old.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The rates of seroconversion after two doses of Heplisav-B given at 0 and 4 weeks versus three doses of Heplisav-B given at 0, 4 weeks, and 8 weeks.",
+        "description": "The rates of seroconversion is defined as an HBsAg antibody concentration ≥ 10 mIU/ml.",
+        "timeFrame": "12 weeks after completing Heplisav-B series with two doses or three doses"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Factors are associated with a lower likelihood of achieving immunogenicity, such as age, race, MELD scores, etiologies of cirrhosis, comorbidity, immunosuppressive drugs. Those information will be measured or described descriptively by chart review.",
+        "description": "Age (years) Race (White, Black, Other). MELD (Model For End-Stage Liver Disease) score: 6-40\n\nEtiologies of cirrhosis will include:\n\nNonalcoholic Fatty Liver Disease (Yes/No). Hepatitis C (Yes/No). Alcohol induced Liver Disease (Yes/No). Autoimmune Hepatitis (Yes/No). Primary Biliary Cholangitis (Yes/No). Primary Sclerosing Cholangitis (Yes/No).\n\nComorbidity will include:\n\nChronic obstructive pulmonary disease (Yes/No). Diabetes mellitus (Yes/No). Hypertension (Yes/No). Coronary artery disease (Yes/No). Acute renal injury (Yes/No). Chronic renal disease (Yes/No). Obesity (Yes/No). The formula is BMI = kg/m2 where kg is a person's weight in kilograms and m2 is their height in metres squared. A BMI of 30 and higher is considered obese. Immunosuppressive drugs (Yes/No).",
+        "timeFrame": "Through study completion, an average of 1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:25.348Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

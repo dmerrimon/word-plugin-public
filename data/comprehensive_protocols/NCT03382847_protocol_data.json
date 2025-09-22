@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT03382847",
+  "briefTitle": "HCV Positive Heart Donors",
+  "officialTitle": "A Single-center Pilot Study of the Use of Hepatitis C Positive Donors for Hepatitis C Negative Heart Transplant Recipients With Post-transplant Treatment of Hepatitis C Viremia With Mavyret",
+  "protocolDocument": {
+    "nctId": "NCT03382847",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-08-28",
+    "uploadDate": "2021-01-14T11:06",
+    "size": 970574,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03382847/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 25,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-01-05",
+    "completionDate": "2020-05-06",
+    "primaryCompletionDate": "2020-05-06",
+    "firstSubmitDate": "2017-12-19",
+    "firstPostDate": "2017-12-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Listed for an isolated heart transplant at NYU Langone Health\n* Able to travel to the NYU Langone Health for routine post-transplant visits and study visits for a minimum of 6 months after transplantation\n* No active illicit substance abuse\n* Weight at least 50kg\n* Women of childbearing potential must agree to use birth control in accordance with Mycophenolate Risk Evaluation and Mitigation Strategy (REMS) after transplant due to the increased risk of birth defects and/or miscarriage\n* Both men and women must agree to use at least one barrier method after transplant to prevent any secretion exchange\n* Able and willing to provide informed consent\n\nExclusion Criteria:\n\n* HIV positive\n* HCV RNA positive or history of previously treated HCV\n* Hepatitis B surface antigen positive or on active antiviral treatment for HBV\n* Pregnant or nursing (lactating) women\n* Use of strong CYP3A inducers",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Sustained Virologic Response After Treatment",
+        "description": "Percentage of patients with sustained virologic response after treatment for HCV after heart transplant.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:25.605Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

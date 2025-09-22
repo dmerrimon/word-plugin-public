@@ -1,0 +1,178 @@
+{
+  "nctId": "NCT04988087",
+  "briefTitle": "A Study to Evaluate the Safety, Tolerability and Efficacy of MHV370 in Participants With Sjogren's Syndrome (SjS) or Mixed Connective Tissue Disease (MCTD)",
+  "officialTitle": "A Multi-center, Randomized, Participant- and Investigator- Blinded, Placebo-controlled, Parallel Group Basket Study to Evaluate the Safety, Tolerability and Efficacy of MHV370 in Participants With Sjögren's Syndrome or Mixed Connective Tissue Disease",
+  "protocolDocument": {
+    "nctId": "NCT04988087",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-05-09",
+    "uploadDate": "2024-01-16T08:58",
+    "size": 1224607,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04988087/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-30",
+    "completionDate": "2023-03-07",
+    "primaryCompletionDate": "2023-02-07",
+    "firstSubmitDate": "2021-07-26",
+    "firstPostDate": "2021-08-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nSjS and MCTD:\n\n• Fully vaccinated with any locally approved COVID-19 vaccination including booster vaccinations if required by local guidelines\n\nSjS:\n\n* Unstimulated whole salivary flow rate of \\> 0 mL/min at screening\n* Classification of Sjögren's Syndrome according to the 2016 ACR/EULAR criteria at screening\n* Screening ESSDAI (based on weighted score) ≥ 5 from 8 defined domains (biologic, hematologic, articular, cutaneous, glandular, lymphadenopathy, renal, constitutional).\n\nMCTD:\n\n* Diagnosis of MCTD based on criteria like a) Raynaud's phenomenon b) At least two of the four following signs: i) synovitis, ii) myositis, iii) swollen fingers and vi) interstitial lung disease\n* Patients with overlap syndromes, i.e. patients meeting diagnostic criteria for systemic autoimmune disease other than MCTD may be included unless they have major organ involvement as judged by the investigator\n\nExclusion Criteria:\n\nSjS and MCTD:\n\n* Prior use of B-cell depleting therapy within 6 months of baseline. For participants who received B-cell depleting therapy within 6 -12 months of baseline visit, B-cell count should be within normal range\n* Prior treatment with any of the following within 3 months of baseline: CTLA4-Fc Ig (abatacept), Anti-TNF mAb, Intravenous Ig, Plasmapheresis, i.v. or oral cyclophosphamide, i.v. or oral cyclosporine A\n* Screening CBC laboratory values as follows: Hemoglobin levels \\< 8 g/dL (\\< 5 mmol/L), Total leukocyte count \\< 2,000/µL (2 x 109/L), Platelets \\< 50,000/µL (50 x 109/L), Neutrophil count \\< 1,000/µL (1 x 109/L)\n* Pregnant or nursing (lactating) women\n* Women of child-bearing potential, defined as all women physiologically capable of becoming pregnant, unless they use a highly effective method of contraception\n\nSjS:\n\n* Sjögren's Syndrome overlap syndromes where another autoimmune disease constitutes the primary illness\n* Required regular use of medications known to cause, as a major side effect, dry mouth / eyes\n\nOther protocol-defined inclusion/exclusion criteria may apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "SjS Participants: Change From Baseline in Eular Sjögren's Disease Activity Index (ESSDAI) After 24 Weeks of Treatment",
+        "description": "The ESSDAI is an established disease outcome measure for Sjögren's syndrome that classifies disease activity in 3-4 levels according to their severity (i.e., no, low, moderate, high), over each of 12 organ-specific domains. These scores are then summed across the 12 domains in a weighted manner to provide the total score. The score range is 0 - 123, where a higher ESSDAI score indicates more severe symptoms. A negative change score from baseline indicates improvement.",
+        "timeFrame": "Baseline, Week 24"
+      },
+      {
+        "measure": "MCTD Participants: Change From Baseline in Physician's Global Assessment Scale (PhGA) After 24 Weeks of Treatment",
+        "description": "The physician's global assessment scale is used for the Investigator to rate the disease activity of their patient using 100 mm visual analog scale (VAS) ranging from \"no disease activity\" (0) to \"maximal disease activity\" (100). A negative change score from baseline indicates improvement. Only participants with evaluable records are included.",
+        "timeFrame": "Baseline, Week 24"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "SjS and MCTD Participants: Maximum Observed Plasma Concentrations (Cmax) of MHV370 at Steady State",
+        "description": "Cmax is the maximum (peak) observed plasma concentration of MHV370 after single dose administration. Pharmacokinetic (PK) parameters were calculated based on MHV370 plasma concentrations determined by a validated liquid chromatography and tandem mass spectrometry (LC-MS/MS) method with a lower limit of quantification of 1.0 ng/mL. Cmax was determined using non-compartmental methods.",
+        "timeFrame": "pre-dose, 0.5, 1, 2 ,4 and 6 hours after dosing at week 4"
+      },
+      {
+        "measure": "SjS and MCTD Participants: Area Under the Plasma Concentration-time Curve From Time Zero to 6 Hours (AUC0-6h) of MHV370",
+        "description": "The AUC from time zero to the 6-hours post-dose sampling time. Pharmacokinetic (PK) parameters were calculated based on MHV370 plasma concentrations determined by a validated liquid chromatography and tandem mass spectrometry (LC-MS/MS) method with a lower limit of quantification of 1.0 ng/mL. AUClast was determined using non-compartmental methods.",
+        "timeFrame": "pre-dose, 0.5, 1, 2 ,4 and 6 hours after dosing at week 4"
+      },
+      {
+        "measure": "SjS and MCTD Participants: Time to Reach Maximum Plasma Concentrations (Tmax) of MHV370 at Steady State",
+        "description": "Tmax is the time to reach maximum (peak) plasma concentration of MHV370 after single dose administration. Pharmacokinetic (PK) parameters were calculated based on MHV370 plasma concentrations determined by a validated liquid chromatography and tandem mass spectrometry (LC-MS/MS) method with a lower limit of quantification of 1.0 ng/mL. Tmax was determined using non-compartmental methods.",
+        "timeFrame": "pre-dose, 0.5, 1, 2 ,4 and 6 hours after dosing at week 4"
+      },
+      {
+        "measure": "SjS and MCTD Participants: Change From Baseline in Functional Assessment of Chronic Illness Therapy-Fatigue (FACIT-F) Scale",
+        "description": "The Functional Assessment of Chronic Illness Therapy-Fatigue (FACIT-F v4) is a short, 13-item patient-reported measure, easy-to-administer tool that measures an individual's level of fatigue during their usual daily activities over the past week. The level of fatigue is measured on a 5-point Likert scale (0 = not at all, 1 = a little bit, 2 = somewhat, 3 = quite a bit, 4 = very much). To score the FACIT-fatigue, all items are summed to create a single fatigue score with a range from 0 to 52, where a higher FACIT-F score indicates more severe symptoms. A negative change score from baseline indicates improvement.",
+        "timeFrame": "Baseline, Weeks 4, 8, 12, 20 and 24"
+      },
+      {
+        "measure": "SjS and MCTD Participants: Change From Baseline in Physician Global Assessment (PhGA)",
+        "description": "The physician's global assessment scale is used for the Investigator to rate the disease activity of their patient using 100 mm visual analog scale (VAS) ranging from \"no disease activity\" (0) to \"maximal disease activity\" (100). A negative change score from baseline indicates improvement.",
+        "timeFrame": "Baseline, Weeks 4, 8, 12, 20 and 24"
+      },
+      {
+        "measure": "SjS Participants: Change From Baseline in Eular Sjögren's Syndrome Disease Activity Index (ESSDAI)",
+        "description": "The ESSDAI is an established disease outcome measure for Sjögren's syndrome that classifies disease activity in 3-4 levels according to their severity (i.e., no, low, moderate, high), over each of 12 organ-specific domains. These scores are then summed across the 12 domains in a weighted manner to provide the total score. The score range is 0 - 123, where a higher ESSDAI score indicates more severe symptoms. A negative change score from baseline indicates improvement.",
+        "timeFrame": "Baseline, Weeks 4, 8, 12, 20 and 24"
+      },
+      {
+        "measure": "SjS Participants: Change From Baseline in Eular Sjögren's Syndrome Patient Reported Index (ESSPRI)",
+        "description": "The ESSPRI is an established disease outcome measure for Sjögren's syndrome. The ESSPRI is a patient-reported, subjective symptom index which consists of three questions covering the cardinal symptoms of Sjögren's syndrome: dryness, fatigue and pain (articular and/or muscular). The participant can assess severity of symptoms they experience on a single numerical scale of 0-10 (0 =no symptom at all and 10 = worst symptom imaginable) for each of the three domains. The overall ESSPRI score is calculated as the mean of the three individual domains where all domains carry the same weight. Minimum score can be 0 and maximum score can be 10, where a higher ESSPRI score indicates more severe symptoms. A negative change score from baseline indicates improvement.",
+        "timeFrame": "baseline, weeks 4, 8, 12, 20 and 24"
+      },
+      {
+        "measure": "SjS Participants: Change From Baseline to the Salivary Flow Rate",
+        "description": "Unstimulated whole salivary fluid secretions were collected over 5 minutes from participants. All assessments were performed at a fixed time of the day to minimize fluctuations related to the circadian rhythm of salivary flow and composition. Participants were instructed not to eat, drink or smoke for 90 minutes before the assessment. The start time and end time of saliva collection were recorded to calculate the salivary flow rate per minute. Only participants with evaluable records are included.",
+        "timeFrame": "Baseline, Weeks 4, 12 and 24"
+      },
+      {
+        "measure": "SjS Participants: Change From Baseline to the Schirmer's Test",
+        "description": "Schirmer's test is used to determine whether the eye produces enough tears to keep it moist especially for those who suffer from dry eye syndrome. A strip is placed in the lower eyelid for 5 minutes to assess tear production. After 5 minutes, the filter paper is removed and the distance between the leading edge of wetness and the initial fold is measured, using a millimeter ruler. Tear deficiency is defined as \\<5 mm wetting of the paper after 5 minutes.",
+        "timeFrame": "Baseline, Week 4, 12 and 24"
+      },
+      {
+        "measure": "SjS Participants: Sjögren's Tool for Assessing Response (STAR) Response Over Time up to Week 24",
+        "description": "STAR is a composite responder index, including in a single tool all main disease features, and designed for use as a key efficacy endpoint in SjS Domain Point Definition of response.\n\nPoints are assigned in the following 5 domains, if the corresponding criteria are met:\n\n* Systemic activity, if decrease in clin ESSDAI ≥ 3 points: 3 points\n* Patient reported outcome, if decrease in ESSPRI ≥ 1 point or 15%: 3 points\n* Lacrimal gland function (assessed by Schirmer's test), if abnormal score at baseline: increase ≥ 5 mm from baseline OR if normal score at baseline: no change to abnormal: 1 point\n* Salivary gland function (assessed by unstimulated salivary flow), if increase ≥ 25% from baseline: 1 point\n* Biological (assessed by serum IgG levels), if decrease ≥ 10%: 1 point The Total Score is the sum of all 5 domain scores, ranging from 0 to 9 points. A STAR responder is defined as ≥ 5 points in the Total Score.",
+        "timeFrame": "Baseline, Week 4, 12 and 24"
+      },
+      {
+        "measure": "MCTD: Change From Baseline in Articular and Pulmonary Domains of the Eular Sjögren's Syndrome Disease Activity Index (ESSDAI)",
+        "description": "The ESSDAI is an established disease outcome measure for Sjögren's syndrome that classifies disease activity in 3-4 levels according to their severity (i.e., no, low, moderate, high), over each of 12 organ-specific domains. Participants with Mixed Connective Tissue Disease (MCTD) completed the articular (from 0 \"no activity\" to 3 \"high activity\") and pulmonary (from 0 \"no activity to 3 \"high activity\") domains of the ESSDAI only. For MCTD participants, the score range is 0-21, where a higher score indicates more severe symptoms. A negative change score from baseline indicates improvement.",
+        "timeFrame": "Baseline, Weeks 4, 8, 12 and 24"
+      },
+      {
+        "measure": "MCTD Participants: Change From Baseline in Forced Vital Capacity (FVC)",
+        "description": "Forced Vital Capacity (FVC) is the total amount of air exhaled during the Forced expiratory volume (FEV) test measured through spirometry testing. FEV measures how much air a person can exhale during a forced breath. A positive change from baseline is considered a favorable outcome.",
+        "timeFrame": "Baseline, Week 12"
+      },
+      {
+        "measure": "MCTD Participants: Change From Baseline in Forced Expiratory Volume During the First Second (FEV1) of a Forced Breath",
+        "description": "FEV1 (forced expiratory volume in one second) is the amount of air which can be forcibly exhaled from the lungs in the first second of a forced exhalation, measured through spirometry testing. A positive change from baseline in FEV1 is considered a favourable outcome.",
+        "timeFrame": "Baseline, Week 12"
+      },
+      {
+        "measure": "MCTD Participants: Change From Baseline in Forced Expiratory Volume During the First Two Seconds (FEV2) of a Forced Breath",
+        "description": "FEV2 (forced expiratory volume in two seconds) is the amount of air which can be forcibly exhaled from the lungs in the first two seconds of a forced exhalation, measured through spirometry testing. A positive change from baseline in FEV2 is considered a favourable outcome.",
+        "timeFrame": "Baseline, Week 12"
+      },
+      {
+        "measure": "MCTD Participants: Change From Baseline in Forced Expiratory Volume During the First Three Seconds (FEV3) of a Forced Breath",
+        "description": "FEV3 (forced expiratory volume in three seconds) is the amount of air which can be forcibly exhaled from the lungs in the first three seconds of a forced exhalation, measured through spirometry testing. A positive change from baseline in FEV3 is considered a favourable outcome.",
+        "timeFrame": "Baseline, Week 12"
+      },
+      {
+        "measure": "MCTD Participants: Diffusing Capacity of the Lungs for Carbon Monoxide (DLCO)",
+        "description": "Diffusing capacity of the lungs for carbon monoxide (DLCO) is a measurement to assess the ability of the lungs to transfer gas from inspired air to the bloodstream. Inhaled carbon monoxide (CO) is used for this test due to its high affinity for hemoglobin. During a ten-second breath-hold, DLCO measures uptake of CO per time per CO pressure. The outcome is presented as percentage of predicted DLCO value.",
+        "timeFrame": "Baseline, Week 24"
+      },
+      {
+        "measure": "MCTD Participants: Change From Baseline in King's Brief Interstitial Lung Disease (K-BILD)",
+        "description": "The K-BILD questionnaire is a self-administered health-status questionnaire that has been developed in patients with interstitial lung diseases. It consists of 15 items in three domains: breathlessness and activities, psychological factors, and chest symptoms. Total scores range from 0 to 100, with higher scores representing better health status.",
+        "timeFrame": "Baseline, Weeks 4, 8, 12 and 24"
+      },
+      {
+        "measure": "MCTD Participants: Change From Baseline in Raynaud's Condition Score (RCS)",
+        "description": "The Raynaud's Condition score (RCS) is participant's rating of difficulty considering number of attacks, duration, amount of pain, numbness, or other symptoms caused in the fingers (including painful sores) due to the Raynaud's phenomenon and impact of Raynaud's alone on use of hands every day. An 11-point Likert scale is used to rate the difficulty caused by the condition with 0 = no difficulty and 10 = extreme difficulty. Participants are asked to select the number that best describes their difficulty, with higher score indicating worse condition.",
+        "timeFrame": "Baseline, Weeks 4, 12 and 24"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 18,
+      "otherCount": 0,
+      "totalCount": 20
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:00.074Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

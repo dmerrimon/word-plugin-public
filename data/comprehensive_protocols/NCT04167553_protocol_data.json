@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT04167553",
+  "briefTitle": "Study for Multiple Doses of HM15136(Efpegerglucagon) in Obese or Overweight Subjects With Comorbidities",
+  "officialTitle": "A Phase 1, Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Multiple Doses of HM15136(Efpegerglucagon) in Obese or Overweight Subjects With Comorbidities",
+  "protocolDocument": {
+    "nctId": "NCT04167553",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-10-29",
+    "uploadDate": "2022-03-29T00:56",
+    "size": 1895692,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04167553/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 52,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-08-30",
+    "completionDate": "2020-12-09",
+    "primaryCompletionDate": "2020-12-09",
+    "firstSubmitDate": "2019-11-15",
+    "firstPostDate": "2019-11-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Male or Female subjects\n2. Age ≥ 18 to ≤ 65 years at Screening visit\n3. Body Mass Index ( BMI ≥ 30 kg/m 2 or 27 kg/m 2 with presence of comorbidities (Subjects in Part 1 and Subjects with Pre diabete s mellitus (DM) in Part 2: dyslipidemia and or hypertension except for Type 2 (T2) DM, T2DM subjects in Part 2: dyslipidemia and/or hypertension with T2DM) with/without medication treatment and have had stable weight for 3 months (weight changes less than 5%)\n\nExclusion Criteria:\n\n1. Previous surgical treatment for obesity (bariatric surgery, gastric banding, etc.) or any other gastrointestinal surgery that may induce malabsorption, history of bowel resection \\> 20 cm, any malabsorption disorder, severe gastroparesis, any GI procedure for weight loss (including LAPBAND®), as well as clinically significant gastrointestinal disorders (e.g. peptic ulcers, severe GERD ) at Screening.\n2. Use of antacids, anticoagulants, or drugs that directly modify gastrointestinal (GI) motility, including antacid s anticholinergics, anticonvulsants, serotonin type 3 (5HT3) antagonists, dopamine antagonists, opiates; anticoagulation within 2 weeks of screening (But, it is not limited to the above listed drugs.)\n3. Uncontrolled hypertension, defined as systolic blood pressure \\> 160 mmHg and/or diastolic blood pressure ≥ 100 mmHg at screening independent of subjects being on antihypertensive medication or no t). But, if the results are out of the reference range at the screening visit, they can be tested again on another day. Subjects with uncontrolled hypertension may be rescreened after 3 months, following initiation or adjustment of antihyp ertensive therapy.)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "To Evaluate the Incidence of AEs",
+        "description": "To evaluate the incidence of AEs: Skin and subcutaneous tissue disorders",
+        "timeFrame": "after multiple subcutaneous (SC) doses for 12 weeks"
+      },
+      {
+        "measure": "To Evaluate Serum Amylase Levels at 12 Weeks",
+        "description": "To evaluate the incidence of clinical lab abnormalities of serum amylase",
+        "timeFrame": "after multiple subcutaneous (SC) doses for 12 weeks"
+      },
+      {
+        "measure": "Change From Baseline in Tympanic Temperature",
+        "description": "tympanic temperature change",
+        "timeFrame": "after multiple subcutaneous (SC) doses for 12 weeks"
+      },
+      {
+        "measure": "Change From Baseline in 12-lead ECG Parameters",
+        "description": "QT interval corrected for HR using Fridericia's correction \\[QTcF\\]",
+        "timeFrame": "after multiple subcutaneous (SC) doses for 12 weeks"
+      },
+      {
+        "measure": "Injection Site Reactions",
+        "description": "Injection site reactions occurance",
+        "timeFrame": "after multiple subcutaneous (SC) doses for 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Serum Lipid Profiles",
+        "description": "Change Cholesterol from baseline to end of treatment (12 weeks)",
+        "timeFrame": "Change from baseline to end of treatment (12 weeks)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:15.122Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

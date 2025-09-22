@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02955225",
+  "briefTitle": "Using Pressure Detecting Insoles to Reduce Knee Loading",
+  "officialTitle": "Using Pressure Detecting Insoles to Reduce Knee Loading and Improve Function",
+  "protocolDocument": {
+    "nctId": "NCT02955225",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-06-05",
+    "uploadDate": "2023-02-02T21:14",
+    "size": 145543,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02955225/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 38,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-10",
+    "completionDate": "2021-09",
+    "primaryCompletionDate": "2021-08",
+    "firstSubmitDate": "2016-10-01",
+    "firstPostDate": "2016-11-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Able and willing to give informed consent and comply with the study protocol.\n* Symptomatic OA of the knee greater than 3 months, as defined by the American College of Rheumatology's Clinical Criteria for Classification and Reporting of OA of the Knee. If symptoms are bilateral, then the knee identified as more symptomatic will serve as the index knee.\n* Ambulatory knee pain, defined as the presence of greater than 30 mm of pain while walking on a flat surface (corresponding to question 1 of the visual analog format of the WOMAC).\n* Radiographic OA of the study knee of grade 2 or 3, as defined by the modified Kellgren and Lawrence (K-L) grading scale.\n* Medial compartment OA, defined as either qualitative joint space narrowing of ≥ 1or the presence of medial bone cyst, sclerosis, or osteophyte.\n* Able to walk at least 10 minutes without a break.\n* Age of 40 years or older\n\nExclusion Criteria:\n\n* Unwillingness to wear study shoes for at least 6 hours/day for 6 days of the week\n* Knee flexion contracture of \\> 15 degrees or inability to ambulate without assistance.\n* Presence of clinical OA of the ankle or hip or ankle/hip pain\\>10 mm (WOMAC).\n* Predominant lateral compartment OA, defined as narrowing of the lateral joint space in excess of the narrowing of the medial joint space in either knee.\n* Concurrent systemic inflammatory arthropathy\n* Prior knee or hip arthroplasty, or surgical arthroscopy within the previous 3 months.\n* Intrinsic foot disease: hallux rigidus, hallux abducto-valgus, metatarsalgia, plantar fasciitis, peripheral neuropathy, or any foot condition that may be exacerbated particular footwear.\n* Intra-articular knee injection: steroids within 6 wks, hyaluronan derivatives within 4 mos.\n* Body mass index greater than 38.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Knee Adduction Moment Relative to Baseline",
+        "description": "Surrogate marker of medial knee loading, measured using 3D motion analysis, with initial SI units in Newton\\*meters, and normalized to the individual's body weight and height, resulting in measurement units (% bodyweight \\* height).\n\nTo assess changes in loading at the knee between baseline and the three post-baseline measurements (Immediately after initial training, after 3 weeks of ongoing training, after 6 weeks of ongoing training), participants underwent gait analysis in a motion analysis laboratory using force plates and optoelectric cameras to quantify the joint moments in three directions. This study focused on the change in joint moment in the frontal plane. After training with an active insole, we would expect reductions in the frontal plane knee joint moment. Generally speaking, lower moments are better and a negative change is desired.",
+        "timeFrame": "Immediately after initial training, after 3 weeks of ongoing training, after 6 weeks of ongoing training"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Moment Lever-arm for KAM",
+        "description": "To further assess changes in loading at the knee between baseline and the three post-baseline measurements (Immediately after initial training, after 3 weeks of ongoing training, after 6 weeks of ongoing training), participants underwent gait analysis in a motion analysis laboratory using force plates and optoelectric cameras to quantify joint moment. One component which determines the knee moment is the lever-arm between ground reaction force vector and the center of the knee joint, in the frontal plane, which is measured in millimeters.",
+        "timeFrame": "Immediately after initial training, after 3 weeks of ongoing training, after 6 weeks of ongoing training"
+      },
+      {
+        "measure": "Change in SPEED",
+        "description": "A change in Speed (m/s) after 3 and 6 weeks of training with insoles.",
+        "timeFrame": "Immediately after initial training, after 3 weeks of ongoing training, after 6 weeks of ongoing training"
+      },
+      {
+        "measure": "Change in Knee Pain",
+        "description": "To assess a change pain, participants completed the Knee Injury and Osteoarthritis Outcome Score (KOOS) at baseline, and after 3 and 6 weeks of training with insoles; 0 representing extreme problems and 100 representing no problems",
+        "timeFrame": "after 3 weeks of ongoing training, after 6 weeks of ongoing training"
+      },
+      {
+        "measure": "Change in Self-reported Functional Status Between Baseline, After 3 Weeks of Training, and After 6 Weeks of Training",
+        "description": "To assess a change self-reported Functional status, participants completed the Knee Injury and Osteoarthritis Outcome Score (KOOS) at baseline, and after 3 and 6 weeks of training with insoles; 0 representing extreme problems and 100 representing no problems with Function in daily living, with a score of 100 as the optimal outcome with unlimited function. (change between baseline and 3 weeks, and the change between baseline and 6 weeks)",
+        "timeFrame": "after 3 weeks of ongoing training, after 6 weeks of ongoing training"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:59.866Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

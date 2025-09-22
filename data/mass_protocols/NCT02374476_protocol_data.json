@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT02374476",
+  "briefTitle": "Bipolar Ventricular Tachycardia (VT) Study",
+  "officialTitle": "Bipolar Catheter Ablation for the Treatment of Refractory Scar-Related Ventricular Arrhythmia",
+  "protocolDocument": {
+    "nctId": "NCT02374476",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-08-24",
+    "uploadDate": "2022-07-07T08:52",
+    "size": 473879,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02374476/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 145,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-02-18",
+    "completionDate": "2020-09-30",
+    "primaryCompletionDate": "2020-04-01",
+    "firstSubmitDate": "2015-02-23",
+    "firstPostDate": "2015-02-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* ≥ 18 years of age.\n* The study will include all forms of scar VT--both ischemic (post-myocardial infarction) and non-ischemic (eg sarcoid, amyloid, dilated)--as determined by cardiac MRI and/or voltage mapping at the time of VT ablation.\n* Intramural VT not terminable with unipolar ablation once enrolled in the Bipolar study or previous failed unipolar ablation within 6 months prior to enrollment.\n* Ability to understand the requirements of the study and sign the informed consent form.\n* Willingness to adhere to study restrictions and comply with all post- procedural follow-up requirements\n* Projected lifespan greater than 1 year.\n\nExclusion Criteria:\n\n* Tissue Thickness less than 5 mm as assessed by electroanatomic mapping, CT, or MRI.\n* MI or CABG within 6 weeks.\n* NYHA Class IV CHF.\n* Women known to be pregnant or to have positive beta-HCG.\n* Participation in another study that would interfere with this study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Achieving Freedom From Recurrent Ventricular Tachycardia (VT)",
+        "description": "Freedom from recurrent VT at 6 months, defined as sustained ventricular tachycardia lasting longer than 30 seconds and identified due to clinical symptoms or during device interrogation.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Procedural Complications",
+        "description": "Total number of procedural complications which includes death, stroke, MI, heart failure, conduction abnormalities, pericardial effusion requiring drainage, hematoma, pseudoaneurysm",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Participants With Post-ablation Inducibility of VT",
+        "description": "Number of participants to indicate incidence of the induction of any sustained arrhythmia post-ablation, with a duration \\> 15 seconds of monomorphic VT (MMVT). Post ablation inducibility is measured via program stimulation.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Time to Arrhythmia Termination for the Bipolar Group Only",
+        "description": "When bipolar ablation is performed during ongoing Ventricular Tachycardia (VT), the time to termination is the amount of ablation time that was necessary to cause VT to stop (terminate)",
+        "timeFrame": "through termination, up to 60 seconds"
+      },
+      {
+        "measure": "Total Duration of Bipolar Ablation",
+        "description": "Duration of bipolar ablation is the total procedure time",
+        "timeFrame": "average of 345 minutes"
+      },
+      {
+        "measure": "Number of of Participants With Mortality",
+        "description": "Number of participant from all cause mortality",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:19.203Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

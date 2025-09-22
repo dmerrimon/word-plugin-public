@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03812224",
+  "briefTitle": "A Controlled Trial of Erenumab in Migraine Prevention",
+  "officialTitle": "A Phase 3 Japanese Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of Erenumab in Migraine Prevention",
+  "protocolDocument": {
+    "nctId": "NCT03812224",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-12-02",
+    "uploadDate": "2021-01-29T14:18",
+    "size": 3301995,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03812224/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 261,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-04-12",
+    "completionDate": "2020-11-25",
+    "primaryCompletionDate": "2020-03-16",
+    "firstSubmitDate": "2019-01-18",
+    "firstPostDate": "2019-01-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subject has provided informed consent/assent prior to initiation of any study specific activities/procedures.\n* Japanese subjects greater than or equal to 20 to less than or equal to 65 years of age upon entry into screening.\n* History of migraine (with or without aura) for greater than or equal to 12 months before screening according to the International Headache Society Classification ICHD-3 (Headache Classification Committee of the International Headache Society, 2018) based on medical records and/or patient self-report\n* Migraine frequency: Chronic Migraine (CM) or Episodic Migraine (EM) over the 3 months before screening based on the following criteria:\n\n  1. CM is defined as greater than or equal to 15 headache days per month of which greater than or equal to 8 headache days on average across the 3 months meet criteria as migraine days\n  2. EM is defined as less than 15 headache days per month of which at least 4 or more headache days on average across the 3 months meet criteria as migraine days\n\nExclusion Criteria:\n\n* Subjects greater than 50 years of age at migraine onset.\n* History of cluster headache or hemiplegic migraine headache.\n* Unable to differentiate migraine from other headaches.\n* Migraine with continuous pain, in which the subject does not experience any pain-free periods (of any duration) during the 1 month before the screening period.\n* Malignancy, except non-melanoma skin cancers, cervical or breast ductal carcinoma in situ within the last 5 years.\n\nOther exclusion criteria may apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Mean Monthly Migraine Days (MMD) Over Months 4, 5, and 6 of the Double-blind Treatment Period",
+        "description": "A migraine day was any calendar day in which the participant experienced a qualified migraine headache (onset, continuation, or recurrence of the migraine headache). A qualified migraine headache was defined either as a migraine with or without aura, lasting for ≥ 4 hours, and meeting at least 1 of the following criteria:\n\n1. ≥ 2 of the following pain features:\n\n   * unilateral\n   * throbbing\n   * moderate to severe\n   * exacerbated with exercise/physical activity\n2. ≥ 1 of the following associated symptoms:\n\n   * nausea\n   * vomiting\n   * photophobia and phonophobia\n\nThe change from baseline in monthly migraine days was calculated as the average number of migraine days per month during the last 3 months (months 4, 5, and 6) of the 24-week double-blind treatment period minus the number of migraine days during the 4-week baseline period.",
+        "timeFrame": "4-week baseline period and the last 3 months (months 4, 5, and 6) of the 24-week double-blind treatment period"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With at Least a 50% Reduction From Baseline in Mean Monthly Migraine Days Over Months 4, 5, and 6 of the DBTP",
+        "description": "A migraine day was any calendar day in which the participant experienced a qualified migraine headache (onset, continuation, or recurrence of the migraine headache). A qualified migraine headache was defined either as a migraine with or without aura, lasting for ≥ 4 hours, and meeting at least 1 of the following criteria:\n\n1. ≥ 2 of the following pain features:\n\n   * unilateral\n   * throbbing\n   * moderate to severe\n   * exacerbated with exercise/physical activity\n2. ≥ 1 of the following associated symptoms:\n\n   * nausea\n   * vomiting\n   * photophobia and phonophobia",
+        "timeFrame": "4-week baseline period and the last 3 months (months 4, 5, and 6) of the 24-week double-blind treatment period"
+      },
+      {
+        "measure": "Change From Baseline in Mean Monthly Acute Migraine-specific Medication Treatment Days Over Months 4, 5, and 6 of the DBTP",
+        "description": "An acute migraine-specific medication treatment day is any calendar day during which a participant took a migraine-specific medication (e.g., triptan or ergotamine).\n\nThe change from baseline in monthly acute migraine-specific treatment days was calculated as the average number of migraine-specific treatment days per month during the last 3 months of the 24-week double-blind treatment period minus the number of migraine-specific treatment days during the 4-week baseline period.",
+        "timeFrame": "4-week baseline period and the last 3 months (months 4, 5, and 6) of the 24-week double-blind treatment period"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:52.796Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

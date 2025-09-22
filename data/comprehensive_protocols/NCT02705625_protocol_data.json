@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT02705625",
+  "briefTitle": "A Study to Evaluate the Efficacy, Safety and Tolerability of MIV-711 in Osteoarthritis Patients",
+  "officialTitle": "A Randomised, Double-blind Placebo-controlled Phase IIa Study to Evaluate Efficacy, Safety and Tolerability of MIV-711 in Knee Joint Osteoarthritis",
+  "protocolDocument": {
+    "nctId": "NCT02705625",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-07-20",
+    "uploadDate": "2018-05-18T09:33",
+    "size": 543561,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02705625/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 244,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-01-28",
+    "completionDate": "2017-05-23",
+    "primaryCompletionDate": "2017-05-23",
+    "firstSubmitDate": "2016-03-07",
+    "firstPostDate": "2016-03-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Current average knee pain, defined as pain in either knee, within 1 week before visit 1, for which the patient gives a severity score of ≥4, \\<10 on a 0-10 NRS (Numeric Rating Scale).\n* Inclusive of 40-80 years old.\n* Diagnosis of primary knee osteoarthritis\n\nExclusion Criteria:\n\n* The presence of any inflammatory arthritis\n* Any generalized pain condition that may interfere with the evaluation of the target knee pain (e.g., fibromyalgia) as judged by the investigator.\n* Any clinically severe or significant uncontrolled concurrent illness, which, in the opinion of the Investigator, would impair ability to give informed consent or take part in or complete this clinical study.\n* Known or suspected intolerance or hypersensitivity to the investigational product, closely related compounds, or any of the stated ingredients.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Numeric Rating Scale (NRS) Average Target Knee Pain Score at Week 26",
+        "description": "Change from Visit 2 (Baseline) to Visit 8 (Week 26) in NRS average target knee pain score.\n\nNRS (Numeric rating scale) ranges from 0 indicating -\"no pain\", to 10 indicating - \"pain as bad as it could be\".",
+        "timeFrame": "baseline and 26 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Magnetic Resonance Imaging (MRI) Bone Area of the Target Knee at Week 26",
+        "description": "Change from Visit 2 (Baseline) to Visit 8 (Week 26) in MRI (Magnetic Resonance Imaging;) bone area of the target knee in mm\\^2.",
+        "timeFrame": "baseline and 26 weeks"
+      },
+      {
+        "measure": "Magnetic Resonance Imaging (MRI) of Cartilage Thickness (Femur) at Week 26",
+        "description": "Change from Visit 2 (baseline) to Visit 8 (week 26) in MRI cartilage thickness in the Central Medial Femur Region of the target knee in mm.",
+        "timeFrame": "baseline and 26 weeks"
+      },
+      {
+        "measure": "Normalised Western Ontario & McMaster Universities Osteoarthritis Index (WOMAC) Pain Score",
+        "description": "Change from Visit 2 (Baseline) to Visit 8 (Week 26) in normalised WOMAC pain score. The WOMAC responses are scored using an 11-point NRS where 0=none and 10=extreme. There are 5 questions in the WOMAC pain scale which is summed up for the total WOMAC score, leading to a range of 0 to 50. The total WOMAC pain score has been standardised to a scale with a range from 0 to 100 (where 100 is extreme pain):\n\n\\- Normalised WOMAC pain score = Total WOMAC pain score multiplicated with 2.",
+        "timeFrame": "baseline and 26 weeks"
+      },
+      {
+        "measure": "Normalised Western Ontario & McMaster Universities Osteoarthritis Index (WOMAC) Difficulty Score",
+        "description": "Change from Visit 2 (Baseline) to Visit 8 (Week 26) in normalised WOMAC difficulty score. The WOMAC responses are scored using an 11-point NRS where 0=none and 10=extreme. There are 17 questions in the WOMAC difficulty scale which is summed up for the total WOMAC difficulty score, leading to a range of 0 to 170. The total WOMAC difficulty score has been standardised to a scale with a range from 0 to 100 (where 100 is extreme pain):\n\n\\- Normalised WOMAC difficulty score = Total WOMAC difficulty score divided with 1.7",
+        "timeFrame": "baseline and 26 weeks"
+      },
+      {
+        "measure": "Normalised Western Ontario & McMaster Universities Osteoarthritis Index (WOMAC) Stiffness Score",
+        "description": "Change from Visit 2 (Baseline) to Visit 8 (Week 26) in normalised WOMAC stiffness score. The WOMAC responses are scored using an 11-point NRS where 0=none and 10=extreme. There are 2 questions in the WOMAC stiffness scale which is summed up for the total WOMAC stiffness score, leading to a range of 0 to 20. The total WOMAC stiffness score has been standardised to a scale with a range from 0 to 100 (where 100 is extreme pain):\n\n\\- Normalised WOMAC stiffness score = Total WOMAC stiffness score multiplicated with 5",
+        "timeFrame": "baseline and 26 weeks"
+      },
+      {
+        "measure": "Serum C-terminal Telopeptide of Collagen Type I (CTX-I) at Week 26",
+        "description": "Change from Visit 2 (baseline) to Visit 8 (week 26) in serum CTX-I, a biomarker for bone resorption.",
+        "timeFrame": "baseline and 26 weeks"
+      },
+      {
+        "measure": "Creatinine Corrected Urine C-terminal Telopeptide of Collagen Type II (CTX-II) at Week 26",
+        "description": "Change from Visit 2 (baseline) to Visit 8 (week 26) in creatinine corrected urine CTX-II, a biomarker for cartilage degradation.",
+        "timeFrame": "baseline and 26 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:57.061Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

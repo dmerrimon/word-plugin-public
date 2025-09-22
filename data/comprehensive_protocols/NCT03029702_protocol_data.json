@@ -1,0 +1,124 @@
+{
+  "nctId": "NCT03029702",
+  "briefTitle": "Metabolic Analysis for Treatment Choice in Gestational Diabetes Mellitus",
+  "officialTitle": "Metabolic Analysis for Treatment Choice in Gestational Diabetes Mellitus",
+  "protocolDocument": {
+    "nctId": "NCT03029702",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-03-01",
+    "uploadDate": "2024-11-06T13:44",
+    "size": 752549,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03029702/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 54,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-02-28",
+    "completionDate": "2023-08-31",
+    "primaryCompletionDate": "2023-08-31",
+    "firstSubmitDate": "2017-01-19",
+    "firstPostDate": "2017-01-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Pregnant women beyond 24 weeks of gestation who are scheduled for a 3-hour oral glucose tolerance test.\n\nExclusion Criteria:\n\n* Fetal anomaly\n* Pregestational diabetes\n* GDM diagnosis without a 3-hour OGTT\n* Multifetal gestation\n* Treatment with non-inhaled steroids within 7 days\n* Allergy to glyburide, metformin or sulfa\n* History of severe pulmonary (pulmonary requirement for oxygen therapy or daily treatment for restrictive of obstructive pulmonary disease)\n* Hepatic (LFT's greater than two times of upper normal range)\n* Renal (serum creatinine higher than 1.2 mg/dL) disease\n* History of heart failure or myocardial infarction",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "45 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Women Who Are Eligible, Screened, Enroll and Remain in the Study",
+        "description": "Proportion of women who are eligible, screened, enrolled and remain in the study",
+        "timeFrame": "Through study completion, an average of 16 weeks"
+      },
+      {
+        "measure": "Proportion of Participants Who Report Suitability of the Study Procedures",
+        "description": "Suitability of the study procedures and interventions to participants assessed through one-on-one qualitative interview",
+        "timeFrame": "Through study completion, an average of 16 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Proportion of Participants With Consistent GDM Mechanism Before and and After Treatment Initiation",
+        "timeFrame": "2 weeks after treatment initiation"
+      },
+      {
+        "measure": "Proportion of Women Who Remain on Same Treatment During Study",
+        "timeFrame": "Through study completion, an average of 16 weeks"
+      },
+      {
+        "measure": "Maternal Glucose Control",
+        "description": "\\>50% fasting below 95 and 1 hour postprandial \\< 140 during the 4 weeks before delivery",
+        "timeFrame": "Delivery"
+      },
+      {
+        "measure": "Proportion of Participants Who Deliver by Primary Cesarean",
+        "timeFrame": "Delivery"
+      },
+      {
+        "measure": "Proportion of Participants Who Developed Hypertensive Diseases in Pregnancy",
+        "timeFrame": "Delivery"
+      },
+      {
+        "measure": "Birthweight",
+        "timeFrame": "Delivery"
+      },
+      {
+        "measure": "Neonatal Lean Body Mass",
+        "timeFrame": "Within 72 hours of delivery"
+      },
+      {
+        "measure": "Cord Blood Glucose",
+        "timeFrame": "Delivery"
+      },
+      {
+        "measure": "Cord Blood C-peptide",
+        "timeFrame": "Delivery"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:10.377Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

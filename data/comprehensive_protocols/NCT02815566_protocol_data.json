@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT02815566",
+  "briefTitle": "Bone Health in Aging HIV Infected Women",
+  "officialTitle": "Bone Health in Aging HIV Infected Women: Improvement or Prevention of Changes in Bone Mineral Density by Switching Antiretroviral Agents. Is There an Optimal Time to Intervene?",
+  "protocolDocument": {
+    "nctId": "NCT02815566",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-03-19",
+    "uploadDate": "2022-05-20T09:22",
+    "size": 1050079,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02815566/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 34,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-09-12",
+    "completionDate": "2021-02-25",
+    "primaryCompletionDate": "2021-02-25",
+    "firstSubmitDate": "2016-06-22",
+    "firstPostDate": "2016-06-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Biological female aged 40-60\n2. Documented HIV-1 infection\n3. Peri-menopausal ( as documented by history).\n4. Signed Informed Consent Form and willing to comply with the protocol.\n5. Receiving a cART regimen containing a ritonavir boosted PI (darunavir, atazanavir, lopinavir,) or an NNRTI (efavirenz, nevirapine or rilpivirine) or an integrase inhibitor (dolutegravir or raltegravir or elvitegravir) in combination with TDF-FTC for \\> 24 weeks.\n6. Stable viral suppression (plasma HIV-RNA\\<50 copies/mL for \\> 24 weeks). Single viral blip \\<500/ml allowed if re-suppresses.\n7. If of childbearing potential, is using effective birth control methods and is willing to continue during the trial.\n8. Women will be assessed for vitamin D and calcium dietary intake; if inadequate for age, supplements will be recommended.\n\nExclusion Criteria:\n\n1. HIV-2\n2. High 10-year fracture risk at baseline ( \\> 20%) based on country specific FRAX\n3. Current treatment with active bone medications- bisphosphonates, denosumab, calcitonin, raloxifene, teriparatide, strontium\n4. Current use of systemic steroids ( inhaled steroids permitted) or chemotherapeutic agents\n5. Acute viral hepatitis\n6. Chronic hepatitis C with liver transaminases \\>5 x ULN or expected to require treatment for hepatitis C during the trial period.\n7. Any investigational ARV within 30 days.\n8. Dialysis or renal insufficiency (creatinine clearance \\< 50ml/min)\n9. History of decompensated liver disease (AST or ALT≥5x the upper limit of normal (ULN) or ALT ≥ 3 x ULN and bilirubin ≥ 1.5 x ULN with \\> 35% direct bilirubin), or the presence of ascites, encephalopathy, coagulopathy, hypoalbuminemia, esophageal or gastric varices.\n10. Pregnant or breastfeeding\n11. Screening blood result with any grade 3/4 toxicity according to Division of AIDS (DAIDS) grading scale, except: asymptomatic grade 3 amylase, creatinine phosphokinase, or lipid elevation.\n12. Any condition (including illicit drug use or alcohol abuse) or lab results which, in the investigator's opinion, interfere with assessments or completion of the trial.",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "40 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percent Change in Bone Mineral Density From Baseline at the Lumbar Spine",
+        "description": "The outcome measures presented are descriptive as enrollment in the clinical trial did not reach the target number of subjects needed to achieve target power and was insufficient to produce statistically reliable results. There are limited results at the week 48 timepoint due to the COVID pandemic.",
+        "timeFrame": "Baseline, 48 weeks and 96 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "% Change in Bone Mineral Density From Baseline at the Femoral Neck",
+        "description": "The outcome measures presented are descriptive as enrollment in the clinical trial did not reach the target number of subjects needed to achieve target power and was insufficient to produce statistically reliable results. There are limited results at the week 48 timepoint due to the COVID pandemic.",
+        "timeFrame": "Baseline, 48 weeks and 96 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:04.275Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

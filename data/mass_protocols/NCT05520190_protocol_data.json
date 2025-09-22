@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT05520190",
+  "briefTitle": "Acceptability and Feasibility of Cognitive Behavioral Therapy for Treatment-Seeking (CBT-TS) With Deaf Individuals",
+  "officialTitle": "Acceptability and Feasibility of Cognitive Behavioral Therapy for Treatment-Seeking (CBT-TS) With Deaf Individuals",
+  "protocolDocument": {
+    "nctId": "NCT05520190",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-08-03",
+    "uploadDate": "2024-08-28T17:34",
+    "size": 331739,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05520190/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 42,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-04-03",
+    "completionDate": "2024-02-09",
+    "primaryCompletionDate": "2024-02-09",
+    "firstSubmitDate": "2022-08-25",
+    "firstPostDate": "2022-08-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* self-identify as Deaf or hard-of-hearing (any degree of hearing loss)\n* primary method of communication is ASL or PSE\n* positive screen for one or more behavioral health disorders including: AUD (AUDIT \\> 16 and alcohol use in the past 30 days exceeds the limit for low-risk drinking established by the NIAAA), PTSD (PCL-5 \\> 31), depression (PHQ-9 \\> 10), anxiety (GAD-7 \\> 10), or insomnia (ISI \\> 15)\n* no current behavioral health treatment per standardized self-report\n* access to video chat technology with internet and webcam.\n\nExclusion Criteria:\n\n* unable to communicate with the researcher in ASL or PSE\n* current alcohol withdrawal necessitating medical evaluation\n* current psychiatric impairment necessitating emergency services or inpatient admission (i.e., imminent danger of harm to self or others)\n* unable to comprehend the nature of the study\n* currently receiving behavioral health treatment for their symptoms.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Participants Who Schedule Professional Treatment",
+        "description": "We will use a validated treatment utilization survey that will assess subjects' use of 12 treatment services, their reasons for seeking/not seeking treatment, and any barriers they experienced through a series of structured questions. Treatment-seeking will be coded as a binary variable representing those who scheduled or attended any professional treatment service and those who did not.",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Mean Change in Attitudes About Treatment",
+        "description": "The Deaf Perceptions About Services Scale (PASS-D) Attitude scale. The Attitude scale contains 4 items assessing individuals' attitudes about behavioral health treatment. The items are rated on a Likert scale ranging from 1 - 7. Scores are averaged across the items for a total score of 1 - 7 with higher scores indicating more favorable attitudes about treatment.",
+        "timeFrame": "baseline to 1 month"
+      },
+      {
+        "measure": "Mean Change in Subjective Norm About Treatment",
+        "description": "The Deaf Perceptions About Services Scale (PASS-D) Subjective Norm scale. The Subjective Norm scale contains 3 items assessing individuals' perceptions of the subjective norm in their community about behavioral health treatment. The items are rated on a Likert scale ranging from 1-7. Scores are averaged across the items for a total score of 1 - 7 with higher scores indicating more favorable perceptions about treatment.",
+        "timeFrame": "baseline to 1 month"
+      },
+      {
+        "measure": "Mean Change in Perceived Behavioral Control About Seeking Treatment",
+        "description": "The Deaf Perceptions About Services Scale (PASS-D) Perceived Behavioral Control scale. The Perceived Behavioral Control scale contains 3 items assessing individuals' perceived behavioral control to seek behavioral health treatment. The items are rated on a Likert scale ranging from 1 - 7. Scores are averaged across the items for a total score of 1 - 7 with higher scores indicating more perceived behavioral control to seek treatment.",
+        "timeFrame": "baseline to 1 month"
+      },
+      {
+        "measure": "Mean Change in Intention to Seek Treatment",
+        "description": "The D-PASS will be administered pre-and-post-treatment to collect information about subjects' intention to seek treatment. The scale ranges from 3 to 21 with higher scores indicating more favorable attitudes.",
+        "timeFrame": "baseline to 1 month"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:02.977Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

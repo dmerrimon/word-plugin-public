@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT02925403",
+  "briefTitle": "A Study to Assess the Safety and Immunogenicity of the Malaria Vaccine, R21, With Matrix-M1 Adjuvant",
+  "officialTitle": "A Phase Ib Randomised, Controlled, Single-blind Study to Assess the Safety, Immunogenicity of the Malaria Vaccine Candidate R21 With Matrix-M1 Adjuvant in West African Adult Volunteers",
+  "protocolDocument": {
+    "nctId": "NCT02925403",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-10-14",
+    "uploadDate": "2019-07-15T10:52",
+    "size": 1103353,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02925403/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 13,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08-26",
+    "completionDate": "2017-02-15",
+    "primaryCompletionDate": "2017-02-15",
+    "firstSubmitDate": "2016-10-04",
+    "firstPostDate": "2016-10-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nThe volunteer must satisfy all the following criteria to be eligible for the study:\n\n* Healthy adults ages 18 to 45 years.\n* Willingness to remain in study area for the period of the study.\n* Able and willing (in the Investigator's opinion) to comply with all study requirements.\n* Women only: Must practice and show documented evidence of continuous effective contraception (e.g. depo-progesterone) or must be willing to take contraceptive measures not to become pregnant for the duration of the study. Willing to have pregnancy tests at screening and vaccination time points.\n* Agreement to refrain from blood donation during the course of the study.\n* Written informed consent to participate in the trial.\n\nExclusion Criteria:\n\nThe volunteer may not enter the study if any of the following apply:\n\n* Hb less than 10.0g/dl\n* Receipt of an investigational product in the 30 days preceding enrolment, or planned receipt during the study period.\n* Prior receipt of an investigational malaria vaccine or any other investigational vaccine likely to impact on interpretation of the trial data.\n* Any confirmed or suspected immunosuppressive or immunodeficient state, including HIV infection; asplenia; recurrent severe infections and chronic (more than 14 days) immunosuppressant or other immune-modifying drugs medication (for corticosteroids, this will mean prednisolone, or equivalent, ≥ 0.5mg/kg/day) within the past 6 months (inhaled and topical steroids are allowed).\n* Use of immunoglobulins or blood products within 3 months prior to enrolment.\n* History of allergic disease or hypersensitivity reactions likely to be exacerbated by any component of the study vaccines.\n* Any history of anaphylaxis post-vaccination.\n* History of clinically significant contact dermititis.\n* Pregnancy, lactation or intention to become pregnant during the study.\n* Disturbances of electrolyte balance, e.g. hypokalaemia or hypomagnesaemia.\n* History of cancer (except basal cell carcinoma of the skin and cervical carcinoma in situ).\n* History of serious psychiatric condition that may affect participation in the study.\n* History of splenectomy.\n* Any other serious chronic illness requiring hospital specialist supervision.\n* HIV or Hepatitis B surface antigen seropositivity.\n* Volunteers unable to be closely followed for social, geographic or psychological reasons.\n* Any clinically significant abnormal finding on biochemistry or haematology blood tests, urinalysis or clinical examination. In the event of abnormal test results, confirmatory repeat test will be requested.\n* Any other significant disease, disorder, or finding which may significantly increase the risk to the volunteer because of participation in the study, affect the ability of the volunteer to participate in the study or impair interpretation of the study data.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "45 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Safety and Tolerability of Administration of R21/Matrix-M1 Assessed by the Occurrence of Solicited Local and Systemic Adverse Events.",
+        "description": "Occurrence of solicited local and systemic adverse events (i.e: pain, redness, swelling and pruritus at injection site and temperature, feverishness, myalgia, arthralgia, malaise, headache and nausea).",
+        "timeFrame": "Assessment of solicited AEs in the first 7 days post vaccination."
+      },
+      {
+        "measure": "Safety and Tolerability of R21/Matrix-M1 Assessed by the Occurrence of Unsolicited Adverse Events.",
+        "description": "Occurrence of unsolicited local and systemic adverse events. This will be done by recording the number of participants who experience unsolicited adverse events.",
+        "timeFrame": "Unsolicited AEs to be assessed up to 28 days post vaccination."
+      },
+      {
+        "measure": "Safety and Tolerability of R21/Matrix-M1 Assessed by the Occurrence of Serious Adverse Events.",
+        "description": "Occurrence of serious adverse events will be collected from enrolment until the end of the follow-up period.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Safety and Tolerability of R21/Matrix-M1 Assessed by the Occurrence of Laboratory Adverse Events.",
+        "description": "Occurrence of laboratory adverse events defined as clinically significant changes from baseline. Haematology (Full Blood Count) and Biochemistry (Kidney and Liver Function Tests) will be assessed.",
+        "timeFrame": "At Day 0 (baseline), day 7 and day 28 post vaccination."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:41.978Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

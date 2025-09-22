@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT02961920",
+  "briefTitle": "The Effect of Prolonged Inspiratory Time on Pulmonary Mechanics in Obese Patients",
+  "officialTitle": "The Influence of Prolonged Inspiratory Time on Respiratory Mechanics and Oxygenation in Obese Patients Undergoing Spine Surgery in the Prone Position",
+  "protocolDocument": {
+    "nctId": "NCT02961920",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-03-06",
+    "uploadDate": "2019-09-16T02:23",
+    "size": 165051,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02961920/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-11",
+    "completionDate": "2019-05",
+    "primaryCompletionDate": "2019-04",
+    "firstSubmitDate": "2016-11-09",
+    "firstPostDate": "2016-11-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* ASA I-II adult patients scheduled for spine surgery under general anesthesia.\n* patient age : greater than 20 years and less than 65years\n* Body Mass Index(BMI) \\>25 kg/m2\n\nExclusion Criteria:\n\n* Patients who have severe pulmonary disease:\n\nhistory of chronic obstructive pulmonary disease (COPD), asthma, or pneumothorax. Patients with haemodynamic instability, hypovolaemia, bronchopleural fistula, history of cardiopulmonary disease, or previous lung surgery are excluded.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "PaO2(Partial Pressure of Oxygen in Arterial Blood)",
+        "description": "ten minutes after tracheal intubation to 90 min after prone position",
+        "timeFrame": "ten minutes after tracheal intubation to 90 min after prone position"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:59.611Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

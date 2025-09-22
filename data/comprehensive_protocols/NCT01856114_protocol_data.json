@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT01856114",
+  "briefTitle": "Fentanyl Buccal Tablets for Exercise Induced Breakthrough Dyspnea",
+  "officialTitle": "A Preliminary Study of Prophylactic Fentanyl Buccal Tablets (FBT) for Exercise Induced Breakthrough Dyspnea",
+  "protocolDocument": {
+    "nctId": "NCT01856114",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-03-08",
+    "uploadDate": "2020-07-28T11:54",
+    "size": 300734,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01856114/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 36,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-05-27",
+    "completionDate": "2019-12-04",
+    "primaryCompletionDate": "2019-12-04",
+    "firstSubmitDate": "2013-05-14",
+    "firstPostDate": "2013-05-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Diagnosis of cancer with evidence of active disease\n2. Breakthrough dyspnea, defined in this study as dyspnea on exertion with an average intensity level \\>/=3/10 on the numeric rating scale\n3. Outpatient at MD Anderson Cancer Center seen by the Supportive Care Service, Thoracic Medical Oncology or Cardiopulmonary Center\n4. Ambulatory and able to walk with or without walking aid\n5. On strong opioids with morphine equivalent daily dose of 60-130 mg for at least one week, with stable (i.e. +/- 30%) regular dose over the last 24 hours\n6. Karnofsky performance status \\>/=50%\n7. Age 18 or older\n8. Able to complete study assessments\n9. Must speak and understand English.\n\nExclusion Criteria:\n\n1. Dyspnea at rest \\>/=7/10 at the time of enrollment\n2. Supplemental oxygen requirement \\>6 L per minute\n3. Delirium (i.e. Memorial delirium rating scale \\>13)\n4. History of unstable angina or myocardial infarction 1 month prior to study enrollment\n5. Resting heart rate \\>120 at the time of study enrollment\n6. Systolic pressure \\>180 mmHg or diastolic pressure \\>100 mmHg at the time of study enrollment\n7. History of active opioid abuse within the past 12 months\n8. History of allergy to fentanyl\n9. Severe anemia (Hb \\<7g/L) if documented in the last month and not corrected prior to study enrollment\\*\n10. Bilirubin \\>5X Upper limit of normal if documented in the last month and not lowered to \\<5x normal prior to study enrollment\\*\n11. Diagnosis of acute pulmonary embolism within past 2 weeks\n12. Diagnosis of pulmonary hypertension\n13. Unwilling to provide informed consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Dyspnea Numeric Rating Scale",
+        "description": "Our primary outcome was dyspnea intensity \"now\" using a dyspnea numeric rating scale that ranges from 0 (\"no shortness of breath\") to 10 (\"worst possible shortness of breath\"). Measured the mean difference between the baseline and second 6 minute walk test. 6 minute walk tests were carried out following guidelines from the American Thoracic Society.",
+        "timeFrame": "Baseline to 30 minutes"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Dyspnea Borg Scale",
+        "description": "Assessed dyspnea using the 0-10 modified Dyspnea Borg Scale at baseline walk test and after second 6 minute walk test. The Borg scale ranges from 0 (\"no shortness of breath\") to 10 (\"worst possible shortness of breath\"). Measured the mean difference between the baseline walk test and second 6 minute walk test.",
+        "timeFrame": "Baseline to 30 minutes"
+      },
+      {
+        "measure": "Walk Distance at 6 Minutes",
+        "description": "Measured the mean difference between the baseline walk test and second 6 minute walk test.",
+        "timeFrame": "Baseline to 30 minutes"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:05.942Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

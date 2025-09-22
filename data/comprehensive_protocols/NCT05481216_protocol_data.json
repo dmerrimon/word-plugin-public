@@ -1,0 +1,224 @@
+{
+  "nctId": "NCT05481216",
+  "briefTitle": "HIV-1 & Coronavirus-Coinfection in Europe: Morbidity & Risk Factors of COVID-19 in People Living With HIV",
+  "officialTitle": "HIV-1 & Coronavirus-Coinfection in Europe: Morbidity & Risk Factors of COVID-19 in People Living With HIV",
+  "protocolDocument": {
+    "nctId": "NCT05481216",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-08-29",
+    "uploadDate": "2024-08-30T09:59",
+    "size": 514692,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05481216/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 2598,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-03-29",
+    "completionDate": "2023-08-31",
+    "primaryCompletionDate": "2023-03-31",
+    "firstSubmitDate": "2022-07-29",
+    "firstPostDate": "2022-08-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* • Cases (PLWHIV + COVID-19)\n\n  1. Any gender\n  2. At least 18 years of age\n  3. Documented HIV-1 infection\n  4. Confirmed SARS-CoV-2 infection by documented, or patient-reported, positive result on PCR testing of a nasopharyngeal or respiratory sample, before 1st April 2021\n\n     * Controls (COVID-19)\n\n  <!-- -->\n\n  1. Any gender\n  2. At least 18 years of age\n  3. No documented HIV-1 infection\n  4. Confirmed SARS-CoV-2 infection by documented, or patient-reported, positive result on PCR testing of a nasopharyngeal or respiratory sample, before 1st April 2021\n  5. Meet the matching criteria\n\nFor comparing PLWHIV \\& COVID-19 versus HIV seronegative COVID-19 patients, a 1:1 matching will be performed according to the following criteria:\n\n* Age (+/- 5 years)\n* Sex\n* Ethnicity (where available)\n* Month of COVID-19 diagnosis (+/- 2 months)\n* COVID-19 diagnosis inpatient OR\n* COVID-19 diagnosis outpatient (ambulatory)\n* Controls (PLWHIV)\n\n  1. Any gender\n  2. At least 18 years of age\n  3. Documented HIV-1 infection\n  4. No evidence of SARS-CoV-2 infection\n  5. Meet the matching criteria\n\nFor comparing PLWHIV \\& COVID-19 versus PLWHIV without COVID-19, a 1:2 matching for similar risk of acquiring COVID-19 will be performed according to the following criteria:\n\n* Age (+/- 5 years)\n* Sex\n* Ethnicity (where available)\n\nExclusion Criteria\n\nFor cases (PLWHIV + COVID-19) and for COVID-19 only controls:\n\n* COVID-19 diagnosed based on clinical criteria",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Composite Primary End Point (Critical Care Admission, Palliative Discharge When Discharged From Hospital, or Mortality Within the 6 Weeks After Diagnosis of COVID-19) Events",
+        "description": "The primary endpoint is a composite of the number of critical care admission (high dependency unit or intensive care unit), mortality in hospital or palliative discharge when discharged from hospital, or mortality at 6 weeks after diagnosis of COVID-19 or at discharge from hospital (where applicable) events. Time-to-event methods, including Kaplan-Meier survival curves and Cox proportional-hazards models, will be used for this analysis. The time to the primary endpoints will be defined as:\n\n* For participants admitted to critical care Time = \\[Date of Critical care admission - Date of positive PCR test for COVID-19\\] + 1\n* For participants admitted to critical care before diagnosis of COVID-19, Time=1 day.\n* For participants with palliative discharge when discharged from hospital Time = \\[Date of discharge from hospital to palliative care - Date of positive PCR test for COVID-19\\] + 1.\n* For participants died Time = \\[Date of death - Date of positive PCR test for COVID-19\\] + 1.",
+        "timeFrame": "From baseline (diagnosis of COVID-19) to Week 6"
+      },
+      {
+        "measure": "Kaplan-Meier Estimate of Primary End Point",
+        "description": "Kaplan-Meier estimate of the composite number of critical care admission, palliative discharge and death events",
+        "timeFrame": "From Baseline (diagnosis of COVID-19 ) to week 6"
+      },
+      {
+        "measure": "Number of Palliative Discharge",
+        "description": "Number of palliative discharge at discharge from hospital following hospitalisation for COVID-19 events",
+        "timeFrame": "Baseline (diagnosis of COVID-19) to week 6"
+      },
+      {
+        "measure": "Mortality",
+        "description": "Mortality at 6 weeks after diagnosis of COVID-19 or at discharge from hospital",
+        "timeFrame": "Baseline (diagnosis of COVID-19) to week 6"
+      },
+      {
+        "measure": "Number of Critical Care Admission Events",
+        "description": "Number of admission events to a high dependency unit or intensive care unit",
+        "timeFrame": "Baseline (diagnosis of COVID-19) to week 6"
+      },
+      {
+        "measure": "HIV Viral Load",
+        "description": "Identification of risk factors for COVID-19 infection within the group of PLHIV: HIV viral load",
+        "timeFrame": "Baseline(Last CD4 cell count and HIV-RNA before COVID-19 diagnosis, or most recent for PLHIV without COVID-19)"
+      },
+      {
+        "measure": "Time Since HIV Diagnosis",
+        "description": "Identification of risk factors for COVID-19 infection within the group of PLHIV: Time since HIV diagnosis",
+        "timeFrame": "Baseline(Last CD4 cell count and HIV-RNA before COVID-19 diagnosis, or most recent for PLHIV without COVID-19)"
+      },
+      {
+        "measure": "Chronic Obstructive Pulmonary Disease",
+        "description": "Identification of risk factors for COVID-19 infection within the group of PLHIV: Chronic Obstructive Pulmonary Disease",
+        "timeFrame": "Baseline(Last CD4 cell count and HIV-RNA before COVID-19 diagnosis, or most recent for PLHIV without COVID-19)"
+      },
+      {
+        "measure": "CD4 Cell Count",
+        "description": "Identification of risk factors for COVID-19 infection within the group of PLHIV: CD4 cell count",
+        "timeFrame": "Baseline(Last CD4 cell count and HIV-RNA before COVID-19 diagnosis, or most recent for PLHIV without COVID-19)"
+      },
+      {
+        "measure": "Chronic Kidney Disease",
+        "description": "Identification of risk factors for COVID-19 infection within the group of PLHIV: Chronic Kidney Disease",
+        "timeFrame": "Baseline(Last CD4 cell count and HIV-RNA before COVID-19 diagnosis, or most recent for PLHIV without COVID-19)"
+      },
+      {
+        "measure": "Body Weight",
+        "description": "Identification of risk factors for COVID-19 infection within the group of PLHIV: Body weight",
+        "timeFrame": "Baseline(Last CD4 cell count and HIV-RNA before COVID-19 diagnosis, or most recent for PLHIV without COVID-19)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Hospitalisation Events",
+        "description": "Number of hospital admission for COVID-19 events",
+        "timeFrame": "Baseline (diagnosis of COVID-19) to week 6"
+      },
+      {
+        "measure": "Length of Hospital Stay",
+        "description": "Length of stay in hospital following hospitalisation for COVID-19",
+        "timeFrame": "Baseline (diagnosis of COVID-19) to week 6"
+      },
+      {
+        "measure": "Length of Stay in ICU",
+        "description": "Median Length of Stay in Intensive Care Unit",
+        "timeFrame": "Baseline (diagnosis of COVID-19) to week 6"
+      },
+      {
+        "measure": "Ventilator-free Days (VFDs)",
+        "description": "Number of ventilator-free days",
+        "timeFrame": "6 weeks after diagnosis of COVID-19"
+      },
+      {
+        "measure": "Extracorporeal Membrane Oxygenation (ECMO)",
+        "description": "Length of extracorporeal membrane oxygenation",
+        "timeFrame": "Baseline (diagnosis of COVID-19) to week 6"
+      },
+      {
+        "measure": "Need for Kidney Replacement Therapy",
+        "description": "The number of patients requiring kidney replacement therapy",
+        "timeFrame": "Baseline(diagnosis of COVID-19) to week 6"
+      },
+      {
+        "measure": "Measurement of Total Comorbidity Burden",
+        "description": "Charlson Comorbidity Index predicts the ten-year mortality for a patient who may have a range of comorbid conditions. Index consists of 19 conditions, each with an assigned weight from 1 to 6 according to the relative risk of dying. The total score is derived by summing up the weights of comorbid conditions presented. Based on the CCI score, the severity of comorbidity was categorized into three grades: mild, with CCI scores of 1-2; moderate, with CCI scores of 3-4; and severe, with CCI scores ≥5. The minimum score value is 0 and maximum is 37. A higher score means a more greater mortality risk.",
+        "timeFrame": "6 weeks after diagnosis of COVID-19"
+      },
+      {
+        "measure": "Estimate Risk of 30-day Mortality After COVID-19 Infection",
+        "description": "Estimate risk of 30-day mortality after COVID-19 infection using pre-COVID health status (estimated using the Veterans Health Administration COVID-19 (VACO) index). The VACO index is expressed as a percentage and calculated based on age, sex, Charlson comorbidity index (CCI), and the presence of myocardial infarction (MI) or peripheral vascular disease (PVD). The index range is from 0.2 to 48.0. A higher score means a greater risk of mortality.",
+        "timeFrame": "Baseline (diagnosis of COVID-19) to week 6"
+      },
+      {
+        "measure": "Blood Cell Counts at COVID-19 Diagnosis",
+        "description": "The endpoint is the blood cell counts at COVID-19 diagnosis. The analyses will be performed with all PLHIV with COVID-19 and matched HIV-uninfected individual with COVID-19 who have data regarding the blood cell count of interest at COVID-19 diagnosis",
+        "timeFrame": "Baseline (Diagnosis of COVID-19)"
+      },
+      {
+        "measure": "Liver Function and Tissue Damage Parameters at COVID-19 Diagnosis",
+        "description": "The endpoint is the liver function (ALT, AST) and tissue damage (lactate dehydrogenase) parameters at COVID-19 diagnosis.",
+        "timeFrame": "Baseline(COVID-19 diagnosis)"
+      },
+      {
+        "measure": "Inflammatory Markers and Kidney Function Tests",
+        "description": "Inflammatory markers and Kidney Function tests at COVID-19 diagnosis",
+        "timeFrame": "Baseline (COVID-19 Diagnosis)"
+      },
+      {
+        "measure": "Biological Parameters at COVID-19 Diagnosis",
+        "description": "Biological parameters (D-dimer and Ferritin levels) at COVID-19 diagnosis",
+        "timeFrame": "Baseline(COVID-19 diagnosis)"
+      },
+      {
+        "measure": "Cholesterol, Triglyceride and Glucose Levels",
+        "description": "Cholesterol, Triglyceride and Glucose levels at COVID-19 diagnosis",
+        "timeFrame": "Baseline(COVID-19 diagnosis)"
+      },
+      {
+        "measure": "Red Blood Cell Count",
+        "description": "Red blood cell (RBC) count at COVID-19 Diagnosis",
+        "timeFrame": "Baseline(COVID-19 Diagnosis)"
+      },
+      {
+        "measure": "Haemoglobin Levels",
+        "description": "Haemoglobin levels at COVID-19 diagnosis",
+        "timeFrame": "Baseline(COVID-19 diagnosis)"
+      },
+      {
+        "measure": "Haematocrit",
+        "description": "Haematocrit levels at COVID-19 diagnosis",
+        "timeFrame": "Baseline (COVID-19 diagnosis)"
+      },
+      {
+        "measure": "MCV Levels",
+        "description": "Mean Corpuscular volume (MCV) levels at COVID-19 diagnosis",
+        "timeFrame": "Baseline(COVID-19 diagnosis)"
+      },
+      {
+        "measure": "MCH Levels",
+        "description": "Mean Corpuscular Haemoglobin levels at COVID-19 diagnosis",
+        "timeFrame": "Baseline(COVID-19 diagnosis)"
+      },
+      {
+        "measure": "HbA1C Levels",
+        "description": "Glycated Haemoglobin (HbA1C) levels at COVID-19 diagnosis",
+        "timeFrame": "Baseline(COVID-19 diagnosis)"
+      },
+      {
+        "measure": "C-reactive Protein Levels",
+        "description": "C-reactive protein levels at COVID-19 diagnosis",
+        "timeFrame": "Baseline(COVID-19 diagnosis)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 11,
+      "secondaryCount": 20,
+      "otherCount": 0,
+      "totalCount": 31
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:38.886Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

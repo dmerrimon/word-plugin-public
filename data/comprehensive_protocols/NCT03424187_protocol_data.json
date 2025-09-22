@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03424187",
+  "briefTitle": "The Acute Effects of Food Structure on Post Prandial Glucose and Subsequent Metabolic Responses",
+  "officialTitle": "The Acute Effects of Food Structure on Post Prandial Glucose and Subsequent Metabolic Responses",
+  "protocolDocument": {
+    "nctId": "NCT03424187",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2015-11-18",
+    "uploadDate": "2020-07-07T04:48",
+    "size": 713980,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03424187/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07",
+    "completionDate": "2018-07",
+    "primaryCompletionDate": "2017-05",
+    "firstSubmitDate": "2017-09-01",
+    "firstPostDate": "2018-02-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Gender: male and female\n* Age ≥ 18 years ≤ 65 years\n* Normal weight as classified by BMI 20-29.9 kg/m2\n* Healthy, not diagnosed with any chronic diseases assessed as appropriate for inclusion, based on the pre-study screening.\n* Willingness and ability to understand, participate and to comply with the study requirements\n* Willingness and ability to give written informed consent\n\nExclusion Criteria:\n\n* Has thyroid defects\n* Under hormone or steroids therapy\n* Is pregnant or lactating (female)\n* Had given birth within the past year (female)\n* Is taking drugs that could affect appetite or plasma glucose levels.\n* Is taking natural remedies that modulate appetite or plasma glucose levels.\n* Has excessive alcohol intake\n* Had blood donation within 12wks prior to start date\n* Psychiatric illness\n* Smokers\n* History of any disease with unknown outcome\n* Has diabetes\n* Has nut allergy",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Post-prandial Glucose Concentrations",
+        "description": "Blood glucose concentrations were assessed for each participant after each test meal: whole chickpea hummus, Flour chickpea hummus, and Intact cell chickpea hummus. Blood samples were collected before the introduction of the test meal and then at 15 minutes, 30 min, 60, 90, 120, and 180 minutes after the consumption of the test meal.\n\nData were not collected for intact cell chickpea hummus",
+        "timeFrame": "before the consumption of the test meal and then 15 min, 30, 60,90, 120, 180 minutes after the consumption of the test meal."
+      },
+      {
+        "measure": "Post-prandial Blood Insulin Concentrations",
+        "description": "Blood glucose concentrations were assessed for each participant after each test meal: whole chickpea hummus, Flour chickpea hummus, and Intact cell chickpea hummus. Blood samples were collected before the introduction of the test meal and then at 15 minutes, 30 min, 60, 90, 120, and 180 minutes after the consumption of the test meal.",
+        "timeFrame": "before the consumption of the test meal and then 15, 30, 60, 90, 120, and 180 minutes post consumption of test meal."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Post-prandial Gut Hormone Gastric Inhibitory Polypeptide (GIP)",
+        "description": "Blood GIP concentrations were assessed for each participant after each test meal: whole chickpea hummus, and Flour chickpea hummus. Blood samples were collected before the introduction of the test meal and then at 15 minutes, 30 min, 60, 90, 120, and 180 minutes after the consumption of the test meal.\n\nData were not collected for intact cell chickpea hummus",
+        "timeFrame": "before the consumption of the test meal at 0 min and then post test meal at 15, 30,60 ,90,120 and 180 minutes."
+      },
+      {
+        "measure": "Post-prandial Gut Hormone Glucagon-like Peptide 1 (GLP-1)",
+        "description": "Blood GLP-1 concentrations were assessed for each participant after each test meal: whole chickpea hummus, Flour chickpea hummus, and Intact cell chickpea hummus. Blood samples were collected before the introduction of the test meal and then at 15 minutes, 30 min, 60, 90, 120, and 180 minutes after the consumption of the test meal.",
+        "timeFrame": "baseline before the consumption of the test meal, and then 15,30,60,90,120,180 min after the consumption of the test meal."
+      },
+      {
+        "measure": "Energy Intake at a Meal Given in Excess",
+        "description": "The difference in ad libitum food intake after 210 minutes post test meal to test the difference of energy intake following whole chickpea hummus, flour chickpea hummus, and intact cell chickpea hummus.",
+        "timeFrame": "post consumption of the test meal at 120 minutes"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:17.299Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

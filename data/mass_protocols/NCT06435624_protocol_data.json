@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT06435624",
+  "briefTitle": "Effectiveness of Intelligent Rehabilitation Robot Training System Combined With Repetitive Facilitative Exercise on Upper Limb Motor Function After Stroke: a Randomized Control Trial.",
+  "officialTitle": "Effectiveness of Intelligent Rehabilitation Robot Training System Combined With Repetitive Facilitative Exercise on Upper Limb Motor Function After Stroke: a Randomized Control Trial.",
+  "protocolDocument": {
+    "nctId": "NCT06435624",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-06-15",
+    "uploadDate": "2025-01-04T03:28",
+    "size": 137345,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06435624/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 81,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-06-15",
+    "completionDate": "2024-08-31",
+    "primaryCompletionDate": "2024-08-31",
+    "firstSubmitDate": "2024-05-21",
+    "firstPostDate": "2024-05-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* patients (18 to 74 years old) who suffered a first or second unilateral stroke\n* chronic stroke (over 6 months from the onset)\n* obvious upper limb movement disorders (FMA-UE scores from 25 to 42)\n* ability to understand and follow simple directions\n\nExclusion Criteria:\n\n* pregnant or lactating\n* upper extremity contracture, pain, or trauma\n* perceptual, apraxic, or cognitive deficits that lead to inability to follow verbal instructions\n* unable to maintain sitting posture\n* cerebellar lesion\n* clinically unstable medical disorders\n* inability to provide informed consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "74 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Fugl-Meyer Assessment for Upper Extremity (FMA-UE)",
+        "description": "The FMA-UE consists of 33 items across nine components, including reflex action, synergy, and coordination, with a maximum score of 66 points. Each items is scored from 0 (no ability) to 2 (full ability), with higher scores indicating better upper limb motor function.",
+        "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+      },
+      {
+        "measure": "Active Participation Proportion",
+        "description": "Active Participation Proportion (APP) is measured using the benchmark evaluation system within the intelligent rehabilitation robot training system. The robotic arm's mechanical sensor continuously detects the force exerted by the patient during the test game and quantifies APP as the ratio of the patient's applied force to the total force required to complete the task (%). A higher APP indicates greater voluntary effort in movement execution. Since the test game difficulty is fixed, APP increases as the patient's motor ability improves.",
+        "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+      },
+      {
+        "measure": "Trajectory Deviation",
+        "description": "Trajectory Deviation (TD) is assessed by comparing the actual motion trajectory with a predefined reference trajectory using the intelligent rehabilitation robot training system. TD is calculated as the mean Euclidean distance (in mm) between discrete points along the actual movement path and the nearest corresponding points on the reference trajectory. This metric provides a measure of point-specific accuracy and precision in following the ideal movement path, with smaller TD values indicating better trajectory control.",
+        "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+      },
+      {
+        "measure": "Trajectory Tracking Error",
+        "description": "Description:\n\nTrajectory Tracking Error (TTE) quantifies the cumulative deviation between the actual movement path and the predefined reference trajectory. It is computed as the sum of absolute differences in trajectory length between the two paths (in mm). TTE reflects overall movement efficiency and smoothness, capturing the patient's ability to maintain an optimal movement path throughout the task. A lower TTE indicates better movement planning and motor control.",
+        "timeFrame": "From enrollment to the end of treatment at 4 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:13.155Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

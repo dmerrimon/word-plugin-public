@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT03880058",
+  "briefTitle": "Safety and Efficacy of SLI-F06 in Wound Healing and Scar Appearance",
+  "officialTitle": "Safety and Efficacy of SLI-F06 in Wound Healing and Scar Appearance in Pre-Abdominoplasty Surgical Excisions and Post-Operative Scar Appearance In Subjects Undergoing Abdominoplasty",
+  "protocolDocument": {
+    "nctId": "NCT03880058",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-11-20",
+    "uploadDate": "2022-12-02T17:28",
+    "size": 1832990,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03880058/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 22,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-03",
+    "completionDate": "2021-05-18",
+    "primaryCompletionDate": "2021-05-18",
+    "firstSubmitDate": "2019-03-05",
+    "firstPostDate": "2019-03-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Outpatient, male or female of any race, 18 years of age or older. Female subjects of childbearing potential must have a negative urine pregnancy test (UPT) at Visit 1a and 1b and practice a reliable method of contraception throughout the study.\n2. Seeking or scheduled for standard elective abdominoplasty.\n3. Willing to undergo directed excisions and follow-up prior to abdominoplasty and to undergo all follow-up visits after abdominoplasty.\n4. Willing to undergo directed excisions under local anesthetic\n5. Be able to follow study instructions and likely to complete all required visits.\n6. Sign the Institutional Review Board (IRB)-approved Informed Consent Form (ICF), which includes the Photographic Release Form and HIPAA, prior to any study-related procedures being performed.\n\nExclusion Criteria:\n\n1. Female subjects that are pregnant, breast-feeding, or of childbearing potential and not practicing reliable birth control.\n2. Known hypersensitivity or previous allergic reaction to any constituent of the investigational product (IP).\n3. History of diabetes mellitus or a Hemoglobin (HgB) A1C greater than 5.7 percent.\n4. Morbid obesity (i.e., BMI \\>40).\n5. History of prior abdominal surgery.\n6. History of abdominal liposuction, cryolipolysis, focused ultrasound or other fat reduction procedures in or near the anterior abdomen within 12 months of baseline.\n7. History of poor or delayed wound healing such as a prior wound dehiscence, chronic wound or leg ulcer.\n8. History of or evidence of a genetic collagen disorder such as Ehlers-Danlos syndrome.\n9. Operating Physician unable to design an abdominoplasty incision area of at least 25 cm wide by 12 cm tall at the center of the fusiform.\n10. The presence of any abnormality of the skin within the area of the proposed abdominoplasty that, in the opinion of the Principal Investigator (PI), could interfere with the excision process or grading of the resultant surgical scar.\n11. Use of any restricted concomitant medications/procedures or tobacco/inhaled nicotine products within a restricted time period.\n12. Allergy to or intolerance of local anesthetics.\n13. Medical or psychiatric conditions that may increase the risk associated with study participation or may interfere with interpretation of study results or compliance of the subject and, in the opinion of the PI, would make the subject inappropriate for study entry.\n14. Any personal, familial, employment or financial situation that could impede the subject's ability to attend all study visits and successfully complete the entire clinical study.\n15. Clinically significant alcohol or drug abuse, or history of poor cooperation or unreliability.\n16. Exposure to any other investigational drug/device within 30 days prior to study entry.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Patient and Observer Scar Assessment Scale (POSAS) - PI Assessment",
+        "description": "POSAS is an established scale for assessing scar by both the patient and the observer. The overall opinion of the scar is reported on a scale of 1-10, with 1 being normal skin and 10 being the worst scar. Comparisons between treatment groups for efficacy analyses are based on 95% confidence intervals (CI) calculated using mixed models with treatment group as a fixed effect and subject as a random effect to account for multiple observations (i.e., scars) within subject.",
+        "timeFrame": "Post-excision at Month 3"
+      },
+      {
+        "measure": "Patient and Observer Scar Assessment Scale (POSAS) - PI Assessment",
+        "description": "POSAS is an established scale for assessing scar by both the patient and the observer. The overall opinion of the scar is reported on a scale of 1-10, with 1 being normal skin and 10 being the worst scar. Comparisons between treatment groups for efficacy analyses are based on 95% confidence intervals (CI) calculated using mixed models with treatment group as a fixed effect and subject as a random effect to account for multiple observations (i.e., scars) within subject.",
+        "timeFrame": "Post-abdominoplasty at Month 12"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:58.653Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

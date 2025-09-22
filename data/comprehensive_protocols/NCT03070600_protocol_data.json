@@ -1,0 +1,139 @@
+{
+  "nctId": "NCT03070600",
+  "briefTitle": "PrEP Implementation for Mothers in Antenatal Care",
+  "officialTitle": "Delivering PrEP in Pregnancy",
+  "protocolDocument": {
+    "nctId": "NCT03070600",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2019-05-13",
+    "uploadDate": "2022-02-08T15:26",
+    "size": 1280538,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03070600/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 4447,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-01-15",
+    "completionDate": "2021-01-15",
+    "primaryCompletionDate": "2021-01-15",
+    "firstSubmitDate": "2017-02-27",
+    "firstPostDate": "2017-03-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Eligibility for enrollment will include age ≥15 years\n* Pregnant at any gestational age\n* Tuberculosis negative\n* Plans to reside in area for at least one year postpartum\n* Plans to receive postnatal and infant care at the study facility\n* Not currently enrolled in any other studies.\n\nExclusion Criteria:\n\n* HIV+ at time of enrollment",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "15 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Maternal HIV Incidence",
+        "description": "Maternal HIV Incidence",
+        "timeFrame": "6 weeks, 6 months, 9 months postpartum"
+      },
+      {
+        "measure": "Appropriate PrEP Decision",
+        "description": "Scored 1 for high risk women using PrEP and low risk women not using PrEP; 0 for high risk women NOT on PrEP and low risk women using PrEP",
+        "timeFrame": "Enrollment to 9 months postpartum, the median gestational age at enrollment was 24 weeks (IQR: 20, 30)."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "PrEP Adherence",
+        "description": "Sequential dried blood spots, PrEP adherence by DBS dichotomous by pregnancy or postpartum thresholds equivalent to \\~7 doses per week (≥650 fmol/punch during pregnancy or ≥950 fmol/punch postpartum) based on the thresholds established by the 2009 IMPAACT directly observed PrEP PK study.",
+        "timeFrame": "Enrollment to 9 months postpartum"
+      },
+      {
+        "measure": "PrEP Duration",
+        "description": "Number of months on PrEP",
+        "timeFrame": "Enrollment to 9 months postpartum, the median gestational age at enrollment was 24 weeks (IQR: 20, 30)."
+      },
+      {
+        "measure": "Partner With Known HIV Status",
+        "description": "Participants report of partner's HIV status",
+        "timeFrame": "At 9 months postpartum"
+      },
+      {
+        "measure": "Infant Birthweight",
+        "description": "Infant Birthweight",
+        "timeFrame": "time of delivery"
+      },
+      {
+        "measure": "Infant Growth",
+        "description": "Infant height, weight, and age (Weight-for-Age \\[WAZ\\], Height-for-Age \\[HAZ\\], Weight-for-Height \\[WHZ\\] Z-scores). A Z-score of 0 represents the population mean. Indicators of infant malnutrition are defined as Underweight- WAZ Z-score\\<-2; Stunting-HAZ Z-Score \\<-2; Wasting- WHZ Z-Score \\<-2.",
+        "timeFrame": "9 months of age"
+      },
+      {
+        "measure": "PrEP Use",
+        "description": "PrEP Utilization by participants",
+        "timeFrame": "Enrollment to 9 months postpartum, the median gestational age at enrollment was 24 weeks (IQR: 20, 30)."
+      },
+      {
+        "measure": "PrEP Acceptance",
+        "description": "PrEP accepted by participants",
+        "timeFrame": "Enrollment to 9 months postpartum, the median gestational age at enrollment was 24 weeks (IQR: 20, 30)."
+      },
+      {
+        "measure": "Preterm Birth",
+        "description": "Birth \\<37 weeks gestation",
+        "timeFrame": "At birth"
+      }
+    ],
+    "other": [
+      {
+        "measure": "PrEP Adherence by Self-report",
+        "description": "Any missed doses in the last month reported by participants",
+        "timeFrame": "Enrollment to 9 months postpartum, the median gestational age at enrollment was 24 weeks (IQR: 20, 30)."
+      },
+      {
+        "measure": "Partner on ART if HIV Positive",
+        "description": "Participant report of partner ART use if partner is HIV positive",
+        "timeFrame": "Enrollment to 9 months postpartum, the median gestational age at enrollment was 24 weeks (IQR: 20, 30)."
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 8,
+      "otherCount": 2,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 68,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:21.356Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

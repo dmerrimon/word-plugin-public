@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT02888756",
+  "briefTitle": "iHIVARNA Clinical Trial in HIV Infected Individuals",
+  "officialTitle": "A Phase IIa Randomized, Placebo Controlled, Double Blinded Study to Evaluate the Safety and Immunogenicity of iHIVARNA-01 in Chronically HIV-infected Patients Under Stable Combined Antiretroviral Therapy",
+  "protocolDocument": {
+    "nctId": "NCT02888756",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-04-14",
+    "uploadDate": "2019-10-04T10:39",
+    "size": 593473,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02888756/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 33,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-04-04",
+    "completionDate": "2018-02-12",
+    "primaryCompletionDate": "2018-02-12",
+    "firstSubmitDate": "2016-08-23",
+    "firstPostDate": "2016-09-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. ≥ 18 years of age;\n2. Voluntarily signed informed consent;\n3. Proven HIV-1 infection (with documented antibodies against HIV-1 and a detectable plasma HIV-1 RNA before initiation of therapy);\n4. On stable treatment with cART regimen (antiretroviral therapy consisting of at least three registered antiretroviral agents) for at least 3 years;\n5. Nadir CD4+ ≥ 350 cells/μl (up to 2 occasional determinations ≤ 350 cells/μl are allowed);\n6. Current CD4+ cell count ≥ 450 cells/μl;\n7. HIV-RNA below 50 copies/mL in the last 6 months prior to randomization, during at least two measurements (occasional so called 'blips' ≤ 500 copies/mL are permitted);\n8. If sexually active, willing to use a reliable method of reducing the risk of transmission to their sexual partners during treatment interruption (including PrEP).\n\n   1. For heterosexually active female, using an effective method of contraception with partner (combined oral contraceptive pill; injectable or implanted contraceptive; IUD/IUS; consistent record with condoms; physiological or anatomical sterility (in self or partner) from 14 days prior to the first vaccination until 4 months after the last vaccination.\n\nFor heterosexually active male, using an effective method of contraception with their partner from the first day of vaccination until 4 months after the last vaccination. -\n\nExclusion Criteria:\n\n1. Treatment with non-cART regimen prior to cART regimen;\n2. Previous failure to antiretroviral and/or mutations conferring genotypic resistance to antiretroviral therapy;\n3. Non-subtype B HIV infection;\n4. Active Hepatitis B virus and/or Hepatitis C virus co-infection;\n5. History of a CDC class C event (see appendix A);\n6. Pregnant female (screened with a positive pregnancy test), lactating or intending to become pregnant during the study;\n7. Active malignancy ≤ 30 days (extended period on the clinical assessment of the investigator) prior to screening;\n8. Active infection with fever (38°C or above) ≤ 10 days of screening and/or first vaccination;\n9. Therapy with immunomodulatory agents (e.g. systemic corticosteroids), including cytokines (e.g. IL-2), immunoglobulins and/or cytostatic chemotherapy ≤ 90 days prior to screening. This does not include seasonal influenza, hepatitis B and/or other travel related vaccines;\n10. Congenital, acquired or induced coagulation disorders, such as thrombocytopenia (thrombocytes \\< 150x109/L) and/or current use of anti-coagulant medication (e.g. coumarins, inhibitors of Xa); Usage of NSAIDs (including acetylsalicylic acid) is allowed, however it is advised to interrupt therapy 10 days ahead of vaccination;\n11. Usage of any investigational drug ≤ 90 days prior to study entry;\n12. An employee of the investigator or study site, with direct involvement in the proposed study or other studies under the direction of that investigator or study site, or is a family member of an employee or the investigator Any other condition, which, in the opinion of the investigator, may interfere with the evaluation of the study objectives",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Treatment-related Adverse Events as Assessed by CTCAE v4.0",
+        "description": "* Grade 3 or above local adverse event (pain, cutaneous reactions including induration).\n* Grade 3 or above systemic adverse event (temperature, chills, headache, nausea, vomiting, malaise, and myalgia).\n* Grade 3 or above other clinical or laboratory adverse event confirmed at examination or on repeat testing respectively.\n\nAny event attributable to vaccination leading to discontinuation of the immunisation regimen.",
+        "timeFrame": "week 6"
+      },
+      {
+        "measure": "Immunogenicity as Measured by Elispot",
+        "description": "Change from baseline immunogenicity as measured by ELISPOT at week 6 and 18, i.e. two weeks and 14 weeks after the last immunization compared to both control groups",
+        "timeFrame": "week 6 and week 18"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Immunogenicity as Measured by Intracellular Cytokine Staining (ICS)",
+        "description": "HIV-specific CD4+ and CD8+ T cell responses after immunization by the number of poly-functional T cells as determined by intracellular cytokine staining, (ICS).",
+        "timeFrame": "week 10, 18 and 30"
+      },
+      {
+        "measure": "Time to Viral Rebound",
+        "description": "time until viral rebound (defined as two consecutive measurements of plasma viral load \\> 1000 copies/mL separated by at least 15 days) after discontinuation at week 6.",
+        "timeFrame": "week 6-18"
+      },
+      {
+        "measure": "Change in Plasma Viral Load",
+        "description": "difference in log10 copies/ml plasma viral load in vivo after analytical treatment interruption (ATI, week 6-restart ART), compared to placebo WFI",
+        "timeFrame": "week 6-18"
+      },
+      {
+        "measure": "Functional Cure",
+        "description": "proportion of patients with viral load below detectable level of 50 copies/mL in plasma after ATI, week 18",
+        "timeFrame": "week 18"
+      },
+      {
+        "measure": "Primary Immune Response Against Vaccine",
+        "description": "Change in frequency of at least 0.7log10 HIV-specific T-cell responses between baseline and week 6",
+        "timeFrame": "from baseline to week 6"
+      },
+      {
+        "measure": "CD8 T Cell Mediated Viral Suppression",
+        "description": "The capacity of CD8 T cells to suppress virus production in HIV infected autologous CD4 T cells, after vaccination. For this purpose PBMC are isolated and separated in CD8 and CD4 T cells. CD4 cells are infected with HIV. Thereafter CD4 cells are co-cultured with pre-stimulated CD8 cells and the capacity to suppress virus production at different effector to target (E:T) ratios is measured, by the change of p24 Gag production. Pannus et al AIDS 2019, PMID: 30702513",
+        "timeFrame": "week 4"
+      },
+      {
+        "measure": "Proviral DNA Reservoir",
+        "description": "effect on reservoir as measured by changes in the proviral DNA copy numbers per million cells during and after immunization",
+        "timeFrame": "day 0-90 (week 4, week 4 + 1 day and week 5 and week 6) and day 90-130 (week 18) and day >130 (week 30)"
+      },
+      {
+        "measure": "Viral Immune Escape",
+        "description": "viral immune escape: change in % mutated epitopes from pre-cART to post-ATI",
+        "timeFrame": "week 18"
+      },
+      {
+        "measure": "Transcriptomics",
+        "description": "host protein mRNA expression profiles in whole blood",
+        "timeFrame": "week 6 and 18"
+      },
+      {
+        "measure": "Cell-associated RNA Viral Reservoir",
+        "description": "effect on reservoir as measured by changes in the intracellular viral RNA copy numbers per million cells during and after immunization",
+        "timeFrame": "day 0-30 (week 4, week 4 + 1 day and week 5) and day 30-80 (week 6), 80-150 days (week 18) and >150 days (week 30)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 99,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:45.510Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

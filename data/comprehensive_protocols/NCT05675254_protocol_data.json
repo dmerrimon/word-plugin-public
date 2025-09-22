@@ -1,0 +1,95 @@
+{
+  "nctId": "NCT05675254",
+  "briefTitle": "The Prevalence and Risk Factors of Coagulopathy in Pediatric Epilepsy Surgery Patients",
+  "officialTitle": "The Prevalence and Risk Factors of Coagulopathy in Pediatric Patients Undergoing Surgery for Epilepsy",
+  "protocolDocument": {
+    "nctId": "NCT05675254",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-11-02",
+    "uploadDate": "2022-12-28T06:51",
+    "size": 139325,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05675254/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 494,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-12-01",
+    "completionDate": "2022-12-24",
+    "primaryCompletionDate": "2022-12-24",
+    "firstSubmitDate": "2022-12-29",
+    "firstPostDate": "2023-01-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age\\<18 years\n* A discharge diagnosis of \"epilepsy\" according to the International Classification of Diseases (ICD-10)\n* Received surgical treatment for epilepsy during the hospitalization\n* Hospitalized between January 2015 and December 2021 at the Neurosurgery Department of Children's Hospital of Fudan University\n* Non-epileptic children who underwent non-epilepsy neurological surgery by the same surgeon and were admitted at the same period for control\n\nExclusion Criteria:\n\n* The clinical information or laboratory examinations were incomplete\n* Had concomitant diseases affecting coagulation or liver function\n* Patients or parents refused to be enrolled",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "1 Month",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Factors related to coagulation function",
+        "description": "The following clinical data were collected: sex, age, weight, epilepsy course, and anti-seizure therapy. The initial laboratory data after admission included platelet count (PLT), prothrombin time (PT), activated partial thromboplastin time (APTT), FBG, alanine aminotransferase (ALT), and aspartate aminotransferase (AST).\n\nWe also collected data on non-epileptic children who underwent non-epilepsy neurological surgery and were admitted at the same period from the Hospital Information System (HIS) as a control cohort.\n\nMultivariate logistic regression analysis was performed to identify independent determinants of coagulation dysfunction. Possible relevant variables were filtered out using univariate logistic regression and further included as covariates for the multivariate logistic regression.",
+        "timeFrame": "From hospitalization to surgery, an average of 3 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Proportion of coagulation dysfunction between groups",
+        "description": "Proportion of cases with or without coagulation dysfunction in epileptic children with ASMs, epileptic children without ASMs, and non-epileptic children.",
+        "timeFrame": "From hospitalization to surgery, an average of 3 days"
+      },
+      {
+        "measure": "Variables affecting coagulation function",
+        "description": "Univariate analysis and logistic regression identified the risk factors for coagulopathy in paediatric patients undergoing epilepsy surgery.",
+        "timeFrame": "From hospitalization to surgery, an average of 3 days"
+      },
+      {
+        "measure": "Affected laboratory index",
+        "description": "Laboratory index affected by the independent determinants of coagulation dysfunction (PT, APTT, FBG or PLT).",
+        "timeFrame": "From hospitalization to surgery, an average of 3 days"
+      },
+      {
+        "measure": "Incidence of transfusion",
+        "description": "Whether the independent determinants of coagulation dysfunction increase the incidence of surgical-related transfusion.",
+        "timeFrame": "From surgery to discharge, an average of 7 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:51.010Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

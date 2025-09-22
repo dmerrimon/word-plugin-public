@@ -1,0 +1,128 @@
+{
+  "nctId": "NCT05127486",
+  "briefTitle": "A Study of Galcanezumab (LY2951742) in Adult Participants With Episodic Migraine",
+  "officialTitle": "A Phase 4, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Efficacy and Safety of Galcanezumab Versus Rimegepant in Adult Participants With Episodic Migraine",
+  "protocolDocument": {
+    "nctId": "NCT05127486",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-11-02",
+    "uploadDate": "2024-05-08T01:37",
+    "size": 1335728,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05127486/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 580,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-12-06",
+    "completionDate": "2023-05-23",
+    "primaryCompletionDate": "2023-05-23",
+    "firstSubmitDate": "2021-11-03",
+    "firstPostDate": "2021-11-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Have a diagnosis of migraine, with or without aura, as determined by the study investigator and in consideration of International Headache Society International Classification of Headache Disorders - 3rd edition guidelines (ICHD-3 2018)\n\nExclusion Criteria:\n\n* Have a known hypersensitivity to rimegepant or galcanezumab, and their excipients, monoclonal antibodies or other therapeutic proteins\n* Have acute cardiovascular events and/or serious cardiovascular risk, or have had myocardial infarction, unstable angina, percutaneous coronary intervention, coronary artery bypass graft, or stroke within 6 months of screening, or have planned cardiovascular surgery or percutaneous coronary angioplasty.\n* Evidence of significant psychiatric disease by medical history, such as schizophrenia, personality disorders, or other serious mood or anxiety disorders.\n* Women who are pregnant or nursing\n* Current use or prior exposure to any calcitonin gene related peptide (CGRP) antagonist (small molecule or antibody) for any indication, including those who have previously completed or withdrawn from this study or any other study investigating a CGRP antagonist (small molecule or antibody)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With 50% Response Rate Across the 3-month Treatment Period.",
+        "description": "A migraine headache day is a calendar day on which a migraine headache or probable migraine headache occurred. Overall mean percentage across months 1 through 3 of participants with at least a 50% reduction in monthly migraine headache days from baseline (50% response rate) using a categorical pseudo likelihood-based repeated measures model for binary responder indicator with fixed, categorical effects of treatment, month, treatment by month, and continuous, fixed covariate of baseline monthly migraine headache day.",
+        "timeFrame": "Baseline, Month 1 through Month 3"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With 75% Response Rate Across the 3-month Treatment Period.",
+        "description": "A migraine headache day is a calendar day on which a migraine headache or probable migraine headache occurred. Overall mean percentage across months 1 through 3 of participants with at least a 75% reduction in monthly migraine headache days from baseline (75% response rate) using a categorical pseudo likelihood-based repeated measures model for binary responder indicator with fixed, categorical effects of treatment, month, treatment by month, and continuous, fixed covariate of baseline monthly migraine headache day.",
+        "timeFrame": "Baseline, Month 1 through Month 3"
+      },
+      {
+        "measure": "Percentage of Participants With 100% Response Rate Across the 3-month Treatment Period.",
+        "description": "A migraine headache day is a calendar day on which a migraine headache or probable migraine headache occurred. Overall mean percentage across months 1 through 3 of participants with at least a 100% reduction in monthly migraine headache days from baseline (100% response rate) using a categorical pseudo likelihood-based repeated measures model for binary responder indicator with fixed, categorical effects of treatment, month, treatment by month, and continuous, fixed covariate of baseline monthly migraine headache day.",
+        "timeFrame": "Baseline, Month 1 through Month 3"
+      },
+      {
+        "measure": "Overall Mean Change From Baseline in the Number of Monthly Migraine Headache Days Across the 3-month Treatment Period.",
+        "description": "A migraine headache day is a calendar day on which a migraine headache or probable migraine headache occurred. Overall mean was derived from the average of month 1 through month 3. Least square (LS) mean was calculated using mixed model for repeated measures (MMRM) model with treatment, month, and treatment-by-month interaction as fixed effects and baseline number of migraine headache days, and baseline-by-month interaction as continuous variables.",
+        "timeFrame": "Baseline, Month 1 through Month 3"
+      },
+      {
+        "measure": "Mean Change From Baseline in the Number of Monthly Migraine Headache Days at Month 1",
+        "description": "A migraine headache day is a calendar day on which a migraine headache or probable migraine headache occurred. LS mean was calculated using MMRM model with treatment, month, and treatment-by-month interaction as fixed effects and baseline number of migraine headache days, and baseline-by-month interaction as continuous variables.",
+        "timeFrame": "Baseline, Month 1"
+      },
+      {
+        "measure": "Mean Change From Baseline in the Number of Monthly Migraine Headache Days at Month 2",
+        "description": "A migraine headache day is a calendar day on which a migraine headache or probable migraine headache occurred. LS mean was calculated using MMRM model with treatment, month, and treatment-by-month interaction as fixed effects and baseline number of migraine headache days, and baseline-by-month interaction as continuous variables.",
+        "timeFrame": "Baseline, Month 2"
+      },
+      {
+        "measure": "Mean Change From Baseline in the Number of Monthly Migraine Headache Days at Month 3",
+        "description": "A migraine headache day is a calendar day on which a migraine headache or probable migraine headache occurred. LS mean was calculated using MMRM model with treatment, month, and treatment-by-month interaction as fixed effects and baseline number of migraine headache days, and baseline-by-month interaction as continuous variables.",
+        "timeFrame": "Baseline, Month 3"
+      },
+      {
+        "measure": "Overall Mean Change From Baseline in the Number of Monthly Migraine Headache Days Requiring Medication for the Acute Treatment of Migraine or Headache Across the 3-month Treatment Period.",
+        "description": "Number of monthly migraine headache days requiring medication for the acute treatment of headache is defined as the number of calendar days in a 30-day period on which migraine or probable migraine occurs and acute medication is used. Overall mean was derived from the average of month 1 through month 3. LS mean was calculated using MMRM model with treatment, month, and treatment-by-month interaction as fixed effects and baseline number of migraine headache days with acute medications use, and baseline-by-month interaction as continuous variables.",
+        "timeFrame": "Baseline, Month 1 through Month 3"
+      },
+      {
+        "measure": "Mean Change From Baseline in the Migraine-Specific Quality of Life Questionnaire Version 2.1 (MSQ v2.1) at Month 3",
+        "description": "The MSQ v2.1 is a 14-item questionnaire, participant-rated scale with a 4-week recall period that measures the impact of migraine on work or daily activities, relationships with family \\& friends, leisure time, productivity, concentration, energy, tiredness \\& feelings. It consists of 14 items that address 3 domains:\n\n* Role Function-Restrictive (RF-R), items 1-7\n* Role Function-Preventive (RF-P), items 8-11\n* Emotional Function (EF), items 12-14\n\nEach item is scored from 1 (none of the time) to 6 (all of the time) and are reverse coded (value 6 to 1). Raw scores for each domain are computed as a sum of item responses, with the collective sum providing a total raw score. These were transformed to a 0-100 scale, with higher scores indicating better quality of life.\n\nLS mean was calculated using Analysis of covariance (ANCOVA) with main effects of treatment, the baseline number of migraine headache days category (\\<8 vs \\>=8), and the continuous fixed covariate of the baseline endpoint.",
+        "timeFrame": "Baseline, Month 3"
+      },
+      {
+        "measure": "Mean Change From Baseline on the Migraine Disability Assessment Test (MIDAS) Total Score at Month 3",
+        "description": "The MIDAS is a participant-rated scale that measures headache-related disability over a 3-month period. It consists of 5 items that measures number of days of work/school missed or days with productivity at work/school reduced to half or more; days with household work missed or days with productivity in household work reduced to half or more, and days of missed family/social/leisure activities. Each item has a numeric response range from 0 to 90 days; if days are missed from work/school or household work they are not counted as days with reduced productivity at work/school or household work. The numeric responses are summed to produce a total score ranging from 0 to 270. A higher value is indicative of more disability.\n\nLS mean was calculated using ANCOVA model with main effects of treatment, the baseline number of migraine headache days category (\\<8 vs \\>=8), and the continuous fixed covariate of the baseline endpoint.",
+        "timeFrame": "Baseline, Month 3"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:53.367Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

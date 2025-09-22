@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT02937584",
+  "briefTitle": "A Study to Assess the Effects of PT001 and PT005 MDI on Specific Image Based Parameters in Subjects With Moderate to Severe COPD",
+  "officialTitle": "A Randomized, Double-Blind, Two Treatment, Two Period, Chronic Dosing (2 Weeks), Cross-Over, Multi-Center Study to Evaluate the Effects of PT001 and PT005 on Specific Image Based Airway Volumes and Resistance in Subjects With Moderate to Severe COPD.",
+  "protocolDocument": {
+    "nctId": "NCT02937584",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-08-10",
+    "uploadDate": "2019-05-10T15:55",
+    "size": 9145506,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02937584/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 23,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-12-29",
+    "completionDate": "2018-05-28",
+    "primaryCompletionDate": "2018-05-28",
+    "firstSubmitDate": "2016-10-17",
+    "firstPostDate": "2016-10-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Non-child bearing potential (ie, physiologically incapable of becoming pregnant, including any female who is 2 years post-menopausal); or Child bearing potential, has a negative urine pregnancy test at Visit 1, and agrees to use acceptable contraceptive methods used consistently and correctly\n* Subjects with an established clinical history of COPD as defined by the American Thoracic Society (ATS)/European Respiratory Society (ERS)\n* Current or former smokers with a history of at least 10 pack-years of cigarette smoking.\n* At Visit 1, FEV1/FVC ratio must be \\<0.70\n* At Visit 1, post-bronchodilator FEV1must be \\>30% and \\<80% predicted normal value, calculated using The Third National Health and Nutrition Examination Survey (NHANES III) reference equations.\n\nExclusion criteria:\n\n* Significant diseases other than COPD, i.e., disease or condition which, in the opinion of the Investigator, may put the subject at risk because of participation in the study or may influence either the results of the study or the subject's ability to participate in the study.\n* Women who are pregnant or lactating, or are planning to become pregnant during the course of the study, or women of childbearing potential who are not using an acceptable method of contraception.\n* Subjects, who in the opinion of the Investigator, have a current diagnosis of asthma.\n* Subjects who have been hospitalized due to poorly controlled COPD within 3 months prior to Visit 1 (Screening) or during the run-in period (Visit 1 to Visit 2).\n* Subjects who have poorly controlled COPD, defined as acute worsening of COPD that requires treatment with oral corticosteroids or antibiotics within 6 weeks prior to Visit 1 (Screening) or during the run-in period (Visit 1 to Visit 2).\n* Subjects with a diagnosis of angle closure glaucoma will be excluded, regardless of whether or not they have been treated.\n* Subjects who have a history of hypersensitivity to β2-agonists, glycopyrronium or other muscarinic anticholinergics, or any component of the MDI.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Specific Image-Based Airway Volume (siVaw)",
+        "description": "Specific image-based airway volume. Average across lobe, adjusted for lobe volume. Ratio to baseline",
+        "timeFrame": "Baseline, Day 15"
+      },
+      {
+        "measure": "Specific Image-based Airway Resistance (siRaw)",
+        "description": "Specific image-based airway resistance (siRaw). Average across lobes, adjusted for lobe volume. Ratio to baseline.",
+        "timeFrame": "Baseline, Day 15"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Image-based Airway Volume (iVaw)",
+        "description": "Image-based airway volume (iVaw) without correction for lobe volume. Ratio to baseline.",
+        "timeFrame": "Baseline, Day 15"
+      },
+      {
+        "measure": "Image-based Airway Resistance (iRaw)",
+        "description": "Image-based airway resistance (iRaw) without correction for lobe volume. Ratio to baseline.",
+        "timeFrame": "Baseline, Day 15"
+      },
+      {
+        "measure": "FEV1",
+        "description": "FEV1 Change from baseline in Forced Expiratory Volume at 1 second.",
+        "timeFrame": "Baseline, Day 15"
+      },
+      {
+        "measure": "Functional Residual Capacity (FRC)",
+        "description": "Functional residual capacity (FRC). Ratio to baseline.",
+        "timeFrame": "Baseline, Day 15"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:25.509Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

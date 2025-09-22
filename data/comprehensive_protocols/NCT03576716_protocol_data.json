@@ -1,0 +1,123 @@
+{
+  "nctId": "NCT03576716",
+  "briefTitle": "Clearance of 25-hydroxyvitamin D3 During Vitamin D3 Supplementation",
+  "officialTitle": "Clearance of 25-hydroxyvitamin D3 During Vitamin D3 Supplementation",
+  "protocolDocument": {
+    "nctId": "NCT03576716",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-05-18",
+    "uploadDate": "2021-08-31T14:18",
+    "size": 559508,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03576716/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 19,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-06-01",
+    "completionDate": "2021-01-01",
+    "primaryCompletionDate": "2019-07-08",
+    "firstSubmitDate": "2018-06-22",
+    "firstPostDate": "2018-07-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Successful prior completion of related protocol CLEAR (NCT02937350) or CLEAR-CF (NCT03104855)\n* Age ≥ 18 years\n* Self-reported race Caucasian, African American, or African\n\nExclusion Criteria:\n\n* Primary hyperparathyroidism\n* Gastric bypass\n* Tuberculosis or sarcoidosis\n* Current pregnancy\n* Child-Pugh Class B or C cirrhosis (i.e. cirrhosis with ascites, hepatic encephalopathy, bilirubin \\>=2 mg/dL, serum albumin \\<=3.5 g/dL, or PT \\>= 4 seconds)\n* History of kidney transplantation (unless failed transplant now treated with hemodialysis)\n* Use of 1,25(OH)2D3 or an analogue, calcimimetics, or medications known to induce CYP24A1 within 4 weeks (wash-out allowed)\n* Serum calcium \\> 10.1 mg/dL\n* Hemoglobin \\< 10 g/dL",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Metabolic Clearance of D6-25(OH)D3",
+        "description": "Metabolic clearance is calculated as the administered dose of 25(OH)D3 divided by the area under the plasma concentration-time curve (AUC). AUC is calculated using the linear trapezoidal method. Change in clearance of D6-25(OH)D3 will be calculated as D6-25(OH)D3 clearance measured during CLEAR-PLUS minus D6-25(OH)D3 clearance previously measured during participation in the related study protocol (without vitamin D3 supplementation). Concentration was measured at 5 minutes, 4 hours, and at 1, 4, 7, 14, 21, 28, 42, and 56 days post administration. The change listed is between two timepoints.",
+        "timeFrame": "Baseline, 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in AUC of D6-25(OH)D3",
+        "description": "AUC is calculated using the linear trapezoidal method. Change in the AUC of D6-25(OH)D3 will be calculated as D6-25(OH)D3 AUC measured during CLEAR-PLUS minus D6-25(OH)D3 AUC previously measured during participation in the related study protocol (without vitamin D3 supplementation). Concentration was measured at 5 minutes, 4 hours, and at 1, 4, 7, 14, 21, 28, 42, and 56 days post administration. The change listed is between two timepoints.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Change in Terminal Half-life of D6-25(OH)D3",
+        "description": "Terminal half-life is equal to ln2/k, where k is the slope of the terminal regression line estimated using ≥3 plasma concentrations. Change in the terminal half-life of D6-25(OH)D3 will be calculated as D6-25(OH)D3 half-life measured during CLEAR-PLUS minus D6-25(OH)D3 half-life previously measured during participation in the related study protocol (without vitamin D3 supplementation). Concentration was measured at 5 minutes, 4 hours, and at 1, 4, 7, 14, 21, 28, 42, and 56 days post administration. The change listed is between two timepoints.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Change in Volume of Distribution of D6-25(OH)D3",
+        "description": "Volume of distribution in the central compartment is calculated as dose/C0, where dose is the administered dose of 25(OH)D3 and C0 is the initial (estimated) concentration of drug in plasma. Change in the volume of distribution of D6-25(OH)D3 will be calculated as D6-25(OH)D3 volume of distribution measured during CLEAR-PLUS minus D6-25(OH)D3 volume of distribution previously measured during participation in the related study protocol (without vitamin D3 supplementation). Concentration was measured at 5 minutes, 4 hours, and at 1, 4, 7, 14, 21, 28, 42, and 56 days post administration. The change listed is between two timepoints.",
+        "timeFrame": "Baseline, 6 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Changes in Metabolic Formation Clearance of D6-25(OH)D3 Metabolites.",
+        "description": "Metabolic formation clearance is calculated as the daughter metabolite plasma AUC divided by the AUC of D6-25(OH)D3 (metabolite/parent AUC ratio). AUC is calculated using the linear trapezoidal method. Changes in the metabolic formation clearance of D6-25(OH)D3 metabolites will be calculated as metabolic formation clearance measured during CLEAR-PLUS minus metabolic formation clearance previously measured during participation in the related study protocol (without vitamin D3 supplementation). Concentration was measured at 5 minutes, 4 hours, and at 1, 4, 7, 14, 21, 28, 42, and 56 days post administration. The change listed is between two timepoints.",
+        "timeFrame": "Baseline, 6 months"
+      },
+      {
+        "measure": "Change in the Serum Concentration of Calcium",
+        "description": "Change in the serum concentration of calcium from baseline to 7 days after 25(OH)D3 administration. The change listed is between two timepoints.",
+        "timeFrame": "Baseline, 7 days"
+      },
+      {
+        "measure": "Change in the Serum Concentration of Creatinine",
+        "description": "Change in the serum concentration of creatinine from baseline to 7 days after 25(OH)D3 administration. The change listed is between two timepoints.",
+        "timeFrame": "Baseline, 7 days"
+      },
+      {
+        "measure": "Change in the Serum Concentration of AST",
+        "description": "Change in the serum concentration of AST from baseline to 7 days after 25(OH)D3 administration. The change listed is between two timepoints.",
+        "timeFrame": "Baseline, 7 days"
+      },
+      {
+        "measure": "Change in the Serum Concentration of ALT",
+        "description": "Change in the serum concentration of ALT from baseline to 7 days after 25(OH)D3 administration. The change listed is between two timepoints.",
+        "timeFrame": "Baseline, 7 days"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 5,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:06.682Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

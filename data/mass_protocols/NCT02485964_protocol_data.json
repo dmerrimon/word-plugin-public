@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02485964",
+  "briefTitle": "A Pilot Study to Assess the Immunogenicity of Candidate PSA Peptides for a Prostate Cancer Vaccine",
+  "officialTitle": "A Pilot Study to Assess the Immunogenicity of Candidate PSA Peptides for a Prostate Cancer Vaccine",
+  "protocolDocument": {
+    "nctId": "NCT02485964",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-09-22",
+    "uploadDate": "2021-08-12T17:00",
+    "size": 183645,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02485964/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 10,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-08",
+    "completionDate": "2018-12",
+    "primaryCompletionDate": "2018-12",
+    "firstSubmitDate": "2015-06-26",
+    "firstPostDate": "2015-06-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histological documented diagnosis of prostate cancer\n* 18 years of age or older\n* Signed informed consent form approved by the University of Arkansas for Medical Sciences (UAMS) Institutional Review Board (IRB)\n\nExclusion Criteria:\n\n* Subjects must have no other current malignancies.\n* Subjects with prior history at any time of any basal or squamous skin cancer are eligible, provided they are disease-free at the time of registration.\n* Subjects with other malignancies are eligible if they have been continuously disease free for ≥ 5 years prior to the time of registration",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Antigen-specific Interferon- Secretion as Measured by Enzyme-linked Immunospot (ELISPOT) Assay",
+        "description": "The spots formed by interferon-gamma-secreting T-cells will be counted with an automated ELISPOT analyzer (AID ELISPOT Classic Reader; Autoimmune Diagnostika GmbH, Strassberg, Germany). The average spot-forming units (SFU) per antigen will be calculated. A response will be considered positive when the average SFU in wells with a given peptide was at least twice that of the average SFU in the no-peptide control wells.",
+        "timeFrame": "At time of consent"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-21T22:34:05.015Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

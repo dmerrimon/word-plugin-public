@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT06049927",
+  "briefTitle": "A Phase III Clinical Trial of Quadrivalent Influenza Vaccine in Healthy Subjects Aged 6 to 35 Months",
+  "officialTitle": "An Randomized, Double-blind, Controlled Phase III Clinical Trial to Evaluate the Safety and Immunogenicity of Quadrivalent Influenza Vaccine in Healthy Subjects Aged 6 to 35months",
+  "protocolDocument": {
+    "nctId": "NCT06049927",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-11-01",
+    "uploadDate": "2025-08-08T04:45",
+    "size": 668767,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06049927/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 3300,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-09-16",
+    "completionDate": "2024-05-23",
+    "primaryCompletionDate": "2024-05-23",
+    "firstSubmitDate": "2023-09-15",
+    "firstPostDate": "2023-09-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Healthy infants aged 6-35 months;\n* Proven vaccination certificate and birth certificate;\n* The subjects' guardians can understand and voluntarily sign the informed consent form.\n\nExclusion Criteria:\n\n* Received any circulating seasonal influenza vaccine prior to enrollment or had an influenza vaccine schedule during the study;\n* Suffering from seasonal influenza in the past 6 moths;\n* Axillary temperature \\>37.0°C;\n* History of allergy to the vaccine or vaccine components, or serious adverse reactions to the vaccine, such as urticaria, dyspnea, angioedema and asthma;\n* Congenital malformations or developmental disorders, genetic defects, severe malnutrition, etc.;\n* Severe chronic diseases(Such as down syndrome, diabetes, sickle cell anaemia or neurological disorders);\n* Severe neurological disease (epilepsy, convulsions or convulsions) or mental illness;\n* Autoimmune disease (such as systemic lupus erythematosus) or immunodeficiency / immunosuppression (such as HIV, after organ transplantation)\n* Thyroid disease or history of thyroidectomy, asplenia,functional asplenia, asplenia or splenectomy resulting from any condition;\n* Diagnosed abnormal blood coagulation function (eg, lack of blood coagulation factors, blood coagulopathy, abnormal platelets) or obvious bruising or blood coagulation;\n* Continuous use of corticosteroids or other immunosuppressive agents for ≥ 14 days within the past 6 months (excluding allergic rhinitis corticosteroid spray therapy, acute noncomplicated dermatitis superficial corticosteroid therapy) and cytotoxic therapy in the past 6 months;\n* Acute diseases or acute exacerbation of chronic diseases in the past 3 days;\n* Receipt of blood products within in the past 3 months;\n* Receipt of other investigational drugs in the past 30 days;\n* Receipt of attenuated live vaccines in the past 14 days;\n* Receipt of inactivated or subunit vaccines in the past 7 days;\n* Participated in other clinical trials before enrollment and in the follow-up period, or plans to participate in other clinical trials during the clinical trial;\n* According to the investigator's judgment, the subject has any other factors that are not suitable for participating in the clinical trial",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "6 Months",
+    "maximumAge": "35 Months",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Seroconversion rates of HI antibody",
+        "description": "Anti-influenza antibodies were measured using HAI assay for 4 strains: H1N1, H3N2, B Victoria and B Yamagata. Seroconversion was defined as pre-vaccination titer \\<1：10 and post-vaccination titer ≥1:40, and Significant increase was defined as pre-vaccination titer≥1:40 and ≥ 4-fold increase of post-vaccination titer.",
+        "timeFrame": "28 days after full schedule immunization"
+      },
+      {
+        "measure": "Geometric Mean Titers (GMTs) of HI antibody",
+        "description": "Anti-influenza antibody levels were measured using hemagglutination inhibition (HAI) assay for 4 strains: H1N1, H3N2, B Victoria, B Yamagata.",
+        "timeFrame": "28 days after full schedule immunization"
+      },
+      {
+        "measure": "Number of Participants With Seroprotection to Influenza Vaccine Antigens",
+        "description": "Anti-influenza antibodies were measured using HAI assay for 4 strains: H1N1, H3N2, B Victoria and B Yamagata. Seroprotection was defined as an antibody titer ≥1:40 at pre-vaccination and at post-final vaccination.",
+        "timeFrame": "28 days after full schedule immunization"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "GMIs of HI antibody",
+        "description": "Anti-influenza antibody were measured using hemagglutination inhibition (HAI) assay for 4 strains: H1N1, H3N2, B Victoria, B Yamagata. GMI is the increase fold of GMT post vaccination compared with pre vaccination",
+        "timeFrame": "28 days after full schedule immunization"
+      },
+      {
+        "measure": "Incidence of adverse reactions",
+        "description": "Incidence of adverse reaction 0-30 days after each dose",
+        "timeFrame": "0-30 days after each dose"
+      },
+      {
+        "measure": "Incidence of adverse reactions",
+        "description": "Incidence of adverse reaction 0-7 days after each dose",
+        "timeFrame": "0-7 days after each dose"
+      },
+      {
+        "measure": "Incidence of Serious adverse events",
+        "description": "Incidence of serious adverse events from beginning of vaccination until 6 months after the last dose",
+        "timeFrame": "Since the beginning of vaccination until 6 months after the last dose"
+      },
+      {
+        "measure": "Incidence of AESI",
+        "description": "Incidence of AESI since the beginning of vaccination until 6 months after the last dose",
+        "timeFrame": "since the beginning of vaccination until 6 months after the last dose"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:42.656Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

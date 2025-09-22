@@ -1,0 +1,133 @@
+{
+  "nctId": "NCT07179874",
+  "briefTitle": "Remote Ischemic Preconditioning to Prevent Contrast-Induced Kidney Injury in Diabetic Patients (PRINCES)",
+  "officialTitle": "Effects of Remote Ischemic Preconditioning on Contrast-Induced Kidney Damage in Diabetic Patients: Link to Oxidative Stress",
+  "protocolDocument": {
+    "nctId": "NCT07179874",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-09-15",
+    "uploadDate": "2025-09-15T04:51",
+    "size": 212818,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07179874/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 71,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-02-25",
+    "completionDate": "2017-01-09",
+    "primaryCompletionDate": "2017-01-09",
+    "firstSubmitDate": "2025-08-15",
+    "firstPostDate": "2025-09-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patient diagnosed with diabetes mellitus.\n* Age above 18 years.\n* Admission to the ICU due to acute coronary syndrome.\n* Indication for undergoing a coronary arteriography (either urgent or scheduled)\n* Patients who received a coronary arteriography within the last 72 hours (if previously recruited, counted as new for randomization).\n* Possibility to perform the RIPC maneuver without delaying the catheterization\n\nExclusion Criteria:\n\n* Absence of diabetes mellitus.\n* Pregnant women.\n* Renal transplant recipients.\n* Patients who underwent urological procedures or received intravenous contrast within the last 72 hours.\n* Diagnosis of end-stage renal disease requiring hemodialysis.\n* Participation in another clinical trial.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Incidence of Contrast-Induced Nephropathy (CIN), defined as an increase in serum creatinine ≥25% or ≥0.5 mg/dL from baseline within 72 hours after contrast exposure",
+        "description": "* Metric: Absolute change in serum creatinine level (mg/dL)\n* Time Frame: 24, 48, and 72 hours post-contrast administration\n* Purpose: Evaluates the incidence and severity of contrast-induced nephropathy (CIN)\n* Rationale: Creatinine is a key biomarker for acute kidney injury, particularly relevant in diabetic populations receiving iodinated contrast agents",
+        "timeFrame": "Time Frame: 24, 48, and 72 hours post-contrast administration"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "- Changes in Heme Oxygenase-1 (HO-1) concentration in plasma .",
+        "description": "Quantitative change in plasma levels of Heme Oxygenase-1 (HO-1) measured in nanograms per milliliter (ng/mL) using ELISA (ADI-960-071; commercial distributor: Enzo Diagnostics) before and after remote ischemic preconditioning (RIPC).",
+        "timeFrame": "24, 48, and 72 hours after contrast administration"
+      },
+      {
+        "measure": "Duration of ICU/Hospital Stay.",
+        "description": "Total number of days spent in the ICU and hospital.",
+        "timeFrame": "Up to 30 days post-ICU admission"
+      },
+      {
+        "measure": "Survival .",
+        "description": "Survival will be assessed as all-cause mortality.",
+        "timeFrame": "6 weeks post-hospital discharge"
+      },
+      {
+        "measure": "Hospital Readmission Rate",
+        "description": "Number of patients readmitted to the hospital within 6 weeks post-hospital discharge.",
+        "timeFrame": "6 weeks post-hospital discharge"
+      },
+      {
+        "measure": "Clinical Status",
+        "description": "Assessment of the patient's clinical condition at discharge (e.g., stable, improved, deteriorated).",
+        "timeFrame": "6 weeks post-hospital discharge"
+      },
+      {
+        "measure": "Need for Dialysis",
+        "description": "Number of patients requiring renal replacement therapy .",
+        "timeFrame": "6 weeks post-hospital discharge"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Neutrophil and Lymphocyte Counts and Neutrophil-to-Lymphocyte Ratio (NLR)",
+        "description": "Quantitative changes in total neutrophil count, total lymphocyte count, and the derived neutrophil-to-lymphocyte ratio (NLR) calculated from these values in peripheral blood samples collected before and after remote ischemic preconditioning (RIPC).",
+        "timeFrame": "From baseline to 72 hours after coronary catheterization"
+      },
+      {
+        "measure": "NT-proBNP Levels (Cardiac Stress Marker)",
+        "description": "Quantitative change in plasma levels of N-terminal pro-B-type natriuretic peptide (NT-proBNP), measured before and after remote ischemic preconditioning (RIPC) . This marker reflects cardiac stress and was assessed as part of the biochemical profile.",
+        "timeFrame": "From baseline to 72 hours after coronary catheterization"
+      },
+      {
+        "measure": "Ferritin (Ft) Levels",
+        "description": "Quantitative change in plasma ferritin (Ft) levels measured in nanograms per milliliter (ng/mL) before and after remote ischemic preconditioning (RIPC).",
+        "timeFrame": "From baseline to 72 hours after coronary catheterization"
+      },
+      {
+        "measure": "C-Reactive Protein (CRP) Levels",
+        "description": "Quantitative change in plasma C-reactive protein (CRP) levels measured in milligrams per deciliter (mg/dL), before and after remote ischemic preconditioning (RIPC).",
+        "timeFrame": "From baseline to 72 hours after coronary catheterization"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 4,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 58,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

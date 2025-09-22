@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT02983045",
+  "briefTitle": "A Dose Escalation and Cohort Expansion Study of NKTR-214 in Combination With Nivolumab and Other Anti-Cancer Therapies in Patients With Select Advanced Solid Tumors",
+  "officialTitle": "A Phase 1/2, Open-label, Multicenter Study of the Combination of NKTR-214 and Nivolumab or the Combination of NKTR-214, Nivolumab, and Other Anti-Cancer Therapies in Patients With Select Locally Advanced or Metastatic Solid Tumor Malignancies",
+  "protocolDocument": {
+    "nctId": "NCT02983045",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-02-11",
+    "uploadDate": "2022-11-29T19:25",
+    "size": 4250912,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02983045/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 557,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-12-19",
+    "completionDate": "2022-04-28",
+    "primaryCompletionDate": "2022-04-28",
+    "firstSubmitDate": "2016-11-23",
+    "firstPostDate": "2016-12-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "INCLUSION CRITERIA - For Parts 1-4:\n\n* Histologically confirmed diagnosis of a locally advanced (not amenable to curative therapy such as surgical resection) or metastatic solid tumors\n* Life expectancy \\> 12 weeks\n* Patients must not have received prior interleukin-2 (IL-2) therapy\n* Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1\n* Measurable disease per RECIST 1.1\n* Patients with stable brain metastases under certain criteria\n* Fresh and archival tumor tissue available Tumor specific inclusion criteria may apply.\n\nEXCLUSION CRITERIA - For Parts 1-4:\n\n* Use of an investigational agent or an investigational device within 28 days before administration of first dose of NKTR--214\n* Females who are pregnant or breastfeeding\n* Participants who have an active autoimmune disease requiring systemic treatment within the past 3 months or have a documented history of clinically severe autoimmune disease that requires systemic steroids or immunosuppressive agents\n* History of organ transplant that requires use of immune suppressive agents\n* Active malignancy not related to the current diagnosed malignancy\n* Evidence of clinically significant interstitial lung disease or active, noninfectious pneumonitis\n* Participants who have had \\< 28 days since the last chemotherapy, biological therapy, or \\< 14 days from approved tyrosine kinase inhibitor (TKI) therapy, or systemic or inhaled steroid therapy at doses greater than 10mg of prednisone Tumor specific exclusion criteria may apply.\n\nOther protocol defined inclusion/exclusion criteria may apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Part 1 Dose Escalation: Incidence of Dose-limiting Toxicity (DLT) During the DLT Evaluation Window",
+        "description": "Part 1of the study was a dose-escalation phase that evaluated the safety and tolerability and defined the maximum tolerated dose or recommended Phase 2 dose of the NKTR-214/nivolumab doublet across 5 dosage/schedule levels. The results presented are for the DLT Population.",
+        "timeFrame": "Includes DLTs that occurred within the DLT window of at least 21 days after the first dose of study treatment (28 days for every 2 weeks dosing; 21 days for every 3 weeks dosing). Patients were counted only once under each preferred term."
+      },
+      {
+        "measure": "Part 3 Schedule Finding: Incidence of Dose-limiting Toxicity (DLT) During the DLT Evaluation Window",
+        "description": "Part 3 of the study was a schedule finding phase to establish the recommended phase 2 dosing schedules for Part 4 and assess the safety and tolerability for the NKTR-214/nivolumab/ipilimumab triplet combination. The results presented are for the DLT Population.",
+        "timeFrame": "Dose-limiting toxicities (DLTs) were assessed during a 3-week (21-day) DLT evaluation period beginning with the first dose of ipilimumab."
+      },
+      {
+        "measure": "Part 2 and Part 4: Objective Response Rate (ORR) Per RECIST 1.1 at Recommended Phase 2 Dose (RP2D)",
+        "description": "Objective Response Rate (ORR) per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST 1.1) at Recommended Phase 2 Dose (RP2D).\n\nORR is defined as the percentage of enrolled participants who achieved a Best Overall Response (BOR) of Complete Response (CR) or Partial Response (PR). CR is defined as disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) had to have reduction in short axis to \\<10 mm. PR is defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters. ORR is calculated as the sum of CR and PR.",
+        "timeFrame": "Tumor assessment at Screening then every 8 weeks (± 7 days) from Cycle 1 Day 1 and end of treatment (unless scan done within 4 weeks) up to approximately 27 months."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:47.698Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

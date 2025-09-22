@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT02791516",
+  "briefTitle": "A Safety and Efficacy Study to Evaluate Romosozumab (AMG 785) in South Korean Women With Osteoporosis",
+  "officialTitle": "A Multicenter, Randomized, Double-blind, Placebo-controlled, Study to Compare the Efficacy and Safety of Romosozumab With Placebo in Postmenopausal South Korean Women With Osteoporosis",
+  "protocolDocument": {
+    "nctId": "NCT02791516",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-11-13",
+    "uploadDate": "2019-04-10T14:07",
+    "size": 2102302,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02791516/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 67,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-01-16",
+    "completionDate": "2018-12-21",
+    "primaryCompletionDate": "2018-02-12",
+    "firstSubmitDate": "2016-06-02",
+    "firstPostDate": "2016-06-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Ambulatory postmenopausal Korean women, ≥ 55 to ≤ 90 years of age at enrollment.\n* Postmenopause is defined as no spontaneous vaginal bleeding or spotting for 12 or more consecutive months prior to screening.\n* BMD T-score \\</= -2.50 at the lumbar spine, total hip or femoral neck.\n* At least 2 vertebrae in the L1 through L4 region and at least one hip are evaluable by DXA.\n* Other inclusion criteria may apply.\n\nExclusion Criteria:\n\n* Subjects with a BMD T-score \\</= -4.0 at the lumbar spine, total hip, or femoral neck.\n* History of hip fracture.\n* Bone disease other than osteoporosis/ or evidence of any other clinically significant disorder, condition/ or disease or significant laboratory abnormalities.\n* Known sensitivity or intolerance calcium and vitamin D products.\n* Other exclusion criteria may apply.",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "55 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percent Change From Baseline to Month 6 in Bone Mineral Density at the Lumbar Spine",
+        "description": "Bone mineral density (BMD) at the lumbar spine was assessed by dual-energy x-ray absorptiometry (DXA). Images were assessed by a central reader.",
+        "timeFrame": "Baseline and month 6"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percent Change From Baseline to Month 6 in Bone Mineral Density at the Total Hip",
+        "description": "Bone mineral density (BMD) at the total hip was assessed by dual-energy x-ray absorptiometry (DXA). Images were assessed by a central reader.",
+        "timeFrame": "Baseline and month 6"
+      },
+      {
+        "measure": "Percent Change From Baseline to Month 6 in Bone Mineral Density at the Femoral Neck",
+        "description": "Bone mineral density (BMD) at the femoral neck was assessed by dual-energy x-ray absorptiometry (DXA). Images were assessed by a central reader.",
+        "timeFrame": "Baseline and month 6"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:02.423Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT06156215",
+  "briefTitle": "PROmotion of COVID-19 BOOSTer VA(X)Ccination in the Emergency Department - PROBOOSTVAXED",
+  "officialTitle": "PROmotion of COVID-19 BOOSTer VA(X)Ccination in the Emergency Department - PROBOOSTVAXED",
+  "protocolDocument": {
+    "nctId": "NCT06156215",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-10-28",
+    "uploadDate": "2025-07-17T15:43",
+    "size": 389547,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06156215/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 919,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-01-19",
+    "completionDate": "2024-08-18",
+    "primaryCompletionDate": "2024-07-18",
+    "firstSubmitDate": "2023-12-01",
+    "firstPostDate": "2023-12-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age \\> 18 years\n2. Presenting to ED\n3. No receipt of COVID-19 booster within prior 6 months\n4. Able to provide informed consent\n5. Fluent in English or Spanish\n6. Anticipated ability to complete study intervention in ED i.e., able to watch a 3-minute videoclip\n\nExclusion Criteria:\n\n1. Major trauma such that it will preclude survey\n2. Inability to participate in a survey because of intoxication, altered mental status, or critical illness\n3. Incarceration\n4. Psychiatric hold\n5. Patients who state that they have already received a bivalent COVID-19 booster vaccine or other COVID-19 vaccine within the prior 6 months\n6. Patients who are in the ED for suspected acute COVID-19",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With 30-day Booster Vaccine Uptake",
+        "description": "Our primary outcome is booster vaccine uptake (at any vaccination location) within 30 days after participants' index ED visit, comparing Intervention M arm with Control",
+        "timeFrame": "30 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number or Participants Receiving Booster Vaccination in the ED",
+        "description": "Booster vaccine uptake in the ED on the day of the index visit, M arm versus control and Q arm versus control",
+        "timeFrame": "day of index visit"
+      },
+      {
+        "measure": "Number of Participants Stating They Would Accept Vaccine in the ED",
+        "description": "A response of \"yes\" to the question, \"Would you accept the booster vaccine in the emergency department today if your doctor asked you?\"), comparing M and Q arms",
+        "timeFrame": "on the day of index ED visit"
+      },
+      {
+        "measure": "Number of Participants With 30-day Booster Vaccine Uptake, Q Arm",
+        "description": "Booster vaccine uptake (at any vaccination location) within 30 days after participants' index ED visit, comparing Intervention Q arm with Control",
+        "timeFrame": "30 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:42.135Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

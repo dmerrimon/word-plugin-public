@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT03632434",
+  "briefTitle": "Transcranial Direct Current Stimulation Therapy for Major Depression",
+  "officialTitle": "Acceptability and Feasibility of Transcranial Direct Current Stimulation Therapy as a Community-based Treatment for Major Depression",
+  "protocolDocument": {
+    "nctId": "NCT03632434",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-05-25",
+    "uploadDate": "2024-02-20T09:07",
+    "size": 298099,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03632434/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 26,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-10-14",
+    "completionDate": "2021-11-26",
+    "primaryCompletionDate": "2021-11-26",
+    "firstSubmitDate": "2018-08-08",
+    "firstPostDate": "2018-08-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* diagnosis of major depressive disorder based on DSM-5 criteria\n* minimum score of 16 on Hamilton Rating Scale for Depression (HAM-D)\n\nExclusion Criteria:\n\n* history of treatment-resistant depression\n* comorbid psychiatric disorder\n* significant risk of suicide or self harm\n* any contraindications to tDCS, including implanted electronic medical devices",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Clinical Response",
+        "description": "As measured by a Hamilton Depression Rating Scale score that is less than or equal to 50% of the baseline Hamilton Depression Rating Scale score. Higher scores indicate greater depressive symptoms.",
+        "timeFrame": "At 6 weeks following course of tDCS treatment"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:16.891Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

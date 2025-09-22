@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT05588440",
+  "briefTitle": "A Clinical Study of ONCT-808 in Subjects With Relapsed or Refractory B-Cell Malignancies",
+  "officialTitle": "Phase 1/2 Multi-Center Study to Evaluate the Safety and Efficacy of ONCT-808 in Adult Subjects With Relapsed or Refractory Aggressive B-Cell Malignancies",
+  "protocolDocument": {
+    "nctId": "NCT05588440",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-01-16",
+    "uploadDate": "2024-11-27T14:53",
+    "size": 1650456,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05588440/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-05-09",
+    "completionDate": "2024-09-12",
+    "primaryCompletionDate": "2024-09-12",
+    "firstSubmitDate": "2022-09-23",
+    "firstPostDate": "2022-10-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Over 18 years old\n* Histologically confirmed aggressive B-cell NHL, including:\n\n  * MCL, with diagnosis confirmed by cyclin D1 overexpression or evidence of t (11;14) translocation\n  * LBCL, including:\n\n    * DLBCL NOS\n    * Primary mediastinal LBCL\n    * High-grade BCL\n    * DLBCL arising from follicular lymphoma\n    * Follicular lymphoma grade 3B\n    * Richter's syndrome\n* Availability of archival tissue for immunohistology, or willing to undergo baseline biopsy if not available\n* R/R with no available therapy. Subject must have:\n\n  * Received prior systemic therapy that has included an alkylating agent, anthracycline, and an anti-CD20 mAb\n  * Received and progressed after autologous hematopoietic stem cell transplant (HSCT) or is ineligible for or has refused to receive HSCT\n  * Received prior approved CD19 CAR T-cell therapy or is ineligible for or has refused CD19 CAR-T\n* Minimum washout period between previous systemic therapy and leukapheresis includes:\n\n  * Chemotherapy: at least 14 days or 5 half-lives, whichever is shorter\n  * Autologous HSCT: at least 3 months\n  * CD19 CAR T-cell therapy: at least 6 months\n* ≥1 measurable lesion per Lugano criteria (Cheson, 2014)\n* Subject has Fluorodeoxyglucose (FDG)-avid disease.\n* Subject has an ECOG performance status of 0 or 1.\n* Subject has adequate organ function:\n\n  * ALC ≥100/uL\n  * ANC ≥1000/uL (≥500/uL if due to lymphoma; growth factors allowed)\n  * Hgb ≥8 g/dL (transfusion allowed)\n  * Platelets ≥75,000/uL (≥50,000/uL if due to lymphoma; transfusion allowed)\n  * CrCL ≥50 ml/min; AST/ALT ≤2.5x ULN, T. bili ≤1.5 mg/dl (except Gilbert's)\n  * EF ≥50% by ECHO/MUGA; NCS ECG, NCS pleural effusion; O2 sat \\>92%\n* Subject has an estimated life expectancy of \\>12 weeks\n\nKey Exclusion Criteria:\n\n* Prior ROR1-targeted therapy\n* Current or anticipated systemic immunosuppressive therapy (e.g., prednisone \\>5 mg) from LD chemo until Day 28 post ONCT-808 dosing\n* If receiving anticoagulation therapy, subject is unable to hold therapy for 3 days prior and 28 days following ONCT-808 administration\n* Known CNS involvement by malignancy within 6 months\n* H/o or current CNS disorder (e.g., seizure, CVA, dementia, cerebellar disease, cerebral edema, posterior reversible encephalopathy syndrome or any autoimmune disease with CNS involvement) within 6 months of study entry\n* Clinically significant cardiovascular disease (e.g., MI, UA, CABG, or CHF grade ≥2 NYHA within 12 months of planned ONCT-808 dosing) or serious arrhythmia requiring medication\n* Evidence of HIV infection or active HBV, HCV\n* Systemic fungal infection requiring medication in the last 12 months\n* H/o Covid-19 infection with residual lung infiltrate/fibrosis\n* H/o other malignancy except non-melanoma skin cancer or carcinoma in situ not in remission for ≥2 years\n* H/o autoimmune disease resulting in end organ injury or require systemic immunosuppression within last 2 years\n* H/o allogeneic HSCT or organ transplant",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "To Evaluate the Incidence of Dose Limiting Toxicities (DLT)",
+        "description": "This is based on subject treated with ONCT-808. ONCT-808 1x10\\^6 CAR T cells/kg: n=3 ONCT-808 3x10\\^6 CAR T cells/kg: n=1 ONCT-808 0.3x10\\^6 CAR T cells/kg: n=2",
+        "timeFrame": "Up to 28 days after the one-time infusion of ONCT-808"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Best Metabolic Response Rate Post-Baseline",
+        "description": "This is based on subject treated with ONCT-808. ONCT-808 1x10\\^6 CAR T cells/kg: n=3 ONCT-808 3x10\\^6 CAR T cells/kg: n=1 ONCT-808 0.3x10\\^6 CAR T cells/kg: n=2\n\nResponse assessments were evaluated using fluorodeoxyglucose (FDG) positron-emission tomography-computed tomography (PET-CT) per the Lugano classification (Cheson, 2014)",
+        "timeFrame": "up to 1 year after the one-time infusion of ONCT-808"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:46.604Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

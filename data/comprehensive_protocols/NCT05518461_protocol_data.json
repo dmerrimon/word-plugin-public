@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT05518461",
+  "briefTitle": "Smartphone Intervention for Overdose and COVID-19",
+  "officialTitle": "iThrive WI - A Smartphone Intervention for Overdose and Risk and COVID-19 Among People Who Use Drugs",
+  "protocolDocument": {
+    "nctId": "NCT05518461",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-08-08",
+    "uploadDate": "2024-11-07T16:06",
+    "size": 826637,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05518461/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-12-19",
+    "completionDate": "2023-12-15",
+    "primaryCompletionDate": "2023-12-15",
+    "firstSubmitDate": "2022-08-25",
+    "firstPostDate": "2022-08-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18 years old or older\n* Willing to attend in person study encounters at any of the following Vivent Health locations: Milwaukee, Appleton, and Eau Claire\n* Used opioids to get high in the past 30 days\n* Injected drugs at least 2 times in the past 7 days\n* Express interest in reducing their overdose risk\n\nExclusion Criteria:\n\n* None in addition to the inclusion criteria",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Content Completion Rate Assessed as Number of Participants Who Completed at Least 6 of the 12 Weeks of the Intervention",
+        "description": "Study feasibility will be in part based on intervention content completion rates. The study will be considered feasible if participants complete any intervention content on at least 50% (i.e., 6) of the 12 weeks. We will report the number of participants who completed at least 6 of the 12 weeks.",
+        "timeFrame": "up to 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Days in the Past Month Endorsing Overdose Risk Behaviors",
+        "description": "Preliminary effectiveness will in part be measured by examining the number of days in the previous month endorsing overdose risk behaviors at months 3 and 6 (relative to baseline/study enrollment). Overdose risk behavior frequency will be assessed by participant self-report.",
+        "timeFrame": "baseline, 3 months, 6 months"
+      },
+      {
+        "measure": "Change in COVID-19 Vaccination Rates From Baseline",
+        "description": "Preliminary effectiveness will in part be assessed by measuring the proportion of participants vaccinated against COVID-19 at baseline and at months 3 and 6.",
+        "timeFrame": "baseline, 3 months, 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:37.324Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

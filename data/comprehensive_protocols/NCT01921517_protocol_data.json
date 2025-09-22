@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT01921517",
+  "briefTitle": "Micromechanical Modeling Using Low Magnitude Mechanical Stimulation",
+  "officialTitle": "Osteoporosis Treatment Response Assessed by Micromechanical Modeling of MRI Data",
+  "protocolDocument": {
+    "nctId": "NCT01921517",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2018-10-24",
+    "uploadDate": "2019-09-19T11:16",
+    "size": 378336,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01921517/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 117,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-09",
+    "completionDate": "2019-06-20",
+    "primaryCompletionDate": "2019-02-28",
+    "firstSubmitDate": "2013-08-08",
+    "firstPostDate": "2013-08-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Females, ages 45-65 years and post menopausal, as defined by a history of amenorrhea for a minimum of 24 months and a serum FSH (follicle-stimulating hormone) concentration of 25 mIU/mL (milli-International unit per milliliter) and negative pregnancy test.\n\nExclusion Criteria:\n\n* Current or prior use of medications known to affect bone (e.g. bisphosphonates, calcitonin, selective estrogen receptor modulators, denosumab, diphenylhydantoin, recent systemic glucocorticoid use), bone mineral density T score of less than -2.5 and greater than +2, Vitamin D level less then 12 ng/ml, BMI (body mass index) of greater than 32, current alcohol or drug abuse: more than 3 alcoholic beverages per day or current abuse of illicit drugs or prescription medication, uncontrolled or untreated cardiac or pulmonary disease liver disease: history of hepatitis or ALT (alanine aminotransferase) or AST (aspartate aminotransferase) greater than 2x ULN (upper limit of normal), renal disease: history of renal disease or serum creatinine greater than 2x ULN diabetes, pacemaker or metallic implants considered a contraindication to MR scanning.",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "45 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Distal Tibia Bone Quality",
+        "description": "Distal tibial bone quality is measured through MRI by calculating the ratio between bone volume to total volume. A lower value would indicate osteoporotic (weaker) bone; a higher value would indicate healthy (normal) bone.",
+        "timeFrame": "Baseline to 12 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:02.938Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

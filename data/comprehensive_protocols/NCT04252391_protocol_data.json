@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04252391",
+  "briefTitle": "Peri-neural Electrical Dry Needling Migraine Treatment Study",
+  "officialTitle": "A Randomized Controlled Crossover Study to Determine the Effectiveness of Peri-Neural Electrical Dry Needling (PNED) vs. Standard Care for the Treatment of Patients With Migraine Headaches",
+  "protocolDocument": {
+    "nctId": "NCT04252391",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-01-24",
+    "uploadDate": "2020-01-29T10:28",
+    "size": 1361022,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04252391/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2020-02-18",
+    "completionDate": "2023-04",
+    "primaryCompletionDate": "2023-04",
+    "firstSubmitDate": "2020-01-29",
+    "firstPostDate": "2020-02-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Men and women age 18 to 100 years old\n* Acute or chronic manifestation of migraine headaches or prior diagnosis of migraine headache.\n* Numeric pain rating of 3/10 (where 0= no pain and 10= worst pain)\n\nExclusion Criteria:\n\n* History of epilepsy\n* Needle-phobia\n* Unstable psychological status\n* Compromised immune system\n* Metallic allergy\n* Having not eaten within the past 3 hours\n* Inability to lie in prone, or side-lying\n* Pregnant or trying to become pregnant\n* Inability to consent or understand English.\n* Prisoners",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in numeric pain rating scale",
+        "description": "Self reported pain intensity immediately before and after treatment using a numeric pain rating scale from 0 to 10 (0 = no pain and 10 = the worst pain).\n\nParticipants will be assessed 2 days per week with a minimum of 1 day between treatment days.",
+        "timeFrame": "1-6 days"
+      },
+      {
+        "measure": "Change in Neck disability index scale",
+        "description": "A functional status scale ranging from 0% to 100% (0%= no activity limitation, 100% =complete activity limitation).\n\nParticipants will be assessed immediately before and after treatment. Participants will be assessed 2 days per week with a minimum of 1 day between treatment days.",
+        "timeFrame": "1-6 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Trends with use of perineural electrical dry needling with or without CGRP antagonist drugs.",
+        "description": "Because this is a small trial it is unlikely that we will be able to determine if migraine drugs significantly modify the effect perineural electrical dry needle treatment has on pain and the neck disability index. However we will look for any trends in interaction between perineural electrical dry needle treatment and migraine drugs using exploratory data analysis and box plot comparisons.",
+        "timeFrame": "following 4 weeks of treatment in the standard care plus perineural electrical dry needling arm."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:52.745Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

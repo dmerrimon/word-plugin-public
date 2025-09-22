@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04912856",
+  "briefTitle": "An Open-Label Extension of the Study XEN496 (Ezogabine) in Children With KCNQ2-DEE",
+  "officialTitle": "An Open-Label Extension of the Study XEN496 in Children With KCNQ2 Developmental and Epileptic Encephalopathy",
+  "protocolDocument": {
+    "nctId": "NCT04912856",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan: Study Protocol",
+    "date": "2022-05-09",
+    "uploadDate": "2024-12-18T18:51",
+    "size": 559972,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04912856/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 8,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-08-17",
+    "completionDate": "2023-11-17",
+    "primaryCompletionDate": "2023-11-17",
+    "firstSubmitDate": "2021-05-03",
+    "firstPostDate": "2021-06-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subject completed participation in the primary study, XPF-009-301. A subject who withdraws from the primary study due to meeting protocol-specified worsening criteria will be considered as having completed participation in the primary study.\n* The caregiver is willing and able to be compliant with diary completion, visit schedule, and study drug administration.\n* Subject's caregiver achieved a minimum of 85% compliance with daily diary completion during both baseline and the double-blind period of the primary study.\n\nExclusion Criteria:\n\n* Any adverse event(s) or serious adverse event(s) during the primary study XPF-009-301, which in the opinion of the investigator and sponsor's medical monitor, would preclude the subject's entry into the OLE study.\n* A clinically significant condition or illness, or symptoms other than those resulting from KCNQ2-DEE, present at screening/baseline that, in the opinion of the investigator, would pose a risk to the subject if s/he were to enter the study.\n* Any conditions that were specified as exclusion criteria in the primary study, XPF-009-301.\n* It is anticipated that the subject will require treatment with at least 1 of the disallowed medications during the study.\n* Any change in cardiac rhythm or atrioventricular conduction in the primary study that, in the investigator's opinion, is a significant risk to subject safety.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "1 Month",
+    "maximumAge": "6 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Incidence of Adverse Events (AEs) and Serious Adverse Events (SAEs) Related to Intervention",
+        "description": "Safety and tolerability of XEN496 as assessed by incidence and severity of AEs and SAEs",
+        "timeFrame": "From Screening/Baseline through to 4 weeks post last dose"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:50.906Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

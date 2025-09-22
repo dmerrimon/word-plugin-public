@@ -1,0 +1,100 @@
+{
+  "nctId": "NCT00645710",
+  "briefTitle": "Hepatic Arterial Infusion of Floxuridine, Gemcitabine Hydrochloride, and Radiolabeled Monoclonal Antibody Therapy in Treating Liver Metastases in Patients With Metastatic Colorectal Cancer Previously Treated With Surgery",
+  "officialTitle": "A Phase I/II Trial of Radioimmunotherapy (Y-90 cT84.66), Gemcitabine and Hepatic Arterial Infusion of Fudr for Metastatic Colorectal Carcinoma to the Liver",
+  "protocolDocument": {
+    "nctId": "NCT00645710",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-07-01",
+    "uploadDate": "2018-12-21T13:32",
+    "size": 310513,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00645710/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 16,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2005-02-11",
+    "completionDate": "2018-02-07",
+    "primaryCompletionDate": "2018-02-07",
+    "firstSubmitDate": "2008-03-27",
+    "firstPostDate": "2008-03-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion\n\n* Patients must have a Karnofsky performance status of \\>= 60%; this must be met pre-surgery and pre-study therapy\n* Patients must have histological confirmation of colorectal carcinoma and present with potentially resectable or abatable metachronous or synchronous hepatic metastases\n* Patients must have colorectal tumors that produce CEA as documented by either immunohistochemistry or by an elevated serum CEA\n* Prior radiotherapy, immunotherapy, or chemotherapy must have been completed at least four weeks prior to start of FUdR/RIT therapy on this study (6 weeks if mitomycin-C or nitrosoureas were part of last therapy) and patients must have recovered from all expected side effects of the prior therapy\n* Laboratory values must be met pre-surgery and pre-study therapy\n* Hemoglobin \\> 10 gm % (patients may be transfused to reach a hemoglobin \\> 10 gm %)\n* WBC \\> 4000/ul\n* Absolute granulocyte count of \\> 1,500/mm\\^3\n* Platelets \\> 150,000/ul\n* Patients may have history of prior malignancy for which the patient has been disease-free for five years with the exception of basal or squamous cell skin cancers or carcinoma in situ of the cervix\n* Patients must have no prior history of radiation therapy to the liver\n* Total bilirubin \\< 1.5 (unless reversibly obstructed due to the metastatic tumor)\n* Serum creatinine of \\< 2.0\n* Patients must have evidence of intrahepatic metastases involving \\< 60% of the functioning liver\n* Patients cannot have evidence of extrahepatic disease with the following exceptions: patients known to have a resectable \"anastomotic\" or local recurrence of their tumor; patients who undergoing their initial surgery for resection of their primary colorectal carcinoma can have potentially resectable porta hepatis and/or mesenteric lymph node involvement in addition to liver metastases; patients who have disease extension from the liver metastasis that can be resected en bloc (e.g., diaphragm, kidney, and abdominal wall); patients who have minimal, potentially resectable to less than 3 cm extrahepatic disease\n* The pre-operative eligibility checklist must be completed\n* If a patient has previously received murine or chimeric antibody, then serum anti-antibody testing must be negative (This must be met pre-surgery if possible)\n* Serum HIV testing and hepatitis B surface antigen and C antibody testing must be negative\n* Women of childbearing potential must have a negative serum pregnancy test prior to entry and while on study must be practicing an effective form of contraception (This must be met pre-surgery and pre-study therapy)\n* Patients must have resectable or abatable liver metastases as determined by the attending surgeon\n* Colorectal carcinoma must be confined to the liver except as noted above\n* Patients with limited extrahepatic disease as defined (primary, lymph node, or anastomotic recurrence) must have disease resected or debulked to less than 3 cm in greatest dimension\n* To receive study therapy, patients must be at least 3 weeks post-surgery but no more than 16 weeks post surgery and without evidence of post-operative complications, such as infection or poor wound healing\n* Patients must have \\< 40% liver resected at the close of completion of the hepatic resection\n\nExclusion\n\n* Patients that have received radiation therapy to greater than 50% of their bone marrow\n* Patients with any nonmalignant intercurrent illness (example cardiovascular, pulmonary, or central nervous system disease) which is either poorly controlled with currently available treatment or which is of such severity that the investigators deem it unwise to enter the patient on protocol shall be ineligible\n* Biopsy-proven chronic active hepatitis",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With at Least One Dose Limiting Toxicity",
+        "description": "Dose Limiting Toxicity (DLT) defined as any treatment-related grade grade 3 nonhematologic toxicity not reversible to grade 2 or less within 24 hours, or any grade 4 toxicity.Up to three cycles of therapy were allowed with DLTs determined based on first cycle tolerance. Toxicity was graded using the National Cancer Institute Common Toxicity Criteria version 2.0.",
+        "timeFrame": "4 weeks from start of treatment, up to 2 years."
+      },
+      {
+        "measure": "Recommended Phase II Dose",
+        "description": "The maximum tolerated dose (MTD) of HAI FUdR in combination with intravenous gemcitabine and 90Y-DTPA-cT84.66 is based on toxicities observed during the first cycle and is defined as the highest dose tested in which fewer than 33% of patients experience an attributable DLT to the study drug, when at least 6 patients are treated at that dose and are evaluable for toxicity. Dose escalations proceeded according to a standard 3+3 design.",
+        "timeFrame": "4 weeks from start of treatment, up to 2 years."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Survival",
+        "description": "Estimated using the product-limit method of Kaplan and Meier. Event defined as death due to any cause.",
+        "timeFrame": "Up to 5 years"
+      },
+      {
+        "measure": "Progression-free Survival",
+        "description": "Estimated using the product-limit method of Kaplan and Meier. Progression is defined as a 25% increase in the sum of products of measurable lesions over the smallest sum observed, or appearance of any lesions that had disappeared, or appearance of any new lesion/site.",
+        "timeFrame": "Up to 5 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 42,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:59.665Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

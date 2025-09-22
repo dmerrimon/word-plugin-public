@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03763058",
+  "briefTitle": "Music Intervention on Migraine Headaches",
+  "officialTitle": "The Effect of Music Therapy on Episodic Migraine Patients Under the Care of Chronic Pain Department - A Pilot Trial",
+  "protocolDocument": {
+    "nctId": "NCT03763058",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-09-21",
+    "uploadDate": "2019-05-01T04:14",
+    "size": 1002172,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03763058/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-12-03",
+    "completionDate": "2019-03-15",
+    "primaryCompletionDate": "2019-03-15",
+    "firstSubmitDate": "2018-11-30",
+    "firstPostDate": "2018-12-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with episodic migraine with at least 4 attacks per month\n* Patients with migraines with or without aura with diagnostic criteria per International Headache Society\n* Patients with a migraine for more than one year\n* Diagnosis age \\< 50 years\n* Patients with an available internet connexion to access Music Care application\n* Patients with minimal knowledge in informatics\n* Patients who sign their inform consent\n\nExclusion Criteria:\n\n* Patients aged less than 18 years\n* Patients with chronic migraine\n* Patients with epilepsy\n* Patients with a deficiency on auditive function\n* Patients with a disease that could be fatal within the study period.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Frequency of Migraine Attacks (Number of Days Per Month)",
+        "description": "All data related to migraine like frequency, duration, severity are to be collected in a diary questionnaire. Per ANAES (Agence nationale de l'accréditation et de l'évaluation en santé) recommendations, this means reduction of 50% on frequency of migraine attacks after 3-month treatment period. Comparison will be done between the number of days in the month prior the first music intervention and the number of days in the 3rd month of intervention.",
+        "timeFrame": "1 month prior to intervention (pre-treatment) up to 3 months (post-treatment)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Duration of Migraine Attacks (Hours)",
+        "description": "The outcome is the mean duration of migraine attacks per month. Comparison will be done between the month prior the first music intervention and the 3rd month of intervention. The mean duration is calculated by summing the total duration during the month divided by the number of attacks in the month.",
+        "timeFrame": "1 month prior to intervention (pre-treatment) up to 3 months (post-treatment)"
+      },
+      {
+        "measure": "Number of Migraine Episodes With Severe Intensity",
+        "description": "This data is collected as mild, moderate or severe. The same analysis as the primary outcome will be done by severity. So the frequency of migraine attacks will be compared for each severity.",
+        "timeFrame": "1 month prior to intervention (pre-treatment) up to 3 months (post-treatment)"
+      },
+      {
+        "measure": "Impact of Migraines on Everyday Level of Functioning",
+        "description": "This outcome will be evaluated using the Headache Impact Test (HIT-6) score. The total score range is 36-78. A higher score indicates a worse impact of migraines on daily life. Comparison will be done between the score obtained before first music session and at the evaluation done after 3 months of music intervention.",
+        "timeFrame": "1 month prior to intervention (pre-treatment) up to 3 months (post-treatment)"
+      },
+      {
+        "measure": "Reduction on Anxiety and Depression",
+        "description": "This outcome will be evaluated using Hospital Anxiety and Depression Scale (HAD). The total scores range is 0-21 for both depression and anxiety scores. A higher score indicates a worse depression and anxiety. Comparison will be done between the score obtained before first music session and at the evaluation done after 3 months of music intervention.",
+        "timeFrame": "1 month prior to intervention (pre-treatment) up to 3 months (post-treatment)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:53.003Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

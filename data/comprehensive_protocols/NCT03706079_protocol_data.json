@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT03706079",
+  "briefTitle": "Extension Study to Evaluate the Safety and Tolerability of Tezepelumab in Adults and Adolescents With Severe, Uncontrolled Asthma",
+  "officialTitle": "A Multicentre, Double-blind, Randomized, Placebo Controlled, Parallel Group, Phase 3, Safety Extension Study to Evaluate the Safety and Tolerability of Tezepelumab in Adults and Adolescents With Severe Uncontrolled Asthma (DESTINATION)",
+  "protocolDocument": {
+    "nctId": "NCT03706079",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-04-12",
+    "uploadDate": "2022-10-24T07:03",
+    "size": 1878920,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03706079/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 951,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-07",
+    "completionDate": "2022-05-18",
+    "primaryCompletionDate": "2021-10-26",
+    "firstSubmitDate": "2018-10-11",
+    "firstPostDate": "2018-10-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Provision of signed and dated written informed consent\n* Negative urine test for female subjects of childbearing potential prior to administration of IP at visit 1\n* Females of childbearing potential who are sexually active with a nonsterilized male partner must use a highly effective method of contraception from screening, and must agree to continue using such precautions for 16 weeks after the final dose of IP.\n* Female or male subjects who have not met investigational product discontinuation criteria and have attended the EOT visit in either study D5180C00007 (NAVIGATOR) or D5180C00009 (SOURCE)\n\nTo enter the extended follow-up phase of the study, the following inclusion criteria also apply:\n\n* Provision of signed and dated Addendum for Extended Follow-up to informed consent, as well as assent by adolescent subjects where applicable, prior to any mandatory study specific procedures, sampling and analyses before Extended Follow Up.\n* Must have entered DESTINATION from D5180C00007 study and have completed IP dosing to Week 100, have not met IP Discontinuation criteria and have attended the EOT Visit.\n\nExclusion Criteria:\n\n* Any clinically important pulmonary disease other than asthma\n* Any disorder, including, but not limited to cardiovascular, gastrointestinal, hepatic, renal, neurological, musculoskeletal, infectious, endocrine, metabolic, hematological, psychiatric, or major physical impairment that is not stable\n* History of chronic alcohol or drug abuse within 12 months prior to visit 1\n* Current malignancy or malignancy that developed during a predecessor study\n* Major surgery or planned surgical procedures requiring general anesthesia or inpatient status for \\> 1 day during the conduct of the study\n* Treatment with systemic immunosuppressive/immunomodulating drugs except for OCS used in the treatment of asthma/asthma exacerbations within the last 12 weeks prior to randomization\n* Concurrent enrolment in another clinical study involving an IP\n* Any clinically meaningful abnormal finding in physical examination, vital signs, ECG,haematology, clinical chemistry, or urinalysis during the predecessor study\n* Pregnant, breastfeeding, or lactating\n\nTo enter the extended follow-up phase of the study (which extends from week 104 to week 140), the following exclusion criteria also apply:\n\n* Discontinuation of IP during the treatment period of DESTINATION.\n* Entered DESTINATION from D5180C00009 (SOURCE) study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "13 Years",
+    "maximumAge": "81 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Exposure Adjusted Incidence Rates of AEs/SAEs",
+        "description": "Includes adverse events with an onset date between the date of first dose of IP in the predecessor and minimum (date of last dose of IP + 33 days, date of death, date of study withdrawal, day prior to start of another biologic). The analysis is based on the Safety Analysis Set. Exposure adjusted rates are defined as number of subjects with AEs divided by total time at risk across all subjects, multiplied by 100",
+        "timeFrame": "Baseline (Week 0 in predecessor study) to Week 104. For subjects switching treatments from placebo in the predecessor to tezepelumab in DESTINATION, all data collected after first dose of tezepelumab are excluded."
+      },
+      {
+        "measure": "Total Time at Risk",
+        "description": "Includes time between the date of first dose of IP in the predecessor and minimum (date of last dose of IP + 33 days, date of death, date of study withdrawal, day prior to start of another biologic). The analysis is based on the Safety Analysis Set.",
+        "timeFrame": "Baseline (Week 0 in predecessor study) to Week 104. For subjects switching treatments from placebo in the predecessor to tezepelumab in DESTINATION, all data collected after first dose of tezepelumab are excluded."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Annualized Asthma Exacerbation Rate (AAER)",
+        "description": "The annualized exacerbation rate is based on exacerbations reported by the investigator in the eCRF. The analysis is based on the primary population (Full Analysis Set)",
+        "timeFrame": "Baseline (Week 0 in predecessor study) to Week 104. For subjects switching treatments from placebo in the predecessor to tezepelumab in DESTINATION, all data collected after first dose of tezepelumab are excluded."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:23.939Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

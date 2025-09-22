@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04801485",
+  "briefTitle": "D-chiro Inositol in Prevention of Gestational Diabetes Mellitus in China",
+  "officialTitle": "D-chiro Inositol in Prevention of Gestational Diabetes Mellitus in High Risk Pregnant Women in China",
+  "protocolDocument": {
+    "nctId": "NCT04801485",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-02-04",
+    "uploadDate": "2021-03-04T07:45",
+    "size": 195045,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04801485/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 291,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-01",
+    "completionDate": "2023-05-01",
+    "primaryCompletionDate": "2022-11-30",
+    "firstSubmitDate": "2021-03-04",
+    "firstPostDate": "2021-03-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* During 12-16 weeks gestation\n* Meet any of the following: prepregnancy BMI \\> 24, family history of diabetes (type 1 or 2), GDM history, history of delivering macrosomia, gestational history of stillbirth;\n* Willing to participate\n\nExclusion Criteria:\n\n* Type 1 or type 2 diabetes mellitus diagnosed before pregnancy\n* Multiple gestation\n* Mental or cognitive impairment cannot complete the study",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "50 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "the incidence of gestational diabetes",
+        "description": "The number of cases and incidence of gestational diabetes according to OGTT",
+        "timeFrame": "24-28th weeks gestation"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "the perinatal outcomes-1",
+        "description": "the incidence of macrosomia (macrosomia refers to a newborn weighs more than 4 kg)",
+        "timeFrame": "Delivery"
+      },
+      {
+        "measure": "the perinatal outcomes-2",
+        "description": "weight gain during pregnancy (kg)",
+        "timeFrame": "Delivery"
+      },
+      {
+        "measure": "the perinatal outcomes-3",
+        "description": "the Caesarean-section incidence (%)",
+        "timeFrame": "Delivery"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:08.898Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

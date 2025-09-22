@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02994238",
+  "briefTitle": "iTRACC (Improving Technology-Assisted Recording of Asthma Control in Children)",
+  "officialTitle": "iTRACC (Improving Technology-Assisted Recording of Asthma Control in Children)",
+  "protocolDocument": {
+    "nctId": "NCT02994238",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-04-06",
+    "uploadDate": "2021-07-26T14:52",
+    "size": 1358897,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02994238/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 252,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-12",
+    "completionDate": "2018-12-31",
+    "primaryCompletionDate": "2018-12",
+    "firstSubmitDate": "2016-11-04",
+    "firstPostDate": "2016-12-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* English-speaking parents\n* Children 4-\\<17 years of age. Using both NHLBI (National Heart, Lung, and Blood Institute) guidelines and based off of a physician expert panel, the research team has limited the ages to 4-\\<17 years old. It has been shown to be difficult to properly diagnose individuals less than 4 years of age with asthma. Usually, they are diagnosed with reactive airway disease or bronchial virus. Individuals \\<17 years old was the oldest group because investigators wanted to avoid adolescence and make sure that parents have an active role in the health management of the child.\n* Moderate or severe persistent asthma, defined by the National Heart, Lung, and Blood Institute. This will be done by a physician-trained research assistant who will be able to identify potential participants prior to recruitment.\n* At least one asthma exacerbations that required a course of oral corticosteroids in the past year\n* Prescription and utilization of an ICS inhaler for at least the past year.\n* Who are seen at: Clark and Deming Resident Clinic, Lurie Children's Pulmonary Clinic, Lurie Children's Uptown Clinic, Chicago Family Asthma and Allergy Clinic or Children's Healthcare Associates\n\nExclusion Criteria:\n\n* Non-English speaking parents/families\n* Patients seen in the hospital who receive primary care outside of the study's clinics\n* Children with any comorbid conditions, which interfere with appropriate assessment of asthma symptoms: Chronic Lung Disease, Broncho-Pulmonary Dysplasia, Cystic Fibrosis, Pulmonary Hypertension, Interstitial Lung Disease, Immunodeficiency, Bronchiectasis, Primary Ciliary Dyskinesia, Chronic Respiratory Insufficiency, Neuromuscular Weakness, Sickle Cell Lung Disease, Restrictive Lung Disease, and Tracheostomy or Ventilator-dependence\n* Child-patients who are participating in any other research studies that would interfere with our ability to use and track the inhaler sensor",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "4 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Asthma Control Test (ACT)",
+        "description": "Investigators will use the children's Asthma Control Test completed by the caregiver or parent to report child's asthma control. The ACT is a 5 item scale, with a 4-week recall (on symptoms and daily functioning) ACT assesses the frequency of shortness of breath and general asthma symptoms, use of rescue medications, the effect of asthma on daily functioning, and overall self-assessment of asthma control via item-specific response options ranging from 1-5. Total ACT scores range from 5 (poorly controlled asthma, to 25 (well controlled asthma).",
+        "timeFrame": "12 month follow-up assessment"
+      },
+      {
+        "measure": "Frequency of Urgent Health Utilization",
+        "description": "Number of Asthma-related ED visits during the 12 month study period",
+        "timeFrame": "the 12 month study period"
+      },
+      {
+        "measure": "12 Month Rate of Medication Use",
+        "description": "Number of oral corticosteroid prescriptions obtained from the electronic medical record and parent/caregiver report",
+        "timeFrame": "Over a 12 month study period"
+      },
+      {
+        "measure": "Frequency of Asthma-related Hospitalizations",
+        "description": "Number of Asthma-related Hospitalizations during the 12 month study period",
+        "timeFrame": "the 12 month study period"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Pediatric Asthma Caregiver Quality of Life (QOL) Questionnaire",
+        "description": "The Pediatric Asthma Caregiver Quality of Life (QOL) Questionnaire was administered. This scale is a self-administered instrument, which includes 13 items (4 concern activity limitations and 9 concern emotional function). Responses to each item of the PACQLQ are given on a seven-point scale, ranging from 1 to 7, with the higher scores indicating less impairment. A total average score was calculated to reflect Pediatric Asthma Caregiver Quality of Life, which also ranged from 1-7.",
+        "timeFrame": "12 month study follow-up"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:22.201Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

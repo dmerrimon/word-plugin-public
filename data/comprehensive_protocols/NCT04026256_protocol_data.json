@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04026256",
+  "briefTitle": "Bone Modeling Effects of Combined Anabolic/Antiresorptive Administration",
+  "officialTitle": "Mechanisms Underlying the Bone Modeling Effects of Combined Anabolic/Antiresorptive Administration",
+  "protocolDocument": {
+    "nctId": "NCT04026256",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-08-11",
+    "uploadDate": "2023-07-25T14:48",
+    "size": 818287,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04026256/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 37,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-02",
+    "completionDate": "2022-04-18",
+    "primaryCompletionDate": "2022-04-18",
+    "firstSubmitDate": "2019-07-17",
+    "firstPostDate": "2019-07-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* women aged 45+\n* postmenopausal\n* osteoporotic with high risk of fracture\n\nExclusion Criteria:\n\n* significant previous use of bone health modifying treatments\n* known congenital or acquired bone disease other than osteoporosis\n* significant renal disease, liver disease, cardiopulmonary disease, or psychiatric disease\n* abnormal calcium or parathyroid hormone level\n* serum vitamin D \\<20 ng/mL or \\>60ng/mL\n* serum alkaline phosphatase above upper normal limit with no explanation\n* anemia (hematocrit \\<32%)\n* history of malignancy (except non-melanoma skin carcinoma), radiation therapy, or gouty arthritis\n* history of urolithiasis within the last one year\n* excessive alcohol use or substance abuse\n* use of oral or parenteral glucocorticoids for more than 14 days within the past 6 months\n* extensive dental work involving extraction or dental implant within the past or upcoming 2 months\n* known sensitivity to mammalian cell-derived drug products\n* known contraindications to denosumab, teriparatide, or any of their excipients\n* known contraindications to tetracycline, demeclocycline, or other antibiotics in this drug class\n* continuous use of tetracycline for \\>1-month duration within the last 10 years",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "45 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Cancellous Bone Formation Rate at Month 3",
+        "description": "Cancellous bone formation rate at month 3 is calculated from the cancellous (trabecular) compartment of the iliac crest bone biopsy specimens.\n\nBone formation rate (BFR/BS, mm3/mm2/day): amount of new bone formed in unit time per unit of bone surface. It is calculated by multiplying the mineralizing surface/bone surface (MS/BS) by the mineral apposition rate (MAR) - see below for how MS/BS and MAR are calculated.\n\nMineralizing surface (MS/BS, %): is the percent of bone surface that displays a tetracycline label reflecting active mineralization. It is calculated as the double-labeled surface plus one half of the single-labeled surface and is expressed as a function of total bone surface. It is a measure of the proportion of bone surface upon which new mineralized bone was being deposited during the period of tetracycline labeling.\n\nMineral apposition rate (MAR mm/day): is the mean distance between the double labels, divided by the time interval between them.",
+        "timeFrame": "3 months after first dose of study drug"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:04.018Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

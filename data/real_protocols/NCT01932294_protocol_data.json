@@ -1,0 +1,85 @@
+{
+  "nctId": "NCT01932294",
+  "briefTitle": "Medical Arm of the Interagency Registry for Mechanically Assisted Circulatory Support",
+  "officialTitle": "Medical Arm of the Interagency Registry for Mechanically Assisted Circulatory Support",
+  "protocolDocument": {
+    "nctId": "NCT01932294",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2012-11-16",
+    "uploadDate": "2018-11-08T10:05",
+    "size": 1476458,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01932294/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 171,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-04",
+    "completionDate": "2017-01-20",
+    "primaryCompletionDate": "2017-01-20",
+    "firstSubmitDate": "2013-04-12",
+    "firstPostDate": "2013-08-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "INCLUSION CRITERIA:\n\nPatients with Advanced Heart Failure\n\n1. Age 18-80 years\n2. New York Heart Association class III-IV heart failure for 45 of the last 60 days\n3. Left ventricular ejection fraction ≤ 35%\n4. Heart failure diagnosis or typical symptoms for 12 months\n5. Use of evidence based oral medications (beta-blockers, ACE-inhibitors/ARBs, aldosterone antagonist) for at least 3 months prior to enrollment or documented medication contraindication or intolerance.\n6. Hospitalization for heart failure within the previous 12 months (other than for elective procedure)\n7. Informed consent given\n\nIn Addition, they must have at least one of the following:\n\nAn additional unplanned hospitalization during the previous 12 months for a total of at least 2 inpatient hospitalizations lasting \\>24 hours with heart failure as the primary or secondary diagnosis within the previous 12 months\n\nOR\n\n1. Peak oxygen uptake (VO2) \\<55% of age- and sex-predicted (using Wasserman equation) OR a peak VO2 ≤16 ml/kg/min for men and ≤14 ml/kg/min for women in a test with an RER \\>1.08 on cardiopulmonary exercise testing.\n2. 6-minute walk distance \\<300 meters without non-cardiac limitation.\n3. Serum BNP \\> 1000 (NT-proBNP \\> 4000 pg/ml) as outpatient or at hospital discharge.\n\nOR\n\nSeattle Heart Failure Model Score \\> 1.5.\n\nEXCLUSION CRITERIA:\n\n1. Age \\>80 years or \\<18 years\n2. Non-cardiac diagnosis anticipated to limit 2-year survival (≥30-50% mortality within 2 years from non-cardiac diagnosis)\n3. Primary functional limitation from non-cardiac diagnosis even if not likely to limit survival\n4. QRS \\> 120msec and planned biventricular pacemaker implant or biventricular pacemaker implantation within past 90 days\n5. Current home intravenous inotrope therapy\n6. Chronic hemodialysis or peritoneal dialysis\n7. Scheduled for non-ventricular assist device cardiac surgery on current hospital admission\n8. Obvious anatomical or other major contra-indication to any cardiac surgery in the future (e.g. previous pneumonectomy, advanced connective tissue disease)\n9. Actively listed for heart transplant as UNOS Status 1 or 2\n10. History of cardiac amyloidosis\n11. Dominant lesion of at least moderate aortic or mitral stenosis or congenital structural heart defect.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Heart Failure Participants Deceased at 24 Months",
+        "description": "Death after the baseline visit up to 24 months",
+        "timeFrame": "6 month intervals after the baseline visit up to 24 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Known Ventricular Assist Device (VAD) Implantation",
+        "description": "Known VAD implantation after the baseline visit up to 24 months",
+        "timeFrame": "6 month intervals after the baseline visit up to 24 months"
+      },
+      {
+        "measure": "Number of Participants With Known Heart Transplantation",
+        "description": "Heart transplantation after the baseline visit up to 24 months",
+        "timeFrame": "6 month intervals after the baseline visit up to 24 months"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 13,
+      "exclusionCount": 11,
+      "totalCount": 24
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 83,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:32:44.503Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

@@ -1,0 +1,152 @@
+{
+  "nctId": "NCT05638646",
+  "briefTitle": "A COPD Quality Improvement Program（QIP）",
+  "officialTitle": "A Prospective, Multicentre, Cluster Randomised Controlled Trial to Evaluate the Impact of the Implementation of COPD Quality Standards in High Exacerbation Risk Patients------- A COPD Quality Improvement Program（QIP）",
+  "protocolDocument": {
+    "nctId": "NCT05638646",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-06-08",
+    "uploadDate": "2022-11-06T22:02",
+    "size": 779487,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05638646/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1107,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-11-25",
+    "completionDate": "2024-12-31",
+    "primaryCompletionDate": "2024-06-30",
+    "firstSubmitDate": "2022-11-11",
+    "firstPostDate": "2022-12-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Diagnosed with COPD\n2. Aged 40 years or older\n3. CAT≥10\n4. With exacerbation history：\n\n   1. at least 2 moderate or 1 severe exacerbation in the previous year\n   2. or 1 moderate exacerbation in the previous year with FEV1 \\<50% predicted value at baseline;\n5. Must able to sign the informed consent form\n\nExclusion Criteria:\n\n1. Patients on triple therapy at baseline with a LAMA, LABA, and inhaled corticosteroid (ICS) combination (Including open triple and fix-dose triple)\n2. Significant diseases or conditions other than COPD, which, in the opinion of the Investigator, may put the subject at risk because of participation in the study or may influence either the results of the study or the subject's ability to participate in the study\n3. Patients who are currently involved in any other interventional studies",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time to clinically important deterioration (CID)",
+        "description": "Time to CID, which is defined as the time from the date of enrolment until the date of the first CID.CID defined as any of the following events:1) Trough FEV1 decline ≥100ml;2) CAT increasing ≥ 2 unit;3) one moderate or severe exacerbation.",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Annual rate of moderate or severe COPD exacerbation",
+        "description": "Annual rate of moderate or severe COPD exacerbation",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Annual rate of severe COPD exacerbation",
+        "description": "Annual rate of severe COPD exacerbation",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Change from baseline in trough FEV1 over 48 weeks",
+        "description": "Change from baseline in trough FEV1 over 48 weeks",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Change from baseline in CAT over 48 weeks",
+        "description": "Change from baseline in CAT over 48 weeks",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Proportion of patients received inhalation technique review at least once during follow-up period",
+        "description": "Proportion of patients received inhalation technique review at least once during follow-up period",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Proportion of patients received long-acting inhaled medicine with percentage of days covered (PDC)≥ 80% over 48 weeks",
+        "description": "Proportion of patients received long-acting inhaled medicine with percentage of days covered (PDC)≥ 80% over 48 weeks",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Proportion of prescription of inhaled maintenance medicine at 12 weeks",
+        "description": "Proportion of prescription of inhaled maintenance medicine at 12 weeks",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Proportion of prescription of inhaled maintenance medicine at 24 weeks",
+        "description": "Proportion of prescription of inhaled maintenance medicine at 24 weeks",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Proportion of prescription of inhaled maintenance medicine at 36 weeks",
+        "description": "Proportion of prescription of inhaled maintenance medicine at 36 weeks",
+        "timeFrame": "36 weeks"
+      },
+      {
+        "measure": "Proportion of prescription of inhaled maintenance medicine at 48 weeks",
+        "description": "Proportion of prescription of inhaled maintenance medicine at 48 weeks",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Proportion of patients prescribed ICS-containing inhaled maintenance medicine at 12 weeks",
+        "description": "Proportion of patients prescribed ICS-containing inhaled maintenance medicine at 12 weeks",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Proportion of patients prescribed ICS-containing inhaled maintenance medicine at 24 weeks",
+        "description": "Proportion of patients prescribed ICS-containing inhaled maintenance medicine at 24 weeks",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Proportion of patients prescribed ICS-containing inhaled maintenance medicine at 36 weeks",
+        "description": "Proportion of patients prescribed ICS-containing inhaled maintenance medicine at 36 weeks",
+        "timeFrame": "36 weeks"
+      },
+      {
+        "measure": "Proportion of patients prescribed ICS-containing inhaled maintenance medicine at 48 week",
+        "description": "Proportion of patients prescribed ICS-containing inhaled maintenance medicine at 48 week",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 14,
+      "otherCount": 0,
+      "totalCount": 15
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:28.241Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

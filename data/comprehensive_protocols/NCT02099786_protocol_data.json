@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT02099786",
+  "briefTitle": "Randomized Trial Comparison of Ototoxicity Monitoring Programs",
+  "officialTitle": "Comprehensive Ototoxicity Monitoring Program for VA: A Randomized Trial",
+  "protocolDocument": {
+    "nctId": "NCT02099786",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-09-29",
+    "uploadDate": "2019-08-06T13:21",
+    "size": 183629,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02099786/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 47,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-04-01",
+    "completionDate": "2018-05-05",
+    "primaryCompletionDate": "2018-05-05",
+    "firstSubmitDate": "2014-02-26",
+    "firstPostDate": "2014-03-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nAll Veterans entering cisplatin chemotherapy will be informed of the project and invited to participate unless the Veteran was excluded by CPRS review or medical advice.\n\nExclusion Criteria:\n\n* Experimental subjects must be prescribed cisplatin for treatment of cancer to be enrolled in the treatment arms of this study.\n\nCriteria for excluding subjects (chemotherapy and controls subjects) from this study will be:\n\n* cognitively or physically unable to participate (patient or nurse report patient is incapable of participating), CPRS indication that subject exhibits aggressive behavior, subject has documented dementia, Alzheimer's disease, or severe psychosocial disorder, CPRS notes indicate individual is not legally capable of providing informed consent (subject has a legal guardian)\n* unable to provide reliable behavioral hearing test responses (for either program evaluation hearing test or baseline, pre -treatment hearing test) as indicated by intra-session behavioral threshold reliability criterion of \\> +5 dB)\n* exhibits Meniere's disease or retrocochlear disorder based on hearing test results, patient report or notes in CPRS\n* exhibits active or recent history of middle ear disorder based on otoscopy, tympanometry, patient report, or notes in CPRS\n* unwilling to participate\n* hearing thresholds \\> 70 dB SPL at 4 kHz and below (based on DPOAE 'no response' data from a similar protocol described in Bibliography Reference 32, Table 3). The last exclusion was adopted in an effort to increase the potential that DPOAEs will be measurable in a large number of subjects.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With an Ototoxic Hearing Shift",
+        "description": "Veterans randomized to the COMP-VA arm will have improved hearing outcomes (a) fewer ASHA-significant threshold shifts, (b) fewer CTCAE grade 1 or greater hearing shifts at Program Evaluation 3 as compared with Veterans randomized to the Usual Care arm.\n\n1. ASHA Shift is defined as:\n\n   20 dB shift at a single frequency 10 dB shift at two adjacent frequencies loss of response at three adjacent frequencies\n2. CTCAE Grade 1 or greater ototoxicity = hearing shift of 15-25 dB averaged at 2 contiguous test frequencies",
+        "timeFrame": "35 days post randomization"
+      },
+      {
+        "measure": "Number of Participants Who Accessed the Audiology Clinic for Aural Rehabilitation",
+        "description": "Veterans randomized to Comp-VA will access and use audiology rehabilitation at higher rates than usual care up to 1 year post-treatment. This includes: New hearing aid issued; Hearing aid adjustments made; Technology updated.",
+        "timeFrame": "through study completion, an average of 1 year post randomization"
+      },
+      {
+        "measure": "Number of Participants With Mortality",
+        "description": "Mortality among participants defined as differences in rates of death within one year of randomization.",
+        "timeFrame": "1 year post randomization"
+      },
+      {
+        "measure": "Hearing-related Quality of Life Measure",
+        "description": "Differences in the Hearing Handicap Inventory for Adults (HHIA) questionnaire score \\[or Hearing Handicap Inventory for the Elderly (HHIE) score as appropriate\\] depending on the age of the subject.\n\nMinimum possible value = 0 Maximum possible value = 100 A higher score indicates poorer performance",
+        "timeFrame": "1 year post randomization"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:55.884Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

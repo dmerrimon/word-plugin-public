@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT02263326",
+  "briefTitle": "Dolutegravir Antiretroviral Strategy to Promote Improvement and Reduce Drug Exposure",
+  "officialTitle": "Dolutegravir Antiretroviral Strategy to Promote Improvement and Reduce Drug Exposure (ASPIRE) Study",
+  "protocolDocument": {
+    "nctId": "NCT02263326",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2015-06-25",
+    "uploadDate": "2018-08-24T18:38",
+    "size": 713988,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02263326/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 89,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-12",
+    "completionDate": "2017-09",
+    "primaryCompletionDate": "2017-07",
+    "firstSubmitDate": "2014-10-06",
+    "firstPostDate": "2014-10-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* HIV-1 Infection\n* HIV-1 RNA \\<50 copies/mL on all measurements within 48 weeks prior to study entry while on any DHHS recommended or alternative three-drug antiretroviral regimen. (A history of switching for simplification and/or tolerability is allowed. At least two measurements within the previous 48 weeks are required prior to study screening.)\n* No history of virologic failure, defined as consecutive HIV RNA \\> 50 copies/mL after 12 months of initiating ART. An isolated (non-consecutive) HIV RNA \\> 50 copies/mL (but less than 400 copies/mL) is permitted after 12 months of initiating ART but not in the 48-week window prior to study entry.\n* Screening plasma HIV RNA \\< 20 copies/mL using the COBAS AmpliPrep/COBAS TaqMan HIV-1 Test V2.0, obtained within 45 days prior to study entry\n* Nadir CD4 count \\>200 cells/mm\n* Pretreatment genotype documenting no mutations in the protease or reverse transcriptase genes\n* No known resistance to integrase inhibitors\n* Laboratory values obtained within 45 days prior to study entry:\n\nANC \\>750 Hemoglobin \\>10 g/dL Platelets \\>50,000 Calculated creatinine clearance (CrCl) \\>50 mL/min\n\n* Negative serum or urine pregnancy test\n* Men and women age greater or equal to 18 years.\n* Ability to continue current regimen (i.e, have uninterrupted access)\n* No evidence of chronic hepatitis B\n\nExclusion Criteria:\n\n* Serious illness or AIDS-related complication within 21 days of screening requiring systemic treatment and/or hospitalization\n* Treatment within 30 days prior to study entry with immune modulators\n* Vaccination within 7 days\n* Active HCV treatment or anticipated need for treatment within study period. (HCV infection alone is not exclusionary)\n* Unstable liver disease or severe hepatic impairment\n* Known allergy or hypersensitivity to DTG or lamivudine.\n* Active drug or alcohol use or dependence that could interfere with adherence to study requirements\n* ALT (alanine aminotransferase) \\>5 x ULN (upper limit of normal) OR ALT \\>3 x ULN and total bilirubin \\>1.5 x ULN (with 35% direct bilirubin)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Participants With Treatment Failure",
+        "description": "Proportion of participants with treatment failure (defined as virologic failure (HIV RNA \\>50 copies/mL), loss to follow-up, or treatment discontinuation) between those who switch to DTG + lamivudine and those who continue their current ART regimen",
+        "timeFrame": "24 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Proportion of Participants With Virologic Success",
+        "description": "Proportion of participants with virologic success (\\<50 copies/mL) based on FDA snapshot definition",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Change in CD4 Count From Baseline to Week 48",
+        "description": "Change in CD4 count between arms will be presented in the attached statistical analysis table",
+        "timeFrame": "Baseline and 48 weeks"
+      },
+      {
+        "measure": "Change in Total Cholesterol From Baseline to Week 48",
+        "description": "Change in Total Cholesterol between arms will be presented in the attached statistical analysis table",
+        "timeFrame": "Baseline and 48 weeks"
+      },
+      {
+        "measure": "Change in LDL Cholesterol From Baseline to Week 48",
+        "description": "Change in Low-density lipoprotein (LDL) cholesterol between arms will be presented in the attached statistical analysis table",
+        "timeFrame": "Baseline and Week 48"
+      },
+      {
+        "measure": "Change in Creatinine Clearance From Baseline to Week 48",
+        "description": "Change in Creatinine Clearance between arms will be presented in the attached statistical analysis table",
+        "timeFrame": "Baseline and Week 48"
+      },
+      {
+        "measure": "Drug Resistance Associated Mutations",
+        "description": "Drug resistance mutations measured by HIV genotyping in patients with confirmed virologic failure",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Residual Viremia by HIV-1 Single-copy Assay",
+        "description": "Difference in HIV-1 detection by the HIV-1 single copy assay between arms will be presented in statistical analysis",
+        "timeFrame": "48 weeks"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 1,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 56,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:18.910Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

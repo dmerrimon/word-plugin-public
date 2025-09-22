@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03857867",
+  "briefTitle": "Evaluation of Using Vibrotactile Coordinated Reset for Management of Parkinson's Disease",
+  "officialTitle": "A Prospective, Randomized, Staggered-onset, Double Blinded, Sham-Controlled Study to Evaluate Peripheral Vibrotactile Coordinated Reset (CR) Stimulation for Parkinson's Disease",
+  "protocolDocument": {
+    "nctId": "NCT03857867",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-01",
+    "uploadDate": "2021-09-27T17:11",
+    "size": 736774,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03857867/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-02-01",
+    "completionDate": "2020-12-30",
+    "primaryCompletionDate": "2020-12-30",
+    "firstSubmitDate": "2019-02-26",
+    "firstPostDate": "2019-02-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age 18 and older\n2. Diagnosis of idiopathic Parkinson's disease.\n3. Levodopa responsiveness as defined by at least a 30% reduction in Movement Disorders Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) motor subscale (excluding tremor scores) in the ON vs off medication state.\n4. Willing to participate in the vibrotactile stimulation sessions for 2 consecutive days initially and willing to return for follow-up visits\n5. Able to provide informed consent.\n6. Appropriate social support\n\nExclusion Criteria:\n\n1. Hoehn and Yahr stage greater than 3 in the on medication state\n2. Presence of other forms of non-idiopathic parkinsonism, including but not limited to atypical parkinsonism, medication induced parkinsonism, vascular Parkinsonism\n3. Any illness that in the investigator's opinion precludes participation in the study\n4. Subjects unable to communicate with the investigator and staff",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Part III Score",
+        "description": "The MDS-UPDRS III is the sum of 33 scores that evaluate Parkinson's disease motor symptoms on a scale from 0 to 4 points. A score of 0 indicated no symptom is present and a maximum score of 4 indicates the most severe symptom, the total scale range is 0-132, where higher scores indicate more severe symptoms.",
+        "timeFrame": "Baseline, 3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Levodopa Equivalent Daily Dose",
+        "description": "Levodopa equivalent daily dose (LEDD) was measured at baseline and after 3 months of vibrotactile coordinated reset therapy. LEDD is calculated as a sum of each Parkinson's medication.",
+        "timeFrame": "Baseline, 3 months"
+      },
+      {
+        "measure": "Electroencephalography (EEG) Sensorimotor Relative Power Activity",
+        "description": "Measure Description: Baseline EEG was recorded. EEG source estimation was computed using Standardized low-resolution brain electromagnetic tomography analysis (sLORETA) and was restricted to the sensorimotor region. Power spectral density (PSD) was calculated for each frequency band (Delta: 2-4 Hz; Theta: 5-7 Hz; Alpha: 8-12 Hz; Low Beta: 13-16 Hz; Mid Beta: 17-20 Hz; High Beta: 21-30 Hz; Gamma: 31-50 Hz). Relative power (RP) was calculated by taking the sum of each frequency and dividing it by the total power (2-50 Hz) expressed as a percentage. High beta power was the frequency band of interest for analysis.",
+        "timeFrame": "Baseline, 3 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:46.183Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

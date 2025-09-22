@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT01794143",
+  "briefTitle": "A Comparative Effectiveness Study of Major Glycemia-lowering Medications for Treatment of Type 2 Diabetes",
+  "officialTitle": "Glycemia Reduction Approaches in Diabetes: A Comparative Effectiveness Study",
+  "protocolDocument": {
+    "nctId": "NCT01794143",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2017-03-17",
+    "uploadDate": "2022-02-24T08:33",
+    "size": 863038,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01794143/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5047,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-05",
+    "primaryCompletionDate": "2021-04-30",
+    "firstSubmitDate": "2013-02-13",
+    "firstPostDate": "2013-02-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Men or women diagnosed with diabetes at age ≥ 30 years (≥ 20 for American Indians)\n2. Duration of diagnosed diabetes \\< 10 years\n3. HbA1c criteria (at final run-in visit, \\~2 weeks prior to randomization): 6.8-8.5%\n4. Taking a daily dose of ≥ 1000 mg metformin for a minimum of 8 weeks at final run-in\n5. Willingness to administer daily subcutaneous injections, take a second diabetes drug after randomization, potentially initiate insulin and intensify insulin therapy if study metabolic goals are not met, perform self-monitoring of blood glucose\n6. Fluent in either English or Spanish\n7. A negative pregnancy test for all females of childbearing potential (i.e. pre-menopausal, and not surgically sterile)\n8. Provision of signed and dated informed consent prior to any study procedures\n\nExclusion Criteria:\n\n1. Suspected type 1 diabetes (lean with polyuria, polydipsia, and weight loss with little response to metformin) or \"secondary\" diabetes due to specific causes (e.g. previously diagnosed monogenic syndromes, pancreatic surgery, pancreatitis)\n2. Current or previous (within past 6 months) treatment with any diabetes drug/glucose-lowering medication other than metformin (limited use of no longer than seven days is allowed, for example during hospitalization)\n3. More than 10 years of treatment with metformin at time of randomization screening\n4. History of intolerance or allergy or other contraindications to any of the proposed study medications\n5. Resides in the same household with another GRADE study participant\n6. Current need for any specific glucose-lowering medications solely for other conditions, for example for polycystic ovary syndrome\n7. Symptomatic hyperglycemia requiring immediate therapy during screening or run-in, in the judgment of the physician\n8. A life-threatening event within 30 days prior to screening or currently planned major surgery\n9. Any major cardiovascular event in previous year, including history of myocardial infarction, stroke, or vascular procedure such as coronary artery or peripheral bypass grafting, stent placements (peripheral or coronary) or angioplasty.\n10. Plans for pregnancy during the course of the study for women of child-bearing potential\n11. History of or planning bariatric surgery, including banding procedures or surgical gastric and/or intestinal bypass (if banding removed, may be considered eligible after 1 year)\n12. History of congestive heart failure (NYHA 3 or greater)\n13. History of pancreatitis\n14. History of cancer, other than non-melanoma skin cancer, that required therapy in the 5 years prior to randomization\n15. Personal or family history of MEN-2 or family history of medullary thyroid cancer\n16. Estimated GFR (eGFR) \\<30 ml/min/1.73 m2 or end stage renal disease requiring renal replacement therapy\n17. History of severe liver disease or acute hepatitis or ALT \\> 3 times upper limit of normal\n18. Current alcoholism or excessive alcohol intake\n19. Previous organ transplant\n20. Treatment with oral or systemic glucocorticoids (other than short-term treatment, for example for poison ivy) or disease likely to require periodic or regular glucocorticoid therapy (inhaled steroids are allowed)\n21. Treatment with atypical antipsychotics\n22. History of hemolytic anemia, chronic transfusion requirement, or other condition rendering HbA1c results unreliable as indicator of chronic glucose levels, or hematocrit \\<35 for males and \\<33 for females\n23. Clinically or medically unstable with expected survival \\<1 year\n24. Unwillingness to permit sites to contact the PCP to communicate information about the study and the participant's data\n25. No non-study PCP or inability to identify such a PCP (who will provide non-study care) by the time of final run-in\n26. Participation in another interventional clinical trial\n27. Previous randomization in the GRADE study\n28. In the opinion of the principal investigator (PI), any other factor, including language barrier, likely to limit compliance with the protocol",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time to HbA1c>=7%, while receiving metformin and the randomly assigned study medication",
+        "description": "The primary metabolic outcome is the time to primary failure defined as an HbA1c\\>=7% (53mmol/mol), subsequently confirmed.",
+        "timeFrame": "Quarterly for 4 to 7 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time to HbA1c>7.5%, while receiving metformin and the randomly assigned study medication.",
+        "description": "The secondary metabolic outcome is time to HbA1c\\>7.5% (58 mmol/mol), confirmed.",
+        "timeFrame": "Quarterly for 4 to 7 years"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Time to HbA1c>7.5%, while receiving study medications and basal insulin",
+        "description": "The tertially metabolic outcome is the time to a HbA1c\\>7.5% (58 mmol/mol), confirmed, while receiving metformin, the originally assigned medication and basal insulin.",
+        "timeFrame": "Quarterly for 4 to 7 years"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 31,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:09.691Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

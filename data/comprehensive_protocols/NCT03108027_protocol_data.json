@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03108027",
+  "briefTitle": "Assess Bronchodilator Effect QVM149 Dosed Either in the Morning or Evening Compared to Placebo in Patients With Asthma",
+  "officialTitle": "A Randomized, Double-blind, Repeat Dose Cross-over Study to Assess the Bronchodilator Effects of Once Daily QVM149 Following Morning or Evening Dosing for 14 Days Compared to Placebo in Patients With Asthma",
+  "protocolDocument": {
+    "nctId": "NCT03108027",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2017-03-08",
+    "uploadDate": "2019-02-22T08:21",
+    "size": 3036481,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03108027/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 38,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-06-26",
+    "completionDate": "2018-02-24",
+    "primaryCompletionDate": "2018-02-24",
+    "firstSubmitDate": "2017-03-23",
+    "firstPostDate": "2017-04-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nPatients with a documented physician diagnosis of asthma and who additionally meet the following criteria:\n\n* Patients receiving daily treatment with an inhaled corticosteroid at a low or medium daily dose\n* On a stable regimen for at least 4 weeks prior to screening.\n* Pre-bronchodilator FEV1 ≥ 60 % and \\< 100% of the predicted normal value for the patient during screening.\n* Patients who demonstrate an increase in FEV1 of ≥ 12 % and ≥ 200 mL after administration of 400 μg salbutamol/360 μg albuterol (or equivalent dose) at Screening. All patients must perform a reversibility test at Screening.\n* At screening, and baseline (day 1 pre-dose time) of the first treatment period, vital signs (systolic and diastolic blood pressure and pulse rate) will be assessed in the sitting position and again in the standing position as outlined in the SOM. Sitting and standing vital signs should be within the following ranges:\n* oral body temperature between 35.0-37.5 °C\n* systolic blood pressure, 90-159 mmHg\n* diastolic blood pressure, 50-99 mmHg\n* pulse rate, 40-90 bpm\n* Hypertensive patients must have been on stable antihypertensive therapy for at least 4 weeks prior to screening to be included in the trial.\n* Patients must weigh at least 50 kg at screening to participate in the study, and must have a body mass index (BMI) within the range of 18 to 40 kg/m2.\n\nExclusion Criteria:\n\n* Contraindicated for treatment with, or having a history of reactions/ hypersensitivity to any of the drugs of a similar class\n* Patients who have had an asthma attack/exacerbation requiring systemic steroids or hospitalization or emergency room visit within 1 year of Screening.\n* Patients who have had previous intubation for a severe asthma ttack/exacerbation.\n* Patients with a history of clinically relevant bronchoconstriction upon repeated forced expiratory maneuvers.\n* History of paradoxical bronchospasm in response to inhaled medicines.\n* Patients who during the run-in period prior to randomization require the use of ≥12 puffs / 24 hours of rescue medication for 48 hours (over two consecutive days) or who have a decline in PEF from the reference PEFof ≥ 30% for 6 consecutive scheduled PEF readings\n* Patients who do not maintain regular day/night, waking/sleeping cycles (e.g., night shift workers).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "FEV1 Standardized Area Under the Curve (AUC 0-24h) After Last Evening Dose of 14-day Treatment Period",
+        "description": "Weighted mean forced expiratory volume in 1 second (FEV1) over 24 h (AUC0-24h) following 14 days of treatment with QVM149 dosed in the morning, QVM149 dosed in the evening and placebo.",
+        "timeFrame": "At the end of each treatment period day 14 pre-dose to 24 hours post-dose."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Trough FEV1 After 24h",
+        "description": "FEV1 at approximately 24 h after the last p.m. or penultimate a.m. dose. Morning and evening trough FEV1 (L) were analyzed by time of day. For morning trough FEV1 (L) assessments this meant that the spirometric assessment was done approximately 24 h after last morning dose and approximately 12 h after last evening dose.",
+        "timeFrame": "At the end of each treatment period day 14 pre-dose to 24 hours post-dose."
+      },
+      {
+        "measure": "Peak Expiratory Flow (PEF)",
+        "description": "Peak expiratory flow (PEF) is the maximum flow generated during a forceful exhalation, starting from full lung inflationDaily morning and evening peak expiratory flow rate from Day 2 to Day14 during the three treatment periods.",
+        "timeFrame": "From treatment period start through study completion (up to 19 weeks)."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:22.096Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

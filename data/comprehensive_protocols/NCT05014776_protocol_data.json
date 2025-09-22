@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT05014776",
+  "briefTitle": "Study of CRS-207, Pembrolizumab, Ipilimumab, and Tadalafil in Metastatic Pancreatic Cancer",
+  "officialTitle": "A Phase 2 Study of the Safety, Efficacy, and Immune Response of CRS-207, Pembrolizumab, Ipilimumab, and Tadalafil in Patients With Previously Treated Metastatic Pancreatic Adenocarcinoma",
+  "protocolDocument": {
+    "nctId": "NCT05014776",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-01-05",
+    "uploadDate": "2025-01-08T13:46",
+    "size": 758098,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05014776/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 17,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-08-22",
+    "completionDate": "2026-04-03",
+    "primaryCompletionDate": "2024-04-03",
+    "firstSubmitDate": "2021-08-13",
+    "firstPostDate": "2021-08-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age ≥18 years.\n* Have histologically or cytologically proven adenocarcinoma of the pancreas.\n* Have previously treated metastatic disease.\n* Have radiographic disease progression.\n* Patients with the presence of at least one measurable tumor lesion.\n* Patient's acceptance to have a tumor biopsy at baseline and on\n* Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1\n* Patients must have adequate organ and marrow function defined by study-specified laboratory tests.\n* For both Women and Men, must use acceptable form of birth control while on study.\n* Ability to understand and willingness to sign a written informed consent document.\n\nExclusion Criteria:\n\n* Known history or evidence of brain metastases.\n* Had chemotherapy, radiation, or biological cancer therapy within the last 14 days.\n* Have received an investigational agent or device within the last 28 days.\n* Had surgery within the last 28 days.\n* Expected to require any other form of systemic or localized cancer therapy while on study.\n* Have received a vaccine within the last 14 days (7 days for the COVID vaccine) or received a live vaccine within the last 30 days.\n* Have received steroids within the last 14 days.\n* Use more than 4 g/day of acetaminophen.\n* Use of organic nitrates.\n* Use of guanylate cyclase (GC) stimulators such as riociguat.\n* Consumption of substantial amounts of alcohol (≥5 units/day)\n* Use of strong or moderate cytochrome P450 3A4 (CYP3A4) inhibitor or inducer.\n* Patients on immunosuppressive agents within the last 7 days\n* Known allergy to both penicillin and sulfa.\n* Severe hypersensitivity reaction to any monoclonal antibody.\n* History of severe hypersensitivity to tadalafil.\n* Have implant(s) or device(s) that has not and cannot be easily removed.\n* Have artificial joints or implanted medical devices that cannot be easily removed.\n* Have any evidence of clinical or radiographic ascites.\n* Have significant and/or malignant pleural effusion\n* Uncontrolled intercurrent illness.\n* Subjects with active, known or suspected autoimmune disease.\n* Have a tissue or organ allograft, including corneal allograft.\n* Have been diagnosed HIV, Hepatitis B or C positive.\n* Is on supplemental home oxygen.\n* Has an unhealed surgical wound or ulcer, or a bone fracture considered non-healing.\n* Has clinically significant heart disease\n* Prior history of non-arterial ischemic optic retinopathy.\n* History of significant hypotensive episode requiring hospitalization within 6 months.\n* Has insufficient peripheral vein access.\n* Is unwilling or unable to follow the study schedule for any reason.\n* Is pregnant or breastfeeding.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Objective Response Rate (ORR) Using Response Evaluation Criteria for Solid Tumors (RECIST 1.1)",
+        "description": "Objective Response Rate (ORR) is defined as the number of patients achieving a complete response (CR) or partial response (PR) based on RECIST 1.1 criteria. CR = disappearance of all target lesions, PR is =\\>30% decrease in sum of diameters of target lesions. Participants who discontinue due to toxicity or clinical progression prior to post-baseline tumor assessments will be considered as non-responders. Participants who discontinue for other reasons prior to their first dose of study drug will not included in the analysis.",
+        "timeFrame": "9 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Experiencing Drug-Related Adverse Events (AEs) Requiring Treatment Discontinuation",
+        "timeFrame": "9 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:47.331Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02998528",
+  "briefTitle": "A Neoadjuvant Study of Nivolumab Plus Ipilimumab or Nivolumab Plus Chemotherapy Versus Chemotherapy Alone in Early Stage Non-Small Cell Lung Cancer (NSCLC)",
+  "officialTitle": "Randomized, OpenLabel, Phase 3 Trial of Nivolumab Plus Ipilimumab or Nivolumab Plus Platinum Doublet Chemotherapy Versus Platinum Doublet Chemotherapy in Early Stage NSCLC",
+  "protocolDocument": {
+    "nctId": "NCT02998528",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-08-18",
+    "uploadDate": "2022-08-31T15:21",
+    "size": 1644297,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02998528/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 505,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-03-04",
+    "completionDate": "2024-12-06",
+    "primaryCompletionDate": "2021-09-08",
+    "firstSubmitDate": "2016-12-16",
+    "firstPostDate": "2016-12-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Early stage IB-IIIA, operable non-small cell lung cancer, confirmed in tissue\n* Lung function capacity capable of tolerating the proposed lung surgery\n* Eastern Cooperative Oncology Group (ECOG) Performance Status of 0-1\n* Available tissue of primary lung tumor\n\nExclusion Criteria:\n\n* Presence of locally advanced, inoperable or metastatic disease\n* Participants with active, known or suspected autoimmune disease\n* Prior treatment with any drug that targets T cell co-stimulations pathways (such as checkpoint inhibitors)\n\nOther protocol defined inclusion/exclusion criteria apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Event-Free Survival (EFS)",
+        "description": "Event-free survival (EFS) is defined as the length of time from randomization to any of the following events: any progression of disease precluding surgery, progression or recurrence disease based on blinded independent central review (BICR) assessment per response evaluation criteria in solid tumors (RECIST) 1.1 after surgery, or death due to any cause. Participants who don't undergo surgery for reason other than progression will be considered to have an event at progression or death. Progression is defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study. In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. (Note: the appearance of one or more new lesions is also considered progression).",
+        "timeFrame": "From randomization to disease progression, reoccurrence, or death due to any cause. (Up to a median of 30 months)"
+      },
+      {
+        "measure": "Pathologic Complete Response (pCR) Rate",
+        "description": "Pathologic complete response (pCR) rate is defined as the number of randomized participants with absence of residual tumor in lung and lymph nodes as evaluated by blinded independent pathological review (BIPR).",
+        "timeFrame": "From randomization up to a median of 30 months after randomization."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Major Pathologic Response (MPR) Rate",
+        "description": "Major pathologic response (MPR) rate is defined as number of randomized participants with \\</= 10% residual tumor in lung and lymph nodes as evaluated by blinded independent pathological review (BIPR). Viable tumors in situ carcinoma should not be included in MPR calculation.",
+        "timeFrame": "From randomization up to a median of 30 months after randomization."
+      },
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "Overall survival (OS) is defined as the time between the date of randomization and the date of death. OS will be censored on the last date a participant was known to be alive.",
+        "timeFrame": "From randomization to the date of death"
+      },
+      {
+        "measure": "Time to Death or Distant Metastases (TTDM)",
+        "description": "TTDM is defined as the time between the date of randomization and the first date of distant metastasis or the date of death in the absence of distant metastasis. Distant metastasis is defined as any new lesion that is outside of the thorax using blinded independent central review (BICR) according to response evaluation criteria in solid tumors (RECIST) 1.1. Patients who have not developed distant metastasis or died at the time of analysis will be censored on the date of their last evaluable tumor assessment.",
+        "timeFrame": "From randomization to the first date of distant metastasis or the date of death in the absence of distant metastasis (Up to a median of 30 months)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:50.428Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

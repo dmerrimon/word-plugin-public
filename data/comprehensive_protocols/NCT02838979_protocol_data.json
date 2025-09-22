@@ -1,0 +1,99 @@
+{
+  "nctId": "NCT02838979",
+  "briefTitle": "Trial of Oral Glutamine on Mitochondrial Function in CKD",
+  "officialTitle": "Randomized Cross-over Trial of Oral L-Glutamine vs Maltodextrin on Mitochondrial Function in Chronic Kidney Disease",
+  "protocolDocument": {
+    "nctId": "NCT02838979",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-12-07",
+    "uploadDate": "2021-12-02T18:44",
+    "size": 516448,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02838979/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 11,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-02-25",
+    "completionDate": "2018-01-31",
+    "primaryCompletionDate": "2017-10-01",
+    "firstSubmitDate": "2016-07-08",
+    "firstPostDate": "2016-07-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults between 20 and 69 years of age\n* Diagnosis of moderate-severe CKD, defined in this study as an estimated glomerular filtration rate (eGFR) of ≤60ml/min/1.73m2 using the Chronic Kidney Disease Epidemiology Collaboration equation\n* Ability to understand and provide informed consent to participate in the study\n\nExclusion Criteria:\n\n* On chronic dialysis\n* Expectation to start dialysis within 6 months or dialysis access in place.\n* Pregnant\n* Have physical immobility (defined by wheelchair use)\n* Insulin dependent diabetes\n* Have implants incompatible with MRI\n* Exercise limiting cardiopulmonary disease (e.g. angina, severe heart valve disease, severe COPD, coronary ischemia)\n* Use of anticoagulation (i.e. warfarin)\n* Baseline systolic blood pressure \\>160 or diastolic blood pressure \\>100\n* Inflammatory conditions (e.g. autoimmune disease, HIV)\n* Thyroid disease\n* Dementia or inability to consent\n* Cirrhosis, active/chronic hepatitis\n* Use medications interfering with muscle or mitochondrial function, including steroids, anti-psychotic, Coenzyme Q-10, immunosuppresssives, antivirals, and muscle relaxants\n* Weight \\>300 lbs\n* Personal history or family history of deep vein thrombosis, pulmonary embolism\n* Active malignancy\n* Patients hospitalized within the past 60 days for any reason.\n* Patients with a history of a major atherosclerotic event (defined as combined incidence of myocardial infarction, urgent target-vessel revascularization, coronary bypass surgery, and stroke) within 3 months",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "maximumAge": "69 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Muscle Mitochondrial Function",
+        "description": "31P MRS/OS was used to measure mitochondrial phosphorylation capacity (ATPmax).",
+        "timeFrame": "2 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Force-time Integral Area Under the Curve in Active Agent vs. Placebo",
+        "description": "To test if glutamine improves objective isometric muscle fatigue by comparing the measurement of FTI from each arm. Muscle fatigability was tested by calculating FTI as the area under the force-time curve during isometric force generated at 70 % of maximal voluntary contraction (MVC),",
+        "timeFrame": "2 weeks"
+      },
+      {
+        "measure": "Muscle Fatigue",
+        "description": "To test the effect of glutamine supplementation on muscle endurance, sum of the muscle force (force-time integral, FTI, N\\*s) normalized to maximum voluntary contraction (MVC, N) generated during voluntary contraction.",
+        "timeFrame": "2 weeks"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Plasma NAD+ Levels",
+        "description": "To test if glutamine improves plasma NAD+ compared to placebo. Plasma NAD+ concentrations were quantified in mM using 31p MRS based in vivo assay.",
+        "timeFrame": "2 weeks"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 1,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 51,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:06.212Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

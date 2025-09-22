@@ -1,0 +1,120 @@
+{
+  "nctId": "NCT04379128",
+  "briefTitle": "Attentional Impairment in People With Epilepsy",
+  "officialTitle": "Attentional Impairment in People With Epilepsy",
+  "protocolDocument": {
+    "nctId": "NCT04379128",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-04-02",
+    "uploadDate": "2020-05-06T03:44",
+    "size": 512136,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04379128/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 272,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2020-05",
+    "completionDate": "2025-08",
+    "primaryCompletionDate": "2020-05",
+    "firstSubmitDate": "2020-04-27",
+    "firstPostDate": "2020-05-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Patients:\n\nInclusion Criteria:\n\n* Patient with epilepsy, according to Fisher et al. (2005).\n* Patient with written informed consent\n* affiliation to a social security regime is compulsory\n* Individuals who have received full information about the organization of the research and have not objected to their participation and the use of their data.\n* Patient 18 years of age and older\n\nNormal controls:\n\nIndividuals who have received full information about the organization of the research and have not objected to their participation and the use of their data.\n\n* People 18 years of age and older\n* People with no neurological and/or psychiatric history\n\nExclusion Criteria:\n\nfor patients: with another progressive neurological condition for all People of full age who are subject to a legal protection measure or who are unable to express their consent People deprived of their liberty by a judicial or administrative decision People who regularly use psychoactive substances (cannabis, alcohol...)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "d2-r",
+        "description": "selective attention task",
+        "timeFrame": "10 minutes"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "sustained attention TAP Subtest",
+        "description": "Your task is to press the key as quickly as possible whenever two successive patterns have the same shape",
+        "timeFrame": "15 minutes"
+      },
+      {
+        "measure": "alertness attention TAP Subtest",
+        "description": "a cross appears on the screen. press the key when the cross appears",
+        "timeFrame": "8 minutes"
+      },
+      {
+        "measure": "divided attention TAP Subtest",
+        "description": "first task :a cross appears on the screen in which a varying number of crosses appear simultaneously. when four of these crosses form a square, then please press the key as quickly as possible.\n\nsecond task: in this task you will hear a high and a low tone in sequence. you must decide whether the same tone occurs twice in a row. Please press the key as quickly as possible.",
+        "timeFrame": "5 minutes"
+      }
+    ],
+    "other": [
+      {
+        "measure": "digit span",
+        "description": "immediate memory task",
+        "timeFrame": "5 minutes"
+      },
+      {
+        "measure": "verbal fluency",
+        "description": "executive task",
+        "timeFrame": "5 minutes"
+      },
+      {
+        "measure": "incompatibility TAP subtest",
+        "description": "executive task",
+        "timeFrame": "8 minutes"
+      },
+      {
+        "measure": "flexibility TAP subtest",
+        "description": "executive task",
+        "timeFrame": "8 minutes"
+      },
+      {
+        "measure": "Neurological Disorders Depression Inventory for Epilepsy (NDDI-E)",
+        "description": "Depression scale score 0 to 24",
+        "timeFrame": "3 minutes"
+      },
+      {
+        "measure": "GENERALIZED ANXIETY DISORDER (GAD-7)",
+        "description": "ANXIETY scale score : 0 to 21",
+        "timeFrame": "3 minutes"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 6,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 56,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:48.776Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

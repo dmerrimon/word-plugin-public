@@ -1,0 +1,139 @@
+{
+  "nctId": "NCT02669407",
+  "briefTitle": "Splanchnic Nerve Anesthesia in Heart Failure",
+  "officialTitle": "Splanchnic Nerve Block for Acute Heart Failure",
+  "protocolDocument": {
+    "nctId": "NCT02669407",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-12-22",
+    "uploadDate": "2019-10-04T14:19",
+    "size": 461281,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02669407/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 14,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-01-01",
+    "completionDate": "2018-10",
+    "primaryCompletionDate": "2018-10",
+    "firstSubmitDate": "2016-01-22",
+    "firstPostDate": "2016-02-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosis of heart failure (HF)\n* Prior admissions for decompensated HF\n* Symptomatic with dyspnea with clinical, radiographic or echocardiographic signs of fluid overload\n* On a stable HF drug regimen prior to admission\n* Anticipated hospital stay of at least 2 nights following catheterization procedure\n\nExclusion Criteria:\n\n* Ongoing treatment with oral anticoagulation other than aspirin\n* Immunosuppressive medications for solid organ transplant\n* Acute MI (STEMI or NSTEMI) within 7 days\n* Evidence of cardiogenic shock within 48 hours\n* Systolic blood pressure \\< 90 mmHg or \\>180 mmHg\n* Restrictive or constrictive cardiomyopathy\n* Chronic kidney disease stage 3 or higher due to primary renal pathology\n* Pregnancy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Central Venous Pressure",
+        "timeFrame": "Baseline, 90 minutes"
+      },
+      {
+        "measure": "Pulmonary Arterial Mean Pressure",
+        "timeFrame": "baseline, 30 minutes"
+      },
+      {
+        "measure": "Pulmonary Capillary Wedge Pressure",
+        "timeFrame": "baseline, 30 minutes"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Cardiac Index",
+        "timeFrame": "baseline, 30 minutes"
+      },
+      {
+        "measure": "Ejection Fraction (LVEF)",
+        "timeFrame": "Baseline, 90 minutes"
+      },
+      {
+        "measure": "Pulmonary Artery Systolic Pressure",
+        "timeFrame": "Baseline, 30 minutes"
+      },
+      {
+        "measure": "Right Ventricular Diameter",
+        "timeFrame": "Baseline, 30 mins"
+      },
+      {
+        "measure": "Left Ventricular Diameter",
+        "timeFrame": "Baseline, 30 mins"
+      },
+      {
+        "measure": "N-terminal Pro-B-type Natriuretic Peptide (NT-proBNP) Level",
+        "description": "NT-proBNP level is elevated in heart failure and reflects its severity. A higher value indicates less stability.",
+        "timeFrame": "Baseline; 90 minutes"
+      },
+      {
+        "measure": "Urine Output Measured in ml Over 3 Hours",
+        "timeFrame": "Baseline, post-procedure (0-3 hours)"
+      },
+      {
+        "measure": "Change in Blood Urea Nitrogen (BUN)",
+        "description": "BUN represents the major nitrogen excretion pathway and is used to evaluate renal function. Higher BUN levels indicate less stability.",
+        "timeFrame": "Baseline; 90 minutes"
+      },
+      {
+        "measure": "Change in Creatinine Level",
+        "description": "Creatinine measurements are used to evaluate renal function. Higher creatinine levels indicate less stability.",
+        "timeFrame": "Baseline; 90 minutes"
+      },
+      {
+        "measure": "Dyspnea as Measured on Likert Scale",
+        "description": "The scale ranges from -3 (markedly worse) to 3 (markedly improved). 0 = no change.",
+        "timeFrame": "15, 30, 45, 60, 75, 90 minutes; 24 hours"
+      },
+      {
+        "measure": "Change in Clinical Symptoms, as Measured by 6 Minute Walk Test",
+        "description": "The 6 Minute Walk Test (6MWT) is a sub-maximal exercise test used to assess aerobic capacity and endurance. The distance covered over a time of 6 minutes is used as the outcome by which to compare changes in performance capacity.",
+        "timeFrame": "Baseline, 90 minutes, 24 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 11,
+      "otherCount": 0,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:30.371Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

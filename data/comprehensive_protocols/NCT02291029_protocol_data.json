@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT02291029",
+  "briefTitle": "Safety, Pharmacokinetics and Preliminary Efficacy Study of CFZ533 in Patients With Primary Sjögren's Syndrome",
+  "officialTitle": "A Multi-center, Randomized, Double-blind, Placebo-controlled, Parallel Group Study to Assess the Safety, Tolerability, Pharmacokinetics and Preliminary Efficacy of CFZ533 in Patients With Primary Sjögren's Syndrome",
+  "protocolDocument": {
+    "nctId": "NCT02291029",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-05-24",
+    "uploadDate": "2019-06-28T10:09",
+    "size": 14210057,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02291029/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 69,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-10-22",
+    "completionDate": "2018-06-29",
+    "primaryCompletionDate": "2018-06-29",
+    "firstSubmitDate": "2014-11-04",
+    "firstPostDate": "2014-11-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Diagnosis of primary Sjögren's syndrome\n* ESSDAI score ≥ 6\n\nExclusion Criteria:\n\n* Secondary Sjögren's syndrome\n* Receiving cyclosphosphamide, corticosteroid bolus with dose over 1 mg/kg, rituximab, belimunab, other immunosuppressives.\n* At significant risk for thromboembolic event\n* Clinically significant systemic infection\n* Significant elevated risk for infection",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in EULAR Sjögren's Syndrome Disease Activity Index (ESSDAI)",
+        "description": "The effect of CFZ533 on clinical disease activity was measured by the change in ESSDAI (EULAR Sjögren's syndrome disease activity index) between baseline and week 12. The instrument contains 12 organ-specific domains contributing to disease activity. For each domain, features of disease activity are scored in 3 or 4 levels according to their severity.\n\nThese scores are then summed across the 12 domains in a weighted manner to provide the total score (range 0-123). A reduction from baseline indicates improvement in patients.",
+        "timeFrame": "Baseline and Week 12"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in EULAR Sjögren's Syndrome Patient Reported Intensity (ESSPRI)",
+        "description": "The ESSPRI is a patient self-reported outcome measure to assess dryness, limb pain, fatigue and mental fatigue, where each of the domains normally reported as 0 (not at all) to 10 (extremely severe). The final ESSPRI score is the average of three: dryness, pain and fatigue. A reduction from baseline indicates the improvement of symptoms.",
+        "timeFrame": "Baseline and Week 12"
+      },
+      {
+        "measure": "Change From Baseline in Physician Global Assessment of the Patient's Overall Disease Activity (VAS)",
+        "description": "The visual analogue scale used is a 100 mm VAS ranging from \"no disease\" (0 mm) to \"maximal disease activity\" (100 mm).",
+        "timeFrame": "Baseline and Week 12"
+      },
+      {
+        "measure": "Change From Baseline in Patient's Global Assessment of Their Disease Activity (VAS)",
+        "description": "The visual analogue scale used is a 100 mm VAS ranging from \"no disease\" (0 mm) to \"maximal disease activity\" (100 mm).",
+        "timeFrame": "Baseline and Week 12"
+      },
+      {
+        "measure": "Change From Baseline in Short Form (36) Health Survey (SF-36) Physical Component Score",
+        "description": "The SF-36 is a 36-item, patient self-reported outcome measure (questionnaires) of patient health. The outcome of the questionnaires in eight scales results in two summary scores, physical component and mental component, both ranging from 0 - 100. An increase from baseline in either component summary score indicates reduced disease burden.",
+        "timeFrame": "Baseline and Week 12"
+      },
+      {
+        "measure": "Change From Baseline in Short Form (36) Health Survey (SF-36) Mental Component Score",
+        "description": "The SF-36 is a 36-item, patient self-reported outcome measure (questionnaires) of patient health. The outcome of the questionnaires in eight scales results in two summary scores, physical component and mental component, both ranging from 0 - 100. An increase from baseline in either component summary score indicates reduced disease burden.",
+        "timeFrame": "Baseline and Week 12"
+      },
+      {
+        "measure": "Change From Baseline in Multidimensional Fatigue Inventory (MFI)",
+        "description": "The MFI is a patient self-reported outcome measure (questionnaires) to assess fatigue covering the following dimensions: General Fatigue, Physical Fatigue, Mental Fatigue, Reduced Motivation and Reduced Activity. Each dimension has a possible range from 4-20. The reported total score has a range from 20-100. A reduction from baseline in MFI indicates improvement.",
+        "timeFrame": "Baseline and Week 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:59.191Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT03099265",
+  "briefTitle": "Neoadjuvant Modified FOLFIRINOX and Stereotactic Body Radiation Therapy in Borderline Resectable Pancreatic Adenocarcinoma",
+  "officialTitle": "Phase II Study to Evaluate Neoadjuvant Modified FOLFIRINOX and Stereotactic Body Radiation Therapy in Borderline Resectable Pancreatic Adenocarcinoma",
+  "protocolDocument": {
+    "nctId": "NCT03099265",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-03-16",
+    "uploadDate": "2022-08-11T11:59",
+    "size": 5331991,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03099265/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-06-26",
+    "completionDate": "2019-09-18",
+    "primaryCompletionDate": "2019-09-18",
+    "firstSubmitDate": "2017-03-28",
+    "firstPostDate": "2017-04-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologically confirmed pancreatic adenocarcinoma\n* Borderline resectable pancreatic adenocarcinoma, determined centrally by review of a diagnostic CT scan and/or MRI scan with contrast by a dedicated surgical oncologist and radiologist, or as determined by EUS, and defined according to the NCCN consensus guidelines\n* ECOG Performance Status of 0-1\n* Age \\> 18\n* Laboratory parameters as follows:\n\n  * Absolute neutrophil count \\>=1,500/uL\n  * Platelet count \\>=100,000/uL\n  * Hemoglobin \\>=9 g/dL\n  * Creatinine \\<1.5 X ULN or estimated GFR \\>30 ml/min\n  * Bilirubin =\\<1.5 X ULN\n  * AST and ALT =\\<3 X ULN\n  * Negative pregnancy test in women of childbearing potential\n* Able to have fiducials placed in the pancreas\n* Patients who received chemotherapy \\>5 years ago for malignancies other than pancreatic cancer are eligible\n\nExclusion Criteria:\n\n* Evidence of extrapancreatic disease on diagnostic imaging (CT, MRI, or PET scan), or laparoscopy, including nodal involvement beyond the peripancreatic tissues and/or distant metastases\n* Evidence of invasion into the duodenum or stomach, as determined by EGD/EUS\n* Prior treatment (chemotherapy, biological therapy, or radiotherapy) for pancreatic cancer\n* Prior treatment with oxaliplatin, irinotecan, fluoruouracil or capecitabine\n* Major surgery within 4 weeks of study entry\n* Other concurrent anticancer therapies\n* Other malignancy within the past five years (exceptions include basal cell carcinoma of the skin, cervical carcinoma in situ, and non-metastatic prostate cancer)\n* Evidence of second malignancy at the time of study entry\n* Interstitial pneumonia or extensive and symptomatic interstitial fibrosis of the lung\n* Grade 2 or greater sensory peripheral neuropathy\n* Uncontrolled seizure disorder, active neurological disease, or known CNS disease\n* Significant cardiac disease, including the following: unstable angina, New York Heart Association class II-IV congestive heart failure, myocardial infarction within six months prior to study enrollment\n* Pregnant or nursing\n* Other medical condition or reason that, in the opinion of the investigator, would preclude study participation",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With and Without R0 Resection",
+        "description": "The primary outcome of this study is the R0 resection count of patients with BRPC treated with neoadjuvant mFOLFIRINOX and SBRT. R0 resection indicates a microscopically margin-negative resection, in which no gross or microscopic tumor remains in the primary tumor bed. When the study results were entered, rate was replaced with count as the manner in which these data were summarized.",
+        "timeFrame": "Up to 40 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Response to Neoadjuvant Therapy Using RECIST",
+        "description": "Response to treatment will be assessed by the treating physicians and investigators according to RECIST version 1.1. Counts of participants' RECIST category at their final visit up to 40 weeks below are provided. Per Response Evaluation Criteria In Solid TumorsCriteria (RECIST v1.0) for target lesions and assessed by MRI: Complete Response(CR), Disappearance of all target lesions; Partial Response (PR), \\>=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.",
+        "timeFrame": "Up to 40 weeks"
+      },
+      {
+        "measure": "Number of Participants With and Without Pathologic Response to Neoadjuvant Therapy",
+        "description": "A pathologic complete response is defined as the absence of residual invasive disease at the completion of the neoadjuvant treatment. This was performed only in those that had R0 resection performed.",
+        "timeFrame": "Up to 40 weeks"
+      },
+      {
+        "measure": "Number of Participants With and Without Recurrence",
+        "description": "Number of participants with and without recurrence following surgery. This outcome was updated when the results were entered.",
+        "timeFrame": "Up to 40 weeks"
+      },
+      {
+        "measure": "Number of Participants: Progression Free Survival",
+        "description": "Presented are count of patients that had experienced either progression free survival or disease progression through the follow up period.",
+        "timeFrame": "Up to 2 years"
+      },
+      {
+        "measure": "Number of Participants: Overall Survival",
+        "description": "Presented are counts of patients that we either deceased or not deceased at the end of the follow up period.",
+        "timeFrame": "Up to 2 years"
+      },
+      {
+        "measure": "Grade 3 or Greater Acute and Late Gastrointestinal Toxicity",
+        "description": "To determine rates of grade 3 or greater gastrointestinal toxicity, including acute toxicities occurring within 3 months of treatment, and late toxicities occurring over 3 months after completion of radiation. This outcome was clarified when results were entered. The number of patients that experienced at least 1 grade 3 (or greater) event are presented.",
+        "timeFrame": "Up to 40 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:56.092Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

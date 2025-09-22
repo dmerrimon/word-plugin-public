@@ -1,0 +1,152 @@
+{
+  "nctId": "NCT04475588",
+  "briefTitle": "Efficacy and Safety of Itolizumab in COVID-19 Complications",
+  "officialTitle": "A Multi-Centre, Open Label, Two Arm Randomized, Phase 2 Trial to Study the Efficacy and Safety of Itolizumab in COVID-19 Complications",
+  "protocolDocument": {
+    "nctId": "NCT04475588",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-06-04",
+    "uploadDate": "2021-05-17T07:50",
+    "size": 687724,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04475588/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 32,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-01",
+    "completionDate": "2020-07-07",
+    "primaryCompletionDate": "2020-07-07",
+    "firstSubmitDate": "2020-07-16",
+    "firstPostDate": "2020-07-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n1. Male or female adults above 18 years (not tested in children yet)\n2. Informed consent for participation in the study\n3. Virological diagnosis of SARS-CoV2 infection (PCR)\n4. Hospitalized due to clinical/instrumental diagnosis of COVID-19 infection\n5. Oxygen saturation at rest in ambient air ≤94%\n6. Patients who are in moderate to severe ARDS as defined by PaO2/Fio2 ratio of \\< 200\n\nKey Exclusion Criteria:\n\n1. Known severe allergic reactions to monoclonal antibodies\n2. Active tuberculosis (TB) infection\n3. History of inadequately treated tuberculosis or latent tuberculosis\n4. In the opinion of the investigator,progression to death is highly probable, irrespective of the provision of treatments\n5. Have received oral anti-rejection or immune-suppressive drugs within the past 6 months\n6. Participating in other drug clinical trials (participation in COVID-19 anti-viral trials may be permitted if approved by Medical Monitor)\n7. Pregnant or breastfeeding, or positive pregnancy test in a pre-dose examination\n8. Patients with known history of Hepatitis B, Hepatitis C or HIV\n9. Absolute Neutrophils count (ANC) \\<1000 / mm3\n10. Platelets \\<50,000 / mm3\n11. Absolute Lymphocyte count (ALC): \\<500/mm3",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "One-month Mortality Rate Between the Two Arms",
+        "description": "1-month mortality is defined as the proportion of patients who met fatal outcome event by Day 30",
+        "timeFrame": "One-month"
+      },
+      {
+        "measure": "Lung Function Assessment - Proportion of the Patients With Stable or Improved SpO2 Without Increasing FiO2",
+        "description": "Stable SpO2: Defined as number of patients with absence of increase in FiO2 to maintain SpO2 ≥ 92% Improvement of SpO2: Defined as number of patients with decrease in FiO2 to maintain SpO2 \\> 92%",
+        "timeFrame": "Day 7, Day 14, Day 21 & Day 30"
+      },
+      {
+        "measure": "Endo-tracheal Intubation/Invasive Mechanical Ventilation (IMV)",
+        "description": "Number of patients needing Intubation/IMV post treatment",
+        "timeFrame": "Day 30"
+      },
+      {
+        "measure": "Reduction in Proportion of Patients on Non-invasive Ventilation",
+        "description": "Reduction in proportion of Patients on Non-invasive Ventilation: defined as number of patient improved and shifted to Face mask, Nasal cannula, non-rebreather mask or off oxygen over time",
+        "timeFrame": "Baseline (Day 1), Day 7, Day 14 Day 21 & Day 30"
+      },
+      {
+        "measure": "Lung Function Assessment - Proportion of Patients With Stable PaO2 Without Increasing FiO2",
+        "description": "Stable PaO2: Defined as number of patients with up to 10% change in PaO2/FiO2 ratio from baseline.\n\nImprovement of PaO2: Defined as number of patients with \\> 10% improvement in PaO2/FiO2 ratio from baseline (including patients weaned off oxygen).",
+        "timeFrame": "Day 7, Day14, Day 21 & Day30"
+      },
+      {
+        "measure": "Reduction in Proportion of Patients- Invasive Mechanical Ventilation",
+        "description": "Patient improved from invasive ventilation over time from baseline.",
+        "timeFrame": "Day7, Day14, Day21 & Day 30"
+      },
+      {
+        "measure": "Reduction in Proportion of Patients-High Flow Nasal Oxygen",
+        "description": "Patient improved from High Flow Nasal Oxygen over time from baseline.",
+        "timeFrame": "Day7 ,Day 14 ,Day 21, Day 30"
+      },
+      {
+        "measure": "Mean Change From Baseline in Ferritin",
+        "description": "Mean Change from Baseline in Ferritin",
+        "timeFrame": "Day 7, Day 14, Day 21 & Day 30"
+      },
+      {
+        "measure": "Mean Change From Baseline in LDH",
+        "description": "Mean Change from Baseline in LDH",
+        "timeFrame": "Day 7, Day14, Day 21 and Day 30."
+      },
+      {
+        "measure": "Mean Change From Baseline in CRP (C-reactive Protein)",
+        "description": "Mean Change from Baseline in CRP",
+        "timeFrame": "Day 7, Day 14, Day 21 & Day 30"
+      },
+      {
+        "measure": "Mean Change From Baseline D-Dimer",
+        "timeFrame": "Day 7, Day 14, Day 21 & Day 30"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Mean Change From Baseline of Absolute Lymphocyte Count",
+        "description": "Mean change From baseline in Lymphocyte count",
+        "timeFrame": "day 7, day 14 ,day 21 & day 30"
+      },
+      {
+        "measure": "Biomarkers (IL-6, TNF-a)",
+        "description": "Mean values of Pre and Post 1st and 2nd dose are shown",
+        "timeFrame": "Pre and Post 1st dose; Pre and Post 2nd dose"
+      },
+      {
+        "measure": "Mean PaO2 (Partial Pressure of Oxygen) / FiO2 (Fraction of Inspired Oxygen, FiO2) Ratio (or P/F Ratio)",
+        "description": "Mean PaO2 (partial pressure of oxygen) / FiO2 (fraction of inspired oxygen, FiO2) ratio (or P/F ratio)",
+        "timeFrame": "Baseline, Day 7, Day 14, Day 21 & Day 30"
+      },
+      {
+        "measure": "Number and Percentage of Patients With Radiological Response",
+        "description": "Number of patients with improved X ray/CT findings as compared to baseline or returned to normal in the last assessment",
+        "timeFrame": "up to Day 30"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 11,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 15
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:35.812Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

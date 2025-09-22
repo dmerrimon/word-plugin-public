@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02461758",
+  "briefTitle": "Trial of High Dose vs. Standard Dose Influenza Vaccine in Inflammatory Bowel Disease Patients",
+  "officialTitle": "Randomized Trial of High Dose vs. Standard Dose Influenza Vaccine in Inflammatory Bowel Disease Patients",
+  "protocolDocument": {
+    "nctId": "NCT02461758",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-01-27",
+    "uploadDate": "2019-06-18T15:27",
+    "size": 293465,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02461758/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 81,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-10",
+    "completionDate": "2018-07",
+    "primaryCompletionDate": "2018-06",
+    "firstSubmitDate": "2015-05-26",
+    "firstPostDate": "2015-06-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "CASES Specific Aim #1 Inclusion Criteria\n\n* A history of chronic (greater than 3 month) ulcerative colitis or Crohn's disease diagnosed and documented by the standard clinical, radiographic, endoscopic and histopathologic criteria.\n* Ages 18-64\n* Currently taking anti-TNF therapy (infliximab, golilumab, adalimumab, or certolizumab) for at least 3 months\n* Exclusion Criteria\n* Received season's influenza vaccine\n* Allergy to eggs or influenza vaccine\n* Currently use of systemic steroids in the past 3 months\n\nSpecific Aim #2 Inclusion criteria\n\n* A history of chronic (greater than 3 month) ulcerative colitis or Crohn's disease diagnosed and documented by the standard clinical, radiographic, endoscopic and histopathologic criteria.\n* Ages 18-64\n* Currently on vedolizumab therapy\n\nExclusion Criteria\n\n* Received season's influenza vaccine\n* Allergy to eggs or influenza vaccine\n* Currently use of systemic steroids in the past 3 months\n\nControl group Inclusion criteria\n\n* Age 18-64\n* Willing to participate in study\n\nControl group Exclusion criteria\n\n* Currently on immunosuppressive therapy\n* Has a chronic health condition that may have an impact on vaccine antibody concentrations as deemed by the investigators, including chronic liver disease, celiac disease, history of solid organ or bone marrow transplantation.\n* Older than age 65 years\n* Unconfirmed Measles, Mumps, and Rubella (MMR) vaccination status\n* Patients in whom venipuncture are not feasible due to poor tolerability or lack of easy access.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "64 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Measure Antibody Concentrations in Immunosuppressed IBD Patients Who Receive High Dose and Standard of Care Dose Influenza Vaccine",
+        "description": "Influenza vaccine antibody concentration will be measured in immunosuppressed IBD patients who receive high dose and standard of care dose influenza vaccine.\n\nHigher antibody concentrations are associated with better protection from infection.",
+        "timeFrame": "Pre-immunization and 2-4 weeks post immunization"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Response Rate Against Influenza Vaccine in Patients With Inflammatory Bowel Disease: Number of Participants Positive for Seroconversion",
+        "description": "Vaccine response rates for influenza vaccines in patients with inflammatory bowel disease will be accessed by number of patients who has shown significant seroconversion. Seroconversion is defined as a four fold increase in antibody concentration from preimmunization to 4 weeks post immunization.",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Seroprotection: Number of Participants With Antibody Concentration at Least 1:40 at Week 4 Postimmunization",
+        "description": "Seroprotection is defined as an antibody concentration of at least 1:40 at 4 weeks post-immunization which confers protection from infection in about 50% of individuals",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Seroprotection: Number of Participants With Antibody Titer of 160 at Week 4 Post-immunization",
+        "description": "Seroprotection is defined by the FDA as post-immunization concentration of 1:160 that confers protection from infection to 95% of the population.",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Measure Antibody Concentrations in Immunosuppressed IBD Patients Who Receive High Dose and Standard of Care Dose Influenza Vaccine",
+        "description": "Influenza vaccine antibody concentration will be measured in immunosuppressed IBD patients who receive high dose and standard of care dose influenza vaccine.\n\nHigher antibody concentrations are associated with better protection from infection.",
+        "timeFrame": "6 months post-immunization"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:33.718Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

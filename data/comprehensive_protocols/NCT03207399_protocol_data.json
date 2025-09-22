@@ -1,0 +1,122 @@
+{
+  "nctId": "NCT03207399",
+  "briefTitle": "Lung Transplantation in Chronic HCV Infection With Post Transplant EPCLUSA Treatment",
+  "officialTitle": "Lung Transplantation in Chronic HCV Infection With Post Transplant EPCLUSA Treatment: A Pilot Feasibility and Efficacy Study",
+  "protocolDocument": {
+    "nctId": "NCT03207399",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-05-10",
+    "uploadDate": "2019-05-22T14:19",
+    "size": 252940,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03207399/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-09-15",
+    "completionDate": "2019-03-25",
+    "primaryCompletionDate": "2019-03-25",
+    "firstSubmitDate": "2017-06-30",
+    "firstPostDate": "2017-07-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* HCV RNA \\>= 10\\^3 IU/ml at screening\n* Chronic HCV infection, defined as positive HCV antibody and/or HCV RNA more than 6 months prior to screening\n* HCV Genotype 1, 2, 3, 4, 5 or 6\n* Otherwise eligible for lung transplant at study site\n\nExclusion Criteria:\n\n* Age \\<18\n* Treatment with any of the following agents:\n\n  * Amiodarone. Subjects previously treated with amiodarone must have stopped the amiodarone at least 60 days prior to day 1 SOF/VEL\n  * Carbamazepine, phenytoin, phenobarbital, oxcarbazepine\n  * Rifabutin, rifampin or rifapentine\n  * HIV regimens containing tenofovir or tipranavir/ritonavir\n  * St John's wort\n  * PPIs, including: Omeprazole, pantoprazole, esomeprazole, lansoprazole, dexlansoprazole, rabeprazole\n  * Modafinil\n* Have any serious or active medical or psychiatric illness which, in the opinion of the investigator, would interfere with subject treatment, assessment or compliance\n* Hepatitis B surface antigen positive\n* History of hepatic encephalopathy or variceal hemorrhage\n* Abnormal hematological and biochemical parameters, including:\n\n  * Hemoglobin \\<8g/dL\n  * Platelets \\<= 50,000/mm\\^3\n  * ALT (alanine aminotransferase), AST (aspartase aminotransferase) or alkaline phosphatase \\>=10 times ULN\n  * Total bilirubin \\>3mg/dL\n  * Severe renal impairment, ie creatinine clearance (CrCl) \\<30mL/min\n* Pregnant women or women planning to become pregnant\n* Women or are breastfeeding\n* Active or recent history (\\<=1 year) of drug or alcohol abuse",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Sustained Virologic Response 12 Weeks (SVR 12) in Those Treated With EPCLUSA.",
+        "description": "Sustained Virologic Response 12 weeks (SVR 12) in those treated with EPCLUSA.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Number of Patients That Reported an Adverse Event Resulting in Discontinuation of EPCLUSA",
+        "description": "Adverse events resulting in discontinuation of EPCLUSA",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Number of Patients Eligible for EPCLUSA Treatment",
+        "description": "Eligibility for EPCLUSA treatment within 12 months of lung transplant",
+        "timeFrame": "within 12 months of lung transplant"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Serum HCV RNA Levels",
+        "description": "Serum HCV RNA levels at 12-, 24-, and 48-weeks after initiation of EPCLUSA",
+        "timeFrame": "12, 24, and 48 weeks after initiation of EPCLUSA"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events Requiring Temporary Interruption of EPCLUSA Therapy",
+        "description": "Adverse events requiring temporary interruption in EPCLUSA therapy",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Patient Survival",
+        "description": "90-day post transplant patient survival",
+        "timeFrame": "90 days post-transplant"
+      },
+      {
+        "measure": "Patient Survival",
+        "description": "1 year post transplant patient survival",
+        "timeFrame": "1 year post-tranplant"
+      },
+      {
+        "measure": "Patient Survival",
+        "description": "90-day post transplant patient survival in recipients of HCV NAT positive donor organ",
+        "timeFrame": "90 days post-transplant"
+      },
+      {
+        "measure": "Patient Survival",
+        "description": "1 year post transplant patient survival in recipients of HCV NAT positive donor organ",
+        "timeFrame": "1 year post-transplant"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:24.726Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

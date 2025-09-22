@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04118764",
+  "briefTitle": "Non-invasive Blood-brain Barrier Opening in Alzheimer's Disease Patients Using Focused Ultrasound",
+  "officialTitle": "Neuronavigation-guided Focused Ultrasound-induced Blood-brain Barrier Opening in Alzheimer's Disease Patients",
+  "protocolDocument": {
+    "nctId": "NCT04118764",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-12-06",
+    "uploadDate": "2024-05-09T11:36",
+    "size": 546033,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04118764/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 6,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-08-06",
+    "completionDate": "2022-09-28",
+    "primaryCompletionDate": "2022-07-11",
+    "firstSubmitDate": "2019-10-01",
+    "firstPostDate": "2019-10-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 50 years of age or older.\n* Diagnosis of early Alzheimer's disease (AD) or mild cognitive impairment (MCI) at minimum. All following criteria must be met:\n\n  * Probable MCI or AD consistent with criteria outlined in (McKhann et al 2011, Petersen et al 2018).\n  * Mini Mental State Examination (MMSE) score between 12 and 26.\n  * Modified Hachinski Ischemia Scale (MHIS) score of \\<= 4\n  * Short form Geriatric Depression Scale (GDS) score of \\<= 6.\n  * PET scan confirming amyloid plaque load using Amyvid (18F-Florbetapir).\n* Ability to provide informed consent.\n\nExclusion Criteria:\n\n* Contraindication for Magnetic Resonance Imaging (MRI).\n* Contra-indication history or hypersensitivity to MRI contrast agents (e.g., Dotarem) or microbubbles (e.g., Definity).\n* Prior brain surgery, including deep brain stimulation.\n* Metallic implants.\n* Moderate or severe uncontrolled hypertension (systolic blood pressure \\> 140 mmHg).\n* Abnormal coagulation profile, e.g. hemophilia A or B.\n* Coagulopathy or under anticoagulant therapy.\n* History of stroke or cardiovascular disease.\n* Active/detectable gingivitis, herpes simplex, hepatitis, tuberculosis, and minor skin or respiratory infections.\n* History of seizure disorder.\n* History of asthma or allergies to food or medication with significant symptoms in past 3 years.\n* Severe brain atrophy.\n* Inability to comply with the procedures of the protocol, including follow-up MRI scans.\n* Pregnancy or lactation.\n* Impaired renal function with estimated glomerular filtration rate (eGFR) \\<30 mL/min/1.73m2 provided by a standard blood test at maximum 2 weeks prior to the ultrasound treatment.\n* Active infection/inflammation.\n* Acute or chronic hemorrhages, i.e. \\> 4 lobar microbleeds, and no siderosis or macrohemorrhages.\n* Tumors or space occupying lesions.\n* Meningeal enhancements.\n* Intracranial hypotension.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Total Number of Individuals With Successful Opening of the BBB",
+        "description": "The total number of individuals with successful opening of the BBB will be assessed. Blood-brain barrier opening volume will be measured in mm\\^3 through contrast-enhanced T1-weighted MRI on the day of the focused ultrasound treatment and 3 days after treatment, to confirm blood-brain barrier restoration.",
+        "timeFrame": "Baseline through 3 days post-treatment"
+      },
+      {
+        "measure": "Total Number of Safety Events Related to Opening of BBB",
+        "description": "The total number of safety events related to opening of the BBB as assessed by T2 and susceptibility-weighted (SWI) MRI. Safety will be established by the presence and the total area of hyper-intense or hypo-intense areas in the T2 and SWI scans.",
+        "timeFrame": "Baseline through 3 days post-treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percent Change in Amyloid PET Signal Intensity",
+        "description": "Amyloid plaques will be assessed through PET imaging before and after the focused ultrasound treatment. The standardized uptake value ratio images (SUVr) will be compared before and after the FUS treatment, to investigate if there is a change in the uptake of 18F-Florbetapir within the treated area.",
+        "timeFrame": "Screening through 3 weeks post-treatment"
+      },
+      {
+        "measure": "Change in Mini-Mental State Examination (MMSE) Score",
+        "description": "The MMSE is a questionnaire that is used to measure cognitive impairment. The total score range is 0 to 30, with a higher score indicating a better outcome. Cognitive function will be assessed before and after the focused ultrasound treatment to determine the change in MMSE.",
+        "timeFrame": "Screening through 3 months post-treatment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:40.750Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

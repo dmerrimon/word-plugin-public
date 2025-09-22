@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02697292",
+  "briefTitle": "IVIG in Patients With VGKC Ab Associated Autoimmune Epilepsy",
+  "officialTitle": "A Randomized Double Blind Placebo Controlled Study of Intravenous Immunoglobulin (IVIG) Patients With Voltage Gated Potassium Channel Complex (VGKC) Antibody Associated Autoimmune Epilepsy",
+  "protocolDocument": {
+    "nctId": "NCT02697292",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-05-09",
+    "uploadDate": "2019-12-04T13:49",
+    "size": 1220402,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02697292/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 17,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-02",
+    "completionDate": "2018-12-03",
+    "primaryCompletionDate": "2018-12-03",
+    "firstSubmitDate": "2016-02-19",
+    "firstPostDate": "2016-03-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Seropositivity for Voltage Gated Potassium Channel Complex (VGKC) complex antibodies or positive for Leucine-Rich, Glioma Inactivated 1 (LGI1)/contactin-associated protein-like 2 (CASPR2) Antibody by cell based assay.\n* And ≥ 2 seizures per week (mean of total over 1 week)\n* And duration of epilepsy \\<3 years\n* Male or female between the ages of 18 and 80 years of age\n* Women and men of child bearing potential must agree to use a reliable form of contraception throughout the course of the study.\n* Homecare treatment agency available at place of residence.\n\nExclusion Criteria:\n\n* History of thrombotic episodes within the 2 years prior to enrollment\n* Known allergic or other severe reactions to blood products including intolerability to previous IVIG\n* Immunoglobulin A (IgA) deficiency\n* Prior failed trial of high dose steroid (prednisone \\>60mg daily or methylprednisolone \\>1g weekly for \\>2 weeks)\n* Reproductive status:\n\n  * Women who are pregnant,\n  * Women who are breastfeeding,\n  * Women and men of childbearing potential who are unwilling or unable to use an acceptable method of birth control to avoid pregnancy for the entire study period, as evaluated by the investigator. (Women of non-childbearing potential are those that have a history of hysterectomy, bilateral oophorectomy, or are postmenopausal with no history of menstrual flow for \\> 12 months prior to screen visit.)\n* Any surgical procedure (except for minor surgeries) within 4 weeks prior to baseline.\n* Evidence of serious uncontrolled concomitant diseases that may preclude patient participation (physician determined), as described; Other nervous system disease, cardiovascular disease, hematologic/hematopoiesis disease, respiratory disease, muscular disease, endocrine disease, renal/urologic disease, digestive system disease, congenital or acquired severe immunodeficiency\n* Known active infection (excluding fungal infections of nail beds or caries dentium) within 4 weeks prior to baseline.\n* Evidence of chronic active hepatitis B or C.\n* Active ischemic heart disease in the past year prior to baseline.\n* Patients should not have severe renal or hepatic disease (determined by treating physician).\n* Severe hypertension",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Seizure Frequency From Baseline to 5 Weeks",
+        "description": "The number of subjects who experience a ≥ 50% reduction in seizure frequency",
+        "timeFrame": "baseline, 5 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Cognitive Assessment",
+        "description": "Number of subjects who experienced stable or improved cognitive assessment. Cognitive status was measured using the Repeatable Battery for the Assessment of Neuropsychological Status (RBANS). The RBANS is a individually administered standardized battery of 12 tests that measure cognitive decline or improvement taking approximately 30 minutes. Five index scores are computed from the RBANS (immediate memory, language, visuospatial, attention, delayed memory) that are combined to provide the Total Score (range 40-160)",
+        "timeFrame": "baseline, 5 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:49.656Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

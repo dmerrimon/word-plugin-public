@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04673292",
+  "briefTitle": "Community Collaboration to Combat COVID-19 (C-FORWARD)",
+  "officialTitle": "Community Collaboration to Combat COVID-19",
+  "protocolDocument": {
+    "nctId": "NCT04673292",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-12-23",
+    "uploadDate": "2024-05-20T13:28",
+    "size": 536759,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04673292/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 831,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-02-08",
+    "completionDate": "2023-06-09",
+    "primaryCompletionDate": "2023-06-09",
+    "firstSubmitDate": "2020-12-16",
+    "firstPostDate": "2020-12-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria for households\n\n1. Selected address within Baltimore City\n2. At least one member of the household \\>18 years of age who speaks English and/or Spanish\n3. At least one member of the household provides informed consent\n4. At least one member of the household psychologically fit to complete survey\n\nInclusion Criteria for Individuals\n\n1. Reports primary residence within the sampled household\n2. Provides informed consent\n3. For children (12 years of age or older), with child assent.\n\nExclusion Criteria for households:\n\n1. Adult member of the household is under the influence of illicit substances, in the opinion of the phone interviewer\n2. Residents of nursing homes, half-ways houses or shelters\n3. Psychologically unfit to complete the survey\n4. Not a selected household address\n\nExclusion criteria for individuals\n\n1\\. Person providing informed consent is under the influence of illicit substances",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Uptake of SARS-CoV-2 Testing as Assessed by Proportion of Participants Who Complete Testing",
+        "description": "Uptake of SARS CoV-2 testing will be assessed by proportion of participants who are randomized and complete SARS CoV-2 testing.",
+        "timeFrame": "Measured within 30 days of randomization/consent"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time to Completion of SARS-CoV-2 Testing",
+        "description": "Time (In days) to completion of SARS CoV-2 testing from randomization",
+        "timeFrame": "Measured from randomization to testing completion (within 30 days of randomization)]."
+      },
+      {
+        "measure": "Time From SARS CoV-2 Testing to Receipt of Results",
+        "description": "Time (in days) from SARS CoV-2 testing completion to the receipt of results by the participant.",
+        "timeFrame": "Measured from testing completion to receipt of results (within 10 days of testing)"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 4,
+      "exclusionCount": 4,
+      "totalCount": 8
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 46,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:32:21.748Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

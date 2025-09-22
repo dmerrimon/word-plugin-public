@@ -1,0 +1,78 @@
+{
+  "nctId": "NCT06659744",
+  "briefTitle": "Emulation of the SUSTAIN6 Diabetes Trial Using Healthcare Claims",
+  "officialTitle": "Emulation of Effects of Injectable Semaglutide on Cardiovascular Outcomes in Individuals With Type 2 Diabetes: SUSTAIN6 Trial",
+  "protocolDocument": {
+    "nctId": "NCT06659744",
+    "filename": "Prot_SAP_004.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan: Study Protocol for Three-Stage Project",
+    "date": "2025-07-30",
+    "uploadDate": "2025-08-22T19:20",
+    "size": 2417764,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06659744/document/Prot_SAP_004.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 158310,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-10-24",
+    "completionDate": "2025-03-06",
+    "primaryCompletionDate": "2025-03-06",
+    "firstSubmitDate": "2024-10-24",
+    "firstPostDate": "2024-10-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Eligible cohort entry dates:\n\nMarket availability of injectable semaglutide in the US began on 5th December 2017.\n\nOptum: Study period between 5th Dec 2017 - 29th February 2024 Marketscan: Study period between 5th Dec 2017 - 31st Dec 2022 Medicare: Study period between 5th Dec 2017 - 31st Dec 2020\n\nInclusion Criteria:\n\n* Type 2 diabetes mellitus\n* Anti-diabetic drug naïve, or treated with one or two oral antidiabetic drug (OADs), or treated with human Neutral Protamin Hagedorn (NPH) insulin or long-acting insulin analogue or pre-mixed insulin, both types of insulin either alone or in combination with one or two OADs\n* Age above or equal to 50 years at screening and clinical evidence of cardiovascular disease: prior myocardial infarction, prior stroke or prior transient ischemic attack, prior coronary, carotid or peripheral arterial revascularization, more than 50% stenosis on angiography or imaging of coronary, carotid or lower extremities arteries, chronic heart failure - New York Heart Association (NYHA) class II-III, chronic renal impairment documents by estimated eGFR \\<60ml/min/1.73 m2 per MDRD\n* Age 60 years or older with subclinical evidence of cardiovascular disease. Subclinical cardiovascular risk factors as one of the following: persistent microalbuminuria (30-299mg/g) or proteinuria, ankle/brachial index less than 0.9\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus, secondary or gestational diabetes\n* Use of glucagon-like peptide-1 (GLP-1) receptor agonist (exenatide, liraglutide, or other) or pramlintide within 90 days prior to screening\n* Use of any dipeptidyl peptidase 4 (DPP-IV) inhibitor within 30 days prior to screening\n* Treatment with insulin other than basal and pre-mixed insulin within 90 days prior to screening - except for short-term use in connection with intercurrent illness\n* Acute decompensation of glycaemic control requiring immediate intensification of treatment to prevent acute complications of diabetes (eg diabetes ketoacidosis) within 90 days prior to screening\n* History of chronic pancreatitis or idiopathic acute pancreatitis\n* Acute coronary or cerebro-vascular event within 90 days prior to randomization\n* Chronic heart failure New York Heart Association (NYHA) class IV\n* Personal or family history of multiple endocrine neoplasia type 2 (MEN2) or familial medullary thyroid carcinoma\n* Personal history of non-familial medullary thyroid carcinoma\n* Chronic hemodialysis or peritoneal dialysis\n* End stage liver disease\n* A prior solid organ transplant or awaiting solid organ transplant\n* Diagnosis of malignant neoplasm in the previous 5 years\n* Female of childbearing potential who is pregnant, breast-feeding or intends to become pregnant or is not using an adequate contraceptive method\n* Known use of non-prescribed narcotics or illicit drugs\n* Proliferative retinopathy or maculopathy requiring treatment\n* Missing age or gender\n* Nursing home admission",
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Major adverse cardiac event (MACE), including myocardial infarction, stroke, and all cause death",
+        "description": "Hazard ratio",
+        "timeFrame": "Through study completion (1 day after cohort entry date until the first of outcome or censoring)"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "Cataract surgery (negative control)",
+        "description": "Hazard ratio",
+        "timeFrame": "Through study completion (1 day after cohort entry date until the first of outcome or censoring)"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 1,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 31,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:11.339Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

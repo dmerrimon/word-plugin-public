@@ -1,0 +1,143 @@
+{
+  "nctId": "NCT05090683",
+  "briefTitle": "Evaluation of a Mind-body Based Application for the Treatment of Chronic/Persistent Pain.",
+  "officialTitle": "Evaluation of a Mind-body Based Application for the Treatment of Chronic/Persistent Pain.",
+  "protocolDocument": {
+    "nctId": "NCT05090683",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-12",
+    "uploadDate": "2021-10-13T00:02",
+    "size": 164932,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05090683/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 198,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-10-15",
+    "completionDate": "2022-07-15",
+    "primaryCompletionDate": "2022-06-15",
+    "firstSubmitDate": "2021-10-13",
+    "firstPostDate": "2021-10-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participants aged 19 to 75 years with chronic pain.\n* chronic pain is defined as having non-malignant chronic or persistent pain for at least 6 months.\n* Participants must experience pain at least half the days in the last 6 months.\n* Pain can include bodily pain or head (migraine) pain.\n\nExclusion Criteria:\n\n* Individuals reporting a cognitive impairment that can interfere with completing questionnaires and using a mobile application.\n* Individuals reporting any of the following psychiatric illness: schizophrenia, dissociative or personality disorders, bipolar disorder.\n* Individuals reporting any of the following medical conditions: metastatic cancer, rheumatoid arthritis, lupus, scleroderma, polymyositis.\n* Individuals reporting substance use disorder (within the last 6 months).\n* Individuals that have previously used mind-body apps for the treatment of chronic pain.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "19 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Brief Pain Inventory-short Form (BPI-SF)",
+        "description": "Primary outcome of Pain Severity: Single item scale within larger Brief Pain Inventory tool. Item scale ranges from 0 to 10. 0 = \"no pain\", 10 = \"pain as bad as you can imagine\". Higher scores indicate worse outcome, lower scores indicate better outcome.\n\nItem range = (0,10).\n\nPrimary outcome of Pain Interference: Item 9 on BPI measures interference with daily living. There are 7 items embedded within and each is scored on 11-point scales from 0 = \"does not interfere\" to 10 = \"completely interferes\" for interference with activities of daily living. Pain interference score is calculated as an average of the 7 items, with a range from 0 to 10. Higher scores represent worse outcomes.",
+        "timeFrame": "Baseline, 6 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Patient Reported Outcome Measurement Information System (PROMIS) Short Form for Pain Intensity on Average",
+        "description": "Single item from PROMIS that measures self reported pain intensity on average over 7 days.\n\n5-point scale: 1 = \"had no pain\" to 5 = \"very severe pain\" Scale range = (1,5). Higher score indicates worse outcome.",
+        "timeFrame": "baseline, 6 weeks"
+      },
+      {
+        "measure": "Patient Reported Outcome Measurement Information System (PROMIS) Short Form 8a Pain Interference",
+        "description": "Measures self reported pain interference in daily activities (over 7 days). 8 items are added together for a sum score.\n\nEach item uses 5-pt Likert scale from 1 = \"not at all\" to 5 = \"very much\" (regarding pain interference).\n\nScale range = 8 to 40. Higher scores indicate worse outcomes.",
+        "timeFrame": "baseline, 6 weeks"
+      },
+      {
+        "measure": "Pain Catastrophizing Questionnaire (PCS)",
+        "description": "Measures thoughts and perceptions of pain, 13 items, scored using 5-pt Likert scale 0 = \"not at all\" to 4 = \"all the time\".\n\nScores are the sum of all items. min score = 0; max score = 52. Higher scores indicate worse outcomes.",
+        "timeFrame": "baseline, 6 weeks"
+      },
+      {
+        "measure": "DASS-21 (Depression, Anxiety, and Stress Scale)",
+        "description": "Measures self reported emotional states, three subscales: depression, anxiety, stress (each 7 items) Items scored on 4-point Likert scale: 0 = \"did not apply to me at all\" to 3 = \"applied to me very much or most of the time\".\n\nScores for each subscale are summed. Scores are then multiplied by 2 to calculate final score for each subscale.\n\nScale ranges for each subscale is from 0 to 42 (after doubling of scores). Higher scores indicate worse outcomes.",
+        "timeFrame": "baseline, 6 weeks"
+      },
+      {
+        "measure": "Quality of Life Short Form 12 (SF-12) Physical (PCS-12) and Mental (MCS-12) Component Summary Scores (Z-scores; Normalized Based on US General Population)",
+        "description": "Measures self-reported impact of health on daily life. The SF-12 is a brief version of the longer SF-36 and contains 12 items measured using a variety of Likert scales and dichotomous yes/no scales, with each item response assigned a numerical weight.\n\nPCS and MCS are component z-scores that are calculated using regression weights and constants for each (mental and physical) which have been derived from a U.S. population.\n\nEach item response choice category is coded as an indicator variable (scored 1 / 0). Indicator variables are weighted using regression coefficients from the US population for the MCS and PCS. The weighted scores across all items are then summed and are added to a constant (regression intercept) to obtain summary scores. Score ranges 0 to 100. Normalized score such that component scales have a mean of 50 and standard deviation of 10 in the general population.\n\nLower scores indicate worse outcomes. Higher scores indicate better",
+        "timeFrame": "baseline, 6 weeks"
+      },
+      {
+        "measure": "Brief Pain Inventory-short Form (BPI-SF)",
+        "description": "Measures self reported pain severity; Pain interference (over past 24 hours) Only measured in the intervention group (as wait-listed controls had accessed the mobile app and were released from the study).\n\nBPI Pain Severity: single item scale within larger Brief Pain Inventory tool. Item scale ranges from 0 to 10. 0 = \"no pain\", 10 = \"pain as bad as you can imagine\". Higher scores indicate worse outcome, lower scores indicate better outcome.\n\nItem range = (0,10).\n\nBPI Pain Interference: Item 9 on BPI measures interference with daily living. There are 7 items embedded within and each is scored on 11-point scales from 0 = \"does not interfere\" to 10 = \"completely interferes\" for interference with activities of daily living. Pain interference score is calculated as an average of the 7 items, with a range from 0 to 10. Higher scores represent worse outcomes.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "PROMIS Pain Intensity Short Form",
+        "description": "Single item from PROMIS that measures self reported pain intensity on average over 7 days.\n\n5-point scale: 1 = \"had no pain\" to 5 = \"very severe pain\" Scale range = (1,5). Higher score indicates worse outcome.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Medication Use",
+        "description": "Self-reported quantify of medication use (number of participant reporting regular usage).\n\nNote: this was a change from original plan for reporting. We have only reported frequencies of use (generally), and omitted details regarding dosage and number of pills as it was decided that this was beyond the scope of our team and trial. We also did not compare baseline to 6 weeks for the same reason.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "PROMIS Pain Interference Short Form 8a",
+        "description": "Measures self reported pain interference in daily activities (over 7 days). 8 items are added together for a sum score.\n\nEach item uses 5-pt Likert scale from 1 = \"not at all\" to 5 = \"very much\" (regarding pain interference).\n\nScale range = 8 to 40. Higher scores indicate worse outcomes.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Pain Catastrophizing Questionnaire (PCS)",
+        "description": "Measures thoughts and perceptions of pain, 13 items, scored using 5-pt Likert scale 0 = \"not at all\" to 4 = \"all the time\".\n\nScores are the sum of all items. min score = 0; max score = 52. Higher scores indicate worse outcomes.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Quality of Life Short Form 12 (SF-12) Physical (PCS-12) and Mental (MCS-12) Component Summary Scores (Z-scores; Normalized Based on US General Population)",
+        "description": "Measures self-reported impact of health on daily life. The SF-12 is a brief version of the longer SF-36 and contains 12 items measured using a variety of Likert scales and dichotomous yes/no scales, with each item response assigned a numerical weight.\n\nPCS and MCS are component z-scores that are calculated using regression weights and constants for each (mental and physical) which have been derived from a U.S. population.\n\nEach item response choice category is coded as an indicator variable (scored 1 / 0). Indicator variables are weighted using regression coefficients from the US population for the MCS and PCS. The weighted scores across all items are then summed and are added to a constant (regression intercept) to obtain summary scores. Score ranges 0 to 100. Normalized score such that component scales have a mean of 50 and standard deviation of 10 in the general population.\n\nLower scores indicate worse outcomes. Higher scores indicate better outcomes.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "DASS-21 (Depression, Anxiety, Stress Scale - 21 Items)",
+        "description": "Measures self reported emotional states, three subscales: depression, anxiety, stress (each 7 items) Items scored on 4-point Likert scale: 0 = \"did not apply to me at all\" to 3 = \"applied to me very much or most of the time\".\n\nScores for each subscale are summed. Scores are then multiplied by 2 to calculate final score for each subscale.\n\nScale ranges for each subscale is from 0 to 42 (after doubling of scores). Higher scores indicate worse outcomes.",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 12,
+      "otherCount": 0,
+      "totalCount": 13
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:54.045Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,83 @@
+{
+  "nctId": "NCT03273946",
+  "briefTitle": "Post-marketing Safety Monitoring Program of Fluticasone Propionate (FP) in Chinese Subjects With Asthma Aged 1 to <4 Years",
+  "officialTitle": "Post-Marketing Observational Study to Evaluate Safety Profile of Flixotide 50 μg pMDI Treatment in Chinese Subjects With Asthma Aged 1-<4 Years",
+  "protocolDocument": {
+    "nctId": "NCT03273946",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-06-20",
+    "uploadDate": "2019-09-03T09:46",
+    "size": 1748111,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03273946/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 158,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-01-09",
+    "completionDate": "2018-09-27",
+    "primaryCompletionDate": "2018-09-27",
+    "firstSubmitDate": "2017-09-05",
+    "firstPostDate": "2017-09-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* An appropriately signed and dated assent must be obtained from the parent/guardian of the subject.\n* Subjects with 1 to \\<4 years of age at Visit 1.\n* Subjects who have been prescribed Flixotide 50 µg for a medically appropriate use for the first time will be included in this observational program; Flixotide 50 µg therapy should be in line with the approved dosing: 50 to100 µg twice daily; subjects should have the ability to inhale the doses via a pediatric spacer with a face mask appropriately; subjects who have been exposed to Flixotide 50 µg, 125 µg and 250 µg treatment previously will not be included.\n* The parent/guardian of the subject must provide reliable contact information which includes home phone or cell phone for the follow up visits.\n* The parent/guardian of the subject must have the ability to comply study procedures.\n* Specific information regarding warnings, precautions, contraindications, AEs, and other pertinent information on Flixotide 50 μg that may impact subject eligibility is provided in the approved product label.\n\nExclusion Criteria:\n\n\\-",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "1 Year",
+    "maximumAge": "4 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Any Adverse Event (AE) or Adverse Drug Reaction (ADR)",
+        "description": "An AE is defined as any untoward medical event which occurred in a participant or clinical study participant, which is temporally associated with the use of the medical product, whether or not considered related to the product. An ADR is defined as AE related to study drug and listed in the package insert. Number of participants who had at least one AE or ADR are presented.",
+        "timeFrame": "Up to Week 12"
+      },
+      {
+        "measure": "Number of Participants With Any Serious Adverse Event (SAE) or Non-SAE",
+        "description": "Any untoward medical occurrence resulting in death, life threatening, requires inpatient hospitalization or prolongation of existing hospitalization, results in persistent or significant disability/incapacity, congenital anomaly/birth defect, possible drug-induced liver injury or any other situation according to medical or scientific judgment that may not be immediately life-threatening or result in death or hospitalization but may jeopardize the participant or may require medical or surgical intervention to prevent serious outcomes were categorized as SAE. Number of participants who had at least one SAE or non-SAE are presented.",
+        "timeFrame": "Up to Week 12"
+      },
+      {
+        "measure": "Number of Participants With Any New, Unexpected AE or Safety Signal",
+        "description": "An unexpected AE is defined as any adverse reaction whose nature and intensity have not been previously observed and documented for the study product (e.g. in the investigator brochure, product information). A safety signal is information on a new or known AE that may be caused by a medicine and requires further investigation. Number of participants with any new unexpected AE or safety signal are presented.",
+        "timeFrame": "Up to Week 12"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:23.622Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

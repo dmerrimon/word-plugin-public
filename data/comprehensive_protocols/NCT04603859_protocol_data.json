@@ -1,0 +1,223 @@
+{
+  "nctId": "NCT04603859",
+  "briefTitle": "When to INDuce for OverWeight? (WINDOW)",
+  "officialTitle": "When to INDuce for OverWeight? - a Randomised Controlled Trial (WINDOW)",
+  "protocolDocument": {
+    "nctId": "NCT04603859",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan: Study Protocol including Statistical Analysis Plan",
+    "date": "2020-10-12",
+    "uploadDate": "2020-10-12T16:54",
+    "size": 349844,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04603859/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1900,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2020-10-19",
+    "completionDate": "2026-06",
+    "primaryCompletionDate": "2026-06",
+    "firstSubmitDate": "2020-10-12",
+    "firstPostDate": "2020-10-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n• Pregnant women with pre- or early pregnancy BMI ≥ 30 kg/m2\n\nExclusion Criteria:\n\n* Legal or ethical considerations: maternal age \\<18 years, language difficulties requiring an interpreter or translator\n* Multiple pregnancy\n* Previous caesarean section\n* Uncertain gestational age, defined as gestational age determined by other measurements than the Crown-Rump length (CRL) Measurement\n* Planned elective caesarean section at time of randomisation\n* Fetal contraindications to IOL at time of randomisation: e.g. non-cephalic presentation, or other fetal conditions contraindicating vaginal delivery\n* Fetal contraindications to expectant management at time of randomisation\n* Maternal contraindications to IOL at time of randomisation: e.g. placenta previa/accreta, vasa previa\n* Maternal contraindications to expectant management at time of randomisation: e.g. maternal medical conditions, ultrasonically diagnosed oligohydramnios (DVP\\< 2 cm), signs of labour including pre-labour rupture of membranes (PROM)",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Caesarean section",
+        "description": "number (no.)",
+        "timeFrame": "At delivery"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Mode of delivery if not by caesarean",
+        "description": "* Vaginal delivery - no.\n* Vaginal assisted delivery - no.",
+        "timeFrame": "At delivery"
+      },
+      {
+        "measure": "Mode of delivery",
+        "description": "* Caesarean section - percent\n* Vaginal delivery - percent\n* Vaginal assisted delivery - percent",
+        "timeFrame": "At delivery"
+      },
+      {
+        "measure": "Vaginal assisted delivery",
+        "description": "* Forceps - no.\n* Ventouse - no.",
+        "timeFrame": "At delivery"
+      },
+      {
+        "measure": "Indication for caesarean section (more than one indication is possible)",
+        "description": "* Labour dystocia - no.\n* Fetal distress - no.\n* Maternal request - no.\n* Suspected macrosomia - no.\n* Non-cephalic presentation - no.\n* Extensive vaginal bleeding - no.\n* Suspected uterine rupture - no.\n* Maternal or fetal complication/condition (free text) - no.\n* Other indication for caesarean section (free text) - no.",
+        "timeFrame": "At delivery"
+      },
+      {
+        "measure": "Indication for vaginal assisted delivery (more than one is possible)",
+        "description": "* Labour dystocia - no.\n* Fetal distress - no.\n* Maternal request - no.\n* Other indication for assisted vaginal delivery (free text) - no.",
+        "timeFrame": "At delivery"
+      },
+      {
+        "measure": "Use of epidural",
+        "description": "no.",
+        "timeFrame": "At delivery"
+      },
+      {
+        "measure": "Damage to internal organs (bladder, bowel or ureters)",
+        "description": "no.",
+        "timeFrame": "At delivery to 30 days postpartum"
+      },
+      {
+        "measure": "Uterine scar dehiscense or rupture",
+        "description": "no.",
+        "timeFrame": "At delivery"
+      },
+      {
+        "measure": "Complications",
+        "description": "* Minor shoulder dystocia defined as the need for McRobert's maneuver - no.\n* Major shoulder dystocia defined as the need for procedures other than McRobert's maneuver - no.\n* Clinical suspicion of abruption of the placenta leading to an intervention in labour - no.\n* Cord prolapse - no.\n* Maternal fever defined as temperature \\>38,2 / \\>38,0 degrees celsius with / without epidural - no.\n* Perineal 3rd degree laceration - no.\n* Perineal 4th degree laceration - no.\n* Episiotomy - no.",
+        "timeFrame": "At delivery"
+      },
+      {
+        "measure": "Postpartum haemorrhage",
+        "description": "* Blood loss \\>500ml - no.\n* Blood loss \\>1000ml - no.\n* Blood transfusion - no. Time Frame \\[0-2 days postpartum\\]",
+        "timeFrame": "0-2 hours postpartum"
+      },
+      {
+        "measure": "Hysterectomy",
+        "description": "no.",
+        "timeFrame": "At delivery to 30 days postpartum"
+      },
+      {
+        "measure": "Postpartum morbidity",
+        "description": "* Puerperal infection treated in hospital - no.\n* Other severe postpartum conditions treated in hospital (free text) - no.",
+        "timeFrame": "0-30 days postpartum"
+      },
+      {
+        "measure": "Maternal admission to Intensive Care Unit",
+        "description": "no.",
+        "timeFrame": "Enrollment to 30 days postpartum"
+      },
+      {
+        "measure": "Maternal cardiopulmonary arrest",
+        "description": "no.",
+        "timeFrame": "Enrollment to 30 days postpartum"
+      },
+      {
+        "measure": "Maternal death",
+        "description": "no.",
+        "timeFrame": "Enrollment to 30 days postpartum"
+      },
+      {
+        "measure": "Primary neonatal composite including any of the following;",
+        "description": "* Perinatal death (stillbirth and neonatal)\n* The need for respiratory support if admitted to a neonatal department (intubation and mechanical ventilation, oxygen, continuous positive airway pressure (CPAP), or high-flow nasal cannula (HNFC)). Time Frame \\[within 72 hours after birth\\]\n* Apgar score \\< 4 at 5 minutes\n* Hypoxic-ischemic encephalopathy (defined as the need for therapeutic hypothermia)\n* Seizures\n* Infection (defined as antibiotic treatment continuously for 7 days minimum)\n* Meconium aspiration syndrome\n* Birth trauma (bone fracture, Duchenne-Erbs palsy, or retinal hemorrhage)\n* Intracranial or subgaleal hemorrhage\n* Hypotension requiring vasopressor support",
+        "timeFrame": "Enrollment to 28 days of life"
+      },
+      {
+        "measure": "Components of the primary neonatal composite will additionally be reported separately",
+        "description": "* Perinatal death (stillbirth and neonatal) - no.\n* The need for respiratory support if admitted to a neonatal department (intubation and mechanical ventilation, oxygen, continuous positive airway pressure (CPAP), or high-flow nasal cannula (HNFC)). Time Frame \\[within 72 hours after birth\\] - no.\n* Apgar score \\< 4 at 5 minutes - no.\n* Hypoxic-ischemic encephalopathy (defined as the need for therapeutic hypothermia) - no.\n* Seizures - no.\n* Infection (defined as antibiotic treatment continuously for 7 days minimum) - no.\n* Meconium aspiration syndrome - no.\n* Birth trauma (bone fracture, Duchenne-Erbs palsy, or retinal hemorrhage) - no.\n* Intracranial or subgaleal hemorrhage - no.\n* Hypotension requiring vasopressor support - no.",
+        "timeFrame": "Enrollment to 28 days of life"
+      },
+      {
+        "measure": "Neonatal trauma composite including any of the following;",
+        "description": "* Birth trauma (bone fracture, Duchenne-Erbs palsy, or retinal hemorrhage)\n* Intracranial or subgaleal hemorrhage",
+        "timeFrame": "At delivery to 28 days of life"
+      },
+      {
+        "measure": "Neonatal asphyxia composite including any of the following;",
+        "description": "* Apgar score \\< 4 at 5 minutes\n* Umbilical cord pH-value \\< 7.0 (allow missing data)\n* Umbilical cord standard base excess (sBE) \\< -15.0 mmol/l (allow missing data)\n* Seizures\n* Hypoxic-ischemic encephalopathy (defined as the need for therapeutic hypothermia)",
+        "timeFrame": "At delivery to 28 days of life"
+      },
+      {
+        "measure": "Apgar score at 5 minutes",
+        "description": "* Apgar score \\<4 - no.\n* Apgar score of 4-7 - no.",
+        "timeFrame": "5 minutes of life"
+      },
+      {
+        "measure": "Umbilical cord arterial and venous blood sample (allow missing data)",
+        "description": "* pH-value \\< 7.0 - no.\n* sBE \\< -15.0 mmol/l - no.",
+        "timeFrame": "0-30 minutes of life"
+      },
+      {
+        "measure": "Neonatal admission",
+        "description": "no.",
+        "timeFrame": "0-72 hours of life"
+      },
+      {
+        "measure": "Respiratory support during neonatal admission",
+        "description": "* CPAP (y/n) - no.\n* HNFC (y/n) - no.\n* Oxygen supplement treatment (y/n) - no.\n* Ventilator treatment (y/n) - no.",
+        "timeFrame": "0-28 days of life"
+      },
+      {
+        "measure": "Other treatment during neonatal admission",
+        "description": "* Therapeutic hypothermia (y/n) - no.\n* Vasopressor support (y/n) - no.\n* Antibiotic treatment continuously for 7 days minimum (y/n) - no.",
+        "timeFrame": "0-28 days of life"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Neonatal characteristics 1",
+        "description": "* Female sex - no.\n* Birth weight \\> 4500 grams (y/n) - no.",
+        "timeFrame": "At delivery"
+      },
+      {
+        "measure": "Neonatal characteristics 2",
+        "description": "\\- Mean birth weight - grams",
+        "timeFrame": "At delivery"
+      },
+      {
+        "measure": "Maternal experience on birth",
+        "description": "Childbirth Experience Questionnaire Scoring range is 1 to 4 where higher ratings reflect more positive experiences",
+        "timeFrame": "4-6 weeks postpartum"
+      },
+      {
+        "measure": "Maternal postnatal depression",
+        "description": "* Major Depression Inventory (MDI)\n* Edinburgh Postnatal Depression Score Scoring range is 1 to 4 where higher ratings reflect more positive experiences",
+        "timeFrame": "4-6 weeks postpartum"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 24,
+      "otherCount": 4,
+      "totalCount": 29
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:14.503Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

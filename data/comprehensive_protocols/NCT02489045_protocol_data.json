@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT02489045",
+  "briefTitle": "Noninvasive Subharmonic Aided Pressure Estimation of Portal Hypertension",
+  "officialTitle": "Noninvasive Subharmonic Aided Pressure Estimation of Portal Hypertension",
+  "protocolDocument": {
+    "nctId": "NCT02489045",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-07-21",
+    "uploadDate": "2021-04-19T11:03",
+    "size": 929386,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02489045/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 178,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-04-06",
+    "completionDate": "2019-03-31",
+    "primaryCompletionDate": "2019-03-31",
+    "firstSubmitDate": "2015-05-14",
+    "firstPostDate": "2015-07-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Be scheduled for trans-jugular liver biopsy the day of the ultrasound procedure.\n* Be at least 21 years of age.\n* Be medically stable.\n* If a female of child-bearing potential, must have a negative pregnancy test.\n* Be conscious and able to comply with study procedures.\n* Have read and signed the IRB-approved Informed Consent form for participating in the study.\n\nExclusion Criteria:\n\n* Females who are pregnant or nursing.\n* Patients not scheduled for trans-jugular liver biopsy\n* Patients who have received an investigational drug in the 30 days before study drug administration, or will receive one within 72 h afterwards,.\n* Patients with known or suspected right-to-left, bi-directional, or transient right-to-left cardiac shunts\n* Patients with pulmonary hypertension or unstable cardiopulmonary conditions\n* Patients currently on chemotherapy or with other primary cancers requiring systemic or hepatic loco-regional treatment.\n* Patients who are medically unstable, patients who are seriously or terminally ill, and patients whose clinical course is unpredictable. For example:\n* Patients on life support or in a critical care unit.\n* Patients with unstable occlusive disease (e.g., crescendo angina)\n* Patients with clinically unstable cardiac arrhythmias, such as recurrent ventricular tachycardia.\n* Patients with uncontrolled congestive heart failure (NYHA Class IV)\n* Patients with recent cerebral hemorrhage.\n* Patients who have undergone surgery within 24 hours prior to the study sonographic examination.\n* Patients with a history of anaphylactic allergy to eggs or egg products, manifested by one or more of the following symptoms: generalized urticaria, difficulty in breathing, swelling of the mouth and throat, hypotension, or shock. (Subjects with nonanaphylactic allergies to eggs or egg products may be enrolled in the study, but must be watched carefully for 1 h following the administration of SONAZOID).\n* Patients with congenital heart defects.\n* Patients with severe emphysema, pulmonary vasculitis, or a history of pulmonary emboli.\n* Patients with respiratory distress syndrome\n* Patients with thrombosis within the hepatic, portal, or mesenteric veins.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Diagnostic Accuracy of SHAPE Liver Pressure Estimates (in dB) for Diagnosing Portal Hypertension With Catheter Pressure Measurements (in mmHg) as the Reference Standard",
+        "description": "Evaluate the use of in vivo subharmonic aided pressure estimation (SHAPE as the difference between the optimized subharmonic signal in a hepatic vein and in the portal vein) as a first quantitative screening modality for determining the presence of clinically significant portal hypertension in patients undergoing a transjugular liver biopsy compared to catheter based hepatic-venous pressure gradient measurements (HVPG in mmHg as the reference standard).",
+        "timeFrame": "up to 1 day"
+      },
+      {
+        "measure": "SHAPE Liver Pressure Estimates (in dB) Correlation With Catheter Pressure Measurements (in mmHg)",
+        "description": "Evaluate the correlation between in vivo subharmonic aided pressure estimation (SHAPE as the difference between the optimized subharmonic signal in a hepatic vein and catheter based hepatic-venous pressure gradient measurements (HVPG in mmHg) in patients undergoing a transjugular liver biopsy.",
+        "timeFrame": "up to 1 day"
+      },
+      {
+        "measure": "Comparing SHAPE Results With Blood Work and Concomitant Imaging in Portal Hypertension Patients",
+        "description": "Determine if SHAPE measurements (in dB) can provide a quantitative, noninvasive measurement of hepatic venous pressure gradient (HVPG) to monitor disease progression or treatment response in patients identified with portal hypertension by comparing the results to repeat biopsies and/or clinical outcomes.",
+        "timeFrame": "up to 2 hours"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:12.987Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

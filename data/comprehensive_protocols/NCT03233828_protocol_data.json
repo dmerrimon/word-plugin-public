@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03233828",
+  "briefTitle": "Pre-Treatment of Highly Suspicious Pigmented Skin Lesions With Interleukin-2",
+  "officialTitle": "Pre-Treatment of Highly Suspicious Pigmented Skin Lesions With Interleukin-2",
+  "protocolDocument": {
+    "nctId": "NCT03233828",
+    "filename": "Prot_SAP_004.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-30",
+    "uploadDate": "2024-04-22T15:27",
+    "size": 588826,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03233828/document/Prot_SAP_004.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-10-30",
+    "completionDate": "2019-11-27",
+    "primaryCompletionDate": "2019-11-27",
+    "firstSubmitDate": "2017-07-26",
+    "firstPostDate": "2017-07-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* The participant population will include patients characterized by: nodular/polypoid features, bleeding/ulcerated lesions, excluding face and vulvo-genital lesions.\n\nExclusion Criteria:\n\n* Participants who are not: currently immunocompromized, on immuno-therapy for other diagnosis, have known inflammatory or autoimmune diseases or are otherwise incapacitated.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Assessment of Number of Patients Needed to Obtain Significance",
+        "description": "Data will be analyzed in order to achieve a statistically significant differentiation between treatment and control outcomes in study measures including tumor infiltrating lymphocytes (TILs) and circulating immunomodulators.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Assessment of Metastasis",
+        "description": "All patients will receive assessments every 4 months for 2 years and then biannual assessments for years 3-5 after the initial intervention to assess disease metastasis in treatment and control groups. Both number of new metastases (integer value) and thickness (mm) will be measured as a part of this assessment.",
+        "timeFrame": "Assessments every 4 months for 2 years. Biannual assessments for years 3-5."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Assessment of RNA Genetic Profile",
+        "description": "RNA analysis of excised tissue will be compared to unaffected patient tissue obtained from the clear margins of the excisional biopsy to assess genetic changes resulting from the melanoma and treatment/placebo injections.",
+        "timeFrame": "RNA analysis of excised tissue up to 5 years."
+      },
+      {
+        "measure": "Assessment of Systemic Immune Response: Proteomic Analysis",
+        "description": "Proteomic analysis will be conducted on blood samples to assess systemic immune response to both treatment and control groups. Serum collected from patient blood samples will be used for proteomic analysis to assess protein expression, including circulating immunomodulators (cytokines and chemokines) before, and after, treatment. This study may serve to help develop diagnostic protocols and methods of assessing response to treatments.",
+        "timeFrame": "Proteomic analysis of serum samples up to 5 years"
+      },
+      {
+        "measure": "Assessment of Systemic Immune Response: Metabolomic Analysis",
+        "description": "Metabolomic analysis will be conducted on urine samples to assess systemic immune response to both treatment and control groups. All tumor and tissue produce by products in waste that are excreted by the kidneys. Urine samples can be evaluated using techniques, such as Mass Spectrometric, to determine if biological compounds can be identified in association with the presence of a malignant process that would not be produced by normal tissue.This study may serve to help develop diagnostic protocols and methods of assessing response to treatments.",
+        "timeFrame": "Metabolomic analysis of urine samples up to 5 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:47.750Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

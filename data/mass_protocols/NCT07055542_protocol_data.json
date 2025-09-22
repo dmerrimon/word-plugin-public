@@ -1,0 +1,109 @@
+{
+  "nctId": "NCT07055542",
+  "briefTitle": "Creating A Risk Assessment Tool for Thunderstorm Asthma: the CARISTA Study",
+  "officialTitle": "Creating A RIsk Assessment Biomarker Tool to Prevent Seasonal and Thunderstorm Asthma: The CARISTA Study",
+  "protocolDocument": {
+    "nctId": "NCT07055542",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-01-31",
+    "uploadDate": "2025-06-06T04:21",
+    "size": 22940763,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07055542/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 530,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-08-27",
+    "completionDate": "2030-12-31",
+    "primaryCompletionDate": "2029-12-31",
+    "firstSubmitDate": "2025-06-10",
+    "firstPostDate": "2025-07-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nConsenting adults aged 18 to 70 years with seasonal allergic rhinitis\n\nwilling to undertake:\n\n* Lung function testing\n* Blood sample collection for risk factor identification, -Prospectively logging their symptoms and medications through the springtime season using the CARISTA symptom monitoring platform . -\n\nExclusion Criteria:\n\n* Individuals unable to provide informed consent\n* Individuals who do not suffer from symptoms of seasonal allergic rhinitis\n* Individuals who do not consent to lung function testing and blood sample collection - Individuals with unstable asthma (FEV1 by spirometry less than 70% predicted), a recent exacerbation or change of asthma preventive medication use (within one month) would be excluded, although re-screening would be permitted after one month, time permitting.\n* Individuals with severe asthma requiring the use of continuous oral corticosteroids or biological medication for severe asthma.\n* The presence of any medical illness, such as cardiac disease, pre-existing illness or immunomodulatory therapy that, in the opinion of the Investigators, would compromise participant safety or the derivation of biomarkers during the study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants with Moderate or Severe Asthma Exacerbations",
+        "description": "Moderate and/or severe asthma exacerbations determined by\n\n* increased rescue bronchodilator medication use to a minimum of 4 puffs/day and doubling of baseline use, for 2 consecutive days\n* an increase in asthma symptoms requiring institution of, or doubling the regular dose of preventer asthma therapy\n* asthma symptoms requiring oral corticosteroid therapy\n* institution of emergency asthma treatment or medical attendance for emergency asthma treatment indicative of uncontrolled asthma.",
+        "timeFrame": "Over 13 weeks from 1 October - 31 December"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants with Severe asthma exacerbations",
+        "description": "Institution of emergency asthma treatment or medical attendance for emergency asthma treatment indicative of uncontrolled asthma or institution of oral corticosteroid therapy for asthma by a medical practitioner.",
+        "timeFrame": "Over 13 weeks from 1 October - 31 December"
+      },
+      {
+        "measure": "Number of Participants with Onset of uncontrolled asthma",
+        "description": "Onset of uncontrolled asthma determined by a worsening of asthma symptoms measured by the Asthma Control Questionnaire (ACQ-5:) increasing by 0.5 from baseline and being greater than 1.5. The minimum value = 0 and maximum value = 30. Higher scores indicate worse asthma symptoms.",
+        "timeFrame": "Over 13 weeks from 1 October - 31 December"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number of Participants with Rhinitis symptoms",
+        "description": "Recorded on Total Nasal Symptom Score (TNSS). The minimum value = 0 and maximum value = 9. Higher scores indicate more and worse rhinitis symptoms.",
+        "timeFrame": "Over 13 weeks from 1 October - 31 December"
+      },
+      {
+        "measure": "Number of Participants with Hospital presentations for asthma",
+        "description": "Hospital emergency attendance for worsening of acute asthma",
+        "timeFrame": "Over 13 weeks from 1 October - 31 December"
+      },
+      {
+        "measure": "Number of Participants with Emergency attendance for asthma care",
+        "description": "Emergency attendance to a clinical facility for acute asthma care",
+        "timeFrame": "Over 13 weeks from 1 October - 31 December"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 3,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 30,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:01.186Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

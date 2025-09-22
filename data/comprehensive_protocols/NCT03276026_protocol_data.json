@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03276026",
+  "briefTitle": "A Study to Compare Neostigmine vs Sugammadex in Length of PACU Stay in Patients Undergoing Sleeve Gastrectomy Surgery",
+  "officialTitle": "A Randomized Prospective Study to Compare the Effectiveness of Neostigmine Versus Sugammadex in Length of PACU Stay in ASA II and III Patients Undergoing Sleeve Gastrectomy Bariatric Surgery",
+  "protocolDocument": {
+    "nctId": "NCT03276026",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-01-29",
+    "uploadDate": "2019-05-09T13:07",
+    "size": 623890,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03276026/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 68,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-02-12",
+    "completionDate": "2018-11-08",
+    "primaryCompletionDate": "2018-11-08",
+    "firstSubmitDate": "2017-09-01",
+    "firstPostDate": "2017-09-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients having sleeve gastrectomy\n* Surgeries performed by a particular surgeon - Dr. Sam Wasser\n* Body Mass Index greater than 35\n* American Society of Anesthesiologists Score II and III patients\n\nExclusion Criteria:\n\n* Patients having a different type of bariatric surgery including but not limited to duodenal switch, gastric bypass, hand-assisted laparoscopic sleeve gastrectomy\n* Sleeve gastrectomy's performed by other surgeons than Dr. Sam Wasser.\n* Pregnancy\n* Allergic to sugammadex, Zofran or scopolamine\n* Chronic Obstructive Pulmonary Disease or Asthma that is uncontrolled\n* American Society of Anesthesiologists Score I, IV, V patients",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Post Anesthesia Care Unit Length of Stay",
+        "description": "Determine the difference in length of stay in the post anesthesia care unit from patient arrival until ready for post anesthesia care discharge for the American Society of Anesthesiologists Score II and III patients reversed with Sugammadex versus Neostigmine in sleeve gastrectomy surgeries.",
+        "timeFrame": "Observations will be made during each patient's stay in the post anesthesia care unit (about 120 minutes)."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Incidence of Postoperative Nausea and Vomiting",
+        "description": "Assess the incidence of Postoperative Nausea and Vomiting in the American Society of Anesthesiologists Score II and III patients reversed with Sugammadex versus Neostigmine at arrival to the post anesthesia care unit and every 15 minutes while in the post anesthesia care unit, with the prediction that there will be a lower incidence of Postoperative Nausea and Vomiting in the Sugammadex group.",
+        "timeFrame": "Observations will be made during each patient's stay in the post anesthesia care unit (about 120 minutes)."
+      },
+      {
+        "measure": "Incidence of Respiratory Complications",
+        "description": "Assess the incidence of respiratory complications postoperatively specifically looking at oxygen saturation at patient arrival to the post anesthesia care unit and every 15 minutes after arrival to the post anesthesia care unit and any intervention necessary.",
+        "timeFrame": "Observations will be made during each patient's stay in the post anesthesia care unit (about 120 minutes)."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:58.971Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

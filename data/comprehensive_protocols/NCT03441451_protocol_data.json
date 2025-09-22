@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT03441451",
+  "briefTitle": "The Bariatric Surgery Registry",
+  "officialTitle": "Establishment of a Bariatric Surgery Clinical Quality Registry",
+  "protocolDocument": {
+    "nctId": "NCT03441451",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2021-01-19",
+    "uploadDate": "2022-11-03T22:10",
+    "size": 1294638,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03441451/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 250000,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2012-01",
+    "completionDate": "2025-12",
+    "primaryCompletionDate": "2025-12",
+    "firstSubmitDate": "2015-01-22",
+    "firstPostDate": "2018-02-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Body Mass Index (BMI) \\>30 kg/m2\n\nExclusion Criteria:\n\n* Pregnant women",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "95 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Incidence of defined adverse events following bariatric surgery",
+        "description": "Information is collecting regarding the occurrence of one or more defined adverse events following bariatric surgery. Defined adverse events collected are: unplanned readmission to hospital, unplanned admission to the intensive care unit, unplanned return to the operating theatre, prolonged length of stay in hospital, and death. The reason for any of the events is also collected. If death occurs, the cause of death is collected to determine the likelihood of the death being caused by the bariatric surgery.",
+        "timeFrame": "Time of surgery to 90 days following surgery"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Mortality status following bariatric surgery",
+        "description": "Information is collected about each patient who has undergone bariatric surgery to ascertain mortality after the surgery and whether the cause of death was likely to be related to the patient having bariatric surgery.",
+        "timeFrame": "Time of surgery up to 10 years after surgery"
+      },
+      {
+        "measure": "Effect of bariatric surgery on long term weight loss",
+        "description": "Patient weight is collected on annual basis following a primary bariatric procedure to determine if weight loss is sustainable in the long term.",
+        "timeFrame": "12 months to 10 years after surgery"
+      },
+      {
+        "measure": "Effectiveness of bariatric procedures",
+        "description": "Information is collected as to whether a patient has subsequent bariatric procedures following the first surgery recorded by the registry.",
+        "timeFrame": "12 months to 10 years after surgery"
+      },
+      {
+        "measure": "The effect of bariatric surgery on a patient's diabetes status",
+        "description": "Information is collected at baseline as to whether or not a patient is identified as a diabetic and then on annual basis following surgery to see if the patient's diabetes status has changed.",
+        "timeFrame": "12 months to 10 years after surgery"
+      },
+      {
+        "measure": "The effectiveness of bariatric surgery as treatment for diabetes",
+        "description": "Information is collected at baseline as to how a patient identified as a diabetic is treated and then on annual basis following surgery to see if the patient still requires further treatment for diabetes and if treatment has changed from what was recorded at baseline.",
+        "timeFrame": "12 months to 10 years after surgery"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:16.006Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

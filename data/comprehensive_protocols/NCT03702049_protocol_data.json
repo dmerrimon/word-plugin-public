@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT03702049",
+  "briefTitle": "Nurse-Led Community Health Worker Adherence Model in 3HP Delivery Among Homeless Adults at Risk for TB Infection and HIV",
+  "officialTitle": "Nurse-Led Community Health Worker Adherence Model in 3HP Delivery Among Homeless Adults at Risk for TB Infection and HIV",
+  "protocolDocument": {
+    "nctId": "NCT03702049",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-01-02",
+    "uploadDate": "2024-01-31T19:12",
+    "size": 428403,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03702049/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-24",
+    "completionDate": "2020-09-04",
+    "primaryCompletionDate": "2020-05-29",
+    "firstSubmitDate": "2018-10-08",
+    "firstPostDate": "2018-10-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* self-reported homeless adults (past six months);\n* age 18 or older;\n* willing to provide informed consent;\n* positive for TBI\n* reported current or recent substance use (past three years)\n\nExclusion Criteria:\n\n* screened as having active TB or currently treated for TBI;\n* history of treatment for active TB or TBI;\n* a serum aspartate aminotransferase (AST) level of 3-5 times the upper limit of normal;\n* HIV infected AND receiving antiretroviral therapy (as 3HP is not recommended yet in this group);\n* not able to speak English or Spanish;\n* testing pregnant (as 3HP is not recommended in this group); and\n* judged to be cognitively impaired",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Completion of TBI Treatment",
+        "description": "Completion of TBI Treatment will be measured at 3 month follow-up by 90% completion of medication (at least 11/12 doses) consumed over a 12 week period",
+        "timeFrame": "3 months (12 weeks)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Drug Use",
+        "description": "Assessed by the drug items in the Texas Christian University (TCU) Screen V. Yes/No responses to substance dependency questions and the frequency of drug use based on a 5-point scale from 1 (never) to 5 (daily) will be assessed for each drug used. The total score ranges from 0 - 11; corresponding to the number of symptoms endorsed by the participant and the severity of SUD: mild disorder (2-3 points), moderate disorder (4-5 points), or severe disorder (6 or more points).",
+        "timeFrame": "baseline, 3 and 6 months"
+      },
+      {
+        "measure": "Alcohol Use",
+        "description": "Assessed by the Alcohol items in the Texas Christian University (TCU) Screen V. Problematic use of alcohol was defined as self-identified as being a problem (TCU Item #12) or daily consumption.",
+        "timeFrame": "baseline, 3 and 6 months"
+      },
+      {
+        "measure": "Depression",
+        "description": "Depression will be assessed by the Center for Epidemiological Studies Short Depression Scale Revised (CESD-R-10) is a 10-item measure for depressive symptoms in the past week (endpoints 0=rarely or none of the time; 3=most of the time). Scale range 0-30, with greater values meaning worse depressive symptoms. Responses are summed.",
+        "timeFrame": "baseline, 3 and 6 months"
+      },
+      {
+        "measure": "Health Care Access",
+        "description": "Health Care Access will include number of healthcare visits made",
+        "timeFrame": "3 and 6 months"
+      },
+      {
+        "measure": "Shelter Stability - Days Residing in the Shelter",
+        "description": "Shelter Factors: Staff will record the type of residence at baseline and follow-up. Shelter Stability will be assessed by the length of time in days residing in the shelter",
+        "timeFrame": "3 and 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:21.148Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

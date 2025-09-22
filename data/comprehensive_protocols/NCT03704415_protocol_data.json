@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT03704415",
+  "briefTitle": "Aggravated Airway Inflammation: Research on Genomics and Optimal Operative Treatment (AirGOs Operative)",
+  "officialTitle": "Aggravated Airway Inflammation: Research on Genomics and Optimal Operative Treatment (AirGOs Operative)",
+  "protocolDocument": {
+    "nctId": "NCT03704415",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-08-23",
+    "uploadDate": "2018-10-10T09:29",
+    "size": 487490,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03704415/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 97,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-10-23",
+    "completionDate": "2024-10-23",
+    "primaryCompletionDate": "2024-10-23",
+    "firstSubmitDate": "2018-10-08",
+    "firstPostDate": "2018-10-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patient not responding to conservative treatment of 3 months of nasal steroid drops\n* Nasal polyp score ≥ 4/8\n* SNOT-22 ≥ 30\n* Lund-Mackay CT score ≥ 14\n* One previous endoscopic sinus surgery or at least one peroral corticosteroid course or at least 3 courses of antibiotics within 2 years\n\nExclusion Criteria:\n\n* Age \\<18 years, age \\> 65 years\n* Complication of CRS (f.e. mucocele, invasive fungal rhinosinusitis)\n* Other diagnosis than CRSwNP (inverted papilloma, antrochoanal polyp etc.)\n* Previous external sinus surgery or Draf 3 procedure (or indication for external approaches or Draf 3\n* Bleeding diathesis\n* Pregnancy/ breastfeeding\n* Cystic fibrosis\n* Primary ciliary dyskinesia (PCD)\n* Sarcoidosis\n* Granulomatosis with polyangitis (GPA)\n* Eosinophilic granulomatosis with polyangitis (EGPA)\n* Immunosupression (diagnosed Spesific Antibody Deficiency (SAD), common variable immunodeficiency (CVI), HIV or use of biologicals/immunosuppressive medication)\n* Immunotherapy\n* Daily use of systemic corticosteroids\n* Communication problems (f.e. neurological/psychiatric disease, language skills)\n* Unlikely to comply\n* Other severe disease\n* Inability to be operated.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Sino-nasal outcome test (SNOT-22)",
+        "description": "Change from baseline in patient symptoms as measured by the Sino-Nasal Outcomes Test (SNOT-22) survey. Scores are measured from 0-5 in a 22 item validated survey. Total scores range from 0-110 with higher scores indicating greater burden of sinonasal symptoms.",
+        "timeFrame": "Baseline, Post-intervention every 3 months during 2 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:28.356Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

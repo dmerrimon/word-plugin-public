@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT06963606",
+  "briefTitle": "Effectiveness of Computer-Aided Detection Chest X-Ray Screening for Improving Tuberculosis Diagnostic Yield in Chinese Primary Health Care Settings: Study Protocol for a Prospective Cluster Randomized Controlled Trial",
+  "officialTitle": "Artificial Intelligence-assisted Chest X-ray in TB Screening: Effectiveness of Enhancing the Care Cascades in Chinese Primary-care Settings (ACCESS-CARE)",
+  "protocolDocument": {
+    "nctId": "NCT06963606",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-10-28",
+    "uploadDate": "2025-05-06T22:07",
+    "size": 2481863,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06963606/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12000,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-09-01",
+    "completionDate": "2027-12-31",
+    "primaryCompletionDate": "2027-12-31",
+    "firstSubmitDate": "2025-04-28",
+    "firstPostDate": "2025-05-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Eligibility criteria Inclusion criteria\n\nParticipants must receive medical treatment at the primary healthcare hospitals in Yichang City, Hubei Province, and underwent chest X-ray examinations. The participants have to meet the following criteria:\n\n1. ≥15 years old.\n2. Appearance of tuberculosis-related respiratory symptoms or signs.\n3. Individuals not previous diagnosed with active pulmonary tuberculosis.\n4. Capable of completing pathogen examinations and subsequent related inspections.\n\nExclusion criteria\n\nThose who meet any of the below criteria will be excluded:\n\n1. Previous diagnosed with extrapulmonary tuberculosis or latent tuberculosis infection.\n2. The quality of Chest X-ray images did not meet the standard requirements.\n3. Unrecognized identity information participants.\n\nWithdrawal Criteria In the event of participant withdrawal, study personnel should use methods such as phone communication, as well as scheduling follow-up appointments, to re-establish contact with the participants. The aim is to understand the reasons for withdrawal, diligently record the reasons for withdrawal, and endeavor to complete the study-related research content.\n\n1. Participants who are lost to follow-up or who do not complete the follow-up period.\n2. Participants who experience a sudden and serious illness or choose not to continue participating in the study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "15 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The difference in the diagnostic yield of pulmonary tuberculosis screening in township medical and health institutions between the intervention group and the control group.",
+        "description": "Diagnostic yield = The number of people who visited the hospital for chest DR Examination and were ultimately determined to require further relevant examinations and were diagnosed in the tuberculosis specific disease reporting system/the number of people who underwent chest DR Examination",
+        "timeFrame": "Baseline and 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The difference in the average number of days from visiting township medical and health institutions to the diagnosis of pulmonary tuberculosis between patients in the intervention group and the control group",
+        "description": "The number of days for confirmed diagnosis = the time of diagnosis reported by the tuberculosis specific disease system - the time of the patient's visit",
+        "timeFrame": "Baseline and 6 months"
+      },
+      {
+        "measure": "The differences in the accuracy of different tuberculosis screening strategies between the intervention group and the control group",
+        "description": "The differences in the accuracy of different tuberculosis screening strategies between the intervention group and the control group, including sensitivity, specificity, positive likelihood ratio, negative likelihood ratio, Youden index, and AUC",
+        "timeFrame": "Baseline and 6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:56.829Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

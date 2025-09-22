@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT05509283",
+  "briefTitle": "Nudging Flu Vaccination in Patients at Moderately High Risk for Flu and Flu-related Complications",
+  "officialTitle": "Nudging Flu Vaccination in Patients at Moderately High Risk for Flu and Flu-related Complications",
+  "protocolDocument": {
+    "nctId": "NCT05509283",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-10-25",
+    "uploadDate": "2022-10-25T15:16",
+    "size": 180483,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05509283/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40671,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-09-13",
+    "completionDate": "2022-10-26",
+    "primaryCompletionDate": "2022-10-26",
+    "firstSubmitDate": "2022-08-18",
+    "firstPostDate": "2022-08-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Included on a list of active Geisinger patients (all patients on this list attended at least one primary care appointment at Geisinger between 10/1/2008 and 4/13/2022, and either had a Geisinger primary care provider assigned as of April 2022, or were in the Electronic Health Record \\[EHR\\] since at least September 2021 and had at least one encounter in 2020-2022)\n* Aged 18 or older\n* In the top 11-20% of risk for flu and flu complications, according to Medial's flu complications machine learning algorithm (which operates on coded EHR data)\n* Has a Geisinger PCP assigned as of August 2022\n* Has had an encounter in the last 2 years as of August 2022\n\nExclusion criteria:\n\n\\- Cannot be contacted via any of the communication modalities (e.g., letter, patient portal, SMS) being used in the study, either due to insufficient/missing contact information in the EHR or because they opted out of all modalities",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Flu vaccination",
+        "description": "Received a flu vaccination within within 6 weeks of the patient's study start date",
+        "timeFrame": "Within 6 weeks of the patient's study start date"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "High confidence flu diagnosis",
+        "description": "Patient received a flu diagnosis via a positive polymerase chain reaction (PCR)/antigen/molecular test (yes/no) during the 2022-23 flu season (from the patient's study start date through April 30, 2023).",
+        "timeFrame": "Up to 8 months"
+      },
+      {
+        "measure": "\"Likely flu\" diagnosis",
+        "description": "Received a \"high confidence flu\" diagnosis (with positive PCR/antigen/molecular test) and/or \"likely flu\" diagnosis (as assessed via International Classification of Disease \\[ICD\\] codes or Tamiflu administration or positive PCR/antigen/molecular test) (yes/no) during the 2022-23 flu season (from the patient's study start date through April 30, 2023).\n\nNote that \"likely flu\" is a superset of the \"high confidence flu\" diagnoses.",
+        "timeFrame": "Up to 8 months"
+      },
+      {
+        "measure": "Flu complications",
+        "description": "Diagnosed with flu-related complications (yes/no) from the patient's study start date through July 31, 2023.",
+        "timeFrame": "Up to 11 months"
+      },
+      {
+        "measure": "ER visits",
+        "description": "Number of ER visits from the patient's study start date through July 31, 2023.",
+        "timeFrame": "Up to 11 months"
+      },
+      {
+        "measure": "Hospitalizations",
+        "description": "Number of hospitalizations from the patient's study start date through July 31, 2023.",
+        "timeFrame": "Up to 11 months"
+      },
+      {
+        "measure": "COVID-19 vaccination rates",
+        "description": "Received at least one COVID-19 vaccination (yes/no) during the 2022-23 flu season (from the patient's study start date through April 30, 2023).",
+        "timeFrame": "Up to 8 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 6,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 51,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:41.926Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

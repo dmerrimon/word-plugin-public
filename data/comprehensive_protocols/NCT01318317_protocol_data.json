@@ -1,0 +1,104 @@
+{
+  "nctId": "NCT01318317",
+  "briefTitle": "Genetically Engineered Lymphocyte Therapy After Peripheral Blood Stem Cell Transplant in Treating Patients With High-Risk, Intermediate-Grade, B-cell Non-Hodgkin Lymphoma",
+  "officialTitle": "Phase I/II Study of Cellular Immunotherapy Using Central Memory-Enriched CD8+ T Cells Lentivirally Transduced to Express A CD19-Specific Chimeric Immunoreceptor Following Peripheral Blood Stem Cell Transplantation for Patients With High-Risk Intermediate Grade B-Lineage Non-Hodgkin Lymphoma",
+  "protocolDocument": {
+    "nctId": "NCT01318317",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-06-10",
+    "uploadDate": "2021-09-21T14:37",
+    "size": 856886,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01318317/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 8,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-09-19",
+    "completionDate": "2026-02-26",
+    "primaryCompletionDate": "2013-10-03",
+    "firstSubmitDate": "2011-03-16",
+    "firstPostDate": "2011-03-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* City of Hope (COH) pathology review confirms that research participant's diagnostic material is consistent with history of intermediate grade B-cell NHL (e.g., diffuse B-cell lymphoma, mantle cell lymphoma, transformed follicular lymphoma)\n* History of relapse after achieving first remission with primary therapy, or failure to achieve remission with primary therapy\n* Life expectancy \\> 16 weeks\n* Karnofsky performance scale (KPS) \\>= 70%\n* Negative serum pregnancy test for women of childbearing potential\n* Research participant has an indication to be considered for autologous stem cell transplantation\n\nExclusion Criteria:\n\n* Fails to understand the basic elements of the protocol and/or the risks/benefits of participating in this phase I/II study; evidence of understanding includes passing the Protocol Comprehensive Screening given by the Research Subject Advocate (RSA); a legal guardian may substitute for the research participant\n* Any standard contraindications to myeloablative HSCT per standard of care practices at COH\n* Dependence on corticosteroids\n* Currently enrolled in another investigational therapy protocol\n* Human immunodeficiency virus (HIV) seropositive based on testing performed within 4 weeks of enrollment\n* History of allogeneic HSCT or prior autologous HSCT\n* Active autoimmune disease requiring systemic immunosuppressive therapy\n* Research participant(s) who are to receive radioimmunotherapy (Zevalin-based)-based conditioning regimens\n* Research participant(s) with known active hepatitis B or C infection",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Dose Limiting Toxicities (DLTs)",
+        "description": "Number of DLTs per dose level are reported.\n\nA DLT is defined as:\n\nAny grade 3 or higher toxicity, with the exception of expected adverse events; and designated as definitely or probably related (level of attribution) to the infusion of the TCM cells; and occurring within 28 days of T-cell infusion; Any toxicity requiring the use of steroids to ablate side effects attributable to the infusion of the TCM cells, and occurring within 28 days of T-cell infusion; Any toxicity which is a lower grade, but that increases in grade to a grade 3 or higher as a direct result of the TCM, and occurring within 28 days of T-cell infusion; Any grade 2 or greater autoimmune toxicity, and occurring within 28 days of T-cell infusion.",
+        "timeFrame": "Within 28 days of T-cell infusion"
+      },
+      {
+        "measure": "Woodchuck Hepatitis Virus Post-transcriptional Regulatory Element (WPRE) Detection Above Background",
+        "description": "Peak expansion of WPRE is expressed in CAR copy number/mL of blood is summarized with median and range",
+        "timeFrame": "28 days post T cell infusion"
+      },
+      {
+        "measure": "Number of Days of Quantifiable CD19 CAR Post T-cell Infusion",
+        "description": "WPRE persistence of quantifiable CD19 CAR summarized with mean and standard deviation",
+        "timeFrame": "28 days post T cell infusion"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Failure to Engraft",
+        "description": "Count of participants who fail to engraft post transplant.",
+        "timeFrame": "Within 21 days post T-cell infusion"
+      },
+      {
+        "measure": "Progression-free Survival at 1 Year",
+        "description": "Estimated using the Kaplan-Meier methods.\n\nProgression is defined using the revised IWG response criteria, as any new lesion or increase by ≥50% of previously involved sites from nadir.",
+        "timeFrame": "Up to 1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:46.032Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,173 @@
+{
+  "nctId": "NCT03141359",
+  "briefTitle": "Use of High Dose Radiation Followed by Chemotherapy and Radiation to Treat Locally Advanced NSCLC",
+  "officialTitle": "LCI-LUN-NSC-SBRT-001: Phase II Prospective Trial of Primary Lung Tumor Stereotactic Body Radiation Therapy Followed by Concurrent Mediastinal Chemoradiation and Adjuvant Immunotherapy for Locally-Advanced Non-Small Cell Lung Cancer",
+  "protocolDocument": {
+    "nctId": "NCT03141359",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-03-16",
+    "uploadDate": "2024-06-25T13:48",
+    "size": 800893,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03141359/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 61,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-12",
+    "completionDate": "2027-07",
+    "primaryCompletionDate": "2023-07-12",
+    "firstSubmitDate": "2017-05-03",
+    "firstPostDate": "2017-05-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria\n\nSubjects must meet all the following criteria:\n\n* Histologic or cytologic documentation of NSCLC (all histologies allowed)\n* Stage II or III disease (AJCC 7th Edition) based on imaging as required during screening: Stage II disease includes only subjects with medically inoperable N1 disease otherwise meeting eligibility criteria. Primary tumor ≤ 7 cm\n* Subjects with non-malignant pleural effusion identified on CT scan are eligible provided the effusion is not known or demonstrated to be an exudative effusion. If a pleural effusion is present, the following criteria must be met to exclude malignant involvement: A pleuracentesis is required if pleural fluid is present and visible on both CT scan and chest x-ray. Pleural fluid cytology must be negative for malignancy. Effusions that are minimal and too small for pleuracentesis as determined by the investigator will be eligible for enrollment.\n* FEV1 ≥ 1.0 Liter or ≥ 40% predicted with or without bronchodilator within six months prior to initiation of study treatment. Subjects who meet the criterion without O2, but who need acute (started within 10 days prior to enrollment) supplemental oxygen due to tumor-caused obstruction/hypoxia are eligible, provided the amount of the O2 needed has been stable.\n* Age ≥18 years.\n* ECOG performance status ≤ 2\n* Subjects must have normal organ and marrow function as defined: Leukocytes ≥4,000/mcL; Absolute neutrophil count ≥1,500/mcL; Platelets ≥100,000/mcL; Total bilirubin ≤1.5 times the upper limit of normal; Creatinine clearance ≥25 mL/min/1.73 m2\n* Negative serum or urine pregnancy test prior to enrollment for women of childbearing age and potential.\n* The effects of radiation on the developing human fetus are not well described. For this reason, women of child-bearing potential and non-sterilized men who are sexually active with a woman of child-bearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study treatment. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately.\n* Must be considered a candidate for durvalumab, per the treating investigator\n* Ability to understand and the willingness to sign a written informed consent document.\n\nExclusion Criteria\n\nSubjects must not meet any of the following criteria.\n\n* Subjects who have had prior systemic therapy for lung cancer\n* Subjects who have had prior radiation to the region of the chest that would result in overlap of radiation therapy fields and determined by the treating physician to impede the treatment of the study malignancy.\n* Subjects who are actively being treated on any other interventional research study.\n* Prior invasive malignancy unless disease free for a minimum of 3 years from enrollment. However, non-melanoma skin cancer, low risk prostate cancer, well differentiated thyroid cancers, in situ carcinomas of the breast, oral cavity, cervix, and other organs, and tumors that are not thought to impact the life expectancy of the subject according to the treating investigator is permissible.\n* Centrally located primary tumor \\< 2 cm from involved nodal disease which would result in significant overlap of radiation dose. Centrally located is defined as within or touching the zone of the proximal bronchial tree, which is a volume 2 cm in all directions around the proximal bronchial tree (carina, right and left main bronchi, right and left upper lobe bronchi, intermedius bronchus, right middle lobe bronchus, lingular bronchus right and left lower lobe bronchi).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Progression Free and Surviving at 12 Months",
+        "description": "12-month progression free survival was determined for each subject as a binary variable indicating whether or not the subject was progression free and surviving at 12 months after study enrollment. Failure occurred if the subject progressed or died from any cause within 12 months of study enrollment. Disease progression was determined according to RECIST v1.1.",
+        "timeFrame": "From date of treatment start to date of progression or death, or censored at 12 months, whichever occurred first."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Progression Free Survival (PFS)",
+        "description": "PFS is defined as the duration of time from treatment start date to first occurrence of either progressive disease (PD) or death. PD must be objectively determined per RECIST v1.1 criteria, where progression date is date of last radiologic assessment that identified PD. If subject died without documented PD, progression date will be death date. For surviving subjects who do not have PD, PFS will be censored at the date of last radiologic assessment. For subjects who received subsequent anti-cancer therapy prior to documented PD, PFS will be censored at the date of last radiologic assessment prior to commencement of subsequent therapy. Subjects who have an initial PFS event immediately following 2 or more consecutive missed assessments will be censored at date of last assessment prior to missed assessments.",
+        "timeFrame": "From date of treatment start to date of progression or death, or censored as described; assessed for approximately 5 years"
+      },
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "OS is defined as the duration from enrollment to the study (treatment start date) to the date of death from any cause. Participants who are alive or lost to follow-up at the time of the analysis will be censored at the last known date they were alive.",
+        "timeFrame": "From date of treatment start to date of death, or censored as described; assessed for approximately 5 years"
+      },
+      {
+        "measure": "Radiologic Clinical Complete Response",
+        "description": "Radiologic clinical complete response will be recorded for each subject as a binary variable indicating whether or not the subject had no evidence of disease on either PET/CT or CT scan approximately 3 months after the last treatment of concurrent mediastinal chemoradiation.",
+        "timeFrame": "Approximately 3 months after last treatment of concurrent mediastinal chemoradiation (on average, SBRT plus chemoradiation treatment lasted 2 months from baseline)"
+      },
+      {
+        "measure": "Number of Participants With an Objective Response",
+        "description": "Objective response is determined for each participant as a binary variable indicating whether or not the participant achieved a best overall response of complete response (CR) or partial response (PR) as determined by RECIST v1.1 criteria.",
+        "timeFrame": "From enrollment to best response while on study treatment; participants remained on study treatment (including SBRT, chemoradiation, and durvalumab) 4.5 months on average."
+      },
+      {
+        "measure": "Local Control at 12 and 24 Months",
+        "description": "Local control (LC) is defined as the duration of time from enrollment to the study to first progression of the subject's primary lesions(s). If a participant dies prior to local progression local control will be censored at the date of death. For surviving subjects with no documented local progression, local control will be censored at the date of the last radiologic assessment that evaluated the local tumor(s). For subjects who receive subsequent anticancer therapy prior to documented local progression, local control will be censored at the date of last radiologic assessment that evaluated the local tumor(s) prior to the commencement of subsequent therapy. Local control will be estimated at 12 and 24 months.",
+        "timeFrame": "From date of treatment start to date of progression of primary lesion or censored as described; assessed for approximately 2 years.]"
+      },
+      {
+        "measure": "Regional Control at 12 and 24 Months",
+        "description": "Regional control (RC) is defined as the duration of time from enrollment to the study to first progression of the subject's regional lesions(s). If a participant dies prior to regional progression regional control will be censored at the date of death. For surviving subjects with no documented regional progression, regional control will be censored at the date of the last radiologic assessment that evaluated the regional tumor(s). For subjects who receive subsequent anticancer therapy prior to documented regional progression, regional control will be censored at the date of last radiologic assessment that evaluated the regional tumor(s) prior to the commencement of subsequent therapy. Regional control will be estimated at 12 and 24 months.",
+        "timeFrame": "From date of treatment start to date of progression of regional lesions or censored as described; assessed for approximately 2 years."
+      },
+      {
+        "measure": "Locoregional Control at 12 and 24 Months",
+        "description": "Locoregional control is defined as the duration of time from enrollment to the study to first progression of the subject's local and/or regional lesions(s), whichever occurs first. If a participant dies prior to locoregional progression locoregional control will be censored at the date of death. For surviving subjects with no documented local and/or regional progression, locoregional control will be censored at the date of the last radiologic assessment that evaluated the local and regional lesion(s). For subjects who receive subsequent anticancer therapy prior to documented locoregional progression, locoregional control will be censored at the date of last radiologic assessment that evaluated the local and regional tumor(s) prior to the commencement of subsequent therapy. Locoregional control will be estimated at 12 and 24 months.",
+        "timeFrame": "From date of treatment start to date of progression of primary or regional lesions or censored as described; assessed for approximately 2 years."
+      },
+      {
+        "measure": "Distant Control at 12 and 24 Months",
+        "description": "Distant control defined as the duration of time from enrollment to first metastatic progression. If a subject dies prior to metastatic progression, distant control will be censored at the date of death. For surviving subjects with no documented metastatic progression, distant control will be censored at the date of the last radiologic assessment. For subjects who receive subsequent anti-cancer therapy prior to documented metastatic progression, distant control will be censored at the date of last radiologic assessment prior to the commencement of subsequent therapy. Distant control will be estimated at 12 and 24 months.",
+        "timeFrame": "From date of treatment start to date of metastatic progression or censored as described; assessed for approximately 2 years"
+      },
+      {
+        "measure": "European Organization for Research and Treatment of Cancer Quality of Life Questionnaire for Patients With Cancer (EORTC QLQ-C30) Global Health Status Quality of Life Score",
+        "description": "The EORTC QLQ-C30 is a 30-item questionnaire to assess the overall quality of life of cancer patients. EORTC QLQ-C30 includes 5 functional scales, 9 symptom scales/items, and a global health status/quality of life (QoL) scale. The global health status/QoL score is determined from two 7-point items, ranging from 1 (Very Poor) to 7 (Excellent). Using linear transformation, raw scores are standardized, so that scores range from 0 to 100. A higher score represents a higher (better) quality of life.",
+        "timeFrame": "baseline (pre-SBRT), post-SBRT/pre-chemoradiation, and 1, 3, 6, and 12 months after the last treatment of chemoradiation (on average, SBRT plus chemoradiation treatment lasted 2 months from baseline)"
+      },
+      {
+        "measure": "European Organization for Research and Treatment of Cancer Quality of Life Questionnaire for Patients With Lung Cancer (EORTC QLQ-LC13) Symptom Scores",
+        "description": "The EORTC QLQ-LC13 is a 13-item questionnaire to assess lung cancer associated symptoms, treatment related side effects and pain medication. Both multi-item and single-item measures of lung-cancer associated symptoms and side-effects from conventional chemo and radiotherapy. We focused on 3 symptoms of interest from the EORTC QLQ-LC13: dyspnoea, coughing, and dysphagia. Dyspnoea is a function of three items and can only be determined if all three items have been answered, while coughing and dysphagia are single-item symptoms. Each symptom score is determined by averaging the items that contribute to the scale to get a raw score. Using linear transformation, raw scores are standardized, so that scores range from 0 to 100. A higher symptom score represents a higher (worse) level of symptoms.",
+        "timeFrame": "baseline (pre-SBRT), post-SBRT/pre-chemoradiation, and 1, 3, 6, and 12 months after the last treatment of chemoradiation (on average, SBRT plus chemoradiation treatment lasted 2 months from baseline)"
+      },
+      {
+        "measure": "MD Anderson Symptom Inventory - Lung Cancer (MDASI-LC) Total Symptom + Interference Score",
+        "description": "The MDASI-LC Module includes 22 questions to assess the severity of multiple lung cancer-related symptoms and the impact of these symptoms on daily functioning. Scores for each item range from 0 to 10, where 0 indicates no symptoms and 10 indicates worst possible symptoms. Arithmetic mean of the items completed was calculated to determine a mean total symptom + interference score ranging from 0 to 10. The mean score is reported if more than 50% of the items are completed on a given administration. Higher scores indicate worse symptoms and more interference.",
+        "timeFrame": "baseline (pre-SBRT), post-SBRT/pre-chemoradiation, and 1, 3, 6, and 12 months after the last treatment of chemoradiation (on average, SBRT plus chemoradiation treatment lasted 2 months from baseline)"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number of Participants With Grade 2 or Higher Radiation Pneumonitis",
+        "description": "A binary variable will be determined for each subject indicating whether or not the subject experienced at least one grade 2 or higher pneumonitis adverse event according to the NCI Common Terminology for Adverse Events version 4.0 during induction. Pneumonitis events receiving treatment with steroids and possibly, probably, or definitely attributed to SBRT or mediastinal radiation will be included.",
+        "timeFrame": "From enrollment to 6 months after last treatment of concurrent mediastinal chemoradiation (on average, a total of 8 months)."
+      },
+      {
+        "measure": "Number of Participants With Grade 3 or Higher Pulmonary Events",
+        "description": "A binary variable will be determined for each subject indicating whether or not the subject experienced at least one grade 3 or higher pulmonary adverse event according to the NCI Common Terminology for Adverse Events version 4.0 during induction. This includes pulmonary adverse events regardless of attribution.",
+        "timeFrame": "Assessed for approximately 12 months after last treatment of concurrent mediastinal chemoradiation (on average, a total of 14 months)."
+      },
+      {
+        "measure": "Number of Participants With at Least One Serious Event",
+        "description": "A binary variable will be determined for each participant indicating whether or not the subject had at least one adverse event that was categorized as serious, regardless of causality. Serious is defined per the study protocol and includes events that the investigator deems serious and results in the following outcomes: death, life-threatening situation, persistent or significant disability/incapacity, requires or prolongs hospitalization, congenital anomaly/birth defect in the offspring of a study participant, suspected transmission of any infections agent via medical product, or based upon medical judgement, may jeopardize the subject and may require medical or surgical intervention to prevent one of the afore listed outcomes from occurring.",
+        "timeFrame": "Assessed for approximately 12 months after last treatment of concurrent mediastinal chemoradiation (on average, a total of 14 months)."
+      },
+      {
+        "measure": "Number of Participants With at Least One Treatment Emergent Adverse Event",
+        "description": "A binary variable will be determined for each participant indicating whether or not the subject had at least one treatment-emergent adverse event, regardless of causality. Adverse events will be categorized per NCI Common Terminology for Adverse Events version 4.0. Treatment-emergent is defined per the study protocol and includes AEs that occur after treatment start that were not present at the time of treatment start or AEs that increase in severity after treatment start if the event was present at the time of treatment start.",
+        "timeFrame": "Assessed for approximately 12 months after last treatment of concurrent mediastinal chemoradiation (on average, a total of 14 months)."
+      },
+      {
+        "measure": "Number of Participants With at Least One Grade 3 or Higher Treatment Emergent Adverse Event",
+        "description": "A binary variable will be determined for each participant indicating whether or not the subject had at least one grade 3 or higher treatment-emergent adverse event, regardless of causality. Adverse events will be categorized per NCI Common Terminology for Adverse Events version 4.0. Treatment-emergent is defined per the study protocol and includes AEs that occur after treatment start that were not present at the time of treatment start or AEs that increase in severity after treatment start if the event was present at the time of treatment start.",
+        "timeFrame": "Assessed for approximately 12 months after last treatment of concurrent mediastinal chemoradiation (on average, a total of 14 months)."
+      },
+      {
+        "measure": "Number of Participants Who Discontinued Study Treatment Due to Adverse Events",
+        "description": "A binary variable will be determined for each participant indicating whether or not the subject discontinued study treatment due to adverse events.",
+        "timeFrame": "Assessed for approximately 12 months after last treatment of concurrent mediastinal chemoradiation (on average, a total of 14 months)"
+      },
+      {
+        "measure": "Number of Participants Who Received Durvalumab",
+        "description": "A binary variable will be determined for each participant indicating whether or not the subject received at least one dose of durvalumab on study",
+        "timeFrame": "Assessed for approximately 12 months after last treatment of concurrent mediastinal chemoradiation (on average, a total of 14 months)."
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 11,
+      "otherCount": 7,
+      "totalCount": 19
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 81,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:48.165Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

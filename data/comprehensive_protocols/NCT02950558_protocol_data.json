@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT02950558",
+  "briefTitle": "Anesthesia for Pain After Ankle Fracture Surgery",
+  "officialTitle": "Pilot Study: Extended Regional Anesthesia to Prevent Chronic Pain After Ankle Fracture Surgery",
+  "protocolDocument": {
+    "nctId": "NCT02950558",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2018-11-30",
+    "uploadDate": "2020-12-11T13:29",
+    "size": 646194,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02950558/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 14,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-05-29",
+    "completionDate": "2020-06-19",
+    "primaryCompletionDate": "2019-11-14",
+    "firstSubmitDate": "2016-10-04",
+    "firstPostDate": "2016-11-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Referred for surgery for open reduction and internal fixation for ankle fracture\n\nExclusion Criteria:\n\n* Unable to give informed consent in English\n* Unable to complete surveys in English\n* Unable to understand instructions for using pump in English\n* Unavailable for followup\n* Polytrauma; undergoing other surgeries or having other orthopedic injuries related to the precipitating cause of the ankle fracture\n* Infection\n* Peripheral vascular disease\n* Diabetes\n* Currently undergoing chemotherapy\n* Pregnancy\n* Currently lactating\n* Heart disease or heart rhythm disorder or taking anti-arrhythmic drugs\n* Severe renal impairment (Class 3 or worse kidney disease)\n* Liver disease (cirrhosis or liver failure)\n* Prior allergic reaction to any type of local anesthetic\n* Taking therapeutic doses of anti-coagulants or anti-platelet therapy (prophylactic doses started because of hospital admission are not an exclusion)\n* Currently taking antidepressants or other psychiatric medications\n* Single shot local nerve block prior to surgery was ineffective\n* Selected for neuraxial anesthesia rather than general anesthesia for the open reduction surgery\n* Already receiving chronic analgesic therapy for a separate chronic pain condition",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pain Score at 12 Months - Experimental Group vs. Control Group",
+        "description": "Patients will complete Self-Administered Foot and Ankle Questionnaire (SEFAS) at 12 months post surgery. 0 = worst possible pain and function, 48 = no pain or dysfunction. Higher scores indicate a better outcome.",
+        "timeFrame": "at 12 months post surgery"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Pain Score at 2 Weeks - Experimental Group vs. Control Group",
+        "description": "Patients will complete Self-Administered Foot and Ankle Questionnaire at 2 weeks post surgery. For this instrument, 0 = worst possible pain and function, 48 = no pain or dysfunction. Higher scores indicate a better outcome",
+        "timeFrame": "at 2 weeks post surgery"
+      },
+      {
+        "measure": "Pain Score at 3 Months - Experimental Group vs. Control Group",
+        "description": "Patients will complete Self-Administered Foot and Ankle Questionnaire at 3 months post surgery. 0 = worst possible pain and function, 48 = no pain or dysfunction. Higher scores indicate a better outcome.",
+        "timeFrame": "at 3 months post surgery"
+      },
+      {
+        "measure": "Pain Score at 6 Months - Experimental Group vs. Control Group",
+        "description": "Patients will complete Self-Administered Foot and Ankle Questionnaire at 6 months post surgery. 0 = worst possible pain and function, 48 = no pain or dysfunction. Higher scores indicate a better outcome.",
+        "timeFrame": "at 6 months post surgery"
+      },
+      {
+        "measure": "Incidence of Chronic Ankle Pain Diagnoses - Experimental Group vs. Control Group",
+        "description": "Incidence of chronic ankle pain diagnoses one year after surgery obtained from the medical record was originally planned but proved difficult to obtain. Here we provide the number of patients with a 12 month Self-Administered Foot and Ankle Questionnaire score lower than 40 at the 12 month time point. For this instrument, 48 = no pain or disability; 0 = maximum pain and disability. Scores of 40 below were interpreted to indicate ongoing ankle pain of significance for pain and function, for example, at least 8 of the 12 questions being scored less than the optimal value of 4. Scores from 40 to 48 were interpreted as indicating normal or near normal function of the affected ankle.",
+        "timeFrame": "at 1 year post surgery"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:58.810Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,114 @@
+{
+  "nctId": "NCT03247829",
+  "briefTitle": "Investigation to Optimize Hemodynamic Management of Left Ventricular Assist Devices Using the CardioMEMS™",
+  "officialTitle": "Investigation to Optimize Hemodynamic Management of HeartMate II™ Left Ventricular Assist Device Patients Using the CardioMEMS™ Pulmonary Artery Pressure Sensor in Advanced Heart Failure",
+  "protocolDocument": {
+    "nctId": "NCT03247829",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2018-06-18",
+    "uploadDate": "2021-02-12T19:59",
+    "size": 1694351,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03247829/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 101,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-08-24",
+    "completionDate": "2020-06-30",
+    "primaryCompletionDate": "2020-03-06",
+    "firstSubmitDate": "2017-08-04",
+    "firstPostDate": "2017-08-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Subject has CardioMEMS HF PA Sensor and a commercially-approved HeartMate LVAD (Group A) OR Subject has commercially-approved HeartMate LVAD, is experiencing NYHA class III symptoms, and has had a previous HF hospitalization and meets FDA indications for CardioMEMS. The CardioMEMS PA Sensor must be implanted within 72 hours of consent (Group B)\n2. Signed an informed consent form and agreed to provide access to patient and device data (including CardioMEMS Merlin.net data)\n3. No connectivity or transmission problems with CardioMEMS\n4. On HeartMate LVAD support for at least 3 months\n5. Age ≥ 18 years\n\nExclusion Criteria:\n\n1. Current participation in an investigation that is likely to confound study results or affect study outcome\n2. Current participation in the MOMENTUM3 IDE Clinical trial and has not completed the two year follow-up for that trial\n3. Inability to perform 6MHW test due to conditions other than heart failure (e.g. severe arthritis, orthopedic issues, amputation etc.)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Six Minute Hall Walk (6MHW) Distance",
+        "description": "Change in 6MHW distance compared to baseline. The six-minute hall walk (6MHW) test measures the distance an individual is able to walk over a total of six minutes on a hard, flat surface. The goal is for the individual to walk as far as possible in six minutes.",
+        "timeFrame": "Six Months"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "Change in PA Diastolic Pressure From Baseline to 6 Months",
+        "description": "Changes in PA diastolic pressure measurement over time from baseline to 6 months follow-up.",
+        "timeFrame": "six months"
+      },
+      {
+        "measure": "Days PA Diastolic Pressure is in the Pre-specified Target Range",
+        "description": "Average number of days PA diastolic pressure was in the pre-specified target range of 8-15 mmHg. For this measure, both arms were combined to assess the mean number of days, all study subjects spent in the target PA diastolic range. This was pre-defined as a whole population analysis.",
+        "timeFrame": "six months"
+      },
+      {
+        "measure": "PA Diastolic Pressure Before 6MHW Test to After 6MHW Test",
+        "description": "Pulmonary Artery Diastolic Pressure collected using the CardioMEMS-HF system before and after the 6MHW test.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Subjects With Either CardioMEMS or HeartMate Device Malfunctions",
+        "description": "Loss of performance, such as inability to submit pressure data for CardioMEMS and/or Pump failure for LVAD. This measure is independent of study arm as both patients had both devices at enrollment. This was pre-defined as a whole population analysis.",
+        "timeFrame": "six months"
+      },
+      {
+        "measure": "New York Heart Association (NYHA) Classification",
+        "description": "Change in NYHA classification from baseline assessed at 6 months. New York Heart Association (NYHA) Functional Classification stratifies patients' heart failure (HF) by the severity of their symptoms.\n\nI - No limitation of physical activity. II - Slight limitation of physical activity. Comfortable at rest. III - Marked limitation of physical activity. Comfortable at rest. IV - Unable to carry on any physical activity without discomfort. Symptoms of heart failure at rest. If any physical activity is undertaken, discomfort increases.",
+        "timeFrame": "six months"
+      },
+      {
+        "measure": "EQ-5D-5L VAS",
+        "description": "Health related quality of life (EQ-5D-5L). The EQ-5D-5L self-reported questionnaire includes a visual analog scale (VAS), which records the respondent's self-rated health status on a graduated (0-100) scale, with higher scores for higher quality of life. For this measure, both arms were combined to assess the mean of and changes to the EQ-5D-5L VAS for all study subjects, as all subjects were treated the same and had the same devices once enrolled. This was pre-defined as a whole population analysis.",
+        "timeFrame": "six months"
+      },
+      {
+        "measure": "Number and Percent of Participants With All-cause Hospitalizations.",
+        "description": "Number and percent of participants who were hospitalized for any cause during follow-up.",
+        "timeFrame": "six months"
+      },
+      {
+        "measure": "Number and Percent of Participants With Worsening Heart Failure Events",
+        "description": "Worsening HF events incudes emergency department visits, or unscheduled clinic visits for worsening HF, volume management, and/or cardiovascular medication management.",
+        "timeFrame": "six months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 8,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 45,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:31.422Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

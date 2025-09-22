@@ -1,0 +1,133 @@
+{
+  "nctId": "NCT07157345",
+  "briefTitle": "Testing if PDR-001 Can Safely and Effectively Remove Harmful Brain Protein in Parkinson's Disease",
+  "officialTitle": "A Study on the Safety, Tolerability, and Efficacy of PDR-001 Injection for Bilateral Stereotactic Subthalamic Nucleus (STN) Clearance of α-synuclein",
+  "protocolDocument": {
+    "nctId": "NCT07157345",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-07-06",
+    "uploadDate": "2025-08-04T10:41",
+    "size": 171152,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07157345/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-10-20",
+    "completionDate": "2029-12-31",
+    "primaryCompletionDate": "2029-01-31",
+    "firstSubmitDate": "2025-08-05",
+    "firstPostDate": "2025-09-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nTo be eligible for inclusion in this clinical study, all of the following criteria must be met:\n\n1. Clinically confirmed diagnosis of primary PD (in accordance with the 2016 Chinese Diagnostic Criteria for Parkinson's Disease or the 2015 MDS Clinical Diagnostic Criteria for primary PD);\n2. Age 40-65 years (inclusive) at screening, either sex;\n3. Disease duration ≤ 5 years;\n4. Hoehn \\& Yahr stage ≤ 2 in the \"off\" state.\n\nExclusion Criteria:\n\nExclusion Criteria\n\n1. Atypical or secondary parkinsonian syndromes (e.g., Parkinson-plus syndromes, hereditary parkinsonism, drug-induced parkinsonism, etc.).\n2. Contra-indications to surgery, or any prior intracranial procedure such as deep-brain stimulation, pallidotomy, or other extrapyramidal surgery, or any other neurosurgical intervention deemed by the investigator to interfere with study participation.\n3. Previous neuroimaging revealing structural brain abnormalities, cerebral vascular malformations, intracranial tumors, risk of intracranial hemorrhage, traumatic brain injury, or other significant findings.\n4. Mini-Mental State Examination (MMSE) score \\< 24.\n5. Patient Health Questionnaire-9 (PHQ-9) score ≥ 16.\n6. Abnormal hepatic or renal function: aspartate aminotransferase (AST) or alanine aminotransferase (ALT) \\> 1.5 × upper limit of normal (ULN), or serum creatinine (Cr) \\> 1.5 × ULN.\n7. Coagulation disorders or current use of anticoagulants.\n8. Positive screening for infectious diseases:\n\n   * Hepatitis B surface antigen (HBsAg) or Hepatitis B virus DNA (HBV-DNA) positive;\n   * Hepatitis C virus RNA (HCV-RNA) positive;\n   * Human immunodeficiency virus (HIV) positive;\n   * Positive syphilis serology.\n9. Currently receiving antiviral therapy for hepatitis B or C.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "PDR-001 treatment-related adverse events as assessed by CTCAE v5.0",
+        "description": "CTCAE 5.0 records the severity of adverse events, which is divided into grades 1 to 5",
+        "timeFrame": "From enrollment to the end of treatment at 52 weeks"
+      },
+      {
+        "measure": "Titer levels of capsid neutralizing antibodies and binding antibodies against recombinant adeno-associated virus (rAAV) in serum",
+        "description": "Record the titer changes before and after treatment",
+        "timeFrame": "From enrollment to the end of treatment at 52 weeks"
+      },
+      {
+        "measure": "Titer of rAAV vectors in whole blood",
+        "description": "Record the titer changes before and after treatment",
+        "timeFrame": "From enrollment to the end of treatment at 52 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Evaluation of the use of antiparkinsonian drugs will be assessed using the Levodopa Equivalent Daily Dose (LEDD)",
+        "description": "The total daily dose of antiparkinsonian medication (converted to LEDD, mg/day) will be calculated and compared before and after treatment. A decrease in LEDD indicates reduced drug burden (better outcome), while an increase indicates greater drug requirement (worse outcome).",
+        "timeFrame": "From enrollment to the end of treatment at 52 weeks"
+      },
+      {
+        "measure": "Treatment efficacy will be evaluated using the Movement Disorder Society - Unified Parkinson's Disease Rating Scale (MDS-UPDRS)",
+        "description": "This scale has a total score range of 0 to 260, with higher scores indicating more severe motor and non-motor symptoms (worse outcome). Changes in scores before and after treatment will be recorded.",
+        "timeFrame": "From enrollment to the end of treatment at 52 weeks"
+      },
+      {
+        "measure": "Treatment efficacy will be evaluated using the Patient Global Impression - Improvement scale (PGI-I)",
+        "description": "This is a 7-point scale ranging from 1 (\"very much improved\") to 7 (\"very much worse\"), with lower scores indicating greater improvement (better outcome). Changes in scores before and after treatment will be recorded.",
+        "timeFrame": "From enrollment to the end of treatment at 52 weeks"
+      },
+      {
+        "measure": "Treatment efficacy will be evaluated using the Clinical Global Impression - Improvement scale (CGI-I)",
+        "description": "This is a 7-point scale ranging from 1 (\"very much improved\") to 7 (\"very much worse\"), with lower scores indicating greater clinical improvement (better outcome). Changes in scores before and after treatment will be recorded.",
+        "timeFrame": "From enrollment to the end of treatment at 52 weeks"
+      },
+      {
+        "measure": "Treatment efficacy will be evaluated using the Mini-Mental State Examination (MMSE)",
+        "description": "The total score ranges from 0 to 30, with higher scores indicating better cognitive function (better outcome). Changes in scores before and after treatment will be recorded.",
+        "timeFrame": "From enrollment to the end of treatment at 52 weeks"
+      },
+      {
+        "measure": "Treatment efficacy will be evaluated using the Hamilton Depression Rating Scale (HAM-D, 17-item version)",
+        "description": "The total score ranges from 0 to 52, with higher scores indicating more severe depressive symptoms (worse outcome). Changes in scores before and after treatment will be recorded.",
+        "timeFrame": "From enrollment to the end of treatment at 52 weeks"
+      },
+      {
+        "measure": "Change in anxiety symptoms as measured by the Hamilton Anxiety Rating Scale (HAM-A)",
+        "description": "The Hamilton Anxiety Rating Scale (HAM-A) is a clinician-administered scale with scores ranging from 0 to 56, where higher scores indicate greater severity of anxiety symptoms. Treatment efficacy will be evaluated by the change in HAM-A total score from baseline to 52 weeks",
+        "timeFrame": "From enrollment to the end of treatment at 52 weeks"
+      },
+      {
+        "measure": "Change in sleep-related problems as measured by the Parkinson's Disease Sleep Scale-2 (PDSS-2)",
+        "description": "PDSS-2 is a 15-item questionnaire. The total score ranges from 0 to 60, with higher scores indicating worse sleep-related problems. Treatment efficacy will be evaluated by the changes in PDSS-2 from baseline to 52 weeks",
+        "timeFrame": "From enrollment to the end of treatment at 52 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:43.483Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

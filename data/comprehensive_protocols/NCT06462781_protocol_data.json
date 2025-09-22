@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT06462781",
+  "briefTitle": "Localized Injection of Lidocaine and Glucocorticoid for Headache Treatment Phase 1",
+  "officialTitle": "Intra-Arterial Injection of Lidocaine and Glucocorticoid in the Treatment of Intractable Headaches: A Non-Randomized, Open-Label Phase 1 Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT06462781",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-02-21",
+    "uploadDate": "2025-06-06T11:38",
+    "size": 2476368,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06462781/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 10,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-03-15",
+    "completionDate": "2025-06-01",
+    "primaryCompletionDate": "2025-05-13",
+    "firstSubmitDate": "2024-06-12",
+    "firstPostDate": "2024-06-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or female greater than or equal to 18 years of age.\n* Documentation of a diagnosis of intractable migraine without aura, including failure of at least four classes of preventative drugs. Either intolerance or side effects requiring discontinuation or adequate trial at therapeutic dose without relief constitutes failure of therapy.\n* Written informed consent obtained from subject and ability for subject to comply with the requirements of the study.\n\nExclusion Criteria:\n\n* Pregnant, breastfeeding, or unwilling to practice contraception during participation in the study. Medically acceptable contraceptives include: (1) surgical sterilization (such as tubal ligation or hysterectomy), (2) approved hormonal contraceptives (such as birth control pills, patches, implants, or injections), (3) barrier methods (such as condom or diaphragm) used with a spermicide, or (4) an intrauterine device (IUD).\n* Presence of a condition or abnormality that in the opinion of the Investigator would compromise the safety of the patient or the quality of the data.\n* Patients with concomitant intracranial pathology (e.g., intracranial malignancy).\n* Blood glucose level on screening complete metabolic blood panel \\&amp;amp;gt; 400 mg/dL.\n* Patients with known hypersensitivity and/or contraindication to either lidocaine hydrochloride or methylprednisolone sodium succinate, including:\n* Patients with known history of hypersensitivity to local anesthetics of the amide type.\n* Patients with systemic fungal infections.\n* Patients with known or suspected hypersensitivity to cow's milk or its components or other dairy products (SOLU-MEDROL® 40mg presentation includes lactose monohydrate, and may contain trace amounts of milk ingredients).\n* Patients taking chronic medications that, when co-administered with lidocaine and other local anesthetics, are at increased risk of developing methemoglobinemia: nitrates/nitrites, local anesthetics, antineoplastic agents, antibiotics, antimalarials, anticonvulsants, acetaminophen, metoclopramide, quinine, sulfasalazine.\n* Patients taking chronic medications that, when co-administered with methylprednisolone, are at increased risk for hypokalemia, altered drug levels, convulsions, or altered clearance: amphotericin B, diuretics, aminoglutethimide, macrolide antibiotics, anticholinesterases, antitubercular drugs, cholestyramine, cyclosporine, digitalis glycosides, estrogens (including oral contraceptives), hepatic enzyme inducers/inhibitors, and ketoconazole.\n* Patients have known contraindications for angiography. Patients with contrast allergy will be premedicated with diphenhydramine and steroids.\n* Patient has known active systemic infection or sepsis.\n* Patient has contraindication to anesthetic agents used for conscious sedation/monitored anesthesia care (MAC).\n* Concurrent participation in another research protocol for investigation of an experimental therapy.\n* Known or suspected inability to adhere to study protocol or protocol requirements, as per the discretion of the Investigator or treating provider.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Adverse Events",
+        "description": "Reported adverse events classified using MedDRA and CTCAE, including all events, treatment-related events, and any serious adverse event",
+        "timeFrame": "From treatment to 12-week follow-up"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:52.900Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

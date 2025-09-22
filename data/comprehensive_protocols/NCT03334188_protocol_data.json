@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT03334188",
+  "briefTitle": "Electronic Health Record-leveraged, Patient-centered, Intensification of Chronic Care for HF",
+  "officialTitle": "A Clinical Trial of an Electronic Health Record-leveraged, Patient-centered, Intensification of Chronic Care for Heart Failure (EPIC-HF)",
+  "protocolDocument": {
+    "nctId": "NCT03334188",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-06-14",
+    "uploadDate": "2021-08-20T17:05",
+    "size": 296248,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03334188/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 306,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-01-11",
+    "completionDate": "2021-04-13",
+    "primaryCompletionDate": "2020-11-11",
+    "firstSubmitDate": "2017-10-24",
+    "firstPostDate": "2017-11-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Most recent cardiology imaging study showing left ventricular ejection fraction (LVEF) \\<=40%\n2. A plan for ambulatory clinic appointments in the UCHealth system\n\nExclusion Criteria:\n\n1. Patients who have clinic appointments more than 12 months apart\n2. Under 18 years of age\n3. Non-English speaking (decision tools and study assessments are in English only)\n4. Unable to consent (this would include patients with conditions such as moderate-to- severe dementia)\n5. Prisoners\n6. Patients who are enrolled in hospice (increasing curative medications is often not appropriate in these patients)\n7. Patients who are expected to live \\< 6 months as documented in the patient's chart by treating clinician.\n8. Continuous IV inotropic support (e.g. dobutamine or milrinone)\n9. Glomerular filtration rate (GFR) \\< 15 mL/min or chronic renal disease\n10. Patients who have neither an email address nor a phone to which text messages may be sent\n11. Patients with an left ventricular assist device (LVAD) implant\n12. Patients who have neither an email address nor a phone to which text messages may be sent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percent of Participants Who Experienced an Initiation or Intensification of Their Guideline-Directed Medical Therapy (GDMT)",
+        "description": "The investigators were interested in whether the patient engagement tool led to an increase in the optimization of HFrEF medications for patients. This was measured through medical record review of all medications and doses immediately preceding the cardiology clinic visit (enrollment) to 30 days after enrollment.",
+        "timeFrame": "Enrollment, 1 month (30 days) after enrollment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Self-Reported Patient Engagement Around HFrEF Medications",
+        "description": "The investigators were interested in whether the patient engagement tool (a 3-minute video and 1-page checklist-delivered electronically 1 week prior, 3 days prior and 24 hours prior to the enrollment cardiology clinic visit) led to an increase in patient sense of engagement around their HFrEF medication prescribing, prompting patients to begin a dialogue with their clinician about their medication plan. This was assessed among the Intervention group by comparing answers from a self-reported survey at 1 month after delivery of intervention materials. Participants were sent the survey and asked if they received and reviewed the intervention materials. Survey measures were included as well as a series of questions asking about how and when medications were discussed during clinical interactions.",
+        "timeFrame": "1 month after delivery of intervention materials."
+      },
+      {
+        "measure": "Number of Participants With Initiation/Intensification of Key Heart Failure Medications",
+        "description": "Initiation or intensification of key heart failure medications was determined by medical chart review conducted at immediately following the cardiology clinic appointment (enrollment) and for the clinic visit closest to 1 month (30 days) after the enrollment visit. Raw numbers of participants were analyzed.",
+        "timeFrame": "Enrollment, 1 month (30 days) after enrollment"
+      },
+      {
+        "measure": "Guideline-directed Medical Therapy (GDMT) Intensifications Per Patient",
+        "description": "Guideline-directed medical therapy (GDMT) intensifications per patient from the pre-clinic visit (enrollment) to 1-month (30 days) after enrollment. This was measured by medical chart reviewing of the pre-clinic visit appointment and the closest clinic appointment preceding the 30 day mark after enrollment.\n\nKey: guideline directed medical therapy (GDMT); evidence-based beta blocker (EVBB); angiotensin converting enzyme inhibitors (ACE-I); angiotensin receptor blockers (ARB); angiotensin receptor neprilysin inhibitors (ARNI); mineralocorticoid receptor agonists (MRA); hydralazine/isosorbide dinitrate (H/ISDN); Ivabradine (Iva)",
+        "timeFrame": "Enrollment, 1 month (30 days) after enrollment"
+      },
+      {
+        "measure": "Safety Outcomes",
+        "description": "Unplanned hospitalizations or emergency department visits without hospitalization from the cardiology clinic visit (enrollment) to 1-month (30 days) after enrollment. Hospitalization and emergency department visits were obtained via medical chart review and were analyzed as yes/no per patient.",
+        "timeFrame": "Enrollment, 1-month (30 days) after Enrollment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:31.737Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

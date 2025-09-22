@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT06155240",
+  "briefTitle": "Yoga for a Healthy Heart",
+  "officialTitle": "Yoga for a Healthy Heart Study: Addressing Stress Management and Functional Cognition as Barriers to Both Medication Management and Blood Pressure Regulation for African American Patients With Hypertension",
+  "protocolDocument": {
+    "nctId": "NCT06155240",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-04-06",
+    "uploadDate": "2023-09-05T10:07",
+    "size": 65769,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06155240/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-10-31",
+    "completionDate": "2024-05-11",
+    "primaryCompletionDate": "2024-05-11",
+    "firstSubmitDate": "2023-11-02",
+    "firstPostDate": "2023-12-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Over 18\n* has transportation to South Pointe Hospital\n* Has the ability to walk, or use a wheelchair from the entrance of the building\n* Able to attend all 8 sessions\n* Diagnosis of hypertension\n* African American\n* Prescribed antihypertensive medication\n* Able to stand up from the chair independently\n* Able to walk to the bathroom independently with or without a device\n* Approved by cardiologist to participate\n\nExclusion Criteria:\n\n* Unable to tolerate sitting for 1 hour\n* BP over 200/100\n* Unable to independently walk or use a wheelchair to the bathroom",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Blood pressure",
+        "description": "take both systolic and diastolic blood pressure before and after intervention each class and from beginning of session to end of 8 week session",
+        "timeFrame": "8 weeks"
+      },
+      {
+        "measure": "Perceived Stress Scale (PSS)",
+        "description": "Scores ranging from 0-13 would be considered low stress. Scores ranging from 14-26 would be considered moderate stress. Scores ranging from 27-40 would be considered high perceived stress. To assess changes in outcomes for perceived stress from beginning of intervention to completion of intervention",
+        "timeFrame": "8 weeks"
+      },
+      {
+        "measure": "Canadian Occupational Performance Measurement",
+        "description": "Changes in components of the COPM that reflect self-care, productivity, and leisure activities may also be analyzed separately in a similar manner using the participants that have rated a problem within these categories among the 5 most important problems used to calculate their total COPM score.",
+        "timeFrame": "8 weeks"
+      },
+      {
+        "measure": "Mini and Medi Cog",
+        "description": "To assess changes in outcomes on managing medications and on short term memory",
+        "timeFrame": "8 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:14.894Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

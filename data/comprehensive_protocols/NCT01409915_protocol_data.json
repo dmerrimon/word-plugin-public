@@ -1,0 +1,109 @@
+{
+  "nctId": "NCT01409915",
+  "briefTitle": "Study of the Safety & Efficacy of Leukine® in the Treatment of Alzheimer's Disease",
+  "officialTitle": "Pilot Phase 2 Trial of the Safety & Efficacy of Granulocyte-Macrophage Colony-Stimulating Factor (Leukine®) in the Treatment of Alzheimer's Disease",
+  "protocolDocument": {
+    "nctId": "NCT01409915",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-01-23",
+    "uploadDate": "2021-02-24T16:33",
+    "size": 2806427,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01409915/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 44,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-03",
+    "completionDate": "2019-12-09",
+    "primaryCompletionDate": "2019-12-09",
+    "firstSubmitDate": "2011-08-02",
+    "firstPostDate": "2011-08-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. age 55 to 85 years;\n2. should have a mild-to-moderate AD diagnosis (MMSE 10-26 inclusive);\n3. should have evidence of elevated cortical amyloid by PET using florbetapir F18 (Amyvid) \\[i.e. a positive scan\\], assessed qualitatively according to the Amyvid product label.\n4. if on anti-dementia treatment should be on stable treatment for at least 2 months (i.e. cholinesterase inhibitor and/or Memantine or Axona);\n5. stable on all other medications for at least 30 days prior to screen;\n6. should be fluent in English;\n7. should be physically able to participate by medical history, clinical exam and tests;\n8. should have a study partner to accompany them to scheduled visits.\n\nExclusion Criteria:\n\n1. clinically relevant arrhythmias;\n2. a resting pulse less than 50;\n3. active cancer other than non-melanoma skin cancers;\n4. use of another investigatory drug within 2 months of screening;\n5. significant stroke or head trauma by history or MRI;\n6. contraindication for having a MRI;\n7. diagnostic and Statistical Manual of Mental Disorders-IV criteria for a current major psychiatric disorder;\n8. sensitivity to yeast or yeast products;\n9. impaired kidney function as measured by a Glomerular Filtration Rate less than 60 milliliters/min;\n10. preexisting fluid retention, pulmonary infiltrates, or congestive heart failure;\n11. history of moderate-to-severe lung disease;\n12. history of moderate-to-severe liver disease;\n13. pregnant women, or any women who feel they are likely to become pregnant during the study;\n14. prisoners.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "55 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adverse Events (AEs) by Body System",
+        "description": "Count of AE's from Consent to Follow-up 2 within a safety analysis set consisting of all participants who were enrolled and randomized and who received at least one injection of sargramostim or placebo",
+        "timeFrame": "20 weeks (From Consent to Follow-up 2)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "MMSE (Mini Mental State Examination) From Baseline to End of Treatment (3 Weeks), Follow-Up 1 (45 Days Post Treatment) and Follow-Up 2 (90 Days Post Treatment)",
+        "description": "Mini-Mental State Examination (MMSE) is a brief psychometric instrument developed to assess cognitive function in elderly populations. It is a standard assessment used by all NIH Alzheimer's Disease Centers (ADCCs and ADRCs) to identify and monitor individuals with AD. The range for scores in the MMSE is from 0 to 30, with lower scores indicating greater impairment.",
+        "timeFrame": "From Baseline to End of Treatment (3 weeks), Follow-Up 1 (45 days post treatment) and Follow-Up 2 (90 days post treatment)"
+      },
+      {
+        "measure": "Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog13) From Baseline to End of Treatment (3 Weeks), Follow-Up 1 (45 Days Post Treatment) and Follow-Up 2 (90 Days Post Treatment)",
+        "description": "Alzheimer's Disease Assessment Scale - cognitive subscale (ADAS-Cog13). The ADAS-Cog13 is the most popular cognitive testing instrument used in clinical trials of nootropics (drugs or agents that improve cognitive function). It consists of 13 tasks measuring the disturbances of memory, language, praxis, attention and other cognitive abilities, which are often referred to as the core symptoms of AD. Score ranges from 0-85, with a higher score representing more severe impairment",
+        "timeFrame": "Baseline to End of Treatment (3 weeks), Follow-Up 1 (45 days post treatment) and Follow-Up 2 (90 days post treatment)"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Alzheimer's Disease Cooperative Study -Activities of Daily Living Inventory (ADCS-ADL) From Baseline to End of Treatment (3 Weeks), Follow-Up 1 (45 Days Post Treatment) and Follow-Up 2 (90 Days Post Treatment)",
+        "description": "The ADCS-ADL is a caregiver/study partner rated questionnaire of 23 items, with possible scores over a range of 0-78, where 78 implies full functioning with no impairment. The ADCS-ADL assesses functional capacity across a wide spectrum of severity",
+        "timeFrame": "Baseline to End of Treatment (3 weeks), Follow-Up 1 (45 days post treatment) and Follow-Up 2 (90 days post treatment)"
+      },
+      {
+        "measure": "Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) From Baseline to End of Treatment (3 Weeks), Follow-Up 1 (45 Days Post Treatment) and Follow-Up 2 (90 Days Post Treatment)",
+        "description": "The CDR is a study partner/caregiver and participant based interview to assess changes in domains such as memory, orientation, judgment and problem solving, community affairs, home and hobbies, and personal care. Each domain is rated as 0 (no dementia), 0.5 (uncertain dementia), 1 (mild dementia), 2 (moderate dementia), or 3 (severe dementia). The Sum of Boxes score (CDR-SB) score was tallied for each administration using the rules from the Washington University Knight ADRD scoring algorithm. Scores range from 0-18. The higher the score, the worse the impairment.",
+        "timeFrame": "Baseline to End of Treatment (3 weeks), Follow-Up 1 (45 days post treatment) and Follow-Up 2 (90 days post treatment)"
+      },
+      {
+        "measure": "Trail Making Test - Part A (TMT-A) From Baseline to End of Treatment (3 Weeks), Follow-Up 1 (45 Days Post Treatment) and Follow-Up 2 (90 Days Post Treatment)",
+        "description": "The Trail Making Test- part A (TMT-A) is a assessment of psychomotor speed and is a timed test in which participants must connect a series of numbers randomly placed on a page. Time range is between 0 and 150 seconds, with higher score representing worse performance.",
+        "timeFrame": "Baseline to End of Treatment (3 weeks), Follow-Up 1 (45 days post treatment) and Follow-Up 2 (90 days post treatment)"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 3,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:41.856Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

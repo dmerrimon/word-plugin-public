@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03380884",
+  "briefTitle": "Vibration Therapy as a Rehabilitation Intervention for Postural Training and Fall Prevention",
+  "officialTitle": "Vibration Therapy as a Rehabilitation Intervention for Postural Training and Fall Prevention After Distal Radius Fracture in Elderly Patients: A Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT03380884",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-12-13",
+    "uploadDate": "2017-12-13T02:30",
+    "size": 480718,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03380884/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 232,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-12-01",
+    "completionDate": "2023-03-31",
+    "primaryCompletionDate": "2023-03-31",
+    "firstSubmitDate": "2017-11-30",
+    "firstPostDate": "2017-12-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 1\\) aged 60 or above\n* 2\\) fracture distal radius after 6 weeks to 3 months\n* 3\\) injury was due to unintentional fall.\n\nExclusion Criteria:\n\n* 1\\) medical condition causing balance disturbance\n* 2\\) participated in supervised regular exercise or physiotherapy for twice a week or more\n* 3\\) Activities of Daily Living (ADL) dependent\n* 4\\) malignancy\n* 5\\) medications or condition that affect metabolism of the musculoskeletal system e.g. bisphosphonates",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Effect of LMHFV on postural stability",
+        "description": "To assess the postural stability, the Biodex Balance System SD is used to measure the ability of the subjects to maintain the center of balance. The Biodex Balance System SD has been shown to be a reliable tool for objective assessment of postural stability in several studies for elderly patients.",
+        "timeFrame": "0 days, 6 weeks, 3 months and 6 months. Change is being assessed"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Occurrence of fall for the patients in both groups",
+        "description": "To assess the occurrence of fall, subjects are required to self-report these events via a fall calendar, which has to be returned at every follow-up visit. Calendar reporting has been well proven to be reliable for fall studies",
+        "timeFrame": "0 days, 6 weeks, 3 months and 6 months. Change is being assessed"
+      },
+      {
+        "measure": "Health-related quality of life",
+        "description": "Health-related quality of life with a validated Chinese Version of the 36-Item Short-Form Health Survey (SF-36) will be used. All scores range from 0 to 100 with a higher score indicating better quality of life.",
+        "timeFrame": "0 days, 6 weeks, 3 months and 6 months. Change is being assessed"
+      },
+      {
+        "measure": "Timed Up and Go (TUG) test",
+        "description": "Timed Up and Go (TUG) test will be used to test the basic mobility skills.",
+        "timeFrame": "0 days, 6 weeks, 3 months and 6 months. Change is being assessed"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:12.745Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

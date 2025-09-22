@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT03482973",
+  "briefTitle": "Pecto-Intercostal Fascial Block for Postoperative Analgesia After Cardiac Surgery",
+  "officialTitle": "Pecto-Intercostal Fascial Block for Postoperative Analgesia After Cardiac Surgery",
+  "protocolDocument": {
+    "nctId": "NCT03482973",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-04-09",
+    "uploadDate": "2020-06-02T15:38",
+    "size": 432620,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03482973/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 80,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-06-21",
+    "completionDate": "2019-11-27",
+    "primaryCompletionDate": "2019-11-25",
+    "firstSubmitDate": "2018-03-05",
+    "firstPostDate": "2018-03-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria\n\n* Patients 18 years of age or older\n* Undergoing cardiac surgery with sternotomy, limited to CABG, CABG+valve surgeries and isolated valve surgeries.\n\nExclusion Criteria\n\n* Current participation in another interventional study\n* Preoperative LVEF \\< 30%\n* Use of mechanical circulatory support\n* Emergent procedures\n* Aortic surgeries, transplants ventricular assist device insertions, bentall, or grafts\n* Minimally invasive cardiac procedures or those with thoracotomy approach\n* Patients receiving other modalities of regional anesthesia like intrathecal morphine\n* Chronic opioid use for chronic pain conditions with tolerance (total daily dose of an opioid at or more than 30 mg morphine equivalent for more than one month within the past year)\n* Current use of TCA, gabapentin, or pregabalin\n* Hypersensitivity to bupivacaine\n* Women who are pregnant or breastfeeding\n* Non English speaking",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Opioid Consumption",
+        "description": "Total opioid consumption in the first 48 hours post-operatively, measured as milligram morphine equivalents (MME).",
+        "timeFrame": "48 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Pain Scores",
+        "description": "Patient reported pain scores on a scale from 0-10 until discharge for the index admission. Where the minimum score is 0 and, the maximum score is 10. A score of 0 means no pain and the higher the score, the greater the pain intensity, with a score of 10 means worse imaginable pain. Pain scores recorded at 6-8 hourly intervals every day until discharge or 4 days, computed as an average pain score.",
+        "timeFrame": "At 6-8 hourly intervals every day until discharge or 4 days"
+      },
+      {
+        "measure": "ICU Length of Stay",
+        "description": "Total duration of stay in ICU for the index admission",
+        "timeFrame": "Time of ICU admission until time of discharge to hospital floor; through the hospital stay, an average of 5 days"
+      },
+      {
+        "measure": "Hospital Length of Stay",
+        "description": "Their stay in the hospital for the index admission",
+        "timeFrame": "Measured in days admitted in the hospital, an average of 5 days"
+      },
+      {
+        "measure": "Number of Participants With Complications",
+        "description": "This includes infection, hematoma, local anesthetic systemic toxicity directly related to the block or the drug used in the block",
+        "timeFrame": "7 days post-op on an average"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:59.500Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

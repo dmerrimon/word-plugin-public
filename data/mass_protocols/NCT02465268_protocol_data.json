@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT02465268",
+  "briefTitle": "Vaccine Therapy for the Treatment of Newly Diagnosed Glioblastoma Multiforme",
+  "officialTitle": "ATTAC-II: A Phase II Randomized, Blinded, and Placebo-controlled Trial of CMV RNA-Pulsed Dendritic Cells With Tetanus-Diphtheria Toxoid Vaccine in Patients With Newly-Diagnosed Glioblastoma",
+  "protocolDocument": {
+    "nctId": "NCT02465268",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-10-07",
+    "uploadDate": "2024-10-31T08:43",
+    "size": 1975048,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02465268/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 175,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08-09",
+    "completionDate": "2023-11-30",
+    "primaryCompletionDate": "2023-11-30",
+    "firstSubmitDate": "2015-05-27",
+    "firstPostDate": "2015-06-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Abbreviated Inclusion Criteria:\n\nTo be assessed at study enrollment prior to standard of care chemo-radiation therapy:\n\n* Age ≥ 18 years.\n* Histopathologically proven newly-diagnosed de novo GBM (WHO Grade IV glioma)\n* The tumor must have a supratentorial component.\n* Must have undergone definitive surgical resection of tumor with less than approximately 3cm x 3cm residual enhancing tumor as product of longest perpendicular planes by MRI.\n* Recovery from the effects of surgery, postoperative infection, and other complications.\n* Diagnostic contrast-enhanced MRI or CT scan of the brain preoperatively and postoperatively.\n* Karnofsky Performance Status of ≥ 70.\n* Signed informed consent.\n* For females of childbearing potential, negative serum pregnancy test.\n* Women of childbearing potential and male participants must be willing to practice adequate contraception throughout the study and for at least 24 weeks after the last dose of study drug.\n\nTo be assessed prior to initiation of adjuvant TMZ:\n\n* Must have completed RT (targeted total dose of 59.4-60.0 Gy over ≤ 7 weeks) and concomitant TMZ (targeted dose of 75mg/m2/d for ≤ 49 days) therapy without significant toxicity that persisted over 4 weeks.\n* History \\& physical with neurologic examination prior to initiation of adjuvant TMZ.\n* For patients receiving steroids, daily dose must be ≤ 4 mg.\n* CBC with differential with adequate bone marrow function.\n* Adequate renal function.\n* Adequate hepatic function.\n\nAbbreviated Exclusion Criteria:\n\nTo be verified in order to randomize subject:\n\n* Prior invasive malignancy unless disease free for ≥ 3 years.\n* Metastases detected below the tentorium or beyond the cranial vault and leptomeningeal involvement.\n* Recurrent or multifocal malignant gliomas.\n* HIV, Hepatitis B, or Hepatitis C seropositive.\n* Known active infection or immunosuppressive disease.\n* Prior chemotherapy or radiosensitizers (including Gliadel wafers) for cancers of the head and neck region.\n* Prior radiotherapy to the head or neck, resulting in overlap of radiation fields.\n* Severe, active co-morbidity.\n* Pregnancy or women of childbearing potential and men who are sexually active and not willing/able to use medically acceptable forms of contraception for the entire study period.\n* Pregnant or lactating women.\n* Prior allergic reaction to temozolomide, GM-CSF or Td.\n* Prior history of brachial neuritis or Guillain-Barré syndrome.\n* Patients treated on any other therapeutic clinical protocols within 30 days prior to study entry.\n\nTo be assessed prior to initiation of adjuvant TMZ:\n\n* Did not start radiation therapy and temozolomide within 7 weeks of surgery.\n* Progression of disease as defined by modified RANO criteria.\n* More than 45 days after completion of radiation therapy and temozolomide",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Comparison of Overall Survival (OS) Between the Active Treatment Group (Arms 1 and 2) and the Control Group (Arm 3)",
+        "description": "Kaplan-Meier survival curves and the log rank test will be used to characterize and compare OS in patients who received pp65-LAMP mRNA DC vaccine (Arms 1 and 2) and in control patients (Arm 3). OS will be defined as the time between first vaccination and death and will be censored at the last follow-up if death has not occurred.",
+        "timeFrame": "From date of first vaccine until the date of death, up to 48 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Comparison of Progression-free Survival Between the Active Treatment Group (Arms 1 and 2 Combined) and the Control Group (Arm 3)",
+        "description": "Calculated as dated of first vaccine to date first progression/recurrence or death. Kaplan-Meier survival curves and the log rank test will be used to characterize and compare PFS in patients who received pp65-LAMP mRNA DC vaccine (Arms 1 and 2) and in control patients (Arm 3). PFS is defined as the time between first vaccination and first documentation of either disease progression/recurrence, or death without prior progression/recurrence.",
+        "timeFrame": "From date of first vaccine until time disease progression or death without prior progression/recurrence, up to 48 months"
+      },
+      {
+        "measure": "ELISPOT Assay (pp65)",
+        "description": "Within patient changes from baseline to vaccine 3.",
+        "timeFrame": "baseline, post-vaccine #3"
+      },
+      {
+        "measure": "Flow Cytometric Analysis (T Cell)",
+        "description": "Percentage of circulating cellular subsets of T cells within PBMCs.",
+        "timeFrame": "baseline, post-vaccine #3"
+      },
+      {
+        "measure": "Cytokine Array Analysis (IFN-g)",
+        "description": "Change in concentration (pg/mL) of IFN-g as measured by multiplex array from Baseline (V1) to post-Vaccine #3.",
+        "timeFrame": "baseline, post-vaccine #3"
+      },
+      {
+        "measure": "ELISPOT Assay (Actin)",
+        "description": "Within patient changes from baseline to vaccine 3.",
+        "timeFrame": "baseline, post-vaccine #3"
+      },
+      {
+        "measure": "Flow Cytometric Analysis (NK Cell)",
+        "description": "Percentage of circulating cellular subsets of NK cells within PBMCs.",
+        "timeFrame": "baseline, post-vaccine #3"
+      },
+      {
+        "measure": "Flow Cytometric Analysis (CD4.CD25 T Reg)",
+        "description": "Percentage of circulating cellular subsets of CD4.CD25 T Reg within PBMCs.",
+        "timeFrame": "baseline, post-vaccine #3"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:02.976Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

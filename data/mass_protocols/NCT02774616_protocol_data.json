@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02774616",
+  "briefTitle": "BIO|MASTER.Ilivia Family / Plexa",
+  "officialTitle": "BIO|MASTER.Ilivia Family / Plexa",
+  "protocolDocument": {
+    "nctId": "NCT02774616",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-11-14",
+    "uploadDate": "2018-07-18T09:17",
+    "size": 3456388,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02774616/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 292,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-06",
+    "completionDate": "2018-03",
+    "primaryCompletionDate": "2017-12",
+    "firstSubmitDate": "2016-05-13",
+    "firstPostDate": "2016-05-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Standard indication for ICD or CRT-D therapy according to clinical practice\n* De novo implantation or upgrade/exchange (group A only) from existing ICD, CRT-D or pacemaker implant\n* Patient is able to understand the nature of the clinical investigation and provides written informed consent\n* Patient is able and willing to complete all routine study visits at the investigational site\n* Patient accepts Home Monitoring concept\n* Age ≥ 18 years\n\nExclusion Criteria:\n\n* Contraindication to ICD or CRT-D therapy, respectively\n* For CRT-D patients in group A only: physician not willing to activate MultiPole Pacing in the patient\n* Cardiac surgical procedure planned within 6 months after implantation (including also interventional procedures like ablation, valve replacement etc.). Procedures to occur during or prior to implantation are not exclusionary.\n* Expected to receive heart transplant or ventricular assist device within 6 months\n* Life expectancy less than 6 months\n* Participation in any other interventional clinical investigation\n* Pregnant or breastfeeding at time of enrollment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Ilivia Family Related SADE-free Rate Through 3 Months",
+        "description": "This endpoint measures the percentage of patients without serious adverse device effect (SADE) related to the ICD device",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Plexa Related SADE-free Rate Through 6 Months",
+        "description": "This endpoint measures the percentage of patients without serious adverse device effect (SADE) related to the \"Plexa\" lead",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Patients With Successful Fast Ventricular Arrhythmia Conversion by ATP One-shot at 6-month Follow-up",
+        "description": "Of all patients with spontaneous ventricular arrhythmia detected in the VF zone, and treated by \"ATP-one-shot\", the percentage of patients with at least one successful termination will be determined",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Rate of Appropriate Right Ventricular Sensing at 3-month Follow-up",
+        "description": "The investigator is asked whether the sensing function of the Pleaxa lead in the right ventricle is appropriate",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Rate of Appropriate Right Ventricular Pacing at the 3 Months Follow-up",
+        "description": "The investigator is asked whether the pacing function of the Pleaxa lead in the right ventricle is appropriate",
+        "timeFrame": "3 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:00.705Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

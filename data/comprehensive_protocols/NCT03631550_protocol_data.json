@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT03631550",
+  "briefTitle": "The RIME Study - Combined Occipital and Supraorbital Transcutaneous Nerve Stimulation for Treatment of Migraine",
+  "officialTitle": "The RIME Study - Combined Occipital and Supraorbital Transcutaneous Nerve Stimulation for Treatment of Migraine",
+  "protocolDocument": {
+    "nctId": "NCT03631550",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-06-11",
+    "uploadDate": "2022-04-14T02:13",
+    "size": 783013,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03631550/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 187,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-11-29",
+    "completionDate": "2020-08-04",
+    "primaryCompletionDate": "2020-08-04",
+    "firstSubmitDate": "2018-08-13",
+    "firstPostDate": "2018-08-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Subjects 18 years of age and older.\n2. Subject meets the ICHD (International Classification of Headache Disorders)-3 (2018) diagnostic criteria for Migraine with or without aura.\n3. Subject reports 1-6 Migraine attacks per month; other headaches no more than 6 days per month.\n4. Subject is willing to and capable of complying with the specified study requirements, provided written Informed Consent, can complete the electronic diaries, and can be contacted by telephone.\n\nExclusion Criteria:\n\n1. Subject having received Botox treatment in the head region in the prior 3 months.\n2. Subject having received supraorbital or occipital nerve blocks in the prior month.\n3. Past 6 months of chronic migraine, New Daily Persistent Headache, and chronic tension-type headache per ICHD-3 (2018) diagnostic criteria.\n4. Current medication overuse headache.\n5. Use of opioid medications in the prior 1 month.\n6. Use of barbiturates in the prior 1 month.\n7. Subject has \\>10 headache days per month\n8. Implanted metal/shrapnel or electrical devices in the head (not including dental implants), a cardiac pacemaker or an implanted or wearable defibrillator.\n9. Received parenteral infusions for migraine within the previous 2 weeks.\n10. Subject has known uncontrolled epilepsy.\n11. History of neurosurgical interventions\n12. Subject with implanted neurostimulators, surgical clips (above the shoulder line) or any medical pumps.\n13. Current drug abuse or alcoholism.\n14. Subject is participating in any other clinical study.\n15. Skin lesion or inflammation at the region of the stimulating electrodes.\n16. Personality or somatoform disorder.\n17. Pregnancy or Lactation.\n18. Women with child bearing potential without medically acceptable method of contraception (NOTE: Females of child bearing potential must have a negative pregnancy test).\n19. Documented history of cerebrovascular event.\n20. Subject with recent brain or facial trauma (occurred less than 3 months prior to this study).\n21. Subject participated in a previous study with the Relivion device.\n22. The subject does not have the basic cognitive and motor skills needed to operate a smartphone.\n23. Subject with head circumference smaller than 51 centimeters or head circumference larger than 60 centimeters\n24. Subject with other significant pain problem that in the opinion of the investigator may confound the study assessments.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Subjects Reporting Reduction of Migraine Headache Pain at 2 Hours From Treatment Initiation",
+        "description": "the number and percent of subjects reporting reduction of migraine headache pain 2 hours post treatment initiation from severe or moderate to mild or no pain, or from mild to no pain, in their first eligible treated migraine attack (if rescue therapy was not used)",
+        "timeFrame": "2 hours from treatment initiation"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Proportion of Subjects Reporting Improvement in Their Most Bothersome Symptom (MBS) Other Than a Headache, 2 Hours Post-treatment Initiation",
+        "description": "The number and percentage of subjects reporting improvement in their Most Bothersome Symptom (MBS) other than a headache, 2 hours post-treatment initiation (if rescue therapy was not used), in their first eligible treated migraine attack. MBS may be nausea, photophobia, phonophobia",
+        "timeFrame": "2 hours from treatment initiation"
+      },
+      {
+        "measure": "Proportion of Subjects Reporting Reduction of Migraine Headache Pain 1-hour Post Treatment Initiation",
+        "description": "The number and percentage of subjects reporting reduction of migraine headache pain 1-hour post treatment initiation (if rescue therapy was not used), from severe or moderate to mild or no pain, or from mild to no pain, in their first eligible treated migraine attack",
+        "timeFrame": "1 hour from treatment initiation"
+      },
+      {
+        "measure": "Proportion of Subjects Who Are Pain Free at 2 Hours Post Treatment Initiation",
+        "description": "The number and percentage of subjects who are pain free at 2 hours post treatment initiation (if rescue therapy was not used), in their first eligible treated migraine attack",
+        "timeFrame": "2 hours from treatment initiation"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number of Participants With Adverse Events",
+        "description": "Safety of the study device following study treatment: Number and Rate of participates with Adverse events related or unrelated to the study device",
+        "timeFrame": "From Enrollment (randomization) through study exit i.e. 70 days"
+      },
+      {
+        "measure": "The Change in Pseudo-continuous Pain Score From Baseline to 1-hour Post Treatment",
+        "description": "as per the Statistical Considerations for Clinical Trials During the COVID-19 Public Health Emergency\" June 2020 FDA Guidance, which states that a modifications to the definition and ascertainment of trial endpoints may be warranted to address the impact of COVID-19. A potential modification for a binary endpoint that is based on a continuous or ordinal measurement is by using the continuous or ordinal measurement as the endpoint. therefore, an additional analysis to the study end points , the migraine headache pain level was transformed into a numerical score (pseudo-continuous): \"No pain\"=0, \"Mild\"=1, \"Moderate\"=2, \"Severe\"=3. If rescue medication was used, the score after the rescue intake post-treatment are set to the baseline value. The change from baseline is compared between the study arms with an analysis of covariance model adjusted for site and baseline pain level.",
+        "timeFrame": "baseline to 1-hour post treatment"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 2,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 58,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:52.745Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

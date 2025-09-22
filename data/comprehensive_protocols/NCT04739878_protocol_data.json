@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04739878",
+  "briefTitle": "SUBSUS (SUBglottic Secretion at Ultrasound Score)",
+  "officialTitle": "Prospective Study On Novel Usage of Airway Ultrasound To Detect Subglottic Secretion Above Endotracheal Tube(ETT) Cuff",
+  "protocolDocument": {
+    "nctId": "NCT04739878",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-01-31",
+    "uploadDate": "2021-02-01T21:33",
+    "size": 60001,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04739878/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-03-01",
+    "completionDate": "2022-08-31",
+    "primaryCompletionDate": "2022-01-31",
+    "firstSubmitDate": "2021-01-18",
+    "firstPostDate": "2021-02-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* age more than 18 years old\n* ETT in situ\n* indicated for CT cervical scan\n\nExclusion Criteria:\n\n* neck subcutaneous emphysema\n* neck scar or surgical dressing around the neck which can lead to difficulty in obtaining an optimal ultrasound image.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Prospective Study on Novel Usage of Airway Ultrasound To Detect Subglottic Secretion Above Endotracheal Tube Cuff",
+        "description": "Compare the performance of airway ultrasound and cervical CT scan to diagnose subglottic secretion.",
+        "timeFrame": "90 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:29.243Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

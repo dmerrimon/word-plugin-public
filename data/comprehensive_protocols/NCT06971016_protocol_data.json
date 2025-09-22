@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT06971016",
+  "briefTitle": "\"Effectiveness of Mulligan Mobilization Technique and Proprioceptive Exercises Among Patients With Knee Osteoarthritis\"",
+  "officialTitle": "\"Effectiveness of Mulligan Mobilization Technique and Proprioceptive Exercises Among Patients With Knee Osteoarthritis in Karachi\" The Study Will Include Individuals Diagnosed With Knee OA, Aged 40 Years and Above, Clinically Diagnosed Mild to Moderate Primary OA in Knee. Participants Will be Recruited From a Physical Therapy Clinic, and Will be Screened for Inclusion and Exclusion Criteria. Inclusion Criteria Will Include Diagnosed Cases of Knee OA With Mild to Moderate Grade of OA (According to Kellgren and Lawrence Scale) and the Ability to Walk Without Assistive Device for at Least 50 Feet",
+  "protocolDocument": {
+    "nctId": "NCT06971016",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2025-05-09",
+    "uploadDate": "2025-05-09T00:28",
+    "size": 380412,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06971016/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-03-27",
+    "completionDate": "2025-08",
+    "primaryCompletionDate": "2025-06",
+    "firstSubmitDate": "2025-04-15",
+    "firstPostDate": "2025-05-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Inclusion criteria will include diagnosed cases of knee OA with mild to moderate Grade of OA (According to Kellgren and Lawrence Scale)\n* Ability to walk without assistive devices for at least 50 feet.\n\nExclusion Criteria:\n\n* Patients have Kellgren and Lawrence \\<grade 2 or above grade 3\n* History of knee surgery, knee joint replacement\n* Patients have been administered corticosteroid injections in last six months - - - History of mental illness, autoimmune disorder, neurological or orthopedic conditions affecting the lower limbs\n* Presence of any other conditions that may affect balance or gait.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Knee Injury and Osteoarthritis Outcome Score",
+        "description": "The KOOS exists to measure both brief and persistent symptoms together with actual functions of people who have knee ligament damage or osteoarthritis. General healthcare providers rely on the KOOS tool as well as research investigators to track patient health evolution through registries and clinical use. This evaluation instrument contains five distinct subcategories which assess Pain as well as Symptoms alongside Activities of Daily Living (ADL) and Sports and Recreation Function (Sport/Rec) and Knee-Related Quality of Life (QOL). Each subscale in KOOS receives scoring on a 5-point Likert scale before the scores transform into a 0 to 100 scale representing extreme symptoms to no symptoms.",
+        "timeFrame": "10 weeks"
+      },
+      {
+        "measure": "Universal Goniometer",
+        "description": "Physical therapy practitioners use universal goniometers (UG) to conduct goniometry which stands as an necessary technique for measuring joint range of motion (ROM). A two-armed handheld device provides stable measured results through valid procedures if users adhere to specific placement protocols.",
+        "timeFrame": "10 weeks"
+      },
+      {
+        "measure": "Numeric Pain Rating Scale (NPRS)",
+        "description": "Through NPRS participants rate their pain levels on a 0 to 10 scale by choosing numbers that show no pain at 0 and maximum pain at 10. The pain intensity score is determined by the number that the participant selects.",
+        "timeFrame": "10 weeks"
+      },
+      {
+        "measure": "Berg Balance Scale (BBS)",
+        "description": "The Berg Balance Scale stands as a common instrument which evaluates testing both static and dynamic balance levels. The BBS created by Katherine Berg during 1989 contains 14 specific tasks that measure both sitting and standing and dynamic balance abilities of patients. Therapy participants receive scores ranging from 0 to 4 on each task distributed across a total rate of 56 points in the assessment process.",
+        "timeFrame": "10 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Quality of Life Short Form (SF-36)",
+        "description": "The SF-36 provides a full instrument for measuring health-related quality of life through 36 items with eight domain categories including Physical Function (PF) and Role Physical (RP) and Bodily Pain together with General Health (GH) as well as Vitality (VT) and Social Function (SF) and Role Emotional (RE) and Mental Health (MH). The SF-36 organizes its measures under two main domains named Physical Component Summary and Mental Component Summary which serve as scoring categories. Standard deviation scores follow norms that use 50 as mean and 10 as standard deviation to achieve population-wide evaluations.",
+        "timeFrame": "10 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:59.399Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

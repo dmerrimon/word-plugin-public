@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT04454125",
+  "briefTitle": "AQI and Childhood Asthma: an Intervention",
+  "officialTitle": "Air Quality Index (AQI) and Childhood Asthma: an Intervention",
+  "protocolDocument": {
+    "nctId": "NCT04454125",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-03-17",
+    "uploadDate": "2022-03-31T14:32",
+    "size": 491585,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04454125/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-07-14",
+    "completionDate": "2021-03-22",
+    "primaryCompletionDate": "2021-03-22",
+    "firstSubmitDate": "2020-06-26",
+    "firstPostDate": "2020-07-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Child Inclusion criteria includes:\n\n  1. physician diagnosis of persistent asthma- either mild, moderate, or severe;\n  2. family home internet access and/or smartphone access + willingness to download AirNow app on phone;\n  3. age 8-17 years.\n\nParent/guardian inclusion: parent or guardian of the child participant, of whom has met inclusion criteria.\n\nExclusion Criteria:\n\n* Child exclusion criteria includes:\n\n  1. diagnosis of other chronic respiratory disease (e.g. cystic fibrosis, bronchopulmonary dysplasia, etc)\n  2. immunodeficiency- acquired or congenital\n  3. neuromuscular disease\n  4. disability affecting ambulation\n  5. cyanotic congenital heart disease\n  6. only 1 child per household eligible\n  7. no plans to leave Pittsburgh area in next 6 months\n\nParental/guardian exclusion criteria: none.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "8 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With at Least One Moderate or Severe Asthma Exacerbation Over Time",
+        "description": "Moderate and severe asthma exacerbations were captured via questionnaire administered monthly for up to 6 months. Severe and moderate exacerbations were defined by American Thoracic Society (ATS) criteria.",
+        "timeFrame": "Over study duration (up to 6 months)"
+      },
+      {
+        "measure": "Mean Change in Asthma Control Over Time",
+        "description": "Asthma symptom control was measured by the validated Asthma Control Test (ACT) or Childhood Asthma Control Test (CACT) questionnaires as age appropriate (ACT in children 12 year of age or older; CACT for children younger than 12 years of age). ACT and CACT were obtained at baseline and every 4 weeks for up to 6 months. Differences in asthma control scores were compared both within arms and between arms at study end. ACT (min=5, max=25, score of \\<=19 concerning for poor asthma control; \\<=15 concerning for very poorly controlled). CACT (min=0, max=27, score of \\<=19 concerning for poor asthma control; \\<=12 concerning for very poorly controlled)",
+        "timeFrame": "Over study duration (up to 6 months)"
+      },
+      {
+        "measure": "Mean Change in Pediatric Asthma Quality of Life Over Time",
+        "description": "Quality of life will be measured by the validated Pediatric Asthma Quality of Life Questionnaire with standardized activities (PAQLQ) at entrance and exit visits. Differences in PAQLQ scores will be compared both within arms and between arms at study end. PAQLQ (min=1 (extremely bothered/all the time), max=7 (not bothered/none of the time)",
+        "timeFrame": "Baseline, 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Who Reported Checking the AQI Prior to Going Outside to be Active",
+        "description": "Participant reported checking of AQI prior to going outside to be active assessed via questionnaire. Question: In the past 4 weeks, did you check the air quality index before going outside to be active? Response choices: Yes, No.",
+        "timeFrame": "Over study duration, assessed at baseline and monthly during study for up to 6 months. Reported below at exit."
+      },
+      {
+        "measure": "Number of Participated Who Reported Outdoor Activity Behavioral Change in Response to the AQI",
+        "description": "Usage of the AQI prior to exercise was monitored monthly via questionnaire. Question: In the past 4 weeks, how many times did you change your outdoor activity because of the air quality index? Response choices: All of the time, Most of the time, Some of the time, A little of the time, None of the time. A positive response was considered an answer of all, most, some, or a little of the time. A negative response was considered none of the time.",
+        "timeFrame": "Over study duration, assessed at baseline and monthly during study for up to 6 months. Reported below at exit."
+      },
+      {
+        "measure": "Number of Participants Who Reported Moderate or Vigorous Physical Activity for at Least 10 Minutes Continuously Outside in a Typical Week",
+        "description": "Outcome obtained from physical activity questionnaire. Yes represents a positive response to at least one of the follow two questions: Question 1: In a typical week {do you/does SP} do any vigorous-intensity sports, fitness, or recreational activities that cause large increases in breathing or heart rate like running or basketball for at least 10 minutes continuously outside? Response choices: Yes, No, Refused, Don't Know. Note: refused and don't know were coded as negative. Question 2: In a typical week, {do you/does SP} do any moderate-intensity sports, fitness, or recreational activities that cause a small increase in breathing or heart rate such as brisk walking, bicycling, swimming, or volleyball for at least 10 minutes continuously outside? Response choices: Yes, No, Refused, Don't Know. Note: refused and don't know were coded as negative.",
+        "timeFrame": "Over study duration, assessed at baseline and monthly during study for up to 6 months. Reported below at exit."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:22.989Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

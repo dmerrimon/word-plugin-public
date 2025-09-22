@@ -1,0 +1,134 @@
+{
+  "nctId": "NCT02652793",
+  "briefTitle": "Simplification From Tenofovir Plus Lamivudine or Emtricitabine Plus Ritonavir-Boosted-Protease Inhibitor to Ritonavir-Boosted-Atazanavir Plus Lamivudine in Virologically-Suppressed-HIVInfected Adults With Osteopenia",
+  "officialTitle": "Simplification From Tenofovir Plus Lamivudine or Emtricitabine Plus Ritonavir-Boosted-Protease Inhibitor to Ritonavir-Boosted-Atazanavir Plus Lamivudine in Virologically-Suppressed-HIVInfected Adults With Osteopenia",
+  "protocolDocument": {
+    "nctId": "NCT02652793",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-10-06",
+    "uploadDate": "2025-06-10T05:03",
+    "size": 627138,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02652793/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 31,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-11",
+    "completionDate": "2018-11",
+    "primaryCompletionDate": "2018-11",
+    "firstSubmitDate": "2015-12-31",
+    "firstPostDate": "2016-01-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Human immunodeficiency virus-1-infected subjects with age ≥18 years old\n* Hip or spine T-scores between \\< -1.0 and \\>-2.5 by dual-energy X-ray absorptiometry (in the previous 24 weeks)\n* Stable antiretroviral treatment based on tenofovir and lamivudine or emtricitabine and boosted protease inhibitor for at least 24 weeks.\n* Having plasma human immunodeficiency virus-1 RNA \\<50 copies/mL for at least the previous 24 weeks, including at least two samples.\n\nExclusion Criteria:\n\n* Pregnancy, breast-feeding status or plans for pregnancy in the short term\n* Primary genotypic resistance mutations and/or previous virological failures to atazanavir or lamivudine/emtricitabine\n* Chronic hepatitis B infection\n* Patients with indication for therapy for the prevention of bone fractures\n* 25-OH vitamin D deficiency (\\< 10ng/mL)\n* Hypogonadism (low total testosterone according to local reference range)\n* Hypothyroidism (low T4 and increased thyroid stimulating hormone levels according to local reference ranges)\n* Hyperparathyroidism (increased parathyroid hormone level with hypercalcaemia according to local reference ranges)\n* Having received oral corticosteroids or inhaled fluticasone (daily doses higher than 5 mg/d prednisone equivalent for 3 months or more)\n* Using anti-resorptive therapy (Calcium and vitamin D supplements are encouraged but not mandated)\n* Body mass index lower than 19",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Bone Mineral Density (BMD) at Lumbar Spine and Left Hip From Baseline to Week 48",
+        "description": "Mean change in BMD (g/cm²) at lumbar spine (L1-L4) and left hip measured by dual-energy X-ray absorptiometry (DXA) in human immunodeficiency virus-infected adults with hip or spine T-score between \\< -1.0 and \\>-2.5",
+        "timeFrame": "Baseline to Week 48"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Proportion of Patients Free of Virologic Failure (Confirmed Viral Load≥ 50 Copies/mL)",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Proportion of Patients With Adverse Effects",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Bone Turnover Markers in Blood: Urinary N-terminal Telopeptide of Type-1 Collagen",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Bone Turnover Markers in Blood: Bone-specific Alkaline Phosphatase",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Renald Disfunction Parameter: Estimated Glomerular Filtration Rate",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Renald Disfunction Parameter: Phosphorus in Blood Sample",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Renald Disfunction, Tubule Dysfunction, Parameter: Glucose in Urine",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Renald Disfunction, Tubule Dysfunction, Parameter: Protein in Urine Samples",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Renald Disfunction, Tubule Dysfunction, Parameter: Albumin in Urine Samples",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Renald Disfunction, Tubule Dysfunction, Parameter: Creatinin in Urine Samples",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Renald Disfunction, Tubule Dysfunction, Parameter: Phosphorus in Urine Samples",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Renald Disfunction, Tubule Dysfunction, Parameter: Beta-2 Microglobulin in Urine Samples",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Renald Disfunction, Tubule Dysfunction, Parameter: N-Acetyl-β-D Glucosaminidase in Urine Samples",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 4,
+      "exclusionCount": 11,
+      "totalCount": 15
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 13,
+      "otherCount": 0,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:33:11.592Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

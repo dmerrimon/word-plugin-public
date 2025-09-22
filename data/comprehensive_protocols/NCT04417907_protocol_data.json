@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT04417907",
+  "briefTitle": "Perampanel Titration and Cognitive Effects",
+  "officialTitle": "Effects of Titration Rate on Cognitive and Behavioral Side Effects of Perampanel",
+  "protocolDocument": {
+    "nctId": "NCT04417907",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-05-02",
+    "uploadDate": "2024-04-09T14:32",
+    "size": 625129,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04417907/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 29,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-10-20",
+    "completionDate": "2023-05-01",
+    "primaryCompletionDate": "2023-05-01",
+    "firstSubmitDate": "2020-06-02",
+    "firstPostDate": "2020-06-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Healthy adults between the ages of 18 and 55 years\n2. Male or female (using approved birth control methods)\n3. Informed consent obtained\n\nExclusion Criteria:\n\n1. Presence of clinically significant cardiovascular, endocrine, hematopoietic, hepatic, neurologic, psychiatric, or renal disease.\n2. Presence or history of drug or alcohol abuse or positive urine drug test at screening.\n3. The use of concomitant medications, which are known to affect perampanel or the use of any concomitant medications that may alter cognitive function (see Section VIII.F for a partial list).\n4. Prior adverse reaction to or prior hypersensitivity to perampanel.\n5. Prior participation in studies involving perampanel.\n6. Subjects who have received any investigational drug within the previous thirty days.\n7. Subjects with IQ \\< 80 as determined by the Peabody Picture Vocabulary Test after enrollment.\n8. Positive pregnancy test. Women of childbearing potential will be required to use approved birth control methods during the study.\n9. Presence of lifetime history of suicide attempt (including an active attempt, interrupted attempt, or aborted attempt), or has suicidal ideation in the past 6 months as indicated by a positive response ('Yes') to either Question 4 or Question 5 of the C-SSRS at Screening.\n10. Invalid results on computerized cognitive tests at screening as indicated by a 'No' on any of the validity indicators generated in the CNS Vital Signs report.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "55 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Overall Neuropsychological Composite Z-score as a Measure of Direct Comparison of the 4 Titration Conditions Across 6 Weeks of Treatment.",
+        "description": "Z score of cognitive tests (selected performance measures from the computerized cognitive test battery) and questionnaires (AEP, POMS, QOLIE-cognitive questions) at the end of each week of drug treatment for each titration arm, controlling for baseline measures collected prior to treatment. Various measures were combined collectively (averaged) to compute an overall Z-score for each group at each time point. These included: 1) Executive Function Score of computerized test battery; 2) Processing Speed Score of computerized test battery; 3) AEP total score; 4) POMS total and domain scores; 5) Three cognitive components of the QOLIE-31 (attention, memory, language). The Z-score indicates the number of standard deviations away from a reference population. A Z-score of 0 is equal to the mean. Negative numbers indicate poorer performance compared to the mean and positive numbers represent higher performance compared to the mean.",
+        "timeFrame": "At the end of each week of treatment for 6 weeks."
+      },
+      {
+        "measure": "Composite Z-score of Objective Measures as a Measure of Direct Comparison of the 4 Titration Conditions Across 6 Weeks of Treatment.",
+        "description": "Z score of objective cognitive tests (selected performance measures from the computerized cognitive test battery) at the end of each week of drug treatment for each titration arm, controlling for baseline measures collected prior to treatment. The Z-score indicates the number of standard deviations away from a reference population. A Z-score of 0 is equal to the mean. Negative numbers indicate poorer performance compared to the mean and positive numbers represent higher performance compared to the mean.",
+        "timeFrame": "At the end of each week of treatment for 6 weeks."
+      },
+      {
+        "measure": "Composite Z-score of Subjective Measures as a Measure of Direct Comparison of the 4 Titration Conditions Across 6 Weeks of Treatment.",
+        "description": "Z score of subjective questionnaires (AEP, POMS, QOLIE-cognitive questions at the end of each week of drug treatment for each titration arm, controlling for baseline measures collected prior to treatment. Various measures were combined collectively (averaged) to compute an overall Z-score for each group at each time point. These included: 1) AEP total score; 2) POMS total and domain scores; 3) Three cognitive components of the QOLIE-31 (attention, memory, language). The Z-score indicates the number of standard deviations away from a reference population. A Z-score of 0 is equal to the mean. Negative numbers indicate poorer performance compared to the mean and positive numbers represent higher performance compared to the mean.",
+        "timeFrame": "At the end of each week of treatment for 6 weeks."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Treatment Emergent Adverse Events (TEAEs) Across the Six-week Treatment Period Measure of Direct Comparison of the 4 Titration Conditions Across 6 Weeks of Treatment.",
+        "description": "Number of TEAEs across the the four titration conditions over the six-week treatment period. A score of 0 indicates no TEAEs. Higher numbers indicate greater TEAEs.",
+        "timeFrame": "At the end of each week of treatment for 6 weeks."
+      },
+      {
+        "measure": "Dropouts Across the Six-week Treatment Period Measure of Direct Comparison of the 4 Titration Conditions Across 6 Weeks of Treatment.",
+        "description": "Number dropouts across the the four titration conditions over the six-week treatment period. A score of 0 indicates no dropouts. Higher numbers indicate greater dropouts.",
+        "timeFrame": "At the end of each week of treatment for 6 weeks."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:47.886Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

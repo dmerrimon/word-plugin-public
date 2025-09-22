@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT02929667",
+  "briefTitle": "Abnormal Ventilatory Response to Carbon Dioxide: a Potential Biomarker for Seizure Induced Respiratory Depression & Modification by SSRI",
+  "officialTitle": "Abnormal Ventilatory Response to Carbon Dioxide: a Potential Biomarker for Seizure Induced Respiratory Depression & Modification by SSRI",
+  "protocolDocument": {
+    "nctId": "NCT02929667",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-06-28",
+    "uploadDate": "2020-03-03T15:32",
+    "size": 377713,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02929667/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-02-16",
+    "completionDate": "2019-03-06",
+    "primaryCompletionDate": "2019-03-06",
+    "firstSubmitDate": "2016-07-26",
+    "firstPostDate": "2016-10-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Adult patients aged 18 or older\n2. Patients with epilepsy\n3. Native English speaker or adequate fluency in English to provide informed consent.\n4. Female patients of child-bearing potential must be using an acceptable method of contraception, and willing to refrain from sexual intercourse during the study.\n\nExclusion Criteria:\n\n1. Progressive neurological disease.\n2. Clinical diagnosis of bipolar disease, panic disorder, psychosis or severe depression, or PHQ-9 score \\> 20\n3. Patients with prior hospitalization related to depression or Electroconvulsive therapy.\n4. History of suicidal ideation or intent in past or present\n5. Clinical history or laboratory evidence of hepatic or renal insufficiency.\n6. Pregnant or lactating women.\n7. Current heavy alcohol use (\\>14 drinks per week for men or \\>7 drinks per week for women) or) known medical disorder related to alcohol use or current illicit drug use, other than marijuana and its derivatives.\n8. Patients with recent use (\\<1 month) or already taking fluoxetine or other selective serotonin reuptake inhibitors (SSRIs).\n9. Concurrent use of monoamine oxidase inhibitors, antipsychotic agents, antidepressant agents other than SSRIs or frequent use of triptan agents (\\>2/week).\n10. History of a previous allergic reaction or adverse effects with fluoxetine, hypersensitive reaction-anaphylaxis; laryngeal edema; hives\n11. History of serotonin syndrome.\n12. History of uncontrolled pulmonary or cardiac illness.\n13. Patients with hypercapnic ventilatory response (HCVR) slope of \\> 2.0\n14. Patients with known prolong QT interval\n15. Patients with family history of prolong QT interval\n16. Patients with family history of sudden cardiac death under the age of 40 in a first degree relative.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Study Recruitment Rate",
+        "description": "Number of participants enrolled every 3 months.",
+        "timeFrame": "From the date of enrollment every 3 months up to 2 years"
+      },
+      {
+        "measure": "Study Retention Rate",
+        "description": "Number of participants completing the study every 3 months.",
+        "timeFrame": "From date of enrollment until either completion of study or lost to follow up every 3 months up to 2 years and 3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Minute Ventilation During Hypercapnic Ventilatory Response (HCVR) Testing",
+        "description": "Minute ventilation was evaluated at baseline HCVR testing and HCVR testing at 4 weeks after receiving an intervention. Change from baseline was calculated.",
+        "timeFrame": "At the end of HCVR testing- at baseline and 4 weeks after receiving an intervention"
+      },
+      {
+        "measure": "Change in PHQ-9 Score.",
+        "description": "Patient Health Questionnaire (PHQ-9) was used to evaluate mood. Score on PHQ-9 scale ranges from 0-27. Scores corresponding to severity of depression: 0-4: minimal to none ; 5-9: mild; 10-14: moderate; 15-19 moderately severe; 20-27: severe. All subjects in the study were interviewed using standard questions per PHQ-09 questionnaire at baseline and 4 weeks after randomization to an intervention.",
+        "timeFrame": "At baseline and 4 weeks after randomization to an intervention"
+      },
+      {
+        "measure": "Change in Slope of HCVR",
+        "description": "All the subjects undergo CO2 rebreathing (HCVR) testing at baseline and 4 weeks after receiving an intervention. During CO2 rebreathing (HCVR) testing, CO2 gradually rise in the body that stimulates breathing, which in turn increases minute ventilation (L/min). The rate of this increase in minute ventilation with each mm Hg rise in CO2 is the HCVR slope, which is calculated for baseline testing and 4 weeks after receiving an intervention. HCVR slope at 4 weeks after receiving an intervention compared to the baseline HCVR slope in each group.",
+        "timeFrame": "At baseline and 4 weeks after receiving an intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:50.751Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

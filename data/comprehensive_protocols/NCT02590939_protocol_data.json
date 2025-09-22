@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT02590939",
+  "briefTitle": "Acute Treatment of Migraine With e-TNS",
+  "officialTitle": "Multi-center, Double-blind, Randomized, Sham-controlled Trial on the Acute Treatment of Migraine With the Cefaly® Device",
+  "protocolDocument": {
+    "nctId": "NCT02590939",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-07-11",
+    "uploadDate": "2018-02-07T10:14",
+    "size": 1276510,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02590939/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 106,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-02-01",
+    "completionDate": "2017-03-31",
+    "primaryCompletionDate": "2017-03-31",
+    "firstSubmitDate": "2015-10-28",
+    "firstPostDate": "2015-10-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* History of episodic or chronic migraine with or without aura meeting the diagnostic criteria listed in ICHD-III beta (2013) section 1, migraine, with the exception of ''complicated migraine'' (i.e., hemiplegic migraine, basilar-type migraine, ophthalmoplegic migraine, migrainous infarction)\n* Having a migraine attack lasting at least 3 hours\n* Migraine pain intensity stabilized for at least 1 hour\n* Frontal, retro-, or peri- orbital headache.\n\nExclusion Criteria:\n\n* Pregnant women\n* Patients having received Botox treatment in the prior 4 months\n* Patients having received supraorbital nerve blocks in the prior 4 months\n* Diagnosis of other primary or secondary headache disorders, except of Medication Overuse Headache\n* Patients with only temporal or occipital headache\n* Patients using opioid medication\n* Patients having taken abortive migraine medication in the prior 3 hours\n* Allodynia: intolerance to supraorbital neurostimulation (allodynia) that makes the treatment not applicable (the patients will be excluded if they are unable to tolerate the first 5 minutes of neurostimulation).\n* Implanted metal or electrical devices in the head\n* Cardiac pacemaker or implanted or wearable defibrillator\n* Patient having had a previous experience with Cefaly®",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pain Score 1-hour",
+        "description": "Mean change of pain score (measured on a pain visual analog scale containing 11 values, from 0 to 10, with 0 meaning no pain and 10 meaning maximal pain) at 1 hour compared to baseline",
+        "timeFrame": "1 hour"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Rescue Medication 2 Hours",
+        "description": "Number of patients not having required rescue medication at 2 hours",
+        "timeFrame": "2 hours"
+      },
+      {
+        "measure": "Pain Score 2 Hours",
+        "description": "Mean change of pain score (measured on a pain visual analog scale containing 11 values, from 0 to 10, with 0 meaning no pain and 10 meaning maximal pain) at 2 hours compared to baseline (if rescue therapy was not used)",
+        "timeFrame": "2 hours"
+      },
+      {
+        "measure": "Rescue Medication 24 Hours",
+        "description": "Number of patients not having required rescue medication within 24 hours",
+        "timeFrame": "24 hours"
+      },
+      {
+        "measure": "Pain Score 24 Hours",
+        "description": "Mean change of pain score (measured on a pain visual analog scale containing 11 values, from 0 to 10, with 0 meaning no pain and 10 meaning maximal pain) at 24 hours compared to baseline (if rescue therapy was not used)",
+        "timeFrame": "24 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:54.409Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

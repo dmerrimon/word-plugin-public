@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT04509076",
+  "briefTitle": "PrEP iT! Mobile App Intervention",
+  "officialTitle": "PrEP iT!: A Pilot Test of a Mobile Peer Support Intervention to Optimize PrEP Adherence and Retention in PrEP Care",
+  "protocolDocument": {
+    "nctId": "NCT04509076",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-09-14",
+    "uploadDate": "2023-04-26T14:56",
+    "size": 611860,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04509076/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 80,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-03-01",
+    "completionDate": "2022-04-15",
+    "primaryCompletionDate": "2022-04-15",
+    "firstSubmitDate": "2020-03-23",
+    "firstPostDate": "2020-08-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria for the pilot RCT are:\n\n1. Prescribed PrEP by a healthcare provider;\n2. Self-reported 18-29 years of age;\n3. Assigned male at birth;\n4. Current male gender identification;\n5. Gay, bisexual or other non-heterosexual identity or has had sex with a man in the past year;\n6. Confirmed HIV-negative status (before starting PrEP);\n7. Started PrEP in the past 6 months (either taking PrEP for the first time or restarting PrEP after prior use) and has a current PrEP prescription;\n8. English-speaking (as the intervention will be built in English);\n9. Able to meet with project staff at baseline and follow-up visits;\n10. Regular access to SMS or the internet, either through a mobile device, tablet computer, and/or desktop or laptop computer",
+    "healthyVolunteers": true,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "29 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "High Protective Level of PrEP Adherence From Tenofovir Diphosphate (TVF-DP) Levels",
+        "description": "Adherence thresholds estimated through analysis of tenofovir diphosphate (TVF-DP) levels from dried blood spot (DBS) specimens were used to categorize each participant as having a high protective level (i.e., a high likelihood of protection from HIV) of PrEP (800 or greater of emtricitabine-tenofovir disoproxil fumarate \\[FTC-TDF\\] and 950 or greater of FTC-tenofovir alafenamide \\[FTC-TAF\\]) or not. Results reported here are for high protective levels of PrEP.",
+        "timeFrame": "6-month follow up assessment"
+      },
+      {
+        "measure": "Proportion of Participants With High Self-reported PrEP Adherence in the Past 7 Days",
+        "description": "Participants were asked at the month 6 survey to respond to the following item: \"In the past 7 days, how many days did you take PrEP?\" Response options ranging from 0 days to 7 days, with 1 day increments. Responses of 4, 5, 6, or 7 days were categorized as having a high protective level of PrEP (i.e., a high likelihood of protection from HIV). Results reported here are for high protective levels of PrEP.",
+        "timeFrame": "6-month follow up assessment"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 30,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:18.858Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

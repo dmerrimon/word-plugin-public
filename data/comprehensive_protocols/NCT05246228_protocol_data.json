@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT05246228",
+  "briefTitle": "Immune System Modulation and Outcome in High-risk cSCC Treated With Surgery and Radiotherapy",
+  "officialTitle": "Immune System Modulation and Outcome in High-risk Cutaneous Squamous Cell Carcinoma Treated With Surgery and Radiotherapy: a Prospective Study",
+  "protocolDocument": {
+    "nctId": "NCT05246228",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-08-06",
+    "uploadDate": "2021-12-09T04:59",
+    "size": 593753,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05246228/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 42,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-03-01",
+    "completionDate": "2025-12-30",
+    "primaryCompletionDate": "2025-11-30",
+    "firstSubmitDate": "2021-11-25",
+    "firstPostDate": "2022-02-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years.\n* Signed written informed consent.\n* Histologically confirmed diagnosis of cSCC.\n* cSCC categorized as high risk according to ASTRO Guidelines:\n\n  * close or positive margins that cannot be corrected with further surgery (secondary to morbidity or adverse cosmetic outcome).\n  * gross perineural spread, as identified by radiological or pathological assessment.\n  * disease recurrence after a prior margin-negative resection.\n  * pathological stage T3 and T4.\n  * desmoplastic or infiltrative tumors in the setting of chronic immunosuppression at pathological exam, cSCC involving regional lymphnodes, with the exception of a single, small (\\<3 cm) cervical lymph node harboring carcinoma, without extracapsular extension.\n* cSCC addressed to adjuvant radiotherapy as per clinical practice (a complete post-operative treatment should be administered with 50-54 or 60-66 Gy depending on the margin status).\n* Eastern Cooperative Oncology Group (ECOG) Performance status of 0-2.\n\nExclusion Criteria:\n\n* cSCC not eligible for surgery.\n* cSCC not eligible for adjuvant radiotherapy for any condition depending on disease characteristics or patient characteristics, co-morbidities or refusal.\n* Any concurrent investigational product, biologic, or hormonal therapy for cancer treatment.\n* Concurrent treatment with chemotherapy for the purpose of cSCC cure.\n* History or current evidence of any condition that, in the opinion of the treating investigator, might interfere with the subject's participation for the full duration of the trial.\n* Any major surgery, different from that planned for the protocol, in the 15 days before the protocol starting.\n* Any radiotherapy treatment in the 28 days before the protocol starting\n* Pregnant or breastfeeding.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Disease-free survival (DFS) of patients with ALC < 500 cells/mL 28 days after the end of radiotherapy treatment",
+        "description": "Disease-free survival (DFS) of patients with ALC \\< 500 cells/mL 28 days after the end of radiotherapy treatment",
+        "timeFrame": "28 days after the end of radiotherapy treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Evaluation of changes (Δ) in the circulating immune-cells population before the start of radiotherapy and 28 days after the end of radiotherapy",
+        "description": "Evaluation of changes (Δ) in the circulating immune-cells population before the start of radiotherapy and 28 days after the end of radiotherapy.\n\nCorrelation between DFS and circulating immune cell population",
+        "timeFrame": "Before and 28 days after the end of radiotherapy treatment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:57.814Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

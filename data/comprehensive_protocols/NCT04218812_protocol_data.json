@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT04218812",
+  "briefTitle": "Clinical Utility of Automated Electric Source Imaging in Presurgical Evaluation",
+  "officialTitle": "Prospective Multicenter Study on Localization Accuracy and Clinical Utility of Automated Electric Source Imaging in Presurgical Evaluation( PROMAESIS)",
+  "protocolDocument": {
+    "nctId": "NCT04218812",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2018-08-08",
+    "uploadDate": "2020-01-11T04:36",
+    "size": 679774,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04218812/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 250,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2019-03-12",
+    "completionDate": "2024-12-31",
+    "primaryCompletionDate": "2021-05-01",
+    "firstSubmitDate": "2019-12-30",
+    "firstPostDate": "2020-01-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with drug resistant focal epilepsy, admitted to Epilepsy Monitoring Unit for presurgical evaluation, who are afterwards discussed at the multidisciplinary epilepsy surgery team meetings.\n\nExclusion Criteria:\n\n* Patients who did not have a seizure during the monitoring.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "1 Year",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Sensitivity and Specificity of automated ESI in presurgical evaluation.",
+        "description": "For determining the the accuracy (sensitivity and specificity) of automated ESI, one year outcome after the operation will be calculated based on the defined criteria.\n\n* True Positive (TP): source is in the same sub-lobar region as the resection, seizure-free outcome\n* False Positive (FP): source is in the same sub-lobar region as the resection, not seizure-free outcome\n* True Negative (TN): source outside the sub-lobar region that was resected, not seizure-free outcome\n* False Negative (FN): source outside the sub-lobar region that was resected, seizure-free outcome.",
+        "timeFrame": "2 Years"
+      },
+      {
+        "measure": "the clinical utility of ESI in management of the patient with medically refractory epilepsy",
+        "description": "For determining the clinical utility, the percentage of patients in whom automated ESI change decision on patients management will be calculated.",
+        "timeFrame": "2 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:48.208Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

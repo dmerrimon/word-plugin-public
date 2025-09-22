@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03274310",
+  "briefTitle": "FluSAFE: Flu SMS Alerts to Freeze Exposure",
+  "officialTitle": "FluSAFE: Flu SMS Alerts to Freeze Exposure",
+  "protocolDocument": {
+    "nctId": "NCT03274310",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-04",
+    "uploadDate": "2024-07-05T13:04",
+    "size": 911346,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03274310/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1918,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-10-06",
+    "completionDate": "2021-05-15",
+    "primaryCompletionDate": "2021-03-31",
+    "firstSubmitDate": "2017-09-04",
+    "firstPostDate": "2017-09-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* ≥3 persons per household\n* At least one person who is less than 18 years old\n* English or Spanish speaking\n* Household reporter has cell phone with text messaging capabilities\n* Household reporter willing to use text messages to report\n* Reside within study neighborhoods in New York City\n\nExclusion Criteria\n\n* Intention to move away from New York City area in \\<12 months\n* Language other than English or Spanish",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Laboratory-confirmed Influenza Infections",
+        "description": "One self-swab of the index case and self-swabs of other household members will be analyzed using reverse transcription polymerase chain reaction (RT-PCR) to identify household transmission of laboratory-confirmed influenza.",
+        "timeFrame": "Up to 5 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Cases of Household Members Meeting Symptomatic Criteria for ILI/ARI",
+        "description": "The CDC-provided case definition for ARI is presence of at least two of the following: 1) rhinorrhea/nasal congestion; 2) sore throat; 3) cough; 4) fever/feverishness; 5) myalgia. The ILI definition is at least two of the following signs and symptoms: fever, cough, headache, sore throat, or myalgia.",
+        "timeFrame": "Up to 5 days"
+      },
+      {
+        "measure": "Number of Infections of Non-influenza Respiratory Viruses",
+        "description": "This outcome will measure household transmission of non-influenza respiratory viruses. One self-swab of the index case and self-swabs of other household members will be analyzed using RT-PCR to identify household transmission of non-influenza respiratory viruses",
+        "timeFrame": "Up to 5 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 0,
+      "totalCount": 1
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 47,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:34.184Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

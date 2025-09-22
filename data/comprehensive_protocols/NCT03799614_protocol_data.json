@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03799614",
+  "briefTitle": "Vibration Impact on Parkinson's Tremor",
+  "officialTitle": "Vibration Impact on Parkinson's Tremor",
+  "protocolDocument": {
+    "nctId": "NCT03799614",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-01",
+    "uploadDate": "2020-11-12T13:39",
+    "size": 134845,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03799614/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-02-26",
+    "completionDate": "2019-11-27",
+    "primaryCompletionDate": "2019-11-27",
+    "firstSubmitDate": "2018-12-19",
+    "firstPostDate": "2019-01-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Parkinson's disease (PD) as diagnosed by a movement disorder specialist\n* Tremor caused by their Parkinson's disease\n* Ability to provide informed consent\n\nExclusion Criteria:\n\n* Known diagnosis of Parkinson Plus Syndrome\n* Dementia\n* Other known non-PD cause of tremor\n* Other known non-PD cause of limb dysfunction\n* Presence of implantable cardiac device, severe neuropathy or sensory loss that would prevent perception of vibration stimulus\n* Non-English speaker\n* Prisoners\n* Pregnant women",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "maximumAge": "95 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Movement Disorder Society Unified Parkinson Disease Rating Scale (MDS-UPDRS)",
+        "description": "The \"Movement Disorder Society Unified Parkinson Disease Rating Scale\" (MDS-UPDRS) Part III, only, will be used at baseline, and repeated during vibration and post vibration data collection times. It is a validated scale administered by a clinician, contains 34 items to score between 0 (normal) and 4 (severe). The score range is 0 - 136. It takes \\~ 5 minutes to complete. Lower scores are better. This outcome measure will be used to report a change in PD motor symptoms over time.",
+        "timeFrame": "This rating scale will be used at baseline, 5 minutes after vibration starts, and 5 minutes after vibration is turned off."
+      },
+      {
+        "measure": "Clinical Rating for Tremor",
+        "description": "Clinical Rating Scale for Tremor (Fahn, Tolosa, \\& Marin) assesses severity of tremor symptoms. This scale takes 10-minutes, Items 1 - 14 will be used to report average changes in tremor.\n\nItems are rated on a scale of 0=normal to 4=severely abnormal, total summative score range for items 1- 14 points is 0 - 56. Lower scores are better. Total time to complete the Scale for Tremor assessment is 10 minutes.",
+        "timeFrame": "Data collection times were baseline, 5 minutes after vibration start (vibration duration was 20 minutes), 5 minutes after vibration was stopped. ."
+      },
+      {
+        "measure": "Objective Measurement of Tremor Frequency (Hz)",
+        "description": "This is a device that will objectively measure tremors frequency and amplitude pre, during, and post treatment.",
+        "timeFrame": "Five minutes before vibration is turned on, throughout vibration treatment, and approximately five minutes post treatment."
+      },
+      {
+        "measure": "Objective Measurement of Tremor Amplitude (mm).",
+        "description": "This is a device that will objectively measure tremor amplitude pre, during, and post treatment.",
+        "timeFrame": "Five minutes before vibration is turned on, throughout vibration treatment, and approximately five minutes post treatment."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:45.769Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

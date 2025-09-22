@@ -1,0 +1,109 @@
+{
+  "nctId": "NCT02516982",
+  "briefTitle": "mHealth for Antenatal Mental Health",
+  "officialTitle": "Tablet Computers for Implementing NICE Antenatal Mental Health Guidelines - Feasibility Study",
+  "protocolDocument": {
+    "nctId": "NCT02516982",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-01-19",
+    "uploadDate": "2019-05-13T08:51",
+    "size": 486654,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02516982/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 946,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-10",
+    "completionDate": "2018-08",
+    "primaryCompletionDate": "2018-02",
+    "firstSubmitDate": "2015-07-20",
+    "firstPostDate": "2015-08-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Pregnant women attending antenatal clinics\n\nExclusion Criteria:\n\n* Diagnosis of any common mental health disorder (i.e., depression or anxiety disorders) as specified in the Diagnostic and Statistical Manual of Mental Disorders, 5th Edition\n* Receiving treatment for any common mental health disorder\n* Recent personal history of any common mental health disorder (i.e., within the past 12 months)\n* Not comfortable reading and writing in English\n\nParticipants enrolled in the study assessing an app for the monitoring of mood and symptoms of depression need to own an iPhone or any Android-compatible smartphone.",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Responding Affirmatively to at Least One Whooley Question According to Survey Layout",
+        "description": "Comparison of the number of participants answering affirmatively to at least one Whooley question in each experimental group. This outcome was only measured in the Screening - Scrolling layout and in the Screening - Paging layout groups.",
+        "timeFrame": "One-off assessment immediately after recruitment"
+      },
+      {
+        "measure": "Median EPDS Scores According to Survey Layout",
+        "description": "This outcome was only measured in the Screening - Scrolling layout and in the Screening - Paging layout groups. Median scores on the Edinburgh Postnatal Depression Scale according to group allocation. The EPDS consists of 10 questions each rated on a 4-point scale ranging from 0 to 3 points. Overall scores are obtained by adding the scores of all the individual questions, and range from 0 points to 30 points. Overall scores of 0 to 9 points suggest a low risk of perinatal depression. Overall scores between 10 and 12 points suggest an increased risk of perinatal depression. Overall scores of 13 points or more suggest that the respondent is likely to have met the diagnostic criteria for perinatal depression. Moreover, scores of 1 point or more on question 10 of the EPDS ought to be explored further as this question deals with ideas of self-harm.",
+        "timeFrame": "One-off assessment immediately after recruitment"
+      },
+      {
+        "measure": "Number of Participants at Each EPDS Scoring Interval According to Survey Layout",
+        "description": "Number of participants scoring at each of the scoring intervals that have been reported for the Edinburgh Postnatal Depression Scale: 0 to 9 points - low risk; 10 to 12 points - moderate risk; 13 points or more - high risk. This outcome was only measured in the Screening - Scrolling layout and in the Screening - Paging layout groups.",
+        "timeFrame": "One-off assessment immediately after recruitment"
+      },
+      {
+        "measure": "Number of Participants According to Their Score on Question 10 of the EPDS According to Survey Layout",
+        "description": "Number of participants scoring 1 point or more on question 10 of the Edinburgh Postnatal Depression Scale, which deals with thoughts of self-harm. This outcome was only measured in the Screening - Scrolling layout and in the Screening - Paging layout groups.",
+        "timeFrame": "One-off assessment immediately after recruitment"
+      },
+      {
+        "measure": "Adherence With a 6-month Follow-up Protocol",
+        "description": "This outcome was measured on the retrospective plus momentary assessment and retrospective assessment groups only. Participants who completed at least one expected assessment during each sampling period",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time Needed to Complete the Whooley Questions and the EPDS According to Survey Layout",
+        "description": "This outcome was only measured in the Screening - Scrolling layout and in the Screening - Paging layout groups. Time elapsed (in seconds) between the participants starting to read the basic instructions on how to complete the survey questionnaires and the participant completing the EPDS. These actions will be indicated by participants pressing the Start button on the device screen and when a message acknowledging that they have completed the survey questionnaires is displayed on the device screen. This component will be broken down further into the individual survey questionnaires that participants will be required to complete (i.e., personal demographic information, Whooley questions, and EPDS). In addition, we will account for the time that participants spend experiencing problems, distractions or making requests for help or clarification.",
+        "timeFrame": "One-off assessment immediately after recruitment"
+      },
+      {
+        "measure": "Proportion of Participants Requesting Technical Assistance According to Survey Layout",
+        "description": "This outcome was only measured in the Screening - Scrolling layout and in the Screening - Paging layout groups. Number of participants who made no requests for technical assistance, and those who requested technical assistance",
+        "timeFrame": "One-off assessment immediately after recruitment"
+      },
+      {
+        "measure": "Number of Requests for Technical Assistance by Type of Request and According to Survey Layout",
+        "description": "This outcome was only measured in the Screening - Scrolling layout and in the Screening - Paging layout groups. Total number of requests for technical assistance made in each experimental group according to type of request.",
+        "timeFrame": "One-off outcome assessment conducted up to 24 hours after obtaining written, informed consent"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:17.204Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

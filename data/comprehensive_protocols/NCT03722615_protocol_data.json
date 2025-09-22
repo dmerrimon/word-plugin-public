@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT03722615",
+  "briefTitle": "Epidemiology of Congenital Cytomegalovirus in a High HIV Prevalence Setting, South Africa",
+  "officialTitle": "Epidemiology of Congenital Cytomegalovirus in a High HIV Prevalence Setting, South Africa",
+  "protocolDocument": {
+    "nctId": "NCT03722615",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-03-22",
+    "uploadDate": "2018-10-14T04:18",
+    "size": 1322010,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03722615/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 3000,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-05-06",
+    "completionDate": "2019-04-01",
+    "primaryCompletionDate": "2019-04-01",
+    "firstSubmitDate": "2018-10-19",
+    "firstPostDate": "2018-10-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Mother's age ≥18y\n* Residing in Soweto and would be available for study follow-up\n* Consents to enrol self and baby in study\n\nExclusion Criteria:\n\n\\- Mother not enrolled in V98\\_28OBTP (NCT02215226)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "1 Minute",
+    "maximumAge": "48 Hours",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Prevalence of congenital cytomegalovirus infection in HIV exposed and HIV unexposed newborns",
+        "description": "Prevalence will be determined by testing a saliva sample collected at birth for CMV DNA by polymerase chain reaction (PCR) assay. Newborns that test positive for CMV at birth will have confirmatory testing done within 3 weeks of birth by testing a repeat saliva and urine sample for CMV DNA by PCR. Confirmed cases will be divided by the total number of newborns screened, stratified by HIV exposure status to determine CMV prevalence.",
+        "timeFrame": "May 2016 - December 2016"
+      },
+      {
+        "measure": "Incidence of sensorineural hearing loss in congenital CMV infected and uninfected infants, assessed by visual reinforced audiometry",
+        "description": "Screening for sensorineural hearing loss is initially conducted by acoustic reflex testing (ART) and distortion product otoacoustic emissions (DPOAE). To pass ART testing, the infant will have to obtain at least two reflexes at either 0.5, 1, 2 and/or 4kHz in both ears. To pass DPOAE testing, the infant will have to pass at least 3 frequencies (2,3,4 and/or 5kHz) in both ears, which is an overall pass. If any of ART or DPOAE has not been passed, the child will have diagnostic visual reinforced audiometry. Hearing thresholds will be defined as: 0 to 20 dB for normal hearing, 21 to 45 dB for mild hearing loss, 46 to 70 dB for moderate hearing loss, and 71 dB or higher for severe hearing loss.",
+        "timeFrame": "May 2016 - May 2019"
+      },
+      {
+        "measure": "Incidence of neurodevelopmental delay in congenital CMV infected and uninfected children at one year of age assessed by scores obtained in the Bayley III developmental assessment tool.",
+        "description": "The Bayley III scales of infant and toddler development assess the neurodevelopmental domains based on observed responses to a set of tasks presented to the child which are scored directly on the following subscales: cognitive scale, language summed scale of receptive and expressive language subscales and motor summed scale of fine and gross-motor subscales. Composite scores are derived from raw scores for cognitive, language, and motor development and scaled to a metric, with a mean of 100, standard deviation of 15, and range of 40 to 160. Performance that is 2.0 or more standard deviations below the mean score for each group will be used to define neurodevelopmental delay at 6 and 12 months.",
+        "timeFrame": "May 2017 to March 2018"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Prevalence of CMV infection in stillbirths and neonatal deaths",
+        "description": "Prevalence of in-utero CMV infection in stillbirths and neonatal deaths (occurring before 3 weeks age) and sites of infection. Minimally invasive tissue sampling of the major organs (lungs, brain, liver) and cerebrospinal fluid and blood samples will be tested for CMV by PCR assay.",
+        "timeFrame": "July 2015 to August 2016"
+      },
+      {
+        "measure": "Immunogenicity to primary series of childhood vaccinations in congenital CMV infected and uninfected children",
+        "description": "When infants are aged 6 months a venous blood sample will be collected. Antibody to diphtheria toxoid, tetanus-toxoid, pertussis toxoid, filamentous hemagglutinin (FHA) and hepatitis B surface antigen (HBsAg) will be measured by an in-house Luminex multiplex immunoassay. Immune responses to the primary series of PCV will be measured by a standardized enzyme immunoassay (EIA) to test for vaccine serotype-specific capsular immunoglobulin (Ig) G antibody concentrations and opsonophagocytic assay.",
+        "timeFrame": "October 2016 to February 2018"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:20.266Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

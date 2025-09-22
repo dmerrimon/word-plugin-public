@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT01741311",
+  "briefTitle": "Secondary HIV Prevention and Adherence Among HIV-infected Drug Users",
+  "officialTitle": "Secondary HIV Prevention and Adherence Among HIV-infected Drug Users",
+  "protocolDocument": {
+    "nctId": "NCT01741311",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2012-07-05",
+    "uploadDate": "2025-06-27T12:43",
+    "size": 10246088,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01741311/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 106,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-09",
+    "completionDate": "2018-06",
+    "primaryCompletionDate": "2018-06",
+    "firstSubmitDate": "2012-11-30",
+    "firstPostDate": "2012-12-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* HIV positive\n* Opioid dependent and enrolled in methadone maintenance treatment\n* Report drug- or sex-related HIV risk behavior in previous 6 months\n* Able to read and understand the questionnaires, the Audio Computer Assisted Self Interview (ACASI), and consent form\n* Available for the full duration of the study with no anticipated circumstances impeding participation\n* Not actively suicidal, homicidal, or psychotic as assessed by trained research staff under the supervision of the PI who is a licensed clinical psychologist in Connecticut.\n\nExclusion Criteria:\n\n\\-",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants in Each Condition With Optimal ART Adherence",
+        "description": "Anti-retroviral therapy (ART) adherence was assessed by self-report using the visual analogue scale (VAS). The VAS measures adherence continuously from 0 to 100%, with higher scores indicating better adherence to the medication. A greater number of participants with optimal ART adherence is better. Optimal ART adherence is defined as a score \\>95% on the visual analog scale (VAS).",
+        "timeFrame": "Assessed at post-intervention, 3-months, & 6-months. Reported in the table at 6-months."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Viral Suppression",
+        "description": "Number of participants in each condition with viral load suppression at the 6-month assessment point. Viral suppression (VS) is defined as someone having HIV-1 RNA\\<50 copies/mL. A greater number of participants with VL suppression is a better outcome.",
+        "timeFrame": "Assessed at post-intervention, 3-months, & 6-months. Reported in the table at 6-months."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:19.640Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

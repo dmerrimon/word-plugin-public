@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT02017704",
+  "briefTitle": "Chemoradiation or Brachytherapy for Rectal Cancer",
+  "officialTitle": "Chemoradiation OR Brachytherapy for RECTal Cancer",
+  "protocolDocument": {
+    "nctId": "NCT02017704",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-19",
+    "uploadDate": "2022-11-03T14:38",
+    "size": 5191768,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02017704/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-06-12",
+    "completionDate": "2023-01-31",
+    "primaryCompletionDate": "2021-09-30",
+    "firstSubmitDate": "2013-12-05",
+    "firstPostDate": "2013-12-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Confirmed adenocarcinoma of the rectum\n* Appropriate tumor staging and location\n* Patients should be suitable candidates for surgery and chemotherapy\n* ECOG/WHO performance status 0-1\n* Patients must be 18 years or older\n* No previous history of pelvic radiation\n* Patients must have acceptable organ and marrow function\n* Non pregnant, non-breast feeding females under active contraception\n* Ability to understand and willingness to sign a written informed consent document.\n\nExclusion Criteria:\n\n* Evidence of distant metastatic disease\n* Evidence of sphincter invasion on MRI\n* Prior history of radiation to the pelvis\n* Prior malignancy except for adequately treated basal cell or squamous cell skin cancer, cervical carcinoma in situ, DCIS, or other cancer from which the patient has been disease free for at least 3 years\n* Presence of multiple small bowel loops trapped within the immediate tumor bed (post hysterectomy or prostatectomy).\n* Use of any investigational agent within the 4 weeks preceding enrollment\n* Previous exposure to chemotherapy for rectal cancer\n* Uncontrolled intercurrent illness including but not limited to, ongoing or active infections (or infections requiring systemic treatment), symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements\n* Pregnant and breastfeeding women are excluded, as well as women of child-bearing potential who are unwilling or unable to use an acceptable method of birth control (hormonal or barrier method of birth control; abstinence) to avoid pregnancy for the duration of the study. Should a woman become pregnant or suspect she is pregnant while participating in this study she should inform her treating physician immediately.\n* Women who are not post-menopausal and have a positive urine or serum pregnancy test or refuse to take a pregnancy test.\n* Contraindication for safe MRI, implants, or other conditions that interfere with imaging required for the study (e.g., pacemaker or non-MRI compatible hip prostheses). Note: Subjects with bilateral hip implants are not eligible for the study. Subjects with a unilateral hip implant may be eligible assuming the implant is MRI compatible and does not present artifact on MRI in the areas of interest.\n* Subject is pacemaker dependent.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Patients With Pathologic Complete Response",
+        "description": "Pathologic complete response rate is reported as the number of patients who achieve pathologic complete response after the treatment for each arm.\n\nAs per the NCCN guidelines, pathologic response is graded by the system recommended by the AJCC Cancer Staging Manual and CAP guidelines:\n\n* Complete response - no remaining viable cancer cells\n* Moderate response - only small clusters/single cancer cells remain\n* Minimal response - residual cancer remaining, but with predominant fibrosis\n* Poor response - minimal/no tumor kills, extensive residual cancer",
+        "timeFrame": "Up to 60 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Grade 3 or Higher Adverse Events",
+        "description": "Number of participants with grade 3 or higher adverse events will be listed by relationship.\n\nGrading is by CTCAE 4 guidelines.\n\nRelationship, as determined by PI, is unrelated/unlikely/possible/probable/definite.",
+        "timeFrame": "Up to 60 months"
+      },
+      {
+        "measure": "Change in EORTC QLQ-C30 Global Health Status Score",
+        "description": "Patients were given the EORTC QLQ-C30 at baseline, preop, postop, and at follow ups Y1-5. The forms were scored as per the manual available at EORTC. Raw scores are transformed to fall in a range of 0-100. Generally, higher scores on QoL scales represent higher levels of QoL.\n\nThe scores are reported as the mean of the Global Health Status/QoL scale score when more than 1 patient completed the form for a time point. If only 1 form was available for a time point, then the score for that form is reported.",
+        "timeFrame": "baseline, preop, postop, and at follow ups Y1-5"
+      },
+      {
+        "measure": "Time to Death",
+        "description": "Assessing the difference time to death rates among study participants.",
+        "timeFrame": "Up to 60 months"
+      },
+      {
+        "measure": "Time to Distant Metastases Free Survival",
+        "description": "Compare distant metastasis for both Endo-HDR and CRT.",
+        "timeFrame": "Up to 60 months"
+      },
+      {
+        "measure": "Time to Progression Free Survival",
+        "description": "Compare progression free survival for both Endo-HDR and CRT.",
+        "timeFrame": "Up to 60 months"
+      },
+      {
+        "measure": "Time to Local Disease Recurrence",
+        "description": "Compare locoregional control for both Endo-HDR and CRT.",
+        "timeFrame": "Up to 60 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:54.120Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

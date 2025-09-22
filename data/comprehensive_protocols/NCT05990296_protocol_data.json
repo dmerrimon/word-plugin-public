@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT05990296",
+  "briefTitle": "Evaluating Strategies to Improve Guideline Directed Medical Therapy: The GDMT Research, Education & Assist Trial for Heart Failure Care",
+  "officialTitle": "Evaluating Strategies to Improve Guideline Directed Medical Therapy: The GDMT Research, Education & Assist Trial for Heart Failure Care (GREAT-HF Care)",
+  "protocolDocument": {
+    "nctId": "NCT05990296",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-09-04",
+    "uploadDate": "2024-09-04T11:15",
+    "size": 933901,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05990296/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 4306,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-08-01",
+    "completionDate": "2025-05-17",
+    "primaryCompletionDate": "2025-02-17",
+    "firstSubmitDate": "2023-07-31",
+    "firstPostDate": "2023-08-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients aged 18 years or older AND\n* Completed visit at included Geisinger cardiology outpatient clinics (office visit or telemedicine) AND\n* Clinicians are on a list of currently active Geisinger clinicians in outpatient cardiology clinics who can prescribe heart failure medications AND\n* Active problem list diagnosis of HFrEF at time of Cardiology clinic encounter OR Left Ventricular Ejection Fraction (LVEF) \\< 40: most recent to the cardiology clinic encounter within 2 years of the visit.\n\nExclusion Criteria:\n\n* Currently in hospice or palliative care (ICD 10 code: Z51.5)\n* Patient is allergic to each category of GDMT\n* Patient is prescribed medications from all four categories of GDMT, including ARNI specifically",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "HF GDMT prescription increased (yes/no)",
+        "description": "New GDMT HF medication class added, switch to ARNI from ACE/ARB, or upward dose titration of existing GDMT HF medication.",
+        "timeFrame": "Within 30 days of index visit"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "HF GDMT prescription increased (yes/no)",
+        "description": "New GDMT HF medication class added, switch to ARNI from ACEi/ARB, or upward dose titration of existing GDMT HF medication.",
+        "timeFrame": "Within 60 and 90 days of index visit"
+      },
+      {
+        "measure": "Addition of SGLT2i or ARNI for HFrEF (yes/no)",
+        "description": "New prescriptions for SGLT2i and/or ARNI or switch from ACEi/ARB to ARNI",
+        "timeFrame": "Within 30, 60 and 90 days of index visit"
+      }
+    ],
+    "other": [
+      {
+        "measure": "All-cause mortality, emergency visit for heart failure or hospitalization for heart failure",
+        "description": "Patient death (yes/no), patient with emergency visit with a primary diagnosis of heart failure (yes/no) or admitted for inpatient hospitalization with primary diagnosis of heart failure (yes/no)",
+        "timeFrame": "Within 365 days of index visit"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 1,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 36,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:32.580Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

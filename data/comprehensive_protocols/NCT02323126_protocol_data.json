@@ -1,0 +1,172 @@
+{
+  "nctId": "NCT02323126",
+  "briefTitle": "Study of Efficacy and Safety of Nivolumab in Combination With EGF816 and of Nivolumab in Combination With INC280 in Patients With Previously Treated Non-small Cell Lung Cancer",
+  "officialTitle": "A Phase II, Multicenter, Open-label Study of EGF816 in Combination With Nivolumab in Adult Patients With EGFR Mutated Non-small Cell Lung Cancer and of INC280 in Combination With Nivolumab in Adult Patients With cMet Positive Non-small Cell Lung Cancer",
+  "protocolDocument": {
+    "nctId": "NCT02323126",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-03-12",
+    "uploadDate": "2021-03-30T07:30",
+    "size": 4017088,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02323126/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 64,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-02-09",
+    "completionDate": "2021-02-05",
+    "primaryCompletionDate": "2019-09-23",
+    "firstSubmitDate": "2014-12-18",
+    "firstPostDate": "2014-12-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Written informed consent must be obtained prior to any screening procedures\n* Presence of at least one measurable lesion according to RECIST v.1.1\n* ECOG performance status ≤ 2\n* Patients with histologically documented locally advanced, recurrent and/or metastatic NSCLC\n* Tumor tissue for determination and/or confirmation of genetic pre-requisites (i.e. EGFR T790M positivity post progression on EGFR TKI for Group 1; cMet status for Group 2) must be provided for analysis\n\nGroup 1 patients:\n\n* Patients with EGFR T790M NSCLC (adenocarcinoma)\n* Documented progression of disease according to RECIST v1.1 following primary standard of care (e.g. erlotinib, gefitinib)\n\nGroup 2 patients:\n\n* Patients with EGFR wild-type NSCLC\n* Documented progression of disease according to RECIST v1.1 following standard of care (e.g. platinum doublet).\n\nExclusion Criteria:\n\n* Patients who have received more than one prior line of EGFR TKI therapy1 (applies only to Group 1)\n* Previous treatment with a c-MET inhibitor or HGF-targeting therapy (applies only to Group 2)\n* Patients with brain metastases. However, if radiation therapy and/or surgery has been completed and serial evaluation by CT (with contrast enhancement) or MRI over a minimum of one month demonstrates the disease to be stable and if the patient remains asymptomatic without the need for treatment with steroids\n* Patients who require emergent use of systemic steroids, chronic use of prednisone (greater than 10mg or an equivalent steroid dose daily) or emergent surgery and/or radiotherapy.\n* History of allergy or hypersensitivity to nivolumab components\n* Patients with any known or suspected, current or past history of, autoimmune disease. Patients with type I diabetes mellitus, hypothyroidism only requiring hormone replacement, skin disorders (such as vitiligo, psoriasis, or alopecia) not requiring systemic treatment, or conditions not expected to recur in the absence of an external trigger are permitted to enroll\n* Patients with a condition requiring chronic systemic treatment with either corticosteroids(\\> 10 mg daily prednisone equivalent) or other immunosuppressive medications within 14 days of treatment start. Inhaled or topical steroids, and adrenal replacement steroid doses\\> 10 mg daily prednisone equivalent, are permitted in the absence of active autoimmune disease\n* Known history of testing positive for human immunodeficiency virus (HIV) or known acquired immunodeficiency syndrome (AIDS)\n* Any positive test for hepatitis B virus or hepatitis C virus indicating acute or chronic infection\n* Patients with interstitial lung disease that is symptomatic or may interfere with the detection or management of suspected drug-related pulmonary toxicity\n* Patients who have been treated with prior PD-1 and PD-L1 agents\n* Patients who previously received agents targeting c-MET and/or EGFR T790M Note: Previous treatment with afatinib may be allowable after discussions between Novartis and Investigator.\n* Patients with the following laboratory abnormalities:\n\n  * Absolute Neutrophil Count (ANC) \\<1.5 x 109/L\n  * Hemoglobin (Hgb) \\<9 g/dL\n  * Platelets \\<100 x 109/L\n  * Total bilirubin \\>1.5 x upper limit of normal (ULN). For patients with Gilbert's syndrome total bilirubin \\>2.5 x upper limit of normal (ULN)\n  * Aspartate aminotransferase (AST) and/or alanine aminotransferase (ALT) \\>3 x ULN\n  * Serum creatinine \\>1.5 x ULN and/or measured or calculated creatinine clearance \\<75% LLN\n  * For patients being screened for Group 2, asymptomatic serum amylase \\> CTCAE Grade 2 (1.5-2.0 x ULN). Patients with Grade 1 or Grade 2 serum amylase at the beginning of the study must be confirmed to have no signs or symptoms suggesting pancreatitis or pancreatic injury (e.g., elevated P-amylase, abnormal imaging findings of pancreas, etc.)\n  * For patients being screened for Group 2: Serum lipase \\> ULN\n* Female patients who are either pregnant or nursing.\n* Women of child bearing potential who refuse or are not able to use a highly effective method of contraception as defined in the study protocol.\n* Sexually active males unless they use a condom during intercourse while taking drug and for 31 weeks after the last dose of study treatment.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Progression-Free Survival (PFS) Rate at 6 Months Per RECIST v1.1",
+        "description": "PFS rate represents the percentage of participants without a first documented progression or death due to any cause after the start of study treatment. Tumor response was based on local investigator assessment as per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1).\n\nPFS was modeled using a Weibull distribution and the PFS rate at 6 months was estimated from the posterior distribution.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Response Rate (ORR) Per RECIST v1.1",
+        "description": "Tumor response was based on local investigator assessment as per RECIST v1.1. ORR per RECIST 1.1 is defined as the percentage of participants with a best overall response of Complete Response (CR) or Partial Response (PR).\n\nFor RECIST v1.1, CR=Disappearance of all non-nodal target lesions. In addition, any pathological lymph nodes assigned as target lesions must have a reduction in short axis to \\< 10 mm; PR= At least a 30% decrease in the sum of diameter of all target lesions, taking as reference the baseline sum of diameters.",
+        "timeFrame": "From start of treatment until end of treatment, assessed up to 4.7 years"
+      },
+      {
+        "measure": "Disease Control Rate (DCR) Per RECIST v1.1",
+        "description": "Tumor response was based on local investigator assessment as per RECIST v1.1. DCR per RECIST 1.1 is defined as the percentage of participants with a best overall response of Complete Response (CR), Partial Response (PR) or Stable Disease (SD).\n\nFor RECIST v1.1, CR=Disappearance of all non-nodal target lesions. In addition, any pathological lymph nodes assigned as target lesions must have a reduction in short axis to \\< 10 mm; PR= At least a 30% decrease in the sum of diameters of all target lesions, taking as reference the baseline sum of diameters; SD= Neither sufficient shrinkage to qualify for PR or CR nor an increase in lesions which would qualify for progression.",
+        "timeFrame": "From start of treatment until end of treatment, assessed up to 4.7 years"
+      },
+      {
+        "measure": "Median Progression-Free Survival (PFS) Per RECIST v1.1",
+        "description": "PFS is the time from the date of start of treatment to the date of event defined as the first documented progression or death due to any cause. If a patient has not had an event, progression-free survival is censored at the date of last adequate tumor assessment. The median PFS was estimated using the Kaplan-Meier method.\n\nTumor response was based on local investigator assessment as per RECIST v1.1",
+        "timeFrame": "From start of treatment to first documented progression or death, assessed up to 5 years"
+      },
+      {
+        "measure": "Progression-Free Survival (PFS) Rate at 3 Months Per RECIST v1.1",
+        "description": "PFS rate represents the percentage of participants without a first documented progression or death due to any cause after the start of study treatment. Tumor response was based on local investigator assessment as per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1).\n\nThe PFS rate at 3 months was estimated using the Kaplan-Meier method.",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Overall Survival (OS) at 1 Year",
+        "description": "OS represents the percentage of participants who are alive after the start of study treatment. OS at 1 year was estimated using the Kaplan-Meier method.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+        "description": "Number of participants with AEs and SAEs, including changes from baseline in vital signs, electrocardiograms and laboratory results qualifying and reported as AEs.\n\nAE grades were based on the Common Terminology Criteria for Adverse Events (CTCAE) version 4.03.",
+        "timeFrame": "From first dose of study medication up to 100 days after last dose of study medication, with a maximum duration of 5 years"
+      },
+      {
+        "measure": "Number of Participants With Dose Reductions and Dose Interruptions of EGF816, INC280 and Nivolumab",
+        "description": "Number of participants with at least one dose reduction of EGF816, INC280 or nivolumab and number of participants with at least one dose interruption of EGF816, INC280 or nivolumab.\n\nDose reduction was not allowed for nivolumab in this study.",
+        "timeFrame": "From first dose of study treatment until last dose of study treatment, up to maximum 4.7 years"
+      },
+      {
+        "measure": "Dose Intensity of EGF816 and INC280",
+        "description": "Dose intensity (mg/day) of EGF816 and INC280 was calculated as actual cumulative dose in milligrams divided by duration of exposure in days.",
+        "timeFrame": "From first dose of study treatment until last dose of study treatment, up to maximum 4.7 years"
+      },
+      {
+        "measure": "Dose Intensity of Nivolumab",
+        "description": "Dose intensity (mg/kg biweekly) of nivolumab was calculated as actual cumulative dose in mg/kg divided by duration of exposure in days and then multiplied by 14 days (2 weeks).",
+        "timeFrame": "From first dose of study treatment until last dose of study treatment, up to maximum 4.7 years"
+      },
+      {
+        "measure": "Maximum Observed Plasma Concentration (Cmax) of EGF816",
+        "description": "Pharmacokinetic (PK) parameters were calculated based on EGF816 plasma concentrations by using non-compartmental methods. Cmax is defined as the maximum (peak) observed plasma concentration following a dose.",
+        "timeFrame": "pre-dose, 1, 3, 6 and 8 hours post EGF816 dose on Cycle 1 Day 15. The duration of one cycle was 28 days."
+      },
+      {
+        "measure": "Time to Reach Maximum Plasma Concentration (Tmax) of EGF816",
+        "description": "Pharmacokinetic (PK) parameters were calculated based on EGF816 plasma concentrations by using non-compartmental methods. Tmax is defined as the time to reach maximum (peak) plasma concentration following a dose.",
+        "timeFrame": "pre-dose, 1, 3, 6 and 8 hours post EGF816 dose on Cycle 1 Day 15. The duration of one cycle was 28 days."
+      },
+      {
+        "measure": "Area Under the Plasma Concentration-time Curve From Time Zero to the Time of the Last Quantifiable Concentration (AUClast) of EGF816",
+        "description": "Pharmacokinetic (PK) parameters were calculated based on EGF816 plasma concentrations by using non-compartmental methods. The linear trapezoidal method was used for AUClast calculation.",
+        "timeFrame": "pre-dose, 1, 3, 6 and 8 hours post EGF816 dose on Cycle 1 Day 15. The duration of one cycle was 28 days."
+      },
+      {
+        "measure": "Minimum Observed Plasma Concentration (Cmin) of EGF816",
+        "description": "Pharmacokinetic (PK) parameters were calculated based on EGF816 plasma concentrations by using non-compartmental methods. Cmin is defined as the minimum observed plasma concentration following a dose.",
+        "timeFrame": "pre-dose, 1, 3, 6 and 8 hours post EGF816 dose on Cycle 1 Day 15. The duration of one cycle was 28 days."
+      },
+      {
+        "measure": "Maximum Observed Plasma Concentration (Cmax) of INC280",
+        "description": "Pharmacokinetic (PK) parameters were calculated based on INC280 plasma concentrations by using non-compartmental methods. Cmax is defined as the maximum (peak) observed plasma concentration following a dose.",
+        "timeFrame": "pre-dose, 1, 3, 6 and 8 hours post INC280 dose on Cycle 1 Day 15. The duration of one cycle was 28 days."
+      },
+      {
+        "measure": "Time to Reach Maximum Plasma Concentration (Tmax) of INC280",
+        "description": "Pharmacokinetic (PK) parameters were calculated based on INC280 plasma concentrations by using non-compartmental methods. Tmax is defined as the time to reach maximum (peak) plasma concentration following a dose. Actual recorded sampling times were considered for the calculations.",
+        "timeFrame": "pre-dose, 1, 3, 6 and 8 hours post INC280 dose on Cycle 1 Day 15. The duration of one cycle was 28 days."
+      },
+      {
+        "measure": "Area Under the Plasma Concentration-time Curve From Time Zero to the Time of the Last Quantifiable Concentration (AUClast) of INC280",
+        "description": "Pharmacokinetic (PK) parameters were calculated based on INC280 plasma concentrations by using non-compartmental methods. The linear trapezoidal method was used for AUClast calculation.",
+        "timeFrame": "pre-dose, 1, 3, 6 and 8 hours post INC280 dose on Cycle 1 Day 15. The duration of one cycle was 28 days."
+      },
+      {
+        "measure": "Minimum Observed Plasma Concentration (Cmin) of INC280",
+        "description": "Pharmacokinetic (PK) parameters were calculated based on INC280 plasma concentrations by using non-compartmental methods. Cmin is defined as the minimum observed plasma concentration following a dose.",
+        "timeFrame": "pre-dose, 1, 3, 6 and 8 hours post INC280 dose on Cycle 1 Day 15. The duration of one cycle was 28 days."
+      },
+      {
+        "measure": "Pre-dose Serum Concentration of Nivolumab",
+        "description": "Nivolumab serum concentrations were assessed in samples taken at pre-dose. Pre-dose samples were collected before the next dose administration.",
+        "timeFrame": "pre-dose on Cycle 1 Day 1 (groups 2A and 2B only) and pre-dose on Cycle 1 Day 15 and Cycle 2 Day 1 (all groups). The duration of one cycle was 28 days."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 18,
+      "otherCount": 0,
+      "totalCount": 19
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:06.049Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

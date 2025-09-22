@@ -1,0 +1,116 @@
+{
+  "nctId": "NCT04160975",
+  "briefTitle": "Persuasion in Medicine: Experimental Evidence on Sender and Signal Effects",
+  "officialTitle": "Persuasion in Medicine: Experimental Evidence on Sender and Signal Effects",
+  "protocolDocument": {
+    "nctId": "NCT04160975",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-10-12",
+    "uploadDate": "2021-05-26T18:05",
+    "size": 458454,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04160975/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 3245,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-12-20",
+    "completionDate": "2021-02-19",
+    "primaryCompletionDate": "2021-02-19",
+    "firstSubmitDate": "2019-11-08",
+    "firstPostDate": "2019-11-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age: See above.\n* Education: Less than a college degree.\n* Gender: Male.\n* Race: Caucasian or African American.\n* Miscellaneous: Has not received the flu shot in the current flu season yet.\n* Miscellaneous: Has sound on his device turned on.\n\nExclusion Criteria:\n\n* Fast survey-taking: subjects who are among the 5% fastest in terms of total time spent on survey within race and treatment group.\n* Nonsense answers (those that do not have decipherable English) in the open text sections that suggest low effort.\n* Inconsistent responses to questions (such as being willing to give up $10 to receive a flu coupon but not $1).\n* Repeat survey takers as indicated by duplicate emails or IP addresses in survey data.",
+    "healthyVolunteers": true,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "51 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Rating of Sender",
+        "description": "This is an inverse-covariance-weighted index comprised of responses to survey questions regarding:\n\n1. whether the respondent was interested in further medical advice from the given sender (measured as a binary outcome);\n2. whether the respondent trusted advice from the sender measured on a scale of 1 to 5;\n3. and whether the respondent's assessment of the sender's qualification to provide medical advice measured on a scale of 1 to 5.\n\nIt is standardized to a mean of 0 and standard deviation of 1. Scores less than 0 indicate lower ratings of the sender rated by participants in Arm A (described in each arm/group description) compared to the rating rated by participants in Arm B (also described in each arm/group description). Scores greater than 0 indicate higher ratings of the sender by Arm A compared to by Arm B. For example, an index score of .18 indicates that participants in Arm A rate the sender 0.18 index (in standard deviation units) higher than those in Arm B.",
+        "timeFrame": "This outcome was assessed during Baseline survey, which took approximately 20 minutes."
+      },
+      {
+        "measure": "Rating of Signal",
+        "description": "This is an inverse-covariance-weighted index comprised of responses to survey questions on:\n\n1. recommending the video to friends and family measured on a scale of 0 to 10;\n2. recommending the flu shot to friends and family measured on a scale of 0 to 10;\n3. and the respondent's assessment of the extent to which the information contained in the video was useful measured on a scale of 1 to 5.\n\nIt is standardized to a mean of 0 and standard deviation of 1. An index score of 0 is equal to the mean. Scores less than 0 indicate lower ratings of the signal rated by participants in Arm A (described in each arm/group description) compared to the rating rated by participants in Arm B (also described in each arm/group description). Scores greater than 0 indicate higher ratings of the signal by Arm A compared to by Arm B. For example, an index score of 0.14 indicates that participants in Arm A rate the signal 0.14 index (in standard deviation units) higher than those in Arm B.",
+        "timeFrame": "This outcome was assessed during Baseline survey, which took approximately 20 minutes."
+      },
+      {
+        "measure": "Signal Content Recall",
+        "description": "This is an inverse-covariance-weighted index comprised of responses to survey questions on:\n\n1. whether age group for whom the flu vaccine is recommended (measured as a binary outcome); and\n2. whether the flu shot contains the flu virus (recall of information discussed in the video) (measured as a binary outcome).\n\nIt is standardized to a mean of 0 and standard deviation of 1. An index score of 0 is equal to the mean. Scores less than 0 indicate lower level of recalling signal content among participants in Arm A (described in each arm/group description) compared to the level among participants in Arm B (also described in each arm/group description). Scores greater than 0 indicate a higher level of recalling signal content among participants in Arm A compared to those in Arm B. For example, an index score of 0.02 indicates that participants in Arm A recall signal content 0.02 index (in standard deviation units) higher than those in Arm B.",
+        "timeFrame": "This outcome will be assessed during Baseline survey, which takes approximately 20 minutes."
+      },
+      {
+        "measure": "Safety Beliefs",
+        "description": "This is an inverse-covariance-weighted index comprised of:\n\n1. the point belief on the likelihood to contract the flu from the flu shot measured by a Likert scale and rescaled to have a support of -1 to 1.\n2. the certainty measured with a balls and bins method and rescaled to have a support of -1 to 1.\n\nIt is standardized to a mean of 0 and standard deviation of 1. An index score of 0 is equal to the mean. Scores less than 0 indicate a lower level of beliefs in the safety of flu vaccine among participants in Arm A (described in each arm/group description) compared to the level among participants in Arm B (also described in each arm/group description). Scores greater than 0 indicate a higher level of beliefs among participants in Arm A compared to those in Arm B. For example, an index score of -0.1 indicates that participants in Arm A hold such beliefs 0.1 index (in standard deviation units) lower than those in Arm B.",
+        "timeFrame": "This outcome will be assessed during Baseline survey, which takes approximately 20 minutes."
+      },
+      {
+        "measure": "Coupon Interest",
+        "description": "This is an inverse-covariance-weighted index comprised of revealed preference measures of demand for a free flu shot coupon:\n\n1. Willingness to pay (WTP) for the coupon measured as $0, $1, $2, $5, or $10\n2. demand for information regarding locations to redeem the coupon measured as a binary outcome\n\nIt is standardized to a mean of 0 and standard deviation of 1. An index score of 0 is equal to the mean. Scores less than 0 indicate a lower level of interest in a free flu shot coupon distributed after survey completion among participants in Arm A (described in each arm/group description) compared to the level among participants in Arm B (also described in each arm/group description). Scores greater than 0 indicate a higher level of interest among participants in Arm A compared to those in Arm B. For example, an index score of -0.01 indicates that participants in Arm A hold such interest -0.01 index (in standard deviation units) higher than those in Arm B.",
+        "timeFrame": "This outcome was assessed during Baseline survey, which took approximately 20 minutes."
+      },
+      {
+        "measure": "(Posterior) Flu Vaccine Intent",
+        "description": "This is the respondent's likelihood to receive the flu vaccine before the end of the flu season. This was elicited on an 11-point Likert scale (0 extremely unwilling, 10 extremely willing) after the video message treatment. We re-scaled this outcome to have a scale of 0 to 1. The reported results of the outcome compare participants in Arm A and Arm B (described in each arm/group description). For example, an intent of 0.03 indicates that participants in Arm A are 0.03 units on a scale more likely to intent to take up the flu vaccine compared to those in Arm B.",
+        "timeFrame": "This outcome was assessed after the video treatment during Baseline survey, which took approximately 20 minutes."
+      },
+      {
+        "measure": "COVID-19 Vaccine Intent",
+        "description": "This is the respondent's likelihood to take up the COVID-19 vaccine if made available free of charge. This was elicited on an 11-point Likert scale (0 extremely unwilling, 10 extremely willing) after the video message treatment. We re-scaled this outcome to have a scale of 0 to 1. The reported results of the outcome compare participants in Arm A and Arm B (described in each arm/group description). For example, an intent of 0.04 indicates that participants in Arm A are 0.04 units on a scale more likely to intent to take up the COVID-19 vaccine compared to those in Arm B.",
+        "timeFrame": "This outcome was assessed after the video treatment during Baseline survey, which took approximately 20 minutes."
+      },
+      {
+        "measure": "Flu Vaccine Take-up",
+        "description": "This is respondents' self-report in the follow-up survey on whether they or their family members had received the flu shot or redeemed the coupon since the intervention. The reported results of the outcome compare participants in Arm A and Arm B (described in each arm/group description). For example, 15.0 percentage points indicate that participants in Arm A are more likely to report that they and/or another household member received the flu vaccine by 15.p percentage points compared to those in Arm B.",
+        "timeFrame": "This outcome was assessed during the follow-up survey which was conducted at least two weeks after the initial baseline survey."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 8,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.898Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

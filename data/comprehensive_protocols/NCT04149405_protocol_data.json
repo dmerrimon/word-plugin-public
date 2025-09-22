@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT04149405",
+  "briefTitle": "Alterations of GCF Levels of Sclerostin and DKK-1 in Postmenopausal Osteoporosis",
+  "officialTitle": "Investigation of the Effects of Bisphosphonate on the Gingival Crevicular Fluid Levels of Sclerostin and the DKK-1 in Individuals With Postmenopausal Osteoporosis With Periodontal Changes",
+  "protocolDocument": {
+    "nctId": "NCT04149405",
+    "filename": "Prot_SAP_003.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-12-28",
+    "uploadDate": "2020-09-11T13:16",
+    "size": 69843,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04149405/document/Prot_SAP_003.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 43,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-06-30",
+    "completionDate": "2018-12-28",
+    "primaryCompletionDate": "2017-12-06",
+    "firstSubmitDate": "2019-10-12",
+    "firstPostDate": "2019-11-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Women with T scores less than -2.5 (groups A and C)\n* The periodontitis patients were selected based on the radiographical evidence of bone loss, presence of four or more sites with bleeding on probing (BOP), ≥5 mm pocket depth (PD) and ≥6 mm clinical attachment loss (CAL).\n* The clinically healthy control groups were selected on the basis of no radiographic bone loss or CAL and PD≤3 mm.\n\nExclusion Criteria:\n\n* Any known systemic disease rather than osteoporosis\n* Smoking\n* Antibiotic therapy within the last 3 months\n* Periodontal treatment in the last 6 months",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "51 Years",
+    "maximumAge": "66 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Sost Values for 6th Month",
+        "description": "levels of sclerostin in 6th month",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Dkk-1 Values for 6th Month",
+        "description": "levels of dickkopf-related protein-1 in 6th month",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Sost Values for 12th Month",
+        "description": "levels of sclerostin in 12th month",
+        "timeFrame": "12 month"
+      },
+      {
+        "measure": "Dkk-1 Values for 12th Month",
+        "description": "levels of dickkopf-related protein-1 in 12th month",
+        "timeFrame": "12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:04.222Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT03303469",
+  "briefTitle": "Hypoxic Changes in Hepatocellular Carcinoma (HCC) Following Trans Arterial Chemo Embolization and Stereotactic Radiation: Fluorine18 (18F) Fluoromisonidazole (FMISO) Imaging",
+  "officialTitle": "Hypoxic Changes in Hepatocellular Carcinoma (HCC) Following Trans Arterial Chemo Embolization and Stereotactic Radiation: [18F]Fluoromisonidazole (FMISO) Imaging",
+  "protocolDocument": {
+    "nctId": "NCT03303469",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-07-30",
+    "uploadDate": "2021-02-15T10:15",
+    "size": 3777867,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03303469/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 3,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-10-30",
+    "completionDate": "2021-01-06",
+    "primaryCompletionDate": "2021-01-06",
+    "firstSubmitDate": "2017-09-13",
+    "firstPostDate": "2017-10-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adult (\\> 18 years of age) patients with documented HCC tumor mass \\>3cm, who are scheduled to undergo TACE with additional selective internal radiation therapy (SIRT)\n* The appropriate criteria for inclusion for this patient population are:\n* Biopsy or radiological diagnosis of HCC (defined as Organ Procurement and Transplantation Network (OPTN\\*) Category 5 lesion either on CT or MRI)\n* Scheduled for TACE (using doxorubicin-eluting beads) + SBRT\n* Willingness to undergo PET/CT\n* Able to lie on the imaging table for up to 1 hour.\n* Able to provide signed informed consent.\n* Women with childbearing potential must have a negative urine Beta-Human Chorionic Gonadotropin (β-hCG) test day of procedure\n\nExclusion Criteria:\n\n* Estimated life expectancy \\<12 months or serious medical co-morbidities that would preclude definitive local therapy\n* Unable to lie on the imaging table\n* Age less than 18 years.\n* Pregnancy or lactation\n* Inability or unwillingness to provide informed consent.\n* Weight \\>500 lbs (the weight limit of the tomograph gantry table)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Quantitate HCC Tumor Hypoxia at Baseline Using FMISO Positron Emission Tomography (PET).",
+        "description": "Perform PET/CT imaging using FMISO at baseline to measure tumor hypoxia",
+        "timeFrame": "At baseline"
+      },
+      {
+        "measure": "Measure Changes in HCC Tumor Hypoxia and Blood Flow After Trans-arterial Chemoembolization (TACE), Prior to Radiotherapy.",
+        "description": "Perform PET/CT imaging using FMISO post-TACE and prior to Stereotactic body radiation therapy (SBRT) to determine tumor hypoxia",
+        "timeFrame": "1 month post-TACE procedures and prior to SBRT"
+      },
+      {
+        "measure": "Measure Changes in Treated HCC Tumor Hypoxia Following TACE and Radiotherapy",
+        "description": "Perform PET/CT imaging using FMISO post-SBRT to determine tumor hypoxia",
+        "timeFrame": "1 month post-SBRT"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:55.469Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,492 @@
+{
+  "nctId": "NCT05580003",
+  "briefTitle": "A Study to Learn Safety and Blood Levels of PF-07817883 in Healthy People",
+  "officialTitle": "COVID-19: A MULTIPART, PHASE 1 STUDY WITH RANDOMIZED, DOUBLE-BLIND, SPONSOR-OPEN, PLACEBO-CONTROLLED, SINGLE- AND MULTIPLE-DOSE ESCALATION TO EVALUATE THE SAFETY, TOLERABILITY AND PHARMACOKINETICS OF PF-07817883 AND OPTIONAL OPEN-LABEL, RANDOMIZED STUDY TO EVALUATE RELATIVE BIOAVAILABILITY AND FOOD EFFECT OF SOLID ORAL FORMULATION AND OPTIONAL OPEN-LABEL, NON-RANDOMIZED STUDY TO EVALUATE METABOLISM AND EXCRETION OF PF-07817883 AND OPTIONAL RANDOMIZED, OPEN-LABEL STUDY TO ASSESS THE EFFECT OF PF-07817883 ON PHARMACOKINETICS OF MIDAZOLAM IN HEALTHY ADULT PARTICIPANTS",
+  "protocolDocument": {
+    "nctId": "NCT05580003",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-03-09",
+    "uploadDate": "2024-09-12T12:20",
+    "size": 1189457,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05580003/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 94,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-10-17",
+    "completionDate": "2023-09-15",
+    "primaryCompletionDate": "2023-09-15",
+    "firstSubmitDate": "2022-10-11",
+    "firstPostDate": "2022-10-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Healthy male or female subjects between ages of 18-60 years. Male only in part-4.\n* Body Mass Index (BMI) of 17.5 to 30.5kg/m2; and a total body weight \\>50kg (110lbs). A body weight of \\>45 kg may be considered in selected cases.\n* Japanese subjects who have four Japanese biologic grandparents born in Japan\n* Chinese participants who were born in mainland China and both parents are of the Chinese descent.\n\nExclusion Criteria:\n\n* Evidence or history of clinically significant hematological, renal, endocrine, pulmonary, gastrointestinal, cardiovascular, hepatic, psychiatric, neurologic, or allergic disease (including drug allergies, but excluding untreated, asymptomatic, seasonal allergies at time of dosing)\n* Any condition possibly affecting drug absorption (eg, gastrectomy, cholecystectomy, intestinal resection).\n* Positive test result for SARS-CoV-2 infection at the time of screening or Day-1.\n* Have received COVID-19 vaccine within 7 days before screening or have received only one of the 2 required doses of COVID-19 vaccine\n* Use of tobacco or nicotine containing products in excess of the equivalents of 5 cigarettes per day or 2 chews of tobacco per day\n* Use of prescription or nonprescription drugs and dietary and herbal supplements within 28 days or 5 half lives (whichever is longer) prior to the first dose of study intervention.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Part 1: Number of Participants With Treatment Emergent Adverse Events (TEAEs)",
+        "description": "An adverse event (AE) was any untoward medical occurrence in a participant temporally associated with the use of study intervention, whether or not considered related to the study intervention. An AE was considered a TEAE if the event started during the effective duration of treatment. All events that started on or after the first dosing day and time/start time, if collected, but before the end of the study were considered as TEAEs.",
+        "timeFrame": "From start of study treatment up to 28-35 days after administration of last dose of study intervention (maximum up to 48 days)"
+      },
+      {
+        "measure": "Part 1: Number of Participants With Laboratory Test Abnormalities",
+        "description": "Laboratory parameters included: (lymphocytes less than (\\<) 0.8\\*lower limit of normal \\[LLN\\] \\[10\\^3 per millimeter cube {mm3}\\], lymphocytes/leukocytes \\<0.8\\*LLN \\[percentage {%}\\], neutrophils \\<0.8\\*LLN \\[10\\^3/mm3\\], neutrophils/leukocytes \\<0.8\\*LLN \\[%\\], monocytes/leukocytes greater than (\\>) 1.2\\*upper limit of normal \\[ULN\\] \\[%\\], partial thromboplastin time \\>1.1\\*ULN \\[seconds\\]), chemistry (bicarbonate \\<0.9\\*LLN \\[milliequivalents per liter {mEq/L}\\], creatine kinase \\>2.0\\*ULN \\[units per liter {U/L}\\], lipase \\>1.5\\*ULN \\[U/L\\]), and urinalysis (urine hemoglobin greater than or equal to \\[\\>=\\] 1, leukocyte esterase \\>=1). Number of participants with any lab test abnormalities meeting the pre-specified criteria are reported in this outcome measure.",
+        "timeFrame": "From start of study treatment up to 28-35 days after administration of last dose of study intervention (maximum up to 48 days)"
+      },
+      {
+        "measure": "Part 1: Number of Participants With Vital Signs Meeting Pre-Defined Criteria",
+        "description": "Vital signs including systolic blood pressure (SBP), diastolic blood pressure (DBP) and pulse rate (PR) were measured in a supine position after approximately 5 minutes of rest for the participant. Criteria for vital signs included: SBP: value less than (\\<) 90 millimeter of mercury (mmHg), change greater than or equal to (\\>=) 30 mmHg increase, change \\>= 30 mmHg decrease; DBP: value \\< 50 mmHg, change \\>= 20 mmHg increase, change \\>= 20 mmHg decrease; PR: value \\< 40 beats per minute (bpm), value \\> 120 bpm.",
+        "timeFrame": "Up to Day 2 of each period"
+      },
+      {
+        "measure": "Part 1: Number of Participants With Electrocardiogram (ECG) Abnormalities",
+        "description": "Standard 12 lead ECGs were obtained with the participant in a supine position after at least 5 minutes of rest using an ECG machine that automatically calculated the heart rate and measured PR interval, QT interval, QTcF and QRS complex. Number of participants with abnormalities in ECG were reported in this outcome measure.",
+        "timeFrame": "Up to Day 2 of each period"
+      },
+      {
+        "measure": "Part 2: Number of Participants With Treatment Emergent Adverse Events (TEAEs)",
+        "description": "An AE was any untoward medical occurrence in a participant temporally associated with the use of study intervention, whether or not considered related to the study intervention. An AE was considered a TEAE if the event started during the effective duration of treatment. All events that started on or after the first dosing day and time/start time, if collected, but before the end of the study were considered as TEAEs.",
+        "timeFrame": "From start of study treatment up to 38-45 days after administration of last dose of study intervention (maximum up to 55 days)"
+      },
+      {
+        "measure": "Part 2: Number of Participants With Laboratory Test Abnormalities",
+        "description": "Laboratory parameters included: hematology (lymphocytes/leukocytes \\>1.2\\*ULN \\[%\\], neutrophils \\<0.8\\*LLN \\[10\\^3/mm3\\], neutrophils/leukocytes \\<0.8\\*LLN \\[%\\], monocytes/leukocytes \\>1.2\\*ULN \\[%\\]), chemistry (urate \\>1.2\\*ULN \\[milligrams per deciliter\\] {mg/dL}), and urinalysis (ketones \\>=1, urine hemoglobin \\>=1). Number of participants with any lab test abnormalities meeting the pre-specified criteria are reported in this outcome measure.",
+        "timeFrame": "From start of study treatment up to 38-45 days after administration of last dose of study intervention (maximum up to 55 days)"
+      },
+      {
+        "measure": "Part 2: Number of Participants With Vital Signs Meeting Pre-Defined Criteria",
+        "description": "Vital signs including SBP, DBP and PR were measured in a supine position after approximately 5 minutes of rest for the participant. Criteria for vital signs included: SBP: value \\< 90 mmHg, change \\>= 30 mmHg increase, change \\>= 30 mmHg decrease; DBP: value \\< 50 mmHg, change \\>= 20 mmHg increase, change \\>= 20 mmHg decrease; PR: value \\< 40 bpm, value \\> 120 bpm. 4. Number of participants with vital signs meeting any of the pre-defined criteria is reported in this outcome measure.",
+        "timeFrame": "Up to Day 12"
+      },
+      {
+        "measure": "Part 2: Number of Participants With Electrocardiogram (ECG) Abnormalities",
+        "description": "Standard 12 lead ECGs were obtained with the participant in a supine position after at least 5 minutes of rest using an ECG machine that automatically calculated the heart rate and measured PR interval, QT interval, QTcF and QRS complex. Number of participants with abnormalities in ECG were reported in this outcome measure.",
+        "timeFrame": "Up to Day 12"
+      },
+      {
+        "measure": "Part 3:Ratio Based on Area Under Plasma Concentration Time Curve From Time 0 to Time of Last Quantifiable Concentration (AUClast) and Area Under Concentration-Time Curve From Time 0 Extrapolated to Infinite Time (AUCinf) of Oral Formulation and Suspension",
+        "description": "Data for AUClast and AUCinf are reported in the descriptive section. AUClast was calculated by the linear/log trapezoidal method. AUCinf was calculated as AUClast + (Clast/kel), where Clast was the predicted plasma concentration at the last quantifiable time point from the log-linear regression analysis. Ratio based on AUClast and AUCinf of oral formulation and suspension were reported in statistical analysis.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 3: Ratio Based on Maximum Observed Concentration (Cmax) of Oral Formulation and Suspension",
+        "description": "Data for Cmax are reported in the descriptive section. Ratio based on Cmax of oral formulation and suspension were reported in statistical analysis.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 4: Percentage of Total Dose Administered Recovered in Urine",
+        "description": "The percentage of total dose administered recovered in urine was reported in this outcome measure.",
+        "timeFrame": "Up to 144 hours post-dose"
+      },
+      {
+        "measure": "Part 4: Percentage of Total Dose Administered Recovered in Feces",
+        "description": "The percentage of total dose administered recovered in feces was reported in this outcome measure.",
+        "timeFrame": "Up to 144 hours post-dose"
+      },
+      {
+        "measure": "Part 4: Percentage of Total Dose Administered Recovered in Urine and Feces",
+        "description": "The percentage of total dose administered recovered in urine and feces was reported in this outcome measure.",
+        "timeFrame": "Up to 144 hours post-dose"
+      },
+      {
+        "measure": "Part 5: Maximum Observed Concentration (Cmax) of Midazolam",
+        "description": "Cmax of midazolam was reported in this outcome measure.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for Midazolam 5 mg arm and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for PF-07817883 600 mg (Suspension) BID/ Midazolam 5 mg arm"
+      },
+      {
+        "measure": "Part 5: Area Under the Concentration -Time Curve From Time Zero (0) Extrapolated to Infinite Time (AUCinf) of Midazolam",
+        "description": "AUCinf of midazolam was reported in this outcome measure. AUCinf was calculated as AUClast + (Clast/kel), where Clast was the predicted plasma concentration at the last quantifiable time point from the log-linear regression analysis.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for Midazolam 5 mg arm and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for PF-07817883 600 mg (Suspension) BID/ Midazolam 5 mg arm"
+      },
+      {
+        "measure": "Part 6: Number of Participants With TEAEs",
+        "description": "An AE was any untoward medical occurrence in a participant temporally associated with the use of study intervention, whether or not considered related to the study intervention. An AE was considered a TEAE if the event started during the effective duration of treatment. All events that started on or after the first dosing day and time/start time, if collected, but before the end of the study were considered as TEAEs.",
+        "timeFrame": "From start of study treatment up to 28-35 days after administration of last dose of study intervention (maximum up to 52 days)"
+      },
+      {
+        "measure": "Part 6: Number of Participants With Laboratory Test Abnormalities",
+        "description": "Laboratory parameters included: hematology (lymphocytes \\<0.6\\*LLN \\[10\\^3/mm3\\], lymphocytes/leukocytes \\>1.2\\*ULN \\[%\\], neutrophils \\<0.8\\*LLN \\[10\\^3/mm3\\], neutrophils/leukocytes \\<0.8\\*LLN \\[%\\], basophils/leukocytes \\>1.2\\*ULN \\[%\\], eosinophils/leukocytes \\>1.2\\*ULN \\[%\\], monocytes/leukocytes \\>1.2\\*ULN \\[%\\], partial thromboplastin time \\>1.1\\*ULN \\[seconds\\], prothrombin time \\>1.1\\*ULN \\[seconds\\]), chemistry (bicarbonate \\<0.9\\*LLN \\[mEq/L\\], creatine kinase \\> 2.0\\*ULN \\[U/L\\], lipase \\> 1.5\\*ULN \\[U/L\\], urobilinogen \\>=1 \\[ehrlich units/deciliter\\] {EU/dL}) and urinalysis (urine hemoglobin \\>=1, leukocyte esterase \\>=1, ketones \\>=1, bacteria \\>20 \\[per low power field\\] {/lpf}). Number of participants with any lab test abnormalities meeting the pre-specified criteria are reported in this outcome measure.",
+        "timeFrame": "From start of study treatment up to 28-35 days after administration of last dose of study intervention (maximum up to 52 days)"
+      },
+      {
+        "measure": "Part 6: Number of Participants With Vital Signs Meeting Pre-Defined Criteria",
+        "description": "Vital signs including SBP, DBP and PR were measured in a supine position after approximately 5 minutes of rest for the participant. Criteria for vital signs included: SBP: value \\< 90 mmHg, change \\>= 30 mmHg increase, change \\>= 30 mmHg decrease; DBP: value \\< 50 mmHg, change \\>= 20 mmHg increase, change \\>= 20 mmHg decrease; PR: value \\< 40 bpm, value \\> 120 bpm.",
+        "timeFrame": "Up to Day 6 of each period"
+      },
+      {
+        "measure": "Part 6: Number of Participants According to Categorization of ECG Data",
+        "description": "Standard 12 lead ECGs were obtained with the participant in a supine position after at least 5 minutes of rest using an ECG machine that automatically calculated the heart rate and measured QTcF interval, aggregate 450 milliseconds (msec) \\< value \\<= 480 msec and QTcF interval, aggregate 30 msec \\< change \\<= 60 msec. Number of participants with abnormalities in ECG were reported in this outcome measure.",
+        "timeFrame": "Up to Day 6 of each period"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Part 1: Maximum Observed Concentration (Cmax) of PF-07817883",
+        "description": "Cmax of PF-07817883 was reported in this outcome measure.",
+        "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 1: Time for Cmax (Tmax) of PF-07817883",
+        "description": "Tmax of PF-07817883 was reported in this outcome measure.",
+        "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 1: Area Under Plasma Concentration Time Curve From Time 0 to the Time of the Last Quantifiable Concentration (AUClast) of PF-07817883",
+        "description": "AUClast of PF-07817883 was reported in this outcome measure. AUClast was calculated by the linear/log trapezoidal method.",
+        "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 1: Dose Normalized Cmax (Cmax[dn]) of PF-07817883",
+        "description": "Cmax(dn) of PF-07817883 was reported in this outcome measure. Cmax(dn) was calculated as Cmax/dose.",
+        "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 1: Dose Normalized AUClast (AUClast[dn]) of PF-07817883",
+        "description": "AUClast(dn) of PF-07817883 was reported in this outcome measure. AUClast(dn) was calculated by AUClast/dose.",
+        "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 1: Area Under the Concentration -Time Curve From Time Zero (0) Extrapolated to Infinite Time (AUCinf) of PF-07817883",
+        "description": "AUCinf of PF-07817883 was reported in this outcome measure. AUCinf was calculated as AUClast + (Clast/kel), where Clast was the predicted plasma concentration at the last quantifiable time point from the log-linear regression analysis.",
+        "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 1: Dose Normalized AUCinf (AUCinf[dn]) of PF-07817883",
+        "description": "AUCinf(dn) of PF-07817883 was reported in this outcome measure. AUCinf(dn) was calculated as AUCinf/dose.",
+        "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 1: Terminal Half-Life (t1/2) of PF-07817883",
+        "description": "t1/2 of PF-07817883 was reported in this outcome measure. t1/2 was calculated by Loge(2)/kel, where kel was the terminal phase rate constant calculated by a linear regression of the log linear concentration-time curve. Only those data points judged to describe the terminal log-linear decline were used in the regression.",
+        "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 1: Apparent Volume of Distribution (Vz/F) of PF-07817883",
+        "description": "Vz/F of PF-07817883 was reported in this outcome measure. Vz/F was calculated as dose/(AUCinf\\*kel).",
+        "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 1: Apparent Clearance (CL/F) of PF-07817883",
+        "description": "CL/F of PF-07817883 was reported in this outcome measure. CL/F was calculated as dose/AUCinf.",
+        "timeFrame": "Day 1 (pre-dose, 0.25, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Maximum Observed Concentration (Cmax) of PF-07817883 on Days 1, 5 and 10",
+        "description": "Cmax of PF-07817883 was reported in this outcome measure.",
+        "timeFrame": "Day 1 and Day 5 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose) and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Time for Cmax (Tmax) of PF-07817883 on Days 1, 5 and 10",
+        "description": "Tmax of PF-07817883 was reported in this outcome measure.",
+        "timeFrame": "Day 1 and Day 5 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose) and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Area Under the Plasma Concentration-Time Profile From Time 0 to Time Tau, the Dosing Interval (AUCtau) of PF-07817883 on Days 1, 5 and 10",
+        "description": "AUCtau was defined as area under the plasma concentration-time profile from time 0 to time tau, the dosing interval, where tau= 12 hours. AUCtau of PF-07817883 was reported in this outcome measure. AUCtau was calculated by linear/log trapezoidal method.",
+        "timeFrame": "Day 1 and Day 5 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose) and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Concentration at 12 Hour Nominal Time Post-Dose (C12) of PF-07817883 on Days 5 and 10",
+        "description": "C12 of PF-07817883 was reported in this outcome measure.",
+        "timeFrame": "12 hours on Day 5 and Day 10"
+      },
+      {
+        "measure": "Part 2: Dose Normalized Cmax (Cmax[dn]) of PF-07817883 on Days 1, 5 and 10",
+        "description": "Cmax(dn) of PF-07817883 was reported in this outcome measure. Cmax(dn) was calculated as Cmax/dose.",
+        "timeFrame": "Day 1 and Day 5 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose) and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Dose Normalized AUCtau (AUCtau[dn]) of PF-07817883 on Days 1, 5 and 10",
+        "description": "AUCtau(dn) was defined as dose normalized AUCtau, where tau= 12 hours. AUCtau(dn) of PF-07817883 was reported in this outcome measure. AUCtau(dn) was calculated as AUCtau/dose.",
+        "timeFrame": "Day 1 and Day 5 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose) and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Average Concentration (Cav) of PF-07817883 on Days 5 and 10",
+        "description": "Cav of PF-07817883 was reported in this outcome measure. Cav was calculated as AUCtau/12.",
+        "timeFrame": "Day 5 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose) and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Observed Accumulation Ratio for AUCtau (Rac) of PF-07817883 on Days 5 and 10",
+        "description": "Rac was defined as observed accumulation ratio for AUCtau, where tau= 12 hours. Rac of PF-07817883 was reported in this outcome measure. Rac was calculated as AUCtau on Day 5 or Day 10/AUCtau on Day 1.",
+        "timeFrame": "Day 5 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose) and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Observed Accumulation Ratio for Cmax (Rac,Cmax) of PF-07817883 on Days 5 and 10",
+        "description": "Rac,Cmax of PF-07817883 was reported in this outcome measure. Rac,Cmax was calculated as Cmax on Day 5 or Day 10/Cmax on Day 1.",
+        "timeFrame": "Day 5 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose) and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Peak-to-Trough Ratio (PTR) of PF-07817883 on Days 5 and 10",
+        "description": "PTR of PF-07817883 was reported in this outcome measure. PTR was calculated as Cmax/Cmin.",
+        "timeFrame": "Day 5 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose) and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Apparent Clearance (CL/F) of PF-07817883 on Days 5 and 10",
+        "description": "CL/F of PF-07817883 was reported in this outcome measure. CL/F was calculated as dose/AUCinf.",
+        "timeFrame": "Day 5 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12 hours post-dose) and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Apparent Volume of Distribution (Vz/F) of PF-07817883 on Day 10",
+        "description": "Vz/F of PF-07817883 was reported in this outcome measure. Vz/F was calculated as dose/(AUCtau\\*kel).",
+        "timeFrame": "Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Terminal Half-Life (t1/2) of PF-07817883 on Day 10",
+        "description": "t1/2 of PF-07817883 was reported in this outcome measure. t1/2 was calculated by Loge(2)/kel, where kel was the terminal phase rate constant calculated by a linear regression of the log linear concentration-time curve. Only those data points judged to describe the terminal log-linear decline were used in the regression.",
+        "timeFrame": "Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 2: Amount Excreted in Urine as Unchanged Drug Over the Dosing Interval Tau (Aetau) of PF-07817883 on Day 10",
+        "description": "Aetau was defined as amount excreted in urine as unchanged drug over the dosing interval tau, where tau= 12 hours. Aetau of PF-07817883 was reported in this outcome measure. Aetau was calculated as sum of (urine volume\\*urine concentration) for each collection over the dosing interval.",
+        "timeFrame": "Day 10 (0 to 12 hours)"
+      },
+      {
+        "measure": "Part 2: Percent of Dose Excreted in Urine as Unchanged Drug Over the Dosing Interval Tau (Aetau%) of PF-07817883 on Day 10",
+        "description": "Aetau% was defined as percentage of dose excreted in urine as unchanged drug over the dosing interval tau, where tau= 12 hours. Aetau% of PF-07817883 was reported in this outcome measure. Aetau% was calculated as 100\\*Aetau/dose.",
+        "timeFrame": "Day 10 (0 to 12 hours)"
+      },
+      {
+        "measure": "Part 2: Renal Clearance (CLr) of PF-07817883 on Day 10",
+        "description": "CLr of PF-07817883 was reported in this outcome measure. CLr was calculated as Aetau/AUCtau.",
+        "timeFrame": "Day 10 (0 to 12 hours)"
+      },
+      {
+        "measure": "Part 3: Ratio Based on AUClast and AUCinf of Tablet Formulation Under Fed Condition and Fasted Condition",
+        "description": "Data for AUClast and AUCinf are reported in the descriptive section. AUClast was calculated by the linear/log trapezoidal method. AUCinf was calculated as AUClast + (Clast/kel), where Clast was the predicted plasma concentration at the last quantifiable time point from the log-linear regression analysis. Ratio based on AUClast and AUCinf of tablet formulations under fed and fasted conditions were reported in statistical analysis.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 3: Ratio Based on Maximum Observed Concentration (Cmax) of Tablet Formulation Under Fed Condition and Fasted Condition",
+        "description": "Data for Cmax are reported in the descriptive section. Ratio based on Cmax of tablet formulation under fed and fasted conditions were reported in statistical analysis.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 3: Time for Cmax (Tmax) of PF-07817883",
+        "description": "Tmax of PF-07817883 was reported in this outcome measure.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 3: Maximum Observed Concentration (Cmax) of PF-07817883",
+        "description": "Cmax of PF-07817883 was reported in this outcome measure.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 3: Area Under Plasma Concentration Time Curve From Time 0 to the Time of the Last Quantifiable Concentration (AUClast) of PF-07817883",
+        "description": "AUClast of PF-07817883 was reported in this outcome measure. AUClast was calculated by the linear/log trapezoidal method.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 3: Area Under the Concentration -Time Curve From Time Zero (0) Extrapolated to Infinite Time (AUCinf) of PF-07817883",
+        "description": "AUCinf of PF-07817883 was reported in this outcome measure. AUCinf was calculated as AUClast + (Clast/kel), where Clast was the predicted plasma concentration at the last quantifiable time point from the log-linear regression analysis.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 3: Terminal Half-Life (t1/2) of PF-07817883",
+        "description": "t1/2 of PF-07817883 was reported in this outcome measure. t1/2 was calculated by Loge(2)/kel, where kel was the terminal phase rate constant calculated by a linear regression of the log linear concentration-time curve. Only those data points judged to describe the terminal log-linear decline were used in the regression.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 3: Apparent Clearance (CL/F) of PF-07817883",
+        "description": "CL/F of PF-07817883 was reported in this outcome measure. CL/F was calculated as dose/AUCinf.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 3: Apparent Volume of Distribution (Vz/F) of PF-07817883",
+        "description": "Vz/F of PF-07817883 was reported in this outcome measure. Vz/F was calculated as dose/(AUCtau\\*kel).",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48 hours post-dose)"
+      },
+      {
+        "measure": "Part 3: Number of Participants With TEAEs",
+        "description": "An AE was any untoward medical occurrence in a participant temporally associated with the use of study intervention, whether or not considered related to the study intervention. An AE was considered a TEAE if the event started during the effective duration of treatment. All events that started on or after the first dosing day and time/start time, if collected, but before the end of the study were considered as TEAEs.",
+        "timeFrame": "From start of study treatment up to 29-36 days after administration of last dose of study intervention (maximum up to 49 days)"
+      },
+      {
+        "measure": "Part 3: Number of Participants With Laboratory Test Abnormalities",
+        "description": "Laboratory parameters included: hematology (monocytes/leukocytes \\>1.2\\*ULN \\[%\\], partial thromboplastin time \\>1.1\\*ULN \\[seconds\\]) and urinalysis (urine hemoglobin \\>=1, bacteria \\>20 \\[/lpf\\]). Number of participants with any lab test abnormalities meeting the pre-specified criteria are reported in this outcome measure.",
+        "timeFrame": "From start of study treatment up to 29-36 days after administration of last dose of study intervention (maximum up to 49 days)"
+      },
+      {
+        "measure": "Part 3: Number of Participants With Vital Signs Meeting Pre-Defined Criteria",
+        "description": "Vital signs including SBP, DBP and PR were measured in a supine position after approximately 5 minutes of rest for the participant. Criteria for vital signs included: SBP: value \\< 90 mmHg, change \\>= 30 mmHg increase, change \\>= 30 mmHg decrease; DBP: value \\< 50 mmHg, change \\>= 20 mmHg increase, change \\>= 20 mmHg decrease; PR: value \\< 40 bpm, value \\> 120 bpm. 4. Number of participants with vital signs meeting any of the pre-defined criteria is reported in this outcome measure.",
+        "timeFrame": "Up to Day 3 of each period"
+      },
+      {
+        "measure": "Part 3: Number of Participants With ECG Abnormalities",
+        "description": "Standard 12 lead ECGs were obtained with the participant in a supine position after at least 5 minutes of rest using an ECG machine that automatically calculated the heart rate and measured PR interval, QT interval, QTcF and QRS complex. Number of participants with abnormalities in ECG were reported in this outcome measure.",
+        "timeFrame": "Up to Day 3 of each period"
+      },
+      {
+        "measure": "Part 4: Time for Cmax (Tmax) of PF-07817883",
+        "description": "Tmax of PF-07817883 was reported in this outcome measure.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 4: Maximum Observed Concentration (Cmax) of PF-07817883",
+        "description": "Cmax of PF-07817883 was reported in this outcome measure.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 4: Area Under Plasma Concentration Time Curve From Time 0 to the Time of the Last Quantifiable Concentration (AUClast) of PF-07817883",
+        "description": "AUClast of PF-07817883 was reported in this outcome measure. AUClast was calculated by the linear/log trapezoidal method.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 4: Area Under the Concentration -Time Curve From Time Zero (0) Extrapolated to Infinite Time (AUCinf) of PF-07817883",
+        "description": "AUCinf of PF-07817883 was reported in this outcome measure. AUCinf was calculated as AUClast + (Clast/kel), where Clast was the predicted plasma concentration at the last quantifiable time point from the log-linear regression analysis.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 4: Terminal Half-Life (t1/2) of PF-07817883",
+        "description": "t1/2 of PF-07817883 was reported in this outcome measure. t1/2 was calculated by Loge(2)/kel, where kel was the terminal phase rate constant calculated by a linear regression of the log linear concentration-time curve. Only those data points judged to describe the terminal log-linear decline were used in the regression.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 4: Apparent Clearance (CL/F) of PF-07817883",
+        "description": "CL/F of PF-07817883 was reported in this outcome measure. CL/F was calculated as dose/AUCinf.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 4: Apparent Volume of Distribution (Vz/F) of PF-07817883",
+        "description": "Vz/F of PF-07817883 was reported in this outcome measure. Vz/F was calculated as dose/(AUCtau\\*kel).",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 48, 72 hours post-dose)"
+      },
+      {
+        "measure": "Part 4: Number of Participants With TEAEs",
+        "description": "An AE was any untoward medical occurrence in a participant temporally associated with the use of study intervention, whether or not considered related to the study intervention. An AE was considered a TEAE if the event started during the effective duration of treatment. All events that started on or after the first dosing day and time/start time, if collected, but before the end of the study were considered as TEAEs.",
+        "timeFrame": "From start of study treatment up to 29-36 days after administration of last dose of study intervention (maximum up to 47 days)"
+      },
+      {
+        "measure": "Part 4: Number of Participants With Laboratory Test Abnormalities",
+        "description": "Laboratory parameters included: hematology (mean corpuscular volume \\<0.9\\*LLN \\[cubic micrometer {um\\^3}\\], mean corpuscular hemoglobin \\<0.9\\*LLN \\[picograms per cell {pg/cell}\\], monocytes/leukocytes \\>1.2\\*ULN \\[%\\]). Number of participants with any lab test abnormalities meeting the pre-specified criteria are reported in this outcome measure.",
+        "timeFrame": "From start of study treatment up to 29-36 days after administration of last dose of study intervention (maximum up to 47 days)"
+      },
+      {
+        "measure": "Part 4: Number of Participants With Vital Signs Meeting Pre-Defined Criteria",
+        "description": "Vital signs including SBP, DBP and PR were measured in a supine position after approximately 5 minutes of rest for the participant. Criteria for vital signs included: SBP: value \\< 90 mmHg, change \\>= 30 mmHg increase, change \\>= 30 mmHg decrease; DBP: value \\< 50 mmHg, change \\>= 20 mmHg increase, change \\>= 20 mmHg decrease; PR: value \\< 40 bpm, value \\> 120 bpm.",
+        "timeFrame": "Up to Day 11"
+      },
+      {
+        "measure": "Part 4: Number of Participants With ECG Abnormalities",
+        "description": "Standard 12 lead ECGs were obtained with the participant in a supine position after at least 5 minutes of rest using an ECG machine that automatically calculated the heart rate and measured PR interval, QT interval, QTcF and QRS complex. Number of participants with abnormalities in ECG were reported in this outcome measure.",
+        "timeFrame": "Up to Day 11"
+      },
+      {
+        "measure": "Part 5: Number of Participants With TEAEs",
+        "description": "An AE was any untoward medical occurrence in a participant temporally associated with the use of study intervention, whether or not considered related to the study intervention. An AE was considered a TEAE if the event started during the effective duration of treatment. All events that started on or after the first dosing day and time/start time, if collected, but before the end of the study were considered as TEAEs.",
+        "timeFrame": "From start of study treatment up to 38-45 days after administration of last dose of study intervention (maximum up to 65 days)"
+      },
+      {
+        "measure": "Part 5: Number of Participants With Laboratory Test Abnormalities",
+        "description": "Laboratory parameters included: hematology (lymphocytes \\<0.8\\*LLN \\[10\\^3/mm3\\], lymphocytes/leukocytes \\<0.8\\*LLN \\[%\\], neutrophils/leukocytes \\<0.8\\*LLN \\[%\\], monocytes/leukocytes \\>1.2\\*ULN \\[%\\]), chemistry (amylase \\>1.5\\*ULN \\[units/liter\\] {U/L}), and urinalysis (urine hemoglobin \\>=1). Number of participants with any lab test abnormalities meeting the pre-specified criteria are reported in this outcome measure.",
+        "timeFrame": "From start of study treatment up to 38-45 days after administration of last dose of study intervention (maximum up to 65 days)"
+      },
+      {
+        "measure": "Part 5: Number of Participants With Vital Signs Meeting Pre-Defined Criteria",
+        "description": "Vital signs including SBP, DBP and PR were measured in a supine position after approximately 5 minutes of rest for the participant. Criteria for vital signs included: SBP: value \\< 90 mmHg, change \\>= 30 mmHg increase, change \\>= 30 mmHg decrease; DBP: value \\< 50 mmHg, change \\>= 20 mmHg increase, change \\>= 20 mmHg decrease; PR: value \\< 40 bpm, value \\> 120 bpm.",
+        "timeFrame": "From start of study treatment up to 38-45 days after administration of last dose of study intervention (maximum up to 65 days)"
+      },
+      {
+        "measure": "Part 5: Number of Participants With ECG Abnormalities",
+        "description": "Standard 12 lead ECGs were obtained with the participant in a supine position after at least 5 minutes of rest using an ECG machine that automatically calculated the heart rate and measured PR interval, QT interval, QTcF and QRS complex. Number of participants with abnormalities in ECG were reported in this outcome measure.",
+        "timeFrame": "From start of study treatment up to 38-45 days after administration of last dose of study intervention (maximum up to 65 days)"
+      },
+      {
+        "measure": "Part 5: Time for Cmax (Tmax) of Midazolam",
+        "description": "Tmax of midazolam was reported in this outcome measure.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for Midazolam 5 mg arm and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for PF-07817883 600 mg (Suspension) BID/ Midazolam 5 mg arm"
+      },
+      {
+        "measure": "Part 5: Area Under Plasma Concentration Time Curve From Time 0 to the Time of the Last Quantifiable Concentration (AUClast) of Midazolam",
+        "description": "AUClast of midazolam was reported in this outcome measure. AUClast was calculated by the linear/log trapezoidal method.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for Midazolam 5 mg arm and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for PF-07817883 600 mg (Suspension) BID/ Midazolam 5 mg arm"
+      },
+      {
+        "measure": "Part 5: Terminal Half-Life (t1/2) of Midazolam",
+        "description": "t1/2 of midazolam was reported in this outcome measure. t1/2 was calculated by Loge(2)/kel, where kel was the terminal phase rate constant calculated by a linear regression of the log linear concentration-time curve. Only those data points judged to describe the terminal log-linear decline were used in the regression.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for Midazolam 5 mg arm and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for PF-07817883 600 mg (Suspension) BID/ Midazolam 5 mg arm"
+      },
+      {
+        "measure": "Part 5: Apparent Clearance (CL/F) of Midazolam",
+        "description": "CL/F of midazolam was reported in this outcome measure. CL/F was calculated as dose/AUCinf.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for Midazolam 5 mg arm and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for PF-07817883 600 mg (Suspension) BID/ Midazolam 5 mg arm"
+      },
+      {
+        "measure": "Part 5: Apparent Volume of Distribution (Vz/F) of Midazolam",
+        "description": "Vz/F of midazolam was reported in this outcome measure. Vz/F was calculated as dose/(AUCinf\\*kel).",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for Midazolam 5 mg arm and Day 10 (pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 12, 16, 24, 36, 48 hours post-dose) for PF-07817883 600 mg (Suspension) BID/ Midazolam 5 mg arm"
+      },
+      {
+        "measure": "Part 6: Maximum Observed Concentration (Cmax) of PF-07817883",
+        "description": "Cmax of PF-07817883 was reported in this outcome measure.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24, 48, 72, 96, 120 hours post-dose)"
+      },
+      {
+        "measure": "Part 6: Time for Cmax (Tmax) of PF-07817883",
+        "description": "Tmax of PF-07817883 was reported in this outcome measure.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24, 48, 72, 96, 120 hours post-dose)"
+      },
+      {
+        "measure": "Part 6: Area Under Plasma Concentration Time Curve From Time 0 to the Time of the Last Quantifiable Concentration (AUClast) of PF-07817883",
+        "description": "AUClast of PF-07817883 was reported in this outcome measure. AUClast was calculated by the linear/log trapezoidal method.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24, 48, 72, 96, 120 hours post-dose)"
+      },
+      {
+        "measure": "Part 6: Area Under the Concentration -Time Curve From Time Zero (0) Extrapolated to Infinite Time (AUCinf) of PF-07817883",
+        "description": "AUCinf of PF-07817883 was reported in this outcome measure. AUCinf was calculated as AUClast + (Clast/kel), where Clast was the predicted plasma concentration at the last quantifiable time point from the log-linear regression analysis.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24, 48, 72, 96, 120 hours post-dose)"
+      },
+      {
+        "measure": "Part 6: Terminal Half-Life (t1/2) of PF-07817883",
+        "description": "t1/2 of PF-07817883 was reported in this outcome measure. t1/2 was calculated by Loge(2)/kel, where kel was the terminal phase rate constant calculated by a linear regression of the log linear concentration-time curve. Only those data points judged to describe the terminal log-linear decline were used in the regression.",
+        "timeFrame": "Day 1 (pre-dose, 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 24, 48, 72, 96, 120 hours post-dose)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 19,
+      "secondaryCount": 64,
+      "otherCount": 0,
+      "totalCount": 83
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:38.366Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

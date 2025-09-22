@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03582956",
+  "briefTitle": "Effect of Adiposity on Hepatic and Peripheral Insulin Resistance in Type 1 Diabetes",
+  "officialTitle": "Effect of Adiposity on Hepatic and Peripheral Insulin Resistance in Type 1 Diabetes",
+  "protocolDocument": {
+    "nctId": "NCT03582956",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-09-14",
+    "uploadDate": "2023-08-11T16:04",
+    "size": 10362256,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03582956/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 23,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-01",
+    "completionDate": "2022-08-12",
+    "primaryCompletionDate": "2022-08-12",
+    "firstSubmitDate": "2018-06-15",
+    "firstPostDate": "2018-07-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* All Participants:\n\n  1. Clinical diagnosis of T1D\n  2. HbA1c ≤9%\n  3. Diabetes duration of at least 12 months\n\nAdolescents with T1D:\n\n1. Age 12-16 years\n2. BMI \\<75th for lean pediatric subjects, \\> 85th percentile for overweight/obese pediatric subjects;\n3. Tanner stage 2-5\n4. Parent able to provide written consent and participant able to provide assent\n5. Not meeting MRI safety criteria\n6. Claustrophobia that will prevent participation in the MRI\n\nLean, young adults with T1D:\n\n1. Age 18-24 years\n2. BMI 18.5-24.9 kg/m2\n3. Able to provide written consent.\n\nExclusion Criteria:\n\n1. Use of adjunctive diabetes medications\n2. Weight loss medications within the past six months\n3. Current psychiatric disorders, including eating disorders (DSM-V criteria)\n4. Known liver disease other than nonalcoholic hepatic steatosis\n5. Females who are pregnant or lactating\n6. Anemia or another medical condition that precludes participation in the study",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "maximumAge": "24 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Rate of Glucose Metabolism",
+        "description": "Insulin function will be measured using a euglycemic hyperinsulinemic clamp procedure. A clamp measures insulin sensitivity. During the low does insulin phase, this reflects hepatic glucose metabolism, which is reported here. A higher glucose infusion rate number indicates more sensitivity to insulin; a lower number means more resistance to insulin.",
+        "timeFrame": "120 minutes"
+      },
+      {
+        "measure": "Rate of Lipid Metabolism",
+        "description": "Insulin function will be measured using a euglycemic hyperinsulinemic clamp procedure. A clamp measures insulin sensitivity. During the low dose insulin phase, glycerol turnover (rate of appearance) can reflect adipose specific insulin sensitivity, which is reported here. Insulin should suppress glycerol turnover. A higher number reflects more resistance to insulin; a lower number means more sensitivity to insulin.",
+        "timeFrame": "120 minutes"
+      },
+      {
+        "measure": "Hepatic Sensitivity to Low Dose Insulin",
+        "description": "Insulin function will be measured using a euglycemic hyperinsulinemic clamp procedure. A clamp measures insulin sensitivity. Insulin should suppress glucose production. Change of the glucose rate of appearance (which is reported here, and the glucose rate of appearance is measured here utilizing isotopic enrichment) during the low dose insulin phase reflects hepatic sensitivity to insulin. A greater degree of decline reflects more sensitivity to insulin; a smaller number means more resistance to insulin.\n\nThis is calculated as the low dose insulin phase glucose rate of appearance minus the baseline phase glucose rate of appearance, divided by the basal phase glucose rate of appearance and multiplied x 100.",
+        "timeFrame": "120 minutes"
+      },
+      {
+        "measure": "Peripheral Sensitivity to High Dose Insulin",
+        "description": "Insulin function will be measured using a euglycemic hyperinsulinemic clamp procedure. A clamp measures insulin sensitivity. Insulin should suppress glucose production. Change of the glucose rate of appearance (which is reported here, and the glucose rate of appearance is measured here utilizing isotopic enrichment) during the high dose phase reflects peripheral sensitivity to insulin. A greater degree of decline reflects more sensitivity to insulin; a smaller number means more resistance to insulin.\n\nThis is calculated as the high dose insulin phase glucose rate of appearance minus the baseline phase glucose rate of appearance, divided by the basal phase glucose rate of appearance and multiplied x 100.",
+        "timeFrame": "240 minutes"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:15.277Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

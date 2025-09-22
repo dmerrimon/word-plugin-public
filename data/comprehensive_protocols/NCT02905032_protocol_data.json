@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02905032",
+  "briefTitle": "SDM for Stroke Prevention in Atrial Fibrillation",
+  "officialTitle": "Shared Decision Making for Stroke Prevention in Atrial Fibrillation (SDM4Afib): A Randomized Trial",
+  "protocolDocument": {
+    "nctId": "NCT02905032",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-12",
+    "uploadDate": "2021-11-09T14:02",
+    "size": 448380,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02905032/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1186,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-09-01",
+    "completionDate": "2020-06-27",
+    "primaryCompletionDate": "2019-06-27",
+    "firstSubmitDate": "2016-09-09",
+    "firstPostDate": "2016-09-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Clinician Inclusion Criteria:\n\n• All clinicians (MDs, NP/PAs, PharmDs) that are responsible for the modality of Anticoagulation in eligible AF patients at participating sites, without exclusion\n\nPatient Inclusion Criteria:\n\n* ≥ 18 years of age\n* Chronic nonvalvular atrial fibrillation deemed at high risk of thromboembolic strokes (CHA2D2-VASc Score ≥ 1, or 2 in women)\n* Able to read and understand (despite cognitive, sensorial, hearing or language challenges) the informed consent document as determined by the study coordinator during consent\n\nPatient Exclusion Criteria:\n\n• Clinician indicates that patient is not a candidate for a discussion about anticoagulation medication",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Clinician Satisfied Encounters",
+        "description": "The number of encounters that the clinicians were satisfied with the decision-making process. The results reported for this Outcome Measure reflect the response of the clinician for each patient. A 5 point likert scale questioning satisfaction with discussion about anticoagulation medication choice. The 5 point likert scale ranges from 1-5, with 1 being not at all satisfied and 5 being completely satisfied. Any values of 4 or 5 were considered to be satisfied.",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Number of Clinician Recommendation",
+        "description": "The number of encounters were the clinician would recommend the decision making process approach. The results reported for this Outcome Measure reflect the response of the clinician for each patient. Clinician was asked whether they would recommend the approached used to other clinician for other discussions on a 7 point Likert scale. The 7 point likert scale ranges from 1-7, with 1 being no I would strongly recommend against it and 7 being yes I would strongly recommend it. Any values of 6 or 7 were considered to be clinician would recommend.",
+        "timeFrame": "1 month"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Anticoagulant Medication Use",
+        "description": "The number of subjects who chose to start or continue receive an anticoagulant medication.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Patient Involvement",
+        "description": "Patient involvement in decision-making as assessed through video recordings of the encounters using the Observing Patient Involvement in Decision Making 12-item scale. The 12 items measure observed patient involvement. Each of the 12 items have possible scores that range from 0 (the behavior is not observed) to 4 (the behavior is exhibited to a very high standard). To calculate the total score for each patient, the 12 items are summed, divided by 48 (the maximum possible score), and multiplied by 100. Total score minimum is 0, maximum is 100. The higher the total score the higher the patient involvement.",
+        "timeFrame": "1 month"
+      },
+      {
+        "measure": "Encounter Duration",
+        "description": "The length of time for the subjects visit with the clinician, as measured in minutes.",
+        "timeFrame": "1 month"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:37.040Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

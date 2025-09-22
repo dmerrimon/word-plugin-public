@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT03491969",
+  "briefTitle": "Clinical Study of Lipoic Acid on Ischemic Heart Failure",
+  "officialTitle": "Clinical Study of Lipoic Acid on Ischemic Heart Failure",
+  "protocolDocument": {
+    "nctId": "NCT03491969",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-07-05",
+    "uploadDate": "2025-06-24T20:12",
+    "size": 228509,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03491969/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 300,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-01",
+    "completionDate": "2025-02-01",
+    "primaryCompletionDate": "2025-02-01",
+    "firstSubmitDate": "2018-04-02",
+    "firstPostDate": "2018-04-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* patients ≥ 18 years of age, male or female.\n\n  * Patients with a diagnosis of AMI (\\>30 days) according to the global definition. ③Patients with a diagnosis of CHF (NYHA class II-IV) and reduced ejection fraction (EF =\\< 50%) and elevated BNP（NT-proBNP≥600pg/ml or BNP≥150pg/ml; NT-proBNP ≥400 pg/mL or BNP ≥100 pg/mL if patients was hospitalized for heart failure within 12months).\n\n    * Patients must be treated with standardized heart failure medications treatment at a stable dose for at least 4 weeks.\n\n      * Patients must give written informed consent before any assessment is performed.\n\nExclusion Criteria:\n\n* Use of other investigational drugs at the time of enrollment, or within 30 days or 5 half-lives of enrollment, whichever is longer.\n\n  * allergy to any of the study drugs, drugs of similar chemical classes（Vitamin B） as well as known or suspected contraindications to the study drugs.\n\n    * Previous history of intolerance to recommended target doses of α-LA.\n\n      * Current acute decompensated HF (exacerbation of chronic HF manifested by signs and symptoms that may require intravenous therapy).\n\n        ⑤ Symptomatic hypotension and/or a SBP \\< 100 mmHg.\n\n        ⑥ Severe liver function abnormalities (ALT or AST more than 3 times of the normal upper limit).\n\n        ⑦ Estimated GFR \\< 30 mL/min/1.73m2 as measured by the simplified MDRD formula.\n\n        ⑧ Serum potassium \\> 5.2 mmol/L.\n\n        ⑨ Pregnant women or women preparing for birth.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants That Had First Occurrence of the Composite Endpoint",
+        "description": "either all-cause death or heart failure (HF) hospitalization",
+        "timeFrame": "up to 24 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:30.109Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

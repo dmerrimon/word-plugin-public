@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT02439775",
+  "briefTitle": "SPYRAL HTN-ON MED Study of Renal Denervation With the Symplicity Spyral™ Multi-electrode Renal Denervation System",
+  "officialTitle": "Global Clinical Study of Renal Denervation With the Symplicity Spyral™ Multi-electrode Renal Denervation System in Patients With Uncontrolled Hypertension on Standard Medical Therapy (SPYRAL HTN-ON MED)",
+  "protocolDocument": {
+    "nctId": "NCT02439775",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-09-10",
+    "uploadDate": "2023-08-17T14:58",
+    "size": 2174582,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02439775/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 337,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-07",
+    "completionDate": "2025-09-28",
+    "primaryCompletionDate": "2022-08-18",
+    "firstSubmitDate": "2015-04-28",
+    "firstPostDate": "2015-05-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Individual has office systolic blood pressure (SBP) ≥ 150 mmHg and \\<180 mmHg and a diastolic blood pressure (DBP) ≥ 90 mmHg when receiving a medication regimen of one, two, or three antihypertensive medication classes.\n* Individual has 24-hour Ambulatory Blood Pressure Monitoring (ABPM) average SBP ≥ 140 mmHg and \\< 170 mmHg.\n\nExclusion Criteria:\n\n* Individual lacks appropriate renal artery anatomy.\n* Individual has estimated glomerular filtration rate (eGFR) of \\<45.\n* Individual has type 1 diabetes mellitus or poorly-controlled type 2 diabetes mellitus.\n* Individual has one or more episodes of orthostatic hypotension.\n* Individual requires chronic oxygen support or mechanical ventilation other than nocturnal respiratory support for sleep apnea.\n* Individual has primary pulmonary hypertension.\n* Individual is pregnant, nursing or planning to become pregnant.\n* Individual has frequent intermittent or chronic pain that results in treatment with nonsteroidal anti-inflammatory drugs (NSAIDs) for two or more days per week over the month prior to enrollment\n* Individual has stable or unstable angina within 3 months of enrollment, myocardial infarction within 3 months of enrollment; heart failure, cerebrovascular accident or transient ischemic attack, or atrial fibrillation at any time.\n* Individual works night shifts.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Acute and Chronic Safety by Evaluating Incidence of Major Adverse Events",
+        "description": "The primary safety endpoint of the study is the incidence of Major Adverse Events (MAE), defined as a composite of the following events: All-cause mortality, End Stage Renal Disease (ESRD), Significant embolic event resulting in end-organ damage, Renal artery perforation requiring intervention, Renal artery dissection requiring intervention, Vascular complications, Hospitalization for hypertensive crisis not related to confirmed non-adherence with medications or the protocol, New renal artery stenosis \\>70%, confirmed by angiography and as a determined by the angiographic core laboratory, through one-month post-randomization (6- months for new renal artery stenosis).",
+        "timeFrame": "From baseline to 1 month post-procedure (6 months for new renal artery stenosis)"
+      },
+      {
+        "measure": "Change in Systolic Blood Pressure as Measured by 24-hour Ambulatory Blood Pressure Monitoring (ABPM)",
+        "description": "Baseline adjusted change (using Analysis of Covariance) in systolic blood pressure (SBP) from baseline (Screening Visit 2) to 6 months post-procedure as measured by 24-hour Ambulatory Blood Pressure Monitoring (ABPM).",
+        "timeFrame": "From baseline to 6 months post-procedure"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Office Systolic Blood Pressure",
+        "description": "Change in office systolic blood pressure from baseline (Screening Visit 2) to 6 months post-procedure",
+        "timeFrame": "From baseline to 6 months post-procedure"
+      },
+      {
+        "measure": "Antihypertensive Medication Usage and Changes to 6-months",
+        "description": "Number of medications from baseline (Screening Visit 2) through 6 Months post-procedure",
+        "timeFrame": "From baseline to 6-month post-procedure"
+      },
+      {
+        "measure": "Antihypertensive Medication Burden to 6-months",
+        "description": "Based on the prescribed medications reported, medication burden was calculated using Medication Index 2 score which is a composite index based on the doses of antihypertensive medications multiplied by the number of medications prescribed; all classes (ACE/ARB, calcium channel blockers, etc.) were considered equivalent in potency. Higher score indicates higher dosages being prescribed over the standard dose.\n\nMinimum value 0; No Maximum value",
+        "timeFrame": "From baseline to 6 Months post-procedure"
+      },
+      {
+        "measure": "Medication Changes",
+        "description": "Patients who had medication changes based on Medication Index 2 drug testing data. Medication Index 2 score is a composite index based on the doses of antihypertensive medications multiplied by the number of medications prescribed; all classes (ACE/ARB, calcium channel blockers, etc.) were considered equivalent in potency.",
+        "timeFrame": "Baseline to 6-months post-procedure"
+      },
+      {
+        "measure": "Incidence of Achieving Target Office Systolic Blood Pressure",
+        "description": "Incidence of achieving target office systolic blood pressure (SBP\\<140 mmHg) at 6 months post- procedure.",
+        "timeFrame": "From baseline to 6 months post-procedure"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:09.013Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

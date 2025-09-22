@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04022499",
+  "briefTitle": "Presessions for the National Diabetes Prevention Program",
+  "officialTitle": "Enhanced Enrollment in the National Diabetes Prevention Program for the Underserved: a Randomized Control Trial",
+  "protocolDocument": {
+    "nctId": "NCT04022499",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-07-21",
+    "uploadDate": "2025-05-14T15:27",
+    "size": 467196,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04022499/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 483,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-08-06",
+    "completionDate": "2024-08-01",
+    "primaryCompletionDate": "2024-04-29",
+    "firstSubmitDate": "2019-07-15",
+    "firstPostDate": "2019-07-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Denver Health patients\n* BMI≥25 (≥23 if Asian)\n* History of recent prediabetes or former gestational diabetes (GDM) diagnosis (patients without known prediabetes or past GDM may also be eligible based on a risk screening tool)\n\nExclusion Criteria:\n\n* Pregnant at enrollment\n* Known to have diabetes\n* Non-English or non-Spanish-speaking.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Weight Loss",
+        "description": "Percent body weight change from baseline to 12 months",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:14.863Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

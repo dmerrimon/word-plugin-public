@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT03673345",
+  "briefTitle": "Development of Childhood Anti-Influenza Immunity",
+  "officialTitle": "Effect of Influenza Vaccination or Infection on the Development of Protective Immunity in Children",
+  "protocolDocument": {
+    "nctId": "NCT03673345",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-02-04",
+    "uploadDate": "2021-12-10T17:45",
+    "size": 738868,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03673345/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 125,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-09-25",
+    "completionDate": "2020-12-22",
+    "primaryCompletionDate": "2020-12-22",
+    "firstSubmitDate": "2018-08-30",
+    "firstPostDate": "2018-09-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age:\n\n   * Between 6 and 12 months at the time of enrollment to participate in the vaccination arm of age cohort 1A\n   * Between 3 and 12 months at the time of enrollment to participate in the natural infection arm of age cohort 1B\n   * \\> 12 months, birth date after 2009 for either the vaccination (A) or natural infection (B) arm of age cohort 2\n   * Birth date between 2006 and 2009 for either the vaccination (A) or natural infection (B) arm of age cohort 3\n   * Birth date between 2003 and 2006 for the vaccination (A) or natural infection (B) arm of age cohort 4\n2. Gestational age of = / \\> 37 weeks at birth\n3. Parent/Legally Authorized Representative (LAR) can provide informed consent, with children = / \\> 8 years of age providing informed assent\n4. Available for the duration of the study\n5. History of previous primary inactivated influenza vaccine (IIV) vaccination (at least 2 previous doses for age \\< 9 yrs, at least 1 previous dose for age 9 and older) only for participation in the vaccination (A) arm of age cohorts 2, 3, or 4\n6. Acute illness documented by rapid influenza test, polymerase chain reaction (PCR) testing, or testing done by either University of Rochester Medical Center (URMC) Labs or Rochester General Hospital (RGH) Clinical Microbiology Labs to be due to influenza virus only for participation in the natural infection arms (B) of age cohorts 1-4\n7. Children enrolled in the cohort A (vaccination cohort) are required to have an appropriate weight and vital signs as determined by a licensed medical provider. Children enrolled in the cohort B (natural infection cohort) are required to have an appropriate weight and clinically stable vital signs as determined by a licensed medical provider\\* \\*Children will not qualify for study participation if their weight is more than 2.5 standard deviations below population norms. This will be determined through calculation of a Z score using the PediTools website (https://www.peditools.org/) utilizing the appropriate Centers for Disease Control and Prevention (CDC) growth calculators for age\n\nExclusion Criteria:\n\n1. Immunosuppression as a result of an underlying illness or condition (including the human immunodeficiency virus (HIV) or a primary immunodeficiency syndrome)\n2. Active neoplastic disease\n3. Use of potentially immunosuppressive medications currently or within the past year (including chemotherapeutic agents) or chronic (\\> 2 weeks) use of oral corticosteroid therapy\n4. A diagnosis of asthma requiring chronic inhaled corticosteriod use\n5. Participation in any clinical research study evaluating an investigational drug or therapy that is inconsistent with current standard of care within two (2) months of enrollment in this study\n6. Previous administration of influenza vaccine in the current influenza season only for subjects in the vaccination arm (A) of the study (subjects presenting with acute influenza infection with vaccine failure will be eligible to enroll in the B cohorts)\n7. Receipt of immunoglobulin or another blood product within the year prior to study enrollment\n8. An acute illness within the previous 3 days or temperature \\> 38 degrees Celsius on screening except for participation in the natural infection (B) cohorts.\n9. A contraindication to influenza vaccination except infants between 3 and 5 months presenting with natural influenza infection whose only contraindication is their current age.\n10. Anemia in the previous 6 months (children on iron supplementation with no documentation of abnormal hemoglobin and/or hematocrit for \\>6 months will be allowed to participate in the study)\n11. Recent (within 120 days) hospitalization, excluding hospitalization for delivery or subjects enrolled in the acute cohort who have been hospitalized for influenza-related reasons\n12. Any medical history or other condition that the study Principal Investigator (PI) feels may have a more than a minimal impact on the immune response or may impact safety of the subject",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "3 Months",
+    "maximumAge": "15 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Frequency of CD4 T Cells With a Given Functional Potential",
+        "description": "Percent of ICOS/PD1+ expressing cells within CXCR5+ CD4 T cell population",
+        "timeFrame": "Year 2 (Visit 5)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:33.408Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

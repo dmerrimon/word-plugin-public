@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03324451",
+  "briefTitle": "The Effectiveness of Intervention on Insulin Injection",
+  "officialTitle": "The Effectiveness of Intervention on Insulin Injection in Insulin-naive Patients With Type 2 Diabetes: Application of the Transtheoretical Model",
+  "protocolDocument": {
+    "nctId": "NCT03324451",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-10-18",
+    "uploadDate": "2017-10-24T04:06",
+    "size": 789631,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03324451/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 151,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-03-01",
+    "completionDate": "2020-03-01",
+    "primaryCompletionDate": "2020-03-01",
+    "firstSubmitDate": "2017-08-29",
+    "firstPostDate": "2017-10-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n(1) diagnosed with T2DM for at least half a year; (2) aged 20-70 years old; (3) controlling diabetes only through oral medication, without previous experience in insulin injection; (4) HbA1c≧8.5% as measured more than twice in a year; (5) considered suitable and recommended by the doctor to initiate insulin injection.\n\nExclusion Criteria:\n\n(1) unable to communicate with language; (2) incapable of self-administering insulin injection due to visual or muscular impairment.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Glycosylated Hemoglobin (HbA1c) Levels",
+        "description": "Collected from blood test to assess the Glycosylated hemoglobin (HbA1c) levels",
+        "timeFrame": "At baseline and 12 months after the intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Diabetes Empowerment Process",
+        "description": "A 13-item Chinese version of the Diabetes Empowerment Process Scale was used to assess the perceived level of empowerment by healthcare providers in participants. Each item was rated on a 5-point scale with scores ranging from 0 (strongly disagree) to 4 (strongly agree). The total score range from 13 to 65. A higher score indicated higher perceived patient empowerment.",
+        "timeFrame": "At baseline and 12 months after the intervention"
+      },
+      {
+        "measure": "Change in Diabetes Distress",
+        "description": "An 8-item Chinese version of the short-form Problem Areas in Diabetes Scale was used to assess the levels of diabetes distress in participants. The response of each item was rated from 0 (not a problem) to 4 (serious problem). The total score ranged from 8 to 32. A higher score represented severer diabetes distress.",
+        "timeFrame": "At baseline and 12 months after the intervention"
+      },
+      {
+        "measure": "Change in Quality of Life",
+        "description": "A 15-item Diabetes-Specific Quality-of-Life Scale was used to assess the subjective appraisal of participants in their perceived degree to which their current health-related aspects in life were affected by emotional suffering, social functioning, adherence to treatment regimen, and diabetic-specific symptoms. Each item was rated from \"very much\" (0 point) to \"not at all\" (4 points). The total score ranged from 0 to 60. A higher score indicated better quality of life.",
+        "timeFrame": "At baseline and 12 months after the intervention"
+      },
+      {
+        "measure": "Change in Body Mass Index",
+        "description": "Physiological parameter which will be collected from body weight scale and height scale, and will be converted to body mass index (weight (kg)/ height(m) 2",
+        "timeFrame": "At baseline and 12 months after the intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:11.657Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

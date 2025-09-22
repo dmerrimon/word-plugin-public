@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT04250636",
+  "briefTitle": "3BNC117-LS and 10-1074-LS in Viremic HIV-infected Individuals",
+  "officialTitle": "An Open Label, Single Arm Study of the Safety, Pharmacokinetics and Antiretroviral Activity of the Combination of 3BNC117-LS and 10-1074-LS in Viremic HIV-infected Individuals.",
+  "protocolDocument": {
+    "nctId": "NCT04250636",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-08-03",
+    "uploadDate": "2023-04-07T17:36",
+    "size": 1967269,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04250636/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 6,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-13",
+    "completionDate": "2022-02-11",
+    "primaryCompletionDate": "2022-01-21",
+    "firstSubmitDate": "2020-01-30",
+    "firstPostDate": "2020-01-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Males and females, \\>18 years of age.\n2. Confirmed HIV-1 infection.\n3. Off ART for at least 4 weeks with a HIV-1 plasma RNA level between 500 and 100,000 copies/mL (ART-naïve or off ART due to intolerance or by choice).\n4. Current CD4+ T cell count \\> 300 cells/μl.\n5. If sexually active male or female, and participating in sexual activity that could lead to pregnancy or transmission of HIV, agrees to use two effective methods of contraception (i.e. condom with spermicide, diaphragm with spermicide, hormone-eluting IUD, hormone-based contraceptive with condom) from 10 days prior to and six months after 3BNC117-LS and 10-1074-LS administration.\n\nExclusion Criteria:\n\n1. Have a history of AIDS-defining illness within 3 years prior to enrollment.\n2. History of systemic corticosteroids, immunosuppressive anti-cancer, or other medications considered significant by the trial physician within the last 6 months.\n3. Any clinically significant acute or chronic medical condition (such as autoimmune diseases), other than HIV infection, that in the opinion of the investigator would preclude participation.\n4. Hepatitis B or C infection as indicated by the presence of Hepatitis B surface antigen (HBsAg) or hepatitis C virus RNA (HCV-RNA) in blood.\n5. Laboratory abnormalities in the parameters listed below:\n\n   * Absolute neutrophil count ≤ 1,000 cells/μl;\n   * Hemoglobin ≤ 10 gm/dL;\n   * Platelet count ≤ 100,000 cells/μl;\n   * ALT ≥ 1.5 x ULN;\n   * AST ≥ 1.5 x ULN;\n   * Alkaline phosphatase ≥ 1.5 x ULN;\n   * Total bilirubin \\> 1.25 x ULN;\n   * eGFR \\< 60 mL/min/1.73m2.\n6. Pregnancy or lactation.\n7. Any vaccination within 14 days prior to mAb infusions, except for influenza vaccine.\n8. Receipt of another investigational product currently or within the past 12 weeks, or expected concurrent participation in another study in which investigational products will be administered.\n9. Receipt of any experimental HIV vaccine or anti-HIV monoclonal antibody therapy in the past.\n10. History of severe reaction to a vaccine or drug infusion or history of severe allergic reactions.\n11. Individuals with known hypersensitivity to any constituent of the investigational products.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Grade 3 and Serious Adverse Events",
+        "description": "The number of participants with treatment-related solicited and unsolicited grade 3 and serious adverse events (including confirmed laboratory abnormalities).",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Peak Concentration",
+        "description": "Peak concentration of 3BNC117-LS and 10-1074-LS when administered intravenously and in combination to viremic HIV-infected individuals.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Half-life",
+        "description": "Half-life of 3BNC117-LS and 10-1074-LS when administered intravenously and in combination to viremic HIV-infected individuals.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Area Under Curve",
+        "description": "Area under curve of 3BNC117-LS and 10-1074-LS when administered intravenously and in combination to viremic HIV-infected individuals.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Maximum Decline in Plasma HIV-1 RNA Level",
+        "description": "Maximum decline in plasma HIV-1 RNA level after 3BNC117-LS plus 10-1074-LS intravenous infusions in viremic HIV-infected individuals through week 4 after infusions.",
+        "timeFrame": "4 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Anti-drug Antibodies",
+        "description": "Number of individuals with treatment-induced anti-drug antibodies against each mAb and magnitude of the response.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Adverse Events",
+        "description": "The number of adverse events that occur during the study follow up period after 3BNC117-LS and 10-1074-LS administration.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Laboratory Abnormalities",
+        "description": "The number of confirmed laboratory abnormalities that occur during the study follow up period after 3BNC117-LS and 10-1074-LS administration.",
+        "timeFrame": "24 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:20.784Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT04613739",
+  "briefTitle": "Asthma in Families Facing Out-of-pocket Requirements Due to COVID-19",
+  "officialTitle": "Comparing Patient-Centered Outcomes for Adults and Children With Asthma in High-Deductible Health Plans With and Without Preventive Drug Lists: COVID Enhancement",
+  "protocolDocument": {
+    "nctId": "NCT04613739",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-01-19",
+    "uploadDate": "2022-02-25T12:51",
+    "size": 270037,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04613739/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 56,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-12-08",
+    "completionDate": "2021-09-01",
+    "primaryCompletionDate": "2021-09-01",
+    "firstSubmitDate": "2020-10-29",
+    "firstPostDate": "2020-11-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Aim 1:\n\nInclusion Criteria:\n\n* Adults aged 18-64 years who have asthma or have a child with asthma aged 4-17 years\n* Lost employer-sponsored health insurance after COVID-19 was declared a pandemic in March 2020\n\nExclusion Criteria:\n\n* Previous use of AAFA's insurance chat bot\n\nAim 2 (qualitative study):\n\nAs above, plus:\n\nInclusion Criteria:\n\n\\- Completed four-month follow-up survey for Aim 1",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "4 Years",
+    "maximumAge": "64 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Insurance Coverage",
+        "description": "Coverage status (has any insurance coverage or not)",
+        "timeFrame": "At follow-up (four months)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Medication Adherence",
+        "description": "Report of using less asthma medication than prescribed because of cost",
+        "timeFrame": "At follow-up (four months)"
+      },
+      {
+        "measure": "Financial Burden",
+        "description": "Report of: 1) problems paying medical bills for asthma care, or 2) having to borrow money because of the amount required to pay for asthma care",
+        "timeFrame": "At follow-up (four months)"
+      },
+      {
+        "measure": "Delayed/Forgone Care Due to Cost",
+        "description": "Change in report of: 1) using less asthma medication than prescribed because of cost,or 2) delaying or avoiding going to the doctor for asthma because of cost",
+        "timeFrame": "From baseline to follow-up (four months)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:23.781Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

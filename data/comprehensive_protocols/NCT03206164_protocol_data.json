@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03206164",
+  "briefTitle": "HealthMatters@24/7 eLearning for People Supporting Adults With Intellectual and Developmental Disabilities",
+  "officialTitle": "HealthMatters@24/7 Asynchronous Health Promotion eLearning for People Supporting Adults With Intellectual and Developmental Disabilities",
+  "protocolDocument": {
+    "nctId": "NCT03206164",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-06-24",
+    "uploadDate": "2024-06-17T15:59",
+    "size": 169045,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03206164/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 274,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-01",
+    "completionDate": "2021-11-30",
+    "primaryCompletionDate": "2021-11-30",
+    "firstSubmitDate": "2017-06-28",
+    "firstPostDate": "2017-07-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Must work in a community based organization providing services to people with intellectual and developmental disabilities\n* Must read english\n* Must be over the age of 18\n\nExclusion Criteria:\n\n* Do not work in a community based organization providing services to people with intellectual and developmental disabilities\n* Do not read english\n* Under the age of 18",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "online organizational HealthMatters Assessments (oHMA)",
+        "description": "oHMA evaluates organizational needs and capacity for developing a health promotion plan including programs, services, environmental support, resources, and culture to provide health promoting activities.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Process Evaluation",
+        "description": "Will evaluate participants ability to develop and implement Strategic Action Plans for Health and Wellness, Wellness Committees, and greater numbers of organizational resources for health promotion",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "36-item Corporate eLearning Survey",
+        "description": "Measures participants perception of on-job productivity, job performance, job satisfaction and organizational commitment.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:16.989Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

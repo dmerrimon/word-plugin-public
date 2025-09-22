@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT04343248",
+  "briefTitle": "Trial to Evaluate the Efficacy and Safety of Nitazoxanide (NTZ) for Post-Exposure Prophylaxis of COVID-19 and Other Viral Respiratory Illnesses in Elderly Residents of Long-Term Care Facilities (LTCF)",
+  "officialTitle": "A Randomized, Double-Blind, Placebo Controlled Trial to Evaluate the Efficacy and Safety of Nitazoxanide (NTZ) for Post-Exposure Prophylaxis of COVID-19 and Other Viral Respiratory Illnesses in Elderly Residents of Long-Term Care Facilities (LTCF)",
+  "protocolDocument": {
+    "nctId": "NCT04343248",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-08-28",
+    "uploadDate": "2024-06-06T10:29",
+    "size": 15934799,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04343248/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 190,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-12",
+    "completionDate": "2021-02-01",
+    "primaryCompletionDate": "2021-02-01",
+    "firstSubmitDate": "2020-04-08",
+    "firstPostDate": "2020-04-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male and female residents of LTCFs at least 55 years of age.\n* Willing and able to provide written informed consent and comply with the requirements of the protocol.\n* At least one symptomatic laboratory-confirmed COVID-19 illness identified among residents or staff of the LTCF within 10 days prior to randomization.\n\nExclusion Criteria:\n\n* Alzheimer's disease, dementia, or other mental incapacity which precludes comprehension of the study requirements or symptom diary.\n* Subjects expected to require hospitalization within the 8-week treatment and follow-up period.\n* Subjects with a history of COVID-19 or known to have developed anti-SARS- CoV-2 antibodies.\n* Subjects who experienced a previous episode of acute upper respiratory tract infection, otitis, bronchitis or sinusitis or received antibiotics for these conditions or antiviral therapy for influenza within two weeks prior to and including study day 1.\n* Receipt of any dose of NTZ within 7 days prior to screening.\n* Treatment with any investigational drug or vaccine within 30 days prior to screening or unwilling to avoid them during the course of the study.\n* Known sensitivity to NTZ or any of the excipients comprising the study medication.\n* Subjects unable to swallow oral tablets or capsules.\n* Subjects taking medications considered to be major CYP2C8 substrates.\n* Subjects who, in the judgment of the Investigator, will be unlikely to comply with the requirements of this protocol.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "55 Years",
+    "maximumAge": "120 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Symptomatic Laboratory-confirmed COVID-19",
+        "description": "The proportion of subjects with symptomatic laboratory-confirmed COVID-19 identified after start of treatment and before the end of the 6-week treatment period. NOTE: No statistical analyses were performed as enrollment was terminated early. See caveats and limitations.",
+        "timeFrame": "up to 6 weeks"
+      },
+      {
+        "measure": "Symptomatic Laboratory-confirmed VRI",
+        "description": "The proportion of subjects with symptomatic laboratory-confirmed VRI identified after the start of treatment and before the end of the 6-week treatment period. NOTE: No statistical analyses were performed as enrollment was terminated early. See caveats and limitations.",
+        "timeFrame": "up to 6 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Hospitalization Due to COVID-19 or Complications Thereof",
+        "description": "Proportion of subjects hospitalized due to COVID-19 or complications thereof. NOTE: No statistical analyses were performed as enrollment was terminated early. See caveats and limitations",
+        "timeFrame": "Up to 6 weeks"
+      },
+      {
+        "measure": "Mortality Due to COVID-19 or Complications Thereof",
+        "description": "Proportion of subjects experiencing mortality due to COVID-19 or complications thereof. NOTE: No statistical analyses were performed as enrollment was terminated early. See caveats and limitations.",
+        "timeFrame": "Up to 6 weeks"
+      },
+      {
+        "measure": "Presence of Anti-SARS-CoV-2 at Weeks 6 or 8",
+        "description": "Proportion of subjects with anti-SARS-CoV-2 antibodies at Week 6 or 8 visits. NOTE: No statistical analyses were performed as enrollment was terminated early. See caveats and limitations.",
+        "timeFrame": "Up to 8 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:38.679Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

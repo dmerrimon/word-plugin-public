@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT03860597",
+  "briefTitle": "Memantine Effects on Sensorimotor Gating and Neurocognition in Schizophrenia",
+  "officialTitle": "Memantine Effects on Sensorimotor Gating and Neurocognition in Schizophrenia",
+  "protocolDocument": {
+    "nctId": "NCT03860597",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-06-21",
+    "uploadDate": "2022-10-11T12:56",
+    "size": 397746,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03860597/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 42,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-04-01",
+    "completionDate": "2021-03-31",
+    "primaryCompletionDate": "2021-03-31",
+    "firstSubmitDate": "2019-02-28",
+    "firstPostDate": "2019-03-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* diagnosis of schizophrenia OR schizoaffective-depressed OR healthy subjects\n* ages 18-50 for all subjects\n* double barrier contraception for all subjects\n* not pregnant for all subjects\n\nExclusion Criteria:\n\n* DSM-IV Axis I or II Diagnosis for for healthy subjects\n* MEM or amantadine for patients\n* current substance abuse for all subjects\n* current recreational drug use for all subjects\n* history of other significant medical illness (e.g. cancer, diabetes, heart disease, HIV, seizures) for all subjects\n* open head injury or closed head injury with loss of consciousness \\> 1 min for all subjects\n* hearing or visual impairment for all subjects\n* pregnancy for all subjects\n* dementia for all subjects\n* mental retardation for all subjects",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "50 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Prepulse Inhibition (PPI)",
+        "description": "PPI of the startle reflex is the automatic reduction in startle magnitude (assessed by EMG of orbicularis oculi) when a startling stimulus (40 ms 118 dB(A) noise burst; \"PULSE\") is preceded (10-120 msec) by a weak stimulus (here a 20 msec burst 16 dB over background \"PREPULSE\"). A %PPI metric is calculated based on the relative startle magnitude on (PREPULSE + PULSE) trials vs. PULSE alone trials. Possible maximal inhibition is 100%; there is no maximal \"negative\" value of inhibition. There is no clear \"advantage\" or \"disadvantage\" for lower or higher %PPI values, though on average, schizophrenia patients demonstrate lower % values compared to matched healthy subjects. Day 1 was baseline testing: testing occurred, data was collected, but no \"intervention\" was given. There were two possible \"interventions\": active (MEM 20 mg po) and placebo. One intervention was given on day 7 post baseline, the other intervention was given on day 14 post baseline, with order of intervention balanced.",
+        "timeFrame": "7 and 14 days post baseline"
+      },
+      {
+        "measure": "Mismatch Negativity (MMN); Unit of Measure of MMN is Microvolts.",
+        "description": "85 dB SPL stimuli were presented via Etymotic ER3-A insert earphones. A 4-tone auditory oddball paradigm with 82% standards \\& 18% deviant stimuli, differed from standard in pitch, duration, or both. A pseudorandomized sequence produced a minimum of 3 standard tones between each deviant stimulus. All tones had 5-ms rise/fall times presented with a fixed 500-ms stimulus onset asynchrony. Subjects viewed a silent movie \\& instructed to ignore auditory stimuli. EEG were continuously recorded at a sampling rate of 2048-Hz from 64 channels, using BioSemi ActiveTwo system \\& downsampled to 512-Hz. Deviant-minus-standard difference waves were generated for each deviant type \\& low-pass filtered (20-Hz zerophase shift, 24 dB/octave rolloff). MMN was computed as mean amplitude across 135-205 ms range for each deviant type in difference waveforms at electrode Fz. Data were analyzed by RM-ANOVA, with diagnosis as a between-subject factor, \\& drug condition (placebo vs MEM) as a within-subject factor.",
+        "timeFrame": "7 and 14 days post baseline"
+      },
+      {
+        "measure": "Gamma Auditory Steady-state Response (ASSR). The Primary Unit of Measure of Auditory Steady State Response (ASSR) is Gamma Evoked Power (γEP), Expressed as \"Microvolts-squared\".",
+        "description": "1 ms, 85 dB clicks were presented in 500 ms trains at a frequency of 40 Hz; 250 click trains were played (inter-train interval=0.5 s). EEG was continuously recorded with 64-channel BioSemi ActiveTwo system (sampling rate=2048 Hz). Data processed offline via Matlab, EEGlab, \\& BrainVision Analyzer. Continuous data were segmented relative to stimulus onset (-100 ms to 500 ms) \\& each epoch was baseline-corrected relative to 100 ms pre-stimulus interval. γEP was assessed based on first 100 artifact-free epochs at Fz. Averaged epochs across click trains were transformed into power spectrum via fast Fourier transform using a bin width of 2 Hz. 40 Hz power spectrum was averaged across 4 Hz band from 38-42 Hz. Data were analyzed by RM-ANOVA, with diagnosis as a between- \\& drug condition (placebo vs MEM) as a within-subject factor. Analyses revealed robust \\& time bin-independent effects of diagnosis \\& drug across 200-500 ms window \\& thus this interval was the focus of all subsequent analyses.",
+        "timeFrame": "7 and 14 days post baseline"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:18.598Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

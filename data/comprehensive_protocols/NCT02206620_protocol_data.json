@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT02206620",
+  "briefTitle": "Effects of Cholinergic Augmentation on Measures of Balance and Gait",
+  "officialTitle": "Effects of Cholinergic Augmentation on Measures of Balance and Gait",
+  "protocolDocument": {
+    "nctId": "NCT02206620",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-01-15",
+    "uploadDate": "2019-09-24T17:00",
+    "size": 809151,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02206620/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 49,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-07",
+    "completionDate": "2017-07",
+    "primaryCompletionDate": "2017-07",
+    "firstSubmitDate": "2014-07-29",
+    "firstPostDate": "2014-08-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 30 years old or older\n* Diagnosis of idiopathic Parkinson's disease\n* Stand unassisted (without use of an assistance device) and walk continuously for at least 2 minutes.\n\nExclusion Criteria:\n\n* musculoskeletal disorders that affect standing and walking\n* Uncorrected vision disturbance\n* Vestibular problems\n* Major depression\n* Hallucinations or other psychiatric disturbances\n* Tachycardia\n* Bradycardia\n* Arrhythmias\n* Peptic ulcer disease\n* Use of anticholinergics\n* Use of cholinesterase inhibitors\n* Use of bladder antispasmodics\n* Use of tricyclic antidepressants",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Delta Medio-lateral Postural Sway Range (Foam)",
+        "description": "Increased body sway while standing may be markers for increased risk of falling in Parkinson's disease. Sway was measured with an inertial sensor attached to the waist. Participants did this task on a foam pad. We reported the delta in the donepezil and placebo phases \\[post-donepezil - pre-donepezil for the donepezil phase, and post-placebo - pre-placebo for the placebo phase\\].",
+        "timeFrame": "Six weeks"
+      },
+      {
+        "measure": "Delta of the Variability of Stride Time While Walking",
+        "description": "Variability in stride time time and an increase with dual tasking is another marker for increased fall risk in Parkinson's disease. Stride time variability was measured with inertial sensors attached to both feet. The delta for each phase is reported \\[post-donepezil - pre-donepezil for the donepezil phase, and post-placebo - pre-placebo for the placebo phase\\].",
+        "timeFrame": "Six weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Short-latency Afferent Inhibition is a Marker of Cortical Cholinergic Activity",
+        "description": "Short-latency afferent inhibition (SAI) by a peripheral stimulation is a transcranial magnetic stimulation method to evaluate cortical cholinergic activity. Short-latency afferent Inhibition will be used to determine if our subjects with Parkinson's disease have evidence of reduced cholinergic tone which correlates with their measures of postural and gait instability. We report the SAI at the end of each phase (post-placebo phase and post-donepezil phase). SAI is reported in motor-evoked potential (MEP).",
+        "timeFrame": "Six weeks"
+      },
+      {
+        "measure": "Attention Network Test",
+        "description": "Attention Network Test (ANT) is 15 minute computerized test or reaction times with various cues and targets designed to assess alerting, orienting and executive control of attention. Deficits of attention are related to fall risk and may be affected by donepezil.\n\nThe delta of the Orienting Network Efficiency is reported for each phase (pre- and post-donepezil phase and pre- and post-placebo phase).\n\nDetails: In accordance with Fan et al. (2002), the subtraction method was applied to isolate the efficiency of the three attentional networks as follows: for the alerting network efficiency: mean RT NC trials - mean RT DC trials; for the orienting network efficiency: mean RT CC trials - mean RT SC trials; and for the executive network efficiency: mean RT I trials - mean RT C trials. For both the alerting and orienting effects, higher subtraction scores indicate greater efficiency; by contrast, the more efficient the executive network is, the lower the subtraction score.",
+        "timeFrame": "Six weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:44.781Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

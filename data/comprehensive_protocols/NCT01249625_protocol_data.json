@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT01249625",
+  "briefTitle": "The Respiratory Protection Effectiveness Clinical Trial",
+  "officialTitle": "Incidence of Respiratory Illness in Outpatient Healthcare Workers Who Wear Respirators or Medical Masks While Caring for Patients",
+  "protocolDocument": {
+    "nctId": "NCT01249625",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-05-17",
+    "uploadDate": "2019-04-02T11:12",
+    "size": 4346751,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01249625/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2862,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2010-12",
+    "completionDate": "2018-03",
+    "primaryCompletionDate": "2018-03",
+    "firstSubmitDate": "2010-11-29",
+    "firstPostDate": "2010-11-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Clinical site leadership has agreed to have one or more staff participate in the trial\n* Subject meets the definition of \"healthcare personnel\"\n* Subject able to read and sign informed consent\n* Subject agrees to all requirements of the protocol, including fit testing and diary keeping\n* Subject's age is 18 or greater\n* Subject passes fit testing for one of the study supplied respirator models and agrees to use that model for the entire intervention period of the study (if in respirator arm).\n\nExclusion Criteria:\n\n* Subject self-identified as having severe heart, lung, neurological or other systemic disease that one or more Investigator believes could preclude safe participation\n* Known to not tolerate wearing respiratory protective equipment for any period\n* Facial hair, or other issue such as facial adornments, precluding respirator OSHA-compliant fit testing or proper mask fit during the study period\n* Advised by Occupational Health (or other qualified clinician) to not wear the same or similar respirator or medical mask models used in this study\n* In the opinion of the Investigator, may not be able to reasonably participate in the trial for any reason\n* Self-identified as in, or will be in the third trimester of pregnancy, during the study period.\n* Subject rotating in 2 different ResPECT study clinic sites /clusters during the 12-week study period.\n* Subject works less than 75% of the intervention period in that clinic.\n* Subject is a previous participant of the ResPECT Study, but does not consent for data from previous flu season(s) to be linked.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Protective Effects of N95 Respirators vs Medical Masks (MM) as Assessed by Number of Influenza A and B Events",
+        "description": "Number of influenza A and B events in healthcare practitioners wearing N95 respirators compared to medical masks.",
+        "timeFrame": "60 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Protective Effects of N95 Respirators vs Medical Masks as Assessed by Number of Influenza-like Illnesses",
+        "description": "Number of influenza-like illnesses in healthcare practitioners wearing N95 respirators compared to medical masks.",
+        "timeFrame": "60 weeks"
+      },
+      {
+        "measure": "Protective Effects of N95 Respirators vs Medical Masks as Assessed by Number of Lab Confirmed Respiratory Illnesses",
+        "description": "Number of lab confirmed respiratory illnesses in healthcare practitioners wearing N95 respirators compared to medical masks.",
+        "timeFrame": "60 weeks"
+      },
+      {
+        "measure": "Protective Effects of N95 Respirators vs Medical Masks as Assessed by Number of Lab Detected Respiratory Infections",
+        "description": "Number of lab detected respiratory infections in healthcare practitioners wearing N95 respirators compared to medical masks.",
+        "timeFrame": "60 weeks"
+      },
+      {
+        "measure": "Protective Effects of N95 Respirators vs Medical Masks as Assessed by Number of Acute Respiratory Illnesses",
+        "description": "Number of acute respiratory illnesses in healthcare practitioners wearing N95 respirators compared to medical masks.",
+        "timeFrame": "60 weeks"
+      },
+      {
+        "measure": "Protective Effects of N95 Respirators vs Medical Masks as Assessed by Number of Laboratory Confirmed Illness",
+        "description": "Number of laboratory confirmed influenza illnesses in healthcare practitioners wearing N95 respirators compared to medical masks.",
+        "timeFrame": "60 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:34.236Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

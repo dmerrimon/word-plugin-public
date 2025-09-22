@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT01736124",
+  "briefTitle": "Computerized Cognitive Training for Diabetic Elderly Veterans",
+  "officialTitle": "Computerized Cognitive Training to Improve Cognition in Diabetic Elderly Veterans",
+  "protocolDocument": {
+    "nctId": "NCT01736124",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-01-06",
+    "uploadDate": "2020-08-27T11:30",
+    "size": 352650,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01736124/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 199,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-04-07",
+    "completionDate": "2018-01-31",
+    "primaryCompletionDate": "2018-01-31",
+    "firstSubmitDate": "2012-11-08",
+    "firstPostDate": "2012-11-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 55 years old or above\n* A diagnosis of type 2 diabetes\n* Access to computer and internet\n* Has an informant\n* Self-management score 18 or below\n\nExclusion Criteria:\n\n* Dementia or prescribed AD medications\n* Major medical, psychiatric, or neurological conditions that affect cognitive performance\n* Severe impairment of vision, hearing or fine motor control necessary for computer operation",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "55 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Diabetes Self-management",
+        "description": "The data below represent values of the Diabetes Self-Management Questionnaire (DSMQ) scores at 6 months post-intervention, the primary outcome. DSMQ scores range from 0 to 20, with higher scores indicating better self-management, the same as baseline.",
+        "timeFrame": "6 months after the intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Medication Adherence",
+        "description": "Medication adherence was assessed by the Continuous Multiple interval measure of Gaps in therapy (CMG), using diabetes medication refill data from the CPRS for the full year post-intervention. To calculate CMG percentage, the total number of days without medication refills when due - refill gap-days - was divided by 365, the days in a year. Multiplying this fraction by 100 provides the CMG percentage, where a higher percentage indicates worse medication adherence. The data below represent the CMG percentage at 12 months post-intervention.",
+        "timeFrame": "12 months post-intervention"
+      },
+      {
+        "measure": "Memory",
+        "description": "As with baseline memory score, the outcome score was the mean of Word List Memory and Logical Memory (Story A) tests, each providing three scores: immediate recall, delayed recall, and recognition tasks after conversion to a common unit of measurement. However, to standardize these outcome tasks, the statistics from which the baseline z-scores were calculated (mean\\_baseline and SD\\_baseline from the full sample before randomization) were used, rather than the means of the given outcome period: standardized score = (outcome task score - mean\\_baseline) / SD\\_baseline. Thus, while baseline task scores were conventional z-scores, the six-month post-intervention standardized scores were not, in order to best inform the outcome measure and better facilitate comparison with baseline. The data below represent outcome values at 6 months. Like the baseline measure, this measure does not have a theoretical minimum or maximum, and higher scores indicate better performance.",
+        "timeFrame": "6 month after the intervention"
+      },
+      {
+        "measure": "Executive Function/Attention",
+        "description": "As with baseline attention/executive function score, the outcome score was the mean of the Target Cancellation (TMX, Diamond), Trail Making (A, B; reversed), Digit Symbol Substitution, and, Digit Span (Forward, Backward) tasks after conversion to a common unit of measurement. However, to standardize these outcome tasks, the statistics from which the baseline z-scores were calculated (mean\\_baseline and SD\\_baseline from the full sample before randomization) were used, rather than the means of the given outcome period: standardized score = (outcome task score - mean\\_baseline) / SD\\_baseline. Thus, while baseline task scores were conventional z-scores, the six-month post-intervention standardized scores were not, in order to best inform the outcome measure and better facilitate comparison with baseline. The data below represent outcome values at 6 months. Like the baseline measure, this measure does not have a theoretical minimum or maximum, and higher scores indicate better performance.",
+        "timeFrame": "6 months after the intervention"
+      },
+      {
+        "measure": "Hemoglobin A1c",
+        "description": "A measure of glycemic control derived from blood sample. The data below represent outcome values at 6 months. Higher values represent poorer control of glycation.",
+        "timeFrame": "6 months after the intervention"
+      },
+      {
+        "measure": "Systolic Blood Pressure",
+        "description": "A measure of the extent of pressure that blood is exerting against an individual's artery walls when the heart beats, assessed using a blood pressure cuff. Higher values indicate worse outcome. The data below represent outcome values at 6 months.",
+        "timeFrame": "6 months after the intervention"
+      },
+      {
+        "measure": "Diastolic Blood Pressure",
+        "description": "A measure of the extent of pressure of the blood in the arteries when the heart is filling, assessed using a blood pressure cuff. Higher values indicate worse outcome. The data below represent outcome values at 6 months.",
+        "timeFrame": "assessed 6 months after intervention"
+      },
+      {
+        "measure": "Prospective Memory",
+        "description": "The \"Appointments - Delayed Recall\" subtest of the Rivermead Behavioral Memory Test - Third Edition (RBMT - 3) is a test of prospective memory - remembering to do something in the future. The examinee was instructed to ask two questions when an alarm rings 25 minutes later. For each question, a score of 2 was given when a participant responded without requiring a prompt, 1 point when a prompt was needed and elicited a correct response, and 0 when there was no appropriate response despite prompting. Scores were summed and the total score ranges from 0 to 4. Higher scores indicate better performance. The data below represent outcome values at 6 months.",
+        "timeFrame": "6 months after the intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:10.854Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

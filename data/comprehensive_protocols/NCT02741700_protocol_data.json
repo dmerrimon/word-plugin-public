@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT02741700",
+  "briefTitle": "SToRytelling to Improve DiseasE Outcomes in GOut: The STRIDE-GO2 Study",
+  "officialTitle": "STorytelling to Improve DiseasE Outcomes in GoUT: The STRIDE-GO Study",
+  "protocolDocument": {
+    "nctId": "NCT02741700",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-05-22",
+    "uploadDate": "2021-12-06T13:13",
+    "size": 255387,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02741700/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 306,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-31",
+    "completionDate": "2021-08-31",
+    "primaryCompletionDate": "2020-12-31",
+    "firstSubmitDate": "2016-03-21",
+    "firstPostDate": "2016-04-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* African American Veteran Patients with Gout currently on urate-lowering therapy (ULT; most commonly allopurinol) with either low ULT adherence, defined as an average medication possession ration (MPR) \\<0.80 or MPR \\>=0.80\n\nExclusion Criteria:\n\n* participants who use pill-box for ULT medication use\n* participants who Opt-out for the research will not be contacted",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "19 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Medication Adherence",
+        "description": "ULT adherence, directly measured by using MEMS (Medication Event Monitoring System) Caps at 3, 6, and 9 months (assess intervention's effect) and 12 months (assess the durability of effect)",
+        "timeFrame": "3, 6, 9, and 12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Gout Flares",
+        "description": "Participant-reported total number of gout flares in the last 1 month",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Patient Satisfaction",
+        "description": "Patient satisfaction with medication on the patient questionnaire (SATMED composite score), range 0-100. The SATMED-Q contains 17 items, each scored on a 5-point Likert scale. The total composite score ranges between 0 and 68. The score was converted to a percentage as recommended (=(raw score\\*100)/68); higher score = more satisfaction with medication.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Target Serum Urate",
+        "description": "Serum urate with absolute value in mg/dl, as indirect measures of better ULT adherence and important gout outcomes",
+        "timeFrame": "12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:57.683Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

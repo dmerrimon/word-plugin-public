@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT03074331",
+  "briefTitle": "Sofosbuvir/Velpatasvir Fixed Dose Combination for 12 Weeks in Adults With Chronic Hepatitis C Virus (HCV) Infection",
+  "officialTitle": "A Phase 3, Open-label Study to Investigate the Efficacy and Safety of Sofosbuvir/Velpatasvir Fixed Dose Combination for 12 Weeks in Subjects With Chronic Hepatitis C Virus (HCV) Infection",
+  "protocolDocument": {
+    "nctId": "NCT03074331",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-02-12",
+    "uploadDate": "2019-02-13T20:04",
+    "size": 705467,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03074331/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 130,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-03-23",
+    "completionDate": "2018-02-07",
+    "primaryCompletionDate": "2018-02-07",
+    "firstSubmitDate": "2017-02-24",
+    "firstPostDate": "2017-03-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Willing and able to provide written informed consent\n* HCV RNA detected at screening\n* Chronic HCV infection (≥ 6 months) documented by medical history or liver biopsy\n* Classification as treatment naïve or treatment experienced. Approximately 20% may be treatment-experienced.\n* Cirrhosis determination (approximately 20% may have cirrhosis)\n* Females of childbearing potential must have a negative urine pregnancy test at Screening and on Day 1 prior to enrollment.\n* Male individuals and female individuals of childbearing potential who engage in heterosexual intercourse must agree to use protocol specified method(s) of contraception as described in the study protocol\n* Lactating females must agree to discontinue nursing before the study drug is administered\n* Adults must be able to comply with the dosing instructions for study drug administration and able to complete the study schedule of assessments\n\nKey Exclusion Criteria:\n\n* Current or prior history of any of the following:\n\n  * Clinically-significant illness (other than HCV) or any other major medical disorder that may interfere with individual's treatment, assessment or compliance with the protocol\n  * Clinical hepatic decompensation (ie, ascites, encephalopathy or variceal hemorrhage)\n  * Liver transplantation\n  * Hepatocellular carcinoma (HCC) (as determined by appropriate imaging at screening for those with cirrhosis) or current malignancy for which the patient is receiving treatment or which may interfere with individual's treatment, assessment or compliance with the protocol.\n* Screening laboratory parameters outside of defined threshold\n* Prior exposure to HCV NS5A inhibitor\n* Pregnant or nursing female\n* Infection with hepatitis B virus (HBV) or human immunodeficiency virus (HIV)\n* Use of any prohibited concomitant medications as described in study protocol\n* Known hypersensitivity to VEL, SOF, or formulation excipients\n\nNote: Other protocol defined Inclusion/Exclusion criteria may apply.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Sustained Virologic Response (SVR) 12 Weeks After Discontinuation of Therapy (SVR12)",
+        "description": "SVR12 was defined as HCV RNA \\< the lower limit of quantitation (LLOQ; ie, 15 IU/mL) at 12 weeks after stopping study treatment.",
+        "timeFrame": "Posttreatment Week 12"
+      },
+      {
+        "measure": "Percentage of Participants Who Permanently Discontinued Any Study Drug Due to an Adverse Event",
+        "timeFrame": "Up to Week 12"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With Virologic Failure",
+        "description": "Virologic failure was defined as the following:\n\n* On Treatment Virologic Failure: HCV RNA persistently ≥ LLOQ through 12 weeks of treatment (nonresponse), or\n* Relapse: HCV RNA ≥ LLOQ at Posttreatment Week 12 having achieved HCV RNA \\< LLOQ at end of treatment.",
+        "timeFrame": "Up to Posttreatment Week 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:25.193Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

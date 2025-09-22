@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT05575232",
+  "briefTitle": "Effectiveness and Usability of a Mobile Application to Assist in the Treatment of Arterial Hypertension",
+  "officialTitle": "Effectiveness and Usability of a Mobile Application to Assist in the Pharmacological and Non-pharmacological Treatment of Arterial Hypertension",
+  "protocolDocument": {
+    "nctId": "NCT05575232",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2022-09-13",
+    "uploadDate": "2022-09-13T10:15",
+    "size": 260619,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05575232/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 52,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-10-01",
+    "completionDate": "2024-01-01",
+    "primaryCompletionDate": "2023-12-01",
+    "firstSubmitDate": "2022-09-13",
+    "firstPostDate": "2022-10-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Have a clinical diagnosis of SAH;\n* Have been using antihypertensive medication for more than three months;\n* Cannot be involved in the regular practice of physical activities.\n* Have a smartphone.\n* Not have cognitive disabilities that limit the understanding and use of an application and/or physical limitations that make it difficult to practice physical activities;\n\nExclusion Criteria:\n\n* Changes in the type and/or dose of antihypertensive drugs used during the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Changes in clinic systolic blood pressure",
+        "description": "The laboratory blood pressure (systolic and diastolic) will be obtained in two days, at a similar time, using the OMRON automatic equipment, model 742HEM. On each day, three measurements will be performed with an interval of one minute between them, with the cuff placed on the left arm, elevated to the height of the midpoint of the sternum. If the variation of these three measurements is greater than 4 mmHg for systolic and/or diastolic blood pressure, new measurements will be performed until this established criterion is met. The average value between the measurements obtained on the different days will be recorded as a reference value at the different moments of the study.",
+        "timeFrame": "up to 8 weeks"
+      },
+      {
+        "measure": "Changes in clinic diastolic blood pressure",
+        "description": "The laboratory blood pressure (systolic and diastolic) will be obtained in two days, at a similar time, using the OMRON automatic equipment, model 742HEM. On each day, three measurements will be performed with an interval of one minute between them, with the cuff placed on the left arm, elevated to the height of the midpoint of the sternum. If the variation of these three measurements is greater than 4 mmHg for systolic and/or diastolic blood pressure, new measurements will be performed until this established criterion is met. The average value between the measurements obtained on the different days will be recorded as a reference value at the different moments of the study.",
+        "timeFrame": "up to 8 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Changes in medication adherence levels",
+        "description": "Will be assessed using the Morisky's Therapeutic Adherence Scale of eight items",
+        "timeFrame": "up to 8 weeks"
+      },
+      {
+        "measure": "Changes in physical activity leves",
+        "description": "Will be assessed using accelerometry, using devices of the GT3X and GT3X+ models (Actigraph Pensacola, FL, USA) and the Actilife software (Actigraph Pensacola, FL, USA)",
+        "timeFrame": "up to 8 weeks"
+      },
+      {
+        "measure": "Changes in lifestyle",
+        "description": "Will be evaluated using an adapted version of the Fantastic questionnaire which includes questions related to the following components: nutrition, physical activity, preventive behavior, social relationships and stress control. For each question, patients will answer whether such behavior is not part of their lifestyle, rarely matches, almost always matches, or always matches.",
+        "timeFrame": "up to 8 weeks"
+      },
+      {
+        "measure": "Patient satisfaction with the application",
+        "description": "Patients undergoing the GA will be invited to answer an adapted version of the assessment scale for smartphone applications for health care, proposed by Jim and Kim 24, which contains 23 items in total, related to the assessment of content, objectivity, interface design, writing style and technology, with response options ranging from zero (not at all) to four (a lot), generating an overall score.",
+        "timeFrame": "through study completion, an average of 8 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:15.369Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

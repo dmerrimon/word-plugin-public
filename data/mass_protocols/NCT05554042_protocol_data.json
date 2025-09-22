@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT05554042",
+  "briefTitle": "Kintsugi Voice Device Study",
+  "officialTitle": "Kintsugi Voice Device Study",
+  "protocolDocument": {
+    "nctId": "NCT05554042",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-09-07",
+    "uploadDate": "2022-09-27T10:23",
+    "size": 350425,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05554042/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 132,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-09-23",
+    "completionDate": "2023-07-05",
+    "primaryCompletionDate": "2023-07-05",
+    "firstSubmitDate": "2022-09-21",
+    "firstPostDate": "2022-09-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subjects greater than or equal to 22 years of age at the time of informed consent\n* Participants must be able to read, understand, and sign the Informed Consent Form\n* Access to a laptop, smartphone, tablet, or other Device with a functioning microphone\n* Participants must be willing to be videotaped as part of the study\n* Stated willingness to comply with all study procedures and availability for the duration of the study\n* Fluency in English\n* Availability for the duration of the study\n* The participant must reside within the state of California\n\nExclusion Criteria:\n\n* Any impairment that would prevent participants from completing an online survey and/or engage in clinician assessment interviews (e.g., visual impairment, motor impairment, hearing impairment, acute intoxication)\n* Any known history of neurodegenerative or Central Nervous System disorders\n* Any known history of schizophrenia, psychosis, or severe cognitive deficits\n* Any known presence of disorders that may lead to false signal of depression or anxiety including Multiple Sclerosis, Amyotrophic Lateral Sclerosis, Parkinson's Disease, Stroke, Traumatic Brain Injury\n* Presence of voice disorders that may impact vocal cords such as acute or chronic laryngitis, vocal cord paresis or paralysis, or spasmodic dysphonia\n* Any known history of vocal cord injury or cerebrovascular accident or head trauma with residual dysarthria in the past year\n* Past or active heavy smokers if there is impact on the vocal cords\n* Any known history of congenital deafness\n* Subjects who do not speak English\n* Subjects who do not live in the United States\n* Subjects who have previously participated in any Kintsugi-sponsored study",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "22 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Sensitivity and Specificity of the Kintsugi Voice Device for a Significant Depressive Episode",
+        "description": "Discriminates the presence of a significant depressive episode using the Structure Clinical Interview for the Diagnostic Statistical Manual for Mental Disorders-5 as the ground truth, diagnostic standard",
+        "timeFrame": "Through study completion, on average 2 weeks"
+      },
+      {
+        "measure": "Sensitivity and Specificity of the Kintsugi Voice Device for a Significant Anxiety State",
+        "description": "Discriminates the presence of a significant anxiety state using the Structure Clinical Interview for the Diagnostic Statistical Manual for Mental Disorders-5 as the ground truth, diagnostic standard",
+        "timeFrame": "Through study completion, on average 2 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Proportion of Indeterminate Outputs",
+        "description": "Measure the proportion of participants who complete the study and the device output is Indeterminate.",
+        "timeFrame": "Through study completion, on average 2 weeks."
+      },
+      {
+        "measure": "Sensitivity and Specificity of the Kintsugi Voice Device with Patient Health Questionnaire-9 Ground Truth",
+        "description": "Discriminating the presence of a significant depressive episode against the Patient Health Questionnaire-9 as the ground truth.",
+        "timeFrame": "Through study completion, on average 2 weeks"
+      },
+      {
+        "measure": "Sensitivity and Specificity of the Kintsugi Voice Device with Generalized Anxiety Disorder-7 Ground Truth",
+        "description": "Discriminating the presence of a significant anxiety state against the Generalized Anxiety Disorder-7 as the ground truth.",
+        "timeFrame": "Through study completion, on average 2 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:02.570Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT03310983",
+  "briefTitle": "Growth and Adiposity in Newborns: The Influence of Prenatal Docosahexaenoic Acid (DHA) Supplementation",
+  "officialTitle": "Growth and Adiposity in Newborns: The Influence of Prenatal Docosahexaenoic Acid (DHA) Supplementation",
+  "protocolDocument": {
+    "nctId": "NCT03310983",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-03-19",
+    "uploadDate": "2023-11-30T14:14",
+    "size": 613833,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03310983/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 254,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-11-01",
+    "completionDate": "2022-08-31",
+    "primaryCompletionDate": "2022-08-31",
+    "firstSubmitDate": "2017-10-10",
+    "firstPostDate": "2017-10-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Participants for this study are invited from the parent study, ADORE. Eligibility listed reflects criteria for the ADORE study.\n\nInclusion Criteria:\n\n* Agree to consume study capsules and a typical prenatal supplement of 200 mg DHA\n* Available by telephone\n\nExclusion Criteria:\n\n* Expecting multiple infants\n* Gestational age at baseline \\<12 weeks or \\>20 weeks\n* Unable or unwilling to agree to consume capsules until delivery\n* Unwilling to discontinue use of another prenatal supplement with DHA that contains ≥ 200 mg DHA\n* Women with allergy to any component of DHA product (including algae), soybean oil or corn oil",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Infant Fat Mass (FM)",
+        "description": "Difference in FM in offspring exposed to high vs. low DHA and excessive vs. non-excessive GWG",
+        "timeFrame": "24 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Central Fat Mass",
+        "description": "Difference in FM in offspring exposed to high vs. low DHA and excessive vs. non-excessive GWG",
+        "timeFrame": "24 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:14.503Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

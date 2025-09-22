@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT04281030",
+  "briefTitle": "Improving Health Outcomes of Migraine Patients Who Present to the Emergency Department",
+  "officialTitle": "Improving Health Outcomes of Migraine Patients Who Present to the Emergency Department",
+  "protocolDocument": {
+    "nctId": "NCT04281030",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-06-25",
+    "uploadDate": "2023-06-01T09:35",
+    "size": 307287,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04281030/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 112,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-06-30",
+    "completionDate": "2022-03-30",
+    "primaryCompletionDate": "2022-03-30",
+    "firstSubmitDate": "2019-12-26",
+    "firstPostDate": "2020-02-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Meets migraine criteria and has 4+ headache days a month\n\nExclusion Criteria:\n\n* Patients who have had Cognitive Behavioral Therapy, Biofeedback or other Relaxation Therapy in the past year\n* Cognitive deficit or other physical problem with the potential to interfere with behavioral therapy\n* Alcohol or other substance abuse as determined by self-report or prior documentation in the medical record\n* Unable or unwilling to follow a treatment program that relies on written and audio recorded materials\n* Not having a smartphone",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Migraine Disability Assessment Scale (MIDAS) Score",
+        "description": "5-item self-administered questionnaire designed to quantify headache-related disability over a 3-month period. For each item, participants indicate the number of days over the past three months that migraine limited their ability to participant in specific activities.\n\nThe score is the sum responses. Scores are classified as follows:\n\n* 0 to 5 = Little or no disability (MIDAS Grade I)\n* 6 to 10 = Mild disability (MIDAS Grade II)\n* 11 to 20 = Moderate disability (MIDAS Grade III)\n* 21-40 = Severe disability (MIDAS Grade IV-A)\n* Greater than 40 = Very severe disability (MIDAS Grade IV-B)",
+        "timeFrame": "Baseline, Month 3 Post-Discharge"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Headache Days Based on MIDAS",
+        "description": "Information from the Migraine Disability Assessment Scale (MIDAS) questionnaire will be used to calculate the number of headache days at baseline.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Change in Migraine-Specific Quality of Life Questionnaire-Version 2 (MSQv2) - Role Function Restrictive (RFR) Domain Scores",
+        "description": "The MSQv2 is a 14-item self-assessment of how migraines affect a patient's life. 7 of the items assess the Role Function-Restrictive (RFR) Domain, which measures the functional impact of migraine through limitations on daily social and work activities.\n\nItems are ranked on 6-point Likert scale, where: 1 = None of the time; 2 = A little bit of the time; 3 = Some of the time; 4 = A good bit of time; 5 = Most of the time; and 6 = All of the time.\n\nThe raw dimension score is computed as a sum of item responses and rescaled on a 0-100 scale; higher scores indicate better quality of life.",
+        "timeFrame": "Baseline, Month 3 Post-Discharge"
+      },
+      {
+        "measure": "Change in MSQv2 - Emotional Function (EF) Domain Scores",
+        "description": "The MSQv2 is a 14-item self-assessment of how migraines affect a patient's life. 3 of the items assess the Emotional Function (EF) Domain, which measures the emotional impact of migraine.\n\nItems are ranked on 6-point Likert scale, where: 1 = None of the time; 2 = A little bit of the time; 3 = Some of the time; 4 = A good bit of time; 5 = Most of the time; and 6 = All of the time.\n\nThe raw dimension score is computed as a sum of item responses and rescaled on a 0-100 scale; higher scores indicate better quality of life.",
+        "timeFrame": "Baseline, Month 3 Post-Discharge"
+      },
+      {
+        "measure": "Change in MSQv2 - Role Function Preventive (RFP) Domain Scores",
+        "description": "The MSQv2 is a 14-item self-assessment of how migraines affect a patient's life. 4 of the items assess the Role Function-Preventive (RFP) Domain, which measures the impact of migraine through prevention of daily work and social activities\n\nItems are ranked on 6-point Likert scale, where: 1 = None of the time; 2 = A little bit of the time; 3 = Some of the time; 4 = A good bit of time; 5 = Most of the time; and 6 = All of the time.\n\nThe raw dimension score is computed as a sum of item responses and rescaled on a 0-100 scale; higher scores indicate better quality of life.",
+        "timeFrame": "Baseline, Month 3 Post-Discharge"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:55.292Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

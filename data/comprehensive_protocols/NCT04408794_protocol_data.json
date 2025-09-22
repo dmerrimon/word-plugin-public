@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT04408794",
+  "briefTitle": "Long-term Safety Study of BHV-3500 (Zavegepant*) for the Acute Treatment of Migraine",
+  "officialTitle": "A Phase 2/3 Open-label, Long-Term, Safety Trial of BHV3500 (Zavegepant*) Intranasal (IN) for the Acute Treatment of Migraine",
+  "protocolDocument": {
+    "nctId": "NCT04408794",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-07-10",
+    "uploadDate": "2023-02-13T10:47",
+    "size": 1058616,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04408794/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 974,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-06-29",
+    "completionDate": "2021-12-23",
+    "primaryCompletionDate": "2021-12-09",
+    "firstSubmitDate": "2020-05-26",
+    "firstPostDate": "2020-05-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 2-8 moderate to severe migraines/month within the last 3 months\n* Migraine attacks present for more than 1 year with age of onset of migraines prior to 50 years of age\n* Migraine attacks, on average, lasting about 4-72 hours if untreated\n* Less than 15 days with headaches (migraine or non-migraine) per month in each of the 3 months prior to the screening visit\n* Ability to distinguish migraine attacks from tension/cluster headaches\n* Participants with contraindications for use of triptans may be included provided they meet all other study entry criteria\n\nExclusion Criteria:\n\n* History of human immunodeficiency virus disease\n* History of basilar or hemiplegic migraine\n* Current diagnosis of major depressive disorder requiring treatment with atypical antipsychotics, schizophrenia, bipolar disorder, or borderline personality disorder\n* History of nasal surgery in the 6 months preceding the screening visit\n* History of gallstones or cholecystectomy\n* History of gastric, or small intestinal surgery (including gastric bypass, gastric banding, gastric sleeve, gastric balloon, etcetera), or other disease or condition (for example, chronic pancreatitis, ulcerative colitis, etcetera) that causes malabsorption.\n* Body mass index ≥ 33\n* Hemoglobin A1c ≥6.5%",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number Of Participants With Adverse Events (AEs), Serious Adverse Events (SAEs) and AEs Leading To Discontinuation",
+        "description": "An AE is defined as any new untoward medical occurrence or worsening of a pre-existing medical condition in participants or clinical investigation participants administered an investigational (medicinal) product that does not necessarily have a causal relationship with this treatment. An SAE was defined as any event that met any of the following criteria at any dose: death; life-threatening; inpatient hospitalization or prolongation of existing hospitalization; persistent or significant disability/incapacity; congenital anomaly/birth defect in the offspring of a participant who received study drug; other important medical events that may not have resulted in death, be life-threatening, or required hospitalization, based upon appropriate medical judgment, they may have jeopardized the participant and may have required medical or surgical intervention to prevent one of the other serious outcomes.",
+        "timeFrame": "From study drug dosing up to the end of the study (up to 52 weeks)"
+      },
+      {
+        "measure": "Number Of Participants With Clinically Significant Laboratory Abnormalities",
+        "description": "Clinically significant laboratory abnormalities were defined as Grades 3 to 4 laboratory test results according to numeric laboratory test criteria found in Common Technical Criteria for Adverse Events Version 5.0 (2017) if available; otherwise, according to Division of Acquired Immune Deficiency Syndrome. Table for Grading the Severity of Adult and Pediatric Adverse Events Corrected Version 2.1 (2017) for glucose, low-density lipoprotein (LDL)-cholesterol, uric acid, and urinalysis. Laboratory test groups of clinical interest included hematology, serum chemistry, and urinalysis. Participants must have had a non-missing measurement in to be included for a given parameter. Laboratory results were presented in US units.",
+        "timeFrame": "From study drug dosing up to the end of the study (up to 52 weeks)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:54.876Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

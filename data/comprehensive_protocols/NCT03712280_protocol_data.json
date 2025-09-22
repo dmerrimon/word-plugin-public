@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT03712280",
+  "briefTitle": "MNK6106 for Liver Disease (Hepatic Cirrhosis) That in the Past Has Affected the Brain (Hepatic Encephalopathy)",
+  "officialTitle": "A Randomized, Open-Label, Phase 2a Comparator Study to Assess the Pharmacodynamics, Safety and Pharmacokinetics of Oral Administration MNK6106 (L-Ornithine Phenylacetate) Versus Rifaximin in Subjects With Hepatic Cirrhosis and a History of Prior Episodes of Hepatic Encephalopathy",
+  "protocolDocument": {
+    "nctId": "NCT03712280",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-04-21",
+    "uploadDate": "2021-06-29T21:32",
+    "size": 1287508,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03712280/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 50,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-12-01",
+    "completionDate": "2020-07-14",
+    "primaryCompletionDate": "2020-07-14",
+    "firstSubmitDate": "2018-10-16",
+    "firstPostDate": "2018-10-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\nA potential participant may only be included if (at screening), he/she:\n\n1. Understands the study and has signed informed consent\n2. Is an adult, not pregnant or lactating\n3. Has cirrhosis of the liver\n4. Has had 1 instance of HE within 12 months\n5. Has hyperammonaemia defined as ≥37 μmol/L at screening\n\nKey Exclusion Criteria:\n\nA potential participant will be excluded if (at screening), he/she:\n\n1. Has contraindicated allergies\n2. Expects liver transplant within 1 month\n3. Has had a liver shunt within the last 3 months\n4. Has inadequate kidney, gastrointestinal, or cardiac function\n5. Has cancer, infection, lab abnormalities, or any other condition that, per protocol or in the opinion of the investigator might compromise:\n\n   1. the safety and well-being of the participant or potential offspring\n   2. the safety of study staff\n   3. the analysis of results",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Ammonia Plasma Levels at Baseline and Day 5",
+        "description": "This test measures the level of ammonia in your blood. Ammonia, also known as NH3, is a waste product made by your body during the digestion of protein. Normally, ammonia is processed in the liver, where it is changed into another waste product called urea. Urea is passed from the body in urine.\n\nIf your body cannot process or eliminate ammonia, a lab test of a blood sample shows it has built up in the bloodstream. High ammonia levels in the blood can lead to serious health problems, including hepatic encephalopathy.",
+        "timeFrame": "Baseline, Day 5"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Adverse Events by the End of the Trial",
+        "description": "End of trial is defined as 7 (+/-3) days after last study treatment",
+        "timeFrame": "within 15 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:11.332Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

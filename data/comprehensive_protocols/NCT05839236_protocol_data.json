@@ -1,0 +1,185 @@
+{
+  "nctId": "NCT05839236",
+  "briefTitle": "COVID-19 Vaccination Detoxification in LDL-C",
+  "officialTitle": "COVID-19 Vaccination Detoxication in Low Density Lipoprotein Cholesterol",
+  "protocolDocument": {
+    "nctId": "NCT05839236",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-05-04",
+    "uploadDate": "2023-05-04T10:16",
+    "size": 704899,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05839236/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-05-01",
+    "completionDate": "2023-07-31",
+    "primaryCompletionDate": "2023-06-30",
+    "firstSubmitDate": "2023-05-01",
+    "firstPostDate": "2023-05-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* People who received COVID-19 vaccinations, or experiencing long-COVID.\n\nExclusion Criteria:\n\n* People with moderate and severe liver dysfunctions.",
+    "healthyVolunteers": true,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Total Cholesterol Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication. It is hypothesized that total cholesterol levels indicate to the initial acidification for SARS-CoV-2 viral entry through vaccines with the degeneration of lipids.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Triglycerides Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication. It is hypothesized that triglycerides levels indicate to the initial acidification for SARS-CoV-2 viral entry through vaccines.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "HDL-C Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "LDL-C Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication. It is hypothesized that SARS-CoV-2 hibernating viruses and viral proteins are hidden in the LDL-C.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Apolipoprotein A-I Change",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Apolipoproteina B Change",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Lipopoliproteina (a) Change",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Eosinophil Absolute Number Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Eosinophil Percentage Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Basophil Absolute Number Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Basophil Percentage Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Mean Corpuscular Volume Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Mean Corpuscular Hemoglobin Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Mean Corpuscular Hemoglobin Concentration Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Red cell Distribution Width Coefficient of Variation Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Red cell Distribution Width Standard Deviation Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Plateletcrit Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Platelet Distribution Width Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      },
+      {
+        "measure": "Mean Platelet Volume Change",
+        "description": "The baseline characteristics is set at the beginning of the trial, with its rate of change metrified from initial intoxication.",
+        "timeFrame": "30 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Heart Rate Change",
+        "description": "The blood pressure change will be compared with the baseline characteristics for observation on the risks of rebound to the previous intervention. Type I error testing defines Systolic \\& Diastolic Blood Pressure and heart rate as incremented. Heart rate variance indicates to immune responses.",
+        "timeFrame": "4 hours"
+      },
+      {
+        "measure": "Systolic Blood Pressure Change",
+        "description": "The blood pressure change will be compared with the baseline characteristics for observation on the risks of rebound to the previous intervention. Type I error testing defines Systolic \\& Diastolic Blood Pressure and heart rate as incremented. SBP variance indicates to infection activities.",
+        "timeFrame": "4 hours"
+      },
+      {
+        "measure": "Diastolic Blood Pressure Change",
+        "description": "The blood pressure change will be compared with the baseline characteristics for observation on the risks of rebound to the previous intervention. Type I error testing defines Systolic \\& Diastolic Blood Pressure and heart rate as incremented. DBP variance indicates to immune attack activities.",
+        "timeFrame": "4 hours"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 19,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 22
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:42.971Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

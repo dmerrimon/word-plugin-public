@@ -1,0 +1,127 @@
+{
+  "nctId": "NCT05852873",
+  "briefTitle": "PAxlovid loNg cOvid-19 pRevention triAl With recruitMent In the Community in Norway",
+  "officialTitle": "PAxlovid loNg cOvid-19 pRevention triAl With recruitMent In the Community in Norway",
+  "protocolDocument": {
+    "nctId": "NCT05852873",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-03-23",
+    "uploadDate": "2023-05-07T08:53",
+    "size": 995790,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05852873/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2000,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-05-12",
+    "completionDate": "2026-04",
+    "primaryCompletionDate": "2024-04",
+    "firstSubmitDate": "2023-05-08",
+    "firstPostDate": "2023-05-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Symptoms attributable to COVID-19 started within the past 5 days and ongoing\n* Positive PCR or lateral flow SARS-CoV-2 test. Any positive PCR test or a lateral flow test taken between two days before symptom onset and randomisation qualifies.\n* Age between 18 and 65 years\n* Participant is able and willing to provide informed consent\n* Willingness to take a pregnancy test prior to starting study treatment (Participants of childbearing potential)\n\nExclusion Criteria:\n\n* Patients that are not able to comply with all study visits\n* Patient currently inpatient at hospital\n* Comorbidity which requires active antiviral treatment as judged by the investigator\n* Any chronic renal impairment\n* Any chronic liver disease or liver impairment\n* Previous randomisation in the PANORAMIC Norway trial\n* Currently participating in a clinical trial of a therapeutic agent\n* Currently taking Paxlovid\n* Known allergy to Paxlovid\n* Use of concomitant medication contraindicated for the treatment of Paxlovid\\*\n* Pregnant and lactating women\n* Participants of childbearing potential (participants who are anatomically and physiologically capable of becoming pregnant), or have a partner of childbearing potential, not willing to use highly effective contraceptive until 7 days after completing Paxlovid.\n\n  \\* Concomitant medications that are contraindicated for the treatment of Paxlovid\n* Medicinal products that are highly dependent on CYP3A for clearance and for which elevated concentrations are associated with serious and/or life-threatening reactions.\n* Medicinal products that are potent CYP3A inducers where significantly reduced nirmatrelvir/ritonavir plasma concentrations may be associated with the potential for loss of virologic response and possible resistance. Paxlovid cannot be started immediately after discontinuation of such medicinal products due to the delayed offset of the recently discontinued CYP3A inducer.\n\nMore information is available in the study protocol on medicinal products that are contraindicated with concomitant use of Paxlovid.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "64 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Symptoms of long-COVID",
+        "description": "a dichotomous variable for presence of any of the three most important long-COVID symptoms: (i) fatigue, (ii) dyspnea and (iii) cognitive symptoms (defined as memory and/or concentration problems).",
+        "timeFrame": "Change in symptoms from baseline to 3, 6 and 12 months follow-up"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Symptoms individually and grouped by organ system",
+        "description": "All individual symptoms separately, and grouped by systems (systemic symptoms, chest-symptoms, cognitive, other neuropsychiatric symptoms).",
+        "timeFrame": "Change in symptoms from baseline to 3, 6, 12 and 24 months follow-up"
+      },
+      {
+        "measure": "Graded responses for symptoms and symptom constellations",
+        "description": "Graded responses for separate symptoms and symptom constellations, including an ordinal variable graded 0-3 for the presence of the 3 symptoms in the primary outcome.",
+        "timeFrame": "Change in symptoms from baseline to 3, 6, 12 and 24 months follow-up"
+      },
+      {
+        "measure": "Risk factors for long-COVID",
+        "description": "Analysis of patient characteristics and other factors that may affect the occurrence of long-COVID",
+        "timeFrame": "Up to 24 months"
+      },
+      {
+        "measure": "Severity of acute disease",
+        "description": "Severity of acute disease using an 8-step scale (1 - no limitation of activities, 2 - limitations of activities, not hospitalised, 3 - hospitalised not requiring specific treatment, 4 - hospitalised, requiring medical treatment, but not supplemental oxygen, 5 - need of supplemental oxygen, 6 - need of non-invasive ventilatory support (CPAP, BiPAP), 7 - need ov invasive ventilation, 8 - death",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Hospitalisation",
+        "description": "Hospitalisation - binary outcome",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Severe adverse events",
+        "description": "Severe adverse events",
+        "timeFrame": "Up to 24 months"
+      },
+      {
+        "measure": "Absence from work",
+        "description": "Absence from work, full or partial sick leave",
+        "timeFrame": "Up to 24 months"
+      },
+      {
+        "measure": "Societal costs",
+        "description": "Societal cost / economic analysis, including estimated cost of absence from work/school, hospitalizations, deaths, QALYs lost according to EQ-5D-5L, and more",
+        "timeFrame": "Up to 24 months"
+      },
+      {
+        "measure": "Symptoms of long-COVID",
+        "description": "a dichotomous variable for presence of any of the three most important long-COVID symptoms: (i) fatigue, (ii) dyspnea and (iii) cognitive symptoms (defined as memory and/or concentration problems).",
+        "timeFrame": "Change in symptoms from baseline to 3, 6 and 12 months follow-up"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.324Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,123 @@
+{
+  "nctId": "NCT05824936",
+  "briefTitle": "Enhanced Community-Based Asthma Monitoring Through Novel Technology",
+  "officialTitle": "Enhanced Community-Based Asthma Monitoring Through Novel Technology",
+  "protocolDocument": {
+    "nctId": "NCT05824936",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-01-11",
+    "uploadDate": "2023-03-16T09:48",
+    "size": 192417,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05824936/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-06-08",
+    "completionDate": "2024-03-01",
+    "primaryCompletionDate": "2024-02-19",
+    "firstSubmitDate": "2023-03-20",
+    "firstPostDate": "2023-04-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Followed by a Primary Care Practice meeting HRSA rural or medically underserved designation status\n* Diagnosis of persistent asthma: on at least 1 controller/ preventative medication for asthma\n* Ability to follow directions and perform study measures, including in-office spirometry at initial visit\n* Access to mobile device with internet connectivity to connect to telehealth visit and mobile spirometer application\n\nExclusion Criteria:\n\n* Significant cardiopulmonary disease other than asthma (Examples: Cystic Fibrosis, complex congenital heart disease)\n* Non-English Speaking",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Feasibility (Retention %)",
+        "description": "Feasibility will be evaluated by calculating retention rates at week 24.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Acceptability",
+        "description": "To measure acceptability, the study-specific Satisfaction and Usability Survey will be used and assessed at item-level. The percentage (%) of participants who respond \"agree\" or \"strongly agree\" to each item will be measured.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Accessibility",
+        "description": "The frequency (%) of any technical or connectivity issues at each visit will be recorded throughout the study.",
+        "timeFrame": "24 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Explore the Preliminary Effectiveness of the Pilot Program on Asthma Control.",
+        "description": "The asthma control test (ACT) will be completed at each study visit. This measure rates asthma symptoms from 5-25 with 5 being the lowest (poorest) asthma control and 25 being the highest (optimal) asthma control.",
+        "timeFrame": "Baseline and Week 24"
+      },
+      {
+        "measure": "Explore the Preliminary Effectiveness of the Pilot Program on Daytime Sleepiness.",
+        "description": "The Epworth Sleepiness Scale for Children and Adolescents (ESS-CHAD) will be completed at each study visit. This measure rates sleepiness with scores of 0-24 with 0 being the lowest degree of daytime sleepiness and 24 being the highest (sleepiest).",
+        "timeFrame": "Baseline and Week 24"
+      },
+      {
+        "measure": "Explore Patient and Family-related Demographic Characteristics and Psychosocial Factors Associated With Successful Completion of the Intervention.",
+        "description": "The study-specific demographic and psychosocial assessment tool will be completed at the baseline visit. Descriptive and comparative statistics will be employed to characterize participant-specific demographic factors which may be associated with study completion at item-level.",
+        "timeFrame": "24 weeks"
+      },
+      {
+        "measure": "Explore Asthma-related Factors Associated With Successful Completion of the Intervention (Oral Steroid Usage)",
+        "description": "Asthma-related factors associated with successful completion of the intervention will be analyzed and compared to participants who do not complete the intervention. Courses of oral steroids in the prior 6 months were calculated based on participant survey results.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Explore Asthma-related Factors Associated With Successful Completion of the Intervention (ER Visits)",
+        "description": "Asthma-related factors associated with successful completion of the intervention will be analyzed and compared to participants who do not complete the intervention. Number of ER visits were calculated based on survey results",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "Explore Asthma-related Factors Associated With Successful Completion of the Intervention (Hospital Admissions)",
+        "description": "Asthma-related factors associated with successful completion of the intervention will be analyzed and compared to participants who do not complete the intervention. Hospital admissions were calculated based on survey results.",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:23.781Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,76 @@
+{
+  "nctId": "NCT04726137",
+  "briefTitle": "European Pregnancy and Paediatric Infections Cohort Collaboration (EPPICC) SARS-CoV-2 Antibody Study Protocol. Covid-19",
+  "officialTitle": "European Pregnancy and Paediatric Infections Cohort Collaboration (EPPICC) SARS-CoV-2 Antibody Study Protocol",
+  "protocolDocument": {
+    "nctId": "NCT04726137",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-05-18",
+    "uploadDate": "2024-05-21T10:36",
+    "size": 687613,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04726137/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 906,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-14",
+    "completionDate": "2022-07-09",
+    "primaryCompletionDate": "2022-07-09",
+    "firstSubmitDate": "2021-01-18",
+    "firstPostDate": "2021-01-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* \\< 18 years at HIV diagnosis\n* Current age under 25 years\n* Attending routine HIV care in a participating clinic\n* Currently in follow-up in CTAAC, a cohort which contributes to EPPICC, or another collaborating cohort\n* If aged ≥16 years (or local legal adult age), willing and able to give informed consent to participate in the study\n* If aged \\<16 years (or local legal adult age), a parent/carer able to give informed consent for participating in the study (and, depending on local requirements, those aged ≥10 years, with capacity, to also provide assent).\n\nIn addition, in South Africa HIV-uninfected adolescents will be eligible to participate in the study during planned study visits if they meet the following inclusion criteria:\n\n* Current age under 25 years\n* In follow-up in the CTAAC study\n* If aged ≥18 years, willing and able to give informed consent to participate in the study\n* If aged \\<18 years, a parent/carer is able to give informed consent for participating in the study and participant willing and able to provide assent.\n\nExclusion Criteria:\n\nChildren and adolescents are ineligible if they are taking part in a COVID-19 / SARS-CoV-2 vaccine study at enrollment.\n\nHowever, should a participant who is enrolled in the EPPICC-SARS-CoV-2 study subsequently join a COVID-19 / SARS-CoV-2 vaccine study or receive a COVID-19 / SARS-CoV-2 vaccine, these are not reasons for exclusion from this study. Data will be collected on vaccine receipt and participation in vaccine studies.",
+    "sex": "ALL",
+    "maximumAge": "24 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With at Least One Positive SARS-CoV-2 Antibody Test.",
+        "timeFrame": "Throughout follow-up (at baseline for participants with one sample only; median 6 months for those with two samples)"
+      },
+      {
+        "measure": "Number of Unvaccinated Participants With at Least One Positive SARS-CoV-2 Antibody Test.",
+        "description": "Participants who have not received the SARS-CoV-2 vaccine at the time the sample was taken.",
+        "timeFrame": "Throughout follow-up (at baseline for participants with one sample only; median 6 months for those with two samples)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:37.166Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

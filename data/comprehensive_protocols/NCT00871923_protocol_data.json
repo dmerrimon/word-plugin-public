@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT00871923",
+  "briefTitle": "Tarceva With Whole Brain Radiation Therapy - Brain Mets From Non-Small Cell Lung Cancer",
+  "officialTitle": "A Phase II Study to Determine the Efficacy of Tarceva® (Erlotinib Hydrochloride) With Concurrent Whole Brain Radiation Therapy in Patients With Brain Metastases From Non-Small Cell Lung Cancer (NSCLC)",
+  "protocolDocument": {
+    "nctId": "NCT00871923",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2013-06-03",
+    "uploadDate": "2020-11-18T13:06",
+    "size": 684980,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00871923/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 44,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2009-03-26",
+    "completionDate": "2019-12-04",
+    "primaryCompletionDate": "2019-12-04",
+    "firstSubmitDate": "2009-03-27",
+    "firstPostDate": "2009-03-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Histological confirmation of non-small cell lung cancer\n2. Patients who have been treated in the past with stereotactic radiosurgery, stereotactic radiotherapy, GliaSite or surgical resection will be allowed to enroll in this study\n3. A diagnostic contrast-enhanced MRI or CT scan must be performed, demonstrating brain metastases\n4. Age 18-70\n5. Patients must have KPS \\>/= 70\n6. Patients cannot be treated on any other treatment related protocols within 30 days prior to study entry or during participation in the study\n7. No uncontrolled or symptomatic major medical illnesses or psychiatric impairments, such as Alzheimer's or schizophrenia\n8. Screening Clinical Laboratory Values: ANC \\>1500/ul, Platelets \\>80,000/ul, baseline AST and/or ALT within normal limits (within 30 days of starting protocol treatment)\n9. All women of childbearing potential (A woman of child-bearing potential is a sexually mature woman who has not undergone a hysterectomy or who has not been naturally postmenopausal for at least 24 consecutive months \\[i.e., who has had menses at any time in the preceding 24 consecutive months\\]) and male participants must practice effective contraception (abstinence, oral, injectable, or implantable hormonal contraceptive; tubal ligation; intra-uterine device; barrier contraceptive with spermicide; or vasectomized partner) throughout the study.\n10. Continued from #10: All women of child-bearing potential must have a negative serum pregnancy test and practice birth control while on study.\n11. Patients must provide verbal and written informed consent to participate in the study.\n\nExclusion Criteria:\n\n1. Prior cranial radiation therapy, other than stereotactic radiosurgery, Stereotactic Radiotherapy or GliaSite.\n2. Patients with known Acquired Immune Deficiency (AIDS), as regimens with tyrosine kinase inhibitors may pose a safety risk related to excess toxicity or interference with anti-viral effectiveness\n3. Women who are pregnant or lactating, due to possible adverse effects on the developing fetus or infant due to study drug\n4. Patients with active connective tissue disorders, such as lupus or scleroderma",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Median Survival",
+        "description": "Median Survival will be estimated using the method of Kaplan and Meier (1958) using the intent-to-treat principle.",
+        "timeFrame": "End-of-study visit 1 month after radiation therapy completed, and follow-up visits every 3 months, assessed up to 2 years."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Overall Survival",
+        "description": "Overall Survival will be estimated using the method of Kaplan and Meier (1958) using the intent-to-treat principle. The participants overall survival measured at 6 month, 1-year and 2 years.",
+        "timeFrame": "From date of registration until the date of first documented death or lost to follow up, whichever came first, assessed up to 2 years."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:54.793Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

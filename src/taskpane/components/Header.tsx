@@ -7,11 +7,11 @@ export interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
     <div style={{
-      background: "linear-gradient(135deg, #2d5aa0 0%, #1a4480 100%)",
-      color: "white",
-      padding: "16px",
-      borderBottom: "2px solid #1a4480",
-      boxShadow: "0 2px 4px rgba(0,0,0,0.1)"
+      backgroundColor: "#000000",
+      color: "#ffffff",
+      padding: "20px 16px",
+      borderBottom: "1px solid #e5e5e5",
+      fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif"
     }}>
       <div style={{
         display: "flex",
@@ -19,57 +19,27 @@ export const Header: React.FC<HeaderProps> = ({ title }) => {
         marginBottom: "8px"
       }}>
         <span style={{ 
-          fontSize: "20px", 
-          marginRight: "8px",
-          filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.3))"
-        }}>🦠</span>
-        <h2 style={{ 
+          fontSize: "18px", 
+          marginRight: "10px"
+        }}>🧠</span>
+        <h1 style={{ 
           margin: 0, 
-          fontSize: "16px", 
-          fontWeight: "700",
-          letterSpacing: "0.5px"
+          fontSize: "18px", 
+          fontWeight: "600",
+          letterSpacing: "-0.025em"
         }}>
           {title}
-        </h2>
-      </div>
-      
-      <div style={{
-        display: "flex",
-        alignItems: "center",
-        gap: "12px",
-        marginBottom: "4px"
-      }}>
-        <div style={{
-          backgroundColor: "rgba(255,255,255,0.2)",
-          padding: "4px 8px",
-          borderRadius: "12px",
-          fontSize: "10px",
-          fontWeight: "600",
-          textTransform: "uppercase",
-          letterSpacing: "0.5px",
-          display: "flex",
-          alignItems: "center",
-          gap: "4px"
-        }}>
-          <span>🩺</span>
-          ID Protocol Mode
-        </div>
-        <div style={{
-          fontSize: "11px",
-          opacity: 0.9,
-          fontWeight: "500"
-        }}>
-          Infectious Disease Clinical Trials
-        </div>
+        </h1>
       </div>
       
       <p style={{ 
         margin: 0,
-        fontSize: "11px", 
-        opacity: 0.85,
-        fontStyle: "italic"
+        fontSize: "13px", 
+        color: "#888888",
+        fontWeight: "400",
+        letterSpacing: "-0.01em"
       }}>
-        AI-powered amendment risk detection for ID protocols
+        Real-time protocol intelligence powered by 2,439 clinical trials
       </p>
     </div>
   );

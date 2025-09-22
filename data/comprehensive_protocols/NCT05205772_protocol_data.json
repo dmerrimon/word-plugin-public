@@ -1,0 +1,118 @@
+{
+  "nctId": "NCT05205772",
+  "briefTitle": "Investigating Central Neurophysiologic Correlates of Non-Motor Symptoms of Parkinson's Disease",
+  "officialTitle": "Investigating Central Neurophysiologic Correlates of Non-Motor Symptoms of Parkinson's Disease",
+  "protocolDocument": {
+    "nctId": "NCT05205772",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-12-03",
+    "uploadDate": "2025-05-01T13:42",
+    "size": 828630,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05205772/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-02-01",
+    "completionDate": "2024-07-30",
+    "primaryCompletionDate": "2024-07-30",
+    "firstSubmitDate": "2021-12-02",
+    "firstPostDate": "2022-01-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Men and women between 50 and 90 years of age, without a diagnosis of severe dementia\n* Carry a diagnosis of idiopathic Parkinson's disease based on the United Kingdom Parkinson's Disease Society Brain Bank clinical diagnostic criteria\n* Have had symptoms of Parkinson's disease for at least 3 years\n* Hospital's study-specific informed consent must be obtained\n* Must have capacity to provide informed consent in English\n* For female participants, confirmation that a menstrual period has not occurred in over 12 months, or that an effective form of contraception will be used during the study\n\nExclusion Criteria:\n\n* Inability to provide informed consent.\n* Severe dementia\n* History of epilepsy or brain surgery\n* Severe tremor or dyskinesia that would interfere with EEG as determined by the PI\n* Parkinson's patients with clinically significant medical or neurological conditions which may be an alternative cause of orthostatic hypotension, such as neuropathy, renal failure, heart failure, cardiac arrhythmias, severe diabetes, or spinal cord injuries\n* The investigators will exclude patients who are treated with medications which can significantly lower blood pressure or heart rate, such as antihypertensive medications, diuretics, and alpha-blocking medications\n* Presence of other known central nervous system disease that may interfere with performance or interpretation of EEG or TMS\n* Presence of any implanted metal devices including, but not limited to, pacemakers, deep brain stimulators, vagal nerve stimulators, bladder stimulators, or cochlear implants.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Frontal Midline Theta EEG Power After Brain Stimulation",
+        "description": "Degree of change of frontal midline theta (FMT) power on electroencephalography (EEG) after brain stimulation at each site (medial prefrontal cortex, dorsolateral prefrontal cortex, control site).",
+        "timeFrame": "At least 30 minutes before initial iTBS, and 30 minutes after each iTBS treatment"
+      },
+      {
+        "measure": "Correlation Between the Scales for Outcomes in Parkinson's Disease - Autonomic (SCOPA-AUT) Total Score and EEG",
+        "description": "Degree of correlation between the Scales for Outcomes in Parkinson's disease - Autonomic (SCOPA-AUT) total score and frontal midline theta EEG power extracted from Baseline pre-stimulation initial visit EEG and SCOPA-AUT questionnaire. The SCOPA-AUT is a validated autonomic symptom survey for people with Parkinson's disease. It contains 6 domains (gastrointestinal, urinary, cardiovascular, thermoregulatory, pupillary, and sexual). The investigators will use the total composite score including all domains. The score range is 0-69, with a total of 23 questions. 0 means no symptoms, 69 is highest burden of symptoms. The FMT and SCOPA-AUT were assessed at baseline. FMT power and SCOPA-AUT were correlated using the Spearman Correlation Coefficient calculation. A positive correlation coefficient indicates a positive relationship between the assessments; higher FMT power correlates with higher symptom burden.",
+        "timeFrame": "At least 30 minutes before initial iTBS"
+      },
+      {
+        "measure": "Correlation Between the Orthostatic Hypotension Questionnaire (OHQ) and EEG",
+        "description": "Degree of correlation between the Orthostatic Hypotension Questionnaire (OHQ) composite score and frontal midline theta EEG power extracted from Baseline pre-stimulation initial visit EEG and OHQ questionnaire. The OHQ consists of two sections: 1-orthostatic hypotension symptom assessment, which includes 6 questions with a score range of 0-66 (0 is no symptoms, 66 is most severe symptoms); and 2-the orthostatic hypotension daily activity scale, which rates interference of symptoms on activities of daily living. This part consists of four questions, and score range is 0-44 (0 is no interference, 44 is most severe interference). The composite OHQ score is the average score between these two subsections. FMT power and OHQ were correlated using the Spearman Correlation Coefficient calculation. A positive correlation coefficient indicates a positive relationship between the assessments; higher FMT power correlates with higher symptom burden.",
+        "timeFrame": "At least 30 minutes before initial iTBS"
+      },
+      {
+        "measure": "Correlation Between Degree of Orthostatic Hypotension and EEG",
+        "description": "Degree of correlation between degree of orthostatic hypotension and frontal midline theta EEG power will be measured extracted from Baseline pre-stimulation visit EEG and blood pressure measures. Orthostatic vital signs will be measured at least 30 minutes before initial iTBS as follows: blood pressure will be measured after at least 3 minutes of rest in the supine position. Blood pressure will again be measured after 3 minutes of standing. Blood pressure reduction is expressed as the magnitude of reduction, thus a positive number reflects a greater reduction. Lack of blood pressure reduction was coded as '0'. A positive correlation coefficient indicates a positive relationship between the assessments; higher FMT power correlates with higher more severe orthostatic hypotension.",
+        "timeFrame": "At least 30 minutes before initial iTBS"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "SCOPA-AUT Response to Brain Stimulation",
+        "description": "Change in the SCales for Outcomes in Parkinson's disease - Autonomic (SCOPA-AUT) from 30 minutes before stimulation to 1 day after stimulation and 4 days after stimulation. The SCOPA-AUT is a validated autonomic symptom survey for people with Parkinson's disease. It contains 6 domains (gastrointestinal, urinary, cardiovascular, thermoregulatory, pupillary, and sexual). The investigators will use the total composite score including all domains. The score range is 0-69, with a total of 23 questions. 0 means no symptoms, 69 is highest burden of symptoms",
+        "timeFrame": "30 minutes pre-iTBS, and 1 day and 4 days after each iTBS treatment"
+      },
+      {
+        "measure": "OHQ Response to Brain Stimulation",
+        "description": "Change in the Orthostatic Hypotension Questionnaire (OHQ) from before to after iTBS. The OHQ will be administered at least 30 minutes before stimulation, and again 1 day and 4 days after stimulation. The OHQ is an orthostatic hypotension symptom survey and consists of two sections. The first is the orthostatic hypotension symptom assessment, which includes 6 questions with a score range of 0-66 (0 is no symptoms, 66 is most severe symptoms). The second part is the orthostatic hypotension daily activity scale, which rates interference of symptoms on activities of daily living. This part consists of four questions, and score range is 0-44 (0 is no interference, 44 is most severe interference). The investigators will calculate the composite OHQ score, which is the average score between these two subsections.",
+        "timeFrame": "At least 30 minutes pre-iTBS, and day 1 and day 4 after each iTBS treatment"
+      },
+      {
+        "measure": "Response of Orthostatic Blood Pressure Changes to Brain Stimulation",
+        "description": "Change in the orthostatic blood pressure change from before to after iTBS. Orthostatic vital signs will be measured as follows: blood pressure will be measured after at least 3 minutes of rest in the supine position. Blood pressure will again be measured after 3 minutes of standing. This will be measured at least 30 minutes before brain stimulation, and again 30 minutes after brain stimulation.",
+        "timeFrame": "At least 30 minutes before each iTBS treatment, and 30 minutes after each iTBS treatment"
+      },
+      {
+        "measure": "Depression Symptom Response to Brain Stimulation",
+        "description": "Change in the Beck Depression Inventory II (BDI-II) from before to after iTBS. Participants will complete the BDI-II at least 30 minutes before brain stimulation. The questionnaire will be repeated 1 day and 4 days after stimulation. The BDI-II is a validated depression symptom survey. This survey contains 21 questions, with a score range of 0-63, where 0 means no depression symptoms and 63 indicates severe depression symptoms.",
+        "timeFrame": "At least 30 minutes before each iTBS treatment, and day 1 and day 4 after each iTBS treatment"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 4,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 77,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:46.234Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

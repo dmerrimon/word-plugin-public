@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT03979677",
+  "briefTitle": "Effects of Lifestyle Modification on Vestibular Migraine",
+  "officialTitle": "Effects of Lifestyle Modification on Vestibular Migraine",
+  "protocolDocument": {
+    "nctId": "NCT03979677",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2021-07-02",
+    "uploadDate": "2021-07-02T16:58",
+    "size": 211772,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03979677/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 41,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-10-01",
+    "completionDate": "2021-05-01",
+    "primaryCompletionDate": "2021-05-01",
+    "firstSubmitDate": "2019-06-05",
+    "firstPostDate": "2019-06-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults (18 years and older)\n* Must meet International Classification of Headache Disorders criteria for vestibular migraine\n* Must be able to read and comprehend the English language as instructions are only provided in that language\n\nExclusion Criteria:\n\n* Younger than 18 years\n* Do not meet IHCD criteria for vestibular migraine\n* Unable to understand English language instructions",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Headache Disability Inventory (HDI)",
+        "description": "This measure assesses disease-specific (headache) health-related quality of life using a 0 - 100 scale with 0 indicative of no impact and 100 indicative of severe maximum impact. We will assess change in HDI score by comparing baseline performance to performance 60-days after intervention.",
+        "timeFrame": "Change in HDI total score will be determined 60-days post intervention."
+      },
+      {
+        "measure": "Dizziness Handicap Inventory (DHI)",
+        "description": "This measure assesses disease-specific (dizziness) health-related quality of life using a 0 - 100 scale with 0 indicative of no impact and 100 indicative of severe maximum impact.We will assess change in DHI score by comparing baseline performance to performance 60-days post-intervention.",
+        "timeFrame": "Change in DHI total score will be determined 60-days post intervention."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:55.032Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

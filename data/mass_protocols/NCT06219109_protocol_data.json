@@ -1,0 +1,119 @@
+{
+  "nctId": "NCT06219109",
+  "briefTitle": "Pulmonary Edema Resolution in Severe Preeclampsia and Eclampsia",
+  "officialTitle": "SeveriTy of Pulmonary Edema and Timing of Resolution in Patients With Severe Pre-eclampsia and Eclampsia (TIPER): A Physiological and Sonographic Prospective Observational Study",
+  "protocolDocument": {
+    "nctId": "NCT06219109",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-04-08",
+    "uploadDate": "2024-01-19T04:25",
+    "size": 430742,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06219109/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 55,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-05-08",
+    "completionDate": "2024-04-02",
+    "primaryCompletionDate": "2024-04-01",
+    "firstSubmitDate": "2023-09-08",
+    "firstPostDate": "2024-01-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\- All patients with severe pre-eclampsia or eclampsia admitted to hospital Princess Christian Maternity Hospital\n\nExclusion Criteria:\n\n* Patients with chronic hypertensive disorders\n* Lung ultrasound not feasible, e.g., due to electricity breakdown, or absence of the trained sonographer or presence of subcutaneous emphysema,",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Frequency of LUS consistent with pulmonary edema",
+        "description": "Frequency endpoint: proportion of patients with a LUS positive for pulmonary edema Severity: LUS aeration score",
+        "timeFrame": "during hospital stay, average of 1 month"
+      },
+      {
+        "measure": "Timing of resolution after delivery",
+        "description": "Categorical: Fraction of patients with improvement or resolution of LUS findings.\n\nNumerical: delta LUS score between T1 and T2",
+        "timeFrame": "during hospital stay, average of 1 month"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Frequency of acute respiratory failure in patients with Severe Pre eclampsia and in patients with Eclampsia",
+        "description": "Proportion of patients with acute respiratory failure",
+        "timeFrame": "during hospital stay, average of 1 month"
+      },
+      {
+        "measure": "Frequency of other LUS findings",
+        "description": "Proportion of patients with\n\n* consolidations\n* isolated pleural effusion\n* minor LUS findings",
+        "timeFrame": "during hospital stay, average of 1 month"
+      },
+      {
+        "measure": "Frequency of organ support strategies",
+        "description": "Fraction of patients that receive oxygen and/or CPAP (Continuous Positive Airway Pressure) and/or mechanical ventilation",
+        "timeFrame": "during hospital stay, average of 1 month"
+      },
+      {
+        "measure": "Frequency of patients with abnormal cardiac function",
+        "description": "Defined as low cardiac index measured by ultrasound",
+        "timeFrame": "during hospital stay, average of 1 month"
+      },
+      {
+        "measure": "Oxygenation assessment",
+        "description": "SpO2 (peripheral capillary oxygen saturation) to FiO2 (fraction of inspired oxygen) ratio",
+        "timeFrame": "during hospital stay, average of 1 month"
+      },
+      {
+        "measure": "Frequency of Major Direct Obstetric Complications (MDOCs)",
+        "description": "Fraction of patients with at least one additional MDOC (antepartum hemorrhage, postpartum hemorrhage, sepsis, uterine rupture, obstructed labour)",
+        "timeFrame": "during hospital stay, average of 1 month"
+      },
+      {
+        "measure": "Frequency of Indirect Obstetric complications",
+        "description": "Fraction of patients with at least one among stroke, severe malaria, acute kidney injury and cardiac insufficiency.",
+        "timeFrame": "during hospital stay, average of 1 month"
+      },
+      {
+        "measure": "Frequency of perinatal complications",
+        "description": "Intra uterine fetal death (IUFD), Apgar score, Admission to special care baby unit (SCBU)",
+        "timeFrame": "during hospital stay, average of 1 month"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:00.531Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

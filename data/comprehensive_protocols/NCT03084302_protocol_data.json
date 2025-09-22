@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT03084302",
+  "briefTitle": "Monitoring Movement and Health Study",
+  "officialTitle": "Sedentary Behavior in Pregnancy and Cardiovascular Health: the Monitoring Movement and Health (MoM Health) Study",
+  "protocolDocument": {
+    "nctId": "NCT03084302",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-04",
+    "uploadDate": "2021-08-18T06:52",
+    "size": 108069,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03084302/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 120,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-03-01",
+    "completionDate": "2020-06-30",
+    "primaryCompletionDate": "2020-06-30",
+    "firstSubmitDate": "2017-03-07",
+    "firstPostDate": "2017-03-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 8-12 weeks pregnant\n* 18-45 years old\n* plan to receive prenatal care and deliver with University of Pittsburgh Medical Center providers\n\nExclusion Criteria:\n\n* use of medication to treat diabetes or hypertension\n* medical condition that severely limits physical activity (e.g., cannot walk 2 blocks)\n* other serious medical condition that could affect outcomes (such as systemic lupus, chronic renal disease, or hepatitis)",
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "45 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Classified as Having High Sedentary Behavior (by Trajectory)",
+        "description": "Trajectories identified from objective data across trimesters. High sedentary behavior was defined as the highest group (\\~10.9 hr/day) based on growth mixture models from the objective data.",
+        "timeFrame": "1st, 2nd, and 3rd trimester of pregnancy"
+      },
+      {
+        "measure": "Number of Participants Classified as Having Low Moderate-to-vigorous Intensity Physical Activity (by Trajectory)",
+        "description": "Low levels of physical activity across trimesters, identified by growth mixture modelling. The low trajectory corresponded to about 114 minutes per week or about 16 minutes per day.",
+        "timeFrame": "1st, 2nd, and 3rd trimester of pregnancy"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Excessive Gestational Weight Gain",
+        "description": "from study visits and medical records excessive gestational weight gain was defined using 2009 Institute of Medicine Guidelines (reference: Institute of Medicine and National Research Council. Weight gain during pregnancy: reexamining the guidelines. Washington, DC: The National Academies Press; 2009)",
+        "timeFrame": "at delivery"
+      },
+      {
+        "measure": "Adverse Pregnancy Outcomes",
+        "description": "from study visits and medical records includes hypertensive disorders of pregnancy, preterm birth, intrauterine growth restrictions, gestational diabetes",
+        "timeFrame": "during pregnancy"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:16.161Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

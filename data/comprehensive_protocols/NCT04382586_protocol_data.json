@@ -1,0 +1,132 @@
+{
+  "nctId": "NCT04382586",
+  "briefTitle": "Covid-19 Infection and Pulmonary Distress Treatment With Zanubrutinib in Hospitalized Participants",
+  "officialTitle": "A Phase 2, Randomized, Double Blind, Placebo-Controlled Study of Zanubrutinib Treatment in Patients Hospitalized for COVID-19 Infection and Pulmonary Distress",
+  "protocolDocument": {
+    "nctId": "NCT04382586",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-01-08",
+    "uploadDate": "2022-01-31T15:18",
+    "size": 2405076,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04382586/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 63,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-07-06",
+    "completionDate": "2021-02-01",
+    "primaryCompletionDate": "2021-02-01",
+    "firstSubmitDate": "2020-05-07",
+    "firstPostDate": "2020-05-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n1. Hospitalization for COVID-19 infection\n2. Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV)-2 infection confirmed by polymerase chain reaction (PCR)\n3. Participant requires supplemental oxygen for pulmonary distress related to COVID-19 infection, and has been on supplemental oxygen for no more than 96 hours from time of screening\n\nKey Exclusion Criteria:\n\n1. Malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel, symptomatic inflammatory bowel disease or ulcerative colitis, or partial or complete bowel obstruction\n2. On a Bruton's tyrosine kinase (BTK) inhibitor\n3. Planned or concurrent use of a host modifiers/immune-based therapies or anti-CD20 monoclonal antibody treatment\n4. Participants with prior of current hematologic malignancy or solid tumor malignancy with treatment within 6 months prior to study entry\n\nNOTE: Other protocol defined Inclusion/Exclusion criteria may apply.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Respiratory Failure-free Survival",
+        "description": "Number of participants with respiratory failure-free survival, defined as not having died or gone into respiratory failure on or before Day 28",
+        "timeFrame": "Up to Day 28"
+      },
+      {
+        "measure": "Time to Breathing Room Air",
+        "description": "Time to return to breathing room air is defined as the time from randomization date to the earliest time where the participant is stable on room air without supplemental oxygen. Total follow-up time in days is the total time of all participants from the randomization date to the first event date or Day 28 if there is no event. The rate was calculated as total number of events in which a participant returned to breathing room air on or before Day 28 divided by the total follow-up time in days.",
+        "timeFrame": "Up to 7 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Experiencing Respiratory Failure or Death",
+        "description": "Number of participants experiencing respiratory failure or death on or before Day 28",
+        "timeFrame": "Up to Day 28"
+      },
+      {
+        "measure": "Number of Participants With All-cause Mortality",
+        "description": "Number of participants with all-cause mortality on or before Day 28",
+        "timeFrame": "Up to Day 28"
+      },
+      {
+        "measure": "Number of Participants Discharged Alive",
+        "description": "Number of participants discharged alive on or before Day 28",
+        "timeFrame": "Up to Day 28"
+      },
+      {
+        "measure": "Number of Participants Discharged Alive From the ICU",
+        "description": "Number of participants discharged alive from the intensive care unit (ICU) on or before Day 28",
+        "timeFrame": "Up to Day 28"
+      },
+      {
+        "measure": "Number of Participants With Improvement in the World Health Organization (WHO) 8-point Ordinal Scale",
+        "description": "Number of participants with improvement in WHO 8-point-scale, in which improvement was considered a score that changed from ≥4 at baseline to ≤ 3 at Day 28 as assessed by the investigator. Scoring ranges from 0 = uninfected with no clinical or virologic evidence of disease to 8 = dead.",
+        "timeFrame": "Up to Day 28"
+      },
+      {
+        "measure": "Duration of Mechanical Ventilation",
+        "description": "Number of days on mechanical ventilation on or before Day 28",
+        "timeFrame": "Up to Day 28"
+      },
+      {
+        "measure": "Duration of Hospitalization",
+        "description": "Number of days hospitalized on or before Day 28",
+        "timeFrame": "Up to Day 28"
+      },
+      {
+        "measure": "PaO2:FiO2 Ratio",
+        "description": "Partial pressure of oxygen (PaO2):fraction of inspired oxygen (FiO2) ratio",
+        "timeFrame": "Baseline, Day 7, Day 14, Day 21 and Day 28"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events",
+        "description": "Number of participants with treatment-emergent adverse events (TEAEs), serious adverse events (SAEs), treatment-related adverse events (AEs), and TEAEs grade 3 or higher, including laboratory findings",
+        "timeFrame": "Up to 7 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.376Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

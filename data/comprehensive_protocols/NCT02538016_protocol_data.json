@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02538016",
+  "briefTitle": "TCUPS- Tolvaptan Use in Cystinuria and Urolithiasis: A Pilot Study",
+  "officialTitle": "Use of Tolvaptan, a Vasopressin Antagonist, to Increase Urine Dilution and Reduce Cystine Urolithiasis Among Patients With Homozygous Cystinuria: a Pilot Investigation",
+  "protocolDocument": {
+    "nctId": "NCT02538016",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-09-23",
+    "uploadDate": "2020-05-19T11:51",
+    "size": 326036,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02538016/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 4,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-10",
+    "completionDate": "2018-12",
+    "primaryCompletionDate": "2018-12",
+    "firstSubmitDate": "2015-07-21",
+    "firstPostDate": "2015-09-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Males and females age 12 - 29 years\n* Weight ≥ 25kg (55 lbs)\n* Confirmed cystinuria diagnosis\n* Specific blood test levels (done within the past 6 months)\n\nExclusion Criteria:\n\n* Concurrent non-renal disease that might increase risk of complications due to aquaresis\n* Liver or biliary disease (chronic or acute)\n* Malabsorption syndrome or other gastrointestinal condition that may interfere with response to therapy\n* Non-cutaneous malignancy within last 5 years\n* History of adverse reaction or allergy to Tolvaptan or other arginine vasopressin V2-receptor antagonists",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "maximumAge": "29 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Urinary Cystine Supersaturation (mg/L) at High Dose (Day7-8)",
+        "description": "The primary outcome was urinary cystine supersaturation as measured by \"cystine capacity\". This proprietary test (Litholink Corp., Chicago IL) is reported as a value in mg/L above or below zero, with positive values indicating urine undersaturated with cystine, while negative values indicate that the urine is supersaturated with cystine. Four 24-hour urine samples were obtained during the study: one at baseline 3-6 days prior to the measurement, one on day 3-4 of the dosing period, one on day 7-8 of the dosing period, and one 3-6 days after the washout period. Each 24 hour urine sample was sent individually for analysis by Litholink Corp, which performs the cystine assays.",
+        "timeFrame": "23 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Urine Osmolality at High Dose (Day 8)",
+        "description": "Secondary outcomes included serum sodium and other electrolyte levels. Serum electrolytes for each subject before, during, and after tolvaptan treatment (Sodium/Potassium/Chloride in mmol/L).",
+        "timeFrame": "11 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:06.422Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

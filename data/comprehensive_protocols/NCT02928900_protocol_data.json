@@ -1,0 +1,139 @@
+{
+  "nctId": "NCT02928900",
+  "briefTitle": "Patient Actor Training to Improve HIV Services for Adolescents in Kenya",
+  "officialTitle": "Simulated Patient Encounters to Promote Early Detection and Engagement in HIV Care for Adolescents",
+  "protocolDocument": {
+    "nctId": "NCT02928900",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-11",
+    "uploadDate": "2021-01-08T15:56",
+    "size": 991894,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02928900/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 24,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-09-26",
+    "completionDate": "2021-03-31",
+    "primaryCompletionDate": "2020-11-02",
+    "firstSubmitDate": "2016-09-26",
+    "firstPostDate": "2016-10-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria: Listed by population\n\nFacilities:\n\n* HIV care and treatment facilities in Kenya with ≥40 adolescents currently in HIV care\n* EMR data systems\n* No concurrent adolescent interventions\n\nAdolescent patient records:\n\n* Records of adolescents and youth ages 10-24\n* Enrollment in HIV care and treatment at one of the study facilities\n\nAdolescent satisfaction surveys:\n\n* Patients ages 10-24 seeking counseling or treatment services at trial site who are HIV-infected\n* Willing and able to provide informed consent or assent based on age and presence of a caregiver.\n* Reside in Kenya\n\nHealth care workers:\n\n* \\>18 years of age\n* Employed at trial site in clinical care for at least three months and/or have a 1 year contract (i.e. not temporary staff)\n* Provide clinical services to adolescents\n* Reside in Kenya\n\nExclusion Criteria:\n\nFacilities:\n\n* If inclusion criteria are not met\n* If anything would prevent the complete conduct of the training intervention at that site and/or the collection of outcome measures\n\nAdolescents and health care worker surveys:\n\n• If an individual has conditions that would place them at increased risk or preclude the individual's full compliance with or completion of the study",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "10 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Retention in HIV Care",
+        "description": "The primary outcome is change in retention in HIV care between the intervention and control periods, where retention is defined as return for first follow-up visit within 3 months among newly enrolled adolescent clients OR follow-up visit after 're-engagement visit' (after lost-to-follow-up for \\>90 days since last visit, with no record of death or transfer).",
+        "timeFrame": "Up to four years after baseline"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Proportion of HCWs With Pass/Fail Scores",
+        "description": "The proportion of HCW participants who achieved competency upon completion of the training.",
+        "timeFrame": "Up to one month after last day of training"
+      },
+      {
+        "measure": "Numeric Scores From SP Actors",
+        "description": "All SP actors will complete a check-list to provide non-technical feedback to each HCW participant. Scores will be used to compute the overall pass/fail score at completion of the training.",
+        "timeFrame": "Up to one week after last day of training"
+      },
+      {
+        "measure": "Health Care Worker Competency",
+        "description": "This outcome is measured as change in mean competency score between intervention and control periods using a structured survey.",
+        "timeFrame": "Baseline and every nine months for up to four years"
+      },
+      {
+        "measure": "Health Care Workers' Satisfaction With Skills",
+        "description": "This outcome is measured as change in mean satisfaction scores between intervention (post-training) and control periods (pre-training), using a structured survey. These surveys will be conducted at baseline, and every nine months at the end of the training in each wave. Exit interviews among trained participants will be conducted about one year after each training wave for up to four waves to complement the quantitative results.",
+        "timeFrame": "Baseline and every nine months for up to four years"
+      },
+      {
+        "measure": "Adolescent Patients' Satisfaction With Care",
+        "description": "This outcome is defined as mean change in satisfaction score between intervention and control periods, using a structured survey.",
+        "timeFrame": "Baseline and every nine months for up to four years"
+      },
+      {
+        "measure": "Retention in HIV Care (Secondary)",
+        "description": "A secondary measure of retention in HIV care is return for any follow-up visit within 3 months (90 days) among currently enrolled HIV-positive adolescent patients",
+        "timeFrame": "Baseline and every nine months for up to four years"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Antiretroviral (ART) Adherence in HIV-positive Adolescents",
+        "description": "This measure is defined as change in the proportion of visits with ART refills within 1 week of scheduled visit between intervention and control periods using available electronic medical record (EMR) data.",
+        "timeFrame": "Baseline and every nine months for up to four years"
+      },
+      {
+        "measure": "Viral Load in HIV-positive Adolescents",
+        "description": "This measure is defined as change in viral load between intervention and control periods using available EMR data.",
+        "timeFrame": "Baseline and every nine months for up to four years"
+      },
+      {
+        "measure": "Linkage to Adolescent Friendly Services in HIV-positive Adolescents",
+        "description": "This measure is defined as change in the proportion of visits with referrals to affiliated services (e.g. family planning) between intervention and control periods using available EMR data.",
+        "timeFrame": "Baseline and every nine months for up to four years"
+      },
+      {
+        "measure": "AIDS Defining Illness in HIV-positive Adolescents",
+        "description": "This measure is defined as change in the proportion of visits with any AIDS defining illness between intervention and control periods using available EMR data.",
+        "timeFrame": "Baseline and every nine months for up to four years"
+      },
+      {
+        "measure": "Mortality in HIV-positive Adolescents",
+        "description": "This measure is defined as change in the proportion of deaths between intervention and control periods using available EMR data.",
+        "timeFrame": "Baseline and every nine months for up to four years"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 5,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:18.495Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

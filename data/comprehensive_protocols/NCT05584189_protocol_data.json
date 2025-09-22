@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT05584189",
+  "briefTitle": "COVID-19 MP Biomedicals Rapid SARS-CoV-2 Antigen Test Usability",
+  "officialTitle": "Over the Counter Rapid Antigen Test for Detection of SARS-CoV-2 Virus: Human Usability Study",
+  "protocolDocument": {
+    "nctId": "NCT05584189",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-08-13",
+    "uploadDate": "2023-03-20T10:48",
+    "size": 449664,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05584189/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 99,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-10-07",
+    "completionDate": "2021-10-27",
+    "primaryCompletionDate": "2021-10-27",
+    "firstSubmitDate": "2022-10-14",
+    "firstPostDate": "2022-10-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* The study population will include subjects from 2 years old to greater than 65 years old.\n* Lay subjects who perform the test on themselves must be able to read, write, speak, and understand English or Spanish.\n\nExclusion Criteria:\n\n* Participants who regularly use home diagnostic tests, such as glucose meters, will be excluded.\n* Persons under 2 years of age will be excluded from participation.\n* Persons under 14 years of age will be excluded from performing the Rapid SARS-CoV-2 Antigen Test on themselves.\n* Persons under 18 years of age will be excluded from performing the Rapid SARS-CoV-2 Antigen Test on another qualified participant.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "30 Candidate Ag Test Self-collections",
+        "description": "Lay subjects aged 14-65+ who will perform collection of the candidate Ag self-test kit on themselves under the supervision of qualified site personnel in person.",
+        "timeFrame": "One Hour"
+      },
+      {
+        "measure": "30 Candidate Ag Test Collections of Another",
+        "description": "Lay subjects aged 18-65+ who will perform collection of the candidate Ag self-test kit on another participant aged 2-65+ years under the supervision of qualified site personnel in person",
+        "timeFrame": "One Hour"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "At Least One Enrollment of a Spanish Speaking Lay User",
+        "description": "At least one lay subject aged 14-65+ who will perform collection of the candidate Ag self-test kit on themselves under the supervision of qualified site personnel in person and/or at least one lay subject aged 18-65+ who will perform collection of the candidate Ag self-test kit on another participant aged 2-65+ years under the supervision of qualified site personnel in person.",
+        "timeFrame": "One Hour"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:38.470Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

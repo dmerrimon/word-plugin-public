@@ -1,0 +1,95 @@
+{
+  "nctId": "NCT03179163",
+  "briefTitle": "Peripheral Vascular Effects of Sulfhydryl-containing Antihypertensive Pharmacotherapy on Microvessels in Humans",
+  "officialTitle": "Peripheral Vascular Effects of Sulfhydryl-containing Antihypertensive Pharmacotherapy on Microvascular Function and Vessel Remodeling in Hypertensive Humans",
+  "protocolDocument": {
+    "nctId": "NCT03179163",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-25",
+    "uploadDate": "2023-11-27T16:39",
+    "size": 538009,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03179163/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 10,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07-20",
+    "completionDate": "2022-12-31",
+    "primaryCompletionDate": "2022-08-31",
+    "firstSubmitDate": "2017-06-02",
+    "firstPostDate": "2017-06-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Women and men\n* 40-65 years\n* Blood pressure: Normotensive \\<120/80 mmHg Hypertensive ≥140/90 mmHg and \\<160/110 mmHg\n* HbA1C of \\<6.5%\n* Women are post-menopausal and not taking hormone replacement therapy, or have normal cycles and are tested in the early follicular phase\n* Subjects may or may not be taking one doctor-prescribed drug to lower blood pressure (e.g. diuretic, ACE inhibitor).\n\n  * Must be able to stop physician-prescribed antihypertensive drug for the duration of the subject's participation in the study (with the approval of their personal physician).\n\nExclusion Criteria:\n\nRelevant to all subjects:\n\n* current medications which could conceivably alter the cardiovascular or thermoregulatory control or responses (e.g. beta blockers, calcium channel blockers, ACE inhibitors, angiotensin receptor blockers)\n* taking a diuretic (also see below)\n* allergy to test substances\n* allergy to latex\n* nicotine use (smoking, chewing tobacco, etc.)\n* illegal/recreational drug use\n* pregnancy or breastfeeding\n* diabetes\n\nRelevant to hypertensive subjects only:\n\n* contraindication for all three pharmacotherapy drugs used in this study\n\n  o Note: Subjects who have a contraindication (e.g. a condition, medication with a known interaction, known allergy) to only one or two of the three pharmacotherapy drugs, may be assigned one of the pharmacotherapy drugs that is not contraindicated.\n* history of having taken an ACE inhibitor with antioxidant properties (e.g. Captopril, Zofenopril)\n* kidney problems\n* liver problems\n* history of heart disease or failure\n* history of blood clots or stroke\n* angioedema\n* electrolyte imbalance\n* planned surgery requiring general anesthesia during the pharmacotherapy period\n* peripheral vascular disease\n* diuretics (a subject taking only a diuretic to control the subject's hypertension may be included in the study if the subject stops taking the diuretic for the duration of the subject's participation in the study with the approval of the subject's personal physician.)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Endothelium Dependent Vasodilation",
+        "description": "This measurement is performed using a laser Doppler flow meter. The flow meter produces a non-invasive qualitative and dimensionless index of blood flow in blood vessels during the localized perfusion of the endothelium-dependent vasodilatory acetycholine in a dose response fashion. The results are the differences in the area under the curve units=(laser Doppler flux/MAP)\\*logAch concentration",
+        "timeFrame": "16 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Systolic Blood Pressure",
+        "description": "Blood pressure is measured via brachial auscultation manually or with a critical care monitor. The peak blood pressure during a cardiac cycle when the heart contracts.",
+        "timeFrame": "16 Weeks"
+      },
+      {
+        "measure": "Diastolic Blood Pressure",
+        "description": "Blood pressure is measured via brachial auscultation manually or with a critical care monitor. The lowest blood pressure during a cardiac cycle when the heart is between beats.",
+        "timeFrame": "16 Weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:51.620Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

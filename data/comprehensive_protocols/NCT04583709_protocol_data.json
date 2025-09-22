@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT04583709",
+  "briefTitle": "ECG Belt to Assess Electrical Synchronization",
+  "officialTitle": "ECG Belt to Assess Electrical Synchronization in Patients With Left Bundle Branch Pacing and His-Purkinje Conduction System Optimized Cardiac Resynchronization Therapy (ECG Belt)",
+  "protocolDocument": {
+    "nctId": "NCT04583709",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-10-07",
+    "uploadDate": "2022-06-20T11:45",
+    "size": 334022,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04583709/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-13",
+    "completionDate": "2021-06-25",
+    "primaryCompletionDate": "2021-06-25",
+    "firstSubmitDate": "2020-09-29",
+    "firstPostDate": "2020-10-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patients \\> 18 years of age\n2. Patient has a previously implanted LBBP lead for bradycardia indication or heart failure indication with one of the following at Geisinger within the last 5 years:\n\n   * LBBP\n   * LBBP+LV lead\n   * HBP+LV\n3. Patient is willing to comply with all study procedures and be available for the duration of the study.\n\nExclusion Criteria:\n\n1. Inability to provide informed consent\n2. Pregnant\n3. Enrolled in a concurrent study that may confound the results of this study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "• ECG Belt Analysis of Standard Deviation of Activation Times (SDAT) of LBBP Compared to Native Conduction",
+        "description": "Change in SDAT following LBBP measured in ms using ECG Belt",
+        "timeFrame": "Visit 1 Baseline-50 minutes"
+      },
+      {
+        "measure": "• ECG Belt Analysis of Left Ventricular Activations Times (LVAT) of LBBP Compared to Baseline",
+        "description": "Change in LV activation times measured in ms using ECG Belt",
+        "timeFrame": "Visit 1 Baseline-50 minutes"
+      },
+      {
+        "measure": "• ECG Belt Analysis of QRS Duration at Baseline Compared to Various LBBP Options",
+        "description": "Change in QRS duration measured in ms using ECG Belt",
+        "timeFrame": "Visit 1 Baseline-50 minutes"
+      },
+      {
+        "measure": "• ECG Belt Analysis of LV Dispersion of HOT-CRT Compared to Baseline",
+        "description": "LV dispersion measured using ECG Belt",
+        "timeFrame": "Visit 1 Baseline- 50 minutes"
+      },
+      {
+        "measure": "• ECG Belt Analysis of RV Dispersion of HOT-CRT Compared to Baseline",
+        "description": "RV dispersion measured using ECG Belt",
+        "timeFrame": "Visit 1 Baseline- 50 minutes"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:33.105Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

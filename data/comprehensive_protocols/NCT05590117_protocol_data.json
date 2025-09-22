@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT05590117",
+  "briefTitle": "Protective Effect of Pentoxifylline Against Chemotherapy Induced Toxicities in Patients With Colorectal Cancer",
+  "officialTitle": "The Possible Protective Effect of Pentoxifylline Against Chemotherapy Induced Toxicities in Patients With Colorectal Cancer",
+  "protocolDocument": {
+    "nctId": "NCT05590117",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-10-12",
+    "uploadDate": "2022-10-18T12:58",
+    "size": 350837,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05590117/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "EARLY_PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 48,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-10-11",
+    "completionDate": "2024-10-11",
+    "primaryCompletionDate": "2023-10-11",
+    "firstSubmitDate": "2022-10-13",
+    "firstPostDate": "2022-10-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* \\- Patients with histologically confirmed diagnosis of stage II and stage III colorectal cancer.\n* Patients who will be scheduled to receive FOLFOX-6 regimen.\n* Patients with no contraindication to chemotherapy.\n* Males and females aged ≥ 18 years old.\n* Adequate baseline hematologic values (absolute neutrophilic count ≥ 1.5\n\n  × 109/L, platelet count ≥ 100 × 109/L and hemoglobin level ≥ 10 g/dl).\n* Patients with adequate renal function (serum creatinine \\< 1.5 mg/dL and Creatinine clearance (ClCr) ˃ 45 mL/min).\n* Patients with adequate liver function (serum bilirubin \\< 1.5 mg/dl).\n* Patients with performance status \\< 2 according to Eastern Cooperative Oncology Group (ECOG) score.\n\nExclusion Criteria:\n\n* \\- Children \\< 18 years old.\n* Prior exposure to neurotoxic chemotherapy (oxaliplatin, cisplatin, vincristine, paclitaxel, docetaxel or Isoniazid) for at least 6 months prior the study treatment.\n* Evidence of pre-existing peripheral neuropathy resulting from another reason (diabetes, brain tumor or brain trauma).\n* Patients with diabetes and other conditions that predispose to neuropathy as hypothyroidism, autoimmune diseases or hepatitis C.\n* History of known allergy to oxaliplatin or other platinum agents.\n* Patients with other inflammatory diseases (rheumatoid arthritis and ulcerative colitis) or stressful conditions (obesity class 2 and 3, smoking).\n* Concomitant use of multivitamins (vitamins E, C and A), tricyclic antidepressants or other neuro-protective medications (gabapentin, lamotrigine, carbamazepine and phenytoin, etc...).\n* Concurrent active cancer originating from a primary site other than colon or rectum.\n* Patients on blood thinning agents\n* Pregnant and breastfeeding women",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "percentage of patients with peripheral sensory neuropathy grade ≥ 2",
+        "description": "Grading according to National Cancer Institute Common Terminology. there are 5 grades; Grade (1) is asymptomatic may be accompanied by loss of tendon reflex or paresthesia. Grade (2) is moderate symptoms which limit instrumental activities of daily life Grade (3) is severe symptoms which limit self-care activates of daily life. Grade (4) is life threatening consequences or urgent intervention indicated. Grade (5) is death.\n\nCriteria for Adverse Events (NCI-CTCAE, Version 5, 2017)",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "variation of 12-item neurotoxicity questionnaire (Ntx- 12) total score",
+        "description": "the Ntx-12 questionnaire is comprised of 12 statements intended to measure the severity and impact of peripheral sensory neuropathy on patients' lives. Patients will be instructed to complete the Arabic version of the Ntx-12 and choose the number corresponding to how true each statement was for them using a likert-type scale, with 0 indicating not at all; 1, a little bit; 2, somewhat; 3, quite a bit; and 4, very much",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "variation in grades of mucositis",
+        "description": "Mucositis will be assessed through the use of common terminology criteria for adverse events \"CTCAE, version 5.00, 2017\". Grade (1) is Asymptomatic or mild symptoms; intervention not indicated. Grade (2) is Moderate pain or ulcer that does not interfere with oral intake; modified diet indicated. Grade (3) is Severe pain, interfering with oral intake. Grade (4) is Life-threatening consequences; urgent intervention indicated. Grade (5) is Death.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in the biological marker Malondialdehyde",
+        "description": "Malondialdehyde (MDA) as oxidative stress marker will be measured using colorimetry",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Change in the biological marker Tumor necrosis factor alfa",
+        "description": "Tumor necrosis factor alfa (TNF-α) as pro inflammatory marker will be measured using ELISA will be measured using (ELISA).",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Change in the biological marker Neurotensin",
+        "description": "Neurotensin (NT) as a potential marker for neuropathic pain will be measured using ELISA",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Change in the biological marker Citrulline",
+        "description": "Citrulline as a biomarker for mucositis will be measured using ELISA",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:50.376Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

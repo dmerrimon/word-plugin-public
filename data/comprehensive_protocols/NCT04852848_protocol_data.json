@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04852848",
+  "briefTitle": "Creating a Sustainable Infrastructure for SARS-CoV-2 Testing (COVID-19) at Syringe Exchange Programs",
+  "officialTitle": "Creating a Sustainable Infrastructure for SARS-COV-2 (COVID-19) Testing at Syringe Exchange Programs",
+  "protocolDocument": {
+    "nctId": "NCT04852848",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2021-04-23",
+    "uploadDate": "2023-05-11T11:21",
+    "size": 250734,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04852848/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 205,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-04-14",
+    "completionDate": "2021-06-30",
+    "primaryCompletionDate": "2021-06-30",
+    "firstSubmitDate": "2021-04-19",
+    "firstPostDate": "2021-04-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Aged 18 and over\n* Attend Syringe Services Program\n* English speaking\n\nExclusion Criteria:\n\n\\-",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Individual Participation in COVID-19 Testing",
+        "description": "Binary outcome, yes/no participated in COVID-19 tested, reported by CLIA laboratory",
+        "timeFrame": "Immediately post-intervention assessment of whether clients participated in COVID-19 testing following either the brief intervention or services as usual"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:37.482Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

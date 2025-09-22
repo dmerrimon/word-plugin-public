@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT04408755",
+  "briefTitle": "Assessment of the Efficacy, Safety, and Tolerability of AVP-786 for the Treatment of Agitation in Patients With Dementia of the Alzheimer's Type",
+  "officialTitle": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study to Assess the Efficacy, Safety, and Tolerability of AVP-786 (Deudextromethorphan Hydrobromide [d6-DM]/Quinidine Sulfate [Q]) for the Treatment of Agitation in Patients With Dementia of the Alzheimer's Type",
+  "protocolDocument": {
+    "nctId": "NCT04408755",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-05-15",
+    "uploadDate": "2025-04-03T04:56",
+    "size": 10959965,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04408755/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 184,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-07-13",
+    "completionDate": "2024-06-27",
+    "primaryCompletionDate": "2024-06-27",
+    "firstSubmitDate": "2020-05-26",
+    "firstPostDate": "2020-05-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participants with a diagnosis of probable Alzheimer's disease according to the 2011 Neuropsychiatric Inventory Agitation/Aggression (NPI-AA) working groups criteria\n* Participants with clinically significant, moderate-to-severe agitation for at least 2 weeks prior to Screening that interferes with daily routine per the Investigator's judgment\n* Participants who require pharmacotherapy for the treatment of agitation per the Investigator's judgment after an evaluation of reversible factors and a course of nonpharmacological interventions\n* Diagnosis of agitation must meet the International Psychogeriatric Association (IPA) provisional definition of agitation.\n* Participants meeting an additional predetermined blinded eligibility criterion, which will remain blinded to the clinical study site Investigators and staff\n* Participants with a reliable caregiver who is able and willing to comply with all study procedures, including adherence to administering study drug and not administering any prohibited medications during the course of the study, and who spends a minimum of 2 hours per day for 4 days per week with the participant\n\nExclusion Criteria:\n\n* Participants with dementia predominantly of the non-Alzheimer's type (e.g., vascular dementia, frontotemporal dementia, Parkinson's disease, substance-induced dementia)\n* Participants with symptoms of agitation that are not secondary to Alzheimer's dementia (e.g., secondary to pain, other psychiatric disorder, or delirium)\n* Participants with co-existent clinically significant or unstable systemic diseases that could confound the interpretation of the safety results of the study (e.g., malignancy \\[except skin basal-cell carcinoma\\], poorly controlled diabetes, poorly controlled hypertension, unstable pulmonary, renal or hepatic disease, unstable ischemic cardiac disease, dilated cardiomyopathy, or unstable valvular heart disease)\n* Participants with myasthenia gravis",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From the End of Period A (Week 1) to Week 10 in the Cohen-Mansfield Agitation Inventory (CMAI) Composite Score",
+        "description": "The CMAI is used to assess the frequency of manifestations of agitated behaviors in elderly persons. It consists of 29 agitated behaviors that are further categorized into distinct agitation syndromes, also known as CMAI factors of agitation. These distinct agitation syndromes include aggressive behavior, physically nonaggressive behavior, and verbally agitated behavior. Each of the 29 items is rated on a 7-point scale of frequency (1 = never, 2 = less than once a week but still occurring, 3 = once or twice a week, 4 = several times a week, 5 = once or twice a day, 6 = several times a day, 7 = several times an hour). The ratings are based on the 2 weeks preceding assessment of the CMAI. Higher scores indicate higher frequency of agitated behaviours while lower scores indicate lower frequency of agitated behaviours.",
+        "timeFrame": "Week 1 to Week 10"
+      },
+      {
+        "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAE) and Serious TEAE",
+        "description": "An adverse event (AE) is any untoward medical occurrence or unintended change (eg, physical, psychological, or behavioral), including inter-current illness, that does not necessarily have a causal relationship with the study treatment. A serious adverse event (SAE) is any AE occurring at any dose that results in death, life-threatening experience, persistent or significant disability/incapacity, in-patient hospitalization or prolongation of hospitalization or congenital anomaly/birth defect. TEAEs are all AEs (including serious and non-serious) which started after start of double-blind study drug treatment; or if the event was continuous from baseline and was worsening, serious, study drug related, or resulted in death, discontinuation, interruption or reduction of study therapy.",
+        "timeFrame": "From randomization (Week 2) up to 30 days after last dose of study drug (Up to Week 16)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From the End of Period A (Week 1) to Week 10 in the Clinical Global Impression of Severity of Illness (CGIS) Score, as Related to Agitation",
+        "description": "The CGIS is an observer-rated scale that measures illness severity. The CGIS-Agitation is a 7-point (1-7) scale (1 = normal, not at all ill; 7 = among the most extremely ill patients) and assesses severity of agitation in this study. Higher scores indicate severe agitation while the lower scores indicate little or no agitation.",
+        "timeFrame": "Week 1 to Week 10"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:40.591Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

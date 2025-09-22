@@ -1,0 +1,99 @@
+{
+  "nctId": "NCT03053180",
+  "briefTitle": "Real World Evidence of the Effectiveness of Paritaprevir/Ritonavir (r) - Ombitasvir, + Dasabuvir Without Ribavirin in Participants With Chronic Hepatitis C and Compensated Liver Cirrhosis in the Russian Federation",
+  "officialTitle": "Real World Evidence Study of the Effectiveness of Paritaprevir/r - Ombitasvir, + Dasabuvir Without Ribavirin in Patients With Chronic HCV Gt1b Infection and Compensated Liver Cirrhosis in the RussIan FederaTion- An ObseRvational, MultI-CeNter Study (CITRIN)",
+  "protocolDocument": {
+    "nctId": "NCT03053180",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-11-29",
+    "uploadDate": "2018-11-15T14:27",
+    "size": 6898418,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03053180/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-03-20",
+    "completionDate": "2017-12-18",
+    "primaryCompletionDate": "2017-12-18",
+    "firstSubmitDate": "2017-02-08",
+    "firstPostDate": "2017-02-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 3DAA ABBVIE REGIMEN will be prescribed by physicians according to the routine clinical practice\n* Treatment-naïve or interferon (IFN)/ribavirin (RBV)-experienced participants with confirmed CHC Gt1b and compensated liver cirrhosis, receiving therapy with the interferon-free 3DAA ABBVIE REGIMEN initiated not earlier than 2 weeks before the enrollment or the initiation is planned not later than 2 weeks after the day of enrollment in accordance to standard of care and in line with the current local label\n* Participants must not be participating or intending to participate in a concurrent interventional therapeutic trial\n\nExclusion Criteria:\n\n* Co-administration ribavirin (RBV) with the 3DAA ABBVIE REGIMEN\n* Participants with Child Pugh B and C cirrhosis\n* Participants with a history of prior direct-acting antiviral agent (DAA) therapy\n* Any other contraindications to the administration of 3DAA ABBVIE REGIMEN according to the label",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants Achieving Sustained Virological Response 12 Weeks Post-treatment (SVR12)",
+        "description": "SVR12 was defined as hepatitis C virus (HCV) ribonucleic acid (RNA) levels less than 50 IU/mL 12 weeks after the last dose of study drug.",
+        "timeFrame": "12 weeks after the last dose of study drug (week 24)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants Achieving Virological Response at End of Treatment (EoT)",
+        "description": "Virological response is defined as HCV RNA less than 50 IU/mL.",
+        "timeFrame": "End of treatment, maximum of 12 weeks"
+      },
+      {
+        "measure": "Percentage of Participants With Relapse",
+        "description": "Relapse was defined as participants with a virologic response (VR; HCV RNA \\< 50 IU/mL) at end of treatment (EOT) followed by HCV RNA ≥ 50 IU/mL at any time after the end of treatment.",
+        "timeFrame": "End of treatment (week 12) and up to 12 weeks after the end of treatment."
+      },
+      {
+        "measure": "Percentage of Participants With Breakthrough",
+        "description": "Breakthrough was defined as at least one documented HCV RNA \\< 50 IU/mL followed by HCV RNA ≥ 50 IU/mL during treatment.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Percentage of Participants With Failure to Suppress",
+        "description": "Failure to suppress was defined as each measured on-treatment HCV RNA value ≥ 50 IU/mL.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Percentage of Participants With Missing SVR12 Data",
+        "timeFrame": "12 weeks after the last dose of study drug (week 24)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:24.206Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT07172139",
+  "briefTitle": "Transcranial Magnetic Stimulation and Pharmacologic/Probiotic Interventions for Diarrhea-Predominant IBS",
+  "officialTitle": "Effect of Transcranial Magnetic Stimulation vs Sham Stimulation Combined With Pinaverium Bromide vs Bifidobacteria in Diarrhea-Predominant Irritable Bowel Syndrome: A 2×2 Factorial Randomized Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT07172139",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2025-08-21",
+    "uploadDate": "2025-09-06T11:12",
+    "size": 424924,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07172139/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 140,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-09",
+    "completionDate": "2026-05",
+    "primaryCompletionDate": "2026-04",
+    "firstSubmitDate": "2025-09-07",
+    "firstPostDate": "2025-09-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n(I)Age range 18-75 years (either sex) (II)Fulfilling the Rome IV criteria for irritable bowel syndrome diagnosis (III)Bristol stool type 6-7 in \\>25% and type 1-2 in \\<25% of bowel movements (IV)Patients experienced Bristol stool type 6 or 7 on ≥4 days with mean abdominal pain score ≥3 during the initial 2-week period\n\nExclusion Criteria:\n\n(I)Documented organic gastrointestinal pathology; endocrinologic or metabolic diseases with known gastrointestinal motility effects including diabetes mellitus and hyperthyroidism; previous surgical interventions involving abdominal cavity intestinal tract or anal region (II)current use of any medication with documented effects on gastrointestinal motility or secretory function; administration of concurrent therapies or pharmacologic agents capable of confounding treatment efficacy or safety evaluations (III)pregnancy lactation or postpartum status within 12 months (IV)noncompliance with randomized treatment allocation or demonstrated poor adherence tendencies",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of participants with composite response",
+        "description": "The primary outcome measure is the proportion of patients achieving a composite response at the end of treatment (Week 2), defined as: a reduction of ≥30% from baseline in the average daily worst abdominal pain score, and a reduction of ≥50% in the number of days with at least one stool consistency meeting BSFS type 6 or 7 criteria during Week 2. Abdominal pain intensity is assessed using an 11-point NRS scale (0-10) for the last 24 hours daily. Stool consistency is recorded daily by the patient selecting the most representative category according to the BSFS.",
+        "timeFrame": "At Week 2 (end of treatment)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Symptoms, Quality of Life",
+        "description": "The IBS Symptom Severity Scale (IBS-SSS) is utilized to assess the overall symptomatology of irritable bowel syndrome. This scale comprises five domains: severity of abdominal pain, frequency of abdominal pain, severity of abdominal distension, dissatisfaction with bowel habits, and impact on quality of life. Each domain is scored on a scale from 0 to 100, resulting in a total score range of 0 to 500.A decrease of 50 points is considered as a minimal clinically important diference . Te IBS Quality of Life (IBS-QoL) comprises 34 IBS-specifc items which divide into 8 variables: health worries, food avoidance, body image, dysphoria, interference with activity, social reactions, sexual activity, and relationships. Te IBS-QoL score will be transformed into a 0-100 scale using the following formula: (the actual raw score - the lowest possible score)/possible score range\n\n× 100.",
+        "timeFrame": "From baseline to week 2 of treatment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 40,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T05:06:11.776Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

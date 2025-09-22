@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT03130257",
+  "briefTitle": "Blood Pressure Checks for Diagnosing Hypertension (BP-CHECK)",
+  "officialTitle": "Blood Pressure Checks for Diagnosing Hypertension (BP-CHECK)",
+  "protocolDocument": {
+    "nctId": "NCT03130257",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-07",
+    "uploadDate": "2020-10-20T13:48",
+    "size": 427841,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03130257/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 510,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-11",
+    "completionDate": "2019-08-26",
+    "primaryCompletionDate": "2019-08-26",
+    "firstSubmitDate": "2017-04-21",
+    "firstPostDate": "2017-04-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* enrolled in the health plan for two years, no diagnosis of hypertension in the prior 2 years or more,\n* not on anti-hypertensive medications,\n* a high blood pressure at their last clinic visit (systolic blood pressure \\> or equal to 140 mm Hg or diastolic blood pressure \\> or equal to 90,\n* planning to remain a Kaiser Permanente patient for the next six months,\n* able to converse and read in English,\n* required to have elevated blood pressure at the screening visit (BP taken 2 times, high each time).\n\nExclusion Criteria:\n\n* children and pregnant women,\n* patients with end-stage renal disease,\n* dementia,\n* atrial fibrillation and other significant arrhythmias.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Comparative Performance of Clinic, Home, and Kiosk",
+        "description": "To compare the performance of clinic, home, and kiosk blood pressure to 24-hour blood pressure (reference standard) for new hypertension diagnoses. Our primary outcome is differences in mean systolic and diastolic blood pressure comparing clinic, home, and kiosk to 24-hour BP.",
+        "timeFrame": "Randomization to three weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:14.526Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

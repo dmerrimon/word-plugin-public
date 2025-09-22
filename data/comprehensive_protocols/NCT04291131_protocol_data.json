@@ -1,0 +1,95 @@
+{
+  "nctId": "NCT04291131",
+  "briefTitle": "BRAIN, Symptoms, and Physical Activity in COPD",
+  "officialTitle": "Effects of Chronic Pain, Dyspnea, and Physical Activity Promotion on Functional Connectivity of the Brain in COPD",
+  "protocolDocument": {
+    "nctId": "NCT04291131",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-08-02",
+    "uploadDate": "2025-06-30T11:36",
+    "size": 571949,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04291131/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 9,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-07-01",
+    "completionDate": "2024-06-30",
+    "primaryCompletionDate": "2024-06-30",
+    "firstSubmitDate": "2020-02-20",
+    "firstPostDate": "2020-03-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Greater than or equal to 40 years of age\n* Clinical diagnosis of COPD defined as either a ratio of FEV1 to forced vital capacity \\< 0.70 or chest CT evidence of emphysema or prior documentation of FEV1/FVC ratio of \\< 0.7 and clinical evidence of COPD (defined as 10 pack-year cigarette smoking history, dyspnea, or on bronchodilators)\n* Will participate in a physical activity intervention or exercise program\n* Competent to provide informed consent\n* Willingness to make return visits and be available by telephone for duration of study\n\nExclusion Criteria:\n\n* Female sex\n* Claustrophobia\n* History of seizures\n* Known brain lesion\n* Current diagnosis of bipolar disorder, schizophrenia, or psychotic disorder\n* Cognitive disorder such as dementia\n* Known metal in body including:\n\n  * shrapnel\n  * surgical medical clips\n  * implants\n  * pacemakers\n  * metal-based tattoos",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Cortical Thickness",
+        "description": "Cortical thickness will be measured by brain MRIs that will assess functional connectivity and structural variables. Cortical thickness will be reported in millimeters.",
+        "timeFrame": "3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Exercise Capacity",
+        "description": "measured by the 6-minute walk test",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Physical Activity",
+        "description": "Measured by daily step counts",
+        "timeFrame": "3 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Pain Intensity",
+        "description": "Pain intensity will be measured with the Brief Pain Index. The Brief Pain Index rates pain intensity on a numbered scale of 0 - 10, with higher scores indicating more pain.",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Dyspnea",
+        "description": "Dyspnea will be measured with the modified Medical Research Council scale from 0 to 4 where a higher score means greater dyspnea.",
+        "timeFrame": "3 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 2,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 43,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:28.820Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT01214044",
+  "briefTitle": "Circadian Effects of Escitalopram",
+  "officialTitle": "Determination of the Circadian Resetting Effects of Escitalopram and Testing for Correlations Between Circadian Resetting and Antidepressant Effects",
+  "protocolDocument": {
+    "nctId": "NCT01214044",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2008-09-03",
+    "uploadDate": "2019-03-05T17:21",
+    "size": 347679,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01214044/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 19,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2008-05",
+    "completionDate": "2011-12",
+    "primaryCompletionDate": "2011-12",
+    "firstSubmitDate": "2010-10-01",
+    "firstPostDate": "2010-10-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18-65 years old\n* able to comply with requirements of the experimental protocol\n* competent to sign informed consent\n* have mild to severe major depressive disorder without psychotic features and without a seasonal pattern\n* currently be under the care of a licensed mental health care provider or primary care physician\n* Score \\> 7 when interviewed by a trained rater using the 21-Item Hamilton Depression Scale (HAM-D)\n* be in good physical health\n* not be suicidal\n* not be taking any other antidepressant medications besides escitalopram during the study\n* be free of antidepressant medications for 2-4 weeks prior to beginning the study\n* not have a history of transmeridian travel or shift work in the past 2 months and have no plans for transmeridian travel or shift work for the duration of the study\n* be able to maintain a regular sleep wake schedule for the weeks one and nine of study\n* women of childbearing potential must have a negative pregnancy test and practice an acceptable method of birth control\n\nExclusion Criteria:\n\n* abnormal heart, liver, or kidney function\n* significant laboratory abnormalities on Complete Blood Count, Complete Metabolic Set, Thyroid Stimulating Hormone, EKG, \\& urinalysis\n* shift work or transmeridian travel in the last 2 months\n* current use of melatonin\n* evidence of a primary sleep disorder by history\n* women who are pregnant or lactating\n* be taking medications with known sedative or stimulating effects or that would interfere with the production of melatonin",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Dim Light Melatonin Onset",
+        "description": "The Dim Light Melatonin Onset (DLMO) is the time of the onset of melatonin secretion under dim light conditions using the equivalent thresholds of 10 pg/ml in plasma and 3 pg/ml in saliva. It is a marker of biological time. Data are provided in decimal and military time (e.g., 9:30 pm equals 21.50).\n\nThis measure is used to determine if there was a change in the time of the dim light melatonin onset (DLMO) before treatment with escitalopram (at Study Visit 3) and after treatment with escitalopram (at Study Visit 11).",
+        "timeFrame": "8 Weeks: Study Visit 3 (after 1 week of placebo) to study Visit 11 (after 8 weeks of escitalopram)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Hamilton Depression Rating Scale (HAM-D) Scores",
+        "description": "The HAM-D is the total score on the 21-question Hamilton Depression Rating Scale. Scores range from 0 to 53 with higher scores indicating worse symptoms of depression.",
+        "timeFrame": "8 Weeks: Study Visit 3 (after 1 week of placebo) to study Visit 11 (after 8 weeks of escitalopram)"
+      },
+      {
+        "measure": "Change in Beck Depression Inventory II (BDI-II) Scores",
+        "description": "The BDI-II is the total score on the 21-question Beck Depression Inventory II questionnaire. Scores range from 0 to 63 with higher scores indicating worse symptoms of depression.",
+        "timeFrame": "8 Weeks: Study Visit 3 (after 1 week of placebo) to study Visit 11 (after 8 weeks of escitalopram)"
+      },
+      {
+        "measure": "Change in Phase Angle Difference (PAD)",
+        "description": "The PAD is the time interval (number of hours) between the Dim Light Melatonin Onset (DLMO) and the average midpoint of sleep during the prior week. Larger PADs indicate a longer time interval between the DLMO and midpoint of sleep. A negative change in PAD value indicates a shortening of the time interval from Study Visit 3 to Study Visit 11.",
+        "timeFrame": "8 Weeks: Study Visit 3 (after 1 week of placebo) to study Visit 11 (after 8 weeks of escitalopram)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:18.684Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

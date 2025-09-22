@@ -1,0 +1,129 @@
+{
+  "nctId": "NCT03923790",
+  "briefTitle": "Stroke Telemedicine Outpatient Prevention Program for Blood Pressure Reduction",
+  "officialTitle": "Stroke Telemedicine Outpatient Program (STOP) for Blood Pressure Reduction",
+  "protocolDocument": {
+    "nctId": "NCT03923790",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-11-10",
+    "uploadDate": "2022-10-12T15:57",
+    "size": 333555,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03923790/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 83,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-04",
+    "completionDate": "2021-10-14",
+    "primaryCompletionDate": "2021-10-14",
+    "firstSubmitDate": "2019-04-18",
+    "firstPostDate": "2019-04-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Ischemic and hemorrhagic stroke patients\n* Presence of at least one of the following high risk criteria: uninsured, Medicaid payer status, small vessel ischemic stroke, hypertensive ICH)\n* Age ≥ 18; presence of hypertension (by clinical history or hospital BP ≥140/90 on two occasions)\n* Plan to discharge home after stroke\n* Ability to provide consent (patient or caregiver)\n* Ability to communicate in English\n\nExclusion Criteria:\n\n* modified Rankin scale \\> 4 at the time of enrollment (severe disability)\n* life expectancy \\< 1 year or terminal illness,\n* eGFR \\< 30 at time of discharge\n* pregnancy\n* symptomatic flow limiting carotid stenosis without plan for intervention\n* urine toxicology positive for cocaine or methamphetamine or recent use\n* long-term BP goal ≥ 130/80 mmHg according to clinical team",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Daytime Ambulatory Systolic Blood Pressure",
+        "description": "Blood pressure will be assessed with an ambulatory blood pressure monitor (ABPM).",
+        "timeFrame": "6 months after enrollment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Daytime Ambulatory Diastolic Blood Pressure",
+        "description": "Blood pressure will be assessed with an ambulatory blood pressure monitor (ABPM).",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Night Time Ambulatory Systolic Blood Pressure",
+        "description": "Blood pressure will be assessed with an ambulatory blood pressure monitor (ABPM).",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Nighttime Diastolic Blood Pressure",
+        "description": "Blood pressure will be assessed with an ambulatory blood pressure monitor (ABPM).",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Body Mass Index(BMI)",
+        "description": "BMI will be calculated from height and weight.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Participants With Recurrent Vascular Events (Stroke, Myocardial Infarction, Acute Cardiac Death)",
+        "description": "Recurrent vascular events include stroke, myocardial infarction, or acute cardiac death.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Number of Participants With Acute Healthcare Utilization",
+        "description": "Acute healthcare utilization includes hospital readmission and acute care visits to emergency room and/or urgent care.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Caregiver Burden as Assessed by the Zarit Caregiver Burden Questionnaire",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Medication Adherence as Assessed by the Morisky Medication Adherence Scale (MMAS)",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Self-efficacy for Taking Medication as Prescribed as Assessed by the Medication Adherence Self-Efficacy Scale (MASES)",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Self-efficacy for Taking Medication as Prescribed as Assessed by the Medication Adherence Self-Efficacy Scale (MASES)",
+        "timeFrame": "Baseline"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 4,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 77,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:37.621Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

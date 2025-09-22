@@ -1,0 +1,115 @@
+{
+  "nctId": "NCT03423342",
+  "briefTitle": "Nicotinamide Riboside in Systolic Heart Failure",
+  "officialTitle": "Safety and Tolerability of the Nutritional Supplement, Nicotinamide Riboside, in Systolic Heart Failure",
+  "protocolDocument": {
+    "nctId": "NCT03423342",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2018-01-29",
+    "uploadDate": "2022-10-26T17:10",
+    "size": 315860,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03423342/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-05-19",
+    "completionDate": "2019-06-30",
+    "primaryCompletionDate": "2019-04-11",
+    "firstSubmitDate": "2017-04-11",
+    "firstPostDate": "2018-02-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Men and women aged 18 and older with systolic heart failure \\[left ventricular ejection fraction (LVEF) by standard 2D echocardiography or radionuclide ventriculography of ≤40%\\] deemed, in the clinical opinion of their treating cardiologist to be non-ischemic or ischemic in origin.\n* Clinically stable (no cardiac procedures or hospitalizations for hospitalizations for cardiac causes, including HF, ischemia or arrhythmia) within the previous 3 months\n* Ability to undergo study procedures, including scheduled visits, blood draws and six-minute walk test (6MWT)\n* Willingness/ability to provide informed consent\n\nExclusion Criteria:\n\n* Heart failure with preserved ejection fraction (LVEF greater than 40%)\n* Heart failure due, in the opinion of their treating cardiologist, to etiologies other than non-ischemic or ischemic. Examples of exclusionary heart failure etiologies include primary valvular disease, or infiltrative or inflammatory cardiomyopathies.\n* Cardiac surgery, percutaneous coronary intervention (PCI) or cardiac device implantation within the previous 3 months\n* Hospitalizations for cardiovascular causes, including heart failure, chest pain, stroke, transient ischemic attack or arrhythmias within the previous 3 months\n* Inability to perform Study visits or procedures (e.g., physical inability to perform 6MWT)\n* Unwillingness/inability to provide informed consent\n* ALT greater than 3 times the upper limit of normal, hepatic insufficiency or active liver disease\n* Recent history of acute gout\n* Chronic renal insufficiency with creatinine ≥2.5mg/dL\n* Pregnant (or likely to become pregnant) women\n* Significant co-morbidity likely to cause death in the 6 month follow-up period\n* Significant active history of substance abuse within the previous 5 years\n* Current participation in another long-term clinical trial\n* History of intolerance to NR precursor compounds, including niacin or nicotinamide",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Incidence of Treatment-Emergent Adverse Events (Safety and Tolerability)",
+        "description": "Adverse Events",
+        "timeFrame": "up to 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "On-Trial Change in Whole Blood NAD+ Levels",
+        "description": "Between-group comparison of On-Trial Change in Whole Blood NAD+ Levels",
+        "timeFrame": "Week 12-Week 0"
+      },
+      {
+        "measure": "Number of Participants With Abnormal Laboratory Values and/or Adverse Events That Are Related to Treatment",
+        "description": "Incidence of On-Trial Abnormal Laboratory Values and/or Adverse Events that Are Related to Treatment",
+        "timeFrame": "16 weeks"
+      },
+      {
+        "measure": "Effect of NR on Change in Mitochondrial Function (Maximal Oxygen Consumption Rate)",
+        "description": "Mitochondrial Respiration in Isolated Peripheral Blood Mononuclear Cells by the Seahorse (R) Assay",
+        "timeFrame": "Week 12 - Week 0"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Exploratory Endpoint: Effect of NR on Functional Capacity",
+        "description": "Change in Six Minute Walk Distance",
+        "timeFrame": "Week 12 - Week 0"
+      },
+      {
+        "measure": "Exploratory Endpoint: Effect of NR on Change in Left Ventricular Systolic Function",
+        "description": "Change in Left Ventricular Ejection Fraction by 3D-Transthoracic Echocardiography",
+        "timeFrame": "Week 12 - Week 0"
+      },
+      {
+        "measure": "Exploratory Endpoint: Effect of NR on Left Ventricular Diastolic Function",
+        "description": "Tissue Doppler Imaging, e'",
+        "timeFrame": "Week 12 - Week 0"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 3,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 70,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:03.995Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT03437694",
+  "briefTitle": "Impact of Providing Medical Records in a Patient-Centered, Community Pharmacy Based, HIV Care Model (HIV-MOI)",
+  "officialTitle": "Assessing the Impact of Providing Pharmacists With Medical Records in a Patient-Centered, Community Pharmacy-Based, HIV Care Model",
+  "protocolDocument": {
+    "nctId": "NCT03437694",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-10-17",
+    "uploadDate": "2025-03-20T22:16",
+    "size": 887988,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03437694/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 129,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-08-03",
+    "completionDate": "2025-02-27",
+    "primaryCompletionDate": "2024-01-31",
+    "firstSubmitDate": "2018-02-12",
+    "firstPostDate": "2018-02-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* African-American\n* HIV positive\n* At least one of the following: hypertension or diabetes type 2\n\nExclusion Criteria:\n\n* Pregnant (at screening, may enroll 6 months post-delivery)\n* Have a life expectancy \\< 2 years\n* Refusal to provide medical record release",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Average A1c",
+        "description": "The average A1c in study participants with Diabetes mellitus at the end of their study participation",
+        "timeFrame": "Through study completion, up to 3 years"
+      },
+      {
+        "measure": "Average Systolic Blood Pressure",
+        "description": "The average SBP in study participants with hypertension at the end of their study participation",
+        "timeFrame": "Through study completion, up to 3 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:49.911Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

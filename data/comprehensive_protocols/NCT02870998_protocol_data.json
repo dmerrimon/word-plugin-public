@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02870998",
+  "briefTitle": "Impacts of a Continuing Education Activity Targeted at COPD Case Managers",
+  "officialTitle": "Comparing the Impacts of Two Versions of a Continuing Education Activity Targeted at COPD Case Managers on Educational Outcomes",
+  "protocolDocument": {
+    "nctId": "NCT02870998",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-06-08",
+    "uploadDate": "2019-02-25T12:51",
+    "size": 685223,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02870998/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 300,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2016-06",
+    "completionDate": "2019-11",
+    "primaryCompletionDate": "2019-11",
+    "firstSubmitDate": "2016-03-15",
+    "firstPostDate": "2016-08-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria for attendees:\n\n* Attending the continuing education activity\n* Providing patient education to individuals with COPD in professional setting.\n\nExclusion criteria for attendees:\n\n* None\n\nInclusion criteria for COPD patients:\n\n* Doctor-diagnosed COPD.\n\nExclusion criteria for attendees:\n\n* None",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Performance",
+        "description": "We will videotape patient education intervention delivered by attendees in their professional practice and will assess the quality of the delivered patient education intervention using a set a pre-defined criteria.",
+        "timeFrame": "2-month post-intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Satisfaction",
+        "description": "We will measured the extent to which attendees' expectations about the continuing education activity are met, using a self-administered questionnaire.",
+        "timeFrame": "Immediately post-intervention"
+      },
+      {
+        "measure": "Learning",
+        "description": "We will measured declarative and procedural knowledge about patient education in attendees, using a validated self-administered questionnaire.",
+        "timeFrame": "Prior to and 1-month post-intervention"
+      },
+      {
+        "measure": "Competence",
+        "description": "We will measure attendees' self-reported competences in achieving learning activity objectives, using a self-administered questionnaire.",
+        "timeFrame": "Prior and immediately post-intervention"
+      },
+      {
+        "measure": "Patient health outcomes",
+        "description": "We will measured COPD patients' health-related quality of life, self-management skills, and health utilization, using validated interviewer-administered questionnaires.",
+        "timeFrame": "4-month and 10-month post-intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:26.769Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

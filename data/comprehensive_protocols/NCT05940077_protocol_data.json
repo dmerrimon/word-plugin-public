@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT05940077",
+  "briefTitle": "Community Exercise for Fall Risk in PD",
+  "officialTitle": "Influence of Community-based Group Exercise on Fall Risk in Parkinson's Disease",
+  "protocolDocument": {
+    "nctId": "NCT05940077",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-04-07",
+    "uploadDate": "2023-08-09T21:44",
+    "size": 318734,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05940077/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-07-15",
+    "completionDate": "2022-03-30",
+    "primaryCompletionDate": "2022-03-30",
+    "firstSubmitDate": "2023-06-27",
+    "firstPostDate": "2023-07-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* A diagnosis of idiopathic PD; Male or female 30 years or older at time of PD diagnosis; Hoehn \\& Yahr (H\\&Y) stages 1.0-3.0; Ability to provide informed consent in accordance with Good Clinical Practice (GCP) and local regulations.\n\nExclusion Criteria:\n\n* Idiopathic PD H\\&Y stage 4-5, in order to constrain motor dysfunctions to mild-to-moderate PD; Confirmed or suspected atypical parkinsonian syndromes due to drugs, metabolic disorders, encephalitis, or degenerative diseases; Presence of definite dementia by Montreal Cognitive Assessment (MoCA \\<21); Central or peripheral nervous system disorders (other than PD); Myopathic disease (e.g. focal myopathy) that affects skeletal muscle structure/function; Severe cardiovascular disease that limits exercise abilities.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Falls Experienced During the Study Period as Reported by Self-report",
+        "description": "Higher scores = worse outcome",
+        "timeFrame": "Baseline and Post-Intervention at approximately 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "TUG",
+        "description": "The \"timed up and go test\" (TUG) is a simple test of the subjects' ability to understand an instruction and perform the task of standing, walking 10ft, turning around, returning 10ft and sitting down Timed Up and Go, higher scores = worse outcome",
+        "timeFrame": "Baseline and Post-Intervention at approximately 12 weeks"
+      },
+      {
+        "measure": "BBS",
+        "description": "The Berg Balance Scale (BBS) is used to objectively determine a patient's ability (or inability) to safely balance during a series of predetermined tasks. It is a 14 item list with each item consisting of a five-point ordinal scale ranging from 0 to 4, with 0 indicating the lowest level of function and 4 the highest level of function.\n\nScale = 0 - 56 (higher scores = better function)",
+        "timeFrame": "Baseline and Post-Intervention at approximately 12 weeks"
+      },
+      {
+        "measure": "ABC",
+        "description": "The Activities-Specific Balance Confidence (ABC) scale is a self-report measure of balance confidence in performing various activities without losing balance or experiencing a sense of unsteadiness. The ABC Scale has 16 questions that require the patient to rate his/her confidence that he/she will not lose balance or become unsteady while performing various activities.\n\nScale: 0 - 100 (higher scores = better confidence)",
+        "timeFrame": "Baseline and Post-Intervention at approximately 12 weeks"
+      },
+      {
+        "measure": "5-STS",
+        "description": "The Five Times Sit-to-Stand Test (5-STS) is used to asses functional lower extremity strength, transitional movements, balance, and fall risk in older adults. Scoring is based on the amount of time (to the nearest decimal in seconds) a patient is able to transfer from a seated to a standing position and back to sitting five times.\n\nHigher scores = Worse outcome",
+        "timeFrame": "Baseline and Post-Intervention at approximately 12 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:43.998Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

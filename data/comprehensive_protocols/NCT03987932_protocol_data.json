@@ -1,0 +1,123 @@
+{
+  "nctId": "NCT03987932",
+  "briefTitle": "NEAT!2 Sedentary Behavior Reduction for Individuals With Past or Present Knee Symptoms, Injuries, or Surgeries",
+  "officialTitle": "NEAT!2 Sedentary Behavior Reduction Intervention for Individuals With Past or Present Knee Symptoms, Injuries, or Surgeries",
+  "protocolDocument": {
+    "nctId": "NCT03987932",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-05-22",
+    "uploadDate": "2021-05-27T11:07",
+    "size": 348314,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03987932/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 11,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-06-22",
+    "completionDate": "2020-09-09",
+    "primaryCompletionDate": "2020-09-09",
+    "firstSubmitDate": "2019-06-12",
+    "firstPostDate": "2019-06-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Be at least 40 years of age\n* Own an Android or Apple smartphone\n* Have their smartphone near them (in their pocket, in their hand, or within 10 feet of them) for \\>50% of their waking day\n* Be willing to download the study application and be compatible on their smartphone\n* Spend at least 7 hours/day sitting\n* Have at least 4 days of valid accelerometer data at baseline\n* Have knee pain (at least one knee with pain, aching, or stiffness on most days for one month of the last 12 months), knee injury, or knee replacement within the last 5 years\n* Read, speak, and understand English\n\nExclusion Criteria:\n\n* Have any contraindications to activity\n* Have a mobility limiting comorbidity\n* Have a scheduled surgery within the next 6 months",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Sedentary Behavior at 1 Month",
+        "description": "Daily sedentary behavior objectively measured by activpal",
+        "timeFrame": "Baseline to 1 month"
+      },
+      {
+        "measure": "Change in Sedentary Behavior at 3 Months",
+        "description": "Daily sedentary behavior objectively measured by activpal",
+        "timeFrame": "Baseline to 3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Timed Up & Go at 1 Month",
+        "description": "Physical function assessed by Timed Up \\& Go (seconds)",
+        "timeFrame": "Baseline to 1 month"
+      },
+      {
+        "measure": "Change in Chair Stands at 1 Month",
+        "description": "Physical function assessed by Chair Stand Test (# stands in 30 seconds)",
+        "timeFrame": "Baseline to 1 month"
+      },
+      {
+        "measure": "Change in 6 Minute Walk at 1 Month",
+        "description": "Physical function assessed by 6 minute walk (total feet)",
+        "timeFrame": "Baseline to 1 month"
+      },
+      {
+        "measure": "Change in Timed Up & Go at 3 Months",
+        "description": "Physical function assessed by Timed Up \\& Go (seconds)",
+        "timeFrame": "Baseline to 3 months"
+      },
+      {
+        "measure": "Change in Chair Stands at 3 Months",
+        "description": "Physical function assessed by Chair Stand Test (# stands in 30 seconds)",
+        "timeFrame": "Baseline to 3 months"
+      },
+      {
+        "measure": "Change in 6 Minute Walk at 3 Months",
+        "description": "Physical function assessed by 6 minute walk (total feet)",
+        "timeFrame": "Baseline to 3 months"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Maintenance of Changes in Sedentary Behavior at 6 Months",
+        "description": "Daily sedentary behavior objectively measured by activpal",
+        "timeFrame": "Baseline to 6 months"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 6,
+      "otherCount": 1,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 66,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:58.253Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

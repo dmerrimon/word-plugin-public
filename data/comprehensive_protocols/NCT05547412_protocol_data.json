@@ -1,0 +1,73 @@
+{
+  "nctId": "NCT05547412",
+  "briefTitle": "Validation of Velocity Curvature Index as a Diagnostic Biomarker Tool for Assessment of Large Vessel Stroke",
+  "officialTitle": "Validation of Velocity Curvature Index as a Diagnostic Biomarker Tool for Assessment of Large Vessel Stroke",
+  "protocolDocument": {
+    "nctId": "NCT05547412",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-11-01",
+    "uploadDate": "2024-02-06T18:07",
+    "size": 832507,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05547412/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 27,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-09-21",
+    "completionDate": "2023-01-31",
+    "primaryCompletionDate": "2023-01-16",
+    "firstSubmitDate": "2022-09-15",
+    "firstPostDate": "2022-09-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Subject aged 18 years and older referred for evaluation of possible stroke.\n2. Subject receives Computed Tomography Angiography (CTA) imaging for the assessment of stroke.\n3. Subject or Legally Authorized Representative has the ability to provide informed consent and comply with the protocol.\n\nExclusion Criteria:\n\n1. Head CT findings consistent with acute primary intracranial hemorrhage (ICH), etc.\n2. Subjects with occlusions in the distal or posterior circulation arteries.\n3. Subjects who underwent partial or full craniotomy\n4. Additional intracranial pathologies present (tumor, hydrocephalus, etc.)\n5. Anticipated insufficient time to acquire a complete TCD scan as described by the protocol\n6. Subjects who have a physical limitation preventing placement of the system.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Primary Endpoint: Area Under the Curve (AUC), Sensitivity, and Specificity of VCI When Compared Against Standard of Care Imaging.",
+        "description": "The primary endpoint for both Phase 1 and Phase 2 of the study is to measure the AUC, Sensitivity, and Specificity of Velocity Curvature Index (VCI) when compared against standard of care CTA imaging for large vessel occlusion assessment. Initial assessment of outcome will be done after 18 months of study start and complete assessment will be done at the end of study's Phase 2.",
+        "timeFrame": "1 day"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:36.885Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

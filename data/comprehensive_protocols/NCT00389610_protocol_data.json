@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT00389610",
+  "briefTitle": "Adjuvant GVAX Vaccine Therapy in Patients With Pancreatic Cancer",
+  "officialTitle": "A Safety and Efficacy Trial of Vaccine Boosting With Lethally Irradiated Allogeneic Pancreatic Tumor Cells Transfected With the GM-CSF Gene for the Treatment of Pancreatic Adenocarcinoma",
+  "protocolDocument": {
+    "nctId": "NCT00389610",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-10-07",
+    "uploadDate": "2022-08-09T14:51",
+    "size": 885407,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00389610/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 56,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2006-09-11",
+    "completionDate": "2022-12-10",
+    "primaryCompletionDate": "2021-10-11",
+    "firstSubmitDate": "2006-10-18",
+    "firstPostDate": "2006-10-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "1. Inclusion Criteria:\n\n   A. previously vaccinated subjects must receive Gvax vaccine previously\n\n   B. naïve and previously vaccinated subjects must meet the following criteria:\n   * have a history of surgically resected pathologic stage 1,2 or 3 adenocarcinoma of the head, neck, tail, or uncinate of the pancreas\n   * received the last anti-cancer therapy at least 28 days ago.\n   * provide informed consent.\n   * have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n   * have adequate hematologic function (Hemoglobin ≥ 9 gm/dl, Absolute neutrophil count (ANC) ≥ 1500 #/cu mm, platelets ≥100,000 K/cu mm)\n   * have adequate renal function (Serum creatinine ≤ 2 mg/dL).\n   * have adequate hepatic function (Bilirubin ≤ 2.0 mg/dL, unless known Gilbert's Syndrome; Aspartate Aminotransferase (AST), Alanine transaminase (ALT) and amylase ≤ 2x upper limit of normal: Alk Phosphatase ≤ 5x upper limit of normal.)\n   * agree to use adequate birth control, if of childbearing potential.\n2. Exclusion criteria:\n\n   * radiographical evidence of pancreatic cancer disease recurrence\n   * documented history of autoimmune diseases including systemic lupus erythematosus, sarcoidosis, rheumatoid arthritis, glomerulonephritis, or vasculitis\n   * uncontrolled medical problems\n   * systemic steroid therapy within 28 days before vaccine administration\n   * anticipated need for systemic steroid therapy within 28 days after vaccine administration\n   * evidence of active infections\n   * pregnant",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Patients Experiencing a Grade 3 or Above Treatment- Related Toxicity",
+        "description": "When calculating the incidences of adverse events, each adverse event (as defined by NCI CTCAE v3) will be counted only once for a given subject.",
+        "timeFrame": "14 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "OS will be measured from date of first dose until death or end of follow-up (OS will be censored on the date the subject was last known to be alive for subjects without documentation of death at the time of analysis). Estimation based on the Kaplan-Meier curve.",
+        "timeFrame": "16 years"
+      },
+      {
+        "measure": "Disease-free Survival (DFS)",
+        "description": "DFS is defined as the time from the first dose until evidence of disease recurrence or progression confirmed by first scan. DFS will be censored at the date of the last scan for subjects without documentation of disease recurrence or progression at the time of analysis. Estimation based on the Kaplan-Meier curve.",
+        "timeFrame": "16 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:54.740Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

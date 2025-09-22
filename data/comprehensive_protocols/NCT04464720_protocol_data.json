@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT04464720",
+  "briefTitle": "AIM to Improve Asthma: Airflow Improvements During Meal-Prep",
+  "officialTitle": "AIM to Improve Asthma: Airflow Improvements During Meal-Prep",
+  "protocolDocument": {
+    "nctId": "NCT04464720",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-06-01",
+    "uploadDate": "2024-06-03T23:47",
+    "size": 157500,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04464720/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 19,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-05-24",
+    "completionDate": "2022-12-30",
+    "primaryCompletionDate": "2022-08-30",
+    "firstSubmitDate": "2019-12-18",
+    "firstPostDate": "2020-07-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Household has a gas stove\n* Household has a range hood that vents to the outdoors\n* Household in Richmond or San Pablo\n\nExclusion Criteria:\n\n* Child has other significant medical illnesses (e.g. prematurity, diabetes)\n* living with a smoker who smokes indoors\n* family knows they will not have stable housing for the period of the study\n* Parent is not fluent in English.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "6 Years",
+    "maximumAge": "12 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Continuously-Measured Home PM2.5 (Fine Particulate Matter) Levels Prior to Intervention",
+        "description": "Home PM2.5 levels were measured in real-time with eLichens sensors.",
+        "timeFrame": "1-2 weeks"
+      },
+      {
+        "measure": "Continuously-Measured Home PM2.5 (Fine Particulate Matter) Levels Following Intervention",
+        "description": "Home PM2.5 levels were measured in real-time using the eLichens sensors",
+        "timeFrame": "1-2 weeks"
+      },
+      {
+        "measure": "Continuously-Measured Home NO2 (Nitrogen Dioxide) Levels Prior to Intervention",
+        "description": "Home NO2 levels were measured in real-time using eLichens sensors",
+        "timeFrame": "1-2 weeks"
+      },
+      {
+        "measure": "Continuously-Measured Home NO2 (Nitrogen Dioxide) Level Following Intervention",
+        "description": "Home NO2 levels were measured with eLichens sensors",
+        "timeFrame": "1-2 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Spirometry- Forced Vital Capacity (FVC)",
+        "description": "Spirometry is a non-invasive measure of lung function. Spirometry will be performed using an Easy One Air Spirometer; staff will be trained thoroughly in administration of the test. Forced Vital Capacity measures the total volume of air that a person can breathe out forcefully from a full breath, blowing all of it out.\n\nZ-Scores were created using global lung initiative normative data. A Z-score of 0 represents the population mean for a participant of that age, sex and height. A decrease in Z scores suggests worsened lung function over time.",
+        "timeFrame": "measured at the end of the pre-intervention interval"
+      },
+      {
+        "measure": "Spirometry- Forced Expiratory Volume in One Second (FEV1)",
+        "description": "Spirometry is a non-invasive measure of lung function. Spirometry will be performed using an Easy One Air Spirometer; staff will be trained thoroughly in administration of the test. Forced expiratory volume in one second measures the volume of air that a person breathes out forcefully in the first second of blowing out a full breath.\n\nZ-Scores were created using global lung initiative normative data. A Z-score of 0 represents the population mean for a participant of that age, sex and height. A decrease in Z scores suggests worsened lung function over time.",
+        "timeFrame": "measured at the end of the pre-intervention interval"
+      },
+      {
+        "measure": "Spirometry-Forced Vital Capacity (FVC)",
+        "description": "Spirometry is a non-invasive measure of lung function. Spirometry was be performed using an Easy One Air Spirometer. Forced Vital Capacity measures the total volume of air that a person can breathe out forcefully from a full breath, blowing all of it out.\n\nZ-Scores were created using global lung initiative normative data. A Z-score of 0 represents the population mean for a participant of that age, sex and height. A decrease in Z scores suggests worsened lung function over time.",
+        "timeFrame": "measured at the end of the post-intervention interval"
+      },
+      {
+        "measure": "Spirometry- Forced Expiratory Volume in One Second (FEV1)",
+        "description": "Spirometry is a non-invasive measure of lung function. Spirometry was performed using an Easy One Air Spirometer. Forced expiratory volume in one second measures the volume of air that a person breathes out forcefully in the first second of blowing out a full breath.\n\nZ-Scores were created using global lung initiative normative data. A Z-score of 0 represents the population mean for a participant of that age, sex and height. A decrease in Z scores suggests worsened lung function over time.",
+        "timeFrame": "measured at the end of the post-intervention interval"
+      },
+      {
+        "measure": "Fractional Exhaled Nitric Oxide (FeNO)",
+        "description": "FeNO s a non-invasive measure of airways inflammation. FeNO was performed using a NIOX Vero device.",
+        "timeFrame": "measured at the end of the pre-intervention interval"
+      },
+      {
+        "measure": "Fractional Exhaled Nitric Oxide (FeNO)",
+        "description": "FeNO is a non-invasive measure of airways inflammation. FeNO will be performed using a NIOX Vero device.",
+        "timeFrame": "measured at the end of the post-intervention interval"
+      },
+      {
+        "measure": "Asthma Control",
+        "description": "Asthma control was assessed using the widely-accepted, validated Childhood Asthma Control Test (cACT) for children with asthma.\n\nThe cACT scale ranges from 0 to 27. Values up to 15 represent very poorly controlled asthma, 16-20 represents poorly controlled asthma and 21 or greater is considered well-controlled asthma.",
+        "timeFrame": "measured at the end of the pre-intervention interval"
+      },
+      {
+        "measure": "Asthma Control",
+        "description": "Asthma control was assessed using the widely-accepted, validated Childhood Asthma Control Test (cACT) for children with asthma.\n\nThe cACT scale ranges from 0 to 27. Values up to 15 represent very poorly controlled asthma, 16-20 represents poorly controlled asthma and 21 or greater is considered well-controlled asthma.",
+        "timeFrame": "measured at the end of the post-intervention interval"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:24.254Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

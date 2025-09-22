@@ -1,0 +1,109 @@
+{
+  "nctId": "NCT02261727",
+  "briefTitle": "Theophylline and Steroids in Chronic Obstructive Pulmonary Disease (COPD) Study",
+  "officialTitle": "The Effect of Low-dose Corticosteroids and Theophylline on the Risk of Acute Exacerbations of COPD: the TASCS Randomised Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT02261727",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2015-05-27",
+    "uploadDate": "2021-06-20T22:17",
+    "size": 960350,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02261727/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1670,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-06",
+    "completionDate": "2018-05-14",
+    "primaryCompletionDate": "2018-05-14",
+    "firstSubmitDate": "2014-05-07",
+    "firstPostDate": "2014-10-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Current or former smokers (\\> 10 pack years) or biomass exposure\n* 40 - 80 years of age\n* Clinical diagnosis of COPD\n* Post-bronchodilator FEV1 \\< 70% predicted\n* Post bronchodilator FEV1/FVC ratio \\< 0.7\n\nExclusion Criteria:\n\n* Life expectancy of less than 12 months\n* Exacerbation or respiratory infection within 4 weeks prior to randomisation\n* Patient is taking and requires maintenance oral corticosteroids\n* Patient is on domiciliary oxygen\n* There has been previous pulmonary resection\n* Previous sensitivity to, or intolerance of theophylline\n* Coexistent illness precluding participation in the study (epilepsy, chronic liver disease, unstable cardiovascular disease, diabetes, active malignancy)\n* Inability to complete quality of life questionnaire\n* Concomitant major illness that would interfere with visits, assessments and follow-up\n* Have evidence of chronic liver disease, or transaminase or gamma-glutamyltransferase (GGT) elevation \\> 1.5 x upper limit of normal (ULN)\n* Random blood glucose level \\> 8mmol/L\n* High chance in the view of the treating physician that the patient will not adhere to study treatment and follow up",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Total COPD Exacerbation Rate",
+        "description": "The total number of COPD exacerbations reported within 48 weeks",
+        "timeFrame": "48 weeks observation; rate annualised"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time to First COPD Exacerbation",
+        "description": "The median time (days) from randomisation to first exacerbation per participant",
+        "timeFrame": "Median time (days) from randomisation to first exacerbation over a 48 week period per participant"
+      },
+      {
+        "measure": "Quality of Life Measured by St. George's Respiratory Questionnaire (SGRQ)",
+        "description": "THe St. George's Respiratory Questionnaire (SGRQ) is a disease-specific instrument designed to measure impact on overall health, daily life, and perceived well-being in patients with obstructive airways disease. Scores range from 0 to 100, with higher scores indicating more limitations.",
+        "timeFrame": "Change over 48 week study duration"
+      },
+      {
+        "measure": "Post Bronchodilator FEV1",
+        "description": "The change in post bronchodilator FEV1 from baseline to 48 weeks",
+        "timeFrame": "Change at 48 weeks"
+      },
+      {
+        "measure": "Change in COPD Assessment Test (CAT) Score",
+        "description": "The COPD Assessment Test (CAT) is a patient-completed questionnaire assessing globally the impact of COPD (cough, sputum, dysnea, chest tighteness) on health status. The range of CAT scores from 0-40. Higher scores denote a more severe impact of COPD on a patient's life. The outcome measure is assessing the change in score from baseline to 48 weeks. A negative change denotes an improvement in health status.",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Hospitalisations",
+        "description": "The total number of hospitalisation events within 48 weeks",
+        "timeFrame": "48 weeks"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 1,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 61,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:27.506Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

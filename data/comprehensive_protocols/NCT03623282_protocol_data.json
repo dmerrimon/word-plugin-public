@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03623282",
+  "briefTitle": "Study Regarding the Clinical Efficacy of Synatura® in Patients With Chronic Bronchitis Type COPD",
+  "officialTitle": "Study Regarding the Clinical Efficacy of Synatura® in Patients With Chronic Bronchitis Type COPD",
+  "protocolDocument": {
+    "nctId": "NCT03623282",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2014-11-25",
+    "uploadDate": "2018-07-23T22:51",
+    "size": 220700,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03623282/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-04-17",
+    "completionDate": "2018-05-02",
+    "primaryCompletionDate": "2018-05-02",
+    "firstSubmitDate": "2018-08-06",
+    "firstPostDate": "2018-08-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Post bronchodilator FEV1/FVC \\< 0.7\n2. Smoking history of ≥10 packs per year\n3. 40 to \\<75 years of age\n4. Patients with symptoms of chronic bronchitis (in case they have symptoms of cough or sputum over 3 months)\n\nExclusion Criteria:\n\n1. Patients with acute exacerbation\n2. Patients with pneumonia\n3. Patients with active tuberculosis\n4. Pregnant women\n5. Breast-feeding women\n6. Patients with fructose intolerance",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "COPD assessment test (CAT)",
+        "description": "Change from Baseline in baseline to 12 weeks for COPD assessment test (CAT)",
+        "timeFrame": "Baseline, At 12weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Efficacy of pulmonary function in bronchitis type COPD patients",
+        "description": "Pulmonary function test will be performed before and 3 months after taking Synatura.\n\nAssessment Tools: FVC (L), FVC (%), FEV1 (L), FEV1 (%), FEV1/FVC (%), TLC (%), RV (%), RV/TLC (%), DLCO (%), DLCO/VA (%)",
+        "timeFrame": "Baseline, At 12weeks"
+      },
+      {
+        "measure": "Efficacy of inflammation throughout the body in bronchitis type COPD patients",
+        "description": "Blood samples will be taken before and 3 months after taking Synatura, then stored and measured by ELISA in the laboratory.\n\nAssessment Tools: CRP, Fibrinogen, IL-6, TNF-α",
+        "timeFrame": "Baseline, At 12weeks"
+      },
+      {
+        "measure": "Total number of Bronchitis Severity Score (BSS)",
+        "description": "Bronchitis Severity Score (BSS) will be performed before and 3 months after taking Synatura\n\nThe BSS measured cough, sputum, rales/ rhonchi, chest pain during coughing, and dyspnoea. Each of these features of acute bronchitis was scored by a welltrained doctor using a 5point Likert rating scale ranging from 0 to 4 (0 = absent, 1 = mild, 2 = moderate, 3 = severe, 4 = very severe)\n\nThe overall BSS will be graded as mild (0-7), moderate (8-14), and severe (15,20).",
+        "timeFrame": "Baseline, At 12weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:27.297Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

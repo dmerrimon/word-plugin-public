@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03486197",
+  "briefTitle": "Neutron Radiation Therapy and Pembrolizumab in Treating Participants With Advanced Urothelial Carcinoma",
+  "officialTitle": "Phase II Trial of Neutron Radiotherapy With Concurrent Checkpoint Inhibitor Immunotherapy (Pembrolizumab) in Patients With Advanced Urothelial Carcinoma",
+  "protocolDocument": {
+    "nctId": "NCT03486197",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-01-30",
+    "uploadDate": "2024-10-29T20:04",
+    "size": 2024840,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03486197/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-17",
+    "completionDate": "2024-05-01",
+    "primaryCompletionDate": "2023-11-01",
+    "firstSubmitDate": "2018-03-27",
+    "firstPostDate": "2018-04-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Pathologically proven (either histologic or cytologic) diagnosis of urothelial carcinoma\n* At least two sites of disease that are measurable by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 criteria\n* Eligible for checkpoint inhibitor immunotherapy (pembrolizumab) per standard of care\n* No history of autoimmune disease requiring systemic therapy (e.g. steroids or biologic agents)\n* Absolute neutrophil count (ANC) ≥ 1500 /mcL\n* Platelets ≥ 100,000/mcL\n* Hemoglobin \\> 9 g/dL\n* Creatinine ≤ 1.5 x upper limit of normal (ULN) OR ≥ 60 mL/min\n* Total bilirubin ≤ 1.5 ULN OR direct bilirubin ≤ ULN if total bilirubin \\> 1.5 x ULN\n* Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) ≤ 2.5 x ULN OR \\< 5 x ULN if patient has liver metastasis\n* Albumin \\>= 2.5 g/dL\n* International normalized ratio (INR) or PT ≤ 1.5 x ULN unless on anticoagulation therapy, in which case prothrombin time (PT) or partial thromboplastin time (PTT) should be in the therapeutic range\n* PTT ≤ 1.5 x ULN unless on anticoagulation therapy, in which case PT or PTT should be in the therapeutic range\n* Eligible for neutron radiation treatment to 1-3 sites of metastatic disease (lesions do not have to be symptomatic)\n* No steroids for at least 2 weeks prior to enrollment, and patient must not be expected to require steroids during the study period\n* Zubrod performance status 0-2\n* Patient must sign study specific informed consent prior to study entry\n* Patients who are sexually active must use medically acceptable forms of contraception\n* Life expectancy must be \\> 3 months\n\nExclusion Criteria:\n\n* Has a known history of active TB (Bacillus tuberculosis)\n* Hypersensitivity to pembrolizumab or any of its excipients\n* Has a known additional malignancy that is progressing or requires active treatment\n* Has received prior therapy with an anti-PD-1, anti-PD-L1, or anti-PD-L2 agent\n* Has a known history of human immunodeficiency virus (HIV) (HIV 1/2 antibodies)\n* Has known active hepatitis B (e.g., hepatitis B virus surface antigen \\[HBsAg\\] reactive) or hepatitis C (e.g., hepatitis C virus \\[HCV\\] ribonucleic acid \\[RNA\\] \\[qualitative\\] is detected)\n* Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the trial\n* Has a history or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the trial, interfere with the subject's participation for the full duration of the trial, or is not in the best interest of the subject to participate, in the opinion of the treating investigator\n* Has known history of, or any evidence of active, non-infectious pneumonitis\n* Has an active infection requiring systemic therapy\n* Has received a live vaccine within 30 days of planned start of study therapy\n* Has known active central nervous system (CNS) metastases and/or carcinomatous meningitis; subjects with previously treated brain metastases may participate provided there is no evidence of new or enlarging brain metastases, and are not using steroids for at least 7 days prior to trial treatment; this exception does not include carcinomatous meningitis which is excluded regardless of clinical stability",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Overall Response Rate Per Immune-modified Response Evaluation Criteria in Solid Tumors",
+        "description": "Overall response rate will be calculated as the percentage of patients achieving a partial response or complete response.",
+        "timeFrame": "Up to 1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Survival",
+        "description": "Final statistical analyses of OS will consist of Kaplan-Meier estimation.",
+        "timeFrame": "At 1 year"
+      },
+      {
+        "measure": "Progression-free Survival",
+        "description": "Final statistical analyses of PFS will consist of Kaplan-Meier estimation.",
+        "timeFrame": "At 1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:47.540Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04338074",
+  "briefTitle": "TXA and Corona Virus 2019 (COVID19) in Outpatients",
+  "officialTitle": "Exploratory Studies of the Effect of Tranexamic Acid Treatment on the Progression of COVID19 in Outpatients",
+  "protocolDocument": {
+    "nctId": "NCT04338074",
+    "filename": "Prot_SAP_003.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-05-03",
+    "uploadDate": "2021-05-04T13:12",
+    "size": 3516067,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04338074/document/Prot_SAP_003.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-06-01",
+    "completionDate": "2021-04-21",
+    "primaryCompletionDate": "2021-04-21",
+    "firstSubmitDate": "2020-04-06",
+    "firstPostDate": "2020-04-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Positive COVID-19 test\n* Outpatient\n* Age \\>/= 19 y.o.\n\nExclusion Criteria:\n\n* Allergic reaction to tranexamic acid\n* History of hypercoagulation disorders (deep venous thrombosis, pulmonary thromboembolism)\n* Ongoing anticoagulation\n* History of GI bleeding\n* History of Seizures\n* Cardiac or other vascular stents\n* History of severe renal disease\n* History of intracranial hemorrhage",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "19 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Hospitalization",
+        "description": "Participant admission to hospital for COVID-19 treatment",
+        "timeFrame": "Randomization to 7 days after randomization"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:39.044Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,111 @@
+{
+  "nctId": "NCT01922921",
+  "briefTitle": "Vaccine Therapy With or Without Polysaccharide-K in Patients With Stage IV HER2 Positive Breast Cancer Receiving HER2-Targeted Monoclonal Antibody Therapy",
+  "officialTitle": "Phase I/II Randomized Study of Combination Immunotherapy With or Without Polysaccharide Krestin (PSK®) Concurrently With a HER2 ICD Peptide-Based Vaccine in Patients With Stage IV Breast Cancer Receiving HER2-Targeted Monoclonal Antibody Therapy",
+  "protocolDocument": {
+    "nctId": "NCT01922921",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-09-03",
+    "uploadDate": "2023-01-06T12:54",
+    "size": 1689015,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01922921/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 31,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-02-05",
+    "completionDate": "2021-09-01",
+    "primaryCompletionDate": "2019-10-31",
+    "firstSubmitDate": "2013-08-01",
+    "firstPostDate": "2013-08-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with stage IV HER2+ breast cancer treated to:\n\n  * No evidence of disease (NED), or\n  * Stable bone only disease after definitive therapy\n* HER2 overexpression by immunohistochemistry (IHC) of 2+ or 3+ in the primary tumor or metastasis; or documented gene amplification by fluorescent in situ hybridization (FISH) analysis; IHC =\\< 2+ must have HER2 gene amplification documented by FISH\n* Patients must continue HER2-targeted monoclonal antibody therapy dosing per standard of care through the entire study period (one year)\n\n  * HER2-targeted monoclonal antibody therapy is defined as either trastuzumab monotherapy, or trastuzumab and pertuzumab combination therapy administered per standard of care\n* Patients must be at least 21 days post cytotoxic chemotherapy prior to enrollment\n* Patients must be at least 28 days post immunosuppressants prior to enrollment\n* Patients must be at least 28 days from use of any mushroom supplements (examples: turkey tail, reishi, maitake, shiitake) and agree to withhold them for the entire study period (one year)\n* Patients on bisphosphonates and/or endocrine therapy are eligible\n* Patients who are having sex that could lead to pregnancy must agree to contraceptive use during the entire study period\n* Patients must have Zubrod performance status score of =\\< 2\n* Patients must have recovered from major infections and/or surgical procedures, and in the opinion of the investigator, not have significant active concurrent medical illnesses precluding study treatment\n* White blood cell (WBC) \\>= 3000/mm\\^3\n* Hemoglobin (Hgb) \\>= 10 g/dl\n* Serum creatinine =\\< 2.0 mg/dl or creatinine clearance \\> 60 ml/min\n* Total bilirubin =\\< 1.5 mg/dl\n* Serum glutamic oxaloacetic transaminase (SGOT) =\\< 2.5 times the upper limit of normal\n* Patients must have adequate cardiac function as demonstrated by normal left ventricular ejection fraction (LVEF) \\>= the lower limit of normal for the facility on multi gated acquisition (MUGA) scan or echocardiogram (ECHO) within 3 months of enrollment\n\nExclusion Criteria:\n\n* Patients with any of the following cardiac conditions:\n\n  * Restrictive cardiomyopathy\n  * Unstable angina within 6 months prior to enrollment\n  * New York Heart Association functional class III-IV heart failure\n  * Symptomatic pericardial effusion\n* Patients with any contraindication to receiving rhu granulocyte macrophage colony stimulating factor (rhuGM-CSF) based products\n* Patients with any clinically significant autoimmune disease requiring active treatment\n* Patients receiving any concurrent immunosuppressants\n* Patients who are pregnant or breast-feeding\n* Patients who are simultaneously enrolled in other treatment studies\n* Patients who have received a previous HER2 breast cancer vaccine\n* Known hypersensitivity reaction to mushroom products",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Patients With Grade 3 or Higher Toxicity Per Study Arm.",
+        "description": "Evaluated using physical examinations and clinical labs by type and grade of toxicities noted during treatment, There were graded per Cancer Therapy Evaluation Program Common Terminology Criteria for Adverse Events 4.0.",
+        "timeFrame": "Up to 4 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Induction of Interferon (IFN)-Gamma Production and Cluster of Differentiation (CD)107a Expression in NK Cells, Via Flow Cytometry",
+        "description": "Augmentation of NK cell activity is defined by a 2-fold increase (at time of maximal change) in NK cell IFN-gamma production and CD107a expression\n\nFor the results we used CD56 which is the accepted phenotypic marker for natural killer (NK) cells and CD16 which is a receptor on NK cells that facilitates antibody-dependent cellular cytotoxicity (ADCC). CD56dim are typically responsible for cytolytic activity and targets cell killing, whereas, CD56bright are the main source of cytokine production (i.e. IFN-gamma). CD56dim CD16bright NK cells represent at least 90% of all peripheral blood NK cells with a maximum of 10% as CD56bright NK cells\n\nWe compared the baseline expression of CD56brightCD16dim or CD56dimCD16bright (prior to start of study treatment) to the maximum expression of CD56brightCD16dim or CD56dimCD16bright at 1 of 4 timepoints after the start of the oral administration of study treatment (polysaccharide-K/placebo (either week 4, 8, 12 or 16).",
+        "timeFrame": "Up to 16 weeks"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Change in Intermolecular Epitope Spreading Assessed by IFN-gamma Enzyme-linked Immunosorbent Spot Assay",
+        "description": "IFN-γ ELISPOT assay will be used to evaluate T cell precursor frequency to specific breast tumor antigens. A positive immune response will be defined as a post-vaccination T cell precursor frequency \\>1:20,000 antigen-specific PBMCs. In patients with a baseline precursor frequency \\>1:20,000, a positive post-vaccination immune response will be defined as a 2-fold increase in antigen-specific PBMC. PBMC will be cryopreserved and subsequently be thawed at time of analysis.",
+        "timeFrame": "Baseline to 12 months after completion of treatment"
+      },
+      {
+        "measure": "Change in Pro-inflammatory Serum Cytokine and/or Chemokines Assessed by Luminex Analysis",
+        "timeFrame": "Baseline to 24 hours after completion of treatment"
+      },
+      {
+        "measure": "Change in Serum TGF-beta Levels Assessed by Enzyme-linked Immunosorbent Assay",
+        "timeFrame": "Baseline to 12 months after completion of treatment"
+      },
+      {
+        "measure": "OS",
+        "timeFrame": "Up to 3 years"
+      },
+      {
+        "measure": "PFS",
+        "timeFrame": "Up to 3 years"
+      }
+    ]
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 19,
+      "exclusionCount": 12,
+      "totalCount": 31
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 5,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:32:52.822Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

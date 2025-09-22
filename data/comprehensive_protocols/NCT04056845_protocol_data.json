@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT04056845",
+  "briefTitle": "Prospective Randomized Study on the Effects of Valgus Knee Brace for Knee Osteoarthritis in Chinese Patients",
+  "officialTitle": "Prospective Randomized Study on the Effects of Valgus Knee Brace for Knee Osteoarthritis in Chinese Patients",
+  "protocolDocument": {
+    "nctId": "NCT04056845",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2019-06-19",
+    "uploadDate": "2019-08-18T22:23",
+    "size": 573177,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04056845/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 80,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2019-09-01",
+    "completionDate": "2021-06-30",
+    "primaryCompletionDate": "2020-12-31",
+    "firstSubmitDate": "2019-05-29",
+    "firstPostDate": "2019-08-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age between 40-80\n* History of symptomatic medial unicompartmental knee osteoarthritis \\> 6 months\n* Willingness to wear the knee brace for a minimum of 4 hours per day during daily activities\n* Understanding of the Chinese language\n* Ethnic Chinese patients\n\nExclusion Criteria:\n\n* Symptomatic knee osteoarthritis affecting more than one compartment\n* Clinical and radiological signs of osteoarthritis over the lateral compartment or patello-femoral joint\n* Significant knee effusion or soft tissue compromise preventing long-term knee brace use\n* Obesity (BMI\\>30)\n* Previous surgery on the affected knee other than diagnostic arthroscopy with debridement, soft tissue reconstruction, menisectomy\n* Peripheral vascular disease of the lower limb",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Improvement in pain",
+        "description": "Visual Analog Scale (VAS) for pain from 0 to 10, with higher value signifying worse pain control",
+        "timeFrame": "At 16 weeks after the initiation of study"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Improvement in knee functioning",
+        "description": "The Western Ontario and McMaster Universities Osteoarthritis Index",
+        "timeFrame": "At 16 weeks after the initiation of the study"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:57.735Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

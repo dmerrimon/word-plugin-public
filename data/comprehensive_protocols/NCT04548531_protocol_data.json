@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT04548531",
+  "briefTitle": "Engaging Patients in Colon Cancer Screening Decisions During COVID-19",
+  "officialTitle": "Engaging Patients in Colon Cancer Screening Decisions During COVID-19",
+  "protocolDocument": {
+    "nctId": "NCT04548531",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-01-06",
+    "uploadDate": "2022-02-04T10:21",
+    "size": 505924,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04548531/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 800,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-09-10",
+    "completionDate": "2021-04-30",
+    "primaryCompletionDate": "2021-04-30",
+    "firstSubmitDate": "2020-09-09",
+    "firstPostDate": "2020-09-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults, age 45-75\n* Had screening or surveillance colonoscopy delayed or cancelled from March-June 2020\n\nExclusion Criteria:\n\n* Diagnostic colonoscopy\n* High risk for colorectal cancer as indicated by 1 year follow up schedule\n* Prior history of colon cancer\n* Unable to read or write in English or Spanish\n* Have already scheduled or completed a colonoscopy since restrictions were lifted",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "45 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Shared Decision Making (SDM) Process Scale Score",
+        "description": "short patient reported scale asks patients about discussion of options, pros and cons of colonoscopy and discussion of patients' preferences. Total scores range from 0-4 with higher scores indicating higher shared decision making.",
+        "timeFrame": "About 8 weeks after intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "No Decisional Conflict (Number With Score of 4 on SURE Scale)",
+        "description": "The 4-item version of the decisional conflict scale, total score ranges from 0-4 and is reported as top score or percentage who score 4 which indicates no decisional conflict.",
+        "timeFrame": "About 8 weeks after intervention"
+      },
+      {
+        "measure": "Patient's Preferred Approach to Screening",
+        "description": "One item will assess patients' preferred approach to screening (with responses of colonoscopy, stool card test, no screening, not sure). We report on the percent of patients who had a clear preference for screening with either a stool card test or colonoscopy and those without a clear preference who chose no screening or not sure.",
+        "timeFrame": "About 8 weeks after intervention"
+      },
+      {
+        "measure": "Number Reporting \"Very Likely\" to Follow Through With Screening",
+        "description": "One item will assess patients' intention to follow through with their preferred approach on a 5-point scale from Very Unlikely to Very Likely. We report on the percent of patients who selected \"Very Likely\" to follow through with screening.",
+        "timeFrame": "About 8 weeks after intervention"
+      },
+      {
+        "measure": "Colon Cancer Screening Rate",
+        "description": "Percentage of patients who had completed colon cancer screening test",
+        "timeFrame": "6 months after randomization"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.271Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

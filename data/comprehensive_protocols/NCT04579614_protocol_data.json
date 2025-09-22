@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04579614",
+  "briefTitle": "Performance Feedback in Health Care",
+  "officialTitle": "Performance Feedback in Health Care",
+  "protocolDocument": {
+    "nctId": "NCT04579614",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-12-15",
+    "uploadDate": "2020-09-08T18:20",
+    "size": 510028,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04579614/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 595,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-23",
+    "completionDate": "2019-12-31",
+    "primaryCompletionDate": "2019-12-31",
+    "firstSubmitDate": "2020-09-09",
+    "firstPostDate": "2020-10-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nA healthcare provider practicing at The Southeast Permanente Medical Group in a specialty for which the performance measure being studied is relevant.\n\nHealth care providers include:\n\nPhysicians, Nurse Practitioner, Certified Nurse Midwife, Psych Nurse Specialist, Optometrist, Podiatrist, and Physician Assistant\n\nExclusion Criteria:\n\nNon-Physicians: Registered Nurses excluding nurse practitioners",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Flu Vaccination Administered During Encounter",
+        "description": "Whether or not the providers succeeded in administering flu vaccination during flu vaccination opportunity",
+        "timeFrame": "10 Weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:31.744Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

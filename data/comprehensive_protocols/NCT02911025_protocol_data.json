@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT02911025",
+  "briefTitle": "Effects of Clobazam on Sleep and Daytime Function in Patients With Epilepsy",
+  "officialTitle": "Effects of Clobazam on Sleep and Daytime Function in Patients With Epilepsy",
+  "protocolDocument": {
+    "nctId": "NCT02911025",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-10-19",
+    "uploadDate": "2021-02-05T14:46",
+    "size": 122345,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02911025/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 13,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-01",
+    "completionDate": "2017-12",
+    "primaryCompletionDate": "2017-12",
+    "firstSubmitDate": "2016-01-11",
+    "firstPostDate": "2016-09-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* adults aged 18 years or older\n* diagnosis of epilepsy who are being considered for treatment with Clobazam\n\nExclusion Criteria:\n\n* known untreated moderate or severe sleep apnea\n* major circadian rhythm disorders",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Sleep (Total Sleep Time) in Patients With Epilepsy Treated With Clobazam",
+        "description": "The change in total sleep time in patients with epilepsy treat with clobazam one week after reaching effective clobazam dose",
+        "timeFrame": "1 week after reaching effective clobazam dose"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Sleep (Wake After Sleep Onset) in Patients With Epilepsy Treated With Clobazam",
+        "description": "The change in wake after sleep onset (WASO) in patients with epilepsy treat with clobazam one week after reaching effective clobazam dose",
+        "timeFrame": "1 week after reaching effective clobazam dose"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:49.604Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

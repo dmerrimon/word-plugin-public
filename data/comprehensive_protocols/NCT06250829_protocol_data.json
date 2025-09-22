@@ -1,0 +1,79 @@
+{
+  "nctId": "NCT06250829",
+  "briefTitle": "Model to Predict pCR and IrAEs in Early Stage Non-small Cell Lung Cancer",
+  "officialTitle": "Analysis of Variables Predicting Pathological Complete Response and Immune Related Adverse Events in Patients With Resectable Non-Small Cell Lung Cancer Receiving Neoadjuvant Immunotherapy With Chemotherapy - A Prospective Cohort Study",
+  "protocolDocument": {
+    "nctId": "NCT06250829",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-07-26",
+    "uploadDate": "2024-01-15T14:39",
+    "size": 663575,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06250829/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-10-12",
+    "completionDate": "2025-05-30",
+    "primaryCompletionDate": "2024-10-30",
+    "firstSubmitDate": "2024-02-01",
+    "firstPostDate": "2024-02-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 1\\. Participants with histologically confirmed Stage IB (≥ 4 cm), II, IIIA (N2) NSCLC (as per the 8th American Joint Committee on Cancer (AJCC)) who are considered to have resectable disease.\n\n  2\\. Measurable disease according to Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST 1.1).\n\n  3\\. Participants must have tumor tissue available for PD-L1 immunohistochemical (IHC) testing.\n\n  4\\. Eastern Cooperative Group (ECOG) Performance Status 0-2. 5. Able to give informed consent.\n\nExclusion Criteria:\n\n* 1\\. Presence of locally advanced, unresectable, or metastatic disease. 2. Participants with known EGFR mutations, ALK or ROS1 translocation. 3. Subjects with active, known, or suspected autoimmune disease (except subjects with type I diabetes mellitus, residual hypothyroidism due to autoimmune thyroiditis only requiring hormone replacement, skin disorders (such as vitiligo, psoriasis, or alopecia) not requiring systemic treatment).\n\n  4\\. Subjects with a condition requiring systemic treatment with either corticosteroids (10 mg daily prednisone or equivalent) or other immunosuppressive medications within 14 days of study drug administration. Inhaled or topical steroids are permitted in the absence of active autoimmune disease.\n\n  5\\. Subjects with previous malignancies are excluded unless a complete remission was achieved at least 5 years prior to study entry and no additional therapy is required or anticipated to be required during the study (non-melanoma skin cancer and other indolent malignancies not requiring any treatment and that are unlikely to affect blood-based biomarkers are allowed).",
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Predictive power of various parameters to predict pCR and IrAE's",
+        "timeFrame": "18 months"
+      },
+      {
+        "measure": "To determine the predictive power (sensitivity, specificity, receiver operator characteristic (ROC) curves) of a model, combining predictive variables, in predicting pCR.",
+        "timeFrame": "18 months"
+      },
+      {
+        "measure": "To determine whether a similar model can be constructed to predict irAEs.",
+        "timeFrame": "18 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:47.905Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

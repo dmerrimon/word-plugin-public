@@ -1,0 +1,132 @@
+{
+  "nctId": "NCT02597049",
+  "briefTitle": "A Study of Dulaglutide (LY2189265) in Participants With Type 2 Diabetes Mellitus",
+  "officialTitle": "A Randomized, Parallel-Arm, Double-Blind Study of Efficacy and Safety of Dulaglutide When Added to SGLT2 Inhibitors in Patients With Type 2 Diabetes Mellitus",
+  "protocolDocument": {
+    "nctId": "NCT02597049",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol: GBGE (b) Protocol",
+    "date": "2016-03-28",
+    "uploadDate": "2018-02-02T16:10",
+    "size": 2000542,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02597049/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 424,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-11",
+    "completionDate": "2017-02",
+    "primaryCompletionDate": "2017-02",
+    "firstSubmitDate": "2015-11-03",
+    "firstPostDate": "2015-11-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Have type 2 diabetes mellitus (based on the World Health Organization's \\[WHO\\] diagnostic criteria)\n* Have been treated with an SGLT2 inhibitor, with or without metformin, for at least 3 months prior to study entry (minimum required doses for that period for allowed SGLT2 inhibitors: empagliflozin 10 mg, dapagliflozin 5 or 10 mg \\[per country-specific label\\], canagliflozin 100 mg); minimum required dose for metformin, if used, is ≥1500 mg/day and must be reached (or highest tolerated dose which is acceptable with documented gastrointestinal \\[GI\\] intolerability)\n* Daily doses of all allowed oral antihyperglycemia agent (OAMs) must have been stable for at least 12 weeks (±3 days) prior to randomization (study enrollment); daily doses of SGLT2 inhibitor and metformin, if used, will be considered stable during this period if:\n\n  * all prescribed daily doses were in the range between the minimum required dose and maximum-approved dose per country-specific label; and\n  * \\>90% of prescribed daily doses were equal to the dose at randomization\n* Have HbA1c ≥7.0% and ≤9.5% at study entry and approximately 1 week prior to randomization\n* Have body mass index (BMI) ≤45 kilograms per meter squared (kg/m\\^2) and agree to not initiate a diet and/or exercise program during the study with the intent of reducing body weight other than the lifestyle and dietary measures for diabetes treatment\n\nExclusion Criteria:\n\n* Have type 1 diabetes mellitus\n* Have been treated with any other OAMs (other than SGLT2 inhibitors and metformin), glucagon-like peptide-1 receptor agonist (GLP-1 RA), pramlintide or insulin 3 months prior to study entry, or between study entry and randomization; or initiate metformin between study entry and randomization; short-term use of insulin for acute care (≤14 days) during the 3-month period prior to entry is not exclusionary\n* Have any condition that is a contraindication for use of the GLP-1 RA class or the SGLT2 inhibitor class (per country-specific labels) at study entry or develop such condition between study entry and randomization\n* Have acute or chronic hepatitis, signs and symptoms of any other liver disease other than nonalcoholic fatty liver disease (NAFLD), or alanine transaminase (ALT) level \\>2.5 times the upper limit of the reference range, as determined by the central laboratory at study entry; participants with NAFLD are eligible for participation in this trial\n* Had chronic or acute pancreatitis any time prior to study entry\n* Estimated glomerular filtration rate (eGFR) \\<45 milliliters(mL)/minute/1.73m\\^2, calculated by the Chronic Kidney Disease-Epidemiology (CKD-EPI) equation, as determined by the central laboratory at study entry and confirmed at lead in\n* Have any self or family history of type 2A or type 2B multiple endocrine neoplasia (MEN 2A or 2B) in the absence of known C-cell hyperplasia (this exclusion includes participants with a family history of MEN 2A or 2B, whose family history for the syndrome is rearranged during transfect \\[RET\\]-negative; the only exception for this exclusion will be for participants whose family members with MEN 2A or 2B have a known RET mutation and the potential participant for the study is negative for the RET mutation)\n* Have any self or family history of medullary C-cell hyperplasia, focal hyperplasia, carcinoma (including sporadic, familial, or part of MEN 2A or 2B syndrome)\n* Have a serum calcitonin ≥20 picograms/mL as determined by the central laboratory at study entry",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Hemoglobin A1c (HbA1c) at 24 Weeks (Treatment-regimen Estimand)",
+        "description": "Least Squares mean (LS) of the HbA1c change from baseline to primary endpoint at week 24 was adjusted by treatment, country, SGLT2 inhibitor dose, metformin use, treatment-by-visit interactions as fixed effects, and baseline HbA1c as a covariate and participant as a random effect, via a MMRM analysis. The treatment-regimen estimand used all data including post-rescue data and compared the benefit of treatment regimens as they were actually taken.",
+        "timeFrame": "Baseline, Week 24"
+      },
+      {
+        "measure": "Change From Baseline in the HbA1c at 24 Weeks (Efficacy Estimand)",
+        "description": "LS mean of the HbA1c change from baseline to primary endpoint at week 24 was adjusted by treatment, country, SGLT2 inhibitor dose, metformin use, treatment-by-visit interactions as fixed effects, and baseline HbA1c as a covariate and participant as a random effect, via a MMRM analysis. The efficacy estimand excluded post-rescue data and compared the benefit of randomized treatments when taken as directed without rescue medication.",
+        "timeFrame": "Baseline, Week 24"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With HbA1c <7%",
+        "description": "Number of participants with an HbA1c value of \\<7% at Week 24 is measured using longitudinal logistic regression with repeated measurements. The model will include independent variables of treatment, country, SGLT2 inhibitor dose, metformin use, visit, treatment-by-visit interaction, and baseline HbA1c as a covariate.",
+        "timeFrame": "24 Weeks"
+      },
+      {
+        "measure": "Change From Baseline in Body Weight at 24 Weeks",
+        "description": "LS mean of the body weight change from baseline to primary endpoint at week 24 was adjusted by treatment, country, SGLT2 inhibitor dose, metformin use, baseline HbA1c strata, treatment-by-visit interactions as fixed effects, and baseline body weight as a covariate and participant as a random effect, via a MMRM analysis",
+        "timeFrame": "Baseline, Week 24"
+      },
+      {
+        "measure": "Change From Baseline in Fasting Serum Glucose (Central Laboratory) at 24 Weeks",
+        "description": "LS mean of change from baseline was calculated using last observation carried forward (LOCF) by treatment group, adjusted for treatment, country, SGLT2 inhibitor dose, metformin use, baseline HbA1c strata, and baseline fasting serum glucose using analysis of covariance (ANCOVA).",
+        "timeFrame": "Baseline, Week 24"
+      },
+      {
+        "measure": "Change From Baseline in 6-Point Self-Monitored Plasma Glucose (SMPG) Profile at 24 Weeks",
+        "description": "The self-monitored plasma glucose (SMPG) data were collected at the following 6 time points: pre-morning meal; 2 hours post-morning meal; pre-midday meal; 2 hours post-midday meal; pre-evening meal; 2 hours post-evening meal. Least Squares (LS) means of change from baseline were calculated using a mixed-effects model for repeated measures (MMRM) with treatment, metformin use, SGLT2 inhibitor use, country, visit, baseline HbA1c strata, and treatment-by-visit interaction as fixed effects and baseline as a covariate.",
+        "timeFrame": "Baseline, Week 24"
+      },
+      {
+        "measure": "Change From Baseline in Fasting Glucagon at 24 Weeks",
+        "description": "Change from baseline in fasting glucagon was analyzed using an ANCOVA model with last observation carried forward (LOCF) included in treatment, country, SGLT2i dose, metformin use, and baseline HbA1c strata as fixed effects and baseline fasting glucagon as a covariate (with and without post rescue data).",
+        "timeFrame": "Baseline, Week 24"
+      },
+      {
+        "measure": "Rate of Hypoglycemic Events Adjusted Per 30 Days",
+        "description": "A hypoglycemic event is defined as any time a participant feels that he/she is experiencing symptoms and/or signs associated with hypoglycemia, and has a PG level of ≤70 mg/dL (≤3.9 mmol/L).",
+        "timeFrame": "Baseline through 24 Weeks"
+      },
+      {
+        "measure": "Number of Participants Requiring Rescue Therapy Due to Severe Persistent Hyperglycemia",
+        "description": "Rescue therapy was defined as any additional therapeutic intervention in participants who developed persistent, severe hyperglycemia despite full compliance with the assigned therapeutic regimen, or initiation of an alternative antihyperglycemic medication following study drug discontinuation.",
+        "timeFrame": "Baseline through 24 Weeks"
+      },
+      {
+        "measure": "Number of Participants With Adjudicated Acute Pancreatitis Events",
+        "description": "The number of participants with events of pancreatitis confirmed by adjudication were summarized cumulatively at 24 weeks. Pancreatitis events were adjudicated by a committee of physicians external to the Sponsor.\n\nA summary of serious and other non-serious events regardless of causality is located in the Reported Adverse Events module.",
+        "timeFrame": "Baseline through 24 Weeks"
+      },
+      {
+        "measure": "Number of Participants With Adjudicated Cardiovascular (CV) Events",
+        "description": "Death and selected nonfatal CV adverse events (AEs) were adjudicated by an independent committee of physicians with cardiology expertise external to the Sponsor. Nonfatal CV events that were to be adjudicated were myocardial infarction (MI); hospitalization for unstable angina; hospitalization for heart failure; coronary interventions such as coronary artery bypass graft (CABG) or ( percutaneous coronary intervention (PCI); and cerebrovascular events, including cerebrovascular accident (stroke) and transient ischemic attack (TIA).",
+        "timeFrame": "Baseline through 24 Weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:09.636Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

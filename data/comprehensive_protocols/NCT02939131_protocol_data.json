@@ -1,0 +1,318 @@
+{
+  "nctId": "NCT02939131",
+  "briefTitle": "IMPAACT 2002: Cognitive Behavioral Therapy and Medication Management for Treatment of Depression in US Youth With HIV",
+  "officialTitle": "IMPAACT 2002: Combined Cognitive Behavioral Therapy and a Medication Management Algorithm for Treatment of Depression Among Youth Living With HIV in the United States",
+  "protocolDocument": {
+    "nctId": "NCT02939131",
+    "filename": "Prot_ICF_001.pdf",
+    "label": "Study Protocol and Informed Consent Form",
+    "date": "2018-04-27",
+    "uploadDate": "2020-08-27T16:45",
+    "size": 2424926,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02939131/document/Prot_ICF_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 156,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-03-06",
+    "completionDate": "2020-01-21",
+    "primaryCompletionDate": "2019-09-12",
+    "firstSubmitDate": "2016-10-07",
+    "firstPostDate": "2016-10-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Receiving mental health or HIV-related care at participating US IMPAACT site\n* Confirmed HIV-1 Infection\n* Aware of his or her HIV infection\n* Per clinician assessment, primary diagnosis of nonpsychotic depression, including Major Depressive Disorder, Depression Not Otherwise Specified (NOS), or Dysthymia, as defined by Diagnostic and Statistical Manual of Mental Disorders (DSM)-IV or DSM-V criteria\n* Current depressive symptoms that warrant intervention as determined by a score of ≥ 11 on the Quick Inventory of Depressive Symptomatology - Clinician (QIDS-C)\n* Able to communicate in spoken and written English\n* Able and willing to provide written informed assent/consent and able to obtain written parental or guardian permission (if required, as specified in site standard operating procedure (SOP), by State law, and/or Institutional Review Board (IRB) policy) to be screened for and to enroll in IMPAACT 2002\n\nExclusion Criteria:\n\n* Known or self-reported history of any psychotic disorder and/or bipolar I or II disorder\n* Severe disorders (more than 6 symptoms) based on DSM-V criteria related to alcohol, cannabis or other substances; or those with moderate symptoms (4 or 5 symptoms) who are also currently experiencing withdrawal or dependence symptoms; within the past month prior to enrollment\n* Per clinician assessment at screening, depression and/or suicidal ideation requiring more intensive treatment than the study provides or at immediate risk of being a danger to themselves or others\n* Per participant report at screening, intends to relocate away from the study site during study participation\n* Currently in therapy with a non-study provider, unless willing to switch to a study-trained provider\n* Has any other condition that, in the opinion of the Investigator of Record (IoR)/designee, would preclude informed assent/consent, make study participation unsafe, complicate interpretation of study outcome data, or otherwise interfere with achieving the study objectives",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "maximumAge": "24 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Depression Outcomes: Quick Inventory of Depression Symptomatology - Self Report (QIDS-SR) Score",
+        "description": "The QIDS-SR ranges from 0-27 and assesses the severity and number of depression symptoms. Data completed through the Audio Computer Assisted Interview (ACASI) system are used for this outcome. A lower score indicates fewer depression symptoms and lower depression symptom severity. Scores for all participants at a site were averaged. The site-specific averages were then analyzed.",
+        "timeFrame": "Week 24"
+      },
+      {
+        "measure": "Depression Outcomes: Response to Treatment, Defined as a Decrease in QIDS-SR Score by >50%",
+        "description": "We are assessing the percentage of participants with a response to treatment.The percentage of participants at each site with a response was calculated. These percentages were averaged for each treatment and the treatment averages were compared. A response to treatment is considered a decrease in Quick Inventory of Depression Symptomatology, Self Report (QIDS-SR) from Study entry to Week 24 by more than 50%. The week 0 value is generally considered the entry value. Priority is given to the ACASI score at week 0. In certain cases, the week 1 ACASI value is used if there is no ACASI score at week 0, but there is one at week 1. Paper form scores are used for \"study entry\" if there is no ACASI record, with the value at week 0 prioritized over the value at week 1. Otherwise, ACASI data are used for this outcome. The QIDS-SR is scored from 0 to 27 with a lower score indicating less symptomatology.",
+        "timeFrame": "Week 0 and Week 24"
+      },
+      {
+        "measure": "Depression Outcomes: Remission, Defined as a QIDS-SR Score <= 5",
+        "description": "We computed the percentage of participants at each site with remission and then compared the percentages. Remission is defined as a Quick Inventory of Depression Symptomatology, self-report (QIDS-SR) score \\<= 5. ACASI data are used for this outcome. The QIDS-SR scale is from 0-27 with a lower score indicating tess symptomatology.",
+        "timeFrame": "Week 24"
+      },
+      {
+        "measure": "Biological Outcomes: Cluster of Differentiation 4 (CD4) Cell Count at Week 24",
+        "description": "CD4 cell counts are cells/microL (uL). CD4 cell counts of all participants at a site were averaged. The averages were then analyzed.",
+        "timeFrame": "Week 24"
+      },
+      {
+        "measure": "Biological Outcomes: Plasma HIV RNA Level at Week 24",
+        "description": "Plasma HIV RNA data are calculated on the log10 scale as log10(RNA copies/mL)\n\nFor this analysis, HIV-1 RNA values (copies per mL) that were censored below the lower limit of quantification (LLQ) were imputed to be equal to the LLQ - 1. The LLQ was considered to be 40 copies/mL. Viral load was calculated on the log10 scale as log10(RNA copies/mL). Viral load suppression was also measured as copies \\< 40.\n\nThe log10 (RNA copies/mL) values were averaged by site and those averages were analyzed.",
+        "timeFrame": "Week 24"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Adherence Outcomes: Adherence to Anti-HIV Medications - Number of Days in Last 30 With Any Missed Doses",
+        "description": "Adherence to anti-HIV medications at each assessment for the first 24 weeks (during active treatment) and at 48 weeks, as measured by self-report. The first of three questions was to assess the number of days in the last 30 with any missed medication doses.The average number of days for all participants at a site were averaged. The site-specific averages were then analyzed.",
+        "timeFrame": "Weeks 24 and 48"
+      },
+      {
+        "measure": "Adherence Outcomes: Adherence to Anti-HIV Medications - How Good Participant Was at Taking Medicines as Instructed",
+        "description": "Adherence to anti-HIV medications at each assessment for the first 24 weeks (during active treatment) and at 48 weeks, as measured by self-report. The second of three questions was how good the participant is at taking his medication as instructed in the last 30 days. Response scales are Likert from 1 to 6, with a higher score indicating better adherence. 1=Very poor .... 6=Excellent. The average score for all participants at each site was computed and these site-level summaries were compared across treatments.",
+        "timeFrame": "Weeks 24 and 48"
+      },
+      {
+        "measure": "Adherence Outcomes: Adherence to Anti-HIV Medications - How Often Did Participant Take Medications as Instructed",
+        "description": "Adherence to anti-HIV medications at each assessment for the first 24 weeks (during active treatment) and at 48 weeks, as measured by self-report. The third of three questions was how often the participant took medication correctly in the last 30 days. Response scales are Likert from 1 to 6, with a higher score indicating better adherence. 1=Never ... 6=Always. The average score for all participants at a site was computed and these site-level summaries were compared across treatments.",
+        "timeFrame": "Weeks 24 and 48"
+      },
+      {
+        "measure": "Adherence Outcomes: Adherence to Psychiatric Medications - Number of Days in Last 30 With Any Missed Doses",
+        "description": "Adherence to depression medications at each assessment for the first 24 weeks (during active treatment) and at 48 weeks, as measured by self-report for those participants taking depression medications. Three questions were asked; The first of the three questions was to assess the number of days in the last 30 with any missed medication doses.The average number of days for all participants at a site were averaged. The site-specific averages were then analyzed.",
+        "timeFrame": "Weeks 24 and 48"
+      },
+      {
+        "measure": "Adherence Outcomes: Adherence to Psychiatric Medications - How Good Participant Was at Taking Medications as Instructed",
+        "description": "Adherence to depression medications at each assessment for the first 24 weeks (during active treatment) and at 48 weeks, as measured by self-report tor those participants taking depression medications. The second of three questions was how good the participant is at taking his medication as instructed during the last 30 days. Response scales are Likert from 1 to 6, with a higher score indicating better adherence.1=Very poor .... 6=Excellent. The average score for all participants at each site was computed and these site-level summaries were compared across treatments.",
+        "timeFrame": "Weeks 24 and 48"
+      },
+      {
+        "measure": "Adherence Outcomes: Adherence to Psychiatric Medications - How Often Did Participant Take Medicines as Instructed",
+        "description": "Adherence to depression medications at each assessment for the first 24 weeks (during active treatment) and at 48 weeks, as measured by self-report for those participants taking depression medications. The third of three questions was how often the participant took medication correctly in the past 30 days. Response scales are Likert from 1 to 6, with a higher score indicating better adherence: 1=Never .... 6=Always. The average score for all participants at each site was computed and these site-level summaries were compared across treatments.",
+        "timeFrame": "Weeks 24 and 48"
+      },
+      {
+        "measure": "Adherence Outcomes: Adherence to Psychotherapy Sessions",
+        "description": "We computed the number of scheduled counseling sessions attended. The average number of sessions was computed for all participants at each site and these site-level averages were compared across treatments.Where study visits for weeks 0 and 1 were held on the same day, the counseling session for week 1 would have been administered at week 0.",
+        "timeFrame": "Weeks 1, 6, 12 and 24"
+      },
+      {
+        "measure": "Adherence Outcomes: Adherence to COMB-R Medication Management Sessions",
+        "description": "We computed the number of scheduled medication management sessions (COMB-R only) attended. The average number of sessions was computed for all participants at each site. We took the mean of the site-level averages.",
+        "timeFrame": "Weeks 1, 6, 12 and 24"
+      },
+      {
+        "measure": "Adherence Outcomes: Adherence to Study Visits",
+        "description": "We computed the number study visits completed as the number of scheduled study visits completed to date as of week 24 and week 48. However in some cases, weeks 0 and 1 visits were done on the same day. In that case, they were counted as separate visits.The average number of visits was computed for all participants at each site and these site-level averages were compared across treatments.",
+        "timeFrame": "Weeks 0, 1, 6, 12, 24, 36 and 48"
+      },
+      {
+        "measure": "Depression Outcomes: Quick Inventory of Depression Symptomatology Self-Report (QIDS-SR) Score Over 48 Weeks.",
+        "description": "The Quick Inventory of Depression Symptomatology Self-Report (QIDS-SR) score ranges from 0-27 and assesses the severity and number of depression symptoms. Data completed through the Audio Computer Assisted Interview (ACASI) system were used for this outcome. A lower score indicates fewer depression symptoms and lower depression symptom severity. Scores for all participants at a site were averaged. The site-specific averages were then analyzed.",
+        "timeFrame": "Week 48"
+      },
+      {
+        "measure": "Depression Outcomes: Quick Inventory of Depression Symptomatology Self-Report (QIDS-SR) Response to Treatment Over 48 Weeks, Defined as a Decrease in QIDS-SR Score by > 50%",
+        "description": "A response to treatment was considered to be a decrease in Quick Inventory of Depression Symptomatology, Self Report (QIDS-SR) from Study entry to Week 48 by more than 50%. The week 0 value was generally considered the entry value. Priority was given to the ACASI score at week 0. In certain cases, the week 1 ACASI value was used if there was no ACASI score at week 0, but there was one at week 1. Paper form scores were used for \"study entry\" if there were no ACASI records, with the value at week 0 prioritized over the value at week 1. Otherwise, ACASI data were used for this outcome. The QIDS-SR was scored from 0 to 27 with a lower score indicating less symptomatology.The percentage of participants with a QIDS-SR response at each site was calculated. These percentages were averaged for each treatment and the treatment averages were compared.",
+        "timeFrame": "Week 0 and Week 48"
+      },
+      {
+        "measure": "Depression Outcomes: Quick Inventory of Depression Symptomatology Self-Report (QIDS-SR) Score Remission Over 48 Weeks",
+        "description": "Remission is defined as a Quick Inventory of Depression Symptomatology, self-report (QIDS-SR) score of 5 or less. ACASI data are used for this outcome. The QIDS-SR scale is from 0-27 with a lower score indicating tower depression symptomatology. We computed the percentage of participants at each site with remission and then compared the site-level percentages across treatments.",
+        "timeFrame": "Week 48"
+      },
+      {
+        "measure": "Effect of Demographic, Behavioral, and Biological Modifiers on Depression Outcomes: Quick Inventory of Depression Symptomatology (QIDS-SR) Score",
+        "description": "QIDS-SR score (defined in Outcome 15). Effect of moderators on depression outcomes:Demographic: age group, gender, mode of HIV acquisition, initial level of depression (QIDS-SR categorized as severe/very severe vs. moderate or less severity); Biological: baseline CD4 (count/uL categorized as stage 3 \\[\\< 200 cells\\] vs. less than stage 3), nadir CD4 at study entry (based on count/uL and considering worst classification across ages, defined below), plasma HIV RNA suppression status, Center for Disease Control and Prevention (CDC) clinical stage at entry (Stage 3 vs. less than stage 3): Determination of nadir CD4 cell count as Stage 3 was based on the following: If any of the following were true, the overall CD4 nadir cell count was classified as Stage 3: \\<750 cells at \\< 1 year of age; \\< 500 cells at 1-5 years of age; \\<200 cells at 6+ years of age (from Revised Surveillance Case Definition for HIV Infection - United States, 2014). See analysis section for description of method.",
+        "timeFrame": "Week 48"
+      },
+      {
+        "measure": "Effect of Demographic, Behavioral, and Biological Modifiers on Depression Outcomes: Response to Treatment",
+        "description": "Response to Treatment (defined in Outcome 16): Effect of moderators on depression outcomes: Demographic: age group, gender, mode of HIV acquisition, initial level of depression (QIDS-SR categorized as severe/very severe vs. moderate or less severity); Biological: baseline CD4 (count/uL categorized as stage 3 \\[\\< 200 cells\\] vs. less than stage 3), nadir CD4 at study entry (based on count/uL and considering worst classification across ages, defined below), plasma HIV RNA suppression status, Center for Disease Control and Prevention (CDC) clinical stage at entry (Stage 3 vs. less than stage 3): Determination of nadir CD4 cell count as Stage 3 was based on the following: If any of the following were true, the overall CD4 nadir cell count was classified as Stage 3: \\<750 cells at \\< 1 year of age; \\< 500 cells at 1-5 years of age; \\<200 cells at 6+ years of age (from Revised Surveillance Case Definition for HIV Infection - United States, 2014). See analysis section for description of method.",
+        "timeFrame": "Week 0 and Week 48"
+      },
+      {
+        "measure": "Effect of Demographic, Behavioral, and Biological Modifiers on Depression Outcomes: Remission",
+        "description": "Remission (defined in Outcome 17): Effect of moderators on depression outcomes: Demographic: age group, gender, mode of HIV acquisition, initial level of depression (QIDS-SR categorized as severe/very severe vs. moderate or less severity); Biological: baseline CD4 (count/uL categorized as stage 3 \\[\\< 200 cells\\] vs. less than stage 3), nadir CD4 at study entry (based on count/uL and considering worst classification across ages, defined below), plasma HIV RNA suppression status, Center for Disease Control and Prevention (CDC) clinical stage at entry (Stage 3 vs. less than stage 3): Determination of nadir CD4 cell count as Stage 3 was based on the following: If any of the following were true, the overall CD4 nadir cell count was classified as Stage 3: \\<750 cells at \\< 1 year of age; \\< 500 cells at 1-5 years of age; \\<200 cells at 6+ years of age (from Revised Surveillance Case Definition for HIV Infection - United States, 2014). See analysis section for description of method.",
+        "timeFrame": "Week 48"
+      },
+      {
+        "measure": "Behavioral Risk Outcomes: Alcohol Use - Ever Used",
+        "description": "The percent of participants who reported ever using alcohol was computed for each site. These site-level percentages were compared across treatment groups.",
+        "timeFrame": "Weeks 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk- Alcohol Use - Past 3 Months Regular Use Frequency",
+        "description": "Frequency of alcohol use during the past three months was reported for those participants reporting at least some use ever; frequency was measured on a 5-point Likert scale from 1 to 5 (1=Never, 2=Once or twice, 3 = monthly, 4=weekly, 5 = daily or almost daily). A lower score indicates less alcohol use. The percentage of participants at each site with regular use (3=monthly, 4=weekly, 5=daily) was computed. The site-level percentages were compared across treatments.",
+        "timeFrame": "weeks 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk - Alcohol Use - Number of Drinks Per Day",
+        "description": "The number of alcoholic drinks per day on a typical day was reported. The average of the number of drinks for all participants at each site was computed and these site-level averages were compared across treatments. Analysis was limited to those participants reporting at least some use ever.",
+        "timeFrame": "weeks 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk - Alcohol Use - Binge Drinking",
+        "description": "Binge drinking is defined by the number of days with 5 or more drinks in a row (within a couple of hours) during the past 3 months. These numbers were averaged for all participants at each site and the site-level averages were compared across treatments.Analysis was limited to those participants reporting at least some use ever.",
+        "timeFrame": "Weeks 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk Outcomes: Tobacco Use- Ever Used",
+        "description": "The percent of participants reporting tobacco use (ever) was computed for each site and these site-level averages were compared across treatments.",
+        "timeFrame": "Weeks 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk - Tobacco Use - Past 3 Months Regular Use Frequency",
+        "description": "Past three months frequency of tobacco use was measured on a 5-point Likert scale (1=never, 2=once or twice, 3=monthly, 4 = weekly, 5=daily/almost daily). The percentage of participants with regular use (monthly, weekly or daily) was computed. Analysis was limited to those participants reporting at least some use ever.",
+        "timeFrame": "weeks 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk Outcomes: Drug Use - Ever Used",
+        "description": "For each of the following substances (cannabis, cocaine, amphetamine, inhalants, sedatives, hallucinogens, opioids) we computed the percent of participants at each site who reported ever using the substance. We also computed the site-level percentages of participants ever using any illegal substance excluding cannabis.",
+        "timeFrame": "Weeks 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk - Drug Use - Past 3 Months Regular Frequency of Use",
+        "description": "Past three months use frequency for cannabis, cocaine, amphetamine, inhalants, sedatives, hallucinogens, opioids was assessed. This was measured on a 5-point Likert scale from 1=Never to 5=almost daily. A lower score indicates less frequent use. Scores were dichotomized as regular use (3=monthly, 4=weekly, 5=daily/almost daily) or low use (1=never, 2=once or twice). The percent of participants who used a substance at regularly, given they ever used it, was computed for each site. We also defined a variable of regular frequency of use for any illegal substance, excluding cannabis.",
+        "timeFrame": "week 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk Outcomes: Sex-Risk Behaviors - Sex as Exchange Commodity",
+        "description": "We considered a report of sex as exchange commodity if participant reported either that they gave sex in exchange for money, drugs or shelter or if they bought sex with money, drugs or shelter. This was only reported for participants who said they had had some sex (oral, vaginal or anal) ever. The percent of participants at each site who used sex as an exchange commodity was computed and the site-level percentages were compared across treatments.",
+        "timeFrame": "Weeks 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk Outcomes: Sex-Risk Behaviors - Importance of Using Condom",
+        "description": "Participant reported importance that participant or partner use a condom on a scale from 0 to 100 with 0=not important at all, 50= about as important as the other things in my life and 100=most important thing in my life.This was only reported for participants who said they had had some sex (oral, vaginal or anal) ever. The average scores were computed for all participants at each site and the site-level averages were compared across treatments.",
+        "timeFrame": "weeks 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk- Sex Risk Behaviors - Confidence in Condom Use",
+        "description": "Participant reports how confident they are that she/he or partner will use condoms. Reported on a scale from 0-100 with 0=I do not think I will use condoms, 50=I have a 50% chance of using a condom; 100=I think I will definitely use a condom.This was only reported for participants who said they had had some sex (oral, vaginal or anal) ever. The average scores were computed for all participants at each site and the site-level averages were compared across treatments.",
+        "timeFrame": "Week 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk - Sex Risk Behaviors - Number of Sexual Partners in Past Three Months",
+        "description": "The participant reported the number of sexual partners in the past three months. This was only reported for participants who said they had had some sex (oral, vaginal or anal) ever. The average number of sexual partners was computed for all participants at each site and the site-level summaries were compared across treatment groups.",
+        "timeFrame": "week 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk - Sex Risk Behaviors. Low Use Frequency of Condom Use in Last Three Months - Main Partner",
+        "description": "Main partner frequency of condom use was measured on a 5-point Likert scale from 1= always, 2 = more than half the time, 3= about half the time, 4=less than half the time to 5=never. It is only reported if participant reported some anal or vaginal sex in past three months. The worse (higher) score of that reported for vaginal or anal sex is analyzed. For each site we computed the percent of participants reporting low frequency of condom use (score = 3, 4 or 5). The site-level percentages were averaged and the site-level averages were compared across treatments.",
+        "timeFrame": "week 24 and 48"
+      },
+      {
+        "measure": "Behavioral Risk - Sex Risk Behavior - Low Use Frequency of Condom Use in Past 3 Months - Other Partner",
+        "description": "Condom use frequency for other than main partners was measured on a 5-point Likert scale from 1= always, 2 = more than half the time, 3= about half the time, 4=less than half the time to 5=never. It is only reported if participant reported some anal or vaginal sex in past three months. The worse (higher) score of that reported for vaginal or anal sex is analyzed. For each site we computed the percent of participants reporting low frequency of condom use (score = 3, 4 or 5). The site-level percentages were averaged and the site-level averages were compared across treatments.",
+        "timeFrame": "week 24 and 48"
+      },
+      {
+        "measure": "To Describe the Implementation Fidelity at COMB-R Sites and the Counseling Strategies and Medication Patterns at ESC Sites: The Total Numbers of Counseling Sessions",
+        "description": "We counted the total numbers of COMB-R and ESC counseling sessions administered over the intervention period (through week 24), including both interim and scheduled visits. The average number of sessions was computed for all participants at each site and those averages were compared across treatments.",
+        "timeFrame": "over 24 weeks"
+      },
+      {
+        "measure": "Implementation Fidelity (COMB-R Sites) - Count of Participants Having Been Administered Various COMB-R Counseling Approaches",
+        "description": "For COMB-R; we assessed numbers of participants for whom counselors reported using each type of cognitive behavioral therapy (CBT) approaches over the intervention period. A participant was counted in a specific category if the approach was ever used during the 24 week intervention period.",
+        "timeFrame": "over 24 Weeks"
+      },
+      {
+        "measure": "Counseling Strategies (ESC Sites) - Count of Participants Having Been Administered Various ESC Counseling Approaches",
+        "description": "We summarized the types of counseling approaches used by the ESC clinicians over the intervention period. A participant was counted in a specific category if the approach was ever used during the 24 week intervention period.",
+        "timeFrame": "Over 24 weeks"
+      },
+      {
+        "measure": "Implementation Fidelity (COMB-R Sites); Medication Management - Number of Sessions",
+        "description": "We computed the number of Medication Management (MM) sessions attended by participants in the COMB-R group over 24 weeks including both interim and scheduled visits .We averaged the number of sessions for all participants at each site and then took the mean of the site-level averages.",
+        "timeFrame": "Over 24 Weeks"
+      },
+      {
+        "measure": "Implemental Fidelity (COMB-R) - Medication Management - Stages",
+        "description": "We summarized the stages of the MM algorithm reported for participants by prescribing clinicians in the COMB-R group. Stage 0 is no medication. Stage 1 is monotherapy with a selective serotonin re-uptake inhibitor (SSRI). Stage 2 is monotherapy with a second SSRI. Stage 3 is monotherapy with a non-SSRI. Stage 4 is combination treatment with two antidepressants or an antidepressant plus lithium. Stages 1 through 3 also allow for partial responders to receive augmentation with selected other psychiatric medications.",
+        "timeFrame": "week 1, 6, 12, 24"
+      },
+      {
+        "measure": "Acceptability: Frequency of Psychiatric Medication Use - Percent of Participants on Psychiatric Medications",
+        "description": "We assessed whether or not participants were taking psychiatric medications at week 24 and we computed the percent of participants at each site taking psychiatric medications overall and by classes of psychiatric medications. We compared the site-level percentages across treatment groups. Classes of medications included: any psychiatric medication, any antidepressant medication, any regimen with a selective serotonin re uptake inhibitor (SSRI), any regimen with a non-SSRI antidepressant medication, any other non-antidepressant psychiatric medication.",
+        "timeFrame": "week 24"
+      },
+      {
+        "measure": "Acceptability - Frequency of Psychiatric Medication Use - Percent of Study Time on Psychiatric Medications Through Week 24",
+        "description": "For those participants taking each of several classes of psychiatric medications during the first 24 study weeks, we computed the percent of study time during which each participant was taking psychiatric medications of that category. Regimen classes were: any psychiatric medication, any antidepressant medication, single selective serotonin re-uptake inhibitor (SSRI), single non-SSRI, SSRI+other medication, non-SSRI+other medication. Then the average percent of time on each category of medication was computed for all participants at each site. The site-level means were compared across treatments.",
+        "timeFrame": "over 24 weeks"
+      },
+      {
+        "measure": "Acceptability: Number of Interim Visits - Counseling Sessions",
+        "description": "We counted the number of interim visits with the counseling clinician, defined as those outside of the scheduled study visits. The average number for all participants at each site were computed. Site mean numbers were compared across treatments.",
+        "timeFrame": "Over 24 Weeks"
+      },
+      {
+        "measure": "Acceptability - Number of Interim Medication Management Visits (COMB-R)",
+        "description": "We counted the number of interim visits with the prescribing clinician, defined as those outside of the scheduled study visits. We computed the average number of sessions for all participants at each site. We took the mean of those averages.",
+        "timeFrame": "Over 24 weeks"
+      },
+      {
+        "measure": "COMB-R and ESC Acceptability Among Participants",
+        "description": "Client satisfaction was computed as the mean of the 8 questionnaire items. Each is rated on a 4-point Likert scale from 1-4, with 4 being the best acceptability. Items reflected quality of service, degree to which program met participant needs, and satisfaction with and efficacy of the help given. The average score for all participants at each site was computed. Site mean scores were compared across treatments.",
+        "timeFrame": "Week 24"
+      },
+      {
+        "measure": "COMB-R and ESC Acceptability Among Counseling Clinicians",
+        "description": "Six items were rated on a 4-point Likert scale from 0-3 (0=poor, 1=fair, 2=good, 3=excellent). A higher score indicates better clinician satisfaction with administering the intervention. These questions rated appropriateness, effectiveness, flexibility, ease of use, fit and overall quality of the treatment approach. For each participant's clinician, a mean score of the six items was computed. The average score was computed for the clinicians of all participants at each site. These site-level means were compared between groups.",
+        "timeFrame": "Week 24"
+      },
+      {
+        "measure": "COMB-R MM and ESC Acceptability Among Prescribing Clinicians",
+        "description": "For each participant's prescribing clinician, we assessed two domains: How easy or difficult it was to follow the treatment plan (ESC) or medication management algorithm (COMB-R) and whether or not participants symptoms improved over the intervention period. These items were assessed on a 5-point Likert scale (0, 1, 2, 3, 4) and reverse scored if necessary so that a higher score reflected that it was easier to follow the algorithm and that the patients' symptoms improved. Average scores at each site were computed and the site-level summaries were compared across treatments.",
+        "timeFrame": "Week 24"
+      },
+      {
+        "measure": "Grade 3 or Higher Adverse Events (AE), Psychological Hospitalizations, and Suicide Attempts",
+        "description": "In this analysis only \"new\" events were counted; as identified by MedDRA Preferred Term; that is, those which were first reported after study entry. Two types of adverse events were reported: 1) grade 3 or higher signs/symptoms, and 2) grade 3 or higher diagnoses. \"Trigger\" events (psychiatric hospitalization or suicide attempts) were also reported. For each of these three types of events, the percent of participants at each site with at least one such event was computed. The average of these site-level percentages within each treatment arm were compared. Note, in some cases due to sparseness (few events reported at sites within a treatment group), the lower bound of the 95% confidence interval was less than zero . In those cases, the bounds were truncated to zero.",
+        "timeFrame": "Over 24 Weeks"
+      },
+      {
+        "measure": "Grade 3 or Higher Adverse Events (AE), Psychological Hospitalizations, and Suicide Attempts",
+        "description": "n this analysis only \"new\" events were counted; as identified by MedDRA Preferred Term; that is, those which were first reported after study entry. Two types of adverse events were reported: 1) grade 3 or higher signs/symptoms, and 2) grade 3 or higher diagnoses. \"Trigger\" events (psychiatric hospitalization or suicide attempts) were also reported. For each of these three types of events, the percent of participants at each site with at least one such event was computed. The average of these site-level percentages within each treatment arm were compared. Note, in some cases due to sparseness (few events reported at sites within a treatment group), the lower bound of the 95% confidence interval was less than zero . In those cases, the bounds were truncated to zero.",
+        "timeFrame": "Over 48 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 43,
+      "otherCount": 0,
+      "totalCount": 48
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:19.952Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

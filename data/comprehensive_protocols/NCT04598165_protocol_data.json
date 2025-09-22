@@ -1,0 +1,138 @@
+{
+  "nctId": "NCT04598165",
+  "briefTitle": "Mobile WACh NEO: Mobile Solutions for Neonatal Health and Maternal Support",
+  "officialTitle": "Mobile WACh NEO Randomized Clinical Trial: Mobile Phone 2-Way Short Message Service (SMS) Versus Control to Reduce Neonatal Mortality in Kenya",
+  "protocolDocument": {
+    "nctId": "NCT04598165",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-10-01",
+    "uploadDate": "2024-05-31T17:26",
+    "size": 1046594,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04598165/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5020,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-09-07",
+    "completionDate": "2023-02-20",
+    "primaryCompletionDate": "2023-02-20",
+    "firstSubmitDate": "2020-10-02",
+    "firstPostDate": "2020-10-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Pregnant\n* 28-36 weeks gestation\n* Daily access to a mobile phone (own or shared) on the Safaricom network\n* Willing to receive SMS\n* Able to read and respond to text messages in English, Kiswahili or Luo, or have someone in the household who can help\n\nExclusion Criteria:\n\n* Currently enrolled in another research study\n* Previous participant in the Mobile WACh NEO RCT (i.e. with a new pregnancy)",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "14 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Neonatal Mortality",
+        "description": "Death during 1st 28 days of life",
+        "timeFrame": "28 days postpartum"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Early Neonatal Mortality",
+        "description": "Death during 1st 7 days of life",
+        "timeFrame": "7 days postpartum"
+      },
+      {
+        "measure": "Initiation of Early Breastfeeding",
+        "description": "Number of participants initiating breastfeeding in 1st hour of life",
+        "timeFrame": "1 hour postpartum"
+      },
+      {
+        "measure": "Exclusive Breastfeeding",
+        "description": "Exclusive breastfeeding at 6-week visit",
+        "timeFrame": "6-weeks postpartum"
+      },
+      {
+        "measure": "Thermal Care",
+        "description": "Number of participants not giving infant a bath in 1st 24 hours of life",
+        "timeFrame": "24 hours postpartum"
+      },
+      {
+        "measure": "Cord Care",
+        "description": "Number of participants with no application of substances to cord",
+        "timeFrame": "2-weeks postpartum"
+      },
+      {
+        "measure": "Home Provision of Kangaroo Mother Care",
+        "description": "Number of participants providing any duration of skin-to-skin care on ≥10 of the first 14 days at home, among low birthweight or preterm infants",
+        "timeFrame": "14 days at home postpartum"
+      },
+      {
+        "measure": "Maternal Knowledge of Neonatal Danger Signs",
+        "description": "Number of danger signs or symptoms successfully named",
+        "timeFrame": "Up to 6-weeks postpartum"
+      },
+      {
+        "measure": "Appropriate Care-seeking",
+        "description": "Proportion of illness episodes with danger signs in which the clinic was attended and/or where the infant was hospitalized irrespective of danger signs reported in 1st 18 weeks of life (study follow-up period).",
+        "timeFrame": "18 weeks postpartum"
+      },
+      {
+        "measure": "Elevated Depressive Symptoms",
+        "description": "Score above diagnostic threshold (\\>=13) for Edinburgh Postnatal Depression Scale. Possible scores are 0-30, with a higher score indicating a higher likelihood of possible depressive illness.",
+        "timeFrame": "Enrollment through 6-weeks postpartum"
+      },
+      {
+        "measure": "Social Support",
+        "description": "Score using Medical Outcomes Study (MOS) Social Support Survey. Possible scores are 0-100, with a higher score indicating higher levels of social support.",
+        "timeFrame": "Enrollment through 6-weeks postpartum"
+      },
+      {
+        "measure": "Self-efficacy",
+        "description": "Score using the Karitane Parenting Confidence Scale. Possible scores are 0-45, with higher scores indicating higher levels of parenting confidence.",
+        "timeFrame": "Enrollment through 6-weeks postpartum"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 11,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:18.631Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03853746",
+  "briefTitle": "Short-term B-cell Depletion in Relapsing Multiple Sclerosis",
+  "officialTitle": "Evaluating the Effects of Short-term B-cell Depletion on Long-term Disease Activity and Immune Tolerance in Relapsing Multiple Sclerosis",
+  "protocolDocument": {
+    "nctId": "NCT03853746",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-03-28",
+    "uploadDate": "2025-02-03T10:03",
+    "size": 471727,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03853746/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 10,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-04-01",
+    "completionDate": "2024-07-01",
+    "primaryCompletionDate": "2024-03-01",
+    "firstSubmitDate": "2019-02-22",
+    "firstPostDate": "2019-02-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18 years and older.\n* Diagnosis of relapsing-remitting multiple sclerosis (RRMS) based on revised McDonald criteria\n* At least two Gd-enhancing lesions on the brain or spinal cord MRI done in the prior three months\n* Naïve to disease modifying therapies or using an injectable therapy (interferons or glatiramer acetate); or, if history of receiving natalizumab, fingolimod, dimethyl fumarate and teriflunomide, no exposure for past three months\n* Expanded Disability Status Scale (EDSS) score at the time of screening =\\<3\n\nExclusion Criteria:\n\n* Contraindication to treatment with B-cell depleting antibodies, including being seropositive for HBsAg or HIV antibody or T-spot (or Quantiferon-Gold) positive\n* Ever received B-cell depleting antibodies (rituximab, ocrelizumab, ofatumumab), alemtuzumab, daclizumab, mitoxantrone or hematopoietic stem-cell transplant\n* Female who are pregnant, nursing or unwilling to use contraception up to six months after the second course of the infusion (or 12 months after the first infusion)\n* Treatment with steroids in the past 30 days\n* Clinically unstable medical or psychiatric disorders at the time of screening that require acute treatment as determined by the PI",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Patients With a Return of Disease Activity After the Third Month Post-first-infusion",
+        "description": "Number of patients with a return of disease activity after the third month post-first-infusion, objectively demonstrated by development of new T2 hyperintense lesions or Gd-enhancing lesions on the MRI or a clinical relapse that is confirmed with an objective change in the neurological examination.",
+        "timeFrame": "27 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Disability as Assessed by Expanded Disability Status Scale (EDSS)",
+        "description": "EDSS scores range from 0 to 10, with 0.5 steps. The higher the score, the worse the MS-related disability. Although the outcome was measured every six months, we used a linear mixed-effects model to analyze the data. The coefficient from this model represents the change in the outcome per unit of time (month), allowing for a consistent interpretation of the rate of change.",
+        "timeFrame": "Every 6 months, up to 30 months"
+      },
+      {
+        "measure": "Change in a Quality of Life Measure as Assessed by Neuro-QoL Computer Adaptive Test (CAT) Fatigue Test",
+        "description": "The CAT produces a T-score (standardized score with a mean of 50 and a standard deviation (SD) of 10). A higher Neuro-QoL T-score represents more of the concept being measured. Here is the change in score from baseline to month 30. Although the outcome was measured every six months, we used a linear mixed-effects model to analyze the data. The coefficient from this model represents the change in the outcome per unit of time (month), allowing for a consistent interpretation of the rate of change.",
+        "timeFrame": "Every 6 months, up to 30 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-21T22:34:12.746Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

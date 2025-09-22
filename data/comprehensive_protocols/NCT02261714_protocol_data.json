@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT02261714",
+  "briefTitle": "Antigen-specific Cancer Immunotherapy (TG01) and Gemcitabine as Adjuvant Therapy in Resected Pancreatic Cancer",
+  "officialTitle": "A Phase I/II Trial of TG01 and Gemcitabine as Adjuvant Therapy for Treating Patients With Resected Adenocarcinoma of the Pancreas",
+  "protocolDocument": {
+    "nctId": "NCT02261714",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-06-27",
+    "uploadDate": "2020-04-08T04:46",
+    "size": 1246995,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02261714/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 32,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2012-12",
+    "completionDate": "2019-05",
+    "primaryCompletionDate": "2019-05",
+    "firstSubmitDate": "2014-03-24",
+    "firstPostDate": "2014-10-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Histologically or cytologically confirmed diagnosis of adenocarcinoma of the pancreas\n2. Stage I or II disease (clinical stage T1-3, N0-1, M0 by AJCC staging criteria).\n3. Successful surgical resection\n\n   * Complete resection (R0) or with microscopic residual disease (R1)\n   * Expected to receive gemcitabine monotherapy as adjuvant chemotherapy\n4. Laboratory Values:\n\n   * Absolute neutrophil count ≥ 1.5 x 10\\^9/l\n   * Platelets ≥100 x 10\\^9/l\n   * Haemoglobin ≥ 9 g/dl\n   * Total bilirubin ≤ 1.5 x UNL\n   * Serum creatinine ≤ 1.5 x UNL\n   * Albumin ≥ 2.5 g/dl\n   * AST or ALT ≥ 5 x UNL\n5. 18 years of age or older.\n6. ECOG performance status (PS) of 0-1.\n7. Life expectancy of at least 6 months\n8. Men and women of childbearing potential must be willing to use effective methods of contraception to prevent pregnancy\n9. Provide written (signed) informed consent to participate in the trial prior to any trial specific screening procedures\n\nExclusion Criteria:\n\n1. Has received an investigational drug within 4 weeks prior to Trial drug administration\n2. Has received previous therapy for pancreatic cancer including radiation or chemotherapy (except for the primary resection or primary neoadjuvant chemotherapy).\n3. Is currently receiving any agent with a known effect on the immune system, unless at dose levels that are not immunosuppressive (e.g. Prednisone at 10 mg/day or less or as inhaled steroid at doses used for the treatment of asthma).\n4. Has any other serious illnesses or medical conditions such as, but not limited to:\n\n   * Any uncontrolled infection\n   * Uncontrolled cardiac failure classification III or IV (NY Heart Association)\n   * Uncontrolled systemic and gastro-intestinal inflammatory conditions\n   * Bone marrow dysplasia\n   * History of auto-immune disease\n   * History of adverse reactions to vaccines\n5. Known history of positive tests for HIV/AIDS, hepatitis B or C\n6. Pregnant or lactating females or have no pregnancy test at baseline (postmenopausal women must have been amenorrhoeic for at least 12 months to be considered of non-childbearing potential).\n7. Contraindication to gemcitabine treatment\n8. Have had any other malignancies within last 3 years (except for adequately treated carcinoma of the cervix or basal or squamous cell skin cancer)\n9. Known malignant brain lesion(s)\n10. Are unlikely to start chemotherapy within 12 weeks of surgery (e.g. delayed wound healing, or infection, etc.)\n11. Are not expected to complete 6 cycles of chemotherapy\n12. Are planned to receive yellow fever or other live (attenuated) vaccines during the course of study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Patients' Safety During Study",
+        "description": "Assess the safety (number and nature of Adverse events and laboratory data occurring during study (before, during and after chemotherapy is given) in subjects treated with the Pancreatic Cancer ASCI",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Patients' Immune Response",
+        "description": "Assess the Immune response (DTH responses and Proliferative T-cell responses) up to 2 years of treatment",
+        "timeFrame": "During the 2 years of treatment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Clinical Efficacy",
+        "description": "Efficacy exploring disease free survival and overall survival.",
+        "timeFrame": "DFS was followed for up to 2 years and OS until last patient included had been in the study for 3 years."
+      }
+    ],
+    "other": [
+      {
+        "measure": "Relationship Between (KRAS) Status and Clinical Efficacy",
+        "description": "Relationship between KRAS status and recurrence",
+        "timeFrame": "2 years"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 41,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:48.060Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

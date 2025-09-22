@@ -1,0 +1,106 @@
+{
+  "nctId": "NCT03326583",
+  "briefTitle": "The Effects of Patiromer on Serum Potassium Level and Gut Microbiome of ESRD Patients With Hyperkalemia",
+  "officialTitle": "The Effects of Patiromer on Serum Potassium Level and Gut Microbiome of End Stage Renal Disease Patients With Hyperkalemia",
+  "protocolDocument": {
+    "nctId": "NCT03326583",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-07-25",
+    "uploadDate": "2021-09-08T16:28",
+    "size": 844581,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03326583/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 27,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-11-01",
+    "completionDate": "2020-12-31",
+    "primaryCompletionDate": "2020-12-31",
+    "firstSubmitDate": "2017-10-06",
+    "firstPostDate": "2017-10-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subjects on stable hemodialysis for more than 90 days.\n* Age 18-85 years.\n* Persistent hyperkalemia, defined as elevated serum potassium \\> 5.0 mEq/L in more than 2 occasions during the previous 3 months.\n\nExclusion Criteria:\n\n* Use of pre- or probiotics during the past 2 months\n* Use of antibiotics within the past 2 months, if the patient received a single course of antibiotic.\n* Presence of chronic wound infection and osteomyelitis\n* Inflammatory bowel disease, chronic diarrhea, current C. difficile infection\n* Liver cirrhosis or chronic active hepatitis\n* Treatment with immunosuppressive medications in the past 6 months or more than a week of treatment with prednisone \\> 10 mg in the last 3 months\n* Anticipated kidney transplant within 9 months\n* Expected survival \\< 9 months\n* Pregnancy, anticipated pregnancy, or breastfeeding\n* Incarceration\n* Participation in another intervention study\n* severe anemia defined as hemoglobin \\< 8.0 g/dl any time during the last 2 months",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adverse Events of Participants Taking Patiromer in Lowering Serum Potassium Levels in End Stage Renal Disease (ESRD) Patients With Hyperkalemia Measured by Gastrointestinal Symptom Rating Scale (GSRS)",
+        "description": "The Gastrointestinal Symptom Rating Scale was used to measures any potential side effects due to study medication. Survey was administered at Wk 1, Wk 8, Wk 14, and Wk 20.\n\nFor symptoms (abdomen pain - diarrhea) a score of 0 indicates \"no discomfort\", 1 = \"mild discomfort\", 2=moderate, 3=severe; higher score means a worse outcome\n\nFor stool form, 1=Well formed, 2=Semi formed, 3= Loose, 4= Liquid;higher score means a worse outcome\n\nFor number of stools per day, 1= \\<1, 2=1 or 2, 3=3 or 4, 4=5 or 6,5= 7 or more; higher score means a worse outcome",
+        "timeFrame": "Wk 2 (Pre-Treatment), Wk 14 (Treatment), Wk 20 (Post-Treatment)"
+      },
+      {
+        "measure": "Serum Potassium Level Through 12 Weeks of Treatment",
+        "description": "Blood was collected during Pre-Treatment week 2, Treatment Week 14, and Post-Treatment week 20",
+        "timeFrame": "Wk 2 (Pre-Treatment), Wk 14 (Treatment), Wk 20 (Post-Treatment)"
+      },
+      {
+        "measure": "Changes in Blood Chemistry During the Study",
+        "timeFrame": "Wk 2 (Pre-Treatment), Wk 14 (Treatment), Wk 20 (Post-Treatment)"
+      },
+      {
+        "measure": "Stool Electrolytes During the Study Phases",
+        "timeFrame": "Wk 2 (Pre-Treatment), Wk 14 (Treatment), Wk 20 (Post-Treatment)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Changes in Plasma Metabolites Using p-Cresol of Hyperkalemic ESRD Patients Treated With Patiromer",
+        "description": "Blood and stool samples collected from the ESRD patient will be collected at pre-specified time points and analyzed by untargeted and targeted metabolomics for stool and serum metabolome profiles.",
+        "timeFrame": "Wk 2 (Pre-Treatment), Wk 14 (Treatment), Wk 20 (Post-Treatment)"
+      },
+      {
+        "measure": "Changes in Gut Microbiome of Hyperkalemic ESRD Patients Treated With Patiromer.",
+        "description": "Blood and stool samples collected from the ESRD patient will be collected at pre-specified time points and analyzed by metagenomics for gut microbiome profile.",
+        "timeFrame": "Wk 2 (Pre-Treatment), Wk 14 (Treatment), Wk 20 (Post-treatment)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:08.600Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

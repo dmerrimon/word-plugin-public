@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT04399005",
+  "briefTitle": "The Efficacy Comparing Daily and After-each-case Room Disinfection.",
+  "officialTitle": "The Efficacy Comparing Daily and After-each-case Room Disinfection in the Endoscopy Unit During the COVID-19 Pandemic.",
+  "protocolDocument": {
+    "nctId": "NCT04399005",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-05-21",
+    "uploadDate": "2020-06-23T11:17",
+    "size": 76652,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04399005/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 240,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-25",
+    "completionDate": "2020-06-10",
+    "primaryCompletionDate": "2020-06-05",
+    "firstSubmitDate": "2020-05-19",
+    "firstPostDate": "2020-05-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* All the cases received gastroscopy.\n\nExclusion Criteria:\n\n* High-risk personal through contact history, symptoms, body temperature, COVID-19 virus nucleic acid testing and chest computed tomography (CT) scan.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Qualified rate of room disinfection",
+        "description": "The samples of workstation's mouse, control panel buttons and patient's bed headboard greater than 10 CFU/cm2, samples of endoscopist's gown greater than 200 CFU/suit, and samples of operation unit air greater than 500 CFU/m3 are deemed as an unacceptable level of bioburden.",
+        "timeFrame": "48 hours"
+      },
+      {
+        "measure": "The number of colony-forming units (CFU)",
+        "description": "The number of colony-forming units (CFU) of operation unit air, workstation's mouse, endoscopist's gown, control panel buttons, and patient's bed headboard.",
+        "timeFrame": "48 hours"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:07.064Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

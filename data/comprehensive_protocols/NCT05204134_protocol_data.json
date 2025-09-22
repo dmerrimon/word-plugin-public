@@ -1,0 +1,212 @@
+{
+  "nctId": "NCT05204134",
+  "briefTitle": "Adaptation of Insulin Delivery Settings to Improve Clinical Outcomes With AID Use",
+  "officialTitle": "Adaptation of Insulin Delivery Settings to Improve Clinical Outcomes With AID Use",
+  "protocolDocument": {
+    "nctId": "NCT05204134",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-01",
+    "uploadDate": "2024-01-17T10:13",
+    "size": 1946359,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05204134/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 33,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-03-24",
+    "completionDate": "2022-09-29",
+    "primaryCompletionDate": "2022-09-09",
+    "firstSubmitDate": "2022-01-10",
+    "firstPostDate": "2022-01-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adult subjects ≥ age 18 years\n* Clinical diagnosis of type 1 diabetes for at least one year\n* Using a basal/bolus regimen by injection (MDI therapy)\n* Total daily dose ≥10 units/day\n* Willing to use only aspart (novolog) or lispro (humalog) U-100 insulin with the study pump.\n* A1c ≥ 7.5% and ≤ 11% at screening\n* Not pregnant or planning a pregnancy during the time period of the study.\n* Has current glucagon product to treat severe hypoglycemia (injectable or nasal) at home (will provide prescription if they do not have one)\n* Willingness to follow study procedures and a signed informed consent form\n\nExclusion Criteria:\n\n* Two or more episodes of severe hypoglycemia (needing assistance) in the past 6 months\n* Two or more episodes of diabetic ketoacidosis in the past 6 months\n* Inpatient psychiatric treatment in the past 6 months\n* History of drug abuse (defined as any illicit drug use) or history of alcohol abuse prior to screening or unwillingness to agree to abstain from illicit drugs throughout the study\n* Significant chronic kidney disease or hemodialysis\n* Significant liver disease\n* History of adrenal insufficiency\n* Hypothyroidism or hyperthyroidism that is not appropriately treated\n* Other chronic disease/condition determined by investigator to interfere with participation in the study\n* Use of glucocorticoids, beta blockers or other medications determined by investigator to interfere with study\n* Use of long-acting insulin, inhaled insulin (Afrezza), or use of any non-insulin glucose lowering agents (i.e. SGLT-2 inhibitor) other than Metformin with the study pump\n* Subject is pregnant or lactating or intending to become pregnant before or during participation in this study\n* Investigator judgement that subject would not be able to complete the trial",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Severe Hypoglycemic Events",
+        "description": "Number of Severe Hypoglycemic Events (with altered mental status)",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Diabetic Ketoacidosis Events",
+        "description": "Number of Diabetic Ketoacidosis events as defined by the Diabetes Control and Complications Trial (DCCT)",
+        "timeFrame": "15 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percent Time < 54 mg/dL, Overall",
+        "description": "CGM percent time \\< 54 mg/dL, Overall Study Participation",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent Time < 54 mg/dL, Daytime Outcomes",
+        "description": "CGM percent time \\< 54 mg/dL, Daytime Outcomes between 06:00-00:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent Time < 54 mg/dL, Overnight Outcomes",
+        "description": "CGM percent time \\< 54 mg/dL, Overnight Outcomes between 00:00-06:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent Time < 70 mg/dL, Overall",
+        "description": "CGM percent time \\< 70 mg/dL, Overall Study Participation",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent Time < 70 mg/dL, Daytime Outcomes",
+        "description": "CGM percent time \\< 70 mg/dL, Daytime Outcomes between 06:00-00:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent Time < 70 mg/dL, Overnight Outcomes",
+        "description": "CGM percent time \\< 70 mg/dL, Overnight Outcomes between 00:00-06:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent of Time 70-140 mg/dL, Overall",
+        "description": "CGM percent time 70-140 mg/dL, Overall Study Participation",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent of Time 70-140 mg/dL, Daytime Outcomes",
+        "description": "CGM percent time 70-140 mg/dL, Daytime Outcomes between 06:00-00:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent of Time 70-140 mg/dL, Overnight Outcomes",
+        "description": "CGM percent time 70-140 mg/dL, Overnight Outcomes between 00:00-06:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent of Time 70-180 mg/dL, Overall",
+        "description": "CGM percent time 70-180 mg/dL, Overall Study Participation",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent of Time 70-180 mg/dL, Daytime Outcomes",
+        "description": "CGM percent time 70-180 mg/dL, Daytime Outcomes between 06:00-00:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent of Time 70-180 mg/dL, Overnight Outcomes",
+        "description": "CGM percent time 70-180 mg/dL, Overnight Outcomes between 00:00-06:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent Time > 180 mg/dL, Overall",
+        "description": "CGM percent time \\> 180 mg/dL, Overall Study Participation",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent Time > 180 mg/dL, Daytime Outcomes",
+        "description": "CGM percent time \\> 180 mg/dL, Daytime Outcomes between 06:00-00:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent Time > 180 mg/dL, Overnight Outcomes",
+        "description": "CGM percent time \\> 180 mg/dL, Overnight Outcomes between 00:00-06:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent Time > 250 mg/dL, Overall",
+        "description": "CGM percent time \\> 250 mg/dL, Overall Study Participation",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent Time > 250 mg/dL, Daytime Outcomes",
+        "description": "CGM percent time \\> 250 mg/dL, Daytime Outcomes between 06:00-00:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Percent Time > 250 mg/dL, Overnight Outcomes",
+        "description": "CGM percent time \\> 250 mg/dL, Overnight Outcomes between 00:00-06:00",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Median Sensor Glucose",
+        "description": "CGM-measured median glucose (mg/dL)",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Total Daily Insulin Use",
+        "description": "Total Daily Insulin Use (Units/Day)",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Total Daily Bolus Insulin Use",
+        "description": "Total Daily Bolus Insulin Use (units/day)",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Total Daily Basal Insulin Use",
+        "description": "Total Daily Basal Insulin Use (units/day)",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Physician Overrides/Physician Initiated Changes in Pump Settings",
+        "description": "Number of physician overrides/physician initiated changes in pump settings during the entire study.",
+        "timeFrame": "13 weeks"
+      },
+      {
+        "measure": "Device Impact Score, as Reported on the Diabetes Impact and Satisfaction (DIDS) Scale at Study Completion",
+        "description": "The Diabetes Impact and Satisfaction (DIDS) scale is an 11-item questionnaire focused on satisfaction related to insulin delivery devices (e.g., trust and ease of use) and diabetes- elated impact on daily life, such as worry around hypoglycemia and sleep interruptions. The last 4 questions assess diabetes impact on a scale of 1-10 (1=Never, 10=always), with a lower score means a better outcome. Mean score for overall diabetes impact is reported after 13 weeks using the system with adaptive therapy settings",
+        "timeFrame": "13 weeks"
+      },
+      {
+        "measure": "Device Satisfaction Score, as Reported on the the Diabetes Impact and Satisfaction (DIDS) Scale at Study Completion",
+        "description": "The Diabetes Impact and Satisfaction (DIDS) scale is an 11-item questionnaire focused on satisfaction related to insulin delivery devices (e.g., trust and ease of use) and diabetes- elated impact on daily life, such as worry around hypoglycemia and sleep interruptions. The first 7 questions assess device satisfaction on a scale of 1-10 (1=strongly disagree, 10=strongly agree), with a higher score means a better outcome. Mean score for overall device satisfaction is reported after 13 weeks using the system with adaptive therapy settings",
+        "timeFrame": "13 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 25,
+      "otherCount": 0,
+      "totalCount": 27
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:09.956Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

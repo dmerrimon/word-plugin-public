@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT02586727",
+  "briefTitle": "Role of Intravitreal Aflibercept Injection for the Treatment of Radiation Maculopathy",
+  "officialTitle": "Role of Intravitreal Aflibercept Injection for the Treatment of Radiation Maculopathy",
+  "protocolDocument": {
+    "nctId": "NCT02586727",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-09-15",
+    "uploadDate": "2021-04-07T11:39",
+    "size": 561903,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02586727/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-10",
+    "completionDate": "2020-08",
+    "primaryCompletionDate": "2018-12",
+    "firstSubmitDate": "2015-08-20",
+    "firstPostDate": "2015-10-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* A Patient must meet the following criteria to be eligible for inclusion in the study:\n\n  1. 21 years of age and over\n  2. 20/800 or better visual acuity\n  3. Must have received previous treatment for radiation maculopathy within the last 4-26 weeks\n  4. Any presence of macular edema (evaluated by SD-OCT) caused by radiation retinopathy\n  5. Willing and able to comply with clinic visits and study-related procedures\n  6. Provide signed informed consent\n\nExclusion Criteria:\n\n* A patient who meets any of the following criteria will be excluded from the study:\n\n  1. Patients less than 21 years of age.\n  2. Patients with mental disability or any other condition that precludes the acquisition of an sdOCT image such as (nystagmus, neck disease, etc.)\n  3. Patients who have previously been treated with intravitreal triamcinolone acetonide for macular edema (signs of recalcitrant disease)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean Best Corrected Visual Acuity (BCVA) in Patients Treated With Intravitreal Aflibercept Injections for the Management of Radiation Maculopathy.",
+        "description": "BCVA will be measured with letter optotypes. A lower value indicates a better outcome.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Role of Intravitreal Aflibercept Injection on Central Retinal Thickness for the Treatment of Radiation Maculopathy.",
+        "description": "Central retinal thickness will be evaluated with OCT. A lower value considered a better outcome.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:54.586Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT03060096",
+  "briefTitle": "Stepped-Care Telehealth for Distress in Cancer Survivors",
+  "officialTitle": "Stepped-Care Telehealth for Distress in Cancer Survivors",
+  "protocolDocument": {
+    "nctId": "NCT03060096",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-12-09",
+    "uploadDate": "2023-07-17T10:54",
+    "size": 468827,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03060096/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 68,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-07-19",
+    "completionDate": "2023-12-31",
+    "primaryCompletionDate": "2022-07-29",
+    "firstSubmitDate": "2017-01-31",
+    "firstPostDate": "2017-02-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Score ≥10 on the GAD-7 and/or a score ≥8 on the PHQ-9, indicating clinically significant anxiety or depressive symptoms, respectively.\n* Past history of treated Stage I, II, or III (newly diagnosed or recurrent) breast, colorectal, prostate, gynecologic (to include uterine and cervical) cancers and non-Hodgkin's lymphoma.\n* 6-60 months post-treatment (surgery, chemotherapy, and/or radiation therapy) for cancer. Time frame applies to most recent completion of treatment if participant had a cancer recurrence. It is acceptable to be on maintenance or hormonal therapies.\n* Participant resides in California, Georgia, Illinois, Kansas, Michigan, Minnesota, Missouri, New Mexico, North Carolina, North Dakota, South Carolina, Virginia, Tennessee, or Wisconsin\n* Study-trained therapist in the state where the participant resides.\n* Must be able to speak and understand English.\n* Must have access to a telephone\n\nExclusion Criteria:\n\n* Current psychotherapy \\[regular appointment(s) with a psychologist, counselor, or therapist within the last 30 days prior to randomization\\].\n* Self-reported active alcohol or substance abuse within the last 30 days.\n* Past history of prostate cancer or non-Hodgkin's lymphoma with only active surveillance (i.e., no surgery, chemotherapy, or radiation therapy).\n* Diagnosis of a second malignancy (except for non-melanoma skin cancers) after a previous diagnosis of breast, colorectal, gynecologic cancers and non-Hodgkin's lymphoma\n* Progressive cancer (must be considered no evidence of disease or stable)\n* Self -reported history of a diagnosis of dementia from a healthcare provider.\n* Self -reported psychotic symptoms in the last 30 days prior to randomization\n* Active suicidal ideation (currently reported suicidal plan and intent).\n* Any change in psychotropic medications within the last 30 days.\n* Hearing loss that would preclude participating in telephone sessions (determined by brief hearing assessment administered by research staff)\n* Failure/inability/unwillingness to provide names and contact information for two family members or friends to serve as emergency contacts during the course of the study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Feasibility of Study Intervention Measured by Retention",
+        "description": "Study retention will be estimated by the number of participants who complete the Week 7 and 13 visits",
+        "timeFrame": "Randomization through completion of study at week 13"
+      },
+      {
+        "measure": "Feasibility of Study Intervention Measured by Adherence to Intervention",
+        "description": "Intervention adherence will be estimated as the mean proportion of therapy (high-intensity intervention) or check-in (low-intensity intervention) sessions each participant completes.",
+        "timeFrame": "Randomization through completion of study at week 13"
+      },
+      {
+        "measure": "Feasibility of Study Intervention Measured by Recruitment Rate",
+        "description": "Recruitment rate will be determined by the number of eligible participants who met all eligibility criteria and percent who agreed to participate.",
+        "timeFrame": "Screening through end of study at week 13"
+      },
+      {
+        "measure": "Feasibility of Study Intervention Measured by Accrual Rate",
+        "description": "The accrual rate is determined by dividing the overall number of participants recruited in each arm by the total span of 38 months between the start of the first screening for enrollment and the time the study closed to accrual.",
+        "timeFrame": "Start of study screening time to end of study accrual"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Longitudinal Changes in the Generalized Anxiety Disorder (GAD)-7 Score for Anxiety From Baseline to 13 Weeks",
+        "description": "The Generalized Anxiety Disorder (GAD) -7 is a self-report measure of Diagnostic and Statistical Manual of Mental Disorders (DSM-IV) symptoms of Generalized Anxiety Disorder (GAD). Longitudinal changes in the GAD-7 will be measured in participants to evaluate the effectiveness of the intervention in reducing anxiety. Patients select 1 of 4 numbers with \"0\" indicating not all, to \"3\" indicating nearly everyday. The first 7 questions are summed to create a total score ranging from 0 to 21. Higher scores reflect greater anxiety severity. Scores above 10 are considered to be in the clinical range. GAD-7 scores of 5, 10, 15, and 20 represented mild, moderate, moderately severe, and severe anxiety, respectively.",
+        "timeFrame": "Screening or baseline (if >30 days since screening), Week 13"
+      },
+      {
+        "measure": "Longitudinal Changes in the Patient Health Questionnaire (PHQ-9) Score for Depression From Baseline to 13 Weeks",
+        "description": "The PHQ-9 is a self-report measure of DSM-IV symptoms of Major Depressive Disorder where participants rate how often they experienced 9 symptoms over past 2 weeks. Patients select 1 of 4 numbers with \"0\" indicating not all, to \"3\" indicating nearly everyday. Longitudinal changes in the PHQ-9 will be measured in participants to evaluate the effectiveness of the intervention in reducing depression. The possible range is 0-27. A larger score represents more severe depression level.",
+        "timeFrame": "Screening or baseline (if >30 days since screening), Week 13"
+      },
+      {
+        "measure": "Number of Participants With Moderate of Severe Depression (PHQ-9) or Anxiety (GAD-7) at 13 Weeks",
+        "description": "A combined variable will be created that indicates if a participant had moderate/severe depression or anxiety at mid- or post-intervention. This is defined as either PHQ-9 or GAD-7 greater than or equal to 15.",
+        "timeFrame": "Week 13"
+      },
+      {
+        "measure": "Longitudinal Changes in the Insomnia Severity Index (ISI) From Baseline to 13 Weeks.",
+        "description": "Measure Description: The Insomnia Severity Index (ISI) is 7-item self-report measure of type and severity of insomnia symptoms, including problems with sleep onset, sleep maintenance, or early morning awakening; satisfaction with current sleep pattern; interference with daily functioning; noticing impairment attributed to sleep problems; and level of concern or distress caused by the sleep problem. Each of the seven items is scored on a 5-point scale, ranging from 0 (lowest) to 4 (highest). The sum of the scores for all seven items yields a total score, which falls within a range of 0 to 28. A higher score indicates a greater level of sleep impairment.",
+        "timeFrame": "Baseline (Week 0), Week 13"
+      },
+      {
+        "measure": "Longitudinal Changes in the PROMIS Fatigue Scale From Baseline to 13 Weeks",
+        "description": "The Patient Reported Outcomes Measurement Information System (PROMIS) Fatigue Short Form 8a is a measure of the experience of fatigue and the impact of fatigue on activities across multiple domains. There are eight items rated on a scale of 1(never) to 5 (always) based on how often fatigue was experienced over the last 7 days. The sum of these eight items ranges from a minimum of 8 to a maximum of 40, with higher scores representing more fatigue. This total score is then converted into a t-score based on the PROMIS 8a adult conversion table. The smallest t score is 33.1 and the largest t score is 77.8. A higher t score indicates greater fatigue.",
+        "timeFrame": "Baseline (Week 0), Week 13"
+      },
+      {
+        "measure": "Longitudinal Changes in the Fear of Recurrence Inventory Severity Subscale From Baseline to 13 Weeks",
+        "description": "The Fear of Cancer Recurrence Inventory (FCRI; severity subscale) will be used to measure self-reported fear of recurrence. This 9-item subscale measures the presence and severity of the intrusive thoughts or images associated with the fear of cancer recurrence. Range is 0 to 36 with higher values representing higher fear of recurrence.",
+        "timeFrame": "Baseline (Week 0), Week 13"
+      },
+      {
+        "measure": "Longitudinal Changes in the Health Status Questionnaire (SF-36) From Baseline to 13 Weeks",
+        "description": "The Health Status Questionnaire (SF-36) functions as a self-reporting tool designed to evaluate an individual's quality of life. It consists of 36 items and is organized into eight subscales. Each subscale score is then translated into a linear scale that spans from 0 to 100. A higher score means enhanced quality of life. Additionally, the questionnaire incorporates two domains as mental health component and physical health component. These domains are the results of linear aggregation from the 8 subscales and transforming into T score metric. In these metrics, the t score has a mean of 50 and a standard deviation of 10 based on the characteristics of U.S. general population for both mental and physical health sub scores. A higher T-score corresponds to a higher quality of life for that subscale.",
+        "timeFrame": "Baseline (Week 0), Week 13"
+      },
+      {
+        "measure": "Longitudinal Changes in the Impact of Events Scale-Revised (IES-R) From Baseline to 13 Weeks",
+        "description": "The Impact of Events Scale - Revised (IES-R) is a 22-item self-report measure of cancer related distress. The IES-R assesses the frequency with which respondents experience intrusive thoughts, avoidant behaviors, and autonomic arousal specific to one's thoughts and feelings about cancer over the past week. Each item is rated on a 5-point scale ranging from 0(\"not at all\") to 4(\"extremely\"). The higher grade indicates greater stress. IES- R total score is the sum of the means of the three subscale scores. IES- R total score ranges from 0 to 12. The higher scores indicate higher cancer distress.",
+        "timeFrame": "Baseline (Week 0), Week 13"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:19.952Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

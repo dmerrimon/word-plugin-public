@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT05089682",
+  "briefTitle": "Manipulating and Optimizing Brain Rhythms for Enhancement of Sleep",
+  "officialTitle": "Morpheus - Manipulating and Optimizing Brain Rhythms for Enhancement of Sleep",
+  "protocolDocument": {
+    "nctId": "NCT05089682",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-01-27",
+    "uploadDate": "2023-09-27T11:43",
+    "size": 12539556,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05089682/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 4,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-06-22",
+    "completionDate": "2021-12-18",
+    "primaryCompletionDate": "2021-12-18",
+    "firstSubmitDate": "2021-08-16",
+    "firstPostDate": "2021-10-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* DBS in one of the defined nuclei of interest during the period of the study\n* Be willing and able to give written and oral informed consent\n* Ability to complete all required study procedures including travelling to Mayo Clinic and staying overnight\n* All women of childbearing potential and women who have been amenorrheic for less than 1 year must practice effective contraception during the study. This includes a barrier method such as condom or diaphragm with spermicide; barrier intrauterine device (IUD) or abstinence.\n\nExclusion Criteria:\n\n* Cognitive impairment (judged by the clinician taking consent as not having sufficient mental capacity to understand the study and its requirements). This is including anyone who, in the opinion of the clinician taking consent is unlikely to retain sufficient mental capacity for the duration of their involvement in the study.\n* Patients with any other medical condition that would interfere with study conduct or make it unsafe for them to participate\n* Pregnancy test positive.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Participants to Complete Study",
+        "description": "Total number of participants to complete all scheduled study activities",
+        "timeFrame": "Through study completion, approximately 1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Total Sleep Time",
+        "description": "Length of sleep time reported in minutes",
+        "timeFrame": "Baseline, post-intervention (approximately 1 night)"
+      },
+      {
+        "measure": "Psychomotor Vigilance Test",
+        "description": "Measures reaction time (milliseconds) by asking subjects to press a button on an electronic device as soon as a light appears (every few seconds for 10 minutes).",
+        "timeFrame": "Baseline, post-intervention (approximately 1 night)"
+      },
+      {
+        "measure": "Karolinska Sleepiness Scale",
+        "description": "Measures subjective level of tiredness at a particular time during the day using a 9-point scoring scale of 1 = extremely alert, 3 = alert, 5 = neither alert nor sleepy, 7 = sleepy - but no difficulty remaining awake, and 9 = extremely sleepy - fighting sleep.",
+        "timeFrame": "Baseline, post-intervention (approximately 1 night)"
+      },
+      {
+        "measure": "Latency to Sleep Onset",
+        "description": "Time in minutes from beginning of study to the first stage of sleep",
+        "timeFrame": "Baseline, post-intervention (approximately 1 night)"
+      },
+      {
+        "measure": "Latency to Rapid Eye Movement (REM) Sleep",
+        "description": "Time in minutes from beginning of sleep to first REM sleep onset.",
+        "timeFrame": "Baseline, post-intervention (approximately 1 night)"
+      },
+      {
+        "measure": "Number of Sleep Cycles",
+        "description": "Total number of sleep cycles defined as switches of non-rapid eye movement (NREM) and rapid eye movement (REM) sleep.",
+        "timeFrame": "Baseline, post-intervention (approximately 1 night)"
+      },
+      {
+        "measure": "Number of Awakenings Per Night",
+        "description": "Total number of awakenings during night",
+        "timeFrame": "Baseline, post-intervention (approximately 1 night)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:48.312Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,228 @@
+{
+  "nctId": "NCT03974100",
+  "briefTitle": "Study Investigating PK, PD, Efficacy, Safety, and Immunogenicity of Biosimilar Denosumab (GP2411) in Patients With Postmenopausal Osteoporosis",
+  "officialTitle": "A Randomized, Double-blind, Multicenter Integrated Phase I/III Study in Postmenopausal Women With Osteoporosis to Compare the Pharmacokinetics, Pharmacodynamics, Efficacy, Safety and Immunogenicity of GP2411 (Proposed Biosimilar Denosumab) and Prolia® (EU-authorized)",
+  "protocolDocument": {
+    "nctId": "NCT03974100",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-10-30",
+    "uploadDate": "2023-02-07T03:38",
+    "size": 1573134,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03974100/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 527,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-07-02",
+    "completionDate": "2022-04-22",
+    "primaryCompletionDate": "2022-04-22",
+    "firstSubmitDate": "2019-06-03",
+    "firstPostDate": "2019-06-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Postmenopausal women, diagnosed with osteoporosis\n* Aged ≥ 55 and ≤ 80 years at screening\n* Body weight ≥ 50 kg and ≤ 90 kg at screening\n* Absolute bone mineral density consistent with T-score ≤ -2.5 and ≥ -4.0 at the lumbar spine as measured by DXA\n* At least two vertebrae in the L1-L4 region and at least one hip joint are evaluable by DXA\n\nExclusion Criteria:\n\n* Previous exposure to denosumab (Prolia, Xgeva, or biosimilar denosumab)\n* History and/or presence of one severe or more than two moderate vertebral fractures or hip fracture\n* History and/or presence of bone metastases, bone disease or metabolic disease\n* Ongoing use of any osteoporosis treatment or use of prohibited treatment\n* Other bone active drugs\n* History and/or current hypoparathyroidism or hyperparathyroidism, hypocalcemia or hypercalcemia",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "55 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percent Change From Baseline in Lumbar Spine Bone Mineral Density (LS-BMD) at Week 52 - Per-Protocol Set",
+        "description": "Bone density measurements were performed by dual energy X-ray absorptiometry (DXA). Lumbar spine scan included L1 through L4 vertebrae. All DXA scans were submitted to a central imaging vendor for analysis. A mixed effect model for repeated measurements (MMRM) was fitted to the changes from baseline in LS-BMD for all post-baseline time points up to Week 52. Values at Week 52 were estimated from the model and are presented in the table.",
+        "timeFrame": "Baseline (screening), up to Week 52"
+      },
+      {
+        "measure": "Percent Change From Baseline in Lumbar Spine Bone Mineral Density (LS-BMD) at Week 52 - TP1 Full Analysis Set",
+        "description": "Bone density measurements were performed by DXA. Lumbar spine scan included L1 through L4 vertebrae. All DXA scans were submitted to a central imaging vendor for analysis. A MMRM was fitted to the changes from baseline in LS-BMD for all post-baseline time points up to Week 52. Missing values were assumed to be missing at random (MAR) using the MMRM model. Values at Week 52 were estimated from the model and are presented in the table.",
+        "timeFrame": "Baseline (screening), up to Week 52"
+      },
+      {
+        "measure": "Area Under the Effect-time Curve (AUEC) of Percentage Change From Baseline in Serum CTX Concentrations After First Dose - Pharmacodynamic Analysis Set",
+        "description": "Carboxy-terminal crosslinked telopeptides of type I collagen (CTX) is a bone resorption biomarker. Serum CTX concentration-time data were analyzed by non-compartmental methods. The AUEC of baseline corrected serum CTX concentrations (% change from baseline) was calculated using the linear trapezoidal method. Values below the lower limit of quantification (LLOQ) were imputed with the actual value for the LLOQ.",
+        "timeFrame": "Baseline (pre-dose Day 1), up to Week 26"
+      },
+      {
+        "measure": "Maximum Observed Serum Concentration (Cmax) of Denosumab After First Dose",
+        "description": "Serum denosumab concentration-time data were analyzed by non-compartmental methods. Missing denosumab serum concentrations or concentrations below the LLOQ were not imputed and handled as missing values, except for the pre-dose sample which were treated as zero.",
+        "timeFrame": "Baseline (pre-dose Day 1), up to Week 26"
+      },
+      {
+        "measure": "Area Under the Serum Concentration-time Curve From Time Zero to Infinity (AUCinf) of Denosumab After First Dose",
+        "description": "Serum denosumab concentration-time data were analyzed by non-compartmental methods. Missing denosumab serum concentrations or concentrations below the LLOQ were not imputed and handled as missing values, except for the pre-dose sample which were treated as zero. The linear-up log-down trapezoidal method was used for the AUCinf calculation.",
+        "timeFrame": "Baseline (pre-dose Day 1), up to Week 26"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percent Change From Baseline in Lumbar Spine Bone Mineral Density (LS-BMD) at Week 26 - Treatment Period 1 (Per-Protocol Set)",
+        "description": "Bone density measurements were performed by DXA. Lumbar spine scan included L1 through L4 vertebrae. All DXA scans were submitted to a central imaging vendor for analysis.",
+        "timeFrame": "Baseline (screening), Week 26"
+      },
+      {
+        "measure": "Percent Change From Baseline in Lumbar Spine Bone Mineral Density (LS-BMD) at Week 26 - Treatment Period 1 (TP1 Full Analysis Set)",
+        "description": "Bone density measurements were performed by DXA. Lumbar spine scan included L1 through L4 vertebrae. All DXA scans were submitted to a central imaging vendor for analysis.",
+        "timeFrame": "Baseline (screening), Week 26"
+      },
+      {
+        "measure": "Percent Change From Baseline in Lumbar Spine Bone Mineral Density (LS-BMD) at Week 78 - Treatment Period 2 (TP2 Full Analysis Set)",
+        "description": "Bone density measurement were performed by DXA. Lumbar spine scan included L1 through L4 vertebrae. All DXA scans were submitted to a central imaging vendor for analysis.",
+        "timeFrame": "Baseline (screening), Week 78"
+      },
+      {
+        "measure": "Percent Change From Baseline in Femoral Neck Bone Mineral Density (FN-BMD) at Week 26 and Week 52 - Treatment Period 1 (Per-Protocol Set)",
+        "description": "Bone density measurements were performed by DXA. For proximal femur, the left side was to be used for all DXA scans at all study visits. If the right side had to be used (e.g., due to implants) or was inadvertently used at baseline, then it was to be used consistently throughout the study. All DXA scans were submitted to a central imaging vendor for analysis.",
+        "timeFrame": "Baseline (screening), Week 26 and Week 52"
+      },
+      {
+        "measure": "Percent Change From Baseline in Femoral Neck Bone Mineral Density (FN-BMD) at Week 26 and Week 52 - Treatment Period 1 (TP1 Full Analysis Set)",
+        "description": "Bone density measurements were performed by DXA. For proximal femur, the left side was to be used for all DXA scans at all study visits. If the right side had to be used (e.g., due to implants) or was inadvertently used at baseline, then it was to be used consistently throughout the study. All DXA scans were submitted to a central imaging vendor for analysis.",
+        "timeFrame": "Baseline (screening), Week 26 and Week 52"
+      },
+      {
+        "measure": "Percent Change From Baseline in Femoral Neck Bone Mineral Density (FN-BMD) at Week 78 - Treatment Period 2 (TP2 Full Analysis Set)",
+        "description": "Bone density measurements were performed by DXA. For proximal femur, the left side was to be used for all DXA scans at all study visits. If the right side had to be used (e.g., due to implants) or was inadvertently used at baseline, then it was to be used consistently throughout the study. All DXA scans were submitted to a central imaging vendor for analysis.",
+        "timeFrame": "Baseline (screening), Week 78"
+      },
+      {
+        "measure": "Percent Change From Baseline in Total Hip Bone Mineral Density (TH-BMD) at Week 26 and Week 52 - Treatment Period 1 (Per-Protocol Set)",
+        "description": "Bone density measurements were performed by DXA. For total hip, the left side was to be used for all DXA scans at all study visits. If the right side had to be used (e.g., due to implants) or was inadvertently used at baseline, then it was to be used consistently throughout the study. All DXA scans were submitted to a central imaging vendor for analysis.",
+        "timeFrame": "Baseline (screening), Week 26 and Week 52"
+      },
+      {
+        "measure": "Percent Change From Baseline in Total Hip Bone Mineral Density (TH-BMD) at Week 26 and Week 52 - Treatment Period 1 (TP1 Full Analysis Set)",
+        "description": "Bone density measurements were performed by DXA. For total hip, the left side was to be used for all DXA scans at all study visits. If the right side had to be used (e.g., due to implants) or was inadvertently used at baseline, then it was to be used consistently throughout the study. All DXA scans were submitted to a central imaging vendor for analysis.",
+        "timeFrame": "Baseline (screening), Week 26 and Week 52"
+      },
+      {
+        "measure": "Percent Change From Baseline in Total Hip Bone Mineral Density (TH-BMD) at Week 78 - Treatment Period 2 (TP2 Full Analysis Set)",
+        "description": "Bone density measurements were performed by DXA. For total hip, the left side was to be used for all DXA scans at all study visits. If the right side had to be used (e.g., due to implants) or was inadvertently used at baseline, then it was to be used consistently throughout the study.",
+        "timeFrame": "Baseline (screening), Week 78"
+      },
+      {
+        "measure": "CTX Serum Concentrations as Per Visit Schedule up to Week 52 - Treatment Period 1",
+        "description": "CTX is a bone resorption biomarker. Serum samples were analyzed for CTX concentrations. CTX serum concentrations were determined by a validated ligand-binding immunoassay. Values below the LLOQ were imputed with the actual value for the LLOQ.",
+        "timeFrame": "Baseline (pre-dose Day 1), Day 2, Day 4, Week 8, Week 18, Week 22, Week 26, Week 39 and Week 52"
+      },
+      {
+        "measure": "CTX Serum Concentrations as Per Visit Schedule From Week 52 up to Week 78 - Treatment Period 2",
+        "description": "CTX is a bone resorption biomarker. Serum samples were analyzed for CTX concentrations. CTX serum concentrations were determined by a validated ligand-binding immunoassay. Values below the LLOQ were imputed with the actual value for the LLOQ.",
+        "timeFrame": "Week 56, Week 65 and Week 78"
+      },
+      {
+        "measure": "PINP Serum Concentrations as Per Visit Schedule up to Week 52 - Treatment Period 1",
+        "description": "Procollagen I N-terminal propeptide (PINP) is a bone formation biomarker. Serum samples were analyzed for PINP concentrations. PINP serum concentrations were determined by a validated ligand-binding immunoassay. Values below the LLOQ were imputed with the actual value for the LLOQ.",
+        "timeFrame": "Baseline (pre-dose Day 1), Day 2, Day 4, Week 8, Week 18, Week 22, Week 26, Week 39 and Week 52"
+      },
+      {
+        "measure": "PINP Serum Concentrations as Per Visit Schedule From Week 52 up to Week 78 - Treatment Period 2",
+        "description": "PINP is a bone formation biomarker. Serum samples were analyzed for PINP concentrations. PINP serum concentrations were determined by a validated ligand-binding immunoassay. Values below the LLOQ were imputed with the actual value for the LLOQ.",
+        "timeFrame": "Week 56, Week 65 and Week 78"
+      },
+      {
+        "measure": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious TEAEs up to Week 52 - Treatment Period 1",
+        "description": "Number of participants with TEAEs and serious TEAEs, including changes from baseline in vital signs, electrocardiograms and laboratory results qualifying and reported as AEs during Treatment Period 1.\n\nThe number of participants in each category is reported in the table.",
+        "timeFrame": "From first dose of study treatment on Day 1 up to pre-dose at Week 52"
+      },
+      {
+        "measure": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious TEAEs From Week 52 up to Week 78 - Treatment Period 2",
+        "description": "Number of participants with TEAEs and serious TEAEs, including changes from baseline in vital signs, electrocardiograms and laboratory results qualifying and reported as AEs during Treatment Period 2.\n\nThe number of participants in each category is reported in the table.",
+        "timeFrame": "From dosing of study treatment at Week 52 up to Week 78"
+      },
+      {
+        "measure": "Number of Participants With Vertebral Fractures up to Week 52 - Treatment Period 1",
+        "description": "Vertebral fractures were assessed by independent radiologists at the central imaging vendor. The radiologists assessed lateral thoracic (vertebrae T4 to T12) and lumbar (vertebrae L1 to L4) spine radiographs for vertebral fractures. New and worsening vertebral fractures are defined as occurrence of new fracture (i.e. change in Genant score from 0 at baseline to 1 or higher at a later time point) or worsening fracture (i.e. increase in Genant score from baseline at a later time point) in any assessed vertebra. The Genant classification of vertebral fractures is based on the vertebral shape, with respect to vertebral height loss involving the anterior, posterior, and/or middle vertebral body and ranges between 0 (normal) and 3 (severe fracture, \\>40% loss of height).\n\nThe number of participants in each category is reported in the table.",
+        "timeFrame": "Baseline (screening) and Week 52"
+      },
+      {
+        "measure": "Number of Participants With Vertebral Fractures From Week 52 up to Week 78 - Treatment Period 2",
+        "description": "Vertebral fractures were assessed by independent radiologists at the central imaging vendor. The radiologists assessed lateral thoracic (vertebrae T4 to T12) and lumbar (vertebrae L1 to L4) spine radiographs for vertebral fractures. New and worsening vertebral fractures are defined as occurrence of new fracture (i.e. change in Genant score from 0 at Week 52 to 1 or higher at a later time point) or worsening fracture (i.e. increase in Genant score from Week 52 at a later time point) in any assessed vertebra. The Genant classification of vertebral fractures is based on the vertebral shape, with respect to vertebral height loss involving the anterior, posterior, and/or middle vertebral body and ranges between 0 (normal) and 3 (severe fracture, \\>40% loss of height).\n\nThe number of participants in each category is reported in the table.",
+        "timeFrame": "Week 52 and Week 78"
+      },
+      {
+        "measure": "Number of Participants With Nonvertebral Fractures up to Week 52 - Treatment Period 1",
+        "description": "Information about any nonvertebral fractures while on study were recorded as adverse events. The diagnosis of nonvertebral fractures did not require central X-ray reading and was based on local radiology reports.\n\nThe number of participants in each category is reported in the table.",
+        "timeFrame": "From first dose of study treatment on Day 1 up to pre-dose at Week 52"
+      },
+      {
+        "measure": "Number of Participants With Nonvertebral Fractures From Week 52 up to Week 78 - Treatment Period 2",
+        "description": "Information about any nonvertebral fractures while on study were recorded as adverse events. The diagnosis of nonvertebral fractures did not require central X-ray reading and was based on local radiology reports.\n\nThe number of participants in each category is reported in the table.",
+        "timeFrame": "From dosing of study treatment at Week 52 up to Week 78"
+      },
+      {
+        "measure": "Number of Participants With Injection Site Reactions (ISRs) up to Week 52 - Treatment Period 1",
+        "description": "The injection site reaction (ISR) assessment was done by the investigator/designee. It consisted of grading the severity of each injection reaction based on criteria the Common Terminology Criteria for Adverse Events (CTCAE) version 5.0. The ISR grading was defined as follows:\n\n* Grade 1: Tenderness with or without associated symptoms (e.g., warmth, erythema, itching)\n* Grade 2: Pain; lipodystrophy; edema; phlebitis\n* Grade 3: Ulceration or necrosis; severe tissue damage; operative intervention indicated\n* Grade 4: Life-threatening consequences; urgent intervention indicated The number of participants in each category is reported in the table.",
+        "timeFrame": "From first dose of study treatment on Day 1 up to pre-dose at Week 52"
+      },
+      {
+        "measure": "Number of Participants With Injection Site Reactions (ISRs) From Week 52 up to Week 78 - Treatment Period 2",
+        "description": "The injection site reaction (ISR) assessment was done by the investigator/designee. It consisted of grading the severity of each injection reaction based on criteria the Common Terminology Criteria for Adverse Events (CTCAE) version 5.0. The ISR grading was defined as follows:\n\n* Grade 1: Tenderness with or without associated symptoms (e.g., warmth, erythema, itching)\n* Grade 2: Pain; lipodystrophy; edema; phlebitis\n* Grade 3: Ulceration or necrosis; severe tissue damage; operative intervention indicated\n* Grade 4: Life-threatening consequences; urgent intervention indicated The number of participants in each category is reported in the table.",
+        "timeFrame": "From dosing of study treatment at Week 52 up to Week 78"
+      },
+      {
+        "measure": "Number of Participants With Anti-drug Antibodies (ADA) up to Week 52 - Treatment Period 1",
+        "description": "Immunogenicity was evaluated in serum. Samples were screened for potential anti-drug antibodies (ADA) and positive screen results were confirmed using a confirmatory assay. For confirmed ADA positive samples, titers were determined. Confirmed ADAs were also analyzed for their neutralization potential. Patient ADA status was defined as follows:\n\n* ADA Positive: ADA-positive sample at any time point during TP1\n* ADA Positive, Persistent: 'Persistent' indicates a subject experiencing a positive ADA result at the final visit and with at least 2 consecutive positive ADA results\n* ADA Positive, Transient: 'Transient' indicates a subject experiencing positive ADA result but not qualifying as 'Persistent'\n* ADA titer positive: ADA-positive sample with a titer result ≥ 20 ng/mL\n* NAb Positive: ADA-positive sample with presence of neutralizing antibodies (NAb) The number of participants in each category is reported in the table.",
+        "timeFrame": "From Week 2 up to Week 52"
+      },
+      {
+        "measure": "Number of Participants With Anti-drug Antibodies (ADA) From Week 52 up to Week 78 - Treatment Period 2",
+        "description": "Immunogenicity was evaluated in serum. Samples were screened for potential anti-drug antibodies (ADA) and positive screen results were confirmed using a confirmatory assay. For confirmed ADA positive samples, titers were determined. Confirmed ADAs were also analyzed for their neutralization potential. Patient ADA status was defined as follows:\n\n* ADA Positive: ADA-positive sample at any time point during TP1\n* ADA Positive, Persistent: 'Persistent' indicates a subject experiencing a positive ADA result at the final visit and with at least 2 consecutive positive ADA results\n* ADA Positive, Transient: 'Transient' indicates a subject experiencing positive ADA result but not qualifying as 'Persistent'\n* ADA titer positive: ADA-positive sample with a titer result ≥ 20 ng/mL\n* NAb Positive: ADA-positive sample with presence of neutralizing antibodies (NAb) The number of participants in each category is reported in the table.",
+        "timeFrame": "From Week 56 up to Week 78"
+      },
+      {
+        "measure": "Denosumab Serum Concentrations as Per Visit Schedule up to Week 52 - Treatment Period 1",
+        "description": "Serum samples were analyzed for concentrations of free denosumab by using a validated ligand binding assay. Briefly, the concentration of free denosumab was determined by binding to coated ligand molecules.\n\nDenosumab concentrations below the LLOQ were set to zero in order to calculate arithmetic means.",
+        "timeFrame": "Baseline (pre-dose Day 1), Day 4, Week 1, Week 2, Week 8, Week 14, Week 18, Week 22, Week 26, Week 39 and Week 52"
+      },
+      {
+        "measure": "Denosumab Serum Concentrations as Per Visit Schedule From Week 52 up to Week 78 - Treatment Period 2",
+        "description": "Serum samples were analyzed for concentrations of free denosumab by using a validated ligand binding assay. Briefly, the concentration of free denosumab was determined by binding to coated ligand molecules.\n\nDenosumab concentrations below the LLOQ were set to zero in order to calculate arithmetic means.",
+        "timeFrame": "Week 56, Week 65 and Week 78"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 25,
+      "otherCount": 0,
+      "totalCount": 30
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:04.018Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,74 @@
+{
+  "nctId": "NCT05635266",
+  "briefTitle": "Tissue Repository Providing Annotated Biospecimens for Approved Investigator-directed Biomedical Research Initiatives",
+  "officialTitle": "A Single-Site Tissue Repository Providing Annotated Biospecimens for Approved Investigator-directed Biomedical Research Initiatives",
+  "protocolDocument": {
+    "nctId": "NCT05635266",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-12-31",
+    "uploadDate": "2024-05-03T12:14",
+    "size": 1041545,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05635266/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 20000,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2021-10-26",
+    "completionDate": "2025-10",
+    "primaryCompletionDate": "2025-10",
+    "firstSubmitDate": "2022-11-22",
+    "firstPostDate": "2022-12-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Persons 18 to 85 years of age at the date of informed consent.\n* If presenting with a history of a specific condition, the diagnosis is confirmable in the medical record or may be confirmed using other forms of verification including self-reporting.\n* Understands the procedures and requirements of the study by providing written informed consent (or verbal assent if a legally authorized representative will sign the ICF), including consent for authorization for protected health information disclosure.\n\nExclusion Criteria:\n\n* Persons younger than 18 years of age or older than 85 years of age at the date of informed consent.\n* Receipt of blood products 30 days before the study blood draw.\n* Receipt of an investigational (unapproved) drug 30 days before the study blood draw.\n* A confirmable diagnosis of any medical condition that would increase potential phlebotomy risks.\n* Has donated a unit of blood within the last 2 months at the date of informed consent.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Biospecimen & Clinical Data Collection",
+        "description": "To collect enough biospecimens and associated clinical data to allow researchers to come to statistically relevant scientific results",
+        "timeFrame": "10 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:49.344Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

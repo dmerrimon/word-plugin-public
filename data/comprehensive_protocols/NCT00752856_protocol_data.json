@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT00752856",
+  "briefTitle": "Raltegravir + Lopinavir/Ritonavir Versus Efavirenz + Tenofovir + Emtricitabine in Treatment Naive Patients",
+  "officialTitle": "Nucleoside-Sparing Combination Therapy With Lopinavir/Ritonavir (LPV/r) + Raltegravir (RAL) vs. Efavirenz (EFV) + Tenofovir Disoproxil Fumarate + Emtricitabine (TDF/FTC) in Antiretroviral-Naïve Patients",
+  "protocolDocument": {
+    "nctId": "NCT00752856",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2008-06-06",
+    "uploadDate": "2020-06-22T02:50",
+    "size": 483428,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00752856/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 51,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2008-08-26",
+    "completionDate": "2014-02-11",
+    "primaryCompletionDate": "2011-05-05",
+    "firstSubmitDate": "2008-09-13",
+    "firstPostDate": "2008-09-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Documented HIV-1 infection.\n* Treatment naïve (defined as having never received any HIV antiretroviral agents in past).\n* CD4+ T-cell count greater than or equal to 50 cells/mm3\n* HIV viral load greater than or equal to 5,000 copies/mL\n* Laboratory values obtained by screening laboratories within 30 days of entry:\n\n  * Absolute neutrophil count (ANC) greater than 750/mm3.\n  * Hemoglobin greater than 8.0 g/dL.\n  * Platelet count greater than 50,000/mm3.\n  * Calculated creatinine clearance (CrCl) \\> 60 mL/min as estimated by the Cockcroft-Gault equation:\n\n    * For men, (140 - age in years) x (body weight in kg) ÷ (serum creatinine in mg/dL x 72) = CrCl (mL/min)\n    * For women, multiply the result by 0.85 = CrCl (mL/min)\n  * AST (SGOT), ALT (SGPT), and alkaline phosphatase less than 5 x ULN.\n  * Total bilirubin less than 2.5 x ULN.\n* Females of childbearing potential must have a negative serum pregnancy test at screening and agree to use a double-barrier method of contraception throughout the study period.\n* Men and women age greater than or equal to 18 years.\n* Ability to obtain prescription for HIV antiretroviral medications and to have required prescriptions filled prior to entry.\n* Ability and willingness of subject to give written informed consent\n\nExclusion Criteria:\n\n* Pregnancy or breast-feeding\n* Serious illness requiring systemic treatment and/or hospitalization until subject either completes therapy or is clinically stable on therapy, in the opinion of the investigator, for at least 30 days prior to study entry (day 0).\n* Acute therapy for serious infection or other serious medical illnesses (in the judgment of the site investigator) requiring systemic treatment and/or hospitalization within 14 days prior to study entry (day 0).\n* Evidence of HIV seroconversion within 6 months prior to study entry.\n* Evidence of any major HIV drug resistance-associated mutation on any genotype performed prior to study entry or at the time of screening.\n* History of chronic hepatitis C (defined as HCV antibody positive and HCV RNA detectable).\n* History of chronic active hepatitis B (defined as surface antigen positive and/or HBV DNA detectable).\n* Active drug or alcohol use or dependence that, in the opinion of the investigator, would interfere with adherence to study requirements.\n* Use of any immunomodulator, HIV vaccine, or investigational therapy within 30 days of study entry.\n* Use of human growth hormone within 30 days prior to study entry.\n* Initiation of testosterone or anabolic steroids within 30 days prior to study entry. (Exception: Chronic replacement dosages in patient's with diagnosed hypogonadism is allowed).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "To Compare the Phase 1 Viral Decay Rates Between LPV/r + RAL vs. EFV/TDF/FTC Treatment Combinations.",
+        "description": "Repeated HIV RNA measured at different time points (baseline, days 2, 7, 10, 14) will be treated as the outcome variable in a linear mixed-effects model. The primary fixed effects will include time, treatment group, treatment group-by-time interaction; random effects will include both intercept and slope allowing each subject to have individual baseline viral load and viral decay (rate of decrease in viral load following initiation of antiretroviral therapy). The treatment group-by- time interaction term in the model will indicate the difference in viral decay rates between the two treatment groups. Baseline covariate adjustment will be included if necessary.",
+        "timeFrame": "Baseline, days 2, 7, 10, 14"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Viral Suppression Efficacy at 48 Weeks",
+        "description": "To determine the antiviral efficacy of LPV/r + RAL compared to EFV/TDF/FTC after 48 weeks of treatment by achieving undetectable viral load",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Compare Early Activated CD4+ T-cell Recovery Rates From Baseline to Week 4.",
+        "description": "To compare early (baseline to Week 4) activated CD4+ T-cell recovery rates between treatment regimens.",
+        "timeFrame": "Baseline to Week 4"
+      },
+      {
+        "measure": "Compare Late Activated CD4+ T-cell Recovery Rates Between Treatment Regimens From Baseline to Week 48",
+        "description": "To compare late (baseline to Week 48) activated CD4+ T-cell recovery rates between treatment regimens.",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:19.693Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

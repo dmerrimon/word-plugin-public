@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT04026529",
+  "briefTitle": "Uphill Walking as Exercise for COPD Patients",
+  "officialTitle": "Improving Exercise Capacity in Chronic Obstructive Pulmonary Disease Patients Through Uphill Walking",
+  "protocolDocument": {
+    "nctId": "NCT04026529",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-09-14",
+    "uploadDate": "2023-09-14T15:55",
+    "size": 344560,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04026529/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 8,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-01-06",
+    "completionDate": "2022-09-30",
+    "primaryCompletionDate": "2022-08-31",
+    "firstSubmitDate": "2019-07-18",
+    "firstPostDate": "2019-07-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Veterans from all sex/gender, race, and ethnicity will be recruited\n* All subjects will undergo post-bronchodilator spirometry and be clinically stable\n* All subjects must have documented FEV1/FVC ratio of \\<0.7, and between 30% to 80% FEV1% predicted\n* If subjects have non-qualifying spirometry, they will not be screened further\n* Subjects with qualifying spirometry will be screened further\n* Potential subjects must have a BMI of less than 35 kg/m2 and must be free from co-morbidities that may affect walking patterns\n\n  * e.g., peripheral arterial disease, diabetes, low back pain\n\nExclusion Criteria:\n\n* Confounding effects such as neurological, musculoskeletal, or metabolic disease\n* Subjects taking medications that alter mood or metabolic demand will be excluded\n* All potential subjects must be cleared for participation by a physician after undergoing a cardiopulmonary exercise test\n* Require an O2 mask during rest or activity",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "45 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Dyspnea",
+        "description": "Perceived dyspnea: Breathlessness will be measured based on a 0 to 10-point Borg scale at the end of the treadmill trials. 0 on scale is no breathlessness and 10 is maximal breathlessness",
+        "timeFrame": "Visits were assessed at pre-specified randomized slope/speed treadmill intervals, with each visit scheduled to occur within one week of the previous visit, all taking place within a 6-week period following enrollment"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "Dynamic Hyperinflation",
+        "description": "Dynamic hyperinflation will be assessed by inspiratory capacity through pre- and post-walking trial resting spirometry. Dynamic hyperinflation will be considered to be present when inspiratory capacity values decrease after walking trials when compared to resting values.",
+        "timeFrame": "Visits were assessed at pre-specified randomized slope/speed treadmill intervals, with each visit scheduled to occur within one week of the previous visit, all taking place within a 6-week period following enrollment"
+      },
+      {
+        "measure": "Respiratory Rate",
+        "description": "Respiratory rate will be analyzed using motion capture markers on the chest. With custom computer code, the markers will be identified to model a sphere. The volume of the sphere will be recorded over time. As the volume increases and decreases, respiratory flow will be identified, and respiratory rate can be calculated.",
+        "timeFrame": "Visits were assessed at pre-specified randomized slope/speed treadmill intervals, with each visit scheduled to occur within one week of the previous visit, all taking place within a 6-week period following enrollment"
+      },
+      {
+        "measure": "Percentage of Time in Which the Most Common Ratio of Coupling Was Detected",
+        "description": "The laboratory is equipped with a 17-camera, digital motion capture system (Motion Analysis Corp., Santa Rosa, CA; 120Hz) to allow for collection of three-dimensional marker positions in real time.\n\nThe breathing cycle will be determined based on the movement of markers placed on the chest, while the gait cycles will be identified using locomotor data derived from heel markers, focusing on heel contact events.\n\nCoupling is often quantified as frequency coupling. Frequency coupling refers to how many heel strikes occur within a single cycle of respiration (one inhalation to the next).",
+        "timeFrame": "Visits were assessed at pre-specified randomized slope/speed treadmill intervals, with each visit scheduled to occur within one week of the previous visit, all taking place within a 6-week period following enrollment"
+      },
+      {
+        "measure": "Oxygen Uptake",
+        "description": "Heart rate and pulmonary gas exchange analysis will be recorded on a breath-by-breath basis. This will provide an accurate measure of pulmonary gas exchange, including oxygen uptake, i.e. VO2, . Steady-state VO2 while walking will be averaged and normalized to standing metabolic rate.",
+        "timeFrame": "Visits were assessed at pre-specified randomized slope/speed treadmill intervals, with each visit scheduled to occur within one week of the previous visit, all taking place within a 6-week period following enrollment"
+      },
+      {
+        "measure": "Lung Dead Space",
+        "description": "Dead space: Tidal volume and expired carbon dioxide will be measured using the same equipment as oxygen uptake above. Partial pressure of arterial carbon dioxide will be measured using a transcutaneous sensor.",
+        "timeFrame": "Visits were assessed at pre-specified randomized slope/speed treadmill intervals, with each visit scheduled to occur within one week of the previous visit, all taking place within a 6-week period following enrollment"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 5,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:26.296Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

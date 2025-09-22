@@ -1,0 +1,125 @@
+{
+  "nctId": "NCT04979897",
+  "briefTitle": "Impact on Mental, Physical, And Cognitive Functioning of a Critical Care sTay During the COVID-19 Pandemic",
+  "officialTitle": "Impact on Mental, Physical, And Cognitive Functioning of a Critical Care sTay During the COVID-19 Pandemic (IMPACCT COVID-19): a Prospective, Multicentre, Mixed-methods Cohort Study",
+  "protocolDocument": {
+    "nctId": "NCT04979897",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-05-18",
+    "uploadDate": "2024-05-23T13:34",
+    "size": 328583,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04979897/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 252,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-20",
+    "completionDate": "2022-09-02",
+    "primaryCompletionDate": "2021-11-02",
+    "firstSubmitDate": "2021-07-24",
+    "firstPostDate": "2021-07-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adult patients (≥18 years old)\n* Mechanically ventilated for at least 48 hours\n\nExclusion Criteria:\n\n* Unable to walk independently 2 weeks prior to ICU admission (with or without a gait aid)\n* S5q \\< 5 or CAM-ICU positive within 72 hours after ICU discharge\n* Patient who do not understand or speak Spanish\n* Patient unable to communicate verbally\n* Burn or severe trauma as admission diagnosis\n* Any neurological disorder (i.e. spinal cord injury, stroke and brain tumours) as admission diagnosis\n* Transferred to a non-participating study centre before ICU discharge assessment\n* Recent prolonged hospital stay (extended by more than 3 months)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "World Health Organization Disability Assessment Schedule 2.0 (WHODAS 2.0)",
+        "description": "The WHODAS 2.0 is a self-reported disability questionnaire based on the International Classification of Functioning, Disability, and Health (ICF). It includes 36 questions, organised under six domains (cognition, mobility, self-care, getting along, life activities and participation). Each question must be answered based on the perceived difficulty for performing activities using a 5-point scale (none, mild, moderate, severe and extreme). The overall score of each domain, it is transformed into a score between 0 and 100, where 0 means no disability and 100 is complete disability",
+        "timeFrame": "6 months after the ICU discharge"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Clinical Frailty Scale",
+        "description": "The CFS evaluates specific domains including physical functioning, activities of daily living (ADL), instrumental ADL, assistance for personal care, comorbidities, and cognition to generate a frailty score using a 9-point scale ranging from 1 (very fit) to 9 (terminally ill). A score greater than 4 is considered fragile",
+        "timeFrame": "Within 72 hours from ICU discharge"
+      },
+      {
+        "measure": "Medical Research Council Sum Score (MRC-SS): Peripheral Muscle Strength",
+        "description": "the MRC-SS consists of a standardised examination of six muscle groups bilaterally (i.e. shoulder abduction, elbow flexion, wrist extension, hip flexion, knee extension and dorsiflexion). All muscle groups are scored using a 6-point scale between 0 and 5 (0 = no visible /palpable contraction; 1 = visible / palpable contraction or no limb movement; 2 = limb movement, but not against gravity; 3 = movement against the gravity over nearly the entire range of motion; 4 = motion against gravity and resistance, subjectively adjusted for gender and age; 5 = normal force). The score goes from 0 (no strength) to a maximum score of 60 points, indicating normal peripheral strength.",
+        "timeFrame": "Within 72 hours from ICU discharge"
+      },
+      {
+        "measure": "Functional Status Score for the Intensive Care Unit (FSS-ICU)",
+        "description": "The FSS-ICU is a mobility instrument to score the level of physical assistance required when performing five functional activities: rolling, transfer from supine to sit, sitting at the edge of the bed, transfer from sitting to stand, and walking. Each activity is scored using a 7-point scale ranging from 0 (not able to perform) to 7 (complete independence). The resulting overall score ranges from 0 to 35 points, where a higher scores indicates better performance.",
+        "timeFrame": "Within 72 hours from ICU discharge"
+      },
+      {
+        "measure": "Montreal Cognitive Assessment-Blind (MoCA Blind)",
+        "description": "The MoCA blind is a cognitive screening tool designed to detect cognitive dysfunction in five areas: memory, attention, language, abstraction and orientation. Each domain is scored separately for a total score ranging from 0 to 22 points. A score equal to or greater than 18 points is considered normal cognition.",
+        "timeFrame": "6 months after the ICU discharge"
+      },
+      {
+        "measure": "Hospital Anxiety and Depression Scale (HADS)",
+        "description": "The HADS is an interviewer or self-administered questionnaire designed to identify anxiety and depressive symptoms in a wide variety of in-hospital patients, which requires between 2 and 5 minutes to be completed. The HADS has fourteen questions, seven for anxiety and seven for depressive symptoms. Each question is rated with a 4-point scale ranging from 0 (\"absence\") to 3 (\"extreme presence\"), resulting in a sum score of 21 points per subscale. For each subscale, a score \\>8 indicates suspected anxiety or depression, while a score \\>11 indicates clinical symptoms of anxiety or depression.",
+        "timeFrame": "6 months after the ICU discharge"
+      },
+      {
+        "measure": "Impact of Events Scale-Revised (IES-R)",
+        "description": "The IES-R is an interviewer or self-administered questionnaire designed to measure the subjective distress caused by traumatic events that has been validated for critical illness survivors. It comprises 22 questions in three subscales: intrusion, avoidance, and hyperarousal. Questions are rated on a 5-point scale ranging from 0 (\"not at all\") to 4 (\"extremely\"). The score goes from 0 to 88 points. Scores above 33 are indicative of post-traumatic stress symptoms.",
+        "timeFrame": "6 months after the ICU discharge"
+      },
+      {
+        "measure": "European Quality of Life Health Questionnaire (EQ-5D-3L)",
+        "description": "The EQ-5D-3L is an interviewer or self-administered questionnaire of health status or health-related quality of life, including five domains: mobility, self-care, usual activities, pain/discomfort, anxiety/depression and global health state. Each domain is scored based on 3 levels of severity: no problems, some problems, and extreme problems. Each combination of answers can be translated into a utility score, where 0 is similar to being dead and 1 represents the best possible quality of life. The utility scores were obtained using the Chilean Social valuation of EQ-5D health states (DOI: http://dx.doi.org/10.1016/j.jval.2011.09.002)",
+        "timeFrame": "6 months after the ICU discharge"
+      },
+      {
+        "measure": "Employment Status",
+        "description": "The employment status was evaluated using the following questions: What is your current employment status? What working hours do you have? and has your employment situation changed after your ICU stay?",
+        "timeFrame": "6 months after the ICU discharge"
+      },
+      {
+        "measure": "Survival",
+        "description": "Number of patients who survived",
+        "timeFrame": "6 months after the ICU discharge"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Cohort Retention Rate",
+        "description": "Number of patients who can be contacted and evaluated",
+        "timeFrame": "Every month during one year"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 1,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 76,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:36.854Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

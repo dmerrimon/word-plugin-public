@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT02661217",
+  "briefTitle": "Comparison of Pre- and Post-discharge Initiation of LCZ696 Therapy in HFrEF Patients After an Acute Decompensation Event",
+  "officialTitle": "A Multicenter, Randomized, Open Label, Parallel Group Study Comparing Pre-discharge and posT-discharge tReatment Initiation With LCZ696 in heArt Failure patieNtS With Reduced ejectIon-fracTion hospItalized for an Acute decOmpensation eveNt (ADHF)",
+  "protocolDocument": {
+    "nctId": "NCT02661217",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-07-18",
+    "uploadDate": "2019-06-20T04:47",
+    "size": 1160893,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02661217/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1002,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-02-12",
+    "completionDate": "2018-06-20",
+    "primaryCompletionDate": "2018-02-20",
+    "firstSubmitDate": "2016-01-19",
+    "firstPostDate": "2016-01-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patients hospitalized due to acute decompensated HF episode (ADHF) as primary diagnosis) and consistent Signs \\& Symptoms\n2. Diagnosis of HF New York Heart Association class II-to-IV and reduced ejection fraction: Left ventricular ejection fraction ≤ 40% at Screening\n3. Patients did not receive any IV vasodilators (except nitrates), and/or any IV inotropic therapy from the time of presentation for ADHF to Randomization\n4. Stabilized (while in the hospital) for at least 24 hours leading to Randomization.\n5. Meeting one of the following criteria:\n\n   * Patients on any dose of ACEI or ARB at screening\n   * ACEI/ARB naïve patients and patients not on ACEI or ARB for at least 4 weeks before screening.\n\nExclusion Criteria:\n\n1. History of hypersensitivity to the sacubitril, valsartan, or any ARBs, NEP inhibitors or to any of the LCZ696 excipients.\n2. Symptomatic hypotension and/or a SBP below 110 mm Hg or SBP above 180 mm Hg prior to randomization\n3. End stage renal disease at Screening; or estimated GFR below 30 mL/min/1.73 m2 (as measured by MDRD formula at Randomization.\n4. Serum potassium above 5.4 mmol/L at Randomization.\n5. Known history of hereditary or idiopathic angioedema or angioedema related to previous ACE inhibitor or ARB therapy\n6. Severe hepatic impairment, biliary cirrhosis and cholestasis",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Patients Achieving the Target Dose of LCZ696 200 mg Bid at 10 Weeks Post Randomization",
+        "description": "Percentage of patients achieving and maintaining LCZ696 200 mg bid for at least 2 weeks leading to Week 10",
+        "timeFrame": "10 weeks after Randomization"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Patients Achieving and Maintaining Either LCZ696 100 mg and/or 200 mg Bid",
+        "description": "Percentage of patients achieving and maintaining either LCZ696 100 mg and/or 200 mg bid for at least 2 weeks leading to Week 10",
+        "timeFrame": "10 weeks after Randomization"
+      },
+      {
+        "measure": "Percentage of Patients Achieving and Maintaining Any Dose of LCZ696",
+        "description": "Percentage of patients achieving any dose of LCZ696 for at least 2 weeks leading to 10 weeks of treatment",
+        "timeFrame": "10 weeks after Randomization"
+      },
+      {
+        "measure": "Percentage of Patients Permanently Discontinued From Treatment",
+        "description": "Percentage of patients permanently discontinued from LCZ696 (1) up to week 10 due to AEs, and (2) up to week 26 due to any reasons",
+        "timeFrame": "10 weeks after Randomization AND 26 weeks after randomization"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:01.318Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

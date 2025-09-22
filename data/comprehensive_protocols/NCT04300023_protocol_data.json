@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT04300023",
+  "briefTitle": "In-home Cycling for Individuals With PD: Feasibility",
+  "officialTitle": "Examining the Reach, Effectiveness and Maintenance of Social Engagement on Exercise Outcomes: In-home Cycling for Individuals With Parkinson Disease",
+  "protocolDocument": {
+    "nctId": "NCT04300023",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-01-24",
+    "uploadDate": "2025-01-01T17:16",
+    "size": 483467,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04300023/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 13,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-08-25",
+    "completionDate": "2024-01-04",
+    "primaryCompletionDate": "2024-01-04",
+    "firstSubmitDate": "2020-03-05",
+    "firstPostDate": "2020-03-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* diagnosis of idiopathic \"definite PD\" based upon established criteria\n* vision at or corrected to 20/40 or better\n* ability to independently ambulate for at least 10 minutes continuously\n* no reported vestibular or neurological disease (stroke or muscle disease) beyond their diagnosed PD\n* score of greater than or equal to 78 (no evidence of dementia) on the telephone adaptation of the modified mini-mental state exam\n* English Speaking\n\nExclusion Criteria:\n\n* contraindication for exercise\n* history of muscular or orthopedic diagnosis\n* inability to participate in the full duration of the study\n* currently exercising for 20 or more minutes per week",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "45 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adherence: Percentage of Sessions Completed",
+        "description": "Total number of completed sessions divided by the prescribed number of sessions per study protocol (72)",
+        "timeFrame": "up to 6 months of active intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Time Per Session",
+        "description": "The number of minutes spent cycling during each session",
+        "timeFrame": "up to 6 months of active intervention"
+      },
+      {
+        "measure": "Adverse Events",
+        "description": "Adverse events that occur during the active intervention period",
+        "timeFrame": "up to 6 months of active intervention"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Overall Activity Level as Measured by Average Steps Per Day",
+        "description": "Participant will wear an activity monitor to collect this data",
+        "timeFrame": "up to 6 months"
+      },
+      {
+        "measure": "Change in Canadian Occupational Performance Measure (COPM) Scores",
+        "description": "The Canadian Occupational Performance Measure (COPM) will be administered to assess the participant's self-report of performance and satisfaction on a scale of 1 to 10 on self-selected occupational tasks. Performance and satisfaction scores range from 1 (lowest) to 10 (highest) for each identified item. The top three identified occupations will be reported.",
+        "timeFrame": "baseline, post-test (~6-months)"
+      },
+      {
+        "measure": "Change in Fall Frequency",
+        "description": "The Fall History Questionnaire is a 6-item survey that asks about Fall rate in the last 2 weeks, last month, last 6 months, the typical cause of a fall, and how the fear of falling may influence daily activities. The hypothesis is that Fall frequency will be improved in the socially engaged cycling group and not with those cycling alone.",
+        "timeFrame": "baseline, post-test (~6-months)"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 3,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 40,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:45.975Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

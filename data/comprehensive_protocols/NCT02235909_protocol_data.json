@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT02235909",
+  "briefTitle": "An Efficacy and Safety Study in Children 6 to Less Than 18 Years of Age With Hypertension",
+  "officialTitle": "A Randomized, Double-Blind, Efficacy and Safety Study of AR 14 (AZILSARTAN MEDOXOMIL) Treatment and Withdrawal, Followed by an Open-Label Extension, in Children 6 to Less Than 18 Years of Age With Hypertension",
+  "protocolDocument": {
+    "nctId": "NCT02235909",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-12-12",
+    "uploadDate": "2022-03-28T19:46",
+    "size": 1943793,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02235909/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 377,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-03-30",
+    "completionDate": "2019-11-11",
+    "primaryCompletionDate": "2019-11-11",
+    "firstSubmitDate": "2014-09-08",
+    "firstPostDate": "2014-09-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* The subject has hypertension (primary or secondary) defined as clinic Seated Diastolic BP ≥95th percentile (by age, gender, and height) or ≥90th percentile (by age, gender, height) if chronic renal disease, diabetes, heart failure or hypertensive target organ damage is present\n\n  1. If currently treated: The subject has a documented historical diagnosis of hypertension AND a post-washout clinic Seated Diastolic BP meeting the above criteria on Day -1 (or Day 1 for subjects not participating in Ambulatory Blood Pressure Monitoring)\n  2. If currently untreated: The subject has elevated Seated Diastolic BP meeting the above criteria on 3 separate occasions before Randomization, including on Day -1 (or Day 1 for subjects not participating in Ambulatory Blood Pressure Monitoring)\n* The subject is male or female and aged 6 to \\<18 years at Baseline and weighs at least 25 kg\n* The subject agrees to continue their previously implemented nonpharmacological life style modifications if begun prior to Screening. Note: For subjects participating in a weight loss program, the weight maintenance\n\nExclusion Criteria:\n\n* The subject has a clinic Seated Diastolic BP greater than 15 mm Hg and/or Seated Diastolic BP greater than 10 mm Hg above the 99th percentile for age, gender, and height as confirmed by the average (arithmetic mean) of 3 serial clinic seated BP measurements at Screening/Visit 1\n* The subject has a diagnosis of malignant or accelerated hypertension\n* The subject is currently treated with more than 2 antihypertensive agents\n* The subject or parent/legal guardian is not willing for the subject's previous antihypertensive medications to be stopped\n* The subject has participated in the intensive, active weight-loss phase of a weight-loss program within 30 days prior to Screening/Visit 1\n* The subject has any of the following: severe renal impairment (eGFR \\<30 mL/min/1.73 m2 by the Schwartz formula); is currently undergoing dialysis treatment; renovascular disease affecting both kidneys or a solitary kidney; severe nephrotic syndrome not in remission; or serum albumin \\<2.5 g/dL\n* The subject has a history or clinical manifestations of severe cardiovascular, hepato-biliary, gastrointestinal, endocrine-metabolic (e.g., hyperthyroidism, Cushing's syndrome), hematologic, immunologic, genito-urinary, or psychiatric disease, cancer, and/or any conditions that would interfere with the health status of the subject through study participation, or would jeopardize study integrity in the opinion of the investigator\n* The subject is suffering from uncorrected coarctation of the aorta, or hemodynamically significant left ventricular outflow tract obstruction due to eg, aortic valvular disease, or is likely to undergo a procedure known to affect blood pressure (eg, repair of arterial anomalies) during the course of the study\n* The subject is poorly controlled diabetic defined as having a glycosylated hemoglobin value \\>8.5% at Screening/Visit 1\n* The subject has hyperkalemia as defined by the central laboratory's normal reference range or any pertinent electrolyte disorders at Screening/Visit",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "6 Years",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Seated Diastolic Blood Pressure Between AZM and Placebo",
+        "description": "Change in Seated Diastolic Blood Pressure from Week 6/Final visit of DB Phase to Week 8/Final Visit of the Withdrawal Phase, analysis of study subjects randomized to receiving placebo at Week 6 of treatment versus those who remained on treatment",
+        "timeFrame": "From Week 6/Final Visit of DB Phase to Week 8/Final Visit of Withdrawal Phase"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Trough Seated Systolic Blood Pressure",
+        "description": "Change in Trough Seated Systolic Blood Pressure from Week 6 of the Double-Blind Phase to Week 8 of the Withdrawal Phase Between AZM and Placebo, analysis of study subjects randomized to receiving placebo at Week 6 of treatment versus those who remained on treatment",
+        "timeFrame": "From Week 6/Final Visit of the Double-Blind Phase to Week 8/Final Visit of the Withdrawal Phase"
+      },
+      {
+        "measure": "Change in Mean Arterial Pressure",
+        "description": "Change in Mean Arterial Pressure from Week 6 of the Double-Blind Phase to Week 8 of the Withdrawal Phase Between AZM and Placebo, analysis of study subjects randomized to receiving placebo at Week 6 of treatment versus those who remained on treatment",
+        "timeFrame": "From Week 6 of the Double-Blind Phase to Week 8 of the Withdrawal Phase"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:14.104Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

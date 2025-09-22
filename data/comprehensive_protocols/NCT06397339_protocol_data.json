@@ -1,0 +1,116 @@
+{
+  "nctId": "NCT06397339",
+  "briefTitle": "Indian Transforming Alzheimer's Care Training (INTACT)",
+  "officialTitle": "Indian Transforming Alzheimer's Care Training (INTACT)",
+  "protocolDocument": {
+    "nctId": "NCT06397339",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-10-05",
+    "uploadDate": "2024-04-22T16:04",
+    "size": 333988,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06397339/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 28,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-10-05",
+    "completionDate": "2026-04-30",
+    "primaryCompletionDate": "2026-04-30",
+    "firstSubmitDate": "2024-03-15",
+    "firstPostDate": "2024-05-02"
+  },
+  "eligibilityCriteria": {
+    "criteria": "CLINIC Eligibility criteria\n\nTo be eligible to participate in INTACT a clinic must be:\n\n1. A primary care clinic\n2. Have at least 20 AI/AN active patients 55 years or older\n3. Have an EHR system\n4. Not intending to change EHR systems in the next year\n5. Willing to conduct a total of 40 limited patient chart reviews to assess quality of care metrics for AI/AN patients with MCI and ADRD, staff permitting\n\nPCP\n\nEligibility criteria:\n\nTo be eligible to participate in the baseline and follow-up surveys a primary care provider must be:\n\n1. have a title of MD, DO, Nurse Practitioner, or PA, and\n2. regularly provides care to AI/ANs aged 65 and older.\n\nPATIENTS\n\nWe will only collect patient EHR data from eligible patients who:\n\n1. Recorded as AI/AN in the EHR system\n2. Active clinic patient with prevalent ADRD as of the first day of the time period each data extraction will cover\n3. Age 55 or older at the start of the surveillance interval\n4. At least one primary care clinic visit during the time period each data extraction will cover.\n\nThere are no exclusion criteria for the clinic, PCPs and patients.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Clinic Level - new diagnoses of ADRD and MCI (Aim 2)",
+        "description": "Primary outcome (as obtained directly from EHRs) will reflect the aggregate counts of new diagnoses (MCI, ADRD, other dementia) during the study period, based on the ICD-10 codes for these diagnoses.",
+        "timeFrame": "Baseline and 12-month follow-up"
+      },
+      {
+        "measure": "PCP level - care confidence (Aim 1)",
+        "description": "Within each clinic, each participating PCP will complete a baseline and a 12-month follow-up survey. The PCP level primary outcome is care confidence in providing dementia care to patients and their families. Care confience wil be measured using the General Practitioners Confidence and Attitude scale for Dementia (GPACS-D) whic uses a 5 point Likert scale from 1 (strongly agree) to 5 (strongly disagree). The GPACS-D scale has 3 subscales:\n\n1. Confidence in Clinical Abilities for which a lower score means a better outcome\n2. Attitude to Care for which a lower score means a better outcome\n3. Engagement for which a higher score means a better outcome",
+        "timeFrame": "Baseline and a 12-month follow-up"
+      },
+      {
+        "measure": "Patient level - quality of care 1 (Aim 3)",
+        "description": "Primary outcome (as obtained directly from EHRs) will reflect the number and type of ADRD diagnostic tests.",
+        "timeFrame": "Baseline and a 12-month follow-up"
+      },
+      {
+        "measure": "Patient level - quality of care 2 (Aim 3)",
+        "description": "Primary outcome (as obtained directly from EHRs) will reflect the number of prescriptions of appropriate medications for cognitive and mood symptoms.",
+        "timeFrame": "Baseline and a 12-month follow-up"
+      },
+      {
+        "measure": "Patient level - quality of care 3 (Aim 3)",
+        "description": "Primary outcome (as obtained directly from EHRs) will reflect the number of annual cognitive assessments.",
+        "timeFrame": "Baseline and a 12-month follow-up"
+      },
+      {
+        "measure": "Patient level - quality of care 4 (Aim 3)",
+        "description": "Primary outcome (as obtained directly from EHRs) will reflect the number advance care directive.",
+        "timeFrame": "Baseline and a 12-month follow-up"
+      },
+      {
+        "measure": "Patient level - quality of care 5 (Aim 3)",
+        "description": "Primary outcome (as obtained directly from EHRs) will reflect the number of annual evauations of functional status.",
+        "timeFrame": "Baseline and a 12-month follow-up"
+      },
+      {
+        "measure": "Patient level - quality of care 5 (Aim 3)",
+        "description": "Primary outcome (as obtained directly from EHRs) will reflect the number of pharmacoligical treatment changes.",
+        "timeFrame": "Baseline and a 12-month follow-up"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 8,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 90,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:41.440Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

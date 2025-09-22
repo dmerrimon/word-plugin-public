@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT05082142",
+  "briefTitle": "Tranexamic Acid to Improve Same-day Discharge Rates After Holmium Laser Enucleation of the Prostate (HoLEP)",
+  "officialTitle": "Tranexamic Acid to Improve Same-day Discharge Rates After Holmium Laser Enucleation of the Prostate (HoLEP)",
+  "protocolDocument": {
+    "nctId": "NCT05082142",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2021-10-29",
+    "uploadDate": "2023-03-08T11:41",
+    "size": 231410,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05082142/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 110,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-09-17",
+    "completionDate": "2022-12-14",
+    "primaryCompletionDate": "2022-06-15",
+    "firstSubmitDate": "2021-09-24",
+    "firstPostDate": "2021-10-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Males 18-89 undergoing HoLEP\n* Willing to sign the Informed Consent Form\n* Able to read, understand, and complete patient questionnaires, pain texts, and medication diary\n\nExclusion Criteria:\n\n* Allergy or hypersensitivity to TXA, history of acute venous or arterial thrombosis, intrinsic risk for thrombosis or thromboembolism, history of thromboembolic disease, hereditary thrombophilia, use of hormonal agents\n* Patients having any additional simultaneous procedure other than a HoLEP (cystolitholapaxy allowed).\n* Anticipated need for perineal urethrostomy at the time of HoLEP\n* Patient not undergoing catheter removal and voiding trial at Northwestern Memorial Hospital",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "89 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Same-day Discharge Rate",
+        "description": "Number of participants who are discharged on the same day and have same-day catheter removal.",
+        "timeFrame": "Day 0-1"
+      },
+      {
+        "measure": "Length of Stay",
+        "description": "Post-operative to discharge home",
+        "timeFrame": "Day 0-1"
+      },
+      {
+        "measure": "Same Day Discharge",
+        "timeFrame": "24 hours"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Bleeding Complications",
+        "description": "Participants who have bleeding complications (defined as unplanned ED visit/clinic/procedure/admission related to bleeding, clot retention, clot evacuation, need for perioperative transfusion). This will be assessed by a weekly survey distributed to participants for 12 weeks.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Duration of Postoperative Hematuria",
+        "description": "Days participants have postoperative hematuria. This will be assessed by a weekly survey distributed to participants for 12 weeks.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Operative Times",
+        "description": "Operative times during HoLEP procedure.",
+        "timeFrame": "Day 0"
+      },
+      {
+        "measure": "Adverse Events Related to TXA",
+        "description": "Number of participants who have adverse events related to TXA (thrombotic events (DVT, PE, stroke), seizures).",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:06.266Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

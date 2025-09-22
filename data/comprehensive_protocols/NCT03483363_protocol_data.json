@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT03483363",
+  "briefTitle": "Topical Antibiotic Irrigation (Gentamicin) in Prophylaxis of Midfacial Fracture Surgical Wounds",
+  "officialTitle": "Topical Antibiotic Irrigation (Gentamicin) in Prophylaxis of Midfacial Fracture Surgical Wounds",
+  "protocolDocument": {
+    "nctId": "NCT03483363",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-05-08",
+    "uploadDate": "2024-04-02T12:55",
+    "size": 378770,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03483363/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 39,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-10-09",
+    "completionDate": "2022-01-02",
+    "primaryCompletionDate": "2022-01-02",
+    "firstSubmitDate": "2018-03-23",
+    "firstPostDate": "2018-03-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* patients who are planned for open reduction internal fixation of midfacial fractures as part of standard of care\n* patients who are admitted to Memorial Hermann hospital at Texas Medical Center\n* able to sign their own consent\n\nExclusion Criteria:\n\n* infected surgical sites\n* allergies to bacitracin",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Surgical Site Infection (SSI)",
+        "description": "Surgical site infections include evidence of infection: persistent swelling, fever, recurrent swelling, erythema, and purulent discharge.",
+        "timeFrame": "8 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:58.079Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

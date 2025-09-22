@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT02582866",
+  "briefTitle": "A Clinical Study to Investigate the Long-term Use of Lacosamide as Monotherapy in Subjects Who Completed Study SP0994",
+  "officialTitle": "A Multicenter, Open-label, Follow-up Study to Assess the Long-term Use of Lacosamide (Flexible Dose From 200 to 600 mg/Day) Used as Monotherapy in Subjects Who Completed SP0994 and Received Lacosamide Monotherapy Treatment",
+  "protocolDocument": {
+    "nctId": "NCT02582866",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2015-07-01",
+    "uploadDate": "2020-11-26T14:40",
+    "size": 1936224,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02582866/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 106,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-01",
+    "completionDate": "2020-01",
+    "primaryCompletionDate": "2020-01",
+    "firstSubmitDate": "2015-10-20",
+    "firstPostDate": "2015-10-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* An Institutional Review Board /Institutional Ethics Committee approved written Informed Consent Form (ICF) is signed and dated by the subject or by the parent(s) or legal representative. The ICF or a specific Assent form, where required, will be signed and dated by minors\n* Subject/legal representative is considered reliable and capable of adhering to the protocol, visit schedule, and medication intake according to the judgment of the investigator\n* Subject has completed the Termination Visit of SP0994 \\[NCT01465997\\] and has been treated with lacosamide monotherapy\n\nExclusion Criteria:\n\n* Subject is receiving any investigational drugs or using any experimental devices in addition to lacosamide (LCM)\n* Subject experienced a seizure at the 3rd target dose (i.e. LCM 600 mg/day) during SP0994\n* Subject required another Anti Epileptic Drug (AED) for the treatment of seizures\n* Subject meets a \"must\" withdrawal criteria for SP0994\n* Subject is experiencing an ongoing Serious Adverse Event from SP0994\n* Female subject who is pregnant or nursing, and/or a woman of childbearing potential who is not surgically sterile, 2 year postmenopausal or does not practice one highly effective method of contraception, unless sexually abstinent, for the duration of the study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "17 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants Experiencing Any Adverse Events (AEs) Reported Spontaneously by the Subject and/or Caregiver or Observed by Investigator",
+        "description": "An Adverse Event (AE) is any untoward medical occurrence in a patient or clinical study participant, temporally associated with the use of study medication, whether or not considered related to the study medication. An AE could, therefore, be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease (new or exacerbated) temporally associated with the use of study medication.",
+        "timeFrame": "From Visit 1 (Week 0) to Final Visit (up to Week 158)"
+      },
+      {
+        "measure": "Percentage of Participants That Withdrew Due to Adverse Events (AEs)",
+        "description": "An Adverse Event (AE) is any untoward medical occurrence in a patient or clinical study participant, temporally associated with the use of study medication, whether or not considered related to the study medication. An AE could, therefore, be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease (new or exacerbated) temporally associated with the use of study medication.",
+        "timeFrame": "From Visit 1 (Week 0) to Final Visit (up to Week 158)"
+      },
+      {
+        "measure": "Percentage of Participants Experiencing Any Serious Adverse Events (SAEs) Reported Spontaneously by the Subject and/or Caregiver or Observed by Investigator",
+        "description": "A Serious Adverse Event (SAE) is any untoward medical occurrence that at any dose:\n\n* Results in death\n* Is life-threatening\n* Requires in patient hospitalization or prolongation of existing hospitalization\n* Is a congenital anomaly or birth defect\n* Is an infection that requires treatment parenteral antibiotics\n* Other important medical events which based on medical or scientific judgement may jeopardize the study participants, or may require medical or surgical intervention to prevent any of the above.",
+        "timeFrame": "From Visit 1 (Week 0) to Final Visit (up to Week 158)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:47.886Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

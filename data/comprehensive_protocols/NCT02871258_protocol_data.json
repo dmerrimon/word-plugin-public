@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT02871258",
+  "briefTitle": "MetaNeb® Chest X-ray Study",
+  "officialTitle": "Evaluation of The MetaNeb® System to Reduce Atelectasis Assessed by Chest X-ray",
+  "protocolDocument": {
+    "nctId": "NCT02871258",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-03-06",
+    "uploadDate": "2024-07-18T11:59",
+    "size": 1863171,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02871258/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 8,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-09",
+    "completionDate": "2017-08-17",
+    "primaryCompletionDate": "2017-08-17",
+    "firstSubmitDate": "2016-08-14",
+    "firstPostDate": "2016-08-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Post-surgical (thoracic, cardiac or abdominal surgery)\n* Age ≥ 18 years\n* Significant atelectasis by chest x-ray\n* Patient meets indication for therapy intervention as defined by Recruitment and Airway Clearance Protocol (Respiratory Department Policy and Procedure)\n* Signed informed consent\n\nExclusion Criteria:\n\n* Cause of atelectasis suspected to be infectious or solid mass\n* Requirement for mechanical ventilation\n* Requirement for chronic supplemental oxygen\n* Hemodynamically unstable, as defined by need for vasopressor therapy\n* Anticipated need for mechanical ventilation or other poor clinical outcome, unrelated to atelectasis or secretion retention\n* Contraindication to MetaNeb® therapy (untreated tension pneumothorax)\n* Inability to perform MetaNeb® therapy using a mouthpiece\n* Anticipated hospital discharge within 24 hours",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Chest X-ray Score at Day 2 (Approximately 48 Hours) After Initiation of Therapy With The MetaNeb® System.",
+        "description": "Chest x-rays were scored using the Kelly scoring system to assess the presence of atelectasis on Day 2, after initiation of therapy with The MetaNeb® System. Scores for chest x-rays at Day 2 were compared to the scores for chest x-rays taken at baseline.\n\n3 of the 8 subjects did not have measurable level of atelectasis at baseline and were excluded from the Kelly Score analyses.\n\nA score of 0 represents normal clear lungs whilst a score of 4 represent the whole lung is consolidated. A blinded reader scored each lung separately based on the Kelly Score scale. The Kelly scores from the left and right lung of each subject were averaged to get a mean score for each subject. Kelly Score ranges are as follows: 0 Normal; 1 Linear atelectasis; 1.25 a: one third of hemidiaphragm; 1.50b: two thirds of hemidiaphragm;1.75c: all of one hemidiaphragm; 2 Lobar consolidation; 3 Lobar collapse; 4 Bronchial consolidation (whole lung, bronchopneumonia etc.,)",
+        "timeFrame": "Approximately 48 hours post-initiation of therapy with The MetaNeb® System."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Chest X-ray Assessed by Kelly Atelectasis Score at Day 1 (Approximately 24 Hours) and Day 4 (Approximately 96 Hours, or at Discharge if Discharge Occurs Before Day 4), Compared to Baseline.",
+        "description": "Mean chest x-ray score change for both lungs at Day 1 (approx. 24 hours) and at Day 4 (approx. 96 hours or at discharge, if discharge occurs before Day 4) after initiation of therapy with The MetaNeb® System. Scored using the Kelly score, as described above, to assess the presence of atelectasis. 3 of the 8 subjects did not have measurable level of atelectasis at baseline and were excluded from the Kelly Score analyses. A score of 0 represents normal clear lungs whilst a score 4 represent the whole lung is consolidated. A blinded reader scored each lung separately based on the Kelly Score scale. The Kelly scores from the left and right lung of each subject were averaged to get a mean score for each subject. Kelly Score ranges are as follows: 0 Normal; 1 Linear atelectasis; 1.25 a: one third of hemidiaphragm; 1.50b: two thirds of hemidiaphragm;1.75c: all of one hemidiaphragm; 2 Lobar consolidation; 3 Lobar collapse; 4 Bronchial consolidation (whole lung, bronchopneumonia etc.,)",
+        "timeFrame": "Approximately 24 hours and at Day 4, approximately 96 hours, or at discharge if discharge occurs before Day 4"
+      },
+      {
+        "measure": "Chest X-ray Improvement Using a Comparative Scale (Comparing Baseline, Day 1, Day 2, and Day 4/Discharge).",
+        "description": "Chest x-ray improvement using a comparative scale after a minimum of forty-eight (48) hours of therapy with The MetaNeb® System. Chest x-ray improvement assessed using comparative scale for baseline, Day 1, Day 2, and Day 4/discharge. Four chest x-rays for each enrolled subject (baseline, Day 1, Day 2, and day 4/discharge), with date and time masked, were sent to the radiologist for comparison.\n\nThe radiologist ranked the four x-rays as 1, 2, 3, or 4 (1 = least atelectasis, 4 = most atelectasis).\n\n\\*Subjects 3 and 4 were discharged on Day 2, and therefore the Day 2 and Day 4/Early Discharge Chest X-rays are one in the same for the purposes of the analysis",
+        "timeFrame": "Comparing baseline, Day 1, Day 2, and Day 4/discharge."
+      },
+      {
+        "measure": "Oxygenation Index (SpO2 /FiO2 Ratio).",
+        "description": "Oxygenation Index (SpO2 /FiO2 ratio) at Day 1, Day 2, and day 4/discharge compared to baseline.\n\nSPO2/FiO2 is available for only the 6 subjects that received oxygen during the study. Subjects 3 and 4 did not receive oxygen and no SPO2/FiO2 ratios were calculated.\n\nhigher SPO2/FiO2 value indicates better oxygenation.",
+        "timeFrame": "Oxygenation Index (SpO2 /FiO2 ratio) at Baseline, Day 1 AM, Day 1 PM, Day 2 AM, Day 2 PM, and Day 4/early discharge"
+      },
+      {
+        "measure": "Patient Reported Level of Dyspnea Assessed by Modified Borg Dyspnea Scale.",
+        "description": "Patient reported level of dyspnea (assessed by Modified Borg Dyspnea Scale).This is a scale that asks patients to rate the difficulty of their breathing. It starts at number zero (0) where the breathing is causing the patient no difficulty at all, and progresses through to number ten (10) where the patients' breathing difficulty is maximal.\n\n0: Nothing at all; 0.5: Very, very slight (just noticeable); 1: Very slight; 2: Slight; 3: Moderate; 4: Somewhat severe; 5: Severe; 7: Very severe; 9: Very, very severe (almost maximal); 10: Maximal.",
+        "timeFrame": "Patient reported level of dyspnea assessed by Modified Borg Dyspnea Scale on Baseline (Day 0), Day 1, and Day 2."
+      },
+      {
+        "measure": "Change in Patient Respiratory Status Assessed by Subjective Physician Respiratory Status Evaluation.",
+        "description": "Change in patient respiratory status (Respiratory Status Evaluation). Physician observation and evaluation of patient respiratory status at time of enrollment (baseline) and on Day 2 to assess if worse, unchanged, or improved through:\n\n* Lung assessment: percussion\n* Lung assessment: Auscultation\n* Cough assessment\n* Secretion assessment\n* oxygenation\n* Work of breathing\n* Other observations: General appearance, mental acuity, respiratory pain",
+        "timeFrame": "Respiratory status evaluation at time of enrollment and on Day 2"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:56.407Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

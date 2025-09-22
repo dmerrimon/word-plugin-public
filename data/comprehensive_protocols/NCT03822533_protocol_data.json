@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT03822533",
+  "briefTitle": "A Cost-efficiency Analysis of Primary Assessors for Patients With Knee Pain in Primary Care",
+  "officialTitle": "A Cost-efficiency Analysis of Physiotherapist or Physicians as Primary Assessors for Patients With Knee Pain in Primary Care",
+  "protocolDocument": {
+    "nctId": "NCT03822533",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-08-08",
+    "uploadDate": "2022-08-08T05:07",
+    "size": 195741,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03822533/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 363,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-02-07",
+    "completionDate": "2022-03-17",
+    "primaryCompletionDate": "2021-03-17",
+    "firstSubmitDate": "2019-01-28",
+    "firstPostDate": "2019-01-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Knee pain most of the days the last month\n* Over 38 years old\n* Crepitus on active motion\n* Morning stiffness less than 30 minutes\n\nExclusion Criteria:\n\n* Not been diagnosed for current knee pain\n* Non-traumatic cause due to current knee pain\n* No other rheumatic, severe somatic or psychological diseases that can affect the outcome measures.\n* Not pregnant\n* Does not know enough Swedish to answer questionnaires.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "38 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean Difference in Quality Adjusted Life Years (QALY)",
+        "description": "Health-related quality of life was used as the generic measure for health improvement and was measured at baseline, 3-, 6- and 12-month follow-up. The Swedish version of Euroqol-5 dimensions-3 levels (EQ5D-3L) was used to assess perceived self-rated health-related quality of life. The questionnaire contained five dimensions and resulted in an index ranging from -0,549 to 1 using the United Kingdom tariffs. An index of 1 indicate full health. For each participant, EQ-5D-3L index was used when calculating quality adjusted life years (QALY) using linear interpolation between each measurement point and the trapezoidal rule to calculate the \"area under the curve\". QALY range from 0 to 1, where 0 means death and 1 equals full health.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Mean Difference in Total Costs (Societal Perspective)",
+        "description": "Total costs with the societal perspective includes health care visits, prescribed drugs, productivity loss and unpaid work compensation. Data were retrieved from medical records.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Mean Difference in Total Costs (Health Care Perspective)",
+        "description": "Health care perspective includes health care visits and prescribed drugs. Data were collected through medical records.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Incremental Cost-effectiveness Ratio (ICER) - Societal Perspective",
+        "description": "Mean difference in costs divided by mean difference in quality adjusted life years (QALYs). Presenting the results of the cost-effectiveness analysis (ICER). Societal perspective includes health care visits, prescribed drugs, productivity loss and unpaid work compensation\n\nIncremental Cost-effectiveness Ratio was derived from the model where a measure of dispersion was not an output of the model",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Incremental Cost-effectiveness Ratio (ICER) - Health Care Perspective",
+        "description": "Mean difference in costs divided by mean difference in quality adjusted life years (QALYs). Presenting the results of the cost-effectiveness analysis (ICER). Health care perspective includes health care visits and prescribed drugs.\n\nIncremental Cost-effectiveness Ratio was derived from the model where a measure of dispersion was not an output of the model",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Costs for Physiotherapy Visits",
+        "description": "Number of visits registered in patients journal multiplied with the cost.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Costs for Physician Visits",
+        "description": "Number of visits registered in patients journal multiplied with cost",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Costs for Referrals to Radiography",
+        "description": "Number of referrals to radiography registered in patients journal multiplied with its costs",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Costs for Referrals to Orthopedic Surgeon",
+        "description": "Number of referrals to orthopedic surgeon registered in patients journal multiplied with the costs",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Costs for Collected Prescribed Drugs",
+        "description": "Data extraction from a drug database for prescribed drugs belonging to the Anatomical Therapeutic Chemical Classification groups M01 anti-inflammatory and anti-rheumatic products, M02 topical products for joint and muscular pain, M03 muscle relaxants, M09 other drugs for disorders of the musculoskeletal system, N02A opioids, N02B other analgesics and antipyretics.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Costs for Productivity Loss",
+        "description": "Productivity loss included the time for visiting health care, telephone calls, traveling, waiting time and costs for sick leave days. The costs was calculated with gross salary including social fees.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Costs for Unpaid Work Compensation",
+        "description": "The costs for the time the patients were visiting health care or consulting via telephone, including traveling and waiting time. Production loss was calculated with net mean salary. Included participants that reported they were retired or unemployed.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:57.371Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03085914",
+  "briefTitle": "A Study of Epacadostat in Combination With Pembrolizumab and Chemotherapy in Participants With Advanced or Metastatic Solid Tumors (ECHO-207/KEYNOTE-723)",
+  "officialTitle": "A Phase 1/2, Open-Label, Safety, Tolerability, and Efficacy Study of Epacadostat in Combination With Pembrolizumab and Chemotherapy in Subjects With Advanced or Metastatic Solid Tumors (ECHO-207/KEYNOTE-723)",
+  "protocolDocument": {
+    "nctId": "NCT03085914",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-02-14",
+    "uploadDate": "2020-01-21T08:45",
+    "size": 3167167,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03085914/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 70,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-02",
+    "completionDate": "2020-07-13",
+    "primaryCompletionDate": "2019-01-25",
+    "firstSubmitDate": "2017-02-28",
+    "firstPostDate": "2017-03-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed diagnosis of selected advanced or metastatic solid tumors.\n* Presence of measurable disease per RECIST v1.1.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n\nExclusion Criteria:\n\n* Laboratory and medical history parameters not within the Protocol-defined range.\n* Receipt of anticancer medications or investigational drugs within the Protocol-defined intervals before the first administration of study drug.\n* Previous radiotherapy within 2 weeks of starting study therapy.\n* Known active central nervous system (CNS) metastases and/or carcinomatous meningitis.\n* Has not recovered to ≤ Grade 1 from toxic effects of previous therapy and/or complications from previous surgical intervention before starting study therapy.\n* Receipt of a live vaccine within 30 days of planned start of study therapy.\n* Active infection requiring systemic therapy.\n* Subjects who have any active or inactive autoimmune disease or syndrome.\n* Women who are pregnant or breastfeeding.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Phases 1 & 2: Number of Participants With Treatment-emergent Adverse Events (TEAEs) and Serious TEAEs",
+        "description": "A TEAE is any AE either reported for the first time or worsening of a pre-existing event after first dose of epacadostat, pembrolizumab, or chemotherapy. Serious adverse event is defined as an event that meets 1 of the following criteria: is fatal or life threatening, requires inpatient hospitalization or prolongation of existing hospitalization, results in persistent or significant disability, incapacity, or a substantial disruption of a person's ability to conduct normal life functions, constitutes a congenital anomaly or birth defect,is a medically important event that may jeopardize the participant or may require medical or surgical intervention to prevent 1 of the outcomes listed above.",
+        "timeFrame": "Up to 21 months"
+      },
+      {
+        "measure": "Phases 1 and 2: Number of Participants With Dose Limiting Toxicities (DLTs)",
+        "description": "A DLT was defined as the occurrence of any of the protocol-specified toxicities occurring up to and including Day 28 for the cohorts where mFOLFOX6 and nab-paclitaxel/gemcitabine are administered and Day 21 for all other chemotherapy regimens in Phase 1, except those with a clear alternative explanation (eg, disease progression) or transient (≤ 72 hours) abnormal laboratory values without associated clinically significant signs or symptoms based on investigator determination.",
+        "timeFrame": "28 days"
+      },
+      {
+        "measure": "Phases 1 and 2: Objective Response Rate (ORR)",
+        "description": "ORR was defined as the percentage of participants having a complete response (CR) or partial response (PR) as determined by investigator assessment of radiographic disease per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1.",
+        "timeFrame": "Up to Week 18"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:52.351Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

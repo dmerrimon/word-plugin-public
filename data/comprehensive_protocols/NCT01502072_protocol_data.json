@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT01502072",
+  "briefTitle": "Respiratory Syncytial Virus - RSV Protocol",
+  "officialTitle": "An Open Label Randomized Controlled Trial To Prevent the Progression of Respiratory Syncytial Virus Upper Respiratory Tract Infection to Lower Respiratory Tract Infection in Patients After Hematopoietic Stem Cell Transplant",
+  "protocolDocument": {
+    "nctId": "NCT01502072",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2014-04-07",
+    "uploadDate": "2021-01-13T14:30",
+    "size": 400395,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01502072/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 48,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-12-28",
+    "completionDate": "2020-02-01",
+    "primaryCompletionDate": "2020-02-01",
+    "firstSubmitDate": "2011-12-22",
+    "firstPostDate": "2011-12-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. HSCT patients with either moderate or severe immunodeficiency based on immunodeficiency scoring system would be eligible for entry on study if a nasopharyngeal wash or throat swab specimen is positive by rapid RSV antigen testing and/or on culture within 72 hours (therapeutic arms). (Please see Appendix E for definitions and Immunodeficiency Scoring).\n2. HSCT patients with mild immunodeficiency based on immunodeficiency scoring system would be eligible for entry on study if a nasopharyngeal wash or throat swab specimen is positive by rapid RSV antigen testing and/or on culture within 72 hours but will not be randomized to therapeutic arms and will be followed as per standard of care (control arm).\n3. Patients must be at least 18 years of age and able to swallow pills.\n4. Patients with RSV infection limited to the URT as documented by negative Chest radiographic findings within the last 48 hours of enrollment and pulse oxygenation of more than 90 mm of Hg on room air.\n5. Women of child bearing potential with a negative urine or blood pregnancy test within a month of enrollment (only for patients who are going to be randomised to either therapeutic arms).\n6. Patients with Hemoglobin levels more than or equal to 8 g/dl would be eligible for the study even if they are currently receiving blood products.\n7. Patients may receive up to 2 doses of aerosolized ribavirin (modified regimen) before enrollment into the study.\n8. Patients who will be enrolled on the observational arm should meet inclusion criteria # 2, 3, and 4 only.\n\nExclusion Criteria:\n\n1. Patients with previous history of hypersensitivity to ribavirin or its components\n2. Women who are pregnant or plan a pregnancy within 8 weeks after completion of treatment (only for patients who are going to be randomised to either therapeutic arms).\n3. Patients with evidence of RSV LRI as documented by a positive rapid RSV antigen testing and/or culture on nasal washes AND new or progressive infiltrates on chest radiographic studies suggestive of viral etiology and/or pulse oxygen less than 90 mm of Hg on room air.\n4. Patients with positive RSV by rapid antigen testing and/or culture in bronchoalveolar lavage regardless of the chest radiographic findings.\n5. Patients who are considered to be moderately or severely anemic as per the NCI classification will not be included in the study, i.e patients with hemoglobin level less than 8 g/dl\n6. Patient with Total Bilirubin and Aspartate Aminotransferase (AST) or Alanine Aminotransferase (ALT) three times the upper limit of normal.\n7. Male partners of women who are pregnant (only for patients who are going to be randomised to either therapeutic arms).\n8. Patients with known history of autoimmune hepatitis, Hepatitic C or those with hemoglobinopathies (eg, thalassemia major, sickle cell anemia).\n9. Patients with creatinine clearance of less than or equal to 50 ml/Min\n10. Patients taking didanosine, azathioprine, or nucleoside reverse transcriptase inhibitors\n11. Patients who will be enrolled on the observational arm should not meet exclusion criteria #3 and 4 only.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With Progression to Lower Respiratory Tract Infection (LRI)",
+        "description": "Patient who developed signs of lower respiratory tract infection",
+        "timeFrame": "14 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:29.451Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

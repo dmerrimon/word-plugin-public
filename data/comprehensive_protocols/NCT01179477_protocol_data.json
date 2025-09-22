@@ -1,0 +1,78 @@
+{
+  "nctId": "NCT01179477",
+  "briefTitle": "QuickFlex Micro Left Ventricular Lead Post Approval Study",
+  "officialTitle": "QuickFlex® μ Model 1258T Left Heart Pacing Lead Post Approval Study",
+  "protocolDocument": {
+    "nctId": "NCT01179477",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2010-06-10",
+    "uploadDate": "2019-02-20T15:33",
+    "size": 1922974,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01179477/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 1930,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2010-09",
+    "completionDate": "2017-09",
+    "primaryCompletionDate": "2017-09",
+    "firstSubmitDate": "2010-08-09",
+    "firstPostDate": "2010-08-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Have an approved indication per American College of Cardiology/American Heart Association/Heart Rhythm Society guidelines for implantation of a CRT-D system or participated in the QuickFlex® μ1258T (Investigational Device Exemption (IDE) study\n* Have the ability to provide informed consent for study participation and be willing and able to comply with the prescribed follow-up tests and schedule of evaluations\n\nExclusion Criteria:\n\n* Have a hypersensitivity to a single 1.0mg dose of dexamethasone sodium phosphate or short term contact with heparin\n* Have a life expectancy of less than 5 years due to any condition\n* Be less than 18 years of age",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percent of Participants Alive and Without a Left Ventricular Lead-related Complication",
+        "description": "Percent of Participants Alive and Without a Left Ventricular Lead-related Complication at 5 years of follow-up. Per FDA, data from IDE subjects who did not consent to rollover into the post approval study at sites participating in the post approval study, were included in this analysis (see clinical investigational protocol).",
+        "timeFrame": "5 years"
+      },
+      {
+        "measure": "Left Ventricular Bipolar Pacing Capture Threshold",
+        "description": "Mean left ventricular bipolar pacing capture threshold measured at 0.5 ms pulse width at 5 years of follow-up",
+        "timeFrame": "5 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:31.684Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

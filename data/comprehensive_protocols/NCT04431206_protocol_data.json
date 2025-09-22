@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT04431206",
+  "briefTitle": "Generate a Pharmacodynamic Model of Oxytocin for Peripheral Analgesic Effects",
+  "officialTitle": "Generate a Pharmacodynamic Model of Oxytocin for Peripheral Analgesic Effects",
+  "protocolDocument": {
+    "nctId": "NCT04431206",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-05-18",
+    "uploadDate": "2025-08-12T12:27",
+    "size": 569466,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04431206/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-11-04",
+    "completionDate": "2020-11-25",
+    "primaryCompletionDate": "2020-11-25",
+    "firstSubmitDate": "2020-06-04",
+    "firstPostDate": "2020-06-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Male or female \\> 18 and \\< 75 years of age, Body Mass Index (BMI) \\<40.\n2. Generally in good health as determined by the Principal Investigator based on prior medical history, American Society of Anesthesiologists physical status 1, 2, or 3.\n3. For healthy volunteers, normal blood pressure (systolic 90-140 mmHg; diastolic 50-90 mmHg) resting heart rate 45-100 beats per minute) without medication. For knee arthritis subjects, normal blood pressure or, for those with hypertension, pressure controlled with anti-hypertensives and with a resting heart rate 45-100 beats per minute.\n4. Female subjects of child-bearing potential and those \\< 1 year post-menopausal, must be practicing highly effective methods of birth control such as hormonal methods (e.g., combined oral, implantable, injectable, or transdermal contraceptives), double barrier methods (e.g., condoms, sponge, diaphragm, or vaginal ring plus spermicidal jellies or cream), or total abstinence from heterosexual intercourse for a minimum of 1 full cycle before study drug administration.\n\nExclusion Criteria:\n\n1. Hypersensitivity, allergy, or significant reaction to any ingredient of Pitocin®\n2. Any disease, diagnosis, or condition (medical or surgical) that, in the opinion of the Principal Investigator, would place the subject at increased risk (active gynecologic disease in which increased tone would be detrimental e.g., uterine fibroids with ongoing bleeding), compromise the subject's compliance with study procedures, or compromise the quality of the data\n3. Women who are pregnant (positive result for serum pregnancy test at screening visit), women who are currently nursing or lactating, women that have been pregnant within 2 years\n4. Subjects with neuropathy, chronic pain, diabetes mellitus, or taking benzodiazepines or pain medications on a daily basis.\n5. Subjects with current or history of ventricular tachycardia, atrial fibrillation or prolonged QT interval.\n6. Subjects with past or current history of hyponatremia or at risk for hyponatremia; anyone taking thiazide diuretics, loop diuretics, combination diuretics, lithium, carbamazepine, enalapril, Ramipril, celecoxib, temazepam, gliclazide, glimepiride, glibenclamide, glipizide, omeprazole, pantoprazole, desmopressin, SSRI's, MAOI, or the recreational drug ecstasy.\n7. Subjects with a known latex allergy.\n8. Subjects with a pain score rating of 1 or less during the initial training session to a 5 minute heating of 45°C- 47 °C to the lower calf.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "First Verbal Pain Score After Beginning IV Oxytocin Infusion",
+        "description": "Pain at the end of 5 minutes of heating the skin to 45 - 47 degrees C will be determined using a Verbal Pain scale 0-10. 0 is equivalent to NO PAIN and 10 is equivalent to THE WORST PAIN IMAGINABLE. Heating temperature is determined by pain rating during screening visit.",
+        "timeFrame": "2-10 minutes after starting oxytocin infusion, depending on Arm"
+      },
+      {
+        "measure": "Second Verbal Pain Score After Beginning IV Oxytocin Infusion",
+        "description": "Pain at the end of 5 minutes of heating the skin to 45 - 47 degrees C will be determined using a Verbal Pain scale 0-10. 0 is equivalent to NO PAIN and 10 is equivalent to THE WORST PAIN IMAGINABLE. Heating temperature is determined by pain rating during screening visit.",
+        "timeFrame": "17-25 minutes after starting oxytocin infusion, depending on Arm"
+      },
+      {
+        "measure": "Third Verbal Pain Score After Beginning IV Oxytocin Infusion",
+        "description": "Pain at the end of 5 minutes of heating the skin to 45 - 47 degrees C will be determined using a Verbal Pain scale 0-10. 0 is equivalent to NO PAIN and 10 is equivalent to THE WORST PAIN IMAGINABLE. Heating temperature is determined by pain rating during screening visit.",
+        "timeFrame": "32-40 minutes after starting oxytocin infusion, depending on Arm"
+      },
+      {
+        "measure": "Fourth Verbal Pain Score After Beginning IV Oxytocin Infusion",
+        "description": "Pain at the end of 5 minutes of heating the skin to 45 - 47 degrees C will be determined using a Verbal Pain scale 0-10. 0 is equivalent to NO PAIN and 10 is equivalent to THE WORST PAIN IMAGINABLE. Heating temperature is determined by pain rating during screening visit.",
+        "timeFrame": "47-55 minutes after starting oxytocin infusion, depending on Arm"
+      },
+      {
+        "measure": "Fifth Verbal Pain Score After Beginning IV Oxytocin Infusion",
+        "description": "Pain at the end of 5 minutes of heating the skin to 45 - 47 degrees C will be determined using a Verbal Pain scale 0-10. 0 is equivalent to NO PAIN and 10 is equivalent to THE WORST PAIN IMAGINABLE. Heating temperature is determined by pain rating during screening visit.",
+        "timeFrame": "62-70 minutes after starting oxytocin infusion, depending on Arm"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:57.475Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

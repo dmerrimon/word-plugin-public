@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT04517877",
+  "briefTitle": "Caring Light Project for Family Caregivers",
+  "officialTitle": "Caring Light Project for Caregivers of Individuals With Alzheimer's Disease",
+  "protocolDocument": {
+    "nctId": "NCT04517877",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-05-08",
+    "uploadDate": "2022-05-09T17:14",
+    "size": 100335,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04517877/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 164,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-07-15",
+    "completionDate": "2021-05-30",
+    "primaryCompletionDate": "2021-05-30",
+    "firstSubmitDate": "2020-08-14",
+    "firstPostDate": "2020-08-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Care for an individual with Alzheimer's Disease or other dementia.\n* Own a smartphone or tablet and have Internet access.\n* Minimum age of 18 years old.\n* Spend at least 8 hours/week caring for a person with dementia.\n\nExclusion Criteria:\n\n* Severe psychological or physical illness.\n* Inability to read and follow English instructions.\n* High level of depressive symptoms.\n* Unwillingness to participate in all aspects of the study.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Center for Epidemiological Studies Depression Scale",
+        "description": "The Center for Epidemiological Studies Depression scale (CES-D) is a 20-item measure that asks about the frequency of depressive symptoms (affective, psychological, and somatic) within the past week. The scale refers to the caregiver. Minimum score (best value)=0. Maximum score (worst value)=60. Higher values represent a worse outcome.",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Revised Memory and Behavior Problems Checklist",
+        "description": "This scale measures the type/number of dementia patients disturbing behaviors, and how much they bother caregivers with 24 items describing possible troublesome behaviors that the patient might evidence in the past month. Caregivers are first asked whether the dementia patient had displayed any of these in the time period, and secondly to rate on a 5-point scale (0=not at all; 4= extremely) how much this \"bothered or upset\" them. A \"conditional bother\" score is calculated which is the \"upset\" or \"bother\" ratings for only the problematic behavior that occurred. The scale refers to the caregiver. Minimum score (best value)=0. Maximum score (worst value)=4. Higher values represent a worse outcome.",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Perceived Stress Scale",
+        "description": "The \"Perceived Stress Scale\" measures the overall level of stress. This instrument contains 10 items accessing overall appraisals of stress in the past month. The scale refers to the caregiver. Minimum score (best value)=0. Maximum score (worst value)=40. Higher values represent a worse outcome.",
+        "timeFrame": "3 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:39.435Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

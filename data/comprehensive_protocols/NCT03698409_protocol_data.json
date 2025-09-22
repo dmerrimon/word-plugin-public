@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT03698409",
+  "briefTitle": "Onabotulinumtoxin Type A Reconstitution With Preserved Versus Preservative-free Saline in Chronic Migraine.",
+  "officialTitle": "Onabotulinumtoxin Type A Reconstitution With Preserved Versus Preservative-free Saline in Chronic Migraine. A Randomized, Double-blind Trial.",
+  "protocolDocument": {
+    "nctId": "NCT03698409",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-11-13",
+    "uploadDate": "2022-05-08T11:11",
+    "size": 143117,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03698409/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 68,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-01-01",
+    "completionDate": "2019-08-01",
+    "primaryCompletionDate": "2019-08-01",
+    "firstSubmitDate": "2018-10-04",
+    "firstPostDate": "2018-10-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients with diagnosis of chronic migraine receiving FDA-approved treatment with OnabotulinumtoxinA injection as per standard protocol. Standard protocol consists of 31 injection sites, with total dose ranging from 155 u to 195u.\n\nExclusion Criteria:\n\n* Subjects whom OnabotulinumtoxinA injections deviate from standard protocol for any reason, such as head/neck infection, head deformity, recent surgery…etc.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "79 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Verbal Pain Scale",
+        "description": "Difference in verbal pain scale (0 to 10, 0 indicates no pain, and 10 indicates most severe pain)",
+        "timeFrame": "Immediately after intervention, an average of 2 minutes"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Headache-day Frequency",
+        "description": "Difference in headache-days in the first week following the procedure",
+        "timeFrame": "1 week"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:52.485Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

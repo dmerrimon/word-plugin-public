@@ -1,0 +1,142 @@
+{
+  "nctId": "NCT02622295",
+  "briefTitle": "Musculoskeletal Plasticity After Spinal Cord Injury",
+  "officialTitle": "Musculoskeletal Plasticity After Spinal Cord Injury",
+  "protocolDocument": {
+    "nctId": "NCT02622295",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-08-25",
+    "uploadDate": "2022-08-26T10:08",
+    "size": 97976,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02622295/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 71,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-05",
+    "completionDate": "2021-11-18",
+    "primaryCompletionDate": "2021-11-18",
+    "firstSubmitDate": "2015-12-02",
+    "firstPostDate": "2015-12-04"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Motor complete SCI (AIS A-B)\n\nExclusion Criteria:\n\n1. Pressure ulcers\n2. Chronic infection\n3. Lower extremity muscle contractures\n4. Deep vein thrombosis\n5. Bleeding disorder\n6. Recent limb fractures\n7. Any comorbid disease known to affect bone metabolism (such as parathyroid dysfunction)\n8. Pregnancy\n9. Anti-osteoporosis medications\n10. Vitamin D supplements\n11. Metformin or other medications for diabetes.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Acute Gene Regulation: MSTN",
+        "description": "Acute post-stimulation effect upon skeletal muscle myostatin (MSTN) expression, measured via muscle biopsy and exon array analysis. Probe summarization and probe set normalization were performed using robust multichip average, which included background correction, quantile normalization, log2 transformation and median polish probe set summarization. 0 represents no mRNA expression and higher values represent greater expression compared to all genes in the microarray.",
+        "timeFrame": "3 hours after a single session of electrical stimulation"
+      },
+      {
+        "measure": "Acute Gene Regulation: PGC1-alpha",
+        "description": "Acute post-stimulation effect upon skeletal muscle peroxisome proliferator-activated receptor gamma coactivator alpha (PGC1-alpha) expression, measured via muscle biopsy and exon array analysis. Probe summarization and probe set normalization were performed using robust multichip average, which included background correction, quantile normalization, log2 transformation and median polish probe set summarization. 0 represents no mRNA expression and higher values represent greater expression compared to all genes in the microarray.",
+        "timeFrame": "3 hours after a single session of electrical stimulation"
+      },
+      {
+        "measure": "Acute Gene Regulation: PDK4",
+        "description": "Acute post-stimulation effect upon skeletal muscle pyruvate dehydrogenase kinase, isozyme 4 (PDK4-alpha) expression, measured via muscle biopsy and exon array analysis. Probe summarization and probe set normalization were performed using robust multichip average, which included background correction, quantile normalization, log2 transformation and median polish probe set summarization. 0 represents no mRNA expression and higher values represent greater expression compared to all genes in the microarray.",
+        "timeFrame": "3 hours after a single session of electrical stimulation"
+      },
+      {
+        "measure": "Acute Gene Regulation: SDHB",
+        "description": "Acute post-stimulation effect upon skeletal muscle succinate dehydrogenase-B (SDHB) expression, measured via muscle biopsy and exon array analysis. Probe summarization and probe set normalization were performed using robust multichip average, which included background correction, quantile normalization, log2 transformation and median polish probe set summarization. 0 represents no mRNA expression and higher values represent greater expression compared to all genes in the microarray.",
+        "timeFrame": "3 hours after a single session of electrical stimulation"
+      },
+      {
+        "measure": "Post-training Gene Regulation: MSTN",
+        "description": "Pre- and post-training skeletal muscle myostatin (MSTN) expression, measured via muscle biopsy and exon array analysis. Probe summarization and probe set normalization were performed using robust multichip average, which included background correction, quantile normalization, log2 transformation and median polish probe set summarization. 0 represents no mRNA expression and higher values represent greater expression compared to all genes in the microarray.",
+        "timeFrame": "up to 3 years"
+      },
+      {
+        "measure": "Post-training Gene Regulation: PGC1-alpha",
+        "description": "Pre- and post-training skeletal muscle peroxisome proliferator-activated receptor gamma coactivator alpha (PGC1-alpha) expression, measured via muscle biopsy and exon array analysis. Probe summarization and probe set normalization were performed using robust multichip average, which included background correction, quantile normalization, log2 transformation and median polish probe set summarization. 0 represents no mRNA expression and higher values represent greater expression compared to all genes in the microarray.",
+        "timeFrame": "up to 3 years"
+      },
+      {
+        "measure": "Post-training Gene Regulation: PDK4",
+        "description": "Pre- and post-training skeletal muscle pyruvate dehydrogenase kinase, isozyme 4 (PDK4-alpha) expression, measured via muscle biopsy and exon array analysis. Probe summarization and probe set normalization were performed using robust multichip average, which included background correction, quantile normalization, log2 transformation and median polish probe set summarization. 0 represents no mRNA expression and higher values represent greater expression compared to all genes in the microarray.",
+        "timeFrame": "up to 3 years"
+      },
+      {
+        "measure": "Post-training Gene Regulation: SDHB",
+        "description": "Pre- and post-training skeletal muscle succinate dehydrogenase-B (SDHB) expression, measured via muscle biopsy and exon array analysis. Probe summarization and probe set normalization were performed using robust multichip average, which included background correction, quantile normalization, log2 transformation and median polish probe set summarization. 0 represents no mRNA expression and higher values represent greater expression compared to all genes in the microarray.",
+        "timeFrame": "up to 3 years"
+      },
+      {
+        "measure": "Post-training Metabolism: Fasting Glucose",
+        "description": "Pre- and post-training fasting glucose, measured via venipuncture and standard laboratory assays",
+        "timeFrame": "up to 3 years"
+      },
+      {
+        "measure": "Post-training Metabolism: Fasting Insulin",
+        "description": "Pre- and post-training fasting insulin, measured via venipuncture and standard laboratory assays",
+        "timeFrame": "up to 3 years"
+      },
+      {
+        "measure": "Post-training Metabolism: HOMA Score",
+        "description": "Pre- and post-training HOMA score, calculated via the Homeostasis Model Assessment equation.\n\nMaximum/minimum values: not applicable. Scores \\>2 are indicative of insulin resistance.",
+        "timeFrame": "up to 3 years"
+      },
+      {
+        "measure": "Post-training Bone Turnover: Osteocalcin",
+        "description": "Pre- and post-training serum osteocalcin, measured via venipuncture and enzyme-linked immunosorbent assay",
+        "timeFrame": "up to 3 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Post-training Subject-report Measures: EQ-5D",
+        "description": "Pre- and post-training QALY (quality-adjusted life-years) via the EQ-5D subject-report survey instrument.\n\nScale ranges from -0.287 to 0.992. Higher values indicated a higher self-perceived health state.",
+        "timeFrame": "up to 3 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 12,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 13
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:02.680Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

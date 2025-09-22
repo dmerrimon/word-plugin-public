@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT03654898",
+  "briefTitle": "VITAL Start: Brief Facility-based Video Intervention",
+  "officialTitle": "VITAL Start (Video-intervention to Inspire Treatment Adherence for Life): Brief Facility-based Video Intervention to Improve Retention and Adherence to ART Among Pregnant and Breastfeeding Women",
+  "protocolDocument": {
+    "nctId": "NCT03654898",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2020-03-26",
+    "uploadDate": "2023-10-15T17:40",
+    "size": 773718,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03654898/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 800,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-10-01",
+    "completionDate": "2022-10-26",
+    "primaryCompletionDate": "2022-10-26",
+    "firstSubmitDate": "2018-08-23",
+    "firstPostDate": "2018-08-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Women who are HIV positive by two antibody rapid tests approved by the Malawi Ministry of Health\n* Women age ≥18 years or 16-17 years if married or have a child\n* Women who understand chichewa\n* Women who are willing to provide informed consent\n* Women who intend to remain in the health center catchment area for at least 6 months\n\nExclusion Criteria:\n\n* Women already on ART\n* Women with significant pre-existing psychiatric comorbidity at enrollment that may impact ability to provide consent according to the clinical judgment of study personnel (including cognitive impairment or known psychotic disorder)\n* Women who participated in the study pilot",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "16 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Composite of Retention in ART Clinic and Viral Suppression",
+        "description": "This outcome is an aggregate measure. The study will measure if participants are both retained in ART clinic and also virally suppressed. Participants will be considered retained in care if they are verified by clinic records as active on ART. Amongst those retained the study will then assess viral suppression which will be measured as viral load less than 1,000 copies per milliliter.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Good Self-reported Behavioral Adherence",
+        "description": "Self-reported adherence will be measured by a three-item adherence scale. The three items will include an assessment of the number of days with missed ART doses in the preceding 30 days; a scale rating of how good a job the participant did taking their medicines in the preceding 30 days and a scale rating of how often the participant took their medicines the way they were supposed to in the preceding 30 days. Item responses for the three adherence items will be linearly transformed to a 0-100 scale.\n\nScores will be analyzed as a binary variable, with a score \\>/=90 good adherence and \\<90 not good adherence.",
+        "timeFrame": "12 months"
+      },
+      {
+        "measure": "Number of Participants With Good (Daily) ART Adherence Was Measured by Drug Concentration in the Blood",
+        "description": "The concentration of two metabolites, Tenofovir diphosphate (TFVdp) and lamivudine triphosphate (3TCtp), was used to objectively measure ART adherence. The concentration of each metabolite was classified as low, medium, or high. TFVdp (low: \\<560; medium: 560 to 1399; and high: 1400 to 20900 fmol/sample) and 3TCtp (low: \\<400; medium: 400 to 799; and high: 800 to 2100 fmol/sample). For either metabolite, the high category suggests the participant had good (daily) ART adherence.",
+        "timeFrame": "Month 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:19.640Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03474549",
+  "briefTitle": "Treatment With Intent to Generate Endovascular Reperfusion",
+  "officialTitle": "Treatment With Intent to Generate Endovascular Reperfusion",
+  "protocolDocument": {
+    "nctId": "NCT03474549",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-12-12",
+    "uploadDate": "2022-04-26T04:56",
+    "size": 1446347,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03474549/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 160,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-05-09",
+    "completionDate": "2020-06-30",
+    "primaryCompletionDate": "2020-04-15",
+    "firstSubmitDate": "2018-03-06",
+    "firstPostDate": "2018-03-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. New focal neurologic deficit consistent with being of acute cerebral ischemia origin.\n2. Age 18-85 years old (inclusive).\n3. Interventionalist estimates that treatment with the Tigertriever (first deployment in target vessel) can be achieved within 8 hours of symptom onset.\n4. Patient either: a) eligible for, and received, IV t-PA within 3 hours of symptom onset, at the correct 0.9 mg/kg dose, or b) ineligible for IV t-PA.\n5. NIH Stroke Scale score of 8-29.\n6. No known significant pre-stroke disability (prestroke mRS 0 or 1).\n7. Catheter angiographic confirmation of a large vessel occlusion in the intracranial internal carotid artery, the M1 or M2 segments of the middle cerebral artery, the intracranial vertebral artery, or the basilar artery that is accessible to Tigertriever device.\n8. For strokes in the anterior circulation, the following imaging criteria should also be met:\n\n   1. MRI criterion: volume of diffusion restriction visually assessed ≤50 mL, OR\n   2. CT criterion: ASPECTS 6 to 10 on baseline NCCT or CTA-source images,\n9. For strokes in the posterior circulation, the following imaging criterion should also be met: pcASPECTS score 8 to 10 on baseline NCCT, CTA-source images, or DWI MRI.\n10. Anticipated life expectancy of at least 6 months.\n11. A signed informed consent by patient or a Legally Authorized Representative or independent physician in case of oral consent.\n\nExclusion Criteria:\n\n1. Subject already participating in another study of an investigational treatment device or treatment.\n2. Use of any other intra-arterial recanalization drug or device prior to the Tigertriever (Tigertriever not as first choice device).\n3. Angiographically evident excessive arterial tortuosity precluding device access to the thrombus.\n4. For all patients, severe sustained hypertension with SBP \\>220 and/or DBP \\>120; for patients treated with IV tPA, sustained hypertension despite treatment with SBP \\>185 and/or DBP \\> 110.\n5. Glucose \\< 50 mg/dl (2.78 mmol/L) or \\> 400 mg/dl (22.20 mmol/L).\n6. Known hemorrhagic diathesis.\n7. Coagulation factor deficiency or oral anti-coagulant therapy with an international normalized ratio (INR) of more than 3.0.\n8. Treatment with heparin within 48 h with a partial thromboplastin time more than two times the laboratory normal.\n9. Patients who have received a direct thrombin inhibitor within the last 48 hours; must have a partial thromboplastin time (PTT) less than 1.5 times the normal to be eligible.\n10. Platelet count of less than 50,000/uL.\n11. History of severe allergy to contrast medium, nickel, or Nitinol.\n12. Intracranial hemorrhage.\n13. Significant mass effect with midline shift.\n14. Intracranial tumor (apart from small meningioma, ≤ 2 cm in diameter).\n15. Stenosis or any occlusion in the deployment site or in a proximal vessel requiring treatment or preventing device access to the thrombus (for example, stenosis or occlusion in the cervical internal carotid artery).\n16. Females who are pregnant or breastfeeding.\n17. Known current use of cocaine at time of treatment.\n18. Prior recent stroke in the past 3 months.\n19. Renal failure with serum creatinine \\>3.0 or Glomerular Filtration Rate (GFR) \\<30.\n20. Known cerebral vasculitis.\n21. Rapidly improving neurological status defined as improvement of greater than 8 points on the NIHSS or improvement to NIHSS of \\< 6 prior to procedure\n22. Clinical symptoms suggestive of bilateral stroke or stroke in multiple territories.\n23. Ongoing seizure due to stroke.\n24. Evidence of active systemic infection.\n25. Known cancer with metastases.\n26. Suspicion of aortic dissection, septic embolus, or bacterial endocarditis.\n27. Evidence of dissection in the extra or intracranial cerebral arteries.\n28. Occlusions in multiple vascular territories (e.g., bilateral anterior circulation, or anterior/posterior circulation).\n29. Aneurysm in target vessel.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Successful Reperfusion, Defined as mTICI Score ≥ 2b",
+        "description": "Effectiveness (Successful reperfusion)",
+        "timeFrame": "Day 0 (end of procedure)"
+      },
+      {
+        "measure": "All-cause Mortality",
+        "description": "Safety (All-cause mortality)",
+        "timeFrame": "90 days post treatment"
+      },
+      {
+        "measure": "Symptomatic Intracranial Hemorrhage (sICH) Defined as Any Parenchymal Hematoma Type 2, Remote Intracerebral Hemorrhage, Subarachnoid Hemorrhage, or Intraventricular Hemorrhage That is the Predominant Cause of ≥4 Point NIHSS Deterioration at 24 Hours",
+        "description": "Safety (Symptomatic intracranial hemorrhage (sICH)) defined as any parenchymal hematoma type 2, remote intracerebral hemorrhage, subarachnoid hemorrhage, or intraventricular hemorrhage that is the predominant cause of ≥4 point NIHSS deterioration at 24 hours.",
+        "timeFrame": "24 hours post procedure"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Modified Rankin Scale (mRS) Score of ≤2",
+        "description": "modified Ranking Scale is a commonly used scale for measuring the degree of disability or dependence in the daily activities of people who have suffered a stroke. The scale runs from 0-6, running from perfect health without symptoms to death.",
+        "timeFrame": "90 days post treatment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:35.982Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

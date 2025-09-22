@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT02385110",
+  "briefTitle": "Alemtuzumab or Tocilizumab in Combination With Etoposide and Dexamethasone for the Treatment of Adult Patients With Hemophagocytic Lymphohistiocytosis",
+  "officialTitle": "Alemtuzumab or Tocilizumab in Combination With Etoposide and Dexamethasone for the Treatment of Adult Patients With Hemophagocytic Lymphohistiocytosis",
+  "protocolDocument": {
+    "nctId": "NCT02385110",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-01-26",
+    "uploadDate": "2023-12-12T14:54",
+    "size": 860818,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02385110/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 18,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-09-23",
+    "completionDate": "2023-01-24",
+    "primaryCompletionDate": "2023-01-24",
+    "firstSubmitDate": "2015-03-05",
+    "firstPostDate": "2015-03-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Sign an IRB-approved informed consent document.\n2. Patients must be \\>/= 18 years of age.\n3. • A documentation of diagnosis of hemophagocytic lymphocytosis, either newly diagnosed or relapsed/refractory by the treating physician and the PI in the patients chart. It must be noted that no diagnostic criteria have been established for diagnosis of HLH in adult patients as this was a hitherto poorly identified and considered to be a very rare disease in adults. We have seen an increasing number of cases of HLH at our institution over the last 2 years partly due to referrals and partly due to better understanding of the disease through discussions with our collaborators Dr Kenneth McClain and Dr Carl Allen at TCH (experts in pediatric HLH). Adult HLH seems to occur more frequently post malignancy and has a more fulminant course than pediatric HLH.\n4. Continued from No. 3: The diagnostic criteria that have been traditionally used for children (HLH 1991 and HLH 2004) may not adequately diagnose HLH in adults. This is the first adult HLH protocol in the country. In the absence of standard diagnostic guidelines if the patient's symptoms are highly suspicious for HLH and after an adequate work-up to rule out alternate potential alternate etiologies is performed we will treat the patient for HLH as missing the diagnosis is associated with high mortality. These patients will be discussed with the PI (Dr Daver) prior to enrollment in all such cases.\n5. Organ function as defined below (unless due to the HLH process): Serum creatinine \\</= 3.0 mg/dL, Total bilirubin \\</= 5.0 mg/dL. If organ dysfunction is thought to be related to the HLH process this must be clearly documented in the chart and the patients may be enrolled on study irrespective of creatinine and bilirubin levels.\n6. Women of childbearing potential must practice contraception. Females of childbearing potential: Recommendation is for 2 effective contraceptive methods during the study. Adequate forms of contraception are double barrier methods (condoms with spermicidal jelly or foam and diaphragm with spermicidal jelly or foam), oral, depo provera, or injectable contraceptives, intrauterine devices, and tubal ligation. Male patients with female partners who are of childbearing potential: Recommendation is for male and partner to use at least 2 effective contraceptive methods, as described above, prior to study entry and for at least 3 months after the last dose of study drug.\n7. Negative urine pregnancy test and/or serum pregnancy test within 7 days of initiation of therapy.\n8. Male patients with female partners who are of childbearing potential: Recommendation is for male and partner to use at least 2 effective contraceptive methods, as described above, prior to study entry and for at least 3 months after the last dose of study drug.\n\nExclusion Criteria:\n\n1. Pregnant and breast feeding women\n2. Any serious/and or unstable pre-existing medical disorder (aside from malignancy exception above), psychiatric disorder, or other conditions that could interfere with subject's safety, obtaining informed consent or compliance to the study procedures\n3. Patients unwilling or unable to comply with the protocol.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With a Response to Alemtuzumab or Tocilizumab in Combination With Etoposide and Dexamethasone for the Treatment of Adult Patients With Hemophagocytic Lymphohistiocytosis",
+        "description": "Response is defined as complete response (CR) and/or partial response (PR) and/or parameter improvements (PI). Complete response (CR) is normalization to within institutional normal limits of diagnostic clinical and laboratory abnormalities associated with HLH. In the case of ferritin, normalization OR a 3 fold improvement in the pre-study level will be evidence of complete response, provided the post therapy level is also below 10000 ng/ml. Partial response (PR) is sustained normalization of 3 or more of the diagnostic clinical and laboratory abnormalities noted above (or, with ferritin, improvement as described above) and no apparent progression of other aspects of disease pathology. Parameter improvements (PI) is at least a 25% improvement in two or more quantifiable symptoms and/or laboratory markers from those mentioned above within 8 weeks (+/- 7 days) of initiation of therapy.",
+        "timeFrame": "8 weeks"
+      },
+      {
+        "measure": "Disease Free Survival",
+        "description": "Time from date of treatment start until the date of first objective documentation of disease-relapse.",
+        "timeFrame": "8 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:04.699Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

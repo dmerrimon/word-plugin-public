@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT03374241",
+  "briefTitle": "A First-in-human Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of HM15211(Efocipegtrutide)",
+  "officialTitle": "A First-in-human Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics After Single Ascending Dose of HM15211(Efocipegtrutide) in Healthy Obese Subjects",
+  "protocolDocument": {
+    "nctId": "NCT03374241",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-04-06",
+    "uploadDate": "2021-03-30T21:47",
+    "size": 835106,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03374241/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 41,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-04-04",
+    "completionDate": "2018-09-14",
+    "primaryCompletionDate": "2018-09-14",
+    "firstSubmitDate": "2017-12-12",
+    "firstPostDate": "2017-12-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Female subjects must be non-pregnant and non-lactating\n\nExclusion Criteria:\n\n* Participation in an investigational study within 30 days prior to dosing",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Adverse Events",
+        "description": "An adverse event is any undesirable and unintended medical event occurring to a subject in a clinical study, whether or not related to the investigational products",
+        "timeFrame": "1 month"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:15.173Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT01703598",
+  "briefTitle": "Clinical Outcomes of Deep Brain Stimulator (DBS) Electrodes Placed Using Intraoperative Computed Tomography (CT) and Frameless Stereotaxis",
+  "officialTitle": "Clinical Outcomes of Deep Brain Stimulator Electrodes Placed Using Intraoperative Computed Tomography and Frameless Stereotaxis Versus Microelectrode Recording and Frame-based Stereotaxis",
+  "protocolDocument": {
+    "nctId": "NCT01703598",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-10-06",
+    "uploadDate": "2019-07-22T12:52",
+    "size": 254811,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01703598/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 69,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-09",
+    "completionDate": "2017-03",
+    "primaryCompletionDate": "2017-03",
+    "firstSubmitDate": "2011-09-09",
+    "firstPostDate": "2012-10-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Idiopathic Parkinson's disease patients identified by OHSU movement disorders neurologists as deep brain stimulation surgical candidates\n\nExclusion Criteria:\n\n* Subjects who have already undergone implantation of DBS electrodes 2.Age \\< - - 18 years\n* Surgical target site other than subthalamic nucleus or globus pallidus pars interna\n* Subjects who choose to undergo MER and frame-based stereotaxis for the placement of electrodes.\n* Patients who will receive follow up neurology care and DBS programming at centers other than OHSU.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Motor OFF Ldopa UPDRS",
+        "description": "Change in motor UPDRS in OFF Levodopa state. The range of this outcome is from 0 to 108, a higher number indicated a worse clinical state.\n\nThe number represents units on this scale.",
+        "timeFrame": "Baseline and 6 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:29:45.199Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

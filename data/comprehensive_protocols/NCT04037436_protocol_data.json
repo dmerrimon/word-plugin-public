@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT04037436",
+  "briefTitle": "Functional Exercise and Nutrition Education Program for Older Adults",
+  "officialTitle": "A Model for Delivering Strength Training and Nutrition Education for Older Adults (MoveStrong): A Pilot Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT04037436",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2019-06-18",
+    "uploadDate": "2019-07-22T11:56",
+    "size": 1178763,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04037436/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 44,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-24",
+    "completionDate": "2020-09-01",
+    "primaryCompletionDate": "2020-03-14",
+    "firstSubmitDate": "2019-06-28",
+    "firstPostDate": "2019-07-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Speak English or attend with a translator;\n* ≥ 60 years;\n* FRAIL scale score ≥1;\n* Have ≥1 diagnosed chronic condition (i.e., diabetes, obesity, cancer (other than minor skin cancer), chronic lung disease, cardiovascular disease, congestive heart failure, hypertension, osteoporosis, arthritis, stroke, or kidney disease).\n\nExclusion Criteria:\n\n* Currently doing similar resistance exercise ≥2x/week;\n* In palliative care;\n* Not able to perform basic activities of daily living;\n* Cognitive impairment (e.g., unable to follow two-step commands);\n* Travelling \\>1 week during exposure;\n* Absolute exercise contraindications (i.e., if they select \"no\" to any question in the Get Active Questionnaire they must seek physician approval before exercising)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Feasibility - Recruitment",
+        "description": "Definition: Number recruited at end of rollout. The criterion for success is to recruit 10 participants at each of 4 sites.",
+        "timeFrame": "2 month (September to October 2019)"
+      },
+      {
+        "measure": "Feasibility - Retention",
+        "description": "Definition: Number retrained at post-rollout end. The criterion for success is 90% at rollout end.",
+        "timeFrame": "Start of the program to 9 weeks"
+      },
+      {
+        "measure": "Feasibility - Adherence",
+        "description": "Definition: Percentage of individuals that attended exercise and nutrition sessions.\n\nThe criterion for success is 70% or higher.",
+        "timeFrame": "16 sessions"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Body Weight",
+        "description": "We will measure body weight with a calibrated scale.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "10 Meter Walk Test",
+        "description": "Fried Frailty Index Components: walking speed via the 10-meter walk test protocol.",
+        "timeFrame": "Mean change from follow up (study visit 4) and baseline"
+      },
+      {
+        "measure": "Grip Strength",
+        "description": "Fried Frailty Index Components: weakness via the Jamar hand-held dynamometer",
+        "timeFrame": "Mean change from follow up (study visit 4) and baseline"
+      },
+      {
+        "measure": "30 Second Chair Stand Test",
+        "description": "We will use a chair with a straight back without arm rests (seat 17\" high), and a stopwatch. This will assess leg strength and endurance.",
+        "timeFrame": "Mean change from follow up (study visit 4) and baseline"
+      },
+      {
+        "measure": "4 Square Step Test",
+        "description": "The Four Square Step Test is used to assess dynamic stability and the ability of the subject to step over low objects forward, sideways, and backward. For older adults \\> 15 seconds indicates increased risk of falls",
+        "timeFrame": "Mean change from follow up (study visit 4) and baseline"
+      },
+      {
+        "measure": "EuroQol 5 Dimension Version 5-level (EQ-5D-5L)",
+        "description": "The EuroQol 5 dimension version 5-level (EQ-5D-5L) measures quality of life using 5 dimensions, on a 5 point scale, where a higher point is considered better. The scores on the subscales are given weights and summed to convert the scores to one index score. The range of possible scores for the EQ-5D-5L index is from -0.573 to 1. A higher score is better.",
+        "timeFrame": "Mean change from follow up (study visit 4) and baseline"
+      },
+      {
+        "measure": "Automated Self-Administered 24-Hour (ASA24®) Dietary Assessment Tool",
+        "description": "We will use the Automated Self-Administered 24-Hour (ASA24®) Dietary Assessment Tool to conduct interviewer administered diet recalls for 2 weekdays and 1 weekend day. Nutrient analysis is automated and will be used to quantify and compare protein and energy intakes at baseline and follow-up only. There is no scale to this section",
+        "timeFrame": "Mean change from follow up (study visit 4) and baseline"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events",
+        "description": "We will ask participants to report adverse events and falls, using Health Canada definitions. We will report serious and non-serious adverse events (total and attributable to intervention). There is no scale to this section",
+        "timeFrame": "Study visit 1, 2, 3 and 4"
+      },
+      {
+        "measure": "Participant and Provider Experience",
+        "description": "We used a semi-structured interview guide to conduct exit interviews with each participant and kinesiologist. Interviews and training sessions will be audio-recorded and transcribed verbatim. Two researchers will perform thematic analyses to describe participant and provider experience and satisfaction, adaptations, and learning needs. There is no scale to this section.",
+        "timeFrame": "study visit 4"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 89,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:02.009Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

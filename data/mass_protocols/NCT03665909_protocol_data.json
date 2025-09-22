@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT03665909",
+  "briefTitle": "A Proactive Health Monitoring Intervention for Dementia Caregivers",
+  "officialTitle": "A Proactive Health Monitoring Intervention for Dementia Caregivers: The eNeighbor",
+  "protocolDocument": {
+    "nctId": "NCT03665909",
+    "filename": "Prot_SAP_003.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-09-20",
+    "uploadDate": "2023-09-26T10:50",
+    "size": 1923416,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03665909/document/Prot_SAP_003.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 179,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-04-01",
+    "completionDate": "2020-04-08",
+    "primaryCompletionDate": "2020-03-31",
+    "firstSubmitDate": "2018-09-04",
+    "firstPostDate": "2018-09-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "INCLUSION\n\n* The person with ADRD must be English speaking;\n* The person with ADRD must have a physician diagnosis of ADRD (Alzheimer's disease, Lewy Body disease, fronto-temporal dementia, or stroke/vascular dementia; mild cognitive impairment only)\n* The person with ADRD must not be currently receiving care or case management services;\n* The person with ADRD must be 55 years of age and over;\n* The caregiver of persons with ADRD must be English speaking;\n* The caregiver of persons with ADRD must be 21 years of age and over;\n* The caregiver of persons with ADRD must self-identify as someone who provides help to the person with ADRD because of their cognitive impairments;\n* The caregiver of persons with ADRD must self-identify as the person most responsible for providing hands-on care to the person with ADRD;\n* The caregiver of persons with ADRD must plan to remain in the area for at least 18 months in order to reduce possible loss to follow-up; and\n* The caregiver of persons with ADRD must indicate a willingness to use eNeighbor.\n\nEXCLUSION\n\n● Those who do not meet the above inclusion criteria.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Nursing home utilization at 18 months for the person with ADRD",
+        "description": "Caregiver report of nursing home use at 18 months.",
+        "timeFrame": "18-months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Perceptions of change in caregiver self-efficacy",
+        "description": "An 8-item survey measure of caregiver self-efficacy. Item responses range from 1 \"very unconfident\" to 5 \"very confident.\" Scores are summed and can range from a score of 1 (low self-efficacy) to 40 (high self-efficacy).",
+        "timeFrame": "Baseline, 6-months, 12-months, 18-months"
+      },
+      {
+        "measure": "Perceptions of change in caregiver competence",
+        "description": "The 7-item Short Sense of Competence Questionnaire (SSCQ), which assesses individuals' sense of capability in providing assistance to a relative with Alzheimer's disease or related dementias via survey report. Item responses range from 1 = strongly disagree to 5 = strongly agree. Item responses are summed, with a total score range of 5 to 35.",
+        "timeFrame": "Baseline, 6-months, 12-months, 18-months"
+      },
+      {
+        "measure": "Perceptions of change in caregiver burden",
+        "description": "The 22-item Zarit Burden Interview self-report survey measure. Item responses range from 0 \"never\" to 4 \"nearly always.\" Scores are summed and can range from a score of 0 (no burden) to 88 (high burden).",
+        "timeFrame": "Baseline, 6-months, 12-months, 18-months"
+      },
+      {
+        "measure": "Perceptions of change in caregiver role captivity",
+        "description": "The 4-item role captivity measure assesses the involuntary aspects of the caregiving role. Item responses range from 1 = \"not at all\" to 4 = \"very much.\" The total role captivity score is the sum of item responses with a range of 4 (no role captivity) to 16 (high role captivity).",
+        "timeFrame": "Baseline, 6-months, 12-months, 18-months"
+      },
+      {
+        "measure": "Change in caregiver role overload",
+        "description": "The 3-item role overload survey measure ascertains caregivers' feelings of emotional and physical fatigue. Item responses range from 1 = \"not at all\" to 4 = \"very much.\" The total role overload score is the sum iof item responses with a range of 4 (no role overload) to 16 (high role overload).",
+        "timeFrame": "Baseline, 6-months, 12-months, 18-months"
+      },
+      {
+        "measure": "Change in frequency/perceptions caregiver depressive symptom severity",
+        "description": "The 20-item Center for Epidemiological Studies Depression (CES-D) survey measure is used to assess caregivers' depressive symptoms. Item responses range from 1 = \"Rarely or none of the time (less than 1 day)\" to 5 = \"Most of the time (5-7 days).\" The total CES-D score is summed, with a range of 20 (little to no depressive symptoms) to 100 (frequent depressive symptoms).",
+        "timeFrame": "Baseline, 6-months, 12-months, 18-months"
+      },
+      {
+        "measure": "Perceived acceptability/utility of remote activity monitoring at 6-, 12-, and 18-months",
+        "description": "The Remote Activity Monitoring Review Checklist is administered to caregiving participants in the treatment condition at the 6-month, 12-month and 18-month follow-up survey intervals. The checklist consists of 21 self-report survey Likert scale items. Item responses range from 1 = strongly disagree to 5 = strongly agree. The total checklist score is averaged, with a score of 1 = the remote activity monitoring system was not well-received/accepted to 5 = the remote activity monitoring system was very well received/accepted.",
+        "timeFrame": "6-months, 12-months, 18-months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:00.985Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT07037381",
+  "briefTitle": "A Study to Explore the Physiological Impact of AIR+ KN95 Masks on Children",
+  "officialTitle": "A Study to Explore the Physiological Impact of AIR+ KN95 Masks on Children",
+  "protocolDocument": {
+    "nctId": "NCT07037381",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-04-26",
+    "uploadDate": "2025-06-21T01:02",
+    "size": 442272,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07037381/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-05-06",
+    "completionDate": "2024-05-23",
+    "primaryCompletionDate": "2024-05-23",
+    "firstSubmitDate": "2025-06-12",
+    "firstPostDate": "2025-06-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Aged between 7 and 14 years of age (inclusive)\n2. Subjects and their parents or legal guardian must provide their consent/ assent to take part in this study\n\nExclusion Criteria:\n\n1. Subjects with any known cardiorespiratory conditions (including but not limited to the following: asthma, bronchitis, cystic fibrosis, congenital heart disease, emphysema)\n2. Subjects with any known medical conditions that may be exacerbated by strenuous activity, including but not limited to the following: exercise-induced asthma, lower respiratory infection (including pneumonia, bronchitis) in the past 2 weeks, anxiety disorders, diabetes, hypertension, or epilepsy/ seizure disorder\n3. Subjects with any physical disability from medical, orthopaedic, or neuromuscular disorders\n4. Subjects who have an acute upper respiratory tract infection/ moderately severe rhinitis (i.e. blocked nasal passages) on the day of the study\n5. Subjects who may compromise the integrity of the mask fit (e.g. those with excessive facial hair)",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "7 Years",
+    "maximumAge": "14 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "End-tidal Carbon Dioxide",
+        "description": "Single-use nasal cannulas used in conjunction with Nomoline™ Adapters connected to a Masimo Rad-97™ Pulse CO-Oximeter™ with NomoLine Capnography to log the End-tidal Carbon Dioxide (ETCO2), respiratory rate (RR) information, oxygen saturation (SpO2) and heart rate (HR).",
+        "timeFrame": "Measured every minute for 24 minutes over 4 segments. 1. Rest with no mask (control)-5minutes 2. Rest with AIR+KN95 mask (intervention) -5minutes 3. Mild exertion without mask (control)-7minutes 4. Mild exertion with AIR+KN95 mask(intervention) -7minutes"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Oxygen Saturation",
+        "description": "Single-use nasal cannulas used in conjunction with Nomoline™ Adapters connected to a Masimo Rad-97™ Pulse CO-Oximeter™ with NomoLine Capnography to log the End-tidal Carbon Dioxide (ETCO2), respiratory rate (RR) information, oxygen saturation (SpO2) and heart rate (HR).",
+        "timeFrame": "Measured every minute for 24 minutes over 4 segments. 1. Rest with no mask (control)-5minutes 2. Rest with AIR+KN95 mask (intervention) -5minutes 3. Mild exertion without mask (control)-7minutes 4. Mild exertion with AIR+KN95 mask(intervention) -7minutes"
+      },
+      {
+        "measure": "Respiratory Rate",
+        "description": "Single-use nasal cannulas used in conjunction with Nomoline™ Adapters connected to a Masimo Rad-97™ Pulse CO-Oximeter™ with NomoLine Capnography to log the End-tidal Carbon Dioxide (ETCO2), respiratory rate (RR) information, oxygen saturation (SpO2) and heart rate (HR).",
+        "timeFrame": "Measured every minute for 24 minutes over 4 segments. 1. Rest with no mask (control)-5minutes 2. Rest with AIR+KN95 mask (intervention) -5minutes 3. Mild exertion without mask (control)-7minutes 4. Mild exertion with AIR+KN95 mask(intervention) -7minutes"
+      },
+      {
+        "measure": "Heart Rate",
+        "description": "Single-use nasal cannulas used in conjunction with Nomoline™ Adapters connected to a Masimo Rad-97™ Pulse CO-Oximeter™ with NomoLine Capnography to log the End-tidal Carbon Dioxide (ETCO2), respiratory rate (RR) information, oxygen saturation (SpO2) and heart rate (HR).",
+        "timeFrame": "Measured every minute for 24 minutes over 4 segments. 1. Rest with no mask (control)-5minutes 2. Rest with AIR+KN95 mask (intervention) -5minutes 3. Mild exertion without mask (control)-7minutes 4. Mild exertion with AIR+KN95 mask(intervention) -7minutes"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:39.150Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

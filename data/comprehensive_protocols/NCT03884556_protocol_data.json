@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03884556",
+  "briefTitle": "TTX-030 Single Agent and in Combination With Immunotherapy or Chemotherapy for Patients With Advanced Cancers",
+  "officialTitle": "Phase 1/1b Study of the Safety of TTX-030 as a Single Agent and in Combination With Pembrolizumab or Chemotherapy in Patients With Lymphoma or Solid Tumor Malignancies",
+  "protocolDocument": {
+    "nctId": "NCT03884556",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-12-15",
+    "uploadDate": "2024-11-01T15:05",
+    "size": 2456751,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03884556/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 56,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-04-10",
+    "completionDate": "2023-09-29",
+    "primaryCompletionDate": "2022-11-30",
+    "firstSubmitDate": "2019-03-16",
+    "firstPostDate": "2019-03-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Abreviated Inclusion Criteria\n\n1. Advanced solid tumor malignancy or relapsed/refractory lymphoma, or\n\n   * eligible to receive single-agent pembrolizumab as standard of care, or\n   * eligible to receive single-agent docetaxel as standard of care, or\n   * advanced pancreatic adenocarcinoma and eligible to receive gemcitabine plus nab-paclitaxel as standard of care.\n2. Age 18 years or older, is willing and able to provide informed consent\n3. Evidence of measurable disease\n4. Life expectancy \\> 12 weeks and Eastern Cooperative Oncology Group (ECOG) performance status of 0-1\n\nAbbreviated Exclusion Criteria\n\n1. History of allergy or hypersensitivity to study treatment components. Patients with a history of severe hypersensitivity reaction to any monoclonal antibody.\n2. Use of investigational agent within 28 days prior to the first dose of study treatment and throughout the study\n3. Receiving high-dose systemic steroid therapy or any other form of immunosuppressive therapy\n4. History of severe autoimmune disease\n5. Uncontrolled intercurrent illness or other active malignancy requiring ongoing treatment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Who Experienced Dose-Limiting Toxicities (DLTs)",
+        "description": "A DLT was defined as any clinically significant AE that occurred during Treatment Cycle 1 that the Investigator or Sponsor considered as possibly or likely related to TTX-030 as a single agent, or the combination of TTX-030 and other agent(s), and met the following criteria: NCI CTCAE Version 5.0 Grade 5 event, Grade 4 hematological or Grade≥3 non-hematological toxicities, or Grade≥3 irAEs. Laboratory abnormalities that were asymptomatic and deemed not clinically significant were not regarded as DLTs.\n\nDuring Dose Escalation, each dosing cohort was completed through the DLT observation window before escalation was allowed within its arm. In each Safety Lead-in cohort, all participants were closely monitored for the occurrence of DLTs.",
+        "timeFrame": "1 cycle (each cycle is 21-28 days)"
+      },
+      {
+        "measure": "Objective Response Rate (ORR) - Arm 1 and Arm 2 Expansion Cohorts",
+        "description": "Anti-tumor activity in subjects treated with TTX-030 as single agent or in combination with specified regimens",
+        "timeFrame": "Through study completion, an average of 1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Objective Response Rate (ORR) (Except for Arm 1 and 2 Expansion Cohorts, Where ORR Was a Primary Endpoint)",
+        "description": "Anti-tumor activity in subjects treated with TTX-030 as single agent or in combination with specified regimens",
+        "timeFrame": "Through study completion, an average of 1 year"
+      },
+      {
+        "measure": "Maximum Plasma Concentration (Cmax)",
+        "description": "PK parameters of serum TTX-030 by Arm and Dose - Cycle 1",
+        "timeFrame": "Cycles 1-3 (each cycle is 21-28 days)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 40,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:51.986Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

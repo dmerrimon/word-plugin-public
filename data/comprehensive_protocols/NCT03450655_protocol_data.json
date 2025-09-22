@@ -1,0 +1,144 @@
+{
+  "nctId": "NCT03450655",
+  "briefTitle": "Cardio Training of Older Adults With Central Obesity",
+  "officialTitle": "Cardio Training of Older Adults With Central Obesity",
+  "protocolDocument": {
+    "nctId": "NCT03450655",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-02-16",
+    "uploadDate": "2018-02-16T08:30",
+    "size": 309095,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03450655/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 80,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2018-02-09",
+    "completionDate": "2018-09-28",
+    "primaryCompletionDate": "2018-09-28",
+    "firstSubmitDate": "2018-02-16",
+    "firstPostDate": "2018-03-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participated in the Healthy Ageing Initiative (a population-based intervention study in Umeå, Sweden)\n* Visceral adipose tissue mass \\>1 kg (women) or \\>2 kg (men)\n\nExclusion Criteria:\n\n* Physical disability that affects ability to perform the exercises\n* Heart failure or severe degenerative condition (e.g. malignant cancer or multiple sclerosis)\n* Myocardial infarction or stroke in the past year\n* Heart condition that can worsen with aerobic exercise (e.g. angina)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "70 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in visceral adipose tissue mass",
+        "description": "Mass (g) measured using Lunar iDXA with CoreScan application (GE Healthcare, Wauwatosa, WI, USA).",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in body composition",
+        "description": "Mass (g) measured using Lunar iDXA with CoreScan application (GE Healthcare, Wauwatosa, WI, USA)",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in Body Mass Index (kg/m^2)",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in blood pressure (mmHg)",
+        "description": "Taken after 15 min of rest",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in blood-lipid profile",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in fasting blood glucose",
+        "description": "Veinous blood samples taken after \\> 4 h of fasting",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in isometric muscle strength",
+        "description": "Measured in non-dominant hand with dynamometer (Jamar, Lafayette Instrument, USA). The better of two successive trials will be recorded.",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in physical capacity",
+        "description": "Measured using Åstrands Submaximal Test, performed on an electrically braked ergometer bicycle",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in resting metabolic rate",
+        "description": "As measured by indirect calorimetry",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in health-related quality of life",
+        "description": "As measured by RAND-36",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in self-reported physical activity",
+        "description": "Assessed using IPAQ-SF",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in Microbiota composition",
+        "description": "Fecal samples are taken and bacterial DNA is sequenced to determine bacterial composition",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in dietary habits",
+        "description": "85 item food frequency questionnaire",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      },
+      {
+        "measure": "Change in concentration of inflammatory markers",
+        "timeFrame": "0, 10, 20, and 31 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 13,
+      "otherCount": 0,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:16.422Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

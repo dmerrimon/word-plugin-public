@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT04577651",
+  "briefTitle": "Cartesia eXTend 3D Study",
+  "officialTitle": "Study to Evaluate Boston Scientific Vercise Cartesia 16-contact Directional Lead (X/HX) With Deep Brain Stimulation (DBS) Systems for the Treatment of Parkinson's Disease (PD)",
+  "protocolDocument": {
+    "nctId": "NCT04577651",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-04-15",
+    "uploadDate": "2024-03-27T16:57",
+    "size": 25364697,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04577651/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 58,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-11-02",
+    "completionDate": "2025-01-28",
+    "primaryCompletionDate": "2023-02-27",
+    "firstSubmitDate": "2020-09-26",
+    "firstPostDate": "2020-10-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Candidate for DBS implant in the treatment of Parkinson's disease\n* Must be on stable anti-parkinsonian medications for 28 days prior to Informed Consent\n* Persistent disabling Parkinson's disease symptoms such as dyskinesias, motor fluctuations, or disabling \"off\" periods despite optimal medical therapy\n* Be willing and able to comply with all visits and study related procedures (e.g., using the remote control, charging system, etc.).\n\nKey Exclusion Criteria:\n\n* Any intracranial abnormality or medical condition that would contraindicate DBS surgery\n* Have any significant psychiatric or cognitive condition likely to compromise the subject's ability to comply with requirements of the study protocol (e.g. bipolar, schizophrenia, mood disorder with psychotic features, cluster B personality disorders)\n* Any current drug or alcohol abuse, as determined by the investigator\n* Any history of recurrent or unprovoked seizures",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Motor Function",
+        "description": "Mean change in Movement Disorder Society-Sponsored Revision of the Unified Parkinson's Disease Rating (MDS-UPDRS) Part III scores from Baseline in meds off condition to 12 weeks post device-activation in stim on/meds off condition. Range 0 - 108. Higher scores indicate worse function.",
+        "timeFrame": "12 weeks post device-activation"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Motor Function",
+        "description": "Mean change in Movement Disorder Society-Sponsored Revision of the Unified Parkinson's Disease Rating (MDS-UPDRS) Part III scores from Baseline (meds off) to 26 weeks post device-activation (stim on/meds off). Range 0 - 108. Higher scores indicate worse function.",
+        "timeFrame": "26 weeks post device-activation"
+      },
+      {
+        "measure": "Change in Motor Function",
+        "description": "Mean change in Movement Disorder Society-Sponsored Revision of the Unified Parkinson's Disease Rating (MDS-UPDRS) Part III scores from Baseline (meds off) to 52 weeks post device-activation (stim on/meds off). Range 0 - 108. Higher scores indicate worse function.",
+        "timeFrame": "52 weeks post device-activation"
+      },
+      {
+        "measure": "Change in Quality of Life",
+        "description": "Mean change in Parkinson's Disease Questionnaire (PDQ-39) summary scores from Baseline (meds on) to 12 weeks post device-activation (stim on/meds on). Scores range from 0 to 100, with 0 representing perfect health and 100 representing worst health.",
+        "timeFrame": "12 weeks post device-activation"
+      },
+      {
+        "measure": "Change in Quality of Life",
+        "description": "Mean change in Parkinson's Disease Questionnaire (PDQ-39) summary scores from Baseline (meds on) to 26 weeks post device-activation (stim on/meds on). Scores range from 0 to 100, with 0 representing perfect health and 100 representing worst health.",
+        "timeFrame": "26 weeks post device-activation"
+      },
+      {
+        "measure": "Change in Quality of Life",
+        "description": "Mean change in Parkinson's Disease Questionnaire (PDQ-39) summary scores from Baseline (meds on) to 52 weeks post device-activation (stim on/meds on). Scores range from 0 to 100, with 0 representing perfect health and 100 representing worst health.",
+        "timeFrame": "52 weeks post device-activation"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:43.640Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

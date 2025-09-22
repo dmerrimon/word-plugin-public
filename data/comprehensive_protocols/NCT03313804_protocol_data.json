@@ -1,0 +1,94 @@
+{
+  "nctId": "NCT03313804",
+  "briefTitle": "Priming Immunotherapy in Advanced Disease With Radiation",
+  "officialTitle": "Priming Immunotherapy in Advanced Disease With Radiation",
+  "protocolDocument": {
+    "nctId": "NCT03313804",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-02-06",
+    "uploadDate": "2025-03-18T17:11",
+    "size": 15187971,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03313804/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 76,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-10-26",
+    "completionDate": "2026-01",
+    "primaryCompletionDate": "2024-02-16",
+    "firstSubmitDate": "2017-09-29",
+    "firstPostDate": "2017-10-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Histologically proven advanced or metastatic non-small cell lung cancer or squamous cell carcinoma head and neck with tumor at least 1 cm in size.\n2. Eligible for treatment with radiation therapy.\n3. Prior treatment: chemotherapy or radiotherapy or surgery.\n\n   1. Prior chemotherapy or radiation must have concluded ≥ 21 days prior to the start of study treatment.\n   2. No limit is placed on prior systemic treatment, but subjects must be eligible for immune checkpoint inhibitors therapy, for an FDA approved indication.\n   3. No major surgery within 14 days of start of study treatment.\n4. No previous or concurrent malignancy is allowed except for adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, or other cancer for which the patient has been disease free for the past 3 years.\n5. Age ≥ 18 years.\n6. Life expectancy ≥ 3 months.\n7. Required initial laboratory values:\n\n   1. Absolute neutrophil count ≥ 1,000/mm3\n   2. Platelets ≥ 100,000/mm3\n   3. Total bilirubin ≤ 1.5 x ULN\n   4. AST and ALT if no hepatic metastasis ≤ 2.5 times x ULN\n   5. AST and ALT with hepatic metastasis ≤ 5 x ULN\n   6. Creatinine ≤ 1.5 x ULN and Requires CrCl ≥ 60ml/min (per 24-hour urine collection or calculated according to the Cockcroft-Gault formula)\n8. Non pregnant and non-nursing women. Women of childbearing potential must have a negative serum pregnancy test performed within 7 days prior to the start of treatment. Women of childbearing potential and men must agree to use adequate contraception (barrier method of birth control) prior to study entry and for the duration of study participation. Subjects should use adequate birth control for at least 3 months after the last administration of immune checkpoint inhibitors.\n9. Ability to understand and the willingness to sign a written informed consent document.\n\nExclusion Criteria:\n\n1. Active clinically serious infection \\> CTCAE Grade 2.\n2. Serious non-healing wound, ulcer or bone fracture.\n3. Prior treatment with immune checkpoint inhibitors.\n4. Ineligible for immune checkpoint inhibitors based on package insert of the chosen immune checkpoint inhibitor (e.g., uncontrolled immunologic disorders, active hepatitis, active colitis, active pneumonitis, uncontrolled/active hormone gland problems - including thyroid, pituitary, adrenal glands and pancreas).\n5. Major surgical procedure (including craniotomy and open brain biopsy) or significant traumatic injury within 14 days prior to registration or those patients who receive a non-CNS minor surgical procedures (e.g. core biopsy or fine needle aspiration) within 3 days prior to registration. There is no waiting period for central line placement. There is a 7-day window for recovery prior to registration for patients who underwent stereotactic biopsy of the brain.\n6. Participants may not have uncontrolled inter-current illness. This includes, but is not limited to: ongoing or active infection; symptomatic congestive heart failure (NYHA class III or IV); unstable angina pectoris or new onset angina that began within the last 3 months; cardiac ventricular arrhythmias requiring anti-arrhythmic therapy; or thrombotic/embolic events such as cerebrovascular accident, including transient ischemic attacks within the past 6 months. Uncontrolled hypertension defined as systolic blood pressure \\>150 mmHg or diastolic pressure \\> 90 mmHg, despite optimal medical management. Known human immunodeficiency virus (HIV) infection or chronic Hepatitis B or C. Known Grade 3 or 4 neurotoxicity.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of Participants Alive and Without Progression",
+        "description": "Progression-free survival will be calculated as a rate, time from enrollment in the study to progression at 6-months post enrollment.",
+        "timeFrame": "6-months post enrollment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of (Programmed Death) PD-1+ CD4+ T (Helper) Cells and PD-1+ CD8+ T (Cytotoxic) Cells Prior to Treatment Versus With Concurrent Treatment.",
+        "timeFrame": "Assessed at specified points--1) prior to each cycle of therapy for 4 cycles (one cycle equals 6 weeks) 2) at disease progression (date first progression post-randomization, assessed up to 3 years) 3) when participant is off-study, assessed up to 3 years"
+      },
+      {
+        "measure": "Percentage of CD8+ T-cells That Are Gamma-interferon Positive During Treatment.",
+        "timeFrame": "Assessed at specified points--1) prior to each cycle of therapy for 4 cycles (one cycle equals 6 weeks) 2) at disease progression (date first progression post-randomization, assessed up to 3 years) 3) when participant is off-study, assessed up to 3 years"
+      },
+      {
+        "measure": "Percentage PD-L1+ CD4+ and PD-L1+ CD8+ T-cell Expression Differences During Treatment",
+        "timeFrame": "Assessed at specified points--1) prior to each cycle of therapy for 4 cycles (one cycle equals 6 weeks) 2) at disease progression (date first progression post-randomization, assessed up to 3 years) 3) when participant is off-study, assessed up to 3 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:53.495Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

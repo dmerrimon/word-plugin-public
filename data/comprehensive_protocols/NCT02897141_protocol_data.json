@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT02897141",
+  "briefTitle": "mVIP (Use of mHealth Technology for Supporting Symptom Management in Underserved Persons Living With HIV)",
+  "officialTitle": "Use of mHealth Technology for Supporting Symptom Management in Underserved Persons Living With HIV",
+  "protocolDocument": {
+    "nctId": "NCT02897141",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-06-17",
+    "uploadDate": "2018-09-07T12:45",
+    "size": 590631,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02897141/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 80,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-12-12",
+    "completionDate": "2017-06-08",
+    "primaryCompletionDate": "2017-06-08",
+    "firstSubmitDate": "2016-09-07",
+    "firstPostDate": "2016-09-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Diagnosed with HIV/AIDS\n2. Over the age of 18 years\n3. Able to provide written informed consent\n4. Able to communicate in English\n5. Health literacy level of marginal or inadequate (as measured by the Newest Vital Sign (NVS): total score of 3 or lower)\n6. Report at least 2 HIV related adverse symptoms in the past week\n7. Owner of a smart phone/tablet.\n\nExclusion Criteria:\n\n1. Inability to communicate in English\n2. Documented diagnosis of dementia\n3. Pregnancy\n4. Unable to understand consent procedure\n5. Self-reporting no adverse symptoms within the past week. (HIV-related symptoms include: anxiety, constipation, cough, depression, diarrhea, dizziness, fever, forgetfulness, fatigue, nausea, night sweats, neuropathy, shortness of breath, dermatitis, swelling of arms, hand, legs, feet, insomnia, weight loss, oral thrush, and vaginal itching, burning and discharge)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Symptom Status From Baseline to Week 12",
+        "description": "Change in Symptom Status calculates the difference in symptom scores between the intervention and control groups at baseline versus follow-up after 12 weeks. Symptom scores were determined using the Revised Sign and Symptom Check-List for HIV (SSC-HIVrev), where participants who reported experiencing any one of the 13 symptoms in the past 7 days were asked how much it bothered them (a little bit, somewhat, quite a bit, or very much). Instances where the symptom did not bother the individual were coded as \"0\" whereas instances where the symptom bothered the individual any amount were recoded as \"1\". The overall difference between groups at baseline and after 12 weeks (\"difference of differences\") falls within a range of -1 to 1, where lower numbers indicate the symptom bothered the person less, while higher numbers indicate it bothered them more. With the Difference Between Groups, a more negative score (closer to -1) represents a better outcome.",
+        "timeFrame": "Baseline and 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Quality of Life -- RAND-36",
+        "description": "36-Item Short Form Survey (RAND-36) is a widely-used 36-item tool to measure health-related quality of life, where each item in the scale is scored as 0, 25, 50, 75, or 100. Scoring is a two-step process. First, precoded numeric values are recoded per the scoring key so that all items are scored so that a high score defines a more favorable health state. In addition, each item is scored on a 0 to 100 range so that the lowest and highest possible scores are 0 and 100, respectively. Scores represent the percentage of total possible score achieved. In step 2, items in the same scale are averaged together to create the 8 scale scores, where a lower score may indicate a better outcome for some of the scales, while it may indicate a better outcome for others.",
+        "timeFrame": "Baseline and 12 weeks"
+      },
+      {
+        "measure": "Patient-Reported Outcomes Measurement Information System (PROMIS)-29",
+        "description": "The PROMIS-29 includes seven health related quality of life domains on a 5-point scale from a score of 1 to 5 and the pain domain has two subdomains (interference and intensity) where pain intensity is assessed using a single 11-point numeric rating scale anchored between no pain (0) and worse imaginable pain (10). Raw scores are transformed using the T-score metric based on the item response theory calibrations in which scores have a mean of 50 and standard deviation of 10 for the general population in the US. T-scores can be estimated using the scoring tables listed in the PROMIS manuals. A higher PROMIS T-score implies more of the concept being measured; for instance, a higher PROMIS score on physical function indicates better functioning, whereas a higher score on depression indicates a greater severity of depression.",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Engagement With Healthcare Provider",
+        "description": "Engagement with Health Care Provide scale is a 13-item scale in which subjects rate their interactions with their health care providers on a four-point scale with 1=always true and 4=never true in which a lower score indicates a better outcome. The scores are then collated to an aggregate score where the minimum value = 13 and the maximum value = 52. A low score indicates greater provider engagement, where as higher scores indicate lower provider engagement (less favorable outcome). The difference in scores at baseline and follow-up at three months was calculated within both the intervention and control groups, and the difference was then taken between the resulting means of those scores.",
+        "timeFrame": "Baseline and 12 weeks"
+      },
+      {
+        "measure": "Medication Adherence",
+        "description": "Medication adherence was calculated by two scales: the Center for Adherence Support Evaluation (CASE) Adherence Index and the Visual Analogue Scale (VAS). The CASE Adherence Index consists of the composite scores of three questions evaluating self-reported measures of adherence. The minimum score on this scale is 3 while the maximum score on this scale is 16, with higher scores indicating better outcome. Scores greater than 10 indicate \"good adherence,\" while scores less than or equal to 10 indicate poor adherence.\n\nThe VAS asks subjects to indicate a point on a line that shows their best guess about how much of each drug they have taken from a scale of 0% to 100% in which 0% means they have taken no drug, 50% means they have taken half their drugs, and 100% means they have taken every single dose. Consequently, a higher score (100%) indicates",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Health-IT Usability Evaluation Scale (Health-ITUES)",
+        "description": "Health Information Technology Usability Evaluation Scale (Health-ITUES) was used to measure usability. Health-ITUES consists of 20 items rated on a 5-point Likert scale from strongly disagree (score of 1) to strongly agree (score of 5) measuring actual usage, intention to use, satisfaction, perceived usefulness, perceived ease of use, perceived performance speed, learnability, competency, flexibility/customizability, memorability, error prevention, information needs, and other outcomes. A higher score (5) indicates higher usability. Overall score was calculated as the mean score from the score for quality of life, perceived usefulness, perceived ease of use, and user control.",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:19.168Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,156 @@
+{
+  "nctId": "NCT01963234",
+  "briefTitle": "Implementing Technology-Assisted Drug Treatment and Relapse Prevention in Federally Qualified Health Centers (FQHCs)",
+  "officialTitle": "Implementing Technology-Assisted Drug Treatment and Relapse Prevention in Federally Qualified Health Centers (FQHCs)",
+  "protocolDocument": {
+    "nctId": "NCT01963234",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-05-05",
+    "uploadDate": "2018-02-27T11:11",
+    "size": 826867,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01963234/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 439,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-03",
+    "completionDate": "2017-06-30",
+    "primaryCompletionDate": "2017-06-30",
+    "firstSubmitDate": "2013-10-09",
+    "firstPostDate": "2013-10-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nPatient subjects must be 1) age 18 or older 2) meet criteria for Substance Use Disorder (SUD) according to the clinic. Clinician subjects referring patients will ensure that patients: 3) have no current psychotic disorder severe enough to prevent participation, 4) have no acute medical problem requiring immediate inpatient treatment, 5) are willing to use Seva, and 6) can understand and sign a consent form in English.\n\nClinician subjects include MDs, behavioral health providers, nurses and management staff from the clinics' primary care and behavioral health departments. Clinician must have an interest in the research objectives.\n\nExclusion Criteria:\n\n* Failure to meet inclusion criteria above will exclude patients and clinicians from participating.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Implementation Status",
+        "description": "The number of implementation milestones completed",
+        "timeFrame": "up to 3 years"
+      },
+      {
+        "measure": "Any Drinking Days in Last 30 Days",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Risky Drinking Days in the Last 30 Days",
+        "description": "Analysis for measure was done for the total of all three sites combined.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Illicit Drug-use Within the Last 30 Days",
+        "description": "Analysis for measure was done for the total of all three sites combined.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Overall Quality of Life",
+        "description": "Analysis for measure was done for the total of all three sites combined. Higher values represent better quality of life. Value was calculated by adding the mental and physical subscale values. Values could range from 8 to 40.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Physical Subscale Quality of Life",
+        "description": "Analysis for measure was done for the total of all three sites combined. Higher values represent better quality of life. This scare consisted of 4 questions that had scales ranging from 1 to 5. The scores were summed and values could range from 4 to 20.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Mental Subscale Quality of Life",
+        "description": "Analysis for measure was done for the total of all three sites combined. Higher values represent better quality of life. This consisted of 4 questions that had scaled ranging from 1 to 5. The scores of the scales were summed and values could range from 4 to 20.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Patient Had Any Drink Within the Last 30 Days",
+        "description": "Analysis for measure was done for the total of all three sites combined.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Patient Had Illicit Drug Use Within the Last 30 Days",
+        "description": "Analysis for measure was done for the total of all three sites combined.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Patient Had Any Drink or Drug Use Within the Last 30 Days",
+        "description": "Analysis for measure was done for the total of all three sites combined.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Patients, Within the Last 6 Months Have Received Other Addiction Treatment",
+        "description": "Analysis for measure was done for the total of all three sites combined.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Patients Partook in HIV Risky Behavior in the Last 6 Months",
+        "description": "Analysis for measure was done for the total of all three sites combined.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Patients Partook in HIV Testing in the Last 6 Months",
+        "description": "Analysis for measure was done for the total of all three sites combined.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Patients Using System",
+        "description": "Analysis for measure was done for the total of all three sites combined.",
+        "timeFrame": "up to 3 years"
+      },
+      {
+        "measure": "Clinical Adoption",
+        "description": "We analyzed computerized system log files to produce patterns of system adoption of the staff.",
+        "timeFrame": "up to 3 years"
+      },
+      {
+        "measure": "Total Costs for Clinic",
+        "description": "This includes the clinic operating costs and clinic implementation costs of the intervention.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 13,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:21.564Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

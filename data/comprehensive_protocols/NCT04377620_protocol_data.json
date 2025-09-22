@@ -1,0 +1,143 @@
+{
+  "nctId": "NCT04377620",
+  "briefTitle": "Assessment of Efficacy and Safety of Ruxolitinib in Participants With COVID-19-Associated ARDS Who Require Mechanical Ventilation (RUXCOVID-DEVENT)",
+  "officialTitle": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Assess the Efficacy and Safety of Ruxolitinib in Participants With COVID-19-Associated ARDS Who Require Mechanical Ventilation (RUXCOVID-DEVENT)",
+  "protocolDocument": {
+    "nctId": "NCT04377620",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-06-02",
+    "uploadDate": "2021-11-17T11:30",
+    "size": 855995,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04377620/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 211,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-24",
+    "completionDate": "2021-02-26",
+    "primaryCompletionDate": "2021-02-26",
+    "firstSubmitDate": "2020-05-04",
+    "firstPostDate": "2020-05-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participant or guardian health proxy must provide informed consent before any study assessment is performed.\n* Male or female participants aged ≥ 12 years.\n* Participants with coronavirus (SARS-CoV-2) infection confirmed ≤ 3 weeks prior to randomization by any test with local regulatory approval.\n* Participants who are intubated and receiving mechanical ventilation due to COVID-19-associated ARDS and have a PaO2/FiO2 of ≤ 300 mmHg within 6 -hours of randomization.\n\nParticipants with lung imaging showing bilateral or diffuse pulmonary infiltrates on chest x-ray or CT scan.\n\nExclusion Criteria:\n\n* Known history of hypersensitivity to any drugs or metabolites of similar chemical classes as ruxolitinib.\n* Presence of severely impaired renal function defined by estimated creatinine clearance \\< 15 mL/min measured or calculated by Cockcroft-Gault equation or calculated by the updated bedside Schwartz equation. Participants must not be receiving CRRT or intermittent hemodialysis at screening.\n* In the opinion of the investigator, unlikely to survive for \\> 24 hours from randomization.\n* Suspected active uncontrolled bacterial, fungal, viral, or other infection (besides COVID-19).\n* Currently receiving ECMO.\n* Participant may not be sharing a ventilator, or co-ventilating, with any other patient.\n* Treatment with anti-IL-6, IL-6R, IL-1RA, IL-1β, or GM-CSF antagonists, or a BTK inhibitor, within 7 days of randomization.\n* Treatment with a JAK inhibitor within 30 days of randomization.\n* Participants who are on long-term use of antirejection or immunomodulatory drugs.\n* Pregnant or nursing (lactating) women.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants Who Have Died Due to Any Cause",
+        "description": "To evaluate the 28-day mortality rate of ruxolitinib 5 mg BID + SoC therapy and ruxolitinib 15 mg BID + SoC compared with placebo + SoC therapy, in participants with COVID-19-associated ARDS who require mechanical ventilation.",
+        "timeFrame": "Study start to Day 29"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Ventilator Free Days",
+        "description": "Number of days participant did not require mechanical ventilation",
+        "timeFrame": "Study start to Day 29"
+      },
+      {
+        "measure": "Number of ICU Free Days",
+        "description": "Number of days participant is out of the ICU",
+        "timeFrame": "Study start to Day 29"
+      },
+      {
+        "measure": "Oxygen Free Days",
+        "description": "Number of days participant did not receive supplemental oxygen",
+        "timeFrame": "Study start to Day 29"
+      },
+      {
+        "measure": "Vasopressor Free Days",
+        "description": "Number of days without use of vasopressor therapy",
+        "timeFrame": "Study start to Day 29"
+      },
+      {
+        "measure": "Hospital Free Days",
+        "description": "Number of days Partcipant is out of the hospital",
+        "timeFrame": "Study start to Day 29"
+      },
+      {
+        "measure": "Percentage of Participants With at Least 2-point Improvement in the COVID-19 Ordinal Scale",
+        "description": "Participants with at least 2-point improvement at Day 15 and 29 based on participant state. The scale ranges from 0-8 with 0 being no clinical or virological evidence of infection and 8 being dead",
+        "timeFrame": "Study start to Days 15 and 29"
+      },
+      {
+        "measure": "Percentage of Participants With at Least 1-point Improvement in the COVID-19 Ordinal Scale",
+        "description": "Participants with at lest 1-point improvement in clinical status at Days 15 and 29 based on participant state. The scale ranges from 0-8 with 0 being no clinical or virological evidence of infection and 8 being dead",
+        "timeFrame": "Study start to Days 15 and 29"
+      },
+      {
+        "measure": "Time to Improvement From Baseline Category to Earliest 1-point Improvement in the COVID-19 Ordinal Scale",
+        "description": "TIme to improvement compared to baseline. The scale ranges from 0-8 with 0 being no clinical or virological evidence of infection and 8 being dead",
+        "timeFrame": "Study Start to Day 29"
+      },
+      {
+        "measure": "Percentage of Participants With the COVID-19 Ordinal Scale Reported",
+        "description": "Clinical status of participant at Day 29 based on participant state. The scale ranges from 0-8 with 0 being no clinical or virological evidence of infection and 8 being dead",
+        "timeFrame": "Study start to Day 29"
+      },
+      {
+        "measure": "Change in the COVID-19 9-point Ordinal Scale",
+        "description": "Change in the Clinical status of participant at Days 15 and 29 based on participant state. The scale ranges from 0-8 with 0 being no clinical or virological evidence of infection and 8 being dead",
+        "timeFrame": "Study start to Days 15 and 29"
+      },
+      {
+        "measure": "Change in SOFA Score",
+        "description": "Sequential Organ Failure Assessment (SOFA) score is a scoring system to determine the extent of a person's organ function or rate of failure. The score is based on 6 different scores, 1 each for the respiratory, cardiovascular, hepatic, coagulation, renal, and neurological systems. Each system gets a score from 0 (normal) to 4 (abnormal) and the sum of each score defines the final SOFA score, which 24 is the maximum score (high risk of morality) and 0 is the minimum score (low risk of mortality).",
+        "timeFrame": "from baseline to Days 3, 5, 8, 11, 15, and 29"
+      },
+      {
+        "measure": "Number and Percentage of Participants With Treatment-related Side Effects and Serious Adverse Events",
+        "description": "Treatment-emergent AEs are judged as related by the investigator or have a missing causality.",
+        "timeFrame": "Study start to Day 29"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 12,
+      "otherCount": 0,
+      "totalCount": 13
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 99,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:39.045Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

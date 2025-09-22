@@ -1,0 +1,100 @@
+{
+  "nctId": "NCT06336239",
+  "briefTitle": "PrevaLence of Albuminuria in Patients With CARdiovascular Disease and Type 2 Diabetes Mellitus in China: a National Cross-sectional Study",
+  "officialTitle": "PrevaLence of Albuminuria in Patients With CARdiovascular Disease and Type 2 Diabetes Mellitus in China: a National Cross-sectional Study",
+  "protocolDocument": {
+    "nctId": "NCT06336239",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-10-26",
+    "uploadDate": "2024-02-29T04:49",
+    "size": 711941,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06336239/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 3000,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-12-21",
+    "completionDate": "2024-12-30",
+    "primaryCompletionDate": "2024-07-09",
+    "firstSubmitDate": "2023-12-27",
+    "firstPostDate": "2024-03-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age ≥18 years old;\n* Diagnosed T2DM combined with ≥1 CVD (hypertension, coronary heart disease, atrial fibrillation, heart failure);\n* During the data collection period, they went to the outpatient clinic of the cardiology department of the research center, or received treatment in the cardiology department;\n* Ability to self-sign informed consent (electronic /paper).\n\nExclusion Criteria:\n\n* Pregnant or lactating women;\n* Dialysis patients;\n* Other diseases that lead to elevated albuminuria, such as severe infection, confirmed primary glomerular disease, etc.;\n\n  . Malignant tumors being treated (surgery, chemotherapy, radiotherapy or targeted therapy);\n* Cachexia (CSS score ≥ 5 points);\n* Severe liver disease (Child- Pugh grade C) ;\n* Participated in an interventional clinical trial in the past three months.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The prevalence of albuminuria",
+        "description": "To assess the prevalence of albuminuria in patients who are combined with type 2 diabetes mellitus and different cardiovascular diseases in inpatient and outpatient cardiology departments of secondary and tertiary hospitals in China.",
+        "timeFrame": "On the day of patients enrollment."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Lthe prevalence of microalbuminuria and macroalbuminuria evels of microalbuminuria and macroalbuminuria",
+        "description": "To evaluate the levels of microalbuminuria and macroalbuminuria of patients with type 2 diabetes mellitus (T2DM) in inpatients and outpatients cardiology departments;",
+        "timeFrame": "On the day of patients enrollment."
+      },
+      {
+        "measure": "The prevalence of microalbuminuria and macroalbuminuria",
+        "description": "To evaluate the prevalence of microalbuminuria and macroalbuminuria in patients with T2DM complicated with different cardiovascular diseases",
+        "timeFrame": "On the day of patients enrollment."
+      },
+      {
+        "measure": "To evaluate the related influence factors of albuminuria and the treatment patterns of CKD patients and non-CKD patients in cardiology departments;",
+        "description": "After outpatient patients receive feedback on their renal function tests, assess whether physicians prescribe new relevant medical orders by recording them. Evaluate the treatment patterns for CKD and non-CKD patients in the cardiology department.",
+        "timeFrame": "On the day of patients enrollment."
+      },
+      {
+        "measure": "Evaluate the management of patients with type 2 diabetes mellitus and cardiovascular disease across different levels of cardiology departments in hospitals.",
+        "description": "Collect clinical assessment data from patients (including test results and the frequency of these tests over the past year), and assess the management of patient-related risk factors and complications by physicians in hospitals of different levels based on the frequency of testing.",
+        "timeFrame": "On the day of patients enrollment."
+      }
+    ],
+    "other": [
+      {
+        "measure": "Exploratory Objective",
+        "description": "To evaluate the prevalence of retinopathy in T2DM patients with different cardiovascular diseases attending inpatient and outpatient cardiology departments in secondary and tertiary hospitals in China.",
+        "timeFrame": "On the day of patients enrollment."
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 1,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 51,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:10.114Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

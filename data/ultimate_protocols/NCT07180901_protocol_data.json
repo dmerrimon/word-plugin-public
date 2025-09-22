@@ -1,0 +1,107 @@
+{
+  "nctId": "NCT07180901",
+  "briefTitle": "Proactive Risk-based Optimization & Notifications for Treatment & Outcomes in Head & Neck Cancer",
+  "officialTitle": "Proactive Risk-based Optimization & Notifications for Treatment & Outcomes (PRONTO) in Head & Neck Cancer: A Strategy to Reduce Delays From Surgery to Post-Operative Adjuvant Therapy in Head and Neck Cancer",
+  "protocolDocument": {
+    "nctId": "NCT07180901",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-07-25",
+    "uploadDate": "2025-08-20T11:59",
+    "size": 287930,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07180901/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 85,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-08-21",
+    "completionDate": "2029-10-21",
+    "primaryCompletionDate": "2026-10-21",
+    "firstSubmitDate": "2025-08-04",
+    "firstPostDate": "2025-09-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* All adult patients (age 18 or older).\n* Pathologically confirmed oral cavity or laryngeal squamous cell carcinoma.\n* Diagnosed from July 2024 to September 2026.\n* With planned primary intention surgical resection.\n* With or without adjuvant therapy.\n* Treated at the Centre Hospitalier de l'Université de Montréal.\n\nExclusion Criteria:\n\n* Patients who do not end up receiving surgery.\n* S-PORT \\> 180 days",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Surgery to post-operative radiotherapy time (S-PORT)",
+        "description": "Number of days between surgery and start of radiotherapy (adjuvant)",
+        "timeFrame": "Day 1 of radiotherapy (assessed up to 12 weeks post-operatively)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall survival",
+        "description": "Event: Death (of any cause) Censor: Alive at last follow-up",
+        "timeFrame": "From date of surgery until the date of date from any cause (assessed up to 60 months)"
+      },
+      {
+        "measure": "Locoregional Survival",
+        "description": "Event: Locoregional recurrence (primary site or cervical node) or death Censored: Alive and without locoregional recurrence at last follow-up",
+        "timeFrame": "From date of surgery until the date of locoregional recurrence or death, whichever came first (assessed up to 60 months)"
+      },
+      {
+        "measure": "Distant metastasis-free survival",
+        "description": "Event: Distant metastasis or death Censored: Alive and without distant metastasis at last follow-up",
+        "timeFrame": "The time from surgery to event. From date of surgery until the date of distant metastasis or death, whichever came first (assessed up to 60 months)"
+      },
+      {
+        "measure": "Recurrence-Free Survival",
+        "description": "Event: Any recurrence (local, regional, or distant) Censored: Recurrence-free at last follow-up. Death without recurrence also censored.",
+        "timeFrame": "From date of surgery until the date of locoregional recurrence or distant metastasis, whichever came first (assessed up to 60 months)"
+      },
+      {
+        "measure": "Disease-Free Survival",
+        "description": "Event: Recurrence (any site) or death Censored: Alive and disease-free at last follow-up",
+        "timeFrame": "From date of surgery until the date of locoregional recurrence or distant metastasis or death, whichever came first (assessed up to 60 months)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": true,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 50,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

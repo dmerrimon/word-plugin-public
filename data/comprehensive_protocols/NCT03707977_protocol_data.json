@@ -1,0 +1,128 @@
+{
+  "nctId": "NCT03707977",
+  "briefTitle": "Dual bNAb Treatment in Children",
+  "officialTitle": "A Clinical Trial to Evaluate the Impact of Broadly Neutralizing Antibodies VRC01LS and 10-1074 on Maintenance of HIV Suppression in a Cohort of Early-Treated Children in Botswana (Dual bNAb Treatment in Children)",
+  "protocolDocument": {
+    "nctId": "NCT03707977",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-07-19",
+    "uploadDate": "2022-11-16T23:07",
+    "size": 1737378,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03707977/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-06-17",
+    "completionDate": "2021-12-03",
+    "primaryCompletionDate": "2021-12-03",
+    "firstSubmitDate": "2018-10-12",
+    "firstPostDate": "2018-10-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria for PK Step\\*:\n\n* On ART for at least 96 weeks\n* Greater than or equal to 96 weeks and less than 5 years of age at enrollment\n* HIV RNA less than 40 copies/mL for at least 24 weeks prior to entry\n* Ability to remain in close study follow-up for at least 12 weeks\n* Willingness to receive IV infusions of bNAbs\n* Willingness to provide signed informed consent (by the parent/guardian)\n\n  * \\*It is anticipated that all children in PK Step will be from Early Infant Treatment (EIT) Study (NCT02369406); however, up to 4 HIV+ children outside the PK Study (age range 2-5 years) may participate in the PK Step if otherwise eligible and if EIT children are unavailable.\n\nInclusion Criteria for Entry into Step 1 (followed by participation in Steps 2-3):\n\n* EIT Study participant (NCT02369406)\n* On ART for at least 96 weeks\n* Greater than or equal to 96 weeks and less than 7 years of age at enrollment\n* HIV RNA less than 40 copies/mL for at least 24 weeks prior to entry\n* Ability to remain in close study follow-up for at least 56 weeks\n* Willingness to receive IV infusions of bNAbs\n* Willingness to provide signed informed consent (by the parent/guardian)\n\nExclusion Criteria:\n\n* Medical condition making survival for at least 32 weeks unlikely\n* Active tuberculosis or malignancy\n* Actively breastfeeding\n* Previous receipt of VRC01/VRC01LS or 10-1074 (except during the PK Step)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "96 Weeks",
+    "maximumAge": "7 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Frequency of Treatment-associated Adverse Events (AEs) [Number of Participants With Treatment-associated Adverse Event(s) of Any Grade]",
+        "timeFrame": "Measured until 30 days after study completion for each participant"
+      },
+      {
+        "measure": "Severity of Treatment-associated AEs (Number of Participants With Grade 3 or Higher Related AEs)",
+        "description": "Graded according to the Division of AIDS Table for Grading the Severity of Adult and Pediatric Adverse Events (DAIDS AE Grading Table). The DAIDS grading table provides an AE severity grading scale ranging from grades 1 to 5 with Grade 1 indicating a mild event, Grade 2 indicating a moderate event, Grade 3 indicating a severe event, Grade 4 indicating a potentially life-threatening event, and Grade 5 indicating death.",
+        "timeFrame": "Measured until 30 days after study completion for each participant"
+      },
+      {
+        "measure": "Proportion of Children Who Maintain HIV-1 Plasma RNA Less Than 400 Copies/mL, After Initiating VRC01LS and 10-1074 Infusions and Stopping ART",
+        "description": "Based on laboratory evaluations",
+        "timeFrame": "Measured through Week 24 of Step 2"
+      },
+      {
+        "measure": "Proportion of Children Who Maintain HIV-1 Plasma RNA Less Than 40 Copies/mL, After Initiating VRC01LS and 10-1074 Infusions and Stopping ART",
+        "description": "Based on laboratory evaluations",
+        "timeFrame": "Measured through Week 24 of Step 2"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "VRC01LS or 10-1074 Concentrations in Plasma",
+        "description": "Median pre-dose trough (28 days post previous dose) based on laboratory evaluations",
+        "timeFrame": "Measured through Week 12 (PK Step)"
+      },
+      {
+        "measure": "Median Trough Concentration of VRC01LS or 10-1074 in Plasma 28 Days After the Third Dose",
+        "description": "Based on laboratory evaluations",
+        "timeFrame": "Measured through Week 12 (PK Step)"
+      },
+      {
+        "measure": "VRC01LS and 10-1074 Concentrations in Plasma for Each Time Point",
+        "description": "Based on laboratory evaluations",
+        "timeFrame": "Measured through Week 32 following Step 1 entry"
+      },
+      {
+        "measure": "Proportion of Children With Trough VRC01LS and 10-1074 Concentrations Below Defined Trough Ranges",
+        "description": "Based on laboratory evaluations",
+        "timeFrame": "Measured through Week 32 following Step 1 entry"
+      },
+      {
+        "measure": "Height Z-scores of Virally Suppressed Children Receiving bNAbs",
+        "description": "World Health Organization (WHO) standardized Z-scores will be evaluated for changes over time: WHO Length/height-for-age z-score (0-19 yrs), Change from Step 1, Day 0 to Step 3, Week 24. A z-score of 0 corresponds to the population mean. Scores above 0 indicate a participant's height is above the mean, while a score below 0 indicates a participant's height is below the mean. A positive change in z-score corresponds to a higher z-score at the second timepoint compared to the first.",
+        "timeFrame": "Measured through Week 24 (Step 3)"
+      },
+      {
+        "measure": "Weight Z-scores of Virally Suppressed Children Receiving bNAbs",
+        "description": "WHO standardized Z-scores will be evaluated for changes over time: WHO Weight-for-age z-score (0-10 yrs), Change from Step 1, Day 0 to Step 3, Week 24. A z-score of 0 corresponds to the population mean. Scores above 0 indicate a participant's weight is above the mean, while a score below 0 indicates a participant's weight is below the mean. A positive change in z-score corresponds to a higher z-score at the second timepoint compared to the first.",
+        "timeFrame": "Measured through Week 24 (Step 3)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:19.952Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

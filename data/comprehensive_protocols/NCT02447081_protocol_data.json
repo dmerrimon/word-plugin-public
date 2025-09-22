@@ -1,0 +1,119 @@
+{
+  "nctId": "NCT02447081",
+  "briefTitle": "Amplatzer™Amulet™ Post-Market Study (Amulet™PMS)",
+  "officialTitle": "Amplatzer™Amulet™ Observational Post-Market Study",
+  "protocolDocument": {
+    "nctId": "NCT02447081",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-04-21",
+    "uploadDate": "2019-12-11T04:45",
+    "size": 1464814,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02447081/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 1088,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-06-01",
+    "completionDate": "2018-10-23",
+    "primaryCompletionDate": "2018-10-23",
+    "firstSubmitDate": "2015-04-27",
+    "firstPostDate": "2015-05-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Subject with history of paroxysmal, persistent or permanent NVAF\n2. Subject who is 18 years or older, or of legal age to give informed consent specific to state and national law\n3. Subject who is eligible for an Amulet LAA Occluder device according to current international guidelines and per physician discretion\n4. Subject who is willing and capable of providing informed consent, participating in all associated study activities\n\nExclusion Criteria:\n\n1. Subject with evidence of an intracardiac thrombus\n2. Subject with active infection or active endocarditis or other infections producing bacteremia\n3. Subject where the placement of the device would interfere with any intracardiac or intravascular structures\n4. Subject with any medical disorder that would interfere with completion or evaluation of clinical study results\n5. Women of childbearing potential who are, or plan to become, pregnant during the time of the study (method of assessment per physician discretion)\n6. Subject with LAA anatomy that does not accommodate a device per the sizing guidelines",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Acute Serious Adverse Events",
+        "description": "Acute adverse events were defined as those serious events with an onset date ≤ 7 days post-procedure",
+        "timeFrame": "0 to 7 days post procedure"
+      },
+      {
+        "measure": "Number of Participants With Late Serious Adverse Events Greater Than 7 Days Post Procedure",
+        "description": "Late adverse events were defined as those serious events with an onset date \\> 7 days post-procedure",
+        "timeFrame": "7 days through 2 years"
+      },
+      {
+        "measure": "Number of Participants With Ischemic Stroke, Systemic Embolism and Cardiovascular Death",
+        "description": "Occurrence of ischemic stroke, systemic embolism, and cardiovascular death through 2 years",
+        "timeFrame": "Implant through 2 years"
+      },
+      {
+        "measure": "Number of Participants With Major Bleeding Events",
+        "description": "Clinical events were adjudicated by the CEC as major bleeding events if they met the definition of Type 3 or greater on the Bleeding Academic Research Consortium (BARC) scale.",
+        "timeFrame": "Implant through 2 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Technical Success",
+        "description": "Technical success is defined as successful implantation of the Amulet device in the left arterial appendage (LAA).",
+        "timeFrame": "During implant procedure, approximately 30 to 60 minutes"
+      },
+      {
+        "measure": "Number of Participants With Procedural Success",
+        "description": "Procedural success is based on Amulet device being implanted day 0 through hospital discharge, on average one night stay (day 1). Amulet device implanted and subject discharged the following day without an adverse event",
+        "timeFrame": "During the implant procedure and hospital stay, approximately 1 or 2 days"
+      },
+      {
+        "measure": "Number of Participants With Oral Anti-coagulation Usage",
+        "timeFrame": "At discharge, approximately 1 or 2 days after the procedure"
+      },
+      {
+        "measure": "Number of Participants With Oral Anti-coagulation Usage",
+        "timeFrame": "At 1 to 3 months"
+      },
+      {
+        "measure": "Number of Participants With Oral Anti-coagulation Usage",
+        "timeFrame": "At 6 months"
+      },
+      {
+        "measure": "Number of Participants With Oral Anti-coagulation Usage",
+        "timeFrame": "At 12 months"
+      },
+      {
+        "measure": "Number of Participants With Oral Anti-coagulation Usage",
+        "timeFrame": "At 24 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:36.676Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

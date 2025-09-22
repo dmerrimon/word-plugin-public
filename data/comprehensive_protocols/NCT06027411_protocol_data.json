@@ -1,0 +1,143 @@
+{
+  "nctId": "NCT06027411",
+  "briefTitle": "Assess the Clinical Effectiveness in AI Prioritising CT Heads",
+  "officialTitle": "A Mixed Methods Study to Assess the Clinical Effectiveness and Acceptability of qER Artificial Intelligence Software to Prioritise CT Head Interpretation.",
+  "protocolDocument": {
+    "nctId": "NCT06027411",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-04-05",
+    "uploadDate": "2023-07-26T13:39",
+    "size": 1124474,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06027411/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 16800,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2024-03-27",
+    "completionDate": "2024-08",
+    "primaryCompletionDate": "2024-08",
+    "firstSubmitDate": "2023-08-11",
+    "firstPostDate": "2023-09-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Individuals undergoing Head CT scan at the ED / A\\&E (Accident and Emergency Services).\n* Non-contrast axial CT scan series with consistently spaced axial slices.\n* Soft reconstruction kernel covering the complete Brain.\n* Maximum slice thickness of 6mm.\n\nExclusion Criteria:\n\nThere are no explicit exclusion criteria for qER as all scans in inclusion criteria will be processed by qER. Exclusion criteria are implicit within the inclusion criteria listed above.",
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Reporting turnaround time with qER prioritisation",
+        "description": "Time taken to report NCCT head from acquisition for patients with prioritised findings in Emergency Department compared to standard of care.\n\nMeasured as time in minutes from the scan acquisition to the final radiology report of prioritised scans.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Reporting turnaround time with qER prioritisation for scans without prioritised findings in Emergency Department compared to standard of care.",
+        "description": "Measured as time in minutes from the scan acquisition to the final radiology report of scans without prioritised findings.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Reporting turnaround time with qER prioritisation for scans with an absence of findings in Emergency Department compared to standard of care.",
+        "description": "Measured as time in minutes from the scan acquisition to the final radiology report of scans with an absence of findings.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Assess the impact of qER on radiology reporting workflow on other requests for CT scans.",
+        "description": "To assess how this impacts the types of CT scans requested from the Emergency Department.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Impact of qER supported reporting on teleradiology.",
+        "description": "Time taken to report NCCT head from acquisition for patients in Emergency Department compared to standard of care where teleradiology is used.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Assess utility of qER to support clinical decision making of the patients from the emergency department requiring an NCCT.",
+        "description": "Time to diagnosis from NCCT acquisition.\n\nMeasured as time in hours for the electronic record of diagnosis assigned in the emergency department.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Assess utility of qER to support referral or discharge of the patients from the emergency department requiring an NCCT.",
+        "description": "Time to referral or discharge designation from NCCT acquisition.\n\nMeasured as time in hours to the electronic record of referral or discharge after diagnosis in the emergency department.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Time to initiation of treatment from NCCT acquisition for prioritised scans.",
+        "description": "Time to initiation of treatment from NCCT acquisition.\n\nMeasured as time in hours to the electronic record of the initiation of treatment in the emergency department.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Death within 28 days of NCCT head acquisition.",
+        "description": "Number of patients presenting via the emergency department who then had a NCCT and died 28 days after their scan.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Percentage of NCCT heads that qER classifies as prioritised, non-prioritised and absence of findings.",
+        "description": "Number of scans that qER identifies as prioritised, non-prioritised and absence of findings in accordance with the target abnormality definitions.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Percentage of qER non-prioritised scans but identified by the radiologist as prioritised.",
+        "description": "Accuracy of qER in classifying non-prioritised scans in comparison to a radiologist.\n\nRate of accurate classification of non-prioritised scans compared with the final radiology report.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Percentage of qER non-prioritised scans but identified by the radiologist as absence of finding.",
+        "description": "Accuracy of qER in classifying scans with an absence of findings. Rate of accurate classification of scans with an absence of findings compared with the final radiology report.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Technical evaluation of product performance.",
+        "description": "* Sensitivity, specificity, positive and negative predictive values of qER in detecting scans with prioritised findings overall and stratified by all six target abnormalities.\n* Percentage of CT scans that could not be processed by qER due to technical factors.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Assess the safety of qER",
+        "description": "Mortality within 30 days of Emergency Department discharge.\n\nMeasured by the number of study participants who upon discharge from the impatient setting are dead within 30 days.",
+        "timeFrame": "1 year"
+      },
+      {
+        "measure": "Health Economic Assessment",
+        "description": "To compare costs and health benefits between pre- and post-implementation of qER, including cost evaluation of fully automatic diagnosis of high confidence normal triage.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 14,
+      "otherCount": 0,
+      "totalCount": 15
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 99,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:37.094Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,104 @@
+{
+  "nctId": "NCT05416164",
+  "briefTitle": "DESCARTES: De-ESCAlation of RadioTherapy in Patients With Pathologic Complete rESponse to Neoadjuvant Systemic Therapy",
+  "officialTitle": "DESCARTES: De-ESCAlation of RadioTherapy in Patients With Pathologic Complete rESponse to Neoadjuvant Systemic Therapy",
+  "protocolDocument": {
+    "nctId": "NCT05416164",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2024-09-02",
+    "uploadDate": "2025-03-21T08:40",
+    "size": 972966,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05416164/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 595,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-10-07",
+    "completionDate": "2037-05",
+    "primaryCompletionDate": "2032-05",
+    "firstSubmitDate": "2022-04-19",
+    "firstPostDate": "2022-06-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Women, aged ≥ 18 years\n* Invasive HR positive/Her2 negative, Her2+ (ER/PR +/-) or TN breast cancer\n* Concurrent DCIS in pre-NST biopsy is allowed if there is no suspicion of extensive component i.e. absence of non-mass enhancement on pre-NST MRI, contrast-enhanced mammography or breast-specific gamma imaging and/or absence of calcifications on pre-NST mammography\n* Primary tumour (T) clinical stage cT1-2\n* Unifocal disease; confirmed by pre-NST MRI, contrast-enhanced mammography or breast-specific gamma imaging\n* Clinical nodal stage 0; absence of lymph node metastases should be confirmed by ultrasound or FDG-PET/CT\n* Neoadjuvant systemic treatment (NST)\n* Marker placed in breast tumour prior to NST\n* Breast conserving surgery performed, i.e. no mastectomy\n* Sentinel node biopsy performed before or after NST\n* Pathologic complete response in breast and lymph nodes, i.e. no residual tumour cells or DCIS detected\n* Written informed consent\n\nExclusion Criteria:\n\n* Primary tumour (T) clinical stage cT3-4\n* Pre- or post-NST diagnosis of nodal disease including isolated tumour cells\n* Patients without axillary ultrasound or FDG-PET/CT pre-NST\n* History of breast cancer or DCIS\n* Synchronous contralateral breast cancer or DCIS\n* Synchronous M1 disease\n* Carrier of gene mutation associated with increased risk of breast cancer, i.e. BRCA1, BRCA2, CHEK2, TP53 or PALB-2",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Local recurrence",
+        "description": "To show that radiotherapy after neoadjuvant systemic therapy and breast-conserving surgery can be omitted in T1-2N0 breast cancer patients who achieve pathologic complete response without compromising the 5 - year local recurrence rate (i.e, \\< 6% axillary recurrences within 5 years).",
+        "timeFrame": "5 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Level of cancer worry",
+        "description": "The patients' experienced level of cancer worry will be measured using the validated 8-item Cancer Worry Scale (i.e., low (Cancer Worry Scale score ≤ 13 at each assessment) and high (Cancer Worry Scale score ≥14 at each assessment)).",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "Satisfaction reported by PROM (patient reported outcome measures)",
+        "description": "The patients´experienced quality of life and satisfaction will be measured using the validated questionnaire EORTC-QLQ-C30 (Quality of life in cancer patients) and EORTC-QLQ-BR23 (Quality of life of patients with breast cancer)",
+        "timeFrame": "4 years"
+      },
+      {
+        "measure": "Overall survival",
+        "timeFrame": "5 and 10 years"
+      },
+      {
+        "measure": "Disease-specific survival",
+        "timeFrame": "5 and 10 years"
+      },
+      {
+        "measure": "Locoregional recurrence",
+        "timeFrame": "5 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:53.495Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

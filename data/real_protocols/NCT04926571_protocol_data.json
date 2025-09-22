@@ -1,0 +1,73 @@
+{
+  "nctId": "NCT04926571",
+  "briefTitle": "Dexamethasone and COVID-19 Inpatient Mortality",
+  "officialTitle": "Effect of Dexamethasone on Inpatient Mortality Among Hospitalized COVID-19 Patients",
+  "protocolDocument": {
+    "nctId": "NCT04926571",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-06-10",
+    "uploadDate": "2021-06-11T13:25",
+    "size": 4217298,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04926571/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 14105,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-04-01",
+    "completionDate": "2021-08-27",
+    "primaryCompletionDate": "2021-08-27",
+    "firstSubmitDate": "2021-06-11",
+    "firstPostDate": "2021-06-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Hospitalized Patients with confirmed COVID-19 (diagnosis of U07.1 or positive or presumptive positive SARS-CoV-2 diagnostic laboratory test result) occurring between 21 days prior to the hospital admission date and the treatment index date.\n\nExclusion Criteria:\n\n* No interaction with the healthcare system (medical encounter) in the 183 days prior to and including hospital admission (Day -183 to Day 0) to minimize the potential for misclassification of baseline covariates and/or new use\n* No age or sex recorded in the 183 days prior to and including hospital admission (Day -183 to Day 0) as required for matching\n* No geographic region recorded in 183 days prior to and including hospital admission (Day -183 to Day 0) as necessary to adjust for regional variation\n* Any recorded use of any CSI (dispensing or remaining supply) in the 90-day washout prior to the treatment index date (Day T-90 to Day T-1) to satisfy new use definition\n* Any record of a COVID-19 vaccine recorded on or any time prior to the treatment index date given that these patients are assumed to be selectively different (Day S to Day T)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mortality",
+        "description": "Mortality within 28 days of admission",
+        "timeFrame": "28 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 5,
+      "totalCount": 6
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 37,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:32:21.245Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

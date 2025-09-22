@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT01745822",
+  "briefTitle": "Maternal Antiviral Prophylaxis to Prevent Perinatal Transmission of Hepatitis B Virus in Thailand",
+  "officialTitle": "Phase 3, Randomized Clinical Trial to Assess the Efficacy and Safety of Tenofovir in Hepatitis B Virus Infected, s and e Antigen Positive, Pregnant Women to Prevent Perinatal Transmission Despite Infant Passive-active HBV Immunization.",
+  "protocolDocument": {
+    "nctId": "NCT01745822",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2015-04-20",
+    "uploadDate": "2020-05-08T22:30",
+    "size": 4316285,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01745822/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 654,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-01",
+    "completionDate": "2018-10",
+    "primaryCompletionDate": "2016-12",
+    "firstSubmitDate": "2012-12-06",
+    "firstPostDate": "2012-12-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Pregnancy\n* At least 18 years of age\n* Negative Human Immunodeficiency Virus (HIV) serology\n* Positive HBsAg and hepatitis B e antigen (HBeAg) tests\n* Gestational age of 28 weeks (+ or - 10 days) as determined by obstetrician\n* Alanine Aminotransferase (ALT)≤30 U/L, confirmed ≤60 U/L on a subsequent blood draw\n* Agreeing to bring their infants at the planned study visits at one study site until one year after delivery and to inform the site investigators if they plan to move to another place and not be able to return to the clinic.\n* Understanding the need for adequate infant immunization and agreeing to the blood draws from their infants and the need for close follow up to manage possible exacerbation of hepatitis.\n\nExclusion Criteria:\n\n* History of tenofovir treatment at any time, or any other anti-HBV treatment during the current pregnancy\n* Creatinine clearance \\<50 ml/min, calculated using the Cockcroft-Gault formula\n* Dipstick proteinuria\\>1+ (\\>30 mg/dL) or normoglycemic glucosuria confirmed on two separate occasions\n* Positive serology for Hepatitis C infection less than 12 months prior to enrollment\n* Evidence of pre-existing fetal anomalies incompatible with life\n* Any concomitant condition or treatment that, in the view of the clinical site investigator, would contraindicate participation or satisfactory follow up in the study.\n* Concurrent participation in any other clinical trial without written agreement of the two study teams",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Infants With Hepatitis B Infection at 6 Months of Age",
+        "description": "Infection is defined as a HBsAg positive test confirmed by detectable HBV DNA",
+        "timeFrame": "6 months of age"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants With Adverse Events",
+        "description": "Occurrence of maternal and infant adverse events, including maternal and infants Serious Adverse Events (as defined by the International Conference on Harmonization Good Clinical Practice) and NIH Division of AIDS grade 3/4 signs and symptoms, regardless of their relatedness to the study treatment.",
+        "timeFrame": "from enrollment (28 weeks' gestation) to 12 months postpartum"
+      },
+      {
+        "measure": "Percentage of Participants With Flares After Study Treatment Interruption",
+        "description": "Flare, or acute exacerbation of hepatitis B, after study treatment interruption is defined as an Alanine Aminotransferase plasma level above 300 IU/mL",
+        "timeFrame": "Following planned discontinuation of study treatment up to 12 months postpartum"
+      },
+      {
+        "measure": "Percentage of Infants With Hepatitis B Infection at or After 6 Months Through 12 Months of Age",
+        "description": "Infants will be considered HBV infected if at any time point at or after 6 months through 12 months of age, a sample tests positive for HBsAg and HBV DNA",
+        "timeFrame": "at or after 6 months through 12 months of age"
+      },
+      {
+        "measure": "Weight, Height and Head Circumference for Age",
+        "description": "Weight, length/height and head circumference WHO Z scores are measures of relative weight, height and head circumference adjusted for child age and sex. The Z-score indicates the number of standard deviations away from a reference population in the same age range and with the same sex. A Z-score of 0 is equal to the mean. Negative numbers indicate values lower than the mean and positive numbers indicate values higher than the mean.",
+        "timeFrame": "assessed at 6 months and 12 months of age, 6 months reported"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:23.893Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

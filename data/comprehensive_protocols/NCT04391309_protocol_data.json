@@ -1,0 +1,147 @@
+{
+  "nctId": "NCT04391309",
+  "briefTitle": "COVID-19 and Anti-CD14 Treatment Trial",
+  "officialTitle": "Phase 2, Randomized, Double-Blind, Placebo-Controlled Study of the Effect of Anti-CD14 Treatment in Hospitalized Patients With COVID-19",
+  "protocolDocument": {
+    "nctId": "NCT04391309",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-02-22",
+    "uploadDate": "2023-05-16T14:06",
+    "size": 1446980,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04391309/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 49,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-04-12",
+    "completionDate": "2022-02-04",
+    "primaryCompletionDate": "2022-02-04",
+    "firstSubmitDate": "2020-05-14",
+    "firstPostDate": "2020-05-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nPatients included in the study must meet all the following criteria:\n\n* Patient or legally authorized representative able to provide informed consent\n* Presence of SARS-CoV-2 infection documented by positive RT-PCR testing or history of positive RT-PCR test for SARS-CoV-2 within 7 days of screening\n* Radiologic findings compatible with diagnosis of SARS-CoV-2 pulmonary infection\n* Hypoxemia as defined by any of the following:\n\n  * SpO2 ≤94% on room air, or\n  * Requirement for ≥2L/m O2 per standard nasal cannula to maintain SpO2≥94%, but not requiring high-flow nasal cannula (defined as ≥30 L/m), and\n* Negative pregnancy test for women of childbearing potential and, must be willing to use birth control for the duration of the study.\n\nExclusion Criteria:\n\nAn individual fulfilling any of the following criteria should be excluded from enrollment in the study:\n\n* Receiving non-invasive positive-pressure ventilation through nasal mask, face mask, or nasal plugs\n* Receiving invasive mechanical ventilation\n* Patient, surrogate, or physician not committed to full support\n\n  --Exception: a participant will not be excluded if he/she would receive all supportive care other than attempts at resuscitation from cardiac arrest)\n* Anticipated survival \\<48 hours\n* Underlying malignancy, or other condition, with estimated life expectancy of less than two months\n* Significant pre-existing organ dysfunction prior to randomization\n\n  * Lung: Currently receiving home oxygen therapy as documented in medical record\n  * Heart: Pre-existing congestive heart failure defined as an ejection fraction \\<20% as documented in the medical record\n  * Renal: End-stage renal disease requiring renal replacement therapy or eGFR \\<30 mL/min\n  * Liver: Severe chronic liver disease defined as Child-Pugh Class C or AST or ALT \\>5x upper limit of normal\n  * Hematologic: Baseline platelet count \\<50,000/mm\\^3\n* Presence of co-existing infection, including, but not limited to:\n\n  * HIV infection not virally suppressed and with pre-hospitalization CD4 counts ≤ 500 cell/mm\\^3\n  * Active tuberculosis or a history of inadequately treated tuberculosis\n  * Active hepatitis B or hepatitis C viral infection\n* Ongoing immunosuppression\n\n  * Solid organ transplant recipient\n  * High-dose corticosteroids (equivalent to \\>20 mg/prednisone/day) within the past 28 days, except for dexamethasone except for dexamethasone or equivalent treatment for COVID-19 illness\n  * Oncolytic drug therapy within the past 14 days\n* Current treatment, or treatment within 30 days or five half-lives (whichever is longer) with etanercept (Enbrel®), infliximab (Remicade®), adalimumab (Humira®), certolizumab (Cimzia®), golimumab (Simponi®), anakinra (Kineret®), rilonacept (Arcalyst®), tocilizumab (Actemra®), sarilumab (Kevzara®), siltuximab (Sylvant®), or other potent immunosuppressant or immunomodulatory drugs or treatments\n* Current treatment with an anti-viral medication for COVID-19 (e.g. hydroxychloroquine, lopinavir/ritonavir), other than remdesivir\n* Current enrollment in an interventional trial for COVID-19\n* History of hypersensitivity or idiosyncratic reaction to IC14\n* Women who are currently breastfeeding\n* Received a live-attenuated vaccine within 30 days prior to enrollment\n* Received five or more doses of remdesivir, including the loading dose, outside of the study as treatment for COVID-19, or\n* Any condition that in the opinion of the treating physician will increase the risk for the participant.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "The Time to Clinical Recovery, Defined as the Time From Baseline to the First Day That Subject is in Categories 1, 2, or 3 on the Eight-Point Ordinal Scale Through Day 28.",
+        "description": "The Primary Endpoint is time to clinical recovery, defined as the time from baseline to the first day that a subject is in categories 1, 2, or 3 on the Eight-Point Ordinal Scale through Day 28 (range 1 \\[best\\] to 8 \\[worst\\]). The Eight-Point Ordinal Scale is an assessment of the clinical status on each study day. The Scale is defined as follows:\n\n1. Not hospitalized, no limitations on activities\n2. Not hospitalized, limitation on activities and/or requiring home oxygen\n3. Hospitalized, not requiring supplemental oxygen-no longer requires ongoing medical care\n4. Hospitalized, not requiring supplemental oxygen-requiring ongoing medical care (COVID-19-related or otherwise)\n5. Hospitalized, requiring supplemental oxygen\n6. Hospitalized, on non-invasive ventilation or high-flow oxygen devices\n7. Hospitalized, on invasive mechanical ventilation or extracorporeal membrane oxygenation (ECMO)\n8. Death",
+        "timeFrame": "Within the 28 day period following baseline"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Days Alive and Free of Any Episodes of Acute Respiratory Failure Through Day 28",
+        "description": "Episodes of acute respiratory failure are defined as by need for the following oxygen delivery resources:\n\n1. High-flow nasal cannula (flow rates ≥30L/min with FiO2 ≥0.4)\n2. Noninvasive positive-pressure ventilation through nasal or face mask, or nasal plugs\n3. Endotracheal intubation and mechanical\n4. Extracorporeal membrane oxygenation",
+        "timeFrame": "Within the 28 day period following baseline."
+      },
+      {
+        "measure": "Change in the Ordinal Scale From Baseline to Day 14",
+        "description": "A larger negative change indicates a greater improvement in clinical status from baseline. The Eight-Point Ordinal Scale is an assessment of the clinical status on each study day (1 is best, 8 is worst). The Scale is defined as follows:\n\n1. Not hospitalized, no limitations on activities.\n2. Not hospitalized, limitation on activities and/or requiring home oxygen.\n3. Hospitalized, not requiring supplemental oxygen; no longer requires ongoing medical care.\n4. Hospitalized, not requiring supplemental oxygen; requiring ongoing medical care (COVID-19-related or otherwise).\n5. Hospitalized, requiring supplemental oxygen.\n6. Hospitalized, on non-invasive ventilation or high-flow oxygen devices.\n7. Hospitalized, on invasive mechanical ventilation or extracorporeal membrane oxygenation (ECMO).\n8. Death.",
+        "timeFrame": "Within the 14 day period following baseline."
+      },
+      {
+        "measure": "Change in Ordinal Scale From Baseline to Day 28.",
+        "description": "A larger negative change indicates a greater improvement in clinical status from baseline. The Eight-Point Ordinal Scale is an assessment of the clinical status on each study day (1 is best, 8 is worst). The Scale is defined as follows:\n\n1. Not hospitalized, no limitations on activities.\n2. Not hospitalized, limitation on activities and/or requiring home oxygen.\n3. Hospitalized, not requiring supplemental oxygen; no longer requires ongoing medical care.\n4. Hospitalized, not requiring supplemental oxygen; requiring ongoing medical care (COVID-19-related or otherwise).\n5. Hospitalized, requiring supplemental oxygen.\n6. Hospitalized, on non-invasive ventilation or high-flow oxygen devices.\n7. Hospitalized, on invasive mechanical ventilation or extracorporeal membrane oxygenation (ECMO).\n8. Death.",
+        "timeFrame": "Within the 28 day period following baseline."
+      },
+      {
+        "measure": "Ordinal Scale Value on Day 14.",
+        "description": "The Eight-Point Ordinal Scale is an assessment of the clinical status on each study day (1 is best, 8 is worst). The Scale is defined as follows:\n\n1. Not hospitalized, no limitations on activities.\n2. Not hospitalized, limitation on activities and/or requiring home oxygen.\n3. Hospitalized, not requiring supplemental oxygen; no longer requires ongoing medical care.\n4. Hospitalized, not requiring supplemental oxygen; requiring ongoing medical care (COVID-19-related or otherwise).\n5. Hospitalized, requiring supplemental oxygen.\n6. Hospitalized, on non-invasive ventilation or high-flow oxygen devices.\n7. Hospitalized, on invasive mechanical ventilation or extracorporeal membrane oxygenation (ECMO).\n8. Death.",
+        "timeFrame": "Day 14 following baseline."
+      },
+      {
+        "measure": "All-Cause Mortality Through Day 28.",
+        "description": "Mortality due to all causes during the observation period.",
+        "timeFrame": "Within the 28 day period following baseline."
+      },
+      {
+        "measure": "All-Cause Mortality Through Day 60.",
+        "description": "Mortality due to all causes during the observation period.",
+        "timeFrame": "Within the 60 day period following baseline."
+      },
+      {
+        "measure": "Percentage of Participants Alive and Free of Any Episode of Acute Respiratory Failure Through Day 28",
+        "description": "Episodes of acute respiratory failure are defined as by need for the following oxygen delivery resources:\n\n1. High-flow nasal cannula (flow rates ≥30L/min with FiO2 ≥0.4)\n2. Noninvasive positive-pressure ventilation through nasal or face mask, or nasal plugs\n3. Endotracheal intubation and mechanical ventilation\n4. Extracorporeal membrane oxygenation",
+        "timeFrame": "Within the 28 day period following baseline."
+      },
+      {
+        "measure": "Days Alive and Free of Invasive Mechanical Ventilation Through Day 28",
+        "description": "Endotracheal intubation and mechanical ventilation.",
+        "timeFrame": "Within the 28 day period following baseline."
+      },
+      {
+        "measure": "Percentage of Participants Alive and Free of Invasive Mechanical Ventilation Through Day 28",
+        "description": "Endotracheal intubation and mechanical ventilation.",
+        "timeFrame": "Within the 28 day period following baseline."
+      },
+      {
+        "measure": "Percentage of Participants Alive and Discharged From the Hospital Through Day 28",
+        "description": "Participants must be alive and discharged from hospital.",
+        "timeFrame": "Within the 28 day period following baseline."
+      },
+      {
+        "measure": "Percent of Participants Who Begin Corticosteroid Therapy for Worsening COVID-19 Illness After Randomization",
+        "description": "Initiation of corticosteroid therapy.",
+        "timeFrame": "Within the 28 day period following baseline."
+      },
+      {
+        "measure": "Serious Adverse Events (SAEs)",
+        "description": "Number of serious adverse events",
+        "timeFrame": "Within the 28 day period following baseline."
+      },
+      {
+        "measure": "Adverse Events (AEs)",
+        "description": "Number of Grade 3 and 4 clinical and/or laboratory adverse events",
+        "timeFrame": "Within the 28 day period following baseline."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 13,
+      "otherCount": 0,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:38.160Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

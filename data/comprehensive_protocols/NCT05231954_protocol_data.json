@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT05231954",
+  "briefTitle": "Digital Detection of Dementia (D Cubed) Studies: D2",
+  "officialTitle": "Digital Detection of Dementia (D Cubed) Studies: D2",
+  "protocolDocument": {
+    "nctId": "NCT05231954",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-04-05",
+    "uploadDate": "2025-07-02T08:08",
+    "size": 544653,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05231954/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5325,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-07-05",
+    "completionDate": "2024-07-05",
+    "primaryCompletionDate": "2024-07-05",
+    "firstSubmitDate": "2022-01-28",
+    "firstPostDate": "2022-02-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 65 years or older\n* At least one visit to primary care practice within the past year\n* Ability to provide informed consent\n* Ability to communicate in English or Spanish\n* Available EHR data from at least the past three years\n\nExclusion Criteria:\n\n* Prior ADRD or mild cognitive impairment diagnosis as determined by ICD-10 code\n* Evidence of any history of prescription for a cholinesterase inhibitors or memantine.\n* Has serious mental illness such as bipolar or schizophrenia as determined by ICD-10 code\n* Permanent resident of a nursing facility",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "12-Month Cumulative Incidence of ADRD Diagnoses",
+        "description": "Any new ADRD case identified (documented in the EHR) within 12 months of the Annual Wellness Visit (index visit).",
+        "timeFrame": "12 months after index visit"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "12-Month Cumulative Incidence of ADRD Services",
+        "description": "The secondary outcome measures is receipt of any services related to cognitive diagnostic assessment in the post Annual Wellness Visit (index) period that providers may order to diagnose or exclude ADRD. Specifically, the metrics of diagnostic assessment are evaluated as proportions of patients with a record of 1 or more of:\n\n* Laboratory tests for TSH, serum B12, folate, or syphilis; individually or combined at any point during the 90 days after index\n* Neuropsychological testing, including testing by psychologist or physician, technician administrator, computer, or other providers during the 12 months after index date\n* Brain imaging testing (computed tomography, magnetic resonance imaging, positron emission tomography, magnetic resonance angiogram) of the head and neck, brain, or skull during the 12 months after index date\n* Medications approved for management of ADRD (cholinesterase inhibitors, memantine) during the 12 months after index date",
+        "timeFrame": "12 months after index visit"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:39.069Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

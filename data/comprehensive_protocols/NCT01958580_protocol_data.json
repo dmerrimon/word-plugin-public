@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT01958580",
+  "briefTitle": "Gemcitabine Hydrochloride, Docetaxel, and Radiation Therapy in Treating Patients With Uterine Sarcoma That Has Been Removed By Surgery",
+  "officialTitle": "A Pilot Safety and Toxicity Trial of Adjuvant Chemotherapy With Gemcitabine and Docetaxel and Radiation Therapy for Completely Resected Uterine Leiomyosarcoma",
+  "protocolDocument": {
+    "nctId": "NCT01958580",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-10-09",
+    "uploadDate": "2021-05-04T14:42",
+    "size": 459833,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01958580/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 3,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-09-17",
+    "completionDate": "2017-02-24",
+    "primaryCompletionDate": "2017-02-24",
+    "firstSubmitDate": "2013-10-07",
+    "firstPostDate": "2013-10-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologically documented uterine leiomyosarcoma with no visible residual disease\n* Surgical staging to include total hysterectomy, +/- removal of ovaries and fallopian tubes, +/- lymph node sampling\n* Patients must be entered no more than 12 weeks post operatively\n* Eastern Cooperative Oncology Group (ECOG) performance status of \\< 2\n* Written voluntary informed consent\n\nExclusion Criteria:\n\n* Serum glutamic oxaloacetic transaminase (SGOT) and /or serum glutamate pyruvate transaminase (SGPT) \\> 2.5 times the institutional upper limit of normal\n* Total serum bilirubin \\> 1.5 mg/dl\n* History of chronic or active hepatitis\n* Serum creatinine \\> 2.0 mg/dl\n* Platelets \\< 100,000/mm3\n* Absolute neutrophil count (ANC) \\< 1500/mm3\n* Hemoglobin \\< 8.0 g/dl (the patient may be transfused prior to study entry)\n* Patients with severe or uncontrolled concurrent medical disease (eg. uncontrolled diabetes, unstable angina, myocardial infarction within 6 months, congestive heart failure, etc.)\n* Patients with any prior chemotherapy or radiotherapy for pelvic malignancy\n* Patients who have had prior therapy with gemcitabine or docetaxel\n* Patients with known hypersensitivity to gemcitabine or docetaxel\n* Patients with known hypersensitivity to pegfilgrastim and filgrastim\n* Patients with any history of cancer with the exception of non-melanoma skin cancer are excluded if there is any evidence of other malignancy being present within the past five years\n* Patients with dementia or altered mental status that would prohibit the giving and understanding of informed consent at the time of study entry",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Recurrence-free Survival",
+        "description": "Two-year recurrence-free survival probability will be estimated, with 95% confidence limits based on exact methods for the binomial distribution. In the event of censoring before two years, a Kaplan-Meier estimate of the survival probability will be used and a Kaplan-Meier survival curve will be estimated and presented as well. The study was terminated prior to analyses",
+        "timeFrame": "Date of entry to date of reappearance of disease, assessed at 2 years. The study was terminated prior to analyses"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:59.077Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

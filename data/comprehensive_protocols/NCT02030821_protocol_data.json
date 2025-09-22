@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT02030821",
+  "briefTitle": "TXA vs. Amicar in Total Knee and Hip Arthroplasty",
+  "officialTitle": "TXA (Tranexamic Acid) vs. Amicar (Aminocaproic Acid) in Total Knee and Hip Arthroplasty- Effectiveness, Safety, and Cost Analysis",
+  "protocolDocument": {
+    "nctId": "NCT02030821",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-01-15",
+    "uploadDate": "2018-10-24T10:53",
+    "size": 220347,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02030821/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 246,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-01",
+    "completionDate": "2017-11-12",
+    "primaryCompletionDate": "2017-11-12",
+    "firstSubmitDate": "2014-01-06",
+    "firstPostDate": "2014-01-09"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients electing to undergo primary total hip or knee arthroplasty\n\nExclusion Criteria:\n\n* History of stents\n* Myocardial infarction,\n* Cerebrovascular accident or stroke\n* Deep venous thrombus\n* Pulmonary embolus\n* Late onset color blindness\n* Hypercoagulable state",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Total Blood Loss Over Course of Stay (Intraoperative and Postoperatively Until Discharge)",
+        "timeFrame": "Participants will be followed for the duration of hospital stay, an expected average of 5 days"
+      },
+      {
+        "measure": "Number of Transfusions",
+        "timeFrame": "Participants will be followed for the duration of hospital stay, an expected average of 5 days"
+      },
+      {
+        "measure": "Difference in Preoperative and Lowest Postoperative Hemoglobin",
+        "timeFrame": "Participants will be followed for the duration of hospital stay, an expected average of 5 days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Length of Hospitalization Stay",
+        "timeFrame": "Participants will be followed for the duration of hospital stay, an expected average of 5 days"
+      },
+      {
+        "measure": "Cost of Hospitalization",
+        "timeFrame": "Participants will be followed for the duration of hospital stay, an expected average of 5 days"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:59.399Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

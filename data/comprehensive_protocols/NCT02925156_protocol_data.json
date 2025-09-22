@@ -1,0 +1,73 @@
+{
+  "nctId": "NCT02925156",
+  "briefTitle": "Modeling the Epidemiologic Transition Study",
+  "officialTitle": "Modeling the Epidemiologic Transition: Energy Expenditure, Obesity and Diabetes",
+  "protocolDocument": {
+    "nctId": "NCT02925156",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-05-27",
+    "uploadDate": "2025-09-15T10:38",
+    "size": 689612,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02925156/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 2506,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2008-07-16",
+    "completionDate": "2024-05-20",
+    "primaryCompletionDate": "2024-05-20",
+    "firstSubmitDate": "2016-10-03",
+    "firstPostDate": "2016-10-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Identify as African American or Black\n* Age 18-50\n\nExclusion Criteria:\n\n* Pregnancy, nursing, or planning to become pregnant\n* Movement disorders or other disability that limits mobility",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "50 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Body Weight",
+        "description": "The change in body weight (measured in kilograms) will be measured for participants 24 months after baseline.",
+        "timeFrame": "24 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:15.586Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

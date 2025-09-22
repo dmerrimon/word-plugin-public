@@ -1,0 +1,99 @@
+{
+  "nctId": "NCT05292690",
+  "briefTitle": "An Assistive Powered Wheelchair: Stage 2 Trial",
+  "officialTitle": "An Assistive Powered Wheelchair: Stage 2 Trial - Powered Wheelchair User Evaluation of an Obstacle Alerting System. A Non-interventional Study",
+  "protocolDocument": {
+    "nctId": "NCT05292690",
+    "filename": "Prot_ICF_001.pdf",
+    "label": "Study Protocol and Informed Consent Form: Informed Consent for Photographic Images",
+    "date": "2020-06-29",
+    "uploadDate": "2022-03-24T06:53",
+    "size": 733191,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05292690/document/Prot_ICF_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": true
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 17,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-03-29",
+    "completionDate": "2021-08-31",
+    "primaryCompletionDate": "2021-04-01",
+    "firstSubmitDate": "2022-02-02",
+    "firstPostDate": "2022-03-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Adults who are not wheelchair users.\n2. Willing and able to provide a valid consent.\n3. Able to participate in interviews aided or unaided using preferred method of communication.\n4. Willing to drive a powered chair.\n\nExclusion Criteria:\n\n1\\. Lacks capacity to consent",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Pre-trial Participant Evaluation of the possible Value of an Obstacle Alerting System",
+        "description": "The participant had been given an information sheet describing the Obstacle Alerting System.\n\nThe participants were given the pre-trial questionnaire to obtain their opinion of the value of the Obstacle Alerting System.\n\nIn a face to face interview the participants were asked to score each question. 0=don't know, 1=not at all, to 5=very helpful. Participants were also asked to discuss the reasons for their choices.\n\nQuestions included. Value of warning of obstacles in the vicinity of the powered chair. Use of visual, auditory and haptic feedback in a range of environments e.g. small room, lifts, corridor, doorways, crowded spaces.\n\nThe value of a reversing camera.\n\nPerceived benefit for Powered Chair Users.",
+        "timeFrame": "immediately before the intervention/procedure"
+      },
+      {
+        "measure": "Post-trial Participant Evaluation of the possible Value of the Obstacle Alerting System",
+        "description": "Post-trial questionnaire based on pre-trial questionnaire. Participants reassessed the Obstacle Alerting System \\[OAS\\] in the light of experience.\n\nIn a face to face interview the participants were asked to score each question. 0=don't know, 1=not at all, to 5=very helpful. Participants were also asked to discuss the reasons for their choices.\n\nAsked when they found the OAS helpful and when unhelpful. Assessment of the feedback options and when they were and were not helpful. How could the OAS be improved to make it more user friendly and environment specific.\n\nPerceived benefit for Powered Chair Users.",
+        "timeFrame": "immediately after the intervention/procedure"
+      },
+      {
+        "measure": "Joystick range of movement patterns with and without the Obstacle alerting System Active",
+        "description": "Range of movement scatter plots/ heat maps",
+        "timeFrame": "immediately after the intervention/procedure"
+      },
+      {
+        "measure": "Smoothness of joystick movement with and without the Obstacle alerting System Active",
+        "description": "Smoothness of movement e.g. Normalised Jerk Score. A lower score indicates smoother and more controlled movements.\n\nTypical values for this trial are in the range of 3000-5000. A lower score is an indication of the participant learning to drive and becoming more familiar with the course.\n\nA lower score may occur with the Obstacle Alerting system active - if it helps. A higher score if it distracts. At present this is a novel measure of these factors",
+        "timeFrame": "immediately after the intervention/procedure"
+      },
+      {
+        "measure": "Joystick path length with and without the Obstacle alerting System Active",
+        "description": "Joystick path length - distance the participant moves the joystick to drive the course. Calculated from the joystick displacement X and Y coordinates.\n\nFor a set course it would be expected that the path length will decrease as the participant learns to drive and familiarises with the course. Fatigue not having an impact.\n\nA lower score may occur with the Obstacle Alerting system active - if it helps. A higher score if it distracts. At present this is a novel measure of these factors",
+        "timeFrame": "immediately after the intervention/procedure"
+      },
+      {
+        "measure": "Time to complete the course with and without the Obstacle alerting System Active",
+        "description": "Manually timed. Start when participant enters the course, stop when exiting the course",
+        "timeFrame": "immediately after the intervention/procedure"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 6,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:35.193Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

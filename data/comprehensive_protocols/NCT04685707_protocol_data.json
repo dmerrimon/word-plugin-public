@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT04685707",
+  "briefTitle": "Visual Feedback Monitoring During Exercise in Individuals With Obesity",
+  "officialTitle": "Visual Feedback Monitoring During Exercise in Individuals With Obesity",
+  "protocolDocument": {
+    "nctId": "NCT04685707",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-11",
+    "uploadDate": "2024-05-16T17:46",
+    "size": 124078,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04685707/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-09-01",
+    "completionDate": "2023-11-30",
+    "primaryCompletionDate": "2022-11-30",
+    "firstSubmitDate": "2020-12-10",
+    "firstPostDate": "2020-12-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* BMI ≥ 30.0 kg/m2 and ≤ 40.0 kg/m2\n* Age 20 to 45 years;\n* Able to understand spoken English at the level needed to:\n* understand and follow instructions for equipment setup, testing, and task performance\n* answer questions related to effort and preference\n* be able to understand consent document and provide informed assent\n\nExclusion Criteria:\n\n* Any signs or symptoms suggestive of cardiovascular, pulmonary, metabolic, or renal disease.\n* Any injury or health condition that affects the ability to walk on a treadmill.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "20 Years",
+    "maximumAge": "45 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Energy Expenditure (Oxygen Consumption)",
+        "description": "Energy expenditure was evaluated from oxygen consumption (ml/kg/min) measured during the exercise and recovery bouts using a breath-by-breath portable metabolic analyzer (K5, COSMED, Rome, Italy).",
+        "timeFrame": "1 Day"
+      },
+      {
+        "measure": "Heart Rate (Bpm)",
+        "description": "Average heart rate (bpm) during steady state period of exercise.",
+        "timeFrame": "1 day"
+      },
+      {
+        "measure": "Percentage of Strides With Tibia Peak Positive Accelerations Above 3g",
+        "timeFrame": "1 day"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Mean Tibial Positive Peak Acceleration",
+        "description": "Tibia axial accelerations were calculated using an IMU (Xsens Technologies BV, Enschede, Netherlands) aligned in the long axis of the participant's tibia attached to the anteromedial aspect of the distal tibia using double-sided adhesive tape. The mean peak positive acceleration (PPA) was calculated as the mean tibia PPA across all recorded strides for both sides during the exercise above 3g.",
+        "timeFrame": "Up to 4 weeks"
+      },
+      {
+        "measure": "Heart Rate Error",
+        "description": "Heart rate error (HRerr) was calculated as the absolute error between the target heart rate (HRtarget) and the actual heart rate during the steady state exercise. HRtarget corresponded to 60% heart rate reserve (HRR) of each participant. HRR was calculated as the difference between the estimated maximal heart rate and the resting heart rate. Maximal heart rate was estimated using the 220-age formula, and resting heart rate was measured using the heart rate monitor after at least 4 min of seated rest at the beginning of each session.",
+        "timeFrame": "1 day"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:16.266Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

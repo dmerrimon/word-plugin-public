@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT04144517",
+  "briefTitle": "A Study of ALKS 4230 (Nemvaleukin Alfa) With Pembrolizumab in Head and Neck Cancer",
+  "officialTitle": "A Phase 2 Study of ALKS 4230 in Combination With Anti-PD-1 (Pembrolizumab) in Patients With Advanced or Recurrent Head and Neck Squamous Cell Cancer Currently on Treatment With Anti-PD-(L)1 Without Having Achieved a Complete Remission",
+  "protocolDocument": {
+    "nctId": "NCT04144517",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-10-29",
+    "uploadDate": "2024-08-06T08:26",
+    "size": 1684770,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04144517/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 14,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-02-05",
+    "completionDate": "2022-01-07",
+    "primaryCompletionDate": "2021-10-08",
+    "firstSubmitDate": "2019-10-24",
+    "firstPostDate": "2019-10-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytopathologically confirmed diagnosis of non-cutaneous squamous cell carcinoma of the head and neck region that is locally advanced and/or recurrent and no longer amenable to local surgical or radiation therapy and/or with evidence of distant metastatic disease\n* Patients must have had anti-PD-(L)1 therapy as the most recent systemic therapy with either stable disease or partial response on prior anti-PD-(L)1 therapy, or progressive disease on prior anti-PD-(L)1 therapy\n* Patients must have disease that is measurable by RECIST v1.1\n* Patients must be willing to provide tumor tissue biopsy\n* Patients must demonstrate adequate organ function\n* Female patients of childbearing potential should have a negative pregnancy test within 72 hours prior to receiving the first dose of study medication\n* Patients must agree to follow contraceptive requirements defined in the protocol\n* Additional criteria apply\n\nExclusion Criteria:\n\n* Patient is pregnant or breastfeeding or expecting to conceive or father children\n* Patient has an active major infection requiring systemic therapy within 1 week of starting study drug\n* Patient has known active central nervous system (CNS) metastases and/or carcinomatous meningitis. Patients with previously treated brain metastases may participate, provided that they are stable, have no evidence of new or enlarging brain metastases, and are not using steroids for at least 7 days prior to study drug\n* Patient has hypersensitivity to pembrolizumab, ALKS 4230, or any of their excipients\n* Patient has a diagnosis of immunodeficiency or is receiving systemic steroid therapy (inhaled or topical steroids and steroid replacement at physiologic doses are allowable)\n* Patient has prior Grade ≥3 immune-related toxicities requiring systemic immunosuppressant treatment that were attributable or possibly attributable to PD-1 immune checkpoint blockade\n* Patient has active tuberculosis or known active infection with hepatitis B or hepatitis C\n* Patient has known psychiatric or substance abuse disorders or a social situation that would interfere with cooperation with the requirements of the study\n* Additional criteria apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Overall Response Rate (ORR) Based on RECIST v1.1",
+        "description": "ORR was defined as percentage of participants with complete response (CR) or PR as assessed by investigator based on response evaluation criteria in solid tumors (RECIST) version (v) 1.1. CR was defined as the disappearance of all target and non-target lesions (non-lymph nodes). All pathological lymph nodes (whether target or non-target) must have a reduction in their short axis less than (\\<) 10 millimeters (mm). PR was defined as at least a 30 percent (%) decrease in the sum of diameter (SOD) of target lesions, taking as reference the baseline sum diameters. PD was defined as at least 20% increase (including an absolute increase of at least 5 mm) in the SOD of target lesions, taking as reference the smallest sum and/or unequivocal progression of existing non-target lesions and/or appearance of 1 or more new lesions.",
+        "timeFrame": "From the first dose of study drug until first PD or death, whichever occurred first (up to 49 weeks)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Duration of Response (DOR) Based on RECIST v1.1",
+        "description": "DOR was defined as time in months from the first documentation CR or PR until the first documentation of confirmed PD as assessed by investigator based on RECIST v1.1. CR: disappearance of all target and non-target lesions (non-lymph nodes). All pathological lymph nodes (whether target or non-target) must have a reduction in their short axis \\<10 mm. PR: at least a 30% decrease in the SOD of target lesions, taking as reference the baseline sum diameters. PD: at least 20% increase (including an absolute increase of at least 5 mm) in the SOD of target lesions, taking as reference the smallest sum and/or unequivocal progression of existing non-target lesions and/or appearance of 1 or more new lesions.",
+        "timeFrame": "From first documented CR or PR until first documentation of PD (up to 49 weeks)"
+      },
+      {
+        "measure": "Progression-free Survival (PFS) Based on RECIST v1.1",
+        "description": "PFS was defined as the time (in months) from the date of first dose of study drug to the date of first documentation of objective tumor progression, start of alternate therapy or death due to any cause, whichever occurred first, based on RECIST v1.1. PD was defined as at least a 20% increase in the SOD of target lesions, taking as reference the baseline SOD of target lesions.",
+        "timeFrame": "From the first dose of study drug to date of PD, start of alternate therapy or death, whichever occurred first (up to 49 weeks)"
+      },
+      {
+        "measure": "Time to Progression (TTP) Based on RECIST v1.1",
+        "description": "TTP was defined as the time from the date of first dose of study drug to the date of first documentation of PD based on RECIST 1.1. PD was defined as at least a 20% increase (including an absolute increase of at least 5 mm) in the SOD of target lesions, taking as reference the baseline SOD of target lesions.",
+        "timeFrame": "From first dose of study drug to the date of the first documentation of PD (up to 49 weeks)"
+      },
+      {
+        "measure": "Disease Control Rate (DCR) Based on RECIST v1.1",
+        "description": "DCR was defined as percentage participants with a confirmed CR, PR, or SD as assessed by an investigator based on RECIST v1.1. CR: disappearance of all target lesions. All pathological lymph nodes (whether target or non-target) must have a reduction in their short axis to \\<10 mm. PR: at least a 30% decrease in the sum of the longest diameter of target lesions, taking as reference the baseline sum of the longest diameter. SD: neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum diameters while on study. PD: at least a 20% increase in sum of diameters of target lesions, taking as reference the smallest sum on study (this includes baseline sum if that is the smallest on study).",
+        "timeFrame": "From first dose of study drug until PD or death, whichever occurred first (up to 49 weeks)"
+      },
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "OS was defined as the time from the date of the first dose of study drug until the date of death due to any cause. Participants were followed for survival after the last dose of study drug.",
+        "timeFrame": "From date of first dose of study drug up to death from any cause (up to 89 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Drug-related Treatment-emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+        "description": "An adverse event (AE) was any untoward medical occurrence in a participant or clinical investigation participant who was administered a pharmaceutical product. A SAE was defined as any untoward medical occurrence that at any dose resulted in death, was life-threatening, required participant's hospitalization or prolongation of existing hospitalization, resulted in persistent or significant disability/incapacity, led to a congenital anomaly/birth defect. TEAE included AE that occurred or worsen after the first dose of study drug. The assessment of the relationship of study drug to TEAEs and SAEs was done by the Investigator (or designated sub-Investigator) according to their best clinical judgment.",
+        "timeFrame": "From the first dose of study drug through 90 days after the last dose of study drug (up to 62 weeks)"
+      },
+      {
+        "measure": "Number of Participants With Drug-related TEAEs Leading to Discontinuation of Treatment",
+        "description": "An AE was any untoward medical occurrence in a participant or clinical investigation participant who was administered a pharmaceutical product. TEAE included AE that occurred or worsen after the first dose of study drug. The assessment of the relationship of study drug to AEs was done by the Investigator (or designated sub-Investigator) according to their best clinical judgment.",
+        "timeFrame": "From first dose of study drug through 90 days after the last dose of study drug (up to 62 weeks)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:47.488Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

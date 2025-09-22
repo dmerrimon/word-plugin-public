@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT05087524",
+  "briefTitle": "BinaxNOW for Evaluating Children for Infection With SARS-CoV-2 (COVID-19)",
+  "officialTitle": "Feasibility and Specificity of BinaxNOW for Diagnosis and Surveillance of Infection With SARS-CoV-2 in Schoolchildren",
+  "protocolDocument": {
+    "nctId": "NCT05087524",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2021-03-04",
+    "uploadDate": "2022-01-25T14:55",
+    "size": 73022,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05087524/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 65,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-01-09",
+    "completionDate": "2021-04-08",
+    "primaryCompletionDate": "2021-04-08",
+    "firstSubmitDate": "2021-10-18",
+    "firstPostDate": "2021-10-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Children aged 5 - 15 years inclusive\n* Currently attending school K-8 at one of the designated schools of the Madison Metropolitan School District\n* Teachers and other school staff aged 20-65 years\n\nExclusion Criteria:\n\n* Children \\< 5 years or \\> 16 years\n* Teachers and other school staff \\< 20 years or \\> 65 years",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Tests Taken Per Participant",
+        "description": "Feasibility BinaxNOW surveillance testing will be measured by the number of test taken per participant. Greater than 1 test per participant is an indicator of compliance with repeat surveillance testing.",
+        "timeFrame": "up to 8 weeks"
+      },
+      {
+        "measure": "Number of Positive SARS-CoV-2 BinaxNOW Tests Confirmed by PCR Testing",
+        "description": "The specificity of positive tests for SARS-CoV-2 obtained for diagnosis or surveillance compared to traditional PCR diagnostic testing.",
+        "timeFrame": "up to 5 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "realComplexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 4,
+      "exclusionCount": 2,
+      "totalCount": 6
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 32,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:32:28.776Z",
+  "dataSource": "ClinicalTrials.gov API v2"
+}

@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT03000283",
+  "briefTitle": "Conivaptan for the Reduction of Cerebral Edema in Intracerebral Hemorrhage- A Safety and Tolerability Study",
+  "officialTitle": "Conivaptan for the Reduction of Cerebral Edema in Intracerebral Hemorrhage- A Safety and Tolerability Study",
+  "protocolDocument": {
+    "nctId": "NCT03000283",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-04-04",
+    "uploadDate": "2020-04-03T09:39",
+    "size": 504081,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03000283/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 7,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-03-22",
+    "completionDate": "2019-04-15",
+    "primaryCompletionDate": "2019-02-12",
+    "firstSubmitDate": "2016-12-14",
+    "firstPostDate": "2016-12-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age \\>18 years old and \\< 80 years.\n2. Diagnosis of primary ICH \\> 20 cc in volume.\n3. Enrollment within 48 hours from initial symptoms.\n4. Signed informed consent from the patient or obtained via their legally authorized representative (if the patient is not able to sign the informed consent themselves). The patient's decisional capacity to either provide or refuse consent will be determined using the Glasgow Coma Scale (GCS), which is being assessed at baseline and at 24 hours (+/-6hrs) after enrollment. A potential study participant with a GCS \\> 14 will be asked to provide their own initial study consent. A GCS ≤ 14 would indicate the need to pursue consent via legally authorized representative.\n\nExclusion Criteria:\n\n1. Current need for renal replacement therapy (RRT).\n2. Glomerular filtration rate (GFR) of \\<30 mL/minute at time of admission.\n3. Participation in another study for ICH or intraventricular hemorrhage.\n4. ICH related to infection, thrombolysis, subarachnoid hemorrhage, trauma or tumor.\n5. Presence of HIV or active fungal infection that is known based on information in the electronic medical record (EMR).\n6. Continued use of digoxin or amlodipine (as recommended by the manufacturer due to cytochrome P450 3A4 \"CYP3A\" inhibition).\n7. Active hepatic failure as defined by aspartate aminotransferase (AST) \\>160 units/L and/or alanine transaminase (ALT) \\>180 units/L, or total bilirubin levels greater than four times normal levels (\\>4.8mg/dL).\n8. Serum Na+\\> 145 mmol/L (admission labs or any time prior to recruitment/enrollment).\n9. Unable to receive conivaptan based on contraindications indicated by the manufacturer.\n10. Pregnant or lactating females.\n11. Not expected to survive within 48 hours of admission, or a presumed diagnosis of brain death.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "19 Years",
+    "maximumAge": "79 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Patient Tolerance of Conivaptan",
+        "description": "The number of participants with abnormal seizure activity and/or abnormal lab values and/or increase in infection rate and/or any drug-related adverse events.",
+        "timeFrame": "Baseline to 168 hours post-enrollment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "In-hospital Mortality",
+        "description": "All-cause deaths during hospitalization",
+        "timeFrame": "Enrollment through hospital discharge, up to 3 weeks"
+      },
+      {
+        "measure": "Change in Cerebral Edema",
+        "description": "Changes in cerebral edema (CE) as measured on CT. Goal is a -5 to -10% change in CE over time. Change will be measured both as absolute change in volume, calculated as the final volume minus the baseline volume measure and converted to a percentage of the baseline volume measure.",
+        "timeFrame": "Baseline to 168 hours post-enrollment"
+      },
+      {
+        "measure": "Cost",
+        "description": "Cost as measured by length of stay in the neuro ICU.",
+        "timeFrame": "Enrollment through hospital discharge, up to 3 weeks"
+      },
+      {
+        "measure": "Cost",
+        "description": "Cost as measured by:\n\n1. Need for external ventricular drain (EVD)/bolt or surgical procedures (craniectomy, clot evacuation,VPS) for reduction/management of CE.\n2. Need for central venous lines, arterial lines, peripherally inserted central venous catheter (PICC) lines, tracheostomy/percutaneous endoscopic gastrostomies (PEGs).\n3. Number of patients requiring a ventilator.",
+        "timeFrame": "Baseline to 168 hours post-enrollment"
+      },
+      {
+        "measure": "Modified Rankin Scale (mRS) Score",
+        "description": "Modified Rankin Scale (0 to 6) at discharge from the hospital. A score of 0 indicates no disability and a score of 6 indicates the patient died. Functional independence is defined as a score of 2 or less.",
+        "timeFrame": "At discharge from ICU and from hospital, up to 3 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:35.615Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

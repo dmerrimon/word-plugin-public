@@ -1,0 +1,104 @@
+{
+  "nctId": "NCT04658121",
+  "briefTitle": "SARS-CoV-2/COVID-19 Prevalence Study",
+  "officialTitle": "SARS-CoV-2 Prevalence Study",
+  "protocolDocument": {
+    "nctId": "NCT04658121",
+    "filename": "Prot_ICF_000.pdf",
+    "label": "Study Protocol and Informed Consent Form",
+    "date": "2021-05-26",
+    "uploadDate": "2021-09-13T10:35",
+    "size": 929123,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04658121/document/Prot_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": true
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 26741,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-02-04",
+    "completionDate": "2021-08-12",
+    "primaryCompletionDate": "2021-08-12",
+    "firstSubmitDate": "2020-11-19",
+    "firstPostDate": "2020-12-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nAdults residing in senior living facilities or attending outpatient healthcare facilities:\n\n* At least 18 years of age\n* Willing and able to provide informed consent or consent has been provided by legal representative (for those with mental incapacity in senior living facilities)\n* Recruited from a selected facility\n\nAdults and children from select neighborhoods of research site communities:\n\n* Adults and children \\> 2 months of age\n* For individuals \\< 18 years old, a guardian must be present (in person or by phone for those 15 - 17 years old)\n* Willing and able to provide consent (or assent for individuals 7-17 years old, parent/guardian will provide consent for all minors)\n* Recruited from a selected venue\n\nExclusion Criteria:\n\n* Previous enrollment in this study, either from the same or another CRS community.\n* Any condition that, in the opinion of the study staff, would make participation in the study unsafe, complicate interpretation of study outcome data, or otherwise interfere with achieving the study objectives",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "2 Months",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "To estimate the prevalence of SARS-CoV-2 IgG seropositivity among individuals in communities surrounding selected NIAID clinical research sites",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "To estimate prevalence of SARS-CoV-2 infection based on results of SARS-CoV-2 RNA testing",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "To estimate prevalence of SARS-CoV-2 infection by presence versus absence of symptoms consistent with COVID-19",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "To estimate seroprevalence of SARS-CoV-2",
+        "description": "Among:\n\n1. Those without past or current symptoms consistent with COVID-19\n2. Those with no prior positive SARS-CoV-2 testing, but who report close contact with confirmed or presumed cases\n3. Those with history of co-morbid medical conditions",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "To assess association between demographic, clinical and social factors with SARS-CoV-2 infection and seroprevalence, with particular interest in racial and ethnic health disparities.",
+        "description": "Logistic regression using survey weights will be used to infer associations between the hypothesized socioeconomic, demographic and clinical predictors of SARS-CoV-2 infection and seroprevalence.",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "To estimate potential size of populations for referral to COVID-19 prevention and treatment studies",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "To assess knowledge, attitudes, and behavior about SARS-CoV-2 and COVID-19 through a study questionnaire",
+        "timeFrame": "Baseline"
+      },
+      {
+        "measure": "To assess performance characteristics of PCR-based and serologic SARS-CoV-2 tests using saliva samples",
+        "timeFrame": "Baseline"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 7,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:38.731Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

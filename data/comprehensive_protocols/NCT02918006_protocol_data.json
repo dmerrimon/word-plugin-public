@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02918006",
+  "briefTitle": "A Phase 2 Influenza A Challenge Study Following Oral Administration of an H1N1 HA Ad-Vector Seasonal Flu Vaccine",
+  "officialTitle": "Phase 2 Randomized, Controlled, Human Influenza A (H1N1) Challenge Study Following Administration of an Oral H1N1 HA Adenoviral-Vector Based Seasonal Influenza Vaccine and dsRNA Adjuvant to Healthy Adult Volunteers",
+  "protocolDocument": {
+    "nctId": "NCT02918006",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-06-08",
+    "uploadDate": "2022-07-02T22:54",
+    "size": 1038450,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02918006/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 179,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08-31",
+    "completionDate": "2018-01-19",
+    "primaryCompletionDate": "2017-08-08",
+    "firstSubmitDate": "2016-09-26",
+    "firstPostDate": "2016-09-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Male or female volunteers aged 18 - 49 years, inclusive\n2. Able to give written informed consent\n3. Low pre-existing antibodies to the study vaccine\n4. In general good health (no clinically significant health concerns)\n5. Safety laboratory normal range or not clinically significant (NCS), with few exceptions\n6. Body mass index (BMI) between 17 and 35\n7. Comprehension of the study requirements with ability and willingness to complete all assessments and comply with scheduled visits and contacts\n8. Female participants must have a negative pregnancy test at screening\n\nExclusion Criteria:\n\n1. Receipt of any influenza vaccine within two years prior to study\n2. Use of any investigational vaccine/adjuvanted vaccine within 8 weeks of study\n3. Use of any investigational drug or device within 4 weeks of study\n4. Use of any licensed vaccine within 30 days of study\n5. Presence of significant uncontrolled medical or psychiatric illness within 3 months of study\n6. Clinically significant and/or protocol defined ECG abnormality\n7. Positive serology for HIV-1 or HIV-2, or HBsAg or HCV antibodies\n8. Cancer, or treatment for cancer, within 3 years of study\n9. History of drug, alcohol or chemical abuse within 1 year\n10. Receipt of blood or blood products within 6 months of study\n11. Donation of blood within 4 weeks of study\n12. Presence of a fever ≥ 38ºC measured orally at baseline\n13. Stool sample with occult blood at screening\n14. Positive urine drug screen for drugs of abuse at screening\n15. Positive breath or urine alcohol test at screening or baseline\n16. Consistent/habitual smoking within 2 months prior to vaccination\n17. History of serious reactions to any vaccination such as anaphylaxis, respiratory problems, Guillain-Barre syndrome, hives or abdominal pain\n18. Asthma, bronchiectasis or chronic obstructive pulmonary disease\n19. Any known allergy or intolerance to oseltamivir",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "49 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Subjects With Influenza-like Clinical Illness and Laboratory Confirmed Infection Post Challenge With a Homologous A Strain Influenza Virus",
+        "description": "The clinical efficacy of VXA-A1.1 to protect against illness caused by the homologous A strain influenza virus with challenge 3 months following a single immunization in comparison to placebo and QIV. Participants were evaluated for clinical signs and symptoms of influenza as well as for viral shedding via PCR for confirmation of infection.",
+        "timeFrame": "Clinical Illness and/or laboratory confirmed infection occurring following viral challenge at 3 months post vaccination"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:34.652Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

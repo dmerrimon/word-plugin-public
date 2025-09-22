@@ -1,0 +1,73 @@
+{
+  "nctId": "NCT05918003",
+  "briefTitle": "Actimetry Protocol in COPD Patients",
+  "officialTitle": "Validation by Three-dimensional Actimetry Measurements of a Predictive Algorithm for Excessive Inactivity in Chronic Obstructive Pulmonary Disease (COPD) Patients",
+  "protocolDocument": {
+    "nctId": "NCT05918003",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-09-30",
+    "uploadDate": "2023-06-13T07:05",
+    "size": 649509,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05918003/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 104,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-01-01",
+    "completionDate": "2023-12-31",
+    "primaryCompletionDate": "2023-09-30",
+    "firstSubmitDate": "2023-06-13",
+    "firstPostDate": "2023-06-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Any patient with a diagnosis of COPD, all GOLD stages combined, who receives a properly informed Colibri-COPD digital consultation.\n\nExclusion Criteria:\n\n* Patients with other unstable conditions with treatment,\n* Unstable patients:\n\n  * Who had an exacerbation in the previous 2 months,\n  * Patients who have had surgery, a heart attack, a fall, or an accident limiting usual movements in the previous 3 months.\n* Protected patients within the meaning of the French Public Health Code",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "AUC-ROC as the primary endpoint to judge the performance of the algorithm",
+        "description": "A contingency table recording the algorithm's performance metrics will be constructed in parallel from the actimetry data. The AUC-ROC will be used as the primary endpoint to judge the performance of the algorithm.",
+        "timeFrame": "December 2023"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:26.296Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT02984228",
+  "briefTitle": "Platelet-rich Plasma vs. Hyaluronic Acid for Glenohumeral Osteoarthritis",
+  "officialTitle": "The Efficacy of Ultrasound Guided Glenohumeral Joint Injections of Platelet Rich Plasma (PRP) Versus Hyaluronic Acid (HA) in the Treatment of Glenohumeral Osteoarthritis: a Randomized, Double-blind Control Trial",
+  "protocolDocument": {
+    "nctId": "NCT02984228",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-28",
+    "uploadDate": "2022-03-14T14:48",
+    "size": 324696,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02984228/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 70,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-12",
+    "completionDate": "2020-11",
+    "primaryCompletionDate": "2020-11",
+    "firstSubmitDate": "2016-12-01",
+    "firstPostDate": "2016-12-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* English speaking/literate\n* Age 18-100 years\n* Visual analog score pain \\>= 5\n* Greater than or equal to 3 months of pain after onset of symptoms that has failed conservative treatments\n* Confirmation of glenohumeral OA via routine imaging (MRI and x-ray; must be recent and within the past year)\n* Transient relief of symptoms after diagnostic intra-articular injection into the glenohumeral joint\n\nExclusion Criteria:\n\n* Non-English speaking/illiterate\n* Painful active, concurrent cervical spine conditions\n* Current non-steroidal anti-inflammatory drug (NSAID) use\n* History of taking coumadin or similar anticoagulant, have a known coagulopathy, bleeding dyscrasia, or platelet count \\< 150,000/cubic mm\n* Allergic reaction to poultry or previous viscosupplementation\n* Involved in workers' compensation or active litigation involving affected shoulder\n* Inability to refrain from NSAID use for 5 days prior to and 6 weeks after injection\n* History of corticosteroid injection to affected shoulder within the last 3 months\n* History of viscosupplementation or platelet-rich plasma to affected shoulder within the last 6 months\n* Presence of acute fracture\n* History of shoulder tumor\n* Known uncontrolled systemic illness (uncontrolled diabetes, human immunodeficiency virus, vasculitis, autoimmune/inflammatory disease)\n* Psychiatric and somatoform disorders",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Shoulder Pain and Disability Index (SPADI) Score",
+        "description": "Score ranges from 0-100, with a higher score representing higher disability.",
+        "timeFrame": "Up to 52 weeks post-procedure"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Shoulder Function",
+        "description": "Shoulder function will be assessed using the American Shoulder and Elbow Surgeons Society Standardized Shoulder Assessment (ASES) Form. The ASES forms includes questions about difficulty performing different functions, such as putting on a coat and sleeping on the affected side. Scores range from 0 to 100, with a higher score indicating higher function and a lower score indicating lower function.",
+        "timeFrame": "Up to 52 weeks post-procedure"
+      },
+      {
+        "measure": "Number of Patients Who Were Satisfied After Treatment",
+        "description": "Satisfaction will be assessed using the North American Spine Society Patient Satisfaction Index. Patients were asked to select one of the following in regards to the procedure: \"The procedure met my expectations\"; \"The procedure improved my condition enough so that I would go through it again for the same outcome\"; \"The procedure helped me, but I would not go through it again for the same outcome\"; or \"I am the same or worse compared to before the procedure\". Responses of \"The procedure met my expectations\" and \"The procedure improved my condition enough so that I would go through it again for the same outcome\" were considered to be \"satisfied\". The other two responses were considered to be \"not satisfied\".",
+        "timeFrame": "Up to 52 weeks post-procedure"
+      },
+      {
+        "measure": "Number of Patients With Complication Events After the Procedure",
+        "description": "Any complications reported were collected. Complications include bleeding from the injection site, prolonged swelling, infection, weakness of the muscles surrounding the injected joint, and allergic reactions. Total number of available events was calculated by multiplying the number of patients with the number of follow-up time points. The percentage of complication events was calculated by summing the number of complication events and dividing that by the total number of available events, and then multiplying by 100.",
+        "timeFrame": "Up to 52 weeks post-procedure"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:57.683Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

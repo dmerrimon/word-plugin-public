@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT02203799",
+  "briefTitle": "Peanut Oral Immunotherapy in Children With Peanut Allergy (Peanut Flour)",
+  "officialTitle": "Immune Responses in Peanut Allergic Subjects Undergoing Peanut Oral Immunotherapy",
+  "protocolDocument": {
+    "nctId": "NCT02203799",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-11-25",
+    "uploadDate": "2021-05-05T13:32",
+    "size": 1133663,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02203799/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-07-31",
+    "completionDate": "2020-02-11",
+    "primaryCompletionDate": "2020-02-11",
+    "firstSubmitDate": "2014-07-28",
+    "firstPostDate": "2014-07-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 5-16 years of either sex, any race, any ethnicity, weighing at least 18.3 kg at the time of the initial visit.\n* The presence of Immunoglobulin E (IgE) specific to peanuts (a positive skin prick test to peanuts (diameter of wheal \\> 3.0 mm) and a positive in vitro IgE \\[CAP-FEIA\\] \\> 7 kUA/L) measured within the past year.\n* Significant clinical symptoms occurring within 120 minutes after ingesting peanuts during an observed DBPCFC. Patients who have not had previous oral exposure to peanut will be observed for a longer duration of 150 minutes because they may demonstrate a delayed immune response, given the lack of prior peanut exposure. Also, patients with a history of prior anaphylaxis will be observed for 150 minutes.\n* Provide signed informed consent.\n* Ability to follow-up regularly for scheduled appointments.\n* Subjects will not be excluded if they are primarily Spanish speaking.\n* Females of childbearing potential must be willing to practice an acceptable form of birth control throughout the protocol.\n* Epinephrine injection training provided. Participant has current in-date epinephrine injector and parent/guardian demonstrates proper use\n\nExclusion Criteria:\n\n* History of severe anaphylaxis to peanut as defined by hypoxia, hypotension, or neurological compromise (Cyanosis or SpO2 \\< 92% at any stage, hypotension, confusion, collapse, loss of consciousness; or incontinence)\n* Currently participating in a study using an investigational new drug.\n* Participation in any interventional study for the treatment of food allergy in the past 12 months or while participating in this study.\n* Poor control or persistent activation of atopic dermatitis.\n* Diagnosis of persistent asthma as defined by NHLBI criteria and currently being treated with daily doses of inhaled corticosteroids or requiring a rescue inhaler more than 2 days per week.\n* Inability to discontinue antihistamines for skin testing and Oral Food Challenges (OFCs).\n* Pregnant female.\n* Chronic medical condition requiring frequent use of oral steroids, chronic psychiatric illness or history of substance abuse.\n* Active eosinophilic esophagitis requiring medication therapy during the past 12 months.\n* Subjects with known oat or wheat allergy\n* Subjects currently on the build-up phase of environmental allergy immunotherapy injections\n* Live more than 175 miles away from Texas Children's Hospital located in the Medical Center.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "maximumAge": "16 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Determine the Percentage of Patients Tolerating the 12-month DBPCFC",
+        "description": "Patients underwent a build-up phase (month 0-12). The patients returned every 2 weeks during the build-up phase until the maintenance dose of 3900 mg was achieved. The 12-month double blind placebo controlled food challenge (DBPFC) was performed on achieving the maintenance dose. The primary objective was to determine the percentage of subjects tolerating a cumulative dose of 26255 mg of peanut flour with absence of clinical symptoms during the 12-month DBPCFC.",
+        "timeFrame": "Month 12 after first dose of peanut flour"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Sustained Unresponsiveness After 1 Month of Treatment Discontinuation",
+        "description": "To compare the change in dose tolerated after one month of abstaining from peanut to determine sustained unresponsiveness. The subjects underwent a DBPCFC at month 36 and month 37. The mean of the highest dose tolerated by the subjects was assessed at these two timepoints.",
+        "timeFrame": "Month 36 and 37 after first dose of peanut flour"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:47.593Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

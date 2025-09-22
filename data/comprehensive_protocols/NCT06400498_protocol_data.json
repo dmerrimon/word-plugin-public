@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT06400498",
+  "briefTitle": "Surprise Question in End of Life (SeQuEL) Care and the Effect of Prompting Palliative Care Consultation: End-Stage Liver Disease",
+  "officialTitle": "Pragmatic Trial Investigating Surprise Question in End of Life (SeQuEL) Care and the Effect of Prompting Palliative Care Consultation on Provider Referral Rates and Subsequent Outcomes for Hospitalized Adults With Serious Illnesses: End-Stage Liver Disease",
+  "protocolDocument": {
+    "nctId": "NCT06400498",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2024-07-31",
+    "uploadDate": "2025-08-11T10:26",
+    "size": 485670,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06400498/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 97,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-08-05",
+    "completionDate": "2025-08-05",
+    "primaryCompletionDate": "2025-05-05",
+    "firstSubmitDate": "2024-05-01",
+    "firstPostDate": "2024-05-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patient is an adult (age ≥ 18 years).\n* Patient is admitted to the study hospital.\n* Patient meets phenotype criteria for End-Stage Liver Disease.\n* Patient's treating physician, physician associate, or nurse practitioner answers \"No\" to a prompt in the electronic health record asking, \"Would you be surprised if this patient died in the next 12 months?\"\n\nExclusion Criteria:\n\n* Patient is known to have received any VUMC palliative care consultation during the prior 3 months and/or the current admission.\n* Patient is known to be a prisoner.\n* Patient has received a liver transplant.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of patients with palliative care consults placed within 48 hours after enrollment",
+        "description": "Percentage of patients identified within the EHR identified with palliative care consults.",
+        "timeFrame": "48 hours post-enrollment"
+      },
+      {
+        "measure": "Hospital-free days by day 90",
+        "description": "The number of calendar days between enrollment and day 90 in which the patient is alive and outside of an acute-care hospital. Days spent at home, at a rehabilitation facility, at a nursing facility, and at an inpatient hospice facility will count as hospital-free.",
+        "timeFrame": "90 days post-enrollment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Survival to day 90",
+        "description": "The number of calendar days in which the patient is alive between enrollment and day 90.",
+        "timeFrame": "90 days post-enrollment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:11.742Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

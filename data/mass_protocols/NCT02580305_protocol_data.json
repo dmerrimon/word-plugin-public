@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT02580305",
+  "briefTitle": "SUVN-502 With Donepezil and Memantine for the Treatment of Moderate Alzheimer's Disease- Phase 2a Study",
+  "officialTitle": "A Phase 2a Multicenter, Randomized, Double-Blind, Parallel Group, 26-Week, Placebo-Controlled Study of SUVN-502 in Subjects With Moderate Alzheimer's Disease Currently Treated With Donepezil Hydrochloride and Memantine Hydrochloride",
+  "protocolDocument": {
+    "nctId": "NCT02580305",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-03-02",
+    "uploadDate": "2023-04-17T07:22",
+    "size": 30310264,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02580305/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 564,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-09",
+    "completionDate": "2019-11-07",
+    "primaryCompletionDate": "2019-11-05",
+    "firstSubmitDate": "2015-10-17",
+    "firstPostDate": "2015-10-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Has a diagnosis of probable Alzheimer's disease based on the National Institute of Neurological and Communicative Disorders and Stroke and the Alzheimer's Disease and Related Disorders Association (NINCDS-ADRDA) criteria at least 1 year prior to the screening visit.\n* Has a score between 12 and 20 inclusive on the MMSE at the screening and baseline visits.\n* Has a MRI or CT scan performed within 12 months prior to screening with findings consistent with the diagnosis of dementia due to Alzheimer's disease without any other clinically significant comorbid pathologies.\n* Must be receiving treatment with stable doses of donepezil HCl and memantine HCl for at least 3 months prior to the screening visit\n* Availability of an eligible and reliable caregiver\n* Must be living in the community or an assisted living facility.\n* Must be ambulatory or ambulatory aided (use of cane or walker).\n* Is not pregnant or planning to become pregnant during the study.\n* Subject (or subject's legally acceptable representative) and caregiver must sign an Informed Consent to participate in the study.\n\nExclusion Criteria:\n\n* Has a diagnosis of dementia due to other than Alzheimer's Disease\n* Is taking cholinesterase inhibitors other than donepezil HCl or taking doses of donepezil HCl other than 10 mg\n* Is taking doses of memantine HCl other than 10 mg bid or Namenda XR® 28 mg qd.\n* Has uncontrolled cardiac disease or hypertension.\n* Has clinically significant renal or hepatic impairment.\n* Has cancer or a malignant tumor, untreated thyroid disorder or has a history of seizure disorder\n* Is treated or likely to require treatment during the study, with any medications prohibited by the study protocol.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline to Week-26 in Alzheimer's Disease Assessment Scale-Cognitive Subscale 11 (ADAS-Cog 11)",
+        "description": "Mean change from baseline at week 26 is assessed for ADAS-Cog11 score. The ADAS-Cog11 is a structured scale that evaluates memory, orientation, attention, reasoning, language, and constructional praxis. ADAS-Cog11 measures cognition by assessing 11 metrics impaired in AD: word recall; commands; constructional praxis; naming objects and fingers; ideational praxis; orientation; word recognition; remembering test instructions; spoken language ability; word-finding difficulty; and comprehension of spoken language. The scale ranges from 0 to 70, with higher scores indicate greater impairment.",
+        "timeFrame": "Baseline to Week 26"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline to Week-26 in Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB)",
+        "description": "Clinical Dementia Rating-Sum of Boxes (CDR-SB) - Sum of Boxes CDR-SB is a semi-structured interview of participants and their caregivers. Participant's cognitive status is rated across 6 domains of functioning, including memory, orientation, judgment/problem solving, community affairs, home/hobbies, and personal care.\n\nSeverity score assigned for each of 6 domains; total score (SB) ranges from 0 to 18. Higher scores indicate greater disease severity.",
+        "timeFrame": "Baseline to Week 26"
+      },
+      {
+        "measure": "Change From Baseline to Week-26 in Alzheimer's Disease Cooperative Study Group-Activities of Daily Living (ADCS-ADL)",
+        "description": "The Alzheimer's Disease Cooperative Study Activities of Daily Living (ADCS-ADL) Inventory Score is a 23-item inventory.\n\nThe ADCS-ADL measures both basic and instrumental activities of daily living The total ADCS-ADL score ranges from 0 to 78, with lower scores indicating greater disease severity.",
+        "timeFrame": "Baseline to Week 26"
+      },
+      {
+        "measure": "Change From Baseline to Week-26 in Neuropsychiatric Inventory (NPI)",
+        "description": "Neuropsychiatric Inventory (NPI) 12 item - Total Score NPI assesses psychopathology in participants with dementia and other neurologic disorders.\n\nTotal score ranges from 12 to 144; higher scores indicate greater disease severity.",
+        "timeFrame": "Baseline to Week 26"
+      },
+      {
+        "measure": "Change From Baseline to Week-26 in Change in Mini Mental State Examination (MMSE)",
+        "description": "Change in Mini-Mental State Examination (MMSE) - Total Score Minimum Score - 0, Maximum Score - 30. Higher score means better outcome.",
+        "timeFrame": "Baseline to Week 26"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:02.810Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

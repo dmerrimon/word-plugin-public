@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT04322526",
+  "briefTitle": "Study of Naltrexone-Induced Blockade of Antidepressant Effects",
+  "officialTitle": "Naltrexone-induced Blockade of Neural Responses Induced by Fast-Acting Antidepressant Effects",
+  "protocolDocument": {
+    "nctId": "NCT04322526",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-03-30",
+    "uploadDate": "2020-03-31T09:35",
+    "size": 1069043,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04322526/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 25,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-07-01",
+    "completionDate": "2018-07-15",
+    "primaryCompletionDate": "2018-07-15",
+    "firstSubmitDate": "2020-03-23",
+    "firstPostDate": "2020-03-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults, age 18-55 years; fluent in English and with the capacity to understand the nature of the study and sign the written informed consent since the research instruments used in this study are not available in other languages;\n* Written informed consent obtained;\n* Outpatients with a current primary diagnosis of nonpsychotic Major Depressive Disorder (MDD) per the Mini-International Neuropsychiatric Interview (M.I.N.I) with or without certain anxiety disorders (e.g., generalized anxiety, panic, agoraphobia, social phobia, and specific phobia); HDRS-17 score of ≥ 16 at Screening Visit;\n* No more than one failed antidepressant trial of adequate dose and duration, as defined by the Massachusetts General Hospital Antidepressant Treatment Response Questionnaire (MGH-ATRQ);\n* Participants will need to be antidepressant medication-free for at least 21 days prior to the collection of imaging data (five weeks for fluoxetine). However, individuals currently taking antidepressants will not be eligible to enroll in the study, even if they are willing to stop their medications.\n\nExclusion Criteria:\n\n* Currently taking opioid analgesics or in acute opioid withdraw.\n* Pregnant or breastfeeding or plan to become pregnant over the duration of the study;\n* History (lifetime) of psychotic depressive, schizophrenic, bipolar (I, II, or NOS), schizoaffective, or other Axis I psychotic disorders;\n* Meeting M.I.N.I. criteria for substance dependence in the last 6 months, except for nicotine, or substance abuse in the last 2 months;\n* Requiring immediate hospitalization for psychiatric disorder or have an unstable general medical condition (GMC) that will likely require hospitalization or to be deemed terminal (life expectancy \\< 6 months after study entry);\n* Requiring medications for their GMCs that contraindicate treatment with naltrexone;\n* Having epilepsy or other conditions requiring an anticonvulsant;\n* Receiving or have received during the current episode vagus nerve stimulation, ECT, or rTMS.\n* Currently taking any psychiatric medication or other potential augmenting agents (e.g., T3 in the absence of thyroid disease, lithium, buspirone); Taking thyroid medication for hypothyroidism may be included only if they have been stable on the thyroid medication for 3 months;\n* Receiving therapy that is depression specific, such as CBT or Interpersonal Psychotherapy of Depression (participants can participate if they are receiving psychotherapy that is not targeting the symptoms of depression, such as supportive therapy, marital therapy);\n* Currently actively suicidal or considered a high suicide risk;\n* Currently enrolled in another study, and participation in that study contraindicates participation in this study;\n* Any reason not listed herein yet, determined by the site PI and research staff that makes participation in the study hazardous.\n* Having any contraindication for the performance of an MRI, such as: the presence of metal implants or foreign metallic objects (e.g., braces or extensive dental work), severe claustrophobia, or inability to tolerate the scanning procedures.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "55 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "BOLD Responses in the rACC Cortex During the Processing of Contextual Cues at Baseline (Post-placebo)",
+        "description": "In order to identify the neural correlates of contextual processing, we examined changes in blood oxygenation level-dependent (BOLD) signal during the post-placebo fMRI scanning session.",
+        "timeFrame": "[Approximately at day 1, 7]"
+      },
+      {
+        "measure": "Naltrexone-induced Changes in BOLD Responses in the rACC Cortex During the Processing of Contextual Cues (Placebo vs. Naltrexone)",
+        "description": "In order to identify naltrexone-induced changes in the neural correlates of contextual processing, we examined changes in blood oxygenation level-dependent (BOLD) during the fMRI scanning session between Naltrexone vs. placebo pill.",
+        "timeFrame": "[Approximately at day 1, 7]"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:20.057Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

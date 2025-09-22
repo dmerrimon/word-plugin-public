@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT07175545",
+  "briefTitle": "Testing a Smart Medication Dispenser (Mobili®) to Help People With Chronic Conditions Take Their Medicine",
+  "officialTitle": "Enhancing Medication Adherence With Mobili®: A Crossover Randomized Controlled Trial in Portuguese Community Pharmacies",
+  "protocolDocument": {
+    "nctId": "NCT07175545",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2025-08-26",
+    "uploadDate": "2025-08-27T05:36",
+    "size": 688550,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07175545/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 96,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-10-15",
+    "completionDate": "2026-06-30",
+    "primaryCompletionDate": "2026-04-15",
+    "firstSubmitDate": "2025-08-27",
+    "firstPostDate": "2025-09-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Aged 18 years and above\n* Non-institutionalized diabetes and cardiovascular disease patients\n* At least two medications in the therapeutic regimen\n* Requiring only regular oral medication that can be dispensed in the eDosette\n* Able to handle the use of technological devices (i.e. smartphones)\n\nExclusion Criteria:\n\n* Cognitive impairments preventing independent use of Mobili®\n* Patients using medicines that do not fit or are incompatible with being dispensed in the eDosette (i.e. some capsules, solutions, insulins or GLP-1 analogues, transdermal patches, eye-drops)\n* One participant per household",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Significant differences in medication adherence rates between the two groups (Objective)",
+        "description": "Medication adherence rates will be measured objectively by the Pill count method, analysing how many pills are taken or forgotten by the participants",
+        "timeFrame": "From recruitment to around 6 months after"
+      },
+      {
+        "measure": "Significant differences in medication adherence rates between the two groups (Subjective)",
+        "description": "Medication adherence rates will be measured subjectively by a validated medication adherence scale, using tools such as the Medical Adherence Questionnaire (MAQ) - a self-reporting instruments to measure how well patients follow their prescribed treatment regimens. Instruments like these help identify barriers to adherence, assessing adherence levels (low, medium, high).",
+        "timeFrame": "From recruitment to around 6 months after"
+      },
+      {
+        "measure": "Significant differences in medication adherence rates between the two groups (Clinical markers)",
+        "description": "Monitoring clinical markers that indicate whether a medication is likely being taken, such as glycemic and arterial pressure levels, will provide additional information on adherence.",
+        "timeFrame": "From recruitment to around 6 months after"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Enhanced patient satisfaction, reduced incidence of medication errors, and improved quality of life measures in the intervention group",
+        "description": "Patient satisfaction and quality of life measures will be measured through structured interviews with participants (both pharmacists and patients) at the start and at the end of the intervention. It is expected to use instruments such as the EuroQol Five-Dimension Questionnaire (EQ-5D) - system measure with one question for each of the five dimensions that include mobility, self-care, usual activities, pain/discomfort, and anxiety/depression - and similar.",
+        "timeFrame": "From recruitment until around 6 months after"
+      },
+      {
+        "measure": "Influence on the pharmacy's workflow",
+        "description": "There will also be a focus group with the participant pharmacists to collect additional information regarding the service integration into the pharmacy workflow.",
+        "timeFrame": "From recruitment until 6 months after"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 50,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

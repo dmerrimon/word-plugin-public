@@ -1,0 +1,104 @@
+{
+  "nctId": "NCT06024161",
+  "briefTitle": "Weight Change and the Risk of Chronic Pain Following Hip and Knee Arthroplasties",
+  "officialTitle": "Weight Change and the Risk of Chronic Pain Following Hip and Knee Arthroplasties: A Nationwide Registry-based Cohort Survey Study.",
+  "protocolDocument": {
+    "nctId": "NCT06024161",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-08-29",
+    "uploadDate": "2023-08-29T04:38",
+    "size": 278218,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06024161/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 6400,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2023-11-01",
+    "completionDate": "2024-11-30",
+    "primaryCompletionDate": "2024-03-31",
+    "firstSubmitDate": "2023-08-29",
+    "firstPostDate": "2023-09-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\- Patients operated with primary hip or knee arthroplasty for osteoarthritis 11-15 months before survey distribution\n\nExclusion Criteria:\n\n* Legally incompetent citizens, i.e., persons with a legal guardian, will not be asked to participate.",
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Moderate/Severe Persistent Postoperative Pain",
+        "description": "The primary outcome is the number of patients with moderate or severe persistent postsurgical pain in the operated hip or knee, defined as patients with a numerical rating scale (NRS) score higher than 3.\n\nThe outcome will be presented as Odd Ratio (OR) with its' corresponding 95% Confidence Interval (CI)",
+        "timeFrame": "11-15 months postsurgically"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Satisfaction",
+        "description": "Answering with \"satisfied\" or \"very satisfied\" in satisfaction question The outcome will be presented as Odd Ratio (OR) with its' corresponding 95% Confidence Interval (CI)",
+        "timeFrame": "11-15 months postsurgically"
+      },
+      {
+        "measure": "Willingness to repeat the surgery",
+        "description": "Answering \"yes\" in willlingness question The outcome will be presented as Odd Ratio (OR) with its' corresponding 95% Confidence Interval (CI)",
+        "timeFrame": "11-15 months postsurgically"
+      },
+      {
+        "measure": "Frequent pain",
+        "description": "Experiencing pain constantly, daily or few times a week The outcome will be presented as Odd Ratio (OR) with its' corresponding 95% Confidence Interval (CI)",
+        "timeFrame": "11-15 months postsurgically"
+      },
+      {
+        "measure": "Use of analgaesic",
+        "description": "The outcome will be presented as Odd Ratio (OR) with its' corresponding 95% Confidence Interval (CI)",
+        "timeFrame": "11-15 months postsurgically"
+      },
+      {
+        "measure": "Interference with daily activities",
+        "description": "Answering \"some\", \"much\" and \"very much\" in the interference question The outcome will be presented as Odd Ratio (OR) with its' corresponding 95% Confidence Interval (CI)",
+        "timeFrame": "11-15 months postsurgically"
+      },
+      {
+        "measure": "WOMAC pain score",
+        "description": "mean (standard deviaiton \\[SD\\]). We will report the mean difference (MD) and the corresponding 95% CI",
+        "timeFrame": "11-15 months postsurgically"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:15.902Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

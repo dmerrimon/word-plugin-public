@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03175731",
+  "briefTitle": "PPIs and Gastroesophageal Varices in Liver Cirrhosis (PPIs: Proton Pump Inhibitors)",
+  "officialTitle": "A Randomized Controlled Study on the Effects of PPIs on Gastroesophageal Variceal Bleeding in Liver Cirrhosis (PPIs: Proton Pump Inhibitors)",
+  "protocolDocument": {
+    "nctId": "NCT03175731",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-12-29",
+    "uploadDate": "2021-05-12T22:59",
+    "size": 214892,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03175731/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 106,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-01",
+    "completionDate": "2019-08-30",
+    "primaryCompletionDate": "2019-08-30",
+    "firstSubmitDate": "2017-05-25",
+    "firstPostDate": "2017-06-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of cirrhosis\n* GEVs was diagnosed by endoscopy\n\nExclusion Criteria:\n\n* Acute gastrointestinal bleeding need emergency surgery\n* Acid-related disease, such as peptic ulcer disease or gastroesophageal reflux diseases (GERD)\n* Hepatocellular carcinoma (HCC) or other malignant tumor\n* History of esophagus, stomach or liver surgery\n* Child-Pugh C and can't be improved to Child-Pugh A or B\n* Preparing to be pregnant, pregnant or breast feeding\n* Allergic to PPIs(proton pump inhibitors) or intolerable\n* Cannot provide informed consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Variceal Bleeding Events",
+        "description": "The primary endpoint was variceal bleeding, which was defined as hematemesis or melena from endoscopically proven GEVs, in the absence of any other lesion that might explain the bleeding.",
+        "timeFrame": "8 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Mortality",
+        "description": "Prognosis of esophagogastric variceal bleeding.",
+        "timeFrame": "8 weeks"
+      },
+      {
+        "measure": "Adverse Eventsafter Endoscopic Therapy",
+        "description": "Advers events caused by endoscopic therapy, including chest pain, dysphagia, fever and so on",
+        "timeFrame": "8 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:12.778Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

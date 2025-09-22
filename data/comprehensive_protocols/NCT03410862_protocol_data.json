@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT03410862",
+  "briefTitle": "Evaluating The Safety And Clinical Efficacy Of Elderberry Extract In Patients With Influenza",
+  "officialTitle": "Phase IV Study Evaluating The Safety And Clinical Efficacy Of Elderberry Extract In Patients With Influenza: A Randomized, Double-Blind Placebo-Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT03410862",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-11-08",
+    "uploadDate": "2020-06-03T17:36",
+    "size": 1229429,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03410862/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 87,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-01-29",
+    "completionDate": "2019-06-25",
+    "primaryCompletionDate": "2019-06-25",
+    "firstSubmitDate": "2018-01-19",
+    "firstPostDate": "2018-01-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* With 48 hours or less of an influenza illness documented by polymerase chain reaction\n* Have AT LEAST 2 of the following 7 influenza symptoms (nasal congestion, sore throat, cough, aches and pains, fatigue, headaches, and chills or sweats) graded as either moderate or severe\n* Have access to a phone\n* Subjects are capable of giving informed consent or have an acceptable legally authorized representative capable of giving consent on the subject's behalf with informed assent given by subject.\n* Have been prescribed or offered a prescription for oseltamivir (Tamiflu)\n\nExclusion Criteria:\n\n* Known allergy to elderberry extract or oseltamivir\n* Use of antibiotic or antiviral medication on presentation to the study\n* Women who are pregnant, breastfeeding women, or do not agree to appropriate contraception (abstinence, hormonal, intrauterine device, and barrier) to prevent pregnancy during the study.\n* Patients with HIV\n* Patients with cystic fibrosis\n* Patients taking elderberry extract",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Days Until Alleviation of Flu Symptoms Post Treatment",
+        "description": "Symptoms will be recorded using the scoring system described in a meta-analysis of \"all published and unpublished Roche-sponsored randomized placebo-controlled, double-blind trials of oseltamivir treatment in adult influenza\" (BMJ 4/9/2014). \"The primary outcome will be time to alleviation of all symptoms. Seven influenza symptoms (nasal congestion, sore throat, cough, aches and pains, fatigue, headaches, and chills or sweats)\" will be graded by severity as \"none/absent\" (0), \"mild\" (1), \"moderate\" (2), or \"severe\" (3). Alleviation will be defined to arise when all symptoms scored as absent or mild, and remain so for at least 21.5 hours.\"",
+        "timeFrame": "every 24 hours post study drug administration for minimum of 5 days up to 21 days"
+      },
+      {
+        "measure": "Number of Days Until Complete Resolution of All Flu Symptoms for 24 Hours",
+        "description": "Participants were called daily and asked to report on the severity of their symptoms present. Symptoms graded according to severity score (NONE/ABSENT=0 MILD=1 MODERATE=2 SEVERE=3).",
+        "timeFrame": "every 24 hours post study drug administration for minimum of 5 days up to 21 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:31.848Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

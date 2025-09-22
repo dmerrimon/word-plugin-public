@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02475954",
+  "briefTitle": "Telehealth Cognitive Behavioral Therapy for Depression in Parkinson's Disease (PD)",
+  "officialTitle": "Telehealth Cognitive-Behavioral Therapy for Depression in Parkinson's Disease",
+  "protocolDocument": {
+    "nctId": "NCT02475954",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-06-18",
+    "uploadDate": "2021-03-04T13:11",
+    "size": 467924,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02475954/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 174,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07-15",
+    "completionDate": "2019-12-10",
+    "primaryCompletionDate": "2019-12-10",
+    "firstSubmitDate": "2015-06-17",
+    "firstPostDate": "2015-06-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Confirmed PD diagnosis in the VA medical record\n* Primary Major Depression, Dysthymia, or Depression Not Otherwise Specified (NOS) of at least moderate severity per the Structured Clinical Interview (SCID) for Diagnostic and Statistical Manual of Mental Disorders (DSM5) Disorders.\n* Access to a computer/tablet with high-speed internet access. primary\n* Ages 35-85\n* Stable medication and mental health regimen greater than or equal to 6 weeks, including:\n\n  * applicable antidepressants\n  * other psychotropic agents\n  * movement disorder drugs\n  * clinic-based psychotherapies\n* Willingness to involve a family member or friend to participate\n\nExclusion Criteria:\n\n* Possible dementia or marked cognitive impairment \\[Montreal Cognitive\n* Assessment Score (MoCA) less than 21\n* Motor fluctuations greater than or equal to 50% of the day\n* Suicidal plans or intent (determined by clinical interview)\n* Unstable medical conditions",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "35 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Hamilton Depression Rating Scale",
+        "description": "This measure uses the Hamilton Depression Rating Scale (HDRS) to express the average severity of depressive symptoms, with higher scores indicating greater depression. Hamilton Depression Rating Scale (HAMD) Score Min:0 and Max: 52. Higher scores mean a worse outcome.",
+        "timeFrame": "10 weeks (endpoint) and 6 months post-treatment"
+      }
+    ],
+    "secondary": [],
+    "other": [
+      {
+        "measure": "Family Empowerment Scale",
+        "description": "The Family Empowerment scale measures the degree to which caregivers feel empowered to help care for their Veteran. To obtain a score for each area, sum the item responses where \"Not at all\" is scoring as 1, \"Mostly not true\" is scored as 2, \"Somewhat true\" is scored as 3, \"Mostly true\" is scored as 4, and \"Very true\" is scored as 5 to produce a score ranging from 12-60. The items are scored in the same direction, i.e., no item scores are reversed, and a higher score indicates relatively more empowerment in each respective area. Higher scores mean a better outcome.",
+        "timeFrame": "10 weeks (endpoint) and 6 months post-treatment"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 1,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 41,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:45.303Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

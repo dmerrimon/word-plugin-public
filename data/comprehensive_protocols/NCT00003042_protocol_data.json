@@ -1,0 +1,86 @@
+{
+  "nctId": "NCT00003042",
+  "briefTitle": "Chemotherapy and Stem Cell Transplantation in Treating Patients With Stage IIIB Breast Cancer",
+  "officialTitle": "Dose-Intense Chemotherapy and Stem Cell Rescue in the Treatment of Inflammatory Breast Carcinoma",
+  "protocolDocument": {
+    "nctId": "NCT00003042",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-12-21",
+    "uploadDate": "2021-03-12T12:15",
+    "size": 3049321,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT00003042/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 41,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "1997-05-30",
+    "completionDate": "2025-12-29",
+    "primaryCompletionDate": "2010-02-09",
+    "firstSubmitDate": "1999-11-01",
+    "firstPostDate": "2003-01-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically proven stage IIIB breast cancer with dermal/epidermal invasion or clinical features of inflammation, erythema, pain or hypersensitivity, edema, or thickening of the skin\n* Diagnosis within the past 6 months\n\nPATIENT CHARACTERISTICS:\n\nAge:\n\n* 60 and under\n\nPerformance status:\n\n* Karnofsky 80-100%\n\nLife expectancy:\n\n* Not specified\n\nHematopoietic:\n\n* Absolute neutrophil count at least 1,500/mm\\^3\n* Platelet count at least 100,000/mm\\^3\n\nHepatic:\n\n* Bilirubin less than 1.5 mg/dL\n* SGOT or SGPT no greater than 1.5 times the upper limit of normal\n\nRenal:\n\n* Creatinine less than 1.2 mg/dL\n* Creatinine clearance at least 80 mL/min\n* No history of hemorrhagic cystitis\n\nCardiovascular:\n\n* Left ventricular fraction at least 55% on MUGA scan\n* No previous valvular heart disease or arrhythmia\n\nPulmonary:\n\n* FEV\\_1 at least 60% predicted\n* Room air pO\\_2 greater than 85 mmHg\n* Room air pCO\\_2 no greater than 43 mmHg\n* DLCO at least 60% of the lower limit of predicted value\n\nOther:\n\n* No history of malignant disease in the past 5 years, except for squamous or basal cell skin cancer and stage I or in situ cervical cancer\n* No organic CNS dysfunction\n* Not pregnant\n* No known and potentially disabling psychosocial history\n* Not positive for hepatitis B or HIV\n\nPRIOR CONCURRENT THERAPY:\n\nBiologic therapy:\n\n* Not specified\n\nChemotherapy:\n\n* Stratum 1:\n\n  * No more than one cycle of chemotherapy\n* Stratum 2:\n\n  * No greater than 225 mg/m\\^2 doxorubicin and no greater than 250 mg/m\\^2 paclitaxel during previous chemotherapy\n\nEndocrine therapy:\n\n* Not specified\n\nRadiotherapy:\n\n* No prior radiation to the left chest wall\n\nSurgery:\n\n* Modified radical mastectomy allowed",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Three-year Relapse-free Survival",
+        "description": "Estimated using the product-limit method of Kaplan and Meier. Relapse defined as appearance of any new lesions during or after protocol treatment.",
+        "timeFrame": "From date of mastectomy until date of relapse or death from any cause, 3 years post mastectomy."
+      },
+      {
+        "measure": "Five-year Overall Survival",
+        "description": "Estimated using the product-limit method of Kaplan and Meier. Endpoint is defined as death due to any cause.",
+        "timeFrame": "From date of mastectomy until date of death, 5 years post mastectomy."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 20,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:51.307Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

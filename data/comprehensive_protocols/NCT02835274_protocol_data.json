@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02835274",
+  "briefTitle": "Study to Characterize Acute and Chronic Directional Aspects of Deep Brain Stimulation",
+  "officialTitle": "Directional Lead: Investigation of Rotational Current Steering, Ease of Use of Clinical Effects Map, and Therapeutic Outcomes of Deep Brain Stimulation",
+  "protocolDocument": {
+    "nctId": "NCT02835274",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-02-25",
+    "uploadDate": "2020-01-27T11:33",
+    "size": 638973,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02835274/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07-19",
+    "completionDate": "2018-12-19",
+    "primaryCompletionDate": "2018-12-19",
+    "firstSubmitDate": "2016-06-24",
+    "firstPostDate": "2016-07-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Diagnosis of bilateral idiopathic PD with the presence of rigidity and at least one (1) of the following: resting tremor or bradykinesia.\n* UPDRS III score of \\>25 in the meds OFF condition\n* Medication must improve PD symptoms by ≥30%, as measured by UPDRS subset III score\n\nKey Exclusion Criteria:\n\n* Any significant psychiatric problems, including unrelated clinically significant depression as determined by the investigator\n* Any current drug or alcohol abuse as determined by the investigator\n* Any history of recurrent or unprovoked seizures\n* Any significant medical condition that is likely to interfere with study procedures or likely to confound evaluation of study endpoints, including any terminal illness with survival \\<12 months",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean Change in Unified Parkinson's Disease Rating Scale (UPDRS) Scores - Motor Section (Part III) at End of Randomized Phase",
+        "description": "Mean change in Unified Parkinson's Disease Rating Scale (UPDRS) scores - motor section (Part III) at end of randomized phase in meds ON condition\n\nRange of UPDRS III is 0 - 108 with greater scores indicating worse disease state",
+        "timeFrame": "Up to 12 months post-implant"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:44.573Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

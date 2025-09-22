@@ -1,0 +1,95 @@
+{
+  "nctId": "NCT02943447",
+  "briefTitle": "Study to Evaluate the Safety, Tolerability, and Efficacy of Cilofexor in Adults With Primary Biliary Cholangitis Without Cirrhosis",
+  "officialTitle": "A Phase 2, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Safety, Tolerability, and Efficacy of GS-9674 in Subjects With Primary Biliary Cholangitis Without Cirrhosis",
+  "protocolDocument": {
+    "nctId": "NCT02943447",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-02-09",
+    "uploadDate": "2019-11-27T05:52",
+    "size": 868004,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02943447/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 71,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-12-01",
+    "completionDate": "2019-09-04",
+    "primaryCompletionDate": "2019-09-04",
+    "firstSubmitDate": "2016-06-13",
+    "firstPostDate": "2016-10-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Meets all of the following conditions\n\n  * Definite or probable PBC as defined by at least 2 of the 3 following criteria:\n\n    * Serum alkaline phosphatase (ALP) \\> the upper limit of normal (ULN)\n    * Presence of anti-mitochondrial antibodies (AMA) in serum (≥ 1:40 on immunofluorescence)\n    * Liver histological findings consistent with PBC including nonsuppurative, destructive cholangitis affecting mainly the interlobular bile and septal bile ducts\n  * Serum ALP \\> 1.67 x ULN and/or total bilirubin \\>ULN but ≤ 2 x ULN\n  * Ursodeoxycholic acid (UDCA) use at a stable dose for at least 12 months or intolerant of UDCA with no UDCA use for at least 12 months before screening\n* Screening FibroSURE/FibroTest® \\< 0.75 unless a historical liver biopsy within 12 months of screening does not reveal cirrhosis. In adults with Gilbert's syndrome or hemolysis, FibroSURE/FibroTest will be calculated using direct bilirubin instead of total bilirubin.\n\nKey Exclusion Criteria:\n\n* Alanine aminotransferase (ALT) \\> 5 x ULN\n* Total bilirubin \\> 2 x ULN\n* International normalized ratio (INR) \\> 1.2 unless on anticoagulant therapy\n* Other causes of liver disease including viral, metabolic, alcoholic, and other autoimmune conditions. Participants with hepatic steatosis may be included if there is no evidence of nonalcoholic steatohepatitis (NASH) in the opinion of the investigator or on liver biopsy.\n* Use of fibrates or obeticholic acid within 3 months prior to screening through the end of treatment\n* Cirrhosis of the liver as defined by any of the following:\n\n  * Historical liver biopsy demonstrating cirrhosis (eg, Ludwig stage 4 or Ishak stage ≥ 5)\n  * History of decompensated liver disease, including ascites, hepatic encephalopathy or variceal bleeding\n  * Liver stiffness \\> 16.9 kPa by FibroScan®\n\nNote: Other protocol defined Inclusion/Exclusion criteria may apply.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants Experiencing Treatment-Emergent Adverse Events (TEAEs) and Treatment-Emergent Serious Adverse Events (TESAEs) in the Blinded Study Phase",
+        "timeFrame": "First dose date up to Week 12 + 30 days"
+      },
+      {
+        "measure": "Percentage of Participants Experiencing TEAEs and TESAEs in the Open-Label Extension (OLE) Phase",
+        "timeFrame": "First dose date in the OLE phase up to last dose date (Maximum: 97.4 weeks) + 30 days"
+      },
+      {
+        "measure": "Percentage of Participants Who Experienced Graded Laboratory Abnormalities in the Blinded Study Phase",
+        "description": "Treatment-emergent laboratory abnormalities were defined as values that increase at least one toxicity grade from baseline. The most severe graded abnormality from all tests was counted for each participant.",
+        "timeFrame": "First dose date up to Week 12 + 30 days"
+      },
+      {
+        "measure": "Percentage of Participants Who Experienced Graded Laboratory Abnormalities in the OLE Phase",
+        "description": "Treatment-emergent laboratory abnormalities were defined as values that increase at least one toxicity grade from baseline. The most severe graded abnormality from all tests was counted for each participant.",
+        "timeFrame": "First dose date in the OLE phase up to last dose date (Maximum: 97.4 weeks) + 30 days"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:10.144Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

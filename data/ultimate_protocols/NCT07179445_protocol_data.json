@@ -1,0 +1,85 @@
+{
+  "nctId": "NCT07179445",
+  "briefTitle": "Analysis of Deoxyribonucleic Acid and Ribonucleic Acid Next-Generation Sequencing in Non-Small Cell Lung Cancer Patients Without Pathological Complete Response Following Neoadjuvant Immunotherapy",
+  "officialTitle": "A Retrospective Study of Deoxyribonucleic Acid and Ribonucleic Acid Next-Generation Sequencing in Non-Small Cell Lung Cancer Patients With Non-Pathologic Complete Response Following Neoadjuvant Immunotherapy",
+  "protocolDocument": {
+    "nctId": "NCT07179445",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2025-07-03",
+    "uploadDate": "2025-09-14T04:36",
+    "size": 233664,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07179445/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 300,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-09-20",
+    "completionDate": "2026-05-31",
+    "primaryCompletionDate": "2026-01-31",
+    "firstSubmitDate": "2025-09-07",
+    "firstPostDate": "2025-09-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Aged 18 years or older, regardless of sex.\n* Pathologically confirmed, resectable non-small cell lung cancer (NSCLC); having received neoadjuvant therapy containing immune checkpoint inhibitors prior to surgery; without achieving pathological complete response (non-pCR) upon postoperative pathological assessment.\n* Molecular characteristics: Pre-treatment biopsy specimens tested negative for EGFR mutations and ALK fusions by DNA-based NGS or PCR methods.\n* Sample requirements: Availability of 5-10 formalin-fixed, paraffin-embedded (FFPE) sections prepared from surgical tissue specimens, with ≥5% tumor cell content confirmed by H\\&E staining.\n\nExclusion Criteria:\n\n* Failure to meet any one of the requisite eligibility criteria specified in the inclusion criteria.\n* History of a concurrent or prior malignancy at other sites.\n* Failure to complete the planned cycles of neoadjuvant immunotherapy due to treatment-related toxicities.\n* Any other condition that, in the judgment of the investigator, renders the patient unsuitable for participation in this study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Proportion of driver-alteration-positive patients detected by combined DNA+RNA testing",
+        "description": "We selected patients with lung adenocarcinoma who had received preoperative neoadjuvant immunotherapy, did not achieve pathological complete response (pCR) after surgery, and had pre-treatment biopsy samples testing negative for EGFR and ALK alterations. Subsequent combined DNA/RNA next-generation sequencing (NGS) was performed using the 3DMed Onco™ Core Tissue Detection Kit. The proportion of patients with identified driver genomic alterations served as the primary endpoint of the study.",
+        "timeFrame": "through study completion, an average of 1 year"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Comparative Analysis of Adjuvant Immunotherapy Efficacy Between Driver-Alteration-Positive and Negative Cohorts",
+        "description": "For the comparison between driver gene-positive and negative populations:\n\nDisease-Free Survival (DFS) will be compared between patients who received adjuvant immunotherapy and were driver gene-positive versus those who were driver gene-negative. DFS is defined as the time from surgery to the first occurrence of disease recurrence, distant metastasis, or death from any cause.",
+        "timeFrame": "through study completion, an average of 1 year"
+      },
+      {
+        "measure": "Stratified Analysis of EGFR/ALK-Positive Versus Other Driver-Alteration-Positive Subgroups",
+        "description": "For the stratified analysis among positive populations:\n\nAmong the driver gene-positive patients who received adjuvant immunotherapy, a stratified analysis will be performed comparing patients with EGFR or ALK mutations versus those with mutations in other driver genes (e.g., ROS1, BRAF V600E, MET, RET, etc.).",
+        "timeFrame": "through study completion, an average of 1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 35,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

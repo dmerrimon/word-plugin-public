@@ -1,0 +1,123 @@
+{
+  "nctId": "NCT02898662",
+  "briefTitle": "AZD1419 Ph2a Study",
+  "officialTitle": "A Phase 2 Placebo-Controlled, Randomized, Double Blind, Adaptive Dose Trial of the Safety and Efficacy of Inhaled AZD1419 in Adults With Eosinophilic, Moderate to Severe Asthma",
+  "protocolDocument": {
+    "nctId": "NCT02898662",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2016-10-17",
+    "uploadDate": "2019-10-28T15:04",
+    "size": 900670,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02898662/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 81,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-10-12",
+    "completionDate": "2018-09-25",
+    "primaryCompletionDate": "2018-09-25",
+    "firstSubmitDate": "2016-08-16",
+    "firstPostDate": "2016-09-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male and female patients 18 years and above\n* Physician-diagnosed asthma requiring treatment with ICS and a long-acting beta agonist (LABA). Patients must have taken ICS plus LABA controller medication for at least 3 months prior to screening\n* Pre-bronchodilator forced expiratory volume in 1 second (FEV1) ≥50% predicted\n* Female patients must be 1 year post-menopausal, surgically sterile, or using an acceptable method of contraception\n* Male patients must be surgically sterile or using an acceptable method of contraception (defined as barrier methods in conjunction with spermicides) from the first dose of the IMP and until 1 month after the last dose of the IMP to prevent pregnancy in a partner\n* Blood eosinophil levels ≥ 250 cells/μL at screening OR a history of blood eosinophil levels ≥ 250 cells/μL at any time in the preceding 2 years AND blood eosinophil levels ≥ 150 cells /μL at screening. The eosinophilia must be believed to be due to asthma and not have other known causes, e.g. helminth infection\n* ACQ-5 score ≤1.5 at screening\n* ACQ-5 score ≤0.75 at randomization\n* Documentation of any of the following within 5 years prior to Visit 1:\n\n  * Proof of post-bronchodilator reversibility in FEV1 of ≥12% and ≥200 mL\n  * Proof of a positive response to a methacholine or histamine challenge (a decrease in FEV1 by 20% \\[PC20\\] at ≤8 mg/mL)\n  * Proof of positive response to mannitol challenge (a decrease in FEV1 by 15% \\[PD15\\] at ≤635 mg or a \\>10% decrease in FEV1 between consecutive doses)\n  * Proof of diurnal variability in PEF \\>20% over the course of 24 hours in at least 4 out of 7 consecutive days If historical documentation is not available, proof of reversibility or a positive response to a methacholine, histamine or mannitol challenge or diurnal variation must be demonstrated according to above and documented during Visit 1\n\nExclusion Criteria:\n\n* Clinically significant lung disease other than asthma (eg, chronic obstructive pulmonary disease, cystic fibrosis, allergic bronchopulmonary aspergillosis, active tuberculosis).\n* History of autoimmune disease including but not limited to Wegener's granulomatosis, system lupus erythematosus, rheumatoid arthritis, Sjögren's syndrome, multiple sclerosis, autoimmune thrombocytopenia, primary biliary cirrhosis or any other autoimmune disease considered clinically relevant by the investigator\n* Ongoing allergen immunotherapy or plans to begin such therapy during the study period\n* DLco ≤ 60% of the lower limit of normal\n* Breast feeding, pregnancy or intention to become pregnant during the course of the study\n* Changes in chest X-ray suggesting clinically significant parenchymal disease other than asthma",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Events for Time to Loss of Asthma Control (LOAC) up to Week 52 - Cox Regression Analysis",
+        "description": "LOAC was defined as any of the following:\n\n* Increase of asthma control questionnaire-5 (ACQ-5) to ≥ 1.5.\n* ≥ 30% reduction in morning peak expiratory flow (PEF) from baseline on 2 consecutive days.\n* ≥ 6 additional reliever inhalations of short-acting β agonist (SABA) in a 24-hour period relative to baseline on 2 consecutive days.\n* Exacerbation requiring systemic corticosteroids as decided by Investigator. Time to LOAC was calculated as start date of first LOAC - date of randomization + 1. Start date of LOAC was latest date that 1 of the 4 criteria were satisfied immediately prior to the exacerbation start date, provided no more than 7 days between LOAC and exacerbation start date. Time to LOAC was displayed using a Kaplan-Meier plot and the outcome measure is presented as number of participants with events. Cox regression analysis was used to compare treatments.",
+        "timeFrame": "Baseline (Week 0) up to Week 52"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Experiencing LOAC up to Week 52 - Generalized Estimating Equation Analysis",
+        "description": "LOAC was defined as any of the following:\n\n* Increase of ACQ-5 to ≥ 1.5.\n* ≥ 30% reduction in morning PEF from baseline on 2 consecutive days.\n* ≥ 6 additional reliever inhalations of SABA in a 24-hour period relative to baseline on 2 consecutive days.\n* Exacerbation requiring systemic corticosteroids. Number of participants experiencing LOAC up to Week 52 is presented. A generalized linear model based on a generalized estimating equation was used to compare treatments.",
+        "timeFrame": "Baseline (Week 0) up to Week 52"
+      },
+      {
+        "measure": "Least Squares (LS) Mean ACQ-5 Score Over 52 Weeks",
+        "description": "In the ACQ-5 questionnaire, participants were asked to recall the status of their asthma during the previous week with regards to symptoms. The questionnaire included the items:\n\n* Awoken at night by asthma symptoms.\n* Severity of asthma symptoms in the morning.\n* Limitation of daily activities due to asthma.\n* Shortness of breath.\n* Wheeze. The ACQ-5 score was computed as the un-weighted mean of responses to the 5 items, measured on a 7-point scale from 0 (totally controlled) to 6 (severely uncontrolled). A lower score indicated a better outcome. If ACQ-5 reached a value of 1.5 or more, the participant was reported as having LOAC. Estimates of the LS mean over 52 weeks were analyzed using a repeated measures analysis with treatment, baseline ACQ-5, week and treatment-by-week with participant as random effects, and age and gender as covariates. Baseline was the average of non-missing daily measures/scores over the last 5 days prior to and including the morning of randomization.",
+        "timeFrame": "Baseline (Week 0) up to Week 52"
+      },
+      {
+        "measure": "LS Mean Asthma Daily Diary Score (Weekly Total) Over 52 Weeks",
+        "description": "Asthma symptoms during night-time and daytime were recorded by the participant each morning and evening in the Asthma Daily Diary. Symptoms were recorded using a 4-point response scale, which ranged from 0 to 3, where 0 indicated no asthma symptoms. Asthma symptom daytime score (recorded in the evening), night-time score (recorded in the morning), and total score were calculated separately. The daily asthma symptom total score was calculated by taking the sum of the night-time and daytime asthma symptom scores recorded each day, ranging from 0 to 6. A lower symptom score indicated a better outcome. Estimates of the LS mean over 52 weeks were analyzed using a repeated measures analysis with treatment, baseline asthma daily diary weekly average, week and treatment-by-week with participant as random effects, and age and gender as covariates. Baseline was the average of non-missing daily measures/scores over the last 5 days prior to and including the morning of randomization.",
+        "timeFrame": "Baseline (Week 0) up to Week 52"
+      },
+      {
+        "measure": "Number of Participants With Events for Time to Moderate Or Severe Exacerbation up to Week 52",
+        "description": "Moderate exacerbation was defined as a temporary increase in maintenance therapy to prevent a severe event supported by sustained (≥ 2 day) worsening in at least 1 key control metric ie, asthma score, reliever medication use, night time awakening or morning PEF.\n\nSevere exacerbation was defined as a worsening in asthma symptoms and:\n\n* Use of systemic corticosteroids for at least 3 days and/or\n* An unscheduled or emergency room visit due to asthma symptoms requiring systemic corticosteroids and/or\n* An in-patient hospitalization due to asthma requiring systemic corticosteroids. Time to moderate or severe asthma exacerbation was calculated as start date of first moderate or severe exacerbation - date of randomization + 1. Time to moderate or severe asthma exacerbation was displayed using a Kaplan-Meier plot and the outcome measure is presented as number of participants with events.",
+        "timeFrame": "Baseline (Week 0) up to Week 52"
+      },
+      {
+        "measure": "Percentage of Participants Using Reliever Medication up to Week 52",
+        "description": "The use of SABAs was allowed as rescue medication (reliever bronchodilator) throughout the study. Reliever medication use was captured in the Asthma Daily Diary twice daily (morning and evening), recorded as the number of inhaler puffs. The number of inhalations (puffs) per day was calculated as: number of night inhaler puffs + number of day inhaler puffs. Percentage of participants using reliever medication (SABA) up to Week 52 is presented.",
+        "timeFrame": "Baseline (Week 0) up to Week 52"
+      },
+      {
+        "measure": "LS Mean Pre- and Post-Bronchodilator (BD) Forced Expiratory Volume in 1 Second (FEV1) Over 52 Weeks",
+        "description": "Lung function was assessed by pre- and post-BD FEV1 which was measured by spirometry. To ensure quality control, all spirometry measurements were reviewed to ensure that they met American Thoracic Society / European Respiratory Society criteria for acceptability. Estimates of the LS mean over 52 weeks were analyzed using a repeated measures analysis with treatment, baseline FEV1 (pre- or post-BD, as applicable), visit and treatment-by-visit with participant as random effects, and age and gender as covariates. Baseline was the last non-missing measurement recorded prior to randomization.",
+        "timeFrame": "Baseline (Week 0) up to Week 52"
+      },
+      {
+        "measure": "LS Mean Total PEF (Weekly) Over 52 Weeks",
+        "description": "Morning and evening PEF measurements were recorded by the participant on a daily basis and then averaged over the week. The weekly average total PEF was calculated by taking the sum of the average of the weekly morning mean and weekly evening mean. Estimates of the LS mean over 52 weeks were analyzed using a repeated measures analysis with treatment, baseline PEF, week and treatment-by-week with participant as random effects, and age and gender as covariates. Baseline was the average of non-missing daily measures/scores over the last 5 days prior to and including the morning of randomization.",
+        "timeFrame": "Baseline (Week 0) up to Week 52"
+      },
+      {
+        "measure": "LS Mean Fractional Exhaled Nitric Oxide (FeNO) (Weekly) Over 52 Weeks",
+        "description": "FeNO measurements were taken at home by participants every second day. The weekly average FeNO was based on the average of measurements taken at home for a specific week. Estimates of the LS mean over 52 weeks were analyzed using a repeated measures analysis with treatment, baseline FeNO, week and treatment-by-week with participant as random effects, and age and gender as covariates. Baseline was the average of non-missing daily measures/scores over the last 5 days prior to and including the morning of randomization.",
+        "timeFrame": "Baseline (Week 0) up to Week 52"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:22.990Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

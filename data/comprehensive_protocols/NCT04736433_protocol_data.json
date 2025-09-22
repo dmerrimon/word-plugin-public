@@ -1,0 +1,71 @@
+{
+  "nctId": "NCT04736433",
+  "briefTitle": "Replication of the PARADIGM-HF Heart Failure Trial in Healthcare Claims Data.",
+  "officialTitle": "Replication of the PARADIGM-HF Heart Failure Trial in Healthcare Claims Data.",
+  "protocolDocument": {
+    "nctId": "NCT04736433",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2021-01-25",
+    "uploadDate": "2023-07-27T10:20",
+    "size": 1017613,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04736433/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 6066,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-09-22",
+    "completionDate": "2021-02-18",
+    "primaryCompletionDate": "2021-02-18",
+    "firstSubmitDate": "2021-01-25",
+    "firstPostDate": "2021-02-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Please see https://drive.google.com/drive/folders/1WD618wrywYjEaXzfLTcuK-VCcnb6b-gV for full code and algorithm definitions.\n\nAll patients will be required to have continuous enrollment during the baseline period of 180 days before initiation of sacubitril/valsartan or a ACEi (cohort entry).\n\nEligible cohort entry dates:\n\nMarket availability of sacubitril/valsartan in the U.S. started on July 7, 2015.\n\n* For Marketscan: July 7, 2015 - December 31, 2018 (end of data availability)\n* For Optum: July 7, 2015 - March 31, 2020 (end of data availability)\n* For Medicare: July 7, 2015 - December 31, 2017 (end of data availability)\n\nInclusion Criteria:\n\n* Age 18 years or older\n* NYHA functional class II-IV\n* LVEF ≤ 35%\n\nAND the following:\n\n* Hospitalization for heart failure within the last 12 months\n\n  * Treatment with a stable dose of an ACE inhibitor or an ARB equivalent to enalapril 10 mg/day for at least 4 weeks before the screening visit; and treatment with a stable dose of a beta-blocker for at least 4 weeks prior to the screening visit, unless contraindicted or not tolerated\n* Treatment with a stable dose of an ACE inhibitor or an ARB equivalent to enalapril 10 mg/day for at least 4 weeks before the screening visit\n\nAND the following:\n\n* Treatment with a stable dose of a beta-blocker for at least 4 weeks prior to the screening visit, unless contraindicated or not tolerated\n\nExclusion Criteria:\n\n* Known history of angioedema\n* Requirement for treatment with both ACEIs and ARBs\n* Current acute decompensated heart failure (exacerbation of chronic heart failure manifested by signs and symptoms that may require intravenous therapy)\n* Symptomatic hypotension and/or a systolic blood pressure \\<100 mmHg at Visit 1 (screening) or \\<95 mmHg at Visit 3 or at Visit 5 (randomization)\n* Estimated glomerular filtration rate (eGFR) \\<30 mL/min/1.73 m2 at Visit 1 (screening), Visit 3 (end of enalapril run-in), or Visit 5 (end of LCZ696 run-in and randomization) or \\>35% decline in eGFR between Visit 1 and Visit 3 or between Visit 1 and Visit 5\n* Serum potassium \\>5.2 mmol/L at Visit 1 (screening) or \\>5.4 mmol/L at Visit 3 or Visit 5 (randomization)\n* Acute coronary syndrome, stroke, transient ischaemic attack, cardiac, carotid, or other major cardiovascular surgery, PCI, or carotid angioplasty within the 3 months prior to Visit 1.\n* Implantation of a cardiac resynchronization therapy (CRT) device within 3 months prior Visit 1 or intent to implant a CRT\n* History of heart transplant or on a transplant list or with LV assistance device\n* History of severe pulmonary disease\n* Diagnosis of peripartum- or chemotherapy-induced cardiomyopathy within the 12 months prior to Visit 1\n* Documented untreated ventricular arrhythmia with syncopal episodes within the 3 months prior to Visit 1\n* Documented ventricular arrhythmia within the 3 months prior to Visit 1\n\nAND the following:\n\n* Syncopal episodes within the 3 months prior to Visit 1\n\nAND the following:\n\n* Untreated ventricular arrhythmia within the 3 months prior to visit 1\n\nOR the following:\n\n* Untreated ventricular arrhythmia within the 3 months prior to visit 1\n* Symptomatic bradycardia or second- or third-degree atrioventricular block without a pacemaker\n* Presence of haemodynamically significant mitral and/or aortic valve disease, except mitral regurgitation secondary to LV dilatation\n* Presence of other haemodynamically significant obstructive lesions of the LV outflow tract, including aortic and subaortic stenosis\n* Any surgical or medical condition which might significantly alter the absorption, distribution, metabolism, or excretion of study drugs, including, but not limited to, any of the following:\n* History of active inflammatory bowel disease during the 12 months before Visit 1\n\nOR the following:\n\n* Active duodenal or gastric ulcers during the 3 months prior to Visit 1\n\nOR the following:\n\n* Evidence of hepatic disease as determined by any one of the following: aspartate aminotransferase or alanine aminotransferase values exceeding 2× upper limit of normal at Visit 1, history of hepatic encephalopathy, history of oesophageal varices, or history of porto-caval shunt\n\nOR the following:\n\n* Current treatment with cholestyramine or colestipol resins\n* Presence of any other disease with a life expectancy of 5 years\n* Any Ivabradine use -- Approved in April 2015 (same year as Entresto)",
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Composite outcome of death from cardiovascular causes or hospitalization for heart failure",
+        "timeFrame": "Through study completion (a median of 102-139 days)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:33.264Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

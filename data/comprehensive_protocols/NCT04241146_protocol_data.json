@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT04241146",
+  "briefTitle": "Optimal Feeding Tube Placement",
+  "officialTitle": "A Randomized Controlled Trial for Optimal Feeding Tube Placement",
+  "protocolDocument": {
+    "nctId": "NCT04241146",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-11-21",
+    "uploadDate": "2020-01-24T08:58",
+    "size": 500937,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04241146/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 52,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-01-06",
+    "completionDate": "2019-11-21",
+    "primaryCompletionDate": "2018-10-10",
+    "firstSubmitDate": "2020-01-21",
+    "firstPostDate": "2020-01-27"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria: Patient admitted to pediatric floor, intermediate care unit, pediatric intensive care unit, or congenital care unit requiring post-pyloric feeding tube placement of size eight french or more and not meeting any of exclusion criteria\n\nExclusion Criteria: Under three kilograms, Open chest wall, Open abdominal wall",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Duration of Time",
+        "description": "Time taken for placement of enteral tube",
+        "timeFrame": "Baseline to End of procedure up to 30 minutes"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of X-Rays",
+        "description": "Number of X-rays required to achieve correct tube placement",
+        "timeFrame": "Baseline to End of procedure up to 30 minutes"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:55.677Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

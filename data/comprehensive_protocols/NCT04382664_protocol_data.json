@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT04382664",
+  "briefTitle": "UV1 Vaccination Plus Nivolumab and Ipilimumab in Treatment of Melanoma",
+  "officialTitle": "Efficacy and Safety of UV1 Vaccination in Combination With Nivolumab and Ipilimumab as First Line Treatment of Patients With Unresectable or Metastatic Melanoma (INITIUM Study)",
+  "protocolDocument": {
+    "nctId": "NCT04382664",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-09-22",
+    "uploadDate": "2024-12-11T04:55",
+    "size": 1176381,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04382664/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 156,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-27",
+    "completionDate": "2024-04-10",
+    "primaryCompletionDate": "2024-01-11",
+    "firstSubmitDate": "2020-04-27",
+    "firstPostDate": "2020-05-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Male or female patients at least 18 years of age at the time of signing the ICF.\n2. Histologically confirmed diagnosis of unresectable stage IIIB D, or unresectable stage IV malignant melanoma.\n3. Eligible for combination treatment with nivolumab and ipilimumab.\n4. An ECOG performance status of 0 or 1.\n5. Adequate organ function as indicated by the following laboratory values:\n\n   Hematological\n   1. Absolute neutrophil count ≥1,500/µL\n   2. Platelet count ≥100 x 103/µL\n   3. Hemoglobin ≥9 g/dL or ≥5.6 mmol/L Renal\n   4. Creatinine ≤1.5 x upper limit of normal (ULN) Hepatic\n   5. Total bilirubin ≤1.5 x ULN or direct bilirubin ≤ ULN for patients with total bilirubin levels \\>1.5 ULN\n   6. Aspartate aminotransferase/serum glutamic oxaloacetic transaminase and alanine aminotransferase/serum glutamic pyruvic transaminase ≤2.5 x ULN for patients without liver metastasis or ≤5 x ULN for patients with liver metastasis.\n6. Male patients who are sexually active with a female of childbearing potential must agree to use an adequate method of contraception.\n7. Women of childbearing potential (WOCBP) must have a negative urine or serum/plasma pregnancy test.\n8. WOCBP must use adequate contraception.\n\nExclusion Criteria:\n\n1. Previous non melanoma malignancies unless curatively treated and complete remission was achieved at least 2 years prior to randomization. Patients with prior curatively treated basal or squamous cell carcinoma of the skin, carcinoma in situ of the cervix, or carcinoma in situ of the breast, or other in situ cancers are allowed irrespective of time passed since curative treatment. Patients with prior completely resected malignant melanoma are also allowed.\n2. Known brain metastases or leptomeningeal metastases. If a patient experiences neurological symptoms indicative of brain metastases, a brain MRI should be performed.\n3. Diagnosis of uveal or ocular melanoma.\n4. Known history or any evidence of active, non-infectious pneumonitis.\n5. History of New York Heart Association class 3-4 congestive heart failure or history of myocardial infarction within 6 months of starting induction therapy.\n6. Active infection requiring systemic treatment.\n7. Diagnosis of immunodeficiency.\n8. Known history of severe hypersensitivity reactions to nivolumab, ipilimumab, sargramostim, or their excipients.\n9. Known history of human immunodeficiency virus (HIV) (HIV 1/2 antibodies).\n10. History of or active hepatitis B (hepatitis B surface antigen reactive) or active hepatitis C (hepatitis C virus antibody).\n11. Women who are breastfeeding.\n12. Prior systemic treatment for unresectable stage IIIB D or unresectable stage IV malignant melanoma.\n13. Systemic corticosteroid treatment (doses exceeding 10 mg daily of prednisone or equivalent) or any other form of immunosuppressive treatment within 7 days prior to the first dose of induction therapy.\n14. Receipt of a live vaccine within 30 days prior to start of induction therapy.\n15. Receipt of any other investigational treatment within 4 weeks of the first dose of induction therapy.\n16. Any medical, psychological, or social condition that would make it difficult for the patient to participate in the study and comply with the study procedures, restrictions and requirements.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "PFS Per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 (by Blinded Independent Central Review (BICR)",
+        "description": "Compare progression free survival (PFS) of UV1 vaccination in combination with nivolumab and ipilimumab to that of nivolumab and ipilimumab",
+        "timeFrame": "Time from randomization to progressive disease (PD) or death from any cause (approximately 44 months)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Overall Survival",
+        "description": "Compare Overall Survival of UV1 vaccination in combination with nivolumab and ipilimumab to that of nivolumab and ipilimumab .",
+        "timeFrame": "Time from randomization to death from any cause /follow-up until 70 PFS events/18 months post rand, approximately 44 months."
+      },
+      {
+        "measure": "ORR Per RECIST 1.1",
+        "description": "Compare the objective response rate (ORR) of UV1 vaccination in combination with nivolumab and ipilimumab to that of nivolumab and ipilimumab.",
+        "timeFrame": "Number of complete and partial responses during the study, approximately 44 months."
+      },
+      {
+        "measure": "DOR Per RECIST 1.1",
+        "description": "Compare duration of response (DOR) of UV1 vaccination in combination with nivolumab and ipilimumab to that of nivolumab and ipilimumab.",
+        "timeFrame": "Time from first CR or PR to PD or death from any cause, approximately 44 months."
+      },
+      {
+        "measure": "Evaluation of Adverse Events, Vital Signs, Laboratory Assessments and ECOG Performance Status",
+        "description": "Compare the safety of UV1 vaccination in combination with nivolumab and ipilimumab to that of nivolumab and ipilimumab. Safety will be listed and summarized descriptively by treatment arm comparing number of participants with observation and changes from baseline and at each visit related to AEs, deaths, vital signs (weight (kg), systolic and diastolic blood pressure (mmHg), pulse rate (bpm), body temperature (°C)), laboratory assessments and ECOG performance status (Grade 0 - Grade 5).",
+        "timeFrame": "Time from randomization to end of study, approximately 47 months."
+      }
+    ],
+    "other": [
+      {
+        "measure": "Immunological Mechanisms",
+        "description": "To elucidate the immunological mechanisms underlying the interplay between immune activation provoked by UV1 vaccination and inhibition of tumor resistance mechanisms and peripheral immune tolerance induced by checkpoint blockade and how biological factors affect the efficacy of the combination therapy. This will be evaluated by change in immune- and tumor-related gene, cell, and protein profiles in blood over time in both treatment arms (analysis of plasma proteins, cell-free plasma DNA, and cellular genomic DNA).",
+        "timeFrame": "Time from randomization to end of study to readout of primary objectives, approximately 44 months."
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 1,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 46,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:05.609Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT04157621",
+  "briefTitle": "taVNS in Mild to Moderate Parkinson's Disease",
+  "officialTitle": "Transcutaneous Auricular Vagus Nerve Stimulation (taVNS) in Mild to Moderate Parkinson's Disease",
+  "protocolDocument": {
+    "nctId": "NCT04157621",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-03-04",
+    "uploadDate": "2022-07-21T16:39",
+    "size": 590967,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04157621/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 33,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-03-20",
+    "completionDate": "2021-06-15",
+    "primaryCompletionDate": "2021-06-15",
+    "firstSubmitDate": "2019-09-09",
+    "firstPostDate": "2019-11-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age: 40-79 y\n* Idiopathic Parkinson's Disease Diagnosis\n* Disease Stage: Hoehn and Yahr stage 2-3\n* Patient requires a minimum of 3 doses of levodopa daily\n* Willingness to be videotaped\n\nExclusion criteria:\n\n* Dementia or Montreal Cognitive Assessment score \\<24\n* Parkinson's Disease psychosis\n* Ear trauma\n* Facial pain\n* Traumatic Brain Injury or clinical history of stroke\n* Metal implants above the shoulders\n* History of myocardial infarction or arrhythmia, bradycardia\n* Active respiratory disorder\n* Alcohol or substance use disorders\n* History of Deep Brain Stimulation (DBS) or other brain surgery\n* Epilepsy\n* Pregnancy\n* B-Blockers, dopamine blocking agent, antiarrhythmic medication, acetylcholine esterase inhibitor, midodrine, florinef, droxidopa, or anticholinergic drugs",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "79 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Motor Function Score as Assessed by Modified Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Part III",
+        "description": "The MDS-UPDRS is a rating scale used in research and clinic to rate the severity of Parkinson's Disease. A low score indicates mild disease and a high score more advanced disease. The possible range for MDS-UPDRS Part III is 0-132. Higher scores reflect greater motor disturbance. A decline in score from pre-post would indicate improvement. This outcome observed Part III of UPDRS motor examination.\n\nInformation on cover page:\n\nThe MDS-UPDRS has four parts: Part I (non-motor experiences of daily living), Part II (motor experiences of daily living), Part III (motor examination) and Part IV (motor complications). Part I has two components: IA concerns a number of behaviors that are assessed by the investigator with all pertinent information from patients and caregivers, and IB is completed by the patient with or without the aid of the caregiver, but independently of the investigator. These sections can, however, be reviewed by the rater to ensure that all questions are answered clea",
+        "timeFrame": "Baseline (Visit 1) to Day 14 (Visit 10)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Cognitive Function Score",
+        "description": "Delis-Kaplan Executive Function System (DKEFS) letter fluency is an investigator administered test that assesses verbal fluency. Higher scores indicate more correct responses. A positive value of change means an improvement in fluency. A decrease in score represents decrease in fluency. The minimum score is 0 and there is no maximum score. The raw score is total from letters F, A, and S.",
+        "timeFrame": "Screening to Day 13 (Visit 9)"
+      },
+      {
+        "measure": "Change in Cognitive Function Score",
+        "description": "DKEFS category fluency is an investigator administered test checking into ability to switch between categories presented. There is no upper limit on the D-KEFS measures. There is no lower limit on the D-KEPS measure. Higher scores reflect better verbal fluency. An increase in score from pre-post would indicate improvement. Decrease in value represents decrease in fluency. Raw score is total of Animals + Boys Names.",
+        "timeFrame": "Screening to Day 13 (Visit 9)"
+      },
+      {
+        "measure": "Change in Cognitive Function Score",
+        "description": "Digit span forward is an investigator administered test looking at attention. The possible range for Digit Span Forward is 0-16, same for Digit Span Backward. Higher scores reflect better focused attention and working memory. An increase in score from pre-post would indicate improvement.",
+        "timeFrame": "Screening to Day 13 (Visit 9)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:45.667Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT01886105",
+  "briefTitle": "Combination of External Beam Radiotherapy With 153Sm-EDTMP to Treat High Risk Osteosarcoma",
+  "officialTitle": "Combination of External Beam Radiotherapy With 153Sm-EDTMP to Treat High Risk Osteosarcoma",
+  "protocolDocument": {
+    "nctId": "NCT01886105",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-08-15",
+    "uploadDate": "2019-09-27T12:56",
+    "size": 353739,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01886105/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 4,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-08-19",
+    "completionDate": "2017-06-11",
+    "primaryCompletionDate": "2015-12-11",
+    "firstSubmitDate": "2013-06-04",
+    "firstPostDate": "2013-06-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients must be between 13 and 65 years of age, inclusive\n* Must have unresectable primary tumor or metastases\n* Must have measurable disease that is demonstrated by positive Tc-99m Bone Scan. Not all lesions must be positive on bone scan.\n* Creatinine clearance \\>70ml/min/1.73m2\n* ANC \\>500/mm3\n* Platelets \\>50,000/mm3\n* Life expectancy \\> 8 weeks\n* Karnofsky performance status \\>50%\n* Stem cell product collected prior to the infusion of Samarium must be available, either by peripheral stem cell mobilization or bone marrow harvest prior to trial entry.\n\nExclusion Criteria:\n\n* Patient may not be pregnant or breastfeeding.\n* Patients who have received prior radiotherapy to all areas of current active disease are not eligible.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "10 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Treated Participants With 6-month Progression Free Survival",
+        "description": "Percentage of patients with high-risk osteogenic sarcoma, treated with high-dose Samarium-153 EDTMP and external beam radiotherapy, without progression at 6 months.",
+        "timeFrame": "6 months post-intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Short and Long-term Side Effects of Combined Infusional Samarium-153 EDTMP and External Beam Radiotherapy as Assessed by Number of Participants With Toxicity",
+        "description": "Number of patients experiencing any Grade 3-4 toxicity, as defined by CTCAE v4.0 and RTOG Cooperative Group Common Toxicity Criteria, during the trial intervention and follow-up.",
+        "timeFrame": "Up to 48 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 19,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:54.378Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

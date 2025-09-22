@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03138876",
+  "briefTitle": "EEG Cap for Identification of Non-Convulsive Status Epilepticus",
+  "officialTitle": "EEG Cap Placement for Expedited Identification of Non-Convulsive Status Epilepticus",
+  "protocolDocument": {
+    "nctId": "NCT03138876",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-02-22",
+    "uploadDate": "2019-08-29T08:58",
+    "size": 242034,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03138876/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-05-30",
+    "completionDate": "2018-08-16",
+    "primaryCompletionDate": "2018-08-16",
+    "firstSubmitDate": "2017-05-01",
+    "firstPostDate": "2017-05-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria:\n\n1. Patients with suspected NCSE in the Mayo Clinic Florida hospital, emergency room or intensive care unit.\n2. Age: Patients of 18 years or older will be included in this study\n3. Education: All education levels will be included\n\nExclusion criteria:\n\n1. Patients younger than 18 years of age.\n2. Patients with open head trauma.\n3. Patients with anatomy that would preclude EEG cap placement.\n4. Patients excluded for anatomical or age-related reasons will be tracked to determine applicability of the EEG cap to the patient population at Mayo Clinic.\n5. Pregnant females\n6. Large head size not amenable to cap placement\n7. Scalp infection\n8. Inability to obtain informed consent",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time Difference Between EEG Cap and Standard EEG Results Reporting",
+        "description": "The difference between EEG Cap results reporting time compared to Standard EEG results reporting time measured in minutes.",
+        "timeFrame": "EEG order through 20 minutes of EEG recording time"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants Whose EEG Cap Recordings Were Interpretable",
+        "description": "The recording will be qualified as acceptable interpretation if greater than 50% of the recording is judged interpretable by board certified electroencephalographers.",
+        "timeFrame": "approximately 15 minutes after completion of test"
+      },
+      {
+        "measure": "Number of Subjects Diagnosed With NCSE",
+        "description": "The number of subjects with suspected NCSE subsequently confirmed with NCSE after standard EEG.",
+        "timeFrame": "approximately within 15 minutes after completion of test"
+      },
+      {
+        "measure": "Number of Subjects for Which the EEG Cap and Standard EEG Results Are in Agreement for the Diagnosis of NCSE",
+        "description": "Concordance between cap and standard-electrode diagnostic assessments",
+        "timeFrame": "approximately 24 hours after completion of both tests"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:47.834Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

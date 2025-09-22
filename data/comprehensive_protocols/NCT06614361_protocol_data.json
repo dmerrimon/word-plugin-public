@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT06614361",
+  "briefTitle": "Community-based Behavioral Intervention to Increase Vaccination Using MOST",
+  "officialTitle": "Community-based Behavioral Intervention to Increase COVID-19 and Influenza Vaccination for African American/ Black and Latino Persons: An Optimization Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT06614361",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-01-29",
+    "uploadDate": "2025-04-08T14:41",
+    "size": 846507,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06614361/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 0,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2025-04-01",
+    "completionDate": "2025-04-01",
+    "primaryCompletionDate": "2025-04-01",
+    "firstSubmitDate": "2024-09-25",
+    "firstPostDate": "2024-09-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria: 2) can engage in study activities in English or Spanish; 3) Black or African American or Latino/Hispanic race/ethnicity; 4) resides in New York City; 5) has received at least one dose of a COVID-19 vaccination in their lifetime but is not up-to-date on COVID-19 vaccination, defined as has not received the most recently available vaccine, confirmed with documentary evidence; 6) eligible to receive the COVID-19 vaccine (has not had anaphylaxis, myocarditis, pericarditis, or thrombosis with thrombocytopenia syndrome or other adverse effects deemed by a physician to be related to the COVID-19 vaccine) and if previously diagnosed with COVID-19, a minimum of 10 days has elapsed since last test positivity; 7) is not up-to-date on influenza vaccination defined as not yet receiving the available influenza vaccine; 8) has a phone that can be used for study participation and can receive text messages.\n\n\\-\n\nExclusion Criteria: NONE\n\n\\-",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Vaccination for COVID-19",
+        "description": "Vaccination for COVID-19 with documentary evidence",
+        "timeFrame": "3- and 6-months post-baseline"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:39.209Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

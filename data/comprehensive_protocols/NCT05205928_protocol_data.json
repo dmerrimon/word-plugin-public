@@ -1,0 +1,159 @@
+{
+  "nctId": "NCT05205928",
+  "briefTitle": "Weekly Subcutaneous Semaglutide as Adjunct to Closed-loop Therapy in Type 1 Diabetes Care",
+  "officialTitle": "Weekly Subcutaneous Semaglutide as Adjunct to Closed-loop Therapy in Type 1 Diabetes Care: a Double-blind, Cross-over, Randomized Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT05205928",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-12-06",
+    "uploadDate": "2024-04-02T12:00",
+    "size": 1407853,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05205928/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 28,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-10-02",
+    "completionDate": "2024-06-30",
+    "primaryCompletionDate": "2024-04-15",
+    "firstSubmitDate": "2021-12-13",
+    "firstPostDate": "2022-01-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* A clinical diagnosis of T1D for at least one year, as per their treating diabetes physician in agreement with the primary investigator's clinical judgment (confirmatory C-peptide and antibodies will not be required)\n* Glycated hemoglobin (HbA1c) up to 11% (inclusive), performed within the last 6 months prior to study inclusion\n* Insulin pump use (of any modality) for minimum 3 months\n* Agreement to the use of highly effective method of birth control in persons of child-bearing age (if sexually active) and active avoidance of pregnancy during the trial. Child-bearing potential refers to participants of the female sex post-menarche and have not reached menopause or have a disclosed medical condition causing sterility (e.g. hysterectomy). Post-menopausal state refers to the absence of menses for 12 months without any alternative cause.\n\nExclusion Criteria:\n\n1. Current or \\< 2 week use of another GLP1-receptor agonist\n2. Less than 2 weeks use of any anti-hyperglycemic agent other than insulin\n3. Planned or ongoing pregnancy\n4. Breastfeeding individuals\n5. Severe hypoglycemic episode within the last 3 months, defined as an event where glucose was \\< 4 mmol/L resulting in seizure, loss of consciousness, or need to present to the emergency department\n6. Severe diabetic ketoacidosis (DKA) within the last 6 months (\"severe\" referring to need to present to medical attention and requirement of intravenous insulin)\n7. Prior history of acute pancreatitis, chronic pancreatitis, or gallbladder disease\n8. Personal or family history of medullary thyroid cancer or multiple endocrine neoplasia type 2\n9. Severe impairment of renal function with eGFR \\<15 mL/min/1.73 m2 (using CKD-EPI formula), measured within the last 12 months\n10. Clinically significant diabetic retinopathy or gastroparesis, as per the clinical judgment of the investigator\n11. History of bariatric surgery within 6 months of screening\n12. Any serious medical or psychiatric illness likely to interfere with study participation as per the judgment of the investigator (e.g. cirrhosis, active cancer, decompensated schizophrenia)\n13. Prior adverse reaction to GLP1-RAs\n14. Body mass index ≤ 21 kg/m2\n15. Regular use of hydroxyurea during the expected time of Dexcom G6 use, as this medication is known to cause inaccurate measurements (43)\n16. Failure to comply to the study protocol and/or research group's recommendations (e.g. change in pump parameters, ketone measurement)\n17. Inability or unwillingness to comply to safe diabetes management in the view of the study group (e.g. inappropriate treatment of hypoglycemia or lack thereof)\n18. Any demonstrate of difficulty in using the iMAP system following training, as per investigator's judgment\n19. Concern for safety of the participant, as per the clinical judgment of the primary investigator\n\n\\*\\*Note that for reasons of medicolegal protection for medical supervision, participants must be Canadian residents.\\*\\*",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of time of plasma glucose levels spent in target range (semaglutide vs placebo)",
+        "description": "Target range is defined to be between 3.9 and 10.0 mmol/L of placebo on closed-loop system vs semaglutide (at maximal tolerated dose) on closed-loop insulin system.",
+        "timeFrame": "4 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of time spent in the following ranges of glucose levels between 3.9 and 7.8 mmol/L",
+        "description": "% as per CGM data",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Percentage of time spent in the following ranges of glucose levels: below 3.9 and 3.0 mmol/L",
+        "description": "% as per CGM data",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Percentage of time spent in the following ranges of glucose levels: above 7.8, 10, and 13.9 mmol/L",
+        "description": "% as per CGM data",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Mean glucose level",
+        "description": "Defined as per CGM data, in mmol/L",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Standard deviation of glucose levels as a measure of glucose variability",
+        "description": "Defined as per CGM data, in mmol/L",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Percentage coefficient of variation of glucose levels",
+        "description": "% as per CGM data",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Proportion of participants with TIR between 3.9 - 10.0 mol/L ≥ 70%",
+        "description": "As per CGM data",
+        "timeFrame": "4 weeks"
+      },
+      {
+        "measure": "Glycated hemoglobin",
+        "description": "Blood test to assess control within last 3-4 months",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Average scores between interventions based on quality of life questionnaires",
+        "description": "These include: Type 1 Diabetes Distress Scale, Hypoglycemic Fear Survey - II, INSPIRE questionnaire for adults, Diabetes Bowel Syndrome Questionnaire, Diabetes Treatment Satisfaction Questionnaire",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Blood pressure and heart rate",
+        "description": "Body measurements as described (mmHg and beats per minutes)",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Measured of body mass: weight, body mass index, waist circumference, hip circumference, waist-to-hip ratio",
+        "description": "Measurements done at visit - weight in kilograms, body mass index as per kg/m\\^2, circumferences in cm",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Lipid profile, specifically: LDL-cholesterol, HDL-cholesterol, triglycerides",
+        "description": "Blood tests, in mmol/L",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Biochemical analyses (exploratory)",
+        "description": "CRP, ferritin, IL-6, Brain natriuretic peptide, TXNIP",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Urine albumin-creatinine ratio",
+        "description": "Urine test",
+        "timeFrame": "15 weeks"
+      },
+      {
+        "measure": "Glucagon, C-peptide, Paracetamol absorption after mixed meal tolerance test (in first 15 participants)",
+        "description": "Test done where beverage given and subsequent blood tests done after.",
+        "timeFrame": "15 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 15,
+      "otherCount": 0,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:09.745Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

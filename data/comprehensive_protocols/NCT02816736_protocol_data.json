@@ -1,0 +1,159 @@
+{
+  "nctId": "NCT02816736",
+  "briefTitle": "EntrestoTM (LCZ696) In Advanced Heart Failure (LIFE Study)",
+  "officialTitle": "EntrestoTM (LCZ696) In Advanced Heart Failure (LIFE Study)",
+  "protocolDocument": {
+    "nctId": "NCT02816736",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-02-20",
+    "uploadDate": "2021-08-18T12:55",
+    "size": 1213566,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02816736/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 365,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-03-02",
+    "completionDate": "2020-09-29",
+    "primaryCompletionDate": "2020-09-15",
+    "firstSubmitDate": "2016-06-13",
+    "firstPostDate": "2016-06-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Advanced HFrEF defined as including ALL\n\n   1. LVEF≤ 35% documented during the preceding 12 months\n   2. NYHA class IV symptomatology, defined as chronic dyspnea or fatigue at rest or on minimal exertion in the previous 3 months, or patients who require chronic inotropic therapy\n   3. Minimum of 3 months GDMT for HF and/or intolerant to therapy\n2. Systolic blood pressure ≥ 90 mmHg\n3. Serum NT-proBNP ≥ 800 pg/mL OR BNP ≥ 250 pg/mL (most recent - less than 3 months old)\n4. Any one or more of the following objective findings of advanced HF including:\n\n   1. Current inotropic therapy or use of inotropes in the past 6 months\n   2. ≥ 1 hospitalization for heart failure in the past 6 months (not including the index hospitalization for inpatient participants)\n   3. LVEF ≤ 25% (within the past 12 months)\n   4. Peak VO2 \\< 55% predicted or peak VO2 ≤ 16 for men or ≤ 14 for women (Respiratory Exchange Ratio (RER) ≥ 1.05) (within the past 12 months)\n   5. 6 min walk test distance \\< 300 m (within the past 3 months)\n5. Age ≥18 years and ≤ 85 years\n6. Signed Informed Consent form\n\nExclusion Criteria:\n\n1. Currently taking Entresto™\n2. History of hypersensitivity or intolerance (unmodifiable) to Entresto™, an ACEI or ARB as well as known or suspected contraindications (including hereditary angioedema) to the study drugs.\n3. Estimated glomerular filtration rate (eGFR) \\< 20 mL/min/1.73 m2 at baseline\n4. Co-morbid conditions that may interfere with completing the study protocol (e.g. recent history of drug or alcohol abuse) or cause death within 1 year\n5. Symptomatic hypotension at randomization or systolic blood pressure \\< 90 mmHg\n6. Serum potassium \\> 5.5 mmol/L\n7. Severe liver dysfunction (Childs-Pugh Class C)\n8. Acute coronary syndrome within 4 weeks as defined by electrocardiographic (ECG) changes and biomarkers of myocardial necrosis (e.g. troponin) in an appropriate clinical setting (chest discomfort or anginal equivalent)\n9. Planned or recent (≤ 4 weeks) PCI, coronary artery bypass grafting, or biventricular pacing\n10. Currently hospitalized and listed status 1A, 1B or 1-4 for heart transplant\n11. Current or scheduled for LVAD implantation within 30 days of study enrollment\n12. Active infection (current use of oral or IV antimicrobial agents)\n13. Primary hypertrophic or infiltrative cardiomyopathy, acute myocarditis, constrictive pericarditis or tamponade\n14. Complex congenital heart disease\n15. Concomitant use of aliskiren in patients with diabetes or renal impairment (eGFR \\<60 mL/min/1.73 m²)\n16. Known pregnancy or anticipated pregnancy within the next 6 months or breastfeeding mothers\n17. Enrollment in any other investigational clinical trial within 30 days prior to screening\n18. Inability to comply with study procedures",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "85 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in NT-proBNP",
+        "description": "The proportional change from baseline in the AUC for NT-proBNP levels measured at 2, 4, 8, 12, and 24 weeks. AUC was normalized for time and divided by the baseline value of NTproBNP so it has no unitshas no units. With the log-scale, the value of 0 indicates, on average, no change in NTproBNP from baseline. A value \\> 0 indicates an increase in log NT Pro BNP relative to baseline and a value \\< 0 indicates a decrease in log NT Pro BNP relative to baseline.",
+        "timeFrame": "Baseline, 2, 4, 8, 12, and 24 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Composite Endpoint of the Effects of LCZ696 (Number of Days)",
+        "description": "Composite endpoint of effects of LCZ696 compared to valsartan over 24 weeks will be compared based upon the number of days subjects are\n\n* alive and out of hospital\n* not listed for transplant (Status 1A, 1B or 1-4), or undergoing transplant\n* not implanted with an LVAD\n* not maintained or started on continuous inotropic therapy for ≥ 7 days\n* not hospitalized twice for HF (following the index admission) The days alive and out of hospital will end on the day of the second HF readmission, if applicable.",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Tolerability - Target Dose",
+        "description": "Tolerability as measured by number of subjects achieving a target dose of 0% (stopped study drug early or was never started on study drug), 25%, 50% or 100% of valsartan or LCZ696 (based on last dose of study drug taken prior to end of study)",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Tolerability - Hypotension",
+        "description": "Tolerability as measured by number of subjects developing hypotension (SBP ≤ 85 mmHg) with symptoms",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Tolerability - Renal Function",
+        "description": "Tolerability as measured by number of subjects developing worsening renal function (eGFR \\< 20 ml/min/1.73 m²)",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Tolerability - Hyperkalemia",
+        "description": "Tolerability as measured by number of subjects developing moderate (\\>/= 5.5 mmol/L-5.9 mmol/L) or severe (\\>/= 6 mmol/L) hyperkalemia",
+        "timeFrame": "Randomization through 24 weeks"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Time to Death",
+        "description": "Time to death through 24 weeks",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Time to First Heart Failure (HF) Hospitalization",
+        "description": "Time to first HF hospitalization through 24 weeks",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Time to Death and First Heart Failure (HF) Hospitalization",
+        "description": "Time to death and first HF hospitalization through 24 weeks",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Total Number of Heart Failure (HF) Hospitalizations",
+        "description": "Total number of HF hospitalization admissions through 24 weeks",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Inotropic Therapy",
+        "description": "Number of subjects on continuous inotropic therapy \\>/= 7 days after discharge from the index hospitalization through 24 weeks",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Number of Subjects Listed for Transplant (Status 1A, 1B or 1-4), Transplanted or Implanted With an LVAD",
+        "description": "Number of subjects listed for transplant (status 1A, 1B or 1-4), transplanted or implanted with an LVAD through 24 weeks.",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Change in eGFR and Cystatin C Levels",
+        "description": "Change in eGFR and cystatin C levels compared to baseline. Renal function will be assessed at baseline, 4, 8, 12, and 24 weeks",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Unanticipated IV Diuretic Use",
+        "description": "Number of subjects with unanticipated use of IV diuretics (outpatient, ER or inpatient) through 24 weeks.",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Change in AUC in the Kansas City Cardiomyopathy Questionnaire (KCCQ)",
+        "description": "Difference in AUC of the KCCQ at 4, 12 and 24 weeks",
+        "timeFrame": "Randomization through 24 weeks"
+      },
+      {
+        "measure": "Change in AUC for the Ratio of NT-proBNP/BNP",
+        "description": "The change in AUC for the ratio of NT-proBNP/BNP from baseline to weeks 2, 4, 8, 12 and 24 weeks",
+        "timeFrame": "Randomization through 24 weeks"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 10,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:33.104Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

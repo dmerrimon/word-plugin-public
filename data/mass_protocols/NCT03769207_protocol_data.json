@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT03769207",
+  "briefTitle": "Evaluation of the Use of Apple Watch Features for Identification of Cardiac Arrhythmias",
+  "officialTitle": "Evaluation of the Use of Apple Watch Features for Identification of Cardiac Arrhythmias",
+  "protocolDocument": {
+    "nctId": "NCT03769207",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-11-13",
+    "uploadDate": "2020-09-24T12:54",
+    "size": 1369659,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03769207/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 17,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-12-08",
+    "completionDate": "2019-08-20",
+    "primaryCompletionDate": "2019-07-05",
+    "firstSubmitDate": "2018-12-06",
+    "firstPostDate": "2018-12-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Possession of the following at time of eligibility screening:\n\n   * iPhone (5s or later) with iOS version 12.1.1 or later defined as iPhone model/iOS version used to complete screening eligibility.\n   * Apple Watch (Series 1-4) with watchOS version 5.1.2 or later defined as Apple Watch model/watchOS paired with iPhone used to complete screening eligibility\n2. At least one of the following by self-report before consent:\n\n   * Irregular Rhythm Notification\n   * ECG app classification of Atrial Fibrillation\n   * ECG app classification of Inconclusive defined as \"Inconclusive,\" \"Heart Rate Over 120,\" or \"Heart Rate Under 50\"\n3. Age ≥ 22 years at time of eligibility screening\n4. Current resident of the United States at time of eligibility screening, and will reside in the United States for the length of the study\n5. Proficient in written and spoken English\n6. Valid phone number associated with iPhone, ascertained from self-report\n7. Valid email address, ascertained from self-report\n\nExclusion Criteria:\n\n1. Shared iCloud account\n2. Shared AppleWatch",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "22 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Atrial Fibrillation or Atrial Flutter (AF) of at Least 30 Seconds Duration",
+        "description": "Detected on ambulatory ECG patch monitor for a participant who received an IRN or Apple Watch ECG app - AFib classification",
+        "timeFrame": "During ambulatory ECG Monitoring (up to 8 days)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Arrhythmias Other Than AF",
+        "description": "Detected on an ambulatory ECG patch monitor for a participant who received an IRN or Apple Watch ECG app - AFib classification",
+        "timeFrame": "During ambulatory ECG Monitoring (up to 8 days)"
+      },
+      {
+        "measure": "Self-reported Contact With Healthcare Provider",
+        "timeFrame": "Between 15 to 90 days following enrollment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-21T22:34:12.517Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

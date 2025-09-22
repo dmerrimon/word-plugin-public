@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT05593211",
+  "briefTitle": "Assess Safety and Performance of the Kronos Electrocautery Device for Electrocautery Procedures Following Coaxial Biopsy Procedures",
+  "officialTitle": "Feasibility Study of the Kronos Electrocautery Device",
+  "protocolDocument": {
+    "nctId": "NCT05593211",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-11-07",
+    "uploadDate": "2023-05-11T20:05",
+    "size": 1269412,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05593211/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 31,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-10-17",
+    "completionDate": "2023-02-09",
+    "primaryCompletionDate": "2023-02-09",
+    "firstSubmitDate": "2022-08-19",
+    "firstPostDate": "2022-10-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Patients undergoing a scheduled, elective, coaxial biopsy procedures on areas that include, but are not limited to, liver, kidney, lungs, breasts, soft tissue, etc.,\n2. Patients have signed an informed consent\n3. Patients who are ≥ 18 years of age\n\nExclusion Criteria:\n\n1. Patients with known bleeding disorder\n2. Significant congenital anomaly or medical problem that in the opinion of the investigator would preclude enrollment in this study.\n3. Women of childbearing potential who are pregnant, lactating, or planning to become pregnant during the course of the clinical investigation.\n4. Active illness or active systemic infection or sepsis.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Absence of Hematoma Formation",
+        "description": "Patients will be contacted on day 14 post-procedure and asked a series of questions regarding Adverse Events related to the procedure.",
+        "timeFrame": "14 days"
+      },
+      {
+        "measure": "Measure and Categorize Amount of Blood Loss From Biopsy Access Site",
+        "description": "The weight of 10 gauze pads is taken prior to the procedure. Post-procedure, those same 10 gauze pads used at biopsy access site are weighed again to measure in grams, the amount of blood loss. The scale ranges from 1 (unacceptable) to 5 (excellent).",
+        "timeFrame": "1 hour post procedure"
+      },
+      {
+        "measure": "Absence of the Need for Ultrasound Examination Due to Observation of Bleeding",
+        "description": "Measuring the amount of patient who did not need an ultrasound examination due to observation of bleeding",
+        "timeFrame": "8 hours post procedure"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Absence of Secondary Reintervention",
+        "description": "Patients will be contacted on day 14 post-procedure and asked a series of questions regarding Adverse Events related to the procedure. Measuing the amount of patients who did not require secondary reintervention.",
+        "timeFrame": "14 days"
+      },
+      {
+        "measure": "Time to Hospital Discharge",
+        "timeFrame": "8 hours post procedure"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:25.605Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT02589938",
+  "briefTitle": "Trial of Acupuncture for Radiation-Induced Xerostomia in Head and Neck Cancer",
+  "officialTitle": "A Phase III Prospective Randomized Trial of Acupuncture for Treatment of Radiation-Induced Xerostomia in Patients With Head and Neck Cancer",
+  "protocolDocument": {
+    "nctId": "NCT02589938",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-12-26",
+    "uploadDate": "2023-08-01T11:13",
+    "size": 1399860,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02589938/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 258,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-07-29",
+    "completionDate": "2022-07-29",
+    "primaryCompletionDate": "2022-07-29",
+    "firstSubmitDate": "2015-08-17",
+    "firstPostDate": "2015-10-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Must be at least 18 years of age and able to give informed consent.\n* Must be able to read, write and understand English.\n* Must have a diagnosis of head/neck cancer.\n* Must have received bilateral radiation therapy, and subsequently developed grade 2 or 3 xerostomia, according to modified Radiation Therapy Oncology Group (RTOG) scale:\n\n  * Grade 0 - None\n  * Grade 1 - Slight dryness of mouth (good response on stimulation and no significant dietary alterations necessary)\n  * Grade 2 - Moderate dryness of mouth (poor response on stimulation and altered oral intake required such as frequent water, oral lubricants, or soft-moist foods)\n  * Grade 3 - Complete dryness of mouth (no response on stimulation and difficult oral alimentation; IV fluids, pureed diet or tube feedings may be required)\n  * Grade 4 - Fibrosis\n* Must have received external beam radiation at a mean dose of at least 24 Gy to one of the parotid glands. The other gland can receive less than 24 Gy.\n* Must have completed radiotherapy at least 12 months prior to entry.\n* Must have anatomically intact parotid and submandibular glands. A focused (head/neck) history and exam conducted by a physician or dentist within the past year is required.\n* Must be acupuncture naïve.\n* Must have Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.\n\nExclusion Criteria:\n\n* History of xerostomia, Sjogren's disease or other illness known to affect salivation prior to head/neck radiation.\n* Suspected or known closure of salivary gland ducts on either side. (Patients addressed in inclusion criteria (i.e. those who have had one submandibular gland removed) are expected to have closure to the removed submandibular gland and will be exempt from this exclusion criteria.)\n* Currently receiving or planning to use drugs, herbs, alternative medicines, or devices that could affect salivary production. Treatment known to affect salivation should be stopped at least 14 days prior to enrollment. Over the counter products used for salivary substitution are allowed, but will need to be discontinued for at least 24 hours prior to saliva and questionnaire data collection.\n* Have received any investigational new drug within the past 30 days or planning to receive such during the study period.\n* Active systemic infection or skin infection at or near the acupuncture sites.\n* Receiving chemotherapy during study period.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Xerostomia Questionnaire Scores",
+        "description": "Self reported Xerostomia questionnaire consists of eight items (scored on an 11-point scale; 0-10), has been validated in several cohorts, and is regarded as the gold-standard measure for xerostomia.The questions are equally divided into 4 items about oral dryness while eating or chewing and 4 items about dryness while not eating or chewing. Item scores are summed and transformed linearly to produce a final summary score between 0 and 80. Higher scores represent more xerostomia. Questionnaire is completed prior to randomization and at each time point week 4, week 8, week 12, and end of study.",
+        "timeFrame": "Baseline to 4, 8, 12, 26 weeks post acupuncture"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Functional Assessment of Cancer Therapy (FACT-G) Total",
+        "description": "The FACT-G QOL instrument discriminates between individuals with metastatic and non-metastatic disease, as well as between patients at different stages of illness. The scale has good concurrent validity, high internal consistency (0.89), and good test-re-test reliability (0.82 to 0.88). The total score is reported, which is a combination of the subscales of physical, social/family, emotional, and functional well-being, with higher scores representing better QOL. Scale range 0-108",
+        "timeFrame": "Baseline, 4 , 8 , 12, and 26 weeks"
+      },
+      {
+        "measure": "The Acupuncture Expectancy Scale (AES)",
+        "description": "The 4-item AES was used to ensure there were no baseline group differences in expectations related to the benefits of acupuncture on dry mouth and to assess aspects of blinding after the first 4 weeks of acupuncture for the TA and SA groups. The AES is reliable (α=0·82) and valid by positive correlation with patient self-reported efficacy and satisfaction. The scale has been further validated among cancer patients who were acupuncture naïve. Scale from 4-20.",
+        "timeFrame": "Week 4"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:56.353Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

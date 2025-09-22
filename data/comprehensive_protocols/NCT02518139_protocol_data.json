@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02518139",
+  "briefTitle": "A 52-Week Parallel Group Safety Study of TD-4208 in Chronic Obstructive Pulmonary Disease (COPD)",
+  "officialTitle": "A Phase 3, 52-week, Randomized, Active-Controlled Parallel Group Study to Evaluate the Safety and Tolerability of Nebulized TD-4208 in Subjects With Chronic Obstructive Pulmonary Disease",
+  "protocolDocument": {
+    "nctId": "NCT02518139",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2016-01-21",
+    "uploadDate": "2018-12-01T21:34",
+    "size": 1134682,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02518139/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1060,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-09",
+    "completionDate": "2017-06",
+    "primaryCompletionDate": "2017-06",
+    "firstSubmitDate": "2015-08-05",
+    "firstPostDate": "2015-08-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Subject is a male or female subject 40 years of age or older\n\nExclusion Criteria:\n\n* Females who are pregnant, lactating, breast-feeding or planning to become pregnant during the study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Adverse Events: Frequency and Severity",
+        "description": "To assess the safety and tolerability of TD-4208 by assessing the frequency and severity of Treatment Emergent Adverse Events (TEAE)",
+        "timeFrame": "Baseline to Day 365"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:26.611Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT04342169",
+  "briefTitle": "University of Utah COVID-19 Hydrochloroquine Trial",
+  "officialTitle": "Hydroxychloroquine for Outpatients With Confirmed COVID-19",
+  "protocolDocument": {
+    "nctId": "NCT04342169",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-06-02",
+    "uploadDate": "2022-11-10T12:14",
+    "size": 366572,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04342169/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 368,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-04-04",
+    "completionDate": "2021-11-15",
+    "primaryCompletionDate": "2021-10-30",
+    "firstSubmitDate": "2020-04-07",
+    "firstPostDate": "2020-04-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patient age ≥18 years, competent to provide consent\n* Within 48 hours of positive nucleic acid test for SARS-CoV-2\n\nExclusion Criteria:\n\n* Patient already prescribed chloroquine or hydroxychloroquine\n* Allergy to hydroxychloroquine\n* History of bone marrow or solid organ transplant\n* Known G6PD deficiency\n* Chronic hemodialysis, peritoneal dialysis, continuous renal replacement therapy or Glomerular Filtration Rate \\< 20ml/min/1.73m2\n* Known liver disease (e.g. Child Pugh score ≥ B or AST\\>2 times upper limit)\n* Psoriasis\n* Porphyria\n* Known cardiac conduction delay (QTc \\> 500mSec) or taking any prescription medications known to prolong QT interval\n* Concomitant use of digitalis, flecainide, amiodarone, procainamide, or propafenone\n* Seizure disorder\n* Prisoner\n* Weight \\< 35kg\n* Inability to follow-up - no cell phone or no address or not Spanish or English speaking\n* Receipt of any experimental treatment for SARS-CoV-2 (off-label, compassionate use, or trial related) within the 30 days prior to the time of the screening evaluation\n* Patient or another member of patient's household has been already enrolled in this study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Duration of Viral Shedding",
+        "description": "Duration of viral shedding, as defined by time from randomization to the first of two consecutive negative swabs, measured on days 1 - 14.",
+        "timeFrame": "Days"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Duration of COVID-19-attributable Symptoms",
+        "description": "Duration of COVID-19 symptoms (through DayA15):\n\nthis is an integer-valued outcome which is defined as date of first asymptomatic date through the start date.\n\nTo determine the end date, first each symptom assessment from baseline through DayA15, inclusive, will be classified as symptomatic, asymptomatic, or unknown.\n\nA symptomatic day is one in which at least one of the core symptoms is observed to exceed the permissible threshold: not experiencing for fever and chills; extremely mild for shortness of breath, diarrhea, and muscle aches; mild for cough and tiredness. If at most one symptom level is missing on a given day and all observed core symptoms' levels are at or below the permissible threshold, the day will be classified as asymptomatic. Otherwise (i.e. if at most five of the core symptoms have a reported symptom level and none of the reported symptom levels exceeded the threshold), the day will be considered unknown.",
+        "timeFrame": "Days 1-15"
+      },
+      {
+        "measure": "Hospitalization",
+        "description": "Outcome is summarized by treatment received; all other summaries show treatment assigned",
+        "timeFrame": "within 14 days of enrollment"
+      },
+      {
+        "measure": "Number of Participants With Viral Shedding on Day 28",
+        "description": "The definition of the persistence of viral shedding on Day 28 outcome relies heavily on the Day 28 swab and is limited to those who have a test result for the Day 28 swab or who are not known to have died on or before DayR + 30 (there is a 2 day window for collecting the Day 28 swab). If the Day 28 swab result is known, the result will be used to define the outcome (\"yes\" if positive, \"no\" if negative). Otherwise, subjects with a confirmed cessation of viral shedding when considering daily swab results from DayR + 1 to DayR + 25, inclusive (with the requirement for confirmation waived if the latest available daily result in this interval is negative), and a missing Day 28 value will be assumed to be negative on Day 28; otherwise subjects hospitalized on any of the days DayR + 26{DayR + 30 with a missing Day 28 value will be assumed to be positive on Day 28; otherwise, multiple imputation will be performed.",
+        "timeFrame": "Day 28"
+      },
+      {
+        "measure": "Adult Household Contact Viral Acquisition",
+        "description": "This outcome will be analyzed for households with at least two adults for which no other adult besides the index study subject is positive for COVID-19 at baseline and for which the index study subject is in the ITT population. This binary outcome will be at the household level and will be a \"yes\" if there is a positive swab by one or more adult household contacts for any of the study-administered swabs from days DayR + 1 to DayR + 14, inclusive. If there are no positive swabs but at least one negative swab, the outcome will be a \"no;\" otherwise it will be missing.",
+        "timeFrame": "Days 1-14"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:37.638Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

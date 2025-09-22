@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT04587193",
+  "briefTitle": "Safety and Efficacy of State-of-the-Art Exoskeleton Technology to Improve Mobility in Parkinson's Disease",
+  "officialTitle": "Safety and Efficacy of State-of-the-Art Exoskeleton Technology to Improve Mobility in Parkinson's Disease",
+  "protocolDocument": {
+    "nctId": "NCT04587193",
+    "filename": "Prot_002.pdf",
+    "label": "Study Protocol",
+    "date": "2022-03-01",
+    "uploadDate": "2024-01-31T08:58",
+    "size": 2121123,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04587193/document/Prot_002.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 8,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-01-15",
+    "completionDate": "2023-01-02",
+    "primaryCompletionDate": "2022-12-22",
+    "firstSubmitDate": "2020-10-08",
+    "firstPostDate": "2020-10-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nParkinson's Participant\n\n1. age 21 years or older,\n2. PD confirmed by a movement disorder specialist using UK Brain Bank Criteria,\n3. H\\&Y stage II, III, IV, or V.\n\nCaregiver participant\n\n1. Caregiver of PD participant and is willing to complete questionnaire\n2. moderate to severe cognitive impairment / dementia (Montreal Cognitive Assessment \\< 17/30) except in cases where the clinician and the participants Legally Authorized Representative both determine the participant can safely complete the study\n\nExclusion Criteria:\n\nParkinson's Participant\n\n1. neurological, musculoskeletal, or other disorders unrelated to PD contributing to impairment of gait, stance, balance or coordination,\n2. history of implantable cardiac device or ablative surgery,\n3. moderate to severe cognitive impairment / dementia (Montreal Cognitive Assessment \\< 17/30),\n4. uncontrolled orthostatic hypotension,\n5. feeding tube or associated port placement (PEG/J-PEG),\n6. body height less than 5'1\" or greater than 6'3\" and\n7. body weight greater than 250 pounds.\n\nCaregiver participant\n\n1\\) Unwilling to complete questionnaire",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "21 Years",
+    "maximumAge": "95 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Safety of the Portable Exoskeleton",
+        "description": "Number of \"prevented\" or \"near falls\" requiring physical assistance by the investigative training team experienced by the participant during throughout the training.",
+        "timeFrame": "At the end of treatment (5 weeks)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Walking Capacity",
+        "description": "Walking capacity will be assessed using the 6-Minute Walking Test (6MWT) that assesses distance (in feet) walked to determine aerobic capacity and endurance. Participants will be asked to walk as far as possible in 6 minutes and the total distance will be recorded. The change in walking capacity from baseline to the week 5 treatment.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Change in Freezing of Gait (FOG)",
+        "description": "FOG will be assessed using the 6MWT. FOG will be assess using 2 gait related questions on the Unified Parkinson's Disease Rating Scale (UPDRS). Scores are summed and range from 0 (normal) to 4 (very poor).",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Change in Balance",
+        "description": "The Berg Balance Scale (BBS) assesses balance via asking the participant to perform 14 functional activities. Each functional activity is rated on a 5 point scale from 0 (unable) to 4 (able safety or with minimal aid). The score on each functional activity is then added to get an overall score from 0 to 56. Scores range from 0 to 56 with higher scores indicating better balance.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Change in Motor Symptoms",
+        "description": "The Movement Disorder Society Unified Parkinson Disease Rating Scale (MDS-UPDRS) Part IIIMDS-UPDRS, part III will be used to assess motor symptoms and fluctuations of Parkinson Disease (PD). This outcome measure will be used to report a change in PD motor symptoms from baseline. Scores range from 0 (best score) to 56 (worst score) with higher scores indicating more symptoms.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Change in Quality of Life (QOL)",
+        "description": "Parkinson's Disease Questionnaire (PDQ39) is a 39 item self-report questionnaire assessing how often patients experience difficulties across the 8 quality of life dimensions of functioning and well-being. Items are scored from 0 (never) to 4 (always). All items are then added to get a total score. Total scores can range from 0 to 156. The lower the total score, the better quality of life.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Change in Caregiver QOL",
+        "description": "Participant's caregivers QOL will be assessed using the Parkinson's Disease Carer Questionnaire (PD-Carer), a 29 item measure of health related quality of life for use with carers of people with Parkinson's disease. Each item is scored from 0 to 4. Total scores are then added. Total scores range from 0 (no problem at all) to 116 (worst level of problem).",
+        "timeFrame": "6 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:45.199Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

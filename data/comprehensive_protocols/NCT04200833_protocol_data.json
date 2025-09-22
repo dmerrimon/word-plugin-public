@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT04200833",
+  "briefTitle": "Golimumab in Juvenile Idiopathic Arthritis-associated Uveitis Failing Adalimumab",
+  "officialTitle": "Golimumab in Juvenile Idiopathic Arthritis-associated Uveitis Failing Adalimumab",
+  "protocolDocument": {
+    "nctId": "NCT04200833",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-12-14",
+    "uploadDate": "2021-12-14T16:47",
+    "size": 198894,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04200833/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 10,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2010-03-01",
+    "completionDate": "2021-08-01",
+    "primaryCompletionDate": "2021-07-01",
+    "firstSubmitDate": "2019-08-06",
+    "firstPostDate": "2019-12-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* JIA associated Uveitis\n* Treatment failure with adalimumab\n\nExclusion Criteria:\n\n* Uveitis due to other causes\n* Adalimumab Initiation because of non ocular reasons",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants Reported as Complete Responders to Golimumab",
+        "description": "Response was classified as complete, partial, or none (\"non-response\", NR) at each timepoint separately.\" Complete response (CR) constituted achieving inactive uveitis, defined as 0+ cells in the AC (grade 0). Partial response (PR) was diagnosed in patients with improved uveitis, defined as a decrease in the level of inflammation, without achieving AC grade 0 status. Primary-NR was diagnosed in patients without change in SUN score and an entry grade of 3 or higher or in patients with worsening activity, defined as either a two-grade increase in inflammation or an increase in inflammation to grade 4. Relapse of uveitis was defined as active inflammation after at least 3 months of inactivity,",
+        "timeFrame": "last follow up, up to 5 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Best Corrected Visual Acuity (BCVA)",
+        "description": "best corrected visual acuity",
+        "timeFrame": "up to 5 years"
+      },
+      {
+        "measure": "Number of Patients With Ocular Discomfort",
+        "description": "eye soreness, photophobia",
+        "timeFrame": "up to 5 years"
+      },
+      {
+        "measure": "Steroid Sparing Potential",
+        "description": "Reduction in systemic steroid dose at the 12 month follow-up compared to baseline",
+        "timeFrame": "Baseline, 12 Months Follow-Up"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:59.347Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

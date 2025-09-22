@@ -1,0 +1,177 @@
+{
+  "nctId": "NCT03552536",
+  "briefTitle": "MK-8583 Single Dose Study in Human Immunodeficiency Virus Type 1 (HIV-1) Infected Participants (MK-8583-002)",
+  "officialTitle": "A Single-Dose Clinical Trial to Study the Safety, Tolerability, Pharmacokinetics, and Anti- Retroviral Activity of MK-8583 Monotherapy in Anti-Retroviral Therapy (ART)-Naïve, HIV-1 Infected Patients",
+  "protocolDocument": {
+    "nctId": "NCT03552536",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-03-09",
+    "uploadDate": "2020-02-14T14:17",
+    "size": 676757,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03552536/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-10-07",
+    "completionDate": "2019-03-11",
+    "primaryCompletionDate": "2019-03-11",
+    "firstSubmitDate": "2018-05-29",
+    "firstPostDate": "2018-06-12"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male with female partner(s) of child-bearing potential use required methods of birth control.\n* Female of reproductive potential must demonstrate a nongravid state at the pretrial (screening) visit and agree to use acceptable methods of birth control beginning at the pretrial (screening) visit, throughout the trial and until 30 days following cessation of treatment.\n* Postmenopausal female, defined as without menses for at least 1 year and have a documented follicle stimulating hormone (FSH) level in the postmenopausal range at pretrial (screening).\n* Surgically sterile female's status is post hysterectomy or oophorectomy.\n* Is documented HIV-1 positive\n* Is diagnosed with HIV-1 infection ≥ 3 months prior to screening.\n* Is ART-naïve, defined as having never received any anti-retroviral agent; or ≤ 30 consecutive days of an investigational anti-retroviral agent, excluding a nucleoside reverse transcriptase inhibitor (NRTI), or ≤ 60 consecutive days of combination ART not including a NRTI.\n\nExclusion Criteria:\n\n* Is mentally or legally institutionalized/incapacitated, has significant emotional problems at the time of pretrial (screening) visit or expected during the conduct of the trial or has a history of clinically significant psychiatric disorder over the last 5 years.\n* Has a history of clinically significant endocrine, gastrointestinal, cardiovascular, hematological, hepatic, immunological (outside of HIV-1 infection), renal, respiratory, genitourinary or major neurological (including stroke and chronic seizures) abnormalities or diseases.\n* Has a history of cancer (malignancy).\n* Has a history of significant multiple and/or severe allergies (e.g. food, drug, latex allergy), or has had an anaphylactic reaction or significant intolerability (i.e. systemic allergic reaction) to prescription or non-prescription drugs or food.\n* Is positive for Hepatitis B surface antigen.\n* Has a history of chronic Hepatitis C unless there has been documented cure.\n* Had major surgery, donated or lost 1 unit of blood (approximately 500 mL) within 4 weeks prior to the pretrial (screening) visit.\n* Has participated in another investigational trial within 4 weeks or 5 half-lives, whichever is greater, prior to the pre-trial (screening) visit.\n* Uses or anticipates using any medication, including prescription and non-prescription drugs or herbal remedies beginning approximately 2 weeks (or 5 half-lives) prior to administration of the initial dose of trial drug, throughout the trial, until the post-trial visit.\n* Consumes greater than 3 glasses of alcoholic beverages, wine or distilled spirits per day.\n* Consumes excessive amounts of caffeinated beverages per day.\n* Is an excessive smoker (i.e., more than 10 cigarettes/day) and is unwilling to restrict smoking to ≤10 cigarettes per day.\n* Has a positive urine drug screen (except for cannabis) at screening and/or pre-dose.\n* Has received any investigational agent or any anti-retroviral agent within 60 days of study drug administration; or intends to receive any ART during this study.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With at Least One Adverse Event (AE)",
+        "description": "An AE is any untoward medical occurrence in a participant administered a pharmaceutical product and which does not necessarily have to have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding, for example), symptom, or disease temporally associated with the use of a medicinal product or protocol-specified procedure, whether or not considered related to the medicinal product or protocol-specified procedure. Any worsening (i.e., any clinically significant adverse change in frequency and/or intensity) of a preexisting condition that is temporally associated with the use of the Sponsor's product, is also an AE.",
+        "timeFrame": "Up to Day 29"
+      },
+      {
+        "measure": "Number of Participants Who Discontinued Study Due to an AE",
+        "description": "An AE is any untoward medical occurrence in a participant administered a pharmaceutical product and which does not necessarily have to have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding, for example), symptom, or disease temporally associated with the use of a medicinal product or protocol-specified procedure, whether or not considered related to the medicinal product or protocol-specified procedure. Any worsening (i.e., any clinically significant adverse change in frequency and/or intensity) of a preexisting condition that is temporally associated with the use of the Sponsor's product, is also an AE.",
+        "timeFrame": "Day 1"
+      },
+      {
+        "measure": "Change From Baseline in Plasma Human Immunodeficiency Virus Type 1 (HIV-1) Ribonucleic Acid (RNA) at 168 Hours Post-dose.",
+        "description": "Plasma HIV-1 RNA was measured at baseline and 168 hours after dosing. Change from baseline for MK-8583 at 168 hours post-baseline was estimated from longitudinal data analysis (LDA) model containing fixed effects for time (predose, 168 hours postdose) and a random effect for participant. The change from baseline in plasma HIV-1 RNA in participants administered MK-8583 was compared with historical placebo data.",
+        "timeFrame": "Baseline (pre-dose) and 168 hours post-dose."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Area Under the Concentration Time Curve From Time 0-168 Hours Postdose (AUC0-168hr) of Tenofovir Diphosphate (TFV-DP)",
+        "description": "Values of TFV-DP in peripheral blood mononuclear cells (PBMCs) were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The area under the concentration time curve from time 0-168 hours post-dose (AUC0-168hr) for intracellular TFV-DP is presented.",
+        "timeFrame": "Pre-dose, 4, 12, 24, 48, 72, 96, and 168 hours postdose"
+      },
+      {
+        "measure": "Time to Achieve Maximum Concentration (Tmax) of TFV-DP",
+        "description": "Values of TFV-DP in PBMCs were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The time to achieve maximum concentration (Tmax) of intracellular TFV-DP is presented.",
+        "timeFrame": "Pre-dose, 4, 12, 24, 48, 72, 96, 168, 240, 312 and 672 hours postdose"
+      },
+      {
+        "measure": "Maximum Concentration (Cmax) of TFV-DP",
+        "description": "Values of TFV-DP in PBMCs were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The maximum concentration (Cmax) of intracellular TFV-DP is presented.",
+        "timeFrame": "Pre-dose, 4, 12, 24, 48, 72, 96, 168, 240, 312 and 672 hours postdose"
+      },
+      {
+        "measure": "Concentration at 168 Hours Postdose (C168hr) of TFV-DP",
+        "description": "Values of TFV-DP in PBMCs were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The concentration at 168 hours postdose (C168hr) of TFV-DP is presented. It is hypothesized that the true geometric mean (GM) of TFV-DP in PBMC is ≥ 0.1 μM (100 nmol/L).",
+        "timeFrame": "168 hr postdose"
+      },
+      {
+        "measure": "Apparent Terminal Half-life (t1/2) of TFV-DP",
+        "description": "Values of TFV-DP in PBMCs were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The apparent terminal half-life (t1/2) of intracellular TFV-DP is presented.",
+        "timeFrame": "Pre-dose, 4, 12, 24, 48, 72, 96, 168, 240, 312 and 672 hours postdose"
+      },
+      {
+        "measure": "Area Under the Concentration Time Curve From Time 0-last Measurement (AUC0-last) of MK-8583",
+        "description": "Values of plasma MK-8583 were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The area under the concentration time curve from time 0-last measurement (AUC0-last) of plasma MK-8583 is presented. The last quantified concentration value occurred at 2 hours (n=4) and 4 hours (n=1).",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      },
+      {
+        "measure": "Area Under the Concentration Time Curve From Time 0-infinity (AUC0-inf) of MK-8583",
+        "description": "Values of plasma MK-8583 were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose.",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      },
+      {
+        "measure": "Tmax of Plasma MK-8583.",
+        "description": "Values of plasma MK-8583 were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The time to achieve maximum concentration (Tmax) of plasma MK-8583 is presented.",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      },
+      {
+        "measure": "Cmax of MK-8583",
+        "description": "Values of plasma MK-8583 were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The maximum concentration (Cmax) of plasma MK-8583 is presented.",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      },
+      {
+        "measure": "t1/2 of MK-8583",
+        "description": "Values of plasma MK-8583 were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose.",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      },
+      {
+        "measure": "Apparent Total Clearance (CL/F) of MK-8583",
+        "description": "Values of plasma MK-8583 were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The apparent total clearance (CL/F) of plasma MK-8583 is presented.",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      },
+      {
+        "measure": "Apparent Volume of Distribution (Vz/F) of MK-8583",
+        "description": "Values of plasma MK-8583 were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose.",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      },
+      {
+        "measure": "AUC0-last of Tenofovir (TFV)",
+        "description": "Values of plasma TFV were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The area under the concentration time curve from time 0-last measurement (AUC0-last) of plasma TFV is presented.",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      },
+      {
+        "measure": "AUC0-inf of TFV",
+        "description": "Values of plasma TFV were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The area under the concentration time curve from time 0-infinity (AUC0-inf) of plasma TFV is presented.",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      },
+      {
+        "measure": "Tmax of TFV",
+        "description": "Values of plasma TFV were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The time to achieve maximum concentration (Tmax) of plasma TFV is presented.",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      },
+      {
+        "measure": "Cmax of TFV",
+        "description": "Values of plasma TFV were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The maximum concentration (Cmax) of plasma TFV is presented.",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      },
+      {
+        "measure": "t1/2 of TFV",
+        "description": "Values of plasma TFV were natural-log transformed and analyzed based on a linear model containing a fixed effect for the MK-8583 100-mg dose. The apparent terminal half-life (t1/2) of plasma TFV is presented.",
+        "timeFrame": "Pre-dose, 0.25, 0.5, 1, 2, 4, 6, 12, 24, 36, 48, and 72 hours postdose"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 17,
+      "otherCount": 0,
+      "totalCount": 20
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:20.784Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

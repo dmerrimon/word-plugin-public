@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT05292248",
+  "briefTitle": "CONFIDENCE Financial Education for Caregivers",
+  "officialTitle": "Confidently Navigating Financial Decisions and Enhancing Financial Wellbeing in Dementia Caregiving",
+  "protocolDocument": {
+    "nctId": "NCT05292248",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-08-24",
+    "uploadDate": "2024-07-31T19:21",
+    "size": 717510,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05292248/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-05-01",
+    "completionDate": "2024-03-01",
+    "primaryCompletionDate": "2023-12-15",
+    "firstSubmitDate": "2022-03-14",
+    "firstPostDate": "2022-03-23"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Caregiver to someone diagnosed by a physician with probably Alzheimer's disease or a related dementia at least 6 months ago\n* Latino or Hispanic ethnicity\n* At least 50 years of age of older\n* Able to attend 5, 1.5 hour to 2 hour group-based lessons over 5 weeks\n* No plans to place family member in a facility within the next 3 months\n\nExclusion Criteria:\n\n* Unreliable access to email, a computer and internet access\n* Does note speak and read English\n* Previously participated in CONFIDENCE program",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Monthly Out-of-pocket Caregiving Costs",
+        "description": "Monthly out-of-pocket costs of caregiving is based on the tool used by the AARP Public Policy Institute in their 2016 report on the out-of-pocket costs of caregiving. This measure combines caregiver recall of care costs in the previous month, collected at baseline, with 5 days of daily spending diaries. Daily surveys will be sent using an email with a survey link, and a text message reminder. Monthly costs include less-frequent, high-cost expenditures (e.g., mortgage payment), while daily costs include lower-cost items caregivers may pay for more frequently (e.g., groceries). Daily self-reports of spending will be averaged and multiplied by 6 to approximate the number of days in a month, and added to estimated monthly costs.\n\nPositive scores indicate increased out-of-pocket costs. The researchers advise against relying on this outcome. In this pilot study, we found that this measure has qualitatively different meanings for adult child and spousal caregivers.",
+        "timeFrame": "Change in median costs from from baseline to 8 weeks post-intervention"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Psychological Financial Strain",
+        "description": "The measure for psychological financial strain is from multiple scales. Items 1 to 14 ask about financial anxiety. Lastly, the investigators included the 1-item question that asks about financial worry (\"I worry constantly about money\". Participants are asked to indicate the extent to which each statement is true (Very true \\[3\\], Somewhat true\\[2\\], Somewhat untrue\\[1\\], and Complete untrue\\[0\\]). Scores are summed such that scores range from 0 to 45, where higher scores indicate higher levels of financial strain.",
+        "timeFrame": "Change from baseline to post-intervention (within 1 week); change from baseline to 8 weeks post-intervention"
+      },
+      {
+        "measure": "Caregiver Self-efficacy",
+        "description": "Self-efficacy is measured using the Caregiver Self-Efficacy Scale. This 8-item scale asks about multiples domains of self-efficacy (e.g., managing behavioral symptoms, accessing respite, and controlling upsetting thoughts). It demonstrates high reliability (alpha=0.89) and good test-retest reliability (0.73). Participants rate the extent to which they are \"Not confident at all\" (1) to \"Totally confident\" (10). Scores range from 8 (lowest level of self-efficacy) to 80 (highest level of self-efficacy). The outcome measure will use the average change score from baseline scores. Positive scores indicate an increase in self-efficacy.",
+        "timeFrame": "Change from baseline to post-intervention (within 1 week); change from baseline to 8 weeks post-intervention"
+      },
+      {
+        "measure": "Caregiver Resourcefulness",
+        "description": "Resourcefulness is measured using the 28-item Caregiver Resourcefulness Scale (alpha=0.85). This scale has two factors: one focused on help-seeking and another on self-help. Caregivers are asked the frequency at which they use different strategies to manage challenges, and may respond: Not at all like me (0), Pretty much not like me (1), A little bit not like me (2), A little bit like me (3), Pretty much like much like me (4), or Very much like me (5). Items are added together to create a total score. Scores range from 0 to 140, where higher scores indicate higher levels of resourcefulness. The outcome measure will use the average change score from baseline scores",
+        "timeFrame": "Change from baseline to post-intervention (within 1 week); change from baseline to 8 weeks post-intervention"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:40.697Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,168 @@
+{
+  "nctId": "NCT02700919",
+  "briefTitle": "Efficacy and Safety of BCT197 in Subjects With Acute Respiratory Exacerbations of Chronic Obstructive Pulmonary Disease",
+  "officialTitle": "A Phase II, Two-Part, Randomised, Multi-Centre, Multinational, Double-Blind, Placebo-Controlled, Parallel Group Study to Compare the Efficacy and Safety of BCT197 When Added on to Standard of Care for the Treatment of Acute Respiratory Exacerbations of Chronic Obstructive Pulmonary Disease Requiring Hospitalisation in Adults",
+  "protocolDocument": {
+    "nctId": "NCT02700919",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-11-08",
+    "uploadDate": "2020-09-08T10:25",
+    "size": 2131682,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02700919/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 282,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-08-01",
+    "completionDate": "2017-11-28",
+    "primaryCompletionDate": "2017-11-08",
+    "firstSubmitDate": "2016-02-29",
+    "firstPostDate": "2016-03-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male and female adults\n* Presence of an active exacerbation of the ongoing COPD requiring hospitalization for treatment\n* Subjects with a documented diagnosis of COPD C or D\n* Current smokers or ex-smokers\n* A documented history of at least one moderate or severe COPD exacerbation in the 12 months preceding the Screening Visit that required antibiotics and/or systemic corticosteroid.\n* Current regular treatment for COPD (for at least 2 months prior to the Screening Visit.\n\nExclusion Criteria:\n\n* Age less than 40 years old\n* Current diagnosis of asthma\n* Subjects who have already completed treatment for the current exacerbation of COPD\n* Subjects currently requiring intensive care unit (ICU) and/or mechanical ventilation\n* Received a course of PDE4, p38 or PDE3/4 inhibitors within their respective defined washout periods.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in FEV1 to Day 7 - ITT Population",
+        "description": "FEV1 data were recorded daily from Days 1 to 7 of the study using a computer-operated spirometer. Analysis was based on a linear Mixed Model for Repeated Measures (MMRM) with Change from Baseline in parameter as outcome; including treatment, visit, treatment by visit interaction, severity of airflow limitation at Baseline, blood eosinophils (%) at Baseline, time from start of current chronic obstructive pulmonary disease (COPD) exacerbation to first study treatment dosing, presence of cardiovascular comorbidities at Screening and COPD exacerbation treatment at Screening as fixed effects, and Baseline value and Baseline by visit interaction as covariates. Baseline was defined as the last non-missing value collected before the first study treatment administration, including unscheduled assessments. Results were presented with adjusted mean (95% confidence interval).",
+        "timeFrame": "Days 1 to 7"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in FEV1 on Days 3, 10, and 14 - ITT Population",
+        "description": "FEV1 data were recorded daily from Days 1 to 7, and Days 10 and 14 of the study using a computer-operated spirometer. Analysis was based on a linear MMRM with Change from Baseline in parameter as outcome; including treatment, visit, treatment by visit interaction, severity of airflow limitation at Baseline, blood eosinophils (%) at Baseline, time from start of current COPD exacerbation to first study treatment dosing, presence of cardiovascular comorbidities at Screening and COPD exacerbation treatment at Screening as fixed effects, and Baseline value and Baseline by visit interaction as covariates. Baseline was defined as the last non-missing value collected before the first study treatment administration, including unscheduled assessments.",
+        "timeFrame": "Days 3, 10, and 14"
+      },
+      {
+        "measure": "Normalization Evaluation of FEV1 Over Time (Days 1 to 7, Days 10 and 14, and Weeks 8, 12 and 26) Compared With the Most Recent Test Performed Within the Last 12 Months Outside an Exacerbation - ITT Population",
+        "description": "FEV1 data were recorded daily from Days 1 to 7 and on Days 10 and 14 and Weeks 8, 12, and 26 of the study using a computer-operated spirometer. FEV1 normalization was achieved if FEV1 returned to a value ≥ 89% of the most recent FEV1 value measured within the last 12 months outside an exacerbation (pre-study FEV1 value). Baseline was defined as the last non-missing value collected before the first study treatment administration, including unscheduled assessments. Percentages (%) were based on number of non-missing values as denominator.",
+        "timeFrame": "Baseline, Days 1 to 7, Days 10 and 14, Week 8, Week 12 and Week 26"
+      },
+      {
+        "measure": "Normalization Evaluation of FEV1/FVC Over Time (Days 1 to 7, Days 10 and 14, and Weeks 8, 12 and 26) Compared With the Most Recent Test Performed Within the Last 12 Months Outside an Exacerbation - ITT Population",
+        "description": "FEV1 and FVC were recorded daily from Days 1 to 7 and on Days 10 and 14 and Weeks 8, 12, and 26 of the study using a computer-operated spirometer. FEV1/FVC normalization was achieved if FEV1/FVC returned to a value ≥ 89% of the most recent FEV1/FVC value measured within the last 12 months outside an exacerbation (pre-study FEV1/FVC value). Baseline was defined as the last non-missing value collected before the first study treatment administration, including unscheduled assessments.",
+        "timeFrame": "Baseline to Week 26"
+      },
+      {
+        "measure": "Time to Improvement of 100 mL in FEV1 Over Time - ITT Population",
+        "description": "Time to improvement of 100 mL in FEV1 was defined as time (in days) from initiation of study treatment until the change in FEV1 was ≥ +100 mL.",
+        "timeFrame": "Baseline to Week 26"
+      },
+      {
+        "measure": "Area Under the Curve (AUC) of FEV1 Over Time - ITT Population",
+        "description": "AUC was calculated according to the trapezoidal rule. The trapezoidal rule is a numerical method to be used to approximate the integral or the area under a curve. Using trapezoidal rule to approximate the area under a curve first involves dividing the area into a number of strips of equal width. Then, approximating the area of each strip by the area of the trapezium formed when the upper end is replaced by a chord. The sum of these approximations gives the final numerical result of the AUC.",
+        "timeFrame": "Day 1 to Day 14"
+      },
+      {
+        "measure": "Normalization of Respiratory Rate (RR) Over Time During Acute Exacerbation Phase - ITT Population",
+        "description": "RR was normalized when it returned to a baseline plateau level achieved after the acute COPD exacerbation during the Stabilization Phase. Baseline was defined as the last non-missing value collected before the first study treatment administration, including unscheduled assessments.",
+        "timeFrame": "Day 1 to Day 14"
+      },
+      {
+        "measure": "Change From Baseline in RR on Days 3, 7, 10 and 14 - ITT Population",
+        "description": "RR (breaths/min) was recorded over time during the acute exacerbation phase.",
+        "timeFrame": "Days 1 to 14"
+      },
+      {
+        "measure": "Time to Improvement Based on the EXAcerbations of Chronic Pulmonary Disease Tool-Patient Reported Outcome (EXACT-PRO) Total Score During the Acute Exacerbation Phase - ITT Population",
+        "description": "Improvement based on EXACT-PRO total score is defined as a decrease in the Rolling Average EXACT score ≥ 9 points from the previous day's maximum observed value during an event. The EXACT is a 14-item patient reported outcome (PRO) daily diary used to quantify and measure exacerbations of COPD. The health status of the participant is correlated to the global score, meaning a higher score corresponds to a more severe health status of the participant. An EXACT Total score is computed for each day of diary collection. The EXACT Total score is based on a logit scoring system with conversion to a 0 to 100 scale for ease of interpretation and use. The total score was used in the determination of exacerbation frequency, severity and duration of exacerbation. Specifically, changes in the total score were used to define onset and recovery from an exacerbation event and the magnitude of that event.",
+        "timeFrame": "Days 1 to 29"
+      },
+      {
+        "measure": "Time to Recovery Based on EXACT-PRO Total Score During the Acute Exacerbation Phase - ITT Population",
+        "description": "Recovery based on EXACT-PRO total score was defined as the first day in which a participant experiences a persistent, sustained improvement in their condition over the observed period (Day 1 to Day 29). Improvement had to be present for 7 consecutive days. The first day of the 7-day period was designated as the first day of Recovery. An EXACT total score was computed for each day of diary collection.",
+        "timeFrame": "Days 1 to 29"
+      },
+      {
+        "measure": "Standardized AUC of EXACT-PRO Rolling Average Over Time During Acute Exacerbation Phase - ITT Population",
+        "description": "The standardized AUC of the EXACT-PRO were calculated from Day (a) to Day (b) using the trapezoidal rule.",
+        "timeFrame": "Days 1 to 29"
+      },
+      {
+        "measure": "Standardized AUC of EXACT-PRO (Breathlessness) Rolling Average Over Time During Acute Exacerbation Phase - ITT Population",
+        "description": "Information regarding the participant's condition can be obtained through 3 domain scores embedded within the EXACT measure: Breathlessness, Cough \\& Sputum, and Chest Symptoms. These scores also range from 0 to 100 with higher scores indicating more severe symptoms.The standardized AUC of the EXACT-PRO were calculated from Day (a) to Day (b) using the trapezoidal rule.",
+        "timeFrame": "Days 1 to 29"
+      },
+      {
+        "measure": "Rate of Positively Adjudicated Moderate/Severe COPD Exacerbations - ITT Population",
+        "description": "Follow-up time per participant (years) was defined as (date of last contact - date of first study drug administration + 1)/ 365.25. Total follow-up time (years) = sum of individual participant follow-up times. Rate was calculated as total number of positively adjudicated exacerbations divided by the total follow-up time in years of the treatment group.",
+        "timeFrame": "Day 1 to End of Study (Day 180)"
+      },
+      {
+        "measure": "Number of COPD-Related Deaths During the Study - ITT Population",
+        "description": "Cumulative incidences of COPD-related deaths until Day 30/60/90/120/150/180 were obtained.",
+        "timeFrame": "Days 1 to 180"
+      },
+      {
+        "measure": "Time to Next Positively Adjudicated Moderate/Severe COPD Exacerbation- ITT Population",
+        "description": "Time to next positively adjudicated moderate/severe COPD exacerbation (in days) was defined as date when first moderate/severe COPD exacerbation symptoms started - date when current COPD exacerbation symptoms stopped, where COPD exacerbations experienced during the study were positively adjudicated by the Independent Adjudication Committee. Time to next positively adjudicated COPD exacerbation was presented in 25th percentile (95% confidence interval) as medians were not evaluable.",
+        "timeFrame": "Day 1 to Day 180"
+      },
+      {
+        "measure": "Time From Hospitalization Admission Until the Participant Is Medically Ready for Discharge (Current COPD) - ITT Population",
+        "description": "Time from hospitalization admission until the participant is medically ready for discharge (in days) = Date participant was medically ready for discharge from hospital - Date of hospitalization admission. Date of hospitalization admission' and 'Date participant was medically ready for discharge from hospital' were recorded on the 'Current COPD Exacerbation' form of the eCRF. Results were presented with 75th percentile (95% CI) due to the fact that 95% CI for the median was not evaluable.",
+        "timeFrame": "Day 1 to Day 30"
+      },
+      {
+        "measure": "Percentage of Days With Intake of COPD Rescue Therapy - ITT Population",
+        "description": "Participants completed the EXACT-PRO starting from Day 1 and recorded rescue medication use and any occurrences of COPD once a day (evening) in the diary. The percentage of days with intake of rescue medications was evaluated on the basis of the information recorded daily by the participant on the diaries. A day was considered with intake of rescue medications if the answer to the question \"How many puffs of rescue medication did you take since last evening?\" was\\> 0.",
+        "timeFrame": "Baseline to Week 26"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Pharmacokinetic (PK) of BCT197 in Adults With COPD - PK Population",
+        "description": "Descriptive summary of PK plasma concentration is presented as no-specific PK report is available.",
+        "timeFrame": "Days 1 to 5"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 16,
+      "otherCount": 1,
+      "totalCount": 18
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:26.822Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

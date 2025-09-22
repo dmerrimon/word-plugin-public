@@ -1,0 +1,80 @@
+{
+  "nctId": "NCT03148067",
+  "briefTitle": "Incidence and Risk Factors for Surgical Site Infection After Intramedullary Nailing of Femoral and Tibial Fractures",
+  "officialTitle": "Prospective Study on the Incidence and Risk Factors for the Occurrence of Surgical Site Infection After Intramedullary Nailing of Diaphyseal Femoral and Tibial Fractures",
+  "protocolDocument": {
+    "nctId": "NCT03148067",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-05-31",
+    "uploadDate": "2019-03-22T17:57",
+    "size": 93124,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03148067/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 225,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-09-15",
+    "completionDate": "2017-04-03",
+    "primaryCompletionDate": "2017-04-03",
+    "firstSubmitDate": "2017-05-08",
+    "firstPostDate": "2017-05-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Closed and open diaphyseal femoral and tibial fractures treated through IMN;\n* Age: 16 years or older\n* The patient or a person legally responsible for the patient should sign the free and informed consent statement (FICS) in order to take part in the study.\n\nExclusion Criteria:\n\n* No exclusion criteria",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "16 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Incidence of Surgical Site Infection (SSI) Relating to Intramedullary Nailing for Fixation of Diaphyseal Femoral and Tibial Fractures",
+        "description": "Patients who present signs of infection in the region of the surgery under evaluation or who describe alterations compatible with SSI, or whose records mention signs or symptoms compatible with the definitions of SSI, are considered to be cases with evolution to infection. Patients included in the study who, during routine or emergency care present a condition (according to the researchers' evaluation) suggestive of a SSI associated with intramedullary nailing are considered to be cases of infection",
+        "timeFrame": "one year after surgery"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Possible Risk Factors Related to Occurrence of SSI After Intramedullary Nailing",
+        "description": "Patient-related factors: age; gender; body mass index; duration of preoperative hospitalization; infection in other foci; presence of immunosuppressive conditions; physical status classification according to ASA; occurrences of multiple trauma and ISS score; injury etiology; exposure time (for open fractures); AO fracture classification; soft-tissue injury classification; Gustilo-Anderson open fracture classification; stay at other hospital before transference; use of external fixation; previous surgical manipulation and use of blood products. Factors relating to the surgery: wound classification according to potential for contamination; surgery length; hair removal; antibiotic prophylaxis or therapy; use of drains; patient temperature and oxygenation; type of nail used (anterograde or retrograde); reaming; primary closure; necessity for a skin-muscle flap and use of negative-pressure wound therapy. Microbiota-related factors: evaluation of colonization by S. aureus and A. baumannii.",
+        "timeFrame": "one year after surgery"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:58.133Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

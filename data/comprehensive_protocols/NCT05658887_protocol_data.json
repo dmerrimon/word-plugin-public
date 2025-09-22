@@ -1,0 +1,135 @@
+{
+  "nctId": "NCT05658887",
+  "briefTitle": "Preoperative Gabapentin vs Placebo for Vaginal Prolapse Surgery",
+  "officialTitle": "A Double-Blind Randomized Placebo-Controlled Clinical Trial of Preoperative Gabapentin Prior to Vaginal Apical Suspension Prolapse Procedures",
+  "protocolDocument": {
+    "nctId": "NCT05658887",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2022-07-01",
+    "uploadDate": "2025-05-15T12:20",
+    "size": 171270,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05658887/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 110,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-01-01",
+    "completionDate": "2024-12-31",
+    "primaryCompletionDate": "2024-12-31",
+    "firstSubmitDate": "2022-12-09",
+    "firstPostDate": "2022-12-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Scheduled for a vaginal apical support procedure (sacrospinous ligament fixation or vaginal uterosacral ligament suspension)\n* Female\n* Age 18 or higher\n\nExclusion Criteria:\n\n* Non-English speaking\n* Incarcerated\n* Cognitive impairment precluding informed consent\n* Chronic opioid user\n* Chronic gabapentinoid user\n* Contraindication to acetaminophen, celecoxib, or gabapentinoids\n* Concurrent laparoscopic or abdominal surgery",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Postoperative Opioid Use",
+        "description": "Total postoperative opioid use in the first 24 hours postop measured in MME (starting when the patient leaves the operating room)",
+        "timeFrame": "24 hours after surgery. This includes postoperative opioid use in the hospital AND at home (which is why it is different from outcome measure 3)."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Mean Postop Pain Score",
+        "description": "Mean postoperative pain score (using the validated numerical rating scale, minimum score 0, maximum score 10, higher scores mean worse pain/worse outcome) while admitted in the hospital. Note: this is the mean score while they were postoperatively but median below is correct because we used the median of each individual's MEAN score (this is addressing the comment #10)",
+        "timeFrame": "From the time surgery finished to a max of 24 hours after. This was measured by postoperative nursing periodically throughout the postoperative period per standard nursing protocol: usually every hour for the first two hours and then every 4 to 8 hours"
+      },
+      {
+        "measure": "Postoperative Opioid Use While Admitted in the Hospital",
+        "description": "postoperative opioid use while admitted",
+        "timeFrame": "After surgery, max of 24 hours. Note that this is only postoperative opioid use in the hospital. Outcome measure 1 is total postoperative opioid use (in the hospital and at home)"
+      },
+      {
+        "measure": "Time to Discharge",
+        "description": "Admitted time",
+        "timeFrame": "Total admitted time (from admission to the hospital to discharge)"
+      },
+      {
+        "measure": "Number of Patients Who Report Postoperative Dizziness",
+        "description": "Patient reported postoperative dizziness",
+        "timeFrame": "24 hours postoperative"
+      },
+      {
+        "measure": "Number of Patients Who Report Sedation",
+        "description": "Patient reported sedation",
+        "timeFrame": "24 hours postoperative"
+      },
+      {
+        "measure": "Number of Patients Who Report Visual Changes",
+        "description": "Patient reported visual changes",
+        "timeFrame": "24 hours postoperative"
+      },
+      {
+        "measure": "Number of Patients Who Report Postoperative Nausea",
+        "description": "Patient reported postoperative nausea and vomiting",
+        "timeFrame": "24 hours postoperative"
+      },
+      {
+        "measure": "Number of Patients Who Report Postoperative Pain Adequacy",
+        "description": "Patient reported postoperative pain adequacy",
+        "timeFrame": "24 hours postoperative"
+      },
+      {
+        "measure": "Morphine Milligram Equivalents (MMEs) of Preoperative and Intraoperative Opioids",
+        "description": "Amount of opioids (in MMEs) given before and during the surgery",
+        "timeFrame": "Preop period to the end of the surgery (any opioids given to the patient from arrival in the hospital to the end of the surgery), on average 5 hours"
+      },
+      {
+        "measure": "Estimated Blood Loss",
+        "timeFrame": "During the surgery (from surgery start time to surgery end time, this was assessed at the end of the surgery while in the OR), on average 150 minutes"
+      },
+      {
+        "measure": "Surgery Length",
+        "timeFrame": "During surgery"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 11,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:57.660Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

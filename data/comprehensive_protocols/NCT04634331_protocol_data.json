@@ -1,0 +1,91 @@
+{
+  "nctId": "NCT04634331",
+  "briefTitle": "Dual-task Augmented Reality Treatment for Parkinson's Disease",
+  "officialTitle": "Dual-task Augmented Reality Treatment for Parkinson's Disease (DART)",
+  "protocolDocument": {
+    "nctId": "NCT04634331",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-01-30",
+    "uploadDate": "2023-10-10T15:48",
+    "size": 237318,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04634331/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 51,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-12-10",
+    "completionDate": "2022-08-08",
+    "primaryCompletionDate": "2022-08-08",
+    "firstSubmitDate": "2020-11-09",
+    "firstPostDate": "2020-11-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Adult with a diagnosis of idiopathic PD\n2. Self-reported gait or balance deficits\n3. Hoehn and Yahr stage I-III\n4. Ability to ambulate \\>10 minutes continuously\n\nExclusion Criteria:\n\n1. Diagnosis of dementia or any neurocognitive impairment that compromises the ability to provide informed consent\n2. \\>2 errors on the Short Portable Mental Status Questionnaire\n3. Implanted deep brain stimulation electrodes\n4. Musculoskeletal or cardiopulmonary issue that limits one's ability to engage in exercise\n5. Neurological disease other than Parkinson's disease that impacts motor or cognitive function",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Gait Velocity",
+        "description": "Walking speed (m/s) on a self-paced treadmill during single and dual task conditions",
+        "timeFrame": "From baseline assessment to the end of the 8-week training session"
+      },
+      {
+        "measure": "MDS-UPDRS III Score",
+        "description": "Global score of motor function in Parkinson's disease using the Movement Disorders Society-Unified Parkinson's Disease Rating Scale subscale III (MDS-UPDRS III). Eighteen items scored on a 0-4 scale resulting in a score ranging from 0-72. A higher score (larger number) indicates more motor symptoms.",
+        "timeFrame": "From baseline assessment to the end of the 8-week training session"
+      },
+      {
+        "measure": "Fall Frequency",
+        "description": "number of falls in the previous 30 day period",
+        "timeFrame": "From baseline assessment to the end of the 8-week training session"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:44.156Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

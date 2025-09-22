@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03755427",
+  "briefTitle": "A Study of An Adjuvanted Inactivated H7N9 Influenza Vaccine",
+  "officialTitle": "Immunogenicity and Safety of an Alum-adjuvanted Inactivated H7N9 Influenza Vaccine: a Randomized, Blind, Placebo-controlled, a Phase II Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT03755427",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-10-18",
+    "uploadDate": "2018-11-25T20:24",
+    "size": 533692,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03755427/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 560,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-11-10",
+    "completionDate": "2019-11-15",
+    "primaryCompletionDate": "2019-01-05",
+    "firstSubmitDate": "2018-11-14",
+    "firstPostDate": "2018-11-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Over the age of 12 years, healthy population\n* Subjects/ (and the guardian) informed consent, voluntarily participated and signed the informed consent form, with the ability to use thermometers, scales and to fill in diary cards as required\n* To comply with the requirements of clinical trial program, receive blood test before and after immunization and cooperate with follow-up\n\nExclusion Criteria:\n\n* A history of influenza A (H7N9) virus infection or suspected infection Abnormal blood routine, blood biochemistry and urine routine examination indexes\n* Allergy to any component in the vaccine (allergy history of any previous vaccination), especially for egg allergy\n* History of asthma, history of thyroid resection, vascular nerve edema, diabetes mellitus, hypertension can not be controlled by medicine, liver and kidney diseases or malignant tumor history\n* Suffered from any serious illness, such as cancer, autoimmune disease, progressive atherosclerotic disease or complications of diabetes, chronic obstructive pulmonary disease, need oxygen therapy for acute or progressive liver or kidney disease, congestive heart-failure etc.\n* History of signs disease or symptoms of neurological symptoms\n* Suffering from severe chronic diseases (such as Down's syndrome, diabetes, sicklemia or neurological disorders, Green's Barre syndrome)\n* Acute attacks of various acute or chronic diseases in the past 7 days\n* Known or suspected of respiratory disease, acute infection or chronic disease active period, HIV infection, cardiovascular disease, severe hypertension, malignant tumor during treatment, skin diseases\n* Congenital malformations or developmental disorders, genetic defects, severe malnutrition etc\n* No spleen, functional absence of spleen, and splenectomy or splenectomy without any condition\n* Autoimmune diseases or immunodeficiency have been treated with immunosuppressive agents in the past 6 months\n* History of epilepsy, convulsions, or a family history of psychosis\n* Abnormal coagulation function (such as coagulation factor deficiency, coagulation disorders, platelet abnormalities), or obvious bruising or coagulopathy\n* The blood products were received within 3 months prior to the acceptance of the vaccine\n* Received a live vaccine within 14 days prior to receiving the vaccine, or received a subunit or inactivated vaccine within 7 days\n* Fever within 3 days prior to vaccination, axillary temperature ≥38 ℃\n* Being febrile When inoculating vaccine, axillary temperature \\>37.0 ℃\n* Women are pregnant or in the near future planned pregnancy or pregnancy test positive\n* Participants in another clinical trial",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Subjects Reporting Solicited and Unsolicited Adverse Events (AEs)",
+        "description": "* For each group the incidence rate of subjects with solicited AE(s) with 95% confidence interval\n* For each group the incidence rate of subjects with unsolicited AE(s) with 95% confidence interval",
+        "timeFrame": "Continuous observation for 30 days after two inoculations"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of participants that presented seroconversion post injection",
+        "description": "* Seroconvertion is defined as: prevaccination Hemagglutination-inhibition test (HI) antibody titer ≤1:10 and postvaccination HI antibody titer ≥1:40, or prevaccination HI antibody titer ≥1:10 and a postvaccination increase by a factor of four or more.\n* Participants will be collected blood post first study injection, when blood samples will be taken for HI testing",
+        "timeFrame": "21 days after two inoculations"
+      },
+      {
+        "measure": "Number of participants that presented seroprotection post injection",
+        "description": "* Seroprotection is defined as postvaccination Hemagglutination-inhibition test (HI) antibody titer ≥ 1:40.\n* Participants will be collected blood post first study injection, when blood samples will be taken for HI testing",
+        "timeFrame": "21 days after two inoculations"
+      },
+      {
+        "measure": "Geometric mean of Hemagglutination-inhibition titre post first study injection",
+        "description": "* Geometric mean of Hemagglutination-inhibition test titre will be calculated for the different groups of participants post first study injection.\n* Participants will be collected blood post first study injection, when blood samples will be taken for HI testing.",
+        "timeFrame": "21 days after two inoculations"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:33.356Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

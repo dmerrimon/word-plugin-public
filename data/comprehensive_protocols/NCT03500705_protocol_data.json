@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT03500705",
+  "briefTitle": "Upper Limb Unilateral Strength Training and Mirror Therapy for Chronic Stroke Patients",
+  "officialTitle": "Unilateral Strength Training and Mirror Therapy for Enhancing Upper Limb Motor Function Post Stroke: A Pilot Randomised Controlled Trial",
+  "protocolDocument": {
+    "nctId": "NCT03500705",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2015-03-20",
+    "uploadDate": "2018-04-06T03:00",
+    "size": 248607,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03500705/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 35,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-10-22",
+    "completionDate": "2017-08-16",
+    "primaryCompletionDate": "2017-08-16",
+    "firstSubmitDate": "2018-04-06",
+    "firstPostDate": "2018-04-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nChronic stroke diagnosed by a physician at least 6 months prior to study begin Discharged from formal rehabilitation services (not receiving outpatient rehabilitation on more than a monthly basis, but may still be in receipt of occupational or language therapy).\n\nExclusion Criteria:\n\nImpaired cognition (Mini mental state examination (MMSE) \\< 21) Cardiovascular, neurological or musculoskeletal impairments of the upper extremity not related to stroke that would prevent strength training.\n\nVisual impairments that would interfere with the ability to participate safely in isometric training and observe mirror images.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Maximal Peak Torque Isometric elbow extension strength.",
+        "description": "Assessed with the Biodex System 3 Pro Isokinetic Dynamometer with the Biodex Advantage Software version 3.45 (Biodex Medical Systems, Inc., Shirley, New York, USA). Highest Peak Torque out of 5 single isometric contractions was analysed. A higher peak torque measurement indicates a greater contraction strength.",
+        "timeFrame": "10 minutes"
+      },
+      {
+        "measure": "Maximal Rate of Torque Development Isometric elbow extension strength.",
+        "description": "Assessed with the Biodex System 3 Pro Isokinetic Dynamometer with the Biodex Advantage Software version 3.45 (Biodex Medical Systems, Inc., Shirley, New York, USA). Highest Rate of Torque Development out of 5 single isometric contraction was analysed. A higher rate of torque measurement indicates a greater contraction strength.",
+        "timeFrame": "10 minutes"
+      },
+      {
+        "measure": "Maximal Rate of Torque Development Isometric elbow extension strength.",
+        "description": "Assessed with the Biodex System 3 Pro Isokinetic Dynamometer with the Biodex Advantage Software version 3.45 (Biodex Medical Systems, Inc., Shirley, New York, USA). Average Torque Development out of 5 single isometric contractions was analysed. A higher average torque measurement indicates a greater contraction strength.",
+        "timeFrame": "10 minutes"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Modified Ashworth Scale (MAS).",
+        "description": "Muscle tone measure. Range 0 (No increase in muscle tone) to 4 (Affected part(s) rigid in flexion or extension).",
+        "timeFrame": "10 minutes."
+      },
+      {
+        "measure": "Chedoke Arm and Hand Activity Inventory - 8 Version",
+        "description": "Assessment of the International Classification of Functioning, Disability and Health activity level. Eight upper limb tasks, defined according to literature and stroke patients' experience, are scored on a 7-point scale, 1 point standing for total assistance, 7 points standing for complete independence. Range 7 (Total assistance required for all upper limb tasks) - 56 (Complete Independence with all upper limb tasks).",
+        "timeFrame": "10 mins"
+      },
+      {
+        "measure": "ABILHAND Questionnaire",
+        "description": "Measurement of patient's self-reported ability to perform complex hand activities for 23 daily situations. Possible answers are easy, difficult or impossible. The online converter will give a percentage score between 0% (Complete self perceived inability to perform upper limb tasks and 100% (Complete self-perceived ability to perform all upper limb tasks).",
+        "timeFrame": "10 mins"
+      },
+      {
+        "measure": "London Handicap Scale (LHS).",
+        "description": "Measurement of self-perceived impact of stroke over 6 domains of a patient's life (mobility, physical independence, occupation, social integration, orientation, and economic self - sufficiency). Scoring range of 0 to 1, where a score of 1 indicated 'No Disadvantage and a score of 0 indicates 'most severe disadvantage'.",
+        "timeFrame": "10 minutes"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:36.198Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

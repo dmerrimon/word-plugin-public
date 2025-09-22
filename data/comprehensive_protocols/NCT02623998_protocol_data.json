@@ -1,0 +1,105 @@
+{
+  "nctId": "NCT02623998",
+  "briefTitle": "Remission Evaluation of a Metabolic Intervention in Type 2 Diabetes With Sitagliptin (REMIT-Sita)",
+  "officialTitle": "An Open-label, Randomized, Parallel Design Trial to Compare the Efficacy of a Sitagliptin-based Metabolic Intervention Versus Standard Diabetes Therapy in Inducing Remission of Type 2 Diabetes",
+  "protocolDocument": {
+    "nctId": "NCT02623998",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2015-12-16",
+    "uploadDate": "2021-12-14T10:09",
+    "size": 334607,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02623998/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 102,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07-09",
+    "completionDate": "2019-11-30",
+    "primaryCompletionDate": "2018-09-01",
+    "firstSubmitDate": "2015-12-04",
+    "firstPostDate": "2015-12-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. men and women 30-80 years of age inclusive;\n2. type 2 diabetes mellitus diagnosed by a physician within 5 years prior to patient enrollment;\n3. anti-diabetic drug regimen (either drug or dose of drug) unchanged during 8 weeks prior to screening and randomization;\n4. HbA1C ≤ 9.5% on no oral hypoglycemic agents or HbA1C ≤ 8.0% on 1 oral agent or on half-maximal doses of 2 agents;\n5. body mass index ≥ 23 kg/m2;\n6. a negative pregnancy test and an agreement to use a reliable method of birth control for the duration of the trial in all females with childbearing potential;\n7. ability and willingness to perform self-monitoring of capillary blood glucose (SMBG); ability and willingness to self-inject insulin;\n8. provision of informed consent.\n\nExclusion Criteria:\n\n1. current use of insulin;\n2. history of hypoglycemia unawareness; history of severe hypoglycemia requiring assistance within the last 5 years;\n3. renal dysfunction as evidenced by serum creatinine (Cr) ≥ 124 μmol/l;\n4. history of lactic acidosis or diabetic ketoacidosis;\n5. active liver disease or elevated alanine transferase (ALT) levels ≥ 2.5 times upper limit of normal at the time of enrollment;\n6. history of pancreatitis;\n7. cardiovascular disease including any of: a) systolic blood pressure \\> 180 mmHg or diastolic blood pressure \\> 105 mmHg; b) peripheral vascular disease; c) left bundle branch block or second or third degree AV block; d) tachyarrhythmias or bradyarrhythmias with uncontrolled ventricular rate; e) stenotic valvular heart disease; f) cardiomyopathy; g) history of heart failure; h) history of aortic dissection; i) documented history of angina or coronary artery disease; j) history of stroke or transient ischemic attack;\n8. history of any disease requiring continuous systemic glucocorticoid treatment;\n9. history of any major illness with a life expectancy of \\< 3 years;\n10. history of injury or any other condition that significantly limits participant's ability to achieve moderate levels of physical activity;\n11. excessive alcohol consumption (\\>14 alcoholic drinks per week in men and \\>7 alcoholic drinks per week in women);\n12. known hypersensitivity to insulin glargine, metformin, or any DPP-4 inhibitor.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Hyperglycemia Relapse in the Experimental Group Compared to the Control Group",
+        "description": "Hyperglycemia relapse for primary outcome was defined as any one of:\n\n1. Capillary glucose \\>10 mmol/L on \\>/=50% of readings over 1 week;\n2. HbA1C \\>/=6.5%;\n3. use of diabetes drugs;\n4. fasting plasma glucose \\>/= 7.0 mmol/L;\n5. 2-hour postprandial plasma glucose \\>/=11.1 mmol/L on an oral glucose tolerance test.",
+        "timeFrame": "64 weeks of follow-up"
+      },
+      {
+        "measure": "Number of Participants With Severe Hypoglycemic Episodes",
+        "timeFrame": "64 weeks of follow-up"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants Achieving Drug-free Diabetes Remission",
+        "description": "Diabetes remission is defined as absence of hyperglycemia relapse",
+        "timeFrame": "24 weeks after randomization"
+      },
+      {
+        "measure": "Number of Participants With Drug-free Normal Glucose Tolerance",
+        "description": "Normal glucose tolerance is defined as a FPG\\<6.1 mmol/L and a 2-hour plasma glucose \\<7.8 mmol/L on a 75 g oral glucose tolerance test",
+        "timeFrame": "24 weeks after randomization"
+      },
+      {
+        "measure": "Percent Change in Weight",
+        "timeFrame": "Baseline and 12 weeks after randomization"
+      },
+      {
+        "measure": "Change in Waist Circumference",
+        "timeFrame": "Baseline and 12 weeks after randomization"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:11.338Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

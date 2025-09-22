@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT02418949",
+  "briefTitle": "Altering Activation Patterns Post-stroke",
+  "officialTitle": "Altering Activation Patterns in the Distal Upper Extremity After Stroke",
+  "protocolDocument": {
+    "nctId": "NCT02418949",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-06-23",
+    "uploadDate": "2021-04-09T14:49",
+    "size": 2876056,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02418949/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 96,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-11",
+    "completionDate": "2023-12",
+    "primaryCompletionDate": "2019-08",
+    "firstSubmitDate": "2015-02-05",
+    "firstPostDate": "2015-04-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Chronic, severe hand hemiparesis resulting from a single stroke (Chedoke- McMaster Stroke Assessment: Stage of Hand 2 or 3)\n* Single stroke occurring at least 6 months prior to enrollment\n* Spasticity\n* Capacity to provide informed consent\n\nExclusion Criteria:\n\n* Excessive pain in paretic upper limb\n* Hemispatial neglect (as assessed by the Behavioral Inattention Test)\n* Apraxia (as assessed by the FABERS battery)\n* Botulinum toxin injection in the upper extremity within the past 6 months\n* Introduction of new anti-spasticity medication within the past 6 months\n* Orthopaedic impairments\n* History of seizure disorder\n* Other major health impairment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Mean Completion Time for Graded Wolf Motor Function Test (GWMFT)",
+        "description": "GWMFT is a clinical outcome measure comprised of 15 timed tasks focusing on upper extremity function. Maximum allowable time per task is 120 seconds.",
+        "timeFrame": "baseline and 9 weeks (immediately post intervention)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Grip Relaxation Time (Following a Maximum Voluntary Contraction (MVC)",
+        "description": "Following a maximum voluntary contraction (MVC) -- Time (s) required for muscle electromyographic (EMG) signals to reduce to within 3 SD of pre-MVC EMG activity.",
+        "timeFrame": "baseline and 9 weeks (immediately post intervention)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:36.514Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

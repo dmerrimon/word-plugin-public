@@ -1,0 +1,73 @@
+{
+  "nctId": "NCT04027608",
+  "briefTitle": "Study of Nutrition and Activity in Kids",
+  "officialTitle": "Sensitization of the Reinforcing Value of Food as a Predictor of Weight Change in Adolescents",
+  "protocolDocument": {
+    "nctId": "NCT04027608",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-09-02",
+    "uploadDate": "2023-01-06T10:47",
+    "size": 700141,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04027608/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 201,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-06-29",
+    "completionDate": "2021-02-28",
+    "primaryCompletionDate": "2021-01-30",
+    "firstSubmitDate": "2019-07-18",
+    "firstPostDate": "2019-07-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* between 12-14yoa (male and female)\n* zBMI: -1.5 to +2.0 (\\*determined by Height/weight measurement at Visit 1)\n* neutral or higher liking of the study foods\n* Willingness to complete 9 study visits over 2 years.\n\nExclusion Criteria:\n\n* -metabolic or endocrine disorder\n* use of medications known to effect appetite (Ritalin, Adderall, Concerta, Wellbutrin, Prednisone, etc)\n* Unwilling to complete the study visits\n* allergy to study foods\n* dislike of study foods (\\*determined via Preference for Study foods forms at Visit 1)\n* parent report that child reads below 4th grade reading level\n* parent report that child cannot complete light physical activity without assistance\n* No English Speaking parent or legal guardian (therefore cannot provide consent in English nor answer questionnaires for this study) \\* all other exclusion criteria are assessed from Survey monkey screening in advance of the first appointment vis parental report. At the first appointment the child is directly asses for height, weight, and The linking of study foods.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "12 Years",
+    "maximumAge": "14 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "zBMI Change",
+        "description": "BMI z-score change over time. zBMI is a standardized index of body mass index used in children that is standardized to age and sex specific measurements from a national sample. 0 represents the national average. A positive number reflects a body mass index that is higher than the national average and a negative number reflects a body mass index that is lower than the national average.",
+        "timeFrame": "through study completion, an average of 24 months from baseline."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:14.708Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

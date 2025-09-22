@@ -1,0 +1,78 @@
+{
+  "nctId": "NCT03209492",
+  "briefTitle": "Special Drug Use Surveillance of Leuplin PRO for Injection Kit 22.5 mg for \"Prostate Cancer\"",
+  "officialTitle": "Special Drug Use Surveillance of Leuplin PRO for Injection Kit 22.5 mg for \"Prostate Cancer\"",
+  "protocolDocument": {
+    "nctId": "NCT03209492",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-04-09",
+    "uploadDate": "2019-04-08T21:56",
+    "size": 1129178,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03209492/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 333,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-04-01",
+    "completionDate": "2017-12-01",
+    "primaryCompletionDate": "2017-12-01",
+    "firstSubmitDate": "2017-07-04",
+    "firstPostDate": "2017-07-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participants with prostate cancer will be included.\n\nExclusion Criteria:\n\n* Participants with previous history of hypersensitivity to any of the ingredients of the drug or synthetic LH-RH or LH-RH derivatives",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants Who Had One or More Adverse Events",
+        "timeFrame": "Up to Week 24"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Participants Who Had One or More Adverse Reactions",
+        "description": "Adverse drug reaction refers to adverse events related to the administered drug.",
+        "timeFrame": "Up to Week 24"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:04.047Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

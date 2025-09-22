@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT04533347",
+  "briefTitle": "Tafenoquine in Patients With Mild to Moderate COVID-19",
+  "officialTitle": "A Double-blind Placebo-controlled Study to Assess the Efficacy and Safety of Oral Tafenoquine Versus Placebo in Patients With Mild to Moderate COVID-19 Disease",
+  "protocolDocument": {
+    "nctId": "NCT04533347",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-08-11",
+    "uploadDate": "2024-12-04T16:11",
+    "size": 1324749,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04533347/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 86,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-02-19",
+    "completionDate": "2022-06-30",
+    "primaryCompletionDate": "2022-06-30",
+    "firstSubmitDate": "2020-08-28",
+    "firstPostDate": "2020-08-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Male or female, aged ≥18 years of age;\n* Laboratory confirmed infection with COVID-19 virus by an FDA-authorized SARS-Cov-2 RT-PCR;\n* Able and willing to give written informed consent.\n* Willing to keep an electronic diary from Study Day 1 to Study Day 13 (± 1 day) and Study Day 15 (± 1 day) to Study Day 28 (± 1 day)\n* Willing to have daily phone or videoconferences with study team personnel from Study Day 1 to Day 13 (± 1 day) and Day 28\n* At least one of the following clinical symptoms of COVID-19 infection within the 4 days prior to and inclusive of the day of screening:\n\n  1. Respiratory rate ≥ 24/min\n  2. New cough or shortness of breath that has presented within the last 4 days\n  3. Fever - temperature 37.7°C \\[oral or skin surface\\]\n* Must agree not to enroll in another study of an investigational agent prior to completion of Day 28 of the study.\n* Able to take ARAKODA or KODATEF according to Prescribing Information\n* Have been symptomatic no longer than 7 days when the first dose of study medication is administered.\n* If female, agree to use an acceptable method of birth control from the time of consent through 56 days after the last dose of study drug.\n\nExclusion Criteria:\n\n* Have one of the contraindications for ARAKODA or KODATEF in the prescribing information (section 16.1) including:\n\n  1. G6PD deficiency\n  2. Breastfeeding\n  3. Psychotic disorder or current psychotic symptoms\n  4. Known hypersensitivity reaction to TQ\n* Evidence of severe or critical illness, defined by at least one of the following:\n\n  1. Clinical signs indicative of severe systemic illness with COVID-19, such as respiratory rate ≥30 breaths per minute, heart rate ≥ 125 beats per minute, SpO2 ≤93% on room air\n  2. Respiratory failure defined based on resource utilization requiring at least one of the following:\n\n  i. Endotracheal intubation and mechanical ventilation, oxygen delivered by high flow nasal cannula (heated, humidified, oxygen delivered via reinforced nasal cannula at flow rates \\> 20 L/min with fraction of delivered oxygen ≥ 0.5), noninvasive positive pressure ventilation, extracorporeal membrane oxygenation (ECMO), or clinical diagnosis of respiratory failure (i.e., clinical need for one of the preceding therapies, but preceding therapies not able to be administered in setting of resource limitation) ii. Shock (defined by systolic blood pressure \\< 90 mmHg, or diastolic blood pressure \\<60 mmHg or requiring vasopressors) iii. Multi-organ dysfunction/failure\n* Any other clinically significant acute illness unrelated to COVID-19 within seven days prior to first study drug administration\n* Receipt of any experimental treatment for COVID-19 (off-label, compassionate use, or study-related) within the 30 days prior to the time of the screening evaluation\n* Any excluded concomitant medication as described in the ARAKODA package insert \\[Section 16.1\\]. Receipt of a COVID-19 vaccine is not exclusionary.\n* Any COVID-19 symptoms which, in the opinion of the investigator, is suggestive of possible requirement to hospitalize within 48 hours of enrollment\n* Positive pregnancy test\n* Have been symptomatic for more than seven days when the first dose would be administered",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Patients With Clinical Recovery of COVID-19 Symptoms on Day 14",
+        "description": "Clinical recovery from COVID-19 symptoms was defined as: temperature \\< or equal to 37.7 degrees Celsius (surface by infra-red or oral), respiratory rate \\< or equal to 24/minute on room air, shortness of breath is absent on a patient-report scale, and cough is mild or absent on a patient-reported scale.",
+        "timeFrame": "Day 14 [± 1 day]"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Increases the Proportion of Patients With Absence of Clinical Symptoms by Individual Symptom at Day 14",
+        "description": "Number and percentage of patients with COVID-19 clinical symptoms at Day 14 by individual symptoms (stuffy or runny nose, sore throat, shortness of breath, cough, low energy or tiredness, muscle or body aches, headache, chills or shivering, feeling hot or feverish, nausea, vomiting , diarrhea, sense of smell, and sense of taste)",
+        "timeFrame": "Day 14 [± 1 day]"
+      },
+      {
+        "measure": "Decreases the Hospitalization Rate Due to COVID-19 by Day 14",
+        "description": "Number and percentage of patients hospitalized due to COVID-19 symptoms (excluding non-COVID 19 causes including admittance for other upper respiratory infections and admittance only for administrative or observations purposes)",
+        "timeFrame": "Day 14 [± 1 day]"
+      },
+      {
+        "measure": "Decreases the Number of Medical Follow-up Visits by Day 14.",
+        "description": "Number and Percentage of Patients by Number of Medical Follow-up Visits (Doctor/ER Visit)",
+        "timeFrame": "Day 14 [± 1 day]"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Planned Interim Analysis and Data Monitoring",
+        "description": "Binding futility analysis of primary endpoint will be performed a minimum of 3 weeks after the earlier of \\[i\\] 100 pts. randomized or \\[ii\\] 6 months has elapsed since randomization of the first pt. in the study. Objective is to determine if tafenoquine increases the proportion of pts. with clinical recovery from COVID-19 symptoms on Day 14 in pts. with mild/moderate COVID-19 disease compared with placebo. Enrolment may be paused by sponsor prior to futility analysis if total number of pts. randomized reaches n=100 and re-initiated by sponsor after completion of futility analysis, if continuing study is determined to be non-futile. Unblinded interim analysis will be conducted by DMC statistician and results will be presented to DMC. If conditional power is less than the predetermined threshold, DMC will recommend terminating enrollment. Sponsor and study team will remain blinded, but will curtail enrollment based on recommendation of the DMC.",
+        "timeFrame": "100 patients randomized"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 1,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 56,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.846Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

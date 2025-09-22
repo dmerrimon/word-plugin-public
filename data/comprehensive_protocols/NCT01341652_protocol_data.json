@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT01341652",
+  "briefTitle": "Phase II PAP Plus GM-CSF Versus GM-CSF Alone for Non-metastatic Prostate Cancer",
+  "officialTitle": "Randomized Phase II Trial of a DNA Vaccine Encoding Prostatic Acid Phosphatase (pTVG-HP) Versus GM-CSF Adjuvant in Patients With Non-Metastatic Prostate Cancer",
+  "protocolDocument": {
+    "nctId": "NCT01341652",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2015-10-07",
+    "uploadDate": "2020-07-02T15:29",
+    "size": 1355302,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01341652/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 99,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2011-05-23",
+    "completionDate": "2020-06-30",
+    "primaryCompletionDate": "2020-06-30",
+    "firstSubmitDate": "2011-03-24",
+    "firstPostDate": "2011-04-26"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologic diagnosis of adenocarcinoma of the prostate\n* Completion of local therapy by surgery and/or ablative radiation therapy at least 3 months prior to entry, with removal or ablation of all visible disease, including seminal vesical and/or local lymph node involvement\n* Rising prostate specific antigen (PSA) levels without scan evidence of metastatic disease\n* Asymptomatic or mildly symptomatic and life expectancy of at least 4 months\n\nExclusion Criteria:\n\n* Small cell or other variant prostate cancer histology\n* Evidence of immunosuppression\n* Prior treatment with androgen deprivation except if given neoadjuvantly or adjuvantly with radiation therapy or at time of prostatectomy. In this situation, no more than 24 months of androgen deprivation must have been given and treatment must not have been within 12 months prior to screening for this study.\n* Serum testosterone at screening \\< 50 ng/dL\n* Known bone metastases or lymph node involvement as determined by bone scan or computed tomography (CT) scan of the abdomen and pelvis within 4 weeks of study entry\n* Prior vaccine therapy for prostate cancer\n* Known allergic reactions to granulocyte-macrophage colony-stimulating factor (GM-CSF)\n* Severe intercurrent medical conditions or laboratory abnormalities that would impart, in the judgment of the Medical Monitor, excess risk associated with study participation or study agent administration",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "2-year Metastasis-Free Survival Rate",
+        "description": "2-year Metastasis-Free Survival (MFS) Rate with the development of metastases by conventional imaging used to define progression (as defined by RECIST 1.1 criteria). The 2-year MFS rate estimates which were obtained using the Kaplan-Meier analysis (taking into account censoring) using the intention-to-treat population.",
+        "timeFrame": "2 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Prostate Specific Antigen (PSA) Doubling Time (DT)",
+        "description": "PSA DT was calculated using all serum PSA values available from the same clinical laboratory for the specified period by the equation log2/b where b denotes the least-squares estimator of the linear regression model of the log-transformed PSA values on time. Pretreatment PSA DT (3-6 months before treatment, with a minimum of 4 values), on-treatment PSA DT was determined using values from month 3 to month 9.",
+        "timeFrame": "up to 9 months"
+      },
+      {
+        "measure": "Number and Severity of Observed Toxicities",
+        "description": "Number of participants who experienced any adverse events greater than grade 1 that were determined to be at least possibly related to treatment, highest grade reported per participant for each adverse event (AE). All toxicities were graded using National Cancer Institute Common Terminology Criteria for Adverse Events (version 4). Higher grades indicate more severe toxicities.",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Median Time to Radiographic Disease Progression",
+        "description": "Time to metastasis was determined from the date of registration to the first CT or bone scan that demonstrated metastatic disease. As defined by RECIST 1.1 criteria.",
+        "timeFrame": "up to 2 years"
+      },
+      {
+        "measure": "PSA Progression Free Survival",
+        "timeFrame": "up to 2 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:41.874Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

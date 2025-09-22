@@ -1,0 +1,83 @@
+{
+  "nctId": "NCT03226522",
+  "briefTitle": "Addressing Dementia Via Agitation-Centered Evaluation",
+  "officialTitle": "A Randomized, Double-blind, Placebo-controlled Trial to Assess the Efficacy and Safety of AXS-05 for the Treatment of Agitation in Subjects With Dementia of the Alzheimer's Type",
+  "protocolDocument": {
+    "nctId": "NCT03226522",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-03-16",
+    "uploadDate": "2023-02-14T19:48",
+    "size": 1664923,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03226522/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 366,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-07-13",
+    "completionDate": "2020-04-17",
+    "primaryCompletionDate": "2020-04-17",
+    "firstSubmitDate": "2017-07-20",
+    "firstPostDate": "2017-07-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\n* Diagnosis of probable Alzheimer's disease (AD) based on the 2011 National Institute on Aging-Alzheimer Association (NIA-AA) criteria.\n* Diagnosis of clinically signification agitation resulting from probable AD according to the International Psychogeriatric Association (IPA) provisional definition of agitation.\n\nExclusion Criteria:\n\n* Patient has dementia predominantly of non-Alzheimer's type.\n* Unable to comply with study procedures.\n* Medically inappropriate for study participation in the opinion of the investigator.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "65 Years",
+    "maximumAge": "90 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in CMAI Total Score",
+        "description": "The Cohen-Mansfield Agitation Inventory (CMAI) is a 29-item caregiver-rated questionnaire that assesses the frequency of agitation-related and disruptive behaviors in subjects with dementia. The scale contains 29 behaviors or items organized into four subscales: physically aggressive, physically non-aggressive, verbally aggressive, and verbally non-aggressive. The CMAI is administered by interviewing the caregiver and asking him or her to rate the frequency with which the subject manifests each behavior using a seven-point scale: 1=never (better outcome), 7=several times an hour (worse outcome). The CMAI total score is the sum of the scores for all of the items in the CMAI. CMAI total scores range from a minimum of 29 (better outcome) to a maximum of 203 (worse outcome).",
+        "timeFrame": "5 weeks"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:39.382Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

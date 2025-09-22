@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT02820506",
+  "briefTitle": "Sentinel Node Mapping in Women With Endometrial and Cervical Cancer",
+  "officialTitle": "Sentinel Node Mapping With Robotic Assisted Near Infra-red Fluorescent Imaging in Women With Cervical and Endometrial Cancer",
+  "protocolDocument": {
+    "nctId": "NCT02820506",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-12-04",
+    "uploadDate": "2023-09-19T05:44",
+    "size": 1518281,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02820506/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 300,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2017-02-27",
+    "completionDate": "2026-01-31",
+    "primaryCompletionDate": "2023-01-31",
+    "firstSubmitDate": "2016-06-23",
+    "firstPostDate": "2016-07-01"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Study IIA: Patients with cervical cancer, FIGO IB1, tumor size 2-4 cm\n* Study IIB: Patients with high risk endometrial cancer, presumed FIGO I, type 1 histology grade 3 Endometrioid adenocarcinoma or type 2 histology (serous-, clearcel-, carcinosarcoma or undifferentiated adenocarcinoma.\n\nExclusion Criteria:\n\n* Prior PL\n* Known allergy towards ICG and/or iodine (ICG contains 5% sodium iodine)\n* Women included in other studies affecting outcome-measures of the present study",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Sensitivity",
+        "description": "Sensitivity of sentinel lymph node mapping compared to the sensitivity of sentinel lymph node mapping combined with removal of PET-positive lymph nodes",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Negative predictive value",
+        "description": "Negative predictive value of sentinel lymph node mapping algorithm, and a sentinel lymph node mapping algorithm including removal of PET-positive lymph nodes",
+        "timeFrame": "2 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Specificity",
+        "description": "Specificity of sentinel lymph node mapping compared to the combination of sentinel lymph node mapping and removal of PET-positive lymph nodes",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Positive predictive value",
+        "description": "Positive predictive value of sentinel lymph node mapping compared to the combination of sentinel lymph node mapping and removal of PET-positive lymph nodes",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Prevalence of lymph node metastasis",
+        "description": "Prevalence of lymph node metastasis in the pelvis and paraaortic area",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Incidence of lymphedema",
+        "description": "Using patient reported outcome measures",
+        "timeFrame": "3 years"
+      },
+      {
+        "measure": "Severity of lymphedema",
+        "description": "Using patient reported outcome measures",
+        "timeFrame": "3 years"
+      },
+      {
+        "measure": "Quality of life rate",
+        "description": "Using patient reported outcome measures",
+        "timeFrame": "3 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:59.024Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

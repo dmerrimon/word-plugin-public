@@ -1,0 +1,128 @@
+{
+  "nctId": "NCT02991430",
+  "briefTitle": "A Non-Invasive Neuromodulation Device for Prevention of Episodic Migraine Headache",
+  "officialTitle": "A Non-Invasive Neuromodulation Device for Prevention of Episodic Migraine Headache",
+  "protocolDocument": {
+    "nctId": "NCT02991430",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-08-09",
+    "uploadDate": "2019-04-26T07:23",
+    "size": 8705651,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02991430/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 45,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-06-30",
+    "completionDate": "2018-05-11",
+    "primaryCompletionDate": "2018-05-11",
+    "firstSubmitDate": "2016-12-04",
+    "firstPostDate": "2016-12-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* diagnosed with episodic migraine at least 6 months before study\n* at least 3 consecutive months of stable migraine headaches before study\n* at least 4-14 headache days per month, of which 4-14 may be migraines\n* must not have failed on more than 2 classes of migraine preventatives\n\nExclusion Criteria:\n\n* previous use of the experimental device\n* pregnant\n* using more than 1 concurrent migraine preventive\n* history of cardiovascular disease\n* work night shifts\n* diagnosed with vestibular migraine\n* menstrual migraines exclusively\n* diagnosed with post-traumatic migraine\n* have a history of unstable mood or anxiety disorder\n* use a hearing aid\n* have a cochlear implant\n* have chronic tinnitus\n* have temporomandibular joint disease\n* diagnosed with traumatic brain injury\n* diagnosed with neurological disease other than headaches\n* diagnosed vestibular and/or balance dysfunction\n* history of abusing alcohol or other drugs\n* are experiencing medication overuse headaches\n* have had eye surgery in the previous 3 months\n* have had ear surgery in the previous 6 months\n* have active ear infections or a perforated tympanic membrane\n* have participated in another clinical trial in the last 30 days\n* are currently participating in another clinical trial\n* using Botulinum toxin-based treatments for migraines or cosmetic reasons\n* taking anti-emetics more than 2 times per week (consistently)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Migraine Headache Days (MHD)",
+        "description": "comparison of MHD recorded in baseline month versus 3rd month of treatment",
+        "timeFrame": "1 month of baseline recordation followed by 84 days of device use"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Normalized Reduction in Migraine Headache Days",
+        "description": "comparison of MHD recorded in baseline month versus 3rd month of treatment: percentages, active versus placebo",
+        "timeFrame": "1 month of baseline recordation followed by 84 days of device use"
+      },
+      {
+        "measure": "Change in Medication Usage",
+        "description": "reduction in acute, prescribed medications in month 3 of treatment versus baseline month",
+        "timeFrame": "1 month of baseline recordation followed by 84 days of device use"
+      },
+      {
+        "measure": "Change in Headache Pain",
+        "description": "reduction in subject perceived headache pain scores in month 3 of treatment versus baseline month",
+        "timeFrame": "1 month of baseline recordation followed by 84 days of device use"
+      },
+      {
+        "measure": "Change in Quality of Life",
+        "description": "comparison of HIT-6 (headache impact test) scores between baseline month and treatment month 3",
+        "timeFrame": "1 month of baseline recordation followed by 84 days of device use"
+      },
+      {
+        "measure": "Change in Depression",
+        "description": "comparison of BDI-II (Beck depression index) scores between baseline month and treatment month 3",
+        "timeFrame": "1 month of baseline recordation followed by 84 days of device use"
+      },
+      {
+        "measure": "Change in Anxiety",
+        "description": "comparison of BAI (Beck anxiety index) scores between baseline month and treatment month 3",
+        "timeFrame": "1 month of baseline recordation followed by 84 days of device use"
+      },
+      {
+        "measure": "Change in Sleep Quality",
+        "description": "comparison of Pittsburgh Sleep assessment scores between baseline month and treatment month 3",
+        "timeFrame": "1 month of baseline recordation followed by 84 days of device use"
+      },
+      {
+        "measure": "Additional Treatment Time",
+        "description": "comparison of MHD recorded in baseline month versus 6th month of treatment",
+        "timeFrame": "1 month of baseline recordation followed by 168 days of device use"
+      },
+      {
+        "measure": "Sustained Reduction in Migraine Headache Days",
+        "description": "comparison of MHD recorded in baseline month versus post-treatment months 7, 8 and 9",
+        "timeFrame": "1 month of baseline recordation followed by 252 days of device use"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 9,
+      "otherCount": 0,
+      "totalCount": 10
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 84,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:53.263Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

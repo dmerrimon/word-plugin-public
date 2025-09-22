@@ -1,0 +1,89 @@
+{
+  "nctId": "NCT03440112",
+  "briefTitle": "Modulation of GABA-A Receptors in Parkinson Disease-Transdermal Flumazenil Arm",
+  "officialTitle": "Modulation of GABA-A Receptors and Axial Motor Impairments in Parkinson",
+  "protocolDocument": {
+    "nctId": "NCT03440112",
+    "filename": "Prot_003.pdf",
+    "label": "Study Protocol",
+    "date": "2020-12-14",
+    "uploadDate": "2022-10-25T15:56",
+    "size": 258000,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03440112/document/Prot_003.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 34,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-01-29",
+    "completionDate": "2021-12-08",
+    "primaryCompletionDate": "2021-12-08",
+    "firstSubmitDate": "2018-01-26",
+    "firstPostDate": "2018-02-20"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Parkinson's disease (PD): PD diagnosis will follow the UK Parkinson's Disease Society Brain Bank Research Center (UKPDSBRC) clinical diagnostic criteria for PD.\n2. Hoehn and Yahr stages 2-4\n3. Absence of dementia confirmed by cognitive testing.\n4. Abnormal 11C-Dihydrotetrabenazine (\\[11c\\]-DTBZ) PET study to demonstrate nigrostriatal dopaminergic denervation\n\nExclusion Criteria:\n\n1. PD with Dementia (PDD) or dementia with Lewy bodies (DLB).\n2. Other disorders which may resemble PD, such as vascu¬lar dementia, normal pressure hydrocephalus, multiple system atrophy, corticobasal ganglionic dege¬neration, or toxic causes of parkinsonism. Prototypical cases have distincti¬ve clinical profiles, like early and severe dysautonomia or appendicular apraxia, which may differentiate them from idiopathic PD. The use of the UKPDSBRC clinical diagnostic criteria for PD will mitigate the inclusion of subjects with atypical parkinsonism.\n3. Subjects currently on benzodiazepine, GABAB-ergic medications (baclofen, tizanidine), modafinil, neuroleptic, anticholinergic (trihexyphenidyl, benztropine), or cholinesterase inhibitor drugs.\n4. Evidence of a mass lesion on structural brain imaging (MRI).\n5. Participants in whom MRI is contraindicated including, but not limited to, those with a pacemaker, presence of metallic fragments near the eyes or spinal cord, chest, or cochlear implant.\n6. Severe claustrophobia precluding MR or PET imaging.\n7. Subjects limited by participation in research procedures involving ionizing radiation.\n8. Pregnancy (urine or serum pregnancy test within 48 hours of each PET session) or breastfeeding.\n9. History of seizures\n10. Significant anxiety or history of panic disorder.\n11. History of recent suicide attempt or overdose of tricyclic antidepressants or other medications.\n12. History of transient ischemic attack (TIA) or stroke within the last year.\n13. History of systemic lupus erythematosis.\n14. Abnormal liver enzymes (AST or ALT) \\> 3 times upper limit of normal.\n15. History of atrial fibrillation.\n16. History of retinal branch artery occlusion.\n17. Active dermatitis inner forearms.\n18. Any other medical history determined by investigators to preclude safe participation.\n\nAdditional Exclusion Criteria for Flumazenil sub-studies:\n\n1. Allergy to flumazenil\n2. Significant liver disease\n3. History of alcohol or other substance abuse within past two years.\n4. Subjects currently taking benzodiazepines",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "50 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Quantitative Biomechanics 1 (Clinical Motor Ratings MDS-UPDRS)",
+        "description": "We will use the total Movement Disorder Society - Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Part III - motor scale rating scores to assess motor function. Scale from 0-132, higher scores indicate worse motor outcomes. Outcome measure was collected during dopaminergic medication ON state.",
+        "timeFrame": "Day 1 (before treatment administration), day 7 (after 7 days of treatment), and day 14 (7 days of treatment discontinuation)."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Quantitative Biomechanics 2 (MiniBESTest Dynamic Balance Scale Sensory Subscore)",
+        "description": "MiniBEST sensory subscore measures an individual's ability to maintain balance under conditions of sensory constrain and unstable/inclined standing surface. It is is computed as a sum of MiniBEST items 7, 8, and 9.The score ranges from 0 to 6, with 0 indicating inability to balance under all of the condition, and 6 indicating no difficulty in maintaining balance under any of the conditions (lower score indicates worse balance). Outcome measure was collected during dopaminergic medication ON state.",
+        "timeFrame": "Day 1 (before treatment administration), day 7 (after 7 days of treatment), and day 14 (7 days of treatment discontinuation)."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:44.259Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

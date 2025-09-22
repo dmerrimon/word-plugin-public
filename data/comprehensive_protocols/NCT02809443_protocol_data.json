@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT02809443",
+  "briefTitle": "GLS-5700 in Dengue Virus-Naïve Adults",
+  "officialTitle": "Phase I, Open-label, Dose-Ranging Study to Evaluate the Safety, Tolerability, and Immunogenicity of GLS-5700 Administered ID Followed by EP in Dengue Virus-Naïve Adults",
+  "protocolDocument": {
+    "nctId": "NCT02809443",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-07-01",
+    "uploadDate": "2024-08-08T12:21",
+    "size": 1002296,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02809443/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 40,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-07",
+    "completionDate": "2017-12",
+    "primaryCompletionDate": "2017-11",
+    "firstSubmitDate": "2016-06-20",
+    "firstPostDate": "2016-06-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n1. Age 18-65 years;\n2. Able to provide consent to participate and having signed an Informed Consent Form (ICF);\n3. Able and willing to comply with all study procedures;\n4. Women of child-bearing potential agree to use medically effective contraception (oral contraception, barrier methods, spermicide, etc.) or have a partner who is sterile from enrollment to 3 months following the last injection, or have a partner who is medically unable to induce pregnancy.\n5. Sexually active men who are considered sexually fertile must agree to use either a barrier method of contraception during the study, and agree to continue the use for at least 3 months following the last injection, or have a partner who is permanently sterile or is medically unable to become pregnant;\n6. Normal screening ECG or screening ECG with no clinically significant findings;\n7. Screening laboratory must be within normal limits or have only Grade 0-1 findings;\n8. No history of clinically significant immunosuppressive or autoimmune disease.\n9. No history of dengue virus vaccination or illness; no history of yellow fever vaccination.\n10. Dengue seronegative at baseline by screening laboratory evaluation\n11. Not currently or within the previous 4 weeks taking immunosuppressive agents (excluding inhaled, topical skin and/or eye drop-containing corticosteroids, low-dose methotrexate, or corticosteroids at a dose less than 20 mg/day).\n\nExclusion Criteria:\n\n1. Administration of an investigational compound either currently or within 30 days of first dose;\n2. Previous receipt of an investigational product for the treatment or prevention of Zika virus except if participant is verified to have received placebo;\n3. Administration of any vaccine within 4 weeks of first dose;\n4. Administration of any monoclonal or polyclonal antibody product within 4 weeks of the first dose\n5. Administration of any blood product within 3 months of first dose;\n6. Pregnancy or breast feeding or plans to become pregnant during the course of the study;\n7. Positive serologic result for dengue virus (any serotype) or history of receipt of either dengue virus or yellow fever virus vaccination at any time in the past;\n8. Positive serologic test for HIV, hepatitis B surface antigen (HBsAg); or any potentially communicable infectious disease as determined by the Principal Investigator or Medical Monitor;\n9. Positive serologic test for hepatitis C (exception: successful treatment with confirmation of sustained virologic response);\n10. Baseline evidence of kidney disease as measured by creatinine greater than 1.5 (CKD Stage II or greater);\n11. Baseline screening lab(s) with Grade 2 or higher abnormality, except for Grade 2 creatinine;\n12. Chronic liver disease or cirrhosis;\n13. Immunosuppressive illness including hematologic malignancy, history of solid organ or bone marrow transplantation;\n14. Current or anticipated concomitant immunosuppressive therapy (excluding inhaled, topical skin and/or eye drop-containing corticosteroids, low-dose methotrexate, or corticosteroids at a dose less than 20 mg/day);\n15. Current or anticipated treatment with TNF-α inhibitors such as infliximab, adalimumab, etanercept;\n16. Prior major surgery or any radiation therapy within 4 weeks of group assignment;\n17. Any pre-excitation syndromes, e.g., Wolff-Parkinson-White syndrome;\n18. Presence of a cardiac pacemaker or automatic implantable cardioverter defibrillator (AICD)\n19. Metal implants within 20 cm of the planned site(s) of injection;\n20. Presence of keloid scar formation or hypertrophic scar as a clinically significant medical condition at the planned site(s) of injection.\n21. Prisoner or participants who are compulsorily detained (involuntary incarceration) for treatment of either a physical or psychiatric illness;\n22. Active drug or alcohol use or dependence that, in the opinion of the investigator, would interfere with adherence to study requirements or assessment of immunologic endpoints; or\n23. Not willing to allow storage and future use of samples for Zika virus related research\n24. Any illness or condition that in the opinion of the investigator may affect the safety of the participant or the evaluation of any study endpoint.\n\n    \\-",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Serious Adverse Events From Day 0 Through Week 60",
+        "timeFrame": "Day 0 through Week 60"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Binding Antibody Response to Zika Envelope",
+        "description": "Serum samples were analyzed on enzyme-linked immunosorbent assay (ELISA) to measure binding-antibody responses to recombinant vaccine-matched ZIKV envelope (rZIKV-E) protein and reported as the number of participants who responded.",
+        "timeFrame": "Week 14 (2 weeks after the 3rd dose)"
+      },
+      {
+        "measure": "T Cell Response",
+        "description": "PBMCs were tested in enzyme-linked immunospot (ELISPOT) assay to detect the production of interferon-γ-secreting cells in response to stimulation with ZIKV premembrane and envelope peptides",
+        "timeFrame": "Maximum response over follow up period up to 60 weeks."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 24,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:43.545Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

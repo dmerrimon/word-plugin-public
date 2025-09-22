@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT02059005",
+  "briefTitle": "Specialized Community Disease Management to Reduce Substance Use and Hospital Readmissions",
+  "officialTitle": "Specialized Community Disease Management to Reduce Substance Use and Hospital Readmissions",
+  "protocolDocument": {
+    "nctId": "NCT02059005",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2016-03-04",
+    "uploadDate": "2017-10-11T14:53",
+    "size": 421689,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02059005/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 97,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-11-18",
+    "completionDate": "2017-02-28",
+    "primaryCompletionDate": "2017-02-16",
+    "firstSubmitDate": "2014-02-07",
+    "firstPostDate": "2014-02-11"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* patient is 18 years or older\n* alcohol and/or drug screening score that indicates at least mild problem severity\n\nExclusion Criteria:\n\n* medical or psychiatric complications\n* patient was admitted to hospital directly from a drug and alcohol inpatient rehabilitation facility\n* patient reports plans to leave the area within the next 12 months\n* patient is unable to provide valid informed consent\n* patient is attending dialysis\n* patient is not English-speaking",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Substance Use Rates From Baseline",
+        "description": "Urinalysis confirmed self-reported days of use for any substance, including alcohol, cocaine, marijuana, opiates, sedatives, and hallucinogens over time. Participants reported substance use for the 90 days prior to the assessment date.",
+        "timeFrame": "0, 3, 6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Treatment Session Attendance From Baseline",
+        "description": "Treatment sessions attended for alcohol or drug use issues over time. Participants self-reported attendance for the 6 months prior to the baseline assessment. During follow-up assessments, participants self-reported attendance since the last assessment date.",
+        "timeFrame": "0, 3, 6, months"
+      },
+      {
+        "measure": "Number of Hospitalizations and Use of Emergency Services",
+        "description": "Days of hospitalization and days of use of acute emergency services after Baseline. Participants self-reported their service utilization for the 6 months prior to the baseline assessment. During follow-up assessments, participants self-reported their service utilization since the last assessment date.",
+        "timeFrame": "0, 3, 6, months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-21T22:34:04.198Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

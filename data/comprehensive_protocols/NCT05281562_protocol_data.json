@@ -1,0 +1,100 @@
+{
+  "nctId": "NCT05281562",
+  "briefTitle": "Immunonutrition for Diabetic Foot Ulcers",
+  "officialTitle": "Effects of Supplemental Immunonutrition on Healing of Chronic Non-Healing Lower Extremity Ulcers in Diabetic Patients: A Pilot Study",
+  "protocolDocument": {
+    "nctId": "NCT05281562",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-02-20",
+    "uploadDate": "2024-10-02T10:53",
+    "size": 867769,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05281562/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2",
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-02-08",
+    "completionDate": "2023-03-20",
+    "primaryCompletionDate": "2023-03-20",
+    "firstSubmitDate": "2022-03-07",
+    "firstPostDate": "2022-03-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* ≥ 18 years of age at the time of informed consent\n* Toe blood pressure (TBP) \\>40 mmHg\n* Hemoglobin A1c \\<10% (measured within the previous 6 months)\n* Diagnosis of diabetes mellitus\n* Presence of at least one new chronic, non-healing (present for ≥4 weeks), lower extremity wound (Werner stage 2-3)\n* Documented lipid panel within 3 months of study enrollment\n* Documented CMP within 3 months of study enrollment\n* Documented ECG within 3 months of study enrollment\n* Receiving standard or care defined as sharps debridement, appropriate dressing, and offloading.\n\nExclusion Criteria:\n\n* Allergy to fish\n* Current smoker\n* Currently taking any OTC supplements containing Omega-3 fatty acids, L-Arginine, or Vitamin C, or antibiotics\n* Presence of at least one of the following diseases or conditions: End stage renal disease as defined by patients who have been diagnosed with Stage 4 kidney disease and are not on hemodialysis or who are on hemodialysis with a GFR consistently \\< 15L/min and BUN \\> 60, Untreated deep bone infection (osteomyelitis), Currently pregnant or breastfeeding\n* Women of child-bearing potential\n* Prisoners and other institutionalized individuals\n* Any patients who have a legal representative to make medical decisions on their behalf or any individuals who are otherwise deemed as medically incompetent.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Effect of Supplemental Immunonutrition on Wound Healing in Patients With Diabetic Foot Ulcers as Assessed by the Pressure Ulcer Scale for Healing (PUSH) Tool 3.0.",
+        "description": "The PUSH Tool 3.0 will be used to score ulcers based on size (cm2), exudate amount, and tissue type present. The score ranges for size, exudate amount, and tissue type are 0-10, 0-3, and 0-4, respectively. For all categories, a higher score indicates a more severe ulcer. The score for each category is combined to generate a final score ranging from 0-17. A higher final score indicates a more severe ulcer. The treating physician will record ulcer scores using this tool at the time of consent and 6 weeks for both the standard of care group and experimental group and calculate the change in ulcer scores from consent to 6 weeks.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Effect of Supplemental Immunonutrition on Patient Reported Pain Scores in Patients With Diabetic Foot Ulcers.",
+        "description": "Patients in both the standard of care and experimental groups will report visual analog scale (VAS) pain scores at 6 weeks.",
+        "timeFrame": "6 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Effect of Supplemental Immunonutrition on Patient Satisfaction in Patients With Diabetic Foot Ulcers.",
+        "description": "Patients in experimental group will complete a survey detailing their satisfaction with the supplemental immunonutrition regimen following completion of study participation. Patients will be asked to rate their satisfaction from very satisfied to very unsatisfied and questions regarding their likelihood to partake in the same treatment regimen for a subsequent ulcer, recommend this treatment regimen to others, and the level of difficulty associated with taking the supplementation.",
+        "timeFrame": "6 weeks"
+      },
+      {
+        "measure": "Long Term Effect of Supplemental Immunonutrition on Wound Healing in Patients With Diabetic Foot Ulcers on Rates of Ulcer Recurrence, Infection, Surgical Intervention, and Amputation.",
+        "description": "Study participants in both the standard of care and experimental groups will be monitored via chart review for one year following the completion of their study participation to assess recurrence rates of diabetic foot ulcers and to identify rate of infection, surgical intervention, and amputation.",
+        "timeFrame": "1 year"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:10.854Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

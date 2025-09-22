@@ -1,0 +1,73 @@
+{
+  "nctId": "NCT04435041",
+  "briefTitle": "Remote-by-Default Care in the COVID-19 Pandemic",
+  "officialTitle": "Remote-by-Default Care in the COVID-19 Pandemic: Addressing the Micro-, Meso-, and Macro-level Challenges of a Radical New Service Model",
+  "protocolDocument": {
+    "nctId": "NCT04435041",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-03-22",
+    "uploadDate": "2022-03-29T10:16",
+    "size": 472176,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04435041/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 103,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-13",
+    "completionDate": "2022-02-28",
+    "primaryCompletionDate": "2021-07-27",
+    "firstSubmitDate": "2020-06-16",
+    "firstPostDate": "2020-06-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Inclusion criteria for interviews\n\nWilling and able to give informed consent for participation\n\nAged 18 years or above\n\nStaff involved in delivering remote-by-default services in the frontline or 'back offices'\n\nPatients/carers who have crossed paths with primary care services during the Covid pandemic.\n\nPharmacy case studies:\n\nStaff involved in delivering remote pharmacist consultation services in the frontline or 'back offices'\n\nPatients/carers who have crossed paths with community pharmacy primary care services during the COVID-19 pandemic.\n\nInclusion criteria for video and telephone consultations\n\nPatients who have remote primary care consultation regarding symptoms associated with COVID-19 and their clinicians (based in Oxford/Thames Valley) who have agreed to participate in the study\n\nInclusion criteria for focus groups\n\nPatients that have experienced self-reported 'long Covid' symptoms (for patient only focus groups)\n\nClinicians that have experienced self-reported 'long Covid' symptoms (for clinician only focus groups)\n\nExclusion Criteria:\n\nPatients or clinicians who are too ill to be interviewed\n\n\\-",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Remote COVID-19 Assessment in Primary Care (RECAP) Early warning score",
+        "description": "A set of questions and a predictive tool built into electronic records, designed to distinguish people with suspected covid-19 who need to go to hospital from those who can safely be monitored at home. The final Remote COVID-19 Assessment in Primary Care (RECAP) Early warning score score divides people into 'green' (stay at home, self-monitor), amber (professional monitoring e.g., via virtual wards with home oximetry), or red (assess in person promptly).",
+        "timeFrame": "18 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:37.219Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

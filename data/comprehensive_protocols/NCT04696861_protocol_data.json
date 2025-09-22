@@ -1,0 +1,146 @@
+{
+  "nctId": "NCT04696861",
+  "briefTitle": "Telehealth to Reduce Suicidality and Improve HIV Care Engagement in Tanzania",
+  "officialTitle": "Telehealth to Reduce Suicidality and Improve HIV Care Engagement in Tanzania",
+  "protocolDocument": {
+    "nctId": "NCT04696861",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-05-13",
+    "uploadDate": "2024-07-24T13:44",
+    "size": 243079,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04696861/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2023-05-17",
+    "completionDate": "2025-03-31",
+    "primaryCompletionDate": "2023-12-08",
+    "firstSubmitDate": "2020-12-22",
+    "firstPostDate": "2021-01-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* Attending HIV care at study clinic\n* Screen positive for suicidal ideation\n* Able to understand Kiswahili or English\n* Medically stable\n* Capable of providing informed consent to participate\n\nExclusion Criteria:\n\n* Under 18 years old\n* Unable to understand Kiswahili or English\n* Experiencing medical or psychiatric symptoms requiring immediate treatment\n* Incapable of providing informed consent to participate",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Suicidal Ideation",
+        "description": "Columbia-Suicide Severity Rating Scale (C-SSRS) items measuring suicidal thoughts (yes/no), intent (yes/no), and plan (yes/no). Reported here are the number of participants who responded 'yes' to each of the items.",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "Number of Participants With a Gap in HIV Care Engagement",
+        "description": "Participant medical records were reviewed after the 3-month follow-up survey to identify whether they had a gap in care during the study period, defined as 6 or more days where they did not have enough prescribed medication on hand to maintain adherence between HIV clinic appointments.",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "HIV Medication Adherence, as Measured by Number of Participants Who Report Adherence Challenges",
+        "description": "During the baseline and follow-up surveys, participants were asked two questions related to their adherence to antiretroviral medication: \"Think about the last 14 days. On how many days did you miss taking your HIV pill(s)?\" and the same question with a 90 day recall period. Adherence challenges were coded yes/no at each time point, defined as (1) missing 3 or more days of medication in the past 14 days or (2) missing 6 or more days in the past 90 days.",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "Viral Load",
+        "description": "Extraction of routine HIV viral load testing from the patient medical record at baseline and 3-months post study enrollment.",
+        "timeFrame": "Baseline, 3 months Post Enrollment"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Depression",
+        "description": "Patient Health Questionnaire (PHQ-9), 9 items, score 0-27 with higher indicating more depression",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "HIV Stigma",
+        "description": "HIV Stigma Scale (HSS), 12 items, score 12-48 with higher indicating more stigma",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "Number of HIV Disclosures Made by Participants",
+        "description": "Self-reported disclosures to partner, family, friends, others (yes/no)",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "Total Number of HIV Disclosures Made by Participants",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "Social Support",
+        "description": "Perceived Availability of Support Scale (PASS), 7 items, score 7 to 35 with higher indicating more social support",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "Acceptability of Intervention",
+        "description": "10 items adapted from the Client Satisfaction Questionnaire (CSQ), score 10 to 40 with higher indicating greater satisfaction with the intervention",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "Hopelessness",
+        "description": "Beck Hopelessness Scale (Balsamo Short Form), 9 items, score 0 to 9 with higher indicating more hopelessness",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "Reasons for Living",
+        "description": "Brief Reasons for Living Inventory, 12 items, score 12 to 72 with higher indicating more reasons to live",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "Quality of Life (Overall)",
+        "description": "The World Health Organization Quality of Life Brief Version (WHOQOL-BREF), 2 items, score 2 to 10 with higher indicating better quality of life",
+        "timeFrame": "3 months post enrollment"
+      },
+      {
+        "measure": "Quality of Life (Health Satisfaction)",
+        "description": "The World Health Organization Quality of Life Brief Version (WHOQOL-BREF), 2 items, score 2 to 10 with higher indicating better quality of life",
+        "timeFrame": "3 months post enrollment"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 10,
+      "otherCount": 0,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:18.806Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,137 @@
+{
+  "nctId": "NCT07182617",
+  "briefTitle": "MonitAir Remote Patient Monitoring Versus Standard of Care for CPAP Adherence in Obstructive Sleep Apnea",
+  "officialTitle": "Assessing the Utility of a Remote Patient Monitoring Platform for Improving CPAP Adherence for Obstructive Sleep Apnea",
+  "protocolDocument": {
+    "nctId": "NCT07182617",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2024-02-05",
+    "uploadDate": "2025-09-16T08:05",
+    "size": 58797,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07182617/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 200,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-02-05",
+    "completionDate": "2025-04-01",
+    "primaryCompletionDate": "2025-04-01",
+    "firstSubmitDate": "2025-08-26",
+    "firstPostDate": "2025-09-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults ≥18 years old\n* Access to a smartphone (iOS or Android)\n* Ability to engage in two-way text communication and audiovisual conferencing\n* Home sleep test (HST) or polysomnogram (PSG) performed ≤90 days before randomization\n* Apnea-Hypopnea Index (AHI) ≥5 (using 3% desaturation criteria)\n* Prescribed and willing to initiate CPAP or APAP therapy\n* Receiving a ResMed, Philips, or React CPAP device with a cellular modem\n* CPAP data available to MonitAir and BetterNight\n\nExclusion Criteria:\n\n* Department of Transportation (DOT) drivers\n* Central sleep apnea or Cheyne-Stokes respirations (CSA/CSR) ≥10% of diagnostic study\n* Central or mixed apneas ≥25% of AHI\n* Use of BiPAP, BiPAP ST, ASV, AVAPS, or any other non-invasive ventilation modality\n* Inability or unwillingness to participate in study activities or meet requirements",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "CPAP adherence according to Medicare criteria",
+        "description": "Percentage of patients meeting Medicare adherence criteria, defined as ≥4 hours of CPAP use per night for ≥70% of nights in a consecutive 30-day period, measured at 30, 60, and 90 days.",
+        "timeFrame": "Days 30, 60, and 90 after CPAP initiation"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Patient Satisfaction",
+        "description": "Patient satisfaction with therapy measured using a 5-point Likert scale (1 = very dissatisfied; 5 = very satisfied). Higher scores reflect greater satisfaction. Administered via electronic survey.",
+        "timeFrame": "Baseline, Day 30, Day 60, and Day 90 after starting CPAP"
+      },
+      {
+        "measure": "Time to CMS-defined adherence",
+        "description": "Number of days required for each participant to meet CMS adherence criteria: ≥4 hours/night on ≥70% of nights in a consecutive 30-day period within the first 90 days. Lower values indicate faster adherence achievement.",
+        "timeFrame": "Baseline to Day 90 after starting CPAP"
+      },
+      {
+        "measure": "Average nightly CPAP use",
+        "description": "Mean CPAP use in hours per night, calculated separately for all days and for days with usage, based on device-recorded data. Higher values indicate greater adherence to therapy.",
+        "timeFrame": "Day 30, Day 60, and Day 90 after starting CPAP"
+      },
+      {
+        "measure": "Functional Outcomes of Sleep Questionnaire (FOSQ)",
+        "description": "Sleep-related quality of life measured by the FOSQ-10. Total score range: 5 (worst) to 20 (best). Higher scores indicate better functional outcomes related to sleep.",
+        "timeFrame": "Baseline, Day 30, Day 60, and Day 90 after starting CPAP"
+      },
+      {
+        "measure": "Pittsburgh Sleep Quality Index (PSQI)",
+        "description": "Patient-reported global sleep quality using PSQI. Total score range: 0 to 21. Higher scores indicate worse sleep quality. Administered via electronic survey.",
+        "timeFrame": "Baseline, Day 30, Day 60, and Day 90 after starting CPAP"
+      },
+      {
+        "measure": "Epworth Sleepiness Scale (ESS)",
+        "description": "Daytime sleepiness measured by the ESS. Total score ranges from 0 to 24, with higher scores indicating greater daytime sleepiness.",
+        "timeFrame": "Baseline, Day 30, Day 60, and Day 90 after starting CPAP"
+      },
+      {
+        "measure": "Residual Apnea-Hypopnea Index (AHI)",
+        "description": "Mean residual AHI (events/hour) captured from CPAP device while on therapy. AHI reflects apneas and hypopneas per hour of use. Lower values indicate better treatment effectiveness.",
+        "timeFrame": "Baseline and Day 90 or at Medicare adherence assessment"
+      },
+      {
+        "measure": "Mask leak",
+        "description": "Median mask leak (liters per minute) per participant as recorded by CPAP device. Lower values reflect better mask seal and improved therapy delivery.",
+        "timeFrame": "Day 30, Day 60, and Day 90 after starting CPAP"
+      },
+      {
+        "measure": "Mask on/off events",
+        "description": "Mean number of times per night the CPAP mask is removed and reapplied, as recorded by the device. Lower values reflect better comfort and sleep continuity.",
+        "timeFrame": "Day 30, Day 60, and Day 90 after starting CPAP"
+      },
+      {
+        "measure": "Mask refits",
+        "description": "Number of mask refitting events performed per participant during the study, as recorded by clinical staff. Fewer refits may reflect better initial fit and mask comfort.",
+        "timeFrame": "Up through Day 90 after starting CPAP"
+      },
+      {
+        "measure": "Study dropout rate",
+        "description": "Proportion of participants who withdrew from the study. Reasons for dropout (e.g., discomfort, non-adherence, lost to follow-up) will be recorded and categorized.",
+        "timeFrame": "Up through Day 90 after starting CPAP"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 11,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 75,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

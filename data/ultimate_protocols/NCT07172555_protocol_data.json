@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT07172555",
+  "briefTitle": "Virtual Dietetic Interventions in Patients With Coeliac",
+  "officialTitle": "The Role Of Virtual Dietetic Interventions In Patients With Coeliac Disease",
+  "protocolDocument": {
+    "nctId": "NCT07172555",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-06-16",
+    "uploadDate": "2025-09-02T12:20",
+    "size": 435355,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07172555/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2025-09-15",
+    "completionDate": "2027-06-15",
+    "primaryCompletionDate": "2027-06-15",
+    "firstSubmitDate": "2025-09-03",
+    "firstPostDate": "2025-09-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nPatients aged 18 years and over with serology- or biopsy-proven coeliac disease.\n\nExclusion Criteria:\n\nPatients under the age of 18 years. Patients unable to provide written informed consent. Patients who are unable to understand or speak English. Patients unable to access digital resources. Poly-diagnosis that requires additional nutritional intervention (i.e. Diabetes or Inflammatory Bowel Disease).",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Knowledge of Gluten-Free Diet",
+        "description": "Assessed using the Coeliac Disease and Gluten-Free Diet Quiz, a structured and previously validated questionnaire administered at baseline, immediately post-intervention, and at 6 months. This tool evaluates patient knowledge related to coeliac disease and the gluten-free diet requirements for effective disease management. Scores pre- and post-intervention (webinar or standard care) will be compared to determine the educational impact of each modality.",
+        "timeFrame": "Baseline (pre-intervention), immediately post-intervention, and at 6-month follow-up."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 10,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T05:06:11.776Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

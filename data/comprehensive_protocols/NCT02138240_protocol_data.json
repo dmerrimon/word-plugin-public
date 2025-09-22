@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT02138240",
+  "briefTitle": "Sugar Champ: Pilot Social Network Intervention to Reduce Intake of Sugary Drinks",
+  "officialTitle": "Sugar Champ: Pilot Social Network Intervention to Reduce Intake of Sugary Drinks",
+  "protocolDocument": {
+    "nctId": "NCT02138240",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2017-01-23",
+    "uploadDate": "2019-06-14T16:47",
+    "size": 580015,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02138240/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 34,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-01-15",
+    "completionDate": "2017-11-20",
+    "primaryCompletionDate": "2017-11-20",
+    "firstSubmitDate": "2014-05-09",
+    "firstPostDate": "2014-05-14"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* At least 18 years old\n* BMI≥25 kg/m2\n* Must consume sugar-sweetened beverages at least twice daily\n* \"Peer Educators\" must identify one high-risk alter in the social network to enroll as \"Sidekick\"\n* Resides in select public housing developments in Baltimore, MD\n\nExclusion Criteria:\n\n* Any underlying medical conditions that could seriously reduce life expectancy, ability to participate in the trial, or for which lifestyle change may be contraindicated and/or require medical supervision by a physician such as medication-dependent diabetes mellitus, cancer, lung disease requiring supplemental oxygen, dementia, angina, or diagnosis in the last 12 months of myocardial infarction, transient ischemic attack or stroke\n* Women who are pregnant or breastfeeding",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Sessions Attended",
+        "description": "Number of sessions attended calculated from attendance sign-in sheets. This is used for the assessment of program feasibility.",
+        "timeFrame": "3 months"
+      },
+      {
+        "measure": "Participant Satisfaction as Assessed by 4-point Likert Scale",
+        "description": "Survey question assesses participant satisfaction with the intervention using a 4-point Likert scale (1 = Very satisfied; 2= Somewhat satisfied; 3 = Somewhat dissatisfied; 4 = Very dissatisfied). This is used for the assessment of program acceptability.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Participant's Likelihood to Recommend Program Assessed by 4-point Likert Scale",
+        "description": "Survey question assesses willingness to recommend that a friend participate using a 4-point Likert scale (1 = Very likely; 2= Somewhat likely; 3 = Somewhat unlikely; 4 = Very unlikely). This is used to assess the program acceptability.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Added Sugar Intake (Teaspoons/Day) Among Total Sample at Follow up",
+        "description": "Participants answered questions from the National Health Interview Survey (NHIS) 5-factor dietary screener, and relevant elements as recommended by NHIS were combined to estimate the daily added sugar intake (i.e.,soda, sugar-sweetened beverages, sweets and doughnuts). At 6 months, this measure ranged (min-max) from 9.1 to 56.0 teaspoons/day in this sample. The American Heart Association recommends that all adults limit their added sugar intake to no more than 9 teaspoons per day.",
+        "timeFrame": "6 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Added Sugar Intake (Teaspoons/Day) Among Alters (\"Sidekicks\") at Follow up",
+        "description": "Participants answered questions from the National Health Interview Survey (NHIS) 5-factor dietary screener, and relevant elements as recommended by NHIS were combined to estimate the daily added sugar intake (i.e.,soda, sugar-sweetened beverages, sweets and doughnuts). The American Heart Association recommends that all adults limit their added sugar intake to no more than 9 teaspoons per day.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Added Sugar Intake (Teaspoons/Day) Among Egos (\"Peer Educators\") at Follow up",
+        "description": "Participants answered questions from the National Health Interview Survey (NHIS) 5-factor dietary screener, and relevant elements as recommended by NHIS were combined to estimate the daily added sugar intake (i.e.,soda, sugar-sweetened beverages, sweets and doughnuts). The American Heart Association recommends that all adults limit their added sugar intake to no more than 9 teaspoons per day.",
+        "timeFrame": "6 months"
+      },
+      {
+        "measure": "Median Weight at Follow up",
+        "description": "Weight (kg) measured using standard methods",
+        "timeFrame": "6 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 4,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:15.643Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

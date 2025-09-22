@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT07178756",
+  "briefTitle": "ACUPUNCTURE FOR THE POSTOPERATIVE RECOVERY OF HIP FRACTURE PATIENTS: A PILOT RANDOMIZED CONTROLLED TRIAL",
+  "officialTitle": "ACUPUNCTURE FOR THE POSTOPERATIVE RECOVERY OF HIP FRACTURE PATIENTS: A PILOT RANDOMIZED CONTROLLED TRIAL",
+  "protocolDocument": {
+    "nctId": "NCT07178756",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2025-09-02",
+    "uploadDate": "2025-09-09T22:05",
+    "size": 281878,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07178756/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 90,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2021-10-21",
+    "completionDate": "2025-11-14",
+    "primaryCompletionDate": "2025-09-15",
+    "firstSubmitDate": "2025-09-10",
+    "firstPostDate": "2025-09-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\nPatients who undergone surgery due to unilateral hip fracture. Patients aged 40-99 (male), 55-99 (female). Ambulatory with or without aid prior to hip fracture. Able provide consent for the study and acupuncture treatment. Able to attend all treatment sessions\n\nExclusion Criteria:\n\nPatients with morbid obesity (Body Mass Index \\>40) . Patients with communication barriers such as aphasia or language . Local or systemic infection or dermatological disease affecting sites of acupuncture. Existing treatment with anti-neoplastic, oral corticoid or immunosuppressive drugs. Needle phobia or inability to stay still for 30 min during acupuncture retention . History of psychiatric disease, kidney failure on peritoneal dialysis, substance abuse . If there exist any postoperative complications that deviate from standard management, resulting in interference of patient's clinical evaluation",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "40 Years",
+    "maximumAge": "99 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "1. Modified Harris Hip Score",
+        "description": "Assessing pain and function",
+        "timeFrame": "postoperative Week (POW) 0, 6, postoperative month (POM) 6 and POM 12"
+      },
+      {
+        "measure": "Visual Analogue Scale (VAS)-100",
+        "description": "For assessing the pain intensity",
+        "timeFrame": "postoperative Week (POW) 0, 6, postoperative month (POM) 6 and POM 12"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Timed get Up and Go (TUG) test",
+        "description": "Test for assessing function (Gait and speed). The TUG will be performed thrice during each assessment and the average time will be taken.",
+        "timeFrame": "POW 6, POM 6 and 12"
+      },
+      {
+        "measure": "Lower extremity muscle strength",
+        "description": "Lower extremity muscle strength will be measured using a portable dynamometer. The subject's operated and non-operated side will be measured.",
+        "timeFrame": "POW 6, POM 6 and 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 55,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

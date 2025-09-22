@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT07184398",
+  "briefTitle": "Use of a Cysteine-rich Whey Protein Isolate in Post COVID-19 Cognitive Impairment",
+  "officialTitle": "Use of a Cysteine-rich Whey Protein Isolate (Immunocal®) in Post COVID-19 Cognitive Impairment",
+  "protocolDocument": {
+    "nctId": "NCT07184398",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan: Summary table of data statistical analysis",
+    "date": "2025-09-15",
+    "uploadDate": "2025-09-15T12:49",
+    "size": 805542,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07184398/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 120,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-07-01",
+    "completionDate": "2025-01-01",
+    "primaryCompletionDate": "2024-09-30",
+    "firstSubmitDate": "2025-09-09",
+    "firstPostDate": "2025-09-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion: - Adults ≥18 years with confirmed prior COVID-19 - with persistent cognitive symptoms - able to complete testing - and willing to consent.\n\nExclusion: - Pre-existing dementia or major psychiatric illness - whey protein allergy - participation in another cognitive trial - severe hepatic/renal/metabolic disease, pregnancy - or any condition interfering with participation.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "70 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Cognitive Function",
+        "description": "Cognitive performance will be assessed using a standardized neuropsychological test battery evaluating memory, attention, and executive function. Scores will be compared from baseline to the end of the intervention period.",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Functional Capacity (Sit-to-Stand Test)",
+        "description": "Functional capacity will be measured by the 30-second sit-to-stand test. The number of repetitions completed will be compared between baseline and study completion.",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 40,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T05:06:11.774Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT02191579",
+  "briefTitle": "Efficacy and Safety Study of BOTOX® Compared to Topiramate for the Prevention of Chronic Migraine in Adults",
+  "officialTitle": "A Multicenter, Prospective, Randomized, Open-label Study to Compare the Efficacy, Safety, and Tolerability of BOTOX® and Topiramate for Headache Prophylaxis in Adults With Chronic Migraine",
+  "protocolDocument": {
+    "nctId": "NCT02191579",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2014-05-27",
+    "uploadDate": "2018-05-07T17:37",
+    "size": 1262322,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02191579/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 282,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-08-05",
+    "completionDate": "2017-09-01",
+    "primaryCompletionDate": "2017-05-09",
+    "firstSubmitDate": "2014-07-14",
+    "firstPostDate": "2014-07-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* History of chronic migraine\n* More than 15 headache days in a 28 day period (headaches that last more than 4 hours and/or require treatment with prescription medication).\n\nExclusion Criteria:\n\n* Taking opioid-containing products for acute headache treatment more than 8 days during a 28-day period\n* Previous treatment with botulinum toxin of any serotype for any reason\n* Previous treatment with topiramate\n* On a ketogenic diet (high in fat, low in carbohydrates)\n* History of acute myopia or increased intraocular pressure\n* Diagnosis of myasthenia gravis, Eaton-Lambert syndrome, amyotrophic lateral sclerosis or any other significant disease that might interfere with neuromuscular function\n* Acupuncture, transcutaneous electrical stimulation (TENS), cranial traction, dental splints for headache, or injection of anesthetics/steroids in the 4 weeks prior to screening.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percentage of Participants With a ≥ 50% Decrease From Baseline in the Frequency of Headache Days",
+        "description": "Participants recorded their headaches in a daily e-diary. A headache day was defined as a calendar day (00:00 to 23:59) with 4 or more hours of headache and/or headache of any duration with the use of migraine-specific acute headache medication(s). The number of headache days over the 28-day period was counted. The percentage of participants with a ≥ 50% decrease in headache days in the 28-day period prior to Week 32 relative to Baseline (28-day period prior to Day 1) is reported.",
+        "timeFrame": "Baseline (First 28 days from Screening) to the last 28-day period ending with Week 32"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change From Baseline in the Frequency of Headache Days Per 28-day Period",
+        "description": "Participants recorded their headaches in a daily e-diary. A headache day was defined as a calendar day (00:00 to 23:59) with 4 or more hours of headache and/or headache of any duration with the use of migraine-specific acute headache medication(s). The number of headache days over the 28-day period was counted. A negative change from Baseline (less headache days) indicates improvement.",
+        "timeFrame": "Baseline (First 28 days from Screening) to the last 28-day period ending with Week 32"
+      },
+      {
+        "measure": "Change From Baseline in Headache Impact Test (HIT-6) Total Score",
+        "description": "The HIT-6 is a valid disease-targeted measure used to assess the impact of headaches, comprised of 6 items that assess pain, role functioning, social functioning, cognitive functioning, vitality, and psychological distress. A total score is created by summingacross all items, and ranges from 36 (no impact) to 78 (severe impact) reflecting a \"best to worst\" scoring.\n\nA negative change from Baseline (a lower score) indicates improvement.",
+        "timeFrame": "Baseline (Day 1) to the last 28-day period ending with Week 30"
+      },
+      {
+        "measure": "Percentage of Participants With a ≥ 70% Decrease From Baseline in the Frequency of Headache Days",
+        "description": "Participants recorded their headaches in a daily e-diary. A headache day was defined as a calendar day (00:00 to 23:59) with 4 or more hours of headache and/or headache of any duration with the use of migraine-specific acute headache medication(s). The number of headache days over the 28-day period was counted. The percentage of participants with a ≥ 70% decrease in headache days in the 28-day period prior to Week 32 relative to Baseline (28-day period prior to Day 1) is reported.",
+        "timeFrame": "Baseline (First 28 days from Screening) to the last 28-day period ending with Week 32"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:54.720Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

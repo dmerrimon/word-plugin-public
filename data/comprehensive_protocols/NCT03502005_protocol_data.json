@@ -1,0 +1,112 @@
+{
+  "nctId": "NCT03502005",
+  "briefTitle": "Efficacy, Safety & Tolerability of Switching EFV/TDF/FTC to BIC/FTC/TAF in Virologically Suppressed Adults With HIV-1",
+  "officialTitle": "\"Efficacy, Safety, and Tolerability of Switching EFV/TDF/FTC to BIC/FTC/TAF in Virologically Suppressed Adults With HIV-1 Infection.\"",
+  "protocolDocument": {
+    "nctId": "NCT03502005",
+    "filename": "Prot_SAP_001.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-02-21",
+    "uploadDate": "2018-03-14T10:42",
+    "size": 825735,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03502005/document/Prot_SAP_001.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-03-01",
+    "completionDate": "2019-12-30",
+    "primaryCompletionDate": "2019-12-30",
+    "firstSubmitDate": "2018-03-14",
+    "firstPostDate": "2018-04-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* HIV positive\n* On a stable antiretroviral regimen consisting of ATRIPLA® for at least the 6 consecutive months preceding Screening Visit.\n* Plasma HIV-1 RNA concentrations at undetectable levels for at least 6 consecutive months prior to the screening visit and have HIV RNA\\< 50 copies/mL at the Screening Visit.\n* Estimated GFR ≥30mL/min according to the Cockcroft-Gault formula for creatinine clearance.\n* Hepatic transaminases (AST and ALT) ≤5x upper limit of normal (ULN)\n* Total bilirubin ≤1.5 mg/dL, or normal direct bilirubin.\n* Adequate hematologic function (hemoglobin ≥ 8.5g/dL; platelets ≥ 50,000/mm3; absolute neutrophil count ≥1,000/mm3)\n* Female subjects of reproductive potential using a reliable and consistent method of birth control for at least three months prior to study dosing. Male subjects should use condoms when engaging in intercourse of reproductive potential.\n* The ability to understand and sign a written informed consent form, which must be obtained prior to initiation of study procedures.\n\nExclusion Criteria:\n\n* A new AIDS-defining condition diagnosed within 30 days prior to screening.\n* Individuals with decompensated cirrhosis. (i.e. ascites, encephalopathy, etc.)\n* Pregnancy\n* A history of malignancy within the past 5 years (prior to screening) or ongoing malignancy other than cutaneous Kaposi's sarcoma (KS), basal cell carcinoma, or resected, noninvasive cutaneous squamous carcinoma. Individuals with cutaneous KS are eligible but must not have received any systemic therapy for KS within 30 days prior to baseline.\n* Active, serious infections (other than HIV-1 infection) requiring parenteral antibiotic or antifungal therapy within 30 days prior to baseline.\n* Life expectancy \\< 1 year.\n* Subject participation in any clinical trial without prior approval from the Investigator.\n* Concomitant use of disallowed agents from Table 2\n* Participation in any other investigation study 30 days prior to enrollment.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "assess proportion of patients who develop increase in HIV-1 RNA viral load of ≥ 50 copies/mL",
+        "description": "by week 24",
+        "timeFrame": "24 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "assess stability of kidney function by serial measuring of serum creatinine mg/dL",
+        "description": "weeks 24 and 48",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Assess effect on restoration of immune markers by serial measurement of CD4+ cells",
+        "description": "weeks 24 and 48",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "assess effect on lipid cardiovascular risk factors by serial measurement of triglycerides and HDL/LDL cholesterol",
+        "description": "weeks 24 and 48",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "assess proportion of patients who continue to have HIV-1 RNA measured <50 copies/mL",
+        "description": "weeks 24 and 48",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "Assess patient reported outcomes by two validated patient questionnaires Philadelphia Sleep Quality Index and HIV Symptom Index",
+        "description": "by week 48",
+        "timeFrame": "48 weeks"
+      },
+      {
+        "measure": "assess patient weight variations from baseline",
+        "description": "weeks 24 and 48",
+        "timeFrame": "48 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:19.798Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

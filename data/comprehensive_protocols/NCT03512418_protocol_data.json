@@ -1,0 +1,98 @@
+{
+  "nctId": "NCT03512418",
+  "briefTitle": "Development of Ingestible Biosensors to Enhance PrEP Adherence in Substance Users (PrEPSteps)",
+  "officialTitle": "Development of Ingestible Biosensors to Enhance PrEP Adherence in Substance Users (PrEPSteps)",
+  "protocolDocument": {
+    "nctId": "NCT03512418",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-09-08",
+    "uploadDate": "2025-08-08T07:35",
+    "size": 4087385,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03512418/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 30,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-06-20",
+    "completionDate": "2024-04-10",
+    "primaryCompletionDate": "2024-04-10",
+    "firstSubmitDate": "2018-03-21",
+    "firstPostDate": "2018-04-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Cisgender MSM\n* Moderate to severe non-alcohol substance use disorder\n* Self-reported missed PrEP doses (\\> or equal to 2 doses in 1 week over past 3 months)\n* HIV negative\n* On PrEP or initiating PrEP\n* Has qualifying laboratory testing: Cr clearance, HBV, liver function tests\n* Owns a smartphone with Android or iOS\n* Age 18 or older\n\nExclusion Criteria:\n\n* Non-English speaker\n* HIV positive\n* History of Crohn's disease or ulcerative colitis\n* History of gastric bypass, bowel stricture\n* History of GI malignancy or radiation to abdomen\n* Unable/unwilling to ingest a digital pill\n* Allergy to gelatin, silver or zinc (components of the digital pill)\n* Does not qualify for PrEP (abnormal liver function, or Cr Clearance \\<60)",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Feasibility of the Adherence Intervention Qualitative and Quantitive Questionnaire",
+        "description": "Number of participants who were able to complete the trial and record adherence events using the digital pill system in the intervention arm.",
+        "timeFrame": "three month study visit"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Potential of PrEPsteps to Improve Adherence",
+        "description": "Number of digital pill recorded ingestions at week 13 (end of intervention period) recorded as percent adherence",
+        "timeFrame": "three month study visit"
+      },
+      {
+        "measure": "Number of People Who Found the Digital Pill Acceptable to Use Within the Intervention Arm",
+        "description": "Qualitative interviews asking participants if they found the use of the digital pill system acceptable and did not interfere with their daily PrEP use. This outcome was only assessed in the PrEPSteps (intervention arm) only.",
+        "timeFrame": "three month visit"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Accuracy of Digital Pill Compared to Pill Counts and Dried Blood Spot for Adherence",
+        "description": "Accuracy of digital pill in measuring PrEP adherence as compared to dried blood spot testing for tenofovir diphosphate",
+        "timeFrame": "one and three month study visits"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 1,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 36,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:18.599Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

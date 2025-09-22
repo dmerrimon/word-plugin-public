@@ -1,0 +1,108 @@
+{
+  "nctId": "NCT04137367",
+  "briefTitle": "A Personalized Approach to Effects of Affective Bias Modification on Symptom Change and Rumination",
+  "officialTitle": "A Personalized Approach to Effects of Affective Bias Modification on Symptom Change and Rumination",
+  "protocolDocument": {
+    "nctId": "NCT04137367",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-09-23",
+    "uploadDate": "2023-11-29T09:13",
+    "size": 626240,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04137367/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 108,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-11-19",
+    "completionDate": "2022-04-03",
+    "primaryCompletionDate": "2022-04-03",
+    "firstSubmitDate": "2019-10-10",
+    "firstPostDate": "2019-10-24"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\- Current or remitted Major Depressive Disorder, with or without anxiety, with or without alcohol use disorder\n\nExclusion Criteria:\n\n* Neurological disorder, mania, and/or psychosis.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Self-reported Depressive Symptoms: Becks Depression Inventory-II",
+        "description": "Self-reported depressive symptoms 6 months after the ABM intervention based on a 21-item scale. Each item is scored 0-3 (where scoring description is adapted to each item), yielding a score from 0-63.",
+        "timeFrame": "At 6 months follow-up"
+      },
+      {
+        "measure": "State Rumination: Brief State Rumination Inventory (BSRI)",
+        "description": "Change in self-reported state rumination after the stress induction from pre to post intervention on a 8 item scale. Difference score: BSRI post intervention - BRSI Baseline. A negative score means reduction in state rumination over the intervention. Each item is scored on a 0-100 Visual Analogue Scale. The total score divided by 8 to provide the mean item total score, hence the min= 0 and max = 100 for each of the BSRI assessment time points. It was hypothesized that change in state rumination over the intervention period would mediate the effect of ABM on depressive symptoms at six months follow up.",
+        "timeFrame": "At baseline and two weeks follow up."
+      },
+      {
+        "measure": "State Rumination: Brief State Rumination Inventory",
+        "description": "Self-reported state rumination after stress induction on a 8 item scale. Each item is scored on a 0-100 Visual Analogue Scale, yielding a score from 0-800, which is reported divided by 8 to provide a mean total item score. Hence the min= 0 and max = 100. A higher score indicates more state rumination.",
+        "timeFrame": "At two weeks follow up."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Affective Bias: Dot-probe Task",
+        "description": "Change in reaction time in milliseconds to probes in the location of the positive facial stimuli compared to probes in the location of the negative stimuli. Positive number implies reduction in negative bias.",
+        "timeFrame": "From baseline to two weeks follow up"
+      },
+      {
+        "measure": "Symptom Network Change: Experience Sampling of Depressive Symptoms",
+        "description": "Changed centrality of rumination in networks estimated based on a 9-item experience sampling questionnaire of self-reported depressive symptoms scored on a 0-100 visual analogue scale (higher value, more symptoms; reversing interest, positive affect and activity; Kraft et al., 2023, Psychiatry Research Communications). Two person-specific networks (pre and post-intervention) were estimated using the var1-function in the R package psychonetrics, with full-information maximum likelihood estimator, based on the experience sampling questionnaires that were administrated 5 times/day for 14 days before and after the intervention. Centrality of rumination in these networks were calculated using qgraph (Epskamp et al., 2012) and standardized. Change in rumination centrality was calculated as difference between rumination centrality in the two estimated networks, and higher number indicate increased centrality of rumination (post-pre).",
+        "timeFrame": "From two weeks prior to baseline to two weeks after the two-week intervention."
+      },
+      {
+        "measure": "Symptom Network: Experience Sampling of Depressive Symptoms",
+        "description": "Centrality of rumination in networks based on a 9-item experience sampling questionnaire of self-reported depressive symptoms scored on a 0-100 visual analogue scale (higher value, more symptoms; reversing interest, positive affect and activity; Kraft et al., 2023, Psychiatry Research Communications). Person-specific networks were estimated using the var1-function in the R package psychonetrics, with full-information maximum likelihood estimator, based on the experience sampling questionnaires that were administrated 5 times/day for 14 days after the two-week intervention. Centrality of rumination in this network was calculated using qgraph (Epskamp et al., 2012) and standardized. Higher number indicate higher centrality of rumination.",
+        "timeFrame": "Two weeks after the two-week intervention."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 74,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:19.530Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

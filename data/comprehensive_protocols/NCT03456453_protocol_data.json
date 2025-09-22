@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT03456453",
+  "briefTitle": "Social Media HIV Prevention Intervention for High Risk Rural Women",
+  "officialTitle": "Social Media HIV Prevention Intervention for High Risk Rural Women",
+  "protocolDocument": {
+    "nctId": "NCT03456453",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2023-03-03",
+    "uploadDate": "2023-04-14T09:57",
+    "size": 725214,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03456453/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 60,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-05-29",
+    "completionDate": "2022-04-26",
+    "primaryCompletionDate": "2022-04-26",
+    "firstSubmitDate": "2018-02-17",
+    "firstPostDate": "2018-03-07"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* NM-ASSIST indicators of high-risk drug use during the 6 months before jail (including injection);\n* engagement in at least one sexual risk behavior in the past 3 months;\n* no evidence of cognitive impairment (GAIN, Dennis, 1998),\n* no evidence of active psychosis (currently experiencing hallucinations),\n* no self-reported current symptoms of physical withdrawal from a recent episode of drug use;\n* self-reported HIV negative status;\n* projected jail release date within 3 months;\n* active Facebook user prior to entering jail (defined as having a Facebook account that was checked at least once a week); and\n* reside in a rural, Appalachian county prior to incarceration.\n\nExclusion Criteria:\n\n* Not incarcerated and screened eligible based on above mentioned criteria",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Facebook Enrollment",
+        "description": "The number of participants who are released and accept the \"friend\" request from the Facebook study profile",
+        "timeFrame": "3 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Use of Injected Drugs",
+        "description": "Use of injected drugs in the last 3-months at follow-up",
+        "timeFrame": "3 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:19.901Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

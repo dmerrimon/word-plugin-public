@@ -1,0 +1,88 @@
+{
+  "nctId": "NCT04026750",
+  "briefTitle": "Insulin Tolerance Test Study in Patients With Type 1 Diabetes",
+  "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Insulin Tolerance Test Study to Assess the Safety, Tolerability, and Pharmacodynamics OF Pitolisant in Patients With Type 1 Diabetes",
+  "protocolDocument": {
+    "nctId": "NCT04026750",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2019-12-13",
+    "uploadDate": "2021-03-09T11:10",
+    "size": 778060,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04026750/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 5,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-09-15",
+    "completionDate": "2020-02-16",
+    "primaryCompletionDate": "2020-02-16",
+    "firstSubmitDate": "2019-07-17",
+    "firstPostDate": "2019-07-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Inclusion criteria: Diagnosis of diabetes =\\> 4yrs, On Insulin =\\> 4yrs, HbA1c\\<= 10%, At least one episode of severe hypoglycemia in past 12 months, fasting c-peptide \\<0.7 ng/ml\n\nExclusion Criteria:\n\n* Hypoglycemia unawareness, DKA within 3 months prior to randomization, Reduced renal function, Anxiety and depression",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change From Baseline in Peak Glucagon Response to Hypoglycemia",
+        "description": "Change in peak glucagon concentration from day 1 ITT (baseline) to day 7 ITT (on treatment). Serial glucagon collected during ITT's, occurred at -10, 0, 15, 30, 45, 60, 90, 120 and 180 minutes just prior to and during the ITT.",
+        "timeFrame": "Change in peak glucagon during ITT Day 1 vs. Day 7"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Patients Returning to Blood Glucose =>70 mg/dL",
+        "description": "Number of patients that returned to blood glucose =\\>70 mg/dL during ITT",
+        "timeFrame": "Day 7"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 44,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:08.899Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

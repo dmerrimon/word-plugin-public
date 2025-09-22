@@ -1,0 +1,123 @@
+{
+  "nctId": "NCT04730349",
+  "briefTitle": "A Study of Bempegaldesleukin (BEMPEG: NKTR-214) in Combination With Nivolumab in Children, Adolescents and Young Adults With Recurrent or Treatment-resistant Cancer",
+  "officialTitle": "Phase 1/2 Study of Bempegaldesleukin in Combination With Nivolumab in Children, Adolescents, and Young Adults With Recurrent or Refractory Malignancies (PIVOT IO 020)",
+  "protocolDocument": {
+    "nctId": "NCT04730349",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-11-28",
+    "uploadDate": "2022-12-21T09:03",
+    "size": 11318325,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04730349/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 15,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-06-03",
+    "completionDate": "2022-06-22",
+    "primaryCompletionDate": "2022-06-22",
+    "firstSubmitDate": "2021-01-26",
+    "firstPostDate": "2021-01-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age \\< 18 years for Part A and Part B\n* Age up to 30 years for Part B Cohorts B2, B3 and B4\n* Must have received standard of care therapy and there must be no potentially curative treatment available\n* Histologically confirmed with malignant neoplasms that are refractory, relapsed, or curative treatments are lacking\n* Must have measurable or evaluable disease based on Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 for solid tumors, Response Assessment in Neuro-Oncology (RANO) or Response Assessment in Pediatric Neuro-Oncology (RAPNO) for central nervous system tumors, International Pediatric Non-Hodgkin Lymphoma Response Criteria for non-Hodgkin lymphoma (NHL), revised International Neuroblastoma Response Criteria (INRC) for neuroblastoma, modified National Comprehensive Cancer Network (NCCN) Criteria for acute lymphoblastic leukemia, and modified Cheson et al International Working Group criteria for acute myeloid leukemia\n* Lansky play score for age ≤ 16 years or Karnofsky performance score for age \\> 16 years assessed within 2 weeks of enrollment must be ≥ 60\n\nExclusion Criteria:\n\n* Osteosarcoma, T-cell/Natural Killer (NK) cell leukemia/lymphoma, and Hodgkin's lymphoma\n* Need for \\> 2 antihypertensive medications for management of hypertension (including diuretics)\n* Known cardiovascular history, including unstable or deteriorating cardiac disease, within the previous 12 months prior to screening\n* Inadequately treated adrenal insufficiency\n* Active, known, or suspected autoimmune disease\n* Active infection requiring systemic therapy within 14 days prior to first dose\n* Condition requiring systemic treatment with either corticosteroids or other immunosuppressive medications within 14 days of start of study treatment\n* Prior allogeneic stem cell transplant\n* Previous severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection either suspected or confirmed within 4 weeks prior to screening\n\nOther protocol-defined inclusion/exclusion criteria apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "maximumAge": "30 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Dose-Limiting Toxicities (DLTs) - Part A",
+        "description": "Number of participants with dose-limiting toxicities (DLTs). DLTs were collected and evaluated for Part A within the DLT evaluation period, which started on Cycle 1 Day 1 (first dose) and ended at Day 42 (42 days after first dose of the study therapy).",
+        "timeFrame": "From first dose to 42 days after first dose"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events (AEs) - Part A",
+        "description": "Number of participants with adverse events (AEs). An AE is defined as any new untoward medical occurrence or worsening of a preexisting medical condition in a clinical investigation participant administered study treatment and that does not necessarily have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of study treatment, whether or not considered related to the study treatment.",
+        "timeFrame": "From first dose to 30 days after last dose (up to approximately 6 months)"
+      },
+      {
+        "measure": "Number of Participants With Serious Adverse Events (SAEs) - Part A",
+        "description": "Number of participants with serious adverse events (SAEs). SAE is defined as any untoward medical occurrence that, at any dose results in death, is life-threatening, requires inpatient hospitalization or causes prolongation of existing hospitalization, results in persistent or significant disability/incapacity, is a congenital anomaly/birth defect, or is an important medical event.",
+        "timeFrame": "From first dose to 30 days after last dose (up to approximately 6 months)"
+      },
+      {
+        "measure": "Number of Participants With Drug-Related Adverse Events - Part A",
+        "description": "Number of participants with drug-related adverse events. An AE is defined as any new untoward medical occurrence or worsening of a preexisting medical condition in a clinical investigation participant administered study treatment and that does not necessarily have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of study treatment, whether or not considered related to the study treatment.",
+        "timeFrame": "From first dose to 30 days after last dose (up to approximately 6 months)"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events Leading to Discontinuation - Part A",
+        "description": "Number of participants with adverse events leading to discontinuation. An AE is defined as any new untoward medical occurrence or worsening of a preexisting medical condition in a clinical investigation participant administered study treatment and that does not necessarily have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of study treatment, whether or not considered related to the study treatment.",
+        "timeFrame": "From first dose to 30 days after last dose (up to approximately 6 months)"
+      },
+      {
+        "measure": "Number of Participants Who Died - Part A",
+        "description": "Number of participants who died.",
+        "timeFrame": "From first dose to 30 days after last dose (up to approximately 6 months)"
+      },
+      {
+        "measure": "Maximum Observed Plasma Concentration (Cmax) - Part A",
+        "description": "Pharmacokinetics (PK) of bempegaldesleukin and nivolumab derived from serum concentration versus time data.",
+        "timeFrame": "From first dose to 30 days after last dose (up to approximately 6 months)"
+      },
+      {
+        "measure": "Trough Observed Concentration (Ctrough) - Part A",
+        "description": "Pharmacokinetics (PK) of bempegaldesleukin and nivolumab derived from serum concentration versus time data.",
+        "timeFrame": "From first dose to 30 days after last dose (up to approximately 6 months)"
+      },
+      {
+        "measure": "Area Under the Plasma Concentration (AUC) - Part A",
+        "description": "Pharmacokinetics (PK) of bempegaldesleukin and nivolumab derived from serum concentration versus time data.",
+        "timeFrame": "From first dose to 30 days after last dose (up to approximately 6 months)"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 9,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 9
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:45.562Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

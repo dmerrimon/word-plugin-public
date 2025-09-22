@@ -1,0 +1,134 @@
+{
+  "nctId": "NCT05543629",
+  "briefTitle": "A Study of BMS-986442 With Nivolumab With or Without Chemotherapy in Solid Tumors and Non-small Cell Lung Cancer",
+  "officialTitle": "A Phase 1b/2 Study of BMS-986442 in Combination With Nivolumab or Nivolumab and Chemotherapies in Participants With Advanced Solid Tumors and Non-small Cell Lung Cancer",
+  "protocolDocument": {
+    "nctId": "NCT05543629",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-01-12",
+    "uploadDate": "2025-01-16T09:48",
+    "size": 10693409,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05543629/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1",
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 36,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-10-04",
+    "completionDate": "2024-09-12",
+    "primaryCompletionDate": "2024-09-12",
+    "firstSubmitDate": "2022-09-14",
+    "firstPostDate": "2022-09-16"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participants in all parts of the study must have measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1.\n* Participants must have an Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1.\n* Participants must have a life expectancy of at least 3 months at the time of first dose.\n\nExclusion Criteria:\n\n* Untreated symptomatic central nervous system metastases or leptomeningeal metastases.\n* Concurrent malignancy (present during screening) requiring treatment, or history of prior malignancy active within 2 years prior to randomization in study Part B1 or treatment assignment in all other study parts.\n* Participants with an active, known, or suspected autoimmune disease.\n\nOther protocol-defined inclusion/exclusion criteria apply.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Adverse Events",
+        "description": "Number of Participants with Adverse Events.\n\nAn adverse event (AE) is defined as any new untoward medical occurrence or worsening of a pre-existing medical condition in a clinical investigation participant administered study treatment that does not necessarily have a causal relationship with this treatment.\n\nAn AE can therefore be any unfavorable and unintended sign (such as an abnormal laboratory finding), symptom, or disease temporally associated with the use of study treatment, whether or not considered related to the study treatment.\n\nFor the reporting of all AEs, including intensity or severity, on case report forms, please follow the definitions in National Cancer Institute Common Terminology Criteria for Adverse Events version 5 (NCI CTCAE v5).",
+        "timeFrame": "From first dose to 100 days post last dose (Approximately 6 Months)"
+      },
+      {
+        "measure": "Number of Participants With Serious Adverse Events",
+        "description": "A serious adverse event (SAE) is defined as any untoward medical occurrence that, at any dose:\n\n* Results in death.\n* Is life-threatening (defined as an event in which the participant was at risk of death at the time of the event; it does not refer to an event which hypothetically might have caused death if it were more severe).\n* Requires inpatient hospitalization or causes prolongation of existing hospitalization",
+        "timeFrame": "From first dose to 100 days post last dose (Approximately 6 Months)"
+      },
+      {
+        "measure": "Number of Participants With Adverse Events Leading to Discontinuation",
+        "description": "Number of Participants with adverse events leading to discontinuation",
+        "timeFrame": "From first dose to 100 days post last dose (Approximately 6 Months)"
+      },
+      {
+        "measure": "Number of Participants With Dose Limiting Toxicities",
+        "description": "DLTs will be defined based on the incidence, intensity, and duration of the AEs for which no clear alternative cause is identified and will exclude events clearly related to disease progression or intercurrent illness.\n\nin addition, the following AEs will be DLTs:\n\n* Any death that is not clearly due to the underlying disease or extraneous causes\n* Any Grade ≥ 3 non-hematological toxicity\n* Any Grade myocarditis\n* Any Grade myelitis, encephalitis, myasthenia gravis, or Guillain-Barre syndrome\n* Grade 4 neutropenia of \\> 7 days duration\n* Grade 4 thrombocytopenia.\n* Grade 3 thrombocytopenia with clinically significant bleeding.\n* Febrile neutropenia\n\nAny AE that is not clearly due to disease progression or extraneous causes that occurs within the 28-day DLT evaluation window and meets criteria for permanent discontinuation will be considered a DLT.",
+        "timeFrame": "From Cycle 1 day 1 to day 28 (28 Days)"
+      },
+      {
+        "measure": "Number of Participants Who Died",
+        "description": "Number of Participants who died",
+        "timeFrame": "From first dose to 100 days post last dose (Approximately 6 Months)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "CMax",
+        "description": "Maximum observed serum concentration",
+        "timeFrame": "On Cycle 1 Day 1 and on Cycle 4 Day 1 (Each cycle = 3 Weeks)"
+      },
+      {
+        "measure": "Tmax",
+        "description": "Time of maximum observed serum concentration",
+        "timeFrame": "On Cycle 1 Day 1 and on Cycle 4 Day 1 (Each cycle = 3 Weeks)"
+      },
+      {
+        "measure": "AUC (Tau)",
+        "description": "Area under the serum concentration-time curve in 1 dosing interval",
+        "timeFrame": "On Cycle 1 Day 1 and on Cycle 4 Day 1 (Each cycle = 3 Weeks)"
+      },
+      {
+        "measure": "Number of Participants With BMS-986442 Anti Drug Antibody (ADA)",
+        "description": "Number of participants with BMS-986442 Anti Drug Antibody (ADA)",
+        "timeFrame": "From first dose to 100 days post last dose (Approximately 6 Months)"
+      },
+      {
+        "measure": "Objective Response Rate (ORR) Per Recist v1.1 by Investigator",
+        "description": "ORR is defined as the number of participants with a best overall response (BOR) of confirmed complete response (CR) or partial response (PR) assessed by Investigator, according to RECIST v1.1 criteria, divided by the number of treated participants.\n\nThe BOR is defined as the best response designation recorded between the date of first dose and the date of initial objectively documented progression per RECIST v1.1 or the date of subsequent therapy, whichever occurs first. For participants without documented progression or subsequent therapy, all available response designations will contribute to the BOR determination. For purposes of analysis, if a participant receives one dose and discontinues the study without assessment or receives subsequent therapy prior to assessment, this participant will be counted in the denominator (as nonrespondent).",
+        "timeFrame": "From first dose to 100 days post last dose (Approximately 6 Months)"
+      },
+      {
+        "measure": "Disease Control Rate (DCR) Per Recist v1.1 by Investigator",
+        "description": "Disease Control Rate (DCR) is defined as the number of treated participants who achieve a BOR of confirmed CR, confirmed PR, or stable disease (SD) (and/or SD \\> 6 months), based on investigator assessments divided by the number of all treated participants.",
+        "timeFrame": "From first dose to 100 days post last dose (Approximately 6 Months)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 11
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:50.843Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,80 @@
+{
+  "nctId": "NCT02589600",
+  "briefTitle": "Zoledronic Acid for Osteoporotic Fracture Prevention (ZEST II)",
+  "officialTitle": "ZEST II for Osteoporotic Fracture Prevention",
+  "protocolDocument": {
+    "nctId": "NCT02589600",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2023-03-30",
+    "uploadDate": "2023-06-16T14:08",
+    "size": 257816,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02589600/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 310,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-01",
+    "completionDate": "2022-06-22",
+    "primaryCompletionDate": "2022-06-22",
+    "firstSubmitDate": "2015-10-27",
+    "firstPostDate": "2015-10-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* women age ≥65 years including those using assistive devices to maximize generalizability if they:\n\n  1. Reside in long-term care (LTC);\n  2. Have:\n\n     * osteoporosis by axial bone density (spine, hip or forearm bone mineral density (BMD) T-score ≤ -2.5 SD); or\n     * a previous adult fragility fracture of the spine or hip; or,\n     * would be treated based on FRAX National Osteoporosis Foundation (NOF) treatment thresholds of a 10 year risk of ≥ 20% for a major osteoporotic fracture or ≥ 3% for hip fracture using femoral neck BMD.\n\nExclusion Criteria:\n\n* Men because osteoporosis is less common in men and our initial ZEST 1 study only included women.\n* Institutionalized women with subacute illnesses surviving or discharged in \\< 3 years.\n* Women currently on bisphosphonate, denosumab, or teriparatide therapy or who have been on a bisphosphonate for greater than 1 year during the previous 2 years because bisphosphonates are long acting.\n* Patients with a calculated creatinine clearance \\< 35 ml/min or who have a contraindication for bisphosphonates (allergy, hypocalcemia).",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "65 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Non-traumatic Incidental Fractures (Vertebral and Nonvertebral [Identified by X-ray, CT, MRI, VFA Imaging] Per Person-year)",
+        "description": "Number of fractures divided by number of person-years. Effectiveness of fracture reduction will be demonstrated by total non-traumatic incidental fractures (vertebral and nonvertebral \\[identified by x-ray, CT, MRI, VFA imaging) except those viewed as severe trauma (fall from a height higher than a stool or chair or severe trauma other than a fall), cancer-related or fractures of the toes, finger or facial bones.",
+        "timeFrame": "3 years"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:02.886Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

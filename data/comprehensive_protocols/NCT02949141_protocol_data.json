@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT02949141",
+  "briefTitle": "Diagnostic Use of Lung Ultrasound for Suspected Pneumonia in Nepal",
+  "officialTitle": "Diagnostic Use of Lung Ultrasound Compared to Chest X-Ray for Suspected Pneumonia in Nepal",
+  "protocolDocument": {
+    "nctId": "NCT02949141",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2016-05-16",
+    "uploadDate": "2017-08-19T01:16",
+    "size": 49698,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02949141/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 62,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2016-11",
+    "completionDate": "2017-05-01",
+    "primaryCompletionDate": "2017-04",
+    "firstSubmitDate": "2016-10-25",
+    "firstPostDate": "2016-10-31"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients presenting to the Emergency Department at Patan Hospital age 18 or older with suspected signs of pneumonia with at least three of the following: temperature greater than 38 or history of fever, cough, dyspnea, heart rate higher than 100 beats per minute, or oxygen saturation lower than 92%.\n\nExclusion Criteria:\n\n* Children will be excluded from the study. Also, ultrasound studies completed by physicians not trained in lung ultrasound will not be included.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Diagnosis of Pneumonia",
+        "description": "Sensitivity and specificity of ultrasound compared to chest x-ray for the diagnosis of pneumonia using Chest CT as the gold standard for diagnosis.",
+        "timeFrame": "9 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:55.780Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

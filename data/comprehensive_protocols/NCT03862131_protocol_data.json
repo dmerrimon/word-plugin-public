@@ -1,0 +1,101 @@
+{
+  "nctId": "NCT03862131",
+  "briefTitle": "PROactive Evaluation of Function to Avoid CardioToxicity",
+  "officialTitle": "PROactive Evaluation of Function to Avoid CardioToxicity",
+  "protocolDocument": {
+    "nctId": "NCT03862131",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-09-27",
+    "uploadDate": "2025-02-14T11:48",
+    "size": 3403339,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03862131/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 49,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-13",
+    "completionDate": "2024-06-14",
+    "primaryCompletionDate": "2024-06-14",
+    "firstSubmitDate": "2019-03-01",
+    "firstPostDate": "2019-03-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Participant in the SURVIVE registry\n* Signed informed consent form for PROACT\n* Histological diagnosis of any cancer type (patients with treated and clinically stable brain metastasis are acceptable)\n* Scheduled to receive anti-cancer therapy (radiation therapy is permitted)\n\nExclusion Criteria:\n\n* Contraindication to magnetic resonance imaging (MRI)\n* Unable to comply with study investigations (in the judgment of the investigator)\n* Life expectancy less than 1 year\n* Note: If a patient develops a temporary contraindication (e.g. temporary tissue expanders in breast cancer patients) after the baseline MRI, follow up MRIs will be discontinued for safety for the duration in which the patient has the contraindication. However, once the patient is no longer contraindicated to receiving MRIs, the study schedule may resume with their next scheduled MRI time point from the date of enrollment. Therefore, some time points may be skipped during the patient's enrollment in the study.\n\nAlso, if a patient needs a repeat MRI at any time point for any reason (i.e. panic attack during the MRI causing them to not be able to continue, unreadable images, etc.), we may repeat the MRI as long as the patient is willing.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "ROC AUC of MyoStrain® Compared to Standard CMR Measurements (LV End Diastolic Volume Index, LV End Systolic Volume Index, LV Stroke Volume Index and Left Ventricular Ejection Fraction) to Detect Myocardial Dysfunction During Cancer Treatment",
+        "description": "The area under the curve refers to the area under the curve of Receiver operating characteristic curves (ROC AUC) to evaluate the accuracy of MyoStrain® to detect cardiotoxicity compared to Cardiovascular Magnetic Resonance (CMR) Imaging standard measurements.\n\n* Myocardial dysfunction was defined as the occurrence of either clinical or subclinical cardiotoxicity.\n* Clinical cardiotoxicity was defined as an absolute change in LVEF \\> 10% from baseline to below 53% combined with heart failure symptoms or elevation in NT pro BNP to above 199 pg/mL.\n* In patients with LVEF \\< 53% at baseline, clinical cardiotoxicity was defined by a symptomatic drop in LVEF \\> 10% or a HF hospitalization.\n* Subclinical CTX was defined as an asymptomatic patient with a greater than 10% decrease in LVEF, worsening GLS more than 15% from baseline, or new elevation in NT pro BNP \\>199 pg/mL.",
+        "timeFrame": "Through 36 months"
+      },
+      {
+        "measure": "Sensitivity of MyoStrain® Compared to CMR Standard Measurements (LV End Diastolic Volume Index, LV End Systolic Volume Index, LV Stroke Volume Index and Left Ventricular Ejection Fraction) to Detect Myocardial Dysfunction During Cancer Treatment",
+        "description": "Sensitivity is defined as the number of true positives divided by the number of true positives + number of false negatives.\n\n* Myocardial dysfunction was defined as the occurrence of either clinical or subclinical cardiotoxicity.\n* Clinical cardiotoxicity was defined as an absolute change in LVEF \\> 10% from baseline to below 53% combined with heart failure symptoms or elevation in NT pro BNP to above 199 pg/mL.\n* In patients with LVEF \\< 53% at baseline, clinical cardiotoxicity was defined by a symptomatic drop in LVEF \\> 10% or a HF hospitalization.\n* Subclinical CTX was defined as an asymptomatic patient with a greater than 10% decrease in LVEF, worsening GLS more than 15% from baseline, or new elevation in NT pro BNP \\>199 pg/mL",
+        "timeFrame": "Through 36 months"
+      },
+      {
+        "measure": "Specificity of MyoStrain® and CMR Standard Measurements (LV End Diastolic Volume Index, LV End Systolic Volume Index, LV Stroke Volume Index and Left Ventricular Ejection Fraction) to Detect Myocardial Dysfunction During Cancer Treatment",
+        "description": "Specificity is defined as the number of true negatives divided by the number of true negatives + number of false positives.\n\n* Myocardial dysfunction was defined as the occurrence of either clinical or subclinical cardiotoxicity.\n* Clinical cardiotoxicity was defined as an absolute change in LVEF \\> 10% from baseline to below 53% combined with heart failure symptoms or elevation in NT pro BNP to above 199 pg/mL.\n* In patients with LVEF \\< 53% at baseline, clinical cardiotoxicity was defined by a symptomatic drop in LVEF \\> 10% or a HF hospitalization.\n* Subclinical CTX was defined as an asymptomatic patient with a greater than 10% decrease in LVEF, worsening GLS more than 15% from baseline, or new elevation in NT pro BNP \\> 199 pg/mL",
+        "timeFrame": "Through 36 months"
+      },
+      {
+        "measure": "Accuracy of MyoStrain® and CMR Standard Measurements (LV End Diastolic Volume Index, LV End Systolic Volume Index, LV Stroke Volume Index and Left Ventricular Ejection Fraction) to Detect Myocardial Dysfunction During Cancer Treatment",
+        "description": "Accuracy is defined as (true positives + true negatives) divided by the total number of cases\n\n* Myocardial dysfunction was defined as the occurrence of either clinical or subclinical cardiotoxicity.\n* Clinical cardiotoxicity was defined as an absolute change in LVEF \\> 10% from baseline to below 53% combined with heart failure symptoms or elevation in NT pro BNP to above 199 pg/mL.\n* In patients with LVEF \\< 53% at baseline, clinical cardiotoxicity was defined by a symptomatic drop in LVEF \\> 10% or a HF hospitalization.\n* Subclinical CTX was defined as an asymptomatic patient with a greater than 10% decrease in LVEF, worsening GLS more than 15% from baseline, or new elevation in NT pro BNP \\>199 pg/mL.",
+        "timeFrame": "Through 36 months"
+      },
+      {
+        "measure": "Independent Effectiveness of MyoStrain® to Detect Cardiac Dysfunction Compared to Standard Cardiac Imaging Measures",
+        "description": "Myocardial dysfunction is the occurrence of either clinical or subclinical cardiotoxicity.\n\n* Clinical cardiotoxicity was defined as an absolute change in LVEF \\>10% from baseline to below 53% combined with heart failure symptoms or elevation in NT pro BNP to above 199 pg/mL\n* In patients with LVEF \\<53% at baseline, clinical cardiotoxicity was defined by a symptomatic drop in LVEF \\>10% or a HF hospitalization\n* Subclinical CTX was defined as an asymptomatic patient with a greater than 10% decrease in LVEF, worsening GLS more than 15% from baseline, or new elevation in NT pro BNP \\>199 pg/mL",
+        "timeFrame": "Through 36 months"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:55.780Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

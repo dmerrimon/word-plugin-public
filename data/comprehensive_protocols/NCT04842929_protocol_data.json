@@ -1,0 +1,148 @@
+{
+  "nctId": "NCT04842929",
+  "briefTitle": "Magnetic Randomized Trial in Elderly Depressed",
+  "officialTitle": "Treatment of Depression in the Elderly With Repetitive Transcranial Magnetic Stimulation (rTMS) Using Theta-burst Stimulation (TBS): Randomized, Double-blind, Sham-controlled, Clinical Trial",
+  "protocolDocument": {
+    "nctId": "NCT04842929",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-10-29",
+    "uploadDate": "2021-10-29T07:11",
+    "size": 273941,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04842929/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 108,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2019-01-16",
+    "completionDate": "2022-12-20",
+    "primaryCompletionDate": "2022-09-20",
+    "firstSubmitDate": "2021-01-20",
+    "firstPostDate": "2021-04-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Major Depressive Disorder;\n* Patients older than 60 years\n* Hamilton equal or higher than 17\n\nExclusion Criteria:\n\n* Other mental disorders (alcohol or drug addiction, psychotic disorders, dementia, bipolar disorder);\n* Presence of serious neurological or clinical diseases;\n* Resence of severe suicidal ideation and CIRS (Cumulative Illness Rating Scale) score\\> 7, characterizing a set of clinical morbidities that could impair adherence to the research protocol, bipolar disorder and/or presence of manic symptoms (hypo) demonstrated with more than 8 points in the Young Mania Rating Scale.\n* Metal implants;\n* Epilepsy or electronics in the cephalic segment;",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "60 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Changes in Hamilton Rating Scale for Depression, 17 items (HDRS-17)",
+        "description": "Continuous measure (score changes).",
+        "timeFrame": "Weeks 0 and 6"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in HDRS-17",
+        "description": "Continuous measure (score changes).",
+        "timeFrame": "Weeks 1, 2, 4, 6, 8, 12"
+      },
+      {
+        "measure": "Change in Montgomery-Asberg Depression Rating Scale (MADRS)",
+        "description": "Continuous measure (score changes).",
+        "timeFrame": "Weeks 1, 2, 4, 6, 8, 12"
+      },
+      {
+        "measure": "Change in Global Clinical Impression Scale (CGI)",
+        "description": "Continuous measure (score changes).",
+        "timeFrame": "Weeks 1, 2, 4, 6, 8, 12"
+      },
+      {
+        "measure": "Change in Cumulative Illness Rating Scale (CIRS)",
+        "description": "Continuous measure (score changes).",
+        "timeFrame": "Weeks 1, 2, 4, 6, 8, 12"
+      },
+      {
+        "measure": "Change in Geriatric Depression Scale (GDS)",
+        "description": "Continuous measure (score changes).",
+        "timeFrame": "Weeks 1, 2, 4, 6, 8, 12"
+      },
+      {
+        "measure": "Change in Positive and Negative Affect Scale (PANAS)",
+        "description": "Continuous measure (score changes).",
+        "timeFrame": "Weeks 1, 2, 4, 6, 8, 12"
+      },
+      {
+        "measure": "Change in serum BDNF concentrations",
+        "description": "Continuous measure (score changes).",
+        "timeFrame": "Weeks 0 and 6"
+      },
+      {
+        "measure": "Response HDRS 17",
+        "description": "Response (≥50% improvement from week 0 to 12)",
+        "timeFrame": "Week 12"
+      },
+      {
+        "measure": "Remission of HDRS 17",
+        "description": "Remission (HDRS-17 ≤ 8)",
+        "timeFrame": "Week 12"
+      },
+      {
+        "measure": "Young Manic Rating Scale (YMRS)",
+        "description": "Serious adverse events include treatment-emergent hypomania/mania (YMRS\\>8), suicide, psychiatric hospitalization and others life-threatening or incapacitant events",
+        "timeFrame": "Weeks 0, 1, 2, 4, 6, 8, 12"
+      },
+      {
+        "measure": "Serious adverse events",
+        "description": "Serious adverse events include treatment-emergent hypomania/mania (YMRS\\>8), suicide, psychiatric hospitalization and others life-threatening or incapacitant events",
+        "timeFrame": "Up to week 12"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Conditioned pain modulation",
+        "description": "Temperature of the thermode reported as painful",
+        "timeFrame": "Week 0 and 4"
+      },
+      {
+        "measure": "Actigraphy",
+        "description": "Continuous measure (score changes).",
+        "timeFrame": "1 week before treatment up to 4 weeks after finishing study"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 11,
+      "otherCount": 2,
+      "totalCount": 14
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 98,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:18.313Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

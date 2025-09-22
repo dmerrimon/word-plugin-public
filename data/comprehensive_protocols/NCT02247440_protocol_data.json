@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT02247440",
+  "briefTitle": "HCV-HIV Co-infected Patient Cohort in Thailand",
+  "officialTitle": "Response to Peg-interferon and Ribavirin for the Treatment of HCV Infection in HIV Co-infected Patients, Implemented in Public Hospitals in Thailand",
+  "protocolDocument": {
+    "nctId": "NCT02247440",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2014-06-17",
+    "uploadDate": "2019-02-20T03:58",
+    "size": 1527026,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02247440/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 18,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2014-08",
+    "completionDate": "2018-01",
+    "primaryCompletionDate": "2017-05",
+    "firstSubmitDate": "2014-09-09",
+    "firstPostDate": "2014-09-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Evidence of chronic HCV infection for at least 6 months before study entry (at least one detectable HCV viral load, i.e. ≥17 IU/mL, with an antibody test positive at least 6 months before the HCV RNA load result)\n* Fibrosis Stage F2-3-4 determined by transient elastography (Fibroscan or other similar equipment). During the first part of the study, priority will be given to patients with Fibrosis Stage F2-3.\n* Negative pregnancy test (on the day of inclusion).\n\nExclusion Criteria:\n\n* Anemia and thrombocytopenia\n* Severe liver damage, advanced stage cirrhosis or cancer\n* Uncontrolled diabetes, Uncontrolled thyroid dysfunction\n* Retinopathy\n* Creatinine clearance \\<50 mL/min (Cockcroft)\n* Disease associated with the immune system\n* Significant heart problems\n* Severe neuropsychiatric conditions Contra-indication to study treatment (including pregnancy or lack of effective contraception in the participant or female partner)\n* Other exclusion criteria related to the use of ribavirin and peg-interferon\n* Any conditions that, in the investigator's judgment, may compromise the follow up.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Participants With Sustained Virological Response 6 Months After Treatment Discontinuation",
+        "description": "Number of Participants with Sustained Virological Response 6 Months After Treatment Discontinuation,",
+        "timeFrame": "6 months after end of treatment, i.e. 1.5 years after treatment initiation"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With at Least a Serious Adverse Events Associated With Study Treatment (Peg-interferon and Ribavirin)",
+        "description": "Number of participants with at least a serious adverse events associated with study treatment (peg-interferon and ribavirin).",
+        "timeFrame": "From initiation of treatment to 6 months after treatment discontinuation"
+      },
+      {
+        "measure": "Number of Participants Grouped by HIV-1 RNA Concentrations",
+        "description": "Number of participants grouped by HIV-1 RNA concentrations (Detected vs. Not Detected).",
+        "timeFrame": "At time of treatment discontinuation (whatever its date) and 6 months thereafter"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Number of Participants Completed the First 24 and 48 Weeks of Treatment",
+        "description": "Number of participants completed the first 24 and 48 weeks of treatment.",
+        "timeFrame": "From initiation of treatment to the first 48 weeks of treatment"
+      },
+      {
+        "measure": "Number of Adverse Events by Severity Grade",
+        "description": "Number of adverse events (AE) by severity grade. The severity grading scale is based on the DAIDS grading table, the grading scale ranging from grades 1 to 5: Grade 1 indicates a mild event, Grade 2 indicates a moderate event, Grade 3 indicates a severe event, Grade 4 indicates a potentially life-threatening event, and Grade 5 indicates death.",
+        "timeFrame": "From initiation of treatment to 6 months after treatment discontinuation"
+      },
+      {
+        "measure": "Number of Participants Able to Perform Self-injections of Peg-interferon",
+        "description": "Number of participants able to perform self-injections of peg-interferon.",
+        "timeFrame": "From initiation of treatment to the first 48 weeks of treatment"
+      },
+      {
+        "measure": "Number of Participants With Ribavirin Compliance at ≥ 95%, 80% - 95%, and < 80%",
+        "description": "Number of participants with ribavirin compliance at ≥ 95%, 80% - 95%, and \\< 80%.",
+        "timeFrame": "From initiation of treatment to the first 48 weeks of treatment"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 2,
+      "otherCount": 4,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 32,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:24.415Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

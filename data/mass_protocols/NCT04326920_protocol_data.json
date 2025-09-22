@@ -1,0 +1,149 @@
+{
+  "nctId": "NCT04326920",
+  "briefTitle": "Sargramostim in Patients With Acute Hypoxic Respiratory Failure Due to COVID-19 (SARPAC)",
+  "officialTitle": "A Prospective, Randomized, Open-label, Interventional Study to Investigate the Efficacy of Sargramostim (Leukine®) in Improving Oxygenation and Short- and Long-term Outcome of COVID-19 (Corona Virus Disease) Patients With Acute Hypoxic Respiratory Failure.",
+  "protocolDocument": {
+    "nctId": "NCT04326920",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-06-07",
+    "uploadDate": "2022-03-03T07:07",
+    "size": 2436492,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04326920/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 87,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-03-24",
+    "completionDate": "2021-02-26",
+    "primaryCompletionDate": "2020-09-28",
+    "firstSubmitDate": "2020-03-24",
+    "firstPostDate": "2020-03-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Recent (≤2weeks prior to Randomization) confident diagnosis of COVID-19 confirmed by antigen detection and/or PCR (Polymerase Chain Reaction), and/or seroconversion or any other emerging and validated diagnostic test\n* In some patients, it may be impossible to get a confident laboratory confirmation of COVID-19 diagnosis after 24h of hospital admission because viral load is low and/or problems with diagnostic sensitivity. In those cases, in absence of an alternative diagnosis, and with highly suspect bilateral ground glass opacities on recent (\\<24h) chest-CT scan (confirmed by a radiologist and pulmonary physician as probable COVID-19), a patient can be enrolled as probable COVID-19 infected. In all cases, this needs confirmation by later seroconversion.\n* Presence of acute hypoxic respiratory failure defined as (either or both)\n\n  * saturation below 93% on minimal 2 l/min O2\n  * PaO2/FiO2 below 300\n* Admitted to specialized COVID-19 ward\n* Age 18-80\n* Male or Female\n* Willing to provide informed consent\n\nExclusion Criteria:\n\n* Patients with known history of serious allergic reactions, including anaphylaxis, to human granulocyte-macrophage colony stimulating factor such as sargramostim, yeast-derived products, or any component of the product.\n* mechanical ventilation before start of study\n* patients with peripheral white blood cell count above 25.000 per microliter and/or active myeloid malignancy\n* patients on high dose systemic steroids (\\> 20 mg methylprednisolone or equivalent)\n* patients on lithium carbonate therapy\n* Patients enrolled in another investigational drug study\n* Pregnant or breastfeeding females (all female subjects regardless of childbearing potential status must have negative pregnancy test at screening)\n* Patients with serum ferritin \\>2000 mcg/ml (which will exclude ongoing HLH)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "80 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Improvement in Oxygenation",
+        "description": "Mean Change from Baseline in PaO2/FiO2 on Day 6 or hospital discharge, whichever came first",
+        "timeFrame": "on Day 6 or hospital discharge, whichever came first"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Mean Change in 6-point Ordinal Scale for Clinical Improvement",
+        "description": "The 6-point ordinal scale for clinical improvement is defined as 1 = Death; 2 = Hospitalized, on invasive mechanical ventilation or ECMO (Extracorporeal Membrane Oxygenation) ; 3 = Hospitalized, on non-invasive ventilation or high flow oxygen devices; 4 = Hospitalized, requiring supplemental oxygen; 5 = Hospitalized, not requiring supplemental oxygen; 6 = Not hospitalized. A higher score represent a better outcome",
+        "timeFrame": "at Baseline, at Day 6"
+      },
+      {
+        "measure": "Number of Days in Hospital",
+        "timeFrame": "through study completion, an average of 5 months"
+      },
+      {
+        "measure": "Number of Participants With Nosocomial Infection no./Total no (%)",
+        "timeFrame": "during hospital admission (up to 28 days)"
+      },
+      {
+        "measure": "Death",
+        "timeFrame": "at 28 days"
+      },
+      {
+        "measure": "Number of Participants Progressed to Mechanical Ventilation and/or ARDS",
+        "timeFrame": "during hospital admission (up to 28 days)"
+      },
+      {
+        "measure": "Time to Clinical Sign Score < 6 for at Least 24h",
+        "description": "Clinical Sign score (0-18) by scoring 6 clinical signs from 0 to 3 (0 = absent, 1 = mild, 2 = moderate and 3 = severe): Fever (0 = \\<37°C; 1 = 37.1-38°C; 2 = 38.1-39°C; 3 = \\>39°C) last 24h; Cough; Fatigue; Shortness of breath; Diarrhea; Body pain. Higher values represent a worse outcome",
+        "timeFrame": "During hospital admission (up to 28 days)"
+      },
+      {
+        "measure": "Change in Clinical Sign Score",
+        "description": "Clinical Sign score (0-18) by scoring 6 clinical signs from 0 to 3 (0 = absent, 1 = mild, 2 = moderate and 3 = severe): Fever (0 = \\<37°C; 1 = 37.1-38°C; 2 = 38.1-39°C; 3 = \\>39°C) last 24h; Cough; Fatigue; Shortness of breath; Diarrhea; Body pain. Higher values represent a worse outcome.",
+        "timeFrame": "at baseline, at day 6"
+      },
+      {
+        "measure": "Change in (National Early Warning Score2) NEWS2 Score",
+        "description": "The NEWS2 score standardises the assessment and response to acute illness. Six physiological parameters form the basis of the scoring system:\n\nrespiration rate, oxygen saturation, systolic blood pressure, pulse rate, level of consciousness or new confusion, temperature. The total possible score ranges from 0 to 20. The higher the score the greater the clinical risk",
+        "timeFrame": "at baseline, at day 6"
+      },
+      {
+        "measure": "Change in Sequential Organ Failure Assessment (SOFA Score)",
+        "description": "The Sequential Organ Failure Assessment (SOFA) Score is a mortality prediction score that is based on the degree of dysfunction of six organ systems (respiratory, cardiovascular, hepatic, coagulation, renal and neurological systems). Score ranges from 0 (best) to 24 (worst) points.",
+        "timeFrame": "at baseline, at day 6"
+      },
+      {
+        "measure": "Change in Ferritin Level",
+        "timeFrame": "at baseline, at day 6"
+      },
+      {
+        "measure": "Change in D-dimer Level",
+        "timeFrame": "at baseline, at day 6"
+      },
+      {
+        "measure": "Change in CRP Level",
+        "timeFrame": "at baseline, at day 6"
+      },
+      {
+        "measure": "Change in Lymphocyte Count",
+        "timeFrame": "at baseline, at day 6"
+      },
+      {
+        "measure": "Change in Eosinophil Count",
+        "timeFrame": "at baseline, at day 6"
+      },
+      {
+        "measure": "HRCT (High-Resolution Computed Tomography) Fibrosis Score",
+        "description": "The HRCT fibrosis score is a subjective assessment of the overall extent of normal attenuation, reticular abnormalities, honeycombing and traction bronchiectasis . The HRCT findings are graded on a scale of 1-4 based on the classification system: 1. normal attenuation; 2. reticular abnormality; 3. traction bronchiectasis; and 4. honeycombing. The presence of each of the above four HRCT findings is assessed independently in three (upper, middle and lower) zones of each lung. The extent of each HRCT finding was determined by visually estimating the percentage (to the nearest 5%) of parenchymal involvement in each zone. The score for each zone was calculated by multiplying the percentage of the area by the grading scale score (i.e. 1. normal attenuation; 2. reticular abnormality; 3. traction bronchiectasis; and 4. honeycombing). The six zone scores were averaged to determine the total score for each patient. The score ranges from 100 to 400, higher values represent more fibrosis.",
+        "timeFrame": "at follow-up, 10-20 weeks after day 10 or discharge, whichever comes first"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 15,
+      "otherCount": 0,
+      "totalCount": 16
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": true,
+      "isMasked": false,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 99,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:07.267Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

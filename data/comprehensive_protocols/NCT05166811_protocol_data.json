@@ -1,0 +1,196 @@
+{
+  "nctId": "NCT05166811",
+  "briefTitle": "Timely Intravenous Magnesium for Asthma in Children",
+  "officialTitle": "Intravenous Magnesium: Prompt Use for Asthma in Children Treated in the Emergency Department",
+  "protocolDocument": {
+    "nctId": "NCT05166811",
+    "filename": "Prot_SAP_002.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-03-15",
+    "uploadDate": "2024-08-30T16:17",
+    "size": 412305,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05166811/document/Prot_SAP_002.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 52,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2022-09-12",
+    "completionDate": "2023-07-31",
+    "primaryCompletionDate": "2023-05-31",
+    "firstSubmitDate": "2021-11-23",
+    "firstPostDate": "2021-12-22"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria are:\n\n1. A prior physician diagnosis of asthma confirmed by a treating physician in the ED who has spoken with the patient and family and reviewed the medical record (ED attending or fellow physician)\n2. Severe acute asthma, defined as a Pediatric Respiratory Assessment Measure (PRAM) score of 7 or greater as assessed by a treating physician at the time of screening using the study scoring instrument, which takes 60 seconds to complete\n3. Children 2-17 years of age\n\nExclusion criteria are:\n\n* Known pregnancy (by patient or parent report) or positive pregnancy test on females 12 years of age and older\n* Age-adjusted hypotension at presentation using age-based Pediatric Advanced Life Support parameters (children \\>1 year to 10 years, systolic blood pressure (SBP)\\<(70 + 2 x age in years); \\>10 years, SBP \\< 90 mmHg)71\n* Known severe renal impairment (by parent or patient report)\n* Application of assisted ventilation before enrollment assessment (intubated, bi-level positive airway pressure, continuous positive airway pressure)\n* Received IVMg within 24 hours prior to screening (by parent or patient report or medical record review)\n* Enrollment assessment is 60 minutes after the start of ED treatment (start of first albuterol treatment)\n* Previous enrollment in the same trial (by research coordinator review of trial records)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "2 Years",
+    "maximumAge": "17 Years",
+    "stdAges": [
+      "CHILD"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Enrollment",
+        "description": "The primary outcome in this pilot trial is demonstration of the ability to enroll severely ill children with asthma in a randomized trial requiring timely delivery of IVMg or placebo. The investigators anticipate that the primary outcome of the future large trial will be the proportion of children hospitalized at the index visit in each arm.",
+        "timeFrame": "7 months of enrollment."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Hospitalization",
+        "description": "Actual patient disposition from medical record review after completion of ED treatment. Hospitalization will be defined as any outcome other than discharge from the ED, including hospitalization in an ICU, hospital unit, or observation area.",
+        "timeFrame": "Actual disposition from chart review 1 week after enrollment."
+      },
+      {
+        "measure": "Hospitalization Anticipated by Treating Physician 2 Hours After Start of Study Infusion",
+        "description": "The treating clinician's stated disposition two hours after the start of study infusion.",
+        "timeFrame": "Physician-anticipated hospitalization 2 hours after the start of study drug infusion"
+      },
+      {
+        "measure": "Adverse Events and Safety Profiles - Hypotension and Perfusion",
+        "description": "Decrease in blood pressure was categorized based on degree of associated symptoms and defined as occurring less than 2 hours after the start of study drug infusion or 2 hours and later. Hypotension is defined by age-based Pediatric Advanced Life Support guidelines.",
+        "timeFrame": "2 hours after study drug infusion."
+      },
+      {
+        "measure": "Rescue Therapies Used During ED Care - SQ or IM Epinephrine",
+        "description": "Count of the number of participants that were administered subcutaneous (SQ) or intramuscular (IM) epinephrine while in the ED during the index visit, recorded by chart review approximately one week after enrollment.",
+        "timeFrame": "One week after enrollment"
+      },
+      {
+        "measure": "Return ED Visit",
+        "description": "In patients discharged from the ED, any ED visit and/or hospitalization following discharge.",
+        "timeFrame": "Within 10 days after ED discharge"
+      },
+      {
+        "measure": "Baseline Serum Magnesium",
+        "timeFrame": "At IV placement before infusion of study drug"
+      },
+      {
+        "measure": "Baseline Ionized Magnesium",
+        "timeFrame": "At IV placement before infusion of study drug"
+      },
+      {
+        "measure": "Post-infusion Serum Magnesium 1",
+        "timeFrame": "20-40 minutes after the start of study drug infusion"
+      },
+      {
+        "measure": "Post-infusion Ionized Magnesium 1",
+        "timeFrame": "20-40 minutes after the start of study drug infusion"
+      },
+      {
+        "measure": "Post-infusion Serum Magnesium 2",
+        "timeFrame": "90-150 minutes after the start of study drug infusion"
+      },
+      {
+        "measure": "Post-infusion Ionized Magnesium 2",
+        "timeFrame": "90-150 minutes after the start of study drug infusion"
+      },
+      {
+        "measure": "Rescue Therapies Used During ED Care - IV Epinephrine",
+        "description": "Count of the number of participants that were administered intravenous (IV) epinephrine while in the ED during the index visit, recorded by chart review approximately one week after enrollment.",
+        "timeFrame": "One week after enrollment"
+      },
+      {
+        "measure": "Rescue Therapies Used During ED Care - IV Terbutaline",
+        "description": "Count of the number of participants that were administered intravenous (IV) terbutaline while in the ED during the index visit, recorded by chart review approximately one week after enrollment.",
+        "timeFrame": "One week after enrollment"
+      },
+      {
+        "measure": "Rescue Therapies Used During ED Care - IV Magnesium",
+        "description": "Count of the number of participants that were administered intravenous (IV) magnesium while in the ED during the index visit aside from any study infusion administered, recorded by chart review approximately one week after enrollment.",
+        "timeFrame": "One week after enrollment"
+      },
+      {
+        "measure": "Adverse Events and Safety Profiles - Supraventricular Tachycardia",
+        "description": "Adverse events were assessed through chart review and phone call with the parent of the participant one week after enrollment. Timing after start of study infusion was not recorded.",
+        "timeFrame": "1 week"
+      },
+      {
+        "measure": "Adverse Events and Safety Profiles - Abdominal Discomfort",
+        "description": "Adverse events were assessed through chart review and phone call with the parent of the participant one week after enrollment. Timing after start of study infusion was not recorded.",
+        "timeFrame": "1 week"
+      },
+      {
+        "measure": "Adverse Events and Safety Profiles - Vomiting",
+        "description": "Adverse events were assessed through chart review and phone call with the parent of the participant one week after enrollment. Timing after start of study infusion was not recorded.",
+        "timeFrame": "1 week"
+      },
+      {
+        "measure": "Adverse Events and Safety Profiles - Fatigue",
+        "description": "Adverse events were assessed through chart review and phone call with the parent of the participant one week after enrollment. Timing after start of study infusion was not recorded.",
+        "timeFrame": "1 week"
+      },
+      {
+        "measure": "Adverse Events and Safety Profiles - Hypokalemia",
+        "description": "Adverse events were assessed through chart review and phone call with the parent of the participant one week after enrollment. Timing after start of study infusion was not recorded.",
+        "timeFrame": "1 week"
+      },
+      {
+        "measure": "Adverse Events and Safety Profiles - Delirium",
+        "description": "Adverse events were assessed through chart review and phone call with the parent of the participant one week after enrollment. Timing after start of study infusion was not recorded.",
+        "timeFrame": "1 week"
+      },
+      {
+        "measure": "Adverse Events and Safety Profiles - Hypoxia",
+        "description": "Adverse events were assessed through chart review and phone call with the parent of the participant one week after enrollment. Timing after start of study infusion was not recorded.",
+        "timeFrame": "1 week"
+      },
+      {
+        "measure": "Adverse Events and Safety Profiles - Respiratory Distress",
+        "description": "Adverse events were assessed through chart review and phone call with the parent of the participant one week after enrollment. Timing after start of study infusion was not recorded.",
+        "timeFrame": "1 week"
+      },
+      {
+        "measure": "Adverse Events and Safety Profiles - Metabolic Acidosis",
+        "description": "Adverse events were assessed through chart review and phone call with the parent of the participant one week after enrollment. Timing after start of study infusion was not recorded.",
+        "timeFrame": "1 week"
+      },
+      {
+        "measure": "Adverse Events and Safety Profiles - Duodenal Ulcer Perforation",
+        "description": "Adverse events were assessed through chart review and phone call with the parent of the participant one week after enrollment. Timing after start of study infusion was not recorded.",
+        "timeFrame": "1 week"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 24,
+      "otherCount": 0,
+      "totalCount": 25
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:22.572Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT03980808",
+  "briefTitle": "American Sign Language-Accessible Diabetes Education",
+  "officialTitle": "American Sign Language-Accessible Diabetes Education",
+  "protocolDocument": {
+    "nctId": "NCT03980808",
+    "filename": "Prot_001.pdf",
+    "label": "Study Protocol",
+    "date": "2021-12-16",
+    "uploadDate": "2021-12-16T10:06",
+    "size": 254406,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03980808/document/Prot_001.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "FACTORIAL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 41,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-10-29",
+    "completionDate": "2021-01-26",
+    "primaryCompletionDate": "2021-01-26",
+    "firstSubmitDate": "2019-06-06",
+    "firstPostDate": "2019-06-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 18 years old or older\n* Deaf\n* Primary language is American Sign Language\n* Approximately one-half of the sample must have a diabetes diagnosis.\n\nExclusion Criteria:\n\n* Minors\n* People whose primary language is not ASL\n* Individuals unable to provide consent due to impaired decision-making",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "89 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Diabetes Health Literacy Score",
+        "description": "Data were collected using a study-specific, knowledge-based Diabetes Health Literacy measure which included 15 forced-choice, closed-ended questions to allow for a total score ranging from 0 to 15, with higher scores reflecting better diabetes health literacy. Analysis of change of knowledge compared differences between the intervention arm and the control arm as measured by the changes to the composite scores of the knowledge-based test. One factor Analysis of Variance (ANOVA) was used to calculate the differences with an a priori alpha level of 0.05.",
+        "timeFrame": "The outcome measure results reflect a comparison of the pre and posttest immediate scores."
+      },
+      {
+        "measure": "Frequency of Engagement in Diabetes-Related Health Behaviors",
+        "description": "Data were collected using a study-specific questionnaire titled Your Health Behaviors that measure the frequency of diabetes-related health behaviors for a total score ranging from 7 to 35. Each of the diabetes behaviors (physical activity, work physical activity, cigarettes, smoking cessation, alcohol consumption, vegetable consumption, fruit consumption, grain consumption, junk food consumption, fast food consumption) had multiple choice answers that were scaled from 1 - n, with n being the number of options. The least healthy choice was assigned \"1\", the most healthy choice was assigned \"n\". Analysis of change in behavior compared differences between the intervention arm and the control arm as measured by the changes in the composite scores of the behavioral intervention. One factor Analysis of Variance (ANOVA) was used to compare the differences with an a priori level of 0.05.",
+        "timeFrame": "The outcome measure results for the Your Health Behaviors measure are a comparison between the pretest and the 30-day follow-up."
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 2
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "FACTORIAL"
+    },
+    "overallComplexityScore": 49,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:11.173Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

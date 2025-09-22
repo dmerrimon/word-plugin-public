@@ -1,0 +1,87 @@
+{
+  "nctId": "NCT04688996",
+  "briefTitle": "Yersinia Pestis Lateral Flow Immunoassay for Blood Samples",
+  "officialTitle": "Point of Care Diagnostic to Identify the Causative Agent of the Plague in Blood Samples",
+  "protocolDocument": {
+    "nctId": "NCT04688996",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-08-19",
+    "uploadDate": "2021-01-19T13:23",
+    "size": 918207,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04688996/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 500,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2020-10-19",
+    "completionDate": "2023-01",
+    "primaryCompletionDate": "2022-12",
+    "firstSubmitDate": "2020-11-24",
+    "firstPostDate": "2020-12-30"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion criteria - Malagasy Participants\n\n1. Adults 18 to 75 years old (male and female): Able to receive and give verbal communication.\n2. Children 5 to 17 years old (vulnerable population): Parents or legal guardian must be available to give permission. Parents or legal guardian to consent for children (5-6 years).\n3. Suspected human plague case by local medical professional. Include at least one of the following: For bubonic plague: high fever, chills, and/or presence of painful bubo; For pneumonic plague: high fever, chills, cough for less than 5 days, bloody sputum, and/or chest pains; patients may be recruited from both plague surveillance program and non-plague surveillance programs.\n\nExclusion criteria - Malagasy Participants\n\n1. Children under the age of 5 years old\n2. Children between the age of 5 years to 17 years without a parent or legal guardian\n3. Not compliant with the study procedure (blood sampling)\n\nInclusion criteria - USN Health Center Participants\n\n1. Active duty personnel and DoD beneficiaries that present to participating study sites with influenza-like-illness (fever, cough, sore throat).\n2. Age range \\>=13 to 75 y.o.\n3. Able to receive/give consent (or assent if \\<18 y.o.) 4, Presenting with influenza-like-illness (fever of 100.5 F or higher, cough and/or sore throat)\n\n5\\. USN Special Categories: Minors/children (45CFR Subpt. D/DoDI 3216.02, Encl 3, Para 7d); Students; Active duty military personnel (3216.02, Encl.3 Para. 7.e); Economically disadvantaged persons (32CFR 219.11(b); Educationally disadvantaged persons (32CFR 219.11(b).\n\nExclusion criteria - USN Health Center Participants\n\n1. \\<13 y.o.\n2. Unable to give written consent (if under 18)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "5 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "LFI results on finger-prick blood correlate with the results of standard WHO-approved diagnostic tests for plague",
+        "description": "Description: Standard WHO-approved diagnostic testing uses bubo aspirates or sputum as clinical matrices to perform the following tests: F1RDT, qPCR analysis, and culture.\n\nWHO defines a confirmatory positive plague case when the bubo or sputum is positive on F1RDT and positive on either qPCR or culture.",
+        "timeFrame": "Up to 3 weeks post sample collection and processing of each participant."
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "LFI results on finger-prick blood correlate with LFI results from bubo aspirate or sputum clinical matrices.",
+        "description": "Standard WHO-approved diagnostic testing uses bubo aspirates or sputum as clinical matrices to perform the following tests: F1RDT, qPCR analysis, and culture.\n\nWHO defines a confirmatory positive plague case when the bubo or sputum is positive on F1RDT and positive on either qPCR or culture.",
+        "timeFrame": "Up to 3 weeks post sample collection and processing of each participant."
+      }
+    ],
+    "other": [
+      {
+        "measure": "LFI results on finger-prick blood correlate with the test results on venous blood using the following diagnostic methods: LFI, qPCR, ELISA and FilmArray Warrior Panel.",
+        "description": "Standard WHO-approved diagnostic testing uses bubo aspirates or sputum as clinical matrices to perform the following tests: F1RDT, qPCR analysis, and culture.\n\nWHO defines a confirmatory positive plague case when the venous blood, bubo or sputum is positive on F1RDT and positive on either qPCR or culture.",
+        "timeFrame": "Two years through sample collection and analysis completion from 05/2020 to 05/2022."
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 1,
+      "otherCount": 1,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 36,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:29.815Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

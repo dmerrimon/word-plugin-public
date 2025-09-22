@@ -1,0 +1,82 @@
+{
+  "nctId": "NCT03481270",
+  "briefTitle": "The Oakland Men's Health Disparities Study",
+  "officialTitle": "The Oakland Men's Health Disparities Study",
+  "protocolDocument": {
+    "nctId": "NCT03481270",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-03-21",
+    "uploadDate": "2019-05-07T16:50",
+    "size": 631027,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03481270/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 1374,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-10-14",
+    "completionDate": "2018-03-03",
+    "primaryCompletionDate": "2018-03-03",
+    "firstSubmitDate": "2017-10-05",
+    "firstPostDate": "2018-03-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* African American male adults\n\nExclusion Criteria:\n\n\\-",
+    "healthyVolunteers": true,
+    "sex": "MALE",
+    "minimumAge": "18 Years",
+    "maximumAge": "100 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Average Take-up of Preventive Services (Post-consultation)",
+        "description": "Take-up of preventative services was scored as either zero (did not utilize any post-consultation services) or 1 (utilized at least 1 post-consultation service). Four non-incentivized post-consultation preventive services were offered (for BMI, blood pressure, cholesterol, and/or diabetes); the subject had the opportunity to select service(s) after meeting with their assigned doctor.",
+        "timeFrame": "1 day"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:32.522Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03730948",
+  "briefTitle": "DC Vaccine in Colorectal Cancer",
+  "officialTitle": "Pilot Study of Mature Dendritic Cell Vaccination for Resected Hypermutated Colorectal Cancer",
+  "protocolDocument": {
+    "nctId": "NCT03730948",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2021-11-11",
+    "uploadDate": "2024-01-29T13:37",
+    "size": 1185196,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03730948/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 4,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-03-12",
+    "completionDate": "2022-12-01",
+    "primaryCompletionDate": "2022-02-22",
+    "firstSubmitDate": "2018-10-30",
+    "firstPostDate": "2018-11-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Pathologically-confirmed stage I and II hypermutated colorectal cancer (CRC)\n* Surgically resected disease\n* Male or female patients 18+ years of age\n* ECOG performance status 0-1\n* Certain laboratory values, performed within 14 days prior to consent\n* Subjects of reproductive potential must agree to use a medically accepted birth control method during the trial and for at least two months following the trial.\n* Provide written informed consent\n\nExclusion Criteria:\n\n* Prior malignancy within 3 years that may put subject at risk\n* Pregnant or nursing women\n* Concurrent treatment with systemic immunosuppressants including corticosteroids, calcineurin inhibitors, antiproliferative agents within 2 weeks of consent. Local (inhaled or topical) steroids or replacement dose prednisone are permitted.\n* Known allergy to eggs\n* Any uncontrolled intercurrent illness or active ongoing infection thta may put subject at additional risk",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Changes in Numbers of Peptide-specific CD8+ T Cells (Post-vaccine Immune Response)",
+        "description": "Assessment of cellular immune activity may occur via the application of flow cytometry. Numbers of peptide-specific CD8+ T cells will be measured by flow cytometric-based intracellular cytokine or tetramer staining. Flow cytometric assays will include an examination of the influence of immunotherapy on the ability of subject T cells to exhibit phenotypic markers associated with cytolytic potential (e.g. IFN-y, IL-2, TNF-alpha, Granzyme B) after short-term stimulation by mutated peptide and p-HLA multimer staining. PBMC responses against a pool of known antigenic Cytomegalovirus, Epstein Barr Virus and Influenza epitopes will be evaluated in order to track general cellular immune competence during the study.",
+        "timeFrame": "Screening, Day 1, Day 43, Day 85. Also at following timepoints, which will vary by subject: 7-14 days after last vaccine; 30 days after last vaccine; every 3 months beginning 6 months since first vaccine until month 12."
+      },
+      {
+        "measure": "Adverse Events Experienced by Subjects (i.e. Safety of DC Vaccine in Subjects With Surgically Resected Hypermutated CRC)",
+        "description": "Number of subjects who experienced adverse events. Detailed adverse event data is presented in the AE section.",
+        "timeFrame": "Through study completion (at 12 months)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of CD8+ Cells in Primary Tumor Tissue",
+        "description": "Descriptive models",
+        "timeFrame": "Screening, Day 1, Day 43, Day 85. Also at following timepoints, which will vary by subject: 7-14 days after last vaccine; 30 days after last vaccine; every 3 months beginning 6 months since first vaccine until month 12."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:42.396Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

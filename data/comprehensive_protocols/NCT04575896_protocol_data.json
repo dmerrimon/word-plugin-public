@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT04575896",
+  "briefTitle": "Kidney Transplants in Hepatitis C Negative Recipients With Hepatitis C Viremic Donors",
+  "officialTitle": "An Open-label, Non-randomized Pilot Study to Determine the Safety and Efficacy of Two Weeks of Fixed-dose Glecaprevir and Pibrentasvir as Pre- and Post-exposure Prophylactic Therapy",
+  "protocolDocument": {
+    "nctId": "NCT04575896",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-09-26",
+    "uploadDate": "2024-01-09T15:42",
+    "size": 341521,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04575896/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE4"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 10,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-11-20",
+    "completionDate": "2023-12-01",
+    "primaryCompletionDate": "2023-11-28",
+    "firstSubmitDate": "2020-09-29",
+    "firstPostDate": "2020-10-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Recipient Inclusion Criteria:\n\n* Participants ≥ 18 years old\n* On the deceased donor kidney waitlist at Johns Hopkins Hospital\n* Awaiting a first or second kidney transplant\n* No available living kidney donors\n* On hemodialysis or peritoneal dialysis or stage 5 chronic kidney disease (CKD) defined as a glomerular filtration rate \\<15 ml/min for ≥ past 90 days\n* HCV-uninfected (by both antibody and RNA PCR) and without any behavioral risk factors for contracting HCV other than being on hemodialysis\n* Calculated panel reactive anti-human leukocyte antigens (anti-HLA) antibody (flow cPRA) below 80%\n\nRecipient Exclusion Criteria:\n\n* Plan to receive a multi-organ transplant\n* Plan to receive a dual kidney transplant (including en bloc)\n* History of prior solid organ transplant other than first kidney transplant\n* Participating in another study that involves an intervention or investigational product\n* Plan to receive a blood type incompatible kidney\n* History of human immunodeficiency (HIV), hepatitis C (HCV), or active hepatitis B (HBV) infection, defined as being on active antiviral treatment for HBV, detectable hepatitis B surface Ag or detectable hepatitis B DNA\n* Unable to safely substitute or discontinue a medication that is contraindicated with the study medication\n* Psychiatric or physical illness that in the opinion of the investigator would make it unsafe to proceed with transplantation or interfere with the ability of the subject to participate in the study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Viral Response as Assessed by Number of Participants With Undetectable Hepatitis C RNA",
+        "description": "This is the number of participants with undetectable hepatitis C RNA in the blood at 12 weeks after stopping treatment (Number of kidney transplant recipients with HCV RNA \\< Lower Limit Of Quantification (LLOQ)).",
+        "timeFrame": "12 weeks after completing therapy"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE4"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 14,
+    "complexityCategory": "Simple"
+  },
+  "collectionDate": "2025-09-22T02:30:24.520Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

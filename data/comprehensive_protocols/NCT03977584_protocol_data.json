@@ -1,0 +1,81 @@
+{
+  "nctId": "NCT03977584",
+  "briefTitle": "Tau Positron Emission Tomography (PET) Longitudinal Substudy Associated With: Study of Crenezumab Versus Placebo in Preclinical Presenilin1 (PSEN1) E280A Mutation Carriers in the Treatment of Autosomal-Dominant Alzheimer's Disease",
+  "officialTitle": "Tau PET Longitudinal Substudy Associated With: A Double-Blind, Placebo-Controlled Parallel-Group Study in Preclinical PSEN1 E280A Mutation Carriers Randomized to Crenezumab or Placebo, and in Non-randomized, Placebo-treated Non-carriers From the Same Kindred, to Evaluate the Efficacy and Safety of Crenezumab in the Treatment of Autosomal-Dominant Alzheimer's Disease",
+  "protocolDocument": {
+    "nctId": "NCT03977584",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2020-06-11",
+    "uploadDate": "2024-01-25T08:40",
+    "size": 805961,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03977584/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 114,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2019-06-10",
+    "completionDate": "2022-04-19",
+    "primaryCompletionDate": "2022-04-19",
+    "firstSubmitDate": "2019-06-05",
+    "firstPostDate": "2019-06-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n\\- Enrolled in main Study NCT01998841 (GN28352).\n\nExclusion Criteria:\n\n\\- Contraindication to PET scan procedures, possibly including, but not limited to current, past, or planned participation in studies involving radioactive agents, including the main Study NCT01998841 (GN28352) and this Tau PET substudy, such that the total research-related radiation dose to the participant in any given year would exceed the limits set forth in the U.S. Code of Federal Regulations (CFR) Title 21 Section 361.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "30 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Annualized Rate of Change in Tau Burden",
+        "description": "Tau is a protein that accumulates in Alzheimer's disease and damages brain cells including those essential for learning and memory. The effect of crenezumab on tau burden was assessed using \\[18F\\]GTP1 Tau PET. The annualized rate of change in tau burden from the first \\[18F\\]GTP1 scan of the standardized uptake ratio (SUVR) in the entorhinal cortex (Braak Stage 1) with an inferior cerebellum reference region was analyzed using a random coefficient regression model (RCRM). Braak staging classifies the degree of pathology in Alzheimer's disease. Braak stages 1 and 2 are used when neurofibrillary tangle involvement is confined mainly to the transentorhinal region of the brain, stages 3 and 4 when there is also involvement of limbic regions such as the hippocampus, and 5 and 6 when there is extensive neocortical involvement.",
+        "timeFrame": "Baseline up to Week 149"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 1
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:39.329Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT03297346",
+  "briefTitle": "Early Detection of Cardiovascular Changes After Radiotherapy for Breast Cancer",
+  "officialTitle": "Early Detection of Cardiovascular Changes After Radiotherapy for Breast Cancer (EARLY HEART Study) in the Frame of the Implications of MEDIcal Low Dose RADiation Exposure (MEDIRAD) European Project",
+  "protocolDocument": {
+    "nctId": "NCT03297346",
+    "filename": "Prot_SAP_ICF_000.pdf",
+    "label": "Study Protocol, Statistical Analysis Plan, and Informed Consent Form",
+    "date": "2017-07-05",
+    "uploadDate": "2017-09-28T03:09",
+    "size": 1334536,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03297346/document/Prot_SAP_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 250,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-09-01",
+    "completionDate": "2021-05-31",
+    "primaryCompletionDate": "2020-10-01",
+    "firstSubmitDate": "2017-09-21",
+    "firstPostDate": "2017-09-29"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Female unilateral breast cancer patients\n* Treated with primary breast conserving surgery for stage I-III invasive adenocarcinoma of the breast or ductal carcinoma in situ (DCIS)\n* Age between 40-75 years at time of start radiotherapy\n* World Health Organisation (WHO) performance status 0-1\n* Planned for radiotherapy alone to the breast with or without the lymph node areas\n* Radiotherapy based on planning-CT scan using either three dimensional conformal radiation therapy (3D-CRT), Intensity-modulated radiotherapy (IMRT), or Volumetric Arc Therapy (VMAT/RapidArc)\n* Written Informed consent\n\nExclusion Criteria:\n\n* Male breast cancer patients\n* Neoadjuvant or adjuvant chemotherapy\n* M1 disease (metastatic breast cancer)\n* Medical history of coronary artery disease and/or myocardial infarction and/or atrial fibrillation\n* Previous thoracic or mediastinal radiation\n* Contraindications to injection of iodinated contrast such as allergy or renal failure\n* Pregnancy or lactation\n* Atrial fibrillation detected during electrocardiogram before radiotherapy\n* Abnormal echocardiography before radiotherapy defined as: Left Ventricular Ejection Fraction\\<50%; longitudinal strain ≤ -16%; longitudinal strain rate \\<-1%, and/or abnormal wall motion\n* Presence of myocardial infarction detected during MRI before radiotherapy\n* CT or MRI results before radiotherapy requiring revascularisation",
+    "healthyVolunteers": true,
+    "sex": "FEMALE",
+    "minimumAge": "40 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of patients with decreased myocardial function assessed by echocardiography",
+        "description": "Number of patients with an increased of at least 2.5% in the Global Longitudinal Strain (GLS) between baseline and 2 years after radiotherapy",
+        "timeFrame": "2 years after radiotherapy (baseline measurements performed before radiotherapy)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Changes in myocardial function measurements assessed by echocardiography",
+        "description": "Increase of the segmental strain measurements (unit of measures:%)",
+        "timeFrame": "6 months and 2 years after radiotherapy (baseline measurements performed before radiotherapy)"
+      },
+      {
+        "measure": "Anatomical changes in coronary arteries assessed by cardiac CT",
+        "description": "Increase of the number of coronary segments containing any plaque or increase of the calcium score",
+        "timeFrame": "2 years after radiotherapy (baseline measurements performed before radiotherapy)"
+      },
+      {
+        "measure": "Myocardial tissue abnormalities assessed by cardiac MRI",
+        "description": "Increase of the native mean myocardial T1 mapping value",
+        "timeFrame": "6 months and 2 years after radiotherapy (baseline measurements performed before radiotherapy)"
+      },
+      {
+        "measure": "Changes in circulating biomarkers measurements",
+        "description": "Significant increase or decrease in the following biomarkers:\n\nclassical biomarkers of cardiac injury (C-reactive protein, Troponin I, Troponin T, B-type natriuretic peptide (BNP), N-terminal pro-brain natriuretic peptide (NT-Pro BNP), beta2-Microglobulin, Galectin 3); Inflammatory cytokines; biomarkers of endothelial activation and dysfunction; Microparticles; MicroRNAs; circulating DNA methylation",
+        "timeFrame": "at the end of radiotherapy (through radiotherapy completion, an average of 5 weeks after starting date of radiotherapy), 6 months and 2 years after radiotherapy (baseline measurements performed before radiotherapy)"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:54.793Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,117 @@
+{
+  "nctId": "NCT03348904",
+  "briefTitle": "Nivolumab and Epacadostat With Platinum Doublet Chemotherapy Versus Platinum Doublet Chemotherapy in Non-Small Cell Lung Cancer",
+  "officialTitle": "A Phase 3, Randomized, Global Trial of Nivolumab and Epacadostat With Platinum Doublet Chemotherapy Versus Platinum Doublet Chemotherapy in First-line Treatment of Stage IV or Recurrent Non-Small Cell Lung Cancer (NSCLC)",
+  "protocolDocument": {
+    "nctId": "NCT03348904",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2017-10-23",
+    "uploadDate": "2019-06-12T10:27",
+    "size": 1696710,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03348904/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 2,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-12-27",
+    "completionDate": "2018-05-22",
+    "primaryCompletionDate": "2018-05-22",
+    "firstSubmitDate": "2017-11-16",
+    "firstPostDate": "2017-11-21"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Histologically confirmed stage IV or recurrent NSCLC of squamous or non-squamous histology that is not amenable to therapy with curative intent (surgery or radiation therapy with or without chemotherapy).\n* No prior treatment with systemic anti-cancer therapy for Stage IV disease.\n* Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 to1.\n* Measurable disease by computed tomography or magnetic resonance imaging per RECIST v1.1.\n* Documentation of program death ligand-1 (PD-L1) status of 0 to 49% by IHC performed by the central laboratory prior to randomization.\n* Other protocol inclusion criteria may apply\n\nExclusion Criteria:\n\n* Known epidermal growth factor receptor (EGFR) mutations sensitive to available targeted inhibitor therapy.\n* Known ALK or ROS1 rearrangements sensitive to available targeted inhibitor therapy.\n* Untreated central nervous system (CNS) metastases.\n* Unevaluable PD-L1 status or PD-L1 status of ≥ 50% by IHC performed by a central laboratory.\n* Carcinomatous meningitis.\n* Active, known or suspected autoimmune disease.\n* Prior treatment with anti-PD-1, anti-PD-L1, anti-PD-L2, anti-CTLA-4 antibody, IDO1 targeted agent, or any other antibody or drug targeting T cell co-stimulation or checkpoint pathways.\n* History of allergy or hypersensitivity to platinum-containing compounds or study drug components.\n* Physical and laboratory test findings outside the protocol-defined range.\n* Other protocol exclusion criteria may apply.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Overall Survival (OS) of Nivolumab Plus Epacadostat in Combination With Chemotherapy (Arm A) Compared to Chemotherapy (Arm B)",
+        "description": "Defined as the time from randomization to the date of death from any cause.",
+        "timeFrame": "Approximately 38 months"
+      },
+      {
+        "measure": "Progression-free Survival (PFS) of Nivolumab Plus Epacadostat in Combination With Chemotherapy (Arm A) Compared to Chemotherapy (Arm B)",
+        "description": "Defined as the time between the date of randomization and the first date of documented progression assessed by blinded independent central review, or death due to any cause, whichever occurs first.",
+        "timeFrame": "Approximately 25 months"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Objective Response Rate (ORR) of Nivolumab Plus Epacadostat in Combination With Chemotherapy (Arm A) Compared to Chemotherapy (Arm B)",
+        "description": "Defined as the proportion of participants who achieve a confirmed best response of complete response (CR) or partial response (PR) per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1) criteria as assessed by blinded independent central review.",
+        "timeFrame": "Approximately 25 months"
+      },
+      {
+        "measure": "Duration of Response (DOR) of Nivolumab Plus Epacadostat in Combination With Chemotherapy (Arm A) Compared to Chemotherapy (Arm B)",
+        "description": "Defined as the time between the date of first confirmed response and the date of the first documented tumor progression (per RECIST v1.1) assessed by blinded independent central review or death due to any cause, whichever occurs first.",
+        "timeFrame": "Approximately 25 months"
+      },
+      {
+        "measure": "Estimate of OS of Nivolumab and Placebo in Combination With Chemotherapy (Arm C)",
+        "description": "Defined as the time from randomization to the date of death from any cause.",
+        "timeFrame": "Approximately 38 months"
+      },
+      {
+        "measure": "Estimate of PFS of Nivolumab and Placebo in Combination With Chemotherapy (Arm C)",
+        "description": "Defined as the time between the date of randomization and the first date of documented progression assessed by blinded independent central review or death due to any cause, whichever occurs first.",
+        "timeFrame": "Approximately 25 months"
+      },
+      {
+        "measure": "Estimate of ORR of Nivolumab and Placebo in Combination With Chemotherapy (Arm C)",
+        "description": "Defined as the proportion of participants who achieve a confirmed best response of CR or PR per RECIST v1.1 criteria as assessed by blinded independent central review.",
+        "timeFrame": "Approximately 25 months"
+      },
+      {
+        "measure": "Estimate of DOR of Nivolumab and Placebo in Combination With Chemotherapy (Arm C)",
+        "description": "Defined as the time between the date of first confirmed response and the date of the first documented tumor progression (per RECIST v1.1) assessed by blinded independent central review or death due to any cause, whichever occurs first.",
+        "timeFrame": "Approximately 25 months"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 6,
+      "otherCount": 0,
+      "totalCount": 8
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 79,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:46.182Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

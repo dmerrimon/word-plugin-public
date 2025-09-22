@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT04205630",
+  "briefTitle": "SYD985 in Patients With HER2-expressing Recurrent, Advanced or Metastatic Endometrial Carcinoma",
+  "officialTitle": "A Single-arm Phase II Trial to Evaluate the Safety and Efficacy of the Antibody-Drug Conjugate (ADC) SYD985 in Patients With Human Epidermal Growth Factor Receptor 2 (HER2)-Expressing Endometrial Carcinoma Who Previously Progressed on or After First Line Platinum-based Chemotherapy",
+  "protocolDocument": {
+    "nctId": "NCT04205630",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2020-09-30",
+    "uploadDate": "2024-04-02T08:07",
+    "size": 868908,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT04205630/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 64,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2020-05-28",
+    "completionDate": "2023-04-25",
+    "primaryCompletionDate": "2023-01-26",
+    "firstSubmitDate": "2019-12-12",
+    "firstPostDate": "2019-12-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Main Inclusion Criteria:\n\n* Females with histologically confirmed recurrent, advanced or metastatic endometrial carcinoma\n* Eligible patients should have progressed on or after first line platinum-based chemotherapy for advanced/metastatic endometrial cancer. Patients who have had two or more lines of chemotherapy for advanced/metastatic disease are not eligible, taking into account the following:\n\n  * Patients may have received up to one additional line of chemotherapy if given in the neoadjuvant or adjuvant setting. If such treatment was completed less than 6 months prior to the current tumor recurrence or progression it is to be considered first-line treatment;\n  * No more than one line of non-cytotoxic systemic cancer therapy (such as immunotherapy, trastuzumab or protein kinase inhibitors) is allowed.\n* HER2 tumor expression defined as a 1+, 2+ or 3+ score on IHC or positive by ISH\n* At least one measurable cancer lesion as defined by the Response Evaluation Criteria for Solid Tumours (RECIST version 1.1);\n* Eastern Cooperative Oncology Group (ECOG) performance status ≤ 2;\n\nExclusion Criteria:\n\n* Current or previous use of a prohibited medication as listed in the protocol;\n* History of infusion-related reactions and/or hypersensitivity to trastuzumab;\n* History of keratitis;\n* Severe, uncontrolled systemic disease at screening;\n* Left Ventricular Ejection Fraction (LVEF) \\< 50%, or a history of clinically significant decrease in LVEF during previous treatment with trastuzumab;\n* History of clinically significant cardiovascular disease;\n* Symptomatic brain metastases, brain metastases requiring steroids to manage symptoms, or treatment for brain metastases within 8 weeks prior to randomization;\n* History or presence of idiopathic pulmonary fibrosis, organizing pneumonia (e.g. bronchiolitis obliterans), drug-induced pneumonitis, idiopathic pneumonitis, or evidence of active pneumonitis on screening chest computed tomography (CT) scan.",
+    "healthyVolunteers": false,
+    "sex": "FEMALE",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Objective Response Rate (ORR)",
+        "description": "ORR is defined as the proportion of patients with an assessed best overall response of complete response or partial response according to Response Evaluation Criteria In Solid Tumors (RECIST) v1.1.",
+        "timeFrame": "2 years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Progression-Free Survival (PFS)",
+        "description": "PFS is defined as the time from the date of randomization to the date of first documented disease progression by investigator assessment according to RECIST v1.1 or death due to any cause, whichever occurred earlier.",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Overall Survival (OS)",
+        "description": "OS is defined as the time from date of randomization to death due to any cause.",
+        "timeFrame": "2 years"
+      },
+      {
+        "measure": "Number of Participants With Treatment-Emergent Adverse Events (AEs)",
+        "description": "AEs will be graded by the investigator as assessed by CTCAE v5.0.",
+        "timeFrame": "2 years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:50.583Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

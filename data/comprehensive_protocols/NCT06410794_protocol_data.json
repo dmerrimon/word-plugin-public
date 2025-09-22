@@ -1,0 +1,113 @@
+{
+  "nctId": "NCT06410794",
+  "briefTitle": "Virtual Reality Training in Occupational Rehabilitation",
+  "officialTitle": "Work-related Attention Bias Modification Training and Virtual Reality Training in Occupational Rehabilitation: A Multisite Pilot Study",
+  "protocolDocument": {
+    "nctId": "NCT06410794",
+    "filename": "Prot_ICF_000.pdf",
+    "label": "Study Protocol and Informed Consent Form",
+    "date": "2021-11-23",
+    "uploadDate": "2024-05-07T02:52",
+    "size": 542330,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06410794/document/Prot_ICF_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": true
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "interventionModel": "SEQUENTIAL",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 100,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2022-01-01",
+    "completionDate": "2026-01-01",
+    "primaryCompletionDate": "2026-01-01",
+    "firstSubmitDate": "2024-04-23",
+    "firstPostDate": "2024-05-13"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age between 18 - 67 years\n* Must be on sick leave, work assessment allowance or on disability pension\n* Receiving work-related rehabilitation or treatment at clinics with either an International Classification of Primary Care, Second edition (ICPC-2) within the musculoskeletal (L), psychiatric (P) or unspecific disorders (A) categories or International Classification Disorders-10 diagnosis within the mental and behavioral disorders (F), Diseases of the musculoskeletal system and connective tissue (M) or other diagnoses.\n\nExclusion Criteria:\n\n* Applying for a full disability pension;\n* Unable to complete the measures and receive instructions in Norwegian.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "67 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Increase work ability",
+        "description": "Self-reported questionnaire measures, (Work Ability Scale). Work ability: Self-rated work ability was assessed using a single-item question to determine the WAS; this question was published by Gould et al. as part of the full work ability index (WAI). The question used by this study to measure WAS (\"current work ability compared with your lifetime best\") used a scale of 0 to 10 (0 = \"completely unable to work\" and 10 = \"work ability at its best\"). The following measurement classification from Gould et al. \\[46\\] was used: poor (0 to 5), moderate (6 to 7), good (8 to 9) and excellent (10).",
+        "timeFrame": "Baseline and discharge (four weeks), and 6 and 12 months after discharge"
+      },
+      {
+        "measure": "Reduced depression and anxiety",
+        "description": "Self-reported questionnaire measure, (The Hospital Anxiety And Depression Scale).",
+        "timeFrame": "Baseline and discharge (four weeks)"
+      },
+      {
+        "measure": "Increase expectations to return to work",
+        "description": "Self-reported questionnaire measures, (Return-to-Work Expectation)",
+        "timeFrame": "Baseline and discharge (four weeks), and 6 and 12 months after discharge"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Increased cognitive performance and attention",
+        "description": "Computerized cognitive measures.\n\n\\- Rapid Visual Information Processing (Cambridge Cognition, 2020). The mean response latency on trials where the subject responded correctly. Calculated across all assessed trials.",
+        "timeFrame": "Baseline and discharge (four weeks)"
+      },
+      {
+        "measure": "Increased cognitive performance and memory",
+        "description": "Computerized cognitive measures.\n\n\\- Spatial Working Memory (Cambridge Cognition, 2020). The number of times the subject incorrectly revisits a box in which a token has previously been found.",
+        "timeFrame": "Baseline and discharge (four weeks)"
+      },
+      {
+        "measure": "Increased cognitive performance",
+        "description": "Computerized cognitive measures.\n\n\\- Stop Signal Task (Cambridge Cognition, 2020). The estimate of time when an individual can successfully inhibit their responses 50% of the time.",
+        "timeFrame": "Baseline and discharge (four weeks)"
+      },
+      {
+        "measure": "Patients's experiences in using VR",
+        "description": "Interview guide based on the participants experience.",
+        "timeFrame": "From discharge up to 5 month after discharge."
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 7
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SEQUENTIAL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:18.950Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

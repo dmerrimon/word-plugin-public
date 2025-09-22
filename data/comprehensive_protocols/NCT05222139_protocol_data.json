@@ -1,0 +1,93 @@
+{
+  "nctId": "NCT05222139",
+  "briefTitle": "Monitoring COVID-19 Vaccination Response in Fragile Populations",
+  "officialTitle": "\"Multicenter Observational Study to Assess the Incidence and Features of COVID-19 and the Response to COVID-19 Vaccination in Fragile Patients\"",
+  "protocolDocument": {
+    "nctId": "NCT05222139",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2021-09-28",
+    "uploadDate": "2021-11-05T07:02",
+    "size": 1747688,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT05222139/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 8894,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-05-24",
+    "completionDate": "2024-11-30",
+    "primaryCompletionDate": "2023-07-16",
+    "firstSubmitDate": "2021-11-08",
+    "firstPostDate": "2022-02-03"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Any age\n* Any comorbidity\n* Person (or attorney or deputy who has been authorized to make the decision for patients who lack capacity) consent to participate or appropriate local waiver of consent.\n\nExclusion Criteria:\n\n* Patients did not agree to participate",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Early immune response to COVID-19 vaccine patients",
+        "description": "To investigate the early immune response to COVID-19 vaccine in fragile patients assessing the levels of antibodies against Spike antigens and the patterns of cellular immune response",
+        "timeFrame": "3 ± 1 month after vaccination onset"
+      },
+      {
+        "measure": "Late immune response to COVID-19 vaccine",
+        "description": "To investigate the late immune response to COVID-19 vaccine in fragile patients assessing the levels of antibodies against Spike antigens and the patterns of cellular immune response",
+        "timeFrame": "12 ± 3 months after vaccination onset"
+      },
+      {
+        "measure": "Rate of COVID-19 breakthrough infections",
+        "description": "To investigate the rate of COVID-19 breakthrough infections in fragile patients within 1 year after vaccination onset",
+        "timeFrame": "within 1 year after vaccination onset"
+      },
+      {
+        "measure": "Rate of hospital admission for COVID-19 breakthrough infections condition and its impact on the outcome in fragile patients",
+        "description": "To investigate the rate of hospital admission for COVID-19 breakthrough infections in fragile patients",
+        "timeFrame": "within 1 year after vaccination onset"
+      },
+      {
+        "measure": "Rate of death for COVID-19 breakthrough infections patients",
+        "description": "To investigate the rate of death for COVID-19 breakthrough infections in fragile patients",
+        "timeFrame": "within 1 year after vaccination onset"
+      }
+    ],
+    "secondary": [],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 5,
+      "secondaryCount": 0,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:30:37.165Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

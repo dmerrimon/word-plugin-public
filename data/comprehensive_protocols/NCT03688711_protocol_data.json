@@ -1,0 +1,138 @@
+{
+  "nctId": "NCT03688711",
+  "briefTitle": "Trial to Confirm the Clinical Efficacy and Safety of Dasiglucagon in the Treatment of Hypoglycemia in Subjects With T1DM",
+  "officialTitle": "A Randomized, Double-blind, Parallel-group Trial to Confirm the Clinical Efficacy and Safety of Dasiglucagon in the Rescue Treatment of Hypoglycemia in Subjects With Type 1 Diabetes Mellitus (T1DM) Compared to Placebo",
+  "protocolDocument": {
+    "nctId": "NCT03688711",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-07-04",
+    "uploadDate": "2021-03-25T08:26",
+    "size": 2087288,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03688711/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 45,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-11-01",
+    "completionDate": "2019-03-11",
+    "primaryCompletionDate": "2019-03-11",
+    "firstSubmitDate": "2018-09-25",
+    "firstPostDate": "2018-09-28"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Female or male subjects with T1DM for at least 1 year; diagnostic criteria as defined by the American Diabetes Association (3).\n* Treated with insulin for T1DM for at least 1 year and with stable insulin treatment (defined as no more than a 10-unit daily variation in total daily insulin dose) 30 days prior to screening\n* Hemoglobin A1c \\<10%.\n* Aged between 18 and 75 years, both inclusive.\n\nExclusion Criteria:\n\n* Previous participation in a clinical trial within the dasiglucagon in the rescue treatment of hypoglycemia program.\n* Known or suspected allergy to trial drug(s) or related products.\n* History of anaphylaxis or symptoms of severe systemic allergy (such as angioedema).\n* Previous participation in this trial. Participation being defined by signing the informed consent document.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Time to Plasma Glucose Recovery.",
+        "description": "Plasma glucose recovery was defined as first increase in plasma glucose of ≥20 mg/dL (1.1 mmol/L) from baseline during the hypoglycemic clamp procedure without administration of rescue intravenous (IV) glucose. Patients who received rescue IV glucose before 45 minutes and patients not recovering within 45 minutes after dosing were censored at 45 minutes.",
+        "timeFrame": "0-45 minutes after dosing"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Plasma Glucose Recovery After Trial Drug Injection",
+        "description": "Plasma glucose recovery (patient has achieved increase in plasma glucose of ≥20 mg/dL (1.1 mmol/L)) within 30 minutes, within 20 minutes, within 15 minutes, and within 10 minutes after trial drug injection without administration of rescue intravenous (IV) glucose.",
+        "timeFrame": "0-30 minutes after dosing"
+      },
+      {
+        "measure": "Plasma Glucose Changes From Baseline",
+        "description": "Plasma glucose changes from baseline at 30 minutes, at 20 minutes, at 15 minutes, and at 10 minutes after trial drug injection or at the time of rescue (patient level).",
+        "timeFrame": "0-30 minutes after dosing"
+      },
+      {
+        "measure": "Time to Target Plasma Glucose Concentration",
+        "description": "Time to first plasma glucose concentration ≥70 mg/dL (3.9 mmol/L) without administration of rescue intravenous glucose",
+        "timeFrame": "0-45 minutes after dosing"
+      },
+      {
+        "measure": "Pharmacodynamics - Area Under the Effect Curve",
+        "description": "Plasma glucose response as area under the effect curve (AUE) above baseline from time zero to 30 minutes, AUE0-30min.",
+        "timeFrame": "0-30 minutes after dosing"
+      },
+      {
+        "measure": "Pharmacokinetics - Area Under the Plasma Concentration Curve",
+        "description": "Area under the drug concentration curve (AUC) from time zero to 90 minutes, AUC0-90min",
+        "timeFrame": "0-90 minutes after dosing"
+      },
+      {
+        "measure": "Pharmacokinetics - Area Under the Plasma Concentration Curve",
+        "description": "Area under the drug concentration curve (AUC) from time zero to 120 minutes, AUC0-120min",
+        "timeFrame": "0-120 minutes after dosing"
+      },
+      {
+        "measure": "Pharmacokinetics - Maximum Plasma Concentration",
+        "description": "Maximum plasma dasiglucagon concentration (Cmax)",
+        "timeFrame": "0-120 minutes after dosing"
+      },
+      {
+        "measure": "Pharmacokinetics - Time to Maximum Plasma Concentration",
+        "description": "Time to maximum plasma dasiglucagon concentration (tmax)",
+        "timeFrame": "0-120 minutes after dosing"
+      },
+      {
+        "measure": "Immunogenicity - Occurrence of Anti-drug Antibodies",
+        "description": "Occurrence of antibodies against dasiglucagon. Presented as percentage of patients with antibodies.",
+        "timeFrame": "58 days"
+      },
+      {
+        "measure": "Rescue Infusions of IV Glucose After Trial Drug Administration",
+        "description": "Presented as number of patients with rescue infusions of IV glucose after trial drug administration. This was a safety outcome measure. IV = intravenous",
+        "timeFrame": "0-45 minutes after dosing"
+      },
+      {
+        "measure": "Time to First Rescue Infusion of IV Glucose After Trial Drug Administration",
+        "description": "Safety outcome measure: time to first rescue infusion of IV glucose after trial drug administration. IV = intravenous",
+        "timeFrame": "0-45 minutes after dosing"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 11,
+      "otherCount": 0,
+      "totalCount": 12
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 94,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:11.338Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

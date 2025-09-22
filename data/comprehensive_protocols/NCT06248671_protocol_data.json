@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT06248671",
+  "briefTitle": "Prophylactic Treatment With Atorvastatin for Episodic Migraine.",
+  "officialTitle": "EpisodicStatinMig. A Multicentre, Triple Blind, Placebo Controlled, Parallel Group Study of Atorvastatin in Episodic Migraine",
+  "protocolDocument": {
+    "nctId": "NCT06248671",
+    "filename": "Prot_004.pdf",
+    "label": "Study Protocol",
+    "date": "2024-06-25",
+    "uploadDate": "2024-06-25T08:31",
+    "size": 1181121,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06248671/document/Prot_004.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 450,
+    "enrollmentType": "ESTIMATED"
+  },
+  "timeline": {
+    "startDate": "2024-05-01",
+    "completionDate": "2029-02-28",
+    "primaryCompletionDate": "2028-12-31",
+    "firstSubmitDate": "2024-01-19",
+    "firstPostDate": "2024-02-08"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Age 18 to 65 years.\n* Signed informed consent.\n* Episodic migraine with or without aura according to ICHD-3 criteria.\n* At inclusion, patients should retrospectively have from 4 to 14 migraine attacks per month during the last 3 months. This frequency must be confirmed in the headache diary before randomisation to treatment.\n* Debut of migraine at least one year prior to inclusion based on information in the patient record or by careful examination of previous headache history.\n* Start of migraine before 50 years.\n* No use of other migraine prophylactics during the study.\n* For women of child-bearing potential, there must be no pregnancy or planned pregnancy during the study period, and use of highly effective contraception.\n\nAfter the baseline period, just before randomisation to the study drug, inclusion criteria will be evaluated once more, and the headache diary will be evaluated. If there are, according to the headache diary, fewer attacks than 4 or more than 14 per month, the baseline period can be extended to 8 weeks, and the patient can be randomized to a treatment then if there is a mean of 4-14 attacks per 4 weeks during the 8-week's period.\n\nExclusion Criteria:\n\n* Interval headache not distinguishable from migraine.\n* Chronic migraine, chronic tension-type headache, medication overuse headache or other headache occurring on ≥ 15 days/month.\n* Pregnancy, planning to get pregnant, inability to use contraceptives, and lactating.\n* Clinical information on or signs of cholestasis or decreased hepatic or renal function.\n* High degree of comorbidity and/or frailty associated with reduced life expectancy or high likelihood of hospitalization, at the discretion of the investigator.\n* Hypersensitivity to statins or previous use of statins.\n* History of angioneurotic oedema.\n* Use of medicines for migraine prophylaxis less than 4 weeks, or of botulinum toxin less than 16 weeks, prior to start of study.\n* Current use of antiviral treatment against hepatitis C.\n* Significant psychiatric illness.\n* Having tried ≥ 3 prophylactic drugs against migraine during the last 10 years.\n* Requiring detoxification from acute medication (triptans, opioids).\n* Consistently failing to respond to any acute migraine medication.\n* Alcohol or illicit drug dependence.\n* Inability to understand study procedures and to comply with them for the entire length of the study.\n* Treatment for hypothyroidism.\n* Lactose intolerance.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of migraine days",
+        "description": "Change in number of migraine days/4 weeks from the baseline period to the treatment period.",
+        "timeFrame": "4 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of responders",
+        "description": "Number of responders (≥ 50% improvement from baseline)",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Rate of adverse events",
+        "description": "Number of patients with adverse events",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Number of doses with acute medication",
+        "description": "Doses of triptans or analgesics per 4 weeks",
+        "timeFrame": "12 weeks"
+      },
+      {
+        "measure": "Number of days with sick leave",
+        "description": "Days with sick leave per 4 weeks",
+        "timeFrame": "12 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 4,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 59,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:53.055Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

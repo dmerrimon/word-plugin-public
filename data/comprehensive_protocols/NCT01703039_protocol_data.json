@@ -1,0 +1,103 @@
+{
+  "nctId": "NCT01703039",
+  "briefTitle": "Riluzole Augmentation Pilot in Depression (RAPID) Trial",
+  "officialTitle": "Riluzole Augmentation Pilot in Depression (RAPID) Trial",
+  "protocolDocument": {
+    "nctId": "NCT01703039",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-05-01",
+    "uploadDate": "2019-06-24T13:03",
+    "size": 148972,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT01703039/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "TRIPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 21,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2013-01",
+    "completionDate": "2018-06",
+    "primaryCompletionDate": "2018-06",
+    "firstSubmitDate": "2012-10-04",
+    "firstPostDate": "2012-10-10"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Adults (ages 18-75) who meet DSM-IV criteria for a major depressive episode,\n* Hamilton Depression Rating Scale (HDRS) \\>22, and\n* No antidepressant treatment for at least three weeks\n\nExclusion Criteria:\n\n* Active drug or alcohol disorder in the past 3 months\n* History of psychosis, history of mania or hypomania\n* Epilepsy or history of seizures\n* Hypothyroidism\n* Congenital QTc prolongation\n* Liver disease\n* Lung disease\n* Acute suicide or homicide risk\n* Pregnant women, breastfeeding women, women of childbearing age not using contraception\n* Unstable medical illness\n* Elevated thyroid-stimulating hormone (TSH\\>5.0mlU/L), or\n* Abnormal liver function tests (ALT\\>50 U/L or AST\\>50 U/L)\n* ADD / ADHD (Attention deficit hyperactivity disorder)\n\nDisallowed therapies include: other psychotropic medications, including antipsychotics, mood stabilizers, benzodiazepines, barbiturates, other sedative-hypnotics, chronic opiates, or additional antidepressants, psychotherapy, electroconvulsive therapy, vagal nerve stimulations therapy, transcranial magnetic stimulation therapy, or phototherapy.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "75 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Mean Change in Hamilton Depression Rating Scale (HDRS) Score From Baseline (0 Weeks) to Endpoint at 8 Weeks",
+        "description": "The Hamilton Depression Rating Scale (HDRS) is a clinician-administered semi-structured interview with 17 questions. It is designed to measure the severity of depressive symptoms in patients with a primary depressive illness. Higher HDRS scores indicate a worse outcome. The scale has a minimum value of 0 and a maximum value of 52.",
+        "timeFrame": "0 weeks-8 weeks"
+      },
+      {
+        "measure": "Number of Patients Experiencing an Antidepressant Response (>50% Reduction in HDRS) at Endpoint of 8 Weeks",
+        "description": "The Hamilton Depression Rating Scale (HDRS) is a clinician-administered semi-structured interview with 17 questions. It is designed to measure the severity of depressive symptoms in patients with a primary depressive illness. Higher HDRS scores indicate a worse outcome. The scale has a minimum value of 0 and a maximum value of 52.",
+        "timeFrame": "0 weeks-8 weeks"
+      },
+      {
+        "measure": "Number of Patients Experiencing Remission From Depression (HDRS<7) at Endpoint of 8 Weeks",
+        "description": "The Hamilton Depression Rating Scale (HDRS) is a clinician-administered semi-structured interview with 17 questions. It is designed to measure the severity of depressive symptoms in patients with a primary depressive illness. Higher HDRS scores indicate a worse outcome. The scale has a minimum value of 0 and a maximum value of 52.",
+        "timeFrame": "0 weeks-8 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Mean Change in Hamilton Anxiety Rating Scale (HARS) Score From Baseline (0 Weeks) to Endpoint at 8 Weeks",
+        "description": "The HARS scale is a clinician rated interview scale designed to measure the signs and symptoms of anxiety. It has 14-items to rate the intensity of psychic and somatic anxiety on a 5-point severity scale. Each item ranging from 0 (not present) to 4 (very severe) were summed up to give a total possible score of 0 (not present) to 56 (very severe), where lower scores indicate less anxiety.",
+        "timeFrame": "0 weeks-8 weeks"
+      },
+      {
+        "measure": "Mean Change in Clinical Global Impression (CGI) Scale From Baseline (0 Weeks) to Endpoint at 8 Weeks",
+        "description": "The Clinical Global Impression Scale (CGI) is a brief clinician-rated instrument. The CGI is rated on a 7-point scale, with the severity of illness scale using a range of responses from 1 (normal) through to 7 (amongst the most severely ill patients). CGI-C scores range from 1 (very much improved) through to 7 (very much worse). Treatment response ratings should take account of both therapeutic efficacy and treatment-related adverse events and range from 0 (marked improvement and no side-effects) and 4 (unchanged or worse and side-effects outweigh the therapeutic effects). Each component of the CGI is rated separately; the instrument does not yield a global score.",
+        "timeFrame": "0 weeks-8 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 69,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:18.419Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

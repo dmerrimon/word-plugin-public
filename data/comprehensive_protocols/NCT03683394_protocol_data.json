@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT03683394",
+  "briefTitle": "Systematic Multi-domain Alzheimer's Risk Reduction Trial",
+  "officialTitle": "Multidomain Alzheimers Risk Reduction Study (MARRS) Pilot",
+  "protocolDocument": {
+    "nctId": "NCT03683394",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2023-06-26",
+    "uploadDate": "2023-06-26T16:09",
+    "size": 582233,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03683394/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "SINGLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 172,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-08-30",
+    "completionDate": "2022-08-10",
+    "primaryCompletionDate": "2022-08-10",
+    "firstSubmitDate": "2018-09-20",
+    "firstPostDate": "2018-09-25"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* 70-89 Years of Age\n* Fluent in the English Language\n* Low-normal performance on a brief telephone cognitive screen, measured using the Cognitive Abilities Screening Instruments (CASI). Low-normal scores are defined as 26-29.\n* Has at least two additional risk factors that will be targeted by the intervention.\n\nExclusion Criteria:\n\n* Residing in a skilled nursing or rehabilitation facility\n* Receiving palliative care or hospice services\n* Charlson comorbidity index score of greater than 5\n* Bipolar illness or schizophrenia\n* Current alcohol or drug use disorder\n* Receiving chronic opioid therapy\n* Parkinson's disease, amyotrophic lateral sclerosis, or multiple sclerosis\n* Severe visual or hearing impairment\n* Requests not to be contacted or not to have their medical record reviewed for research\n* Prior evidence of dementia",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "70 Years",
+    "maximumAge": "89 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Cognitive Change",
+        "description": "Cognitive function will be measured by the modified Neuropsychological Test Battery (mNTB) global score, which is a composite z-score, an average of z-scores from tests of several cognitive domains. The total score is reported. Higher values signify higher cognitive performance. A z-score of 0 represents the population mean.\n\nTreatment effects were estimated using linear mixed models (LMMs) for the changes from baseline to each follow-up assessment (6, 12, 18, and 24 months), with average treatment effects (ATEs) estimated by the average of the four visit-specific between-group differences in adjusted mean change from baseline.\n\nChanges made to the protocol due to Covid-19, i.e., switching to telephone data collection, will likely limit our ability to examine cognitive change effectively, as several of the most important cognitive tests cannot be administered via telephone.",
+        "timeFrame": "2 Years"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Targeted Risk Factors",
+        "description": "A composite Z-score for risk factors based on the following: the Rapid Assessment of Physical Activity for Older Adult (RAPA), steps per day averaged over 7 days; blood pressure measures averaged for each six-month period for participants with hypertension; the Pittsburgh Sleep Quality Index (PSQI); use of potentially harmful prescription medications; the Center for Epidemiologic Studies - Depression Scale (CES-D); hemoglobin A1c (HbA1c) values averaged over a 12-month time period; the Patient-Reported Outcomes Measurement Information System (PROMIS) Satisfaction with Social Activities, Short Form; and self-reported smoking. Higher score indicates greater risk factor burden. A z-score of 0 represents the population mean.\n\nTreatment effects were estimated using LMMs for the changes from baseline to each follow-up assessment (6, 12, 18, and 24 months), with ATEs estimated by the average of the four visit-specific between-group differences in adjusted mean change from baseline.",
+        "timeFrame": "2 Years"
+      },
+      {
+        "measure": "Quality of Life Measure",
+        "description": "Measured with Patient-Reported Outcomes Measurement Information System (PROMIS) Global Health. Higher score indicates better global health and quality of life; range = 0 to 20.",
+        "timeFrame": "2 Years"
+      },
+      {
+        "measure": "Number of Participants With Mild Cognitive Impairment, Alzheimer's Disease, and Dementia",
+        "description": "Number of participants at follow up visits with Mild Cognitive Impairment, Alzheimer's Disease, and/or Dementia or with a low score on the Cognitive Abilities Screening Instrument (CASI) (\\<27 consistent with cognitive impairment). Lower score indicates poorer cognition; range is 0-33.",
+        "timeFrame": "2 Years"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 54,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:41.068Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

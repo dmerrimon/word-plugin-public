@@ -1,0 +1,143 @@
+{
+  "nctId": "NCT06584656",
+  "briefTitle": "Understanding Cerebral Blood Flow Dynamics for Alzheimer's Disease Prevention Through Exercise",
+  "officialTitle": "Understanding Cerebral Blood Flow Dynamics for Alzheimer's Disease Prevention Through Exercise: the flADex Study",
+  "protocolDocument": {
+    "nctId": "NCT06584656",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2024-12-16",
+    "uploadDate": "2024-12-17T12:46",
+    "size": 499178,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT06584656/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "CROSSOVER",
+  "masking": "DOUBLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2024-09-25",
+    "completionDate": "2025-01-02",
+    "primaryCompletionDate": "2025-01-02",
+    "firstSubmitDate": "2024-08-06",
+    "firstPostDate": "2024-09-05"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Older adults\n* Aged 68-83 years\n* Non-pathological cerebral beta-amyloid status (based on Centiloid cut-point \\<12 measured by PET-CT)\n* APOEe4 negative status\n* Willingness to participate in exercise interventions\n\nExclusion Criteria:\n\n* Pathological diagnosis related to physical or mental condition\n* No living in community settings during the study\n* MRI incompatibility\n* Ambulatory with pain or regular use of an assisted walking device\n* Severe cardiovascular or respiratory conditions\n* Participation in another clinical trial within the last 30 days",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "68 Years",
+    "maximumAge": "83 Years",
+    "stdAges": [
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Change in Cerebral Blood Flow (CBF)",
+        "description": "Specific acquisition parameters for Pseudo continuous Arterial Spin Labeling (pCASL) sequence are used to determinate global and regional CBF in resting condition. Structural T1 sequence (only pre-condition) is used to coregisted the pCASL and delineate regions of interest for CBF. Time-of-flight angiography (TOF) (before pCASL pre-condition and before first pCASL post-condition) sequence is used to identify the carotid arteries. The unit of measurement of the CBF is expressed as milliliters per 100 grams of brain tissue per minute (mL/100 g/min).",
+        "timeFrame": "30 minutes before the experimental condition; and 20 minutes, 27 minutes and 34 minutes minutes after the experimental condition"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Change in Alzheimer disease blood-based biomarkers (Aβ42/40 ratio)",
+        "description": "The following biomarkers will be assessed: Amyloid-beta 42 (Aβ42), Amyloid-beta 40 (Aβ40). Aβ42 and Aβ40 will be combined to report Aβ42/40 ratio. Unit of measurement: Aβ42/40 is a ratio (no units) and represents the relative concentration of Aβ42 to Aβ40.",
+        "timeFrame": "5 minutes before the experimental condition; and 0 minutes, 50 minutes and 70 minutes after the experimental condition"
+      },
+      {
+        "measure": "Change in Alzheimer disease blood-based biomarkers (p-tau217, p-tau181, NfL and GFAP)",
+        "description": "The following biomarkers will be assessed: phosphorylated tau protein at positions 217 and 181 (p-tau217, p-tau181), Glial Fibrillary Acidic Protein (GFAP) and Neurofilament Light Chain (NfL). Unit of measurement: p-tau217, p-tau181, NfL and GFAP are commonly measured in picograms per milliliter (pg/mL).",
+        "timeFrame": "5 minutes before the experimental condition; and 0 minutes, 50 minutes and 70 minutes after the experimental condition"
+      },
+      {
+        "measure": "Change in growth factors (BDNF)",
+        "description": "Brain-Derived Neurotrophic Factor (BDNF) will be measured. Unit of measurement: BDNF is commonly measured in picograms per milliliter (pg/mL).",
+        "timeFrame": "5 minutes before the experimental condition; and 0 minutes, 50 minutes and 70 minutes after the experimental condition"
+      },
+      {
+        "measure": "Change in growth factors (IGF-1)",
+        "description": "Insulin-Like Growth Factor 1 (IGF-1) will be measured. Unit of measurement: IGF-1 is commonly measured in nanograms per milliliter (ng/mL).",
+        "timeFrame": "5 minutes before the experimental condition; and 0 minutes, 50 minutes and 70 minutes after the experimental condition"
+      },
+      {
+        "measure": "Change in episodic memory",
+        "description": "Episodic memory will be assessed using the Picture Sequence Memory Test from the Cognitive NIH Toolbox. The Cognitive NIH Toolbox is a computer-based battery which is available in Spanish. The Picture Sequence Memory Test measures episodic memory by deriving the participant's score from the cumulative number of adjacent pairs of pictures remembered correctly over two learning trials. The variable used for the for the PSMT is the theta score: The number of adjacent pairs placed correctly for each of trials 1 and 2 is converted to a theta score. This is a representation of the given participant estimated ability in the task.",
+        "timeFrame": "15 minutes before the experimental condition; and 60 minutes after the experimental condition"
+      },
+      {
+        "measure": "Change in inhibition/attention",
+        "description": "The Flanker task measures inhibitory control and attention by using the inverse efficiency score of incongruent trials. The inverse efficiency score is calculated as reaction time/accuracy (RT/ACC).",
+        "timeFrame": "15 minutes before the experimental condition; and 60 minutes after the experimental condition"
+      },
+      {
+        "measure": "Mood status",
+        "description": "Mood status will be evaluated using the validated scale Profile of Mood States (POMS). The POMS scale is a psychological assessment tool used to measure and evaluate a person's mood states. It consists of a questionnaire with a list of 15 adjectives or mood descriptors, where individuals rate how they have been feeling on a scale typically ranging from \"Not at all\" to \"Extremely\". We use an abbreviated version of the scale with 15 ítems. The ítems are divided into 5 dimensions: depression, vigour, anger, tension and fatigue. The final score is: (\\[depression\\]+\\[anger\\]+\\[tension\\]+\\[fatigue\\]) - \\[vigour\\].",
+        "timeFrame": "POMS will be measured 60 minutes before the experimental condition; and 70 minutes after the experimental condition"
+      },
+      {
+        "measure": "Feeling scale",
+        "description": "Emotional response will be evaluated using the feeling scale (FS). The FS is an 11-point scale ranging from -5 (very bad) to +5 (very good) used to measure an individual's emotional feeling in terms of pleasure or displeasure at a specific moment.",
+        "timeFrame": "Feeling scale will be measured 1 minute before the experimental condition; and 1 minute after the experimental condition"
+      }
+    ],
+    "other": [
+      {
+        "measure": "Enjoyment",
+        "description": "Enjoyment of Physical activity will be assessed using the Physical activity Enjoyment scale (PACES): The PACES is an 18-item scale but we will use the reduced and validated version of 8 items, assessing in a range of 1 to 7 a series of sensations or moods with respect to its opposite, so that it is easier and more practical for participants.",
+        "timeFrame": "5 minutes after the experimental condition"
+      },
+      {
+        "measure": "Physical engagement (in aerobic condition and resistance condition)",
+        "description": "Perceived exertion of exercise (RPE) will be assessed using the OMNI-Resistance Exercise Scale (OMNI-RES) of perceived exertion from 0-10.",
+        "timeFrame": "During the experimental condition at minute 12, minute 20, and minute 30"
+      },
+      {
+        "measure": "Repetitions in reserve (in resistance condition)",
+        "description": "The Repetitions in Reserve (RIR) will be assessed after each exercise in the resistance condition. RIR method is a self-regulation technique used in strength training to gauge exercise intensity. It involves estimating how many more repetitions you could perform before reaching failure after completing a set.",
+        "timeFrame": "During the resistance condition after each exercise at minutes 5, 6, 7, 8, 9, 10, 11, 12 / 14, 15, 16, 17, 18, 19, 20, 21 / 23, 24, 25, 26, 27, 28, 29, 30"
+      },
+      {
+        "measure": "Cognitive engagement",
+        "description": "Cognitive engagement will be assessed by the Cognitive Load Measurement scale. The Cognitive Load Scale is a 9 ítem scale used to assess the mental effort or cognitive load experienced by individuals when engaging in a task, particularly in educational or learning contexts. It involves a self-reported measure where participants rate their perceived mental effort on a scale, ranging from 1 very low mental effort; to 9 very high mental effort.",
+        "timeFrame": "During the experimental condition at minute 12, minute 20, and minute 30"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 8,
+      "otherCount": 4,
+      "totalCount": 13
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "CROSSOVER"
+    },
+    "overallComplexityScore": 87,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T02:29:39.277Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

@@ -1,0 +1,105 @@
+{
+  "nctId": "NCT03187769",
+  "briefTitle": "Study to Evaluate the Efficacy of ALKS 3831 on Body Weight in Young Adults Who Have Been Recently Diagnosed With Schizophrenia, Schizophreniform, or Bipolar I Disorder",
+  "officialTitle": "A Study to Evaluate the Effect of ALKS 3831 Compared to Olanzapine on Body Weight in Young Adults With Schizophrenia, Schizophreniform, or Bipolar I Disorder Who Are Early in Their Illness",
+  "protocolDocument": {
+    "nctId": "NCT03187769",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2019-06-19",
+    "uploadDate": "2022-12-14T14:51",
+    "size": 745741,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03187769/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE3"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "interventionModel": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "enrollmentInfo": {
+    "enrollmentCount": 426,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-06-08",
+    "completionDate": "2022-01-03",
+    "primaryCompletionDate": "2021-12-01",
+    "firstSubmitDate": "2017-06-08",
+    "firstPostDate": "2017-06-15"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Has less than 24 weeks previous treatment with antipsychotics (cumulative; lifetime)\n\n  * Subject treated with aripiprazole can receive an additional 1 year of treatment at ≤5 mg/day, and this treatment will not be considered as part of the 24 weeks of previous treatment with antipsychotics\n* Has less than 4 years elapse since the initial onset of active-phase of symptoms\n* Has a body mass index (BMI) of \\<30 kg/m\\^2\n* Agrees to use an acceptable method of contraception for the duration of the study and for 30 days after the last dose of study drug\n* Subject meets the criteria for a primary diagnosis of schizophrenia, schizophreniform disorder, or bipolar I disorder\n* For bipolar I disorder, must have been experiencing an episode of acute mania within ≤14 days prior to Visit 1\n* Suitable for outpatient treatment\n* Additional criteria may apply\n\nExclusion Criteria:\n\n* Poses a current suicide risk\n* Has a history of poor or inadequate response to treatment with olanzapine\n* Has previously been treated with long-acting injectable antipsychotic medication within the 2 months prior to screening, or has \\> 6 months cumulative life use, or has received treatment with electroconvulsive therapy in their lifetime\n* Has initiated treatment with mood stabilizers (eg lithium, valproate, etc) \\>2 months prior to Visit 1\n* Has a positive drug screen for opioids, phencyclidine (PCP), amphetamine/methamphetamine, or cocaine\n* Has taken opioid agonists (eg, codeine, oxycodone, tramadol, morphine) within the 14 days prior to Visit 1, or has taken opioid antagonists, including naltrexone and naloxone, within 60 days prior to Visit 1\n* Taking any weight loss agents or hypoglycemic agents\n* Has a clinically significant or unstable medical illness, condition, or disorder that would be anticipated to potentially compromise subject safety or adversely affect the evaluation of efficacy\n* Has joined a weight management program or had significant changes in diet or exercise regimen within the past 6 weeks\n* Has started a smoking cessation program within the past 6 months\n* Has a history of diabetes\n* Currently pregnant or breastfeeding or is planning to become pregnant during the study or within 30 days of the last study drug administration\n* Additional criteria may apply",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "16 Years",
+    "maximumAge": "40 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Percent Change From Baseline in Body Weight at Week 12",
+        "description": "The efficacy analyses were performed using the Final Analysis Set which is defined as all randomized subjects who received one dose of study drug and had at least 1 primary efficacy assessment after administration of study drug",
+        "timeFrame": "Baseline and 12 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Percentage of Subjects With ≥10% Weight Gain at Week 12",
+        "description": "Percentage of weight gain is analyzed based on the subject's assessment status (≥10% vs \\<10%) at Week 12 using a logistic regression model including treatment group, diagnosis (schizophrenia/schizophreniform disorder vs bipolar I disorder), region (US vs non-US), and baseline BMI (\\<25 vs ≥25) as factors and baseline weight as covariate.",
+        "timeFrame": "Baseline and 12 weeks"
+      },
+      {
+        "measure": "Percentage of Subjects With ≥7% Weight Gain at Week 12",
+        "timeFrame": "Baseline and 12 weeks"
+      },
+      {
+        "measure": "Number of Participants Experiencing of Adverse Events (AEs)",
+        "timeFrame": "Up to 16 weeks"
+      },
+      {
+        "measure": "Change From Baseline in Waist Circumference at Week 12",
+        "timeFrame": "Baseline and Week 12"
+      },
+      {
+        "measure": "Change From Baseline in Clinical Global Impression-Severity (CGI-S) Score Within the ALKS 3831 Group at Week 12",
+        "description": "Clinical Global Impression-Severity (CGI-S) Score is a 3-item, clinician-rated scale used to assess global illness severity, overall improvement from the start of treatment, and therapeutic response. It is a 7-point scale that requires the clinician to assess how mentally ill the patient is at a specific point in time. Based on the scale, patients are categorized as follows: \"1: normal, not at all ill\"; \"2: borderline mentally ill\"; \"3: mildly ill\"; \"4: moderately ill\"; \"5: markedly ill\"; \"6: severely ill\"; and \"7: among the most extremely ill patients.\"",
+        "timeFrame": "Baseline and Week 12"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 1,
+      "secondaryCount": 5,
+      "otherCount": 0,
+      "totalCount": 6
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE3"
+      ],
+      "isRandomized": true,
+      "isMasked": true,
+      "interventionModel": "PARALLEL"
+    },
+    "overallComplexityScore": 64,
+    "complexityCategory": "Complex"
+  },
+  "collectionDate": "2025-09-21T22:34:19.001Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Mass Collection"
+}

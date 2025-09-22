@@ -1,0 +1,176 @@
+{
+  "nctId": "NCT07177690",
+  "briefTitle": "A Study of the Impact of Penicillin Allergy on Antimicrobial Resistance and ouTcomes",
+  "officialTitle": "A Study of the Impact of Penicillin Allergy on Antimicrobial Resistance and ouTcomes",
+  "protocolDocument": {
+    "nctId": "NCT07177690",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2022-01-25",
+    "uploadDate": "2025-07-22T07:29",
+    "size": 373368,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT07177690/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [],
+  "studyType": "OBSERVATIONAL",
+  "enrollmentInfo": {
+    "enrollmentCount": 214,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2021-11-30",
+    "completionDate": "2025-12-01",
+    "primaryCompletionDate": "2024-04-24",
+    "firstSubmitDate": "2025-07-22",
+    "firstPostDate": "2025-09-17"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Workstream 1\n\n  1. Adult (\\>16 years) with confirmed COVID-19 (positive PCR test)\n  2. Admitted to participating NHS Trusts/hospitals between 01/02/2020 to 30/06/2020\n* Workstream 2\n\n  1. Adult (≥18 years) patients with a penicillin allergy or a matched patients (by age and sex) without a penicillin allergy\n  2. Received antibiotics in the 24 months prior to recruitment\n  3. Willing to provide saliva +/- stool samples\n* Workstream 3\n\n  1. Patients enrolled into the ALABAMA trial\n\nExclusion Criteria:\n\n* Workstream 1\n\n  a. Patients with their allergy status missing will be excluded.\n* Workstream 2\n\n  1. Patients unable to give informed consent or who are unwilling/unable to provide saliva samples\n  2. Unwilling/unable to provide saliva samples\n* Workstream 3\n\n  1. Patients unable to give informed consent or who are unwilling/unable to provide saliva samples\n  2. Unwilling/unable to provide saliva samples",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "16 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Workstream 1: 60 day mortality in patients with and without penicillin allergy",
+        "description": "This outcome will measure mortality within 60 days of positive COVID-19 test. Comparative analysis will be conducted between patients with and without a documented penicillin allergy.",
+        "timeFrame": "60 days from the date of positive COVID 19 test"
+      },
+      {
+        "measure": "Workstream 2: The prevalence of antibiotic resistance genes (ARGs) in the mouth of patients with and without a penicillin allergy record.",
+        "description": "The prevalence of ARGs will be assessed using shotgun metagenomic sequencing of saliva samples. Comparative analysis will be conducted between patients with and without a documented penicillin allergy.",
+        "timeFrame": "At enrolment"
+      },
+      {
+        "measure": "Workstream 3: Change in abundance of antibiotic resistance genes in saliva samples collected from participants enrolled in the ALABAMA trial",
+        "description": "This outcome will determine the change in antibiotic resistance gene (ARG) abundance over time in patients who received the ALABAMA trial intervention (penicillin allergy assessment) compared to those in the control group (no penicillin allergy assessment). This analysis will focus on the subset of ALABAMA trial patients with at least one antibiotic prescription prior to their second saliva sampling. Comparative analysis will be conducted between the penicillin allergy assessment group and the no penicillin allergy assessment group.",
+        "timeFrame": "At enrolment (first sample collection) and 6 to 12 months post-enrolment (second sample collection)"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Workstream 1: Length of hospital stay in patients with and without a penicillin allergy.",
+        "description": "This will be determined by a retrospective measurement of total hospital stay (day 0 = date of admission), calculated as days from admission date to the date of discharge or inpatient death (whichever occurred first). Comparative analysis will be conducted between patients with and without a documented penicillin allergy.",
+        "timeFrame": "Time of hospital admission to discharge or inpatient death for each patient, assessed up to 600 days"
+      },
+      {
+        "measure": "Workstream 1: Number of AMR bacterial infections in patients with and without a penicillin allergy.",
+        "description": "This will be determined by blood cultures and deep respiratory culture positivity, and a infection will be considered to be a AMR/resistant infection if the isolated pathogen is resistant to ≥1 antibiotic agent in 3 or more antibiotic classes. Comparative analysis will be conducted between patients with and without a documented penicillin allergy.",
+        "timeFrame": "Time of hospital admission to discharge or inpatient death for each patient, assessed up to 600 days"
+      },
+      {
+        "measure": "Workstream 1: Total antibiotic usage in patients with and without a penicillin allergy.",
+        "description": "This outcome will assess inpatient antibiotic use including antibiotic agent, route of administration and duration following COVID-19 diagnosis in hospital from day 1 of COVID-19 diagnosis to date of discharge or death (inclusive of day 1 and last day). Comparative analysis will be conducted between patients with and without a documented penicillin allergy.",
+        "timeFrame": "Time of hospital admission to discharge or inpatient death for each patient, assessed up to 600 days"
+      },
+      {
+        "measure": "Workstream 1: Rates of treatment failure in patients with and without a penicillin allergy.",
+        "description": "This will be defined as re-prescription of an antibiotic within 30 days of index antibiotic prescription. Comparative analysis will be conducted between patients with and without a documented penicillin allergy.",
+        "timeFrame": "Time of hospital admission to discharge or inpatient death for each patient, assessed up to 600 days"
+      },
+      {
+        "measure": "Workstream 1: ICU admission rates in patients with and without a penicillin allergy.",
+        "description": "The number of admission to intensive care units (ICU) will be counted. Comparative analysis will be conducted between patients with and without a documented penicillin allergy.",
+        "timeFrame": "Time of hospital admission to discharge or inpatient death for each patient, assessed up to 600 days"
+      },
+      {
+        "measure": "Workstream 1: Rate of Clostridioides difficile infection in patients with and without a penicillin allergy.",
+        "description": "This will be determined by a toxin positive result from day 1 of COVID-19 diagnosis. Comparative analysis will be conducted between patients with and without a documented penicillin allergy.",
+        "timeFrame": "Time of hospital admission to discharge or inpatient death for each patient, assessed up to 600 days"
+      },
+      {
+        "measure": "Workstream 1: 30 day mortality in patients with and without a penicillin allergy",
+        "description": "This outcome will measure mortality within 30 days of COVID-19 diagnosis in patients with and without penicillin allergy.",
+        "timeFrame": "30 days from COVID-19 diagnosis"
+      },
+      {
+        "measure": "Workstream 2: The difference in diversity of antibiotic resistance genes (ARGs) in oral microbiome of patients with and without a penicillin allergy record.",
+        "description": "This outcome will assess the diversity of ARGs using shotgun metagenomic and metatranscriptomic sequencing of saliva samples collected at the time of enrolment. Bioinformatic analysis will be performed to quantify the overall counts, relative abundance, and diversity indices (e.g., Shannon and Simpson diversity) of ARGs. Comparative analysis will be conducted between patients with and without penicillin allergy to determine differences in ARG diversity.",
+        "timeFrame": "Enrolment"
+      },
+      {
+        "measure": "Workstream 2: The number of resistance genes to specific antibiotic classes present in the oral microbiome of patients with and without a penicillin allergy record.",
+        "description": "This outcome will assess the number antibiotic resistance genes (ARGs) associated with specific antibiotic classes using shotgun metagenomic sequencing of saliva samples. A comparative analysis will be conducted between patients with and without a documented penicillin allergy.",
+        "timeFrame": "Enrolment"
+      },
+      {
+        "measure": "Workstream 2: To determine whether a metagenomic or transcriptomic approach could be used to predict phenotypic antibiotic susceptibility",
+        "description": "This outcome will evaluate whether of shotgun metagenomic and metatranscriptomic sequencing of saliva samples can be used to predict phenotypic antibiotic susceptibility. Saliva samples taken at enrolment will undergo metagenomic and transcriptomic sequencing analysis to identify antibiotic resistance genes and their expression as well as antimicrobial susceptibility testing (AST) on cultured bacterial isolates from the same samples to determine actual resistance profiles.",
+        "timeFrame": "Enrolment"
+      },
+      {
+        "measure": "Workstream 3: The change in the abundance and richness of antibiotic resistance genes (ARGs) over time between patients who had the ALABAMA trial intervention and those in the control group",
+        "description": "This outcome will assess the change over time in the abundance and richness of ARGs in the oral microbiome, and where available, the gut microbiome. Samples will be analysed using shotgun metagenomic sequencing of saliva and optional stool samples. Bioinformatic analysis will include overall ARG counts, relative abundance and diversity indices (e.g., Shannon and Simpson diversity).\n\nComparative analysis will be conducted between patients who received the intervention (penicillin allergy assessment) and those in the control group (no penicillin allergy assessment) to evaluate differences in ARG dynamics over time.",
+        "timeFrame": "At enrolment (first sample collection) and 6 to 12 months post-enrolment (second sample collection)."
+      },
+      {
+        "measure": "Workstream 3: The number and abundance of 'non-penicillin' antibiotic resistance genes in patients who had the ALABAMA trial intervention (penicillin allergy assessment) and those in the control group (no penicillin allergy assessment).",
+        "description": "This outcome will assess the number and abundance of ARGs associated with non-penicillin antibiotic classes (e.g., macrolides, tetracyclines, fluoroquinolones, aminoglycosides) in the oral microbiome, and where available, the gut microbiome. Comparative analysis will be conducted between patients who received the intervention and those in the control group to evaluate differences in ARG dynamics over time.",
+        "timeFrame": "At enrolment (first sample collection) and 6 to 12 months post-enrolment (second sample collection)"
+      },
+      {
+        "measure": "Workstream 3: The number and abundance of 'penicillin' antibiotic resistance genes (ARGs) in patients who had the ALABAMA trial intervention (penicillin allergy assessment) and those in the control group (no penicillin allergy assessment).",
+        "description": "This outcome will assess the number and abundance of ARGs specifically associated with penicillin-class antibiotics in the oral microbiome, and where available, the gut microbiome. Comparative analysis will be conducted between patients who received the intervention and those in the control group to evaluate differences in ARG dynamics over time.",
+        "timeFrame": "At enrolment (first sample collection) and 6 to 12 months post-enrolment (second sample collection)."
+      }
+    ],
+    "other": [
+      {
+        "measure": "Workstream 3: To determine the number of patients from the ALABAMA trial who consented to participate in this sub-study.",
+        "description": "Feasibility outcome to evaluate the feasibility of conducting the ARG sub-study by reporting the number and percentage of ALABAMA trial participants who provided consent to join the sub-study.",
+        "timeFrame": "From the start of recruitment until the end of the recruitment period, estimated to last up to 5 years"
+      },
+      {
+        "measure": "Workstream 3: To determine the number of patients who provide baseline samples",
+        "description": "Feasibility outcome to evaluate the feasibility of conducting the ARG sub-study by reporting the number and percentage of participants who provide a sample at baseline (enrolment).",
+        "timeFrame": "At enrolment"
+      },
+      {
+        "measure": "Workstream 3: To determine the number of patients who provide a second sample",
+        "description": "Feasibility outcome to evaluate the feasibility of conducting the ARG sub-study by reporting the number and percentage of participants who provide a second sample 6 to 12 months post-enrolment.",
+        "timeFrame": "Six to twelve months post-enrolment"
+      },
+      {
+        "measure": "Workstream 3: Explore the relationship between antibiotic resistance gene (ARG) abundance and treatment response failure",
+        "description": "This feasibility outcome aims to generate initial data to inform the design of future research studies. Measures will include relative abundance of ARGs.",
+        "timeFrame": "Up to 12 months post-enrolment"
+      },
+      {
+        "measure": "Workstream 3: Explore the relationship between antibiotic resistance gene (ARG) richness and treatment response failure",
+        "description": "This feasibility outcome aims to generate initial data to inform the design of future research studies. Measures will include overall counts of unique ARGs and diversity indices to assess ARG richness.",
+        "timeFrame": "Up to 12 months post-enrolment"
+      }
+    ]
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 0,
+      "exclusionCount": 0,
+      "totalCount": 0
+    },
+    "endpoints": {
+      "primaryCount": 3,
+      "secondaryCount": 13,
+      "otherCount": 5,
+      "totalCount": 21
+    },
+    "studyDesign": {
+      "phases": [],
+      "isRandomized": false,
+      "isMasked": true
+    },
+    "overallComplexityScore": 100,
+    "complexityCategory": "Highly Complex"
+  },
+  "collectionDate": "2025-09-22T05:06:11.775Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Ultimate Complete Collection"
+}

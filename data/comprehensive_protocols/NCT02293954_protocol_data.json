@@ -1,0 +1,97 @@
+{
+  "nctId": "NCT02293954",
+  "briefTitle": "Copper Cu 64 Anti-CEA Monoclonal Antibody M5A PET in Diagnosing Patients With CEA Positive Cancer",
+  "officialTitle": "Pilot Study: Detection of Carcinomas Using 64Cu-Labeled M5A Antibody to Carcinoembryonic Antigen (CEA)",
+  "protocolDocument": {
+    "nctId": "NCT02293954",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-05-03",
+    "uploadDate": "2023-02-28T14:39",
+    "size": 1109135,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02293954/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "NA"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2015-11-11",
+    "completionDate": "2025-09-11",
+    "primaryCompletionDate": "2022-03-06",
+    "firstSubmitDate": "2014-10-09",
+    "firstPostDate": "2014-11-19"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Patients must have histologically confirmed primary or metastatic cancer; if biopsies were performed at an outside facility, the histology must be reviewed and confirmed by the Department of Pathology at the City of Hope\n* Patients must have tumors that produce CEA as documented by a current or past history of an elevated serum CEA above the institutional limit of normal, or by immunohistochemical methods; NOTE: Patients with colorectal cancer are exempt from this requirement since \\> 95% are CEA positive\n* Women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control or abstinence) prior to study entry and for six months following duration of study participation; should a woman become pregnant or suspect that she is pregnant while participating on the trial, she should inform her treating physician immediately\n* Patients must have a known site of disease; please note, for patients undergoing neoadjuvant therapy, this requirement must be met retrospectively prior to the start of neoadjuvant therapy; patients who are in radiological/clinical remission after neoadjuvant therapy, prior to infusion of radiolabeled antibody, are still eligible\n* Although not mandated by the protocol, the results of the CT scan and labs (complete blood count \\[CBC\\], comprehensive metabolic panel \\[CMP\\]) that are performed as part of the standard work up should be available and should have been done within 2 months prior to study entry\n* All subjects must have the ability to understand and the willingness to sign a written informed consent\n* Prior therapy (chemotherapy, immunotherapy, radiotherapy) must be completed at least 2 weeks prior to infusion of radiolabeled antibody\n\nExclusion Criteria:\n\n* Patients should not have any uncontrolled illness including ongoing or active infection\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition to copper Cu 64 anti-CEA monoclonal antibody M5A (64Cu-M5A)\n* Patients must not have received prior chemotherapy or radiation for \\>= 2 weeks before study enrollment\n* Pregnant women are excluded from this study; breastfeeding should be discontinued is the mother is treated with 54Cu-m5A\n* Any patient who has had exposure to mouse or chimeric (human/mouse) immunoglobulin and has antibody to the M5A\n* Subjects, who in the opinion of the investigator, may not be able to comply with the safety monitoring requirements of the study",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Tumor Uptake of 64Cu-DOTA-hT4.66-M5A at Day 1",
+        "description": "Tumor uptake measured by SUVmax of 64Cu-DOTA-hT4.66-M5A at day1 for hottest lesion from each patient. For tumors of at least 2 cm in diameter SUV (=tumor activity concentration/injected activity per unit body weight).",
+        "timeFrame": "At day 1"
+      },
+      {
+        "measure": "Tumor Uptake of 64Cu-DOTA-hT4.66-M5A at Day 2",
+        "description": "Tumor uptake measured by SUVmax of 64Cu-DOTA-hT4.66-M5A at day 2 for hottest lesion from each patient. For tumors of at least 2 cm in diameter SUV (=tumor activity concentration/injected activity per unit body weight).",
+        "timeFrame": "At day 2"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Human Anti-human Antibody (HAHA) Positive Response to 64Cu Labeled M5A Antibody",
+        "description": "Approximately 5 ml (1 teaspoon) of blood in a red top tube will be drawn at 1 month post study drug infusion and 3 months post study drug infusion. Response at either 1 or 3 months post study drug infusion constitutes a positive response.",
+        "timeFrame": "At 1 and 3 months post study drug infusion"
+      },
+      {
+        "measure": "The Average Increase of Tumor-to-blood (T:B) Ratio From Day 1 to Day 2",
+        "description": "Scan results were compared to known sites of disease as defined by sites identified on CT scans, MRI scans, FDG PET scans, or sites identified at surgery that were histologically positive for cancer. The 64Cu SUVs on both day 1 and 2 scans were evaluated in tumors and selected nontumor organs and tissues (blood pool, liver, spleen, and kidney). Tumor uptake was measured in terms of SUVmax values, while organ uptake to assess biodistribution was measured in terms of SUVmean values. Ratios of tumor-to-blood activity concentration (T:B) were calculated as the ratio of tumor SUVmax to average SUV (SUVmean) measured in the blood pool.",
+        "timeFrame": "At day 1 and day 2"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 2,
+      "otherCount": 0,
+      "totalCount": 4
+    },
+    "studyDesign": {
+      "phases": [
+        "NA"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 34,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:12.053Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

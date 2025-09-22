@@ -1,0 +1,92 @@
+{
+  "nctId": "NCT03501550",
+  "briefTitle": "Study of CDI-31244 in Combination With Sofosbuvir (SOF) and Velpatasvir (VEL)",
+  "officialTitle": "An Open-Label Phase 2a Study Evaluating the Safety and Efficacy of Combination Treatment With 2 Weeks of the Non-Nucleoside Inhibitor CDI 31244 Plus 6 Weeks of Sofosbuvir/Velpatasvir in Subjects With Chronic Hepatitis C Genotype 1 Infection",
+  "protocolDocument": {
+    "nctId": "NCT03501550",
+    "filename": "Prot_000.pdf",
+    "label": "Study Protocol",
+    "date": "2018-05-22",
+    "uploadDate": "2021-03-31T20:40",
+    "size": 9607675,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT03501550/document/Prot_000.pdf",
+    "hasProtocol": true,
+    "hasSap": false,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE2"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 12,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2018-06-26",
+    "completionDate": "2019-06-07",
+    "primaryCompletionDate": "2019-01-08",
+    "firstSubmitDate": "2018-04-09",
+    "firstPostDate": "2018-04-18"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Key Inclusion Criteria:\n\nDocumented chronic HCV GT 1 infection; Serum HCV RNA \\>1,000 IU/mL during screening; Absence of advanced fibrosis or cirrhosis\n\nKey Exclusion Criteria:\n\nNursing or pregnant women; Active hepatitis B infection; Human immunodeficiency virus (HIV) infection; History of use of any HCV direct-acting antiviral therapy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Number of Subjects With Treatment Emergent Adverse Events",
+        "description": "The safety and the tolerability of CDI-31244 in combination with SOF/VEL through number of AEs observed in participants",
+        "timeFrame": "Day 1 to Day 72"
+      },
+      {
+        "measure": "Number of Participants With Sustained Virologic Response (SVR) 12 Weeks After Treatment",
+        "description": "SVR12 is defined as HCV RNA \\< the lower limit of quantitation (LLOQ) at 12 weeks after treatment",
+        "timeFrame": "post-treatment Week 12"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "Number of Participants With Sustained Virologic Response (SVR) 24 Weeks After Discontinuation of Therapy",
+        "description": "SVR (sustained virologic response) 24 is defined as HCV RNA \\< the lower limit of quantitation (LLOQ) at 24 weeks after treatment",
+        "timeFrame": "post-treatment Week 24"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 1,
+      "otherCount": 0,
+      "totalCount": 3
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE2"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 29,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:30:25.399Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}

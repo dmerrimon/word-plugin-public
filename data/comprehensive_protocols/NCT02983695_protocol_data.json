@@ -1,0 +1,102 @@
+{
+  "nctId": "NCT02983695",
+  "briefTitle": "Cannabinoid Therapy for Pediatric Epilepsy",
+  "officialTitle": "Cannabinoid Therapy in Medically Refractory Pediatric Epilepsy - Phase 1: Dosing and Tolerability Study of a Cannabidiol-Rich Whole Plant Extract of Cannabis.",
+  "protocolDocument": {
+    "nctId": "NCT02983695",
+    "filename": "Prot_SAP_000.pdf",
+    "label": "Study Protocol and Statistical Analysis Plan",
+    "date": "2018-06-25",
+    "uploadDate": "2021-08-13T10:36",
+    "size": 444351,
+    "downloadUrl": "https://clinicaltrials.gov/api/v2/studies/NCT02983695/document/Prot_SAP_000.pdf",
+    "hasProtocol": true,
+    "hasSap": true,
+    "hasIcf": false
+  },
+  "phase": [
+    "PHASE1"
+  ],
+  "studyType": "INTERVENTIONAL",
+  "allocation": "NA",
+  "interventionModel": "SINGLE_GROUP",
+  "masking": "NONE",
+  "enrollmentInfo": {
+    "enrollmentCount": 20,
+    "enrollmentType": "ACTUAL"
+  },
+  "timeline": {
+    "startDate": "2017-02-02",
+    "completionDate": "2021-07-20",
+    "primaryCompletionDate": "2018-08-24",
+    "firstSubmitDate": "2016-11-17",
+    "firstPostDate": "2016-12-06"
+  },
+  "eligibilityCriteria": {
+    "criteria": "Inclusion Criteria:\n\n* Drug resistant epilepsy due to Dravet syndrome\n* Must have clinically apparent seizures\n* Must be able to tolerate administration of medication orally or enterally via gastrostomy tube\n* Was never on Cannabinoid therapy or have not been treated with Cannabinoid products for at least last 60 days (confirmed by negative urine test for Tetrahydrocannabidiol (THC), only for those who had been treated with CBD).\n\nExclusion Criteria:\n\n* Co-morbid liver or renal disease\n* Without clinically-apparent seizures\n* Currently taking any Cannabinoid products.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "1 Year",
+    "maximumAge": "18 Years",
+    "stdAges": [
+      "CHILD",
+      "ADULT"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      {
+        "measure": "Establishment of tolerability of TIL-TC150 by measuring the number of participants with adverse events and / or abnormal laboratory values that are related to treatment",
+        "description": "During this study, the dose of TIL-TC150 will be titrated according to study protocol and participant tolerance. Tolerance will be assessed as documented in title, by evaluating for adverse events clinically and by parent report of adverse event every week during the first 20 weeks of the study, also by blood work at weeks 0, 4, and between 8-16 weeks.\n\nFor those choose to continue the study drug after 20 week period of assessment, tolerance will be evaluated by assessing for adverse events at weeks 28, 40,52 and 64.",
+        "timeFrame": "20-64 weeks"
+      },
+      {
+        "measure": "Establishment of tolerability of TIL-TC150 by standardised side effects questionnaire -pediatric epilepsy side effects questionnaire (PESQ)",
+        "description": "During this study, tolerance will also be assessed by the standardised side effects questionnaire- PESQ in clinic at weeks 2,4,8,12 and 16. For those choosing to continue therapy will be reassessed by PESQ in clinic at week 28,40,52 and 64.",
+        "timeFrame": "16-64 weeks"
+      }
+    ],
+    "secondary": [
+      {
+        "measure": "The impact of therapy on quality of life using the Quality of Life in Childhood Epilepsy (QOLCE) questionnaire",
+        "description": "The QOLCE will be completed by parents at clinic at first visit or baseline(week 0), at maximal dose (8 weeks) and at 16 weeks for primary analysis. For those choosing to continue therapy will be reassessed at 28 weeks and 52 weeks. Parents will be provided with a research report detailing the assessment findings at study completion.",
+        "timeFrame": "16-52 weeks"
+      },
+      {
+        "measure": "The impact of therapy on everyday behaviours using the Vineland Adaptive Behavior Scales, Second Edition.",
+        "description": "Vineland Adaptive Behaviour Scale, Second Edition: is a standardized parent interview to complete either in person at the clinic or by telephone on week 0, prior to starting the TIL-TC150. The interview will also be completed again at the primary evaluation period anytime between weeks 16 and 20 and again for those choosing to continue the therapy will be reassessed during the longitudinal follow-up anytime between 52 and 64 weeks. This will be done by study team. Parents will be provided with a research report detailing the assessment findings at study completion.",
+        "timeFrame": "20-64 weeks"
+      },
+      {
+        "measure": "change in seizure frequency from baseline",
+        "timeFrame": "20 weeks"
+      }
+    ],
+    "other": []
+  },
+  "complexityMetrics": {
+    "eligibilityCriteria": {
+      "inclusionCount": 1,
+      "exclusionCount": 1,
+      "totalCount": 2
+    },
+    "endpoints": {
+      "primaryCount": 2,
+      "secondaryCount": 3,
+      "otherCount": 0,
+      "totalCount": 5
+    },
+    "studyDesign": {
+      "phases": [
+        "PHASE1"
+      ],
+      "isRandomized": false,
+      "isMasked": false,
+      "interventionModel": "SINGLE_GROUP"
+    },
+    "overallComplexityScore": 39,
+    "complexityCategory": "Moderate"
+  },
+  "collectionDate": "2025-09-22T02:29:50.440Z",
+  "dataSource": "ClinicalTrials.gov API v2 - Comprehensive Collection"
+}
