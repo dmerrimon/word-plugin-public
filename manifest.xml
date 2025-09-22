@@ -15,7 +15,7 @@
   <ProviderName>Ilana</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
-  <DisplayName DefaultValue="Protocol Assistant" />
+  <DisplayName DefaultValue="Protocol Intelligence" />
   <Description DefaultValue="Detects protocol amendment risks in real-time while you write"/>
   
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
@@ -125,14 +125,14 @@
       </bt:Urls>
       <!-- ShortStrings max characters==125. -->
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with Protocol Assistant" />
+        <bt:String id="GetStarted.Title" DefaultValue="Get started with Protocol Intelligence" />
         <bt:String id="CommandsGroup.Label" DefaultValue="Protocol Analysis" />
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Show Protocol Assistant" />
+        <bt:String id="TaskpaneButton.Label" DefaultValue="Show Protocol Intelligence" />
       </bt:ShortStrings>
       <!-- LongStrings max characters==250. -->
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Your protocol assistant is loaded successfully. Go to the HOME tab and click the 'Show Protocol Assistant' button to get started." />
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to show the Protocol Assistant sidebar" />
+        <bt:String id="GetStarted.Description" DefaultValue="Your protocol intelligence is loaded successfully. Go to the HOME tab and click the 'Show Protocol Intelligence' button to get started." />
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to show the Protocol Intelligence sidebar" />
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>

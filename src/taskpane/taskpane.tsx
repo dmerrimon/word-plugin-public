@@ -4,7 +4,7 @@ import { App } from "./components/App";
 
 /* global document, Office, module, require */
 
-const title = "Protocol Assistant";
+const title = "Protocol Intelligence";
 
 const rootElement = document.getElementById("container");
 const root = createRoot(rootElement!);
