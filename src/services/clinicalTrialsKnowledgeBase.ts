@@ -64,8 +64,11 @@ export class ClinicalTrialsKnowledgeBase {
   private enrollmentInsights: EnrollmentInsight[] = [];
   
   constructor(trials?: ClinicalTrialRecord[]) {
-    if (trials) {
+    console.log(`📚 ClinicalTrialsKnowledgeBase constructor called with ${trials ? trials.length : 0} trials`);
+    if (trials && trials.length > 0) {
       this.loadTrials(trials);
+    } else {
+      console.log('⚠️ No trials provided to knowledge base constructor');
     }
   }
   

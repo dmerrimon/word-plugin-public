@@ -15,7 +15,7 @@
   <ProviderName>Ilana</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
-  <DisplayName DefaultValue="Ilana Protocol Assistant" />
+  <DisplayName DefaultValue="Protocol Assistant" />
   <Description DefaultValue="Detects protocol amendment risks in real-time while you write"/>
   
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
@@ -125,7 +125,7 @@
       </bt:Urls>
       <!-- ShortStrings max characters==125. -->
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with Ilana Protocol Assistant" />
+        <bt:String id="GetStarted.Title" DefaultValue="Get started with Protocol Assistant" />
         <bt:String id="CommandsGroup.Label" DefaultValue="Protocol Analysis" />
         <bt:String id="TaskpaneButton.Label" DefaultValue="Show Protocol Assistant" />
       </bt:ShortStrings>
