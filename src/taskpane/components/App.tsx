@@ -1,6 +1,5 @@
 import * as React from "react";
 import { useState, useEffect } from "react";
-import { Header } from "./Header";
 import { ProtocolAnalyzer } from "./ProtocolAnalyzer";
 import { RiskSidebar } from "./RiskSidebar";
 import { ProtocolIntelligence } from "./ProtocolIntelligence";
@@ -552,7 +551,6 @@ https://ilana-addin.netlify.app
       backgroundColor: "#ffffff",
       color: "#000000"
     }}>
-      <Header title={title} />
       
       <ProtocolIntelligence
         protocolText={documentText || selectedText}

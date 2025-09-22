@@ -8,7 +8,6 @@ import { IntelligentRecommendationsEngine, IntelligentRecommendationSummary } fr
 import { EnhancedProtocolIntelligence, EnhancedProtocolAnalysis } from "../../services/enhancedProtocolIntelligence";
 import { SmartTextEditor } from "../../components/SmartTextEditor";
 import { TherapeuticAreaSelector, TherapeuticAreaSelection } from "../../components/TherapeuticAreaSelector";
-import { CTGovDataManager } from "../../components/CTGovDataManager";
 
 export interface ProtocolIntelligenceProps {
   protocolText: string;
@@ -41,7 +40,7 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
 
   const [enhancedAnalysis, setEnhancedAnalysis] = React.useState<EnhancedProtocolAnalysis | null>(null);
   const [enhancedIntelligence] = React.useState(() => new EnhancedProtocolIntelligence());
-  const [showEnhancedMode, setShowEnhancedMode] = React.useState(false);
+  const [showEnhancedMode, setShowEnhancedMode] = React.useState(true);
 
   const [activeTab, setActiveTab] = React.useState<'overview' | 'complexity' | 'enrollment' | 'burden' | 'benchmark' | 'recommendations' | 'editor'>('overview');
   const [editorText, setEditorText] = React.useState<string>('');
@@ -1293,44 +1292,12 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
       fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif",
       backgroundColor: "#ffffff"
     }}>
-      {/* Enhanced Data Manager */}
-      <CTGovDataManager 
-        onInitializationComplete={() => {
-          console.log('✅ CT.gov data initialization complete - enhanced mode available');
-          setShowEnhancedMode(true);
-        }}
-      />
 
-      {/* Enhanced Mode Toggle */}
-      {enhancedIntelligence.isInitialized() && (
-        <div style={{
-          padding: '12px 16px',
-          backgroundColor: '#f0f9ff',
-          border: '1px solid #bae6fd',
-          borderRadius: '6px',
-          margin: '0 16px 16px 16px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between'
-        }}>
-          <div style={{ fontSize: '12px', color: '#0c4a6e' }}>
-            🚀 Enhanced mode available with {enhancedIntelligence.getKnowledgeBaseStats()?.totalTrials?.toLocaleString()} trials
-          </div>
-          <label style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '12px', cursor: 'pointer' }}>
-            <input
-              type="checkbox"
-              checked={showEnhancedMode}
-              onChange={(e) => setShowEnhancedMode(e.target.checked)}
-            />
-            Enhanced Analysis
-          </label>
-        </div>
-      )}
 
       {/* Tab Navigation */}
       <div style={{
         display: "flex",
-        borderBottom: "1px solid #e5e5e5",
+        flexDirection: "column",
         backgroundColor: "#ffffff"
       }}>
         {[
@@ -1346,15 +1313,17 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
             key={tab.key}
             onClick={() => setActiveTab(tab.key as any)}
             style={{
-              flex: 1,
-              padding: "12px 8px",
+              width: "100%",
+              padding: "12px 16px",
               fontSize: "12px",
               fontWeight: activeTab === tab.key ? "600" : "400",
               border: "none",
               backgroundColor: activeTab === tab.key ? "#000000" : "#ffffff",
               color: activeTab === tab.key ? "#ffffff" : "#666666",
               cursor: "pointer",
-              borderBottom: activeTab === tab.key ? "2px solid #000000" : "none",
+              borderLeft: activeTab === tab.key ? "3px solid #000000" : "3px solid transparent",
+              borderBottom: "1px solid #e5e5e5",
+              textAlign: "left",
               transition: "all 0.2s ease"
             }}
           >
