@@ -6,6 +6,7 @@ import { BenchmarkingService, ProtocolBenchmark } from "../../services/benchmark
 import { GranularBenchmarkingService } from "../../services/granularBenchmarkingService";
 import { IntelligentRecommendationsEngine, IntelligentRecommendationSummary } from "../../services/intelligentRecommendationsEngine";
 import { EnhancedProtocolIntelligence, EnhancedProtocolAnalysis } from "../../services/enhancedProtocolIntelligence";
+import { licenseManager, LicenseValidationResponse } from "../../services/enterpriseLicenseManager";
 import { SmartTextEditor } from "../../components/SmartTextEditor";
 import { TherapeuticAreaSelector, TherapeuticAreaSelection } from "../../components/TherapeuticAreaSelector";
 
@@ -39,11 +40,42 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
   });
 
   const [enhancedAnalysis, setEnhancedAnalysis] = React.useState<EnhancedProtocolAnalysis | null>(null);
-  const [enhancedIntelligence] = React.useState(() => new EnhancedProtocolIntelligence());
+  const [enhancedIntelligence, setEnhancedIntelligence] = React.useState<EnhancedProtocolIntelligence | null>(null);
   const [showEnhancedMode, setShowEnhancedMode] = React.useState(true);
+  const [licenseStatus, setLicenseStatus] = React.useState<LicenseValidationResponse | null>(null);
+  const [isInitializing, setIsInitializing] = React.useState(true);
 
   const [activeTab, setActiveTab] = React.useState<'overview' | 'complexity' | 'enrollment' | 'burden' | 'benchmark' | 'recommendations' | 'editor'>('overview');
   const [editorText, setEditorText] = React.useState<string>('');
+  const [isMenuOpen, setIsMenuOpen] = React.useState<boolean>(false);
+
+  // Utility functions - moved to top to avoid hoisting issues
+  const detectStudyPhase = (text: string): string => {
+    if (/phase\s*i\b/i.test(text) && !/phase\s*ii/i.test(text)) return 'Phase 1';
+    if (/phase\s*ii\b/i.test(text) && !/phase\s*iii/i.test(text)) return 'Phase 2';
+    if (/phase\s*iii\b/i.test(text)) return 'Phase 3';
+    if (/phase\s*iv\b/i.test(text)) return 'Phase 4';
+    return 'Phase 2'; // Default assumption
+  };
+
+  const detectTherapeuticArea = (text: string): string => {
+    const areas = {
+      'oncology': /cancer|tumor|oncology|chemotherapy|radiation|metastatic|carcinoma|lymphoma|leukemia/i,
+      'cardiology': /heart|cardiac|cardiovascular|myocardial|coronary|arrhythmia|heart failure/i,
+      'neurology': /neurological|alzheimer|parkinson|stroke|epilepsy|migraine|multiple sclerosis/i,
+      'infectious_disease': /infection|antimicrobial|antibiotic|bacterial|viral|sepsis|pneumonia/i,
+      'endocrinology': /diabetes|thyroid|hormone|endocrine|insulin|metabolism/i,
+      'psychiatry': /depression|anxiety|psychiatric|mental health|bipolar|schizophrenia/i
+    };
+    
+    for (const [area, pattern] of Object.entries(areas)) {
+      if (pattern.test(text)) {
+        return area;
+      }
+    }
+    
+    return 'other';
+  };
   const [therapeuticAreaSelection, setTherapeuticAreaSelection] = React.useState<TherapeuticAreaSelection>({
     primaryArea: '',
     indication: '',
@@ -51,11 +83,62 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
     targetPopulation: ''
   });
 
+  // Initialize license manager and enhanced intelligence
   React.useEffect(() => {
-    if (protocolText && protocolText.length > 100) {
+    const initializeLicense = async () => {
+      setIsInitializing(true);
+      
+      try {
+        console.log('🔐 Initializing license manager...');
+        const initialized = await licenseManager.initialize();
+        
+        if (initialized) {
+          console.log('✅ License manager initialized successfully');
+          
+          // Validate license for general access
+          const validation = await licenseManager.validateLicense();
+          setLicenseStatus(validation);
+          
+          if (validation.allowed) {
+            console.log('✅ Protocol Intelligence access granted');
+            console.log('👤 User:', validation.user?.name, validation.user?.email);
+            console.log('🏢 Organization:', validation.organization?.name, validation.organization?.subscription_type);
+            
+            // Initialize enhanced intelligence
+            const intelligence = await licenseManager.initializeProtocolIntelligence();
+            setEnhancedIntelligence(intelligence);
+          } else {
+            console.warn('❌ Protocol Intelligence access denied:', validation.error);
+            setEnhancedIntelligence(null);
+          }
+        } else {
+          console.warn('❌ License manager initialization failed');
+          setLicenseStatus({
+            allowed: false,
+            error: 'Unable to initialize license system',
+            error_code: 'INIT_FAILED'
+          });
+        }
+      } catch (error) {
+        console.error('💥 License initialization error:', error);
+        setLicenseStatus({
+          allowed: false,
+          error: 'License system error',
+          error_code: 'SYSTEM_ERROR'
+        });
+      } finally {
+        setIsInitializing(false);
+      }
+    };
+
+    initializeLicense();
+  }, []);
+
+  React.useEffect(() => {
+    if (protocolText && protocolText.length > 100 && enhancedIntelligence && licenseStatus?.allowed) {
       analyzeProtocol(protocolText).catch(console.error);
     }
-  }, [protocolText, therapeuticAreaSelection]);
+  }, [protocolText, therapeuticAreaSelection, enhancedIntelligence, licenseStatus]);
 
   // Re-analyze when therapeutic area selection changes
   React.useEffect(() => {
@@ -74,7 +157,24 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
 
   const analyzeProtocol = async (text: string) => {
     try {
+      // Check license before analysis
+      const canAnalyze = await licenseManager.canAnalyzeProtocol();
+      if (!canAnalyze.allowed) {
+        console.warn('❌ Protocol analysis not allowed:', canAnalyze.reason);
+        if (canAnalyze.reason?.includes('limit')) {
+          licenseManager.handleUpgradeRequired('USAGE_LIMIT_EXCEEDED');
+        }
+        return;
+      }
+
       console.log('🧠 Starting INTELLIGENT protocol analysis with real ML models...');
+      console.log(`📊 Protocols remaining this month: ${canAnalyze.remaining}`);
+      
+      // Track usage
+      await licenseManager.trackUsage('protocol_analysis', {
+        text_length: text.length,
+        therapeutic_area: therapeuticAreaSelection.primaryArea
+      });
       
       // Intelligent Complexity Analysis using learned patterns from 2,439 protocols
       const complexityScore = IntelligentComplexityAnalyzer.analyzeProtocolIntelligently(text);
@@ -140,50 +240,28 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
       
       console.log('🎯 INTELLIGENT analysis complete - using real ML patterns from 2,439 protocols');
 
-      // Enhanced Analysis with comprehensive trial database (if available)
-      if (enhancedIntelligence.isInitialized()) {
-        console.log('🏥 Running enhanced analysis with comprehensive trial database...');
-        try {
-          const enhancedResult = await enhancedIntelligence.analyzeProtocolComprehensively(
-            text,
-            therapeuticAreaSelection
-          );
-          setEnhancedAnalysis(enhancedResult);
-          console.log('✅ Enhanced analysis complete with real-world insights');
-        } catch (error) {
-          console.error('❌ Enhanced analysis failed:', error);
-        }
+      // Enhanced Analysis with trained ML model
+      if (enhancedIntelligence) {
+        // Check database query license
+        const canQuery = await licenseManager.canQueryDatabase();
+        if (canQuery.allowed) {
+          console.log('🧠 Running TRAINED MODEL analysis...');
+          console.log(`🔍 Database queries remaining: ${canQuery.remaining}`);
+          
+          try {
+            const enhancedResult = await enhancedIntelligence.analyzeProtocol(
+              text,
+              therapeuticAreaSelection
+            );
+            setEnhancedAnalysis(enhancedResult);
+            console.log('✅ TRAINED MODEL analysis complete with ML-powered insights');
+          } catch (error) {
+            console.error('❌ Enhanced analysis failed:', error);
+          }
       }
     } catch (error) {
       console.error('Error in intelligent protocol analysis:', error);
     }
-  };
-
-  const detectStudyPhase = (text: string): string => {
-    if (/phase\s*i\b/i.test(text) && !/phase\s*ii/i.test(text)) return 'Phase 1';
-    if (/phase\s*ii\b/i.test(text) && !/phase\s*iii/i.test(text)) return 'Phase 2';
-    if (/phase\s*iii\b/i.test(text)) return 'Phase 3';
-    if (/phase\s*iv\b/i.test(text)) return 'Phase 4';
-    return 'Phase 2'; // Default assumption
-  };
-
-  const detectTherapeuticArea = (text: string): string => {
-    const areas = {
-      'oncology': /cancer|tumor|oncology|chemotherapy|radiation|metastatic|carcinoma|lymphoma|leukemia/i,
-      'cardiology': /heart|cardiac|cardiovascular|myocardial|coronary|arrhythmia|heart failure/i,
-      'neurology': /neurological|alzheimer|parkinson|stroke|epilepsy|migraine|multiple sclerosis/i,
-      'infectious_disease': /infection|antimicrobial|antibiotic|bacterial|viral|sepsis|pneumonia/i,
-      'endocrinology': /diabetes|thyroid|hormone|endocrine|insulin|metabolism/i,
-      'psychiatry': /depression|anxiety|psychiatric|mental health|bipolar|schizophrenia/i
-    };
-    
-    for (const [area, pattern] of Object.entries(areas)) {
-      if (pattern.test(text)) {
-        return area;
-      }
-    }
-    
-    return 'other';
   };
 
   const calculateOverallScore = (): number => {
@@ -532,9 +610,9 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
                 🔍 Competitive Landscape
               </div>
               <div style={{ fontSize: "10px", color: "#6b7280" }}>
-                Market Saturation: <span style={{ fontWeight: "600" }}>{enhancedAnalysis.competitiveAnalysis.marketSaturation}</span>
-                {enhancedAnalysis.competitiveAnalysis.competingTrials.length > 0 && (
-                  <span> • {enhancedAnalysis.competitiveAnalysis.competingTrials.length} Active Competing Trials</span>
+                Active Studies: <span style={{ fontWeight: "600" }}>{enhancedAnalysis.competitiveAnalysis.marketLandscape.totalActiveStudies}</span>
+                {enhancedAnalysis.competitiveAnalysis.competingStudies.length > 0 && (
+                  <span> • {enhancedAnalysis.competitiveAnalysis.competingStudies.length} Direct Competitors</span>
                 )}
               </div>
             </div>
@@ -552,7 +630,7 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
                 </div>
                 {enhancedAnalysis.optimizationOpportunities.slice(0, 2).map((opp, index) => (
                   <div key={index} style={{ fontSize: "10px", color: "#6b7280", marginBottom: "4px" }}>
-                    • {opp.opportunity} ({opp.potentialImpact.enrollmentImprovement}% improvement)
+                    • {opp.opportunity} ({opp.potentialImpact})
                   </div>
                 ))}
               </div>
@@ -1293,44 +1371,162 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
       backgroundColor: "#ffffff"
     }}>
 
-
-      {/* Tab Navigation */}
+      {/* Header with Hamburger Menu */}
       <div style={{
         display: "flex",
-        flexDirection: "column",
-        backgroundColor: "#ffffff"
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "12px 16px",
+        borderBottom: "1px solid #e5e7eb",
+        backgroundColor: "#ffffff",
+        position: "relative"
       }}>
-        {[
-          { key: 'overview', label: 'Overview' },
-          { key: 'complexity', label: 'Complexity' },
-          { key: 'enrollment', label: 'Enrollment' },
-          { key: 'burden', label: 'Burden' },
-          { key: 'benchmark', label: 'Benchmark' },
-          { key: 'recommendations', label: 'Recommendations' },
-          { key: 'editor', label: 'Editor' }
-        ].map(tab => (
+        <div style={{ fontSize: "14px", fontWeight: "600", color: "#1f2937" }}>
+          Protocol Intelligence
+        </div>
+        
+        <div style={{ position: "relative" }}>
           <button
-            key={tab.key}
-            onClick={() => setActiveTab(tab.key as any)}
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
             style={{
-              width: "100%",
-              padding: "12px 16px",
-              fontSize: "12px",
-              fontWeight: activeTab === tab.key ? "600" : "400",
-              border: "none",
-              backgroundColor: activeTab === tab.key ? "#000000" : "#ffffff",
-              color: activeTab === tab.key ? "#ffffff" : "#666666",
+              background: "none",
+              border: "1px solid #d1d5db",
+              borderRadius: "4px",
+              padding: "6px 8px",
               cursor: "pointer",
-              borderLeft: activeTab === tab.key ? "3px solid #000000" : "3px solid transparent",
-              borderBottom: "1px solid #e5e5e5",
-              textAlign: "left",
-              transition: "all 0.2s ease"
+              fontSize: "12px",
+              display: "flex",
+              alignItems: "center",
+              gap: "4px",
+              color: "#374151"
             }}
           >
-            {tab.label}
+            ☰ Menu
           </button>
-        ))}
+          
+          {isMenuOpen && (
+            <div style={{
+              position: "absolute",
+              top: "100%",
+              right: "0",
+              backgroundColor: "#ffffff",
+              border: "1px solid #d1d5db",
+              borderRadius: "4px",
+              boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+              zIndex: 1000,
+              minWidth: "140px",
+              marginTop: "2px"
+            }}>
+              {[
+                { key: 'overview', label: 'Overview' },
+                { key: 'complexity', label: 'Complexity' },
+                { key: 'enrollment', label: 'Enrollment' },
+                { key: 'burden', label: 'Burden' },
+                { key: 'benchmark', label: 'Benchmark' },
+                { key: 'recommendations', label: 'Recommendations' },
+                { key: 'editor', label: 'Editor' }
+              ].map(tab => (
+                <button
+                  key={tab.key}
+                  onClick={() => {
+                    setActiveTab(tab.key as any);
+                    setIsMenuOpen(false);
+                  }}
+                  style={{
+                    width: "100%",
+                    padding: "8px 12px",
+                    fontSize: "12px",
+                    border: "none",
+                    backgroundColor: activeTab === tab.key ? "#f3f4f6" : "#ffffff",
+                    color: activeTab === tab.key ? "#000000" : "#374151",
+                    cursor: "pointer",
+                    textAlign: "left",
+                    borderBottom: "1px solid #f3f4f6"
+                  }}
+                  onMouseOver={(e) => {
+                    if (activeTab !== tab.key) {
+                      e.currentTarget.style.backgroundColor = "#f9fafb";
+                    }
+                  }}
+                  onMouseOut={(e) => {
+                    if (activeTab !== tab.key) {
+                      e.currentTarget.style.backgroundColor = "#ffffff";
+                    }
+                  }}
+                >
+                  {tab.label}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
+
+      {/* License Status Banner */}
+      {isInitializing && (
+        <div style={{
+          padding: "8px 12px",
+          backgroundColor: "#f3f4f6",
+          borderBottom: "1px solid #e5e7eb",
+          fontSize: "11px",
+          color: "#6b7280",
+          display: "flex",
+          alignItems: "center",
+          gap: "6px"
+        }}>
+          🔄 Initializing Protocol Intelligence...
+        </div>
+      )}
+
+      {licenseStatus && !licenseStatus.allowed && !isInitializing && (
+        <div style={{
+          padding: "8px 12px",
+          backgroundColor: "#fef2f2",
+          borderBottom: "1px solid #fecaca",
+          fontSize: "11px",
+          color: "#dc2626",
+          display: "flex",
+          alignItems: "center",
+          gap: "6px"
+        }}>
+          ❌ {licenseStatus.error}
+          {licenseStatus.action_required === 'contact_admin' && " Contact your administrator."}
+          {licenseStatus.action_required === 'upgrade_plan' && " Upgrade required."}
+        </div>
+      )}
+
+      {licenseStatus?.allowed && !isInitializing && (
+        <div style={{
+          padding: "6px 12px",
+          backgroundColor: "#f0f9ff",
+          borderBottom: "1px solid #bae6fd",
+          fontSize: "10px",
+          color: "#0c4a6e",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center"
+        }}>
+          <span>✅ {licenseStatus.organization?.name} - {licenseStatus.organization?.subscription_type}</span>
+          <span>{licenseStatus.user?.name}</span>
+        </div>
+      )}
+
+      {/* Usage Stats */}
+      {licenseStatus?.allowed && licenseStatus.limits && (
+        <div style={{
+          padding: "4px 12px",
+          backgroundColor: "#fafafa",
+          borderBottom: "1px solid #e5e7eb",
+          fontSize: "10px",
+          color: "#6b7280",
+          display: "flex",
+          justifyContent: "space-between"
+        }}>
+          <span>📊 Protocols: {licenseStatus.limits.protocols_remaining === -1 ? 'Unlimited' : licenseStatus.limits.protocols_remaining}</span>
+          <span>🔍 Queries: {licenseStatus.limits.queries_remaining === -1 ? 'Unlimited' : licenseStatus.limits.queries_remaining}</span>
+        </div>
+      )}
+
 
       {/* Tab Content */}
       <div style={{ 
