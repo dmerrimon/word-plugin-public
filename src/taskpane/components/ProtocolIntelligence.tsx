@@ -167,7 +167,7 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
         return;
       }
 
-      console.log('🧠 Starting INTELLIGENT protocol analysis with real ML models...');
+      console.log('🧠 Starting INTELLIGENT protocol analysis with trained ML models...');
       console.log(`📊 Protocols remaining this month: ${canAnalyze.remaining}`);
       
       // Track usage
