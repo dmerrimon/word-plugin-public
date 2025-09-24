@@ -258,6 +258,7 @@ export const ProtocolIntelligence: React.FC<ProtocolIntelligenceProps> = ({
           } catch (error) {
             console.error('❌ Enhanced analysis failed:', error);
           }
+        }
       }
     } catch (error) {
       console.error('Error in intelligent protocol analysis:', error);
