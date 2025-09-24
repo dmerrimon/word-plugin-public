@@ -184,14 +184,7 @@ export const CTGovDataManager: React.FC<CTGovDataManagerProps> = ({
         
         {stats && (
           <div style={{ fontSize: '12px', color: '#6b7280' }}>
-            Knowledge Base: {stats.totalTrials?.toLocaleString()} trials loaded
-            {stats.trialsByPhase && (
-              <span> • Phase Distribution: {Object.entries(stats.trialsByPhase)
-                .map(([phase, count]) => `${phase}: ${count}`)
-                .slice(0, 3)
-                .join(', ')}
-              </span>
-            )}
+            Knowledge Base: {stats.totalTrials?.toLocaleString()} trials loaded • Source: {stats.dataSource}
           </div>
         )}
         
@@ -320,7 +313,7 @@ export const CTGovDataManager: React.FC<CTGovDataManagerProps> = ({
             <button
               onClick={() => {
                 const stats = intelligence.current.getKnowledgeBaseStats();
-                alert(`Knowledge Base Status:\n\nTotal Trials: ${stats?.totalTrials?.toLocaleString()}\nPhases: ${Object.keys(stats?.trialsByPhase || {}).join(', ')}\nTherapeutic Areas: ${Object.keys(stats?.trialsByTherapeuticArea || {}).join(', ')}`);
+                alert(`Knowledge Base Status:\n\nTotal Trials: ${stats?.totalTrials?.toLocaleString()}\nData Source: ${stats?.dataSource}\nStatus: ${stats?.status}`);
               }}
               style={{
                 padding: '8px 16px',
