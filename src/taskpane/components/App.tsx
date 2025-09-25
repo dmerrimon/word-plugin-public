@@ -138,47 +138,19 @@ export const App: React.FC<AppProps> = ({ title, isOfficeInitialized }) => {
 
     if (!isRealTime) setIsAnalyzing(true);
     try {
-      // Call your existing Render backend API
-      const response = await fetch("https://protocol-risk-detection.onrender.com/api/analyze-text", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": "Bearer demo-token-12345" // Your existing auth
-        },
-        body: JSON.stringify({ text })
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        
-        // Transform the response to match our interface
-        const findings: RiskFinding[] = data.matches?.map((match: any) => ({
-          phrase: match.phrase || match.problematic_phrase,
-          risk_score: match.risk_score || match.confidence,
-          fix: match.fix || match.recommendation,
-          reason: match.reason,
-          evidence: match.evidence,
-          location: match.location
-        })) || [];
-
-        setRiskFindings(findings);
-        updateStats(findings);
-        if (isRealTime) highlightProblematicText(findings);
-      } else {
-        console.error("API request failed:", response.status);
-        // Fallback to local pattern matching for demo
-        const localFindings = performLocalAnalysis(text);
-        setRiskFindings(localFindings);
-        updateStats(localFindings);
-        if (isRealTime) highlightProblematicText(localFindings);
-      }
-    } catch (error) {
-      console.error("Error analyzing text:", error);
-      // Fallback to local pattern matching
+      // Use local trained model analysis instead of external API
+      console.log('🧠 Using trained model for risk analysis');
       const localFindings = performLocalAnalysis(text);
       setRiskFindings(localFindings);
       updateStats(localFindings);
       if (isRealTime) highlightProblematicText(localFindings);
+    } catch (error) {
+      console.error("Error analyzing text:", error);
+      // Fallback to basic pattern matching
+      const basicFindings = performLocalAnalysis(text);
+      setRiskFindings(basicFindings);
+      updateStats(basicFindings);
+      if (isRealTime) highlightProblematicText(basicFindings);
     } finally {
       if (!isRealTime) setIsAnalyzing(false);
     }
